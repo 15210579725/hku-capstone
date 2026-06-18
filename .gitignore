@@ -1,0 +1,83 @@
+# ============================================================
+# HKU Capstone — .gitignore
+# 原则:上传完整代码,排除虚拟环境、模型权重/向量等大文件、缓存与归档。
+# 被排除的权重/向量请按各子目录 README 重新下载或生成。
+# ============================================================
+
+# ---- 范围外目录(不上传)----
+old_file/
+_server_edit/
+.playwright-mcp/
+
+# ---- 虚拟环境 ----
+.venv/
+.venv_fe/
+venv/
+env/bin/
+ENV/
+.conda/
+
+# ---- Python 缓存 ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+.pytest_cache/
+.ipynb_checkpoints/
+build/
+dist/
+
+# ---- 模型权重 / 向量 / 张量(大文件,需另行下载/生成)----
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+*.gguf
+*.onnx
+*.npz
+*.npy
+*.h5
+*.pkl
+*.pickle
+# HuggingFace 本地模型缓存
+models--*/
+*.arrow
+
+# ---- 压缩包 / 归档 ----
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+
+# ---- 项目特定:海量仿真数据 / 大型中间产物(非代码,需另行生成)----
+# 生成式智能体仿真回放(每步一个 JSON,约 1GB);保留 base_ 启动模板
+simulation-env/Generative Agents/official_repo/environment/frontend_server/storage/*
+!simulation-env/Generative Agents/official_repo/environment/frontend_server/storage/base_the_ville_isabella_maria_klaus/
+!simulation-env/Generative Agents/official_repo/environment/frontend_server/storage/base_the_ville_n25/
+simulation-env/Generative Agents/official_repo/environment/frontend_server/compressed_storage/
+# EmotionCircuits 神经元贡献度大表(每个 ~26MB)
+**/04_local_components_identification/mlp_neurons/contrib_mean_*.csv
+
+# ---- 操作系统 / 编辑器 ----
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# ---- 日志 / 临时 ----
+*.log
+*.tmp
+tmp/
+.cache/
+
+# ---- 密钥 / 本地配置(防止泄露)----
+.env
+.env.*
+!.env.example
+*.local
+secrets.*
+*credentials*.json

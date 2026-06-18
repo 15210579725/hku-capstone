@@ -1,0 +1,33 @@
+{
+  "emotions": [
+    "happiness",
+    "sadness",
+    "anger",
+    "fear",
+    "disgust",
+    "surprise"
+  ],
+  "best_layer": {
+    "happiness": -21,
+    "sadness": -17,
+    "anger": -18,
+    "fear": -21,
+    "disgust": -22,
+    "surprise": -19
+  },
+  "direction_signs": {
+    "happiness": 1,
+    "sadness": 1,
+    "anger": -1,
+    "fear": -1,
+    "disgust": -1,
+    "surprise": 1
+  },
+  "hidden_dim": 2048,
+  "model_id": "Qwen/Qwen2.5-3B-Instruct",
+  "norm": "unit",
+  "meta": {
+    "source": "mock",
+    "seed": 0
+  }
+}

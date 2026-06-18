@@ -1,0 +1,2536 @@
+[
+  {
+    "step_id": 1,
+    "time_start": "11:10:03",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "聚集围桌·戳手机录制·拆硬盘包装",
+    "gt_action": "我配合完成了手机戳点操作",
+    "sim_action": "我伸手拿起桌上的一个硬盘包装，低头撕掉封口胶带",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "GT戳手机，AI撕硬盘包装"
+  },
+  {
+    "step_id": 2,
+    "time_start": "11:10:17",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "聚集围桌·戳手机录制·拆硬盘包装",
+    "gt_action": "我整理好了手机",
+    "sim_action": "我接过Jake递来的USB数据线，开始绕圈整理线材",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "动作对象不同，GT整理手机，AI整理线材"
+  },
+  {
+    "step_id": 3,
+    "time_start": "11:10:59",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "聚集围桌·戳手机录制·拆硬盘包装",
+    "gt_action": "我拆开了硬盘包装盒",
+    "sim_action": "我捏着拆开的硬盘壳，把后盖掰开递到中间让大家看",
+    "label": "合理分支",
+    "score": 0.3,
+    "reason": "真实只拆包装，AI顺势拆壳展示，符合Shure建议"
+  },
+  {
+    "step_id": 4,
+    "time_start": "11:11:04",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "聚集围桌·戳手机录制·拆硬盘包装",
+    "gt_action": "我发现只有4个盒子",
+    "sim_action": "我把硬盘后盖轻轻放在桌上，抬头冲大家笑了笑：\"这就尴尬了，我还以为至少六个呢",
+    "label": "一致",
+    "score": 1.0,
+    "reason": "都在指出盒子数量少"
+  },
+  {
+    "step_id": 5,
+    "time_start": "11:11:05",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "聚集围桌·戳手机录制·拆硬盘包装",
+    "gt_action": "我说我之前拆过这个",
+    "sim_action": "我笑着摇摇头，拿起硬盘本体开始对准外壳卡扣",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "GT在说话，AI在动手"
+  },
+  {
+    "step_id": 6,
+    "time_start": "11:11:08",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "聚集围桌·戳手机录制·拆硬盘包装",
+    "gt_action": "我将盒子让给其他人拆",
+    "sim_action": "我把硬盘本体轻轻放回打开的包装盒里",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "真实动作是让给别人拆，AI是放回硬盘，意图不同"
+  },
+  {
+    "step_id": 7,
+    "time_start": "11:11:33",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "聚集围桌·戳手机录制·拆硬盘包装",
+    "gt_action": "我等待大家拆盒子",
+    "sim_action": "我抬头笑着接话：\"要不摆成电路板形状？",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "等待与主动接话相反"
+  },
+  {
+    "step_id": 8,
+    "time_start": "11:12:09",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "聚集围桌·戳手机录制·拆硬盘包装",
+    "gt_action": "我帮忙整理包装垃圾",
+    "sim_action": "我拿过一个拆空的包装盒，顺手压扁叠好",
+    "label": "一致",
+    "score": 1.0,
+    "reason": "都在处理包装垃圾"
+  },
+  {
+    "step_id": 9,
+    "time_start": "11:13:08",
+    "location": [
+      "Jake工作间",
+      "设备区"
+    ],
+    "scene": "参观Jake工作间听数据采集系统讲解",
+    "gt_action": "我参观了Jake的工作间听他讲解数据采集系统",
+    "sim_action": "我笑着接话：“那咱这硬盘得配个UPS啊哈哈。”",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "真实动作是参观听讲解，AI动作是插话开玩笑"
+  },
+  {
+    "step_id": 10,
+    "time_start": "11:14:49",
+    "location": [
+      "Jake工作间",
+      "设备区"
+    ],
+    "scene": "参观Jake工作间听数据采集系统讲解",
+    "gt_action": "我走回座位坐下",
+    "sim_action": "我顺手把压扁的包装盒插进桌边的废纸堆，然后往Jake那边凑近半步看屏幕",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "GT是坐下，AI处理废纸并看屏幕，动作完全不同"
+  },
+  {
+    "step_id": 11,
+    "time_start": "11:15:29",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "组装硬盘(Lucia当mentor指导)",
+    "gt_action": "我指导Shure完成了硬盘组装",
+    "sim_action": "我笑着拍拍Shure的肩说“不错嘛”，拿起新硬盘包装盒开始拆",
+    "label": "部分一致",
+    "score": 0.5,
+    "reason": "同一情境对象但动作由指导变为拍肩称赞拆盒"
+  },
+  {
+    "step_id": 12,
+    "time_start": "11:15:58",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "组装硬盘(Lucia当mentor指导)",
+    "gt_action": "我指导Katrina组装硬盘",
+    "sim_action": "我点点头，指指硬盘盒的四个角：\"对，就这四个位置",
+    "label": "一致",
+    "score": 1.0,
+    "reason": "都在指导组装"
+  },
+  {
+    "step_id": 13,
+    "time_start": "11:16:48",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "组装硬盘(Lucia当mentor指导)",
+    "gt_action": "我指导Alice组装硬盘",
+    "sim_action": "我冲Katrina笑笑：“对，就是那个，拧紧。”",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "动作对象是Katrina而非Alice，且Katrina不在情境中"
+  },
+  {
+    "step_id": 14,
+    "time_start": "11:17:25",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "组装硬盘(Lucia当mentor指导)",
+    "gt_action": "我回答了Katrina的组装问题",
+    "sim_action": "我凑近Alice那边看她手上的配件，笑着摆摆手：“哎呀不是充电路，是集成电路哈哈。”",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "对象错且未回答问题"
+  },
+  {
+    "step_id": 15,
+    "time_start": "11:17:41",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "组装硬盘(Lucia当mentor指导)",
+    "gt_action": "我和Jake聊了这次大家的组装体验",
+    "sim_action": "我接过Shure手里的螺丝刀，对着光看了看刀头",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "GT是聊天，AI是检查工具"
+  },
+  {
+    "step_id": 16,
+    "time_start": "11:17:53",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "组装硬盘(Lucia当mentor指导)",
+    "gt_action": "我指出螺丝刀没有磁性放螺丝时很麻烦",
+    "sim_action": "我",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "无具体动作"
+  },
+  {
+    "step_id": 17,
+    "time_start": "11:18:00",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "组装硬盘(Lucia当mentor指导)",
+    "gt_action": "我继续指导Katrina拧螺丝",
+    "sim_action": "我抬头冲Jake一笑，把碎发往耳后一掖",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "AI动作未体现指导行为"
+  },
+  {
+    "step_id": 18,
+    "time_start": "11:18:38",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "组装硬盘(Lucia当mentor指导)",
+    "gt_action": "我和大家聊音乐类型",
+    "sim_action": "我笑着摇摇头，跟着节奏轻轻敲了两下桌面，然后指指Tasha手里的螺丝刀示意她继续",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "GT是聊音乐，AI是示意继续组装"
+  },
+  {
+    "step_id": 19,
+    "time_start": "11:19:15",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "组装硬盘(Lucia当mentor指导)",
+    "gt_action": "我和大家边闲聊边等待组装完成",
+    "sim_action": "我晃着脑袋随口接：“可能就是听着省心哈哈。”",
+    "label": "一致",
+    "score": 1.0,
+    "reason": "都在闲聊等待组装"
+  },
+  {
+    "step_id": 20,
+    "time_start": "11:20:40",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "组装硬盘(Lucia当mentor指导)",
+    "gt_action": "我和Jake讨论了硬盘外壳条是否需要装回去",
+    "sim_action": "我扭头看向Katrina，冲她手里的盒子扬扬下巴",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "GT是讨论配件,AI是示意他人盒子"
+  },
+  {
+    "step_id": 21,
+    "time_start": "11:22:43",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "组装硬盘(Lucia当mentor指导)",
+    "gt_action": "我帮Katrina将设备装好盒子",
+    "sim_action": "我凑近Katrina的盒子，用手指沿接缝轻轻捋了一圈",
+    "label": "部分一致",
+    "score": 0.5,
+    "reason": "都是处理Katrina盒子，但GT协助装好，AI检查边缘"
+  },
+  {
+    "step_id": 22,
+    "time_start": "11:23:13",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "组装硬盘(Lucia当mentor指导)",
+    "gt_action": "我将盒子交给Jake",
+    "sim_action": "我笑着用胳膊肘轻轻碰碰Katrina：“怎么，你也想让叔叔教你装一个？”",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "对象和动作完全不同"
+  },
+  {
+    "step_id": 23,
+    "time_start": "11:24:49",
+    "location": [
+      "客厅",
+      "白板区"
+    ],
+    "scene": "白板讨论最后一天嘉宾邀请+轮流分享DIY方案",
+    "gt_action": "我和大家聊了e人i人的话题",
+    "sim_action": "我笑着拍拍手，视线跟上Shure在白板上的动作",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "GT聊e人i人，AI关注白板动作"
+  },
+  {
+    "step_id": 24,
+    "time_start": "11:26:14",
+    "location": [
+      "客厅",
+      "白板区"
+    ],
+    "scene": "白板讨论最后一天嘉宾邀请+轮流分享DIY方案",
+    "gt_action": "我说不确定朋友能不能过来",
+    "sim_action": "我笑一下，说明天先问问，哈哈约等于邀请我自己了",
+    "label": "一致",
+    "score": 1.0,
+    "reason": "都在表达邀请不确定、将要询问"
+  },
+  {
+    "step_id": 25,
+    "time_start": "11:26:24",
+    "location": [
+      "客厅",
+      "白板区"
+    ],
+    "scene": "白板讨论最后一天嘉宾邀请+轮流分享DIY方案",
+    "gt_action": "我和大家讨论各自的嘉宾邀请情况",
+    "sim_action": "我笑着冲Shure摆摆手：“没事，抽象派挺有味道。”",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "AI动作是评论字迹抽象而非讨论邀请情况"
+  },
+  {
+    "step_id": 26,
+    "time_start": "11:29:33",
+    "location": [
+      "客厅",
+      "白板区"
+    ],
+    "scene": "白板讨论最后一天嘉宾邀请+轮流分享DIY方案",
+    "gt_action": "我和大家讨论如何邀请更多嘉宾",
+    "sim_action": "我笑着用手指轻敲桌面，扭头看大家：“发鸡蛋这个真的可以，我们小红书文案有梗了”",
+    "label": "部分一致",
+    "score": 0.5,
+    "reason": "创意提议属于邀请方式的讨论，但非直接讨论邀请本身"
+  },
+  {
+    "step_id": 27,
+    "time_start": "11:30:01",
+    "location": [
+      "客厅",
+      "白板区"
+    ],
+    "scene": "白板讨论最后一天嘉宾邀请+轮流分享DIY方案",
+    "gt_action": "我参与Shure主持的白板讲解，听取活动时间、人员安排等基本信息",
+    "sim_action": "我笑着朝Shure点点头，顺手把白板笔递给她",
+    "label": "部分一致",
+    "score": 0.5,
+    "reason": "倾听与辅助动作，未直接获取信息"
+  },
+  {
+    "step_id": 28,
+    "time_start": "11:34:30",
+    "location": [
+      "客厅",
+      "白板区"
+    ],
+    "scene": "白板讨论最后一天嘉宾邀请+轮流分享DIY方案",
+    "gt_action": "我帮忙拆花束快递",
+    "sim_action": "我伸手帮Alice扶住花束包装一角",
+    "label": "一致",
+    "score": 1.0,
+    "reason": "都是帮忙处理花束"
+  },
+  {
+    "step_id": 29,
+    "time_start": "11:39:15",
+    "location": [
+      "客厅",
+      "白板区"
+    ],
+    "scene": "白板讨论最后一天嘉宾邀请+轮流分享DIY方案",
+    "gt_action": "我给大家分享我的环保DIY构想（水母灯和纸箱小狗）",
+    "sim_action": "我笑着环顾一圈，手里白板笔轻轻点了点板子等其他人接话",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "GT主动分享构想，AI等待他人接话"
+  },
+  {
+    "step_id": 30,
+    "time_start": "11:40:40",
+    "location": [
+      "客厅",
+      "白板区"
+    ],
+    "scene": "白板讨论最后一天嘉宾邀请+轮流分享DIY方案",
+    "gt_action": "我分享排环保短剧的想法",
+    "sim_action": "我笑着摆摆手：“哈哈先不想那么远，咱们先把水母灯材料分一分。”",
+    "label": "合理分支",
+    "score": 0.3,
+    "reason": "转向分材料，搁置短剧，与GT不同但情境合理"
+  },
+  {
+    "step_id": 31,
+    "time_start": "11:41:18",
+    "location": [
+      "客厅",
+      "白板区"
+    ],
+    "scene": "白板讨论最后一天嘉宾邀请+轮流分享DIY方案",
+    "gt_action": "我和大家笑着纠正Shure写错的名字",
+    "sim_action": "我拿起白板笔，在白板上画了个简单的材料清单，边写边说：“我们需要矿泉水瓶、LED小灯串……”",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "GT纠正名字，AI却写材料清单"
+  },
+  {
+    "step_id": 32,
+    "time_start": "11:42:38",
+    "location": [
+      "客厅",
+      "白板区"
+    ],
+    "scene": "白板讨论最后一天嘉宾邀请+轮流分享DIY方案",
+    "gt_action": "我帮忙整理花束",
+    "sim_action": "我蹲下来帮忙拆那个花瓶的快递箱",
+    "label": "部分一致",
+    "score": 0.5,
+    "reason": "都是帮忙但对象不同"
+  },
+  {
+    "step_id": 33,
+    "time_start": "11:50:41",
+    "location": [
+      "客厅",
+      "白板区"
+    ],
+    "scene": "白板讨论最后一天嘉宾邀请+轮流分享DIY方案",
+    "gt_action": "我提出用手工艺品拍卖的想法",
+    "sim_action": "我笑着点点头，拿起白板笔在“拍卖品”旁边补了个“丨水母灯”",
+    "label": "部分一致",
+    "score": 0.5,
+    "reason": "GT是提出想法，AI是补充白板例子，动作不同但同属拍卖讨论。"
+  },
+  {
+    "step_id": 34,
+    "time_start": "11:51:33",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "规划活动流程·时间线·采购方案",
+    "gt_action": "我参与讨论拍卖物品的来源",
+    "sim_action": "我笑着点点头，放下白板笔，顺手拿起桌上的日程表翻了翻",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "未参与讨论，改翻日程表"
+  },
+  {
+    "step_id": 35,
+    "time_start": "11:52:29",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "规划活动流程·时间线·采购方案",
+    "gt_action": "我参与讨论活动时长和板块划分",
+    "sim_action": "我低头在桌上的杂物堆里翻找水母灯材料，自言自语\"矿泉水瓶应该够了",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "GT是讨论时长，AI在找手工材料"
+  },
+  {
+    "step_id": 36,
+    "time_start": "11:52:50",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "规划活动流程·时间线·采购方案",
+    "gt_action": "我参与讨论活动方案",
+    "sim_action": "我拿起白板笔，在日程表上写下“拍卖环节15分钟”",
+    "label": "一致",
+    "score": 1.0,
+    "reason": "写下具体环节属于参与讨论活动方案"
+  },
+  {
+    "step_id": 37,
+    "time_start": "11:53:21",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "规划活动流程·时间线·采购方案",
+    "gt_action": "我一边操作手机一边听大家讨论时间线和烧烤采购",
+    "sim_action": "我抬头听着，在购物清单上补写“烧烤签、锡纸、炭”",
+    "label": "合理分支",
+    "score": 0.3,
+    "reason": "听讨论采购时主动记录清单"
+  },
+  {
+    "step_id": 38,
+    "time_start": "11:53:58",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "规划活动流程·时间线·采购方案",
+    "gt_action": "我反复查看手机",
+    "sim_action": "我在购物清单“炭”旁边备注“可当”",
+    "label": "部分一致",
+    "score": 0.5,
+    "reason": "都在规划采购但动作不同"
+  },
+  {
+    "step_id": 39,
+    "time_start": "11:54:09",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "规划活动流程·时间线·采购方案",
+    "gt_action": "我回答Shure关于厨艺的提问，分享切肉经验",
+    "sim_action": "我凑近清单，在“可当”旁边补画了个简易烤炉图标",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "AI画画而非回答厨艺提问"
+  },
+  {
+    "step_id": 40,
+    "time_start": "11:54:46",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "规划活动流程·时间线·采购方案",
+    "gt_action": "我参与讨论调酒冰块方案，提议买冰膜自己冻",
+    "sim_action": "我低头在清单上补写“小冰模”，边写边笑",
+    "label": "一致",
+    "score": 1.0,
+    "reason": "都在记录或提议买冰模自己冻冰"
+  },
+  {
+    "step_id": 41,
+    "time_start": "11:55:56",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "规划活动流程·时间线·采购方案",
+    "gt_action": "我参与讨论活动节目：讨论跳舞和短剧，最终提议跳抖音舞蹈",
+    "sim_action": "我抬起头看向Katrina，等她开口提想法",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "等待他人发言而非主动提议节目"
+  },
+  {
+    "step_id": 42,
+    "time_start": "11:55:59",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "规划活动流程·时间线·采购方案",
+    "gt_action": "我表达想拍短剧和跳抖音舞的想法",
+    "sim_action": "我歪头看向Katrina，笑着等她开口",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "GT主动表达想法，AI等待他人开口"
+  },
+  {
+    "step_id": 43,
+    "time_start": "11:57:47",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "规划活动流程·时间线·采购方案",
+    "gt_action": "我提出知识问答赢币的方案",
+    "sim_action": "我视线移向白板，等着看Shure写什么",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "GT主动提案,AI被动等待观看"
+  },
+  {
+    "step_id": 44,
+    "time_start": "11:58:13",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "规划活动流程·时间线·采购方案",
+    "gt_action": "我提议入场发币和摇骰子游戏，自嘲后引发大家讨论入场获币方式",
+    "sim_action": "我抬起眼笑着看向Tasha,顺手在清单角落写下“门口引诱10币”",
+    "label": "一致",
+    "score": 1.0,
+    "reason": "都在讨论入场获币方式"
+  },
+  {
+    "step_id": 45,
+    "time_start": "11:59:17",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "规划活动流程·时间线·采购方案",
+    "gt_action": "我参与讨论获币方式，提议世界地球日知识问答获币",
+    "sim_action": "我低头在清单边缘补写\"猜本地植物也可币",
+    "label": "部分一致",
+    "score": 0.5,
+    "reason": "都在提议获币方式但具体建议不同"
+  },
+  {
+    "step_id": 46,
+    "time_start": "12:00:03",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "规划活动流程·时间线·采购方案",
+    "gt_action": "我参与大家关于派对道具和音乐的讨论",
+    "sim_action": "我笑着补上一行“场外音乐组”然后圈了个星号",
+    "label": "一致",
+    "score": 1.0,
+    "reason": "都在参与音乐讨论"
+  },
+  {
+    "step_id": 47,
+    "time_start": "12:00:03",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "规划活动流程·时间线·采购方案",
+    "gt_action": "我参与讨论创意方案（观察大家状态，听讨论，提出想法，帮扶花瓶）",
+    "sim_action": "我抬头笑出声：“大东北也太适合了吧哈哈”",
+    "label": "一致",
+    "score": 1.0,
+    "reason": "AI反应是讨论中的自然互动，符合参与讨论的意图"
+  },
+  {
+    "step_id": 48,
+    "time_start": "12:01:01",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "规划活动流程·时间线·采购方案",
+    "gt_action": "我参与规划活动时间线",
+    "sim_action": "我低头在清单顶部写上“3:00 入场”，然后圈了个圈",
+    "label": "一致",
+    "score": 1.0,
+    "reason": "在规划时间线，写出具体入场时间"
+  },
+  {
+    "step_id": 49,
+    "time_start": "12:01:04",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "规划活动流程·时间线·采购方案",
+    "gt_action": "我参与闲聊（花瓶、酒、保温杯材质等话题）",
+    "sim_action": "我顺手把桌上花瓶扶稳，继续低头在清单上补写时间节点",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "GT是参与闲聊，AI却在专注补写清单"
+  },
+  {
+    "step_id": 50,
+    "time_start": "12:02:20",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "规划活动流程·时间线·采购方案",
+    "gt_action": "我参与规划活动时间线的入场环节（看Shure写英文、递黑板刷、讨论入场时间、补充\"2点半到3点\"）",
+    "sim_action": "我一边圈着入场时间，一边抬头问：“入场照片由谁抓拍？”",
+    "label": "合理分支",
+    "score": 0.3,
+    "reason": "入场环节问拍照分工，合理补充"
+  },
+  {
+    "step_id": 51,
+    "time_start": "12:02:51",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "规划活动流程·时间线·采购方案",
+    "gt_action": "我把黑板刷递给Shure",
+    "sim_action": "我低头在入场流程旁边画了个小相机图标",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "GT递物品给人，AI画图标"
+  },
+  {
+    "step_id": 52,
+    "time_start": "12:03:03",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "规划活动流程·时间线·采购方案",
+    "gt_action": "我提出入场时间建议",
+    "sim_action": "我笑着接话：“对，快门声得跟上，要不要在入口定点还是跟拍？”",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "AI在谈拍照安排，非入场时间建议"
+  },
+  {
+    "step_id": 53,
+    "time_start": "12:03:14",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "规划活动流程·时间线·采购方案",
+    "gt_action": "我参与讨论3点之后的活动环节安排",
+    "sim_action": "我侧头朝Katrina笑笑：\"没事，自我介绍一般都很快的",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "行为意图完全不同"
+  },
+  {
+    "step_id": 54,
+    "time_start": "12:03:14",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "规划活动流程·时间线·采购方案",
+    "gt_action": "我参与规划3点之前的活动安排（讨论flexible活动、数据污染问题、思考方案可行性）",
+    "sim_action": "我抬头看向Alice那边，顺手问一句她花枝剪得怎么样了，要不要先歇会儿",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "偏离核心活动规划，转向无关的剪花枝询问"
+  },
+  {
+    "step_id": 55,
+    "time_start": "12:04:50",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "规划活动流程·时间线·采购方案",
+    "gt_action": "我拿了数据线和充电宝给设备充电",
+    "sim_action": "我低头在清单上补给充电宝和数据线已分发",
+    "label": "合理分支",
+    "score": 0.3,
+    "reason": "记录分发符合规划情境"
+  },
+  {
+    "step_id": 56,
+    "time_start": "12:04:56",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "规划活动流程·时间线·采购方案",
+    "gt_action": "我参与规划产品介绍和拍卖环节（听Katrina说用货币购买产品，看Shure写白板，提出想法）",
+    "sim_action": "我把垃圾桶里的塑料袋收紧，打个结，然后放回桶里摆到桌脚边",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "动作完全无关"
+  },
+  {
+    "step_id": 57,
+    "time_start": "12:04:58",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "规划活动流程·时间线·采购方案",
+    "gt_action": "我和Katrina、Shure一起讨论拍卖环节和时间分配",
+    "sim_action": "我低头在拍卖那行旁边画了个小问号，笑着自语“还真是得拉长点”",
+    "label": "部分一致",
+    "score": 0.5,
+    "reason": "独自思量拍卖时间,未参与群组讨论"
+  },
+  {
+    "step_id": 58,
+    "time_start": "12:06:06",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "规划活动流程·时间线·采购方案",
+    "gt_action": "我参与确定拍卖环节的时长和细节（讨论拍卖对象、时长约一个半小时、参与者和我们的部分细分）",
+    "sim_action": "我低头在拍卖那行旁边速写“细分，他们的/我们的”",
+    "label": "一致",
+    "score": 1.0,
+    "reason": "速写细分内容符合讨论拍卖细节的意图"
+  },
+  {
+    "step_id": 59,
+    "time_start": "12:06:35",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "规划活动流程·时间线·采购方案",
+    "gt_action": "我向大家讲解自己对活动流程的构想",
+    "sim_action": "我低头在拍卖板块旁补写“细分自己的/他人的物件”，边写边用笔杆末端轻戳脸颊",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "真实动作是口头讲解，AI是低头写注，未讲解"
+  },
+  {
+    "step_id": 60,
+    "time_start": "12:07:16",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "规划活动流程·时间线·采购方案",
+    "gt_action": "我发表构想：以虚拟货币模拟商家模式，后续让参与者自由交换",
+    "sim_action": "我在清单上快速标注“介绍4:20结束”，然后抬头看向Jake那边",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "动作意图与GT截然不同"
+  },
+  {
+    "step_id": 61,
+    "time_start": "12:07:43",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "规划活动流程·时间线·采购方案",
+    "gt_action": "我参与讨论花瓶和插花的分配方案",
+    "sim_action": "我起身走到Jake电脑旁问他要不要把这些点子汇总进去",
+    "label": "部分一致",
+    "score": 0.5,
+    "reason": "都在规划活动,但GT在讨论花瓶分配,AI在汇总点子"
+  },
+  {
+    "step_id": 62,
+    "time_start": "12:07:57",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "规划活动流程·时间线·采购方案",
+    "gt_action": "我参与讨论调酒和场地布置安排",
+    "sim_action": "我把笔尖挪到\"介绍4:20结束\"旁边，改成\"4:15",
+    "label": "合理分支",
+    "score": 0.3,
+    "reason": "调整流程时间是活动规划的合理行为"
+  },
+  {
+    "step_id": 63,
+    "time_start": "12:08:06",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "规划活动流程·时间线·采购方案",
+    "gt_action": "我参与规划下午茶和调酒环节（讨论位置、调酒表演方式、灯光布置）",
+    "sim_action": "我停下笔，抬头对Katrina点点头呼应她爱喝酒的兴奋劲儿，然后把笔尖轻轻点在流程清单上，笑着打圆场：“也好，那咱先顺一遍室内这些环节，看看时间够不够。”",
+    "label": "部分一致",
+    "score": 0.5,
+    "reason": "同在规划流程,但GT讨论具体细节,AI提议先顺环节"
+  },
+  {
+    "step_id": 64,
+    "time_start": "12:08:57",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "规划活动流程·时间线·采购方案",
+    "gt_action": "我参与讨论下午茶和甜品安排",
+    "sim_action": "我凑近些看Tasha手机里的甜品台参考图，边笑边用笔尾轻轻敲着预算清单",
+    "label": "一致",
+    "score": 1.0,
+    "reason": "都在参与甜品安排讨论"
+  },
+  {
+    "step_id": 65,
+    "time_start": "12:08:57",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "规划活动流程·时间线·采购方案",
+    "gt_action": "我参与确定下午茶的时间安排（4:20之后）",
+    "sim_action": "我把笔尖点在清单上，抬头笑着问：“那咱就直接定4:20？”",
+    "label": "一致",
+    "score": 1.0,
+    "reason": "都在确定下午茶时间，只是细节微调"
+  },
+  {
+    "step_id": 66,
+    "time_start": "12:09:11",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "规划活动流程·时间线·采购方案",
+    "gt_action": "我参与规划甜品环节（Tasha的甜品作为压轴、讨论甜品摆台方案和费用）",
+    "sim_action": "我在预算清单上飞快写下“甜品台 800-1000”，然后笑着摆摆手示意大家淡定",
+    "label": "一致",
+    "score": 1.0,
+    "reason": "都在规划甜品环节费用和方案"
+  },
+  {
+    "step_id": 67,
+    "time_start": "12:09:58",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "规划活动流程·时间线·采购方案",
+    "gt_action": "我和大家闲聊谁是学习蝗虫",
+    "sim_action": "我拿起红笔，在刚改好的“4:15”旁边画了个小圈重点标注",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "GT在闲聊，AI在标注时间，行为完全不同"
+  },
+  {
+    "step_id": 68,
+    "time_start": "12:09:59",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "规划活动流程·时间线·采购方案",
+    "gt_action": "我和大家讨论烧烤时间",
+    "sim_action": "我笑着用笔尾点一下清单上的“甜品台”，说“压轴就靠它了”",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "讨论焦点应为烧烤时间，而非甜品台"
+  },
+  {
+    "step_id": 69,
+    "time_start": "12:10:00",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "规划活动流程·时间线·采购方案",
+    "gt_action": "我参与讨论甜品台的预算、设备和样式",
+    "sim_action": "我把手机稍微转向Shure那边，笑着招手让他过来一起看图",
+    "label": "合理分支",
+    "score": 0.3,
+    "reason": "邀请一起看图也是规划活动的协作行为"
+  },
+  {
+    "step_id": 70,
+    "time_start": "12:10:58",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "规划活动流程·时间线·采购方案",
+    "gt_action": "我参与讨论活动当天晚饭方案（烧烤vs披萨）",
+    "sim_action": "我把笔搁在清单上，起身走到Alice旁边帮她理花束的包装纸",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "行动脱离晚餐讨论去整理花束"
+  },
+  {
+    "step_id": 71,
+    "time_start": "12:10:59",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "规划活动流程·时间线·采购方案",
+    "gt_action": "我参与讨论晚饭安排（披萨和烧烤）",
+    "sim_action": "我笑着说那咱就5点半披萨节目搞起来，然后转身帮Alice把花束包装纸折进去",
+    "label": "一致",
+    "score": 1.0,
+    "reason": "都参与晚饭安排讨论，提到披萨"
+  },
+  {
+    "step_id": 72,
+    "time_start": "12:11:55",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "规划活动流程·时间线·采购方案",
+    "gt_action": "我参与讨论整个活动的时间段划分（从入场到结束）",
+    "sim_action": "我把花束扶正，往水瓶里插稳了点",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "讨论活动流程与整理花束无关"
+  },
+  {
+    "step_id": 73,
+    "time_start": "12:11:55",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "规划活动流程·时间线·采购方案",
+    "gt_action": "我参与规划活动下午到晚间的时间段分配",
+    "sim_action": "我伸手去扶住水瓶，怕Alice拿东西时碰到花束又乱了",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "AI动作与规划讨论无关"
+  },
+  {
+    "step_id": 74,
+    "time_start": "12:13:43",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "规划活动流程·时间线·采购方案",
+    "gt_action": "我参与讨论晚间节目和传数据期间的活动安排",
+    "sim_action": "我低头把水瓶往桌中间推了推，顺手把歪掉的花重新插稳",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "动作是整理桌面物品，与参与讨论无关"
+  },
+  {
+    "step_id": 75,
+    "time_start": "12:14:51",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "规划活动流程·时间线·采购方案",
+    "gt_action": "我参与安排甜品品尝、产品介绍和准备工作的时间",
+    "sim_action": "我走到Alice旁边帮她一起把摞好的包装纸压平，顺手接过去放到桌下垃圾桶边",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "GT安排时间线，AI却收拾包装纸"
+  },
+  {
+    "step_id": 76,
+    "time_start": "12:15:43",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "规划活动流程·时间线·采购方案",
+    "gt_action": "我参与闲聊起床闹钟的趣事",
+    "sim_action": "我把桌边的透明胶带团成团，丢进脚下垃圾桶",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "GT是闲聊，AI扔胶带完全无关"
+  },
+  {
+    "step_id": 77,
+    "time_start": "12:16:02",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "规划活动流程·时间线·采购方案",
+    "gt_action": "我和大家聊起闹钟的趣事",
+    "sim_action": "我划开手机翻小红书上收藏的芋圆做法",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "动作完全无关，一个是聊天，另一个是查食谱"
+  },
+  {
+    "step_id": 78,
+    "time_start": "12:16:13",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "规划活动流程·时间线·采购方案",
+    "gt_action": "我参与讨论甜品制作方案（清补凉做法和芋圆采购）",
+    "sim_action": "我划开手机，把收藏的芋圆教程递到Tasha眼前",
+    "label": "一致",
+    "score": 1.0,
+    "reason": "展示芋圆教程属于参与讨论甜品方案"
+  },
+  {
+    "step_id": 79,
+    "time_start": "12:16:25",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "规划活动流程·时间线·采购方案",
+    "gt_action": "我参与讨论清补凉和甜品的制作方案",
+    "sim_action": "我抬眼看看墙上的钟，确认现在的时间",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "讨论食材时看钟无关"
+  },
+  {
+    "step_id": 80,
+    "time_start": "12:17:44",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "规划活动流程·时间线·采购方案",
+    "gt_action": "我参与确认甜品品尝时间、传数据和晚饭的衔接",
+    "sim_action": "我抬眼看走回来的Alice，用眼神确认她需不需要帮忙",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "动作对象与意图完全不同"
+  },
+  {
+    "step_id": 81,
+    "time_start": "12:18:00",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "规划活动流程·时间线·采购方案",
+    "gt_action": "我参与讨论烤肉、调酒和晚饭的安排细节",
+    "sim_action": "我划开手机备忘录，把\"只买菜+热一下\"记进去",
+    "label": "部分一致",
+    "score": 0.5,
+    "reason": "都在处理晚饭安排但行为不同"
+  },
+  {
+    "step_id": 82,
+    "time_start": "12:18:20",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "规划活动流程·时间线·采购方案",
+    "gt_action": "我参与讨论烧烤的具体操作方案",
+    "sim_action": "我",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "AI动作内容缺失"
+  },
+  {
+    "step_id": 83,
+    "time_start": "12:19:11",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "规划活动流程·时间线·采购方案",
+    "gt_action": "我参与确认晚间表演时间、auction环节和硬币处理",
+    "sim_action": "我划开手机备忘录又补了一句“剩余硬币换充电宝”",
+    "label": "部分一致",
+    "score": 0.5,
+    "reason": "都在处理硬币事宜但具体动作不同"
+  },
+  {
+    "step_id": 84,
+    "time_start": "12:19:12",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "规划活动流程·时间线·采购方案",
+    "gt_action": "我参与讨论活动收尾规则和剩余货币处理",
+    "sim_action": "我拍拍身边的空位，示意Alice过来坐",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "GT讨论活动，AI邀请他人入座"
+  },
+  {
+    "step_id": 85,
+    "time_start": "12:20:00",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "规划活动流程·时间线·采购方案",
+    "gt_action": "我参与大家关于充电宝赠送方案的闲聊",
+    "sim_action": "我点头附和“对，送充电宝最实在，尤其最后一天”，低头在手机备忘录里敲字",
+    "label": "一致",
+    "score": 1.0,
+    "reason": "都在参与充电宝方案闲聊"
+  },
+  {
+    "step_id": 86,
+    "time_start": "12:20:28",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "规划活动流程·时间线·采购方案",
+    "gt_action": "我向大家讲解自己的环保水母灯和奶茶盖的构想",
+    "sim_action": "我哈哈一笑，拍拍手把大家注意力拉回水母灯",
+    "label": "部分一致",
+    "score": 0.5,
+    "reason": "都聚焦水母灯，但GT是讲解构想，AI是拍手吸引注意"
+  },
+  {
+    "step_id": 87,
+    "time_start": "12:20:28",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "规划活动流程·时间线·采购方案",
+    "gt_action": "我向大家讲解水母灯的环保思想",
+    "sim_action": "我凑近看Tasha手里的灯，伸手帮她拧了拧电池盖",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "讲解环保思想与修电池盖不相关"
+  },
+  {
+    "step_id": 88,
+    "time_start": "12:21:05",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "规划活动流程·时间线·采购方案",
+    "gt_action": "我打开手机看了一眼",
+    "sim_action": "我放下手机，重新拿起水母灯材料，顺口说道：“素材的事后面再聊，咱们先把这个灯定下来。”",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "GT看手机，AI放下手机转话题"
+  },
+  {
+    "step_id": 89,
+    "time_start": "12:21:09",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "规划活动流程·时间线·采购方案",
+    "gt_action": "我和Katrina讨论水母灯的材料和环保概念体现",
+    "sim_action": "我放下手机，抬头笑着说“那就材料包吧，我来下单。”",
+    "label": "部分一致",
+    "score": 0.5,
+    "reason": "都在处理采购材料，但GT侧重讨论概念，AI直接下单。"
+  },
+  {
+    "step_id": 90,
+    "time_start": "12:21:13",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "规划活动流程·时间线·采购方案",
+    "gt_action": "我和Katrina讨论水母灯的制作方式和环保材料选择",
+    "sim_action": "我拍了拍身边的空位，对Alice说“来坐这儿吧，帮我想想采购清单”",
+    "label": "合理分支",
+    "score": 0.3,
+    "reason": "邀请他人参与采购讨论是规划中的合理举动"
+  },
+  {
+    "step_id": 91,
+    "time_start": "12:22:24",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "规划活动流程·时间线·采购方案",
+    "gt_action": "我继续看大家讨论环保主题",
+    "sim_action": "我抬头接话：“音响话筒我回头问问房东有没有备用的。”",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "GT未接话而AI主动提议解决音响话筒"
+  },
+  {
+    "step_id": 92,
+    "time_start": "12:23:51",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "规划活动流程·时间线·采购方案",
+    "gt_action": "我在手机上打开淘宝想搜索东西但放弃了",
+    "sim_action": "我笑着把刚列好的采购清单推给Jake和Shure",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "真实是放弃搜索，AI是已完成清单分享"
+  },
+  {
+    "step_id": 93,
+    "time_start": "12:24:07",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "规划活动流程·时间线·采购方案",
+    "gt_action": "我看白板思考项目内容",
+    "sim_action": "我抬头对Jake说：“那你和Shure去转一圈吧，我们继续理清单。”",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "GT是看白板思考，AI是说话派任务"
+  },
+  {
+    "step_id": 94,
+    "time_start": "12:25:31",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "规划活动流程·时间线·采购方案",
+    "gt_action": "我和大家讨论阳台布置",
+    "sim_action": "我笑着接话：“刚下单了水母灯材料包，正理其他东西呢。”",
+    "label": "合理分支",
+    "score": 0.3,
+    "reason": "汇报采购进展而非直接讨论阳台布置"
+  },
+  {
+    "step_id": 95,
+    "time_start": "12:26:09",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "规划活动流程·时间线·采购方案",
+    "gt_action": "我看Alice拿出拼图",
+    "sim_action": "我拿起笔，在采购清单上加了一条“摆摊桌布”，然后望向Katrina",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "GT是看拼图，AI是写采购清单望人"
+  },
+  {
+    "step_id": 96,
+    "time_start": "12:26:32",
+    "location": [
+      "客厅",
+      "拼图桌"
+    ],
+    "scene": "和Alice、Tasha玩野生动物拼图",
+    "gt_action": "我们决定先试玩一下",
+    "sim_action": "我凑近拼图桌，伸手拣起一片边角拼块",
+    "label": "一致",
+    "score": 1.0,
+    "reason": "拣起拼块是开始试玩的具体动作"
+  },
+  {
+    "step_id": 97,
+    "time_start": "12:26:54",
+    "location": [
+      "客厅",
+      "拼图桌"
+    ],
+    "scene": "和Alice、Tasha玩野生动物拼图",
+    "gt_action": "我和大家讨论拼图数量后决定先试玩一下",
+    "sim_action": "我笑着把那片边角拼块递给Alice：“这块像不像老虎耳朵？”",
+    "label": "部分一致",
+    "score": 0.5,
+    "reason": "都在拼图但与GT讨论决定试玩行为不同"
+  },
+  {
+    "step_id": 98,
+    "time_start": "12:27:03",
+    "location": [
+      "客厅",
+      "拼图桌"
+    ],
+    "scene": "和Alice、Tasha玩野生动物拼图",
+    "gt_action": "我和大家一起动手试玩拼图",
+    "sim_action": "我笑着伸手去拿拼图盒盖看参考图：\"哈哈我也记不住，咱们先拼外围的框吧",
+    "label": "一致",
+    "score": 1.0,
+    "reason": "都是准备一起动手玩拼图，看参考图是拼图的一部分"
+  },
+  {
+    "step_id": 99,
+    "time_start": "12:27:23",
+    "location": [
+      "客厅",
+      "拼图桌"
+    ],
+    "scene": "和Alice、Tasha玩野生动物拼图",
+    "gt_action": "我开始动手尝试拼图",
+    "sim_action": "我低头把手里的拼块按进缺口里，用手指轻轻压平它",
+    "label": "一致",
+    "score": 1.0,
+    "reason": "核心动作都是动手拼图"
+  },
+  {
+    "step_id": 100,
+    "time_start": "12:27:47",
+    "location": [
+      "客厅",
+      "拼图桌"
+    ],
+    "scene": "和Alice、Tasha玩野生动物拼图",
+    "gt_action": "我发现弧形边缘的碎片应该在边上",
+    "sim_action": "我笑着转头冲Jake那边接话：“那还不如自己买肉串实惠，哈哈。”",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "真实动作在拼图，AI却在接话谈烧烤"
+  },
+  {
+    "step_id": 101,
+    "time_start": "12:28:04",
+    "location": [
+      "客厅",
+      "拼图桌"
+    ],
+    "scene": "和Alice、Tasha玩野生动物拼图",
+    "gt_action": "我和大家一起研究拼图方法发现边缘弧形规律",
+    "sim_action": "我把几片弧形拼块轻轻推到一边，指了指直边的片：“这些才是边框的，分开放吧。”",
+    "label": "部分一致",
+    "score": 0.5,
+    "reason": "都在研究拼图分类规律，但具体判断不同。"
+  },
+  {
+    "step_id": 102,
+    "time_start": "12:28:34",
+    "location": [
+      "客厅",
+      "拼图桌"
+    ],
+    "scene": "和Alice、Tasha玩野生动物拼图",
+    "gt_action": "我继续尝试拼图",
+    "sim_action": "我把拼图盒盖转向Alice那边，方便她对照",
+    "label": "合理分支",
+    "score": 0.3,
+    "reason": "转向盒盖协助队友也是拼图活动中的合理行为"
+  },
+  {
+    "step_id": 103,
+    "time_start": "12:28:57",
+    "location": [
+      "客厅",
+      "拼图桌"
+    ],
+    "scene": "和Alice、Tasha玩野生动物拼图",
+    "gt_action": "我持续研究拼图",
+    "sim_action": "我搓了搓手指上的拼图毛边，低头找下一个直边块",
+    "label": "一致",
+    "score": 1.0,
+    "reason": "都是研究拼图的行为"
+  },
+  {
+    "step_id": 104,
+    "time_start": "12:29:16",
+    "location": [
+      "客厅",
+      "拼图桌"
+    ],
+    "scene": "和Alice、Tasha玩野生动物拼图",
+    "gt_action": "我继续反复拿碎片尝试拼图",
+    "sim_action": "我把挑出的那片直边块递给Tasha，让她比对比对她刚看到的那个位置",
+    "label": "部分一致",
+    "score": 0.5,
+    "reason": "都是拼图,但GT是自己尝试,AI是递块给他人试"
+  },
+  {
+    "step_id": 105,
+    "time_start": "12:30:00",
+    "location": [
+      "客厅",
+      "拼图桌"
+    ],
+    "scene": "和Alice、Tasha玩野生动物拼图",
+    "gt_action": "我和大家合作拼图",
+    "sim_action": "我弯腰捡起桌脚掉的一片拼块，举到眼前对着光看了看",
+    "label": "一致",
+    "score": 1.0,
+    "reason": "捡起掉落的拼块查看也是合作拼图的行为"
+  },
+  {
+    "step_id": 106,
+    "time_start": "12:40:05",
+    "location": [
+      "客厅",
+      "拼图桌"
+    ],
+    "scene": "和Alice、Tasha玩野生动物拼图",
+    "gt_action": "我和大家一起拼接边缘拼图",
+    "sim_action": "我伸手轻轻转过那片被说反的拼块，低头凑近比对纹路",
+    "label": "一致",
+    "score": 1.0,
+    "reason": "都在拼拼图"
+  },
+  {
+    "step_id": 107,
+    "time_start": "12:42:58",
+    "location": [
+      "客厅",
+      "拼图桌"
+    ],
+    "scene": "和Alice、Tasha玩野生动物拼图",
+    "gt_action": "我继续尝试拼图但陷入瓶颈",
+    "sim_action": "我笑着把手里那片边角料似的拼块转向Jake：“哈哈哈这个是不是长得像耳朵？我眼睛都看花了。”然后把片递向他",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "GT在尝试拼图,AI在跟Jake开玩笑递拼块"
+  },
+  {
+    "step_id": 108,
+    "time_start": "12:44:51",
+    "location": [
+      "客厅",
+      "拼图桌"
+    ],
+    "scene": "和Alice、Tasha玩野生动物拼图",
+    "gt_action": "我和Alice、Tasha三人继续拼图",
+    "sim_action": "我伸手从盒子里捡起一片边缘拼块，在指尖转了转",
+    "label": "一致",
+    "score": 1.0,
+    "reason": "都在进行拼图活动"
+  },
+  {
+    "step_id": 109,
+    "time_start": "12:45:08",
+    "location": [
+      "客厅",
+      "拼图桌"
+    ],
+    "scene": "和Alice、Tasha玩野生动物拼图",
+    "gt_action": "我和Tasha、Alice三人继续寻找拼图组合",
+    "sim_action": "我抬头看向Tasha，伸手够茶几上的纸巾盒递过去",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "递纸巾盒与拼图无关"
+  },
+  {
+    "step_id": 110,
+    "time_start": "12:46:45",
+    "location": [
+      "客厅",
+      "拼图桌"
+    ],
+    "scene": "和Alice、Tasha玩野生动物拼图",
+    "gt_action": "我边讨论边尝试各种匹配，感到很难",
+    "sim_action": "我揉了揉眼睛，低头继续在盒子里扒拉边缘块",
+    "label": "合理分支",
+    "score": 0.3,
+    "reason": "揉眼睛找边缘块是拼图遇难时的常见反应,虽未讨论但符合情境。"
+  },
+  {
+    "step_id": 111,
+    "time_start": "12:48:23",
+    "location": [
+      "客厅",
+      "拼图桌"
+    ],
+    "scene": "和Alice、Tasha玩野生动物拼图",
+    "gt_action": "我和Tasha重新组合边缘拼图",
+    "sim_action": "我伸手把Tasha面前那片拼块转过来，低头对照边缘纹路",
+    "label": "一致",
+    "score": 1.0,
+    "reason": "都在调整边缘拼块并合作。"
+  },
+  {
+    "step_id": 112,
+    "time_start": "12:48:44",
+    "location": [
+      "客厅",
+      "拼图桌"
+    ],
+    "scene": "和Alice、Tasha玩野生动物拼图",
+    "gt_action": "我和大家继续拼边缘拼图",
+    "sim_action": "我笑着从盒子里拣起一片带棕色绒毛边缘的碎片，凑到灯下眯眼看",
+    "label": "部分一致",
+    "score": 0.5,
+    "reason": "AI在捡碎片观察，GT是直接拼，都是拼图但行为有出入"
+  },
+  {
+    "step_id": 113,
+    "time_start": "12:50:00",
+    "location": [
+      "客厅",
+      "拼图桌"
+    ],
+    "scene": "和Alice、Tasha玩野生动物拼图",
+    "gt_action": "我和Alice、Tasha反复尝试拼图边缘，经历多次失败后取得了重大突破",
+    "sim_action": "我歪头把那片棕色绒毛碎片放到Alice正在调整的边缘旁比了比",
+    "label": "一致",
+    "score": 1.0,
+    "reason": "拼图边缘比对碎片"
+  },
+  {
+    "step_id": 114,
+    "time_start": "12:51:11",
+    "location": [
+      "客厅",
+      "拼图桌"
+    ],
+    "scene": "和Alice、Tasha玩野生动物拼图",
+    "gt_action": "我们继续拼图，边缘有了大突破但中间仍然很空",
+    "sim_action": "我摇摇头把那片放回盒角，又眯起眼看向中间空白处",
+    "label": "一致",
+    "score": 1.0,
+    "reason": "继续拼图中观察中间区域的具体动作"
+  },
+  {
+    "step_id": 115,
+    "time_start": "12:52:20",
+    "location": [
+      "客厅",
+      "拼图桌"
+    ],
+    "scene": "和Alice、Tasha玩野生动物拼图",
+    "gt_action": "我们三个反复辨认拼图碎片位置",
+    "sim_action": "我伸手从盒子角落拈起一片弧形的深色块，对着拼图中间的空缺比划",
+    "label": "部分一致",
+    "score": 0.5,
+    "reason": "个体比划 vs 集体反复辨认"
+  },
+  {
+    "step_id": 116,
+    "time_start": "12:53:17",
+    "location": [
+      "客厅",
+      "拼图桌"
+    ],
+    "scene": "和Alice、Tasha玩野生动物拼图",
+    "gt_action": "我继续拼图，比画碎片尝试安放，同时帮Tasha尝试组合",
+    "sim_action": "我试着把那片弧形深色块嵌进中间靠右的缺位",
+    "label": "部分一致",
+    "score": 0.5,
+    "reason": "仅完成自身拼图，未体现帮Tasha组合"
+  },
+  {
+    "step_id": 117,
+    "time_start": "12:54:14",
+    "location": [
+      "客厅",
+      "拼图桌"
+    ],
+    "scene": "和Alice、Tasha玩野生动物拼图",
+    "gt_action": "我们三个继续拼图取得进展",
+    "sim_action": "我拾起盒子边两片相似的弧形碎片，凑近纹路比对",
+    "label": "一致",
+    "score": 1.0,
+    "reason": "都在进行拼图操作"
+  },
+  {
+    "step_id": 118,
+    "time_start": "12:56:08",
+    "location": [
+      "客厅",
+      "拼图桌"
+    ],
+    "scene": "和Alice、Tasha玩野生动物拼图",
+    "gt_action": "我和Tasha继续拼图，剩下的碎片不多，我夸Tasha是拼图天才",
+    "sim_action": "我凑过去瞄了眼Alice手里的碎片：“这颜色是有点怪，我看看。”",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "GT与Tasha互动并夸赞，AI却看Alice碎片"
+  },
+  {
+    "step_id": 119,
+    "time_start": "12:56:27",
+    "location": [
+      "客厅",
+      "拼图桌"
+    ],
+    "scene": "和Alice、Tasha玩野生动物拼图",
+    "gt_action": "我反复尝试不同碎片和方向但始终拼不上",
+    "sim_action": "我接过那片怪颜色的碎片，翻转着在空缺上比对",
+    "label": "一致",
+    "score": 1.0,
+    "reason": "都在尝试将拼图碎片拼入空缺"
+  },
+  {
+    "step_id": 120,
+    "time_start": "12:57:10",
+    "location": [
+      "客厅",
+      "拼图桌"
+    ],
+    "scene": "和Alice、Tasha玩野生动物拼图",
+    "gt_action": "我们被难住了，三人反复放碎片到底盘上但都不成功",
+    "sim_action": "我伸手到盒子角落里捞出几片边缘碎片，摆到桌上供大家一起看",
+    "label": "部分一致",
+    "score": 0.5,
+    "reason": "都是仍在拼图，但AI是拿出碎片，GT是反复放置不成功"
+  },
+  {
+    "step_id": 121,
+    "time_start": "12:58:15",
+    "location": [
+      "客厅",
+      "拼图桌"
+    ],
+    "scene": "和Alice、Tasha玩野生动物拼图",
+    "gt_action": "我焦急地继续拼图",
+    "sim_action": "我伸手把 Jake 刚推过来的那片碎片转个方向，对准空缺比了比边缘弧度",
+    "label": "一致",
+    "score": 1.0,
+    "reason": "都在继续拼图操作"
+  },
+  {
+    "step_id": 122,
+    "time_start": "12:59:32",
+    "location": [
+      "客厅",
+      "拼图桌"
+    ],
+    "scene": "和Alice、Tasha玩野生动物拼图",
+    "gt_action": "我起身去查看其他人的活动",
+    "sim_action": "我站起来走了两步，朝Jake那边喊：“缺啥样的螺丝，我帮你一块找找。”",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "拼图情境下主动找螺丝，跑题"
+  },
+  {
+    "step_id": 123,
+    "time_start": "12:59:32",
+    "location": [
+      "客厅",
+      "拼图桌"
+    ],
+    "scene": "和Alice、Tasha玩野生动物拼图",
+    "gt_action": "我起身离开拼图桌去看其他人在组装架子",
+    "sim_action": "我走到Jake旁边，蹲下看他装的那层隔板",
+    "label": "一致",
+    "score": 1.0,
+    "reason": "都离开拼图去看组装架子"
+  },
+  {
+    "step_id": 124,
+    "time_start": "13:00:28",
+    "location": [
+      "客厅",
+      "拼图桌"
+    ],
+    "scene": "和Alice、Tasha玩野生动物拼图",
+    "gt_action": "我查看手机充电宝电量",
+    "sim_action": "我拍拍Jake肩膀，笑说去厨房给大家倒点水",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "动作和意图完全不同"
+  },
+  {
+    "step_id": 125,
+    "time_start": "13:01:20",
+    "location": [
+      "客厅",
+      "拼图桌"
+    ],
+    "scene": "和Alice、Tasha玩野生动物拼图",
+    "gt_action": "我找Jake一起排查手机App界面异常",
+    "sim_action": "我凑近看Jake手里的那片，伸手接过来比划一下边缘",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "AI在处理拼图片而非排查手机界面"
+  },
+  {
+    "step_id": 126,
+    "time_start": "13:02:28",
+    "location": [
+      "客厅",
+      "拼图桌"
+    ],
+    "scene": "和Alice、Tasha玩野生动物拼图",
+    "gt_action": "我回到座位，听Jake讨论装饰方案，构想房间装饰",
+    "sim_action": "我把手里那片举高，对着Tasha手里的比了比缺口弧度",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "真实动作是听装饰讨论,AI是拼图比对缺口"
+  },
+  {
+    "step_id": 127,
+    "time_start": "13:03:25",
+    "location": [
+      "客厅",
+      "拼图桌"
+    ],
+    "scene": "和Alice、Tasha玩野生动物拼图",
+    "gt_action": "我和Alice、Tasha一起拼拼图直到完成",
+    "sim_action": "我凑近看Tasha的手，小声问：“哎弄疼没”",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "GT拼拼图，AI关心手疼，完全无关"
+  },
+  {
+    "step_id": 128,
+    "time_start": "13:19:04",
+    "location": [
+      "客厅",
+      "拼图桌"
+    ],
+    "scene": "和Alice、Tasha玩野生动物拼图",
+    "gt_action": "我找到了正确拼法，我们成功拼好边缘",
+    "sim_action": "我蹲下来往桌底下找那块失踪的拼图",
+    "label": "合理分支",
+    "score": 0.3,
+    "reason": "GT是找到拼法拼好边缘，AI动作是找丢片，情境有“少一块”提示，寻找合理"
+  },
+  {
+    "step_id": 129,
+    "time_start": "13:20:01",
+    "location": [
+      "客厅",
+      "拼图桌"
+    ],
+    "scene": "和Alice、Tasha玩野生动物拼图",
+    "gt_action": "我和大家合力完成拼图的最后组装",
+    "sim_action": "我笑着拍了两下手，然后掏出手机对准拼好的图",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "GT是组装拼图,AI是拍照记录已拼好图"
+  },
+  {
+    "step_id": 130,
+    "time_start": "13:21:08",
+    "location": [
+      "客厅",
+      "拼图桌"
+    ],
+    "scene": "和Alice、Tasha玩野生动物拼图",
+    "gt_action": "我们庆祝拼图完成",
+    "sim_action": "我笑着指了指拼图里树丛边那个土地公的小像：\"藏这儿呢，这是我上次刷小红书学的点字环保小技巧",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "GT是庆祝完成,AI是分享隐藏细节"
+  },
+  {
+    "step_id": 131,
+    "time_start": "13:21:16",
+    "location": [
+      "客厅",
+      "拼图桌"
+    ],
+    "scene": "和Alice、Tasha玩野生动物拼图",
+    "gt_action": "我和大家庆祝拼图完成",
+    "sim_action": "我笑着举起手机对准拼好的图，提议咱们几个和拼图来张合影",
+    "label": "一致",
+    "score": 1.0,
+    "reason": "合影是庆祝的方式"
+  },
+  {
+    "step_id": 132,
+    "time_start": "13:21:56",
+    "location": [
+      "客厅",
+      "拼图桌"
+    ],
+    "scene": "和Alice、Tasha玩野生动物拼图",
+    "gt_action": "我帮忙收纳拼图",
+    "sim_action": "我笑着招呼Jake：“别叉腰了，过来一起蹲下合影吧。”",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "动作迥异，收纳拼图变为招呼合影"
+  },
+  {
+    "step_id": 133,
+    "time_start": "13:22:03",
+    "location": [
+      "客厅",
+      "拼图桌"
+    ],
+    "scene": "和Alice、Tasha玩野生动物拼图",
+    "gt_action": "我帮忙将拼图用支架立起来",
+    "sim_action": "我伸手帮Alice按住塑料膜的边角，笑着说：“来，我帮你固定。”",
+    "label": "部分一致",
+    "score": 0.5,
+    "reason": "都在协助立起拼图,但具体动作不同"
+  },
+  {
+    "step_id": 134,
+    "time_start": "13:23:28",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "Tasha展示烘焙工具和原材料",
+    "gt_action": "我和大家一起欣赏拼图",
+    "sim_action": "我听到Tasha担心，立刻拍拍手打圆场：“哎别想那么远，现在就当热身——走走走，咱先试试烤箱预热？”顺手把烘焙工具往中间推了推",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "动作从欣赏拼图变为转向烘焙活动"
+  },
+  {
+    "step_id": 135,
+    "time_start": "13:23:42",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "Tasha展示烘焙工具和原材料",
+    "gt_action": "我给Jake讲解拼图过程",
+    "sim_action": "我笑着伸手去拿烤箱说明书，边翻边往厨房方向走",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "真实动作讲解拼图,AI动作拿烤箱说明书"
+  },
+  {
+    "step_id": 136,
+    "time_start": "13:25:12",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "Tasha展示烘焙工具和原材料",
+    "gt_action": "我参与Tasha的烘焙工具开箱",
+    "sim_action": "我顺手帮Tasha把材料归拢好，回头朝Katrina笑着问：“提拉米菲？那是啥呀，你刚说的？”",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "询问Katrina问题未参与开箱"
+  },
+  {
+    "step_id": 137,
+    "time_start": "13:25:19",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "Tasha展示烘焙工具和原材料",
+    "gt_action": "我观看Tasha展示做蛋糕的工具和原材料",
+    "sim_action": "我伸手拿起桌上摊开的烘焙食谱，侧头看了看Tasha的工具摆位",
+    "label": "合理分支",
+    "score": 0.3,
+    "reason": "真实动作仅观看，AI主动拿食谱"
+  },
+  {
+    "step_id": 138,
+    "time_start": "13:30:00",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "Tasha展示烘焙工具和原材料",
+    "gt_action": "我观看了Tasha展示烘焙用品",
+    "sim_action": "我顺手帮Tasha把空包装袋拢到桌角，笑着问：“那咱先和面试试？”",
+    "label": "合理分支",
+    "score": 0.3,
+    "reason": "GT仅观看展示，AI主动帮忙并提议和面，是情境下的自然互动选择。"
+  },
+  {
+    "step_id": 139,
+    "time_start": "13:31:27",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "Tasha展示烘焙工具和原材料",
+    "gt_action": "我帮Tasha腾出桌面空间",
+    "sim_action": "我伸手去帮Tasha拆那个快递盒，边撕胶带边问：“这是啥新装备？”",
+    "label": "部分一致",
+    "score": 0.5,
+    "reason": "拆快递盒与腾桌面空间行为不同，但都是帮忙准备展示。"
+  },
+  {
+    "step_id": 140,
+    "time_start": "13:31:44",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "Tasha展示烘焙工具和原材料",
+    "gt_action": "我喝了矿泉水",
+    "sim_action": "我弯腰往桌子底下扫一眼，顺手摸摸快递盒夹层",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "真实动作是喝水,AI动作是搜寻物品,完全无关"
+  },
+  {
+    "step_id": 141,
+    "time_start": "13:32:11",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "Tasha展示烘焙工具和原材料",
+    "gt_action": "我给自己的水瓶做了标记",
+    "sim_action": "我翻开烤箱说明书，抬头轻声对Tasha说：“需要先预热到180度，烤盘放中层。”",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "动作完全不同：GT标记水瓶，AI预热烤箱"
+  },
+  {
+    "step_id": 142,
+    "time_start": "13:33:55",
+    "location": [
+      "厨房",
+      "操作台"
+    ],
+    "scene": "整理归类烘焙食材·巧克力放冰箱",
+    "gt_action": "我整理了桌面杂物",
+    "sim_action": "我顺手把台面上的巧克力模具往袋子方向推了推",
+    "label": "部分一致",
+    "score": 0.5,
+    "reason": "都在整理桌面，但动作对象不同"
+  },
+  {
+    "step_id": 143,
+    "time_start": "13:34:35",
+    "location": [
+      "厨房",
+      "操作台"
+    ],
+    "scene": "整理归类烘焙食材·巧克力放冰箱",
+    "gt_action": "我观看了Tasha处理搅拌机",
+    "sim_action": "我把手里的巧克力模具摞整齐，然后关上冰箱门",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "GT是观看，AI是整理"
+  },
+  {
+    "step_id": 144,
+    "time_start": "13:37:52",
+    "location": [
+      "厨房",
+      "操作台"
+    ],
+    "scene": "整理归类烘焙食材·巧克力放冰箱",
+    "gt_action": "我拔下了充电线",
+    "sim_action": "我边擦台面边搭话：“那咱们就KFC走起？新品听着挺带劲，哈哈。”",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "动作完全不同，GT是拔充电线，AI是擦台面搭话"
+  },
+  {
+    "step_id": 145,
+    "time_start": "13:38:07",
+    "location": [
+      "厨房",
+      "操作台"
+    ],
+    "scene": "整理归类烘焙食材·巧克力放冰箱",
+    "gt_action": "我拆了各种模具和工具的包装",
+    "sim_action": "我走过去看看Tasha手里的粉袋，顺手拉开下面的储物抽屉找空位",
+    "label": "合理分支",
+    "score": 0.3,
+    "reason": "整理食材时找空位放东西是合情理的另一选择"
+  },
+  {
+    "step_id": 146,
+    "time_start": "13:42:08",
+    "location": [
+      "厨房",
+      "操作台"
+    ],
+    "scene": "整理归类烘焙食材·巧克力放冰箱",
+    "gt_action": "我把巧克力放进冰箱",
+    "sim_action": "我转身看看Tasha手里的粉袋，顺手把抹布搭在水池边",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "未执行放巧克力动作"
+  },
+  {
+    "step_id": 147,
+    "time_start": "13:42:08",
+    "location": [
+      "厨房",
+      "操作台"
+    ],
+    "scene": "整理归类烘焙食材·巧克力放冰箱",
+    "gt_action": "我整理归类了烘焙食材",
+    "sim_action": "我走过去看看饼干怎么了，顺手把抹布搭在肩上",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "动作完全不同"
+  },
+  {
+    "step_id": 148,
+    "time_start": "13:44:44",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "点KFC外卖·讨论调酒方案",
+    "gt_action": "我完成了KFC点单",
+    "sim_action": "我掏出手机点开KFC小程序，扭头问：“咱们是按Jake说的十二个辣翅来，还是全家桶走起？”",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "AI在征求意见,GT已点完单"
+  },
+  {
+    "step_id": 149,
+    "time_start": "13:49:52",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "点KFC外卖·讨论调酒方案",
+    "gt_action": "我参与了调酒方案的讨论",
+    "sim_action": "我侧头看Katrina写的清单，顺手把手机搁到桌上",
+    "label": "部分一致",
+    "score": 0.5,
+    "reason": "看清单是关注调酒方案的一种方式，但动作侧重观看而非直接参与讨论。"
+  },
+  {
+    "step_id": 150,
+    "time_start": "13:51:23",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "点KFC外卖·讨论调酒方案",
+    "gt_action": "我在手机上搜索了调酒配方",
+    "sim_action": "我拿起手机接着翻KFC菜单，嘴里嘀咕：“那辣翅十二个，再加个全家桶够不够啊？”",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "GT搜调酒配方，AI点KFC餐，对象和意图均不同"
+  },
+  {
+    "step_id": 151,
+    "time_start": "13:52:04",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "点KFC外卖·讨论调酒方案",
+    "gt_action": "我把调酒配方给Katrina参考",
+    "sim_action": "我抬头问：“那咱来两个全家桶够吗？”",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "一个在给调酒配方,一个问全家桶数量"
+  },
+  {
+    "step_id": 152,
+    "time_start": "13:53:23",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "点KFC外卖·讨论调酒方案",
+    "gt_action": "我观看Katrina书写采购清单",
+    "sim_action": "我走到厨房柜子前蹲下翻找保鲜膜",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "动作与观看书写采购清单无关"
+  },
+  {
+    "step_id": 153,
+    "time_start": "13:56:02",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "点KFC外卖·讨论调酒方案",
+    "gt_action": "我说纸箱留着可以做纸箱狗之类的手工",
+    "sim_action": "我赶紧从厨房探出头喊：“留着留着，我拿来做纸箱小狗！”",
+    "label": "一致",
+    "score": 1.0,
+    "reason": "都是留纸箱做纸箱狗手工"
+  },
+  {
+    "step_id": 154,
+    "time_start": "13:56:02",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "点KFC外卖·讨论调酒方案",
+    "gt_action": "我帮忙处理了纸箱",
+    "sim_action": "我起身去门口把纸箱拎进客厅角落放好",
+    "label": "一致",
+    "score": 1.0,
+    "reason": "都是在处理纸箱"
+  },
+  {
+    "step_id": 155,
+    "time_start": "13:56:27",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "点KFC外卖·讨论调酒方案",
+    "gt_action": "我继续看大家讨论采购清单",
+    "sim_action": "我走回桌边，拿手机随口问：“那咖啡也一起凑个单呗？”",
+    "label": "部分一致",
+    "score": 0.5,
+    "reason": "真实动作是旁观，AI动作是提问，同为采购讨论但参与方式不同"
+  },
+  {
+    "step_id": 156,
+    "time_start": "13:57:36",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "点KFC外卖·讨论调酒方案",
+    "gt_action": "我收拾了房间里的杂物",
+    "sim_action": "我回到桌边刷了下手机，顺手点开小红书翻手工灵感",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "GT清理杂物vsAI刷手机"
+  },
+  {
+    "step_id": 157,
+    "time_start": "13:59:45",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "讨论火锅采购清单",
+    "gt_action": "我参与了晚餐方案的讨论",
+    "sim_action": "我凑近Tasha手机屏幕看，笑着补了句：“芝士年糕也来点！”",
+    "label": "一致",
+    "score": 1.0,
+    "reason": "提议加菜是参与讨论的具体表现"
+  },
+  {
+    "step_id": 158,
+    "time_start": "14:00:00",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "讨论火锅采购清单",
+    "gt_action": "我参与大家讨论火锅食材和采购清单",
+    "sim_action": "我",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "AI动作缺失"
+  },
+  {
+    "step_id": 159,
+    "time_start": "14:02:26",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "讨论火锅采购清单",
+    "gt_action": "我说\"看看外面箱子要不要收拾一下\"",
+    "sim_action": "我笑着打圆场：“哎呀写都写上嘛，多备点总没错。”",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "话题不同,GT是收拾箱子,AI是写清单"
+  },
+  {
+    "step_id": 160,
+    "time_start": "14:02:30",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "讨论火锅采购清单",
+    "gt_action": "我整理过道的纸箱纸盒把没用的归到一起有用的放好",
+    "sim_action": "我拍了拍Katrina的肩，指着角落泡沫垫问：“这个还用不？”",
+    "label": "部分一致",
+    "score": 0.5,
+    "reason": "都在整理物品，但GT自己分类，AI询问别人需求"
+  },
+  {
+    "step_id": 161,
+    "time_start": "14:03:30",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "讨论火锅采购清单",
+    "gt_action": "我说\"不需要的扔掉配件先放着\"",
+    "sim_action": "我晃了晃手机笑着问：“诶大家看小红书这个火锅蘸料配方绝了要不要试试？”",
+    "label": "部分一致",
+    "score": 0.5,
+    "reason": "都是火锅准备话题，但具体行为从清理配件变为提议蘸料配方"
+  },
+  {
+    "step_id": 162,
+    "time_start": "14:09:09",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "讨论火锅采购清单",
+    "gt_action": "我洗手擦干",
+    "sim_action": "我抬头冲门口的Shure笑笑：“站那儿当监工呢，来搭把手拆纸箱呗。”",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "动作对象和意图完全不同"
+  },
+  {
+    "step_id": 163,
+    "time_start": "14:10:02",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "讨论火锅采购清单",
+    "gt_action": "我在屋内收拾",
+    "sim_action": "我笑着说“行啊你们先去，我收拾下桌面”，顺手把记清单的便签纸拢成一沓",
+    "label": "一致",
+    "score": 1.0,
+    "reason": "都在屋内做收拾整理动作"
+  },
+  {
+    "step_id": 164,
+    "time_start": "14:10:07",
+    "location": [
+      "客厅",
+      "主桌"
+    ],
+    "scene": "讨论火锅采购清单",
+    "gt_action": "我查看了一下手机",
+    "sim_action": "我笑着朝门口回一句“好嘞，这就来！”，顺手把笔盖合上",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "动作完全不同"
+  },
+  {
+    "step_id": 165,
+    "time_start": "14:10:29",
+    "location": [
+      "庭院",
+      "餐桌区"
+    ],
+    "scene": "准备户外用餐·擦桌椅",
+    "gt_action": "我跟大家来到庭院",
+    "sim_action": "我擦完最后一把椅子，拎起旺仔牛奶笑着走出去",
+    "label": "部分一致",
+    "score": 0.5,
+    "reason": "意图相同，AI多做了擦椅子的准备动作"
+  },
+  {
+    "step_id": 166,
+    "time_start": "14:10:29",
+    "location": [
+      "庭院",
+      "餐桌区"
+    ],
+    "scene": "准备户外用餐·擦桌椅",
+    "gt_action": "我跟大家来到庭院",
+    "sim_action": "我边走过去边把筷子分给Shawn：“正好多一双，救急了吧？”",
+    "label": "部分一致",
+    "score": 0.5,
+    "reason": "都在走向庭院但AI增加分筷子动作"
+  },
+  {
+    "step_id": 167,
+    "time_start": "14:11:34",
+    "location": [
+      "庭院",
+      "餐桌区"
+    ],
+    "scene": "准备户外用餐·擦桌椅",
+    "gt_action": "我回屋拿抹布打湿准备擦桌子",
+    "sim_action": "我走近Alice歪头看她头发，顺手把自己刚打湿的抹布先翻了个干净面",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "GT是擦桌子,AI却观察别人头发未擦桌"
+  },
+  {
+    "step_id": 168,
+    "time_start": "14:11:41",
+    "location": [
+      "庭院",
+      "餐桌区"
+    ],
+    "scene": "准备户外用餐·擦桌椅",
+    "gt_action": "我进屋拿抹布打湿准备擦桌子",
+    "sim_action": "我伸手轻轻拍掉Alice肩头的土，笑说：“拍拍就干净了，户外嘛。”",
+    "label": "合理分支",
+    "score": 0.3,
+    "reason": "拍土是另一种应对脏的方式"
+  },
+  {
+    "step_id": 169,
+    "time_start": "14:12:32",
+    "location": [
+      "庭院",
+      "餐桌区"
+    ],
+    "scene": "准备户外用餐·擦桌椅",
+    "gt_action": "我拿抹布到庭院擦桌子",
+    "sim_action": "我抬头冲Shure笑笑，边擦桌子边说“对呀，马上就能摆了”，顺手把抹布翻了个干净面",
+    "label": "一致",
+    "score": 1.0,
+    "reason": "核心动作都是擦桌子"
+  },
+  {
+    "step_id": 170,
+    "time_start": "14:12:32",
+    "location": [
+      "庭院",
+      "餐桌区"
+    ],
+    "scene": "准备户外用餐·擦桌椅",
+    "gt_action": "我带着抹布和手机回到庭院",
+    "sim_action": "我边笑边把桌上一片落叶捏起来丢进垃圾桶",
+    "label": "部分一致",
+    "score": 0.5,
+    "reason": "都在清洁庭院，但具体动作不同"
+  },
+  {
+    "step_id": 171,
+    "time_start": "14:12:57",
+    "location": [
+      "庭院",
+      "餐桌区"
+    ],
+    "scene": "准备户外用餐·擦桌椅",
+    "gt_action": "我擦庭院的桌子",
+    "sim_action": "我笑着应了声\"对呀\"，顺手把抹布翻个干净面",
+    "label": "部分一致",
+    "score": 0.5,
+    "reason": "翻抹布是擦桌子的准备动作"
+  },
+  {
+    "step_id": 172,
+    "time_start": "14:13:47",
+    "location": [
+      "庭院",
+      "餐桌区"
+    ],
+    "scene": "准备户外用餐·擦桌椅",
+    "gt_action": "我说\"一个抹布不够用需要再拿一个\"",
+    "sim_action": "我边擦边自然地接话：“对对对所以我们做水母灯强调无胶水，哈哈。”",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "AI在聊水母灯,GT在要抹布"
+  },
+  {
+    "step_id": 173,
+    "time_start": "14:14:16",
+    "location": [
+      "庭院",
+      "餐桌区"
+    ],
+    "scene": "准备户外用餐·擦桌椅",
+    "gt_action": "我再进屋拿了第二块抹布打湿",
+    "sim_action": "我接过Jake帮我拧开的龙头水流，拿纸巾擦了擦手",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "GT是取抹布擦桌，AI是接水洗手"
+  },
+  {
+    "step_id": 174,
+    "time_start": "14:14:16",
+    "location": [
+      "庭院",
+      "餐桌区"
+    ],
+    "scene": "准备户外用餐·擦桌椅",
+    "gt_action": "我回屋再拿一块抹布打湿",
+    "sim_action": "我拧干打湿的新抹布，冲Jake笑了笑",
+    "label": "部分一致",
+    "score": 0.5,
+    "reason": "都在处理抹布，但GT是去拿新抹布打湿，AI是拧干手里已有的。"
+  },
+  {
+    "step_id": 175,
+    "time_start": "14:14:49",
+    "location": [
+      "庭院",
+      "餐桌区"
+    ],
+    "scene": "准备户外用餐·擦桌椅",
+    "gt_action": "我回到庭院擦另一张桌子",
+    "sim_action": "我把手里的抹布展开，把桌角最后一点水渍抹掉",
+    "label": "部分一致",
+    "score": 0.5,
+    "reason": "都在擦桌子但具体对象不同"
+  },
+  {
+    "step_id": 176,
+    "time_start": "14:14:58",
+    "location": [
+      "庭院",
+      "餐桌区"
+    ],
+    "scene": "准备户外用餐·擦桌椅",
+    "gt_action": "我在庭院擦桌子和凳子",
+    "sim_action": "我笑着把抹布搭在椅背上，凑过去看外卖菜单",
+    "label": "合理分支",
+    "score": 0.3,
+    "reason": "擦桌椅中途被外卖吸引看菜单，自然合理"
+  },
+  {
+    "step_id": 177,
+    "time_start": "14:15:45",
+    "location": [
+      "庭院",
+      "餐桌区"
+    ],
+    "scene": "准备户外用餐·擦桌椅",
+    "gt_action": "我擦庭院的凳子",
+    "sim_action": "我",
+    "label": "不一致",
+    "score": 0.0,
+    "reason": "AI无动作，未擦桌椅"
+  },
+  {
+    "step_id": 178,
+    "time_start": "14:17:14",
+    "location": [
+      "庭院",
+      "餐桌区"
+    ],
+    "scene": "准备户外用餐·擦桌椅",
+    "gt_action": "我擦完桌凳",
+    "sim_action": "我把抹布从椅背上拿起来递向Alice",
+    "label": "部分一致",
+    "score": 0.5,
+    "reason": "都是清洁桌椅，但AI是递抹布而GT是已擦完，具体行为有出入"
+  },
+  {
+    "step_id": 179,
+    "time_start": "14:17:22",
+    "location": [
+      "庭院",
+      "餐桌区"
+    ],
+    "scene": "准备户外用餐·擦桌椅",
+    "gt_action": "我把抹布递给Alice",
+    "sim_action": "我把抹布递给Alice,笑着说\"给,刚擦完桌子",
+    "label": "一致",
+    "score": 1.0,
+    "reason": "递抹布给Alice相同"
+  },
+  {
+    "step_id": 180,
+    "time_start": "14:17:52",
+    "location": [
+      "庭院",
+      "餐桌区"
+    ],
+    "scene": "准备户外用餐·擦桌椅",
+    "gt_action": "我坐下来看手机",
+    "sim_action": "我凑近看了看说：“那是没干透的油渍，不用管它，来来来先坐，我给你们讲个以前听过的餐桌笑话”",
+    "label": "合理分支",
+    "score": 0.3,
+    "reason": "主动解释并活跃气氛，是另一种社交应对选择"
+  },
+  {
+    "step_id": 181,
+    "time_start": "14:17:52",
+    "location": [
+      "庭院",
+      "餐桌区"
+    ],
+    "scene": "准备户外用餐·擦桌椅",
+    "gt_action": "我坐下来看手机和检查设备",
+    "sim_action": "我拍拍旁边凳子示意大家坐下，开始翻手机找那个笑话",
+    "label": "部分一致",
+    "score": 0.5,
+    "reason": "都在用手机，但GT坐检查设备，AI招呼并找笑话"
+  }
+]

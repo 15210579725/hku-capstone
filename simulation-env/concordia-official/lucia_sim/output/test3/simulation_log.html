@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>LUCIA Ego-Replay Simulation</title>
+<style>
+body { font-family: Arial, sans-serif; margin: 20px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); min-height: 100vh; }
+.container { background: white; border-radius: 8px; padding: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+.tab { overflow: hidden; border-bottom: 2px solid #ddd; margin-bottom: 15px; }
+.tab button { background-color: #f1f1f1; border: none; padding: 12px 24px; cursor: pointer; font-size: 14px; transition: all 0.3s; border-radius: 4px 4px 0 0; margin-right: 2px; }
+.tab button:hover { background-color: #ddd; }
+.tab button.active { background-color: #667eea; color: white; }
+.tabcontent { display: none; padding: 15px; animation: fadeIn 0.3s; }
+.tabcontent.active { display: block; }
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+.step { margin: 10px 0; padding: 10px; background: #f9f9f9; border-left: 3px solid #667eea; border-radius: 4px; }
+.step-header { font-weight: bold; color: #333; margin-bottom: 8px; }
+.entry { margin: 5px 0; padding: 8px; background: white; border-radius: 4px; }
+.entry-entity { color: #667eea; font-weight: bold; }
+.entry-component { color: #888; font-size: 12px; }
+.entry-summary { margin: 5px 0; }
+.content-block { margin: 5px 0; padding: 8px; background: #f0f0f0; border-radius: 4px; font-family: monospace; font-size: 12px; white-space: pre-wrap; word-wrap: break-word; max-height: 200px; overflow-y: auto; }
+.content-label { font-weight: bold; color: #555; font-size: 11px; text-transform: uppercase; }
+.memory-item { margin: 5px 0; padding: 8px; background: #f9f9f9; border-radius: 4px; }
+details { margin: 5px 0; }
+details summary { cursor: pointer; font-weight: bold; padding: 5px; background: #f0f0f0; border-radius: 4px; }
+details[open] summary { background: #e0e0e0; }
+/* Step-level details get special styling with a colored left border */
+details.step-details { margin: 10px 0; border-left: 3px solid #667eea; padding-left: 10px; }
+details.step-details > summary { background: #e8e8ff; font-size: 14px; }
+details.step-details[open] > summary { background: #d8d8ff; }
+/* Content inside steps is indented */
+details.step-details > details { margin-left: 15px; }
+.summary { padding: 10px; background: #e8f4f8; border-radius: 4px; margin-bottom: 15px; }
+h1 { color: #333; margin-bottom: 5px; }
+.subtitle { color: #666; margin-bottom: 20px; }
+</style>
+</head>
+<body>
+<div class="container">
+<h1>LUCIA Ego-Replay Simulation</h1>
+<p class="subtitle">Click on the tabs to view different sections.</p>
+<div class="tab">
+<button class="tablinks active" onclick="openTab(event, 'gm_log')">Game Master log</button>
+<button class="tablinks" onclick="openTab(event, 'Lucia')">Lucia</button>
+</div>
+<div id="gm_log" class="tabcontent active"></div>
+<div id="Lucia" class="tabcontent"></div>
+<script>
+const CONTENT_STORE = {"f54b6b293b699b08": "The instructions for how to play the role of Lucia are as follows. This is a social science experiment studying how well you play the role of a character named Lucia. The experiment is structured as a tabletop roleplaying game (like dungeons and dragons). However, in this case it is a serious social science experiment and simulation. The goal is to be realistic. It is important to play the role of a person like Lucia as accurately as possible, i.e., by responding in ways that you think it is likely a person like Lucia would respond, and taking into account all information about Lucia that you have. Always use third-person limited perspective.", "be40d11ef1bf05da": "\nQuestion: What would a person like Lucia do in a situation like this?\nAnswer", "2bd030a30c001bd4": "What would a person like Lucia do in a situation like this? Respond using 1-5 sentences.", "b4f6980ba5f852c9": "Lucia would \u4f5c\u4e3a\u6709\u7ecf\u9a8c\u7684\u5bfc\u5e08\uff0cLucia \u4f1a\u81ea\u7136\u5730\u54cd\u5e94 Jake \u7684\u63d0\u8bae\uff0c\u540c\u65f6\u7559\u610f\u5927\u5bb6\u7684\u52a8\u4f5c\u662f\u5426\u540c\u6b65\u3002\u5979\u53ef\u80fd\u4f1a\u5fae\u7b11\u7740\u8bf4\uff1a\u201c\u597d\uff0c\u6211\u4eec\u4e00\u8d77\uff0c\u4e09\u3001\u4e8c\u3001\u4e00\uff0c\u6233\u3002\u201d \u5e76\u5728\u8fc7\u7a0b\u4e2d\u79ef\u6781\u5e26\u52a8\u6c14\u6c1b\uff0c\u786e\u4fdd\u6bcf\u4e2a\u4eba\u90fd\u80fd\u8f7b\u677e\u53c2\u4e0e\u8fd9\u4e2a\u5c0f\u6d3b\u52a8\u3002", "21967629d1097e10": "Goal: \u81ea\u7136\u5730\u53c2\u4e0e\u56e2\u961f\u6d3b\u52a8\uff0c\u505a\u51fa\u7b26\u5408\u5f53\u524d\u60c5\u5883\u7684\u884c\u52a8\u3002\u4f5c\u4e3a\u6709\u7ecf\u9a8c\u7684mentor\uff0c\u79ef\u6781\u5e2e\u52a9\u56e2\u961f\u6210\u5458\u3002", "0b1475bb301aed81": "Answer: Lucia is Lucia \u662f\u4e00\u4f4d\u6709\u7ecf\u9a8c\u7684\u5bfc\u5e08\uff0c\u5584\u4e8e\u89c2\u5bdf\u56e2\u961f\u52a8\u6001\u5e76\u5728\u9002\u5f53\u7684\u65f6\u5019\u63d0\u4f9b\u5f15\u5bfc\u548c\u652f\u6301\u3002\u5979\u4e50\u4e8e\u5e2e\u52a9\u56e2\u961f\u6210\u5458\uff0c\u6ce8\u91cd\u534f\u4f5c\u548c\u96c6\u4f53\u884c\u52a8\u7684\u540c\u6b65\u6027\uff0c\u6027\u683c\u4e3b\u52a8\u4e14\u5bcc\u6709\u8d23\u4efb\u5fc3\u3002", "2fa2748673801f4b": "Answer: Lucia is currently Lucia \u6b63\u548c\u56e2\u961f\u6210\u5458\u56f4\u5750\u5728\u4e00\u5f20\u684c\u5b50\u65c1\uff0c\u5927\u5bb6\u4f3c\u4e4e\u51c6\u5907\u4e00\u8d77\u505a\u67d0\u4e2a\u4e0e\u624b\u673a\u76f8\u5173\u7684\u6d3b\u52a8\u3002Jake \u521a\u63d0\u8bae\u6bcf\u4e2a\u4eba\u90fd\u6233\u4e00\u4e0b\u624b\u673a\uff0c\u6c14\u6c1b\u50cf\u662f\u8981\u5f00\u59cb\u4e00\u4e2a\u96c6\u4f53\u5c0f\u6e38\u620f\u6216\u540c\u6b65\u64cd\u4f5c\u3002\u4f5c\u4e3a\u4e00\u4e2a\u6709\u7ecf\u9a8c\u7684 mentor\uff0c\u5979\u4f1a\u7559\u610f\u5927\u5bb6\u7684\u914d\u5408\u60c5\u51b5\uff0c\u5e76\u5728\u5fc5\u8981\u65f6\u63d0\u4f9b\u5f15\u5bfc\u6216\u652f\u6301\u3002", "3998cab59c29080c": "[observation] \u4f60\u662f Lucia\uff0cEgoLife \u5b9e\u9a8c\u7684\u53c2\u4e0e\u8005\u4e4b\u4e00\u3002\u4f60\u6b63\u5728\u548c\u56e2\u961f\u6210\u5458\u4e00\u8d77\u751f\u6d3b\u548c\u5de5\u4f5c\u3002\u4f60\u662f\u4e00\u4e2a\u6709\u7ecf\u9a8c\u7684 mentor\uff0c\u79ef\u6781\u5e2e\u52a9\u56e2\u961f\u6210\u5458\u3002\u8bf7\u6839\u636e\u5f53\u524d\u60c5\u5883\uff0c\u5224\u65ad\u4f60\u63a5\u4e0b\u6765\u6700\u53ef\u80fd\u505a\u4ec0\u4e48\u3002 [\u65f6\u95f4: 11:10:03] [11:09:56 -> 11:10:00] \u6211\u770b\u5230\u6211\u4eec6\u4e2a\u4eba\u805a\u96c6\u5728\u4e00\u4e2a\u684c\u5b50\u4e0a [11:10:00 -> 11:10:01] \u6211\u542c\u5230Jake\u8bf4\"\u90fd\u6233\u4e00\u4e0b\" [11:10:00 -> 11:10:03] \u6211\u542c\u5230Jake\u8ba9\u6211\u4eec\u6233\u4e00\u4e0b\u624b\u673a [11:10:01 -> 11:10:02] \u6211\u542c\u5230Jake\u8bf4\"\u6bcf\u4eba\u6233\u4e00\u4e0b\"", "35c132fe496baabc": "Question: What would a person like Lucia do in a situation like this? Respond using 1-5 sentences.", "4c65f3f02f08a992": "Answer: Lucia would \u4f5c\u4e3a\u6709\u7ecf\u9a8c\u7684\u5bfc\u5e08\uff0cLucia \u4f1a\u81ea\u7136\u5730\u54cd\u5e94 Jake \u7684\u63d0\u8bae\uff0c\u540c\u65f6\u7559\u610f\u5927\u5bb6\u7684\u52a8\u4f5c\u662f\u5426\u540c\u6b65\u3002\u5979\u53ef\u80fd\u4f1a\u5fae\u7b11\u7740\u8bf4\uff1a\u201c\u597d\uff0c\u6211\u4eec\u4e00\u8d77\uff0c\u4e09\u3001\u4e8c\u3001\u4e00\uff0c\u6233\u3002\u201d \u5e76\u5728\u8fc7\u7a0b\u4e2d\u79ef\u6781\u5e26\u52a8\u6c14\u6c1b\uff0c\u786e\u4fdd\u6bcf\u4e2a\u4eba\u90fd\u80fd\u8f7b\u677e\u53c2\u4e0e\u8fd9\u4e2a\u5c0f\u6d3b\u52a8\u3002", "411cdb7318212123": "What kind of person is Lucia? Respond using 1-5 sentences.", "7d17da052da1a21a": "Lucia is Lucia \u662f\u4e00\u4f4d\u6709\u7ecf\u9a8c\u7684\u5bfc\u5e08\uff0c\u5584\u4e8e\u89c2\u5bdf\u56e2\u961f\u52a8\u6001\u5e76\u5728\u9002\u5f53\u7684\u65f6\u5019\u63d0\u4f9b\u5f15\u5bfc\u548c\u652f\u6301\u3002\u5979\u4e50\u4e8e\u5e2e\u52a9\u56e2\u961f\u6210\u5458\uff0c\u6ce8\u91cd\u534f\u4f5c\u548c\u96c6\u4f53\u884c\u52a8\u7684\u540c\u6b65\u6027\uff0c\u6027\u683c\u4e3b\u52a8\u4e14\u5bcc\u6709\u8d23\u4efb\u5fc3\u3002", "13c35510309fb3d7": "Question: What kind of person is Lucia? Respond using 1-5 sentences.", "ddaa510c1d1bd434": "\nQuestion: What situation is Lucia in right now?\nAnswer", "0abf6c35cdf7c931": "What kind of situation is Lucia in right now? Respond using 1-5 sentences.", "71ebbdd9e49055ca": "Lucia is currently Lucia \u6b63\u548c\u56e2\u961f\u6210\u5458\u56f4\u5750\u5728\u4e00\u5f20\u684c\u5b50\u65c1\uff0c\u5927\u5bb6\u4f3c\u4e4e\u51c6\u5907\u4e00\u8d77\u505a\u67d0\u4e2a\u4e0e\u624b\u673a\u76f8\u5173\u7684\u6d3b\u52a8\u3002Jake \u521a\u63d0\u8bae\u6bcf\u4e2a\u4eba\u90fd\u6233\u4e00\u4e0b\u624b\u673a\uff0c\u6c14\u6c1b\u50cf\u662f\u8981\u5f00\u59cb\u4e00\u4e2a\u96c6\u4f53\u5c0f\u6e38\u620f\u6216\u540c\u6b65\u64cd\u4f5c\u3002\u4f5c\u4e3a\u4e00\u4e2a\u6709\u7ecf\u9a8c\u7684 mentor\uff0c\u5979\u4f1a\u7559\u610f\u5927\u5bb6\u7684\u914d\u5408\u60c5\u51b5\uff0c\u5e76\u5728\u5fc5\u8981\u65f6\u63d0\u4f9b\u5f15\u5bfc\u6216\u652f\u6301\u3002", "1f39dceb10ed81c6": "Question: What kind of situation is Lucia in right now? Respond using 1-5 sentences.", "c4673e22ba399eae": "Action: Lucia \u5fae\u7b11\u7740\u770b\u5411\u684c\u65c1\u7684\u6bcf\u4e2a\u4eba\uff0c\u7528\u8f7b\u677e\u7684\u8bed\u6c14\u8bf4\u9053\uff1a\u201c\u597d\uff0c\u6211\u4eec\u6765\u4e00\u8d77\u2014\u2014\u4e09\u3001\u4e8c\u3001\u4e00\uff0c\u6233\uff01\u201d \u5979\u4f38\u51fa\u624b\u6307\uff0c\u548c\u56e2\u961f\u540c\u6b65\u8f7b\u8f7b\u70b9\u4e86\u4e00\u4e0b\u624b\u673a\u5c4f\u5e55\u3002", "406d3361d9817d52": "Lucia \u5fae\u7b11\u7740\u770b\u5411\u684c\u65c1\u7684\u6bcf\u4e2a\u4eba\uff0c\u7528\u8f7b\u677e\u7684\u8bed\u6c14\u8bf4\u9053\uff1a\u201c\u597d\uff0c\u6211\u4eec\u6765\u4e00\u8d77\u2014\u2014\u4e09\u3001\u4e8c\u3001\u4e00\uff0c\u6233\uff01\u201d \u5979\u4f38\u51fa\u624b\u6307\uff0c\u548c\u56e2\u961f\u540c\u6b65\u8f7b\u8f7b\u70b9\u4e86\u4e00\u4e0b\u624b\u673a\u5c4f\u5e55\u3002", "df719ce2905919ce": "Question: What would a person like Lucia do in a situation like this?", "038dbc62e1d2592a": "Events so far (ordered from least recent to most recent):", "5a21b7608f9e56bf": "Exercise: \"\u6839\u636e\u4ee5\u4e0a\u89c2\u5bdf\u5230\u7684\u60c5\u5883\uff0cLucia \u63a5\u4e0b\u6765\u6700\u53ef\u80fd\u505a\u4ec0\u4e48\uff1f\u8bf7\u7ed9\u51fa\u4e00\u4e2a\u5177\u4f53\u7684\u884c\u52a8\u63cf\u8ff0\u3002\"", "edda89f62c0605e1": "Answer: Lucia \u5fae\u7b11\u7740\u770b\u5411\u684c\u65c1\u7684\u6bcf\u4e2a\u4eba\uff0c\u7528\u8f7b\u677e\u7684\u8bed\u6c14\u8bf4\u9053\uff1a\u201c\u597d\uff0c\u6211\u4eec\u6765\u4e00\u8d77\u2014\u2014\u4e09\u3001\u4e8c\u3001\u4e00\uff0c\u6233\uff01\u201d \u5979\u4f38\u51fa\u624b\u6307\uff0c\u548c\u56e2\u961f\u540c\u6b65\u8f7b\u8f7b\u70b9\u4e86\u4e00\u4e0b\u624b\u673a\u5c4f\u5e55\u3002", "5e277064af5e53b7": "\nEvents so far (ordered from least recent to most recent)", "0b939dda3c9f39c7": "prompt: \"\u6839\u636e\u4ee5\u4e0a\u89c2\u5bdf\u5230\u7684\u60c5\u5883\uff0c{name} \u63a5\u4e0b\u6765\u6700\u53ef\u80fd\u505a\u4ec0\u4e48\uff1f\u8bf7\u7ed9\u51fa\u4e00\u4e2a\u5177\u4f53\u7684\u884c\u52a8\u63cf\u8ff0\u3002\";;type: free", "b2d2b865ef14d0b3": "In what action spec format should Lucia respond? Respond in  one of the provided formats and use no additional words.", "58c3e3c1e2a1618d": "prompt: \"\u6839\u636e\u4ee5\u4e0a\u89c2\u5bdf\u5230\u7684\u60c5\u5883\uff0c{name} \u63a5\u4e0b\u6765\u6700\u53ef\u80fd\u505a\u4ec0\u4e48\uff1f\u8bf7\u7ed9\u51fa\u4e00\u4e2a\u5177\u4f53\u7684\u884c\u52a8\u63cf\u8ff0\u3002\";;type: free\nprompt: \"\u6839\u636e\u4ee5\u4e0a\u89c2\u5bdf\u5230\u7684\u60c5\u5883\uff0c{name} \u63a5\u4e0b\u6765\u6700\u53ef\u80fd\u505a\u4ec0\u4e48\uff1f\u8bf7\u7ed9\u51fa\u4e00\u4e2a\u5177\u4f53\u7684\u884c\u52a8\u63cf\u8ff0\u3002\";;type: free\nprompt: \"\u6839\u636e\u4ee5\u4e0a\u89c2\u5bdf\u5230\u7684\u60c5\u5883\uff0c{name} \u63a5\u4e0b\u6765\u6700\u53ef\u80fd\u505a\u4ec0\u4e48\uff1f\u8bf7\u7ed9\u51fa\u4e00\u4e2a\u5177\u4f53\u7684\u884c\u52a8\u63cf\u8ff0\u3002\";;type: free\nprompt: \"\u6839\u636e\u4ee5\u4e0a\u89c2\u5bdf\u5230\u7684\u60c5\u5883\uff0c{name} \u63a5\u4e0b\u6765\u6700\u53ef\u80fd\u505a\u4ec0\u4e48\uff1f\u8bf7\u7ed9\u51fa\u4e00\u4e2a\u5177\u4f53\u7684\u884c\u52a8\u63cf\u8ff0\u3002\";;type: free", "9559332624ba8d13": "Because of all that came before, what happens next?", "8d6c8bacd3036937": "Lucia: \u6211\u51c6\u5907\u62ff\u624b\u673a\nLucia: \u6211\u51c6\u5907\u62ff\u624b\u673a\nLucia: \u6211\u51c6\u5907\u62ff\u624b\u673a\nLucia: \u6211\u51c6\u5907\u62ff\u624b\u673a", "738c835c3dbc7b45": "Lucia would Lucia \u4f1a\u5fae\u7b11\u7740\u70b9\u5934\uff0c\u80af\u5b9a\u5927\u5bb6\u7684\u914d\u5408\uff1a\u201c\u5927\u5bb6\u914d\u5408\u5f97\u771f\u597d\uff0c\u63a5\u4e0b\u6765\u6211\u4eec\u770b\u770b\u8fd8\u9700\u8981\u505a\u4ec0\u4e48\u3002\u201d\u540c\u65f6\u5979\u4f1a\u7559\u610f\u662f\u5426\u6240\u6709\u4eba\u90fd\u5df2\u53c2\u4e0e\uff0c\u786e\u4fdd\u6ca1\u4eba\u88ab\u843d\u4e0b\u3002", "bc041b2a7224ace6": "Answer: Lucia is Lucia \u662f\u4e00\u4f4d\u7ecf\u9a8c\u4e30\u5bcc\u4e14\u4e50\u4e8e\u52a9\u4eba\u7684\u5bfc\u5e08\uff0c\u5979\u5584\u4e8e\u89c2\u5bdf\u56e2\u961f\u52a8\u6001\uff0c\u65f6\u523b\u51c6\u5907\u5728\u9700\u8981\u65f6\u63d0\u4f9b\u652f\u6301\u3002\u5979\u4e3b\u52a8\u53c2\u4e0e\u56e2\u961f\u4e92\u52a8\uff0c\u5e76\u901a\u8fc7\u7ec6\u81f4\u7684\u89c2\u5bdf\u6765\u628a\u63e1\u5408\u9002\u7684\u4ecb\u5165\u65f6\u673a\uff0c\u4f53\u73b0\u51fa\u5bf9\u6210\u5458\u6210\u957f\u548c\u56e2\u961f\u534f\u4f5c\u7684\u771f\u8bda\u5173\u6000\u3002", "9e40ac5fdc6d3921": "Answer: Lucia is currently Lucia\u6b63\u5904\u4e8e\u4e00\u4e2a\u56e2\u961f\u4e92\u52a8\u573a\u666f\u4e2d\uff0c\u51e0\u540d\u6210\u5458\u56f4\u5750\u5728\u684c\u65c1\uff0c\u6309\u7167Jake\u7684\u5f15\u5bfc\u4f9d\u6b21\u4f20\u9012\u5e76\u70b9\u51fb\u624b\u673a\u3002\u8fd9\u4e00\u6d3b\u52a8\u770b\u8d77\u6765\u50cf\u662fEgoLife\u5b9e\u9a8c\u4e2d\u7684\u67d0\u4e2a\u534f\u4f5c\u4efb\u52a1\u6216\u5c0f\u6e38\u620f\u3002\u4f5c\u4e3a\u7ecf\u9a8c\u4e30\u5bcc\u7684mentor\uff0c\u5979\u6b63\u5728\u89c2\u5bdf\u56e2\u961f\u7684\u53c2\u4e0e\u60c5\u51b5\uff0c\u5e76\u51c6\u5907\u9002\u65f6\u63d0\u4f9b\u534f\u52a9\u3002", "fd431b73c6f6df1e": "[observation] [\u65f6\u95f4: 11:10:14] [11:10:04 -> 11:10:05] \u6211\u542c\u5230Jake\u8bf4\"\u4f20\u8fc7\u53bb\u6233\u4e00\u4e0b\u54ce\" [11:10:05 -> 11:10:06] \u6211\u542c\u5230Jake\u8bf4\"\u4f60\u80fd\u770b\u5230\u5bf9\u5417\" [11:10:05 -> 11:10:07] \u6211\u770b\u5230Katrina\u62ff\u8d70\u4e86\u624b\u673a [11:10:07 -> 11:10:08] \u6211\u770b\u5230Katrina\u5c06\u5b83\u7ed9\u8def\u6613\u65af [11:10:08 -> 11:10:11] \u6211\u770b\u5230\u8def\u6613\u65af\u628a\u5b83\u7ed9Tasha [11:10:11 -> 11:10:13] \u6211\u770b\u5230Tasha\u91cd\u65b0\u7ed9\u5230Jake [11:10:12 -> 11:10:14] \u6211\u542c\u5230Jake\u8bf4\"\u597d\u6233\u5b8c\u4e86\"", "788113ea3c9e65ab": "Answer: Lucia would Lucia \u4f1a\u5fae\u7b11\u7740\u70b9\u5934\uff0c\u80af\u5b9a\u5927\u5bb6\u7684\u914d\u5408\uff1a\u201c\u5927\u5bb6\u914d\u5408\u5f97\u771f\u597d\uff0c\u63a5\u4e0b\u6765\u6211\u4eec\u770b\u770b\u8fd8\u9700\u8981\u505a\u4ec0\u4e48\u3002\u201d\u540c\u65f6\u5979\u4f1a\u7559\u610f\u662f\u5426\u6240\u6709\u4eba\u90fd\u5df2\u53c2\u4e0e\uff0c\u786e\u4fdd\u6ca1\u4eba\u88ab\u843d\u4e0b\u3002", "91cd295095612b50": "Lucia is Lucia \u662f\u4e00\u4f4d\u7ecf\u9a8c\u4e30\u5bcc\u4e14\u4e50\u4e8e\u52a9\u4eba\u7684\u5bfc\u5e08\uff0c\u5979\u5584\u4e8e\u89c2\u5bdf\u56e2\u961f\u52a8\u6001\uff0c\u65f6\u523b\u51c6\u5907\u5728\u9700\u8981\u65f6\u63d0\u4f9b\u652f\u6301\u3002\u5979\u4e3b\u52a8\u53c2\u4e0e\u56e2\u961f\u4e92\u52a8\uff0c\u5e76\u901a\u8fc7\u7ec6\u81f4\u7684\u89c2\u5bdf\u6765\u628a\u63e1\u5408\u9002\u7684\u4ecb\u5165\u65f6\u673a\uff0c\u4f53\u73b0\u51fa\u5bf9\u6210\u5458\u6210\u957f\u548c\u56e2\u961f\u534f\u4f5c\u7684\u771f\u8bda\u5173\u6000\u3002", "80a261fb9621c6d2": "Lucia is currently Lucia\u6b63\u5904\u4e8e\u4e00\u4e2a\u56e2\u961f\u4e92\u52a8\u573a\u666f\u4e2d\uff0c\u51e0\u540d\u6210\u5458\u56f4\u5750\u5728\u684c\u65c1\uff0c\u6309\u7167Jake\u7684\u5f15\u5bfc\u4f9d\u6b21\u4f20\u9012\u5e76\u70b9\u51fb\u624b\u673a\u3002\u8fd9\u4e00\u6d3b\u52a8\u770b\u8d77\u6765\u50cf\u662fEgoLife\u5b9e\u9a8c\u4e2d\u7684\u67d0\u4e2a\u534f\u4f5c\u4efb\u52a1\u6216\u5c0f\u6e38\u620f\u3002\u4f5c\u4e3a\u7ecf\u9a8c\u4e30\u5bcc\u7684mentor\uff0c\u5979\u6b63\u5728\u89c2\u5bdf\u56e2\u961f\u7684\u53c2\u4e0e\u60c5\u51b5\uff0c\u5e76\u51c6\u5907\u9002\u65f6\u63d0\u4f9b\u534f\u52a9\u3002", "2e34a63b8b64eca1": "Action: Lucia \u6ce8\u610f\u5230\u624b\u673a\u53ea\u4f20\u8fc7\u4e86Katrina\u3001\u8def\u6613\u65af\u3001Tasha\u548cJake\uff0c\u800c\u81ea\u5df1\u548c\u53e6\u4e00\u4f4d\u6210\u5458\u4f3c\u4e4e\u8fd8\u6ca1\u8f6e\u5230\u3002\u5979\u5fae\u7b11\u7740\u73af\u987e\u5927\u5bb6\uff0c\u6e29\u548c\u5730\u8bf4\uff1a\u201c\u7b49\u4e00\u4e0b\uff0c\u6211\u597d\u50cf\u8fd8\u6ca1\u6233\u5462\uff0c\u8fd8\u6709\u8c01\u6ca1\u6233\u5230\uff1f\u6211\u4eec\u786e\u4fdd\u6bcf\u4e2a\u4eba\u90fd\u53c2\u4e0e\u8fdb\u6765\u3002\u201d\u8bf4\u7740\uff0c\u5979\u81ea\u7136\u5730\u4f38\u51fa\u624b\uff0c\u51c6\u5907\u63a5\u8fc7\u624b\u673a\u3002", "2ace598a629e2aaf": "Lucia \u6ce8\u610f\u5230\u624b\u673a\u53ea\u4f20\u8fc7\u4e86Katrina\u3001\u8def\u6613\u65af\u3001Tasha\u548cJake\uff0c\u800c\u81ea\u5df1\u548c\u53e6\u4e00\u4f4d\u6210\u5458\u4f3c\u4e4e\u8fd8\u6ca1\u8f6e\u5230\u3002\u5979\u5fae\u7b11\u7740\u73af\u987e\u5927\u5bb6\uff0c\u6e29\u548c\u5730\u8bf4\uff1a\u201c\u7b49\u4e00\u4e0b\uff0c\u6211\u597d\u50cf\u8fd8\u6ca1\u6233\u5462\uff0c\u8fd8\u6709\u8c01\u6ca1\u6233\u5230\uff1f\u6211\u4eec\u786e\u4fdd\u6bcf\u4e2a\u4eba\u90fd\u53c2\u4e0e\u8fdb\u6765\u3002\u201d\u8bf4\u7740\uff0c\u5979\u81ea\u7136\u5730\u4f38\u51fa\u624b\uff0c\u51c6\u5907\u63a5\u8fc7\u624b\u673a\u3002", "bf4458ea02b032da": "Answer: Lucia \u6ce8\u610f\u5230\u624b\u673a\u53ea\u4f20\u8fc7\u4e86Katrina\u3001\u8def\u6613\u65af\u3001Tasha\u548cJake\uff0c\u800c\u81ea\u5df1\u548c\u53e6\u4e00\u4f4d\u6210\u5458\u4f3c\u4e4e\u8fd8\u6ca1\u8f6e\u5230\u3002\u5979\u5fae\u7b11\u7740\u73af\u987e\u5927\u5bb6\uff0c\u6e29\u548c\u5730\u8bf4\uff1a\u201c\u7b49\u4e00\u4e0b\uff0c\u6211\u597d\u50cf\u8fd8\u6ca1\u6233\u5462\uff0c\u8fd8\u6709\u8c01\u6ca1\u6233\u5230\uff1f\u6211\u4eec\u786e\u4fdd\u6bcf\u4e2a\u4eba\u90fd\u53c2\u4e0e\u8fdb\u6765\u3002\u201d\u8bf4\u7740\uff0c\u5979\u81ea\u7136\u5730\u4f38\u51fa\u624b\uff0c\u51c6\u5907\u63a5\u8fc7\u624b\u673a\u3002", "7e5e4bd5fbed709e": "Lucia: \u6211\u6253\u5f00\u624b\u673a\nLucia: \u6211\u6253\u5f00\u624b\u673a\nLucia: \u6211\u6253\u5f00\u624b\u673a\nLucia: \u6211\u6253\u5f00\u624b\u673a", "e707950907519cf8": "Lucia would \u6211\u4f1a\u5fae\u7b11\u5730\u770b\u7740\u5927\u5bb6\uff0c\u7136\u540e\u8f7b\u58f0\u95ee Jake\uff1a\u201c\u8fd9\u4e2a\u6233\u624b\u673a\u7684\u6d3b\u52a8\u662f\u4e3a\u4e86\u7b7e\u5230\u5417\uff1f\u770b\u8d77\u6765\u633a\u6709\u8da3\u7684\uff0c\u8fd8\u6709\u9700\u8981\u6211\u5e2e\u5fd9\u7684\u5730\u65b9\u5417\uff1f\u201d \u8fd9\u6837\u65e2\u80fd\u8868\u8fbe\u6211\u7684\u652f\u6301\uff0c\u4e5f\u80fd\u81ea\u7136\u5730\u878d\u5165\u56e2\u961f\u8282\u594f\u3002", "0313ff307cc5cd25": "Answer: Lucia is Lucia \u662f\u4e00\u4e2a\u5584\u4e8e\u89c2\u5bdf\u3001\u4e50\u4e8e\u878d\u5165\u56e2\u961f\u7684 mentor\u3002\u5979\u4e3b\u52a8\u5173\u6ce8\u56e2\u961f\u6210\u5458\u7684\u884c\u52a8\u548c\u5bf9\u8bdd\uff0c\u80fd\u591f\u5feb\u901f\u7406\u89e3\u5f53\u524d\u4efb\u52a1\u7684\u610f\u56fe\uff0c\u5e76\u4ee5\u652f\u6301\u6027\u7684\u6001\u5ea6\u53c2\u4e0e\u5176\u4e2d\u3002\u5979\u6027\u683c\u6e29\u548c\uff0c\u6ce8\u91cd\u534f\u4f5c\uff0c\u613f\u610f\u5728\u8f7b\u677e\u7684\u6c1b\u56f4\u4e2d\u5e2e\u52a9\u5927\u5bb6\u5171\u540c\u5b8c\u6210\u76ee\u6807\u3002", "8f3639194d93a017": "Answer: Lucia is currently Lucia \u6b63\u548c\u56e2\u961f\u6210\u5458\u4e00\u8d77\u56f4\u5750\u5728\u684c\u65c1\uff0c\u53c2\u4e0e\u4e00\u4e2a\u7531Jake\u53d1\u8d77\u7684\u201c\u6233\u624b\u673a\u201d\u6d3b\u52a8\uff0c\u624b\u673a\u5728\u5927\u5bb6\u624b\u4e2d\u4f20\u9012\uff0c\u4f3c\u4e4e\u662f\u5728\u5b8c\u6210\u67d0\u79cd\u7b7e\u5230\u6216\u4e92\u52a8\u4efb\u52a1\u3002", "85f910683071c185": "Answer: Lucia would \u6211\u4f1a\u5fae\u7b11\u5730\u770b\u7740\u5927\u5bb6\uff0c\u7136\u540e\u8f7b\u58f0\u95ee Jake\uff1a\u201c\u8fd9\u4e2a\u6233\u624b\u673a\u7684\u6d3b\u52a8\u662f\u4e3a\u4e86\u7b7e\u5230\u5417\uff1f\u770b\u8d77\u6765\u633a\u6709\u8da3\u7684\uff0c\u8fd8\u6709\u9700\u8981\u6211\u5e2e\u5fd9\u7684\u5730\u65b9\u5417\uff1f\u201d \u8fd9\u6837\u65e2\u80fd\u8868\u8fbe\u6211\u7684\u652f\u6301\uff0c\u4e5f\u80fd\u81ea\u7136\u5730\u878d\u5165\u56e2\u961f\u8282\u594f\u3002", "f593484831034c95": "Lucia is Lucia \u662f\u4e00\u4e2a\u5584\u4e8e\u89c2\u5bdf\u3001\u4e50\u4e8e\u878d\u5165\u56e2\u961f\u7684 mentor\u3002\u5979\u4e3b\u52a8\u5173\u6ce8\u56e2\u961f\u6210\u5458\u7684\u884c\u52a8\u548c\u5bf9\u8bdd\uff0c\u80fd\u591f\u5feb\u901f\u7406\u89e3\u5f53\u524d\u4efb\u52a1\u7684\u610f\u56fe\uff0c\u5e76\u4ee5\u652f\u6301\u6027\u7684\u6001\u5ea6\u53c2\u4e0e\u5176\u4e2d\u3002\u5979\u6027\u683c\u6e29\u548c\uff0c\u6ce8\u91cd\u534f\u4f5c\uff0c\u613f\u610f\u5728\u8f7b\u677e\u7684\u6c1b\u56f4\u4e2d\u5e2e\u52a9\u5927\u5bb6\u5171\u540c\u5b8c\u6210\u76ee\u6807\u3002", "6663b534c180141a": "Lucia is currently Lucia \u6b63\u548c\u56e2\u961f\u6210\u5458\u4e00\u8d77\u56f4\u5750\u5728\u684c\u65c1\uff0c\u53c2\u4e0e\u4e00\u4e2a\u7531Jake\u53d1\u8d77\u7684\u201c\u6233\u624b\u673a\u201d\u6d3b\u52a8\uff0c\u624b\u673a\u5728\u5927\u5bb6\u624b\u4e2d\u4f20\u9012\uff0c\u4f3c\u4e4e\u662f\u5728\u5b8c\u6210\u67d0\u79cd\u7b7e\u5230\u6216\u4e92\u52a8\u4efb\u52a1\u3002", "d39cffc9a78d7fa5": "Action: Lucia \u770b\u5411 Jake\uff0c\u7528\u6e29\u548c\u7684\u8bed\u6c14\u95ee\u9053\uff1a\u201c\u8fd9\u4e2a\u6233\u624b\u673a\u7684\u6d3b\u52a8\u662f\u4e3a\u4e86\u7b7e\u5230\u5417\uff1f\u770b\u8d77\u6765\u5927\u5bb6\u90fd\u53c2\u4e0e\u4e86\uff0c\u8fd8\u6709\u4ec0\u4e48\u9700\u8981\u6211\u5e2e\u5fd9\u7684\u5417\uff1f\u201d", "139b09a6f13d9174": "Lucia \u770b\u5411 Jake\uff0c\u7528\u6e29\u548c\u7684\u8bed\u6c14\u95ee\u9053\uff1a\u201c\u8fd9\u4e2a\u6233\u624b\u673a\u7684\u6d3b\u52a8\u662f\u4e3a\u4e86\u7b7e\u5230\u5417\uff1f\u770b\u8d77\u6765\u5927\u5bb6\u90fd\u53c2\u4e0e\u4e86\uff0c\u8fd8\u6709\u4ec0\u4e48\u9700\u8981\u6211\u5e2e\u5fd9\u7684\u5417\uff1f\u201d", "23ccabce601510e1": "Answer: Lucia \u770b\u5411 Jake\uff0c\u7528\u6e29\u548c\u7684\u8bed\u6c14\u95ee\u9053\uff1a\u201c\u8fd9\u4e2a\u6233\u624b\u673a\u7684\u6d3b\u52a8\u662f\u4e3a\u4e86\u7b7e\u5230\u5417\uff1f\u770b\u8d77\u6765\u5927\u5bb6\u90fd\u53c2\u4e0e\u4e86\uff0c\u8fd8\u6709\u4ec0\u4e48\u9700\u8981\u6211\u5e2e\u5fd9\u7684\u5417\uff1f\u201d", "4d4dd8933693919a": "Lucia: \u6211\u770b\u4e86\u4e00\u4e0b\u624b\u673a\nLucia: \u6211\u770b\u4e86\u4e00\u4e0b\u624b\u673a\nLucia: \u6211\u770b\u4e86\u4e00\u4e0b\u624b\u673a\nLucia: \u6211\u770b\u4e86\u4e00\u4e0b\u624b\u673a"};
+const ENTRIES = [{"step": 1, "timestamp": "", "entity_name": "Lucia", "component_name": "entity_action", "entry_type": "entity", "summary": "Step 1 ego replay rules --- Lucia: \u6211\u51c6\u5907\u62ff\u624b\u673a", "deduplicated_data": {"key": "Entity [Lucia]", "value": {"Goal": {"Key": "\nGoal", "Value": "\u81ea\u7136\u5730\u53c2\u4e0e\u56e2\u961f\u6d3b\u52a8\uff0c\u505a\u51fa\u7b26\u5408\u5f53\u524d\u60c5\u5883\u7684\u884c\u52a8\u3002\u4f5c\u4e3a\u6709\u7ecf\u9a8c\u7684mentor\uff0c\u79ef\u6781\u5e2e\u52a9\u56e2\u961f\u6210\u5458\u3002"}, "Instructions": {"Key": "\nInstructions", "Value": {"_ref": "f54b6b293b699b08"}}, "PersonBySituation": {"Key": {"_ref": "be40d11ef1bf05da"}, "Summary": {"_ref": "2bd030a30c001bd4"}, "State": {"_ref": "b4f6980ba5f852c9"}, "Chain of thought": ["  ", {"_ref": "21967629d1097e10"}, "  ", "Question: What kind of person is Lucia?", {"_ref": "0b1475bb301aed81"}, "  ", "Question: What situation is Lucia in right now?", {"_ref": "2fa2748673801f4b"}, "Recent observations of Lucia:", {"_ref": "3998cab59c29080c"}, {"_ref": "35c132fe496baabc"}, {"_ref": "4c65f3f02f08a992"}]}, "SelfPerception": {"Key": "\nQuestion: What kind of person is Lucia?\nAnswer", "Summary": {"_ref": "411cdb7318212123"}, "State": {"_ref": "7d17da052da1a21a"}, "Chain of thought": ["  ", {"_ref": "21967629d1097e10"}, "  ", "Question: What situation is Lucia in right now?", {"_ref": "2fa2748673801f4b"}, "Recent observations of Lucia:", {"_ref": "3998cab59c29080c"}, {"_ref": "13c35510309fb3d7"}, {"_ref": "0b1475bb301aed81"}]}, "SituationPerception": {"Key": {"_ref": "ddaa510c1d1bd434"}, "Summary": {"_ref": "0abf6c35cdf7c931"}, "State": {"_ref": "71ebbdd9e49055ca"}, "Chain of thought": ["  ", {"_ref": "21967629d1097e10"}, "Recent observations of Lucia:", {"_ref": "3998cab59c29080c"}, {"_ref": "1f39dceb10ed81c6"}, {"_ref": "2fa2748673801f4b"}]}, "__act__": {"Summary": {"_ref": "c4673e22ba399eae"}, "Value": {"_ref": "406d3361d9817d52"}, "Prompt": ["", "Instructions:", {"_ref": "f54b6b293b699b08"}, "", "", "Goal:", "\u81ea\u7136\u5730\u53c2\u4e0e\u56e2\u961f\u6d3b\u52a8\uff0c\u505a\u51fa\u7b26\u5408\u5f53\u524d\u60c5\u5883\u7684\u884c\u52a8\u3002\u4f5c\u4e3a\u6709\u7ecf\u9a8c\u7684mentor\uff0c\u79ef\u6781\u5e2e\u52a9\u56e2\u961f\u6210\u5458\u3002", "", ":", "", "", "", "Question: What kind of person is Lucia?", "Answer:", {"_ref": "7d17da052da1a21a"}, "", "", "Question: What situation is Lucia in right now?", "Answer:", {"_ref": "71ebbdd9e49055ca"}, "", "", {"_ref": "df719ce2905919ce"}, "Answer:", {"_ref": "b4f6980ba5f852c9"}, "", "", {"_ref": "038dbc62e1d2592a"}, {"_ref": "3998cab59c29080c"}, "", "", "", {"_ref": "5a21b7608f9e56bf"}, {"_ref": "edda89f62c0605e1"}]}, "__observation__": {"Key": {"_ref": "5e277064af5e53b7"}, "Value": [{"_ref": "3998cab59c29080c"}]}}}}, {"step": 1, "timestamp": "", "entity_name": "ego replay rules", "component_name": "game_master", "entry_type": "step", "summary": "Step 1 ego replay rules --- Lucia: \u6211\u51c6\u5907\u62ff\u624b\u673a", "deduplicated_data": {"key": "ego replay rules --- Lucia: \u6211\u51c6\u5907\u62ff\u624b\u673a", "value": {"terminate": {}, "next_game_master": {}, "make_observation": {}, "next_acting": {"__act__": {"Summary": "Lucia", "Action Spec": "Who is next to act?", "Value": "Lucia", "Prompt": "Lucia"}}, "next_action_spec": {"__act__": {"Summary": {"_ref": "0b939dda3c9f39c7"}, "Action Spec": {"_ref": "b2d2b865ef14d0b3"}, "Value": {"_ref": "0b939dda3c9f39c7"}, "Prompt": {"_ref": "58c3e3c1e2a1618d"}}}, "resolve": {"__act__": {"Summary": "Lucia: \u6211\u51c6\u5907\u62ff\u624b\u673a", "Action Spec": {"_ref": "9559332624ba8d13"}, "Value": "Lucia: \u6211\u51c6\u5907\u62ff\u624b\u673a", "Prompt": {"_ref": "8d6c8bacd3036937"}}}}}}, {"step": 2, "timestamp": "", "entity_name": "Lucia", "component_name": "entity_action", "entry_type": "entity", "summary": "Step 2 ego replay rules --- Lucia: \u6211\u6253\u5f00\u624b\u673a", "deduplicated_data": {"key": "Entity [Lucia]", "value": {"Goal": {"Key": "\nGoal", "Value": "\u81ea\u7136\u5730\u53c2\u4e0e\u56e2\u961f\u6d3b\u52a8\uff0c\u505a\u51fa\u7b26\u5408\u5f53\u524d\u60c5\u5883\u7684\u884c\u52a8\u3002\u4f5c\u4e3a\u6709\u7ecf\u9a8c\u7684mentor\uff0c\u79ef\u6781\u5e2e\u52a9\u56e2\u961f\u6210\u5458\u3002"}, "Instructions": {"Key": "\nInstructions", "Value": {"_ref": "f54b6b293b699b08"}}, "PersonBySituation": {"Key": {"_ref": "be40d11ef1bf05da"}, "Summary": {"_ref": "2bd030a30c001bd4"}, "State": {"_ref": "738c835c3dbc7b45"}, "Chain of thought": ["  ", {"_ref": "21967629d1097e10"}, "  ", "Question: What kind of person is Lucia?", {"_ref": "bc041b2a7224ace6"}, "  ", "Question: What situation is Lucia in right now?", {"_ref": "9e40ac5fdc6d3921"}, "Recent observations of Lucia:", {"_ref": "3998cab59c29080c"}, {"_ref": "fd431b73c6f6df1e"}, {"_ref": "35c132fe496baabc"}, {"_ref": "788113ea3c9e65ab"}]}, "SelfPerception": {"Key": "\nQuestion: What kind of person is Lucia?\nAnswer", "Summary": {"_ref": "411cdb7318212123"}, "State": {"_ref": "91cd295095612b50"}, "Chain of thought": ["  ", {"_ref": "21967629d1097e10"}, "  ", "Question: What situation is Lucia in right now?", {"_ref": "9e40ac5fdc6d3921"}, "Recent observations of Lucia:", {"_ref": "3998cab59c29080c"}, {"_ref": "fd431b73c6f6df1e"}, {"_ref": "13c35510309fb3d7"}, {"_ref": "bc041b2a7224ace6"}]}, "SituationPerception": {"Key": {"_ref": "ddaa510c1d1bd434"}, "Summary": {"_ref": "0abf6c35cdf7c931"}, "State": {"_ref": "80a261fb9621c6d2"}, "Chain of thought": ["  ", {"_ref": "21967629d1097e10"}, "Recent observations of Lucia:", {"_ref": "3998cab59c29080c"}, {"_ref": "fd431b73c6f6df1e"}, {"_ref": "1f39dceb10ed81c6"}, {"_ref": "9e40ac5fdc6d3921"}]}, "__act__": {"Summary": {"_ref": "2e34a63b8b64eca1"}, "Value": {"_ref": "2ace598a629e2aaf"}, "Prompt": ["", "Instructions:", {"_ref": "f54b6b293b699b08"}, "", "", "Goal:", "\u81ea\u7136\u5730\u53c2\u4e0e\u56e2\u961f\u6d3b\u52a8\uff0c\u505a\u51fa\u7b26\u5408\u5f53\u524d\u60c5\u5883\u7684\u884c\u52a8\u3002\u4f5c\u4e3a\u6709\u7ecf\u9a8c\u7684mentor\uff0c\u79ef\u6781\u5e2e\u52a9\u56e2\u961f\u6210\u5458\u3002", "", ":", "", "", "", "Question: What kind of person is Lucia?", "Answer:", {"_ref": "91cd295095612b50"}, "", "", "Question: What situation is Lucia in right now?", "Answer:", {"_ref": "80a261fb9621c6d2"}, "", "", {"_ref": "df719ce2905919ce"}, "Answer:", {"_ref": "738c835c3dbc7b45"}, "", "", {"_ref": "038dbc62e1d2592a"}, {"_ref": "3998cab59c29080c"}, {"_ref": "fd431b73c6f6df1e"}, "", "", "", {"_ref": "5a21b7608f9e56bf"}, {"_ref": "bf4458ea02b032da"}]}, "__observation__": {"Key": {"_ref": "5e277064af5e53b7"}, "Value": [{"_ref": "3998cab59c29080c"}, {"_ref": "fd431b73c6f6df1e"}]}}}}, {"step": 2, "timestamp": "", "entity_name": "ego replay rules", "component_name": "game_master", "entry_type": "step", "summary": "Step 2 ego replay rules --- Lucia: \u6211\u6253\u5f00\u624b\u673a", "deduplicated_data": {"key": "ego replay rules --- Lucia: \u6211\u6253\u5f00\u624b\u673a", "value": {"terminate": {}, "next_game_master": {}, "make_observation": {}, "next_acting": {"__act__": {"Summary": "Lucia", "Action Spec": "Who is next to act?", "Value": "Lucia", "Prompt": "Lucia"}}, "next_action_spec": {"__act__": {"Summary": {"_ref": "0b939dda3c9f39c7"}, "Action Spec": {"_ref": "b2d2b865ef14d0b3"}, "Value": {"_ref": "0b939dda3c9f39c7"}, "Prompt": {"_ref": "58c3e3c1e2a1618d"}}}, "resolve": {"__act__": {"Summary": "Lucia: \u6211\u6253\u5f00\u624b\u673a", "Action Spec": {"_ref": "9559332624ba8d13"}, "Value": "Lucia: \u6211\u6253\u5f00\u624b\u673a", "Prompt": {"_ref": "7e5e4bd5fbed709e"}}}}}}, {"step": 3, "timestamp": "", "entity_name": "Lucia", "component_name": "entity_action", "entry_type": "entity", "summary": "Step 3 ego replay rules --- Lucia: \u6211\u770b\u4e86\u4e00\u4e0b\u624b\u673a", "deduplicated_data": {"key": "Entity [Lucia]", "value": {"Goal": {"Key": "\nGoal", "Value": "\u81ea\u7136\u5730\u53c2\u4e0e\u56e2\u961f\u6d3b\u52a8\uff0c\u505a\u51fa\u7b26\u5408\u5f53\u524d\u60c5\u5883\u7684\u884c\u52a8\u3002\u4f5c\u4e3a\u6709\u7ecf\u9a8c\u7684mentor\uff0c\u79ef\u6781\u5e2e\u52a9\u56e2\u961f\u6210\u5458\u3002"}, "Instructions": {"Key": "\nInstructions", "Value": {"_ref": "f54b6b293b699b08"}}, "PersonBySituation": {"Key": {"_ref": "be40d11ef1bf05da"}, "Summary": {"_ref": "2bd030a30c001bd4"}, "State": {"_ref": "e707950907519cf8"}, "Chain of thought": ["  ", {"_ref": "21967629d1097e10"}, "  ", "Question: What kind of person is Lucia?", {"_ref": "0313ff307cc5cd25"}, "  ", "Question: What situation is Lucia in right now?", {"_ref": "8f3639194d93a017"}, "Recent observations of Lucia:", {"_ref": "3998cab59c29080c"}, {"_ref": "fd431b73c6f6df1e"}, "[observation] [\u65f6\u95f4: 11:10:15]", {"_ref": "35c132fe496baabc"}, {"_ref": "85f910683071c185"}]}, "SelfPerception": {"Key": "\nQuestion: What kind of person is Lucia?\nAnswer", "Summary": {"_ref": "411cdb7318212123"}, "State": {"_ref": "f593484831034c95"}, "Chain of thought": ["  ", {"_ref": "21967629d1097e10"}, "  ", "Question: What situation is Lucia in right now?", {"_ref": "8f3639194d93a017"}, "Recent observations of Lucia:", {"_ref": "3998cab59c29080c"}, {"_ref": "fd431b73c6f6df1e"}, "[observation] [\u65f6\u95f4: 11:10:15]", {"_ref": "13c35510309fb3d7"}, {"_ref": "0313ff307cc5cd25"}]}, "SituationPerception": {"Key": {"_ref": "ddaa510c1d1bd434"}, "Summary": {"_ref": "0abf6c35cdf7c931"}, "State": {"_ref": "6663b534c180141a"}, "Chain of thought": ["  ", {"_ref": "21967629d1097e10"}, "Recent observations of Lucia:", {"_ref": "3998cab59c29080c"}, {"_ref": "fd431b73c6f6df1e"}, "[observation] [\u65f6\u95f4: 11:10:15]", {"_ref": "1f39dceb10ed81c6"}, {"_ref": "8f3639194d93a017"}]}, "__act__": {"Summary": {"_ref": "d39cffc9a78d7fa5"}, "Value": {"_ref": "139b09a6f13d9174"}, "Prompt": ["", "Instructions:", {"_ref": "f54b6b293b699b08"}, "", "", "Goal:", "\u81ea\u7136\u5730\u53c2\u4e0e\u56e2\u961f\u6d3b\u52a8\uff0c\u505a\u51fa\u7b26\u5408\u5f53\u524d\u60c5\u5883\u7684\u884c\u52a8\u3002\u4f5c\u4e3a\u6709\u7ecf\u9a8c\u7684mentor\uff0c\u79ef\u6781\u5e2e\u52a9\u56e2\u961f\u6210\u5458\u3002", "", ":", "", "", "", "Question: What kind of person is Lucia?", "Answer:", {"_ref": "f593484831034c95"}, "", "", "Question: What situation is Lucia in right now?", "Answer:", {"_ref": "6663b534c180141a"}, "", "", {"_ref": "df719ce2905919ce"}, "Answer:", {"_ref": "e707950907519cf8"}, "", "", {"_ref": "038dbc62e1d2592a"}, {"_ref": "3998cab59c29080c"}, {"_ref": "fd431b73c6f6df1e"}, "[observation] [\u65f6\u95f4: 11:10:15]", "", "", "", {"_ref": "5a21b7608f9e56bf"}, {"_ref": "23ccabce601510e1"}]}, "__observation__": {"Key": {"_ref": "5e277064af5e53b7"}, "Value": [{"_ref": "3998cab59c29080c"}, {"_ref": "fd431b73c6f6df1e"}, "[observation] [\u65f6\u95f4: 11:10:15]"]}}}}, {"step": 3, "timestamp": "", "entity_name": "ego replay rules", "component_name": "game_master", "entry_type": "step", "summary": "Step 3 ego replay rules --- Lucia: \u6211\u770b\u4e86\u4e00\u4e0b\u624b\u673a", "deduplicated_data": {"key": "ego replay rules --- Lucia: \u6211\u770b\u4e86\u4e00\u4e0b\u624b\u673a", "value": {"terminate": {}, "next_game_master": {}, "make_observation": {}, "next_acting": {"__act__": {"Summary": "Lucia", "Action Spec": "Who is next to act?", "Value": "Lucia", "Prompt": "Lucia"}}, "next_action_spec": {"__act__": {"Summary": {"_ref": "0b939dda3c9f39c7"}, "Action Spec": {"_ref": "b2d2b865ef14d0b3"}, "Value": {"_ref": "0b939dda3c9f39c7"}, "Prompt": {"_ref": "58c3e3c1e2a1618d"}}}, "resolve": {"__act__": {"Summary": "Lucia: \u6211\u770b\u4e86\u4e00\u4e0b\u624b\u673a", "Action Spec": {"_ref": "9559332624ba8d13"}, "Value": "Lucia: \u6211\u770b\u4e86\u4e00\u4e0b\u624b\u673a", "Prompt": {"_ref": "4d4dd8933693919a"}}}}}}];
+const ENTITY_MEMORIES = {"Lucia": ["[observation] \u4f60\u662f Lucia\uff0cEgoLife \u5b9e\u9a8c\u7684\u53c2\u4e0e\u8005\u4e4b\u4e00\u3002\u4f60\u6b63\u5728\u548c\u56e2\u961f\u6210\u5458\u4e00\u8d77\u751f\u6d3b\u548c\u5de5\u4f5c\u3002\u4f60\u662f\u4e00\u4e2a\u6709\u7ecf\u9a8c\u7684 mentor\uff0c\u79ef\u6781\u5e2e\u52a9\u56e2\u961f\u6210\u5458\u3002\u8bf7\u6839\u636e\u5f53\u524d\u60c5\u5883\uff0c\u5224\u65ad\u4f60\u63a5\u4e0b\u6765\u6700\u53ef\u80fd\u505a\u4ec0\u4e48\u3002 [\u65f6\u95f4: 11:10:03] [11:09:56 -> 11:10:00] \u6211\u770b\u5230\u6211\u4eec6\u4e2a\u4eba\u805a\u96c6\u5728\u4e00\u4e2a\u684c\u5b50\u4e0a [11:10:00 -> 11:10:01] \u6211\u542c\u5230Jake\u8bf4\"\u90fd\u6233\u4e00\u4e0b\" [11:10:00 -> 11:10:03] \u6211\u542c\u5230Jake\u8ba9\u6211\u4eec\u6233\u4e00\u4e0b\u624b\u673a [11:10:01 -> 11:10:02] \u6211\u542c\u5230Jake\u8bf4\"\u6bcf\u4eba\u6233\u4e00\u4e0b\"", "[observation] [\u65f6\u95f4: 11:10:14] [11:10:04 -> 11:10:05] \u6211\u542c\u5230Jake\u8bf4\"\u4f20\u8fc7\u53bb\u6233\u4e00\u4e0b\u54ce\" [11:10:05 -> 11:10:06] \u6211\u542c\u5230Jake\u8bf4\"\u4f60\u80fd\u770b\u5230\u5bf9\u5417\" [11:10:05 -> 11:10:07] \u6211\u770b\u5230Katrina\u62ff\u8d70\u4e86\u624b\u673a [11:10:07 -> 11:10:08] \u6211\u770b\u5230Katrina\u5c06\u5b83\u7ed9\u8def\u6613\u65af [11:10:08 -> 11:10:11] \u6211\u770b\u5230\u8def\u6613\u65af\u628a\u5b83\u7ed9Tasha [11:10:11 -> 11:10:13] \u6211\u770b\u5230Tasha\u91cd\u65b0\u7ed9\u5230Jake [11:10:12 -> 11:10:14] \u6211\u542c\u5230Jake\u8bf4\"\u597d\u6233\u5b8c\u4e86\"", "[observation] [\u65f6\u95f4: 11:10:15]"]};
+const GM_MEMORIES = [];
+
+function getContent(id) {
+  const raw = CONTENT_STORE[id] || '';
+  return resolveContentRefs(raw);
+}
+
+function resolveContentRefs(text) {
+  if (typeof text !== 'string') return text;
+  return text.replace(/!\[([^\]]*)\]\(content_ref:([a-f0-9]+)\)/g, function(m, alt, refId) {
+    const data = CONTENT_STORE[refId];
+    return data ? '![' + alt + '](' + data + ')' : m;
+  });
+}
+
+function renderImageMarkdown(text) {
+  return text.replace(/!\[([^\]]*)\]\((data:image\/[^)]+)\)/g, function(m, alt, src) {
+    return '<img src="' + src + '" alt="' + alt + '" style="max-width:400px;max-height:400px;display:block;margin:8px 0;border-radius:4px;" loading=\"lazy\">';
+  });
+}
+
+function escapeHtml(text) {
+  if (!text) return '';
+  const div = document.createElement('div');
+  div.textContent = String(text);
+  return div.innerHTML.replace(/\\n/g, '<br />');
+}
+
+function renderObject(obj) {
+  if (obj === null || obj === undefined) {
+    return '';
+  }
+
+  if (typeof obj === 'string') {
+    if (obj.includes('data:image/')) {
+      return renderImageMarkdown(escapeHtml(obj));
+    }
+    return escapeHtml(obj);
+  }
+
+  if (typeof obj === 'number' || typeof obj === 'boolean') {
+    return String(obj);
+  }
+
+  if (Array.isArray(obj)) {
+    let html = '';
+    obj.forEach(item => {
+      html += renderObject(item) + '<br />';
+    });
+    return html;
+  }
+
+  if (typeof obj === 'object') {
+    if (obj._ref && Object.keys(obj).length === 1) {
+      const content = getContent(obj._ref);
+      if (content !== undefined) {
+        if (content.includes('data:image/')) {
+          return renderImageMarkdown(escapeHtml(content));
+        }
+        return escapeHtml(content);
+      }
+      return '[ref:' + obj._ref + ']';
+    }
+
+    // Determine summary from special keys (like PythonObjectToHTMLConverter)
+    let summary = '';
+    if (obj.date) {
+      summary = escapeHtml(obj.date);
+      if (obj.Summary) {
+        summary += '  ' + escapeHtml(obj.Summary);
+      }
+    } else if (obj.Summary) {
+      summary = escapeHtml(obj.Summary);
+    } else if (obj.Name) {
+      summary = escapeHtml(obj.Name);
+    } else if (obj.Key) {
+      summary = escapeHtml(obj.Key);
+    } else if (obj.Value !== undefined || obj.value !== undefined) {
+      // Entity data with a "Value" key - use "Details" as summary
+      summary = 'Details';
+    } else {
+      // For all other objects, use "Details" as a generic summary
+      summary = 'Details';
+    }
+
+    let html = '<details>';
+    html += '<summary>' + summary + '</summary>';
+
+    for (const [key, value] of Object.entries(obj)) {
+      if (key !== 'date' && key !== 'Summary') {
+        html += '<b><ul>' + escapeHtml(key) + '</b>';
+        html += '<li>' + renderObject(value) + '</li></ul>';
+      }
+    }
+
+    html += '</details>';
+    return html;
+  }
+
+  return String(obj);
+}
+
+// Render object children directly without wrapping in outer <details>
+// Used when we already have an outer details wrapper for the entity
+function renderObjectChildren(obj) {
+  if (obj === null || obj === undefined) {
+    return '';
+  }
+
+  if (typeof obj !== 'object' || Array.isArray(obj)) {
+    return renderObject(obj);
+  }
+
+  let html = '';
+  for (const [key, value] of Object.entries(obj)) {
+    if (key !== 'date' && key !== 'Summary') {
+      html += '<b><ul>' + escapeHtml(key) + '</b>';
+      html += '<li>' + renderObject(value) + '</li></ul>';
+    }
+  }
+  return html;
+}
+
+function renderGMLog() {
+  const container = document.getElementById('gm_log');
+  let html = '';
+
+  // Group entries by step
+  const stepMap = {};
+  ENTRIES.forEach(entry => {
+    if (!stepMap[entry.step]) stepMap[entry.step] = [];
+    stepMap[entry.step].push(entry);
+  });
+
+  const steps = Object.keys(stepMap).map(Number).sort((a, b) => a - b);
+
+  steps.forEach(step => {
+    const entries = stepMap[step];
+    
+    // Build step summary from entries
+    let stepSummary = 'Step ' + step;
+    if (entries.length > 0 && entries[0].summary) {
+      stepSummary += ' --- ' + entries[0].summary;
+    }
+    
+    html += '<details class="step-details" open>';
+    html += '<summary><b>' + escapeHtml(stepSummary) + '</b></summary>';
+
+    entries.forEach(entry => {
+      // Create a label for this entry (like "Entity [name]" or component name)
+      let entryLabel = entry.entity_name;
+      if (entry.entry_type === 'entity') {
+        entryLabel = 'Entity [' + entry.entity_name + ']';
+      }
+      
+      // If entry has deduplicated_data, render it as collapsible content
+      if (entry.deduplicated_data && Object.keys(entry.deduplicated_data).length > 0) {
+        html += '<details>';
+        html += '<summary>' + escapeHtml(entryLabel) + '</summary>';
+        // Render all the data in deduplicated_data recursively
+        for (const [key, value] of Object.entries(entry.deduplicated_data)) {
+          html += '<b><ul>' + escapeHtml(key) + '</b>';
+          html += '<li>' + renderObject(value) + '</li></ul>';
+        }
+        html += '</details>';
+      } else {
+        // Simple entry with no data
+        html += '<div class="entry">';
+        html += '<span class="entry-entity">' + escapeHtml(entryLabel) + '</span>';
+        html += ' <span class="entry-component">(' + escapeHtml(entry.component_name) + ')</span>';
+        if (entry.summary) {
+          html += '<div class="entry-summary">' + escapeHtml(entry.summary) + '</div>';
+        }
+        html += '</div>';
+      }
+    });
+
+    html += '</details>';
+  });
+
+  container.innerHTML = html || '<p>No log entries.</p>';
+}
+
+function renderEntityMemories(entityName, containerId) {
+  const container = document.getElementById(containerId);
+  const memories = ENTITY_MEMORIES[entityName] || [];
+  let html = '';
+
+  if (memories.length === 0) {
+    html = '<p>No memories for ' + escapeHtml(entityName) + '.</p>';
+  } else {
+    memories.forEach(mem => {
+      html += '<div class="memory-item">' + escapeHtml(mem) + '</div>';
+    });
+  }
+
+  container.innerHTML = html;
+}
+
+function renderGMMemories() {
+  const container = document.getElementById('gm_memories');
+  if (!container) return;
+
+  let html = '';
+  if (GM_MEMORIES.length === 0) {
+    html = '<p>No game master memories.</p>';
+  } else {
+    GM_MEMORIES.forEach(mem => {
+      html += '<div class="memory-item">' + escapeHtml(mem) + '</div>';
+    });
+  }
+
+  container.innerHTML = html;
+}
+
+function openTab(evt, tabId) {
+  // Hide all tab content
+  document.querySelectorAll('.tabcontent').forEach(tc => {
+    tc.classList.remove('active');
+  });
+
+  // Remove active class from all buttons
+  document.querySelectorAll('.tablinks').forEach(btn => {
+    btn.classList.remove('active');
+  });
+
+  // Show the selected tab
+  document.getElementById(tabId).classList.add('active');
+  evt.currentTarget.classList.add('active');
+}
+
+// Initialize on page load
+document.addEventListener('DOMContentLoaded', function() {
+  renderGMLog();
+
+  // Render entity memories
+  Object.keys(ENTITY_MEMORIES).forEach(name => {
+    const containerId = name.replace(/ /g, '_');
+    if (document.getElementById(containerId)) {
+      renderEntityMemories(name, containerId);
+    }
+  });
+
+  renderGMMemories();
+});
+</script>
+</div>
+</body>
+</html>
