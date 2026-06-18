@@ -13,7 +13,7 @@
 
 2. 用 concordia/generative agents模拟egolife/自己的数据，在相同环境下会有怎样的走向，以及对于几个月的长期模拟，小人是否会走向模式重复。在金融危机/世界战争之前模拟，能否复现历史上重大转折
 
-#汇报文档
+# 汇报文档
 
 https://l0uyw787c0z.feishu.cn/wiki/KASFwMqcdiwE2ykNnwDcQDNinD5
 
