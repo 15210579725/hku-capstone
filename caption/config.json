@@ -1,0 +1,17 @@
+{
+  "_说明": "填入 HF token 和 Google Cloud 配置后即可使用",
+  "_步骤": [
+    "1. 在 https://huggingface.co/settings/tokens 生成 READ token，填入 hf_token",
+    "2. 安装 gcloud CLI，运行 gcloud auth application-default login",
+    "3. 在 Google Cloud Console 创建项目，启用 Vertex AI API",
+    "4. 将项目 ID 填入 google_project"
+  ],
+  "hf_token": "",
+  "google_project": "",
+  "google_location": "global",
+  "model": "gemini-3.7-flash",
+  "output_dir": "./caption_output",
+  "workers": 3,
+  "clip_seconds": 30,
+  "rounds": 3
+}

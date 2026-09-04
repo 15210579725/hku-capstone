@@ -1,0 +1,12 @@
+numpy>=1.24
+Pillow>=9.0
+requests>=2.28
+huggingface_hub>=0.20
+google-genai>=1.0
+
+# 可选：语音活动检测（提升语音时间戳精度，无 GPU 也可运行）
+# torch>=2.0
+# silero-vad>=5.0
+
+# 可选：GCS 中转（payload 超 20MB 时的兜底，一般不需要）
+# google-cloud-storage>=2.10
