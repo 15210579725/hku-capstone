@@ -47,25 +47,19 @@ pip install -r requirements.txt
 
 ### 2. 配置 API
 
-编辑 `config.json`，填入你选择的平台 API key：
+`config.json` 已预填可用的 API key，**无需额外配置即可直接运行**。
 
-```json
-{
-  "embedding": {
-    "api_key": "你的 SiliconFlow API Key",
-    "base_url": "https://api.siliconflow.com/v1",
-    "model": "Qwen/Qwen3-Embedding-8B",
-    "dimensions": 4096
-  },
-  "judge": {
-    "api_key": "你的 RightCode API Key",
-    "base_url": "https://www.right.codes/gemini/v1",
-    "model": "gemini-3.7-flash"
-  }
-}
-```
+> **⚠️ 额度说明**
+> - 预填的 key 使用的是项目组的限量额度，可能会用完。
+> - 如果遇到 `401 Unauthorized` 或额度耗尽的报错，需要自行注册并充值：
+>   - **Embedding**: 访问 https://cloud.siliconflow.com 注册，免费额度通常足够。
+>   - **LLM Judge**: 访问 https://www.right.codes 注册并充值（付费）。
+> - 替换为自己的 key 后即可继续使用。
 
-**LLM Judge 使用 Gemini-3.7-flash**，通过 RightCode 中转站访问（**付费**）。注册: https://www.right.codes ，充值后在控制台获取 API Key。
+> **💡 直接调用 API**
+> 拿到这两个 API 后，除了评测，你也可以直接调用它们做其他事：
+> - **Embedding API** (SiliconFlow): 兼容 OpenAI 接口，可直接用 `openai` SDK 调用 `Qwen/Qwen3-Embedding-8B` 生成文本向量，做检索/聚类/相似度计算等。
+> - **LLM API** (RightCode): 兼容 OpenAI 接口，可直接调用 `gemini-3.7-flash` 做文本生成、分析、翻译等任意 LLM 任务。
 
 只用一种方法的话，另一种 `api_key` 留空即可。
 
@@ -120,17 +114,17 @@ python evaluate.py -i predictions.jsonl --dry-run
 | 阿里云百炼 (DashScope) | text-embedding-v3 | base_url 改为 `https://dashscope.aliyuncs.com/compatible-mode/v1`，config 中 `instruction` 设为空字符串 |
 | OpenAI | text-embedding-3-small | config 中 `instruction` 设为空字符串，`dimensions` 设为 1536 |
 
-**SiliconFlow 注册**: 访问 https://cloud.siliconflow.cn 注册账号，在控制台创建 API Key。
+**SiliconFlow 注册**: 访问 https://cloud.siliconflow.com 注册账号，在控制台创建 API Key。注册即送免费额度。
 
 ### LLM Judge 平台
 
-默认模型为 **Gemini-3.7-flash**（在我们的 350 点基准上排序准确率最高）。通过 **RightCode 中转站**访问，**付费**。
+默认模型为 **Gemini-3.7-flash**（在我们的 350 点基准上排序准确率最高）。通过 **RightCode 中转站**访问，**付费**。config.json 已预填可用 key。
 
 | 中转站 | 说明 | config 配置 |
 |--------|------|------------|
 | **[RightCode](https://www.right.codes)** ★推荐 | 支持 Gemini / GPT / Claude 等多家模型 | base_url: `https://www.right.codes/gemini/v1`，model: `gemini-3.7-flash` |
 
-注册后充值，在控制台获取 API Key 填入 `config.json` 的 `judge.api_key`。
+额度用完后，注册 RightCode 充值，在控制台获取新 API Key 替换 `config.json` 的 `judge.api_key`。
 
 **备选模型** (如不想用 RightCode):
 
