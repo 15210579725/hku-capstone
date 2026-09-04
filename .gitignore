@@ -8,6 +8,8 @@
 old_file/
 _server_edit/
 .playwright-mcp/
+emotion-probe/
+simulation-env/
 
 # ---- 虚拟环境 ----
 .venv/
@@ -52,14 +54,7 @@ models--*/
 *.tgz
 *.7z
 
-# ---- 项目特定:海量仿真数据 / 大型中间产物(非代码,需另行生成)----
-# 生成式智能体仿真回放(每步一个 JSON,约 1GB);保留 base_ 启动模板
-simulation-env/Generative Agents/official_repo/environment/frontend_server/storage/*
-!simulation-env/Generative Agents/official_repo/environment/frontend_server/storage/base_the_ville_isabella_maria_klaus/
-!simulation-env/Generative Agents/official_repo/environment/frontend_server/storage/base_the_ville_n25/
-simulation-env/Generative Agents/official_repo/environment/frontend_server/compressed_storage/
-# EmotionCircuits 神经元贡献度大表(每个 ~26MB)
-**/04_local_components_identification/mlp_neurons/contrib_mean_*.csv
+# ---- 项目特定:大型中间产物(非代码,需另行生成)----
 
 # ---- 操作系统 / 编辑器 ----
 .DS_Store
