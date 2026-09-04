@@ -1,0 +1,22 @@
+{
+  "_说明": "将对应方法的 api_key 填入即可使用。留空则跳过该方法。",
+
+  "embedding": {
+    "_推荐": "SiliconFlow (硅基流动): 免费额度大，Qwen3-Embedding-8B 在我们基准上效果最佳",
+    "api_key": "",
+    "base_url": "https://api.siliconflow.com/v1",
+    "model": "Qwen/Qwen3-Embedding-8B",
+    "dimensions": 4096,
+    "batch_size": 32,
+    "instruction": "Represent the sentence primarily by its core action verb and the object being acted on. Prioritize verb-object alignment and downweight modifiers, tense, style, and incidental context."
+  },
+
+  "judge": {
+    "_推荐": "RightCode 中转站，支持 Gemini-3.7-flash。注册: https://www.right.codes",
+    "api_key": "",
+    "base_url": "https://www.right.codes/gemini/v1",
+    "model": "gemini-3.7-flash"
+  },
+
+  "concurrency": 10
+}
