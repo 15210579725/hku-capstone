@@ -41,6 +41,27 @@ python run_pipeline.py run --tar aria/xxx.tar --max-clips 3  # 冒烟测试
 
 详见 [caption/README.md](caption/README.md)。
 
+### 已交付 Caption 数据
+
+可直接用于分析的 caption 结果位于 [`caption-result/`](caption-result/)。本批包含 24 条录制；每条录制目录内有：
+
+- `captions.jsonl`：逐 clip 的结构化结果，推荐程序读取；每行一个 JSON，包含 `clip_id`、HKT 时间范围、`scene_summary`、`activity_chain`、`segments`、`speech`、`text_visible` 以及 `has_pass2` 等字段。
+- `captions.txt`：便于人工快速浏览的纯文本版本。
+
+批次概况和每条录制的完成覆盖率见 [`caption-result/index.json`](caption-result/index.json)。注意：`index.json` 中的 `clips_done` / `coverage` 是交付时的实际统计，部分长录制只完成了部分 clip，分析时请按 JSONL 中的记录数和 `ok` 字段筛选。
+
+最小读取示例：
+
+```python
+import json
+from pathlib import Path
+
+for path in Path("caption-result").glob("*/captions.jsonl"):
+    rows = [json.loads(line) for line in path.read_text().splitlines() if line.strip()]
+    rows = [row for row in rows if row.get("ok")]
+    print(path.parent.name, len(rows), rows[0]["scene_summary"] if rows else "")
+```
+
 ---
 
 ## metric/ — 行为预测评测
