@@ -1,0 +1,135 @@
+DSF v3 Round-1 Clean Report
+Scope: same-second collapse; clearly corrupted overlong timestamps; high-level events crossing >=30s without L1 coverage; parser debris / malformed quotes / pronoun artifacts.
+
+Files changed: 112
+Alice day2 shifted-end block repaired: 329 L1 records
+Shure day6 collapsed L1 reconstructed: 452 records
+High-level gap-crossing events split: 33
+Text fixes: {"leading_debris": 1261, "bad_quote_manual": 9, "pronoun_我让我": 66, "embedded_timestamp_recovered": 8}
+Manual/high-confidence time fixes logged: 356
+
+Validation after cleaning:
+- parse_errors: 0
+- leading_debris: 0
+- embedded_timestamp: 0
+- odd_ascii_quote: 0
+- bad_pronoun: 0
+- same_exact_cluster_ge20: 0
+- cross_gap_events: 0
+- counts: {'L2': 137241, 'L3': 43516, 'L5': 1472, 'L1': 633227, 'L4': 7432}
+
+Important reconstruction note: Shure day6 20:25:51-20:35:53 had 452 L1 captions collapsed onto 20:20:25. Caption order/content were preserved. Time was rebuilt by manually aligning semantic blocks to the existing L2 anchors in chunk_41; exact per-atom seconds inside each block are inferred, not recovered from raw sensor timestamps.
+
+Changed files:
+- A1_JAKE/L1/day1/events.txt
+- A1_JAKE/L1/day2/events.txt
+- A1_JAKE/L1/day4/events.txt
+- A1_JAKE/L1/day5/events.txt
+- A1_JAKE/L1/day6/events.txt
+- A1_JAKE/L1/day7/events.txt
+- A1_JAKE/L2/day1/events.txt
+- A1_JAKE/L2/day2/events.txt
+- A1_JAKE/L2/day3/events.txt
+- A1_JAKE/L2/day4/events.txt
+- A1_JAKE/L2/day5/events.txt
+- A1_JAKE/L2/day6/events.txt
+- A1_JAKE/L2/day7/events.txt
+- A1_JAKE/L3/day1/events.txt
+- A1_JAKE/L3/day2/events.txt
+- A1_JAKE/L3/day4/events.txt
+- A1_JAKE/L3/day5/events.txt
+- A1_JAKE/L3/day6/events.txt
+- A1_JAKE/L3/day7/events.txt
+- A1_JAKE/L4/day1/events.txt
+- A1_JAKE/L4/day4/events.txt
+- A1_JAKE/L4/day7/events.txt
+- A1_JAKE/L5/day4/events.txt
+- A1_JAKE/L5/day7/events.txt
+- A2_ALICE/L1/day1/events.txt
+- A2_ALICE/L1/day2/events.txt
+- A2_ALICE/L1/day3/events.txt
+- A2_ALICE/L1/day6/events.txt
+- A2_ALICE/L1/day7/events.txt
+- A2_ALICE/L2/day1/events.txt
+- A2_ALICE/L2/day2/events.txt
+- A2_ALICE/L2/day3/events.txt
+- A2_ALICE/L2/day4/events.txt
+- A2_ALICE/L2/day5/events.txt
+- A2_ALICE/L2/day6/events.txt
+- A2_ALICE/L2/day7/events.txt
+- A2_ALICE/L3/day2/events.txt
+- A2_ALICE/L3/day3/events.txt
+- A2_ALICE/L3/day4/events.txt
+- A2_ALICE/L3/day5/events.txt
+- A2_ALICE/L3/day6/events.txt
+- A2_ALICE/L3/day7/events.txt
+- A2_ALICE/L4/day3/events.txt
+- A2_ALICE/L4/day4/events.txt
+- A2_ALICE/L4/day7/events.txt
+- A2_ALICE/L5/day3/events.txt
+- A2_ALICE/L5/day4/events.txt
+- A3_TASHA/L1/day2/events.txt
+- A3_TASHA/L1/day4/events.txt
+- A3_TASHA/L2/day2/events.txt
+- A3_TASHA/L2/day3/events.txt
+- A3_TASHA/L2/day4/events.txt
+- A3_TASHA/L2/day7/events.txt
+- A3_TASHA/L3/day2/events.txt
+- A3_TASHA/L3/day4/events.txt
+- A3_TASHA/L3/day5/events.txt
+- A3_TASHA/L3/day7/events.txt
+- A3_TASHA/L4/day4/events.txt
+- A3_TASHA/L4/day5/events.txt
+- A3_TASHA/L4/day7/events.txt
+- A3_TASHA/L5/day4/events.txt
+- A3_TASHA/L5/day5/events.txt
+- A3_TASHA/L5/day7/events.txt
+- A4_LUCIA/L1/day1/events.txt
+- A4_LUCIA/L1/day2/events.txt
+- A4_LUCIA/L1/day3/events.txt
+- A4_LUCIA/L1/day4/events.txt
+- A4_LUCIA/L1/day5/events.txt
+- A4_LUCIA/L1/day7/events.txt
+- A4_LUCIA/L2/day1/events.txt
+- A4_LUCIA/L2/day2/events.txt
+- A4_LUCIA/L2/day4/events.txt
+- A4_LUCIA/L2/day5/events.txt
+- A4_LUCIA/L2/day7/events.txt
+- A4_LUCIA/L3/day2/events.txt
+- A4_LUCIA/L3/day4/events.txt
+- A4_LUCIA/L3/day5/events.txt
+- A4_LUCIA/L4/day4/events.txt
+- A4_LUCIA/L4/day5/events.txt
+- A5_KATRINA/L1/day4/events.txt
+- A5_KATRINA/L1/day5/events.txt
+- A5_KATRINA/L1/day6/events.txt
+- A5_KATRINA/L2/day2/events.txt
+- A5_KATRINA/L2/day3/events.txt
+- A5_KATRINA/L2/day4/events.txt
+- A5_KATRINA/L2/day5/events.txt
+- A5_KATRINA/L2/day6/events.txt
+- A5_KATRINA/L3/day1/events.txt
+- A5_KATRINA/L3/day3/events.txt
+- A5_KATRINA/L3/day4/events.txt
+- A5_KATRINA/L3/day5/events.txt
+- A5_KATRINA/L3/day6/events.txt
+- A5_KATRINA/L4/day6/events.txt
+- A5_KATRINA/L4/day7/events.txt
+- A5_KATRINA/L5/day1/events.txt
+- A5_KATRINA/L5/day6/events.txt
+- A6_SHURE/L1/day2/events.txt
+- A6_SHURE/L1/day3/events.txt
+- A6_SHURE/L1/day5/events.txt
+- A6_SHURE/L1/day6/events.txt
+- A6_SHURE/L2/day2/events.txt
+- A6_SHURE/L2/day4/events.txt
+- A6_SHURE/L2/day5/events.txt
+- A6_SHURE/L2/day6/events.txt
+- A6_SHURE/L2/day7/events.txt
+- A6_SHURE/L3/day4/events.txt
+- A6_SHURE/L3/day5/events.txt
+- A6_SHURE/L3/day7/events.txt
+- A6_SHURE/L4/day4/events.txt
+- A6_SHURE/L4/day6/events.txt
+- A6_SHURE/L5/day3/events.txt
+- A6_SHURE/L5/day4/events.txt

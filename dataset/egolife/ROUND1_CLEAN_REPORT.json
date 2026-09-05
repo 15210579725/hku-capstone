@@ -1,0 +1,3046 @@
+{
+  "text_fixes": {
+    "leading_debris": 1261,
+    "bad_quote_manual": 9,
+    "pronoun_我让我": 66,
+    "embedded_timestamp_recovered": 8
+  },
+  "time_fixes": [
+    {
+      "file": "A5_KATRINA/L2/day5/events.txt",
+      "old": "18:53:08->18:53:17",
+      "new": "18:53:24->18:53:26",
+      "reason": "embedded timestamp recovery"
+    },
+    {
+      "file": "A5_KATRINA/L2/day5/events.txt",
+      "old": "18:55:08->18:55:20",
+      "new": "18:55:36->18:55:42",
+      "reason": "embedded timestamp recovery"
+    },
+    {
+      "file": "A5_KATRINA/L2/day5/events.txt",
+      "old": "18:59:10->18:59:21",
+      "new": "18:59:27->18:59:29",
+      "reason": "embedded timestamp recovery"
+    },
+    {
+      "file": "A5_KATRINA/L3/day5/events.txt",
+      "old": "18:54:39->18:55:03",
+      "new": "18:55:36->18:55:42",
+      "reason": "embedded timestamp recovery"
+    },
+    {
+      "file": "A5_KATRINA/L3/day5/events.txt",
+      "old": "18:55:28->18:55:57",
+      "new": "18:56:00->18:56:06",
+      "reason": "embedded timestamp recovery"
+    },
+    {
+      "file": "A5_KATRINA/L3/day5/events.txt",
+      "old": "18:56:12->18:56:28",
+      "new": "18:56:33->18:56:35",
+      "reason": "embedded timestamp recovery"
+    },
+    {
+      "file": "A5_KATRINA/L3/day5/events.txt",
+      "old": "18:59:38->19:00:02",
+      "new": "19:00:10->19:00:23",
+      "reason": "embedded timestamp recovery"
+    },
+    {
+      "file": "A5_KATRINA/L3/day5/events.txt",
+      "old": "19:00:02->19:00:15",
+      "new": "19:00:18->19:00:23",
+      "reason": "embedded timestamp recovery"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我继续在跟他们聊天",
+      "old": "10:56:57->11:00:00",
+      "new": "10:56:57->10:57:00",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我一边躺在椅子上",
+      "old": "10:57:01->11:00:03",
+      "new": "10:57:01->10:57:03",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Katrina说\"我的未来事业\"",
+      "old": "10:57:02->11:00:03",
+      "new": "10:57:02->10:57:03",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Tasha说\"可以没事\"",
+      "old": "10:57:02->11:00:03",
+      "new": "10:57:02->10:57:03",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我一边在跟他们聊天",
+      "old": "10:57:03->11:00:04",
+      "new": "10:57:03->10:57:04",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我很表示认可他们的话",
+      "old": "10:57:06->11:00:09",
+      "new": "10:57:06->10:57:09",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Tasha说\"上锅\"",
+      "old": "10:57:07->11:00:08",
+      "new": "10:57:07->10:57:08",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我看到Tasha在看手机",
+      "old": "10:57:09->11:00:11",
+      "new": "10:57:09->10:57:11",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Lucia说\"53号楼\"",
+      "old": "10:57:11->11:00:12",
+      "new": "10:57:11->10:57:12",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我拿起本子",
+      "old": "10:57:11->11:00:13",
+      "new": "10:57:11->10:57:13",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我把他放远了一点",
+      "old": "10:57:13->11:00:15",
+      "new": "10:57:13->10:57:15",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我接着看着Tasha",
+      "old": "10:57:16->11:00:18",
+      "new": "10:57:16->10:57:18",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我看到Tasha依然在看手机",
+      "old": "10:57:18->11:00:19",
+      "new": "10:57:18->10:57:19",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我说\"油\"",
+      "old": "10:57:19->11:00:20",
+      "new": "10:57:19->10:57:20",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我看到Lucia扶了一下他的眼镜",
+      "old": "10:57:19->11:00:21",
+      "new": "10:57:19->10:57:21",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Tasha说\"怎么\"",
+      "old": "10:57:20->11:00:21",
+      "new": "10:57:20->10:57:21",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我说\"油在这\"",
+      "old": "10:57:21->11:00:22",
+      "new": "10:57:21->10:57:22",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我看到Tasha依然站在Katrina后面",
+      "old": "10:57:21->11:00:23",
+      "new": "10:57:21->10:57:23",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Tasha说\"铲子\"",
+      "old": "10:57:23->11:00:23",
+      "new": "10:57:23->10:57:23",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我看到Jake走了过来",
+      "old": "10:57:23->11:00:25",
+      "new": "10:57:23->10:57:25",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我看到Jake笑的很开心",
+      "old": "10:57:26->11:00:27",
+      "new": "10:57:26->10:57:27",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我说\"这个能高温不能\"",
+      "old": "10:57:27->11:00:28",
+      "new": "10:57:27->10:57:28",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Katrina说\"好像广播体操\"",
+      "old": "10:57:28->11:00:29",
+      "new": "10:57:28->10:57:29",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我看到我们正在聊天",
+      "old": "10:57:28->11:00:30",
+      "new": "10:57:28->10:57:30",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Tasha说\"这个不能\"",
+      "old": "10:57:29->11:00:30",
+      "new": "10:57:29->10:57:30",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我说\"不能\"",
+      "old": "10:57:30->11:00:30",
+      "new": "10:57:30->10:57:30",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Tasha说\"嗯\"",
+      "old": "10:57:30->11:00:31",
+      "new": "10:57:30->10:57:31",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我看到Jake和Lucia都看着我",
+      "old": "10:57:30->11:00:32",
+      "new": "10:57:30->10:57:32",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我做了一个手势",
+      "old": "10:57:32->11:00:35",
+      "new": "10:57:32->10:57:35",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Tasha说\"靠这铲子怎么这么油\"",
+      "old": "10:57:33->11:00:34",
+      "new": "10:57:33->10:57:34",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Tasha说\"受不了了好黏糊\"",
+      "old": "10:57:35->11:00:36",
+      "new": "10:57:35->10:57:36",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我一边做着手势",
+      "old": "10:57:35->11:00:37",
+      "new": "10:57:35->10:57:37",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我一边在跟他们聊天",
+      "old": "10:57:37->11:00:38",
+      "new": "10:57:37->10:57:38",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我伸出手摸了一下前面的花",
+      "old": "10:57:38->11:00:41",
+      "new": "10:57:38->10:57:41",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我看到Jake扶了一下他的眼镜",
+      "old": "10:57:41->11:00:43",
+      "new": "10:57:41->10:57:43",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我看到Lucia正在说话",
+      "old": "10:57:43->11:00:44",
+      "new": "10:57:43->10:57:44",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我一边摸着眼前的花",
+      "old": "10:57:44->11:00:47",
+      "new": "10:57:44->10:57:47",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我一边在跟他们说话",
+      "old": "10:57:47->11:00:48",
+      "new": "10:57:47->10:57:48",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我拿起了手机并打开了手机",
+      "old": "10:57:48->11:00:51",
+      "new": "10:57:48->10:57:51",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我点开几个界面查看了一下",
+      "old": "10:57:51->11:00:55",
+      "new": "10:57:51->10:57:55",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我正在看我的手机",
+      "old": "10:57:55->11:00:57",
+      "new": "10:57:55->10:57:57",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我看到Lucia和Jake正在说话",
+      "old": "10:57:57->11:00:59",
+      "new": "10:57:57->10:57:59",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我说\"我喝凉的就行\"",
+      "old": "10:57:58->11:00:59",
+      "new": "10:57:58->10:57:59",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我说\"不用给我弄热的\"",
+      "old": "10:57:59->11:01:00",
+      "new": "10:57:59->10:58:00",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我正在看我的手机",
+      "old": "10:58:00->11:01:01",
+      "new": "10:58:00->10:58:01",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我点开我的手机",
+      "old": "10:58:01->11:01:03",
+      "new": "10:58:01->10:58:03",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Lucia说\"呃没事反正牛奶会变成热的\"",
+      "old": "10:58:02->11:01:04",
+      "new": "10:58:02->10:58:04",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我看着感兴趣的内容",
+      "old": "10:58:03->11:01:05",
+      "new": "10:58:03->10:58:05",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Lucia说\"所以你也可以加热牛奶\"",
+      "old": "10:58:04->11:01:06",
+      "new": "10:58:04->10:58:06",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我接着点开一个视频",
+      "old": "10:58:05->11:01:08",
+      "new": "10:58:05->10:58:08",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Lucia说\"万一你in case you change your mind\"",
+      "old": "10:58:06->11:01:08",
+      "new": "10:58:06->10:58:08",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我说\"噢不不不哈哈\"",
+      "old": "10:58:06->11:01:08",
+      "new": "10:58:06->10:58:08",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我开始看手机",
+      "old": "10:58:08->11:01:08",
+      "new": "10:58:08->10:58:08",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我说\"不不不不\"",
+      "old": "10:58:08->11:01:10",
+      "new": "10:58:08->10:58:10",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我看到Lucia在和Katrina分享他手机上的东西",
+      "old": "10:58:08->11:01:12",
+      "new": "10:58:08->10:58:12",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Jake说\"哈哈哈有了一手啊\"",
+      "old": "10:58:09->11:01:12",
+      "new": "10:58:09->10:58:12",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Tasha说\"什么等等等等\"",
+      "old": "10:58:10->11:01:12",
+      "new": "10:58:10->10:58:12",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我看到Tasha也走过去",
+      "old": "10:58:12->11:01:13",
+      "new": "10:58:12->10:58:13",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我说\"我不喝我不喝热的\"",
+      "old": "10:58:12->11:01:13",
+      "new": "10:58:12->10:58:13",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Tasha说\"我不喝我不喝热的牛奶\"",
+      "old": "10:58:12->11:01:14",
+      "new": "10:58:12->10:58:14",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Jake说\"哈哈哈有了一手\"",
+      "old": "10:58:12->11:01:15",
+      "new": "10:58:12->10:58:15",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我看到Tasha拿起桌子上的平板",
+      "old": "10:58:13->11:01:15",
+      "new": "10:58:13->10:58:15",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我说\"牛奶我喝凉的就行了啊\"",
+      "old": "10:58:13->11:01:15",
+      "new": "10:58:13->10:58:15",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Tasha说\"我喝凉的就行啊\"",
+      "old": "10:58:14->11:01:15",
+      "new": "10:58:14->10:58:15",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我说\"不要放在这里啊\"",
+      "old": "10:58:15->11:01:17",
+      "new": "10:58:15->10:58:17",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Tasha说\"不要放在这里啊不我不放\"",
+      "old": "10:58:15->11:01:18",
+      "new": "10:58:15->10:58:18",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我看到Jake也走到Lucia旁边去",
+      "old": "10:58:16->11:01:18",
+      "new": "10:58:16->10:58:18",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Lucia说\"不我不我不放我啊你\"",
+      "old": "10:58:16->11:01:18",
+      "new": "10:58:16->10:58:18",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我说\"不不放\"",
+      "old": "10:58:17->11:01:18",
+      "new": "10:58:17->10:58:18",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Lucia说\"你的意思是你要用这个锅是吗\"",
+      "old": "10:58:18->11:01:20",
+      "new": "10:58:18->10:58:20",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我看到Tasha也凑过去看了一下",
+      "old": "10:58:18->11:01:20",
+      "new": "10:58:18->10:58:20",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Tasha说\"哦\"",
+      "old": "10:58:19->11:01:21",
+      "new": "10:58:19->10:58:21",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Lucia说\"啊没有没有我不用这个锅\"",
+      "old": "10:58:20->11:01:21",
+      "new": "10:58:20->10:58:21",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我在看我手机上面的视频",
+      "old": "10:58:20->11:01:23",
+      "new": "10:58:20->10:58:23",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Lucia说\"我只是把这个在这里放一下\"",
+      "old": "10:58:21->11:01:22",
+      "new": "10:58:21->10:58:22",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Lucia说\"然后找一个锅给它倒进去而已\"",
+      "old": "10:58:22->11:01:24",
+      "new": "10:58:22->10:58:24",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我看见对面",
+      "old": "10:58:24->11:01:24",
+      "new": "10:58:24->10:58:24",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我看到他们四个都在看Lucia的手机",
+      "old": "10:58:24->11:01:25",
+      "new": "10:58:24->10:58:25",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我看到Tasha拿着平板离开了，Lucia和Katrina还在看",
+      "old": "10:58:25->11:01:30",
+      "new": "10:58:25->10:58:30",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Lucia说\"他这里有没有那种专门的牛奶壶\"",
+      "old": "10:58:29->11:01:31",
+      "new": "10:58:29->10:58:31",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我又点开另一个视频",
+      "old": "10:58:30->11:01:33",
+      "new": "10:58:30->10:58:33",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Lucia说\"感觉好像没有什么呃\"",
+      "old": "10:58:31->11:01:34",
+      "new": "10:58:31->10:58:34",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我说\"应该不会有\"",
+      "old": "10:58:32->11:01:33",
+      "new": "10:58:32->10:58:33",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我接着看视频",
+      "old": "10:58:33->11:01:35",
+      "new": "10:58:33->10:58:35",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我继续看我朋友分享给我的视频",
+      "old": "10:58:35->11:01:38",
+      "new": "10:58:35->10:58:38",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Lucia说\"因为如果没有的话\"",
+      "old": "10:58:38->11:01:40",
+      "new": "10:58:38->10:58:40",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我看到Lucia和Katrina还在聊天",
+      "old": "10:58:38->11:01:42",
+      "new": "10:58:38->10:58:42",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Lucia说\"那个那个锅用来热牛奶就太大了\"",
+      "old": "10:58:40->11:01:42",
+      "new": "10:58:40->10:58:42",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我继续看着手机上面",
+      "old": "10:58:43->11:01:45",
+      "new": "10:58:43->10:58:45",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Lucia说\"感觉一个热进去才能把他\"",
+      "old": "10:58:43->11:01:47",
+      "new": "10:58:43->10:58:47",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我说\"我洗个杯子吧\"",
+      "old": "10:58:44->11:01:46",
+      "new": "10:58:44->10:58:46",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我看到我朋友跟我分享视频",
+      "old": "10:58:45->11:01:47",
+      "new": "10:58:45->10:58:47",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我说\"我不喝热的\"",
+      "old": "10:58:46->11:01:47",
+      "new": "10:58:46->10:58:47",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Lucia说\"才能把他盖到底的感觉\"",
+      "old": "10:58:47->11:01:48",
+      "new": "10:58:47->10:58:48",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我抬起头看了一下我的朋友，Tasha走到了我的旁边",
+      "old": "10:58:47->11:01:48",
+      "new": "10:58:47->10:58:48",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Lucia说\"让我再看看\"",
+      "old": "10:58:51->11:01:52",
+      "new": "10:58:51->10:58:52",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我拿着杯子走到了厨房",
+      "old": "10:58:51->11:01:53",
+      "new": "10:58:51->10:58:53",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我说\"我们都是用这种杯子是吗\"",
+      "old": "10:58:53->11:01:55",
+      "new": "10:58:53->10:58:55",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我给Lucia看了一眼",
+      "old": "10:58:53->11:01:55",
+      "new": "10:58:53->10:58:55",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我敲了一下杯子",
+      "old": "10:58:55->11:01:56",
+      "new": "10:58:55->10:58:56",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Lucia说\"好像只有这种杯子耶\"",
+      "old": "10:58:55->11:01:57",
+      "new": "10:58:55->10:58:57",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我看到Lucia点了一下头",
+      "old": "10:58:56->11:01:57",
+      "new": "10:58:56->10:58:57",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我说\"哦对好的\"",
+      "old": "10:58:57->11:01:58",
+      "new": "10:58:57->10:58:58",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我把杯子拿到水池旁边",
+      "old": "10:58:57->11:01:59",
+      "new": "10:58:57->10:58:59",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我说\"那我洗一个吧\"",
+      "old": "10:58:58->11:01:59",
+      "new": "10:58:58->10:58:59",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Lucia说\"但你也可以用碗\"",
+      "old": "10:58:59->11:01:00",
+      "new": "10:58:59->10:59:00",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我开始洗杯子",
+      "old": "10:58:59->11:01:00",
+      "new": "10:58:59->10:59:00",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我正在洗杯子",
+      "old": "10:59:00->11:01:03",
+      "new": "10:59:00->10:59:03",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我把水龙头关掉",
+      "old": "10:59:03->11:01:04",
+      "new": "10:59:03->10:59:04",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我说\"好给外国人一点震撼\"",
+      "old": "10:59:03->11:01:05",
+      "new": "10:59:03->10:59:05",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我看到Lucia正在我的旁边",
+      "old": "10:59:05->11:01:06",
+      "new": "10:59:05->10:59:06",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我把杯子扣在了桌子上面",
+      "old": "10:59:06->11:01:10",
+      "new": "10:59:06->10:59:10",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Lucia说\"我觉这个锅用来热牛奶也太\"",
+      "old": "10:59:07->11:01:09",
+      "new": "10:59:07->10:59:09",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我看到Lucia拿起一口锅",
+      "old": "10:59:10->11:01:11",
+      "new": "10:59:10->10:59:11",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我从下面打开柜子",
+      "old": "10:59:11->11:01:14",
+      "new": "10:59:11->10:59:14",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Lucia说\"哈哈也太但是好像没有别的锅了\"",
+      "old": "10:59:12->11:01:16",
+      "new": "10:59:12->10:59:16",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我拿出了一个碗",
+      "old": "10:59:14->11:01:15",
+      "new": "10:59:14->10:59:15",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我说\"放油了吗\"",
+      "old": "10:59:15->11:01:16",
+      "new": "10:59:15->10:59:16",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我看到Tasha正在准备把蛋液倒进锅里面",
+      "old": "10:59:15->11:01:20",
+      "new": "10:59:15->10:59:20",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Tasha说\"放了 我没有用过这个锅煎饼\"",
+      "old": "10:59:16->11:01:19",
+      "new": "10:59:16->10:59:19",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我说\"啊这这油有点多\"",
+      "old": "10:59:18->11:01:22",
+      "new": "10:59:18->10:59:22",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我正在看着Tasha",
+      "old": "10:59:20->11:01:22",
+      "new": "10:59:20->10:59:22",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Tasha说\"有点多是吧哈哈\"",
+      "old": "10:59:21->11:01:23",
+      "new": "10:59:21->10:59:23",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我在跟他说话",
+      "old": "10:59:22->11:01:24",
+      "new": "10:59:22->10:59:24",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我说\"就这样我我\"",
+      "old": "10:59:23->11:01:25",
+      "new": "10:59:23->10:59:25",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我转过头去把碗里的水倒了一下",
+      "old": "10:59:24->11:01:27",
+      "new": "10:59:24->10:59:27",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Tasha说\"那倒出来一些吧\"",
+      "old": "10:59:26->11:01:27",
+      "new": "10:59:26->10:59:27",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我说\"你你没地方倒吧\"",
+      "old": "10:59:27->11:01:29",
+      "new": "10:59:27->10:59:29",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我又接着打开水龙头",
+      "old": "10:59:27->11:01:29",
+      "new": "10:59:27->10:59:29",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我看了一眼Tasha",
+      "old": "10:59:29->11:01:30",
+      "new": "10:59:29->10:59:30",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我说\"你就那样吧\"",
+      "old": "10:59:29->11:01:30",
+      "new": "10:59:29->10:59:30",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我继续在洗碗",
+      "old": "10:59:30->11:01:31",
+      "new": "10:59:30->10:59:31",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我说\"留在锅里一点也没事\"",
+      "old": "10:59:31->11:01:32",
+      "new": "10:59:31->10:59:32",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我把碗里面的水倒掉之后",
+      "old": "10:59:32->11:01:34",
+      "new": "10:59:32->10:59:34",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我走到了Tasha的旁边",
+      "old": "10:59:34->11:01:36",
+      "new": "10:59:34->10:59:36",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我说\"抽油烟机抽油烟机\"",
+      "old": "10:59:35->11:01:36",
+      "new": "10:59:35->10:59:36",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Tasha说\"啊好好好熏呀\"",
+      "old": "10:59:36->11:01:38",
+      "new": "10:59:36->10:59:38",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我点了一下油烟机",
+      "old": "10:59:36->11:01:38",
+      "new": "10:59:36->10:59:38",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我打开油烟机后，用手挥了一下上面的烟",
+      "old": "10:59:38->11:01:40",
+      "new": "10:59:38->10:59:40",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我说\"别闻这个味\"",
+      "old": "10:59:40->11:01:41",
+      "new": "10:59:40->10:59:41",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我看到Tasha正在把鸡蛋液倒进去，然后她准备开始制作面饼",
+      "old": "10:59:40->11:01:43",
+      "new": "10:59:40->10:59:43",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我说\"这个味太\"",
+      "old": "10:59:41->11:01:42",
+      "new": "10:59:41->10:59:42",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我说\"火还可以\"",
+      "old": "10:59:43->11:01:44",
+      "new": "10:59:43->10:59:44",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我凑过去看了一眼火，然后又站起来",
+      "old": "10:59:43->11:01:47",
+      "new": "10:59:43->10:59:47",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我看到Tasha正在把鸡蛋液倒过去",
+      "old": "10:59:47->11:01:51",
+      "new": "10:59:47->10:59:51",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Tasha说\"呜\"",
+      "old": "10:59:48->11:01:48",
+      "new": "10:59:48->10:59:48",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我手里拿着碗",
+      "old": "10:59:51->11:01:52",
+      "new": "10:59:51->10:59:52",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我正在看Tasha倒鸡蛋液",
+      "old": "10:59:52->11:01:56",
+      "new": "10:59:52->10:59:56",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我看到Tasha用锅铲在锅里面把鸡蛋液弄均匀",
+      "old": "10:59:56->11:02:01",
+      "new": "10:59:56->11:00:01",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我说\"小心一点\"",
+      "old": "10:59:59->11:02:00",
+      "new": "10:59:59->11:00:00",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我说\"火小一点\"",
+      "old": "11:00:01->11:02:02",
+      "new": "11:00:01->11:00:02",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我过去看了一眼",
+      "old": "11:00:01->11:02:03",
+      "new": "11:00:01->11:00:03",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Tasha说\"火已经很小了\"",
+      "old": "11:00:02->11:02:04",
+      "new": "11:00:02->11:00:04",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我帮他把火开小了一点",
+      "old": "11:00:03->11:02:04",
+      "new": "11:00:03->11:00:04",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我说\"你锅里是不是有油\"",
+      "old": "11:00:05->11:02:06",
+      "new": "11:00:05->11:00:06",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我看到Tasha拿起锅",
+      "old": "11:00:05->11:02:07",
+      "new": "11:00:05->11:00:07",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我说\"哎不对\"",
+      "old": "11:00:06->11:02:07",
+      "new": "11:00:06->11:00:07",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我说\"有水\"",
+      "old": "11:00:07->11:02:08",
+      "new": "11:00:07->11:00:08",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我看到Tasha正在做面饼",
+      "old": "11:00:07->11:02:09",
+      "new": "11:00:07->11:00:09",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Tasha说\"没有我已经把水抽干了\"",
+      "old": "11:00:07->11:02:09",
+      "new": "11:00:07->11:00:09",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Lucia说\"这锅昨天是不是用过呀\"",
+      "old": "11:00:09->11:02:11",
+      "new": "11:00:09->11:00:11",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我看到Tasha不停的在翻动锅",
+      "old": "11:00:09->11:02:12",
+      "new": "11:00:09->11:00:12",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Tasha说\"我靠这锅怎么这么倒\"",
+      "old": "11:00:12->11:02:13",
+      "new": "11:00:12->11:00:13",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我看到Tasha正在把它做成一个面饼",
+      "old": "11:00:12->11:02:15",
+      "new": "11:00:12->11:00:15",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Tasha说\"倒热怎么这么快\"",
+      "old": "11:00:13->11:02:14",
+      "new": "11:00:13->11:00:14",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我说\"它比较薄\"",
+      "old": "11:00:15->11:02:16",
+      "new": "11:00:15->11:00:16",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我看到Tasha正在翻动锅里面的东西",
+      "old": "11:00:15->11:02:20",
+      "new": "11:00:15->11:00:20",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我看到Tasha看了一下灶台上的火",
+      "old": "11:00:20->11:02:22",
+      "new": "11:00:20->11:00:22",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Tasha说\"拿一个那个小小小碟子来呗\"",
+      "old": "11:00:22->11:02:24",
+      "new": "11:00:22->11:00:24",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我看到Tasha接着继续在锅上翻炒",
+      "old": "11:00:22->11:02:26",
+      "new": "11:00:22->11:00:26",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Tasha说\"放这些饼\"",
+      "old": "11:00:24->11:02:25",
+      "new": "11:00:24->11:00:25",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我转过头来",
+      "old": "11:00:26->11:02:27",
+      "new": "11:00:26->11:00:27",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我说\"好\"",
+      "old": "11:00:26->11:02:27",
+      "new": "11:00:26->11:00:27",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我打开柜子",
+      "old": "11:00:27->11:02:28",
+      "new": "11:00:27->11:00:28",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我把柜子里面的碗放好",
+      "old": "11:00:29->11:02:32",
+      "new": "11:00:29->11:00:32",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我拿出来一个碟子",
+      "old": "11:00:32->11:02:34",
+      "new": "11:00:32->11:00:34",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我把碗放到台子上",
+      "old": "11:00:34->11:02:36",
+      "new": "11:00:34->11:00:36",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我打开水龙头洗了一下碟子",
+      "old": "11:00:36->11:02:39",
+      "new": "11:00:36->11:00:39",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我关掉水龙头",
+      "old": "11:00:39->11:02:41",
+      "new": "11:00:39->11:00:41",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我把碟子上的水倒下去",
+      "old": "11:00:41->11:02:44",
+      "new": "11:00:41->11:00:44",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我说\"露西亚你就不用帮我热了吧\"",
+      "old": "11:00:42->11:02:43",
+      "new": "11:00:42->11:00:43",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我说\"倒直接倒就行了\"",
+      "old": "11:00:44->11:02:45",
+      "new": "11:00:44->11:00:45",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我拿起盘子",
+      "old": "11:00:45->11:02:47",
+      "new": "11:00:45->11:00:47",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我四处看了一下",
+      "old": "11:00:47->11:02:51",
+      "new": "11:00:47->11:00:51",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我说\"给你\"",
+      "old": "11:00:48->11:02:49",
+      "new": "11:00:48->11:00:49",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我说\"笑死了这个这个\"",
+      "old": "11:00:50->11:02:51",
+      "new": "11:00:50->11:00:51",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我叫了一下Tasha",
+      "old": "11:00:51->11:02:53",
+      "new": "11:00:51->11:00:53",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我说\"手机拍的好整齐你看\"",
+      "old": "11:00:51->11:02:54",
+      "new": "11:00:51->11:00:54",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我把盘子递给他",
+      "old": "11:00:54->11:02:55",
+      "new": "11:00:54->11:00:55",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Tasha说\"哈哈\"",
+      "old": "11:00:54->11:02:56",
+      "new": "11:00:54->11:00:56",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我指了一下旁边",
+      "old": "11:00:55->11:02:56",
+      "new": "11:00:55->11:00:56",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我说\"像开会一样\"",
+      "old": "11:00:56->11:02:57",
+      "new": "11:00:56->11:00:57",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Tasha说\"开会上交手机\"",
+      "old": "11:00:57->11:02:59",
+      "new": "11:00:57->11:00:59",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我接着走到台子旁边",
+      "old": "11:00:57->11:03:00",
+      "new": "11:00:57->11:01:00",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Lucia说\"手机开会\"",
+      "old": "11:00:58->11:02:59",
+      "new": "11:00:58->11:00:59",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我又左右看了一下之后拿起一个碗",
+      "old": "11:01:00->11:03:03",
+      "new": "11:01:00->11:01:03",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我把碗放到桌子上",
+      "old": "11:01:03->11:03:05",
+      "new": "11:01:03->11:01:05",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我又到处看了一下",
+      "old": "11:01:06->11:03:08",
+      "new": "11:01:06->11:01:08",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Tasha说\"也不知道熟了没\"",
+      "old": "11:01:08->11:03:09",
+      "new": "11:01:08->11:01:09",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Tasha说\"外面都糊了\"",
+      "old": "11:01:09->11:03:10",
+      "new": "11:01:09->11:01:10",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我看到Lucia正在看Tasha薇摊煎饼",
+      "old": "11:01:09->11:03:11",
+      "new": "11:01:09->11:01:11",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我说\"没\"",
+      "old": "11:01:12->11:03:12",
+      "new": "11:01:12->11:01:12",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我说\"这太短了时间\"",
+      "old": "11:01:12->11:03:13",
+      "new": "11:01:12->11:01:13",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我看着Tasha在翻动锅里面的煎饼",
+      "old": "11:01:12->11:03:15",
+      "new": "11:01:12->11:01:15",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Tasha说\"那只能用小火煎了\"",
+      "old": "11:01:14->11:03:16",
+      "new": "11:01:14->11:01:16",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我看到Tasha把火关掉",
+      "old": "11:01:15->11:03:17",
+      "new": "11:01:15->11:01:17",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我看到Tasha用锅铲来回扒拉了几下",
+      "old": "11:01:17->11:03:19",
+      "new": "11:01:17->11:01:19",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我看到Tasha继续在锅里弄煎饼",
+      "old": "11:01:19->11:03:22",
+      "new": "11:01:19->11:01:22",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Tasha说\"看看不清了都\"",
+      "old": "11:01:20->11:03:21",
+      "new": "11:01:20->11:01:21",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我说\"没关系\"",
+      "old": "11:01:21->11:03:22",
+      "new": "11:01:21->11:01:22",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我从Tasha的手里接过锅铲",
+      "old": "11:01:22->11:03:25",
+      "new": "11:01:22->11:01:25",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我开始把他压平",
+      "old": "11:01:25->11:03:27",
+      "new": "11:01:25->11:01:27",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我说\"你看这里面还爆浆呢\"",
+      "old": "11:01:26->11:03:28",
+      "new": "11:01:26->11:01:28",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我说\"当然没熟\"",
+      "old": "11:01:28->11:03:29",
+      "new": "11:01:28->11:01:29",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我正在很用力的去压他",
+      "old": "11:01:28->11:03:31",
+      "new": "11:01:28->11:01:31",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Lucia说\"你昨天没有开牛奶吗\"",
+      "old": "11:01:30->11:03:32",
+      "new": "11:01:30->11:01:32",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我正在非常用力的去压煎饼",
+      "old": "11:01:31->11:03:34",
+      "new": "11:01:31->11:01:34",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Lucia说\"应该开过一瓶吧\"",
+      "old": "11:01:32->11:03:33",
+      "new": "11:01:32->11:01:33",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我说\"看里面都不熟呢\"",
+      "old": "11:01:34->11:03:36",
+      "new": "11:01:34->11:01:36",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我用力的去把煎饼给压平",
+      "old": "11:01:34->11:03:37",
+      "new": "11:01:34->11:01:37",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我看到煎饼上面冒出了很多烟",
+      "old": "11:01:37->11:03:38",
+      "new": "11:01:37->11:01:38",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Tasha说\"外面都已经这么黑了\"",
+      "old": "11:01:37->11:03:39",
+      "new": "11:01:37->11:01:39",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我看到烟都被油烟机吸走了",
+      "old": "11:01:38->11:03:40",
+      "new": "11:01:38->11:01:40",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我说\"油一点点大哈\"",
+      "old": "11:01:39->11:03:41",
+      "new": "11:01:39->11:01:41",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Tasha说\"啊\"",
+      "old": "11:01:40->11:03:41",
+      "new": "11:01:40->11:01:41",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我把煎饼翻了一个面",
+      "old": "11:01:40->11:03:43",
+      "new": "11:01:40->11:01:43",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Tasha说\"哈哈哈\"",
+      "old": "11:01:42->11:03:44",
+      "new": "11:01:42->11:01:44",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我继续压",
+      "old": "11:01:43->11:03:44",
+      "new": "11:01:43->11:01:44",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我可以看见煎饼的一面已经变成黑色了",
+      "old": "11:01:44->11:03:45",
+      "new": "11:01:44->11:01:45",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我说\"太厚了没关系没关系\"",
+      "old": "11:01:44->11:03:46",
+      "new": "11:01:44->11:01:46",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我看到煎饼那一面已经变成糊了",
+      "old": "11:01:45->11:03:48",
+      "new": "11:01:45->11:01:48",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我说\"把那个外面面的那个丢掉就行\"",
+      "old": "11:01:46->11:03:49",
+      "new": "11:01:46->11:01:49",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我接着继续在压那个煎饼",
+      "old": "11:01:48->11:03:51",
+      "new": "11:01:48->11:01:51",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Tasha说\"OK第一个饼现给杨老板吃\"",
+      "old": "11:01:49->11:03:52",
+      "new": "11:01:49->11:01:52",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我很用力的去压",
+      "old": "11:01:51->11:03:53",
+      "new": "11:01:51->11:01:53",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Tasha说\"我这个锅怎么回事\"",
+      "old": "11:01:54->11:03:56",
+      "new": "11:01:54->11:01:56",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我看到锅里面的烟已经基本上看不见了",
+      "old": "11:01:54->11:03:57",
+      "new": "11:01:54->11:01:57",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Tasha说\"太可怕了\"",
+      "old": "11:01:56->11:03:57",
+      "new": "11:01:56->11:01:57",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我把煎饼又翻了一个面",
+      "old": "11:01:57->11:04:00",
+      "new": "11:01:57->11:02:00",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我说\"你要不给弄开吧好\"",
+      "old": "11:02:00->11:04:02",
+      "new": "11:02:00->11:02:02",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我接着压他",
+      "old": "11:02:00->11:04:03",
+      "new": "11:02:00->11:02:03",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我正在非常用力的压这个煎饼",
+      "old": "11:02:03->11:04:06",
+      "new": "11:02:03->11:02:06",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我凑过去看了一下",
+      "old": "11:02:06->11:04:08",
+      "new": "11:02:06->11:02:08",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我说\"勉强\"",
+      "old": "11:02:08->11:04:09",
+      "new": "11:02:08->11:02:09",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我接着把这个煎饼用锅铲切成两半",
+      "old": "11:02:08->11:04:09",
+      "new": "11:02:08->11:02:09",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我继续把他压平",
+      "old": "11:02:09->11:04:11",
+      "new": "11:02:09->11:02:11",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我不停的在压那个煎饼",
+      "old": "11:02:11->11:04:12",
+      "new": "11:02:11->11:02:12",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我看了一下这个煎饼",
+      "old": "11:02:13->11:04:16",
+      "new": "11:02:13->11:02:16",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Lucia说\"我怎么每次开门都会掉点东西下来啊\"",
+      "old": "11:02:16->11:04:18",
+      "new": "11:02:16->11:02:18",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我在思考，不知道这个糊了的煎饼能不能吃",
+      "old": "11:02:16->11:04:19",
+      "new": "11:02:16->11:02:19",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我说\"小一点\"",
+      "old": "11:02:18->11:04:19",
+      "new": "11:02:18->11:02:19",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Tasha说\"没事没事\"",
+      "old": "11:02:20->11:04:20",
+      "new": "11:02:20->11:02:20",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我继续把这个煎饼来回的按压",
+      "old": "11:02:20->11:04:22",
+      "new": "11:02:20->11:02:22",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Tasha说\"我来把这个也也也剪开\"",
+      "old": "11:02:20->11:04:23",
+      "new": "11:02:20->11:02:23",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我看到Tasha从我手里接过锅铲",
+      "old": "11:02:22->11:04:25",
+      "new": "11:02:22->11:02:25",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我回过头",
+      "old": "11:02:25->11:04:26",
+      "new": "11:02:25->11:02:26",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我走到了桌子旁边",
+      "old": "11:02:26->11:04:28",
+      "new": "11:02:26->11:02:28",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我又回过头去看了一下",
+      "old": "11:02:28->11:04:29",
+      "new": "11:02:28->11:02:29",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Lucia说\"我可以用一下另一个灶吗\"",
+      "old": "11:02:28->11:04:29",
+      "new": "11:02:28->11:02:29",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我看到Lucia端了一锅东西",
+      "old": "11:02:30->11:04:31",
+      "new": "11:02:30->11:02:31",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Tasha说\"要要用微波炉\"",
+      "old": "11:02:31->11:04:33",
+      "new": "11:02:31->11:02:33",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我走过去",
+      "old": "11:02:31->11:04:33",
+      "new": "11:02:31->11:02:33",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Tasha说\"呃呃好吧\"",
+      "old": "11:02:33->11:04:34",
+      "new": "11:02:33->11:02:34",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Jake说\"哎呀卧槽\"",
+      "old": "11:02:34->11:04:34",
+      "new": "11:02:34->11:02:34",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我看着他们两个",
+      "old": "11:02:34->11:04:36",
+      "new": "11:02:34->11:02:36",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Tasha说\"这个也可以了\"",
+      "old": "11:02:34->11:04:36",
+      "new": "11:02:34->11:02:36",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Lucia说\"微波炉打吗\"",
+      "old": "11:02:35->11:04:36",
+      "new": "11:02:35->11:02:36",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我四处看了一下",
+      "old": "11:02:36->11:04:38",
+      "new": "11:02:36->11:02:38",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Lucia说\"微波炉打不知道能不能打的透\"",
+      "old": "11:02:37->11:04:39",
+      "new": "11:02:37->11:02:39",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我看向桌子",
+      "old": "11:02:38->11:04:41",
+      "new": "11:02:38->11:02:41",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Lucia说\"而且没事就放在这吧\"",
+      "old": "11:02:39->11:04:41",
+      "new": "11:02:39->11:02:41",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Lucia说\"然后大家再倒出来就好\"",
+      "old": "11:02:41->11:04:43",
+      "new": "11:02:41->11:02:43",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我看着外面",
+      "old": "11:02:41->11:04:44",
+      "new": "11:02:41->11:02:44",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Tasha说\"啊这个锅太可怕了\"",
+      "old": "11:02:43->11:04:44",
+      "new": "11:02:43->11:02:44",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我走到了冰箱旁边",
+      "old": "11:02:44->11:04:46",
+      "new": "11:02:44->11:02:46",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我打开了冰箱",
+      "old": "11:02:46->11:04:48",
+      "new": "11:02:46->11:02:48",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我很慢很慢的打开了冰箱",
+      "old": "11:02:49->11:04:52",
+      "new": "11:02:49->11:02:52",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我说\"哎呦好拍掉点东西\"",
+      "old": "11:02:50->11:04:52",
+      "new": "11:02:50->11:02:52",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Lucia说\"哎这个灶台\"",
+      "old": "11:02:51->11:04:52",
+      "new": "11:02:51->11:02:52",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我看了一下",
+      "old": "11:02:52->11:04:54",
+      "new": "11:02:52->11:02:54",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我又关上了冰箱",
+      "old": "11:02:54->11:04:54",
+      "new": "11:02:54->11:02:54",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我说\"露西亚你准备的是几个人的牛奶\"",
+      "old": "11:02:55->11:04:57",
+      "new": "11:02:55->11:02:57",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我看着Tasha和Lucia在灶台上忙",
+      "old": "11:02:55->11:04:58",
+      "new": "11:02:55->11:02:58",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我站在另一边",
+      "old": "11:02:58->11:05:00",
+      "new": "11:02:58->11:03:00",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Lucia说\"呃没事我们可以随便倒哈哈\"",
+      "old": "11:02:58->11:05:01",
+      "new": "11:02:58->11:03:01",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我说\"啊因为我想喝凉的\"",
+      "old": "11:03:00->11:05:02",
+      "new": "11:03:00->11:03:02",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我看到Lucia回头看了我一眼",
+      "old": "11:03:01->11:05:02",
+      "new": "11:03:01->11:03:02",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我看到Lucia扶了一下眼镜",
+      "old": "11:03:02->11:05:03",
+      "new": "11:03:02->11:03:03",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Lucia说\"你想喝凉的\"",
+      "old": "11:03:03->11:05:03",
+      "new": "11:03:03->11:03:03",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Lucia说\"呃有还有\"",
+      "old": "11:03:03->11:05:04",
+      "new": "11:03:03->11:03:04",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我看到我们两个说了一会话",
+      "old": "11:03:03->11:05:05",
+      "new": "11:03:03->11:03:05",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我说\"啊对\"",
+      "old": "11:03:04->11:05:05",
+      "new": "11:03:04->11:03:05",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我看到Lucia指了一下我",
+      "old": "11:03:05->11:05:06",
+      "new": "11:03:05->11:03:06",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我说\"就是不用算我的量就可以了\"",
+      "old": "11:03:05->11:05:07",
+      "new": "11:03:05->11:03:07",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我做了一个手势",
+      "old": "11:03:06->11:05:08",
+      "new": "11:03:06->11:03:08",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Lucia说\"没事那就如果多了的话\"",
+      "old": "11:03:07->11:05:09",
+      "new": "11:03:07->11:03:09",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我回头打开冰箱",
+      "old": "11:03:08->11:05:09",
+      "new": "11:03:08->11:03:09",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Lucia说\"大家一会多喝一点就好了哈哈\"",
+      "old": "11:03:09->11:05:11",
+      "new": "11:03:09->11:03:11",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我又看了一下Lucia",
+      "old": "11:03:09->11:05:11",
+      "new": "11:03:09->11:03:11",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我说\"啊好\"",
+      "old": "11:03:10->11:05:11",
+      "new": "11:03:10->11:03:11",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我说\"可以可以\"",
+      "old": "11:03:11->11:05:12",
+      "new": "11:03:11->11:03:12",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我把冰箱里面的牛奶拿出来",
+      "old": "11:03:11->11:05:14",
+      "new": "11:03:11->11:03:14",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Lucia说\"就是那个那个已经打开的我也没倒完\"",
+      "old": "11:03:13->11:05:16",
+      "new": "11:03:13->11:03:16",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我拿着牛奶把它拿给Lucia看了一眼",
+      "old": "11:03:14->11:05:15",
+      "new": "11:03:14->11:03:15",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Lucia说\"然后假如你不够喝\"",
+      "old": "11:03:16->11:05:16",
+      "new": "11:03:16->11:03:16",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我看到Tasha拿着锅铲，她走到垃圾桶旁边",
+      "old": "11:03:16->11:05:18",
+      "new": "11:03:16->11:03:18",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Lucia说\"你也可以打开那个新的\"",
+      "old": "11:03:16->11:05:18",
+      "new": "11:03:16->11:03:18",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我说\"啊不用谢谢\"",
+      "old": "11:03:17->11:05:19",
+      "new": "11:03:17->11:03:19",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Lucia说\"没事没事\"",
+      "old": "11:03:18->11:05:19",
+      "new": "11:03:18->11:03:19",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我把牛奶打开",
+      "old": "11:03:18->11:05:21",
+      "new": "11:03:18->11:03:21",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Tasha说\"喔\"",
+      "old": "11:03:21->11:05:22",
+      "new": "11:03:21->11:03:22",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Lucia说\"小心\"",
+      "old": "11:03:21->11:05:22",
+      "new": "11:03:21->11:03:22",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我把它倒在了桌子上面的碗里",
+      "old": "11:03:21->11:05:23",
+      "new": "11:03:21->11:03:23",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我正在倒牛奶",
+      "old": "11:03:24->11:05:25",
+      "new": "11:03:24->11:03:25",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我把牛奶的盖关上",
+      "old": "11:03:26->11:05:28",
+      "new": "11:03:26->11:03:28",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我又打开了冰箱门",
+      "old": "11:03:28->11:05:30",
+      "new": "11:03:28->11:03:30",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "把牛奶放进去",
+      "old": "11:03:31->11:05:32",
+      "new": "11:03:31->11:03:32",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我关上了冰箱门",
+      "old": "11:03:32->11:05:34",
+      "new": "11:03:32->11:03:34",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我看到Katrina在白板旁边",
+      "old": "11:03:34->11:05:35",
+      "new": "11:03:34->11:03:35",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我走到桌子旁边",
+      "old": "11:03:35->11:05:36",
+      "new": "11:03:35->11:03:36",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我拿起桌子上一条绿色的东西",
+      "old": "11:03:37->11:05:40",
+      "new": "11:03:37->11:03:40",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我走到了Tasha和Lucia的旁边",
+      "old": "11:03:41->11:05:44",
+      "new": "11:03:41->11:03:44",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我说\"这个我自己倒吧\"",
+      "old": "11:03:42->11:05:43",
+      "new": "11:03:42->11:03:43",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Lucia说\"啊好的\"",
+      "old": "11:03:44->11:05:45",
+      "new": "11:03:44->11:03:45",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我把它拿给Lucia看了一下",
+      "old": "11:03:44->11:05:47",
+      "new": "11:03:44->11:03:47",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Lucia说\"然后我看看\"",
+      "old": "11:03:47->11:05:48",
+      "new": "11:03:47->11:03:48",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我撕开了这个包装",
+      "old": "11:03:47->11:05:48",
+      "new": "11:03:47->11:03:48",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Lucia说\"我们牛奶应该是要用杯子\"",
+      "old": "11:03:48->11:05:49",
+      "new": "11:03:48->11:03:49",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A2_ALICE/L1/day2/events.txt",
+      "caption": "我听到Lucia说\"我把剩下这几杯子都洗了\"",
+      "old": "11:03:49->11:05:51",
+      "new": "11:03:49->11:03:51",
+      "reason": "continuous shifted end timestamp block"
+    },
+    {
+      "file": "A1_JAKE/L1/day5/events.txt",
+      "caption": "我听到Lucia说\"换了他不会他不会他不会嘎吧\"",
+      "old": "11:51:57->12:52:01",
+      "new": "11:51:57->11:52:01",
+      "reason": "hour rollover corruption; surrounding L1/L2 anchor"
+    },
+    {
+      "file": "A1_JAKE/L1/day6/events.txt",
+      "caption": "我看到摄影师正在看相机里面的照片",
+      "old": "19:57:58->20:01:01",
+      "new": "19:57:58->19:58:01",
+      "reason": "minute/hour corruption; surrounding events continue at 19:58"
+    },
+    {
+      "file": "A1_JAKE/L1/day7/events.txt",
+      "caption": "我举着手机扫描房间天花板拐角",
+      "old": "14:28:28->14:30:28",
+      "new": "14:28:28->14:28:34",
+      "reason": "overlong atomic event; next phone adjustment at 14:28:33"
+    },
+    {
+      "file": "A2_ALICE/L1/day1/events.txt",
+      "caption": "我继续往前走",
+      "old": "18:34:37->18:40:00",
+      "new": "18:34:37->18:34:43",
+      "reason": "overlong duplicate walk state; lower-level boundary changes at 18:34:43"
+    },
+    {
+      "file": "A2_ALICE/L1/day3/events.txt",
+      "caption": "我将碳放入烤炉中",
+      "old": "20:56:57->21:04:15",
+      "new": "20:56:57->20:57:09",
+      "reason": "overlong atomic event; L2 anchors charcoal handling to 20:56:57-20:57:09"
+    },
+    {
+      "file": "A2_ALICE/L1/day7/events.txt",
+      "caption": "我看到Jake拿着筷子",
+      "old": "18:59:01->19:59:03",
+      "new": "18:59:01->18:59:03",
+      "reason": "hour corruption; adjacent L1 anchor"
+    },
+    {
+      "file": "A3_TASHA/L1/day2/events.txt",
+      "caption": "我听到Jake说\"他有自己的充电日期\"",
+      "old": "16:16:57->16:36:59",
+      "new": "16:16:57->16:16:59",
+      "reason": "minute corruption; adjacent conversation anchor"
+    },
+    {
+      "file": "A3_TASHA/L1/day2/events.txt",
+      "caption": "我转身走向厨房",
+      "old": "17:57:58->18:02:01",
+      "new": "17:57:58->17:58:01",
+      "reason": "minute corruption; L2 kitchen transition 17:57:58-17:58:07"
+    },
+    {
+      "file": "A3_TASHA/L1/day2/events.txt",
+      "caption": "我说\"在这里\"",
+      "old": "17:58:00->18:02:01",
+      "new": "17:58:00->17:58:01",
+      "reason": "minute corruption; adjacent speech/action anchor"
+    },
+    {
+      "file": "A4_LUCIA/L1/day3/events.txt",
+      "caption": "我听到Alice说\"唉\"",
+      "old": "11:51:53->11:53:53",
+      "new": "11:51:53->11:51:54",
+      "reason": "impossible two-minute interjection; surrounding atomic timestamps"
+    },
+    {
+      "file": "A4_LUCIA/L1/day3/events.txt",
+      "caption": "我看到Violet在走来走去",
+      "old": "11:55:57->11:58:05",
+      "new": "11:55:57->11:56:05",
+      "reason": "overlong observation; L2 returns to other actions after 11:56"
+    },
+    {
+      "file": "A4_LUCIA/L1/day7/events.txt",
+      "caption": "我听到自己哼唱\"and it calls me\"",
+      "old": "14:48:47->14:50:50",
+      "new": "14:48:47->14:48:50",
+      "reason": "impossible two-minute lyric fragment; next self action at 14:48:50"
+    },
+    {
+      "file": "A5_KATRINA/L1/day5/events.txt",
+      "caption": "我按下快门",
+      "old": "18:58:58->19:59:01",
+      "new": "18:58:58->18:59:01",
+      "reason": "hour corruption; L2 photo event ends 18:59:01"
+    },
+    {
+      "file": "A5_KATRINA/L1/day6/events.txt",
+      "caption": "我听到Jake说：\"没有没有\"",
+      "old": "19:52:58->19:58:58",
+      "new": "19:52:58->19:52:59",
+      "reason": "minute corruption; adjacent dialogue anchor"
+    },
+    {
+      "file": "A6_SHURE/L1/day2/events.txt",
+      "caption": "我走进一楼客厅",
+      "old": "17:57:59->18:00:00",
+      "new": "17:57:59->17:58:00",
+      "reason": "minute corruption; next L1 starts 17:58:00"
+    },
+    {
+      "file": "A6_SHURE/L1/day3/events.txt",
+      "caption": "我往燃气灶的方向走",
+      "old": "20:56:58->21:00:00",
+      "new": "20:56:58->20:57:00",
+      "reason": "minute corruption; L2 anchor confirms 20:56:57-20:57:00"
+    },
+    {
+      "file": "A6_SHURE/L1/day5/events.txt",
+      "caption": "我说呵呵呵不是",
+      "old": "09:12:12->12:09:14",
+      "new": "12:09:12->12:09:14",
+      "reason": "malformed start timestamp; source chunk context is 12:09:12"
+    },
+    {
+      "file": "A6_SHURE/L1/day5/events.txt",
+      "caption": "我看到Katrina在蹲着",
+      "old": "16:17:17->16:19:18",
+      "new": "16:17:17->16:17:18",
+      "reason": "minute corruption; adjacent L1/L2 activity continues immediately"
+    },
+    {
+      "file": "A3_TASHA/L3/day5/events.txt",
+      "caption": "我抠手上的指甲和死皮",
+      "old": "14:55:19->15:56:06",
+      "new": "14:55:19->14:56:06",
+      "reason": "one-hour end timestamp corruption; local sequence indicates 47-second event"
+    }
+  ],
+  "collapsed_reconstruction": {
+    "file": "A6_SHURE/L1/day6/events.txt",
+    "records": 452,
+    "old_timestamp": "20:20:25->20:20:25",
+    "reconstructed_range": "20:25:51->20:35:53",
+    "method": "manual semantic segment alignment to chunk_41 L2 anchors; per-atom seconds interpolated inside reviewed segments"
+  },
+  "gap_splits": [
+    {
+      "file": "A4_LUCIA/L3/day5/events.txt",
+      "caption": "我参与讨论采购清单",
+      "old": "15:01:44->15:02:30",
+      "gaps": [
+        "15:01:49->15:02:25"
+      ],
+      "new": [
+        "15:01:44->15:01:49",
+        "15:02:25->15:02:30"
+      ]
+    },
+    {
+      "file": "A1_JAKE/L5/day4/events.txt",
+      "caption": "我们到达有狗院子",
+      "old": "16:24:28->16:34:25",
+      "gaps": [
+        "16:29:11->16:29:54"
+      ],
+      "new": [
+        "16:24:28->16:29:11",
+        "16:29:54->16:34:25"
+      ]
+    },
+    {
+      "file": "A1_JAKE/L4/day7/events.txt",
+      "caption": "我操作电脑拆装内存卡",
+      "old": "19:57:14->19:59:17",
+      "gaps": [
+        "19:58:24->19:58:55"
+      ],
+      "new": [
+        "19:57:14->19:58:24",
+        "19:58:55->19:59:17"
+      ]
+    },
+    {
+      "file": "A1_JAKE/L4/day7/events.txt",
+      "caption": "我整理电脑文件和内存卡",
+      "old": "20:00:04->20:04:00",
+      "gaps": [
+        "20:03:24->20:03:59"
+      ],
+      "new": [
+        "20:00:04->20:03:24",
+        "20:03:59->20:04:00"
+      ]
+    },
+    {
+      "file": "A1_JAKE/L5/day7/events.txt",
+      "caption": "我整理电脑文件和设备数据",
+      "old": "19:57:14->19:59:17",
+      "gaps": [
+        "19:58:24->19:58:55"
+      ],
+      "new": [
+        "19:57:14->19:58:24",
+        "19:58:55->19:59:17"
+      ]
+    },
+    {
+      "file": "A1_JAKE/L5/day7/events.txt",
+      "caption": "我整理电脑文件和设备数据",
+      "old": "20:00:04->20:04:00",
+      "gaps": [
+        "20:03:24->20:03:59"
+      ],
+      "new": [
+        "20:00:04->20:03:24",
+        "20:03:59->20:04:00"
+      ]
+    },
+    {
+      "file": "A6_SHURE/L5/day3/events.txt",
+      "caption": "我努力生火",
+      "old": "20:06:57->21:06:37",
+      "gaps": [
+        "20:57:00->21:00:00"
+      ],
+      "new": [
+        "20:06:57->20:57:00",
+        "21:00:00->21:06:37"
+      ]
+    },
+    {
+      "file": "A6_SHURE/L5/day4/events.txt",
+      "caption": "我处理鞋里玻璃渣和餐具",
+      "old": "10:51:01->11:38:48",
+      "gaps": [
+        "11:37:00->11:37:31"
+      ],
+      "new": [
+        "10:51:01->11:37:00",
+        "11:37:31->11:38:48"
+      ]
+    },
+    {
+      "file": "A3_TASHA/L4/day5/events.txt",
+      "caption": "我在车上使用手机",
+      "old": "15:34:45->15:52:06",
+      "gaps": [
+        "15:35:05->15:51:40"
+      ],
+      "new": [
+        "15:34:45->15:35:05",
+        "15:51:40->15:52:06"
+      ]
+    },
+    {
+      "file": "A3_TASHA/L5/day5/events.txt",
+      "caption": "我在车上休息",
+      "old": "15:34:45->15:52:06",
+      "gaps": [
+        "15:35:05->15:51:40"
+      ],
+      "new": [
+        "15:34:45->15:35:05",
+        "15:51:40->15:52:06"
+      ]
+    },
+    {
+      "file": "A3_TASHA/L3/day4/events.txt",
+      "caption": "我参与大家的瓶子讨论",
+      "old": "11:46:38->11:47:53",
+      "gaps": [
+        "11:46:49->11:47:34"
+      ],
+      "new": [
+        "11:46:38->11:46:49",
+        "11:47:34->11:47:53"
+      ]
+    },
+    {
+      "file": "A3_TASHA/L4/day4/events.txt",
+      "caption": "我走进Jake房间查看",
+      "old": "11:46:20->11:47:53",
+      "gaps": [
+        "11:46:49->11:47:34"
+      ],
+      "new": [
+        "11:46:20->11:46:49",
+        "11:47:34->11:47:53"
+      ]
+    },
+    {
+      "file": "A3_TASHA/L5/day4/events.txt",
+      "caption": "我浏览购物",
+      "old": "11:46:38->11:57:26",
+      "gaps": [
+        "11:46:49->11:47:34"
+      ],
+      "new": [
+        "11:46:38->11:46:49",
+        "11:47:34->11:57:26"
+      ]
+    },
+    {
+      "file": "A3_TASHA/L2/day7/events.txt",
+      "caption": "我持续观看游戏视频并评论",
+      "old": "13:30:20->13:34:02",
+      "gaps": [
+        "13:30:47->13:31:17",
+        "13:31:18->13:32:24",
+        "13:32:25->13:34:01"
+      ],
+      "new": [
+        "13:30:20->13:30:47",
+        "13:31:17->13:31:18",
+        "13:32:24->13:32:25",
+        "13:34:01->13:34:02"
+      ]
+    },
+    {
+      "file": "A3_TASHA/L3/day7/events.txt",
+      "caption": "我观看游戏视频打发时间",
+      "old": "13:30:20->13:33:59",
+      "gaps": [
+        "13:30:47->13:31:17",
+        "13:31:18->13:32:24"
+      ],
+      "new": [
+        "13:30:20->13:30:47",
+        "13:31:17->13:31:18",
+        "13:32:24->13:33:59"
+      ]
+    },
+    {
+      "file": "A3_TASHA/L4/day7/events.txt",
+      "caption": "我专注观看游戏视频",
+      "old": "13:29:03->13:33:59",
+      "gaps": [
+        "13:30:47->13:31:17",
+        "13:31:18->13:32:24"
+      ],
+      "new": [
+        "13:29:03->13:30:47",
+        "13:31:17->13:31:18",
+        "13:32:24->13:33:59"
+      ]
+    },
+    {
+      "file": "A3_TASHA/L5/day7/events.txt",
+      "caption": "我期间查看手机",
+      "old": "13:29:03->13:38:07",
+      "gaps": [
+        "13:30:47->13:31:17",
+        "13:31:18->13:32:24",
+        "13:32:25->13:34:01"
+      ],
+      "new": [
+        "13:29:03->13:30:47",
+        "13:31:17->13:31:18",
+        "13:32:24->13:32:25",
+        "13:34:01->13:38:07"
+      ]
+    },
+    {
+      "file": "A5_KATRINA/L5/day6/events.txt",
+      "caption": "我做压花手工",
+      "old": "10:37:27->10:40:40",
+      "gaps": [
+        "10:37:36->10:38:11"
+      ],
+      "new": [
+        "10:37:27->10:37:36",
+        "10:38:11->10:40:40"
+      ]
+    },
+    {
+      "file": "A5_KATRINA/L3/day1/events.txt",
+      "caption": "我听到大家继续讨论汤的味道和用餐安排",
+      "old": "20:40:50->20:42:36",
+      "gaps": [
+        "20:40:56->20:41:38"
+      ],
+      "new": [
+        "20:40:50->20:40:56",
+        "20:41:38->20:42:36"
+      ]
+    },
+    {
+      "file": "A5_KATRINA/L5/day1/events.txt",
+      "caption": "我参与大家讨论用餐安排",
+      "old": "20:40:50->20:42:36",
+      "gaps": [
+        "20:40:56->20:41:38"
+      ],
+      "new": [
+        "20:40:50->20:40:56",
+        "20:41:38->20:42:36"
+      ]
+    },
+    {
+      "file": "A2_ALICE/L3/day3/events.txt",
+      "caption": "我和Jake、Lucia在游戏厅闲逛讨论游戏币",
+      "old": "16:11:53->16:13:43",
+      "gaps": [
+        "16:12:25->16:13:04"
+      ],
+      "new": [
+        "16:11:53->16:12:25",
+        "16:13:04->16:13:43"
+      ]
+    },
+    {
+      "file": "A2_ALICE/L4/day3/events.txt",
+      "caption": "我在游戏厅玩游戏",
+      "old": "16:11:53->16:14:51",
+      "gaps": [
+        "16:12:25->16:13:04"
+      ],
+      "new": [
+        "16:11:53->16:12:25",
+        "16:13:04->16:14:51"
+      ]
+    },
+    {
+      "file": "A2_ALICE/L5/day3/events.txt",
+      "caption": "我在游戏厅玩游戏",
+      "old": "15:50:37->16:20:32",
+      "gaps": [
+        "16:11:22->16:11:53",
+        "16:12:25->16:13:04"
+      ],
+      "new": [
+        "15:50:37->16:11:22",
+        "16:11:53->16:12:25",
+        "16:13:04->16:20:32"
+      ]
+    },
+    {
+      "file": "A2_ALICE/L2/day4/events.txt",
+      "caption": "我坐在院子里悠闲地刷着手机看美食和评论区",
+      "old": "12:03:55->12:06:22",
+      "gaps": [
+        "12:03:56->12:05:15"
+      ],
+      "new": [
+        "12:03:55->12:03:56",
+        "12:05:15->12:06:22"
+      ]
+    },
+    {
+      "file": "A2_ALICE/L2/day4/events.txt",
+      "caption": "我听到Katrina和Shure聊到告五人并哼唱出歌词",
+      "old": "13:10:39->13:11:52",
+      "gaps": [
+        "13:11:19->13:11:51"
+      ],
+      "new": [
+        "13:10:39->13:11:19",
+        "13:11:51->13:11:52"
+      ]
+    },
+    {
+      "file": "A2_ALICE/L3/day4/events.txt",
+      "caption": "我独自在院子里悠闲休息刷手机",
+      "old": "12:03:55->12:06:22",
+      "gaps": [
+        "12:03:56->12:05:15"
+      ],
+      "new": [
+        "12:03:55->12:03:56",
+        "12:05:15->12:06:22"
+      ]
+    },
+    {
+      "file": "A2_ALICE/L3/day4/events.txt",
+      "caption": "我听到大家聊到刚才哼的歌并确认是告五人",
+      "old": "13:10:14->13:11:52",
+      "gaps": [
+        "13:11:19->13:11:51"
+      ],
+      "new": [
+        "13:10:14->13:11:19",
+        "13:11:51->13:11:52"
+      ]
+    },
+    {
+      "file": "A2_ALICE/L4/day4/events.txt",
+      "caption": "我去院子里休息刷手机",
+      "old": "12:03:55->12:06:54",
+      "gaps": [
+        "12:03:56->12:05:15"
+      ],
+      "new": [
+        "12:03:55->12:03:56",
+        "12:05:15->12:06:54"
+      ]
+    },
+    {
+      "file": "A2_ALICE/L4/day4/events.txt",
+      "caption": "我坐在沙发上刷手机",
+      "old": "13:08:09->13:14:04",
+      "gaps": [
+        "13:11:19->13:11:51"
+      ],
+      "new": [
+        "13:08:09->13:11:19",
+        "13:11:51->13:14:04"
+      ]
+    },
+    {
+      "file": "A2_ALICE/L4/day4/events.txt",
+      "caption": "我参与试听歌曲和开场备选歌曲的讨论",
+      "old": "21:59:38->22:03:54",
+      "gaps": [
+        "22:00:46->22:01:37"
+      ],
+      "new": [
+        "21:59:38->22:00:46",
+        "22:01:37->22:03:54"
+      ]
+    },
+    {
+      "file": "A2_ALICE/L5/day4/events.txt",
+      "caption": "我使用手机",
+      "old": "12:03:55->12:16:00",
+      "gaps": [
+        "12:03:56->12:05:15"
+      ],
+      "new": [
+        "12:03:55->12:03:56",
+        "12:05:15->12:16:00"
+      ]
+    },
+    {
+      "file": "A2_ALICE/L5/day4/events.txt",
+      "caption": "我使用手机",
+      "old": "13:08:09->13:14:04",
+      "gaps": [
+        "13:11:19->13:11:51"
+      ],
+      "new": [
+        "13:08:09->13:11:19",
+        "13:11:51->13:14:04"
+      ]
+    },
+    {
+      "file": "A2_ALICE/L5/day4/events.txt",
+      "caption": "我参与大家讨论最后一天合唱选歌",
+      "old": "21:49:38->22:09:25",
+      "gaps": [
+        "22:00:46->22:01:37",
+        "22:08:15->22:08:54"
+      ],
+      "new": [
+        "21:49:38->22:00:46",
+        "22:01:37->22:08:15",
+        "22:08:54->22:09:25"
+      ]
+    }
+  ],
+  "files_changed": [
+    "A1_JAKE/L1/day1/events.txt",
+    "A1_JAKE/L1/day2/events.txt",
+    "A1_JAKE/L1/day4/events.txt",
+    "A1_JAKE/L1/day5/events.txt",
+    "A1_JAKE/L1/day6/events.txt",
+    "A1_JAKE/L1/day7/events.txt",
+    "A1_JAKE/L2/day1/events.txt",
+    "A1_JAKE/L2/day2/events.txt",
+    "A1_JAKE/L2/day3/events.txt",
+    "A1_JAKE/L2/day4/events.txt",
+    "A1_JAKE/L2/day5/events.txt",
+    "A1_JAKE/L2/day6/events.txt",
+    "A1_JAKE/L2/day7/events.txt",
+    "A1_JAKE/L3/day1/events.txt",
+    "A1_JAKE/L3/day2/events.txt",
+    "A1_JAKE/L3/day4/events.txt",
+    "A1_JAKE/L3/day5/events.txt",
+    "A1_JAKE/L3/day6/events.txt",
+    "A1_JAKE/L3/day7/events.txt",
+    "A1_JAKE/L4/day1/events.txt",
+    "A1_JAKE/L4/day4/events.txt",
+    "A1_JAKE/L4/day7/events.txt",
+    "A1_JAKE/L5/day4/events.txt",
+    "A1_JAKE/L5/day7/events.txt",
+    "A2_ALICE/L1/day1/events.txt",
+    "A2_ALICE/L1/day2/events.txt",
+    "A2_ALICE/L1/day3/events.txt",
+    "A2_ALICE/L1/day6/events.txt",
+    "A2_ALICE/L1/day7/events.txt",
+    "A2_ALICE/L2/day1/events.txt",
+    "A2_ALICE/L2/day2/events.txt",
+    "A2_ALICE/L2/day3/events.txt",
+    "A2_ALICE/L2/day4/events.txt",
+    "A2_ALICE/L2/day5/events.txt",
+    "A2_ALICE/L2/day6/events.txt",
+    "A2_ALICE/L2/day7/events.txt",
+    "A2_ALICE/L3/day2/events.txt",
+    "A2_ALICE/L3/day3/events.txt",
+    "A2_ALICE/L3/day4/events.txt",
+    "A2_ALICE/L3/day5/events.txt",
+    "A2_ALICE/L3/day6/events.txt",
+    "A2_ALICE/L3/day7/events.txt",
+    "A2_ALICE/L4/day3/events.txt",
+    "A2_ALICE/L4/day4/events.txt",
+    "A2_ALICE/L4/day7/events.txt",
+    "A2_ALICE/L5/day3/events.txt",
+    "A2_ALICE/L5/day4/events.txt",
+    "A3_TASHA/L1/day2/events.txt",
+    "A3_TASHA/L1/day4/events.txt",
+    "A3_TASHA/L2/day2/events.txt",
+    "A3_TASHA/L2/day3/events.txt",
+    "A3_TASHA/L2/day4/events.txt",
+    "A3_TASHA/L2/day7/events.txt",
+    "A3_TASHA/L3/day2/events.txt",
+    "A3_TASHA/L3/day4/events.txt",
+    "A3_TASHA/L3/day5/events.txt",
+    "A3_TASHA/L3/day7/events.txt",
+    "A3_TASHA/L4/day4/events.txt",
+    "A3_TASHA/L4/day5/events.txt",
+    "A3_TASHA/L4/day7/events.txt",
+    "A3_TASHA/L5/day4/events.txt",
+    "A3_TASHA/L5/day5/events.txt",
+    "A3_TASHA/L5/day7/events.txt",
+    "A4_LUCIA/L1/day1/events.txt",
+    "A4_LUCIA/L1/day2/events.txt",
+    "A4_LUCIA/L1/day3/events.txt",
+    "A4_LUCIA/L1/day4/events.txt",
+    "A4_LUCIA/L1/day5/events.txt",
+    "A4_LUCIA/L1/day7/events.txt",
+    "A4_LUCIA/L2/day1/events.txt",
+    "A4_LUCIA/L2/day2/events.txt",
+    "A4_LUCIA/L2/day4/events.txt",
+    "A4_LUCIA/L2/day5/events.txt",
+    "A4_LUCIA/L2/day7/events.txt",
+    "A4_LUCIA/L3/day2/events.txt",
+    "A4_LUCIA/L3/day4/events.txt",
+    "A4_LUCIA/L3/day5/events.txt",
+    "A4_LUCIA/L4/day4/events.txt",
+    "A4_LUCIA/L4/day5/events.txt",
+    "A5_KATRINA/L1/day4/events.txt",
+    "A5_KATRINA/L1/day5/events.txt",
+    "A5_KATRINA/L1/day6/events.txt",
+    "A5_KATRINA/L2/day2/events.txt",
+    "A5_KATRINA/L2/day3/events.txt",
+    "A5_KATRINA/L2/day4/events.txt",
+    "A5_KATRINA/L2/day5/events.txt",
+    "A5_KATRINA/L2/day6/events.txt",
+    "A5_KATRINA/L3/day1/events.txt",
+    "A5_KATRINA/L3/day3/events.txt",
+    "A5_KATRINA/L3/day4/events.txt",
+    "A5_KATRINA/L3/day5/events.txt",
+    "A5_KATRINA/L3/day6/events.txt",
+    "A5_KATRINA/L4/day6/events.txt",
+    "A5_KATRINA/L4/day7/events.txt",
+    "A5_KATRINA/L5/day1/events.txt",
+    "A5_KATRINA/L5/day6/events.txt",
+    "A6_SHURE/L1/day2/events.txt",
+    "A6_SHURE/L1/day3/events.txt",
+    "A6_SHURE/L1/day5/events.txt",
+    "A6_SHURE/L1/day6/events.txt",
+    "A6_SHURE/L2/day2/events.txt",
+    "A6_SHURE/L2/day4/events.txt",
+    "A6_SHURE/L2/day5/events.txt",
+    "A6_SHURE/L2/day6/events.txt",
+    "A6_SHURE/L2/day7/events.txt",
+    "A6_SHURE/L3/day4/events.txt",
+    "A6_SHURE/L3/day5/events.txt",
+    "A6_SHURE/L3/day7/events.txt",
+    "A6_SHURE/L4/day4/events.txt",
+    "A6_SHURE/L4/day6/events.txt",
+    "A6_SHURE/L5/day3/events.txt",
+    "A6_SHURE/L5/day4/events.txt"
+  ],
+  "alice_day2_shifted_block_fixed": 329,
+  "validation": {
+    "parse_errors": [],
+    "leading_debris": 0,
+    "embedded_timestamp": 0,
+    "odd_ascii_quote": 0,
+    "bad_pronoun": 0,
+    "same_exact_cluster_ge20": [],
+    "cross_gap_events": [],
+    "counts": {
+      "L2": 137241,
+      "L3": 43516,
+      "L5": 1472,
+      "L1": 633227,
+      "L4": 7432
+    }
+  }
+}
