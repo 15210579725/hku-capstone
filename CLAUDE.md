@@ -143,3 +143,24 @@ simulation-env/         仿真线(把情绪表征接到 agent 行为上)
 - 验证：交付目录共 49 个文件、约 2.6 MB；提交前将检查 JSONL 可解析、文件数量与索引一致。
 - 未完成项：GitHub 推送后的远端目录和 README 链接待最终核验。
 - 下一步：提交并推送后检查远端 `main` 内容。
+
+## 2026-09-05 — 统一评测数据集 dataset/ 推送 GitHub
+
+- 目标：合并 EgoLife（6 人 × 7 天 × 5 层级）与 Next-Me（24 条 Aria 眼镜录制）为统一评测数据集，固定 1k 测试点索引。
+- 目录结构：`dataset/egolife/{A1-A6}/L{1-5}/day{1-7}/events.txt` + `dataset/nextme/{recording_id}/events.txt`
+- A4_LUCIA 使用 Claude-Opus 标注版本（替代 ds-flash），其余 5 人使用 DS-Flash 标注版本。
+- Next-Me caption JSONL 转换为统一 `[HH:MM:SS -> HH:MM:SS] action` 格式，共 2107 条事件。
+- `benchmark_1k.jsonl`：1000 个固定评测点（800 EgoLife + 200 Next-Me），L1 粒度，seed=42，50 条上下文 + 3 条 GT。
+- `data_index.json`：全量 234 个事件文件清单。
+- `run_benchmark.py`：统一预测脚本，默认 ds-v4-flash，输出与 `metric/eval_kit/evaluate.py` 兼容的 JSONL。
+- 端到端验证：ds-v4-flash 10 点（5 EgoLife + 5 Next-Me）预测 + eval_kit 格式兼容 dry-run 均 PASS。
+- 提交 `0dbfc1de`，已推送 `origin/main`。
+- 总数据量 ~47MB（234 个 events.txt + 索引 + 脚本）。
+
+## 2026-09-06 — 100 小时 Caption 脱敏交付（待 GitHub 推送）
+
+- `caption-result/` 已准备替换为 133 条录制的脱敏版本：12,068 个成功 clip；37 条失败 clip 已过滤；前 100 小时为 11,813 / 11,943（98.9%）。
+- 每条录制含 `captions.jsonl` 与 `captions.txt`，根目录 `index.json`；`_redaction_audit.json` 记录脱敏类别计数与验证摘要，不含原始匹配值。
+- 脱敏掩码为 `XXX`，覆盖凭据、邮箱、电话、姓名、地址、支付信息、URL/本地路径等；输出 JSONL 已逐行验证可解析，且仅保留顶层 `ok=true` 记录。
+- 分析注意：`clip_index` 可能稀疏，时间戳与录制覆盖范围请以各条记录字段为准；前 100 小时窗口并非 100% 覆盖。
+- 当前仅完成本地替换与待审查 staging；GitHub 推送及远端实时核验尚未完成。

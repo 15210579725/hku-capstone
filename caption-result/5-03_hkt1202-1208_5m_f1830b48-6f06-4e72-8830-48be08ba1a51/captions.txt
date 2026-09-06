@@ -1,207 +1,177 @@
-===== clip_0000  2026-05-03 13:56:39 → 2026-05-03 13:57:09
-I walk along an upper-level curved corridor of a shopping mall atrium, look down at a pop-up market on the ground floor, and then turn to my companion to suggest leaving.
-  [13:56:39–13:56:44] I look at my companion standing on the walkway and walk along the curved corridor.
-      text: ['市民中心公园', '深圳CBD 最松弛的公园', '市民花田', '大草坪']
-  [13:56:45–13:56:49] I walk along the curved walkway while looking down across the atrium levels.
-      text: ['渔舶汇', '蒸汽活海鲜·榴莲自助', '泰国金枕榴莲畅吃']
-  [13:56:50–13:56:53] I glance ahead at the glass doors reading '市民中心公园' and '市民花田'.
-      text: ['市民花田', '隐秘 绿光森林', '深圳CBD 最松弛的公园', '领展中心城 市民中心公园']
-  [13:56:54–13:56:57] I step closer to the atrium railing and look across the open expanse.
-      text: ['渔舶汇', '蒸汽活海鲜·榴莲自助', '泰国金枕榴莲畅吃']
-  [13:56:58–13:57:04] Holding a black cable, I look down over the railing at the '渔舶汇' banner and the pet market below.
-      text: ['来！玩转五一', '渔舶汇', '蒸汽活海鲜·榴莲自助', '泰国金枕榴莲畅吃']
-  [13:57:05–13:57:08] I turn back toward the corridor doors and tell my companion '走吧。'.
-      speech: 走吧。
-      text: ['市民花田', '隐秘 绿光森林', '领展中心城 市民中心公园']
+===== clip 0  2026-05-03 13:56:39  [gemini-3.7-flash] =====
+场景: I walk along an upper-level curved corridor of a shopping mall atrium, look down at a pop-up market on the ground floor, and then turn to my companion to suggest leaving.
+  13:56:39–13:56:44  I look at my companion standing on the walkway and walk along the curved corridor.
+  13:56:45–13:56:49  I walk along the curved walkway while looking down across the atrium levels.
+  13:56:50–13:56:53  I glance ahead at the glass doors reading '市民中心公园' and '市民花田'.
+      屏幕: [{'hkt': '13:56:51', 'label': 'door signage', 'summary': 'Glass entryway signage directing visitors to Civic Center Park and Civic Flower Field.', 'text': ['市民花田', '隐秘 绿光森林', '市民花田', '市民花田', '深圳CBD 最松弛的公园', '领展中心城 市民中心公园']}]
+  13:56:54–13:56:57  I step closer to the atrium railing and look across the open expanse.
+  13:56:58–13:57:04  Holding a black cable, I look down over the railing at the '渔舶汇' banner and the pet market below.
+      屏幕: [{'hkt': '13:56:59', 'label': 'hanging banner', 'summary': 'Promotional hanging banner advertising a seafood and durian buffet at Yu Bo Hui.', 'text': ['来！玩转五一', '渔舶汇', '蒸汽活海鲜·榴莲自助', '泰国金枕榴莲畅吃']}, {'hkt': '13:57:00', 'label': 'hanging banner', 'summary': 'Atrium hanging banner promoting Thai Monthong durian buffet dining.', 'text': ['来！玩转五一', '渔舶汇', '蒸汽活海鲜·榴莲自助', '泰国金枕榴莲畅吃']}]
+  13:57:05–13:57:08  I turn back toward the corridor doors and tell my companion '走吧。'.
+      语音: 走吧。
+      屏幕: [{'hkt': '13:57:07', 'label': 'door signage', 'summary': 'Glass exit door signage with directional stickers for Link CentralWalk and Civic Center Park.', 'text': ['市民花田', '隐秘 绿光森林', '领展中心城 市民中心公园']}]
 
-===== clip_0001  2026-05-03 13:57:09 → 2026-05-03 13:57:39
-I walk through an indoor mall corridor, exit through a glass door and stairwell passage, and emerge outdoors into a park with tree-lined paved pathways.
-  [13:57:09–13:57:10] I walk along an indoor corridor under a glass skylight ceiling.
-      text: ['深圳CBD', '最松弛的公园']
-  [13:57:10–13:57:11] I say '去看一眼。' while continuing forward.
-      speech: 去看一眼。
-      text: ['深圳CBD', '最松弛的公园']
-  [13:57:11–13:57:16] I turn toward the glass exit doors leading outdoors.
-      text: ['市民花田', '领展中心城', '市民中心公园']
-  [13:57:17–13:57:19] I glance back at the door frame displaying the opening hours sign as I pass through.
-      text: ['领展中心城', '此门开放时间', '周一至周四、周日', '早10:00—晚22:00', '周五至周六', '早10:00—晚22:30']
-  [13:57:20–13:57:23] I turn forward and walk towards the staircase leading up to the plaza.
-      text: ['↑ 市民中心广场']
-  [13:57:23–13:57:25] I say '这就是那个二楼的那个桥那块儿。' as I reach the base of the stairs.
-      speech: 这就是那个二楼的那个桥那块儿。
-      text: ['↑ 市民中心广场']
-  [13:57:25–13:57:31] I climb the stairs towards the glass exit pavilion at the top.
-      text: ['领展中心城', '亲子遛娃', '宝藏地', 'HELLO', '{来都来了}', '里面请呀~', 'Link CentralWalk', '港客爱逛TOP商场']
-  [13:57:32–13:57:38] I walk out through the glass doors into the outdoor park and look around at the greenery.
-      text: ['领展中心城', '100+餐饮品牌', 'HELLO', '{来都来了}', '里面请呀~', 'Link CentralWalk', '港客爱逛TOP商场']
+===== clip 1  2026-05-03 13:57:09  [gemini-3.7-flash] =====
+场景: I walk through an indoor mall corridor, exit through a glass door and stairwell passage, and emerge outdoors into a park with tree-lined paved pathways.
+  13:57:09–13:57:10  I walk along an indoor corridor under a glass skylight ceiling.
+      屏幕: [{'hkt': '13:57:09', 'label': 'glass railing decal', 'summary': 'Pink decal on the indoor glass railing promoting the nearby CBD park.', 'text': ['深圳CBD', '最松弛的公园']}]
+  13:57:10–13:57:11  I say '去看一眼。' while continuing forward.
+      语音: 去看一眼。
+  13:57:11–13:57:16  I turn toward the glass exit doors leading outdoors.
+      屏幕: [{'hkt': '13:57:13', 'label': 'exit door glass decal', 'summary': "Pink decal on the exit door glass labeling the Citizens' Flower Field destination.", 'text': ['市民花田']}, {'hkt': '13:57:13', 'label': 'exit door glass decal', 'summary': 'Decal on the glass pane indicating Link CentralWalk and Civic Center Park.', 'text': ['领展中心城', '市民中心公园']}]
+  13:57:17–13:57:19  I glance back at the door frame displaying the opening hours sign as I pass through.
+      屏幕: [{'hkt': '13:57:17', 'label': 'door frame schedule sign', 'summary': 'Door operating hours sign on the stainless steel door frame.', 'text': ['领展中心城', '此门开放时间', '周一至周四、周日', '早10:00—晚22:00', '周五至周六', '早10:00—晚22:30']}]
+  13:57:20–13:57:23  I turn forward and walk towards the staircase leading up to the plaza.
+      屏幕: [{'hkt': '13:57:23', 'label': 'overhead directional sign', 'summary': 'Overhead directional sign pointing ahead toward Civic Center Square.', 'text': ['↑ 市民中心广场']}]
+  13:57:23–13:57:25  I say '这就是那个二楼的那个桥那块儿。' as I reach the base of the stairs.
+      语音: 这就是那个二楼的那个桥那块儿。
+      屏幕: [{'hkt': '13:57:23', 'label': 'overhead directional sign', 'summary': 'Overhead directional sign pointing ahead toward Civic Center Square.', 'text': ['↑ 市民中心广场']}]
+  13:57:25–13:57:31  I climb the stairs towards the glass exit pavilion at the top.
+      屏幕: [{'hkt': '13:57:28', 'label': 'staircase glass decal', 'summary': 'Pink promotional decal on the glass wall at the stairs promoting family activities.', 'text': ['领展中心城', '亲子遛娃', '宝藏地']}, {'hkt': '13:57:28', 'label': 'glass pavilion decals', 'summary': 'Promotional lettering and decals on the glass pavilion enclosure.', 'text': ['HELLO', '{来都来了}', '里面请呀~', 'Link CentralWalk', '领展中心城', '港客爱逛TOP商场']
+  13:57:32–13:57:38  I walk out through the glass doors into the outdoor park and look around at the greenery.
+      屏幕: [{'hkt': '13:57:38', 'label': 'glass pavilion exterior', 'summary': 'Exterior signage and promotional graphics on the park exit pavilion.', 'text': ['领展中心城', '100+餐饮品牌', 'HELLO', '{来都来了}', '里面请呀~', 'Link CentralWalk', '领展中心城', '港客爱逛TOP商场']}]
 
-===== clip_0002  2026-05-03 13:57:39 → 2026-05-03 13:58:09
-I walk through an outdoor park walkway outside Link CentralWalk, throw a snack wrapper into a public trash bin, and continue walking along the tree-lined path.
-  [13:57:39–13:57:41] I walk away from the glass entrance pavilion of Link CentralWalk onto the park pathway.
-      text: ['领展中心城', 'Link CentralWalk', 'HELLO', '来都来了', '里面请呀', '100+餐饮品牌', '宝藏地', '港客爱逛', '亲子遛娃']
-  [13:57:41–13:57:49] I walk forward along the straight stone-paved walkway bordered by trees and grass.
-      text: ['-44030454001328001314-']
-  [13:57:49–13:57:59] I walk towards a dual-compartment trash bin station situated on the right side of the path.
-      text: ['领展中心城']
-  [13:57:59–13:58:01] I reach out my right hand and drop a red snack wrapper into the other waste compartment of the trash bin.
-  [13:58:01–13:58:05] I turn slightly left and continue walking along the curving path, looking at a large spreading tree.
-      text: ['领展中心城']
-  [13:58:05–13:58:08] I walk along the curved pathway while looking at the surrounding greenery and approaching pedestrians.
-      speech: 真不错呀！啊！哇， amazing！
-      text: ['潮玩 领展中心城']
+===== clip 2  2026-05-03 13:57:39  [gemini-3.7-flash] =====
+场景: I walk through an outdoor park walkway outside Link CentralWalk, throw a snack wrapper into a public trash bin, and continue walking along the tree-lined path.
+  13:57:39–13:57:41  I walk away from the glass entrance pavilion of Link CentralWalk onto the park pathway.
+      屏幕: [{'hkt': '13:57:39', 'label': 'entrance glass pavilion signage', 'summary': 'Glass entrance canopy and glass walls decorated with promotional stickers and the mall name Link CentralWalk.', 'text': ['领展中心城', 'HELLO', '来都来了', '里面请呀', 'Link CentralWalk', '100+餐饮品牌', '宝藏地', '港客爱逛', '亲子遛娃']}, {'hkt': '13:57:40', 'label': 'entrance glass pavilion signage', 'summary': 'Lower perspective of the glass entr
+  13:57:41–13:57:49  I walk forward along the straight stone-paved walkway bordered by trees and grass.
+  13:57:49–13:57:59  I walk towards a dual-compartment trash bin station situated on the right side of the path.
+  13:57:59–13:58:01  I reach out my right hand and drop a red snack wrapper into the other waste compartment of the trash bin.
+  13:58:01–13:58:05  I turn slightly left and continue walking along the curving path, looking at a large spreading tree.
+  13:58:05–13:58:08  I walk along the curved pathway while looking at the surrounding greenery and approaching pedestrians.
+      语音: 真不错呀！啊！哇， amazing！
 
-===== clip_0003  2026-05-03 13:58:09 → 2026-05-03 13:58:39
-I walk through an outdoor landscaped park along paved stone pathways toward the Link CentralWalk entrance while chatting with my companion.
-  [13:58:09–13:58:11] I walk along a paved park fork path, observing the surrounding greenery and pedestrians passing by.
-  [13:58:11–13:58:18] I turn my head to the right and look at the dense greenery and a white surveillance camera pole installed on the lawn.
-      text: ['44030454001328001315']
-  [13:58:19–13:58:20] I say "太神奇" to my companion.
-      speech: 太神奇
-  [13:58:20–13:58:21] I look ahead down the left-hand paved pathway as we continue moving.
-  [13:58:21–13:58:22] I say "走" to my companion.
-      speech: 走
-  [13:58:22–13:58:26] I walk forward along the stone walkway past a standing directional signpost pointing toward Link CentralWalk.
-      text: ['领展中心城', 'Link CentralWalk']
-  [13:58:26–13:58:30] I continue walking along the paved park path following the path as it curves gently forward.
-  [13:58:30–13:58:35] I walk straight down the paved walkway behind the couple ahead toward the Link CentralWalk entrance plaza.
-      text: ['领展中心城']
-  [13:58:35–13:58:36] I say "哪有秘密".
-      speech: 哪有秘密
-      text: ['领展中心城', 'HELLO']
-  [13:58:36–13:58:38] I continue walking forward along the tree-lined path toward the Link CentralWalk entrance.
-      text: ['领展中心城', 'HELLO']
-  [13:58:38–13:58:39] I say "学生".
-      speech: 学生
-      text: ['领展中心城', 'HELLO']
+===== clip 3  2026-05-03 13:58:09  [gemini-3.7-flash] =====
+场景: I walk through an outdoor landscaped park along paved stone pathways toward the Link CentralWalk entrance while chatting with my companion.
+  13:58:09–13:58:11  I walk along a paved park fork path, observing the surrounding greenery and pedestrians passing by.
+  13:58:11–13:58:18  I turn my head to the right and look at the dense greenery and a white surveillance camera pole installed on the lawn.
+  13:58:19–13:58:20  I say "太神奇" to my companion.
+      语音: 太神奇
+  13:58:20–13:58:21  I look ahead down the left-hand paved pathway as we continue moving.
+  13:58:21–13:58:22  I say "走" to my companion.
+      语音: 走
+  13:58:22–13:58:26  I walk forward along the stone walkway past a standing directional signpost pointing toward Link CentralWalk.
+      屏幕: [{'hkt': '13:58:24', 'label': 'directional signpost', 'summary': 'Park directional signpost pointing right toward Link CentralWalk.', 'text': ['→', '领展中心城', 'Link CentralWalk']}]
+  13:58:26–13:58:30  I continue walking along the paved park path following the path as it curves gently forward.
+  13:58:30–13:58:35  I walk straight down the paved walkway behind the couple ahead toward the Link CentralWalk entrance plaza.
+  13:58:35–13:58:36  I say "哪有秘密".
+      语音: 哪有秘密
+      屏幕: [{'hkt': '13:58:36', 'label': 'building entrance sign', 'summary': 'Entrance sign and facade of Link CentralWalk.', 'text': ['领展中心城', 'HELLO']}]
+  13:58:36–13:58:38  I continue walking forward along the tree-lined path toward the Link CentralWalk entrance.
+      屏幕: [{'hkt': '13:58:36', 'label': 'building entrance sign', 'summary': 'Entrance sign and facade of Link CentralWalk.', 'text': ['领展中心城', 'HELLO']}]
+  13:58:38–13:58:39  I say "学生".
+      语音: 学生
 
-===== clip_0004  2026-05-03 13:58:39 → 2026-05-03 13:59:09
-I walk through an outdoor park towards the entrance of Link CentralWalk, hand my camera to my companion, and read incoming messages in a WeChat research lab group chat on my phone as I enter the building and walk down the stairs.
-  [13:58:39–13:58:39] I say '厕所。' to my companion while walking along the park path.
-      speech: 厕所。
-  [13:58:40–13:58:44] I walk along the stone path toward the glass entrance of Link CentralWalk and pull out my smartphone connected to a camera cable.
-      text: ['领展中心城', 'HELLO', 'Link CentralWalk']
-  [13:58:45–13:58:47] I pass the small camera device to my companion and say '你帮我背个这个相机[unclear]'.
-      speech: 你帮我背个这个相机[unclear]
-  [13:58:47–13:58:48] I say '谢谢。' as my companion takes the camera.
-      speech: 谢谢。
-  [13:58:49–13:58:50] I continue walking toward the entrance of Link CentralWalk while holding my phone.
-      text: ['领展中心城']
-  [13:58:50–13:58:51] I say '好。' while looking forward.
-      speech: 好。
-  [13:58:52–13:58:54] I look at the lock screen of my iPhone and swipe up to view the WeChat notification from 'MACLab @ HKU'.
-      text: ['12:06', '5月3日周日 · 丙午年三月十七', '通知中心', '微信', 'MACLab @ HKU', '祝建桥 在群聊中@了你', '祝建桥: :) 拉一下[User X]进lab的...', 'Link CentralWalk', '宝藏地', '港客爱逛', '来都来了']
-  [13:58:55–13:58:56] I view the WeChat chat list and tap on the 'MACLab @ HKU 🧋💗' group chat.
-      text: ['12:04', '微信(5)', 'Mac 微信已登录', '文件传输助手', 'Lian Group', '5-26 Y.X C', '103张张章: 有人需要饮料和薯片排挡拉...', 'MACLab @ HKU 🧋💗', '[有人@我]', '公众号', '7503', '7102 Risk Analysis (Group 5...']
-  [13:58:57–13:59:08] I read the group chat messages in '< 3 MACLab @ HKU 🧋💗(12)' on my phone while walking through the glass entrance doors and heading down the indoor staircase into Link CentralWalk.
-      text: ['12:04', 'MACLab @ HKU 🧋💗(12)', '上午11:43', '祝建桥', ':) 拉一下[User X]进lab的微信群。', '@[User X] 现在是港大数学系AI项目硕士生，他对RL很有研究，夏天和下学期会在lab里一起做关于simulating human behavior的项目。', '领展中心城', 'Link CentralWalk']
+===== clip 4  2026-05-03 13:58:39  [gemini-3.7-flash] =====
+场景: I walk through an outdoor park towards the entrance of Link CentralWalk, hand my camera to my companion, and read incoming messages in a WeChat research lab group chat on my phone as I enter the building and walk down the stairs.
+  13:58:39–13:58:39  I say '厕所。' to my companion while walking along the park path.
+      语音: 厕所。
+  13:58:40–13:58:44  I walk along the stone path toward the glass entrance of Link CentralWalk and pull out my smartphone connected to a camera cable.
+  13:58:45–13:58:47  I pass the small camera device to my companion and say '你帮我背个这个相机[unclear]'.
+      语音: 你帮我背个这个相机[unclear]
+  13:58:47–13:58:48  I say '谢谢。' as my companion takes the camera.
+      语音: 谢谢。
+  13:58:49–13:58:50  I continue walking toward the entrance of Link CentralWalk while holding my phone.
+  13:58:50–13:58:51  I say '好。' while looking forward.
+      语音: 好。
+  13:58:52–13:58:54  I look at the lock screen of my iPhone and swipe up to view the WeChat notification from 'MACLab @ HKU'.
+      屏幕: [{'hkt': '13:58:52', 'label': 'phone screen', 'summary': 'iPhone lock screen showing the time 12:06 and a WeChat notification mentioning me in the MACLab @ HKU group chat.', 'text': ['5月3日周日 · 丙午年三月十七', '12:06', '通知中心', '微信', 'MACLab @ HKU', '祝建桥 在群聊中@了你']}, {'hkt': '13:58:53', 'label': 'phone screen', 'summary': 'iPhone lock screen with expanded WeChat notification previewing a message from 祝建桥 i
+  13:58:55–13:58:56  I view the WeChat chat list and tap on the 'MACLab @ HKU 🧋💗' group chat.
+      屏幕: [{'hkt': '13:58:55', 'label': 'phone screen', 'summary': 'WeChat app main chat list loading messages and displaying recent conversations.', 'text': ['12:04', '收取中...', '搜索', 'Mac 微信已登录', '文件传输助手', 'Lian Group', '5-26 Y.X C', '群聊', '[有人@我]', '公众号', 'APPSO: 这11个小技巧, GPT-5可能要延期到...', '7503', 'Tomato: [动画表情] OK', '7102 Risk Analysis (Group 5...']}, {'hkt': '13:58:56', 'label': 'phone screen', 'summary
+  13:58:57–13:59:08  I read the group chat messages in '< 3 MACLab @ HKU 🧋💗(12)' on my phone while walking through the glass entrance doors and heading down the indoor staircase into Link CentralWalk.
+      屏幕: [{'hkt': '13:58:57', 'label': 'phone screen', 'summary': 'WeChat chat view for MACLab @ HKU (12) showing an introduction message sent by 祝建桥 welcoming me to the group.', 'text': ['12:04', '< 5  MACLab @ HKU 🧋💗(12)', '上午11:43', '“祝建桥”邀请你加入了群聊，群聊参与人还有：...', '祝建桥', ':) 拉一下[XXX]进lab的微信群。', '祝建桥', '@[XXX] 现在是港大数学系AI项目硕士生，他对RL很有研究，夏天和下学期会在lab里一起做关于simulating human behavior的项目。']}, {'hkt': '13:58:5
 
-===== clip_0005  2026-05-03 13:59:09 → 2026-05-03 13:59:39
-I walk down an indoor staircase towards a shopping mall entrance while using WeChat on my smartphone to send a greeting message to a lab group chat.
-  [13:59:09–13:59:11] I walk down a tiled staircase while holding my smartphone in my right hand and viewing messages in the 'MACLab @ University X' WeChat group chat.
-      text: ['MACLab @ University X 🧋💗(12)', '“User B”邀请你加入了群聊', 'simulating human behavior的项目']
-  [13:59:12–13:59:28] I switch between the emoji panel, the Chinese Pinyin keyboard, and the custom sticker panel ('添加的单个表情') in WeChat, browsing through meme stickers including '炒着呢' and '已老实' while descending to the landing.
-      text: ['MACLab @ University X 🧋💗(12)', '我 好 你 那 是 哈哈 哈 可以', '添加的单个表情', '炒着呢', '那种感觉又上来了 很难过又很难说', '已老实']
-  [13:59:29–13:59:36] I switch back to the Pinyin keyboard and type 'xue zhang men hao' to select '学长们好' in the chat input bar.
-      text: ['学长们好', '发送', '领展中心城', '绿光森林', '隐秘']
-  [13:59:37–13:59:38] I look up from my phone and walk through the opened glass doors into the spacious mall atrium following my companion.
-      text: ['隐秘', '绿光森林', '領展', '中心城']
+===== clip 5  2026-05-03 13:59:09  [gemini-3.7-flash] =====
+场景: I walk down an indoor staircase towards a shopping mall entrance while using WeChat on my smartphone to send a greeting message to a lab group chat.
+  13:59:09–13:59:11  I walk down a tiled staircase while holding my smartphone in my right hand and viewing messages in the 'MACLab @ University X' WeChat group chat.
+      屏幕: [{'hkt': '13:59:09', 'label': 'phone screen', 'summary': 'WeChat group chat MACLab @ University X displaying member introduction messages.', 'text': ['12:05', '< 3  MACLab @ University X 🧋💗(12)', '“XXX”邀请你加入了群聊，群聊参与人还有：...', 'XXX', '...目硕士生，他对RL很有研究，夏天和下学期会在lab里一起做关于simulating human behavior的项目。']}, {'hkt': '13:59:10', 'label': 'phone screen', 'summary': 'WeChat group chat viewing the lab in
+  13:59:12–13:59:28  I switch between the emoji panel, the Chinese Pinyin keyboard, and the custom sticker panel ('添加的单个表情') in WeChat, browsing through meme stickers including '炒着呢' and '已老实' while descending to the landing.
+      屏幕: [{'hkt': '13:59:12', 'label': 'phone screen', 'summary': 'WeChat chat with standard emoji selection panel opened.', 'text': ['12:05', '< 3  MACLab @ University X 🧋💗(12)', '...目硕士生，他对RL很有研究，夏天和下学期会在lab里一起做关于simulating human behavior的项目。', '最近使用', '所有表情']}, {'hkt': '13:59:13', 'label': 'phone screen', 'summary': 'Browsing WeChat emoji keyboard panel.', 'text': ['12:05', '< 3  MACLab @ University X 🧋
+  13:59:29–13:59:36  I switch back to the Pinyin keyboard and type 'xue zhang men hao' to select '学长们好' in the chat input bar.
+  13:59:37–13:59:38  I look up from my phone and walk through the opened glass doors into the spacious mall atrium following my companion.
 
-===== clip_0006  2026-05-03 13:59:39 → 2026-05-03 14:00:09
+===== clip 7  2026-05-03 14:00:09  [gemini-3.7-flash] =====
+场景: I wait for and enter an elevator in a shopping mall, press the floor button, realize I may have mispressed it, and check the floor directory poster inside.
+  14:00:09–14:00:13  I wait in front of the elevator on L2 while looking at the WeChat chat list on my phone as the elevator doors slide open.
+      屏幕: [{'hkt': '14:00:09', 'label': 'phone screen', 'summary': 'My smartphone displays the WeChat chat list in light mode with multiple group and private chat threads.', 'text': ['微信 (3)', '文件传输助手', '7503', '7102 Risk Analysis (Group 5...)', '微信', '通讯录', '发现', '我']}, {'hkt': '14:00:10', 'label': 'phone screen', 'summary': 'The phone screen shows the WeChat chat conversation list.', 'text': ['微信', '通讯录',
+  14:00:14–14:00:21  I step forward through the open doors into the elevator cabin while holding my phone displaying WeChat.
+      屏幕: [{'hkt': '14:00:15', 'label': 'elevator poster', 'summary': 'A detailed section of the pink elevator promotional poster showing eight member privileges.', 'text': ['赚积分 Earn Points', '积分当钱花, 消费赚积分', '可兑礼品/代金券', '入会礼 Welcome Gift', '即送2小时停车券+100积分 (可抵停车费10元)', '停车礼 Free Parking', '畅享免费停车', '积分抵扣额外停车费', '生日礼 Birthday Rewards', '当日免费停车', '不定期惊喜礼', "会员日 Members' Day", '会员专属狂欢日', '超多会员福利活动', '趣活动 Vivid
+  14:00:22–14:00:27  I reach out my right hand to the elevator control panel and press a floor button while glancing at the M层 directory.
+      屏幕: [{'hkt': '14:00:22', 'label': 'elevator directory board', 'summary': 'The brown mall directory board inside the elevator lists restaurant and drink merchants on floors L1 and M.', 'text': ['楼层导视', 'L1层', '美食', '(商场内)', 'BOOONS', '茶大椰·椰子茶', '健康快车·益生菌饮料', '鲜芋仙', '脆鲜生·脆皖鱼火锅', '大渔臻选·棠膳', '极上万膳·自助放题', '外婆家', '文通冰室', '(东走廊(商场外))', '农耕记·湖南土菜', '虎丸烧肉', '八合里牛肉火锅', 'DOUGH BROS到宝兄弟', '鮨·匠龍Omakase', '北村韩食迹·活烤
+  14:00:28–14:00:30  I look up at the restaurant directory poster on the curved elevator wall as the doors close.
+      屏幕: [{'hkt': '14:00:28', 'label': 'elevator directory board', 'summary': 'Elevator wall directory displaying L1 and M floor dining and tea options.', 'text': ['L1层', '美食', '(商场内)', 'BOOONS', '茶大椰·椰子茶', '健康快车·益生菌饮料', '鲜芋仙', '脆鲜生·脆皖鱼火锅', '大渔臻选·棠膳', '极上万膳·自助放题', '外婆家', '文通冰室', '(东走廊(商场外))', '农耕记·湖南土菜', '虎丸烧肉', '八合里牛肉火锅', 'DOUGH BROS到宝兄弟', '鮨·匠龍Omakase', '北村韩食迹·活烤鳗鱼', '哥二广西米粉', 'M层', '美食', '怂火锅厂', '粤吉鲜·海鲜
+  14:00:30–14:00:31  I say '等一下，我按到哪儿去了？' to my companion while looking down at the G层 and B1层 sections of the floor directory.
+      语音: 等一下，我按到哪儿去了？
+      屏幕: [{'hkt': '14:00:30', 'label': 'elevator directory board', 'summary': 'The main directory board showing floor maps and store categories for G and B1 floors in Link CentralWalk.', 'text': ['领展中心城 Link CentralWalk', '楼层导视', 'G层', '美食', 'B1层', '茶饮', '美容护理', '休闲娱乐', '生活配套', 'B2层 P']}]
+  14:00:32–14:00:38  I inspect the 'G层' and 'B1层' restaurant and store listings on the elevator directory board.
+      屏幕: [{'hkt': '14:00:33', 'label': 'elevator directory board', 'summary': 'Full directory board showing complete listings of food, drink, jewelry, and retail stores for G and B1 floors.', 'text': ['领展中心城 Link CentralWalk', '楼层导视', 'G层', '美食', '(商场内)', '码头见·潮汕小海鲜', 'UH祐禾面包', '费大厨·辣椒炒肉', '赖胖子肉蟹煲', 'potato corner', '薛记炒货', 'dOonut甜甜圈', '鲍师傅糕点', '么虎零食', '德粒坚果', '混果汁', '茉悠格·鲜果酸奶', '星叹·厚肉果汁', '山山不夜', '猿乐山',
 
+===== clip 8  2026-05-03 14:00:39  [gemini-3.7-flash] =====
+场景: I am riding in an elevator at Link CentralWalk with a female companion, deciding to take the elevator to the G floor instead of B1.
+  14:00:39–14:00:41  I say "我要尿尿，我去。" to my companion while looking at the membership promotional poster in the elevator.
+      语音: 我要尿尿，我去。
+      屏幕: [{'hkt': '14:00:39', 'label': 'membership promotional poster', 'summary': 'Elevator promotional poster detailing Link CentralWalk membership benefits and tiered parking privileges for Silver, Gold, and Black cardholders.', 'text': ['加入领展会员', '尽享八重好礼', '扫码注册', '入会礼', '停车礼', '生日礼', '赚积分', '会员日', '亲子Club', '趣活动', '享特权', '免费停车 Free Parking', '扫码缴费', '首次注册 赠2小时停车券+100积分 (100积分可抵扣10元停车费)', '银卡 50积分抵扣5元停
+  14:00:41–14:00:45  I look around the elevator interior as it travels toward floor B1.
+      屏幕: [{'hkt': '14:00:45', 'label': 'promotional sticker on elevator door', 'summary': 'Alipay+ promotional ad on the elevator door offering shopping discounts up to CNY 200 for Hong Kong and Macao visitors.', 'text': ['领展中心城 × Alipay+', 'UP TO CNY 200 OFF', '领港澳专属最高 200 元']}]
+  14:00:45–14:00:51  I watch as the elevator doors slide open at floor B1.
+      屏幕: [{'hkt': '14:00:45', 'label': 'promotional sticker on elevator door', 'summary': 'Alipay+ promotional ad on the elevator door offering shopping discounts up to CNY 200 for Hong Kong and Macao visitors.', 'text': ['领展中心城 × Alipay+', 'UP TO CNY 200 OFF', '领港澳专属最高 200 元']}, {'hkt': '14:00:49', 'label': 'promotional wall mural', 'summary': 'Large Meituan Xiaoxiang Supermarket promotional mural facing
+  14:00:51–14:00:52  I say "哎？" as I look out at the B1 floor corridor.
+      语音: 哎？
+      屏幕: [{'hkt': '14:00:52', 'label': 'promotional wall mural', 'summary': 'Perspective view of the Meituan Xiaoxiang Supermarket advertising wall outside the elevator on B1.', 'text': ['美团', '小象超市', '你好，深圳', '「小象超市」华南首家线下店', '深圳市福田区领展中心城B1层', '（地铁1&4号线-会展中心站B出口）']}]
+  14:00:52–14:00:54  I look out into the B1 mall corridor.
+      屏幕: [{'hkt': '14:00:52', 'label': 'promotional wall mural', 'summary': 'Perspective view of the Meituan Xiaoxiang Supermarket advertising wall outside the elevator on B1.', 'text': ['美团', '小象超市', '你好，深圳', '「小象超市」华南首家线下店', '深圳市福田区领展中心城B1层', '（地铁1&4号线-会展中心站B出口）']}]
+  14:00:54–14:00:54  I say "哦。".
+      语音: 哦。
+  14:00:55–14:00:57  I turn my attention to the elevator control panel and floor directory panel next to the door.
+      屏幕: [{'hkt': '14:00:56', 'label': 'elevator floor directory and button panel', 'summary': 'Elevator directory panel listing restaurants located on the M floor of the shopping mall.', 'text': ['M层', '美食', '怂火锅厂', '粤吉鲜·海鲜火锅', '珍禄·粤时鲜', '吴莊·江浙菜', '喜井无限烤肉公司', '西贝XIBEI', '太二酸菜鱼', '湘辣辣', '歌志轩·名古屋拌面', '西塔老太太泥炉烤肉', '本冶关东煮', '福牛荟潮汕牛肉火锅']}]
+  14:00:57–14:00:59  I reach out my right hand, press the 'G' floor button on the panel, and say "还是去G楼吧，怎么感觉有点阴间呢？".
+      语音: 还是去G楼吧，怎么感觉有点阴间呢？
+  14:00:59–14:01:03  I watch as the elevator doors slide closed.
+      屏幕: [{'hkt': '14:01:01', 'label': 'membership promotional poster', 'summary': 'Elevator poster showing Link CentralWalk membership benefits and parking discounts.', 'text': ['加入领展会员', '尽享八重好礼', '扫码注册', '入会礼', '停车礼', '生日礼', '赚积分', '会员日', '亲子Club', '趣活动', '享特权', '免费停车 Free Parking', '扫码缴费', '首次注册 赠2小时停车券+100积分 (100积分可抵扣10元停车费)', '银卡 50积分抵扣5元停车费 生日当天免费停车', '金卡 免费停车 生日当天...', '黑卡 免费停车 生日...', '超出免费时长 享50积
+  14:01:03–14:01:04  I say "先尿尿。" to my companion.
+      语音: 先尿尿。
+  14:01:04–14:01:08  I stand in the ascending elevator and look at the membership poster on the back wall.
 
-===== clip_0007  2026-05-03 14:00:09 → 2026-05-03 14:00:39
-I wait for and enter an elevator in a shopping mall, press the floor button, realize I may have mispressed it, and check the floor directory poster inside.
-  [14:00:09–14:00:13] I wait in front of the elevator on L2 while looking at the WeChat chat list on my phone as the elevator doors slide open.
-      text: ['微信 (3)', '文件传输助手', '7503', '7102 Risk Analysis (Group 5...)', '微信', '通讯录', '发现', '我', 'L2', 'B1层', '当前楼层 L2层', '禁止吸烟 NO SMOKING', '加入领展会员 尽享八重好礼']
-  [14:00:14–14:00:21] I step forward through the open doors into the elevator cabin while holding my phone displaying WeChat.
-      text: ['加入 领展会员 尽享八重好礼', '入会礼 Welcome Gift', '即送2小时停车券+100积分 (可抵停车费10元)', '停车礼 Free Parking', '畅享免费停车', '积分抵扣额外停车费', '生日礼 Birthday Rewards', '当日免费停车', '不定期惊喜礼', "会员日 Members' Day", '会员专属狂欢日', '超多会员福利活动', '赚积分 Earn Points', '积分当钱花, 消费赚积分', '可兑礼品/代金券', '享特权 VIP Benefits', '趣活动 Vivid Events', '精彩互动欢乐体验', '尊享私享会', '亲子Club Family Club', '微信 (3)', '文件传输助手', '7503', '7102 Risk Analysis (Group 5...)']
-  [14:00:22–14:00:27] I reach out my right hand to the elevator control panel and press a floor button while glancing at the M层 directory.
-      text: ['楼层导视', 'L1层', 'M层', '400 820 0604', 'Schindler', '扫码领2h免费停车券', '怂火锅厂', '粤吉鲜·海鲜火锅', '珍禄·粤时鲜', '吴莊·江浙菜', '喜井无限烤肉公司', '西贝XIBEI', '太二酸菜鱼', '湘辣辣', '歌志轩·名古屋拌面', '西塔老太太泥炉烤肉', '木治关东煮', '禧牛荟潮汕牛肉火锅']
-  [14:00:28–14:00:30] I look up at the restaurant directory poster on the curved elevator wall as the doors close.
-      text: ['楼层导视', 'L1层', 'M层', '美食', '茶饮', 'BOOONS', '茶大椰·椰子茶', '健康快车·益生菌饮料', '鲜芋仙', '脆鲜生·脆皖鱼火锅', '大渔臻选·棠膳', '极上万膳·自助放题', '外婆家', '文通冰室', '农耕记·湖南土菜', '虎丸烧肉', '八合里牛肉火锅', 'DOUGH BROS到宝兄弟', '鮨·匠龍Omakase', '北村韩食迹·活烤鳗鱼', '哥二广西米粉', '怂火锅厂', '粤吉鲜·海鲜火锅', '珍禄·粤时鲜', '吴莊·江浙菜', '喜井无限烤肉公司', '西贝XIBEI', '太二酸菜鱼', '湘辣辣', '歌志轩·名古屋拌面', '西塔老太太泥炉烤肉', '木治关东煮', '禧牛荟潮汕牛肉火锅', '野人先生现做冰淇淋', 'HEY.YO喜乳酪', 'luckin coffee', '椰水之家', 'KOI Thé', '宝珠奶酪', '一田屋饭团', '自鱿人', '皇满杯TEAFUL']
-  [14:00:30–14:00:31] I say '等一下，我按到哪儿去了？' to my companion while looking down at the G层 and B1层 sections of the floor directory.
-      speech: 等一下，我按到哪儿去了？
-      text: ['领展中心城 Link CentralWalk', '楼层导视', 'G层', 'B1层', 'B2层 P', '美食', '茶饮', '黄金珠宝', '时尚服饰', '美容护理', '休闲娱乐', '生活配套']
-  [14:00:32–14:00:38] I inspect the 'G层' and 'B1层' restaurant and store listings on the elevator directory board.
-      text: ['楼层导视', 'G层', 'B1层', '码头见·潮汕小海鲜', 'UH祐禾面包', '费大厨·辣椒炒肉', '赖胖子肉蟹煲', 'potato corner', '薛记炒货', 'dOonut甜甜圈', '鲍师傅糕点', '么虎零食', '德粒坚果', '混果汁', '茉悠格·鲜果酸奶', '星叹·厚肉果汁', '老韩煸鸡', '喜识·冰糖葫芦·炒酸奶', '煲珠公', '果枝果子', '攀多渔', '大洋船长·海洋零食店', '味巴哥', '松小芙·松饼·舒芙蕾', '盛香亭转转热卤', '粤吉鲜·海鲜火锅', '麦记牛奶', 'PLAY X', '李小太烧烤', '麦当劳', '木屋烧烤', '东方樱兰', '霸王茶姬', '奢茶', '奈雪的茶', '六福珠宝', '结缘阁', '周传传', '探鱼·鲜青椒爽麻烤鱼', '顺德公广东猪肚鸡', '渔舶汇蒸汽活海鲜', '客家围·客家菜', '凤名轩·顺德桑拿菜', '蛙来哒蛙锅', '肥麻子重庆面庄', '随便紫菜包饭', 'Meater·健康餐·轻食', '和府捞面', '大橘煲仔', '小板鲜肉粉·湖南米粉', '味来侠自助小火锅', '豆腐家dubujib', '西小排', '麺屋猪一', '天怡兴·百年蒸饺', '灶泽小锅拌饼·铁锅炖', '莱滋PHO·越南粉餐厅', 'YO!TEA有茶', '茉鲜', '茶月山·潮汕工夫茶饮', '抹醒']
+===== clip 9  2026-05-03 14:01:09  [gemini-3.7-flash] =====
+场景: I exit an elevator in a shopping mall, check the directory board with my companion, and follow her down the main concourse through the atrium.
+  14:01:09–14:01:12  I stand inside the elevator next to my companion and look at the membership and parking promotion poster on the elevator wall as the elevator doors begin to open.
+      屏幕: [{'hkt': '14:01:09', 'label': 'membership promotional poster', 'summary': 'Poster detailing Link CentralWalk membership perks including free parking vouchers, points redemption, and tier benefits for Silver, Gold, and Black cardholders.', 'text': ['领展', '加入领展会员 尽享八重好礼', 'Join Us!', '扫码注册', '免费停车 Free Parking', '扫码缴费', '入会礼 首次注册 赠2小时停车券+100积分 (100积分可抵扣10元停车费)', '停车礼', '生日礼 当日免费停车 不定期惊喜礼', '赚积分', '会
+  14:01:12–14:01:15  I step out of the elevator onto the G floor concourse and walk toward a floor directory pillar to inspect the store listings.
+      屏幕: [{'hkt': '14:01:14', 'label': 'directory pillar bottom panel', 'summary': 'Lower electronic/illuminated section of the directory kiosk showing G-level shop categories and brand names.', 'text': ['G层 时尚服饰', 'DECATHLON 迪卡侬', 'AIMEEWQ', 'AMONAVIS', 'indicia', 'MAXRIENY', 'TH2011', 'S DEER', 'Subtle', 'BELLE', 'G层 珠宝钟表 饰品眼镜', 'G层 美容护理 家居生活', '足友', 'G层 童装玩具 休闲娱乐', '领展 Link CentralWalk']}]
+  14:01:15–14:01:16  My companion speaks as she realizes the directory might not show what we are looking for.
+      语音: 这也不对好像
+      屏幕: [{'hkt': '14:01:16', 'label': 'directory pillar bottom panel', 'summary': 'Full category breakdown for level G brands on the directory pillar.', 'text': ['G层 时尚服饰', 'DECATHLON 迪卡侬', 'AIMEEWQ', 'ogonblick', 'OCHIRLY', 'AMONAVIS', 'indicia', 'MAXRIENY', 'TH2011', 'Janis market', 'S DEER', 'Subtle', 'BELLE', 'G层 珠宝钟表 饰品眼镜', 'BOLON', '巧瑁水晶', 'G层 美容护理 家居生活', 'WOW COLOUR', '心愿先生', 'IN TO YOU', '足友', 'G层
+  14:01:16–14:01:18  I read through the brand names listed on the directory pillar while my companion steps ahead and gestures to the right.
+      屏幕: [{'hkt': '14:01:16', 'label': 'directory pillar bottom panel', 'summary': 'Full category breakdown for level G brands on the directory pillar.', 'text': ['G层 时尚服饰', 'DECATHLON 迪卡侬', 'AIMEEWQ', 'ogonblick', 'OCHIRLY', 'AMONAVIS', 'indicia', 'MAXRIENY', 'TH2011', 'Janis market', 'S DEER', 'Subtle', 'BELLE', 'G层 珠宝钟表 饰品眼镜', 'BOLON', '巧瑁水晶', 'G层 美容护理 家居生活', 'WOW COLOUR', '心愿先生', 'IN TO YOU', '足友', 'G层
+  14:01:19–14:01:20  My companion calls out to guide me in the correct direction.
+      语音: 这边这边
+  14:01:20–14:01:21  I turn my head toward the concourse corridor as my companion confirms the way.
+  14:01:21–14:01:21  My companion reiterates the direction.
+      语音: 这边
+  14:01:21–14:01:23  I glance at the Line Friends cartoon graphic wrap on the elevator door pillar.
+      屏幕: [{'hkt': '14:01:22', 'label': 'Line Friends poster', 'summary': "Elevator door column wrapped with Line Friends characters celebrating Brown's 15th anniversary with JiuMu Zahuoshe.", 'text': ['九木杂物社 x LINE FRIENDS', '奇趣派对', '布朗熊15周年']}]
+  14:01:23–14:01:26  I turn back to face my companion who gives a thumbs up gesture, and I begin walking along the concourse past a photo booth machine.
+      屏幕: [{'hkt': '14:01:25', 'label': 'photo booth screen', 'summary': 'Self-service photo sticker booth kiosk screen with pricing and May Day promotional branding.', 'text': ['Color Robo', '五一放肆拍', '快乐不打烊', '克拉时光机', '微信扫码 拍照打印', '29.9元', '照片出口']}]
+  14:01:26–14:01:27  I acknowledge my companion's directions as we continue walking.
+      语音: 哦好吧
+  14:01:27–14:01:32  I walk forward along the open mall aisle past the Beneunder store display and a large green vertical planter column.
+  14:01:32–14:01:39  I walk into the large open central atrium beneath the glass skylight, looking up at the multi-level balconies and overhead promotional banners.
+      屏幕: [{'hkt': '14:01:34', 'label': 'Huawei banner', 'summary': 'Overhead vertical hanging advertisement banner for the Huawei Pura 70 series store location.', 'text': ['HUAWEI Pura 70 系列', '领展中心城L1层RL1031-1032']}, {'hkt': '14:01:35', 'label': 'Huawei banner', 'summary': 'Closer angle of the hanging Huawei Pura 70 series banner.', 'text': ['HUAWEI Pura 70 系列', '领展中心城L1层RL1031-1032']}, {'hkt': '14:01:38'
 
-===== clip_0008  2026-05-03 14:00:39 → 2026-05-03 14:01:09
-I am riding in an elevator at Link CentralWalk with a female companion, deciding to take the elevator to the G floor instead of B1.
-  [14:00:39–14:00:41] I say "我要尿尿，我去。" to my companion while looking at the membership promotional poster in the elevator.
-      speech: 我要尿尿，我去。
-      text: ['加入领展会员', '尽享八重好礼', '入会礼', '停车礼', '生日礼', '赚积分', '会员日', '亲子Club', '趣活动', '享特权', '免费停车 Free Parking', '首次注册 赠2小时停车券+100积分 (100积分可抵扣10元停车费)', '银卡', '金卡', '黑卡', '导视', 'B2层 P']
-  [14:00:41–14:00:45] I look around the elevator interior as it travels toward floor B1.
-      text: ['领展中心城 × Alipay+', 'UP TO CNY 200 OFF', '领港澳专属最高 200 元', 'B1']
-  [14:00:45–14:00:51] I watch as the elevator doors slide open at floor B1.
-      text: ['美团', '小象超市', '你好，深圳', '「小象超市」华南首家线下店', '深圳市福田区领展中心城B1层', '（地铁1&4号线-会展中心站B出口）']
-  [14:00:51–14:00:52] I say "哎？" as I look out at the B1 floor corridor.
-      speech: 哎？
-      text: ['美团', '小象超市', '你好，深圳', '「小象超市」华南首家线下店']
-  [14:00:52–14:00:54] I look out into the B1 mall corridor.
-      text: ['美团', '小象超市', '你好，深圳', '「小象超市」华南首家线下店', '深圳市福田区领展中心城B1层', '（地铁1&4号线-会展中心站B出口）']
-  [14:00:54–14:00:54] I say "哦。".
-      speech: 哦。
-      text: ['你好，深圳', '「小象超市」华南首家线下店']
-  [14:00:55–14:00:57] I turn my attention to the elevator control panel and floor directory panel next to the door.
-      text: ['M层', '美食', '怂火锅厂', '粤吉鲜·海鲜火锅', '珍禄·粤时鲜', '吴莊·江浙菜', '喜井无限烤肉公司', '西贝XIBEI', '太二酸菜鱼', '湘辣辣', '歌志轩·名古屋拌面', '西塔老太太泥炉烤肉', '本冶关东煮', '福牛荟潮汕牛肉火锅']
-  [14:00:57–14:00:59] I reach out my right hand, press the 'G' floor button on the panel, and say "还是去G楼吧，怎么感觉有点阴间呢？".
-      speech: 还是去G楼吧，怎么感觉有点阴间呢？
-      text: ['G', 'Schindler', '1600 Kg', '21 Pers.人', '禁止吸烟 NO SMOKING']
-  [14:00:59–14:01:03] I watch as the elevator doors slide closed.
-      text: ['领展中心城 × Alipay+', '加入领展会员', '免费停车 Free Parking']
-  [14:01:03–14:01:04] I say "先尿尿。" to my companion.
-      speech: 先尿尿。
-      text: ['加入领展会员', '尽享八重好礼', '免费停车 Free Parking']
-  [14:01:04–14:01:08] I stand in the ascending elevator and look at the membership poster on the back wall.
-      text: ['加入领展会员', '尽享八重好礼', '免费停车 Free Parking', '首次注册 赠2小时停车券+100积分', '银卡 50积分抵扣5元停车费 生日当天免费停车', '金卡', '黑卡', '超出免费时长']
-
-===== clip_0009  2026-05-03 14:01:09 → 2026-05-03 14:01:39
-I exit an elevator in a shopping mall, check the directory board with my companion, and follow her down the main concourse through the atrium.
-  [14:01:09–14:01:12] I stand inside the elevator next to my companion and look at the membership and parking promotion poster on the elevator wall as the elevator doors begin to open.
-      text: ['加入领展会员 尽享八重好礼', '免费停车 Free Parking', '首次注册 赠2小时停车券+100积分 (100积分可抵扣10元停车费)', '银卡', '金卡', '黑卡', '楼层导视', 'B2层 P']
-  [14:01:12–14:01:15] I step out of the elevator onto the G floor concourse and walk toward a floor directory pillar to inspect the store listings.
-      text: ['G层 时尚服饰', 'DECATHLON 迪卡侬', 'AIMEEWQ', 'AMONAVIS', 'indicia', 'MAXRIENY', 'TH2011', 'S DEER', 'Subtle', 'BELLE', '珠宝钟表 饰品眼镜', '美容护理 家居生活', '童装玩具 休闲娱乐', '领展 Link CentralWalk']
-  [14:01:15–14:01:16] My companion speaks as she realizes the directory might not show what we are looking for.
-      speech: 这也不对好像
-      text: ['G层 时尚服饰', 'B1层', 'B2层', 'L1层']
-  [14:01:16–14:01:18] I read through the brand names listed on the directory pillar while my companion steps ahead and gestures to the right.
-      text: ['L1层 餐饮 | 零售 | 东、西连廊食街 | 酒吧街 | 中心公园', 'GU & UNIQLO', 'G层 餐饮 | 零售 | 东、西广场 | 超级安踏 | 迪卡侬 | 金逸影城 | 会展中心地铁站', 'B1层 餐饮 | 美容护理 | Foodie+食加空间 | 超级猩猩 | 客服中心 | 停车场', 'B2层 停车场 | 汽车美容', 'DECATHLON 迪卡侬', 'AIMEEWQ', 'ogonblick', 'OCHIRLY', 'AMONAVIS', 'indicia', 'MAXRIENY', 'TH2011', 'Janis market', 'S DEER', 'Subtle', 'BELLE', 'WOW COLOUR', '心愿先生', 'IN TO YOU', 'TOP TOY', '九木杂物社', '卡游 KAYOU', '名创优品']
-  [14:01:19–14:01:20] My companion calls out to guide me in the correct direction.
-      speech: 这边这边
-      text: ['布朗熊15周年', '缤纷美食']
-  [14:01:20–14:01:21] I turn my head toward the concourse corridor as my companion confirms the way.
-      text: ['九木杂物社 x LINE FRIENDS', '布朗熊15周年', '奇趣派对']
-  [14:01:21–14:01:21] My companion reiterates the direction.
-      speech: 这边
-      text: ['奇趣派对', '布朗熊15周年']
-  [14:01:21–14:01:23] I glance at the Line Friends cartoon graphic wrap on the elevator door pillar.
-      text: ['九木杂物社 x LINE FRIENDS', '奇趣派对', '布朗熊15周年']
-  [14:01:23–14:01:26] I turn back to face my companion who gives a thumbs up gesture, and I begin walking along the concourse past a photo booth machine.
-      text: ['克拉时光机', 'Color Robo', '五一放肆拍', '快乐不打烊', '微信扫码 拍照打印', '29.9元', 'Beneunder']
-  [14:01:26–14:01:27] I acknowledge my companion's directions as we continue walking.
-      speech: 哦好吧
-      text: ['Beneunder', 'Color Robo', '克拉时光机']
-  [14:01:27–14:01:32] I walk forward along the open mall aisle past the Beneunder store display and a large green vertical planter column.
-      text: ['Beneunder', '蕉下·轻量化户外', 'DECATHLON 迪卡侬']
-  [14:01:32–14:01:39] I walk into the large open central atrium beneath the glass skylight, looking up at the multi-level balconies and overhead promotional banners.
-      text: ['HUAWEI Pura 70 系列', '领展中心城L1层RL1031-1032', 'DECATHLON', '领展中心城']
-
-===== clip_0010  2026-05-03 14:01:39 → 2026-05-03 14:01:57
-I am in a shopping mall near a Decathlon store, where my companion points toward the restroom, and I walk into the restroom corridor.
-  [14:01:39–14:01:40] I look around the shopping mall concourse near a Decathlon store and a digital membership display.
-      text: ['会员计划', 'B1', 'DECATHLON 迪卡侬']
-  [14:01:40–14:01:40] I say "Huh?" as my companion points toward the corridor.
-      speech: Huh?
-      text: ['DECATHLON 迪卡侬']
-  [14:01:41–14:01:42] I say "Okay." in response to my companion.
-      speech: Okay.
-      text: ['潮油小海鲜', '就是新鲜', '码头来的']
-  [14:01:42–14:01:45] I turn and look toward the Decathlon entrance and the bicycles on display.
-      text: ['DECATHLON 迪卡侬']
-  [14:01:45–14:01:49] I walk forward past the large curved LED screen on the Decathlon exterior wall.
-      text: ['东广场 East Piazza', '洗手间']
-  [14:01:50–14:01:53] I approach the entrance of the restroom hallway marked by the purple '洗手间 RESTROOM' sign.
-      text: ['洗手间', 'RESTROOM']
-  [14:01:53–14:01:57] I walk into the brightly lit restroom hallway.
-      text: ['消火栓', 'Fire Hydrant']
-
+===== clip 10  2026-05-03 14:01:39  [gemini-3.7-flash] =====
+场景: I am in a shopping mall near a Decathlon store, where my companion points toward the restroom, and I walk into the restroom corridor.
+  14:01:39–14:01:40  I look around the shopping mall concourse near a Decathlon store and a digital membership display.
+      屏幕: [{'hkt': '14:01:39', 'label': 'digital directory screen', 'summary': 'Digital poster displaying membership program information on a green background.', 'text': ['会员计划']}, {'hkt': '14:01:40', 'label': 'curved LED screen', 'summary': 'Large curved LED video wall displaying a video of two swimmers underwater.', 'text': []}]
+  14:01:40–14:01:40  I say "Huh?" as my companion points toward the corridor.
+      语音: Huh?
+      屏幕: [{'hkt': '14:01:40', 'label': 'curved LED screen', 'summary': 'Large curved LED video wall displaying a video of two swimmers underwater.', 'text': []}]
+  14:01:41–14:01:42  I say "Okay." in response to my companion.
+      语音: Okay.
+  14:01:42–14:01:45  I turn and look toward the Decathlon entrance and the bicycles on display.
+      屏幕: [{'hkt': '14:01:45', 'label': 'curved LED screen', 'summary': 'Curved LED screen displaying two swimmers gliding through clear blue pool water.', 'text': []}]
+  14:01:45–14:01:49  I walk forward past the large curved LED screen on the Decathlon exterior wall.
+      屏幕: [{'hkt': '14:01:45', 'label': 'curved LED screen', 'summary': 'Curved LED screen displaying two swimmers gliding through clear blue pool water.', 'text': []}]
+  14:01:50–14:01:53  I approach the entrance of the restroom hallway marked by the purple '洗手间 RESTROOM' sign.
+      屏幕: [{'hkt': '14:01:50', 'label': 'restroom signage', 'summary': 'Purple overhead entryway sign with male and female pictograms indicating the restroom, with an emergency exit light beneath.', 'text': ['洗手间', 'RESTROOM']}, {'hkt': '14:01:51', 'label': 'restroom signage', 'summary': "Close-up view of the purple overhead restroom sign reading '洗手间 RESTROOM'.", 'text': ['洗手间', 'RESTROOM']}, {'hkt': '14:0
+  14:01:53–14:01:57  I walk into the brightly lit restroom hallway.

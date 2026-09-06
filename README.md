@@ -43,12 +43,12 @@ python run_pipeline.py run --tar aria/xxx.tar --max-clips 3  # 冒烟测试
 
 ### 已交付 Caption 数据
 
-可直接用于分析的 caption 结果位于 [`caption-result/`](caption-result/)。本批包含 24 条录制；每条录制目录内有：
+可直接用于分析的 caption 结果位于 [`caption-result/`](caption-result/)。本批包含 133 条录制、12,068 个成功 clip；前 100 小时窗口完成 11,813 / 11,943 个 clip（98.9%）。37 条失败 clip 已过滤；每条录制目录内有：
 
 - `captions.jsonl`：逐 clip 的结构化结果，推荐程序读取；每行一个 JSON，包含 `clip_id`、HKT 时间范围、`scene_summary`、`activity_chain`、`segments`、`speech`、`text_visible` 以及 `has_pass2` 等字段。
 - `captions.txt`：便于人工快速浏览的纯文本版本。
 
-批次概况和每条录制的完成覆盖率见 [`caption-result/index.json`](caption-result/index.json)。注意：`index.json` 中的 `clips_done` / `coverage` 是交付时的实际统计，部分长录制只完成了部分 clip，分析时请按 JSONL 中的记录数和 `ok` 字段筛选。
+批次概况和每条录制的完成覆盖率见 [`caption-result/index.json`](caption-result/index.json)。文本中的敏感信息（凭据、邮箱、电话、姓名、地址、支付信息、URL/本地路径等）已替换为 `XXX`，脱敏审计摘要见 [`caption-result/_redaction_audit.json`](caption-result/_redaction_audit.json)。注意：`clip_index` 可能稀疏，时间戳和录制覆盖范围请以各条记录字段为准；分析时按 JSONL 中的记录数和 `ok` 字段筛选。
 
 最小读取示例：
 
