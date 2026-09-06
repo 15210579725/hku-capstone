@@ -56,6 +56,23 @@ models--*/
 
 # ---- 项目特定:大型中间产物(非代码,需另行生成)----
 
+# caption 数据产物与运维目录（代码保留，数据排除）
+caption/.venv*/
+caption/ARIN7600/
+caption/caption_crops/
+caption/caption_model_batch_*/
+caption/caption_review_videos/
+caption/caption_test_output/
+caption/gemini_test_results/
+caption/mimo_test_*/
+caption/mimo_v25_audit_*/
+caption/paddleocr_*/
+caption/quality_verify/
+caption/transcript/
+caption/pipelines/out/
+caption/pipelines/_watch/
+caption/pipelines/throughput_report.html
+
 # ---- 操作系统 / 编辑器 ----
 .DS_Store
 Thumbs.db
