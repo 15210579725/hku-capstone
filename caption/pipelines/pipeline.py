@@ -158,7 +158,7 @@ def push_code():
     from huggingface_hub import CommitOperationAdd
     ops = [CommitOperationAdd(path_in_repo=f"_code/{f}", path_or_fileobj=str(HERE / f))
            for f in CODE_FILES]
-    for _v in ("v9.txt", "v9_nogaze.txt", "v11.txt", "v11_nogaze.txt"):
+    for _v in ("prompt.txt", "prompt_nogaze.txt"):
         ops.append(CommitOperationAdd(path_in_repo=f"_code/prompts/{_v}",
                                       path_or_fileobj=str(HERE / "prompts" / _v)))
     a.create_commit(repo_id=OUT_REPO, repo_type="dataset", operations=ops,
@@ -220,7 +220,6 @@ def submit(tar_path, args):
         # 代价是每个 job 要攒 45 分钟才提交一次，进度完全看不见（还被我误判成故障）。
         # 现在总并发降到 24、每 job 只有 3 worker，60 一批 ≈ 37 次/小时，安全且可见。
         "FLUSH_EVERY": os.environ.get("FLUSH_EVERY", "60"),
-        "PROMPT_SET": os.environ.get("PROMPT_SET", "v9"),
         "CAPTION_API": os.environ.get("CAPTION_API", "adc"),
         "PROXY_BASE_URL": os.environ.get("PROXY_BASE_URL", ""),
         "PROXY_API_KEY": os.environ.get("PROXY_API_KEY", ""),

@@ -1,146 +1,133 @@
 # POV Dense Video Captioning Pipeline
 
-从 HuggingFace 私有仓库 `mmm8383/pov-data` 读取 POV 眼镜录制数据，通过 Google Gemini 生成 v9 三遍 dense video caption。
+对第一人称（egocentric）POV 视频做 dense video captioning，产出带时间戳的结构化 JSON。
 
-## 前置条件
+当前生产架构：**v10 单遍**（`cloud_worker.py` + `caption_onepass.py`），每个 30 秒 clip 一次 Gemini 调用，
+整帧 + 注视点 zoom crop 均 MEDIUM 分辨率。prompt 包含 `action_brief`（精简动作）和语音逐字保真规则。
 
-### 1. Python 环境
+## 快速开始
+
+### 1. 环境
 
 ```bash
 pip install -r requirements.txt
-```
-
-可选依赖（提升语音时间戳精度）：
-```bash
+# 可选（提升语音时间戳精度）：
 pip install torch silero-vad
 ```
 
-### 2. HuggingFace Token
+### 2. 凭据
 
-在 https://huggingface.co/settings/tokens 创建一个有 READ 权限的 token。需要有 `mmm8383/pov-data` 仓库的访问权限。
+需要两样东西：
 
-### 3. Google Cloud 配置
+**HuggingFace Token**：在 https://huggingface.co/settings/tokens 创建 READ token，
+且账号要有数据仓库（如 `mmm8383/pov-data`）的访问权限。
 
-1. 安装 [gcloud CLI](https://cloud.google.com/sdk/docs/install)
-2. 登录并设置应用默认凭据：
-   ```bash
-   gcloud auth application-default login
-   ```
-3. 在 [Google Cloud Console](https://console.cloud.google.com) 创建项目并启用 Vertex AI API
-4. 将项目 ID 填入 `config.json` 的 `google_project` 字段
+**Gemini API**：有两种方式（二选一）：
+- **Google Cloud ADC**（免费 $300）：`gcloud auth application-default login`，填 `config.json` 里的 `google_project`
+- **OpenAI 兼容反代**（如 rightcode）：设环境变量 `CAPTION_API=rightcode`、`PROXY_BASE_URL`、`PROXY_API_KEY`
 
-> Google Cloud 新用户有 $300 免费额度，足够处理大量数据。
+### 3. 配置
 
-### 4. 配置文件
-
-编辑 `config.json`，填入必要的凭据：
+编辑 `config.json`：
 
 ```json
 {
   "hf_token": "hf_xxxxx",
   "google_project": "your-project-id",
-  "google_location": "global",
-  "model": "gemini-3.7-flash",
-  "output_dir": "./caption_output",
-  "workers": 3,
-  "clip_seconds": 30,
-  "rounds": 3
+  "google_location": "global"
 }
 ```
 
-| 字段 | 说明 |
-|---|---|
-| `hf_token` | HuggingFace READ token |
-| `google_project` | Google Cloud 项目 ID |
-| `google_location` | Vertex AI 区域，默认 `global` |
-| `model` | Gemini 模型名，默认 `gemini-3.7-flash` |
-| `output_dir` | 输出目录 |
-| `workers` | caption 并发数（建议 3，过高会触发限流） |
-| `clip_seconds` | 每个 clip 秒数（默认 30） |
-| `rounds` | 失败 clip 的重试轮次 |
+也可以通过环境变量 `HF_TOKEN`、`GOOGLE_CLOUD_PROJECT` 设置。
 
-也可以通过环境变量设置 `HF_TOKEN` 和 `GOOGLE_CLOUD_PROJECT`。
+### 4. 运行
 
-## 使用方法
-
-### 列出可用数据
+所有命令在 `pipelines/` 目录下执行。
 
 ```bash
-python run_pipeline.py list
+# 列出数据仓库里所有天和录制
+python pipeline.py days
+
+# 按语音密度排序候选录制
+python pipeline.py scan --month 2026-05 --limit 12
+
+# 冒烟测试（3 个 clip）
+python pipeline.py run --tar <tar路径> --max-clips 3
+
+# 跑整条录制
+python pipeline.py run --tar <tar路径>
+
+# 跑一整天
+python pipeline.py run --day 2026-05-18
+
+# 只补跑失败的 clip
+python pipeline.py run --tar <tar路径> --only-failed
+
+# 拉回结果 + 抽样 clip 包
+python pipeline.py pull --rec <rec> --sample 8
+
+# 合并整天
+python pipeline.py merge --day 2026-05-18
+
+# 渲染审核视频
+python pipeline.py render --rec <rec> --sample 8
 ```
 
-输出按天分组的录制列表，显示每天的录制数、总时长和文件大小。
-
-### 处理一天的全部录制
-
-```bash
-python run_pipeline.py run --day 2026-05-18
-```
-
-### 处理单条录制
-
-```bash
-python run_pipeline.py run --tar aria/2026-05-18/5-18_hkt2130-2214_43m_xxx.tar
-```
-
-### 冒烟测试（只处理前几个 clip）
-
-```bash
-python run_pipeline.py run --tar aria/2026-05-18/xxx.tar --max-clips 3
-```
-
-### 其他选项
-
-```bash
---workers 6        # 调整并发数
---output-dir ./out # 指定输出目录
---no-vad           # 禁用 silero-vad 语音对齐
---no-ocr           # 不使用 OCR 文本
---clip-seconds 15  # 自定义 clip 时长
-```
-
-## 输出结构
+## 目录结构
 
 ```
-caption_output/
-  2026-05-18/
-    <recording_name>/
-      captions_full.json    # 完整 JSON（含全部 segments）
-      captions_full.jsonl   # 每行一个 segment
-      captions_full.txt     # 人类可读文本版
-      report.json           # 统计报告（clip 成功率、token 用量、PII 审计等）
-      clips/
-        clip_0000.json      # 每个 clip 的详细结果（含 pass1/pass2 原始内容）
-    day_2026-05-18.json     # 整天合并结果（如果处理了多条录制）
-    day_2026-05-18.txt
-    day_2026-05-18.jsonl
+pipelines/
+  pipeline.py          主 CLI（选片/提交 HF Job/拉结果/合并/渲染）
+  cloud_worker.py      HF Job 里跑的 worker（v10 单遍默认）
+  caption_core.py      帧渲染 + context 组装 + Gemini 调用
+  caption_onepass.py   v10 单遍（整帧 + zoom crop，一次 Gemini 调用）
+  caption_v9.py        v9 双遍（pass0 语音 + pass1 caption + pass2 精读）
+  remote_tar.py        tar 访问层（本地挂载 / HTTP Range）
+  merge.py             clip → 录制 → 整天合并
+  deid.py              PII 脱敏
+  render_review.py     审核视频渲染
+  prompts/prompt.txt   caption prompt（含 action_brief + 语音逐字）
+  prompts/prompt_nogaze.txt  无眼动录制用的 prompt 变体
+  archive/             历史文件（旧 worker/prompt/实验脚本）
+
+prompt.txt             本地入口用的 prompt（与 prompts/prompt.txt 相同）
+run_caption_2pass.py   本地 caption 入口（不经过 HF Job）
+render_caption_video.py 本地审核视频渲染
+config.json            凭据和配置模板
 ```
 
-## 架构说明
+## 输出格式
 
-### v9 三遍 Caption
+每个 clip 产出一个 JSON，核心字段：
 
-1. **Pass 0（语音对齐）**：silero-vad 检测语音窗口（精度 ~0.03s），Gemini 填词并判断说话人
-2. **Pass 1（全量 caption + 区域框）**：2880px 帧 + 完整 prompt → 结构化 caption + 文字密集区域的 `box_2d` 坐标
-3. **Pass 2（精读修订）**：按坐标从原图裁切文字区域，ULTRA_HIGH 分辨率精读，修订 Pass 1 的描述
+```json
+{
+  "segments": [
+    {
+      "time": "12:34:56 HKT",
+      "time_end": "12:35:02 HKT",
+      "action": "I type '感觉ai好慢' into the WeChat chat...",
+      "action_brief": "I send '感觉ai好慢' to babe on WeChat.",
+      "environment": "PHYSICAL SPACE: ...\nOBJECTS: ...\nSCREEN CONTENT: ...",
+      "text_visible": ["Tab: Claude Code", "Terminal: python train.py"],
+      "speech": [{"speaker": "me", "text": "感觉ai好慢"}]
+    }
+  ]
+}
+```
 
-### 数据访问
+## 成本参考
 
-通过 HTTP Range 请求直接从 HuggingFace 读取 tar 文件，不需要下载整个文件到本地。支持两种 tar 内部布局（Layout A 和 Layout B），自动适配。
+| 模型 | 每 clip | 每小时视频 |
+|---|---|---|
+| gemini-3.7-flash (Vertex) | ~$0.031 | ~$3.7 |
+| gemini-3.5-flash (Vertex) | ~$0.020 | ~$2.4 |
+| 反代 (rightcode) | 取决于定价 | — |
 
-### 成本估算
+## 适配其他数据集
 
-使用 `gemini-3.7-flash`（Vertex AI 引导价 $0.75/M input, $3.75/M output）：
-- 每个 30 秒 clip 约 $0.04-0.08
-- 每小时视频约 $3-5
+本流水线的数据源是 HuggingFace 上的 tar 包。要跑其他数据集（如 CASTLE）：
 
-## 常见问题
-
-**Q: 报错 `找不到 audio/anonymized.wav`**
-A: 这是 tar 布局 B 的正常降级处理，程序会自动用 `walk_headers` 兜底扫描。如果最终报错，说明该录制确实没有音频。
-
-**Q: `429 RESOURCE_EXHAUSTED`**
-A: Vertex AI 的共享配额限流。程序内置了自动退避重试（最长等待 5 分钟），降低 `--workers` 可减少触发。
-
-**Q: `silero-vad` 不可用**
-A: 安装 `torch` 和 `silero-vad` 即可。不装也能运行，语音对齐会退化到能量 VAD 或直接使用粗粒度 transcript 时间戳。
+1. 把视频数据打成同样的 tar 结构上传到 HF dataset repo
+2. 修改 `pipeline.py` 顶部的 `SRC_REPO` 和 `OUT_REPO`
+3. 如果帧格式/命名不同，可能需要调整 `cloud_worker.py` 的解包逻辑

@@ -517,15 +517,10 @@ def process_one(c, api):
         raise RuntimeError("没解出任何帧")
 
     # 4) 组 clip → caption
-    # 无 MPS 眼动的录制要换 nogaze prompt：v9.txt 有 4 处规则围绕绿色注视圈写，
-    # 画面上没有圈却告诉模型有，会诱发「我正看着…」这类无依据描述。
-    # 本批 4-15（226 分钟，最大的一条）就是无眼动的。
-    _pf = "v6.txt"
-    if is_v9 or c["caption_version"] == "v10":
-        _pf = "v9.txt" if has_gaze else "v9_nogaze.txt"
+    # 无 MPS 眼动的录制要换 nogaze prompt，避免模型在没有注视圈的画面上编造注视描述。
+    _pf = "prompt.txt" if has_gaze else "prompt_nogaze.txt"
     system_prompt = (HERE / "prompts" / _pf).read_text().strip()
-    if is_v9 or c["caption_version"] == "v10":
-        log(f"prompt: {_pf}（has_gaze={has_gaze}）")
+    log(f"prompt: {_pf}（has_gaze={has_gaze}）")
     client = cc.make_client()
     # 原来 first_index 和 base_time 各取一次 min，两个 min 可能落在不同帧上；
     # 白名单前置后 clip_frames 只剩子集，这种跨帧混取会让 recording_start_hkt 漂移。
