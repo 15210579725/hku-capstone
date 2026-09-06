@@ -20,11 +20,15 @@ HF Job 在 HF 内网里读同一个 repo，`cpu-upgrade` $0.03/小时。
 ```
 pipeline.py        本地 CLI（选片/提交 job/看状态/拉结果/合并/渲染）
 remote_tar.py      tar 访问层：FileSource(挂载) + HttpRangeSource(Range)，同一接口
-cloud_worker.py    HF Job 里跑的主流程
-caption_core.py    帧渲染 + context 组装 + Gemini 调用（context 与 ../run_caption.py 等价）
+cloud_worker.py    HF Job 里跑的主流程（v10 单遍默认）
+caption_core.py    帧渲染 + context 组装 + Gemini 调用 + 模型降级阶梯
+caption_v9.py      v9 双遍架构（pass0 语音对齐 + pass1 + pass2 精读）
+caption_onepass.py v10 单遍架构（当前默认）
 merge.py           clip → 录制 → 整天
+deid.py            PII 脱敏（校名/电话/邮箱/路径正则清洗）
 render_review.py   审核视频（复用 ../render_caption_video.py 的面板与编码参数）
-prompts/v6.txt     ../prompt.txt 的冻结快照
+prompts/           v9, v9_nogaze, v11（当前默认）, v11_nogaze
+archive/           历史文件（batch_worker, bench_worker, v6 prompt 等）
 out/<date>/<rec>/  拉回本地的产物
 ```
 

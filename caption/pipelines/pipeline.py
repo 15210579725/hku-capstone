@@ -33,10 +33,8 @@ HERE = Path(__file__).resolve().parent
 OUT = HERE / "out"
 SRC_REPO = "mmm8383/pov-data"
 OUT_REPO = os.environ.get("POV_OUT_REPO", "mmm8383/pov-captions")
-CODE_FILES = ["remote_tar.py", "caption_core.py", "caption_v9.py", "caption_onepass.py", "cloud_worker.py", "batch_worker_v10.py",
-               "batch_worker.py", "merge.py",
-               "bench_worker.py", "bench2_worker.py",
-               "bench3_worker.py"]
+CODE_FILES = ["remote_tar.py", "caption_core.py", "caption_v9.py", "caption_onepass.py",
+               "cloud_worker.py", "merge.py", "deid.py"]
 FLAVOR = "cpu-upgrade"
 IMAGE = "python:3.12"
 # 两个 ADC 项目并行跑时，用 ADC_FILE 指到 ~/.config/gcloud/adc-profiles/<账号>.json，
@@ -160,15 +158,7 @@ def push_code():
     from huggingface_hub import CommitOperationAdd
     ops = [CommitOperationAdd(path_in_repo=f"_code/{f}", path_or_fileobj=str(HERE / f))
            for f in CODE_FILES]
-    ops.append(CommitOperationAdd(path_in_repo="_code/prompts/v6.txt",
-                                  path_or_fileobj=str(HERE / "prompts/v6.txt")))
-    ops.append(CommitOperationAdd(path_in_repo="_code/prompts/v9.txt",
-                                  path_or_fileobj=str(HERE / "prompts/v9.txt")))
-    ops.append(CommitOperationAdd(path_in_repo="_code/prompts/v9_nogaze.txt",
-                                  path_or_fileobj=str(HERE / "prompts/v9_nogaze.txt")))
-    # v11 = v9 + action_brief + VERBATIM SPEECH（2026-09-06 审核通过）。
-    # 漏传这两份的话 job 里 PROMPT_SET=v11 会 FileNotFoundError。
-    for _v in ("v11.txt", "v11_nogaze.txt"):
+    for _v in ("v9.txt", "v9_nogaze.txt", "v11.txt", "v11_nogaze.txt"):
         ops.append(CommitOperationAdd(path_in_repo=f"_code/prompts/{_v}",
                                       path_or_fileobj=str(HERE / "prompts" / _v)))
     a.create_commit(repo_id=OUT_REPO, repo_type="dataset", operations=ops,
@@ -773,7 +763,7 @@ def cmd_run_batch(args):
             print(f"  {r['day']} {r['minutes']:>4}m  {r['rec'][:60]}")
         return
     args.tar_list = None
-    args.entry = "batch_worker_v10.py"
+    args.entry = "archive/batch_worker_v10.py"
     args.caption_version = "v10"
     base_env = list(args.env or [])
     base_flavor = args.flavor
@@ -1084,7 +1074,7 @@ def main():
     s.add_argument("--no-mount", action="store_true")
     s.add_argument("--no-push-code", action="store_true")
     s.add_argument("--bench-only", action="store_true")
-    s.add_argument("--entry", default="bench_worker.py")
+    s.add_argument("--entry", default="archive/bench_worker.py")
     s.add_argument("--env", action="append", help="额外环境变量 K=V，可重复")
     s.add_argument("--jobs", type=int, default=1, help="同时起几个一模一样的 job")
     s.set_defaults(fn=cmd_bench, day=None)
