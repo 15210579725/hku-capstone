@@ -164,3 +164,14 @@ simulation-env/         仿真线(把情绪表征接到 agent 行为上)
 - 脱敏掩码为 `XXX`，覆盖凭据、邮箱、电话、姓名、地址、支付信息、URL/本地路径等；输出 JSONL 已逐行验证可解析，且仅保留顶层 `ok=true` 记录。
 - 分析注意：`clip_index` 可能稀疏，时间戳与录制覆盖范围请以各条记录字段为准；前 100 小时窗口并非 100% 覆盖。
 - 当前仅完成本地替换与待审查 staging；GitHub 推送及远端实时核验尚未完成。
+
+## 2026-09-07 — HF 已完成 Caption 快照同步（待远端核验）
+
+- 目标：把 `mmm8383/pov-captions` 当前已完成的 caption 回拉到本地，过滤失败行、全量脱敏并同步到仓库 `caption-result/`。
+- 快照边界：HF 当时有 217 条录制、44,938 个 caption JSON；大小筛选得到 42,552 个候选，发布 42,304 个 `ok=true` clip、过滤 248 个失败 clip，共 228,494 个 segment。这是已完成部分的时间点快照，不代表全部计划作业完成。
+- 修改文件：替换 `caption-result/`；更新根 `README.md`；修复 `caption/pipelines/redact_delivery.py` 的姓名传播、HF token、邮箱边界和发布索引重算逻辑；新增/扩展 `caption/pipelines/test_redact_delivery.py`。
+- 关键决策：发布 coverage 定义为本次选中候选中的成功比例；旧计划目标保存在 `source_planned_target_clips`。敏感字段与 speech 说话人信号驱动人名传播，避免把 UI/模型标签误当人名。`content_raw` 与结构化结果重复且扩大隐私面，发布副本统一置为 `XXX`，分析使用 `merged` / `parsed`。
+- 本地验证：最终 release9 含 217 个 JSONL 与 217 个 TXT；42,304 行与 42,304 个 TXT clip 标题一一对应；全量 JSON 可解析且仅有 `ok=true`；228,494 个 segment；模型分布为 `gemini-3.5-flash` 3,252、`gemini-3.5-flash-lite` 2、`gemini-3.6-flash` 5、`gemini-3.7-flash` 39,045。独立复扫通用 PII、敏感姓名字段、源派生 180 个强姓名信号和 5 个弱说话人信号均为 0；`content_raw` 非遮罩数为 0；最大单文件 5,902,384 bytes。回归测试 10/10 通过。
+- 质量修复：独立审计发现 `lite` 曾被误当成人名并破坏 2 条 model 标识；已把该技术标签加入非人名集合，加回归测试并从只读 HF 快照完整重建，最终模型分布与源数据完全一致。
+- 安全提示：排查 LaunchAgent 时曾让包含 `CONTROL_PLANE_API_KEY` 的完整环境出现在本地工具输出；没有写入仓库，但该 key 应轮换。后续只允许过滤后的 `launchctl print`。
+- 未完成与下一步：仅暂存本任务文件，提交并推送 `origin/main`，再以远端精确 commit SHA 和远端树核验为完成条件。最终提交号和远端验证结果待补记。

@@ -43,12 +43,12 @@ python run_pipeline.py run --tar aria/xxx.tar --max-clips 3  # 冒烟测试
 
 ### 已交付 Caption 数据
 
-可直接用于分析的 caption 结果位于 [`caption-result/`](caption-result/)。本批包含 133 条录制、12,068 个成功 clip；前 100 小时窗口完成 11,813 / 11,943 个 clip（98.9%）。37 条失败 clip 已过滤；每条录制目录内有：
+可直接用于分析的 caption 结果位于 [`caption-result/`](caption-result/)。这是 2026-09-07 从 Hugging Face `mmm8383/pov-captions` 拉取的**当时已完成部分**，不是全部计划数据已经完成：HF 上共有 217 条录制、44,938 个 caption JSON 文件；按文件大小 `>= 2500 bytes` 选出 42,552 个候选，最终发布 42,304 个顶层 `ok=true` 的 clip（候选内覆盖率 99.4%），过滤 248 个失败 clip，共含 228,494 个细分 segment。每条录制目录内有：
 
-- `captions.jsonl`：逐 clip 的结构化结果，推荐程序读取；每行一个 JSON，包含 `clip_id`、HKT 时间范围、`scene_summary`、`activity_chain`、`segments`、`speech`、`text_visible` 以及 `has_pass2` 等字段。
+- `captions.jsonl`：逐 clip 的结构化结果，推荐程序读取；每行一个 JSON。顶层包含 `clip_id`、HKT 时间范围、`model`、`recording` 和 `ok`；语义结果在 `parsed`（兼容旧结果时也可检查 `merged`）中，包括 `scene_summary`、`activity_chain`、`screen_text` 和 `segments`，每个 segment 含 `action`、`environment`、`speech`、`text_visible` 等字段。
 - `captions.txt`：便于人工快速浏览的纯文本版本。
 
-批次概况和每条录制的完成覆盖率见 [`caption-result/index.json`](caption-result/index.json)。文本中的敏感信息（凭据、邮箱、电话、姓名、地址、支付信息、URL/本地路径等）已替换为 `XXX`，脱敏审计摘要见 [`caption-result/_redaction_audit.json`](caption-result/_redaction_audit.json)。注意：`clip_index` 可能稀疏，时间戳和录制覆盖范围请以各条记录字段为准；分析时按 JSONL 中的记录数和 `ok` 字段筛选。
+批次概况、HF 来源快照和每条录制的候选内覆盖率见 [`caption-result/index.json`](caption-result/index.json)。其中 `target_clips` / `selected_candidate_clips` 指本次从 HF 选中的候选数，历史计划目标另存为 `source_planned_target_clips`。文本中的敏感信息（凭据、token、邮箱、电话、姓名、地址、支付信息、URL/本地路径等）已替换为 `XXX`，完整计数型脱敏审计见 [`caption-result/redaction-audit.json`](caption-result/redaction-audit.json)，不含原始匹配值。发布副本中的 `content_raw` 是结构化结果的冗余原始模型输出，已统一置为 `XXX` 以缩小隐私暴露面；分析请使用 `merged` 或 `parsed`。注意：`clip_index` 可能稀疏；分析时以实际 JSONL 行数及 `ok` 字段为准，不要假设编号连续，也不要把这个快照当作剩余 HF 作业已经完成。
 
 最小读取示例：
 
@@ -59,7 +59,8 @@ from pathlib import Path
 for path in Path("caption-result").glob("*/captions.jsonl"):
     rows = [json.loads(line) for line in path.read_text().splitlines() if line.strip()]
     rows = [row for row in rows if row.get("ok")]
-    print(path.parent.name, len(rows), rows[0]["scene_summary"] if rows else "")
+    parsed = (rows[0].get("merged") or rows[0].get("parsed") or {}) if rows else {}
+    print(path.parent.name, len(rows), parsed.get("scene_summary", ""))
 ```
 
 ---
