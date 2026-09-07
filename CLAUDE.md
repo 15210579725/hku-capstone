@@ -174,4 +174,5 @@ simulation-env/         仿真线(把情绪表征接到 agent 行为上)
 - 本地验证：最终 release9 含 217 个 JSONL 与 217 个 TXT；42,304 行与 42,304 个 TXT clip 标题一一对应；全量 JSON 可解析且仅有 `ok=true`；228,494 个 segment；模型分布为 `gemini-3.5-flash` 3,252、`gemini-3.5-flash-lite` 2、`gemini-3.6-flash` 5、`gemini-3.7-flash` 39,045。独立复扫通用 PII、敏感姓名字段、源派生 180 个强姓名信号和 5 个弱说话人信号均为 0；`content_raw` 非遮罩数为 0；最大单文件 5,902,384 bytes。回归测试 10/10 通过。
 - 质量修复：独立审计发现 `lite` 曾被误当成人名并破坏 2 条 model 标识；已把该技术标签加入非人名集合，加回归测试并从只读 HF 快照完整重建，最终模型分布与源数据完全一致。
 - 安全提示：排查 LaunchAgent 时曾让包含 `CONTROL_PLANE_API_KEY` 的完整环境出现在本地工具输出；没有写入仓库，但该 key 应轮换。后续只允许过滤后的 `launchctl print`。
-- 未完成与下一步：仅暂存本任务文件，提交并推送 `origin/main`，再以远端精确 commit SHA 和远端树核验为完成条件。最终提交号和远端验证结果待补记。
+- GitHub 同步：数据发布提交为 `d02ff91cc238d2ca8e7103dea6b6b02231f8406f`（`Sync completed HF caption snapshot`）；`git push origin main` 退出码为 0，随后 `git ls-remote origin refs/heads/main` 返回同一精确 SHA。
+- 完成状态：HF 已完成部分已回拉到本地并经脱敏发布；远端数据提交的 `caption-result/` 树已核验为 436 个文件（217 JSONL、217 TXT、`index.json`、`redaction-audit.json`）。本段后续作为独立小型进度记录提交，不改变已发布数据。
