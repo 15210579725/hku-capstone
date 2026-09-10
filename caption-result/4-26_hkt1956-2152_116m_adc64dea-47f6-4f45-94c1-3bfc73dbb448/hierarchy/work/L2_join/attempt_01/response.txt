@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Identify continuous immediate tasks across batch boundaries. Merge pairs 22-23 (observing/listening to companion) and 64-65 (cat discussion on walkway). Keep 47-48, 84-85, and 122-123 separate due to distinct shifts in task, location, or subject.",
+  "merges": [
+    [
+      22,
+      23,
+      "I watch my companion browse Xiaohongshu on her phone and listen to her discuss clothing.",
+      "Same interaction with companion continues across batch edge"
+    ],
+    [
+      64,
+      65,
+      "I discuss pet cats with my companion while walking along the outdoor pathway.",
+      "Same continuous walking and conversation task across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

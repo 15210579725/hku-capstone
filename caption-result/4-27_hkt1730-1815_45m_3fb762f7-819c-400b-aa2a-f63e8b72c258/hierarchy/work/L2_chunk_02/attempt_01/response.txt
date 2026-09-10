@@ -1,0 +1,94 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group consecutive action briefs into immediate tasks based on continuous locations, primary physical activities (e.g., sitting on the train, walking through a tunnel, taking an elevator), and distinct periods of specific device interaction (e.g., using ChatGPT or WeChat). Abstract brief incidental actions, screen blanks, and announcements into the overarching immediate task.",
+  "events": [
+    [
+      "250-253",
+      "I stand in the subway carriage holding my smartphone.",
+      "Sits down on a train seat"
+    ],
+    [
+      "254-286",
+      "I sit on the subway train holding my smartphone.",
+      "Starts specific interaction with the ChatGPT app"
+    ],
+    [
+      "287-293",
+      "I submit a voice dictation query to the ChatGPT app on my iPhone.",
+      "Switches to the WeChat app"
+    ],
+    [
+      "294-297",
+      "I navigate the sticker panel in the WeChat app.",
+      "Stands up to exit the train"
+    ],
+    [
+      "298-301",
+      "I walk across the subway platform toward the exit.",
+      "Steps onto the escalator"
+    ],
+    [
+      "302-307",
+      "I ride the escalator up to the station concourse.",
+      "Steps off the escalator and approaches turnstiles"
+    ],
+    [
+      "308-309",
+      "I tap my phone at the turnstile to exit the subway gates.",
+      "Passes through the turnstile into the tunnel"
+    ],
+    [
+      "310-326",
+      "I walk through the subway pedestrian tunnel toward the elevator lobby.",
+      "Steps into the elevator"
+    ],
+    [
+      "327-337",
+      "I take the elevator up to the HKU MTR station concourse.",
+      "Exits elevator and enters campus walkway"
+    ],
+    [
+      "338-342",
+      "I walk along the covered pedestrian walkway toward the University of Hong Kong campus.",
+      "Enters an indoor corridor"
+    ],
+    [
+      "343-345",
+      "I walk through a short indoor campus corridor.",
+      "Exits back to outdoor walkway"
+    ],
+    [
+      "346-351",
+      "I walk along the covered outdoor walkway past campus signs.",
+      "Transitions to Upper University Street pathway"
+    ],
+    [
+      "352-361",
+      "I walk along the campus pathways with my companion.",
+      "Reaches the wide outdoor staircase"
+    ],
+    [
+      "362-365",
+      "I walk down the wide outdoor staircase.",
+      "Reaches the campus plaza"
+    ],
+    [
+      "366-371",
+      "I walk across the campus plaza toward the Main Library.",
+      "Reaches the library entrance doors"
+    ],
+    [
+      "372-373",
+      "I enter the library lobby through the automatic doors.",
+      "Enters the building"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

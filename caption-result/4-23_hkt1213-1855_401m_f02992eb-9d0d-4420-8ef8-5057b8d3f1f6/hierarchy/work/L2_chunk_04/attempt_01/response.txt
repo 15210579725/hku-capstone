@@ -1,0 +1,96 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group consecutive action briefs into immediate tasks based on shared application usage, physical activity, or focus. Separate distinct phases of studying (typing, reading, writing), taking breaks, using utility applications (Screenpipe), packing up, walking, untangling earphones, and phone usage.",
+  "events": [
+    [
+      "750-773",
+      "I read and type a mathematical document on my laptop.",
+      "Continuous typing and reading of a single document"
+    ],
+    [
+      "774-776",
+      "I browse WeChat messages on my laptop.",
+      "Switches focus to a different application"
+    ],
+    [
+      "777-785",
+      "I prepare to solve the math homework assignment using my laptop and notepad.",
+      "Shifts attention to notebook and new homework document"
+    ],
+    [
+      "786-814",
+      "I review my activity and settings in the Screenpipe application.",
+      "Focuses entirely on interacting with the Screenpipe software"
+    ],
+    [
+      "815-826",
+      "I review math hints and homework problems on my laptop.",
+      "Returns to math-related reading on the laptop"
+    ],
+    [
+      "827-872",
+      "I record mathematical notes and solutions on my notepad.",
+      "Dedicated period of handwriting notes and equations"
+    ],
+    [
+      "873-890",
+      "I read math homework problems on my laptop.",
+      "Focus shifts to reading Questions 2 and 3 on the screen"
+    ],
+    [
+      "891-943",
+      "I document mathematical derivations and diagrams on my notepad.",
+      "Returns to extended handwriting and drawing on paper"
+    ],
+    [
+      "944-948",
+      "I check WeChat on my laptop during a brief break.",
+      "Stops working to check messages and look around"
+    ],
+    [
+      "949-950",
+      "I pack items into my backpack.",
+      "Brief physical task of interacting with the backpack"
+    ],
+    [
+      "951-955",
+      "I walk through the library with my laptop and earphones.",
+      "Physical transit through the library"
+    ],
+    [
+      "956-958",
+      "I walk down the hallway.",
+      "Transition into a new location"
+    ],
+    [
+      "959-969",
+      "I untangle my wired earphones on a hallway bench.",
+      "Distinct physical task while seated"
+    ],
+    [
+      "970-981",
+      "I view Zoom and WeChat applications on my laptop.",
+      "Sequence of short interactions with different applications on the laptop"
+    ],
+    [
+      "982-991",
+      "I converse on a phone call while referencing my laptop.",
+      "Concurrent phone conversation and laptop usage"
+    ],
+    [
+      "992-999",
+      "I navigate an application on my smartphone.",
+      "Focus shifts completely to the mobile device"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "Packing belongings and standing up to leave the library at 951 marks a major behavioral shift from focused study to transit and a break."
+    ],
+    "boundary_cautions": []
+  }
+}
+```

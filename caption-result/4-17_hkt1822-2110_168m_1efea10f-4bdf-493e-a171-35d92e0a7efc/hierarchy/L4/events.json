@@ -1,0 +1,54 @@
+{
+  "level": "L4",
+  "count": 4,
+  "events": [
+    {
+      "id": 0,
+      "start": 66121,
+      "end": 66840,
+      "text": "I review AI research papers and course concepts on my laptop during a machine learning lecture on campus.",
+      "refs": [
+        0
+      ],
+      "boundary_reason": "Maintains the distinct academic lecture phase before departing."
+    },
+    {
+      "id": 1,
+      "start": 66841,
+      "end": 67875,
+      "text": "I discuss travel plans with my companions during our foot commute from the campus back to my apartment.",
+      "refs": [
+        1,
+        2
+      ],
+      "boundary_reason": "Groups the departure and continuous walk home into a single transit phase."
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 728580,
+      "text": "I advance my academic research on affective computing, the EgoLife dataset, and reward functions on my laptop in my apartment alongside personal communications and minor kitchen tasks.",
+      "refs": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "boundary_reason": "Unifies the extended evening session of academic work, abstracting incidental device switches, personal planning, and brief food preparation."
+    },
+    {
+      "id": 3,
+      "start": 75113,
+      "end": 76260,
+      "text": "I eat a freshly cooked meal of flatbreads, eggs, and sausage in the kitchen.",
+      "refs": [
+        11
+      ],
+      "boundary_reason": "Maintains the distinct dinner activity as a separate phase."
+    }
+  ]
+}

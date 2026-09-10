@@ -1,0 +1,42 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate each eligible boundary pair to determine if the exact same immediate task continues across the batch edge. Merge continuous short video viewing sessions, continuous boarding actions, single prompts spanning a boundary, and continuous handwriting sessions. Keep distinct tasks and separate long-form videos apart.",
+  "merges": [
+    [
+      22,
+      23,
+      "I watch short videos about Porsche Panameras on my smartphone while eating.",
+      "Same task of watching Panamera short videos continues across batch edge"
+    ],
+    [
+      54,
+      55,
+      "I board a double-decker tram and take a seat on the upper deck.",
+      "Continuous sequence of boarding and sitting on the tram"
+    ],
+    [
+      118,
+      119,
+      "I browse and watch short videos on my smartphone.",
+      "Continuous session of browsing short videos continues across batch edge"
+    ],
+    [
+      141,
+      142,
+      "I initiate and submit a new query to ChatGPT on my laptop.",
+      "Typing and submitting a single ChatGPT query continues across batch edge"
+    ],
+    [
+      164,
+      165,
+      "I write handwritten mathematical notes and equations for diffusion models.",
+      "Continuous task of writing diffusion model notes by hand continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

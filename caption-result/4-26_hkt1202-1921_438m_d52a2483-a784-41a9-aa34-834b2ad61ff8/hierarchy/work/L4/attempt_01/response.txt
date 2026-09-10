@@ -1,0 +1,39 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group coherent episodes into broader goal-oriented phases based on major location shifts and primary activities: commuting to campus, eating a meal, conducting laptop work, shopping for swimwear, and returning home via a package pickup.",
+  "events": [
+    [
+      "0-5",
+      "I commute from my apartment to the university campus.",
+      "Arrival at the university dining location."
+    ],
+    [
+      "6-10",
+      "I consume a meal at the Lodge Bistro buffet.",
+      "Completion of the meal and transition to laptop work."
+    ],
+    [
+      "11-27",
+      "I manage AI research, personal planning, and companion assistance on my laptop.",
+      "Departure from the restaurant to go shopping."
+    ],
+    [
+      "28-32",
+      "I search for swimwear at the FESTIVAL WALK mall.",
+      "Decision to return to HKU to retrieve packages."
+    ],
+    [
+      "33-39",
+      "I commute back to my apartment via an HKU package pickup shop.",
+      "Arrival and settling into the apartment."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

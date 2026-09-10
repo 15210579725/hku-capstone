@@ -1,0 +1,59 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group consecutive brief walking segments along the same distinct path (sidewalks, sloped street, stairs) into unified locomotion tasks. Isolate specific physical interactions (inspecting tree roots, struggling with a gate) and waiting/boarding actions in the lobby into their own immediate tasks.",
+  "events": [
+    [
+      "2750-2765",
+      "I walk along the sidewalk past various shops and restaurants.",
+      "Stops walking to inspect a specific feature on the retaining wall."
+    ],
+    [
+      "2766-2767",
+      "I inspect the tree roots by the retaining wall.",
+      "Resumes walking up the street."
+    ],
+    [
+      "2768-2784",
+      "I walk up the sloped street past parked cars and a market building.",
+      "Path transitions from the sloped street to ascending concrete stairs."
+    ],
+    [
+      "2785-2786",
+      "I ascend the concrete stairs along the outdoor path.",
+      "Transitions back to walking on a flat sidewalk."
+    ],
+    [
+      "2787-2789",
+      "I walk along the sidewalk past a boutique to the building entryway.",
+      "Reaches the gate to enter the building."
+    ],
+    [
+      "2790-2792",
+      "I push open the heavy exterior gate.",
+      "Gate is opened, proceeds to enter the lobby."
+    ],
+    [
+      "2793-2794",
+      "I enter the building lobby.",
+      "Arrives in the lobby to wait for the elevator."
+    ],
+    [
+      "2795-2800",
+      "I wait for the elevator in the lobby.",
+      "Elevator arrives and opens."
+    ],
+    [
+      "2801-2804",
+      "I board the elevator for the 15th floor.",
+      "End of provided events."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

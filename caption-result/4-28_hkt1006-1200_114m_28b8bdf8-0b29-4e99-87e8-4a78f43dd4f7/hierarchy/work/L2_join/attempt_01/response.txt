@@ -1,0 +1,3 @@
+```json
+{"target_level":"L2_JOIN","plan":"Merge eligible pairs that represent the continuous execution of the same immediate task across the batch boundary, such as drafting the same prompt or reading the same type of terminal output. Do not merge sequential steps or distinct tasks that merely share a topic.","merges":[[43,44,"I draft a digital twin simulation prompt in Claude Code.","Same prompt drafting task continues across batch edge"],[73,74,"I review terminal analysis and notes regarding digital twin model architecture schemes.","Same terminal review task continues across batch edge"]],"audit":{"complete":true,"uncertainties":[]}}
+```

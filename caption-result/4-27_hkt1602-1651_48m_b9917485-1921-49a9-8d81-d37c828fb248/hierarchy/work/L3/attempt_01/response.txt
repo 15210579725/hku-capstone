@@ -1,0 +1,64 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group L2 tasks into coherent activity episodes based on the progression of the hotpot meal, distinct extended conversational topics, post-meal interactions, and subsequent activities.",
+  "events": [
+    [
+      "0-5",
+      "I consume hotpot food and milk while conversing with my companions.",
+      "Focus shifts from the main meal to preparing tofu pudding."
+    ],
+    [
+      "6-10",
+      "I incorporate tofu pudding into the hotpot after tasting it and discussing its flavor.",
+      "Focus shifts back to eating from the hotpot and discussing childhood."
+    ],
+    [
+      "11-16",
+      "I eat from the hotpot while conversing with my companions about childhood business ventures and part-time jobs.",
+      "Conversation topic shifts from childhood to career programs."
+    ],
+    [
+      "17-21",
+      "I consume various foods while discussing career programs and restaurant concepts with my companions.",
+      "Active eating concludes, shifting to post-meal discussions and minor discomforts."
+    ],
+    [
+      "22-30",
+      "I converse with my companions about food habits, clothing, and our physical fullness while finishing my meal.",
+      "Focus shifts from the meal to physical affection and playful interactions."
+    ],
+    [
+      "31-36",
+      "I share a playful and affectionate interaction with my partner while inspecting a snack bag and discussing recording rules.",
+      "Interaction shifts to closely examining packaging."
+    ],
+    [
+      "37-38",
+      "I examine a packaging container to confirm its safety and sturdiness while conversing about relationships.",
+      "Activity is interrupted by a phone call."
+    ],
+    [
+      "39",
+      "I complete a brief phone call.",
+      "Phone call concludes, shifting focus to examining table items."
+    ],
+    [
+      "40-44",
+      "I examine containers and food packages while conversing about AI transcription, cleaning, and a snack shelf.",
+      "End of input."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "Event 39: Phone call interrupts the ongoing interaction and redirects focus temporarily."
+    ],
+    "boundary_cautions": [
+      "Events 22-30: Merged minor meal issues (burnt hand, missing filling) with the broader post-meal conversation phase as they do not constitute standalone major goals.",
+      "Events 40-44: Grouped disjointed conversational topics (AI transcription, cleaning, snack shelf) under the unified physical activity of examining table items."
+    ]
+  }
+}
+```

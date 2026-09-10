@@ -1,0 +1,94 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous first-person observations into immediate tasks based on a unified objective, such as operating a specific interface, engaging in a continuous conversation, resting, or relocating. Abstract incidental glances, brief device uses, and minor object manipulations into the overarching goal. Ensure descriptions strictly avoid prohibited conjunctions (and, then, next, while) and commas to represent consecutive actions.",
+  "events": [
+    [
+      "1500-1524",
+      "I operate the Claude Code CLI in VS Code during a discussion with my friend.",
+      "Task shifts to checking API costs"
+    ],
+    [
+      "1525-1575",
+      "I review my API usage costs on my laptop during a discussion with my friend.",
+      "Task shifts to entering the dining room"
+    ],
+    [
+      "1576-1586",
+      "I retrieve my phone and disposable chopsticks from the messy dining room table.",
+      "Task shifts to conversational discussion"
+    ],
+    [
+      "1587-1612",
+      "I discuss AI models and API accounts with my friend in the dining room.",
+      "Task shifts to writing an email"
+    ],
+    [
+      "1613-1629",
+      "I write an email reply regarding a project application on my smartphone.",
+      "Task shifts to closing the bedroom window"
+    ],
+    [
+      "1630-1636",
+      "I close the bedroom window in preparation for a nap before class.",
+      "Task shifts to returning to the living room"
+    ],
+    [
+      "1637-1653",
+      "I review my WeChat messages during a discussion about school GPU servers with my friend in the living room.",
+      "Task shifts to checking a scheduling app"
+    ],
+    [
+      "1654-1655",
+      "I check a time scheduling app on my smartphone at the dining table.",
+      "Task shifts to resting in bed"
+    ],
+    [
+      "1656-1700",
+      "I rest in the bedroom bed by staring blankly at the wall paneling.",
+      "Rest ends with getting up"
+    ],
+    [
+      "1701-1707",
+      "I abandon my unsuccessful nap to leave the bedroom.",
+      "Task shifts to getting water"
+    ],
+    [
+      "1708-1718",
+      "I fill a rinsed plastic water bottle at the kitchen water dispenser.",
+      "Task shifts to checking water taste"
+    ],
+    [
+      "1719-1723",
+      "I investigate a strange bitter taste from my water bottle at the kitchen sink.",
+      "Task shifts to retrieving an umbrella"
+    ],
+    [
+      "1724-1728",
+      "I retrieve my orange umbrella from a locker.",
+      "Task shifts to leaving the apartment"
+    ],
+    [
+      "1729-1733",
+      "I wait for the elevator in the hallway to leave the apartment building.",
+      "Task shifts to entering the elevator"
+    ],
+    [
+      "1734-1745",
+      "I ride the elevator down to the first floor.",
+      "Elevator ride ends upon reaching ground floor"
+    ],
+    [
+      "1746-1749",
+      "I exit the building onto the outdoor street with my companion.",
+      "End of provided inputs"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

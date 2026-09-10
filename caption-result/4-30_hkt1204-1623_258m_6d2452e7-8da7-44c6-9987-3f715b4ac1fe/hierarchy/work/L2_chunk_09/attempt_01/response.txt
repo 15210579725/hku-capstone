@@ -1,0 +1,64 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group consecutive action briefs into immediate tasks based on the primary focus of attention during the lecture, such as following mathematical diagrams, interacting with specific applications, fidgeting with objects, or performing self-maintenance like adjusting footwear.",
+  "events": [
+    [
+      "2000-2024",
+      "I attend a mathematical lecture, following a geometric line drawing on my laptop.",
+      "Focus shifts to fidgeting with an object."
+    ],
+    [
+      "2025-2030",
+      "I fidget with yellow earplugs during the presentation of a line stimulus on my laptop.",
+      "Focus shifts back to the lecture content."
+    ],
+    [
+      "2031-2036",
+      "I track my cursor on my laptop screen during a lecture on directed graph cycles.",
+      "Focus shifts to questioning a specific drawing."
+    ],
+    [
+      "2037-2039",
+      "I question the meaning of a geometric drawing on my laptop.",
+      "Focus shifts to a different application."
+    ],
+    [
+      "2040-2045",
+      "I view a Claude.ai chat interface on my laptop during the lecture.",
+      "Focus shifts to adjusting footwear."
+    ],
+    [
+      "2046-2048",
+      "I adjust the laces of my left sneaker.",
+      "Focus returns to the lecture materials."
+    ],
+    [
+      "2049-2058",
+      "I study a mathematical document and graph diagram on my laptop during a graph theory lecture.",
+      "Focus shifts to fidgeting with a new object."
+    ],
+    [
+      "2059-2064",
+      "I fidget with a thin stick over my laptop keyboard.",
+      "Focus shifts back to reading lecture notes."
+    ],
+    [
+      "2065-2084",
+      "I read mathematical definitions and proofs on my laptop during a lecture on equations.",
+      "Focus shifts away to observe the surroundings."
+    ],
+    [
+      "2085-2095",
+      "I observe the classroom environment and the mathematical document on my laptop.",
+      "End of supplied events."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

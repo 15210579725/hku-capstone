@@ -1,0 +1,114 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions focused on the same localized section of a document, the same search/query interface, or the same active note-taking process into unified immediate tasks.",
+  "events": [
+    [
+      "0-4",
+      "I write notes about diffusion models on a sheet of paper.",
+      "Task complete; switches to searching for the paper online"
+    ],
+    [
+      "5-18",
+      "I load the DDPM research paper PDF using ChatGPT.",
+      "Task complete; begins reading the loaded document"
+    ],
+    [
+      "19-31",
+      "I review the introductory section of the DDPM paper.",
+      "Shifts focus from the introduction to the sample generation figures"
+    ],
+    [
+      "32-43",
+      "I examine the sample generation figures of the DDPM paper.",
+      "Finishes examining the figures and scrolls to the end of the paper"
+    ],
+    [
+      "44-47",
+      "I browse the concluding sections of the DDPM paper.",
+      "Returns to deeply studying Section 4.4"
+    ],
+    [
+      "48-62",
+      "I study Section 4.4 on Interpolation in the DDPM paper.",
+      "Leaves Section 4.4 to review earlier background sections"
+    ],
+    [
+      "63-86",
+      "I review the early sections of the DDPM paper.",
+      "Shifts focus to the experimental sections and algorithms"
+    ],
+    [
+      "87-108",
+      "I study the experimental sections of the DDPM paper.",
+      "Pauses reading the paper to query ChatGPT"
+    ],
+    [
+      "109-117",
+      "I query ChatGPT about diffusion probabilistic models.",
+      "Returns to reading the background section of the paper"
+    ],
+    [
+      "118-137",
+      "I study the variational bound equations in the DDPM background section.",
+      "Switches from the academic paper to personal digital study notes"
+    ],
+    [
+      "138-170",
+      "I review my digital study notes on DDPM as a latent variable model.",
+      "Switches back to the DDPM research paper"
+    ],
+    [
+      "171-179",
+      "I study the forward process variance explanation in the DDPM paper.",
+      "Stops reading to write handwritten notes"
+    ],
+    [
+      "180-182",
+      "I write handwritten notes based on the DDPM paper.",
+      "Finishes writing and looks back at the PDF"
+    ],
+    [
+      "183-184",
+      "I review the DDPM paper PDF on my laptop screen.",
+      "Switches from the PDF to the digital notes document"
+    ],
+    [
+      "185-191",
+      "I study the derivation of the variational lower bound in my digital notes.",
+      "Stops reading digital notes to transcribe them"
+    ],
+    [
+      "192-197",
+      "I transcribe the variational lower bound derivation onto my notepad.",
+      "Finishes writing and scrolls to the next section in the digital notes"
+    ],
+    [
+      "198-204",
+      "I read the closed-form sampling notes in my digital document.",
+      "Stops reading to write more handwritten math notes"
+    ],
+    [
+      "205-207",
+      "I write handwritten math notes on a notepad.",
+      "Finishes writing and opens ChatGPT for a new query"
+    ],
+    [
+      "208-214",
+      "I prompt ChatGPT for an explanation of variational inference.",
+      "Response generated; begins studying the text to write derivations"
+    ],
+    [
+      "215-216",
+      "I write down mathematical derivations based on the variational inference text.",
+      "End of input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,54 @@
+{
+  "level": "L4",
+  "count": 4,
+  "events": [
+    {
+      "id": 0,
+      "start": 38736,
+      "end": 39647,
+      "text": "I transition from the balcony to my lecture hall desk to prepare for class.",
+      "refs": [
+        0,
+        1,
+        2
+      ],
+      "boundary_reason": "Pre-class preparation completes before the lecture begins"
+    },
+    {
+      "id": 1,
+      "start": 39648,
+      "end": 42545,
+      "text": "I study machine learning and differential equations concepts during my lectures.",
+      "refs": [
+        3,
+        4,
+        5
+      ],
+      "boundary_reason": "Core lecture learning concludes"
+    },
+    {
+      "id": 2,
+      "start": 42546,
+      "end": 43295,
+      "text": "I participate in project discussions and course evaluations with classmates in the lecture hall.",
+      "refs": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "boundary_reason": "Shift from peer interaction to lecturer announcements"
+    },
+    {
+      "id": 3,
+      "start": 43296,
+      "end": 43606,
+      "text": "I attend to final exam announcements and a research paper at the conclusion of class.",
+      "refs": [
+        10,
+        11
+      ],
+      "boundary_reason": "End of recorded activities"
+    }
+  ]
+}

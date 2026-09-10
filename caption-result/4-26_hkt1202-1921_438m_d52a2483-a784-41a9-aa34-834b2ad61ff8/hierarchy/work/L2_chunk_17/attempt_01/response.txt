@@ -1,0 +1,61 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group sequential observations into immediate tasks: collecting packages, walking through streets, riding escalators, climbing outdoor paths, entering the residential building, taking the elevator, unlocking the apartment, and remaining indoors.",
+  "events": [
+    [
+      "4000-4010",
+      "I collect my packages from the pickup shop.",
+      "Completes the package pickup process and exits the storage room."
+    ],
+    [
+      "4011-4022",
+      "I walk along the alleyway and street toward the escalators.",
+      "Continuous walking at street level until reaching the escalators."
+    ],
+    [
+      "4023-4032",
+      "I ride the escalators upward.",
+      "Groups consecutive upward escalator rides and the landing traversal."
+    ],
+    [
+      "4033-4046",
+      "I walk uphill along the street under the overpass.",
+      "Continuous walking along the street and alleyways."
+    ],
+    [
+      "4047-4054",
+      "I climb the outdoor concrete stairs and sloped pathway.",
+      "Continuous ascent of outdoor stairs and paths before reaching the apartment gate."
+    ],
+    [
+      "4055-4060",
+      "I enter the building lobby to take the elevator.",
+      "Navigating through the entrance gates and calling the elevator."
+    ],
+    [
+      "4061-4067",
+      "I ride the elevator to the 15th floor.",
+      "Elevator ride ending upon viewing the apartment door."
+    ],
+    [
+      "4068-4071",
+      "I unlock door 15B to enter the dark apartment.",
+      "Unlocking the door and physically entering the residence."
+    ],
+    [
+      "4072-4103",
+      "I remain in the dark apartment.",
+      "Continuous stationary state in the dark environment."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "4011: Realizing the urgent need to use the restroom initiates a rush home."
+    ],
+    "boundary_cautions": []
+  }
+}
+```

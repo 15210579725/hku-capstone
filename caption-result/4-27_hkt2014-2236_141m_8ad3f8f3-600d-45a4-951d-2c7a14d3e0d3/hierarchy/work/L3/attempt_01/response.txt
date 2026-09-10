@@ -1,0 +1,114 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group continuous L2 tasks sharing the same primary overarching goal (e.g., traveling, evaluating projects, drafting an application, researching PhD advisors) into coherent L3 episodes. Abstract incidental actions like managing connections, organizing items, or brief diversions if they serve the same episode. Keep major independent tasks and distinct context shifts separate.",
+  "events": [
+    [
+      "0",
+      "I fill my water containers at the water dispenser.",
+      "Isolated task before leaving"
+    ],
+    [
+      "1-3",
+      "I travel to an empty study cubicle in the university library.",
+      "Arrival at cubicle completes travel"
+    ],
+    [
+      "4-9",
+      "I set up my laptop workstation and connect an external monitor at the library desk.",
+      "Setup complete, shifts to reviewing files"
+    ],
+    [
+      "10-17",
+      "I review project presentation slides, WeChat messages, and emails on my laptop.",
+      "Shifts focus to evaluating capstone projects"
+    ],
+    [
+      "18-30",
+      "I evaluate ARIN7600 capstone project options and potential supervisors using Claude.",
+      "Shifts focus to WeChat and purchasing service credits"
+    ],
+    [
+      "31-37",
+      "I purchase a Claude service credit for a WeChat contact and review capstone project details.",
+      "Completes transaction, resumes project evaluation"
+    ],
+    [
+      "38-40",
+      "I read about ARIN7600 capstone project requirements and meta-learning on my laptop.",
+      "Begins packing to leave"
+    ],
+    [
+      "41-47",
+      "I travel from the university library to my apartment.",
+      "Arrival at dining table completes travel"
+    ],
+    [
+      "48-54",
+      "I settle into my apartment and prepare to work at the dining table.",
+      "Preparation complete, shifts to drafting proposal"
+    ],
+    [
+      "55-61",
+      "I research AI projects and draft a research project application proposal using Claude and ChatGPT.",
+      "Shifts focus to email inbox cleanup"
+    ],
+    [
+      "62-65",
+      "I review newsletters and instruct an AI assistant to organize my 163 Mail inbox.",
+      "Shifts focus to drafting specific application email"
+    ],
+    [
+      "66-76",
+      "I draft and refine an ARIN7600 Project 31 application email to Professor Zhu using 163 Mail and Claude.",
+      "Shifts focus to checking grades"
+    ],
+    [
+      "77-80",
+      "I check my semester grades on the university student portal and share my GPA on WeChat.",
+      "Shifts focus to sending draft email"
+    ],
+    [
+      "81-82",
+      "I send a draft email and use an AI tool to clean up marketing subscriptions in my 163 Mail inbox.",
+      "Shifts focus to reviewing various project documents"
+    ],
+    [
+      "83-95",
+      "I review project applications, AI script logs, and internship documents while eating a corn cob.",
+      "Shifts focus to intensive PhD advisor research"
+    ],
+    [
+      "96-104",
+      "I use Claude and ChatGPT to research academic papers and potential PhD advisors.",
+      "Shifts focus to reviewing reports and editing guide"
+    ],
+    [
+      "105-111",
+      "I review homework reports and edit a guide containing advice for finding a PhD advisor.",
+      "Interrupted by terminal billing error"
+    ],
+    [
+      "112",
+      "I recharge my account using Alipay to resolve a terminal billing error.",
+      "Billing error resolved, returns to research"
+    ],
+    [
+      "113-122",
+      "I use Claude Code to research overseas PhD advisors and update my PhD research planning document.",
+      "End of sequence"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      [
+        112,
+        "Resolving a billing error interrupts the broader research workflow."
+      ]
+    ],
+    "boundary_cautions": []
+  }
+}
+```

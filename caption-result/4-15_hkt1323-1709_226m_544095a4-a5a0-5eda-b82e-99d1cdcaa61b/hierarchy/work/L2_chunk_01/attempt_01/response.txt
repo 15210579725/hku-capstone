@@ -1,0 +1,129 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group action briefs into immediate tasks based on continuous goal-oriented actions, such as gathering items, cooking steps, and watching distinct videos.",
+  "events": [
+    [
+      "0-7",
+      "I gather a charging cable and a floral backpack in my bedroom.",
+      "Grasping of target items complete"
+    ],
+    [
+      "8-10",
+      "I walk into the hallway, check my appearance in the mirror, and proceed to the kitchen.",
+      "Arrives in kitchen"
+    ],
+    [
+      "11-14",
+      "I retrieve a package of frozen dumplings from the kitchen refrigerator.",
+      "Target ingredient retrieved"
+    ],
+    [
+      "15-19",
+      "I briefly walk to the dining area before returning to the kitchen to rinse a frying pan and place it on the stove.",
+      "Pan prepared for cooking"
+    ],
+    [
+      "20-31",
+      "I turn on the induction cooktop and empty the tray of frozen dumplings into the frying pan.",
+      "Dumplings added to pan"
+    ],
+    [
+      "32-38",
+      "I retrieve two eggs from the refrigerator, rinse them, and crack one into the frying pan.",
+      "Egg added to pan"
+    ],
+    [
+      "39-45",
+      "I search the refrigerator and retrieve a bundle of green vegetables.",
+      "Vegetables retrieved"
+    ],
+    [
+      "46-49",
+      "I wash the green vegetables in the sink and transfer them to the frying pan.",
+      "Vegetables added to pan"
+    ],
+    [
+      "50-52",
+      "I inspect packaged food items in the small refrigerator.",
+      "Inspection complete"
+    ],
+    [
+      "53-59",
+      "I walk into the dining area and take a seat at the dining table.",
+      "Seated at destination"
+    ],
+    [
+      "60-72",
+      "I use my smartphone to set a timer and complete a login process on the Bilibili app.",
+      "App opened and login complete"
+    ],
+    [
+      "73-133",
+      "I browse the Bilibili feed and watch a video about semiconductor technology and the IEDM conference.",
+      "Video concludes and user switches video"
+    ],
+    [
+      "134-155",
+      "I watch a Bilibili car review video about the XPENG GX SUV.",
+      "Video concludes and user switches context"
+    ],
+    [
+      "156-161",
+      "I browse the Bilibili feed and start watching a documentary video about drone-assisted highway construction.",
+      "Leaves phone to attend to food"
+    ],
+    [
+      "162-169",
+      "I leave my phone at the dining table, walk into the kitchen, and stir the food in the frying pan.",
+      "Stirring completes"
+    ],
+    [
+      "170-179",
+      "I return to the kitchen sink and peel a hot boiled egg under running water.",
+      "Egg peeled"
+    ],
+    [
+      "180-184",
+      "I walk to the dining table to place the peeled egg into the frying pan, then briefly return to the kitchen to turn off the range hood.",
+      "Serving complete and returns to table"
+    ],
+    [
+      "185-191",
+      "I sit at the dining table and watch the remainder of the highway construction video while eating.",
+      "Video concludes"
+    ],
+    [
+      "192-202",
+      "I scroll the video feed and watch a maritime documentary about a 400,000-ton cargo ship while eating.",
+      "Video concludes"
+    ],
+    [
+      "203-205",
+      "I watch a Bilibili video about rotary sail technology while eating.",
+      "Video concludes"
+    ],
+    [
+      "206-217",
+      "I scroll the video feed and watch a news report about JD Logistics autonomous delivery vehicles while eating.",
+      "Video concludes"
+    ],
+    [
+      "218-234",
+      "I watch a Bilibili video about electricity grids and computing power while eating.",
+      "Video concludes"
+    ],
+    [
+      "235-249",
+      "I watch a short video about selling a 20-year Panamera on Douyin while eating.",
+      "End of input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

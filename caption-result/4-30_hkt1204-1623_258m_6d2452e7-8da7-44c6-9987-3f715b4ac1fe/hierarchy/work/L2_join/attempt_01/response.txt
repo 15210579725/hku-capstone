@@ -1,0 +1,48 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Review eligible adjacent pairs to merge those that represent a continuous immediate task interrupted only by batch boundaries, while preserving distinct immediate tasks.",
+  "merges": [
+    [
+      18,
+      19,
+      "I research AI model training options and architectures using a command launcher and pop-up modal.",
+      "Same task of researching model training options continues across batch edge"
+    ],
+    [
+      49,
+      50,
+      "I review technical documentation and code regarding loss mask strategies.",
+      "Same task of reviewing loss mask strategies continues across batch edge"
+    ],
+    [
+      82,
+      83,
+      "I order and pay for a meal at the cafeteria self-ordering kiosk.",
+      "Same task of ordering and paying at the kiosk continues across batch edge"
+    ],
+    [
+      101,
+      102,
+      "I walk down stairs and a concrete pathway to continue along the street.",
+      "Same street navigation task continues across batch edge"
+    ],
+    [
+      121,
+      122,
+      "I select and purchase bananas from a street vendor.",
+      "Same produce purchasing task continues across batch edge"
+    ],
+    [
+      185,
+      186,
+      "I interact with a geometric drawing on my laptop during a mathematical lecture.",
+      "Same task of engaging with a geometric drawing continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

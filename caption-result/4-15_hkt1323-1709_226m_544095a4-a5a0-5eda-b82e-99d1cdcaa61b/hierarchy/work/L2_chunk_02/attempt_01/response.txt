@@ -1,0 +1,176 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions with a single immediate goal into tasks. Boundaries are formed when the user shifts to a new video topic, switches from phone usage to chores, or transitions between distinct stages of transit.",
+  "events": [
+    [
+      "250-257",
+      "I watch a short video about Panamera prices on my phone during my meal.",
+      "Places phone on table to wipe mouth"
+    ],
+    [
+      "258-261",
+      "I wipe my mouth with a piece of tissue paper.",
+      "Finishes wiping mouth and discards the tissue"
+    ],
+    [
+      "262-275",
+      "I discuss the market value of a used car during a video review.",
+      "Concludes speaking about the car's market value"
+    ],
+    [
+      "276-291",
+      "I discuss financial losses and vehicle pricing during a video about car depreciation.",
+      "Transitions to stirring food while watching another video segment"
+    ],
+    [
+      "292-297",
+      "I stir my food during a short video about a used Porsche Panamera.",
+      "Swipes to exit the video and browses the home feed"
+    ],
+    [
+      "298-304",
+      "I watch a Bilibili short video titled '当你出差长期住同一家酒店'.",
+      "Video ends and transitions to a new video in the feed"
+    ],
+    [
+      "305-309",
+      "I watch a Bilibili short video about the Russian military.",
+      "Scrolls to the next video in the feed"
+    ],
+    [
+      "310-317",
+      "I swipe through various short video clips on my Douyin feed.",
+      "Settles on a specific video"
+    ],
+    [
+      "318-319",
+      "I watch a Douyin short video titled '西游记正版流出（全集）38万播放'.",
+      "Swipes to the next short video"
+    ],
+    [
+      "320-327",
+      "I watch a Douyin short video about a programmer's workplace struggles.",
+      "Video ends and swipes to a livestream"
+    ],
+    [
+      "328-333",
+      "I watch a Bilibili short video about a homeless man fishing and cooking.",
+      "Swipes to the next short video featuring a car review"
+    ],
+    [
+      "334-352",
+      "I discuss car purchases and salary drops during short videos about a Mercedes-Maybach S480.",
+      "Shifts to a new specific car review by '朱厂长说车'"
+    ],
+    [
+      "353-358",
+      "I converse during a short video by '朱厂长说车' about a 2026 Mercedes-Maybach S480.",
+      "Video ends and transitions to a new video about luxury car pricing"
+    ],
+    [
+      "359-363",
+      "I watch a Bilibili short video discussing used luxury car pricing.",
+      "Swipes up to switch to the next short video"
+    ],
+    [
+      "364-369",
+      "I swipe through multiple short videos on my smartphone.",
+      "Settles on a video about universities"
+    ],
+    [
+      "370-375",
+      "I watch a Bilibili short video about university comparisons.",
+      "Video ends and switches to a live stream"
+    ],
+    [
+      "376-380",
+      "I speak out loud during a Bilibili live stream.",
+      "Concludes speaking and returns to browsing the feed"
+    ],
+    [
+      "381-382",
+      "I scroll through the short-video feed on my phone.",
+      "Puts phone down on the table to start cleaning dishes"
+    ],
+    [
+      "383-388",
+      "I wash the frying pan in the kitchen sink.",
+      "Finishes cleaning at the sink and turns to the trash bin"
+    ],
+    [
+      "389-394",
+      "I throw the kitchen trash bag into the stairwell dustbin outside my apartment.",
+      "Returns to the apartment after discarding the trash"
+    ],
+    [
+      "395-401",
+      "I line the kitchen trash can with a new plastic bag.",
+      "Finishes replacing the trash bag and leaves the kitchen"
+    ],
+    [
+      "402-408",
+      "I survey the rooms in my apartment.",
+      "Leaves the apartment to go to the elevator lobby"
+    ],
+    [
+      "409-411",
+      "I wait in the elevator lobby for the elevator to arrive.",
+      "Enters the elevator and opens WeChat"
+    ],
+    [
+      "412-421",
+      "I type a WeChat message to 'babe' during the elevator ride down.",
+      "Elevator doors open on the ground floor"
+    ],
+    [
+      "422-428",
+      "I exit the building lobby into the public street.",
+      "Enters the public street and begins walking along the sidewalk"
+    ],
+    [
+      "429-449",
+      "I check messages on my phone during my walk down a sloping outdoor street.",
+      "Enters the Shek Tong Tsui Municipal Services Building"
+    ],
+    [
+      "450-458",
+      "I type a message on my phone during the escalator ride down inside the Shek Tong Tsui Municipal Services Building.",
+      "Reaches the bottom of the escalator and exits onto the busy street"
+    ],
+    [
+      "459-465",
+      "I observe passing traffic at a pedestrian crossing.",
+      "Light turns green and crosses the street"
+    ],
+    [
+      "466-474",
+      "I walk along the sidewalk past a fresh meat butcher and other retail shops.",
+      "Turns into a side street and alleyway"
+    ],
+    [
+      "475-481",
+      "I walk past a street food stall and a building under renovation in a side alleyway.",
+      "Passes the scaffolding and approaches the beef brisket noodle restaurant"
+    ],
+    [
+      "482-492",
+      "I walk down the narrow urban street past local stores and a dental clinic.",
+      "Reaches a street intersection and crosses the road"
+    ],
+    [
+      "493-499",
+      "I board a blue double-decker tram at the station to reach the upper deck.",
+      "Reaches the upper deck of the tram"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      383
+    ],
+    "boundary_cautions": []
+  }
+}
+```

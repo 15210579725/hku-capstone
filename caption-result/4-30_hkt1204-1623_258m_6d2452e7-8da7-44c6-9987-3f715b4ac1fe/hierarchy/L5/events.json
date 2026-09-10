@@ -1,0 +1,67 @@
+{
+  "level": "L5",
+  "count": 6,
+  "events": [
+    {
+      "id": 0,
+      "start": 43481,
+      "end": 49994,
+      "text": "I conduct AI model training research and project documentation at the library study carrel.",
+      "refs": [
+        0
+      ],
+      "boundary_reason": "Transition from academic work to eating lunch."
+    },
+    {
+      "id": 1,
+      "start": 49995,
+      "end": 51498,
+      "text": "I eat a chicken and rice meal at the campus cafeteria.",
+      "refs": [
+        1
+      ],
+      "boundary_reason": "Transition from lunch to off-campus errands."
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 54000,
+      "text": "I complete a household supply and grocery shopping errand.",
+      "refs": [
+        2,
+        3
+      ],
+      "boundary_reason": "Shopping trip concludes to resolve project issues at home."
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 55118,
+      "text": "I troubleshoot project API usage costs with my flatmate.",
+      "refs": [
+        4
+      ],
+      "boundary_reason": "Project troubleshooting concludes for a rest period."
+    },
+    {
+      "id": 4,
+      "start": 55118,
+      "end": 56571,
+      "text": "I rest in my bedroom.",
+      "refs": [
+        5
+      ],
+      "boundary_reason": "Rest concludes to commute to a lecture."
+    },
+    {
+      "id": 5,
+      "start": 0,
+      "end": 58991,
+      "text": "I attend a MATH6002 lecture on graph theory on campus.",
+      "refs": [
+        6
+      ],
+      "boundary_reason": "End of input."
+    }
+  ]
+}

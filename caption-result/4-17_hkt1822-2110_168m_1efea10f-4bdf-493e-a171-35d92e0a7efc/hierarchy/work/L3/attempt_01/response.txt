@@ -1,0 +1,74 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group adjacent L2 tasks into coherent episodes based on overarching goals such as attending a lecture, departing campus, commuting, researching AI, handling personal communications, and eating a meal, while respecting location changes and major shifts in activity focus.",
+  "events": [
+    [
+      "0-12",
+      "I review AI research papers and course concepts on my laptop during a machine learning lecture.",
+      "Lecture study session concludes with packing to leave"
+    ],
+    [
+      "13-22",
+      "I discuss travel plans and directions with my companions during our departure from the campus.",
+      "Exited campus and parted ways with friends"
+    ],
+    [
+      "23-30",
+      "I commute back to my apartment on foot.",
+      "Commute ends upon arrival inside the apartment to begin research"
+    ],
+    [
+      "31-51",
+      "I research affective computing literature and AI models on my laptop in my bedroom.",
+      "Switched from laptop research to washing a tomato in the kitchen"
+    ],
+    [
+      "52-53",
+      "I prepare a fresh tomato at the kitchen sink.",
+      "Finished tomato prep to check messages on smartphone"
+    ],
+    [
+      "54-65",
+      "I manage my WeChat communications and emails on my smartphone.",
+      "Finished checking phone to develop an emotion analysis script on the laptop"
+    ],
+    [
+      "66-73",
+      "I develop an emotion analysis script for the EgoLife dataset using an AI assistant in VS Code.",
+      "Transitioned from script development to managing personal tasks and plans"
+    ],
+    [
+      "74-92",
+      "I coordinate meal plans with my partner on my smartphone during my ongoing AI project evaluation.",
+      "Concluded phone coordination to focus on dataset downloading tasks"
+    ],
+    [
+      "93-118",
+      "I troubleshoot Google Colab authentication to facilitate the EgoLife dataset download.",
+      "Switched from AI research to planning a snorkeling trip on WeChat"
+    ],
+    [
+      "119-121",
+      "I organize a snorkeling trip to Clearwater Bay on WeChat.",
+      "Concluded trip planning to research reward functions on the laptop"
+    ],
+    [
+      "122-124",
+      "I research reward functions and format quiz questions using Google Gemini on my laptop.",
+      "Research ends with declaring hunger for a meal"
+    ],
+    [
+      "125-145",
+      "I eat a freshly cooked meal of flatbreads, eggs, and sausage in the kitchen.",
+      "Meal and cleanup complete"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

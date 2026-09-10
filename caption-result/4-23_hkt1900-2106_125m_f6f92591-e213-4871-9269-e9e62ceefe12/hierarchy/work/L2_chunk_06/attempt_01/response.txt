@@ -1,0 +1,69 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous action briefs into distinct immediate tasks based on clear shifts in physical activity, conversation topic, or focal problem. Separate the initial candle inspection, note preparation, distinct conversation topics (clothing, food, missing items, acquaintances), eating, and the separate phases of math homework (deriving the first solution vs. subsequent calculations).",
+  "events": [
+    [
+      "0-6",
+      "I examine an IKEA candle on my desk.",
+      "Candle inspection concludes before shifting attention to study materials."
+    ],
+    [
+      "7-13",
+      "I prepare handwritten notes using my laptop.",
+      "Note preparation stops when a conversation about clothing sizes begins."
+    ],
+    [
+      "14-21",
+      "I discuss clothing sizes with a companion.",
+      "The topic of conversation shifts from clothing sizes to purchasing food."
+    ],
+    [
+      "22-24",
+      "I offer to purchase food for my roommate.",
+      "The conversation ends and I return to my math homework."
+    ],
+    [
+      "25-51",
+      "I derive a mathematical solution for a homework problem.",
+      "A homework problem is completed and boxed before moving to the next task."
+    ],
+    [
+      "52-88",
+      "I perform algebraic calculations for a subsequent math problem.",
+      "The continuous math calculation is interrupted by a reaction to an item."
+    ],
+    [
+      "89-96",
+      "I talk about a missing item.",
+      "The topic shifts from the missing item to an acquaintance's whereabouts."
+    ],
+    [
+      "97-105",
+      "I discuss an acquaintance's whereabouts with a friend.",
+      "The conversation pauses to eat a cucumber."
+    ],
+    [
+      "106-108",
+      "I eat a cucumber.",
+      "Eating concludes before asking a follow-up question."
+    ],
+    [
+      "109",
+      "I ask a friend about an acquaintance's fitness activities.",
+      "The brief question ends as I return to my math homework."
+    ],
+    [
+      "110-148",
+      "I write probability equations for my math homework.",
+      "Ends at the last provided action brief for the assignment."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,149 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group immediate tasks by continuous primary action, such as specific phone usage tasks, transit navigation, train boarding, and distinct topics of conversation.",
+  "events": [
+    [
+      "0-5",
+      "I read a WeChat group chat about an AI Capstone Project during my outdoor walk.",
+      "Focus shifts to a private chat"
+    ],
+    [
+      "6-11",
+      "I review a private WeChat chat during my outdoor walk.",
+      "Task changes to setting an alarm"
+    ],
+    [
+      "12-22",
+      "I set a phone alarm labeled 'project' during my walk through a residential plaza.",
+      "Task changes to walking to the building"
+    ],
+    [
+      "23-39",
+      "I navigate an outdoor pedestrian pathway to enter the Festival City building lobby.",
+      "Transition to riding escalator"
+    ],
+    [
+      "40-51",
+      "I ride the downward escalator to the lower level of the building lobby.",
+      "Exiting the building"
+    ],
+    [
+      "52-59",
+      "I walk along the outdoor sidewalk to reach the MTR station entrance.",
+      "Entering station and riding escalator"
+    ],
+    [
+      "60-66",
+      "I ride the ascending escalator to the MTR station concourse.",
+      "Transition to ticket gates and platform"
+    ],
+    [
+      "67-79",
+      "I walk through the ticket gates and navigate to the MTR station platform.",
+      "Arrived at platform waiting area"
+    ],
+    [
+      "80-87",
+      "I wait on the elevated MTR platform for the train to arrive.",
+      "Train arrives and boarding begins"
+    ],
+    [
+      "88-91",
+      "I board the MTR train to find a standing position inside the carriage.",
+      "Boarding complete, focus shifts to riding"
+    ],
+    [
+      "92-108",
+      "I observe the overhead route map and other passengers during the train ride.",
+      "Focus shifts to conversation"
+    ],
+    [
+      "109-114",
+      "I discuss construction work with a nearby passenger.",
+      "Train arrives at station"
+    ],
+    [
+      "115-119",
+      "I observe the platform signage as the train arrives at Kowloon Tong station.",
+      "Moving within train"
+    ],
+    [
+      "120-128",
+      "I navigate deeper into the crowded train carriage.",
+      "Adjusting backpack"
+    ],
+    [
+      "129-136",
+      "I adjust my black backpack in the moving train carriage.",
+      "Focus shifts to phone"
+    ],
+    [
+      "137-154",
+      "I monitor my smartphone and observe my surroundings during the train ride.",
+      "Starts playing a game"
+    ],
+    [
+      "155-157",
+      "I watch a video game on my smartphone during the train ride.",
+      "Game ends, station arrival"
+    ],
+    [
+      "158-167",
+      "I observe the passengers at Hung Hom station.",
+      "Focus shifts to conversation"
+    ],
+    [
+      "168-181",
+      "I converse with my companion about travel plans in the train carriage.",
+      "Observation resumes"
+    ],
+    [
+      "182-197",
+      "I observe the passengers seated opposite me in the subway carriage.",
+      "Station announcement"
+    ],
+    [
+      "198-204",
+      "I listen to the Admiralty station arrival announcement.",
+      "Preparing phone"
+    ],
+    [
+      "205-210",
+      "I check an application on my smartphone before exiting the subway car.",
+      "Exiting train"
+    ],
+    [
+      "211-225",
+      "I walk along the Admiralty station platform after alighting from the train.",
+      "Moving into concourse"
+    ],
+    [
+      "226-231",
+      "I discuss academic backgrounds in psychology and mathematics with my companion in the station concourse.",
+      "Approaching escalator"
+    ],
+    [
+      "232-238",
+      "I check a navigation map on my phone while riding the concourse escalator.",
+      "Approaching new platform"
+    ],
+    [
+      "239-243",
+      "I discuss a mathematics project and review a project list on my phone while approaching the platform.",
+      "Waiting for train"
+    ],
+    [
+      "244-249",
+      "I board the train after waiting at the platform screen doors.",
+      "Boarding complete"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

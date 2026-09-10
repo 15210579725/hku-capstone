@@ -1,0 +1,18 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Check if the eligible pair (20 and 21) represents an interrupted continuous task. Both events involve reviewing math materials (notes/slides/assignment) on the laptop and discussing them with classmates, connecting exactly at 13:55:25.",
+  "merges": [
+    [
+      20,
+      21,
+      "I review math course materials on my laptop and discuss them with my classmates.",
+      "Same math review and discussion continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

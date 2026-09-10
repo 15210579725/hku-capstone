@@ -1,0 +1,141 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions sharing the same immediate goal, such as discussing a specific topic, browsing a particular store section, or completing a transaction, into single tasks. Maintain major location changes, such as exiting the train, as standalone triggers.",
+  "events": [
+    [
+      "250-254",
+      "I listen to my companion discuss clothing.",
+      "Topic concludes"
+    ],
+    [
+      "255-257",
+      "I check social media on my smartphone.",
+      "Puts phone away"
+    ],
+    [
+      "258-263",
+      "I observe the passengers in the train carriage.",
+      "Observation shifts to conversation"
+    ],
+    [
+      "264-272",
+      "I discuss our schedule with my companion.",
+      "Shifts to checking phone"
+    ],
+    [
+      "273-282",
+      "I browse a pricing schedule on my smartphone.",
+      "Finishes browsing schedule"
+    ],
+    [
+      "283-290",
+      "I observe the passengers in the train carriage.",
+      "Companion initiates new topic"
+    ],
+    [
+      "291-306",
+      "I sit in the train and converse with my companion.",
+      "Prepares to exit"
+    ],
+    [
+      "307-308",
+      "I stand up to exit the train.",
+      "Major location change trigger"
+    ],
+    [
+      "309-320",
+      "I walk along the platform and discuss taking Exit C with my companion.",
+      "Turns toward exit ramp"
+    ],
+    [
+      "321-335",
+      "I ride the escalator while eating fried chicken and discussing an animation.",
+      "Escalator ride completes"
+    ],
+    [
+      "336-346",
+      "I navigate the station to pass through the turnstiles.",
+      "Passes turnstiles"
+    ],
+    [
+      "347-355",
+      "I walk through the station concourse to enter the 優品360° store.",
+      "Enters store"
+    ],
+    [
+      "356-365",
+      "I browse nuts, coffee, and dairy items in the store.",
+      "Moves to snack aisle"
+    ],
+    [
+      "366-387",
+      "I browse snacks and discuss past purchases with my companion.",
+      "Moves to instant noodles"
+    ],
+    [
+      "388-396",
+      "I browse instant noodles and discuss their prices with my companion.",
+      "Moves to eggs"
+    ],
+    [
+      "397-401",
+      "I examine egg cartons and discuss their price.",
+      "Moves to frozen section"
+    ],
+    [
+      "402-416",
+      "I browse frozen seafood, meats, and condiments.",
+      "Turns toward exit"
+    ],
+    [
+      "417-424",
+      "I inspect an egg display on my way out of the store.",
+      "Exits store"
+    ],
+    [
+      "425-433",
+      "I discuss buying a cheesecake while inspecting the bakery window.",
+      "Enters bakery"
+    ],
+    [
+      "434-441",
+      "I enter the bakery to inspect the bread and cakes.",
+      "Prepares to order"
+    ],
+    [
+      "442-460",
+      "I order and pay for a slice of cheesecake using my smartphone.",
+      "Completes payment and exits"
+    ],
+    [
+      "461-466",
+      "I converse with my friend outside the bakery about the cheesecake.",
+      "Begins walking to mall"
+    ],
+    [
+      "467-482",
+      "I walk into the mall and ride the escalator while discussing food with my companion.",
+      "Steps off escalator"
+    ],
+    [
+      "483-489",
+      "I discuss making miso soup with my companion.",
+      "Topic shifts to navigation"
+    ],
+    [
+      "490-499",
+      "I navigate the mall concourse while discussing a gift for a friend.",
+      "Steps onto escalator"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      7
+    ],
+    "boundary_cautions": []
+  }
+}
+```

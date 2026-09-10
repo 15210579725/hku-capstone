@@ -1,0 +1,30 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible pairs to merge only those that continue the exact same immediate task. Merging [47, 48] (reading the VidEmo paper), [70, 71] (prompting and reviewing AI response for emotion stats), and [128, 129] (cooking the same flatbread). Rejecting pairs with distinct context, physical action, or topic shifts (e.g., [19, 20] changing from asking directions to discussing cooking; [87, 88] changing from typing about syrup to dictating about meal plans; [109, 110] changing from prompting AI to opening a notebook).",
+  "merges": [
+    [
+      47,
+      48,
+      "I review the VidEmo dataset paper and related affective computing materials on my laptop.",
+      "Continuous reading activity focused on the same paper across the batch edge"
+    ],
+    [
+      70,
+      71,
+      "I interact with the AI assistant to generate and review EgoLife emotion statistics.",
+      "Continuous prompt and response cycle regarding the same specific task"
+    ],
+    [
+      128,
+      129,
+      "I cook a flatbread in a frying pan on the kitchen stove.",
+      "Continuous physical action of cooking the same food item"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

@@ -1,0 +1,18 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Review eligible boundary pairs to determine if they split the exact same immediate task. Pair [68, 69] is a continuous task of inspecting the same glass mug. Pairs [21, 22], [46, 47], [96, 97], and [116, 117] introduce distinct shifts in immediate behavior, topic, or physical target, and therefore remain separate L2 events.",
+  "merges": [
+    [
+      68,
+      69,
+      "I inspect the condition and markings of a glass mug.",
+      "Continuous inspection of the same glass cup across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible batch edge pairs for continuity of the same immediate L2 task. Pair 35/36 (observing vs eating), pair 94/95 (sketching vs long AI calculation), and pair 102/103 (prompting AI vs typing the final answer) represent distinct sequential steps or actions. Pair 59/60 (reading a question and typing its answer) and pair 117/118 (checking and sending messages in one app session) represent single continuous tasks that were artificially split by transport batch edges.",
+  "merges": [
+    [
+      59,
+      60,
+      "I read question A2 and type perceptron formulas into the assignment notebook for questions A2 and A3.",
+      "Same assignment answering task continues across batch edge"
+    ],
+    [
+      117,
+      118,
+      "I retrieve my phone to check WeChat messages and send a message about my lunch to User X.",
+      "Same WeChat messaging session continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

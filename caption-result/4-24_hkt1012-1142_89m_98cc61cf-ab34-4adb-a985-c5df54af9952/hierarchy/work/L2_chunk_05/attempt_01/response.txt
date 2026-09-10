@@ -1,0 +1,144 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group immediate consecutive brief actions into unified L2 tasks based on location changes, topic shifts in conversation, or completion of singular physical objectives.",
+  "events": [
+    [
+      "1000-1007",
+      "I observe my exhausted companion resting during our gym session.",
+      "Companion finishes exercising and rests"
+    ],
+    [
+      "1008-1013",
+      "I perform pull-ups and discuss the exercise difficulty with my partner.",
+      "Pull-up exercise and conversation conclude"
+    ],
+    [
+      "1014-1016",
+      "I watch my workout partner adjust a cable pulley.",
+      "Partner finishes adjusting the equipment"
+    ],
+    [
+      "1017-1019",
+      "I look around the gym and inspect an evaporative air cooler.",
+      "Shift to discussing departure with companion"
+    ],
+    [
+      "1020-1022",
+      "I discuss leaving the gym and returning an item with my companion.",
+      "Discussion ends before moving"
+    ],
+    [
+      "1023-1027",
+      "I follow my companion to the gym coffee table.",
+      "Arrival at the coffee table and companion returns"
+    ],
+    [
+      "1028-1030",
+      "I hold an orange object and state my intention to go barefoot.",
+      "Focus shifts to walking to the reception"
+    ],
+    [
+      "1031-1033",
+      "I walk to the reception desk.",
+      "Arrival at the reception desk"
+    ],
+    [
+      "1034-1047",
+      "I browse the cafe menu for seasonal items, dim sum, sandwiches, and drinks.",
+      "Shift from independent reading to discussing choices with companion"
+    ],
+    [
+      "1048-1061",
+      "I discuss food choices with my companion at the reception desk.",
+      "Discussion ends and ordering begins"
+    ],
+    [
+      "1062-1066",
+      "I order five dumplings and review the menu booklet.",
+      "Shift from my selection to my companion ordering"
+    ],
+    [
+      "1067-1073",
+      "My companion orders food items A and C and pays with an Octopus card.",
+      "Companion completes ordering and payment"
+    ],
+    [
+      "1074-1085",
+      "I review the menu and discuss ordering red wine brisket rice for the group.",
+      "Discussion concludes as companion asks about drinks"
+    ],
+    [
+      "1086-1097",
+      "I order a coffee from the cafe staff and review the menus.",
+      "Drink order is placed and priced"
+    ],
+    [
+      "1098-1100",
+      "I walk back to the gym entrance.",
+      "Arrival at the gym doors"
+    ],
+    [
+      "1101-1104",
+      "I retrieve a tissue from the gym coffee table.",
+      "Tissue retrieved and turning to leave"
+    ],
+    [
+      "1105-1108",
+      "I exit the building after handing a napkin to User A.",
+      "Exit completed to step outdoors"
+    ],
+    [
+      "1109-1114",
+      "I walk onto the patio and discuss the swimming pool.",
+      "Approach the outdoor gathering"
+    ],
+    [
+      "1115-1119",
+      "I approach the patio table and receive a cup of wine from a friend.",
+      "Drink received and placed on table"
+    ],
+    [
+      "1120-1125",
+      "I discuss my residence and toast with my friends.",
+      "Toast completes and focus shifts to food"
+    ],
+    [
+      "1126-1130",
+      "I watch a friend open a food container for a photo.",
+      "Container opened and photo taken"
+    ],
+    [
+      "1131-1141",
+      "I listen to a friend explain the preparation of a Taiwanese pancake.",
+      "Explanation ends as people begin eating"
+    ],
+    [
+      "1142-1145",
+      "I take a piece of the Taiwanese pancake.",
+      "Food item obtained"
+    ],
+    [
+      "1146-1159",
+      "I sit at the patio table and discuss the Taiwanese flatbread's texture and filling with my companions.",
+      "Food conversation concludes"
+    ],
+    [
+      "1160-1171",
+      "I explain my smart glasses emotion prediction research to my friends.",
+      "Research explanation concludes before a time jump"
+    ],
+    [
+      "1172-1174",
+      "I browse the X app on my phone and invite a companion to lunch.",
+      "End of provided input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

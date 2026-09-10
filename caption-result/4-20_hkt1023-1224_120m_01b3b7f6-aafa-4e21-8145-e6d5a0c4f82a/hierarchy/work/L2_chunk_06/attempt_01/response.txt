@@ -1,0 +1,44 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group sequential typing and interface steps into unified message-sending tasks. Isolate the brief notification check as a distinct immediate task. Separate the physical glasses adjustment and the specific gaze shifts (backpack vs. cushion) into their own tasks. Group the prolonged period of stationary observation and murmuring into a single continuous task.",
+  "events": [
+    [
+      "1250-1254",
+      "I send a WeChat message about my lunch to User X.",
+      "Message sent and navigation shifts away from the chat"
+    ],
+    [
+      "1255-1256",
+      "I navigate to the WeChat subscription feed to review my iOS notifications.",
+      "Notifications checked and swiped away"
+    ],
+    [
+      "1257-1259",
+      "I reopen the WeChat conversation to send an additional message to User X.",
+      "Message sent and active phone interaction ends"
+    ],
+    [
+      "1260",
+      "I adjust my glasses.",
+      "Glasses adjustment completed"
+    ],
+    [
+      "1261",
+      "I observe my floral backpack and stacked books on the desk.",
+      "Gaze shifts to a new primary target"
+    ],
+    [
+      "1262-1275",
+      "I maintain a stationary gaze on a patterned cushion and desk objects with occasional murmurs.",
+      "Continuous stationary phase ends the batch"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,131 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions that serve a single immediate task, such as navigating a specific physical segment (stairs, elevators, corridors), finding a desk, packing items, setting up a laptop, or focusing on distinct applications during a lecture. Preserve exact time ordering and reference continuity without combining non-adjacent actions.",
+  "events": [
+    [
+      "1750-1756",
+      "I walk along the street past parked cars.",
+      "Reaching the staircase"
+    ],
+    [
+      "1757-1768",
+      "I navigate multiple flights of painted outdoor stairs.",
+      "Reaching the upper sidewalk"
+    ],
+    [
+      "1769-1773",
+      "I walk along the sidewalk past a bus stop.",
+      "Arriving at the outdoor elevator"
+    ],
+    [
+      "1774-1780",
+      "I ride an outdoor elevator to a footbridge.",
+      "Exiting the elevator onto the footbridge"
+    ],
+    [
+      "1781-1786",
+      "I walk along an elevated covered footbridge.",
+      "Arriving at the next elevator"
+    ],
+    [
+      "1787-1795",
+      "I ride a glass elevator down to a walkway.",
+      "Exiting the glass elevator"
+    ],
+    [
+      "1796-1800",
+      "I walk across an outdoor plaza to a covered corridor.",
+      "Arriving at the elevator lobby"
+    ],
+    [
+      "1801-1810",
+      "I ride an elevator to a covered outdoor walkway.",
+      "Exiting the elevator onto the covered walkway"
+    ],
+    [
+      "1811-1825",
+      "I walk along a covered outdoor walkway toward the Main Library.",
+      "Entering the library"
+    ],
+    [
+      "1826-1832",
+      "I navigate the ground floor of the Main Library to a staircase lobby.",
+      "Reaching the library staircase"
+    ],
+    [
+      "1833-1841",
+      "I ascend the stairs to the upper floor of the library.",
+      "Reaching the upper floor study area"
+    ],
+    [
+      "1842-1851",
+      "I walk through the library study area to a desk.",
+      "Arriving at an empty desk"
+    ],
+    [
+      "1852-1863",
+      "I pack my laptop, charger, and umbrella into my backpack at a library desk.",
+      "Finishing packing and leaving the desk"
+    ],
+    [
+      "1864-1884",
+      "I navigate from the upper-floor study area to the Main Library exit.",
+      "Exiting the library building"
+    ],
+    [
+      "1885-1896",
+      "I approach the K.K. Leung Building via an outdoor corridor and ramp.",
+      "Entering the building"
+    ],
+    [
+      "1897-1908",
+      "I navigate the hallways and stairs of the K.K. Leung Building to a lecture room.",
+      "Entering the lecture room"
+    ],
+    [
+      "1909-1917",
+      "I unpack my laptop and water bottle at a desk inside the lecture hall.",
+      "Finishing unpacking the laptop"
+    ],
+    [
+      "1918-1936",
+      "I navigate to the MATH6002 course portal and Zoom launch page on my laptop.",
+      "Finishing laptop setup and starting to observe the lecture"
+    ],
+    [
+      "1937-1953",
+      "I observe the lecture slides and my laptop screen.",
+      "Shifting focus to type on the laptop"
+    ],
+    [
+      "1954-1964",
+      "I type on my laptop keyboard during the lecture.",
+      "Shifting focus to draw a geometric shape"
+    ],
+    [
+      "1965-1970",
+      "I draw a geometric shape on a digital canvas during the lecture.",
+      "Shifting focus to the terminal window"
+    ],
+    [
+      "1971-1979",
+      "I review a terminal window and documentation on my laptop.",
+      "Shifting focus back to the digital canvas"
+    ],
+    [
+      "1980-1999",
+      "I draw a geometric diagram on a digital canvas during the lecture.",
+      "End of provided sequence"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": [
+      "Digital canvas drawing tasks (1965-1970 and 1980-1999) are split by a terminal and documentation review phase (1971-1979), so they are intentionally grouped as separate sequential tasks at L2 to preserve chronological flow."
+    ]
+  }
+}
+```

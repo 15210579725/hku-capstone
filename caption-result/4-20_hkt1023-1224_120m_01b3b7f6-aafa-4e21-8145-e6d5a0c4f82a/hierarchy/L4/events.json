@@ -1,0 +1,63 @@
+{
+  "level": "L4",
+  "count": 4,
+  "events": [
+    {
+      "id": 0,
+      "start": 37429,
+      "end": 38008,
+      "text": "I commute from my residence to the university restaurant.",
+      "refs": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "boundary_reason": "Arrival at the restaurant for breakfast"
+    },
+    {
+      "id": 1,
+      "start": 38009,
+      "end": 39114,
+      "text": "I consume my breakfast at the university restaurant.",
+      "refs": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "boundary_reason": "Completion of the meal and departure from the restaurant"
+    },
+    {
+      "id": 2,
+      "start": 39115,
+      "end": 44287,
+      "text": "I work on my machine learning assignment at the university library.",
+      "refs": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "boundary_reason": "Transition from academic study to leisure time"
+    },
+    {
+      "id": 3,
+      "start": 44288,
+      "end": 44667,
+      "text": "I take a rest break at my library study desk.",
+      "refs": [
+        19,
+        20
+      ],
+      "boundary_reason": "End of provided data"
+    }
+  ]
+}

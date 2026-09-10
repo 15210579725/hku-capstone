@@ -1,0 +1,126 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group the continuous sequence of L1 action briefs into immediate, concrete tasks. Boundaries are placed when conversation topics substantially change (e.g., from holding hands to smart glasses specs, or from Wagyu beef to studying in Japan), when the physical activity changes (e.g., stopping to look at a snail, waiting for an elevator, settling into the bedroom), or when shifting between distinct sub-tasks of studying (e.g., setting up the laptop vs. solving the math problem). The cucumber handover is kept as a distinct event as it interrupts the study flow.",
+  "events": [
+    [
+      "500-517",
+      "I joke with my companion about finding a breeze and holding hands while walking along the outdoor pathway.",
+      "Conversation shifts to the technical specifications of the smart glasses."
+    ],
+    [
+      "518-531",
+      "I discuss the recording specifications and data storage of my smart glasses with my companion while walking.",
+      "The conversation about the smart glasses concludes, leading to a period of silent walking."
+    ],
+    [
+      "532-536",
+      "I walk in silence along the paved walkway, observing the surrounding vegetation and pedestrians.",
+      "The silence ends when we start a new conversation about a mutual friend."
+    ],
+    [
+      "537-558",
+      "I converse with my companion about a friend's encounters with locals and their food while walking.",
+      "I shift from talking about the food to actively viewing a video of it on my phone."
+    ],
+    [
+      "559-573",
+      "I discuss a WeChat video of a friend eating Japanese Wagyu beef with my companion.",
+      "We finish discussing the Wagyu beef, and I switch to checking other apps while a new story starts."
+    ],
+    [
+      "574-585",
+      "I check my phone's VPN and Claude Pro while listening to my companion's story about a friend studying in Japan.",
+      "The story about Japan concludes, and I change the subject to a rental room offer."
+    ],
+    [
+      "586-590",
+      "I discuss a rental room offer with my companion while walking along the outdoor corridor.",
+      "I interrupt the conversation about the rental room because I spot a snail on the ground."
+    ],
+    [
+      "591-606",
+      "I watch my companion relocate a snail from the walkway to the bushes.",
+      "The interaction with the snail concludes, and we resume our walk into the building."
+    ],
+    [
+      "607-621",
+      "I walk with my companion into the building lobby to approach the elevator.",
+      "We reach the elevator and start a new conversation while waiting."
+    ],
+    [
+      "622-627",
+      "I discuss evening food options with my companion while waiting for the elevator.",
+      "The conversation topic shifts to the elevator's design as we prepare to board."
+    ],
+    [
+      "628-645",
+      "I ride the elevator with my companion, discussing its high ceiling and joking about acting for the camera.",
+      "We exit the elevator and arrive at the apartment door."
+    ],
+    [
+      "646-651",
+      "I follow my companion through the apartment to my bedroom.",
+      "I enter my bedroom and begin settling in for the evening."
+    ],
+    [
+      "652-671",
+      "I settle into my bedroom upon arrival by adjusting the environment and my personal belongings.",
+      "I start a conversation with my roommate about food and laundry."
+    ],
+    [
+      "672-680",
+      "I converse with my roommate about sharing a snack and washing clothes.",
+      "The conversation ends, and I begin unpacking my study materials."
+    ],
+    [
+      "681-690",
+      "I unpack my MacBook, charging cable, and a notebook from my backpack.",
+      "Unpacking is complete, and I begin setting up my laptop for studying."
+    ],
+    [
+      "691-703",
+      "I set up my MacBook to review my exam schedule and the MATH6502/7502 homework PDF.",
+      "Setup is complete, and I begin actively reading and working on a specific homework problem."
+    ],
+    [
+      "704-716",
+      "I begin solving Problem 2 of the MATH6502/7502 homework by sketching a 3D box diagram on paper.",
+      "I pause my homework to briefly look around the room."
+    ],
+    [
+      "717-720",
+      "I pause my homework to look around the bedroom.",
+      "I resume writing notes for my homework."
+    ],
+    [
+      "721-734",
+      "I write notes on vector probability for Problem 2 of the math homework.",
+      "I am interrupted from my homework by my roommate handing me a cucumber."
+    ],
+    [
+      "735-738",
+      "I accept a cucumber from my roommate.",
+      "The interaction ends, and I look around my desk."
+    ],
+    [
+      "739-744",
+      "I inspect various items around my desk, including a cat figurine and my smartphone.",
+      "I focus my attention specifically on a dirty glass mug."
+    ],
+    [
+      "745-749",
+      "I inspect a dirty glass mug while questioning its condition.",
+      "End of provided events."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "735-738"
+    ],
+    "boundary_cautions": []
+  }
+}
+```

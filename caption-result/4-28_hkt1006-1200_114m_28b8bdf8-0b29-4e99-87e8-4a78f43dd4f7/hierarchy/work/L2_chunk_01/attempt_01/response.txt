@@ -1,0 +1,146 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group action briefs into immediate tasks based on continuous, unified objectives. Distinct packing actions are separated. Navigation is grouped by contiguous path types (e.g., street, footbridge, overpass) and transport stages (elevator rides). A very long sequence of eating corn is kept as a single task to adhere to the rule against setting arbitrary duration limits or target counts for sustained activities.",
+  "events": [
+    [
+      "0-3",
+      "I pack my black USB cable into my backpack.",
+      "Finished packing USB cable"
+    ],
+    [
+      "4-9",
+      "I pack my MacBook Pro into my backpack.",
+      "Finished packing laptop"
+    ],
+    [
+      "10-17",
+      "I pack my water bottle into my backpack.",
+      "Finished packing water bottle"
+    ],
+    [
+      "18-20",
+      "I walk out of my apartment to the elevator lobby.",
+      "Arrived at elevator lobby"
+    ],
+    [
+      "21-24",
+      "I wait in the lobby for the elevator.",
+      "Decided to check apartment"
+    ],
+    [
+      "25-32",
+      "I briefly return inside my apartment.",
+      "Returned to elevator lobby"
+    ],
+    [
+      "33-41",
+      "I pack my charging cable during my elevator ride to the ground floor.",
+      "Arrived at ground floor"
+    ],
+    [
+      "42-46",
+      "I exit the building onto the street.",
+      "Exited building"
+    ],
+    [
+      "47-54",
+      "I walk uphill along a concrete road.",
+      "Reached outdoor stairs"
+    ],
+    [
+      "55-58",
+      "I walk up a flight of outdoor concrete stairs.",
+      "Reached tiled walkway"
+    ],
+    [
+      "59-67",
+      "I walk along the brick-paved sidewalk beside the roadway.",
+      "Reached footbridge"
+    ],
+    [
+      "68-85",
+      "I walk along a covered footbridge overpass.",
+      "Reached stairwell landing"
+    ],
+    [
+      "86-93",
+      "I navigate a pedestrian overpass and open brick plaza to enter a building.",
+      "Entered building"
+    ],
+    [
+      "94-102",
+      "I travel via an elevator to a brick-tiled hallway exit.",
+      "Reached exit area"
+    ],
+    [
+      "103-117",
+      "I walk along the covered outdoor walkway of Upper University Street.",
+      "Arrived at Main Library"
+    ],
+    [
+      "118-120",
+      "I open my backpack upon arriving at the library rooftop garden.",
+      "Backpack opened"
+    ],
+    [
+      "121-124",
+      "I tear open the packaging of my corn cob on a wooden bench.",
+      "Ready to eat corn"
+    ],
+    [
+      "125-183",
+      "I eat a boiled corn on the cob on the rooftop terrace.",
+      "Finished eating"
+    ],
+    [
+      "184-187",
+      "I leave the terrace with my sealed leftover corn.",
+      "Resumed walking"
+    ],
+    [
+      "188-193",
+      "I walk through the Ingenium study hall.",
+      "Reached lift lobby"
+    ],
+    [
+      "194-203",
+      "I ascend the stairs to a tiled hallway.",
+      "Arrived at office area"
+    ],
+    [
+      "204-219",
+      "I navigate through a quiet open-plan office and open study lounge.",
+      "Reached level 3 staircase"
+    ],
+    [
+      "220-223",
+      "I walk up the staircase to the fourth-floor library landing.",
+      "Arrived at fourth floor"
+    ],
+    [
+      "224-232",
+      "I navigate the library bookshelves to reach the windowed study carrels.",
+      "Reached study carrels"
+    ],
+    [
+      "233-241",
+      "I settle into an empty study cubicle.",
+      "Seated at desk"
+    ],
+    [
+      "242-249",
+      "I monitor my file upload progress on my MacBook.",
+      "End of batch"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": [
+      "125-183 is a very long sequence but forms a single continuous task of eating corn, so it is kept as one L2 event to avoid arbitrary duration-based splitting."
+    ]
+  }
+}
+```

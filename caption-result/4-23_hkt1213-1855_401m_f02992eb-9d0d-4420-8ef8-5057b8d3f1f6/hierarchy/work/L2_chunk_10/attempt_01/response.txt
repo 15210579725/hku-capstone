@@ -1,0 +1,201 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group sequential action briefs that share a single immediate task, such as reading specific sections of a proof on Claude, listening to a professor, navigating university portals, packing belongings, and traversing distinct physical areas like hallways, escalators, and staircases.",
+  "events": [
+    [
+      "2250-2265",
+      "I study explanations of the Lovász local lemma Step 3 and 4 formulas on Claude.",
+      "Task completes when shifting to adjust settings."
+    ],
+    [
+      "2266-2271",
+      "I adjust settings and cookie preferences in Claude on my laptop.",
+      "Task completes when returning to reading the chat."
+    ],
+    [
+      "2272-2288",
+      "I review the Claude chat about the Lovász local lemma proof.",
+      "Task completes when looking up at the projector."
+    ],
+    [
+      "2289-2290",
+      "I look at the projector screen during the lecture.",
+      "Task completes when returning attention to the laptop."
+    ],
+    [
+      "2291-2300",
+      "I study Lovász local lemma formulas and diagrams on my laptop.",
+      "Task pauses to listen to the professor."
+    ],
+    [
+      "2301-2302",
+      "I listen to the professor explain a graph property.",
+      "Professor finishes the question."
+    ],
+    [
+      "2303-2312",
+      "I study the Lovász local lemma proof on my laptop.",
+      "Task completes when deciding to edit the prompt."
+    ],
+    [
+      "2313-2317",
+      "I edit my prompt to ask Claude to explain Step 3 of the proof.",
+      "Prompt is submitted and I wait for response."
+    ],
+    [
+      "2318-2324",
+      "I read Claude's explanation of the Step 3 and 4 formulas.",
+      "Task pauses to look at the projector."
+    ],
+    [
+      "2325",
+      "I look at the projector screen.",
+      "Task completes when returning to the laptop."
+    ],
+    [
+      "2326-2338",
+      "I read Lovász local lemma derivation notes on my laptop.",
+      "Task pauses to listen to the lecturer."
+    ],
+    [
+      "2339",
+      "I listen to the lecturer explain the dependent graph degree.",
+      "Lecturer stops explaining this specific point."
+    ],
+    [
+      "2340-2342",
+      "I hold a power bank while studying Step 5 of the Lovász local lemma proof on my laptop.",
+      "Task pauses to listen to the lecturer."
+    ],
+    [
+      "2343",
+      "I listen to the lecturer explain the lower bound for lambda.",
+      "Lecturer stops explaining the bound."
+    ],
+    [
+      "2344-2362",
+      "I read Step 5, Step 6, and applications of the Lovász local lemma on my laptop.",
+      "Task completes when deciding to ask a new question to ChatGPT."
+    ],
+    [
+      "2363-2365",
+      "I prompt ChatGPT to detail the Lovász local lemma.",
+      "Prompt is submitted."
+    ],
+    [
+      "2366",
+      "I look at the projector screen.",
+      "Task completes when navigating to a new tab."
+    ],
+    [
+      "2367-2372",
+      "I browse my courses and calendar on Moodle on my laptop.",
+      "Task completes when looking at the projector."
+    ],
+    [
+      "2373-2374",
+      "I view the projected presentation slide.",
+      "Task completes when returning to the laptop."
+    ],
+    [
+      "2375-2379",
+      "I check my weekly schedule on the university portal.",
+      "Task shifts to a conversation."
+    ],
+    [
+      "2380-2388",
+      "I converse with a person about computer science course projects while checking my schedule.",
+      "Conversation concludes."
+    ],
+    [
+      "2389-2394",
+      "I check my exam schedule on the university portal.",
+      "Task completes when noticing the projector."
+    ],
+    [
+      "2395",
+      "I notice the projector screen update.",
+      "Task completes when switching to chat."
+    ],
+    [
+      "2396-2398",
+      "I type a message in a chat application on my laptop.",
+      "Task completes when starting to pack up."
+    ],
+    [
+      "2399-2406",
+      "I pack my laptop and belongings into my backpack and leave the lecture hall.",
+      "Major trigger: Leaving the lecture hall."
+    ],
+    [
+      "2407-2415",
+      "I walk through the building hallway and visit a small room.",
+      "Task completes when returning to the hallway to walk further."
+    ],
+    [
+      "2416-2423",
+      "I type a message on my smartphone while walking through the lobby.",
+      "Task completes when starting a conversation."
+    ],
+    [
+      "2424-2429",
+      "I converse about registration while walking towards the elevator bank.",
+      "Conversation concludes."
+    ],
+    [
+      "2430-2437",
+      "I check a Tencent Hunyuan post on my smartphone while walking out through the glass doors.",
+      "Task shifts to typing messages."
+    ],
+    [
+      "2438-2458",
+      "I text on my smartphone while walking across an indoor concourse, an open paved courtyard, and a covered walkway.",
+      "Task completes when approaching the escalator."
+    ],
+    [
+      "2459-2463",
+      "I walk to and board an upward escalator.",
+      "Boarding the escalator completes the approach."
+    ],
+    [
+      "2464-2469",
+      "I message on my phone while riding the escalator upward.",
+      "Escalator ride completes."
+    ],
+    [
+      "2470-2472",
+      "I walk across a covered campus concourse.",
+      "Task completes when reaching the staircase."
+    ],
+    [
+      "2473-2477",
+      "I walk down an outdoor brick staircase.",
+      "Task completes when reaching the tiled pathway."
+    ],
+    [
+      "2478-2481",
+      "I check a chat interface on my smartphone while walking along an outdoor tiled pathway.",
+      "Task completes when approaching another staircase."
+    ],
+    [
+      "2482-2496",
+      "I walk down a steep outdoor concrete staircase.",
+      "Task completes when reaching the bottom."
+    ],
+    [
+      "2497-2499",
+      "I check my phone and look at a gate near the bottom of the stairs.",
+      "Recording ends."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      24
+    ],
+    "boundary_cautions": []
+  }
+}
+```

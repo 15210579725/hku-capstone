@@ -1,0 +1,61 @@
+{
+  "level": "L4",
+  "count": 5,
+  "events": [
+    {
+      "id": 0,
+      "start": 36409,
+      "end": 37079,
+      "text": "I commute from my apartment to the university campus.",
+      "refs": [
+        0,
+        1,
+        2
+      ],
+      "boundary_reason": "Unifies packing, leaving the building, and walking into the overarching travel phase."
+    },
+    {
+      "id": 1,
+      "start": 37080,
+      "end": 37762,
+      "text": "I settle into a study cubicle at the university library.",
+      "refs": [
+        3,
+        4
+      ],
+      "boundary_reason": "Groups having a snack on the terrace and indoor navigation into the goal of establishing a workspace."
+    },
+    {
+      "id": 2,
+      "start": 37763,
+      "end": 41065,
+      "text": "I conduct preliminary research for my '全天候情感预测' project.",
+      "refs": [
+        5,
+        6,
+        7
+      ],
+      "boundary_reason": "Combines initiating notes, evaluating faculty, and directing Claude into a unified background research phase."
+    },
+    {
+      "id": 3,
+      "start": 41066,
+      "end": 41429,
+      "text": "I review messages and articles on WeChat.",
+      "refs": [
+        8
+      ],
+      "boundary_reason": "Distinct brief phase of personal device use."
+    },
+    {
+      "id": 4,
+      "start": 41430,
+      "end": 43253,
+      "text": "I formulate the digital twin model architecture for my emotion prediction project.",
+      "refs": [
+        9
+      ],
+      "boundary_reason": "Dedicated phase focused on structural design and architectural planning."
+    }
+  ]
+}

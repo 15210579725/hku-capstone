@@ -1,0 +1,114 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group sequential actions into immediate tasks based on a shared location and immediate goal, such as completing a specific cooking step, taking out the trash, eating, or sending a text message. Boundaries occur when the user shifts to a distinct immediate task, such as moving from cooking to phone use, changing the focus from food preparation to cleaning, or transitioning between meals.",
+  "events": [
+    [
+      "1500-1506",
+      "I finish cooking a tortilla on the kitchen stove after discarding a plastic bag.",
+      "Ends after the stove is turned off following the tortilla cooking."
+    ],
+    [
+      "1507-1531",
+      "I handle the kitchen garbage disposal and new bin liner installation.",
+      "Ends when the new garbage bag is fully installed in the kitchen bin."
+    ],
+    [
+      "1532-1538",
+      "I finish cooking a flatbread in the frying pan.",
+      "Ends after the stove is turned off following the flatbread cooking."
+    ],
+    [
+      "1539-1548",
+      "I retrieve a packaged sausage from the kitchen cabinets for my meal.",
+      "Ends when the packaged sausage is retrieved and opened for cooking."
+    ],
+    [
+      "1549-1565",
+      "I cook an egg and a sausage with foil pouch seasoning in the frying pan.",
+      "Ends when the egg and sausage finish cooking in the pan."
+    ],
+    [
+      "1566-1567",
+      "I transfer the cooked eggs from the frying pan into a patterned bowl.",
+      "Ends when the cooked eggs are fully transferred into the bowl."
+    ],
+    [
+      "1568-1580",
+      "I eat my bowl of food during a walk through the apartment hallway and living area.",
+      "Ends when returning to the kitchen to set the bowl down."
+    ],
+    [
+      "1581-1587",
+      "I begin cooking a frozen flatbread in the frying pan.",
+      "Ends when the frozen flatbread is placed in the pan to cook."
+    ],
+    [
+      "1588-1598",
+      "I prepare a washed and sliced tomato at the kitchen sink.",
+      "Ends when the tomato is completely sliced and washed."
+    ],
+    [
+      "1599-1605",
+      "I monitor the cooking flatbread and countertop items in the kitchen.",
+      "Ends when turning away from the stove to wash hands."
+    ],
+    [
+      "1606-1612",
+      "I clean my hands at the kitchen sink using water and a dining area tissue.",
+      "Ends when hands are dried and attention shifts back to the kitchen."
+    ],
+    [
+      "1613-1626",
+      "I tend the cooking flatbread in the frying pan.",
+      "Ends when leaving the kitchen to check a phone message."
+    ],
+    [
+      "1627-1636",
+      "I reply to a WeChat message on my phone about eating tomatoes and sweet potatoes.",
+      "Ends when the phone is put away to return to the kitchen."
+    ],
+    [
+      "1637-1640",
+      "I adjust the cooking flatbread and a covered pot on the kitchen stove.",
+      "Ends when leaving the kitchen again after adjusting the cookware."
+    ],
+    [
+      "1641-1648",
+      "I reply to a chat message on my phone about meal options.",
+      "Ends when finishing the phone chat and returning to the kitchen."
+    ],
+    [
+      "1649-1654",
+      "I transfer the cooked flatbread from the frying pan into a glass bowl.",
+      "Ends when the cooked flatbread is plated into the glass bowl."
+    ],
+    [
+      "1655-1673",
+      "I consume the flatbread from the bowl during a walk around the apartment.",
+      "Ends when the flatbread is completely eaten and the empty bowl is set down."
+    ],
+    [
+      "1674-1683",
+      "I wash the frying pan under running water in the kitchen sink.",
+      "Ends when the clean frying pan is placed back on the stove."
+    ],
+    [
+      "1684-1694",
+      "I wash a small bowl and my hands at the kitchen sink.",
+      "Ends when hand washing is complete after cleaning the remaining dishes."
+    ],
+    [
+      "1695-1698",
+      "I observe a dark appliance in the dimly lit bathroom.",
+      "Ends at the conclusion of the recording."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,156 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group L2 immediate tasks into coherent episodes defined by primary location and overarching goals, such as transiting across campus, conducting distinct study sessions (grouping by topic or continuous workflow), attending a lecture, or having a meal. Progressive abstraction removes incidental device checks, brief waits, and micro-steps.",
+  "events": [
+    [
+      "0-1",
+      "I prepare to leave my home.",
+      "Transition to walking outdoors."
+    ],
+    [
+      "2-11",
+      "I walk from my home to the university campus.",
+      "Arrives inside the university building."
+    ],
+    [
+      "12-15",
+      "I navigate through the university buildings to find an empty study desk in the library.",
+      "Desk found, transitions to setting up."
+    ],
+    [
+      "16-19",
+      "I set up my laptop and cables at the library desk for studying.",
+      "Setup complete, begins studying."
+    ],
+    [
+      "20-35",
+      "I study bipartite graphs and list coloring for my math homework using my laptop and notepad.",
+      "Transitions to a different problem topic and AI assistance focus."
+    ],
+    [
+      "36-55",
+      "I complete math homework problems about bipartite graphs and probabilities using my laptop, notepad, and AI chat assistance.",
+      "Homework session concludes, begins to pack up for a break."
+    ],
+    [
+      "56-59",
+      "I take a break at my library desk, pack my laptop, and sit quietly before unpacking to resume my work.",
+      "Break ends, unpacks laptop to study again."
+    ],
+    [
+      "60-77",
+      "I alternate between reviewing my math homework, browsing WeChat, and studying my research notes on multimodal emotion conflict.",
+      "Switches entirely to writing mathematical derivations."
+    ],
+    [
+      "78-87",
+      "I solve math homework problems and document mathematical derivations on my laptop and notepad.",
+      "Packing up to relocate from the study desk."
+    ],
+    [
+      "88-92",
+      "I pack my backpack and walk to a hallway bench where I untangle my earphones.",
+      "Arrives at bench and begins using devices."
+    ],
+    [
+      "93-97",
+      "I attend a phone call and use my smartphone and laptop on the hallway bench.",
+      "Phone call ends, joins a Zoom meeting."
+    ],
+    [
+      "98-123",
+      "I participate in a Zoom video conference and review HKU Moodle course materials, scheduled tasks, and gaze tracking visualizations on my laptop.",
+      "Video conference and course review ends, begins configuring AI."
+    ],
+    [
+      "124-135",
+      "I configure AI tools, manipulate a geometric drawing canvas, and use ChatGPT to summarize yesterday's work on my laptop.",
+      "Finishes AI configuration, relocates to a study desk."
+    ],
+    [
+      "136-137",
+      "I relocate from the hallway bench to a library study desk and organize my workspace.",
+      "Desk organized, begins solving homework."
+    ],
+    [
+      "138-152",
+      "I solve MATH4050/7002 Homework 5 problems regarding probability and Venn diagrams using my laptop, ChatGPT, and notepad.",
+      "Homework finishes, packs up to leave the library."
+    ],
+    [
+      "153-157",
+      "I pack my backpack and walk through the library and university campus to exit the building.",
+      "Stops walking, sits down to use smartphone."
+    ],
+    [
+      "158-162",
+      "I take a break at a hallway desk to browse social media, read articles, and watch videos on my smartphone.",
+      "Break ends, enters a lecture room."
+    ],
+    [
+      "163-172",
+      "I set up my laptop in a lecture room and prepare for my math class while fixing a proxy connection error.",
+      "Preparation finishes, begins researching math proofs."
+    ],
+    [
+      "173-185",
+      "I research mathematical proofs about random graphs and the Lovász Local Lemma using ChatGPT during my lecture.",
+      "Shifts to Claude AI for detailed proofs."
+    ],
+    [
+      "186-205",
+      "I follow the lecture on probability inequalities and use Claude AI to research detailed proof steps for the symmetric Lovász Local Lemma on my laptop.",
+      "Focus shifts to the professor's explanation of the lemma."
+    ],
+    [
+      "206-219",
+      "I listen to the professor's lecture on the Lovász local lemma while studying proof derivations and Claude AI explanations on my laptop.",
+      "Lecture focus ends, checks schedule."
+    ],
+    [
+      "220-226",
+      "I check my Moodle course schedules and type in a chat application while discussing computer science projects.",
+      "Conversation concludes, packs to leave class."
+    ],
+    [
+      "227-243",
+      "I leave the lecture hall and walk across the university campus to the street level while conversing and messaging on my smartphone.",
+      "Arrives at the street level to continue walking to the restaurant."
+    ],
+    [
+      "244-250",
+      "I walk along the street and through the Shek Tong Tsui Market building to reach a restaurant with my companion.",
+      "Arrives at the restaurant and sits down."
+    ],
+    [
+      "251-262",
+      "I settle at a restaurant table, eat pastries brought by my companion, and discuss my smart glasses and her tutoring work.",
+      "Main dishes arrive, begins eating the meal."
+    ],
+    [
+      "263-293",
+      "I eat my main meal with my companion while discussing various topics, paying the bill, and preparing to leave the restaurant.",
+      "Ends when preparing to exit the restaurant."
+    ],
+    [
+      "294-304",
+      "I walk along the street with my companion, navigating with a map application and conversing.",
+      "Approaches a supermarket for a specific purchase."
+    ],
+    [
+      "305",
+      "I approach a PARKnSHOP supermarket to buy a cucumber.",
+      "End of recording."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      305
+    ],
+    "boundary_cautions": []
+  }
+}
+```

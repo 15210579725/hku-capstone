@@ -1,0 +1,149 @@
+15:09:24–15:09:31  I read the reverse sampling formula explanation.
+15:09:32–15:09:42  I read the explanation of torch.linspace for diffusion time loops.
+15:09:43–15:09:51  I review the timestep boundary conditions.
+15:09:52–15:09:53  I read the section heading about initial noise shape.
+15:09:54–15:10:14  I review diffusion sampling suggestions on ChatGPT.
+15:10:15–15:10:17  I inspect diffusion code in VS Code.
+15:10:18–15:10:23  I type '介绍 model.train' into ChatGPT.
+15:10:24–15:10:33  I type '介绍 model.train 和 model.eval 会改什么关键内容' into ChatGPT.
+15:10:33–15:10:36  I submit the prompt to ChatGPT.
+15:10:36–15:10:40  I review previous pseudocode in the chat history.
+15:10:40–15:10:45  I switch to VS Code and find def train() in hw4.ipynb.
+15:10:45–15:10:48  I type 'model.train()' in hw4.ipynb.
+15:10:48–15:10:50  I inspect def sample(num) and look at the Dock.
+15:10:50–15:10:52  I read ChatGPT's response on model.train() and model.eval().
+15:10:52–15:10:54  I say '嗯。'.
+15:10:54–15:10:58  I view ChatGPT explaining PyTorch model modes.
+15:10:59–15:11:04  I read the ChatGPT explanation on model.training flags and Dropout.
+15:11:05–15:11:08  I read the Dropout train vs eval comparison on ChatGPT.
+15:11:09–15:11:12  I read the BatchNorm training mode explanation on ChatGPT.
+15:11:13–15:11:16  I say '嗯。'
+15:11:17–15:11:23  I read the BatchNorm running statistics and UNet impact on ChatGPT.
+15:11:24–15:11:32  I read the ChatGPT explanation of BatchNorm training and eval modes.
+15:11:32–15:11:37  I read about the impact of model.eval() on GroupNorm.
+15:11:37–15:11:42  I read about Dropout and custom training logic affected by eval().
+15:11:42–15:11:49  I read the distinction between eval() and torch.no_grad().
+15:11:49–15:11:51  I say '嗯。'.
+15:11:51–15:11:54  I read about torch.inference_mode() optimizing pure inference.
+15:11:54–15:12:05  I read the ChatGPT explanation comparing PyTorch training and evaluation modes.
+15:12:06–15:12:11  I type 'train' into the ChatGPT input field.
+15:12:12–15:12:14  I click the VS Code icon on the Dock.
+15:12:15–15:12:18  I inspect the diffusion model code in hw4.ipynb.
+15:12:19–15:12:23  I type 'model.eval()' into the sample function.
+15:12:24–15:12:30  I type with torch.no_grad().
+15:12:30–15:12:34  I say '嗯'.
+15:12:35–15:12:43  I review the torch.no_grad autocomplete tooltip.
+15:12:44–15:12:50  I highlight the sample loop lines.
+15:12:51–15:12:53  I place the cursor at with torch.no_grad().
+15:12:54–15:13:03  I examine diffusion sampling code.
+15:13:04–15:13:13  I type tensor dimensions in VS Code.
+15:13:14–15:13:17  I edit function parameters.
+15:13:18–15:13:21  I read ChatGPT PyTorch evaluation notes.
+15:13:22–15:13:24  I type in ChatGPT and say '嗯。'
+15:13:24–15:13:36  I type 'python 灵活度大的 for 循环如何写，像 c++那样的' into ChatGPT.
+15:13:36–15:13:38  I submit the prompt.
+15:13:38–15:13:42  I wait for ChatGPT's response.
+15:13:42–15:13:45  I adjust my glasses.
+15:13:45–15:13:49  I read ChatGPT's response on for loops.
+15:13:49–15:13:51  I say '嗯。'
+15:13:51–15:13:54  I read the range(10) code example.
+15:13:54–15:14:06  I read Python loop examples on ChatGPT.
+15:14:07–15:14:23  I place my hand on the keyboard.
+15:14:24–15:14:36  I read the ChatGPT explanation about torch.linspace timesteps.
+15:14:36–15:14:37  I switch windows to VS Code.
+15:14:37–15:14:44  I examine the sample function in hw4.ipynb.
+15:14:44–15:14:48  I type 'ts = torch.linspace(1 - 1e-4, 1e-4, num_steps + 1, device=device)'.
+15:14:48–15:14:51  I select linspace from the autocomplete menu.
+15:14:51–15:14:54  I edit the sampling loop logic in hw4.ipynb.
+15:14:54–15:14:59  I edit the linespace call.
+15:15:00–15:15:02  I review the sampling loop.
+15:15:03–15:15:05  I check the project files.
+15:15:06–15:15:09  I inspect the sample function.
+15:15:10–15:15:13  I switch to ChatGPT.
+15:15:14–15:15:23  I type 'line space 参数降级' into ChatGPT.
+15:15:24–15:15:32  I wait for ChatGPT response.
+15:15:33–15:15:37  I glance at coworker.
+15:15:38–15:15:48  I read the ChatGPT explanation of torch.linspace.
+15:15:49–15:15:50  I say '嗯。'
+15:15:51–15:15:53  I scroll down the ChatGPT response.
+15:15:54–15:16:02  I read the ChatGPT explanation on torch.linspace parameters and diffusion time-step code.
+15:16:03–15:16:05  I check the interval calculation formula.
+15:16:06–15:16:12  I read the ChatGPT explanation about num_steps + 1 in diffusion models.
+15:16:13–15:16:18  I review the concrete linspace code snippet and tensor output.
+15:16:19–15:16:21  I say '嗯。'
+15:16:22–15:16:23  I read the 4-step update breakdown on ChatGPT.
+15:16:24–15:16:33  I read the ChatGPT explanation about diffusion num_steps + 1.
+15:16:34–15:16:38  I review the ChatGPT diffusion loop code.
+15:16:39–15:16:46  I read the ChatGPT explanation on avoiding division by zero with 1 - 1e-4.
+15:16:47–15:16:48  I switch to Visual Studio Code.
+15:16:49–15:16:53  I type the torch.linespace statement into hw4.ipynb.
+15:16:54–15:16:55  I click the Google Chrome icon.
+15:16:55–15:17:02  I read the ChatGPT explanation of np.linspace.
+15:17:02–15:17:06  I read the ChatGPT explanation of avoiding division by zero in the cosine diffusion schedule.
+15:17:06–15:17:09  I read the ChatGPT explanation of torch.linspace.
+15:17:09–15:17:11  I click the Visual Studio Code icon.
+15:17:11–15:17:20  I select lines in the sample function in VS Code.
+15:17:20–15:17:22  I click the Google Chrome icon.
+15:17:22–15:17:24  I type in the ChatGPT prompt input box.
+15:17:24–15:17:45  I type '介绍采样后该如何做是正确的获得前一个时间步：' into ChatGPT.
+15:17:45–15:17:47  I paste diffusion pseudocode into ChatGPT.
+15:17:47–15:17:48  I send the prompt to ChatGPT.
+15:17:48–15:17:53  I monitor ChatGPT generating a response.
+15:17:54–15:18:07  I read the ChatGPT diffusion sampling formula.
+15:18:08–15:18:11  I read the DDPM update equation in ChatGPT.
+15:18:12–15:18:14  I stretch my left hand.
+15:18:15–15:18:24  I review the DDPM pseudo-code on ChatGPT.
+15:18:24–15:18:34  I read the DDPM sampling mathematical formulas in ChatGPT.
+15:18:34–15:18:38  I gaze at the \eta_t formula and Python code header.
+15:18:39–15:18:41  I inspect the Python DDPM sampling implementation in ChatGPT.
+15:18:42–15:18:50  I read ChatGPT's explanation regarding the incorrect noise addition step.
+15:18:51–15:18:54  I raise my left arm while glancing at the bottom of the screen.
+15:18:54–15:19:17  I read the ChatGPT explanation on DDPM step formulas.
+15:19:18–15:19:23  I type '介绍 ddpm 和 ddim' into ChatGPT.
+15:19:24–15:19:28  I type '介绍 ddpm 和 ddim 的更新公式' into ChatGPT.
+15:19:29–15:19:35  I type ' 以及为什么' into ChatGPT.
+15:19:36–15:19:40  I type '这么更新' into ChatGPT.
+15:19:41–15:19:44  I type '而不是' into ChatGPT.
+15:19:45–15:19:48  I type '直接噪声和' into ChatGPT.
+15:19:49–15:19:53  I type '上一步的加权' to complete the prompt.
+15:19:54–15:19:56  I read the ChatGPT explanation on DDPM and DDIM update formulas.
+15:19:56–15:20:14  I write 'X_t = α X_0 + β N' in my notebook.
+15:20:14–15:20:20  I examine the diagram in my notebook.
+15:20:20–15:20:23  I write '-> N' in my notebook.
+15:20:24–15:20:29  I write 'X_t = αX_0 + βN → N' on the notebook.
+15:20:30–15:20:32  I say '嗯。'
+15:20:33–15:20:49  I draw transition boxes on the notebook.
+15:20:50–15:20:53  I review the curve diagram on the notebook.
+15:20:54–15:21:10  I write diffusion formulas.
+15:21:11–15:21:16  I inspect my written notes.
+15:21:17–15:21:21  I read ChatGPT explanations of DDPM and DDIM.
+15:21:22–15:21:23  I grab the mouse.
+15:21:24–15:21:26  I view DDPM and DDIM notes.
+15:21:26–15:21:27  I say '嗯。'
+15:21:27–15:21:33  I examine handwritten notes.
+15:21:34–15:21:50  I annotate formulas on the notepad.
+15:21:51–15:21:53  I review the handwritten equations.
+15:21:54–15:22:05  I write '采样分布均值' on notepad.
+15:22:06–15:22:07  I place pen on notepad.
+15:22:08–15:22:23  I review handwritten notes.
+15:22:24–15:22:27  I read handwritten diffusion notes.
+15:22:28–15:22:31  I look at the hard drive tray and casing.
+15:22:32–15:22:37  I pick up the grey hard drive enclosure.
+15:22:38–15:22:44  I slide the drive caddy into the casing.
+15:22:45–15:22:53  I inspect the hard drive enclosure rear label.
+15:22:54–15:23:00  I inspect a 3.5-inch hard drive enclosure.
+15:23:00–15:23:03  I place the hard drive enclosure on the desk.
+15:23:03–15:23:06  I pick up a black gel pen.
+15:23:06–15:23:13  I review the diffusion process notes.
+15:23:13–15:23:18  I examine the step update formula on the notebook.
+15:23:18–15:23:24  I look at the earphone wire across the notebook.
+15:23:24–15:23:44  I review math notes on my notebook.
+15:23:45–15:23:48  I grab a white tissue.
+15:23:49–15:23:53  I grab the SUBOR mini PC box.
+15:23:54–15:23:56  I stand up from my desk.
+15:23:56–15:24:03  I walk toward the exit door.
+15:24:03–15:24:07  I exit the office into the hallway.
+15:24:07–15:24:12  I walk down the corridor.
+15:24:12–15:24:15  I turn toward the restroom entrance.
+15:24:15–15:24:17  I push aside the men's restroom curtain.
+15:24:17–15:24:19  I say '嗯。'.

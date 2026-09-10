@@ -1,0 +1,54 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group actions into immediate tasks: application switching, distinct presentation topics (sentiment analysis, advanced analysis, fairness audit), slide review, file management, and messaging.",
+  "events": [
+    [
+      "1250-1251",
+      "I switch between Finder and Chrome on my laptop.",
+      "Desktop navigation prior to speech."
+    ],
+    [
+      "1252-1263",
+      "I present the sentiment analysis section of a project, discussing datasets and model performance.",
+      "Coherent speech and focus on the sentiment analysis topic."
+    ],
+    [
+      "1264-1269",
+      "I present the advanced analysis section, explaining customer segmentation using k-means.",
+      "Shift in presentation topic to advanced analysis and segmentation."
+    ],
+    [
+      "1270-1280",
+      "I present the fairness audit and counterfactual explanation section of the project.",
+      "Shift in presentation topic and slide to fairness audit."
+    ],
+    [
+      "1281-1284",
+      "I review the sentiment analysis presentation slide while adjusting my smart glasses.",
+      "Visual focus shifts back to the sentiment analysis slide."
+    ],
+    [
+      "1285-1289",
+      "I browse project files in Finder and watch a presentation video.",
+      "Continuous interaction with file system and video playback."
+    ],
+    [
+      "1290",
+      "I view an AI workspace.",
+      "Distinct application focus."
+    ],
+    [
+      "1291-1292",
+      "I check a WeChat group chat and react to a video's short duration.",
+      "Shift to messaging app and associated spoken reaction."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

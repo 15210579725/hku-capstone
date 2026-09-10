@@ -1,0 +1,124 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous action briefs into immediate tasks based on shared local goals, such as transit segments, distinct store visits, navigating corridors, and specific phases of a restaurant dining experience.",
+  "events": [
+    [
+      "250-256",
+      "I board the MTR train.",
+      "Waiting for doors to open and boarding the train carriage."
+    ],
+    [
+      "257-281",
+      "I ride the MTR train.",
+      "Continuous transit on the train until arriving at the destination station."
+    ],
+    [
+      "282-284",
+      "I disembark from the MTR train at Kowloon Tong station.",
+      "Exiting the train carriage onto the platform."
+    ],
+    [
+      "285-287",
+      "I exit the MTR station through the turnstiles.",
+      "Passing the ticket barrier and leaving the transit system."
+    ],
+    [
+      "288-299",
+      "I walk along outdoor walkways toward the shopping mall.",
+      "Navigating outdoor pedestrian paths before entering the mall."
+    ],
+    [
+      "300-317",
+      "I walk through the shopping mall concourse.",
+      "Entering the mall and walking past storefronts."
+    ],
+    [
+      "318-331",
+      "I examine a Mac Studio and Studio Display inside the Apple Store.",
+      "Entering the store and inspecting specific computer hardware before deciding to leave."
+    ],
+    [
+      "332-338",
+      "I exit the Apple Store.",
+      "Walking away from the display and leaving the store to return to the mall concourse."
+    ],
+    [
+      "339-346",
+      "I walk through the shopping mall toward Amaroni's restaurant.",
+      "Navigating the mall concourse toward the next destination."
+    ],
+    [
+      "347-356",
+      "I examine the menus outside Amaroni's restaurant.",
+      "Reviewing the posted lunch and set menus before walking away."
+    ],
+    [
+      "357-365",
+      "I walk along the shopping mall corridors.",
+      "Continuing to walk past various boutiques."
+    ],
+    [
+      "366-378",
+      "I browse phone accessories inside the CASETiFY STUDIO store.",
+      "Entering the store to examine phone cases and adapters."
+    ],
+    [
+      "379-385",
+      "I walk through the shopping mall plaza toward the escalators.",
+      "Leaving the store and navigating the open plaza."
+    ],
+    [
+      "386-390",
+      "I ride the escalators to navigate the shopping mall.",
+      "Using the moving escalators to change levels."
+    ],
+    [
+      "391-399",
+      "I walk through a pedestrian tunnel toward University X.",
+      "Entering and traversing the connecting tunnel."
+    ],
+    [
+      "400-410",
+      "I walk through the university campus to Alice Cheng Hall.",
+      "Navigating covered outdoor corridors to reach the building."
+    ],
+    [
+      "411-416",
+      "I enter Lodge Bistro and take a seat at a dining table.",
+      "Walking into the building and restaurant lobby to sit down."
+    ],
+    [
+      "417-432",
+      "I review the restaurant menu to select a meal.",
+      "Reading the menu and discussing dining options with my companion."
+    ],
+    [
+      "433-458",
+      "I gather salad and soup from the restaurant buffet.",
+      "Walking to the buffet line and self-serving food onto a plate and bowls."
+    ],
+    [
+      "459-463",
+      "I return to my dining table with my food.",
+      "Carrying the filled plate and bowls back to the seating area."
+    ],
+    [
+      "464-486",
+      "I eat my salad and soup at the dining table.",
+      "Consuming the meal and conversing with my companion."
+    ],
+    [
+      "487-499",
+      "I check WeChat messages and my calendar on my smartphone.",
+      "Using the phone to read group chat updates and view schedule."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,139 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous clips into immediate tasks based on focused actions such as eating specific meal components, discussing topics with the dining companion, reading distinct AI and technology articles on a smartphone, completing an online purchase, connecting to a Wi-Fi network, and editing a presentation on a laptop.",
+  "events": [
+    [
+      "750-768",
+      "I eat from my stew bowl and discuss my WeChat messaging habits with my companion.",
+      "Conversation topic shifts to companion's complaint"
+    ],
+    [
+      "769-773",
+      "I listen to my companion express frustration about me selectively ignoring her.",
+      "Companion finishes speaking, focus returns to eating"
+    ],
+    [
+      "774-783",
+      "I eat vegetables from my stew bowl while watching my companion eat pasta.",
+      "Shift to getting a napkin"
+    ],
+    [
+      "784-786",
+      "I grab a paper napkin from the dispenser and fold it.",
+      "Napkin folded, shift to observing companion"
+    ],
+    [
+      "787-798",
+      "I watch my companion examine an olive oil bottle and eat her spaghetti.",
+      "Shift to tasting leftover noodles"
+    ],
+    [
+      "799-810",
+      "I take a bite of leftover noodles from a small plate, noting they taste bad, before resuming my stew.",
+      "Finished tasting noodles, returns focus to stew"
+    ],
+    [
+      "811-834",
+      "I scoop and eat vegetables like broccoli and mushrooms from my curry stew.",
+      "Shift to eating flatbread"
+    ],
+    [
+      "835-844",
+      "I talk to my companion and eat a piece of flatbread.",
+      "Shift to dipping flatbread into stew"
+    ],
+    [
+      "845-862",
+      "I dip my flatbread into the stew, eat the remaining vegetables, and comment that the carrots are undercooked.",
+      "Pauses eating to look around"
+    ],
+    [
+      "863-874",
+      "I look around the restaurant, observing a staff member and my companion adjusting her clothes.",
+      "Shift to drinking water"
+    ],
+    [
+      "875",
+      "I drink water from my glass.",
+      "Finished drinking, shifts to smartphone"
+    ],
+    [
+      "876-887",
+      "I use my smartphone to read a WeChat article about the OpenClaw AI robot and browse a GitHub discussion.",
+      "Shifts to a different article"
+    ],
+    [
+      "888-895",
+      "I read a WeChat article on my phone about an open-source medical video understanding model.",
+      "Shifts to a different article"
+    ],
+    [
+      "896-899",
+      "I read an article comparing the household income distribution of users for AI models like Claude.",
+      "Shifts to general social media browsing"
+    ],
+    [
+      "900-905",
+      "I scroll through social media comments, read an AI development post, and check WeChat messages.",
+      "Puts phone down to finish meal"
+    ],
+    [
+      "906-912",
+      "I put my phone down and finish eating the last pieces of vegetables from my stew bowl.",
+      "Finishes food, shifts back to phone for shopping"
+    ],
+    [
+      "913-929",
+      "I purchase Thai curry from an e-commerce app on my phone.",
+      "Purchase complete, puts phone down"
+    ],
+    [
+      "930-939",
+      "I drink water, adjust the dishes on the table, and pick at food remnants on my plate.",
+      "Shift to cleaning the table"
+    ],
+    [
+      "940-946",
+      "I wipe the table placemat with my folded napkin.",
+      "Finished cleaning, retrieves laptop"
+    ],
+    [
+      "947-954",
+      "I take my MacBook out of my backpack, unlock it, and monitor Claude Code installation in the terminal.",
+      "Shift to connecting to Wi-Fi"
+    ],
+    [
+      "955-965",
+      "I connect my laptop to the CityUHK-Lodge-GUEST Wi-Fi network and log in via the captive portal.",
+      "Network connected, shift to reviewing slides"
+    ],
+    [
+      "966-970",
+      "I monitor terminal logs and briefly scroll through data analysis presentation slides.",
+      "Shift to getting earphones"
+    ],
+    [
+      "971-978",
+      "I take wired earphones from my backpack, untangle them, and plug them into my laptop.",
+      "Earphones connected, shift to editing document"
+    ],
+    [
+      "979-998",
+      "I review and edit presentation slides about sentiment analysis, pipeline methods, and model performance.",
+      "Shift to looking at desktop"
+    ],
+    [
+      "999",
+      "I glance at the files and folders on my laptop desktop.",
+      "Batch ends"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

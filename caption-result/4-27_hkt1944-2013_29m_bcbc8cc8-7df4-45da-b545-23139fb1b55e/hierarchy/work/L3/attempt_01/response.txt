@@ -1,0 +1,58 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group immediate tasks into coherent conversational episodes based on distinct thematic phases in the lecture hall (research, applications, internships, coursework), followed by physical transitions of packing up, exiting the building, and entering the library.",
+  "events": [
+    [
+      "0-1",
+      "I enter the lecture hall to take a seat near my classmates.",
+      "Initial arrival and settling into the lecture hall."
+    ],
+    [
+      "2-5",
+      "I discuss capstone projects, research directions, and the ARIN7600 course document with my classmates.",
+      "Episode focused on discussing capstone projects and research directions."
+    ],
+    [
+      "6-12",
+      "I discuss graduate applications, summer research, and admission requirements with my classmates during a resume review.",
+      "Episode focused on reviewing a resume and discussing graduate applications."
+    ],
+    [
+      "13-17",
+      "I listen to my classmates discuss internships, job applications, a video project, and a Capgemini notebook.",
+      "Episode focused on discussing internships, jobs, and side projects."
+    ],
+    [
+      "18-24",
+      "I participate in discussions regarding math course materials, exams, university admissions, and WeChat contacts with my classmates.",
+      "Episode focused on math coursework, exams, and university admissions."
+    ],
+    [
+      "25-28",
+      "I pack my MacBook into my backpack to prepare to leave the lecture hall during a classmate discussion about grades and GPAs.",
+      "Packing up belongings and preparing to leave the lecture hall."
+    ],
+    [
+      "29-32",
+      "I exit the building with my peers via the elevator lobby during a discussion about course attendance.",
+      "Transit episode of leaving the academic building."
+    ],
+    [
+      "33-34",
+      "I walk into the library toward the restroom corridor with my WeChat chat list open.",
+      "Transit episode of entering the library."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      25,
+      29,
+      33
+    ],
+    "boundary_cautions": []
+  }
+}
+```

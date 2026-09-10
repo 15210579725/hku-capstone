@@ -1,0 +1,199 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous micro-actions into single immediate tasks based on a unified objective, such as navigating a location, conversing, or interacting with a specific application. Abstract incidental glances, brief interruptions, and routine tool usage into the primary task they serve.",
+  "events": [
+    [
+      "250-255",
+      "I configure the keyboard input method on my phone.",
+      "Switches to opening a meeting application"
+    ],
+    [
+      "256-266",
+      "I attempt to join a meeting in the incorrect Tencent Meeting application.",
+      "Realizes the mistake and switches to Zoom"
+    ],
+    [
+      "267-280",
+      "I join the Zoom meeting on my phone.",
+      "Successfully joins the meeting and begins walking outside"
+    ],
+    [
+      "281-299",
+      "I walk to the building entrance.",
+      "Arrives at the building lobby doors"
+    ],
+    [
+      "300-302",
+      "I enter the building lobby.",
+      "Moves toward the elevator"
+    ],
+    [
+      "303-310",
+      "I enter the elevator to the 35th floor.",
+      "Elevator doors close and ride begins"
+    ],
+    [
+      "311-321",
+      "I discuss the project objective with my companion in the elevator.",
+      "Exits the elevator"
+    ],
+    [
+      "322-329",
+      "I follow my companion into my apartment bedroom.",
+      "Arrives in the bedroom and switches to discussing project roles"
+    ],
+    [
+      "330",
+      "I suggest presentation role assignments to my group members.",
+      "Finishes speaking and settles into the room"
+    ],
+    [
+      "331-335",
+      "I inspect the items in my bedroom.",
+      "Shifts attention to the air conditioner"
+    ],
+    [
+      "336-337",
+      "I set the air conditioner to 24 degrees Celsius.",
+      "Turns to unpack laptop"
+    ],
+    [
+      "338-347",
+      "I retrieve my MacBook from my floral backpack.",
+      "Interrupted by roommate entering"
+    ],
+    [
+      "348-351",
+      "I converse with my roommate regarding audio settings.",
+      "Conversation ends and returns to laptop setup"
+    ],
+    [
+      "352-355",
+      "I unlock my MacBook.",
+      "Begins using software applications"
+    ],
+    [
+      "356-359",
+      "I communicate with my project partners regarding a fairness metrics document on Feishu.",
+      "Switches to joining the Zoom meeting on the laptop"
+    ],
+    [
+      "360-373",
+      "I join the Zoom meeting on my MacBook.",
+      "Successfully connects to the meeting"
+    ],
+    [
+      "374-377",
+      "I participate in the Zoom meeting.",
+      "Switches focus to WeChat messages"
+    ],
+    [
+      "378-381",
+      "I read messages in the 7102 Risk Analysis WeChat group.",
+      "Opens a GitHub link from the chat"
+    ],
+    [
+      "382-391",
+      "I inspect the CreditChatbot5.2 GitHub repository.",
+      "Switches to the AI assistant to run the code"
+    ],
+    [
+      "392-399",
+      "I prompt the AI assistant to run the CreditChatbot demo.",
+      "Prompt is submitted and execution begins"
+    ],
+    [
+      "400-415",
+      "I monitor the AI assistant cloning the repository.",
+      "Briefly shifts attention to system settings"
+    ],
+    [
+      "416-423",
+      "I inspect the macOS system and sound settings.",
+      "Returns attention to the AI assistant"
+    ],
+    [
+      "424-433",
+      "I submit a prompt and monitor the AI assistant cloning the CreditChatbot repository.",
+      "Briefly distracted by a miniature doll"
+    ],
+    [
+      "434-435",
+      "I handle a miniature doll on my desk.",
+      "Returns attention to the AI assistant tasks"
+    ],
+    [
+      "436-449",
+      "I monitor the AI assistant checking and re-cloning the repository.",
+      "Opens a web browser to access Moodle"
+    ],
+    [
+      "450-453",
+      "I view the HKU Moodle login page.",
+      "Shifts attention to Activity Monitor"
+    ],
+    [
+      "454",
+      "I inspect system processes in Activity Monitor.",
+      "Returns to the Moodle login page"
+    ],
+    [
+      "455-456",
+      "I view the HKU Moodle login page.",
+      "Focus shifts back to the AI assistant execution"
+    ],
+    [
+      "457-468",
+      "I monitor the AI assistant command execution.",
+      "Pauses to take a drink of water"
+    ],
+    [
+      "469",
+      "I pick up a glass mug of water.",
+      "Returns to web browser and proxy settings"
+    ],
+    [
+      "470-473",
+      "I check my Clash Verge proxy settings.",
+      "Opens Activity Monitor to manage processes"
+    ],
+    [
+      "474-480",
+      "I terminate Code Helper processes using Activity Monitor.",
+      "Process termination completes"
+    ],
+    [
+      "481-484",
+      "I review the AI assistant and Screenpipe execution status.",
+      "Checks system performance again"
+    ],
+    [
+      "485-487",
+      "I examine CPU utilization in Activity Monitor.",
+      "Switches focus to Moodle tabs"
+    ],
+    [
+      "488-492",
+      "I browse HKU Moodle tabs.",
+      "Checks Activity Monitor again"
+    ],
+    [
+      "493-495",
+      "I inspect the Activity Monitor CPU list.",
+      "Shifts focus to the Zoom meeting chat"
+    ],
+    [
+      "496-499",
+      "I read messages in the Zoom meeting chat.",
+      "End of sequence"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,120 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group sequential action briefs into immediate tasks based on continuous navigation modes, distinct physical locations, and distinct focal activities during dining.",
+  "events": [
+    [
+      "0-14",
+      "I attempt to unlock an outdoor security gate using a card reader.",
+      "Goal ends upon failing to open the gate and walking away."
+    ],
+    [
+      "15-27",
+      "I navigate past an outdoor construction area toward an elevator lobby.",
+      "Shift from navigating outdoor paths to entering an elevator."
+    ],
+    [
+      "28-34",
+      "I ride the elevator.",
+      "Exiting the elevator marks the end of the ride."
+    ],
+    [
+      "35-49",
+      "I walk along a covered footbridge to a staircase.",
+      "Reaching the staircase initiates the descent."
+    ],
+    [
+      "50-63",
+      "I descend a series of staircases from the footbridge.",
+      "Reaching the street level completes the descent from the elevated footbridge."
+    ],
+    [
+      "64-75",
+      "I walk along a street-level sidewalk.",
+      "Reaching another major staircase changes the navigation mode."
+    ],
+    [
+      "76-84",
+      "I descend concrete stairs to a street under an overpass.",
+      "Shift from descending stairs to walking down a sloped street."
+    ],
+    [
+      "85-91",
+      "I walk down a sloped urban street toward the Shek Tong Tsui Market.",
+      "Arrival at the market building entrance completes the street walk."
+    ],
+    [
+      "92-103",
+      "I traverse the Shek Tong Tsui Market building via escalators.",
+      "Exiting the market building returns navigation to the outdoor street."
+    ],
+    [
+      "104-114",
+      "I approach an MTR station entrance to meet my companion.",
+      "Meeting the companion initiates a shared walk."
+    ],
+    [
+      "115-133",
+      "I converse with my companion about job applications and lunch during our walk.",
+      "Conversation topic shifts towards the approaching restaurant destination."
+    ],
+    [
+      "134-147",
+      "I navigate the remaining distance to a restaurant with my companion.",
+      "Arrival at the restaurant entrance completes the journey."
+    ],
+    [
+      "148-161",
+      "I enter the restaurant to secure an empty table.",
+      "Locating the table transitions the task to settling down."
+    ],
+    [
+      "162-170",
+      "I settle at the dining table with my companion.",
+      "Completing seating preparations shifts focus to the menu."
+    ],
+    [
+      "171-187",
+      "I review the restaurant menus to select dishes.",
+      "Putting down the menus and picking up chopsticks marks the end of selection."
+    ],
+    [
+      "188-194",
+      "I prepare my dining table setting for the upcoming meal.",
+      "Shift to interacting with the pastry box brought by the companion."
+    ],
+    [
+      "195-206",
+      "I open a bakery box to examine the egg tarts.",
+      "Checking the smartphone interrupts the pastry examination."
+    ],
+    [
+      "207-219",
+      "I check logistics tracking for an order on my smartphone.",
+      "Putting the phone down returns focus to eating pastries."
+    ],
+    [
+      "220-241",
+      "I eat chocolate pastries with my companion.",
+      "Finishing the pastries transitions the activity to discussing the recording glasses."
+    ],
+    [
+      "242-249",
+      "I explain the recording capabilities of my smart glasses to my companion.",
+      "End of the input sequence."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "Failure to open the gate at ID 11 redirects my entire navigation route.",
+      "Meeting my companion at the MTR station at ID 115 transitions the activity from solo navigation to a shared walk."
+    ],
+    "boundary_cautions": [
+      "114/115: Boundary placed where I meet my companion and begin conversing.",
+      "133/134: Task shifted from continuous conversation about jobs/lunch to actively approaching and discussing the restaurant."
+    ]
+  }
+}
+```

@@ -1,0 +1,59 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous, related actions into unified immediate tasks. Consecutive periods of focused math homework are grouped into single tasks that absorb minor concurrent interruptions. Conversations are grouped by continuous interaction, and distinct physical tasks like inspecting an object or eating a snack are isolated as their own L2 events.",
+  "events": [
+    [
+      "1250-1256",
+      "I inspect the wax of an IKEA candle on my desk.",
+      "Shift from inspecting an object to preparing for a study session."
+    ],
+    [
+      "1257-1263",
+      "I begin writing notes on paper by consulting my laptop screen.",
+      "Interrupted by a conversation about clothing sizes."
+    ],
+    [
+      "1264-1274",
+      "I converse with my roommate about purchasing clothing and food.",
+      "Conversation ends, shifting focus to math homework."
+    ],
+    [
+      "1275-1338",
+      "I solve mathematical expectation formulas on paper amidst brief conversational interruptions.",
+      "Stops math homework to initiate a conversation about virtual items."
+    ],
+    [
+      "1339-1355",
+      "I converse with my friend about receiving virtual items and an acquaintance's whereabouts.",
+      "Conversation pauses to eat a snack."
+    ],
+    [
+      "1356-1358",
+      "I consume a cucumber.",
+      "Finishes eating to ask a follow-up question."
+    ],
+    [
+      "1359",
+      "I ask a follow-up question regarding an acquaintance's fitness.",
+      "Conversation concludes, returning focus entirely to math homework."
+    ],
+    [
+      "1360-1398",
+      "I write mathematical derivations for probability equations on my notepad.",
+      "End of provided batch."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      1339
+    ],
+    "boundary_cautions": [
+      1264,
+      1356
+    ]
+  }
+}
+```
