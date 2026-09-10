@@ -1,6 +1,7 @@
 # HKU Capstone — 第一人称行为预测
 
 从第一人称 (egocentric) POV 眼镜视频生成 dense caption，并评测行为预测质量。
+项目飞书文档：https://l0uyw787c0z.feishu.cn/wiki/KASFwMqcdiwE2ykNnwDcQDNinD5
 
 ## 仓库结构
 
