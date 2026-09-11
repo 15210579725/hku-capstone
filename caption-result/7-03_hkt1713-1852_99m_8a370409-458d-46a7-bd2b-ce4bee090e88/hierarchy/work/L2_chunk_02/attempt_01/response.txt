@@ -1,0 +1,84 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group atomic eating actions, conversational turns, walking segments, and computer interactions into coherent immediate tasks based on topic shifts, location changes, and discrete applications.",
+  "events": [
+    [
+      "250-265",
+      "I eat tofu and rice while discussing Siping campus cafeterias with my friends.",
+      "Topic shifts to Disneyland"
+    ],
+    [
+      "266-287",
+      "I eat from an orange dish while discussing Disneyland ticket prices with my companions.",
+      "Topic shifts to umbrellas and evening logistics"
+    ],
+    [
+      "288-310",
+      "I eat while discussing evening travel logistics and dormitory availability with my friends.",
+      "Topic shifts to AI API costs and proxy models"
+    ],
+    [
+      "311-376",
+      "I discuss AI API costs and proxy models with my companions while finishing our meal.",
+      "Meal concludes and I prepare to leave the table"
+    ],
+    [
+      "377-380",
+      "I carry my food tray to the dish return station and place it on the conveyor belt.",
+      "Tray is returned, initiating departure from the dining hall"
+    ],
+    [
+      "381-393",
+      "I walk through the dining hall and lounge to enter the parking garage.",
+      "Route transitions to the underground parking garage"
+    ],
+    [
+      "394-402",
+      "I walk through the underground parking garage with my companions.",
+      "Arrives at the elevator lobby"
+    ],
+    [
+      "403-422",
+      "I ride elevator 19 while listening to colleagues discuss their work.",
+      "Elevator ride concludes at the destination floor"
+    ],
+    [
+      "423-435",
+      "I walk to the office while discussing RAG processing times with colleagues.",
+      "Arrives at the workstation area"
+    ],
+    [
+      "436-444",
+      "I discuss AI model backbones with a colleague near the workstations.",
+      "Conversation concludes and I move to my own workstation"
+    ],
+    [
+      "445-452",
+      "I walk to workstation 13 and sit down at my desk.",
+      "Transitions to working on the computer"
+    ],
+    [
+      "453-464",
+      "I monitor Claude Code terminal execution and review evaluation results on my MacBook.",
+      "Shifts focus from code execution to social media"
+    ],
+    [
+      "465-466",
+      "I browse my WeChat chats and Official Account feeds.",
+      "Opens a specific article, transitioning to focused reading"
+    ],
+    [
+      "467-499",
+      "I read a QuantumBit article about AI accelerating the discovery of novel superconductors.",
+      "End of input batch"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

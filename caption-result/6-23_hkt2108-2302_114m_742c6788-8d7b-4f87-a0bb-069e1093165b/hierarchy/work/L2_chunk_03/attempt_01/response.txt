@@ -1,0 +1,99 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group sequence into logical immediate tasks based on ingredient preparation, dough mixing, kneading, location changes, shaping, cutting, and successive conversational segments during the wrapper rolling process.",
+  "events": [
+    [
+      "500-503",
+      "I take a small bowl to the kitchen to prepare dough.",
+      "Moving to a new location with a bowl initiates dough preparation."
+    ],
+    [
+      "504-514",
+      "I add flour, salt, and cooking oil to the bowl.",
+      "Adding dry ingredients and oil forms a distinct step before wet mixing."
+    ],
+    [
+      "515-529",
+      "I mix the flour, salt, and oil into a shaggy dough using chopsticks.",
+      "Switching to chopsticks to stir the mixture begins the blending phase."
+    ],
+    [
+      "530-536",
+      "I knead the dough by hand in the bowl.",
+      "Setting down the chopsticks marks the transition to hand-kneading."
+    ],
+    [
+      "537-540",
+      "I walk to the dining table to discuss a dumpling container.",
+      "Leaving the kitchen to discuss containers at the dining table starts a new task."
+    ],
+    [
+      "541-559",
+      "I knead the dough at the dining table during a conversation about living habits and dumpling quantities.",
+      "Concluding the container discussion shifts focus back to steady kneading and conversation."
+    ],
+    [
+      "560-581",
+      "I shape the dough into long strips.",
+      "Transitioning from kneading bulk dough to rolling it into strips marks a new shaping step."
+    ],
+    [
+      "582-585",
+      "I bring a cleaver knife from the kitchen to the table.",
+      "Retrieving a cleaver introduces a new tool for cutting the dough."
+    ],
+    [
+      "586-595",
+      "I cut the dough strips into small portions.",
+      "Returning to the table with the cleaver starts the dough cutting phase."
+    ],
+    [
+      "596-612",
+      "I roll the dough portions into dumpling wrappers using a glass bottle.",
+      "Picking up a bottle initiates the rolling of individual dumpling wrappers."
+    ],
+    [
+      "613-629",
+      "I roll wrappers during a conversation with friends about the effort of making dumplings.",
+      "The arrival of friends introduces a new social interaction while rolling."
+    ],
+    [
+      "630-653",
+      "I prepare additional flour-dusted dumpling wrappers.",
+      "The departure of friends returns focus to steady wrapper preparation."
+    ],
+    [
+      "654-675",
+      "I shape dough wrappers onto a plate.",
+      "A brief pause in conversation leads into another steady bout of shaping and plating wrappers."
+    ],
+    [
+      "676-686",
+      "I prepare floured dough portions alongside my companion.",
+      "Dusting hands completes a batch of wrappers, shifting focus to preparing new portions."
+    ],
+    [
+      "687-708",
+      "I roll wrappers during a discussion about wrapper thickness and meat filling.",
+      "Initiating a discussion about wrapper thickness and filling quality forms a new conversational segment."
+    ],
+    [
+      "709-739",
+      "I roll out dough wrappers during a conversation about dumpling costs and job opportunities.",
+      "The companion's question about dumpling costs shifts the conversation topic."
+    ],
+    [
+      "740-749",
+      "I roll additional dough pieces into wrappers alongside my companion.",
+      "The conclusion of the job discussion returns focus primarily to rolling."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

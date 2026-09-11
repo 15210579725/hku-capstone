@@ -1,0 +1,30 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible pairs for continuous identical tasks across batch boundaries, specifically looking for uninterrupted studying of matrix completion, writing SVD calculations, and writing mathematical formulas on a notepad.",
+  "merges": [
+    [
+      15,
+      16,
+      "I study matrix completion and SVD explanations.",
+      "Studying matrix completion concepts continues across the batch edge"
+    ],
+    [
+      35,
+      36,
+      "I write singular value decomposition calculations on my notepad.",
+      "Writing SVD calculations on the notepad continues across the batch edge"
+    ],
+    [
+      52,
+      53,
+      "I review a mathematics exam PDF and write mathematical formulas on my notepad.",
+      "Writing mathematical formulas on the notepad while studying continues across the batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

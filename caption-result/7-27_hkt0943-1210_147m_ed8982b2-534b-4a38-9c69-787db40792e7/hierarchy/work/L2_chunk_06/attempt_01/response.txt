@@ -1,0 +1,114 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group action briefs into immediate, goal-oriented tasks, abstracting step-by-step navigation, food selection, and conversation segments into cohesive task units while respecting temporal anomalies and continuous activities.",
+  "events": [
+    [
+      "1250-1263",
+      "I refine data visualizations for scaling curves using ChatGPT.",
+      "Completing computer tasks before standing up to leave."
+    ],
+    [
+      "1264-1269",
+      "I walk from the office workspace to the elevator.",
+      "Arrival at the elevator waiting area."
+    ],
+    [
+      "1270-1280",
+      "I take the elevator down to the B1 floor.",
+      "Exiting the elevator upon reaching the destination floor."
+    ],
+    [
+      "1281-1296",
+      "I walk through the parking garage to the building lobby.",
+      "Entering a different building environment."
+    ],
+    [
+      "1297-1299",
+      "I inspect my MacBook keyboard.",
+      "Distinct out-of-sequence temporal segment."
+    ],
+    [
+      "1300-1303",
+      "I walk through the lounge area to the dining hall.",
+      "Arrival at the cafeteria food counters."
+    ],
+    [
+      "1304-1319",
+      "I select food items at the cafeteria self-service counter.",
+      "Transition from selecting food to queuing for checkout."
+    ],
+    [
+      "1320-1324",
+      "I initiate payment at the checkout counter.",
+      "Encountering a network issue that halts the normal checkout process."
+    ],
+    [
+      "1325-1369",
+      "I troubleshoot my phone's network connection to process the meal payment.",
+      "Successful completion of the payment after troubleshooting."
+    ],
+    [
+      "1370-1375",
+      "I carry my meal tray to a dining table.",
+      "Sitting down to begin the meal."
+    ],
+    [
+      "1376-1392",
+      "I converse with my companions over a serving of braised meat.",
+      "Transitioning to eating corn and congee."
+    ],
+    [
+      "1393-1403",
+      "I listen to my companions discuss childhood snacks over boiled corn with congee.",
+      "Transitioning back to eating meat and a new conversation topic."
+    ],
+    [
+      "1404-1416",
+      "I discuss suppressed desires with my companions over braised meat with chicken.",
+      "Shifting focus to eating mushrooms and listening to a new story."
+    ],
+    [
+      "1417-1428",
+      "I listen to my companion over a dish of stir-fried mushrooms.",
+      "Setting down chopsticks to consume soup and remaining corn."
+    ],
+    [
+      "1429-1442",
+      "I consume my soup with the remaining boiled corn.",
+      "Finishing the corn and picking up chopsticks for the final dishes."
+    ],
+    [
+      "1443-1463",
+      "I finish my meal of chicken with bamboo shoots.",
+      "Completion of the meal and preparing to clear the table."
+    ],
+    [
+      "1464-1470",
+      "I return my empty meal tray to the dish return station.",
+      "Disposal of the tray and beginning to leave the dining area."
+    ],
+    [
+      "1471-1486",
+      "I walk through the cafeteria dining hall with my companions.",
+      "Leaving the dining area to find a washbasin."
+    ],
+    [
+      "1487-1496",
+      "I wash my hands at the washbasin trough.",
+      "Completion of handwashing and resuming departure."
+    ],
+    [
+      "1497-1499",
+      "I walk down the steps to the drive aisle.",
+      "End of the supplied sequence."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

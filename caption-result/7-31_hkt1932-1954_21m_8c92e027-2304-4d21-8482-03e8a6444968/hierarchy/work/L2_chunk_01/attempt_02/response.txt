@@ -1,0 +1,127 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group immediate sequential actions into unified tasks, preserving continuous riding stretches or distinct topical conversations, while abstracting the watermelon purchase, parking, and app usages into dedicated task events.",
+  "events": [
+    [
+      "0-7",
+      "I exit the campus through the security turnstiles amidst a scheduling conversation.",
+      "Groups discussing meal plans and navigating security to exit the building."
+    ],
+    [
+      "8-16",
+      "I check messages and emails on my smartphone.",
+      "Groups phone interactions into a single messaging and email task."
+    ],
+    [
+      "17-22",
+      "I walk outside to view ride options in the transportation app.",
+      "Groups walking and using the smartphone app to locate a ride."
+    ],
+    [
+      "23-35",
+      "I ride my electric scooter out through the campus gate.",
+      "Groups starting the scooter and navigating through the exit barrier."
+    ],
+    [
+      "36-44",
+      "I discuss potential destinations with my companion during the scooter ride.",
+      "Groups a distinct conversation about destination choices while riding."
+    ],
+    [
+      "45-56",
+      "I navigate the scooter along the road.",
+      "Groups navigating the scooter along the road and checking speed."
+    ],
+    [
+      "57-70",
+      "I discuss academic paper leaderboards with my companion during the ride.",
+      "Groups a continuous conversation about academic topics on the scooter."
+    ],
+    [
+      "71-83",
+      "I navigate the scooter along the bike lane.",
+      "Groups navigating the scooter along bike lanes and past traffic."
+    ],
+    [
+      "84-95",
+      "I steer the scooter toward a fruit vendor cart following a route discussion.",
+      "Groups discussing directions and pulling up to the fruit cart."
+    ],
+    [
+      "96-116",
+      "I purchase half a watermelon from a street vendor cart.",
+      "Abstracts the entire continuous process of discussing, cutting, weighing, and paying for the watermelon."
+    ],
+    [
+      "117-124",
+      "I store the bagged watermelon in my scooter basket to prepare for departure.",
+      "Groups packing the purchased item and remounting the vehicle."
+    ],
+    [
+      "125-135",
+      "I adjust the watermelon bag in my scooter basket at a red light.",
+      "Groups waiting at the intersection and ensuring the cargo is secure."
+    ],
+    [
+      "136-145",
+      "I discuss my coding workflow with my companion during the scooter ride.",
+      "Groups a specific conversation about coding tools while accelerating."
+    ],
+    [
+      "146-166",
+      "I navigate the scooter along the bike path past several intersections.",
+      "Groups a continuous stretch of navigating paths, bridges, and crosswalks."
+    ],
+    [
+      "167-188",
+      "I ride the scooter along a dark road shoulder.",
+      "Groups navigating a particularly dark and narrow road segment."
+    ],
+    [
+      "189-203",
+      "I discuss academic paper citations with my companion during the ride.",
+      "Groups the final segment of conversation about papers before parking."
+    ],
+    [
+      "204-211",
+      "I park the scooter to check the split watermelon with my companion.",
+      "Groups parking the scooter, examining the cargo, and distributing pieces."
+    ],
+    [
+      "212-213",
+      "I return the shared e-bike using the Haro app.",
+      "Groups the app interaction required to complete the vehicle rental."
+    ],
+    [
+      "214-231",
+      "I converse with my companion about the history of our action prediction dataset.",
+      "Groups a lengthy and continuous conversation regarding academic dataset creation."
+    ],
+    [
+      "232-236",
+      "I evaluate a hotpot restaurant storefront based on its menu prices.",
+      "Groups observing the restaurant exterior and discussing the cost."
+    ],
+    [
+      "237-243",
+      "I consult the mall directory board to locate dining options.",
+      "Groups walking to and examining the illuminated mall floor plan."
+    ],
+    [
+      "244-249",
+      "I search for a local cuisine restaurant using a map application.",
+      "Groups smartphone map interactions to find a specific restaurant."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "Stopping at the street vendor explicitly suspends the ride to initiate a purchase task.",
+      "Using the app to officially return the e-bike terminates the transit phase."
+    ],
+    "boundary_cautions": []
+  }
+}
+```

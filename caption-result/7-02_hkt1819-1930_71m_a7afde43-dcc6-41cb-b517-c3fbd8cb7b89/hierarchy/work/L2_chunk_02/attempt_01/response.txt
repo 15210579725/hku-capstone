@@ -1,0 +1,99 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into discrete, immediate tasks based on clear location shifts, distinct transportation phases, or shifts in primary objective such as pausing to use a smartphone or retrieve items.",
+  "events": [
+    [
+      "250-265",
+      "I exit the baggage claim area through Exit 2C.",
+      "Exiting the sliding doors concludes the baggage claim exit task; subsequent walking occurs in the arrival corridor."
+    ],
+    [
+      "266-276",
+      "I walk along the arrival corridor.",
+      "Transitioning from the arrival corridor to the open arrival hall concourse."
+    ],
+    [
+      "277-291",
+      "I walk across the arrival hall concourse.",
+      "Approaching and boarding the moving walkway begins a new assisted transit task."
+    ],
+    [
+      "292-299",
+      "I browse a smartphone property listing during a moving walkway ride.",
+      "Stepping off the moving walkway concludes the ride; pedestrian navigation through the terminal resumes."
+    ],
+    [
+      "300-314",
+      "I walk through the terminal corridor toward the P2 Parking Garage.",
+      "Stopping to retrieve charging equipment initiates a distinct stationary preparation task."
+    ],
+    [
+      "315-329",
+      "I connect my smartphone to a power bank.",
+      "Resuming walking with the suitcase marks the end of the stationary charging task."
+    ],
+    [
+      "330-344",
+      "I walk along the terminal concourse toward the P2 Parking Garage.",
+      "Reaching the P2 Parking Garage entrance transitions navigation from the terminal into the parking facility."
+    ],
+    [
+      "345-354",
+      "I enter the P2 parking lobby.",
+      "Boarding the parking garage moving walkway begins a new assisted transit task."
+    ],
+    [
+      "355-365",
+      "I ride the moving walkway in the parking garage.",
+      "Stepping off the walkway concludes the ride; attention shifts to booking a vehicle on the smartphone."
+    ],
+    [
+      "366-388",
+      "I arrange a ride-hailing pickup for Zone 1 using my smartphone.",
+      "Completion of the ride-hailing booking transitions to navigating down the escalators to the pickup zone."
+    ],
+    [
+      "389-407",
+      "I ride the escalator down to the B2 e-hailing pickup zone.",
+      "Stepping off the escalator concludes the descent to the B2 pickup zone."
+    ],
+    [
+      "408-441",
+      "I search for my ride-hailing vehicle around pickup Area 1.",
+      "Approaching a specific parked vehicle shifts the task from searching to boarding."
+    ],
+    [
+      "442-453",
+      "I mistakenly board the wrong ride-hailing vehicle.",
+      "Exiting the incorrect vehicle transitions the objective to retrieving mistakenly loaded luggage."
+    ],
+    [
+      "454-460",
+      "I retrieve my luggage from the wrong ride-hailing vehicle.",
+      "Successfully unloading luggage concludes the retrieval task; locating the correct vehicle initiates a new boarding task."
+    ],
+    [
+      "461-473",
+      "I board my confirmed ride-hailing vehicle.",
+      "Settling into the vehicle transitions activity to using the smartphone to check the route."
+    ],
+    [
+      "474-480",
+      "I message a WeChat contact regarding my arrival time.",
+      "Completing the smartphone messages shifts focus to passively observing the ride."
+    ],
+    [
+      "481-499",
+      "I ride in the ride-hailing vehicle.",
+      "End of provided events."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

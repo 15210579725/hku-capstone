@@ -1,0 +1,36 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group sequential action briefs into immediate tasks based on continuous goals such as moving through terminal checkpoints, using devices, and conducting distinct conversational topics.",
+  "events": [
+    ["0-6", "I converse with my companion while holding a shopping bag.", "Bag interaction completes and we begin walking."],
+    ["7-11", "I walk with my suitcase to join the boarding queue.", "Joined the boarding queue."],
+    ["12-21", "I wait in the boarding queue and confirm the ticket scanning procedure.", "Advanced to the ticket gate."],
+    ["22-28", "I clear the boarding gate alongside my companion.", "Passed through the ticket gate."],
+    ["29-32", "I pass through the thermal scanning portal and discuss fever detection with my companion.", "Thermal scan and related discussion complete."],
+    ["33-47", "I complete biometric immigration clearance at the automated e-channel gate.", "Immigration clearance complete."],
+    ["48-57", "I clear the customs security checkpoint and retrieve my luggage.", "Security check complete and luggage retrieved."],
+    ["58-64", "I walk through the corridor into the passenger waiting lounge.", "Arrived and entered the waiting lounge."],
+    ["65-69", "I find an empty metal chair and sit down in the waiting lounge.", "Seated in the waiting lounge."],
+    ["70-74", "I rest in the waiting lounge and read the terminal posters.", "Poster reading complete and attention shifts to smartphone."],
+    ["75-81", "I discuss a photo's background colors on my smartphone with my companion.", "Conversation shifts from colors to phone lock status."],
+    ["82-88", "I interact with my locked smartphone and decline to unlock it for my companion.", "Phone lock interaction ends as wallpaper customization begins."],
+    ["89-118", "I customize my iPhone lock screen wallpaper.", "Wallpaper customization complete."],
+    ["119-131", "I converse with my companion about safeguarding her belongings.", "Conversation topic shifts to gym and laundry plans."],
+    ["132-144", "I listen to my companion discuss her gym and laundry plans.", "Conversation topic shifts to smartphone features."],
+    ["145-164", "I explore smartphone lock screen features with my companion.", "Lock screen feature exploration complete."],
+    ["165-171", "I discuss my remaining balance from my dad's transfer with my companion.", "Focus shifts to reviewing transaction apps."],
+    ["172-202", "I review my financial apps to verify my recent expenditure.", "App review completes and shifts to verbal calculation."],
+    ["203-229", "I calculate our shared trip expenses with my companion.", "Expense calculation pauses as I focus on my suitcase."],
+    ["230-239", "I observe the passengers and adjust my suitcase combination lock.", "Lock adjustment complete as companion speaks."],
+    ["240-244", "I listen to my companion summarize her personal trip expenses.", "Companion finishes expense summary and decides to leave."],
+    ["245-249", "I prepare to leave and follow my companion toward the exit gate.", "End of recorded sequence."]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,18 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible pairs for exact task continuation. Pair [19, 20] shifts primary focus from listening to a companion to eating the meal, which are distinct actions at the established L2 granularity, so they remain separate. Pair [36, 37] is a continuous conversation about cars seamlessly split by a batch edge and will be merged.",
+  "merges": [
+    [
+      36,
+      37,
+      "I converse with my colleague about cars.",
+      "Continuous conversation about cars continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

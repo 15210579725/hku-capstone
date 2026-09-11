@@ -1,0 +1,31 @@
+```json
+{
+  "target_level": "L5",
+  "plan": "Abstract the phases into distinct major activities: academic reading, taking a leisure break, and retiring to bed.",
+  "events": [
+    [
+      "0",
+      "I read the 'Modeling Cognitive-Affective Processes' paper on alphaXiv.",
+      "Shift from academic reading to a leisure break"
+    ],
+    [
+      "1",
+      "I take a leisure break in the dining area using my phone.",
+      "Behavior-changing trigger: experiencing dizziness ends the break"
+    ],
+    [
+      "2-3",
+      "I prepare for sleep after discussing my dizziness with my roommate.",
+      "End of recording"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "Dizziness and need for sleep redirects behavior toward bedtime preparation"
+    ],
+    "boundary_cautions": []
+  }
+}
+```

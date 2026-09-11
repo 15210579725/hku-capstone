@@ -1,0 +1,141 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group contiguous actions that serve a single immediate task, such as reading an error analysis for a specific case, formatting text in a document, or searching through code files. Boundaries are created when the focus shifts to a new test case, a new distinct task begins, or a physical break occurs.",
+  "events": [
+    [
+      "0-5",
+      "I review the case ID24 event timeline and prediction in ChatGPT.",
+      "Switches task to format the prediction timeline in Feishu"
+    ],
+    [
+      "6-21",
+      "I paste and format the ID24 prediction timeline and text into a code block in the Feishu habit review document.",
+      "Finishes formatting and switches back to ChatGPT for further case analysis"
+    ],
+    [
+      "22-34",
+      "I read the case ID24 multi-round retrieval analysis on ChatGPT and cross-reference it with the Feishu document.",
+      "Switches task to document the retrieval rounds in Feishu"
+    ],
+    [
+      "35-57",
+      "I document the multi-round retrieval analysis and search queries for case ID24 in the Feishu document.",
+      "Pauses to drink water"
+    ],
+    [
+      "58-62",
+      "I drink from my water bottle.",
+      "Resumes work, reviewing test cases in Feishu"
+    ],
+    [
+      "63-65",
+      "I review the test case predictions and notes in the Feishu document.",
+      "Switches to reading analysis for a new case, ID46, in ChatGPT"
+    ],
+    [
+      "66-78",
+      "I read the multi-turn retrieval queries and analysis for case ID46 in ChatGPT.",
+      "Shifts focus to analyzing case ID36"
+    ],
+    [
+      "79-88",
+      "I read the case analysis and multi-round query progression for case ID36 in ChatGPT.",
+      "Shifts focus to analyzing case ID44"
+    ],
+    [
+      "89-101",
+      "I read the retrieval error analysis and confirmation bias breakdown for case ID44 in ChatGPT.",
+      "Pauses to inspect a strand of hair"
+    ],
+    [
+      "102-109",
+      "I examine a strand of hair and look around my desk.",
+      "Resumes reading the case ID44 analysis in ChatGPT"
+    ],
+    [
+      "110-113",
+      "I read the first-round query retrieval explanation for case ID44 in ChatGPT.",
+      "Switches to the Feishu document to type correct cases and review analysis"
+    ],
+    [
+      "114-118",
+      "I type test cases into the Feishu document and review the ID44 error analysis.",
+      "Switches applications to search for a query in VS Code"
+    ],
+    [
+      "119-130",
+      "I search for '我和大家前往物美超市' and examine candidate entries in VS Code JSON files.",
+      "Switches to reading the error case analysis document in Google Chrome"
+    ],
+    [
+      "131",
+      "I read the error case analysis document in Google Chrome.",
+      "Switches back to VS Code to inspect candidate predictions"
+    ],
+    [
+      "132-138",
+      "I search for a query and inspect candidate predictions and context for case step_day5_L5_152743 in VS Code JSON files.",
+      "Switches to the Feishu document to review the case and to-do lists"
+    ],
+    [
+      "139-144",
+      "I review the case list and to-do list in the Feishu cloud document.",
+      "Pauses to inspect a strand of hair with a colleague"
+    ],
+    [
+      "145-147",
+      "I inspect a strand of hair and show it to my colleague.",
+      "Resumes reviewing the Feishu document"
+    ],
+    [
+      "148-170",
+      "I review the to-do list, logs, QA error cases, and task checklist in the Feishu document.",
+      "Switches task to inspect a case in VS Code and type candidate text"
+    ],
+    [
+      "171-175",
+      "I inspect a case in VS Code and type candidate text into the Feishu document.",
+      "Switches back to ChatGPT to read case ID44 query analysis"
+    ],
+    [
+      "176-180",
+      "I read the retrieval query optimization notes for case ID44 in ChatGPT.",
+      "Switches task to copy a query to the Feishu Wiki"
+    ],
+    [
+      "181-184",
+      "I copy a query about Lucia's shopping from ChatGPT and paste it into the Feishu Wiki document.",
+      "Switches to reading the error analysis for case ID11 in ChatGPT"
+    ],
+    [
+      "185-213",
+      "I read the error analysis on confirmation bias and behavior chain verification for case ID11 in ChatGPT.",
+      "Interrupted by a phone call"
+    ],
+    [
+      "214",
+      "I answer a call on my phone.",
+      "Finishes call and starts checking WeChat notifications"
+    ],
+    [
+      "215-245",
+      "I check my phone notifications and read WeChat group messages about AI startup funding and compute resources.",
+      "Decides to act on the announcement by messaging a contact directly"
+    ],
+    [
+      "246-249",
+      "I read a compute support announcement in the MACLab WeChat group and message *.jqz to apply for the subsidy.",
+      "End of batch"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "214"
+    ],
+    "boundary_cautions": []
+  }
+}
+```

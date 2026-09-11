@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Review eligible boundary pairs to determine if the exact same immediate task continues across the batch edge. Merge pairs where the user is engaged in the same specific action and topic (e.g., reviewing the same evaluation tables, explaining the exact same concept). Do not merge when the user switches applications, targets (like reading a different paper), or conversation topics.",
+  "merges": [
+    [
+      22,
+      23,
+      "I review evaluation tables and logs in VS Code.",
+      "Review of evaluation tables in VS Code continues across batch edge"
+    ],
+    [
+      89,
+      90,
+      "I explain model variance and reinforcement learning workflows to my remote collaborator.",
+      "Explanation of model variance continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

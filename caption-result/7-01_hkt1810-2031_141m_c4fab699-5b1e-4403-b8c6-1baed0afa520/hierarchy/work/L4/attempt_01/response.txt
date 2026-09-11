@@ -1,0 +1,56 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group the L3 episodes into broader goal-oriented phases: initial hotel departure and transit, commercial errands, extended night market dining, plaza exploration, alternative dining, and the final return transit. Isolate the McDonald's dining plan abandonment as a standalone behavior-changing trigger per Rule 3.",
+  "events": [
+    [
+      "0-1",
+      "I travel on foot from my hotel room to the commercial area with my companion.",
+      "Arrival at the commercial area to begin shopping errands"
+    ],
+    [
+      "2-5",
+      "I shop for fruit and medicine in the commercial area using an electric scooter.",
+      "Transition from commercial errands to night market dining"
+    ],
+    [
+      "6-9",
+      "I consume oysters, buns, noodles, and a sticky rice snack at the night market amidst a real estate dispute.",
+      "Relocation from the night market to the pedestrian plaza"
+    ],
+    [
+      "10",
+      "I explore the pedestrian plaza with my companion.",
+      "Exploration interrupted by a major change in dining plans"
+    ],
+    [
+      "11",
+      "I abandon my McDonald's dining plan due to the uncomfortable heat.",
+      "Standalone major behavior-changing trigger"
+    ],
+    [
+      "12-14",
+      "I browse smartphone displays at a Huawei store and other storefronts along the pedestrian street with my companion.",
+      "Shift from retail browsing to an alternative dining destination"
+    ],
+    [
+      "15",
+      "I consume an egg tart at a KFC restaurant.",
+      "Completion of the dining activity and start of return transit"
+    ],
+    [
+      "16",
+      "I return to my hotel room with my companion.",
+      "End of recording sequence"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "Abandonment of McDonald's dining plan due to the uncomfortable heat"
+    ],
+    "boundary_cautions": []
+  }
+}
+```

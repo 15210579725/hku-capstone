@@ -1,0 +1,30 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate each eligible boundary pair to determine if the same immediate task continues across the transport batch edge. Pairs involving continuous identical actions (such as inquiring at the same front desk, continuing to approach/enter the same location, or eating the same dish) will be merged, while pairs that shift focus or topic will remain separate.",
+  "merges": [
+    [
+      48,
+      49,
+      "I inquire about short-term apartment rentals and rates from the front desk staff.",
+      "The same continuous inquiry at the front desk continues across the batch edge."
+    ],
+    [
+      66,
+      67,
+      "I approach and enter the 書湘門第 restaurant.",
+      "The continuous action of walking to and arriving at the restaurant crosses the batch edge."
+    ],
+    [
+      86,
+      87,
+      "I eat the sizzling beef and rice dish while conversing with my companion.",
+      "Eating the identical meal continues across the batch edge."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

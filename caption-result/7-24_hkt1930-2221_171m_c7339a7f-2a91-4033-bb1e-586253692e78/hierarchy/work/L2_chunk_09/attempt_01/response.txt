@@ -1,0 +1,104 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group based on continuous riding phases, distinct conversational topics (wind, batteries, buildings), temporary stops at intersections or the bakery truck, and physical transitions from riding to walking and entering the building.",
+  "events": [
+    [
+      "2000-2006",
+      "I test my audio channels while crossing an intersection.",
+      "Finishes crossing intersection and audio test"
+    ],
+    [
+      "2007-2019",
+      "I ride along the road and discuss the apartment buildings on the right with my passenger.",
+      "Finishes discussing apartment buildings"
+    ],
+    [
+      "2020-2028",
+      "I ride along the road and converse about enjoying the pleasant wind.",
+      "Finishes conversation about the wind"
+    ],
+    [
+      "2029-2036",
+      "I pass pedestrians and cross an intersection while conversing.",
+      "Finishes crossing intersection"
+    ],
+    [
+      "2037-2044",
+      "I ride along the street past a convenience store toward a red cargo truck.",
+      "Approaches stopping point and changes conversation topic"
+    ],
+    [
+      "2045-2062",
+      "I decelerate to a stop at an intersection and discuss scooter battery life with my passenger.",
+      "Changes conversation topic while waiting at intersection"
+    ],
+    [
+      "2063-2074",
+      "I wait at the intersection and converse with my passenger.",
+      "Begins riding forward as traffic clears"
+    ],
+    [
+      "2075-2088",
+      "I ride my scooter along the bridge.",
+      "Exits bridge and descends ramp"
+    ],
+    [
+      "2089-2101",
+      "I ride down the ramp, pull up to a mobile bakery truck, and decline to buy bread.",
+      "Leaves bakery truck"
+    ],
+    [
+      "2102-2114",
+      "I stop at an intersection and converse about pre-training before accelerating.",
+      "Accelerates into intersection"
+    ],
+    [
+      "2115-2129",
+      "I ride along the bicycle lane and discuss a broken scooter.",
+      "Finishes discussion about broken scooter and changes topic"
+    ],
+    [
+      "2130-2137",
+      "I approach the campus and point out the school buildings to my passenger.",
+      "Arrives at campus gate"
+    ],
+    [
+      "2138-2141",
+      "I ask for access and ride through the campus gate.",
+      "Enters campus"
+    ],
+    [
+      "2142-2151",
+      "I ride through the campus to point out the dormitories and slow to a stop.",
+      "Stops riding and begins walking"
+    ],
+    [
+      "2152-2159",
+      "I walk along the campus sidewalk and ask about the cafeteria location.",
+      "Arrives at building lobby"
+    ],
+    [
+      "2160-2165",
+      "I enter the building lobby, pass the turnstiles, and press the elevator button.",
+      "Enters elevator"
+    ],
+    [
+      "2166-2172",
+      "I ride the elevator and converse about ID badges.",
+      "Elevator doors open and user exits"
+    ],
+    [
+      "2173-2178",
+      "I walk down the hallway and enter the open-plan office.",
+      "Arrives at office desk"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

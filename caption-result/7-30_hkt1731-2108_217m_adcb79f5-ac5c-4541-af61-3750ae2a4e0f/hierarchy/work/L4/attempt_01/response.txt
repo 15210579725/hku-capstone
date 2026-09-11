@@ -1,0 +1,44 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group continuous sequences sharing a broad goal and primary location into unified phases. This progressively abstracts repositioning, food retrieval, and routine hydration breaks into their governing activities. The resulting phases cover initial work, pre-workout cafeteria socialization, the gym workout, an office dinner, an outdoor walking break, and a final extended deep work session.",
+  "events": [
+    [
+      "0",
+      "I review generated behavioral action captions and timelines at my workstation.",
+      "Standalone initial work task prior to leaving the office."
+    ],
+    [
+      "1-3",
+      "I coordinate my KFC delivery order during a social meeting with colleagues in the cafeteria.",
+      "Groups transit and food ordering into the overarching goal of a pre-workout cafeteria meetup."
+    ],
+    [
+      "4-9",
+      "I complete a partner strength training workout at the gym.",
+      "Unifies the transit, equipment preparation, specific exercises, and departure into a single workout phase."
+    ],
+    [
+      "10-11",
+      "I consume my KFC delivery meal with colleagues in the office.",
+      "Abstracts the lobby food retrieval into the primary goal of eating dinner."
+    ],
+    [
+      "12-16",
+      "I discuss AI models and research topics with my companion during a multi-path outdoor walk.",
+      "Merges continuous walking and AI-related discussions across various outdoor paths into one continuous break."
+    ],
+    [
+      "17-29",
+      "I execute extensive AI dataset processing, model evaluation, and research documentation tasks at my office desk.",
+      "Groups prolonged continuous desk work and routine steps like fetching water into a unified deep work phase."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

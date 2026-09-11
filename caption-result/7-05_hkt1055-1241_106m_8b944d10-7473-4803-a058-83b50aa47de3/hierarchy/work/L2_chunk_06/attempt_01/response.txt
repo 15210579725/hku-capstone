@@ -1,0 +1,81 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group actions into immediate physical tasks such as testing equipment, transitioning between locations, riding the elevator, and troubleshooting specific desk issues based on continuous focus.",
+  "events": [
+    [
+      "1250-1260",
+      "I test the desk lamp at workstation 31 with my colleagues.",
+      "Colleagues leave the workstation."
+    ],
+    [
+      "1261-1266",
+      "I walk down the hallway to the staircase landing.",
+      "Arrive at the staircase."
+    ],
+    [
+      "1267-1274",
+      "I descend the stairs to the lower level.",
+      "Reach the bottom of the stairs and enter the lounge."
+    ],
+    [
+      "1275-1280",
+      "I inspect the furniture in the lounge.",
+      "Shift focus to the digital piano."
+    ],
+    [
+      "1281-1286",
+      "I inspect the digital piano in the lounge.",
+      "Leave the piano to follow companions."
+    ],
+    [
+      "1287-1292",
+      "I follow my companions to the elevator lobby.",
+      "Arrive at the elevator lobby to wait."
+    ],
+    [
+      "1293-1305",
+      "I discuss my smart glasses with a companion during the elevator ride.",
+      "Elevator ride concludes."
+    ],
+    [
+      "1306-1310",
+      "I walk from the elevator to the office.",
+      "Enter the office."
+    ],
+    [
+      "1311-1321",
+      "I inspect the power status of empty desks with a colleague.",
+      "Focus shifts to specifically testing desk 11."
+    ],
+    [
+      "1322-1332",
+      "I test the height adjustment controls on desk 11.",
+      "Cease testing controls temporarily."
+    ],
+    [
+      "1333-1337",
+      "I chat with a colleague closing a laptop.",
+      "Conversation ends and focus returns to the standing desks."
+    ],
+    [
+      "1338-1348",
+      "I troubleshoot the power connection for standing desk 11.",
+      "Power troubleshooting completes as the desk turns on."
+    ],
+    [
+      "1349-1368",
+      "I reset desk 11 to clear an ESR fault code.",
+      "Desk reset completes successfully."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": [
+      "Ensured the extended desk inspection sequence was split into initial power checks, finding the power plug, and clearing the specific ESR fault code."
+    ]
+  }
+}
+```

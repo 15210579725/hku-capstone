@@ -1,0 +1,189 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group sequential actions that serve a single immediate task, such as using a specific phone app, walking and observing the surroundings, interacting with animals or objects, washing hands, or holding a bag for the companion. Transitions in focus (e.g., from navigating to reading a poster, or from walking to checking a map) mark the boundaries between tasks.",
+  "events": [
+    [
+      "0-10",
+      "I use my phone to query ChatGPT to plot a blood alcohol concentration curve based on a paper while discussing it with my companion.",
+      "Send query and look up"
+    ],
+    [
+      "11-22",
+      "I observe the local shops and surroundings while walking along the stone-paved pedestrian streets.",
+      "Switch focus to AI app error"
+    ],
+    [
+      "23-31",
+      "I initiate a new chat on the Tongyi AI app after encountering an error in the ChatGPT application.",
+      "Send message in new app"
+    ],
+    [
+      "32-42",
+      "I observe the local shops and menus while walking down the narrow stone alleyway.",
+      "Start reading AI response"
+    ],
+    [
+      "43-51",
+      "I read the blood alcohol concentration calculation results on my phone while crossing a stone bridge.",
+      "Notice companion petting cat"
+    ],
+    [
+      "52",
+      "I watch my companion crouch down to pet a sleeping black cat on a stone threshold.",
+      "Finish observing cat"
+    ],
+    [
+      "53-54",
+      "I view the generated text response on the AI application on my phone.",
+      "Start observing storefronts"
+    ],
+    [
+      "55-61",
+      "I observe the artisan storefronts and decorations while walking down the alleyway with my companion.",
+      "Stop to look at pet cafe"
+    ],
+    [
+      "62-65",
+      "I observe a green parrot through the glass window of a pet cafe.",
+      "Check phone error"
+    ],
+    [
+      "66-67",
+      "I check an error message on my ChatGPT app while walking.",
+      "Notice missing cat poster"
+    ],
+    [
+      "68-72",
+      "I read a missing cat poster taped to a wooden shop window.",
+      "Resume walking down alley"
+    ],
+    [
+      "73-84",
+      "I overhear local neighbors conversing about swimming and studying while walking down the alleyway.",
+      "Enter wider courtyard"
+    ],
+    [
+      "85-92",
+      "I navigate through an open courtyard and a narrow historic lane with my companion.",
+      "Notice a small cat"
+    ],
+    [
+      "93-94",
+      "I watch a small cat eating from a bowl on a doorstep.",
+      "Resume walking"
+    ],
+    [
+      "95-102",
+      "I observe various kiosks and bakery storefronts while walking down the stone-paved lane.",
+      "Start conversation about temperature"
+    ],
+    [
+      "103-109",
+      "I discuss the cool temperature and decline getting food while strolling through the courtyard.",
+      "Decide to cross bridge"
+    ],
+    [
+      "110-116",
+      "I guide my companion toward an arched stone bridge to walk across it.",
+      "Reach canal plaza"
+    ],
+    [
+      "117-128",
+      "I observe the waterside scenery and enjoy the breeze while walking down from the bridge to a canal plaza.",
+      "Discuss itch"
+    ],
+    [
+      "129-133",
+      "I discuss an itch on the back of my hand with my companion.",
+      "Walk toward restroom"
+    ],
+    [
+      "134-149",
+      "I walk along the riverside canal pathway toward a public restroom.",
+      "Enter restroom"
+    ],
+    [
+      "150-156",
+      "I wash my hands with soap at the sink inside the public restroom.",
+      "Exit restroom"
+    ],
+    [
+      "157-161",
+      "I hold open my companion's shoulder bag so she can store her pink phone.",
+      "Resume walking"
+    ],
+    [
+      "162-168",
+      "I tell my companion about my inability to do something while climbing the stairs of a stone bridge.",
+      "Turn attention to scenery"
+    ],
+    [
+      "169-173",
+      "I watch a street busker playing guitar while looking over the bridge railing.",
+      "Assist companion with umbrella"
+    ],
+    [
+      "174-180",
+      "I hold open my companion's white shoulder bag to let her store her folded umbrella.",
+      "Watch performer play guitar"
+    ],
+    [
+      "181-187",
+      "I watch the street performer play acoustic guitar on the bridge alongside my companion.",
+      "Start descending bridge"
+    ],
+    [
+      "188-197",
+      "I discuss our navigation route with my companion while descending the bridge stairs.",
+      "Resume walking along canal"
+    ],
+    [
+      "198-204",
+      "I examine a sheep-shaped wooden stool and an Artisan Italian pizza menu sign along the canal path.",
+      "Observe seated neighbors"
+    ],
+    [
+      "205-210",
+      "I joke with my companion about a group of seated neighbors having a meeting while walking down the alleyway.",
+      "Approach tourist map"
+    ],
+    [
+      "211-215",
+      "I read the Xinchang Ancient Town tourist map signboard with my companion to confirm our route.",
+      "Continue walking across street"
+    ],
+    [
+      "216-224",
+      "I walk across the street and along the canal pathway past an inn.",
+      "Notice a calico cat"
+    ],
+    [
+      "225-228",
+      "I watch my companion pet a calico cat resting on the ground.",
+      "Resume walking and talking"
+    ],
+    [
+      "229-236",
+      "I joke with my companion about parenting while walking along the stone canal walkway.",
+      "Pass seated residents and corgi"
+    ],
+    [
+      "237-242",
+      "I discuss an approaching corgi with my companion while walking along the stone lane.",
+      "Notice fishing on canal bank"
+    ],
+    [
+      "243-249",
+      "I discuss my mosquito bites with my companion while she retrieves anti-itch ointment from her bag.",
+      "End of input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,18 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible batch-edge pairs. Reject pairs where the user switches tools, targets, or distinct tasks (e.g., resting to reviewing code, or changing from one AI tool to another). Merge pairs where the exact same continuous task, such as an ongoing discussion on a single topic, spans the boundary.",
+  "merges": [
+    [
+      90,
+      91,
+      "I discuss hierarchical event captioning and ChatGPT compression settings with my colleague.",
+      "Same conversation about event compression continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

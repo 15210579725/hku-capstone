@@ -1,0 +1,11 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible pairs for continuous immediate tasks. Pair [16, 17] transitions from prompting Claude Code and organizing cables to analyzing the resulting plots; these are distinct sequential steps, not a single interrupted task. Pair [30, 31] transitions from paying for a meal to relocating and settling at a table; these are also distinct immediate actions. Neither pair should be merged.",
+  "merges": [],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

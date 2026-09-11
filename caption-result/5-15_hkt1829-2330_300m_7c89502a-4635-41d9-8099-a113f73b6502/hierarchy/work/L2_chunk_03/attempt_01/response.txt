@@ -1,0 +1,111 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions by distinct video watching sessions, browsing intervals, and immediate physical tasks like fetching water or preparing snacks.",
+  "events": [
+    [
+      "500-504",
+      "I inspect a bag of prawn crackers.",
+      "Inspection concludes before changing location"
+    ],
+    [
+      "505-507",
+      "I walk to the kitchen and open the prawn cracker packaging.",
+      "Packaging successfully opened"
+    ],
+    [
+      "508-516",
+      "I fill a glass bottle with water from the kitchen dispenser and return to the dining table.",
+      "Returned to the dining table with water"
+    ],
+    [
+      "517-519",
+      "I search my backpack and place a notebook on the dining table.",
+      "Notebook placed on table"
+    ],
+    [
+      "520-529",
+      "I open Bilibili on my laptop and browse homepage recommendations.",
+      "Video tab opened to start watching"
+    ],
+    [
+      "530-542",
+      "I watch a Bilibili vlog segment about a driver trying to grab a delivery order.",
+      "Video topic shifts to driving"
+    ],
+    [
+      "543-561",
+      "I watch a Bilibili driving vlog segment exploring a rural town.",
+      "Video topic shifts to coastal scenes"
+    ],
+    [
+      "562-580",
+      "I watch a Bilibili vlog segment about a village delivery and beachcombing.",
+      "Video viewing segment ends"
+    ],
+    [
+      "581-587",
+      "I watch a Bilibili street food vlog.",
+      "Video topic shifts to seafood"
+    ],
+    [
+      "588-606",
+      "I watch a Bilibili seafood tasting vlog.",
+      "Video concludes and end-screen appears"
+    ],
+    [
+      "607-620",
+      "I browse Bilibili homepage video recommendations.",
+      "New video clicked"
+    ],
+    [
+      "621-659",
+      "I watch a Bilibili travel vlog about walking a long distance home.",
+      "Selects a different video"
+    ],
+    [
+      "660-670",
+      "I click on and watch a Bilibili sailing vlog.",
+      "Clicks another recommended video"
+    ],
+    [
+      "671-683",
+      "I click on and watch a Bilibili sailing vlog about a storm at sea.",
+      "Begins browsing the sidebar for next video"
+    ],
+    [
+      "684-687",
+      "I browse Bilibili sidebar recommendations and select a new video.",
+      "New video selected"
+    ],
+    [
+      "688-725",
+      "I watch a Bilibili vlog about sailing and underwater spearfishing.",
+      "Selects a new video from the sidebar"
+    ],
+    [
+      "726-735",
+      "I click on and watch a Bilibili vlog about a sailboat arriving at an island.",
+      "Selects another new video"
+    ],
+    [
+      "736-747",
+      "I click on and watch a Bilibili travel vlog about a mountain hike and drone inspection.",
+      "Returns to homepage to browse"
+    ],
+    [
+      "748-749",
+      "I return to the Bilibili homepage and browse video recommendations.",
+      "Batch ends"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": [
+      "Several Bilibili vlog watching sessions may belong to continuous compilations, but are split based on prominent topical boundaries or explicit selections of new videos."
+    ]
+  }
+}
+```

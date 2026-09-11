@@ -1,0 +1,139 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group consecutive L1 action briefs into immediate L2 tasks based on continuous conversational topics, shared visual targets, and distinct location transitions, avoiding conjunctions for consecutive actions.",
+  "events": [
+    [
+      "500-501",
+      "I converse with my companion.",
+      "Walking and inspecting structures begins"
+    ],
+    [
+      "502-515",
+      "I inspect a gated structure and road markings on the outdoor path.",
+      "Conversation resumes while walking"
+    ],
+    [
+      "516-537",
+      "I converse with my companion walking along the dark trail.",
+      "Pausing to view lights marks a new task"
+    ],
+    [
+      "538-543",
+      "I pause to view distant city lights with my companion.",
+      "Resuming walking and conversation marks task shift"
+    ],
+    [
+      "544-555",
+      "I converse with my companion on the path.",
+      "Topic shifts to the scenery"
+    ],
+    [
+      "556-568",
+      "I converse about the scenery with my companion on the path.",
+      "Topic shifts to a dog and ice cream"
+    ],
+    [
+      "569-577",
+      "I converse about a dog and ice cream with my companion on the path.",
+      "Topic shifts to the Peak Tram"
+    ],
+    [
+      "578-587",
+      "I discuss the Peak Tram with my companion.",
+      "Approaching the plaza marks a new focus"
+    ],
+    [
+      "588-601",
+      "I approach the plaza intersection.",
+      "Crossing the plaza marks a location shift"
+    ],
+    [
+      "602-613",
+      "I discuss snack options crossing the plaza.",
+      "Walking toward Peak Galleria marks a new target"
+    ],
+    [
+      "614-623",
+      "I converse about tram tickets approaching Peak Galleria.",
+      "Entering the building marks a location change"
+    ],
+    [
+      "624-628",
+      "I enter 7-Eleven inside Peak Galleria.",
+      "Entering the store begins browsing"
+    ],
+    [
+      "629-654",
+      "I browse the food and drink aisles in 7-Eleven.",
+      "Approaching the checkout marks a new phase"
+    ],
+    [
+      "655-663",
+      "I examine frozen berries waiting near the 7-Eleven checkout.",
+      "Leaving the store marks a location change"
+    ],
+    [
+      "664-666",
+      "I exit 7-Eleven.",
+      "Watching companion eat begins a new focus"
+    ],
+    [
+      "667-672",
+      "I watch my companion eat a frozen snack outside.",
+      "Walking across the plaza marks a new task"
+    ],
+    [
+      "673-687",
+      "I walk across the plaza towards The Peak Tower.",
+      "Reaching the viewing area marks a new focus"
+    ],
+    [
+      "688-699",
+      "I admire the Hong Kong night skyline outside The Peak Tower.",
+      "Moving to the observation deck marks a location shift"
+    ],
+    [
+      "700-717",
+      "I walk to the observation railing to gaze at the Hong Kong night skyline.",
+      "Observing the Peak Tram marks a visual target shift"
+    ],
+    [
+      "718-721",
+      "I watch the Peak Tram move along its track.",
+      "Resuming conversation marks a task shift"
+    ],
+    [
+      "722-728",
+      "I converse with my companion about her frozen berries.",
+      "Shift in topic to the bakery"
+    ],
+    [
+      "729-732",
+      "I converse with my companion about Bakehouse egg tarts.",
+      "Entering the building marks a location change"
+    ],
+    [
+      "733-740",
+      "I approach the Bakehouse counter inside The Peak Tower.",
+      "Reaching the counter begins inspection"
+    ],
+    [
+      "741-744",
+      "I inspect the Bakehouse pastry display.",
+      "Deciding to leave and entering another store marks a task change"
+    ],
+    [
+      "745-749",
+      "I browse keychains and figurines in a store.",
+      "End of input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

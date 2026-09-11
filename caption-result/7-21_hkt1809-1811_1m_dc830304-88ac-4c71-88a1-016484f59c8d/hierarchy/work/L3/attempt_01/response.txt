@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Abstract the isolated report review as a discrete episode. Unify the subsequent contiguous sequence of gathering the power bank, walking to the new location, and handling the cables into a single relocation episode.",
+  "events": [
+    [
+      "0",
+      "I review the Claude Code evaluation report.",
+      "Distinct digital task completed before physical movement begins"
+    ],
+    [
+      "1-4",
+      "I relocate my power bank and charging cables to desk 13.",
+      "Unifies retrieving equipment, navigating to a new workspace, and adjusting the items there"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,26 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous video viewing, including all scenes, ads, and verbal reactions, into a single task. Group the subsequent interaction with the companion into a new task, triggered when the companion blocks the laptop view.",
+  "events": [
+    [
+      "0-75",
+      "I watch a drama on my laptop.",
+      "The video concludes with end credits, followed by the companion blocking the laptop view."
+    ],
+    [
+      "76-81",
+      "I converse with my companion.",
+      "End of input."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "Companion blocking the laptop view triggers a shift from watching a video to conversing."
+    ],
+    "boundary_cautions": []
+  }
+}
+```

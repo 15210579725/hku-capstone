@@ -1,0 +1,39 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group L3 episodes into broader, goal-oriented phases. The sequence naturally divides into an initial brief discussion, a cafeteria lunch break, a lengthy office workstation session focused on data tasks, relocating to attend a Zoom meeting in the lounge, and a final departure.",
+  "events": [
+    [
+      "0",
+      "I discuss PC hardware with a colleague.",
+      "Brief standalone conversation prior to leaving the office for lunch"
+    ],
+    [
+      "1-5",
+      "I take my lunch break at the cafeteria.",
+      "Returning to the office concludes the lunch break phase"
+    ],
+    [
+      "6-14",
+      "I work on dataset processing and model auditing tasks at my office desk.",
+      "Relocating to the atrium lounge marks a transition to a new major activity"
+    ],
+    [
+      "15-21",
+      "I attend a Zoom research meeting in the building atrium lounge.",
+      "Departure from the lounge area marks the conclusion of the meeting phase"
+    ],
+    [
+      "22",
+      "I depart down the corridor.",
+      "End of the provided sequence"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

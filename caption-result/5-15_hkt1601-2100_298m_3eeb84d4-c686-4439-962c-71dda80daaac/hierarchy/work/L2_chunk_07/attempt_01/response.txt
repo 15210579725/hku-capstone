@@ -1,0 +1,142 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous sequences of reading, writing, and typing related to solving a numerical methods problem on the laptop and notepad. Group uninterrupted sequences of WeChat messaging, reading articles, and browsing feeds on the phone. Progressively abstract incidental glances around the room or between devices into the overarching task. Isolate standalone verbal exclamations that break the workflow as independent events.",
+  "events": [
+    [
+      "0-4",
+      "I write derivations for a numerical analysis question on my notepad.",
+      "Switches to reading the problem on the laptop screen"
+    ],
+    [
+      "5-9",
+      "I read a numerical methods problem on my laptop.",
+      "Starts typing a query into the AI assistant"
+    ],
+    [
+      "10-12",
+      "I type a query into the AI assistant.",
+      "Finishes typing and awaits the AI response"
+    ],
+    [
+      "13-23",
+      "I read Claude AI's explanation regarding Euler method truncation error.",
+      "Switches to reviewing the assignment PDF"
+    ],
+    [
+      "24-35",
+      "I review a numerical methods assignment document on my laptop.",
+      "Starts typing a new query into the AI assistant"
+    ],
+    [
+      "36-40",
+      "I type a query into the AI assistant on my laptop.",
+      "Starts reading the AI response and mathematical document"
+    ],
+    [
+      "41-55",
+      "I read Claude's explanation of the Euler method truncation error derivation.",
+      "Switches to writing derivations on the notepad"
+    ],
+    [
+      "56-68",
+      "I transcribe math derivation formulas onto my notepad.",
+      "Interrupted by a standalone exclamation"
+    ],
+    [
+      "69",
+      "I say '昨晚太神奇了，太神奇了。'",
+      "Resumes writing derivations"
+    ],
+    [
+      "70-79",
+      "I write Taylor expansion equations for the truncation error problem on my notepad.",
+      "Switches to texting on the phone"
+    ],
+    [
+      "80-113",
+      "I text babe on WeChat to coordinate a visit to a swimming pool.",
+      "Switches to a different WeChat chat"
+    ],
+    [
+      "114-116",
+      "I review deposit refund notifications in the YHill Operation 3 WeChat chat.",
+      "Switches to reading a WeChat article"
+    ],
+    [
+      "117-146",
+      "I read a WeChat article about Figure humanoid robots.",
+      "Returns to the WeChat subscription feed"
+    ],
+    [
+      "147-150",
+      "I browse the WeChat subscription feed.",
+      "Opens a chat to message a contact"
+    ],
+    [
+      "151-159",
+      "I message babe on WeChat regarding Claude code AI automation.",
+      "Puts the phone down and resumes math derivations"
+    ],
+    [
+      "160-173",
+      "I write truncation error derivations on my notepad.",
+      "Switches to reading the AI derivation on the laptop"
+    ],
+    [
+      "174-192",
+      "I read Claude's derivation of the Euler method error upper bound.",
+      "Starts typing a follow-up prompt"
+    ],
+    [
+      "193-200",
+      "I type a follow-up prompt into an AI assistant document.",
+      "Finishes typing and reviews handwritten formulas"
+    ],
+    [
+      "201-204",
+      "I review my handwritten formulas against the Claude interface.",
+      "Interrupted by verbalizing a break"
+    ],
+    [
+      "205",
+      "I say '休息，等晚上。等晚上。'",
+      "Picks up the phone to check messages"
+    ],
+    [
+      "206-210",
+      "I message babe on WeChat about configuring a Playwright plugin.",
+      "Returns to reading Claude derivations on the laptop"
+    ],
+    [
+      "211-219",
+      "I read mathematical derivations on Claude.",
+      "Switches to reviewing handwritten notes"
+    ],
+    [
+      "220-227",
+      "I review my handwritten numerical ODE notes.",
+      "Picks up the phone to read messages"
+    ],
+    [
+      "228-238",
+      "I message babe on WeChat regarding Claude Code.",
+      "Switches to browsing WeChat contacts and Moments"
+    ],
+    [
+      "239-249",
+      "I browse WeChat contact profiles and Moments timelines.",
+      "Batch ends"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      69,
+      205
+    ],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,39 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks based on the specific document being edited or read, and the device being used. Incidental utterances, waiting, and brief checks are absorbed into the ongoing primary task.",
+  "events": [
+    [
+      "250-313",
+      "I update activity reranking scores in my Feishu document.",
+      "Switches from laptop to checking phone."
+    ],
+    [
+      "314-366",
+      "I review academic seminar announcements from a WeChat conference invitation.",
+      "Switches to reading a different document in a different chat."
+    ],
+    [
+      "367-396",
+      "I read the AI & Humans conference Call for Papers document on WeChat.",
+      "Switches to a different app on the phone."
+    ],
+    [
+      "397",
+      "I read SMS messages on my phone.",
+      "Returns to working on the laptop."
+    ],
+    [
+      "398-499",
+      "I write reflection notes on activity comparisons in my Feishu document.",
+      "End of provided data."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

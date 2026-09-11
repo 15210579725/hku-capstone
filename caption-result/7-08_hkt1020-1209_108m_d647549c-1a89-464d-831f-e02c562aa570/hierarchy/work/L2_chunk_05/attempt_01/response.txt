@@ -1,0 +1,114 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group actions into immediate tasks based on continuous goals such as navigating specific sections of the ride, finding parking, arranging seating, navigating the McDonald's app to order food, discussing promotions with companions, waiting for food, interacting with counter staff, retrieving food, and eating.",
+  "events": [
+    [
+      "0-11",
+      "I converse about language models during my electric bike ride.",
+      "Conversation continues until arriving at the crosswalk."
+    ],
+    [
+      "12-26",
+      "I navigate an intersection on my electric bike.",
+      "Crosswalk navigation concludes upon entering the street bike lane."
+    ],
+    [
+      "27-35",
+      "I park my electric bike on the sidewalk.",
+      "Riding ends upon parking the electric bike."
+    ],
+    [
+      "36-38",
+      "I converse with my companion on the sidewalk.",
+      "Conversation pauses to enter the restaurant."
+    ],
+    [
+      "39-41",
+      "I enter the McDonald's restaurant.",
+      "Entry task is complete upon stepping into the dining area."
+    ],
+    [
+      "42-49",
+      "I help my companion arrange tables and chairs in the dining area.",
+      "Seating arrangement ends to sit and use the app."
+    ],
+    [
+      "50-60",
+      "I discuss ordering discounts with my companion over the McDonald's app.",
+      "App browsing pauses to greet arriving friends."
+    ],
+    [
+      "61-73",
+      "I arrange seating for my arriving friends.",
+      "Second seating arrangement concludes upon sitting down to order."
+    ],
+    [
+      "74-99",
+      "I purchase my food order on the McDonald's app.",
+      "Food ordering finishes upon payment and receiving the order number."
+    ],
+    [
+      "100-135",
+      "I discuss McDonald's app order limits with my companions at the dining table.",
+      "Order limit discussion shifts to asking about Wi-Fi."
+    ],
+    [
+      "136-141",
+      "I check the Wi-Fi settings on my friend's phone.",
+      "Wi-Fi task finishes upon returning to casual conversation."
+    ],
+    [
+      "142-157",
+      "I wait at the dining table during a conversation about our orders.",
+      "Waiting conversation is interrupted by the counter staff."
+    ],
+    [
+      "158-161",
+      "I agree to a bread substitute for my burger with the counter staff.",
+      "Bread substitute agreement concludes upon returning to friend conversation."
+    ],
+    [
+      "162-185",
+      "I collaborate with my friends to order a promotional toy.",
+      "Toy ordering task ends when the companion begins preparing their food."
+    ],
+    [
+      "186-198",
+      "I observe my companion eating their meal.",
+      "Observation of companion eating shifts to monitoring the pickup counter."
+    ],
+    [
+      "199-206",
+      "I monitor the McDonald's order pickup counter from the table.",
+      "Counter monitoring ends when the companion's order number is called."
+    ],
+    [
+      "207-212",
+      "I watch my companion collect their food order from the counter.",
+      "Food collection observation concludes when the companion returns to the table."
+    ],
+    [
+      "213-222",
+      "I observe the promotional food items brought by my companion.",
+      "Observation of new food items concludes to go pick up my own order."
+    ],
+    [
+      "223-233",
+      "I collect my food tray and a spoon from the counter.",
+      "Food and utensil collection finishes upon returning to the table to eat."
+    ],
+    [
+      "234-249",
+      "I eat my strawberry sundae during a discussion about a character collaboration.",
+      "End of available evidence during dessert and conversation."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

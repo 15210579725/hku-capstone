@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group the initial desk organization and laptop work into a single desk work phase, and unify all subsequent departure steps—preparation, trash disposal, elevator transit, and outdoor walking—into a broader building departure phase.",
+  "events": [
+    [
+      "0-1",
+      "I conduct a desk work session to test screen OCR dataset deduplication using Claude Code.",
+      "Work session ends as preparations to leave the apartment begin"
+    ],
+    [
+      "2-5",
+      "I depart my apartment building with my companion.",
+      "Departure phase progresses outdoors"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

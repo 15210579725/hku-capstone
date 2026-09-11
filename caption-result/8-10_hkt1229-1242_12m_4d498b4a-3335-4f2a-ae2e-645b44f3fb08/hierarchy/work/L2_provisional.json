@@ -1,0 +1,372 @@
+[
+  {
+    "id": 0,
+    "start": 44959,
+    "end": 44980,
+    "text": "I arrive at my desk in the office and plug in my laptop.",
+    "refs": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "boundary_reason": "Physical arrival completes, shifts to reviewing draft on laptop",
+    "origin_chunk": 1
+  },
+  {
+    "id": 1,
+    "start": 44980,
+    "end": 45024,
+    "text": "I read a PhD inquiry email draft about computational wellbeing and digital twins.",
+    "refs": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "boundary_reason": "Reading phase completes, shifts to highlighting specific text",
+    "origin_chunk": 1
+  },
+  {
+    "id": 2,
+    "start": 45025,
+    "end": 45053,
+    "text": "I highlight and review a sentence in the PhD email draft.",
+    "refs": [
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "boundary_reason": "Highlighting completes, opens insert menu",
+    "origin_chunk": 1
+  },
+  {
+    "id": 3,
+    "start": 45054,
+    "end": 45084,
+    "text": "I insert a timeline diagram into the email draft in Outlook.",
+    "refs": [
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "boundary_reason": "File insertion completes, returns to reading draft",
+    "origin_chunk": 1
+  },
+  {
+    "id": 4,
+    "start": 45084,
+    "end": 45111,
+    "text": "I review the introduction and research proposal in the email draft to Prof. X.",
+    "refs": [
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    "boundary_reason": "Reading completes, interrupted by blowing nose",
+    "origin_chunk": 1
+  },
+  {
+    "id": 5,
+    "start": 45111,
+    "end": 45139,
+    "text": "I use a tissue to blow and wipe my nose.",
+    "refs": [
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36
+    ],
+    "boundary_reason": "Physical action completes, returns to laptop",
+    "origin_chunk": 1
+  },
+  {
+    "id": 6,
+    "start": 45139,
+    "end": 45181,
+    "text": "I insert and resize an RL pipeline diagram in the email draft.",
+    "refs": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "boundary_reason": "Image insertion completes, moves to scheduling delivery",
+    "origin_chunk": 1
+  },
+  {
+    "id": 7,
+    "start": 45182,
+    "end": 45207,
+    "text": "I schedule the email delivery in Outlook for August 12 at 15:00.",
+    "refs": [
+      45,
+      46,
+      47,
+      48,
+      49
+    ],
+    "boundary_reason": "Scheduling completes, opens a new email draft",
+    "origin_chunk": 1
+  },
+  {
+    "id": 8,
+    "start": 45207,
+    "end": 45268,
+    "text": "I read an email draft to Prof. Rajendran and delete a paragraph about agent practice.",
+    "refs": [
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58
+    ],
+    "boundary_reason": "Text deletion completes, moves to insert image",
+    "origin_chunk": 1
+  },
+  {
+    "id": 9,
+    "start": 45269,
+    "end": 45296,
+    "text": "I insert an RL pipeline diagram into the email draft.",
+    "refs": [
+      59,
+      60,
+      61,
+      62,
+      63,
+      64
+    ],
+    "boundary_reason": "Insertion completes, returns to reviewing text",
+    "origin_chunk": 1
+  },
+  {
+    "id": 10,
+    "start": 45297,
+    "end": 45337,
+    "text": "I review the email draft paragraphs concerning meta-RL.",
+    "refs": [
+      65,
+      66,
+      67,
+      68,
+      69,
+      70
+    ],
+    "boundary_reason": "Reading completes, moves to attach file",
+    "origin_chunk": 1
+  },
+  {
+    "id": 11,
+    "start": 45338,
+    "end": 45366,
+    "text": "I attach my CV to the email draft and proofread the text.",
+    "refs": [
+      71,
+      72,
+      73,
+      74,
+      75,
+      76
+    ],
+    "boundary_reason": "Attachment completes, moves to deleting text",
+    "origin_chunk": 1
+  },
+  {
+    "id": 12,
+    "start": 45367,
+    "end": 45400,
+    "text": "I review the email draft and delete a sentence about simple environments.",
+    "refs": [
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83
+    ],
+    "boundary_reason": "Deletion completes, moves to typing new content",
+    "origin_chunk": 1
+  },
+  {
+    "id": 13,
+    "start": 45401,
+    "end": 45489,
+    "text": "I type sentences about fitness, meta-learning rewards, and emotion into the email draft.",
+    "refs": [
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94
+    ],
+    "boundary_reason": "Typing completes, switches to ChatGPT for revision",
+    "origin_chunk": 1
+  },
+  {
+    "id": 14,
+    "start": 45489,
+    "end": 45558,
+    "text": "I prompt ChatGPT to revise and compress the drafted academic text.",
+    "refs": [
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108
+    ],
+    "boundary_reason": "Generation completes, moves to copy the result",
+    "origin_chunk": 1
+  },
+  {
+    "id": 15,
+    "start": 45559,
+    "end": 45592,
+    "text": "I copy the revised text from ChatGPT and paste it into the Outlook email draft.",
+    "refs": [
+      109,
+      110,
+      111,
+      112,
+      113,
+      114
+    ],
+    "boundary_reason": "Pasting completes, moves to scheduling delivery",
+    "origin_chunk": 1
+  },
+  {
+    "id": 16,
+    "start": 45593,
+    "end": 45606,
+    "text": "I schedule the email delivery in Outlook for August 12 at 20:00.",
+    "refs": [
+      115,
+      116,
+      117,
+      118
+    ],
+    "boundary_reason": "Scheduling completes, switches to checking inbox folders",
+    "origin_chunk": 1
+  },
+  {
+    "id": 17,
+    "start": 45607,
+    "end": 45626,
+    "text": "I check the Sent Items and Drafts folders in Outlook.",
+    "refs": [
+      119,
+      120,
+      121,
+      122,
+      123
+    ],
+    "boundary_reason": "Outlook review completes, switches to Feishu",
+    "origin_chunk": 1
+  },
+  {
+    "id": 18,
+    "start": 45627,
+    "end": 45660,
+    "text": "I review PhD application cold email templates and schedules in Feishu.",
+    "refs": [
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132
+    ],
+    "boundary_reason": "Template review completes, switches to personal email",
+    "origin_chunk": 1
+  },
+  {
+    "id": 19,
+    "start": 45660,
+    "end": 45684,
+    "text": "I check my 163 Mail inbox and read an Apple subscription receipt.",
+    "refs": [
+      133,
+      134,
+      135,
+      136,
+      137,
+      138
+    ],
+    "boundary_reason": "Email check completes, changes browser tabs",
+    "origin_chunk": 1
+  },
+  {
+    "id": 20,
+    "start": 45684,
+    "end": 45698,
+    "text": "I manage my browser tabs and view an OCR benchmarking webpage.",
+    "refs": [
+      139,
+      140,
+      141,
+      142
+    ],
+    "boundary_reason": "Web browsing completes, shifts attention to earplugs",
+    "origin_chunk": 1
+  },
+  {
+    "id": 21,
+    "start": 45698,
+    "end": 45727,
+    "text": "I prepare and insert foam earplugs.",
+    "refs": [
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149
+    ],
+    "boundary_reason": "End of sequence",
+    "origin_chunk": 1
+  }
+]

@@ -1,0 +1,29 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group coding actions into coherent episodes based on the specific debugging or testing task being performed, abstracting incidental looks and idle time. Isolate the unrelated verbal description as a distinct episode.",
+  "events": [
+    [
+      "0-12",
+      "I troubleshoot a model evaluation pipeline using VS Code and Claude Code.",
+      "Context shifts from pipeline troubleshooting to a verbal description of furniture"
+    ],
+    [
+      "13",
+      "I verbally describe a furniture arrangement and moving items.",
+      "Context shifts from the verbal description to testing RAG capabilities"
+    ],
+    [
+      "14-18",
+      "I perform RAG testing on event logs using Claude Code.",
+      "End of recording"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

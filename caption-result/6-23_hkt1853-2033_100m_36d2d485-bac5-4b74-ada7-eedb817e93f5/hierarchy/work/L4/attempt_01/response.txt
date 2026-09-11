@@ -1,0 +1,39 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group L3 episodes into broader phases based on major location and overarching goals. Transit to a shopping location is merged with the shopping activity itself. Return transit is a distinct phase, followed by distinct home preparation and cooking phases.",
+  "events": [
+    [
+      "0-3",
+      "I shop for groceries at the supermarket with my companion.",
+      "Transition from the indoor supermarket to outdoor markets"
+    ],
+    [
+      "4-8",
+      "I purchase dumpling ingredients at the wet market and local grocery stores.",
+      "Shopping tasks complete, beginning return transit"
+    ],
+    [
+      "9-11",
+      "I return to my apartment.",
+      "Arrival at home and shift to indoor activities"
+    ],
+    [
+      "12",
+      "I prepare the bedroom environment with cooling appliances and water.",
+      "Change of location and task to cooking"
+    ],
+    [
+      "13-15",
+      "I prepare the dumpling dough in the kitchen.",
+      "End of recorded dough preparation"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

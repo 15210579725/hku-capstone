@@ -1,0 +1,139 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group action briefs into immediate, concrete tasks. Boundaries are formed when the user switches to a distinct application, task, or physical activity (e.g., from watching a video to reviewing tests, from browsing to playing the guitar). Progressive abstraction handles incidental looks, device interactions, and short sub-steps.",
+  "events": [
+    [
+      "1000-1004",
+      "I monitor terminal task progress.",
+      "Switches from monitoring terminal to reviewing benchmark results"
+    ],
+    [
+      "1005-1014",
+      "I review Flash Attention benchmark results on my laptop.",
+      "Switches from reviewing benchmark results to watching a concert video"
+    ],
+    [
+      "1015-1023",
+      "I watch a Jay Chou concert video.",
+      "Switches from watching a video to checking Bilibili messages"
+    ],
+    [
+      "1024-1025",
+      "I check my Bilibili messages.",
+      "Switches from checking messages to watching a concert video"
+    ],
+    [
+      "1026-1033",
+      "I watch a Bilibili concert video.",
+      "Switches from a Bilibili video to accessing Douyin"
+    ],
+    [
+      "1034-1044",
+      "I search for '退后' piano videos on Douyin.",
+      "Switches from searching to watching a piano performance"
+    ],
+    [
+      "1045-1048",
+      "I watch a piano performance on Douyin.",
+      "Switches from watching a video to initiating a new search"
+    ],
+    [
+      "1049-1063",
+      "I search for '路小雨 钢琴' videos on Douyin.",
+      "Switches from searching on Douyin to opening a video on Bilibili"
+    ],
+    [
+      "1064-1066",
+      "I open a Bilibili concert video.",
+      "Switches from watching a concert video to searching for piano videos"
+    ],
+    [
+      "1067-1099",
+      "I watch piano tutorial videos on Bilibili.",
+      "Switches from watching piano tutorial videos to a live concert video"
+    ],
+    [
+      "1100-1111",
+      "I watch a live concert performance video on Bilibili.",
+      "Switches from watching a video to inspecting discount vouchers"
+    ],
+    [
+      "1112-1116",
+      "I inspect restaurant discount vouchers.",
+      "Switches from inspecting vouchers to watching a concert video"
+    ],
+    [
+      "1117-1130",
+      "I watch a Bilibili concert video.",
+      "Switches from a concert video to a David Tao piano performance"
+    ],
+    [
+      "1131-1136",
+      "I watch a David Tao piano performance video on Bilibili.",
+      "Switches from watching a video to reviewing API tests"
+    ],
+    [
+      "1137-1143",
+      "I review Claude Code Gemini API tests.",
+      "Switches from reviewing tests to watching a music video"
+    ],
+    [
+      "1144-1148",
+      "I watch a Bilibili music video.",
+      "Switches from watching a music video to checking WeChat"
+    ],
+    [
+      "1149-1151",
+      "I check a WeChat call.",
+      "Switches from checking WeChat to accessing guitar tablature"
+    ],
+    [
+      "1152-1161",
+      "I access guitar tablature.",
+      "Switches from reading tablature to retrieving an acoustic guitar"
+    ],
+    [
+      "1162-1171",
+      "I retrieve my acoustic guitar from its gig bag.",
+      "Switches from retrieving the guitar to practicing fingerings"
+    ],
+    [
+      "1172-1177",
+      "I practice guitar fingerings.",
+      "Interrupts practice to attach a capo to the guitar"
+    ],
+    [
+      "1178-1184",
+      "I clamp a capo onto my acoustic guitar.",
+      "Returns to practicing guitar chords after attaching the capo"
+    ],
+    [
+      "1185-1204",
+      "I practice guitar chords using a tutorial video.",
+      "Switches from practicing with a tutorial video to adjusting chords using sheet music"
+    ],
+    [
+      "1205-1221",
+      "I adjust guitar chord fingerings using sheet music.",
+      "Switches from adjusting chord fingerings to practicing singing"
+    ],
+    [
+      "1222-1232",
+      "I practice singing the song '天天'.",
+      "Switches from singing to studying sheet music"
+    ],
+    [
+      "1233-1249",
+      "I study sheet music for my singing practice.",
+      "End of provided data"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

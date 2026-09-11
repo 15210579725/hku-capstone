@@ -1,0 +1,94 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into distinct immediate tasks: walking, preparing to ride, unlocking the scooter, distinct riding segments on campus and public roads, searching for the basketball court, parking the scooter, checking the app, and observing the game.",
+  "events": [
+    [
+      "0-2",
+      "I walk along the walkway.",
+      "Approaches transportation"
+    ],
+    [
+      "3-4",
+      "I approach the electric scooter.",
+      "Reaches scooter"
+    ],
+    [
+      "5",
+      "I tie my shoelace.",
+      "Shoelace tied"
+    ],
+    [
+      "6-8",
+      "I check my smartphone.",
+      "Phone check complete"
+    ],
+    [
+      "9-11",
+      "I unlock the Hello electric scooter using Alipay.",
+      "Scooter unlocked"
+    ],
+    [
+      "12-16",
+      "I ride the electric scooter along the campus road.",
+      "Reaches campus exit gate"
+    ],
+    [
+      "17-20",
+      "I exit the campus through the turnstile gate.",
+      "Clears campus gate"
+    ],
+    [
+      "21-29",
+      "I ride the electric scooter along the public road.",
+      "Segment complete"
+    ],
+    [
+      "30-36",
+      "I ride the electric scooter across the bridge.",
+      "Clears bridge"
+    ],
+    [
+      "37-46",
+      "I navigate the electric scooter onto the side walkway.",
+      "Reaches side walkway"
+    ],
+    [
+      "47-51",
+      "I search for the basketball court entrance.",
+      "Abandons incorrect entrance"
+    ],
+    [
+      "52-59",
+      "I maneuver the electric scooter along the side path.",
+      "Approaches destination gate"
+    ],
+    [
+      "60-63",
+      "I park the electric scooter.",
+      "Scooter parked"
+    ],
+    [
+      "64-65",
+      "I check the Hello e-bike app on my smartphone.",
+      "App checked"
+    ],
+    [
+      "66-67",
+      "I observe the basketball court from the courtyard.",
+      "Locates court"
+    ],
+    [
+      "68-71",
+      "I watch the basketball game from the sideline.",
+      "End of input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

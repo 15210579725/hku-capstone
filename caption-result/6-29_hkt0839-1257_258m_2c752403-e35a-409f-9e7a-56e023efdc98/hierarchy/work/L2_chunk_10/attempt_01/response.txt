@@ -1,0 +1,84 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group action briefs into immediate tasks based on contiguous locations, activities, and interaction targets. Conversations, walking phases, shop browsing, purchasing, and interacting with animals are separated into distinct tasks when a clear shift in goal or target occurs.",
+  "events": [
+    [
+      "2250-2251",
+      "I converse with my companion about our clothes getting wet.",
+      "Conversation concludes; shifts to walking."
+    ],
+    [
+      "2252-2273",
+      "I walk past various shops along the covered arcade walkway.",
+      "Enters a specific handicraft shop."
+    ],
+    [
+      "2274-2307",
+      "I browse flower hair accessories and jewelry with my companion inside a handicraft shop.",
+      "Shifts to the checkout counter to pay."
+    ],
+    [
+      "2308-2319",
+      "I complete a purchase at the checkout using a payment QR code on my smartphone.",
+      "Payment completes; exits the shop."
+    ],
+    [
+      "2320-2334",
+      "I walk along the arcade hallway after leaving the shop.",
+      "Transitions to walking on the open wet street."
+    ],
+    [
+      "2335-2365",
+      "I walk along the wet pedestrian street under an umbrella.",
+      "Arrives at and enters a cafe."
+    ],
+    [
+      "2366-2370",
+      "I open the glass door and enter the cafe with my companion.",
+      "Finishes entry; starts exploring the interior."
+    ],
+    [
+      "2371-2387",
+      "I explore the ground floor seating area of the cafe.",
+      "Leaves the ground floor to head upstairs."
+    ],
+    [
+      "2388-2394",
+      "I walk up the stairs and navigate the corridor to the balcony.",
+      "Reaches the balcony area."
+    ],
+    [
+      "2395-2424",
+      "I relax on the balcony and observe the atrium while my companion takes photos.",
+      "Shifts focus entirely to using the smartphone."
+    ],
+    [
+      "2425-2438",
+      "I check messages and view content on my smartphone.",
+      "Puts focus back on physical environment to arrange seating."
+    ],
+    [
+      "2439-2447",
+      "I position a wicker chair on the balcony and wait for my companion.",
+      "Leaves the balcony to head downstairs."
+    ],
+    [
+      "2448-2449",
+      "I descend the cafe staircase.",
+      "Reaches the ground floor and spots a kitten."
+    ],
+    [
+      "2450-2499",
+      "I coax and play with a kitten in the cafe seating area.",
+      "Batch ends while still interacting with the kitten."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

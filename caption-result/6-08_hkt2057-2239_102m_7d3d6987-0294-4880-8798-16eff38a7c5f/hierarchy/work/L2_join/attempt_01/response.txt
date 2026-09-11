@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Merge pairs that represent the exact same continuous immediate task interrupted by a batch edge, such as browsing the same item or watching the same media. Reject pairs that represent sequentially distinct tasks or unrelated actions.",
+  "merges": [
+    [
+      39,
+      40,
+      "I browse and select instant noodles with my companion.",
+      "Same instant noodle shopping task continues across batch edge"
+    ],
+    [
+      100,
+      101,
+      "I browse and watch various short videos on my phone.",
+      "Same short video browsing task continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

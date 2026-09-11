@@ -1,0 +1,29 @@
+```json
+{
+  "target_level": "L5",
+  "plan": "The input consists of three distinct phases: working on annotations, eating lunch, and resting. These represent separate major activities that do not share a single unified overarching goal, so they are kept distinct at the L5 level.",
+  "events": [
+    [
+      "0",
+      "I document video dataset annotations.",
+      "Distinct major work activity"
+    ],
+    [
+      "1",
+      "I have lunch with my companions at the basement cafeteria.",
+      "Distinct major meal activity"
+    ],
+    [
+      "2",
+      "I take a rest break.",
+      "Distinct major rest activity"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

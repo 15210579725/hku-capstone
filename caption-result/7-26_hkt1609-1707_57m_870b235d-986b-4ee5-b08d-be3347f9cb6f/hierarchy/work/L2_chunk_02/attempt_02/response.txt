@@ -1,0 +1,104 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks defined by location (e.g., specific stores, mall corridors) and primary objectives (e.g., exploring a car, purchasing a drink, or using a map application).",
+  "events": [
+    [
+      "250-261",
+      "I examine smartphone models at the Huawei store display.",
+      "Shifted focus to other store displays"
+    ],
+    [
+      "262-268",
+      "I head toward the showroom exit.",
+      "Left store to walk in mall corridor"
+    ],
+    [
+      "269-279",
+      "I walk through the mall corridor with my companion.",
+      "Shifted to searching on a navigation app"
+    ],
+    [
+      "280-289",
+      "I search for a pet store using the Amap navigation application.",
+      "Shifted to analyzing the physical environment for the store"
+    ],
+    [
+      "290-299",
+      "I try to determine the pet store's exact floor using the indoor map.",
+      "Entered a jewelry store"
+    ],
+    [
+      "300-316",
+      "I review the jewelry displays and daily gold retail prices at Chow Tai Fook.",
+      "Exited jewelry store to continue walking"
+    ],
+    [
+      "317-329",
+      "I converse with my companion about buying gold during our mall walk.",
+      "Entered POP MART store"
+    ],
+    [
+      "330-339",
+      "I browse the toy figurines and plush displays inside the POP MART store.",
+      "Exited store to walk in the mall"
+    ],
+    [
+      "340-352",
+      "I complain to my companion about frequent missed calls from a pet shop.",
+      "Shifted focus to mall atrium displays"
+    ],
+    [
+      "353-361",
+      "I observe storefronts and advertising displays in the mall atrium.",
+      "Stopped to check navigation app"
+    ],
+    [
+      "362-375",
+      "I consult the Amap indoor navigation to pinpoint the pet store's location.",
+      "Entered The Green Party store"
+    ],
+    [
+      "376-403",
+      "I select a beverage from the merchandise displays at The Green Party store.",
+      "Proceeded to checkout counter"
+    ],
+    [
+      "404-423",
+      "I purchase my beverage at the cashier using Alipay.",
+      "Payment completed"
+    ],
+    [
+      "424-431",
+      "I handle my store receipt and phone charging cable.",
+      "Resumed map search on phone"
+    ],
+    [
+      "432-439",
+      "I search for the elusive pet shop location on GaoDe Maps.",
+      "Exited store to walk in mall"
+    ],
+    [
+      "440-451",
+      "I exit The Green Party store into the main mall atrium.",
+      "Entered IM Motors showroom"
+    ],
+    [
+      "452-492",
+      "I explore the front passenger interior features of an IM Motors car.",
+      "Moved to the rear passenger seat"
+    ],
+    [
+      "493-499",
+      "I move to the rear passenger seat of the car to inspect its features.",
+      "End of input batch"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

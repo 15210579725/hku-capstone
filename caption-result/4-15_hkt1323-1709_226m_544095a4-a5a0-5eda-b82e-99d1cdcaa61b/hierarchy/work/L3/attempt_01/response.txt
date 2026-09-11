@@ -1,87 +1,72 @@
 ```json
 {
   "target_level": "L3",
-  "plan": "Group L2 tasks into coherent activity episodes based on location, primary target, and shared overarching goals such as meal preparation, transit phases, settling in, continuous video watching, and distinct study topics.",
+  "plan": "Group immediate L2 tasks into coherent L3 episodes based on distinct primary activities, location changes, and overarching goals such as cooking, eating, transit, resting, and academic studying.",
   "events": [
     [
       "0-1",
-      "I transfer my charging cable and floral backpack from the bedroom to the kitchen.",
-      "Completes item gathering phase"
+      "I relocate to the kitchen with my gathered belongings.",
+      "Arrival in the kitchen initiates food preparation."
     ],
     [
-      "2-8",
-      "I start cooking dumplings, an egg, and green vegetables in the kitchen.",
-      "Completes initial cooking phase"
+      "2-7",
+      "I prepare a meal of dumplings, an egg, and vegetables in the frying pan.",
+      "Initial cooking tasks are completed before a waiting period."
     ],
     [
-      "9-13",
-      "I wait for my food to cook by watching Bilibili videos at the dining table.",
-      "Completes waiting period before returning to kitchen"
+      "8-14",
+      "I watch Bilibili videos on my smartphone in the dining area during a break from cooking.",
+      "Returning to the kitchen concludes the waiting period."
     ],
     [
-      "14-16",
-      "I return to the kitchen to incorporate a peeled egg into my cooking food.",
-      "Completes final food preparation"
+      "15-17",
+      "I finish cooking my meal in the kitchen.",
+      "Food preparation concludes upon bringing the meal to the dining table."
     ],
     [
-      "17-39",
-      "I watch various smartphone videos during my meal at the dining table.",
-      "Completes meal and dining table video session"
+      "18-44",
+      "I consume my meal at the dining table alongside various smartphone videos.",
+      "Eating concludes and post-meal cleanup begins."
     ],
     [
-      "40-42",
-      "I clean the kitchen by washing the frying pan and replacing the trash bag.",
-      "Completes kitchen cleanup"
+      "45-49",
+      "I perform post-meal cleanup tasks throughout the kitchen and apartment.",
+      "Cleanup concludes before departing the apartment."
     ],
     [
-      "43-46",
-      "I exit my apartment building to the public street.",
-      "Completes building exit"
+      "50-55",
+      "I travel from my apartment through the city streets to a tram station.",
+      "Arrival at the tram station initiates the transit ride."
     ],
     [
-      "47-52",
-      "I walk through the city streets and a municipal building to reach a tram stop.",
-      "Completes pedestrian transit to tram"
+      "56-63",
+      "I travel to my destination via a double-decker tram.",
+      "Alighting from the tram completes the transit ride."
     ],
     [
-      "53-60",
-      "I ride a double-decker tram through the city.",
-      "Completes tram journey"
+      "64-70",
+      "I navigate from the tram stop to the 6th floor of the hospital.",
+      "Arrival at the 6th floor corridor precedes entering the library."
     ],
     [
-      "61-66",
-      "I walk up the street into the hospital building.",
-      "Completes pedestrian transit to destination"
+      "71-79",
+      "I rest at the library computer booth with my smartphone.",
+      "Initial resting phase shifts to focused video watching."
     ],
     [
-      "67-70",
-      "I take the hospital elevator to enter the 6th-floor library.",
-      "Completes arrival at library interior"
+      "80-121",
+      "I watch a series of videos on my smartphone at the library desk.",
+      "Video watching concludes to begin academic study."
     ],
     [
-      "71-84",
-      "I check WeChat messages during a rest break at my library computer booth.",
-      "Completes initial resting and settling phase"
+      "122-152",
+      "I study diffusion models using digital documents and AI tools at my computer workspace.",
+      "Study method shifts from purely digital to incorporating physical handwritten materials."
     ],
     [
-      "85-125",
-      "I watch various Bilibili and Douyin videos on my smartphone at my library desk.",
-      "Completes continuous smartphone entertainment session"
-    ],
-    [
-      "126-128",
-      "I set up my laptop workstation with earplugs.",
-      "Completes workspace setup"
-    ],
-    [
-      "129-156",
-      "I study diffusion model algorithms using AI assistants on my laptop.",
-      "Completes laptop-based AI study phase"
-    ],
-    [
-      "157-179",
-      "I study the DDPM paper on my laptop to write handwritten mathematical derivations.",
-      "Completes handwritten studying phase"
+      "153-170",
+      "I take handwritten mathematical notes on the DDPM research paper using my physical notepad.",
+      "End of recorded studying activity."
     ]
   ],
   "audit": {

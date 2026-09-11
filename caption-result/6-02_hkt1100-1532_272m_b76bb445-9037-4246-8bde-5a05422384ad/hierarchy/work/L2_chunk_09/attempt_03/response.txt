@@ -1,0 +1,104 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group sequential brief actions into immediate, unified tasks such as packing, walking to specific areas, checking rooms, setting up equipment, and distinct phases of reading/writing or interacting with applications.",
+  "events": [
+    [
+      "2000-2011",
+      "I pack my backpack and prepare to leave with my companion.",
+      "Finished packing and started walking out"
+    ],
+    [
+      "2012-2025",
+      "I walk through the cafeteria and lobby toward the classrooms.",
+      "Reached the classroom corridor and stopped to check a door"
+    ],
+    [
+      "2026-2030",
+      "I check classroom Y5-302 and find it locked.",
+      "Decided to go elsewhere after finding the door locked"
+    ],
+    [
+      "2031-2044",
+      "I go downstairs to the lecture theatre floor.",
+      "Reached the lecture theatre area"
+    ],
+    [
+      "2045-2054",
+      "I check the schedule at lecture theatre LT4.",
+      "Left LT4 to check another lecture theatre"
+    ],
+    [
+      "2055-2075",
+      "I enter lecture theatre LT6 and turn on the lights.",
+      "Finished entering and addressing the lights"
+    ],
+    [
+      "2076-2082",
+      "I survey the empty lecture theatre and decide to sit down.",
+      "Started moving to a desk to unpack"
+    ],
+    [
+      "2083-2098",
+      "I set up my laptop, water bottle, and earplugs at a desk.",
+      "Finished setting up the workspace and started reading"
+    ],
+    [
+      "2099-2115",
+      "I read and take notes on emotion modeling in the research document.",
+      "Switched applications to VS Code"
+    ],
+    [
+      "2116-2121",
+      "I review training logs and video annotations in VS Code.",
+      "Switched back to the browser and research document"
+    ],
+    [
+      "2122-2138",
+      "I type notes about emotional reward models into the document.",
+      "Switched focus to file management and upload"
+    ],
+    [
+      "2139-2146",
+      "I inspect transcription files in VS Code and monitor a video upload.",
+      "Upload monitoring complete; returned to reading document"
+    ],
+    [
+      "2147-2178",
+      "I read and add notes about computational emotion models in the research document.",
+      "Switched to opening Claude to ask a question"
+    ],
+    [
+      "2179-2194",
+      "I draft and submit a prompt about my digital twin project to Claude.",
+      "Submitted the prompt and started waiting for/reading the response"
+    ],
+    [
+      "2195-2204",
+      "I read Claude's retrieved papers and initial response on digital twins.",
+      "Finished initial read and opened the Claude settings menu"
+    ],
+    [
+      "2205-2223",
+      "I adjust custom instructions and review my account settings in Claude.",
+      "Closed settings to resume reading the chat"
+    ],
+    [
+      "2224-2246",
+      "I read Claude's literature review and recommendations on generative agents.",
+      "Finished reading the current chat and opened a new one"
+    ],
+    [
+      "2247-2249",
+      "I start a new chat and type a research query into Claude.",
+      "End of provided input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

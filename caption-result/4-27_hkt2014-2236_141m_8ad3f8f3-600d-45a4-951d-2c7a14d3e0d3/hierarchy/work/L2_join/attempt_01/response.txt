@@ -1,3 +1,11 @@
 ```json
-{"target_level":"L2_JOIN","plan":"Merge eligible pairs where the same immediate task clearly continues across the batch boundary without a shift in primary action, tool, or objective. Distinct steps, context switches, or tool changes will not be merged.","merges":[[35,36,"I interact with babe on WeChat regarding the Claude redemption code.","Both items involve the same continuous WeChat conversation with the same contact regarding the same immediate topic."]],"audit":{"complete":true,"uncertainties":[]}}
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate the eligible batch-edge pairs to determine if any artificially split a single, continuous immediate task. Pair [24, 25] shifts from reviewing a PDF to preparing a Claude prompt. Pair [47, 48] shifts WeChat topics from sending a redemption code to discussing research funding. Pair [63, 64] shifts physical actions from initializing electronics to preparing to sit. Pair [95, 96] transitions from navigating a login portal to reviewing academic grades. Pair [122, 123] transitions from reading specific ChatGPT guidelines to general browsing. Because all pairs represent genuine transitions to new immediate tasks or topics rather than the same interrupted task, no merges will be applied.",
+  "merges": [],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
 ```

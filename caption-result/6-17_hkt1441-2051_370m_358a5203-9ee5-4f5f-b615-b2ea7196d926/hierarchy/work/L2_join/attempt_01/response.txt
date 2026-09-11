@@ -1,0 +1,66 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate each eligible pair to merge only those that clearly continue the identical immediate task, such as a continuous physical movement, reading the same paper, or watching the same video, that was interrupted by a transport batch boundary.",
+  "merges": [
+    [
+      15,
+      16,
+      "I ride the escalator up to the next floor of the mall.",
+      "Escalator ride continues across batch edge"
+    ],
+    [
+      61,
+      62,
+      "I watch a clean energy documentary on my smartphone while eating my meal.",
+      "Documentary watching and eating continues across batch edge"
+    ],
+    [
+      107,
+      108,
+      "I read the Generative Agents research paper.",
+      "Reading the exact same paper continues across batch edge"
+    ],
+    [
+      128,
+      129,
+      "I review the AI Town and AgentSociety GitHub repositories.",
+      "Repository review continues across batch edge"
+    ],
+    [
+      145,
+      146,
+      "I rest in the dark, empty classroom.",
+      "Resting in the classroom continues across batch edge"
+    ],
+    [
+      155,
+      156,
+      "I inspect emotion activation values in the Gemma Emotion Probes dashboard.",
+      "Dashboard inspection continues across batch edge"
+    ],
+    [
+      206,
+      207,
+      "I set up my laptop browser and check proxy settings after restarting my MacBook.",
+      "Post-restart laptop setup continues across batch edge"
+    ],
+    [
+      230,
+      231,
+      "I walk along the platform and exit the MTR station through the turnstiles.",
+      "Station exit sequence continues across batch edge"
+    ],
+    [
+      241,
+      242,
+      "I watch a Korean drama video on my laptop with my roommate.",
+      "Video watching session continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

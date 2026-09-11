@@ -1,0 +1,30 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible batch boundary pairs to merge only those that continue the exact same immediate task, such as uninterrupted unpacking, sandwich preparation, or a single prompt-response cycle. Distinct sequential actions (like eating a meal vs. drinking soup, or distinct prompts) will remain separate.",
+  "merges": [
+    [
+      20,
+      21,
+      "I unpack my delivery parcels to retrieve a foam-wrapped item and a Spanish salami.",
+      "Both events describe the continuous immediate task of opening the same set of collected parcels."
+    ],
+    [
+      39,
+      40,
+      "I assemble a salami and jam sandwich.",
+      "Both events describe the continuous immediate task of preparing the same sandwich."
+    ],
+    [
+      81,
+      82,
+      "I prompt Claude Code to schedule daily automated predictions and read the recap outputs.",
+      "Writing a prompt and reading its direct outputs constitute a single immediate interaction cycle."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

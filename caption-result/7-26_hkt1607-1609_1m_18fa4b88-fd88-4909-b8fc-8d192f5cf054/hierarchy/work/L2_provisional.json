@@ -1,0 +1,88 @@
+[
+  {
+    "id": 0,
+    "start": 58077,
+    "end": 58083,
+    "text": "I walk down a hallway.",
+    "refs": [
+      0
+    ],
+    "boundary_reason": "Stops walking to interact with phone",
+    "origin_chunk": 1
+  },
+  {
+    "id": 1,
+    "start": 58084,
+    "end": 58101,
+    "text": "I open the WeChat chat list on my phone.",
+    "refs": [
+      1,
+      2,
+      3
+    ],
+    "boundary_reason": "Transitions to interacting with a specific location card",
+    "origin_chunk": 1
+  },
+  {
+    "id": 2,
+    "start": 58102,
+    "end": 58124,
+    "text": "I forward the ACG MOTOR CLUB location card to David [anonymized] in WeChat.",
+    "refs": [
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "boundary_reason": "Switches from forwarding a location to typing a text reply",
+    "origin_chunk": 1
+  },
+  {
+    "id": 3,
+    "start": 58124,
+    "end": 58136,
+    "text": "I type a WeChat reply about my visit time.",
+    "refs": [
+      9,
+      10
+    ],
+    "boundary_reason": "Switches to a different chat context",
+    "origin_chunk": 1
+  },
+  {
+    "id": 4,
+    "start": 58137,
+    "end": 58151,
+    "text": "I review a WeChat conversation with a pet seller.",
+    "refs": [
+      11,
+      12,
+      13
+    ],
+    "boundary_reason": "Looks up from the phone screen",
+    "origin_chunk": 1
+  },
+  {
+    "id": 5,
+    "start": 58152,
+    "end": 58155,
+    "text": "I observe a cleaning standards display.",
+    "refs": [
+      14
+    ],
+    "boundary_reason": "Resumes walking",
+    "origin_chunk": 1
+  },
+  {
+    "id": 6,
+    "start": 58156,
+    "end": 58159,
+    "text": "I walk down the mall hallway.",
+    "refs": [
+      15
+    ],
+    "boundary_reason": "End of input batch",
+    "origin_chunk": 1
+  }
+]

@@ -1,0 +1,49 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous video watching, app browsing, and physical transit actions into distinct immediate tasks. Abstract incidental looks, minor repositioning, and auditory subway announcements into their concurrent ongoing tasks.",
+  "events": [
+    ["250-256", "I watch a car review video on my phone.", "Conversation begins"],
+    ["257", "I hear my companion suggest buying bread.", "Conversation ends"],
+    ["258-259", "I watch a car review video on my phone.", "Conversation begins"],
+    ["260-261", "I discuss the wait time with my companion.", "Conversation ends"],
+    ["262-264", "I watch a car demonstration video on my phone.", "Video genre changes"],
+    ["265", "I watch a drama video clip on my phone.", "Video genre changes"],
+    ["266-269", "I watch a stand-up comedy video on my phone.", "Physical transit begins"],
+    ["270-272", "I board the train.", "Transit action completes"],
+    ["273", "I offer my companion a seat.", "Conversation ends"],
+    ["274-318", "I watch a stand-up comedy video on my phone.", "App usage changes"],
+    ["319-321", "I browse Xiaohongshu on my phone.", "Browsing ends"],
+    ["322-324", "I look around the train carriage.", "Video watching begins"],
+    ["325-333", "I watch a stand-up comedy video on my phone.", "Video topic changes"],
+    ["334-358", "I watch car industry videos on my phone.", "App usage changes"],
+    ["359-364", "I browse various short video clips on my phone.", "Physical action begins"],
+    ["365-368", "I plug my phone into the power bank.", "Action completes"],
+    ["369-372", "I browse the Bilibili feed on my phone.", "Video watching begins"],
+    ["373-375", "I watch an Apple Vision Pro review video on my phone.", "Video ends"],
+    ["376-380", "I browse the Bilibili feed on my phone.", "Video watching begins"],
+    ["381-404", "I watch a cooking video on my phone.", "Conversation begins"],
+    ["405-406", "I converse with my companion about being hungry.", "Conversation ends"],
+    ["407", "I check the train route map.", "Checking ends"],
+    ["408-420", "I watch food and restaurant videos on my phone.", "Video topic changes"],
+    ["421-429", "I watch dashcam driving footage on my phone.", "Conversation begins"],
+    ["430-444", "I discuss food vloggers with my companion.", "Conversation ends"],
+    ["445-447", "I browse the Bilibili feed on my phone.", "Video watching begins"],
+    ["448-472", "I watch a car review video on my phone.", "App usage changes"],
+    ["473-475", "I browse video recommendations on my phone.", "Video watching begins"],
+    ["476-478", "I watch a BMW video on my phone.", "Physical transit begins"],
+    ["479-482", "I exit the train onto the platform.", "Transit action completes"],
+    ["483", "I complain about my morning alarm.", "Conversation ends"],
+    ["484-486", "I ride the escalator.", "Escalator ride ends"],
+    ["487-492", "I walk across the station concourse.", "Turnstile approach"],
+    ["493-495", "I scan my phone at the exit turnstiles.", "Scanning completes"],
+    ["496-499", "I walk down the pedestrian corridor.", "End of batch"]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,3 +1,109 @@
 ```json
-{"target_level":"L2","plan":"Group sequence into immediate tasks by identifying continuous activities sharing a primary goal and target object/location, abstracting minor incidental movements and cleanups into their overarching task.","events":[["1000-1002","I navigate the indoor market to sit at a table.","Begins walking home"],["1003-1016","I walk along the street eating a pastry.","Turns off main street"],["1017-1033","I walk along outdoor walkways toward my apartment building.","Enters building lobby"],["1034-1036","I enter the apartment building lobby.","Enters elevator"],["1037-1044","I ride the elevator to my floor.","Arrives at apartment"],["1045-1050","I unlock the door to enter my apartment.","Moves to dining table"],["1051-1053","I unwrap a pastry at the dining table.","Moves to kitchen to wash hands"],["1054-1059","I wash my hands at the kitchen sink.","Starts preparing meat"],["1060-1068","I place raw meat into the air fryer.","Starts preparing stove"],["1069-1072","I heat a frying pan of water on the stove.","Adds ingredients to pan"],["1073-1087","I cook Shin Ramyun instant noodles with eggs in the frying pan.","Checks air fryer"],["1088-1090","I arrange the marinated meat inside the air fryer basket.","Checks noodles"],["1091-1092","I check the noodles cooking on the stove.","Sits at dining table"],["1093-1099","I spend time at the dining table.","Walks to bedroom"],["1100-1103","I walk to the small bedroom with a cucumber.","Returns to dining area"],["1104-1106","I return to the dining table.","Starts reading on smartphone"],["1107-1143","I read posts about Gemini Deep Research and FlashKDA on X using my smartphone.","Returns to kitchen to season food"],["1144-1152","I season the cooked meat in the air fryer.","Seasons noodles on stove"],["1153-1174","I prepare the boiling instant noodles with seasoning on the stove.","Converses with roommate at dining table"],["1175-1188","I discuss breakfast plans with my roommate at the dining table.","Roommate leaves immediate area"],["1189-1193","I pace between the kitchen and dining area.","Resumes conversation with roommate"],["1194-1198","I talk to my roommate about my noodles.","Starts cleaning kitchen"],["1199-1203","I wipe the kitchen countertop with a paper towel.","Checks air fryer"],["1204-1206","I adjust the air fryer settings.","Expresses fatigue"],["1207-1209","I complain about being tired.","Looks at smartphone"],["1210-1217","I browse apps and media on my smartphone.","Starts watching a video"],["1218-1244","I watch a Bilibili video about the Chinese food delivery industry on my smartphone.","Browses video recommendations"],["1245-1249","I browse the video recommendation feed on my smartphone.","End of sequence"]],"audit":{"complete":true,"uncertainties":[],"major_triggers":[],"boundary_cautions":[]}}
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks such as walking home, navigating the apartment building, washing hands, prepping the air fryer, starting the noodles, browsing the phone, adjusting food, finishing the noodles, serving food, and conversing with roommates.",
+  "events": [
+    [
+      "1000-1033",
+      "I walk home from the market.",
+      "Walking from the market through the streets to the apartment complex"
+    ],
+    [
+      "1034-1050",
+      "I navigate into my apartment.",
+      "Entering the building, taking the elevator, and unlocking the apartment door"
+    ],
+    [
+      "1051-1053",
+      "I unwrap my leftover pastry on the dining table.",
+      "Setting down and unwrapping the food brought from outside"
+    ],
+    [
+      "1054-1058",
+      "I wash my hands in the kitchen.",
+      "Handwashing before cooking"
+    ],
+    [
+      "1059-1067",
+      "I start cooking raw meat in the air fryer.",
+      "Placing meat in the air fryer and turning it on"
+    ],
+    [
+      "1068-1087",
+      "I start cooking instant noodles and eggs.",
+      "Rinsing the pan, boiling water, and adding the noodles and eggs"
+    ],
+    [
+      "1088-1090",
+      "I adjust the meat inside the air fryer.",
+      "Flattening the meat in the basket"
+    ],
+    [
+      "1091-1092",
+      "I inspect the cooking noodles.",
+      "Briefly checking the stove"
+    ],
+    [
+      "1093-1100",
+      "I arrange a grocery bag on my desk.",
+      "Sitting down and adjusting items"
+    ],
+    [
+      "1101-1105",
+      "I relocate to the dining table.",
+      "Moving across the room to sit at a different table"
+    ],
+    [
+      "1106-1143",
+      "I browse social media on my phone.",
+      "Reading various posts and articles on the phone"
+    ],
+    [
+      "1144-1152",
+      "I season the cooking meat in the air fryer.",
+      "Taking the meat out to season it and restarting the air fryer"
+    ],
+    [
+      "1153-1174",
+      "I finish cooking the instant noodles.",
+      "Adding seasoning packets and stirring the noodles to completion"
+    ],
+    [
+      "1175-1186",
+      "I discuss breakfast with my departing roommate.",
+      "Placing the food on the table and conversing with a roommate"
+    ],
+    [
+      "1187-1198",
+      "I converse with my roommates about my meal.",
+      "Lingering in the dining area and discussing the noodles"
+    ],
+    [
+      "1199-1203",
+      "I wipe the kitchen countertop.",
+      "Cleaning the food preparation area"
+    ],
+    [
+      "1204-1206",
+      "I check the food in the air fryer.",
+      "Briefly inspecting the cooking meat"
+    ],
+    [
+      "1207-1209",
+      "I complain about being tired.",
+      "Expressing fatigue from being woken up"
+    ],
+    [
+      "1210-1249",
+      "I watch videos on my phone.",
+      "Watching and scrolling through online video content"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
 ```

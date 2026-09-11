@@ -1,0 +1,36 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible boundary pairs to merge those that represent a single, continuous immediate task interrupted by transport batching.",
+  "merges": [
+    [
+      24,
+      25,
+      "I read Claude's explanations on expected error calculation, Bayesian positioning, and the Minimum Description Length framework.",
+      "Continuous reading of Claude's explanations on related machine learning concepts across the batch boundary."
+    ],
+    [
+      44,
+      45,
+      "I select dishes, including green peppers and 咸肉菜饭, from the cafeteria self-service counter.",
+      "Continuous selection of food items at the cafeteria self-service counter."
+    ],
+    [
+      60,
+      61,
+      "I review a payment and message babe about a tomato dish on WeChat using my smartphone.",
+      "Continuous smartphone usage reviewing a payment and messaging on WeChat."
+    ],
+    [
+      81,
+      82,
+      "I read DeepSeek explanations regarding MDL encoding, noisy weights, and KL divergence.",
+      "Continuous reading of DeepSeek's AI-generated mathematical explanations."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

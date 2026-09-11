@@ -1,0 +1,99 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks based on clear physical boundaries, interactions with specific objects or systems, and unified goals such as eating, transiting, or working.",
+  "events": [
+    [
+      "250-253",
+      "I eat dumplings at the outdoor dining table.",
+      "Leaves the table to request garlic"
+    ],
+    [
+      "254-259",
+      "I fetch garlic cloves from the shop.",
+      "Returns to the table with garlic and resumes eating"
+    ],
+    [
+      "260-337",
+      "I eat dumplings at the outdoor dining table.",
+      "Finishes eating and prepares to leave"
+    ],
+    [
+      "338-343",
+      "I prepare to ride a Hello rented electric scooter.",
+      "Completes preparation and starts riding"
+    ],
+    [
+      "344-380",
+      "I ride the electric scooter along the road.",
+      "Stops to consult the navigation app"
+    ],
+    [
+      "381-385",
+      "I check Amap on my phone to find my destination.",
+      "Lowers phone and resumes riding"
+    ],
+    [
+      "386-403",
+      "I ride the electric scooter to my destination.",
+      "Stops riding and dismounts"
+    ],
+    [
+      "404-406",
+      "I return the Hello rented electric scooter using the app.",
+      "Completes the return and walks to the campus entrance"
+    ],
+    [
+      "407-412",
+      "I enter the campus through the security turnstiles.",
+      "Starts walking along the campus pathways"
+    ],
+    [
+      "413-431",
+      "I walk along the campus pathway to the office building.",
+      "Reaches the building entrance doors"
+    ],
+    [
+      "432-445",
+      "I enter the office building through the security turnstiles.",
+      "Passes security and approaches the elevator"
+    ],
+    [
+      "446-454",
+      "I take the elevator to the fourth floor.",
+      "Exits the elevator on the target floor"
+    ],
+    [
+      "455-464",
+      "I walk through the office to the breakroom.",
+      "Enters the breakroom to get water"
+    ],
+    [
+      "465-477",
+      "I fill my water bottle at the water dispenser.",
+      "Finishes getting water and leaves the breakroom"
+    ],
+    [
+      "478-484",
+      "I walk to my workstation.",
+      "Arrives at the desk"
+    ],
+    [
+      "485-488",
+      "I prepare to work on my MacBook at my desk.",
+      "Workspace is ready and begins software work"
+    ],
+    [
+      "489-499",
+      "I work in VS Code on my MacBook.",
+      "End of input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,129 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks based on active app usage, specific product search queries, and clear navigational goals, while isolating the out-of-sequence timestamp event.",
+  "events": [
+    [
+      "750-756",
+      "I finish a phone call with contact 'ma' during a corridor walk.",
+      "Call ends and focus shifts to reading WeChat messages."
+    ],
+    [
+      "757-765",
+      "I manage WeChat messages regarding vehicle navigation testing.",
+      "Finishes messaging and resumes walking toward the elevator lobby."
+    ],
+    [
+      "766-772",
+      "I browse the Taobao recommendation feed at the elevator lobby.",
+      "Switches to using the Doubao AI app for gift ideas."
+    ],
+    [
+      "773-787",
+      "I use the Doubao AI app to search for budget-friendly gift ideas for my father's birthday.",
+      "Switches from Doubao back to the Taobao recommendation feed."
+    ],
+    [
+      "788-795",
+      "I browse smart gadgets on the Taobao recommendation feed near the glass office.",
+      "Changes focus to evaluating a specific companion robot listing."
+    ],
+    [
+      "796-821",
+      "I evaluate the EZVIZ TAMO companion robot camera product details on Taobao.",
+      "Switches to browsing an underwater drone listing."
+    ],
+    [
+      "822-824",
+      "I browse an underwater drone listing on Taobao during a corridor walk.",
+      "Switches to evaluating the EBO SE home companion robot."
+    ],
+    [
+      "825-839",
+      "I evaluate features and SKU options for the EBO SE pet monitoring robot on Taobao.",
+      "Returns to browsing the general Taobao recommendation feed."
+    ],
+    [
+      "840-852",
+      "I browse electronics and remote-control gadgets in the Taobao recommendation feed.",
+      "Executes a specific search for gifts for middle-aged men."
+    ],
+    [
+      "853-862",
+      "I browse massagers and lifestyle items in the Taobao search results for middle-aged men's gifts.",
+      "Interrupted by an out-of-sequence campus walking event."
+    ],
+    [
+      "863-868",
+      "I read a WeChat group chat about GPU allocations during a campus walk.",
+      "Time sequence returns to browsing smart glasses on e-commerce apps."
+    ],
+    [
+      "869-878",
+      "I view Rokid smart glasses product details on an e-commerce app.",
+      "Switches to evaluating Xiaomi AI glasses."
+    ],
+    [
+      "879-883",
+      "I check the black SKU option for the Xiaomi AI glasses.",
+      "Switches to evaluating second-hand smart glasses options on Xianyu."
+    ],
+    [
+      "884-893",
+      "I evaluate specification and price options for smart glasses on Xianyu.",
+      "Lowers phone briefly before returning to the Xiaomi AI glasses product page."
+    ],
+    [
+      "894-903",
+      "I scroll through smart glasses listings including the Xiaomi AI glasses.",
+      "Opens the INMO AIR3 AI glasses product page."
+    ],
+    [
+      "904-910",
+      "I review the INMO AIR3 AI glasses product details within the smart glasses search results.",
+      "Changes search query to sports shoes."
+    ],
+    [
+      "911-925",
+      "I view Nike and Adidas running shoe listings in the Taobao sports shoes search results.",
+      "Refines search specifically for hiking shoes."
+    ],
+    [
+      "926-935",
+      "I browse outdoor footwear listings in the hiking shoes search results during a walk.",
+      "Changes search query to commuter shoes."
+    ],
+    [
+      "936-948",
+      "I browse a variety of athletic sneaker brands in the commuter shoes search results.",
+      "Enters the lounge area and searches for Nike sneakers."
+    ],
+    [
+      "949-962",
+      "I search for Nike sneakers on the shopping app near the lounge windows.",
+      "Changes search query to Lululemon pants."
+    ],
+    [
+      "963-966",
+      "I inspect Lululemon pants listings in the Taobao search results.",
+      "Returns to home feed and searches for pet robots."
+    ],
+    [
+      "967-977",
+      "I scroll through the mobile camera ranking leaderboard during a pet robot search on Taobao.",
+      "Opens a specific pet companion robot listing to view details."
+    ],
+    [
+      "978-999",
+      "I review product details and SKU checkout options for the EBO SE and other pet companion robots.",
+      "End of input sequence during checkout for the EBO SE robot."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

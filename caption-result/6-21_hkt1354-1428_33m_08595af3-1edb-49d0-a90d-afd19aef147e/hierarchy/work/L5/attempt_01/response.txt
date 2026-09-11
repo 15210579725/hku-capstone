@@ -1,0 +1,32 @@
+```json
+{
+  "target_level": "L5",
+  "plan": "Maintain the distinct major activities as they represent separate high-level goals: a primary project work session, a distinct social media break prompted by fatigue, and a brief final work task concluding with a major trigger to sleep.",
+  "events": [
+    [
+      "0",
+      "I generate project assets including puzzle diagrams, room layouts, and Python scripts using AI and design tools.",
+      "Sustained project work session"
+    ],
+    [
+      "1",
+      "I browse social media on my phone after telling my roommate about my fatigue.",
+      "Distinct break activity triggered by fatigue"
+    ],
+    [
+      "2",
+      "I refine an AI image generation prompt on my computer before stating my intention to sleep.",
+      "Final brief task ending with a behavior-changing sleep trigger"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "telling my roommate about my fatigue",
+      "stating my intention to sleep"
+    ],
+    "boundary_cautions": []
+  }
+}
+```

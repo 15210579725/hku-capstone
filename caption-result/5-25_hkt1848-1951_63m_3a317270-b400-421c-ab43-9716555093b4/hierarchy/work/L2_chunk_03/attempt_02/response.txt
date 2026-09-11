@@ -1,0 +1,156 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into unified immediate tasks based on shared short-term goals and locations. Progressive abstraction is applied to incidental navigation and intermediate steps. The vocalized decision to buy tissues (593) introduces a new location and goal, so it is kept standalone as a major behavior-changing trigger.",
+  "events": [
+    [
+      "500-502",
+      "I ride the escalator.",
+      "Escalator ride ends"
+    ],
+    [
+      "503-512",
+      "I walk along the street.",
+      "Reaches supermarket entrance"
+    ],
+    [
+      "513-524",
+      "I browse the grocery products inside the supermarket.",
+      "Stops to pick up an item"
+    ],
+    [
+      "525",
+      "I pick up a pack of Yuyang pickled mustard tuber.",
+      "Action complete"
+    ],
+    [
+      "526-528",
+      "I check WeChat messages on my smartphone.",
+      "Puts phone away"
+    ],
+    [
+      "529-532",
+      "I inspect the pickled mustard tuber among the grocery shelves.",
+      "Moves to next aisle"
+    ],
+    [
+      "533-535",
+      "I walk down the supermarket aisle.",
+      "Stops to examine salt"
+    ],
+    [
+      "536-544",
+      "I locate and examine a packet of Chrysanthemum table salt.",
+      "Moves to fresh produce section"
+    ],
+    [
+      "545-552",
+      "I browse the fresh produce section with my shopping basket.",
+      "Begins selecting vegetables"
+    ],
+    [
+      "553-562",
+      "I select garlic, baby cabbage, and lettuce for my shopping basket.",
+      "Finishes vegetable selection"
+    ],
+    [
+      "563-566",
+      "I wait for an employee at the produce scale.",
+      "Moves to bakery section"
+    ],
+    [
+      "567-575",
+      "I select a loaf of handmade toast from the bakery display.",
+      "Moves to checkout"
+    ],
+    [
+      "576-589",
+      "I check out my groceries at the cashier counter.",
+      "Completes payment and packing"
+    ],
+    [
+      "590-592",
+      "I leave the supermarket.",
+      "Exits store"
+    ],
+    [
+      "593",
+      "I state my intention to buy a pack of tissue.",
+      "Initiates new goal to buy tissue"
+    ],
+    [
+      "594-614",
+      "I walk along the street to the Wellcome supermarket.",
+      "Reaches supermarket entrance"
+    ],
+    [
+      "615-622",
+      "I pick up a pack of Virjoy tissue inside the supermarket.",
+      "Resumes browsing other products"
+    ],
+    [
+      "623-639",
+      "I browse tissue products in the supermarket aisles.",
+      "Moves to self-checkout"
+    ],
+    [
+      "640-650",
+      "I complete my purchase at the self-checkout kiosk.",
+      "Completes self-checkout"
+    ],
+    [
+      "651-653",
+      "I exit the supermarket.",
+      "Exits store"
+    ],
+    [
+      "654-661",
+      "I walk along the sidewalk to a pedestrian crossing.",
+      "Reaches crossing"
+    ],
+    [
+      "662-666",
+      "I cross the intersecting streets via pedestrian crossings.",
+      "Completes street crossing"
+    ],
+    [
+      "667-685",
+      "I walk through the pedestrian plaza towards the next street.",
+      "Reaches next crossing"
+    ],
+    [
+      "686-689",
+      "I cross the street at the pedestrian crossing.",
+      "Completes street crossing"
+    ],
+    [
+      "690-699",
+      "I navigate the tram tracks and sidewalks at the intersection.",
+      "Reaches next crossing"
+    ],
+    [
+      "700-718",
+      "I walk along the street past parked trucks and vehicles.",
+      "Enters waterfront promenade"
+    ],
+    [
+      "719-741",
+      "I walk through the waterfront promenade toward the railing.",
+      "Stops at waterfront railing"
+    ],
+    [
+      "742-749",
+      "I prepare to eat my toast at the waterfront railing.",
+      "Video ends"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      593
+    ],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,127 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group action briefs into immediate tasks based on continuous actions serving a single objective, such as discussing plans in the car, navigating to a destination, or interacting with specific pets in the shop.",
+  "events": [
+    [
+      "0-11",
+      "I discuss my afternoon plans and PhD applications with my companion and the driver.",
+      "Conversation concludes."
+    ],
+    [
+      "12-22",
+      "I observe the road while riding in the car.",
+      "Driver asks to confirm destination."
+    ],
+    [
+      "23-30",
+      "I confirm the destination at 太平洋中环广场 on the map for the driver.",
+      "Destination is confirmed."
+    ],
+    [
+      "31-38",
+      "I observe the streetscape while riding in the car.",
+      "Car enters underground garage."
+    ],
+    [
+      "39-57",
+      "I observe the underground parking garage during arrival.",
+      "Parking is completed."
+    ],
+    [
+      "58-64",
+      "I read an SMS verification code upon exiting the car.",
+      "SMS verification is completed."
+    ],
+    [
+      "65-72",
+      "I walk to the elevator lobby while discussing PhD recruitment with my companion.",
+      "Arrival at parking kiosk."
+    ],
+    [
+      "73-77",
+      "I search for my parked vehicle using the parking kiosk.",
+      "Vehicle search completes."
+    ],
+    [
+      "78-84",
+      "I ride the elevator to the commercial floor while reading the directory.",
+      "Elevator ride completes."
+    ],
+    [
+      "85-90",
+      "I observe the abandoned appearance of the commercial plaza upon entry.",
+      "Decision to visit pet shop."
+    ],
+    [
+      "91-105",
+      "I ride the outdoor escalator to the second floor to visit 李小姐宠物馆.",
+      "Arrival at second floor."
+    ],
+    [
+      "106-125",
+      "I navigate the outdoor corridor to 李小姐宠物馆 using Amap.",
+      "Arrival at pet shop."
+    ],
+    [
+      "126-133",
+      "I watch cats in the display enclosures with my companion.",
+      "Attention shifts to retail area."
+    ],
+    [
+      "134-143",
+      "I pet a white dog while observing the pet shop retail area.",
+      "Interaction with tiny puppy begins."
+    ],
+    [
+      "144-151",
+      "I handle a tiny puppy on a stool until receiving a correction.",
+      "Puppy walks away."
+    ],
+    [
+      "152-174",
+      "I inquire about the pet boarding service while observing cats in the display cabinets.",
+      "Movement to boarding section."
+    ],
+    [
+      "175-192",
+      "I explore the pet boarding and kennel section.",
+      "Return to lounge area."
+    ],
+    [
+      "193-202",
+      "I browse the pet food and toy displays.",
+      "Interaction with Yorkie puppy begins."
+    ],
+    [
+      "203-213",
+      "I hold a Yorkshire terrier puppy while listening to a woman discuss pet ownership.",
+      "Attention shifts back to cat cabinets."
+    ],
+    [
+      "214-234",
+      "I tease kittens in the display cabinets alongside my companion.",
+      "Departure from pet shop."
+    ],
+    [
+      "235-240",
+      "I propose going to another shopping mall after exiting the pet shop.",
+      "Amap search for new mall begins."
+    ],
+    [
+      "241-249",
+      "I suggest visiting Wanda after searching for a shopping mall on Amap.",
+      "Amap search completes."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "91",
+      "240"
+    ],
+    "boundary_cautions": []
+  }
+}
+```

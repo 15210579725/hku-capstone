@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Review eligible batch edge pairs for continuity of the exact same immediate task. Merge ChatGPT SVG rendering (56-57) and Claude Code terminal prompt drafting (81-82). Keep Figma cross-referencing and workspace browsing (28-29) separate as they are distinct immediate actions.",
+  "merges": [
+    [
+      56,
+      57,
+      "I use ChatGPT to render and inspect the SVG diagram code.",
+      "Same task of using ChatGPT to render the SVG continues across the batch edge"
+    ],
+    [
+      81,
+      82,
+      "I draft architectural instructions in the Claude Code terminal prompt using a preview image.",
+      "Same task of writing the Claude Code prompt continues across the batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

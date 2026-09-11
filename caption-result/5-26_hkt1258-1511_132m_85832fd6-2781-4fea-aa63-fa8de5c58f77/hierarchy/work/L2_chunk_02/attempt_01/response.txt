@@ -1,0 +1,189 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous action briefs into immediate tasks based on the primary action and target object. Separate short interruptions such as phone checks, quick conversations, or looking at surroundings into their own tasks. Group distinct phases of cooking like preparing vegetables, microwaving rice, adding ingredients, and active stir-frying into cohesive tasks. Consolidate sustained screen activities like reading code files, checking study spots, and messaging.",
+  "events": [
+    [
+      "250-267",
+      "I eat fried rice and scrape the remaining food from the pan.",
+      "Eating meal finishes, transitioning to dishwashing"
+    ],
+    [
+      "268-269",
+      "I view my WeChat chat list on my smartphone.",
+      "Phone check completes, proceeding to the kitchen"
+    ],
+    [
+      "270-277",
+      "I wash the frying pan in the kitchen sink.",
+      "Pan is clean, transitioning to cooking new food"
+    ],
+    [
+      "278-300",
+      "I wash, trim, and stir-fry cabbage and lettuce in the pan.",
+      "Vegetables are cooking, moving to a different kitchen task"
+    ],
+    [
+      "301-304",
+      "I discard an empty cardboard box in the trash.",
+      "Trash is disposed of, shifting back to food preparation"
+    ],
+    [
+      "305-307",
+      "I microwave a container of instant rice.",
+      "Rice is microwaving, doing other kitchen tasks"
+    ],
+    [
+      "308-311",
+      "I move a seasoning packet to the kitchen countertop.",
+      "Seasoning is retrieved, returning to the stove"
+    ],
+    [
+      "312",
+      "I stir-fry the cabbage in the pan.",
+      "Cooking interrupted by a phone check"
+    ],
+    [
+      "313-318",
+      "I send a WeChat message to babe.",
+      "Message sent, switching to laptop use"
+    ],
+    [
+      "319-320",
+      "I read a markdown file in VS Code on my laptop.",
+      "Laptop use interrupted by an event at the front door"
+    ],
+    [
+      "321-323",
+      "I open the front door and return to the kitchen.",
+      "Door interaction completes, returning to cooking"
+    ],
+    [
+      "324-333",
+      "I monitor the cooking cabbage and prepare a garlic clove.",
+      "Vegetable checking completes, moving to retrieve rice"
+    ],
+    [
+      "334-337",
+      "I retrieve the heated instant rice from the microwave.",
+      "Rice is ready, returning to the stove"
+    ],
+    [
+      "338-344",
+      "I adjust the stove and continue stir-frying the cabbage.",
+      "Stir-frying pauses to get butter from the fridge"
+    ],
+    [
+      "345-351",
+      "I slice a piece of butter and add it to the frying pan.",
+      "Butter added, proceeding to mix ingredients"
+    ],
+    [
+      "352-368",
+      "I add cooked rice and seasoning to the pan and stir-fry the mixture.",
+      "Rice and seasoning mixed in, pausing to retrieve salt"
+    ],
+    [
+      "369-373",
+      "I sprinkle salt and stir-fry the food.",
+      "Salt added, stepping away to check phone"
+    ],
+    [
+      "374-378",
+      "I check WeChat messages from babe on my smartphone.",
+      "Messages checked, returning to the kitchen"
+    ],
+    [
+      "379-390",
+      "I toss and stir-fry the food in the pan.",
+      "Stir-frying finishes, preparing final ingredients"
+    ],
+    [
+      "391-400",
+      "I add a garlic clove to the wok and set aside a pickled mustard greens packet.",
+      "Ingredients added, pausing cooking tasks"
+    ],
+    [
+      "401",
+      "I observe another person cooking at the stove.",
+      "Brief observation concludes"
+    ],
+    [
+      "402-406",
+      "I gather a charging cable while checking my surroundings.",
+      "Cable gathered, switching attention to phone"
+    ],
+    [
+      "407-414",
+      "I exchange messages with babe on WeChat.",
+      "Messaging pauses to adjust window blinds"
+    ],
+    [
+      "415-416",
+      "I adjust the window blind.",
+      "Blind adjusted, returning to phone and cooking checks"
+    ],
+    [
+      "417-421",
+      "I inspect the cooking stir-fry while browsing WeChat.",
+      "Stove and phone checked, moving to the dining area"
+    ],
+    [
+      "422-428",
+      "I examine a packet of pickled mustard greens at my desk.",
+      "Packet examined, checking phone again"
+    ],
+    [
+      "429-431",
+      "I read WeChat messages from babe.",
+      "Messages read, walking to the bedroom"
+    ],
+    [
+      "432-435",
+      "I open the bedroom window and adjust the air conditioner.",
+      "Climate control set, returning to laptop"
+    ],
+    [
+      "436-450",
+      "I read code files and diary entries in VS Code.",
+      "Code and diary review completes, switching tasks"
+    ],
+    [
+      "451-456",
+      "I review study notes and search for an address on ChatGPT.",
+      "Study tasks complete, proceeding to pack up"
+    ],
+    [
+      "457-460",
+      "I pack my laptop into my backpack.",
+      "Laptop packed, checking phone"
+    ],
+    [
+      "461-462",
+      "I view WeChat messages from babe.",
+      "Messages viewed, turning attention to food"
+    ],
+    [
+      "463-467",
+      "I turn off the light and bring the frying pan of cooked food to the dining table.",
+      "Food placed at the table, checking phone"
+    ],
+    [
+      "468",
+      "I read WeChat messages from babe.",
+      "Messages read, starting study spot research"
+    ],
+    [
+      "469-499",
+      "I search Xiaohongshu and Google Maps for quiet study spots in Hong Kong.",
+      "End of input data"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

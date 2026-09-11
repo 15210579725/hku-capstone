@@ -1,0 +1,154 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks based on shared overarching goals, specific geographic segments (like waiting at intersections, riding on distinct path types), and continuous software or object interactions, progressively abstracting incidental glances and brief conversational remarks.",
+  "events": [
+    [
+      "0-10",
+      "I walk to the electric scooter parking area.",
+      "Arrived at the parked scooters"
+    ],
+    [
+      "11-13",
+      "I check my smartphone in the parking area.",
+      "Switched attention to the scooter"
+    ],
+    [
+      "14-16",
+      "I unlock my electric scooter using the Hello app.",
+      "Scooter is unlocked and ready"
+    ],
+    [
+      "17-46",
+      "I ride my electric scooter along the road.",
+      "Turned onto the sidewalk"
+    ],
+    [
+      "47-59",
+      "I ride my electric scooter along the sidewalk.",
+      "Entered an intersection"
+    ],
+    [
+      "60-65",
+      "I follow a scooter rider across the intersection.",
+      "Stopped at a red light"
+    ],
+    [
+      "66-70",
+      "I wait at a red traffic signal behind a scooter.",
+      "Light changed, resumed riding"
+    ],
+    [
+      "71-82",
+      "I follow a scooter rider along the bike lane.",
+      "Approached a signaled intersection"
+    ],
+    [
+      "83-87",
+      "I ride my electric scooter across a signaled intersection.",
+      "Reached the bridge approach"
+    ],
+    [
+      "88-101",
+      "I ride my electric scooter across a bridge past a gas station.",
+      "Approaching a red light"
+    ],
+    [
+      "102-104",
+      "I wait at a red traffic light near a crosswalk.",
+      "Light changed, crossing intersection"
+    ],
+    [
+      "105-109",
+      "I ride my electric scooter across the intersection onto a side path.",
+      "Stopped to wait at a crosswalk"
+    ],
+    [
+      "110-126",
+      "I wait at a crosswalk with other scooter riders.",
+      "Began riding across the crosswalk"
+    ],
+    [
+      "127-142",
+      "I ride my electric scooter along the bike lane.",
+      "Turned right onto the street"
+    ],
+    [
+      "143-150",
+      "I ride my electric scooter along the street past office buildings.",
+      "Approached the entrance gate"
+    ],
+    [
+      "151-155",
+      "I ride my electric scooter through the security gate.",
+      "Passed the gate and continued on driveway"
+    ],
+    [
+      "156-166",
+      "I ride my electric scooter along the driveway toward the office building.",
+      "Arrived at the parking zone"
+    ],
+    [
+      "167-170",
+      "I use the Hellobike app to park my electric scooter.",
+      "Finished interacting with the scooter app"
+    ],
+    [
+      "171-180",
+      "I enter the office building lobby through the turnstile.",
+      "Moved to the elevator area"
+    ],
+    [
+      "181-190",
+      "I take the elevator to my office floor.",
+      "Exited the elevator"
+    ],
+    [
+      "191-198",
+      "I review social media posts on a colleague's laptop in office C909.",
+      "Stood up to look for an object"
+    ],
+    [
+      "199-201",
+      "I search my desk area for my missing water bottle.",
+      "Left the office to find the water bottle"
+    ],
+    [
+      "202-213",
+      "I transport my retrieved water bottle from the lounge to the pantry.",
+      "Arrived at the water dispenser"
+    ],
+    [
+      "214-221",
+      "I fill my water bottle at the water dispenser.",
+      "Finished filling the water bottle"
+    ],
+    [
+      "222-227",
+      "I return to my desk with my filled water bottle.",
+      "Arrived at desk and put down items"
+    ],
+    [
+      "228-239",
+      "I review rollout options in the POV Rollout Viewer.",
+      "Switched to typing a recap"
+    ],
+    [
+      "240-244",
+      "I submit a task recap on my computer.",
+      "Completed recap submission"
+    ],
+    [
+      "245-249",
+      "I examine GPU fleet metrics and VRS processing speeds.",
+      "End of sequence"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

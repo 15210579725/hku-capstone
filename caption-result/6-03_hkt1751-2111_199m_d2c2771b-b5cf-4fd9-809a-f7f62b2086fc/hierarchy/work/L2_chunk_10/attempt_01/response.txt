@@ -1,0 +1,64 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks based on shared immediate goals and locations. Boundaries are placed at transitions between walking/navigating segments, focused device interactions, and significant temporal or contextual shifts.",
+  "events": [
+    [
+      "0-4",
+      "I exit the concourse by walking down the stairs.",
+      "Completes exiting the concourse"
+    ],
+    [
+      "5-13",
+      "I navigate from the footbridge down the elevator while discussing buying pears.",
+      "Completes descending to the street level via the elevator"
+    ],
+    [
+      "14-29",
+      "I walk along the sidewalk toward a building entrance while viewing apartment photos on my companion's phone.",
+      "Reaches the building entrance, changing environment"
+    ],
+    [
+      "30-39",
+      "I navigate the building lobby to ride the escalator while conversing with my companion about our sports performance.",
+      "Shifts primary focus to checking WeChat on the phone"
+    ],
+    [
+      "40-44",
+      "I check the capstone project chat on WeChat while my companion discusses the project.",
+      "Finishes checking the phone and resumes active travel"
+    ],
+    [
+      "45-55",
+      "I travel through the building to the outdoor entrance steps while discussing the capstone project.",
+      "Exits the building to the outdoor area"
+    ],
+    [
+      "56-66",
+      "I walk along the outdoor corridor while contemplating eating noodles.",
+      "Transitions into the courtyard area"
+    ],
+    [
+      "67-80",
+      "I walk through the courtyard to the circular plaza while conversing.",
+      "Significant temporal jump to a different recording session"
+    ],
+    [
+      "81-85",
+      "I observe my companion preparing for the next session by retrieving items from her brown backpack.",
+      "Location and context shift to the squash court"
+    ],
+    [
+      "86-90",
+      "I prepare for the next squash rally with my partner by bouncing and catching the ball.",
+      "Ends at the conclusion of the input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

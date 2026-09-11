@@ -1,0 +1,114 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group immediate tasks by identifying shifts in primary attention and active interaction, such as switching between reading articles on X, speaking in the Zoom meeting, interacting with Claude AI, or periods of fidgeting and observing surroundings.",
+  "events": [
+    [
+      "0-10",
+      "I use Claude AI to troubleshoot a 400 error.",
+      "Switches to browsing X"
+    ],
+    [
+      "11-31",
+      "I read an article about Memento context management on X while a colleague speaks in a Zoom meeting.",
+      "I begin speaking in the Zoom meeting"
+    ],
+    [
+      "32-34",
+      "I discuss the limitations of EEG data for computational modeling in the Zoom meeting.",
+      "Finishes speaking and resumes reading"
+    ],
+    [
+      "35-47",
+      "I review a draft article on X about memory compression and summarization.",
+      "Switches to typing in Claude"
+    ],
+    [
+      "48-55",
+      "I type into Claude while referencing a canvas line drawing and a Zoom presentation.",
+      "Switches to reading an X post"
+    ],
+    [
+      "56-63",
+      "I read a draft post about LLM data generation on X.",
+      "Starts speaking in the Zoom meeting"
+    ],
+    [
+      "64-65",
+      "I discuss incorporating computational models with a meeting participant on Zoom.",
+      "Finishes discussion and returns to reading"
+    ],
+    [
+      "66-74",
+      "I read about the Open-Mementos dataset compression and two-stage training strategy on X.",
+      "Distracted by physical surroundings"
+    ],
+    [
+      "75-93",
+      "I monitor the Zoom meeting and read an article about model training pressure while glancing at objects in my environment.",
+      "Picks up and fidgets with a headband"
+    ],
+    [
+      "94-105",
+      "I fidget with a black zigzag headband while looking at the Zoom meeting and laptop screen.",
+      "Starts speaking in the Zoom meeting"
+    ],
+    [
+      "106-109",
+      "I explain the interval timing and motor effects of a reproduction task in the Zoom meeting.",
+      "Finishes speaking and listens to a response"
+    ],
+    [
+      "110-121",
+      "I listen to a Zoom participant discuss computational modeling parameters while viewing an X post.",
+      "Asks a follow-up question"
+    ],
+    [
+      "122-123",
+      "I ask a question about paradigm differences in the Zoom meeting.",
+      "Finishes speaking and resumes reading and fidgeting"
+    ],
+    [
+      "124-128",
+      "I fidget with a black zigzag headband while reading about compaction accuracy on X.",
+      "A Zoom participant starts a detailed explanation about P3 components"
+    ],
+    [
+      "129-149",
+      "I listen to a Zoom discussion about P3 components and target rarity while fidgeting with hairbands and a coiled cable.",
+      "Starts typing on the laptop keyboard"
+    ],
+    [
+      "150-170",
+      "I type a post on X and review technical notes about KV cache while monitoring the Zoom meeting.",
+      "Switches to a ChatGPT conversation"
+    ],
+    [
+      "171-174",
+      "I read a ChatGPT prompt while watching the Zoom presentation slide.",
+      "A Q&A session starts in the Zoom meeting"
+    ],
+    [
+      "175-178",
+      "I listen to a Zoom Q&A session about duration estimation for audio and visual cues.",
+      "Resumes typing and browsing on X"
+    ],
+    [
+      "179-186",
+      "I type in a web editor and read a Memento article preview on X.",
+      "Stops typing to stretch"
+    ],
+    [
+      "187-191",
+      "I monitor the laptop screen and listen to the Zoom lecture while stretching my arms.",
+      "End of provided input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

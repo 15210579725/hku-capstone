@@ -1,0 +1,34 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Isolate the distinct action prediction evaluation task, the standalone verbal counting, and the personal shopping break into their own phases. Group the subsequent continuous sequence of reading WeChat messages, Lark documents, ChatGPT responses, and the DiG-bench paper into a unified phase of reviewing communications and research materials.",
+  "events": [
+    [
+      "0",
+      "I analyze Lucia Day5 action prediction evaluation results and AI responses.",
+      "Shift to a distinct verbal counting task"
+    ],
+    [
+      "1",
+      "I count aloud from one to ten at my desk.",
+      "Shift to managing personal shopping and food delivery"
+    ],
+    [
+      "2",
+      "I review a food delivery confirmation and product recommendations on Taobao.",
+      "Shift from personal shopping to processing communications and research materials"
+    ],
+    [
+      "3-6",
+      "I review group communications, ChatGPT responses, and technical research materials.",
+      "End of provided evidence"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

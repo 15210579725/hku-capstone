@@ -1,0 +1,194 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions with a unified immediate objective. Separate distinct interactions (e.g., reading an article vs. browsing chat), shifts between smartphone usage and environment observation, and distinct phases of transit (e.g., walking, riding elevators, navigating stairs).",
+  "events": [
+    [
+      "250-252",
+      "I clear my smartphone lock screen notifications.",
+      "Completes notification clearing"
+    ],
+    [
+      "253-254",
+      "I browse the WeChat chat with babe.",
+      "Shifts attention to environment"
+    ],
+    [
+      "255-260",
+      "I listen to the train broadcast and look around the train carriage interior.",
+      "Returns to phone"
+    ],
+    [
+      "261-264",
+      "I browse my WeChat chats and contacts.",
+      "Exits app to observe surroundings"
+    ],
+    [
+      "265-274",
+      "I look around the train carriage at the interior and passengers.",
+      "Wakes phone screen"
+    ],
+    [
+      "275-280",
+      "I swipe through my iPhone home screen and app folders.",
+      "Opens new app"
+    ],
+    [
+      "281-290",
+      "I check messages in WhatsApp and view a pickup notification.",
+      "Swipes to home screen"
+    ],
+    [
+      "291-300",
+      "I sit and look around the train carriage, observing a crumpled tissue.",
+      "Takes out smartphone"
+    ],
+    [
+      "301-306",
+      "I read SMS messages on my phone.",
+      "Switches to Outlook app"
+    ],
+    [
+      "307-309",
+      "I read an Assignment 3 feedback email in Outlook.",
+      "Exits train carriage"
+    ],
+    [
+      "310-311",
+      "I alight from the train and walk along the platform.",
+      "Starts reading phone while walking"
+    ],
+    [
+      "312-316",
+      "I read an Entropy editorial email in Outlook while walking.",
+      "Returns to home screen"
+    ],
+    [
+      "317-319",
+      "I walk toward the exit and complain about a frustrating exam.",
+      "Reaches escalator"
+    ],
+    [
+      "320-329",
+      "I ride the escalator and complain about the exam calculation.",
+      "Steps off escalator"
+    ],
+    [
+      "330-334",
+      "I walk to Platform 2 and wait to board the train.",
+      "Boards the train"
+    ],
+    [
+      "335-336",
+      "I board the train and walk down the aisle.",
+      "Stops to read display"
+    ],
+    [
+      "337-339",
+      "I look at an empty seat and read the LED displays in the train carriage.",
+      "Shifts attention to passengers"
+    ],
+    [
+      "340-343",
+      "I comment on a passenger while looking around the carriage.",
+      "Begins adjusting clothing"
+    ],
+    [
+      "344-349",
+      "I button and adjust my shirt sleeve cuff.",
+      "Finishes adjusting cuff"
+    ],
+    [
+      "350-356",
+      "I observe passengers and listen to announcements in the train carriage.",
+      "Unlocks phone"
+    ],
+    [
+      "357-382",
+      "I read an article about metabolic rate scaling in an RSS reader app on my phone.",
+      "Returns to home screen"
+    ],
+    [
+      "383-405",
+      "I look around the subway carriage and observe passengers and displays.",
+      "Alights from train"
+    ],
+    [
+      "406-409",
+      "I alight at HKU Station and walk up the platform stairs.",
+      "Pauses to look at screen doors"
+    ],
+    [
+      "410-412",
+      "I pause at the platform screen doors and complain about my schedule.",
+      "Resumes climbing stairs"
+    ],
+    [
+      "413-416",
+      "I walk up the stairs toward the ticket gates.",
+      "Reaches fare gate"
+    ],
+    [
+      "417-419",
+      "I pass through the fare gate using my phone.",
+      "Enters concourse corridor"
+    ],
+    [
+      "420-427",
+      "I walk across the station concourse into the Exit A passageway, calling myself stupid.",
+      "Unlocks phone"
+    ],
+    [
+      "428-436",
+      "I read and reply to a WeChat chat about a 7013 cheatsheet.",
+      "Puts phone away"
+    ],
+    [
+      "437-448",
+      "I navigate the station corridor toward the lifts.",
+      "Reaches elevators"
+    ],
+    [
+      "449-454",
+      "I ride the elevator to the Hung Hing Ying Building.",
+      "Unlocks phone"
+    ],
+    [
+      "455-462",
+      "I discuss an assignment LaTeX snippet on WeChat while exiting the elevator.",
+      "Returns to WeChat list"
+    ],
+    [
+      "463-472",
+      "I walk along the footbridge corridor and talk to myself.",
+      "Reaches public lift"
+    ],
+    [
+      "473-481",
+      "I take the public elevator down to the ground floor.",
+      "Exits elevator"
+    ],
+    [
+      "482-489",
+      "I walk along the sidewalk.",
+      "Reaches staircase"
+    ],
+    [
+      "490-496",
+      "I walk down the stairs and talk to myself.",
+      "Reaches pavement"
+    ],
+    [
+      "497-499",
+      "I walk along the pavement and past a boutique.",
+      "End of batch"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

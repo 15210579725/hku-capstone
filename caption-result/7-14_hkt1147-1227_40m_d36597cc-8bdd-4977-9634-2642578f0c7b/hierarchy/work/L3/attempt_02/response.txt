@@ -1,0 +1,84 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group L2 immediate tasks into coherent activity episodes based on overarching goals and locations. Transit segments are unified into single journeys, purchasing steps are abstracted into a single meal acquisition goal, and concurrent eating and extended discussions are merged into a continuous meal episode. Incidental checking and repositioning are absorbed into their surrounding major episodes.",
+  "events": [
+    [
+      "0",
+      "I put on my grey hoodie.",
+      "Completes dressing before starting work tasks."
+    ],
+    [
+      "1-5",
+      "I work on memory recall formulas and video reranking models.",
+      "Leaves desk to head to the cafeteria for lunch."
+    ],
+    [
+      "6-11",
+      "I travel with my colleagues from the office to the cafeteria.",
+      "Arrives at the cafeteria food queue."
+    ],
+    [
+      "12-16",
+      "I purchase my meal at the cafeteria.",
+      "Finishes purchasing food and sits down at a table."
+    ],
+    [
+      "17-29",
+      "I eat my meal while discussing AI model development and academic topics with my colleagues.",
+      "Finishes eating meal."
+    ],
+    [
+      "30-31",
+      "I wait at the cafeteria table for my colleagues to finish their meals.",
+      "Colleagues finish eating."
+    ],
+    [
+      "32",
+      "I return my meal tray and utensils at the cafeteria dish return station.",
+      "Leaves the dish return station to head back to the office."
+    ],
+    [
+      "33-37",
+      "I travel with my colleagues from the cafeteria back to my office workstation.",
+      "Arrives and settles at the workstation."
+    ],
+    [
+      "38-40",
+      "I participate in testing digital access card simulations on smart devices with my colleague.",
+      "Shifts focus to personal WeChat messages."
+    ],
+    [
+      "41-42",
+      "I chat with my partner on WeChat.",
+      "Returns attention to the colleagues' access card testing."
+    ],
+    [
+      "43-44",
+      "I discuss encrypted access cards and smart device testing with my colleague.",
+      "Conversation shifts to evening plans."
+    ],
+    [
+      "45",
+      "I listen to my colleagues discuss their evening hangout plans.",
+      "Shifts focus to browsing phone."
+    ],
+    [
+      "46-47",
+      "I browse my WeChat feed for contact updates and articles.",
+      "Stops browsing phone."
+    ],
+    [
+      "48",
+      "I observe my workstation and laptop.",
+      "End of recording."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

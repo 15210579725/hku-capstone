@@ -1,0 +1,18 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate batch edges to merge only those instances where the exact same immediate action continuously spans the boundary.",
+  "merges": [
+    [
+      88,
+      89,
+      "I obtain and handle a metal water cup from my companion.",
+      "Receiving and handling the water cup is a single continuous immediate task spanning the batch edge."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

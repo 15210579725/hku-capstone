@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Review eligible pairs to identify tasks that were artificially split across transport batch edges. Pair [22, 23] transitions from traversing the baggage claim hall to actively exiting through a specific gate (Exit 2C); these remain distinct immediate tasks. Pairs [39, 40] and [46, 47] both represent uninterrupted, continuous states of riding in the vehicle and monitoring the road, and should be merged.",
+  "merges": [
+    [
+      39,
+      40,
+      "I monitor the road and traffic while riding in the ride-hailing vehicle.",
+      "Continuous riding and observing from within the car across a batch edge"
+    ],
+    [
+      46,
+      47,
+      "I monitor the road, traffic, dashboard, and car navigation while riding in the car.",
+      "Continuous monitoring of the road and car interior across a batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

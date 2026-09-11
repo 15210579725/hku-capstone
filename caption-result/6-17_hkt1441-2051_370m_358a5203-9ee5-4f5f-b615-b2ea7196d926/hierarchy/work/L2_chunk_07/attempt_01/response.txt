@@ -1,0 +1,101 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous steps into immediate tasks, separating specific laptop interactions (reading, typing, terminal monitoring) from the subsequent long resting phase triggered by sleepiness. Segment the resting phase based on primary visual focus.",
+  "events": [
+    [
+      "1500-1506",
+      "I review the AI Town repository README.",
+      "Reading task completes before switching to ChatGPT."
+    ],
+    [
+      "1507-1512",
+      "I type notes about a ChatGPT comparison of agent simulation frameworks.",
+      "Note-taking completes before opening a new ChatGPT session."
+    ],
+    [
+      "1513-1516",
+      "I review Generative Agents and Emotion-Probe research notes in a new ChatGPT session.",
+      "Review task ends when shifting to the Claude Code terminal."
+    ],
+    [
+      "1517-1522",
+      "I monitor the logs and test assertions of a Claude Code terminal execution.",
+      "Terminal monitoring ends when switching to a Google Doc."
+    ],
+    [
+      "1523-1526",
+      "I state my intention to take a nap due to sleepiness after switching to a Google Doc.",
+      "Work is abandoned due to sleepiness, initiating a long rest phase."
+    ],
+    [
+      "1527-1546",
+      "I listen to a speaker's message during my rest facing the front wall of the classroom.",
+      "Listening to the speaker ends as the gaze shifts to the broader lecture hall."
+    ],
+    [
+      "1547-1579",
+      "I rest in the lecture hall facing the front whiteboard and ceiling.",
+      "Focus on the front whiteboard shifts to observing the lecture chairs."
+    ],
+    [
+      "1580-1601",
+      "I observe the empty lecture chairs across the classroom.",
+      "Observation of chairs ends when shifting attention to read a document."
+    ],
+    [
+      "1602-1612",
+      "I read a document on my laptop.",
+      "Reading the document ends as attention returns to the classroom chairs."
+    ],
+    [
+      "1613-1628",
+      "I observe the classroom chairs with occasional glances at my laptop.",
+      "Observation of chairs ends when returning to read the document."
+    ],
+    [
+      "1629-1636",
+      "I read a document on my laptop.",
+      "Reading task ends when returning to observe the classroom chairs."
+    ],
+    [
+      "1637-1653",
+      "I observe the empty chairs from my seat in the classroom.",
+      "Observation of chairs shifts to facing the dark laptop screen."
+    ],
+    [
+      "1654-1678",
+      "I rest in my seat facing my dark laptop screen and the empty chairs.",
+      "Resting while facing the laptop screen shifts to looking across the empty classroom."
+    ],
+    [
+      "1679-1700",
+      "I express sleepiness during my rest facing the empty classroom.",
+      "Resting phase is briefly interrupted to wake the laptop."
+    ],
+    [
+      "1701-1703",
+      "I wake my laptop to view a document.",
+      "Waking the laptop completes as attention returns to observing the classroom."
+    ],
+    [
+      "1704-1721",
+      "I sit observing the classroom and the front whiteboard.",
+      "Observation shifts from the front whiteboard to a broader glance around the room."
+    ],
+    [
+      "1722-1749",
+      "I express extreme sleepiness during my rest in the empty classroom.",
+      "End of provided input batch."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "1523-1526"
+    ],
+    "boundary_cautions": []
+  }
+}
+```

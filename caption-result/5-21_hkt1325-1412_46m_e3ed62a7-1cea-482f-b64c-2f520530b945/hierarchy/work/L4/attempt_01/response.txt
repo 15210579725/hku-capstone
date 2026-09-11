@@ -1,0 +1,41 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group coherent episodes into broader goal-oriented phases: initial departure, the laundry trigger (standalone), returning to process laundry, having a meal at the restaurant, and visiting the library to watch documentaries.",
+  "events": [
+    [
+      "0-1",
+      "I travel away from my apartment building.",
+      "Initial travel before interruption"
+    ],
+    [
+      "2",
+      "I receive a LaundrySMS message that causes me to return for my laundry.",
+      "Behavior-changing trigger"
+    ],
+    [
+      "3-4",
+      "I backtrack to the residential courtyard to process my laundry.",
+      "Laundry handling complete"
+    ],
+    [
+      "5-8",
+      "I have a chicken and rice meal at the restaurant.",
+      "Meal and cleanup complete"
+    ],
+    [
+      "9-11",
+      "I watch documentaries about the iron ore industry at the Main Library.",
+      "Library visit activity"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      2
+    ],
+    "boundary_cautions": []
+  }
+}
+```

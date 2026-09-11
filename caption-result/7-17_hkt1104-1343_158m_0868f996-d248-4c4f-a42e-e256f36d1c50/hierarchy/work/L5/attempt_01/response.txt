@@ -1,0 +1,32 @@
+```json
+{
+  "target_level": "L5",
+  "plan": "Group the separated Qwen VLM fine-tuning project sessions into a single overarching major activity, while preserving the independent lunch break and courier handover as standalone major events.",
+  "events": [
+    [
+      "0,2,4",
+      "I develop the Qwen VLM fine-tuning pipeline and dataset.",
+      "Unifies the primary VLM fine-tuning work sessions across the lunch and parcel breaks"
+    ],
+    [
+      "1",
+      "I take a lunch break with colleagues at the cafeteria.",
+      "Independent major activity"
+    ],
+    [
+      "3",
+      "I hand over a return parcel to a courier.",
+      "Independent standalone task interrupting work"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "Departing for a lunch break",
+      "Briefly pausing work to interact with a courier"
+    ],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,74 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks like riding a scooter, ordering food, interacting with an animal, eating, and observing cooking.",
+  "events": [
+    [
+      "0-13",
+      "I prepare to ride an electric scooter.",
+      "Starts riding."
+    ],
+    [
+      "14-35",
+      "I ride an electric scooter to a dumpling eatery.",
+      "Arrives and parks."
+    ],
+    [
+      "36-39",
+      "I return the electric scooter.",
+      "Dismounts and completes the rental task."
+    ],
+    [
+      "40-54",
+      "I order and pay for dumplings.",
+      "Payment completes the order."
+    ],
+    [
+      "55-59",
+      "I look around the outdoor seating area.",
+      "Shifts attention to a dog."
+    ],
+    [
+      "60-87",
+      "I watch and pet a dog near the food cart.",
+      "Shifts attention to buying food."
+    ],
+    [
+      "88-126",
+      "I select and pay for a mixed cold dish from the food cart.",
+      "Payment confirms the purchase."
+    ],
+    [
+      "127-139",
+      "I take a seat at an outdoor table and receive my cold dish.",
+      "Gets ready to eat."
+    ],
+    [
+      "140-197",
+      "I eat the mixed cold dish at the outdoor table.",
+      "Initiates a new food order."
+    ],
+    [
+      "198-200",
+      "I order noodles from the food cart vendor.",
+      "Completes the noodle order."
+    ],
+    [
+      "201-245",
+      "I wait at the table and watch the vendor stir-fry food.",
+      "Shifts focus to checking on previous order."
+    ],
+    [
+      "246-249",
+      "I check on my dumpling order and wait at the table.",
+      "End of provided input."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

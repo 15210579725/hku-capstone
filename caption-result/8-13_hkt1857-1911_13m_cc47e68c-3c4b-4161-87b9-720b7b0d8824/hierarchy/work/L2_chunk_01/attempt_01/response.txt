@@ -1,0 +1,101 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group action briefs into immediate tasks based on continuous goals such as riding the scooter, searching for a food stall, selecting ingredients, ordering and paying, interacting with the lemon tea vendor, and observing specific events like motorcycles or live streaming. Distinct ordering phases and shifts in attention dictate the boundaries.",
+  "events": [
+    [
+      "0-3",
+      "I discuss buying food and the rain with my friend.",
+      "Shift to actively riding the scooter"
+    ],
+    [
+      "4-12",
+      "I ride as a passenger on the electric scooter and comment on the ride to my friend.",
+      "Shift to observing the surroundings and road"
+    ],
+    [
+      "13-23",
+      "I ride the electric scooter and observe the street, passing vehicles, and roadside shops.",
+      "Shift to discussing specific food options"
+    ],
+    [
+      "24-38",
+      "I discuss food options with my friend and look for open stalls while riding.",
+      "Shift from general search to locating a specific stall"
+    ],
+    [
+      "39-51",
+      "I ride the electric scooter and locate a cold dish stall with my friend.",
+      "Arrival at the stall and start of ordering"
+    ],
+    [
+      "52-77",
+      "I select cold dish ingredients from the food stall with my friend.",
+      "Completion of selecting basic ingredients and handing over the tray"
+    ],
+    [
+      "78-83",
+      "I hand over my food tray to the vendor and check my smartphone.",
+      "Shift to ordering additional meat additions"
+    ],
+    [
+      "84-97",
+      "I order pig head meat to add to my cold dish and pay ¥14.00 via WeChat Pay.",
+      "Payment is completed, followed by receiving the bag and adding another order"
+    ],
+    [
+      "98-106",
+      "I receive my food bag, but order additional duck intestines and specify my spice and onion preferences.",
+      "Completion of all ordering and specifying preferences"
+    ],
+    [
+      "107-119",
+      "I monitor the vendor preparing and packing my food.",
+      "Food is packed and departure begins"
+    ],
+    [
+      "120-125",
+      "I ride the electric scooter along the street.",
+      "Arrival at the lemon tea stall"
+    ],
+    [
+      "126-136",
+      "I discuss drink options and prices with a lemon tea vendor.",
+      "Shift in focus to observing motorcycles across the street"
+    ],
+    [
+      "137-142",
+      "I observe parked sports motorcycles across the street and discuss them with my friend.",
+      "Shift back to waiting at the stall and observing traffic"
+    ],
+    [
+      "143-156",
+      "I wait at the lemon tea stall, hear a payment broadcast, and observe passing traffic.",
+      "Shift in attention to discovering a live streamer"
+    ],
+    [
+      "157-169",
+      "I carry a stool, observe the street, and notice a live streamer with an LED floodlight.",
+      "Shift to directly asking the vendor about the stream"
+    ],
+    [
+      "170-181",
+      "I ask the lemon tea vendor about live streaming and watch them prepare drinks.",
+      "Shift in attention to loud passing motorcycles"
+    ],
+    [
+      "182-191",
+      "I observe loud sports motorcycles passing by and discuss the live stream.",
+      "End of input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": [
+      "The boundary between 97 and 98 marks a completed payment and receiving the bag, but an immediate add-on order of duck intestines extends the purchasing task."
+    ]
+  }
+}
+```

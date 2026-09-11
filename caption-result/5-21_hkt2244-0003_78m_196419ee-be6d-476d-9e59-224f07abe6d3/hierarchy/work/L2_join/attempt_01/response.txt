@@ -1,0 +1,18 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "I will merge pairs where the action represents a single continuous immediate task. Pair [32, 33] involves opening and immediately reviewing lecture notes on Claude AI, which is the same task. Pair [52, 53] transitions from a long period of writing on a notepad to reading the assignment on a laptop, which constitute distinct immediate tasks at this level.",
+  "merges": [
+    [
+      32,
+      33,
+      "I use Claude AI to review Gale's theorem and the Moment Curve Kissing Lemma.",
+      "Same Claude AI study session continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

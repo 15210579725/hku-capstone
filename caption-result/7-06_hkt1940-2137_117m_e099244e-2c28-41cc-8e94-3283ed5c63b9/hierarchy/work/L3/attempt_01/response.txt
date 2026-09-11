@@ -1,0 +1,59 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group L2 immediate tasks into coherent activity episodes based on distinct locations, activities, and modes of transport.",
+  "events": [
+    [
+      "0-2",
+      "I ride an electric scooter to a dumpling eatery.",
+      "Arrival at the dumpling eatery."
+    ],
+    [
+      "3-14",
+      "I dine at an outdoor dumpling eatery.",
+      "Completion of the meal and preparation to leave."
+    ],
+    [
+      "15-19",
+      "I ride an electric scooter to the campus.",
+      "Arrival at the campus entrance."
+    ],
+    [
+      "20-26",
+      "I walk to my office workstation.",
+      "Arrival at the workstation to begin work."
+    ],
+    [
+      "27-39",
+      "I evaluate AI models on my MacBook at my office workstation.",
+      "Conclusion of the work session to prepare for departure."
+    ],
+    [
+      "40-46",
+      "I leave the office building.",
+      "Departure from the office complex to begin the commute."
+    ],
+    [
+      "47-49,94",
+      "I ride an electric scooter to 266新天地.",
+      "End of the scooter ride to proceed on foot."
+    ],
+    [
+      "50-53",
+      "I walk to the Wind Down bar.",
+      "Arrival at the bar to meet friends."
+    ],
+    [
+      "54-93,95",
+      "I converse with my friends at the Wind Down bar.",
+      "The recording ends during the bar gathering."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

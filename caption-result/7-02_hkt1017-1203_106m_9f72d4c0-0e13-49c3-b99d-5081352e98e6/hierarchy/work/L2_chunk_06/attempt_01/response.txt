@@ -1,0 +1,44 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions related to exploring food and beverage options, examining specific menus, and ordering a drink into distinct immediate tasks.",
+  "events": [
+    [
+      "1250-1254",
+      "I approach the food court to examine the menus.",
+      "Shifts focus from the general food court to Starbucks"
+    ],
+    [
+      "1255-1269",
+      "I inspect the Starbucks food display case and menu board.",
+      "Turns away from Starbucks to explore other options"
+    ],
+    [
+      "1270-1277",
+      "I navigate the concourse to read the food hall tea menu.",
+      "Leaves the tea menu to continue walking through the concourse"
+    ],
+    [
+      "1278-1282",
+      "I search the terminal concourse for beverage options.",
+      "Returns focus to the Starbucks displays and menus"
+    ],
+    [
+      "1283-1292",
+      "I review the Starbucks promotional displays and coffee menu boards.",
+      "Initiates the beverage order with the barista"
+    ],
+    [
+      "1293-1301",
+      "I order a large hot sea salt caramel latte at Starbucks.",
+      "End of input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,114 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group actions into immediate tasks such as moving between locations, interacting with library equipment, setting up and troubleshooting the laptop, and distinct content consumption sessions on Xiaohongshu (e.g., reading posts, watching themed short video sequences, and looking at companions' phones).",
+  "events": [
+    [
+      "750-756",
+      "I select magazines from the library shelves.",
+      "Moves from browsing magazines to walking through the library."
+    ],
+    [
+      "757-763",
+      "I walk through the library reading area, observing the book displays.",
+      "Changes location from the reading area to the library corridor."
+    ],
+    [
+      "764-768",
+      "I walk through the corridor into the lobby with my companion.",
+      "Transitions from walking in the lobby to entering the reading hall."
+    ],
+    [
+      "769-772",
+      "I walk to computer cubicle M6 in the library reading hall.",
+      "Arrives at the cubicle and begins interacting with the equipment."
+    ],
+    [
+      "773-786",
+      "I inspect and adjust the braille equipment at the computer cubicle.",
+      "Switches from adjusting the braille equipment to setting up the MacBook."
+    ],
+    [
+      "787-800",
+      "I set up my MacBook and review a Claude Code terminal summary.",
+      "Shifts from setting up the laptop to troubleshooting a webpage connection issue."
+    ],
+    [
+      "801-814",
+      "I troubleshoot a webpage connection issue on my MacBook and read the nearby library notices.",
+      "Switches from using the MacBook to browsing on the iPhone."
+    ],
+    [
+      "815-837",
+      "I browse posts and comments on the Xiaohongshu feed.",
+      "Shifts from browsing the text and image feed to watching a video."
+    ],
+    [
+      "838-841",
+      "I watch a video about roasting pine cones on Xiaohongshu.",
+      "Switches to watching a different series of short videos."
+    ],
+    [
+      "842-857",
+      "I watch sports and assorted short videos on Xiaohongshu.",
+      "Shifts from watching videos to reading industry posts."
+    ],
+    [
+      "858-871",
+      "I read posts about NIO's overseas strategy and industry trends on Xiaohongshu.",
+      "Switches from reading posts on own phone to looking at companion's phone."
+    ],
+    [
+      "872-875",
+      "I look at cafe photos on my companion's phone.",
+      "Shifts focus from the companion's photos back to Xiaohongshu feed and posts."
+    ],
+    [
+      "876-879",
+      "I view my companion's post and browse the Xiaohongshu feed.",
+      "Shifts to continuously watching dog vlogs."
+    ],
+    [
+      "880-906",
+      "I watch dog vlogs and pet videos on Xiaohongshu.",
+      "Switches from pet vlogs to watching football and comedy videos."
+    ],
+    [
+      "907-927",
+      "I watch comedy, football, and various short videos on Xiaohongshu.",
+      "Shifts to looking at a dessert post on a friend's phone."
+    ],
+    [
+      "928-934",
+      "I read and discuss a dessert post on my friend's phone.",
+      "Returns to own phone to watch short videos."
+    ],
+    [
+      "935-947",
+      "I watch various short videos including football and animals on Xiaohongshu.",
+      "Shifts from watching videos to reading text posts."
+    ],
+    [
+      "948-953",
+      "I read posts about car interiors and AI on Xiaohongshu.",
+      "Returns to watching a continuous series of short videos."
+    ],
+    [
+      "954-992",
+      "I watch a variety of short videos featuring animals, sports, and food on Xiaohongshu.",
+      "Switches from browsing Xiaohongshu on the phone to troubleshooting the MacBook."
+    ],
+    [
+      "993-999",
+      "I troubleshoot network security and SSL certificate errors on my MacBook.",
+      "End of provided input."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,84 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group L2 tasks into coherent episodes based on distinct transit stages and major shifts in location or phone activity content.",
+  "events": [
+    [
+      "0-3",
+      "I exit my building into the covered portico.",
+      "Exiting the building completes the initial transit episode."
+    ],
+    [
+      "4-11",
+      "I process travel guides and rental housing information in the outdoor courtyard.",
+      "Relocating from the courtyard initiates a new transit episode."
+    ],
+    [
+      "12-15",
+      "I relocate to the lower lobby via the residential courtyard.",
+      "Reaching the lower lobby completes the courtyard relocation before heading to the MTR."
+    ],
+    [
+      "16-18",
+      "I research Hong Kong short-term rentals on my phone en route to the MTR fare gates.",
+      "Passing through the fare gates shifts the activity to navigating the MTR station."
+    ],
+    [
+      "19-22",
+      "I board the MTR train to Tai Wai.",
+      "Boarding the train completes the station navigation episode."
+    ],
+    [
+      "23-36",
+      "I research Hong Kong short-term rental options during the train ride.",
+      "Navigating the Admiralty Station concourse marks a transfer between trains."
+    ],
+    [
+      "37-39",
+      "I navigate the Admiralty Station concourse to transfer to Platform 2.",
+      "Approaching Platform 2 completes the station transfer episode."
+    ],
+    [
+      "40-48",
+      "I consume rental listings and short videos during the train ride to HKU Station.",
+      "Alighting at HKU Station completes the train ride episode."
+    ],
+    [
+      "49-51",
+      "I exit the MTR station platform through the turnstiles and tunnel.",
+      "Reaching the elevator lobby shifts the transit to vertical campus access."
+    ],
+    [
+      "52-57",
+      "I travel to the university campus level via a series of elevators and a footbridge.",
+      "Arriving at the campus level completes the vertical transit episode."
+    ],
+    [
+      "58-61",
+      "I walk across the campus plaza to a seat in the HKU Law library study hall.",
+      "Sitting in the armchair transitions the activity to stationary phone usage."
+    ],
+    [
+      "62-68",
+      "I read a variety of Xiaohongshu posts regarding rentals, internships, and entertainment.",
+      "Switching from reading text posts to watching a lengthy sequence of short videos marks a change in content consumption."
+    ],
+    [
+      "69-83",
+      "I watch a continuous series of short videos covering sports, wildlife, and comedy.",
+      "Exiting the library initiates a new campus transit episode."
+    ],
+    [
+      "84-87",
+      "I walk from the library to The Jockey Club Tower elevator lobby.",
+      "Reaching the elevator lobby concludes the campus navigation episode."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

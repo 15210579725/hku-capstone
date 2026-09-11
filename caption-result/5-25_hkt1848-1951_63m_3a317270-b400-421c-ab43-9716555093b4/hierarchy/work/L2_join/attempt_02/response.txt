@@ -1,0 +1,18 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible pairs for task continuation across batch edges. [23, 24] transitions from peeling garlic to eating, so they do not merge. [62, 63] transitions from browsing a smartphone to riding the escalator, so they do not merge. [90, 91] both involve getting ready to eat, so they merge into a single preparation task.",
+  "merges": [
+    [
+      90,
+      91,
+      "I prepare to eat my toast at the waterfront railing.",
+      "Preparing a napkin continues the ongoing task of preparing to eat."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

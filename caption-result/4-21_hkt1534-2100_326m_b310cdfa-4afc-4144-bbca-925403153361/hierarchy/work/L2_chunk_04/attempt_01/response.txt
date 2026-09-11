@@ -1,3 +1,149 @@
 ```json
-{"target_level":"L2","plan":"Group continuous atomic actions into immediate tasks, focusing on distinct sub-goals like navigating, unpacking specific items, preparing ingredients, cooking steps, and device usage.","events":[["750-763","I walk down the sidewalk to the entrance of my residential building.","Arrives at building entrance"],["764-767","I enter the lobby of my residential building.","Enters lobby"],["768-780","I take the elevator up to my floor, browsing my smartphone during the ride.","Exits elevator"],["781-782","I unlock the door and enter my apartment.","Enters apartment"],["783-784","I adjust the window air conditioner in the apartment.","Finishes adjusting A/C"],["785-789","I take off my smart glasses and leave them on a shelf.","Leaves glasses on shelf"],["790-791","I put my smart glasses back on.","Puts glasses on"],["792-794","I briefly check the kitchen cabinet before returning to the living area.","Returns to living area"],["795-797","I place my laptop on the dining table and roll up my sleeves.","Finishes setting up"],["798-801","I unpack a small boxed item from a parcel in my backpack.","Unpacks item"],["802-807","I unpack a box of mosquito repellent spray from a cardboard parcel.","Unpacks spray"],["808-810","I walk to the bedroom and spray mosquito repellent into the air.","Returns from bedroom"],["811-817","I unpack a bag of yellow earplugs and store them in my bedroom desk drawer.","Stores earplugs"],["818-822","I rummage through a plastic bag of food on the table but decide not to eat it.","Ties up bag"],["823-843","I prepare the air fryer with parchment paper and place a piece of raw meat inside to cook.","Puts food in air fryer"],["844-845","I wash my hands at the kitchen sink.","Finishes washing hands"],["846-854","I fetch a fresh tomato from the dining table and bring it to the kitchen.","Brings tomato to kitchen"],["855-867","I retrieve a tray of dumplings from the refrigerator and begin cooking them in a pan with water on the stove.","Starts cooking dumplings"],["868-876","I wash leafy green vegetables and add them to the cooking dumplings.","Adds vegetables to pan"],["877-894","I slice and eat a fresh tomato while standing in the kitchen.","Finishes eating tomato"],["895-897","I wash my hands at the sink after eating.","Finishes washing hands"],["898-917","I visit my bedroom, sit at my desk, and open the window curtains.","Leaves bedroom"],["918-929","I use my smartphone to reply to a WeChat message and browse the Official Accounts feed.","Puts phone down"],["930-940","I stir the cooking dumplings and vegetables on the stove, inspect a dumpling, and adjust the flame.","Finishes adjusting stove"],["941-951","I take the meat out of the air fryer, inspect and flip it, then return it and adjust the settings.","Finishes adjusting air fryer"],["952-958","I briefly walk down the hallway and glance into a bedroom before returning to the living area.","Returns to living area"],["959-968","I turn off the stove and drain the hot water from the pan of dumplings into the sink.","Finishes draining pan"],["969-983","I adjust the air conditioner and open the window panes in the small bedroom.","Leaves bedroom"],["984-991","I walk into the kitchen, check the countertop, and adjust the frying pan on the stove.","Leaves kitchen"],["992-997","I sit at the dining table and inspect a small white container while conversing with someone.","Finishes inspecting container"],["998-999","I walk to the kitchen and touch the refrigerator handle.","End of sequence"]],"audit":{"complete":true,"uncertainties":[],"major_triggers":[],"boundary_cautions":[]}}
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions with a single immediate target or location into distinct tasks. Boundaries are marked by changes in the primary object being interacted with, shifting to a new room, or starting a new phase of a multi-step process (e.g., from unpacking items to cooking).",
+  "events": [
+    [
+      "750-763",
+      "I walk along the street toward my residential building.",
+      "Shift from walking along the street to entering the building gate."
+    ],
+    [
+      "764-767",
+      "I walk into the residential building lobby.",
+      "Shift from the lobby to boarding the elevator."
+    ],
+    [
+      "768-780",
+      "I ride the elevator up to my floor.",
+      "Shift from the elevator to unlocking the apartment door."
+    ],
+    [
+      "781-784",
+      "I walk into my apartment to the dining area.",
+      "Shift from entering the apartment to interacting with specific objects on the desk."
+    ],
+    [
+      "785-791",
+      "I handle my smart glasses on the wooden shelf.",
+      "Shift from interacting with the smart glasses to settling at the table."
+    ],
+    [
+      "792-797",
+      "I set down my laptop at the dining table.",
+      "Shift from settling at the table to unpacking delivered parcels."
+    ],
+    [
+      "798-807",
+      "I unpack parcels containing fabric and mosquito repellent at the dining table.",
+      "Shift from unpacking the parcels to actively using the mosquito repellent."
+    ],
+    [
+      "808-810",
+      "I spray mosquito repellent in the bedroom.",
+      "Shift from spraying repellent to unpacking a different item."
+    ],
+    [
+      "811-817",
+      "I store a newly unpacked bag of earplugs in my bedroom desk drawer.",
+      "Shift from storing earplugs to inspecting food items."
+    ],
+    [
+      "818-822",
+      "I tie up a plastic bag of food on the dining table.",
+      "Shift from managing the food bag to walking around the apartment."
+    ],
+    [
+      "823-830",
+      "I inspect the kitchen cabinets and living area.",
+      "Shift from general inspection to specifically preparing meat in the air fryer."
+    ],
+    [
+      "831-843",
+      "I place a portion of marinated meat into the kitchen air fryer.",
+      "Shift from preparing meat to washing hands."
+    ],
+    [
+      "844-845",
+      "I wash my hands at the kitchen sink.",
+      "Shift from washing hands to fetching produce."
+    ],
+    [
+      "846-855",
+      "I fetch a fresh tomato from the dining table.",
+      "Shift from fetching the tomato to starting a new cooking task."
+    ],
+    [
+      "856-867",
+      "I start cooking a pan of dumplings on the kitchen stove.",
+      "Shift from starting the dumplings to preparing greens."
+    ],
+    [
+      "868-876",
+      "I add washed leafy green vegetables to the cooking dumplings.",
+      "Shift from cooking dumplings to eating a tomato."
+    ],
+    [
+      "877-894",
+      "I eat a freshly sliced tomato in the kitchen.",
+      "Shift from eating to washing hands."
+    ],
+    [
+      "895-897",
+      "I wash my hands at the kitchen sink.",
+      "Shift from washing hands to visiting the bedroom."
+    ],
+    [
+      "898-917",
+      "I check the desk and wardrobe in the shared bedroom.",
+      "Shift from inspecting the bedroom to using a smartphone in the dining area."
+    ],
+    [
+      "918-929",
+      "I browse WeChat messages and tech articles on my smartphone.",
+      "Shift from using the smartphone to checking the stove."
+    ],
+    [
+      "930-941",
+      "I stir the boiling dumplings and vegetables on the stove.",
+      "Shift from the stove to checking the air fryer."
+    ],
+    [
+      "942-951",
+      "I check the progress of the meat cooking in the air fryer.",
+      "Shift from checking the air fryer to pacing around."
+    ],
+    [
+      "952-960",
+      "I pace through the apartment hallway and living area.",
+      "Shift from pacing to draining the food on the stove."
+    ],
+    [
+      "961-967",
+      "I drain the hot water from the pan of dumplings and vegetables over the sink.",
+      "Shift from cooking to adjusting the bedroom air conditioning."
+    ],
+    [
+      "968-984",
+      "I adjust the climate controls in the small bedroom.",
+      "Shift from the bedroom to inspecting kitchen appliances."
+    ],
+    [
+      "985-993",
+      "I check on the kitchen cooking appliances.",
+      "Shift from checking appliances to a conversation."
+    ],
+    [
+      "994-999",
+      "I hold a small white container and converse with someone near the dining table.",
+      "End of provided sequence."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
 ```

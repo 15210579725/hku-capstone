@@ -1,0 +1,824 @@
+[
+  {
+    "id": 0,
+    "start": 57731,
+    "end": 57815,
+    "text": "I browse the bakery and deli selections in the supermarket.",
+    "refs": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "boundary_reason": "Browsing phase concludes before specific item selection",
+    "origin_chunk": 1
+  },
+  {
+    "id": 1,
+    "start": 57816,
+    "end": 57842,
+    "text": "I select a box of Swiss rolls from the dessert chiller.",
+    "refs": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "boundary_reason": "Item retrieval completes",
+    "origin_chunk": 1
+  },
+  {
+    "id": 2,
+    "start": 57843,
+    "end": 57871,
+    "text": "I walk through the supermarket aisles to the self-checkout stations.",
+    "refs": [
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "boundary_reason": "Arrival at checkout area",
+    "origin_chunk": 1
+  },
+  {
+    "id": 3,
+    "start": 57872,
+    "end": 57897,
+    "text": "I purchase the Swiss rolls at the self-checkout kiosk using Alipay.",
+    "refs": [
+      29,
+      30,
+      31,
+      32,
+      33,
+      34
+    ],
+    "boundary_reason": "Transaction completes",
+    "origin_chunk": 1
+  },
+  {
+    "id": 4,
+    "start": 57898,
+    "end": 57900,
+    "text": "I exclaim in frustration.",
+    "refs": [
+      35
+    ],
+    "boundary_reason": "Standalone frustration trigger",
+    "origin_chunk": 1
+  },
+  {
+    "id": 5,
+    "start": 57901,
+    "end": 57948,
+    "text": "I walk through the mall corridor.",
+    "refs": [
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "boundary_reason": "Transit phase concludes before container interaction",
+    "origin_chunk": 1
+  },
+  {
+    "id": 6,
+    "start": 57948,
+    "end": 57971,
+    "text": "I peel a label off the Swiss roll container in the mall corridor.",
+    "refs": [
+      47,
+      48,
+      49,
+      50,
+      51,
+      52
+    ],
+    "boundary_reason": "Label removal task completes",
+    "origin_chunk": 1
+  },
+  {
+    "id": 7,
+    "start": 58001,
+    "end": 58040,
+    "text": "I eat a slice of Swiss roll on the mall stairs and escalator.",
+    "refs": [
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61
+    ],
+    "boundary_reason": "Eating sequence concludes upon exiting the mall",
+    "origin_chunk": 1
+  },
+  {
+    "id": 8,
+    "start": 58041,
+    "end": 58070,
+    "text": "I exit the mall into the outdoor plaza.",
+    "refs": [
+      62,
+      63,
+      64,
+      65,
+      66,
+      67
+    ],
+    "boundary_reason": "Arrival in outdoor plaza",
+    "origin_chunk": 1
+  },
+  {
+    "id": 9,
+    "start": 58071,
+    "end": 58102,
+    "text": "I inspect the unwrapped Swiss roll slices inside the container.",
+    "refs": [
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76
+    ],
+    "boundary_reason": "Inspection task completes",
+    "origin_chunk": 1
+  },
+  {
+    "id": 10,
+    "start": 58103,
+    "end": 58150,
+    "text": "I observe pedestrians and parked scooters in the plaza.",
+    "refs": [
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85
+    ],
+    "boundary_reason": "Observation phase concludes before moving to scooter",
+    "origin_chunk": 1
+  },
+  {
+    "id": 11,
+    "start": 58151,
+    "end": 58227,
+    "text": "I eat a slice of Swiss roll seated on a parked electric scooter.",
+    "refs": [
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99
+    ],
+    "boundary_reason": "Eating on scooter concludes",
+    "origin_chunk": 1
+  },
+  {
+    "id": 12,
+    "start": 58228,
+    "end": 58260,
+    "text": "I discard my wrapper trash in a public bin.",
+    "refs": [
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107
+    ],
+    "boundary_reason": "Cleanup and disposal task completes",
+    "origin_chunk": 1
+  },
+  {
+    "id": 13,
+    "start": 58261,
+    "end": 58276,
+    "text": "I pack the Swiss roll container into the front basket of my electric scooter.",
+    "refs": [
+      108,
+      109,
+      110,
+      111,
+      112,
+      113
+    ],
+    "boundary_reason": "Packing task completes",
+    "origin_chunk": 1
+  },
+  {
+    "id": 14,
+    "start": 58276,
+    "end": 58292,
+    "text": "I activate a rented Hello e-bike using my smartphone.",
+    "refs": [
+      114,
+      115,
+      116,
+      117
+    ],
+    "boundary_reason": "Activation task completes",
+    "origin_chunk": 1
+  },
+  {
+    "id": 15,
+    "start": 58292,
+    "end": 58362,
+    "text": "I merge the e-bike onto Tang'an Road.",
+    "refs": [
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130
+    ],
+    "boundary_reason": "Initial riding segment concludes before verbal trigger",
+    "origin_chunk": 1
+  },
+  {
+    "id": 16,
+    "start": 58363,
+    "end": 58368,
+    "text": "I complain about a traffic police officer.",
+    "refs": [
+      131
+    ],
+    "boundary_reason": "Standalone verbal trigger",
+    "origin_chunk": 1
+  },
+  {
+    "id": 17,
+    "start": 58368,
+    "end": 58393,
+    "text": "I ride the e-bike past storefronts and parked vehicles on the street.",
+    "refs": [
+      132,
+      133,
+      134,
+      135,
+      136,
+      137
+    ],
+    "boundary_reason": "Street riding segment concludes before intersection",
+    "origin_chunk": 1
+  },
+  {
+    "id": 18,
+    "start": 58393,
+    "end": 58404,
+    "text": "I navigate the e-bike across a pedestrian intersection.",
+    "refs": [
+      138,
+      139,
+      140,
+      141,
+      142,
+      143
+    ],
+    "boundary_reason": "Intersection crossing completes",
+    "origin_chunk": 1
+  },
+  {
+    "id": 19,
+    "start": 58405,
+    "end": 58449,
+    "text": "I ride the e-bike along a commercial street toward a junction.",
+    "refs": [
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152
+    ],
+    "boundary_reason": "Riding segment concludes at junction",
+    "origin_chunk": 1
+  },
+  {
+    "id": 20,
+    "start": 58449,
+    "end": 58482,
+    "text": "I ride the e-bike past commercial storefronts toward Nanxinbang Bridge.",
+    "refs": [
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159
+    ],
+    "boundary_reason": "Riding segment concludes before entering protected bike lane",
+    "origin_chunk": 1
+  },
+  {
+    "id": 21,
+    "start": 58483,
+    "end": 58553,
+    "text": "I follow other riders along the tree-lined bike lane.",
+    "refs": [
+      160,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170,
+      171,
+      172,
+      173,
+      174,
+      175
+    ],
+    "boundary_reason": "Bike lane riding concludes at major intersection",
+    "origin_chunk": 1
+  },
+  {
+    "id": 22,
+    "start": 58554,
+    "end": 58614,
+    "text": "I navigate the e-bike across the intersection after yielding to cross traffic.",
+    "refs": [
+      176,
+      177,
+      178,
+      179,
+      180,
+      181,
+      182,
+      183,
+      184,
+      185,
+      186,
+      187,
+      188,
+      189
+    ],
+    "boundary_reason": "Intersection crossing completes",
+    "origin_chunk": 1
+  },
+  {
+    "id": 23,
+    "start": 58615,
+    "end": 58668,
+    "text": "I ride the e-bike along the bike lane past a bus stop.",
+    "refs": [
+      190,
+      191,
+      192,
+      193,
+      194,
+      195,
+      196,
+      197,
+      198,
+      199,
+      200,
+      201,
+      202
+    ],
+    "boundary_reason": "Bike lane riding concludes before intersection",
+    "origin_chunk": 1
+  },
+  {
+    "id": 24,
+    "start": 58669,
+    "end": 58692,
+    "text": "I ride the e-bike over Yuputang Bridge.",
+    "refs": [
+      203,
+      204,
+      205,
+      206,
+      207
+    ],
+    "boundary_reason": "Bridge crossing completes",
+    "origin_chunk": 1
+  },
+  {
+    "id": 25,
+    "start": 58693,
+    "end": 58739,
+    "text": "I ride the e-bike over the Chuanyang River Bridge.",
+    "refs": [
+      208,
+      209,
+      210,
+      211,
+      212,
+      213,
+      214,
+      215,
+      216
+    ],
+    "boundary_reason": "Major bridge crossing completes",
+    "origin_chunk": 1
+  },
+  {
+    "id": 26,
+    "start": 58739,
+    "end": 58777,
+    "text": "I follow a cargo cart on the e-bike along the ground-level road.",
+    "refs": [
+      217,
+      218,
+      219,
+      220,
+      221,
+      222,
+      223,
+      224,
+      225
+    ],
+    "boundary_reason": "Ground riding concludes before underpass intersection",
+    "origin_chunk": 1
+  },
+  {
+    "id": 27,
+    "start": 58778,
+    "end": 58810,
+    "text": "I ride the e-bike through an intersection under an overpass.",
+    "refs": [
+      226,
+      227,
+      228,
+      229,
+      230,
+      231
+    ],
+    "boundary_reason": "Intersection crossing completes",
+    "origin_chunk": 1
+  },
+  {
+    "id": 28,
+    "start": 58810,
+    "end": 58867,
+    "text": "I ride the e-bike along the fenced bike lane on Tanghuang Road.",
+    "refs": [
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239,
+      240,
+      241,
+      242,
+      243
+    ],
+    "boundary_reason": "Bike lane riding concludes before turn",
+    "origin_chunk": 1
+  },
+  {
+    "id": 29,
+    "start": 58868,
+    "end": 58896,
+    "text": "I ride the e-bike down the road past parked trucks.",
+    "refs": [
+      244,
+      245,
+      246,
+      247,
+      248,
+      249
+    ],
+    "boundary_reason": "End of input",
+    "origin_chunk": 1
+  },
+  {
+    "id": 30,
+    "start": 58896,
+    "end": 58957,
+    "text": "I ride the electric scooter through the campus gate to a sidewalk parking spot.",
+    "refs": [
+      250,
+      251,
+      252,
+      253,
+      254,
+      255,
+      256,
+      257,
+      258,
+      259,
+      260,
+      261,
+      262
+    ],
+    "boundary_reason": "Groups riding the scooter, entering the campus, and stopping to park",
+    "origin_chunk": 2
+  },
+  {
+    "id": 31,
+    "start": 58958,
+    "end": 58969,
+    "text": "I process the electric scooter return on the Hello smartphone app.",
+    "refs": [
+      263,
+      264,
+      265,
+      266,
+      267
+    ],
+    "boundary_reason": "Groups securing belongings and finishing the ride on the app",
+    "origin_chunk": 2
+  },
+  {
+    "id": 32,
+    "start": 58970,
+    "end": 59013,
+    "text": "I walk from the sidewalk into the building lobby with the Swiss rolls.",
+    "refs": [
+      268,
+      269,
+      270,
+      271,
+      272,
+      273,
+      274,
+      275
+    ],
+    "boundary_reason": "Groups walking from the parking area to entering the building",
+    "origin_chunk": 2
+  },
+  {
+    "id": 33,
+    "start": 59014,
+    "end": 59070,
+    "text": "I ride the elevator up to the office floor with my Swiss rolls and Freshippo receipt.",
+    "refs": [
+      276,
+      277,
+      278,
+      279,
+      280,
+      281,
+      282,
+      283,
+      284,
+      285
+    ],
+    "boundary_reason": "Groups passing turnstiles, waiting for, and riding the elevator",
+    "origin_chunk": 2
+  },
+  {
+    "id": 34,
+    "start": 59071,
+    "end": 59084,
+    "text": "I walk into the office carrying the open box of Swiss rolls.",
+    "refs": [
+      286,
+      287,
+      288
+    ],
+    "boundary_reason": "Groups walking down the corridor and entering the office",
+    "origin_chunk": 2
+  },
+  {
+    "id": 35,
+    "start": 59085,
+    "end": 59166,
+    "text": "I distribute slices of Swiss roll cake to my colleagues at their workstations.",
+    "refs": [
+      289,
+      290,
+      291,
+      292,
+      293,
+      294,
+      295,
+      296,
+      297,
+      298,
+      299,
+      300,
+      301,
+      302,
+      303,
+      304,
+      305
+    ],
+    "boundary_reason": "Groups offering cake slices to multiple coworkers in the office",
+    "origin_chunk": 2
+  },
+  {
+    "id": 36,
+    "start": 59167,
+    "end": 59196,
+    "text": "I read the Mental World project webpage on my colleague's laptop.",
+    "refs": [
+      306,
+      307,
+      308,
+      309,
+      310,
+      311
+    ],
+    "boundary_reason": "Groups approaching the colleague and reading the initial webpage overview",
+    "origin_chunk": 2
+  },
+  {
+    "id": 37,
+    "start": 59197,
+    "end": 59235,
+    "text": "I examine the Mentis pipeline and Python code in Cursor with my colleague.",
+    "refs": [
+      312,
+      313,
+      314,
+      315,
+      316,
+      317,
+      318,
+      319,
+      320
+    ],
+    "boundary_reason": "Groups discussing the project purpose and looking at the related codebase",
+    "origin_chunk": 2
+  },
+  {
+    "id": 38,
+    "start": 59236,
+    "end": 59274,
+    "text": "I read the Mentis baseline implementation and experimental results sections on the webpage.",
+    "refs": [
+      321,
+      322,
+      323,
+      324,
+      325,
+      326,
+      327,
+      328
+    ],
+    "boundary_reason": "Groups returning to the webpage to read specific methodology and result sections",
+    "origin_chunk": 2
+  },
+  {
+    "id": 39,
+    "start": 59274,
+    "end": 59364,
+    "text": "I review the necessity ladder and ablation charts regarding the experimental results with my colleague.",
+    "refs": [
+      329,
+      330,
+      331,
+      332,
+      333,
+      334,
+      335,
+      336,
+      337,
+      338,
+      339,
+      340,
+      341,
+      342,
+      343,
+      344,
+      345,
+      346,
+      347,
+      348
+    ],
+    "boundary_reason": "Groups analyzing visualizations and discussing the ablation findings",
+    "origin_chunk": 2
+  },
+  {
+    "id": 40,
+    "start": 59364,
+    "end": 59420,
+    "text": "I abandon the paper discussion with my colleague to write my report.",
+    "refs": [
+      349,
+      350,
+      351,
+      352,
+      353,
+      354,
+      355,
+      356,
+      357,
+      358,
+      359,
+      360
+    ],
+    "boundary_reason": "Groups expressing confusion and concluding the discussion to change tasks",
+    "origin_chunk": 2
+  },
+  {
+    "id": 41,
+    "start": 59420,
+    "end": 59446,
+    "text": "I walk from the office to the pantry with my water bottle.",
+    "refs": [
+      361,
+      362,
+      363,
+      364,
+      365,
+      366
+    ],
+    "boundary_reason": "Groups picking up the water bottle and walking to the pantry",
+    "origin_chunk": 2
+  },
+  {
+    "id": 42,
+    "start": 59447,
+    "end": 59481,
+    "text": "I fill my glass bottle at the pantry water dispenser.",
+    "refs": [
+      367,
+      368,
+      369,
+      370,
+      371,
+      372,
+      373,
+      374,
+      375,
+      376,
+      377
+    ],
+    "boundary_reason": "Groups operating the dispenser, monitoring the water level, and capping the bottle",
+    "origin_chunk": 2
+  },
+  {
+    "id": 43,
+    "start": 59481,
+    "end": 59506,
+    "text": "I walk down the hallway past the office rooms.",
+    "refs": [
+      378,
+      379,
+      380,
+      381
+    ],
+    "boundary_reason": "Groups navigating the hallway outside the offices",
+    "origin_chunk": 2
+  }
+]

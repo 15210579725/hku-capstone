@@ -1,0 +1,66 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous physical and digital interactions into distinct immediate tasks, segmenting boundaries by physical handling, laptop reading, major application switches, and behavior-changing triggers.",
+  "events": [
+    [
+      "2000-2008",
+      "I inspect an Apple EarPods case.",
+      "Attention shifts to laptop"
+    ],
+    [
+      "2009-2032",
+      "I consult Claude AI about evaluation metrics.",
+      "Attention shifts to a physical object"
+    ],
+    [
+      "2033-2035",
+      "I hold a white case.",
+      "Attention returns to laptop"
+    ],
+    [
+      "2036-2039",
+      "I read evaluation documentation on my laptop.",
+      "Attention shifts to a wrapped item"
+    ],
+    [
+      "2040-2046",
+      "I unwrap an engraved AirPods case.",
+      "Attention returns to laptop"
+    ],
+    [
+      "2047-2076",
+      "I read Claude AI explanations about Goodhart's Law and perceptual metrics.",
+      "Application focus shifts to VS Code"
+    ],
+    [
+      "2077-2078",
+      "I inspect an annotation file in VS Code.",
+      "Application focus returns to Claude AI"
+    ],
+    [
+      "2079-2082",
+      "I read Claude AI explanations about the FID evaluation metric.",
+      "Interrupted by colleague"
+    ],
+    [
+      "2083",
+      "I hear a colleague invite me to eat.",
+      "Major trigger redirecting behavior"
+    ],
+    [
+      "2084-2090",
+      "I leave the office.",
+      "End of recording"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "2083"
+    ],
+    "boundary_cautions": []
+  }
+}
+```

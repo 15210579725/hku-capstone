@@ -1,3 +1,171 @@
 ```json
-{"target_level":"L2","plan":"Group consecutive action briefs into immediate tasks based on shared operational goals, such as reviewing specific documents, interacting with a tool, navigating a continuous path segment, or operating a kiosk. Separate tasks when the primary application, file, or physical environment changes. Maintain significant plan-changing actions, such as packing up to leave, as major triggers.","events":[["500-517","I review code and documentation about loss mask rules on my laptop.","Task shifts to taking a break"],["518-522","I take a brief break to look out the library window.","Task shifts to reviewing design document"],["523-527","I review the digital twin design document and dataset file structure.","Task shifts to using Claude"],["528-531","I use Claude to search for Mac file directory indexing methods.","Task shifts to reviewing notes"],["532-541","I review technical notes about Mac file directory indexing in VS Code.","Task shifts to browsing Finder"],["542-543","I browse files in the Finder window.","Task shifts to updating code"],["544-551","I update my notes and code based on a specification checklist.","Task shifts to updating design document"],["552-562","I update the digital twin technical design document and action prediction instructions.","Task shifts to editing Markdown file"],["563-571","I edit a Markdown file in VS Code with the aid of pop-up configuration windows.","Task shifts to reading metrics"],["572-581","I read evaluation metrics and comparison tables in the '2026-04-28-digital-twin-design.md' document.","Task shifts to editing using terminal"],["582-591","I edit the digital twin design document using the terminal and text editor.","Task shifts to entering prompts"],["592-596","I enter prompts into Claude Code in the terminal.","Task shifts to typing notes"],["597-603","I type notes into the digital twin design document regarding the evaluation criteria table.","Task shifts to reading document sections"],["604-610","I read sections about storage, pending decisions, and example activity logs in the design document.","Task shifts to querying AI chat"],["611-619","I query an AI chat application about Mac Spotlight file indexing.","Task shifts to studying documentation"],["620-634","I study technical documentation and AI responses regarding transformer training, causal masking, and context window extension strategies.","Task shifts to comparing session and document"],["635-641","I compare a terminal session on model architecture with the digital twin design document.","Task shifts to typing edits"],["642-649","I type edits into the Markdown specification document.","Task shifts to reviewing preview modal"],["650-655","I incorporate information from a floating preview modal window into the markdown document.","Task shifts to typing code specifications"],["656-660","I type code specifications in the text editor and terminal.","Task shifts to typing notes"],["661-664","I type notes into the digital twin design document.","Task shifts to verifying logs"],["665-674","I verify user activity logs in a floating preview modal to update the markdown document.","Task shifts to editing with search window"],["675-681","I edit the digital twin Markdown file using a search window and terminal.","Task shifts to packing up"],["682-684","I pack up my items at the library desk.","Trigger: Leaving library desk"],["685-690","I walk through the library into the elevator lobby.","Task shifts to taking a rest"],["691-696","I take a brief rest on a green and blue sofa in the lobby.","Task shifts to walking down stairs"],["697-703","I walk down the stairs through the lobby.","Task shifts to walking through study area"],["704-710","I walk through the library study area to exit the building.","Task shifts to walking on footbridge"],["711-714","I walk along the covered footbridge and brick walkway.","Task shifts to walking to open plaza"],["715-721","I walk towards the open plaza and overhead signs.","Task shifts to walking to cafeteria"],["722-734","I walk along outdoor and indoor corridors across campus to enter a cafeteria.","Task shifts to logging in to kiosk"],["735-740","I log in to a self-ordering kiosk in the cafeteria using my smartphone QR code.","Task shifts to customizing meal"],["741-749","I customize a '肉燥鹹蛋 蜜汁雞髀飯' meal on the self-ordering kiosk.","Batch end"]],"audit":{"complete":true,"uncertainties":[],"major_triggers":[23],"boundary_cautions":[]}}
+{
+  "target_level": "L2",
+  "plan": "Group action briefs into immediate tasks based on continuous attention to a specific interface, document section, or sub-task. Boundaries are formed by shifting focus between different coding contexts, chatting with AI, looking away, walking between locations, or transitioning between distinct stages of ordering food.",
+  "events": [
+    [
+      "500-517",
+      "I write code and documentation for loss mask rules in VS Code.",
+      "Task transitions to briefly looking away"
+    ],
+    [
+      "518-521",
+      "I take a brief break to look around the library and out the window.",
+      "Task transitions to returning to documentation"
+    ],
+    [
+      "522-527",
+      "I review the dataset structure and digital twin design document.",
+      "Task transitions to using a chatbot"
+    ],
+    [
+      "528-531",
+      "I ask Claude how to index file directories on Mac.",
+      "Task transitions to writing documentation about indexing"
+    ],
+    [
+      "532-541",
+      "I document the Mac file indexing method in a Markdown file.",
+      "Task transitions to browsing files in Finder"
+    ],
+    [
+      "542-543",
+      "I browse files in the Mac Finder.",
+      "Task transitions to drafting code and notes"
+    ],
+    [
+      "544-554",
+      "I draft notes and code based on the project specifications.",
+      "Task transitions to momentarily looking at the screen and hands"
+    ],
+    [
+      "555-561",
+      "I reorient myself to the screen and keyboard.",
+      "Task transitions to reviewing the Markdown document"
+    ],
+    [
+      "562-571",
+      "I review and edit the Markdown document using its pop-up modal.",
+      "Task transitions to reading specific evaluation metrics"
+    ],
+    [
+      "572-582",
+      "I read the evaluation metrics and baseline model comparison in the Markdown document.",
+      "Task transitions to typing in the terminal and document"
+    ],
+    [
+      "583-591",
+      "I write code in the terminal and design document.",
+      "Task transitions to checking Claude Code"
+    ],
+    [
+      "592-595",
+      "I check the Claude Code status and type a response.",
+      "Task transitions to modifying the design document"
+    ],
+    [
+      "596-604",
+      "I add code and modifications to the digital twin design document.",
+      "Task transitions to reading storage estimates"
+    ],
+    [
+      "605-610",
+      "I read the storage estimates and context window length trade-offs in the design document.",
+      "Task transitions to chatting with the AI assistant"
+    ],
+    [
+      "611-619",
+      "I chat with the AI assistant about Mac Spotlight file indexing.",
+      "Task transitions to reading technical documentation"
+    ],
+    [
+      "620-633",
+      "I read technical documentation covering transformer training, sequence construction, and long-context extension strategies.",
+      "Task transitions to reviewing the AI response and design spec"
+    ],
+    [
+      "634-637",
+      "I review the AI response on context extension alongside the design specification.",
+      "Task transitions to editing the specification document"
+    ],
+    [
+      "638-655",
+      "I add notes and edits to the markdown specification document.",
+      "Task transitions to typing code specifications"
+    ],
+    [
+      "656-664",
+      "I type code specifications in the terminal and text editor.",
+      "Task transitions to reviewing user logs"
+    ],
+    [
+      "665-674",
+      "I inspect user profile logs and event records in a preview modal overlay.",
+      "Task transitions to writing notes and code"
+    ],
+    [
+      "675-681",
+      "I write notes and code in VS Code and the terminal.",
+      "Task transitions to packing up belongings"
+    ],
+    [
+      "682",
+      "I pack up small items on the desk.",
+      "Task transitions to leaving the desk"
+    ],
+    [
+      "683-690",
+      "I walk through the library aisles to the elevator lobby.",
+      "Task transitions to resting on a sofa"
+    ],
+    [
+      "691-696",
+      "I sit on a sofa in the lobby and look around.",
+      "Task transitions to walking down stairs"
+    ],
+    [
+      "697-704",
+      "I walk down the stairwell back into the library study area.",
+      "Task transitions to walking toward the exit"
+    ],
+    [
+      "705-710",
+      "I walk through the library lounge to exit the building.",
+      "Task transitions to walking on outdoor walkways"
+    ],
+    [
+      "711-717",
+      "I walk along an outdoor covered footbridge and brick walkway.",
+      "Task transitions to navigating campus corridors"
+    ],
+    [
+      "718-729",
+      "I navigate through covered outdoor corridors and an indoor building corridor.",
+      "Task transitions to walking down stairs to the cafeteria"
+    ],
+    [
+      "730-734",
+      "I walk down outdoor stairs and enter the cafeteria.",
+      "Task transitions to logging in at a kiosk"
+    ],
+    [
+      "735-740",
+      "I log in to the self-ordering kiosk via QR code.",
+      "Task transitions to selecting a meal"
+    ],
+    [
+      "741-749",
+      "I select my meal options and preferences on the digital menu.",
+      "Batch ends"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "682"
+    ],
+    "boundary_cautions": []
+  }
+}
 ```

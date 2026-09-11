@@ -1,0 +1,189 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions sharing the same immediate target, such as physical navigation, interacting with a specific app interface, reading a single document, or conversing in a specific chat. Separate distinct tasks like prompting an AI versus reading its response.",
+  "events": [
+    [
+      "0-4",
+      "I examine the parking garage surroundings.",
+      "Navigates towards the building entrance"
+    ],
+    [
+      "5-10",
+      "I navigate the parking garage to the building entrance with my companions.",
+      "Arrives in the elevator lobby"
+    ],
+    [
+      "11-13",
+      "I wait in the elevator lobby.",
+      "Turns to adjust the AC"
+    ],
+    [
+      "14-19",
+      "I adjust the hallway AC temperature.",
+      "Turns back to board the elevator"
+    ],
+    [
+      "20-28",
+      "I enter the elevator and observe the passengers.",
+      "Elevator ride begins"
+    ],
+    [
+      "29-31",
+      "I ride the elevator to the 9th floor.",
+      "Arrives at floor 9 and exits"
+    ],
+    [
+      "32-36",
+      "I walk to my workstation and unplug my laptop.",
+      "Leaves the workstation with the laptop"
+    ],
+    [
+      "37-43",
+      "I relocate my laptop to a table in the atrium lounge.",
+      "Begins using the laptop"
+    ],
+    [
+      "44-55",
+      "I read behavioral rollout analyses in the POV Rollout Viewer.",
+      "Switches to typing notes"
+    ],
+    [
+      "56-58",
+      "I type recap notes into the POV Rollout Viewer.",
+      "Resumes reading recommendations"
+    ],
+    [
+      "59-61",
+      "I examine further recommendations in the POV Rollout Viewer.",
+      "Switches to a Feishu document"
+    ],
+    [
+      "62",
+      "I read the Feishu action prediction research outline.",
+      "Switches to Claude"
+    ],
+    [
+      "63-75",
+      "I read Claude's explanation of image generation evaluation metrics.",
+      "Begins editing the prompt"
+    ],
+    [
+      "76-79",
+      "I edit my Claude prompt regarding action similarity comparison.",
+      "Briefly reviews notes and environment"
+    ],
+    [
+      "80-87",
+      "I review my research notes and the Claude interface.",
+      "Prepares to submit a new prompt"
+    ],
+    [
+      "88-91",
+      "I submit a prompt to Claude.",
+      "Monitors response generation"
+    ],
+    [
+      "92-104",
+      "I read Claude's response on temporal action segmentation metrics and semantic similarity.",
+      "Drafts a follow-up prompt"
+    ],
+    [
+      "105-108",
+      "I prompt Claude for embedding model recommendations.",
+      "Switches to WeChat"
+    ],
+    [
+      "109-114",
+      "I message babe on WeChat about a dessert photo.",
+      "Switches to a group chat"
+    ],
+    [
+      "115-123",
+      "I read a new member introduction in the MACLab WeChat group.",
+      "Returns to Claude"
+    ],
+    [
+      "124-129",
+      "I resume reading Claude's explanation of machine learning evaluation metrics.",
+      "Switches to ChatGPT"
+    ],
+    [
+      "130-140",
+      "I ask ChatGPT for action embedding model recommendations.",
+      "Submits a follow-up prompt"
+    ],
+    [
+      "141-147",
+      "I submit a prompt to ChatGPT asking how to calculate sentence embeddings.",
+      "Reads the new response"
+    ],
+    [
+      "148-150",
+      "I read the ChatGPT action evaluation response.",
+      "Switches to WeChat"
+    ],
+    [
+      "151-158",
+      "I read a WeChat article about the NIO OTA update.",
+      "Returns to ChatGPT"
+    ],
+    [
+      "159-165",
+      "I read ChatGPT's explanation of Qwen3-Embedding sentence vector extraction.",
+      "Switches to action logs"
+    ],
+    [
+      "166-174",
+      "I review action logs and ChatGPT test sample cases.",
+      "Switches to VS Code terminal"
+    ],
+    [
+      "175-186",
+      "I prompt Codex and Claude Code in VS Code to run embedding evaluations.",
+      "Switches to Chrome"
+    ],
+    [
+      "187-190",
+      "I review ChatGPT evaluation results in Google Chrome.",
+      "Navigates to Doubao"
+    ],
+    [
+      "191-198",
+      "I explore Seedance video generation options in Doubao AI.",
+      "Returns to VS Code"
+    ],
+    [
+      "199-214",
+      "I monitor Claude Code's execution logs for the embedding evaluation.",
+      "Returns to Doubao"
+    ],
+    [
+      "215-219",
+      "I check the Seedance 2.0 interface in Doubao AI.",
+      "Returns to VS Code terminal"
+    ],
+    [
+      "220-233",
+      "I command Codex to investigate SeedDance 2 video generation.",
+      "Switches to WeChat"
+    ],
+    [
+      "234-238",
+      "I message babe on WeChat about a sandwich photo.",
+      "Returns to VS Code"
+    ],
+    [
+      "239-249",
+      "I review the SeedDance 2 API documentation and Claude Code output.",
+      "End of supplied batch"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,29 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group sequential navigation movements into immediate tasks: traversing the lobby, taking the stairs, and accessing the restroom.",
+  "events": [
+    [
+      "1500-1503",
+      "I cross the lobby past the event posters.",
+      "Staircase navigation begins"
+    ],
+    [
+      "1504-1507",
+      "I descend the staircase.",
+      "Staircase ends, corridor begins"
+    ],
+    [
+      "1508-1510",
+      "I walk along the corridor to open the accessible restroom door.",
+      "End of supplied sequence"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

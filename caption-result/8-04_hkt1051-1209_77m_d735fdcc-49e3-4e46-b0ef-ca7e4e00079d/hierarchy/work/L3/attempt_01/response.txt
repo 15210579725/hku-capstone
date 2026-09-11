@@ -1,0 +1,96 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group L2 tasks into coherent L3 episodes by identifying unified goals and locations. Consolidate consecutive data evaluation, repair, and formatting steps into distinct analytical episodes. Isolate the departure trigger and segment the meal trip into transit, food purchase, eating, cleanup, and the return walk.",
+  "events": [
+    [
+      "0-3",
+      "I prepare dataset files and review evaluation logs on my laptop.",
+      "Dataset preparation finishes; shifts to generating a new analysis prompt"
+    ],
+    [
+      "4-6",
+      "I draft and submit a dataset analysis prompt using ChatGPT.",
+      "Prompt submission completes; transitions to resting"
+    ],
+    [
+      "7-9",
+      "I take a timed break at my desk.",
+      "Break ends; shifts to technical server configuration"
+    ],
+    [
+      "10-13",
+      "I configure and verify the remote server SSH access in the terminal.",
+      "SSH setup completes; shifts to communication tasks"
+    ],
+    [
+      "14-15",
+      "I handle a meeting reschedule request and rest at my desk.",
+      "Rest ends; shifts back to deep dataset analysis"
+    ],
+    [
+      "16-21",
+      "I analyze the dataset error priority tables and evaluation logs across ChatGPT and VS Code.",
+      "Initial evaluation review transitions to executing a new auditing and repair workflow"
+    ],
+    [
+      "22-32",
+      "I execute a dataset auditing and repair plan using ChatGPT and Claude Code.",
+      "Auditing plan concludes; shifts to targeted template fixes and bug documentation"
+    ],
+    [
+      "33-40",
+      "I resolve dataset generation issues using Claude Code and document the formatting errors.",
+      "Documentation completes; shifts to a new face detection task"
+    ],
+    [
+      "41-44",
+      "I evaluate face detection candidate metrics and confidence thresholds using ChatGPT.",
+      "Task interrupted by a verbal departure trigger"
+    ],
+    [
+      "45",
+      "I hear a colleague initiate our departure.",
+      "Major behavior-changing trigger isolated"
+    ],
+    [
+      "46",
+      "I conclude my ChatGPT query regarding face detection thresholds.",
+      "Query finishes; shifts to physical transit"
+    ],
+    [
+      "47-50",
+      "I walk through the underground parking garage to the cafeteria building.",
+      "Transit ends upon reaching the food selection counter"
+    ],
+    [
+      "51-54",
+      "I purchase my lunch and carry it to a booth in the cafeteria.",
+      "Food purchase completes; shifts to eating"
+    ],
+    [
+      "55-63",
+      "I eat my meal while conversing with my colleagues about driving tests and travel plans.",
+      "Eating concludes; shifts to cleanup and departure prep"
+    ],
+    [
+      "64-66",
+      "I return my food tray and converse with my companions before leaving the dining area.",
+      "Tray return finishes; physical return transit begins"
+    ],
+    [
+      "67-73",
+      "I return to my office corridor while discussing technical topics and traffic fines with my colleagues.",
+      "End of recording"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      45
+    ],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,34 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Grouped immediate tasks into four coherent episodes: completing a bicycle commute, navigating through the building to the office floor, conducting a video call from the staircase, and finally settling at the workstation.",
+  "events": [
+    [
+      "0-9",
+      "I commute to my destination on a shared bicycle.",
+      "Bicycle parked and ride settled"
+    ],
+    [
+      "10-19",
+      "I navigate through the building to the office hallway.",
+      "Arrived at the office floor"
+    ],
+    [
+      "20-26",
+      "I conduct a WeChat video call from the staircase.",
+      "Video call concluded"
+    ],
+    [
+      "27-29",
+      "I return to my desk in the open-plan office.",
+      "Arrived at workstation"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

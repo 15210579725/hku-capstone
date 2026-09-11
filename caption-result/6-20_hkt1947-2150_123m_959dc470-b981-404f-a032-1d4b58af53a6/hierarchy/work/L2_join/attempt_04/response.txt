@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate the eligible boundary pairs to identify and merge actions that represent the exact same immediate task continuing across a batch edge. Pairs that represent transitioning between different tools, shifting to a new subtask, or entirely distinct actions will remain separate.",
+  "merges": [
+    [
+      42,
+      43,
+      "I inspect comic storyboard frames and dialogue on the Figma canvas.",
+      "Same immediate task of inspecting the Figma storyboard continues across the batch boundary."
+    ],
+    [
+      84,
+      85,
+      "I adjust the Glass effect settings and presets for the storyboard dialogue in Figma.",
+      "Same immediate task of configuring the Figma Glass effect continues across the batch boundary."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

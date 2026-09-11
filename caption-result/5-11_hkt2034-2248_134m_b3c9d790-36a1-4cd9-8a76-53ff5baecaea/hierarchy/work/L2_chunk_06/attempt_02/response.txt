@@ -1,0 +1,84 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group sequential actions into immediate tasks focused on continuous objectives, such as practicing a song on the guitar, typing lyrics, or watching specific performance videos, drawing boundaries when the primary focus or application changes.",
+  "events": [
+    [
+      "1250-1292",
+      "I practice a song on the guitar using a document on my laptop for reference.",
+      "Switches from practicing with a document to watching a performance video"
+    ],
+    [
+      "1293-1301",
+      "I study a music stage performance tutorial video on my laptop.",
+      "Picks up the guitar to begin playing along with the video"
+    ],
+    [
+      "1302-1323",
+      "I play the guitar along with a music performance video on my laptop.",
+      "Switches the laptop window to read sheet music"
+    ],
+    [
+      "1324-1337",
+      "I practice a song using a guitar tutorial video and sheet music on my laptop.",
+      "Finishes with the sheet music to watch a music video"
+    ],
+    [
+      "1338-1345",
+      "I watch concert footage from a music video on my laptop.",
+      "Navigates to Google to begin typing song lyrics"
+    ],
+    [
+      "1346-1357",
+      "I type dictated song lyrics into my laptop.",
+      "Interrupts typing to handle a physical object"
+    ],
+    [
+      "1358-1361",
+      "I place a noodle packet onto the stacked boxes.",
+      "Returns focus to the laptop to resume typing"
+    ],
+    [
+      "1362-1368",
+      "I type vocalized song lyrics into my MacBook.",
+      "Finishes typing to watch a concert video on Bilibili"
+    ],
+    [
+      "1369-1371",
+      "I watch a concert video on Bilibili.",
+      "Changes context to reviewing programming logs"
+    ],
+    [
+      "1372-1374",
+      "I review terminal execution logs for Claude Code and ChatGPT.",
+      "Major context shift to schedule management"
+    ],
+    [
+      "1375-1377",
+      "I organize my schedule using an exam alarm and Microsoft Outlook.",
+      "Leaves the stationary position to go for a walk outside"
+    ],
+    [
+      "1378-1383",
+      "I read my Microsoft Outlook emails on my walk along the pedestrian walkway.",
+      "Gap in time to watching a piano cover video"
+    ],
+    [
+      "1384-1387",
+      "I explore Bilibili search results for a piano cover of Jay Chou's '退后'.",
+      "Context shifts to watching a different concert performance"
+    ],
+    [
+      "1388-1391",
+      "I search for David Tao's '天天' on Bilibili from the Jay Chou concert video page.",
+      "End of sequence"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

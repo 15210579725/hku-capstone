@@ -1,0 +1,30 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Merge pairs where the same immediate task (reviewing coding sessions and OCR evaluations, updating the PhD document, and querying ChatGPT for book access) continues across the batch edge. Leave unrelated consecutive actions unmerged.",
+  "merges": [
+    [
+      15,
+      16,
+      "I review coding assistant session management and OCR model evaluations.",
+      "Same technical review task continues across batch edge"
+    ],
+    [
+      46,
+      47,
+      "I document PhD advisor recommendations and research candidates in my Feishu document.",
+      "Same document updating task continues across batch edge"
+    ],
+    [
+      70,
+      71,
+      "I use ChatGPT to research access methods and platforms for 'What Makes Us Smart'.",
+      "Same ChatGPT troubleshooting session continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

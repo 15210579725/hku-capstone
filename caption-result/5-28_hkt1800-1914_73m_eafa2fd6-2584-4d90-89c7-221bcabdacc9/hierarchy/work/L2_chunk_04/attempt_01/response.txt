@@ -1,0 +1,104 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group immediate actions into discrete tasks such as cooking steps on the stove, operating the microwave, moving to the dining area, and distinct conversation topics while eating.",
+  "events": [
+    [
+      "750-751",
+      "I prepare to add oyster sauce to the ramen noodles.",
+      "Cooking shifts to microwave task"
+    ],
+    [
+      "752-757",
+      "I set the microwave to defrost a bowl of frozen pork ribs.",
+      "Microwave task completes"
+    ],
+    [
+      "758-767",
+      "I prepare the boiling instant noodles by adding the vegetable flakes.",
+      "Interrupted by roommate's request"
+    ],
+    [
+      "768-770",
+      "I activate the mosquito repeller at my roommate's request.",
+      "Mosquito repeller task completes"
+    ],
+    [
+      "771-778",
+      "I sprinkle seasoning over the noodles on the stove.",
+      "Stove cooking finishes"
+    ],
+    [
+      "779-781",
+      "I carry the frying pan of cooked noodles and cutlery to the dining table.",
+      "Arrived at dining table"
+    ],
+    [
+      "782-787",
+      "I squeeze sauce packets over the noodles for dinner with my roommate.",
+      "Dinner announced and initial sauce added"
+    ],
+    [
+      "788-793",
+      "I pour seasoning sauce onto the noodles during a discussion with User A about sharing.",
+      "Sauce pouring finishes; checking cabinet"
+    ],
+    [
+      "794-797",
+      "I fetch additional seasonings from the kitchen cabinet.",
+      "Returns to the dining table"
+    ],
+    [
+      "798-807",
+      "I mix the noodles thoroughly during a discussion about dining methods.",
+      "Mixing task completes"
+    ],
+    [
+      "808-812",
+      "I move my laptop aside to stir the noodles.",
+      "Space cleared for eating"
+    ],
+    [
+      "813-819",
+      "I identify the fishballs for my companion reacting to the spicy noodles.",
+      "Fishball identification concludes"
+    ],
+    [
+      "820-827",
+      "I serve myself a portion of cabbage, noodles, and a fishball from the frying pan.",
+      "Serving a portion completes"
+    ],
+    [
+      "828-833",
+      "I discuss the noodle flavor's similarity to Chongqing cuisine with my friend.",
+      "Flavor discussion ends"
+    ],
+    [
+      "834-840",
+      "I scoop noodles during a conversation about discarding the extra seasoning sauce.",
+      "Discarding sauce topic ends"
+    ],
+    [
+      "841-848",
+      "I suggest saving the leftover sauce for fried rice upon sitting at the dining table.",
+      "Alternative sauce use suggestion completes"
+    ],
+    [
+      "849-853",
+      "I discuss eating habits and saving money with my companion.",
+      "Conversation on saving money completes"
+    ],
+    [
+      "854-860",
+      "I eat noodles observing the items on the side desk.",
+      "End of provided sequence"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

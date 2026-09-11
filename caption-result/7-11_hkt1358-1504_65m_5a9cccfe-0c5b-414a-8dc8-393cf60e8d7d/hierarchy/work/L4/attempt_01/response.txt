@@ -1,0 +1,34 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group coherent activity episodes into broader goal-oriented phases based on major location and primary objective: office work, commuting, dining at the restaurant, and post-meal plaza navigation.",
+  "events": [
+    [
+      "0",
+      "I evaluate AI model benchmarks at my office workstation.",
+      "Work activity concludes upon packing and departure."
+    ],
+    [
+      "1-2",
+      "I travel from my office to a commercial plaza.",
+      "Transit phase concludes upon entering the shopping mall."
+    ],
+    [
+      "3-7",
+      "I dine at the Saizeriya restaurant.",
+      "Restaurant visit concludes upon leaving the establishment."
+    ],
+    [
+      "8-9",
+      "I navigate the commercial plaza to explore local businesses.",
+      "End of provided recording."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

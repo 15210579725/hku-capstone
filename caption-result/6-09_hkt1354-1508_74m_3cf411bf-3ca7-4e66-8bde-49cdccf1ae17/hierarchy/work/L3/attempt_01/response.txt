@@ -1,0 +1,64 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group immediate tasks into coherent episodes based on primary locations and distinct work phases. Transit is grouped by major origin and destination points. Computer work is segmented into setup, initial metric review, configuring a new evaluation run, and analyzing the resulting errors.",
+  "events": [
+    [
+      "0-10",
+      "I travel from the residential area through the train station ticket barrier.",
+      "Groups continuous transit and entry into the train station"
+    ],
+    [
+      "11-14",
+      "I board the train from the station platform.",
+      "Groups platform waiting activities and boarding"
+    ],
+    [
+      "15",
+      "I watch an Airrack video on Bilibili during the train ride.",
+      "Represents the continuous train journey"
+    ],
+    [
+      "16-22",
+      "I travel from the train station through the campus building security turnstile.",
+      "Groups continuous transit from the station to the building interior"
+    ],
+    [
+      "23-26",
+      "I check lecture theater access and notice boards along the campus corridors.",
+      "Groups the search for an available room and checking information"
+    ],
+    [
+      "27-28",
+      "I set up my MacBook Pro at the study counter.",
+      "Covers the preparation phase before beginning computer work"
+    ],
+    [
+      "29-39",
+      "I review DeepSeek-V4 evaluation metrics and accuracy curve plots via Claude Code.",
+      "Groups the review of initial evaluation data and visualization generation"
+    ],
+    [
+      "40-51",
+      "I update the Judge Prompt V2 scoring instructions to launch a Gemini 3.1 Pro background rejudge.",
+      "Unifies prompt modification, launch, and initial monitoring of the new evaluation run"
+    ],
+    [
+      "52-62",
+      "I analyze the evaluation JSONs in VS Code to document prediction granularity errors.",
+      "Groups the detailed review of rejudge results and note-taking"
+    ],
+    [
+      "63-64",
+      "I pack my laptop to leave the building.",
+      "Concludes the work session and begins the exit transit"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

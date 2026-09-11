@@ -1,0 +1,30 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible pairs to merge continuous identical immediate tasks spanning batch boundaries. Merge [22, 23] as continuous document editing on the same topic, [56, 57] as continuous WeChat phone usage while walking, and [101, 102] as continuous assisted dip exercises. Do not merge [43, 44] (entering the elevator vs waiting/conversing inside) or [75, 76] (spotting a partner vs completing one's own exercise) as they represent distinct immediate tasks.",
+  "merges": [
+    [
+      22,
+      23,
+      "I draft and edit a section about predicting environmental influences on behavior in the Feishu document.",
+      "Same drafting and editing task on a specific topic continues across batch edge."
+    ],
+    [
+      56,
+      57,
+      "I message on WeChat about a friend's flight and read an arXiv paper on my phone while walking.",
+      "Continuous phone usage and WeChat messaging task across batch edge."
+    ],
+    [
+      101,
+      102,
+      "I perform assisted dips and adjust the machine's weight stack.",
+      "Continuous assisted dip exercise across batch edge."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

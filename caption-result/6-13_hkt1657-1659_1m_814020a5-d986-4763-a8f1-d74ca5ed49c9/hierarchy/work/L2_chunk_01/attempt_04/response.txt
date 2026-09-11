@@ -1,0 +1,41 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group L1 briefs into immediate tasks based on conversational decisions, packing routines, gathering belongings, and sequential navigation phases.",
+  "events": [
+    [
+      "0-1",
+      "I initiate our departure after discussing our lack of hunger with my companion.",
+      "Conversation establishing departure completes"
+    ],
+    [
+      "2-4",
+      "I prepare my backpack for departure by stowing my power bank charging equipment.",
+      "Backpack packing task concludes"
+    ],
+    [
+      "5-11",
+      "I gather my smartphone and water bottle after informing my companion of my restroom visit.",
+      "Item gathering concludes before movement begins"
+    ],
+    [
+      "12-15",
+      "I travel across the study lounge and down the corridor.",
+      "Corridor walking reaches the fire doors"
+    ],
+    [
+      "16-19",
+      "I navigate through the fire doors into the lobby to observe the posters and directional signage.",
+      "Lobby entrance and visual inspection completes"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "0-1"
+    ],
+    "boundary_cautions": []
+  }
+}
+```

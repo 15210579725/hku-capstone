@@ -1,0 +1,11 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible pairs to determine if they represent the exact same immediate task interrupted by a transport batch edge. Pairs [39, 40], [59, 60], [79, 80], [138, 139], and [163, 164] all represent sequential but distinct immediate tasks (e.g., entering a lobby vs. speaking in an atrium, approaching a building vs. riding an elevator, watching a specific video vs. swiping through a feed, or using a CLI vs. initiating a phone login). None will be merged to avoid improperly abstracting L2 tasks into broader activities.",
+  "merges": [],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

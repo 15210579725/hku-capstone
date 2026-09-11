@@ -1,0 +1,64 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group sequence into immediate tasks by identifying unified objectives: managing a WeChat block on a smartphone, eating a meal, engaging in distinct conversational topics (the rude real estate agent, the food's flavor, career plans), reading a message on a companion's device, preparing to leave the table, browsing night market stalls, and completing a street food purchase transaction.",
+  "events": [
+    [
+      "1000-1007",
+      "I block a rude real estate agent on WeChat.",
+      "Switches from phone task to eating meal"
+    ],
+    [
+      "1008-1022",
+      "I eat my takeout stir-fried noodles.",
+      "Conversation focus shifts to discussing the rude agent"
+    ],
+    [
+      "1023-1064",
+      "I discuss a rude real estate agent with my companion.",
+      "Focus shifts to reading a specific message on the smartphone"
+    ],
+    [
+      "1065-1070",
+      "I read a real estate agent's message on my companion's smartphone.",
+      "Returns the smartphone and shifts conversation to the food"
+    ],
+    [
+      "1071-1078",
+      "I discuss the noodle flavor with my companion.",
+      "Topic shifts to a phone call from User A and civil service exams"
+    ],
+    [
+      "1079-1112",
+      "I discuss civil service exams and career plans with my companion.",
+      "Finishes conversation and begins packing up to leave"
+    ],
+    [
+      "1113-1130",
+      "I prepare to leave the dining area.",
+      "Leaves the table and begins walking through the night market"
+    ],
+    [
+      "1131-1144",
+      "I browse the night market food stalls.",
+      "Stops at a sticky rice stall to purchase food"
+    ],
+    [
+      "1145-1212",
+      "I purchase a customized sticky rice dish from a street vendor.",
+      "Completes purchase transaction and resumes walking through the market"
+    ],
+    [
+      "1213-1249",
+      "I walk through the night market with my companion.",
+      "End of input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

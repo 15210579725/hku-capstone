@@ -1,0 +1,29 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group coherent episodes into broader goal-oriented phases: a stationary coding session, leaving the library to run a parcel-pickup errand, and the subsequent MTR commute.",
+  "events": [
+    [
+      "0",
+      "I troubleshoot a Claude Code prediction script.",
+      "Work session concludes with packing"
+    ],
+    [
+      "1-3",
+      "I depart the library to retrieve a USB adapter parcel from the Cainiao station.",
+      "Errand completed, shifting goal to commuting"
+    ],
+    [
+      "4-6",
+      "I commute via the MTR with my companion.",
+      "End of provided input sequence"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

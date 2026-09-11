@@ -1,0 +1,36 @@
+```json
+{
+  "target_level": "L5",
+  "plan": "Group the L4 phases into distinct major L5 activities: finalizing document work, the standalone dinner invitation trigger, the cafeteria dinner, and the fitness center workout.",
+  "events": [
+    [
+      "0",
+      "I finalize my Feishu document sections regarding action prediction and environmental influences.",
+      "Distinct major work activity"
+    ],
+    [
+      "1",
+      "I invite my office colleagues to eat dinner.",
+      "Major behavior-changing trigger initiating a new plan"
+    ],
+    [
+      "2",
+      "I share a dinner meal with my colleagues at the cafeteria.",
+      "Distinct major dining activity"
+    ],
+    [
+      "3",
+      "I complete a fitness center workout session with my companion.",
+      "Distinct major fitness activity"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      1
+    ],
+    "boundary_cautions": []
+  }
+}
+```

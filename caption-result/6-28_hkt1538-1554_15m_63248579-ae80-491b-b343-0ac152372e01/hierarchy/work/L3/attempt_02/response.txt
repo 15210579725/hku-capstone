@@ -1,0 +1,34 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group L2 tasks into L3 episodes based on distinct coherent activities: watching media, planning travel, searching for food, and exploring phone settings. Incidental carriage observations and minor device management steps are absorbed into the overarching activities they accompany.",
+  "events": [
+    [
+      "0-4",
+      "I watch a comedy show on a tablet.",
+      "Companion stores the tablet"
+    ],
+    [
+      "5-8",
+      "I coordinate train travel details with my companion.",
+      "Ticket booking concludes"
+    ],
+    [
+      "9-12",
+      "I watch my companion search for food options on my phone.",
+      "Companion finishes searching for food options"
+    ],
+    [
+      "13-18",
+      "I explore apps and settings on my iPhone.",
+      "End of provided events"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

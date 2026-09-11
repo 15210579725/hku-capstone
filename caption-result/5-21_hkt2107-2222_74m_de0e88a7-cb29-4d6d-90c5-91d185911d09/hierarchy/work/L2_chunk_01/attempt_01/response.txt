@@ -1,0 +1,119 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks focusing on physical navigation segments, clothing selection, device inspection, conversation topics, and changes in pace.",
+  "events": [
+    [
+      "0-14",
+      "I select clothes from the wardrobe.",
+      "Transitions from selecting clothes in the wardrobe to checking the storage compartment."
+    ],
+    [
+      "15-20",
+      "I search the storage compartment for a vest.",
+      "Concludes storage compartment search turning attention to a device on the desk."
+    ],
+    [
+      "21-24",
+      "I inspect a black and blue device on the desk shelf.",
+      "Concludes device inspection leaving the desk."
+    ],
+    [
+      "25-33",
+      "I check the corridor elevator button leaving my desk.",
+      "Returns to the apartment after checking the corridor elevator."
+    ],
+    [
+      "34-36",
+      "I read my WeChat chat with babe on my smartphone.",
+      "Receives an incoming video call initiating departure."
+    ],
+    [
+      "37-40",
+      "I answer a WeChat video call from babe leaving the apartment for the elevator.",
+      "Elevator arrives for descent."
+    ],
+    [
+      "41-47",
+      "I discuss my final exam on the video call inside the descending elevator.",
+      "Elevator reaches the ground floor for exit."
+    ],
+    [
+      "48-52",
+      "I exit the building conversing on the video call about post-exam activities.",
+      "Exits the building onto the outdoor pedestrian path."
+    ],
+    [
+      "53-61",
+      "I walk along the pedestrian path conversing on the video call about feeling empty after exams.",
+      "Enters an alleyway shifting conversation to travel times."
+    ],
+    [
+      "62-71",
+      "I end the WeChat video call discussing travel times in the alleyway.",
+      "Video call ends resuming solo walk."
+    ],
+    [
+      "72-81",
+      "I walk past several street shops departing the plaza.",
+      "Reaches the crosswalk to cross the street."
+    ],
+    [
+      "82-96",
+      "I navigate along the Hill Road sidewalk past DS Groceries.",
+      "Reaches the pedestrian crossings for the tram tracks."
+    ],
+    [
+      "97-106",
+      "I traverse the tram tracks crossing the street at the pedestrian crossings.",
+      "Completes crossing the street reaching the roadway."
+    ],
+    [
+      "107-117",
+      "I walk down the roadway past parked vehicles.",
+      "Reaches the entrance to the waterfront promenade."
+    ],
+    [
+      "118-133",
+      "I walk past a wooden pavilion entering the waterfront promenade.",
+      "Passes the wooden pavilion continuing along the promenade."
+    ],
+    [
+      "134-166",
+      "I walk along the waterfront promenade observing the harbour skyline.",
+      "Approaches the illuminated pavilions along the promenade."
+    ],
+    [
+      "167-196",
+      "I walk along the night promenade past illuminated pavilions.",
+      "Changes pace from walking to jogging."
+    ],
+    [
+      "197-202",
+      "I jog along the waterfront promenade past other runners.",
+      "Stops jogging resuming a walking pace."
+    ],
+    [
+      "203-225",
+      "I walk along the dark waterfront promenade viewing the Victoria Harbour skyline.",
+      "Pauses walking to check smartphone notifications."
+    ],
+    [
+      "226-229",
+      "I read WeChat lock screen notifications from babe on my smartphone.",
+      "Resumes walking along the promenade."
+    ],
+    [
+      "230-249",
+      "I walk along the waterfront promenade through an open metal gate.",
+      "Batch ends."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

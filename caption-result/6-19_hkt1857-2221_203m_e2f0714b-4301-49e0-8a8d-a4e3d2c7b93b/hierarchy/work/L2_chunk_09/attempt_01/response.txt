@@ -1,0 +1,91 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group action briefs into immediate tasks based on contiguous goals such as navigating outdoor and indoor spaces, completing purchases, waiting in line, ordering food at kiosks, and searching specific apps. Distinct shifts in physical location, transaction phases, or focus (like switching from ordering to waiting and chatting) demarcate the boundaries. Temporally displaced events at the end are grouped into their own distinct tasks.",
+  "events": [
+    [
+      "0-23",
+      "I walk along the outdoor promenade and plaza toward the covered bus terminus.",
+      "Transition to walking inside the covered bus terminus canopy"
+    ],
+    [
+      "24-31",
+      "I walk through the covered bus terminus and ferry pier concourse.",
+      "Stop to purchase a drink at a retail kiosk"
+    ],
+    [
+      "32-40",
+      "I purchase a bottle of Cestbon water from a retail kiosk in the ferry pier.",
+      "Drink purchase is complete"
+    ],
+    [
+      "41-59",
+      "I walk through the ferry pier concourse with my companion.",
+      "Exit the pier area and head towards Star House"
+    ],
+    [
+      "60-67",
+      "I walk across the plaza to the Star House McDonald's.",
+      "Arrive at McDonald's and pause to discuss payment"
+    ],
+    [
+      "68-86",
+      "I discuss payment with my companion while observing the McDonald's dessert kiosk.",
+      "Join the queue for the dessert kiosk"
+    ],
+    [
+      "87-124",
+      "I wait in the queue for the McDonald's dessert kiosk while my companion selects a promotional coupon on her phone.",
+      "Reach the front of the line at the dessert kiosk counter"
+    ],
+    [
+      "125-129",
+      "I stand at the McDonald's dessert kiosk counter as my companion receives her durian sundae.",
+      "Dessert pickup complete; head downstairs"
+    ],
+    [
+      "130-136",
+      "I walk down the stairs into the main McDonald's ordering lobby.",
+      "Reach the ordering lobby to begin using a self-checkout kiosk"
+    ],
+    [
+      "137-173",
+      "I order a McNuggets meal using the McDonald's self-ordering kiosk.",
+      "Complete self-checkout order and retrieve receipt"
+    ],
+    [
+      "174-211",
+      "I wait for my McDonald's order while tasting and discussing the durian sundae with my companion.",
+      "Shift focus to explicitly searching Taobao on the phone"
+    ],
+    [
+      "212-230",
+      "I search Taobao for frozen durian puree to show my companion.",
+      "Finish browsing Taobao and resume chatting with companion"
+    ],
+    [
+      "231-245",
+      "I discuss making ice cream at home with my companion while waiting near the pickup counter.",
+      "Temporal anomaly in input data shifts far backwards in time"
+    ],
+    [
+      "246-248",
+      "I read an article about Claude Code on my phone.",
+      "Temporal anomaly shifts back to the present time at McDonald's"
+    ],
+    [
+      "249",
+      "I observe the customer queue near the McDonald's pickup counter.",
+      "End of provided sequence"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": [
+      "Indices 246-248 are drastically out of order (timestamp 20:28) compared to the surrounding sequence (21:59-22:00) and thus segmented as an isolated task."
+    ]
+  }
+}
+```

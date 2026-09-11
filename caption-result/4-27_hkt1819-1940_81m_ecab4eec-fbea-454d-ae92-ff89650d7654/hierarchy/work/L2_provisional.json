@@ -1,30 +1,50 @@
 [
   {
     "id": 0,
-    "start": 38736,
-    "end": 38801,
-    "text": "I read a ChatGPT conversation on my smartphone while standing on the balcony.",
+    "start": 65940,
+    "end": 65959,
+    "text": "I review my phone notifications and ChatGPT history.",
     "refs": [
       0,
       1,
       2,
       3,
-      4,
+      4
+    ],
+    "boundary_reason": "Switches to observing the environment",
+    "origin_chunk": 1
+  },
+  {
+    "id": 1,
+    "start": 65960,
+    "end": 65973,
+    "text": "I observe my companion and the balcony surroundings.",
+    "refs": [
       5,
-      6,
+      6
+    ],
+    "boundary_reason": "Returns attention to the smartphone",
+    "origin_chunk": 1
+  },
+  {
+    "id": 2,
+    "start": 65973,
+    "end": 66005,
+    "text": "I read an AI chat about professors on my smartphone.",
+    "refs": [
       7,
       8,
       9,
       10
     ],
-    "boundary_reason": "Switches from reading on the phone to looking at the surrounding environment.",
+    "boundary_reason": "Shifts focus to the cityscape",
     "origin_chunk": 1
   },
   {
-    "id": 1,
-    "start": 38802,
-    "end": 38962,
-    "text": "I look at the balcony wall, floor, and city skyline.",
+    "id": 3,
+    "start": 66006,
+    "end": 66166,
+    "text": "I observe the city skyline and balcony during a bystander's remarks.",
     "refs": [
       11,
       12,
@@ -54,14 +74,14 @@
       36,
       37
     ],
-    "boundary_reason": "Shifts from observing the environment to researching an academic profile on the phone.",
+    "boundary_reason": "Resumes reading on the smartphone",
     "origin_chunk": 1
   },
   {
-    "id": 2,
-    "start": 38962,
-    "end": 39060,
-    "text": "I research Professor Zhiwen Zhang's academic profile and publications on my smartphone.",
+    "id": 4,
+    "start": 66166,
+    "end": 66264,
+    "text": "I review Professor Zhiwen Zhang's academic profile and publications on my iPhone.",
     "refs": [
       38,
       39,
@@ -76,14 +96,14 @@
       48,
       49
     ],
-    "boundary_reason": "Finishes researching the professor and switches to browsing WeChat.",
+    "boundary_reason": "Switches from web browsing to WeChat",
     "origin_chunk": 1
   },
   {
-    "id": 3,
-    "start": 39061,
-    "end": 39363,
-    "text": "I browse WeChat articles about tech news, 3D generation models, and DIY projects on my phone while conversing with my companion.",
+    "id": 5,
+    "start": 66265,
+    "end": 66359,
+    "text": "I read an AIxiv article about segmentation models on WeChat during my companion's conversation about high school exams.",
     "refs": [
       50,
       51,
@@ -97,7 +117,17 @@
       59,
       60,
       61,
-      62,
+      62
+    ],
+    "boundary_reason": "Changes browsing topic and begins speaking",
+    "origin_chunk": 1
+  },
+  {
+    "id": 6,
+    "start": 66360,
+    "end": 66479,
+    "text": "I discuss work schedules and classes with my companion during my review of tech news and 3D modeling posts.",
+    "refs": [
       63,
       64,
       65,
@@ -114,7 +144,17 @@
       76,
       77,
       78,
-      79,
+      79
+    ],
+    "boundary_reason": "Focuses on reading a specific article without speaking",
+    "origin_chunk": 1
+  },
+  {
+    "id": 7,
+    "start": 66480,
+    "end": 66567,
+    "text": "I read a WeChat article about 3D AI generation and the Meshy plugin.",
+    "refs": [
       80,
       81,
       82,
@@ -129,60 +169,50 @@
       91,
       92
     ],
-    "boundary_reason": "Stops reading WeChat to check a group chat and prepare to leave.",
+    "boundary_reason": "Checks a group chat and prepares to leave",
     "origin_chunk": 1
   },
   {
-    "id": 4,
-    "start": 39364,
-    "end": 39374,
-    "text": "I read a university group chat message on my phone and pick up my backpack to leave.",
+    "id": 8,
+    "start": 66568,
+    "end": 66578,
+    "text": "I check a WeChat capstone project recruitment message during my departure preparations.",
     "refs": [
       93,
       94,
       95,
       96
     ],
-    "boundary_reason": "Finishes checking the phone and begins walking to the building.",
+    "boundary_reason": "Leaves the balcony area to travel",
     "origin_chunk": 1
   },
   {
-    "id": 5,
-    "start": 39374,
-    "end": 39412,
-    "text": "I walk from the patio into the Knowles Building and proceed to the elevator lobby.",
+    "id": 9,
+    "start": 66578,
+    "end": 66612,
+    "text": "I walk along the patio to enter the Knowles Building lobby.",
     "refs": [
       97,
       98,
       99,
       100,
       101,
-      102,
-      103
+      102
     ],
-    "boundary_reason": "Arrives at the elevator lobby and pauses to look at the phone.",
+    "boundary_reason": "Arrives at the elevator lobby",
     "origin_chunk": 1
   },
   {
-    "id": 6,
-    "start": 39412,
-    "end": 39426,
-    "text": "I scroll through and view photos on my smartphone.",
+    "id": 10,
+    "start": 66612,
+    "end": 66666,
+    "text": "I discuss my eye-tracking camera with a passenger during the elevator wait and ride.",
     "refs": [
+      103,
       104,
       105,
       106,
-      107
-    ],
-    "boundary_reason": "Stops looking at photos to board the elevator.",
-    "origin_chunk": 1
-  },
-  {
-    "id": 7,
-    "start": 39426,
-    "end": 39462,
-    "text": "I ride the elevator and explain my eye-tracking camera to a fellow passenger.",
-    "refs": [
+      107,
       108,
       109,
       110,
@@ -196,14 +226,14 @@
       118,
       119
     ],
-    "boundary_reason": "Exits the elevator and begins walking to the lecture hall.",
+    "boundary_reason": "Exits the elevator to walk to the lecture hall",
     "origin_chunk": 1
   },
   {
-    "id": 8,
-    "start": 39463,
-    "end": 39516,
-    "text": "I walk down the corridor and navigate to my desk in the lecture hall.",
+    "id": 11,
+    "start": 66667,
+    "end": 66725,
+    "text": "I navigate through the corridor to my desk in the lecture hall.",
     "refs": [
       120,
       121,
@@ -213,18 +243,18 @@
       125,
       126,
       127,
-      128
+      128,
+      129
     ],
-    "boundary_reason": "Arrives at the desk and begins unpacking and settling in.",
+    "boundary_reason": "Takes a seat in the lecture hall",
     "origin_chunk": 1
   },
   {
-    "id": 9,
-    "start": 39516,
-    "end": 39569,
-    "text": "I sit at my desk, pull out my black jacket from my backpack, and put it on.",
+    "id": 12,
+    "start": 66725,
+    "end": 66773,
+    "text": "I put on my black jacket during the lecturer's introductory remarks.",
     "refs": [
-      129,
       130,
       131,
       132,
@@ -239,14 +269,14 @@
       141,
       142
     ],
-    "boundary_reason": "Finishes putting on the jacket and begins setting up the laptop.",
+    "boundary_reason": "Takes out the laptop for class",
     "origin_chunk": 1
   },
   {
-    "id": 10,
-    "start": 39570,
-    "end": 39647,
-    "text": "I open my MacBook, log into the university portal, and check my Assignment 3 submission status on Moodle.",
+    "id": 13,
+    "start": 66774,
+    "end": 66851,
+    "text": "I set up my MacBook to check my Moodle Assignment 3 submission status.",
     "refs": [
       143,
       144,
@@ -266,27 +296,17 @@
       158,
       159
     ],
-    "boundary_reason": "Switches from using the laptop to photographing the lecture slide with the phone.",
+    "boundary_reason": "Focuses on the lecture presentation",
     "origin_chunk": 1
   },
   {
-    "id": 11,
-    "start": 39648,
-    "end": 39660,
-    "text": "I unlock my phone and photograph the lecture slide.",
+    "id": 14,
+    "start": 66852,
+    "end": 66961,
+    "text": "I observe the lecture presentation on the projector screen.",
     "refs": [
       160,
-      161
-    ],
-    "boundary_reason": "Puts the phone down and focuses on watching the lecture.",
-    "origin_chunk": 1
-  },
-  {
-    "id": 12,
-    "start": 39661,
-    "end": 39822,
-    "text": "I watch the lecture presentation as the instructor discusses backpropagation and gradients.",
-    "refs": [
+      161,
       162,
       163,
       164,
@@ -302,7 +322,17 @@
       174,
       175,
       176,
-      177,
+      177
+    ],
+    "boundary_reason": "Transitions to taking notes on the laptop",
+    "origin_chunk": 1
+  },
+  {
+    "id": 15,
+    "start": 66962,
+    "end": 67091,
+    "text": "I type lecture notes on loss function gradients on my MacBook.",
+    "refs": [
       178,
       179,
       180,
@@ -312,17 +342,7 @@
       184,
       185,
       186,
-      187
-    ],
-    "boundary_reason": "Shifts attention to typing notes on the laptop.",
-    "origin_chunk": 1
-  },
-  {
-    "id": 13,
-    "start": 39822,
-    "end": 39891,
-    "text": "I type lecture notes on my MacBook while listening to the presentation.",
-    "refs": [
+      187,
       188,
       189,
       190,
@@ -334,18 +354,18 @@
       196,
       197,
       198,
-      199,
-      200
+      199
     ],
-    "boundary_reason": "Stops typing and shifts focus to observing the lecture hall and presentation.",
+    "boundary_reason": "Transitions to listening to the lecture",
     "origin_chunk": 1
   },
   {
-    "id": 14,
-    "start": 39892,
-    "end": 39939,
-    "text": "I observe the lecture hall and listen to the instructor discuss the representer theorem.",
+    "id": 16,
+    "start": 67092,
+    "end": 67139,
+    "text": "I listen to the lecture on the representer theorem.",
     "refs": [
+      200,
       201,
       202,
       203,
@@ -355,19 +375,19 @@
       207,
       208,
       209,
-      210,
-      211,
-      212
+      210
     ],
-    "boundary_reason": "Shifts attention to reviewing the Moodle course page on the laptop.",
+    "boundary_reason": "Inspects the laptop interface",
     "origin_chunk": 1
   },
   {
-    "id": 15,
-    "start": 39940,
-    "end": 39972,
-    "text": "I review the Moodle course page and navigation bar on my laptop screen.",
+    "id": 17,
+    "start": 67140,
+    "end": 67176,
+    "text": "I browse the Moodle course interface and user guide menu on my laptop.",
     "refs": [
+      211,
+      212,
       213,
       214,
       215,
@@ -376,14 +396,14 @@
       218,
       219
     ],
-    "boundary_reason": "Returns focus to watching the instructor and the lecture presentation.",
+    "boundary_reason": "Returns focus to the instructor's lecture",
     "origin_chunk": 1
   },
   {
-    "id": 16,
-    "start": 39972,
-    "end": 40055,
-    "text": "I watch the instructor explain the matrix form for nonlinear regression and briefly raise my hand.",
+    "id": 18,
+    "start": 67176,
+    "end": 67257,
+    "text": "I attend the instructor's explanation of matrix forms for nonlinear regression.",
     "refs": [
       220,
       221,
@@ -397,18 +417,18 @@
       229,
       230,
       231,
-      232,
-      233
+      232
     ],
-    "boundary_reason": "Shifts to using the smartphone to photograph slides and review notes.",
+    "boundary_reason": "Uses the smartphone to review notes",
     "origin_chunk": 1
   },
   {
-    "id": 17,
-    "start": 40056,
-    "end": 40175,
-    "text": "I photograph a lecture slide and review lecture notes on linear systems and iterative methods on my phone.",
+    "id": 19,
+    "start": 67258,
+    "end": 67363,
+    "text": "I review linear systems notes and a photographed lecture slide on my smartphone.",
     "refs": [
+      233,
       234,
       235,
       236,
@@ -421,19 +441,29 @@
       243,
       244,
       245,
-      246,
+      246
+    ],
+    "boundary_reason": "Puts the smartphone down",
+    "origin_chunk": 1
+  },
+  {
+    "id": 20,
+    "start": 67363,
+    "end": 67379,
+    "text": "I place my smartphone onto my laptop keyboard.",
+    "refs": [
       247,
       248,
       249
     ],
-    "boundary_reason": "End of input.",
+    "boundary_reason": "End of recorded evidence",
     "origin_chunk": 1
   },
   {
-    "id": 18,
-    "start": 40176,
-    "end": 40236,
-    "text": "I monitor my laptop and smartphone screens.",
+    "id": 21,
+    "start": 67380,
+    "end": 67592,
+    "text": "I attend the lecture on matrix row interchanges.",
     "refs": [
       250,
       251,
@@ -443,17 +473,7 @@
       255,
       256,
       257,
-      258
-    ],
-    "boundary_reason": "Lecturer begins a specific explanation",
-    "origin_chunk": 2
-  },
-  {
-    "id": 19,
-    "start": 40236,
-    "end": 40388,
-    "text": "I listen to the lecturer's explanation of matrix row interchanges.",
-    "refs": [
+      258,
       259,
       260,
       261,
@@ -476,14 +496,14 @@
       278,
       279
     ],
-    "boundary_reason": "Transitions to using a smartphone app",
+    "boundary_reason": "Shift to using the smartphone viewer app",
     "origin_chunk": 2
   },
   {
-    "id": 20,
-    "start": 40389,
-    "end": 40415,
-    "text": "I set up my smartphone viewer app on my laptop.",
+    "id": 22,
+    "start": 67593,
+    "end": 67619,
+    "text": "I open the viewer app on my smartphone to read the lecture slide.",
     "refs": [
       280,
       281,
@@ -491,14 +511,14 @@
       283,
       284
     ],
-    "boundary_reason": "Setup complete, begins monitoring the screen",
+    "boundary_reason": "App opening completes",
     "origin_chunk": 2
   },
   {
-    "id": 21,
-    "start": 40416,
-    "end": 40623,
-    "text": "I monitor the lecture presentation on my propped smartphone.",
+    "id": 23,
+    "start": 67620,
+    "end": 67837,
+    "text": "I monitor my smartphone and laptop screens during the lecture.",
     "refs": [
       285,
       286,
@@ -521,35 +541,25 @@
       303,
       304,
       305,
-      306
+      306,
+      307,
+      308
     ],
-    "boundary_reason": "Topic shifts to the error equation",
+    "boundary_reason": "Begins typing notes",
     "origin_chunk": 2
   },
   {
-    "id": 22,
-    "start": 40624,
-    "end": 40686,
-    "text": "I listen to the lecturer's introduction of the error equation.",
+    "id": 24,
+    "start": 67838,
+    "end": 67989,
+    "text": "I type lecture notes regarding the error equation.",
     "refs": [
-      307,
-      308,
       309,
       310,
       311,
       312,
       313,
-      314
-    ],
-    "boundary_reason": "Shifts focus to typing notes on laptop",
-    "origin_chunk": 2
-  },
-  {
-    "id": 23,
-    "start": 40686,
-    "end": 40785,
-    "text": "I type lecture notes on my laptop.",
-    "refs": [
+      314,
       315,
       316,
       317,
@@ -570,14 +580,14 @@
       332,
       333
     ],
-    "boundary_reason": "Stops typing to listen to a new topic",
+    "boundary_reason": "Lecturer changes topic to singular value decomposition",
     "origin_chunk": 2
   },
   {
-    "id": 24,
-    "start": 40786,
-    "end": 40865,
-    "text": "I listen to the lecturer's explanation of singular value decomposition and rank one matrices.",
+    "id": 25,
+    "start": 67005,
+    "end": 68069,
+    "text": "I listen to the explanation of singular value decomposition and neural network parameters.",
     "refs": [
       334,
       335,
@@ -586,29 +596,19 @@
       338,
       339,
       340,
-      341
-    ],
-    "boundary_reason": "Topic shifts to neural networks",
-    "origin_chunk": 2
-  },
-  {
-    "id": 25,
-    "start": 39801,
-    "end": 39816,
-    "text": "I listen to the lecturer's discussion of neural network parameters.",
-    "refs": [
+      341,
       342,
       343,
       344,
       345
     ],
-    "boundary_reason": "Returns to typing notes",
+    "boundary_reason": "Shift back to typing notes",
     "origin_chunk": 2
   },
   {
     "id": 26,
-    "start": 40896,
-    "end": 40942,
+    "start": 68100,
+    "end": 68146,
     "text": "I type lecture notes on my laptop.",
     "refs": [
       346,
@@ -617,42 +617,32 @@
       349,
       350
     ],
-    "boundary_reason": "Picks up phone to take a photograph",
+    "boundary_reason": "Shift to photographing a slide",
     "origin_chunk": 2
   },
   {
     "id": 27,
-    "start": 40942,
-    "end": 40970,
-    "text": "I capture a photograph of the lecture slide with my smartphone.",
+    "start": 68146,
+    "end": 68159,
+    "text": "I photograph the lecture slide with my smartphone.",
     "refs": [
       351,
       352,
-      353,
-      354
+      353
     ],
-    "boundary_reason": "Lowers phone and starts fidgeting",
+    "boundary_reason": "Photographing completes",
     "origin_chunk": 2
   },
   {
     "id": 28,
-    "start": 40970,
-    "end": 40987,
-    "text": "I fidget with my fingernails.",
+    "start": 68160,
+    "end": 68249,
+    "text": "I study a diagram in my laptop lecture notes.",
     "refs": [
+      354,
       355,
       356,
-      357
-    ],
-    "boundary_reason": "Returns attention to the laptop diagram",
-    "origin_chunk": 2
-  },
-  {
-    "id": 29,
-    "start": 40988,
-    "end": 41045,
-    "text": "I study a diagram on my laptop presentation canvas.",
-    "refs": [
+      357,
       358,
       359,
       360,
@@ -660,27 +650,27 @@
       362,
       363
     ],
-    "boundary_reason": "Instructor begins a new topic",
+    "boundary_reason": "Instructor begins explaining a new method",
     "origin_chunk": 2
   },
   {
-    "id": 30,
-    "start": 41046,
-    "end": 41073,
-    "text": "I listen to the instructor's explanation of the inverse iteration method.",
+    "id": 29,
+    "start": 68250,
+    "end": 68277,
+    "text": "I listen to the instructor explain the inverse iteration method.",
     "refs": [
       364,
       365,
       366
     ],
-    "boundary_reason": "Returns to reading materials on laptop",
+    "boundary_reason": "Shift to reading articles",
     "origin_chunk": 2
   },
   {
-    "id": 31,
-    "start": 41073,
-    "end": 41135,
-    "text": "I review an inductive bias article and a physics simulation on my laptop.",
+    "id": 30,
+    "start": 68277,
+    "end": 68458,
+    "text": "I read inductive bias notes on my laptop.",
     "refs": [
       367,
       368,
@@ -689,17 +679,7 @@
       371,
       372,
       373,
-      374
-    ],
-    "boundary_reason": "Focuses heavily on reading Notion notes",
-    "origin_chunk": 2
-  },
-  {
-    "id": 32,
-    "start": 41136,
-    "end": 41254,
-    "text": "I review Notion notes on inductive bias on my laptop.",
-    "refs": [
+      374,
       375,
       376,
       377,
@@ -718,14 +698,14 @@
       390,
       391
     ],
-    "boundary_reason": "Picks up iPhone to check notifications",
+    "boundary_reason": "Shift to adjusting the smartphone",
     "origin_chunk": 2
   },
   {
-    "id": 33,
-    "start": 41255,
-    "end": 41286,
-    "text": "I prop my landscape-oriented iPhone against my laptop.",
+    "id": 31,
+    "start": 68459,
+    "end": 68490,
+    "text": "I set up my smartphone against my laptop screen.",
     "refs": [
       392,
       393,
@@ -733,14 +713,14 @@
       395,
       396
     ],
-    "boundary_reason": "Setup complete, begins using the camera",
+    "boundary_reason": "Smartphone setup completes",
     "origin_chunk": 2
   },
   {
-    "id": 34,
-    "start": 41286,
-    "end": 41320,
-    "text": "I frame the lecture slide with my iPhone camera.",
+    "id": 32,
+    "start": 68490,
+    "end": 68524,
+    "text": "I photograph the lecture slide with my smartphone.",
     "refs": [
       397,
       398,
@@ -750,14 +730,14 @@
       402,
       403
     ],
-    "boundary_reason": "Lowers phone and returns to reading notes",
+    "boundary_reason": "Framing and photography completes",
     "origin_chunk": 2
   },
   {
-    "id": 35,
-    "start": 41321,
-    "end": 41380,
-    "text": "I read my inductive bias notes on my laptop.",
+    "id": 33,
+    "start": 68525,
+    "end": 68605,
+    "text": "I read inductive bias notes on my laptop.",
     "refs": [
       404,
       405,
@@ -766,48 +746,28 @@
       408,
       409,
       410,
-      411
-    ],
-    "boundary_reason": "Begins to look around the hall environment",
-    "origin_chunk": 2
-  },
-  {
-    "id": 36,
-    "start": 41380,
-    "end": 41406,
-    "text": "I observe the students and environment in the lecture hall.",
-    "refs": [
+      411,
       412,
       413,
       414,
-      415,
-      416
+      415
     ],
-    "boundary_reason": "Lecture topic shifts to ordinary differential equations",
+    "boundary_reason": "Shift to listening to the lecture",
     "origin_chunk": 2
   },
   {
-    "id": 37,
-    "start": 41406,
-    "end": 41438,
-    "text": "I listen to the lecture on ordinary differential equations.",
+    "id": 34,
+    "start": 68605,
+    "end": 68702,
+    "text": "I listen to the lecturer explain ordinary differential equations and bivariate functions.",
     "refs": [
+      416,
       417,
       418,
       419,
       420,
       421,
-      422
-    ],
-    "boundary_reason": "Lecturer focuses on bivariate functions",
-    "origin_chunk": 2
-  },
-  {
-    "id": 38,
-    "start": 41438,
-    "end": 41498,
-    "text": "I listen to the lecturer's explanation of bivariate functions.",
-    "refs": [
+      422,
       423,
       424,
       425,
@@ -820,14 +780,14 @@
       432,
       433
     ],
-    "boundary_reason": "Focuses on reading MLP notes",
+    "boundary_reason": "Shift back to reading notes",
     "origin_chunk": 2
   },
   {
-    "id": 39,
-    "start": 41499,
-    "end": 41555,
-    "text": "I read my notes on MLP inductive bias.",
+    "id": 35,
+    "start": 68703,
+    "end": 68744,
+    "text": "I read inductive bias notes on my laptop.",
     "refs": [
       434,
       435,
@@ -835,18 +795,18 @@
       437,
       438,
       439,
-      440,
-      441
+      440
     ],
-    "boundary_reason": "Looks around the hall and presentation screens",
+    "boundary_reason": "Shift to watching the lecture screens",
     "origin_chunk": 2
   },
   {
-    "id": 40,
-    "start": 41556,
-    "end": 41650,
-    "text": "I observe the front projection screens in the lecture hall.",
+    "id": 36,
+    "start": 68745,
+    "end": 68871,
+    "text": "I watch the presentation on the front projection screens.",
     "refs": [
+      441,
       442,
       443,
       444,
@@ -861,51 +821,41 @@
       453,
       454,
       455,
-      456
+      456,
+      457,
+      458
     ],
-    "boundary_reason": "Begins reading an article as the theta method is introduced",
+    "boundary_reason": "Lecturer introduces the theta method",
     "origin_chunk": 2
   },
   {
-    "id": 41,
-    "start": 41651,
-    "end": 41705,
-    "text": "I listen to the lecturer's introduction of the theta method.",
+    "id": 37,
+    "start": 68872,
+    "end": 68915,
+    "text": "I listen to the lecturer explain the theta method.",
     "refs": [
-      457,
-      458,
       459,
       460,
-      461
+      461,
+      462,
+      463
     ],
-    "boundary_reason": "Starts reading and looking around the hall",
+    "boundary_reason": "Shift back to reading articles",
     "origin_chunk": 2
   },
   {
-    "id": 42,
-    "start": 41706,
-    "end": 41764,
-    "text": "I observe the lecture presentation and hall environment.",
+    "id": 38,
+    "start": 68915,
+    "end": 69007,
+    "text": "I read an inductive bias article on my laptop.",
     "refs": [
-      462,
-      463,
       464,
       465,
       466,
       467,
       468,
       469,
-      470
-    ],
-    "boundary_reason": "Returns to focused reading of machine learning notes",
-    "origin_chunk": 2
-  },
-  {
-    "id": 43,
-    "start": 41765,
-    "end": 41803,
-    "text": "I read notes on machine learning, network structure, and inductive bias on my laptop.",
-    "refs": [
+      470,
       471,
       472,
       473,
@@ -922,10 +872,10 @@
     "origin_chunk": 2
   },
   {
-    "id": 44,
-    "start": 41804,
-    "end": 41855,
-    "text": "I listen to the lecturer's explanation of convergence rates and mesh size for the theta method.",
+    "id": 39,
+    "start": 69008,
+    "end": 69066,
+    "text": "I listen to the lecturer explain the theta method convergence rate and mesh size.",
     "refs": [
       482,
       483,
@@ -933,19 +883,19 @@
       485,
       486,
       487,
-      488
+      488,
+      489,
+      490
     ],
-    "boundary_reason": "Returns to studying definitions on laptop",
+    "boundary_reason": "Shift back to reading notes",
     "origin_chunk": 2
   },
   {
-    "id": 45,
-    "start": 41856,
-    "end": 41925,
-    "text": "I study error bounds and the Tom M. Mitchell inductive bias definition.",
+    "id": 40,
+    "start": 69066,
+    "end": 69129,
+    "text": "I read the Tom M. Mitchell inductive bias definition on my laptop.",
     "refs": [
-      489,
-      490,
       491,
       492,
       493,
@@ -956,14 +906,14 @@
       498,
       499
     ],
-    "boundary_reason": "End of batch",
+    "boundary_reason": "End of provided inputs",
     "origin_chunk": 2
   },
   {
-    "id": 46,
-    "start": 41926,
-    "end": 41966,
-    "text": "I read the inductive bias notes on my laptop.",
+    "id": 41,
+    "start": 69130,
+    "end": 69170,
+    "text": "I read inductive bias notes on my laptop.",
     "refs": [
       500,
       501,
@@ -973,27 +923,17 @@
       505,
       506
     ],
-    "boundary_reason": "Shifts focus to phone",
+    "boundary_reason": "Stop reading to listen to the lecture.",
     "origin_chunk": 3
   },
   {
-    "id": 47,
-    "start": 41967,
-    "end": 41978,
-    "text": "I look at my phone.",
+    "id": 42,
+    "start": 69171,
+    "end": 69300,
+    "text": "I listen to the lecturer explain ResNet skip connections.",
     "refs": [
       507,
-      508
-    ],
-    "boundary_reason": "Shifts attention to the lecture",
-    "origin_chunk": 3
-  },
-  {
-    "id": 48,
-    "start": 41978,
-    "end": 42096,
-    "text": "I watch and listen to the lecture on ResNet skip connections and ODEs.",
-    "refs": [
+      508,
       509,
       510,
       511,
@@ -1010,39 +950,39 @@
       522,
       523
     ],
-    "boundary_reason": "Returns focus to reading notes",
+    "boundary_reason": "Switch focus to reading notes.",
     "origin_chunk": 3
   },
   {
-    "id": 49,
-    "start": 42096,
-    "end": 42114,
+    "id": 43,
+    "start": 69300,
+    "end": 69318,
     "text": "I read the inductive bias notes.",
     "refs": [
       524,
       525,
       526
     ],
-    "boundary_reason": "Glances at the projector screen",
+    "boundary_reason": "Look up at projector screen.",
     "origin_chunk": 3
   },
   {
-    "id": 50,
-    "start": 42115,
-    "end": 42127,
+    "id": 44,
+    "start": 69319,
+    "end": 69331,
     "text": "I look at the projector screen.",
     "refs": [
       527,
       528
     ],
-    "boundary_reason": "Shifts focus to phone and laptop keyboard",
+    "boundary_reason": "Shift attention to devices.",
     "origin_chunk": 3
   },
   {
-    "id": 51,
-    "start": 42128,
-    "end": 42161,
-    "text": "I check my phone and laptop keyboard.",
+    "id": 45,
+    "start": 69332,
+    "end": 69365,
+    "text": "I check my smartphone and laptop keyboard.",
     "refs": [
       529,
       530,
@@ -1054,27 +994,27 @@
       536,
       537
     ],
-    "boundary_reason": "Lecturer begins discussing a new topic",
+    "boundary_reason": "Lecturer explains a new concept.",
     "origin_chunk": 3
   },
   {
-    "id": 52,
-    "start": 42161,
-    "end": 42181,
-    "text": "I listen to the lecturer discuss feed-forward neural networks and exploding gradients.",
+    "id": 46,
+    "start": 69365,
+    "end": 69385,
+    "text": "I listen to the lecturer discuss neural network training difficulties.",
     "refs": [
       538,
       539,
       540
     ],
-    "boundary_reason": "Returns focus to reading notes on laptop",
+    "boundary_reason": "Return to reading notes on laptop.",
     "origin_chunk": 3
   },
   {
-    "id": 53,
-    "start": 42181,
-    "end": 42280,
-    "text": "I read inductive bias notes for various models on my laptop.",
+    "id": 47,
+    "start": 69385,
+    "end": 69484,
+    "text": "I read inductive bias notes for various neural network architectures.",
     "refs": [
       541,
       542,
@@ -1088,26 +1028,26 @@
       550,
       551
     ],
-    "boundary_reason": "Lecturer asks a question",
+    "boundary_reason": "Stop to listen to the lecturer's question.",
     "origin_chunk": 3
   },
   {
-    "id": 54,
-    "start": 42280,
-    "end": 42294,
-    "text": "I listen to the lecturer ask about computational complexity.",
+    "id": 48,
+    "start": 69484,
+    "end": 69498,
+    "text": "I listen to the lecturer ask about gradient computational complexity.",
     "refs": [
       552,
       553
     ],
-    "boundary_reason": "Returns focus to reading notes",
+    "boundary_reason": "Return to reading notes.",
     "origin_chunk": 3
   },
   {
-    "id": 55,
-    "start": 42294,
-    "end": 42369,
-    "text": "I read notes on inductive bias and sample complexity.",
+    "id": 49,
+    "start": 69498,
+    "end": 69573,
+    "text": "I read inductive bias and sample complexity analysis notes.",
     "refs": [
       554,
       555,
@@ -1119,108 +1059,108 @@
       561,
       562
     ],
-    "boundary_reason": "Prepares to photograph a slide",
+    "boundary_reason": "Decide to photograph the lecture slide.",
     "origin_chunk": 3
   },
   {
-    "id": 56,
-    "start": 42370,
-    "end": 42395,
-    "text": "I photograph the lecture slide and read it on my phone.",
+    "id": 50,
+    "start": 69574,
+    "end": 69583,
+    "text": "I photograph a lecture slide with my smartphone.",
     "refs": [
       563,
-      564,
-      565
+      564
     ],
-    "boundary_reason": "Shifts focus to reading summary notes",
+    "boundary_reason": "Proceed to read the captured slide.",
     "origin_chunk": 3
   },
   {
-    "id": 57,
-    "start": 42396,
-    "end": 42429,
-    "text": "I read the lecture and course summary notes.",
+    "id": 51,
+    "start": 69584,
+    "end": 69599,
+    "text": "I read the captured lecture slide on my smartphone.",
+    "refs": [
+      565
+    ],
+    "boundary_reason": "Switch to reading summary notes.",
+    "origin_chunk": 3
+  },
+  {
+    "id": 52,
+    "start": 69600,
+    "end": 69633,
+    "text": "I read course summary notes.",
     "refs": [
       566,
       567,
       568,
       569
     ],
-    "boundary_reason": "Switches to reading Claude AI chat",
+    "boundary_reason": "Switch to reviewing an AI chat.",
     "origin_chunk": 3
   },
   {
-    "id": 58,
-    "start": 42430,
-    "end": 42440,
-    "text": "I read the Claude AI chat on my propped phone.",
+    "id": 53,
+    "start": 69634,
+    "end": 69714,
+    "text": "I read the Claude AI discussion on my laptop.",
     "refs": [
       570,
-      571
-    ],
-    "boundary_reason": "Looks around the desk area",
-    "origin_chunk": 3
-  },
-  {
-    "id": 59,
-    "start": 42441,
-    "end": 42484,
-    "text": "I look around my desk and rest my face in my hands.",
-    "refs": [
+      571,
       572,
       573,
       574,
       575,
       576,
-      577
-    ],
-    "boundary_reason": "Returns to reading Claude and summary text",
-    "origin_chunk": 3
-  },
-  {
-    "id": 60,
-    "start": 42484,
-    "end": 42503,
-    "text": "I read the Claude discussion and summary text on my devices.",
-    "refs": [
+      577,
       578,
-      579
+      579,
+      580,
+      581
     ],
-    "boundary_reason": "Looks around the room and watches presenter",
+    "boundary_reason": "Shift attention to the entrance.",
     "origin_chunk": 3
   },
   {
-    "id": 61,
-    "start": 42503,
-    "end": 42538,
-    "text": "I look around my desk and watch the presenter.",
+    "id": 54,
+    "start": 69714,
+    "end": 69726,
+    "text": "I look toward the lecture hall entrance.",
     "refs": [
-      580,
-      581,
       582,
-      583,
+      583
+    ],
+    "boundary_reason": "Return focus to the presenter.",
+    "origin_chunk": 3
+  },
+  {
+    "id": 55,
+    "start": 69727,
+    "end": 69742,
+    "text": "I watch the presenter.",
+    "refs": [
       584
     ],
-    "boundary_reason": "Shifts focus to smartphone summary slide",
+    "boundary_reason": "Reach for smartphone.",
     "origin_chunk": 3
   },
   {
-    "id": 62,
-    "start": 42539,
-    "end": 42545,
-    "text": "I read the lecture summary slide on my smartphone.",
+    "id": 56,
+    "start": 69743,
+    "end": 69749,
+    "text": "I read the summary slide on my smartphone.",
     "refs": [
       585,
       586
     ],
-    "boundary_reason": "Classmate initiates conversation about project proposals",
+    "boundary_reason": "Classmate initiates a conversation.",
     "origin_chunk": 3
   },
   {
-    "id": 63,
-    "start": 42546,
-    "end": 42614,
-    "text": "I view the ARIN7600 project document and proposals with my classmate.",
+    "id": 57,
+    "start": 69750,
+    "end": 69874,
+    "text": "I discuss various project proposals with my classmate.",
     "refs": [
       587,
       588,
@@ -1234,17 +1174,7 @@
       596,
       597,
       598,
-      599
-    ],
-    "boundary_reason": "Discussion shifts specifically to the psychology project proposal",
-    "origin_chunk": 3
-  },
-  {
-    "id": 64,
-    "start": 42615,
-    "end": 42670,
-    "text": "I discuss the psychology and human behavior project proposal with my classmate.",
-    "refs": [
+      599,
       600,
       601,
       602,
@@ -1257,14 +1187,14 @@
       609,
       610
     ],
-    "boundary_reason": "Discussion shifts to the Bilevel Optimization project proposal",
+    "boundary_reason": "Focus on the specific Bilevel Optimization project.",
     "origin_chunk": 3
   },
   {
-    "id": 65,
-    "start": 42671,
-    "end": 42747,
-    "text": "I read and discuss the Bilevel Optimization project proposal with my classmate.",
+    "id": 58,
+    "start": 69875,
+    "end": 69940,
+    "text": "I discuss the Bilevel Optimization project proposal with my classmate.",
     "refs": [
       611,
       612,
@@ -1277,115 +1207,105 @@
       619,
       620,
       621,
-      622,
-      623,
-      624
+      622
     ],
-    "boundary_reason": "Takes a photo of the lecture slide",
+    "boundary_reason": "Stop discussing to photograph a slide.",
     "origin_chunk": 3
   },
   {
-    "id": 66,
-    "start": 42747,
-    "end": 42757,
-    "text": "I photograph the lecture slide.",
+    "id": 59,
+    "start": 69940,
+    "end": 69968,
+    "text": "I photograph a lecture slide with my smartphone.",
     "refs": [
+      623,
+      624,
       625,
       626,
-      627
-    ],
-    "boundary_reason": "Checks phone notifications",
-    "origin_chunk": 3
-  },
-  {
-    "id": 67,
-    "start": 42758,
-    "end": 42770,
-    "text": "I check notifications and view a login portal on my phone.",
-    "refs": [
+      627,
       628,
-      629,
-      630
+      629
     ],
-    "boundary_reason": "Watches presenter while classmate speaks",
+    "boundary_reason": "Look up and log into portal.",
     "origin_chunk": 3
   },
   {
-    "id": 68,
-    "start": 42771,
-    "end": 42800,
-    "text": "I watch the presenter and listen to my classmate discuss using LLMs.",
+    "id": 60,
+    "start": 69969,
+    "end": 70024,
+    "text": "I log into a portal on my smartphone.",
     "refs": [
+      630,
       631,
       632,
-      633
-    ],
-    "boundary_reason": "Focuses on logging into the survey portal",
-    "origin_chunk": 3
-  },
-  {
-    "id": 69,
-    "start": 42800,
-    "end": 42829,
-    "text": "I log in and open the SFTL course evaluation survey on my phone.",
-    "refs": [
+      633,
       634,
       635,
       636,
       637,
-      638,
-      639,
-      640
+      638
     ],
-    "boundary_reason": "Classmate initiates discussion about a past course",
+    "boundary_reason": "Switch to viewing a survey.",
     "origin_chunk": 3
   },
   {
-    "id": 70,
-    "start": 42830,
-    "end": 42846,
-    "text": "I discuss a past course with my classmate.",
+    "id": 61,
+    "start": 70025,
+    "end": 70038,
+    "text": "I view the SFTL survey on my smartphone.",
     "refs": [
-      641,
+      639,
+      640,
+      641
+    ],
+    "boundary_reason": "Classmate initiates conversation.",
+    "origin_chunk": 3
+  },
+  {
+    "id": 62,
+    "start": 70039,
+    "end": 70050,
+    "text": "I discuss course recommendations with my classmate.",
+    "refs": [
       642,
       643
     ],
-    "boundary_reason": "Reads a new project description",
+    "boundary_reason": "Switch to reading a new project proposal.",
     "origin_chunk": 3
   },
   {
-    "id": 71,
-    "start": 42846,
-    "end": 42862,
-    "text": "I read the Edge-Cloud Collaborative Systems project description.",
+    "id": 63,
+    "start": 70050,
+    "end": 70066,
+    "text": "I read the Edge-Cloud Collaborative Systems project proposal.",
     "refs": [
       644,
       645,
       646,
       647
     ],
-    "boundary_reason": "Watches lecture while viewing survey webpage",
+    "boundary_reason": "Stop reading to watch the lecture.",
     "origin_chunk": 3
   },
   {
-    "id": 72,
-    "start": 42863,
-    "end": 42887,
-    "text": "I watch the lecture presentation while viewing the evaluation webpage.",
+    "id": 64,
+    "start": 70067,
+    "end": 70091,
+    "text": "I watch the lecture presentation.",
     "refs": [
       648,
       649,
       650,
       651
     ],
-    "boundary_reason": "Begins filling out the course evaluation survey",
+    "boundary_reason": "Switch to completing the survey on smartphone.",
     "origin_chunk": 3
   },
   {
-    "id": 73,
-    "start": 42887,
-    "end": 42971,
-    "text": "I fill out the SFTL course evaluation survey on my smartphone.",
+    "id": 65,
+    "start": 70091,
+    "end": 70179,
+    "text": "I complete the SFTL course evaluation survey on my smartphone.",
     "refs": [
       652,
       653,
@@ -1399,30 +1319,20 @@
       661,
       662,
       663,
-      664
+      664,
+      665
     ],
-    "boundary_reason": "Switches to reviewing ARIN7600 project requirements",
+    "boundary_reason": "Switch to discussing EEG project with classmate.",
     "origin_chunk": 3
   },
   {
-    "id": 74,
-    "start": 42972,
-    "end": 42986,
-    "text": "I review the ARIN7600 project description and requirements.",
+    "id": 66,
+    "start": 70180,
+    "end": 70236,
+    "text": "I discuss the EEG project proposal with my classmate.",
     "refs": [
-      665,
       666,
-      667
-    ],
-    "boundary_reason": "Classmate initiates discussion about the EEG project",
-    "origin_chunk": 3
-  },
-  {
-    "id": 75,
-    "start": 42987,
-    "end": 43032,
-    "text": "I discuss the EEG versus fMRI project proposal with my classmate.",
-    "refs": [
+      667,
       668,
       669,
       670,
@@ -1433,27 +1343,27 @@
       675,
       676
     ],
-    "boundary_reason": "Checks WeChat messages on phone",
+    "boundary_reason": "Switch to browsing WeChat.",
     "origin_chunk": 3
   },
   {
-    "id": 76,
-    "start": 43033,
-    "end": 43049,
-    "text": "I browse WeChat messages on my smartphone.",
+    "id": 67,
+    "start": 70237,
+    "end": 70253,
+    "text": "I read WeChat messages on my smartphone.",
     "refs": [
       677,
       678,
       679
     ],
-    "boundary_reason": "Classmate asks about the midterm exam",
+    "boundary_reason": "Classmate asks about the midterm exam.",
     "origin_chunk": 3
   },
   {
-    "id": 77,
-    "start": 43050,
-    "end": 43108,
-    "text": "I discuss picking up my midterm exam paper with my classmate.",
+    "id": 68,
+    "start": 70254,
+    "end": 70290,
+    "text": "I discuss retrieving my midterm exam paper with my classmate.",
     "refs": [
       680,
       681,
@@ -1464,24 +1374,54 @@
       686,
       687,
       688,
-      689,
-      690,
+      689
+    ],
+    "boundary_reason": "Briefly look at notes.",
+    "origin_chunk": 3
+  },
+  {
+    "id": 69,
+    "start": 70290,
+    "end": 70293,
+    "text": "I read Vision Transformer notes.",
+    "refs": [
+      690
+    ],
+    "boundary_reason": "Classmate asks another question about the exam.",
+    "origin_chunk": 3
+  },
+  {
+    "id": 70,
+    "start": 70293,
+    "end": 70312,
+    "text": "I continue discussing retrieving the midterm exam paper with my classmate.",
+    "refs": [
       691,
       692,
       693,
       694,
       695
     ],
-    "boundary_reason": "Discussion shifts to project 12 and course difficulty",
+    "boundary_reason": "Switch to checking WeChat messages.",
     "origin_chunk": 3
   },
   {
-    "id": 78,
-    "start": 43108,
-    "end": 43205,
-    "text": "I read WeChat messages and discuss the difficulty of the ODE/PDE course and project 12 with my classmate.",
+    "id": 71,
+    "start": 70312,
+    "end": 70319,
+    "text": "I read WeChat messages on my smartphone.",
     "refs": [
-      696,
+      696
+    ],
+    "boundary_reason": "Classmate shifts topic to PDE project.",
+    "origin_chunk": 3
+  },
+  {
+    "id": 72,
+    "start": 70320,
+    "end": 70413,
+    "text": "I discuss the PDE and ODE project proposal with my classmate.",
+    "refs": [
       697,
       698,
       699,
@@ -1501,101 +1441,71 @@
       713,
       714,
       715,
-      716
-    ],
-    "boundary_reason": "Inspects terminal output",
-    "origin_chunk": 3
-  },
-  {
-    "id": 79,
-    "start": 43206,
-    "end": 43211,
-    "text": "I inspect the terminal output and look at the presentation slides.",
-    "refs": [
+      716,
       717,
-      718,
-      719
+      718
     ],
-    "boundary_reason": "Leaves seat and walks toward the exit",
+    "boundary_reason": "Leave seat and start walking.",
     "origin_chunk": 3
   },
   {
-    "id": 80,
-    "start": 43211,
-    "end": 43231,
-    "text": "I walk toward the rear exit while browsing WeChat on my phone.",
+    "id": 73,
+    "start": 70413,
+    "end": 70430,
+    "text": "I walk toward the rear exit of the lecture hall.",
     "refs": [
+      719,
       720,
       721,
       722,
-      723,
-      724
+      723
     ],
-    "boundary_reason": "Stops to look around the lecture hall",
+    "boundary_reason": "Stop walking to look around.",
     "origin_chunk": 3
   },
   {
-    "id": 81,
-    "start": 43231,
-    "end": 43250,
-    "text": "I look around the lecture hall from the back.",
+    "id": 74,
+    "start": 70430,
+    "end": 70454,
+    "text": "I look around the lecture hall.",
     "refs": [
+      724,
       725,
       726,
       727,
       728
     ],
-    "boundary_reason": "Initiates conversation about the teaching assistant",
+    "boundary_reason": "Spot a classmate and start talking.",
     "origin_chunk": 3
   },
   {
-    "id": 82,
-    "start": 43251,
-    "end": 43274,
-    "text": "I discuss the teaching assistant with a classmate.",
+    "id": 75,
+    "start": 70455,
+    "end": 70499,
+    "text": "I converse with a classmate about the teaching assistant and final project choices.",
     "refs": [
       729,
       730,
       731,
       732,
-      733
-    ],
-    "boundary_reason": "Asks classmate about their final project choices",
-    "origin_chunk": 3
-  },
-  {
-    "id": 83,
-    "start": 43275,
-    "end": 43295,
-    "text": "I ask a classmate about their final project choices.",
-    "refs": [
+      733,
       734,
       735,
       736
     ],
-    "boundary_reason": "Lecturer announces final exam details",
+    "boundary_reason": "Stop talking to listen to exam announcements.",
     "origin_chunk": 3
   },
   {
-    "id": 84,
-    "start": 43296,
-    "end": 43320,
-    "text": "I listen to the lecturer announce the final exam format and date.",
+    "id": 76,
+    "start": 70500,
+    "end": 70585,
+    "text": "I listen to the lecturer explain the format and details of the final exam.",
     "refs": [
       737,
       738,
       739,
-      740
-    ],
-    "boundary_reason": "Lecturer transitions to explaining open-ended questions",
-    "origin_chunk": 3
-  },
-  {
-    "id": 85,
-    "start": 43320,
-    "end": 43381,
-    "text": "I observe the lecture hall and listen to the lecturer explain the exam questions.",
-    "refs": [
+      740,
       741,
       742,
       743,
@@ -1606,14 +1516,14 @@
       748,
       749
     ],
-    "boundary_reason": "End of provided input",
+    "boundary_reason": "End of input.",
     "origin_chunk": 3
   },
   {
-    "id": 86,
-    "start": 43382,
-    "end": 43427,
-    "text": "I listen to the lecturer discuss neural networks.",
+    "id": 77,
+    "start": 70586,
+    "end": 70637,
+    "text": "I listen to the lecture regarding neural network comparisons and matrix calculations.",
     "refs": [
       750,
       751,
@@ -1621,31 +1531,31 @@
       753,
       754,
       755,
-      756
+      756,
+      757
     ],
-    "boundary_reason": "Goal shifts to checking the phone",
+    "boundary_reason": "Focus shifts from the lecture to operating the smartphone",
     "origin_chunk": 4
   },
   {
-    "id": 87,
-    "start": 43428,
-    "end": 43448,
-    "text": "I check WeChat messages on my phone.",
+    "id": 78,
+    "start": 70638,
+    "end": 70652,
+    "text": "I check WeChat communications on my smartphone.",
     "refs": [
-      757,
       758,
       759,
       760,
       761
     ],
-    "boundary_reason": "Goal shifts back to the lecture",
+    "boundary_reason": "Focus shifts from the smartphone back to the lecture announcements",
     "origin_chunk": 4
   },
   {
-    "id": 88,
-    "start": 43448,
-    "end": 43515,
-    "text": "I listen to the lecturer explain the final exam cheat sheet rules.",
+    "id": 79,
+    "start": 70652,
+    "end": 70719,
+    "text": "I listen to the lecturer's instructions regarding the handwritten A4 cheat sheet for the final exam.",
     "refs": [
       762,
       763,
@@ -1657,28 +1567,28 @@
       769,
       770
     ],
-    "boundary_reason": "The lecture concludes and I begin conversing with a classmate",
+    "boundary_reason": "Lecture announcements conclude and a conversation with a classmate begins",
     "origin_chunk": 4
   },
   {
-    "id": 89,
-    "start": 43515,
-    "end": 43536,
-    "text": "I converse with my classmate.",
+    "id": 80,
+    "start": 70719,
+    "end": 70740,
+    "text": "I converse with a classmate about the lecture duration.",
     "refs": [
       771,
       772,
       773,
       774
     ],
-    "boundary_reason": "Goal shifts to walking in the aisle",
+    "boundary_reason": "Conversation ends and walking through the hall begins",
     "origin_chunk": 4
   },
   {
-    "id": 90,
-    "start": 43536,
-    "end": 43566,
-    "text": "I walk in the lecture hall aisle.",
+    "id": 81,
+    "start": 70740,
+    "end": 70770,
+    "text": "I walk through the lecture hall aisles.",
     "refs": [
       775,
       776,
@@ -1686,29 +1596,29 @@
       778,
       779
     ],
-    "boundary_reason": "Goal shifts to reading on the laptop",
+    "boundary_reason": "Walking ends and reviewing laptop documents begins",
     "origin_chunk": 4
   },
   {
-    "id": 91,
-    "start": 43566,
-    "end": 43586,
-    "text": "I read a research paper and code on my laptop.",
+    "id": 82,
+    "start": 70770,
+    "end": 70780,
+    "text": "I analyze code and a research paper on my laptop.",
     "refs": [
       780,
-      781,
-      782,
-      783
+      781
     ],
-    "boundary_reason": "Goal shifts to handling a water bottle",
+    "boundary_reason": "Focus shifts from laptop documents to handling the water bottle",
     "origin_chunk": 4
   },
   {
-    "id": 92,
-    "start": 43586,
-    "end": 43606,
-    "text": "I retrieve my water bottle from my backpack.",
+    "id": 83,
+    "start": 70780,
+    "end": 70810,
+    "text": "I inspect the lid of my retrieved water bottle.",
     "refs": [
+      782,
+      783,
       784,
       785,
       786,
@@ -1718,14 +1628,14 @@
       790,
       791
     ],
-    "boundary_reason": "Significant backward time jump; goal shifts to reading notes",
+    "boundary_reason": "Timestamp jump to an earlier lecture segment",
     "origin_chunk": 4
   },
   {
-    "id": 93,
-    "start": 42231,
-    "end": 42246,
-    "text": "I read notes about CNN inductive biases on my laptop.",
+    "id": 84,
+    "start": 69435,
+    "end": 69450,
+    "text": "I read laptop notes concerning CNN inductive biases during the gradient computation lecture.",
     "refs": [
       792,
       793,
@@ -1734,14 +1644,14 @@
       796,
       797
     ],
-    "boundary_reason": "Time gap; goal shifts to explaining a concept",
+    "boundary_reason": "Timestamp jump to explaining bilevel optimization",
     "origin_chunk": 4
   },
   {
-    "id": 94,
-    "start": 42681,
-    "end": 42696,
-    "text": "I explain bilevel optimization equations on my laptop screen.",
+    "id": 85,
+    "start": 69885,
+    "end": 69900,
+    "text": "I explain the bilevel optimization equations on my laptop screen.",
     "refs": [
       798,
       799,
@@ -1751,7 +1661,7 @@
       803,
       804
     ],
-    "boundary_reason": "End of provided events",
+    "boundary_reason": "End of input",
     "origin_chunk": 4
   }
 ]

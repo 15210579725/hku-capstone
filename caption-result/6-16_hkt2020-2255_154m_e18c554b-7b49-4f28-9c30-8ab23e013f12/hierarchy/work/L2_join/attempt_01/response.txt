@@ -1,0 +1,3 @@
+```json
+{"target_level":"L2_JOIN","plan":"Check each eligible pair to see if they describe the exact same ongoing immediate task that was split by the transport batch edge. Merge [132, 133] because both events describe identical actions of viewing short videos on Xiaohongshu. Keep all other pairs separated as they represent sequential but distinct immediate tasks or transitions in environment/tools.","merges":[[132,133,"I view short videos on Xiaohongshu.","Same short video viewing task continues across batch edge"]],"audit":{"complete":true,"uncertainties":[]}}
+```

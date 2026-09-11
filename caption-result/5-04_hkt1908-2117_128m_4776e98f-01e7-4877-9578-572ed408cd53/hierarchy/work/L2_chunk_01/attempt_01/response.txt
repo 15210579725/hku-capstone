@@ -1,0 +1,144 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group action briefs into immediate tasks based on continuous movement, spatial boundaries (e.g., crossing streets, riding escalators, entering buildings/stations), and distinct conversational topics.",
+  "events": [
+    [
+      "0-4",
+      "I walk through the lobby and approach the glass doors.",
+      "Approaches building exit"
+    ],
+    [
+      "5-9",
+      "I walk along the outdoor pathway.",
+      "Reaches courtyard"
+    ],
+    [
+      "10-15",
+      "I walk across the courtyard toward the staircase.",
+      "Reaches staircase base"
+    ],
+    [
+      "16-25",
+      "I climb the outdoor staircase.",
+      "Starts descending"
+    ],
+    [
+      "26-31",
+      "I walk down the stairs while discussing food with my companion.",
+      "Starts climbing again"
+    ],
+    [
+      "32-35",
+      "I climb the outdoor staircase.",
+      "Reaches top landing"
+    ],
+    [
+      "36-39",
+      "I observe the Cornwall Street Park sign and the surrounding street.",
+      "Starts walking along sidewalk"
+    ],
+    [
+      "40-59",
+      "I walk along the sidewalk and discuss clothing with my companion.",
+      "Topic shifts to supermarket"
+    ],
+    [
+      "60-68",
+      "I walk along the sidewalk and discuss supermarket options with my companion.",
+      "Topic shifts to hair color"
+    ],
+    [
+      "69-74",
+      "I converse with my friend about hair color while walking.",
+      "Stops at pedestrian crossing"
+    ],
+    [
+      "75-82",
+      "I wait for the green light and cross the street.",
+      "Reaches sidewalk"
+    ],
+    [
+      "83-91",
+      "I wait at the intersection and cross the street.",
+      "Reaches next sidewalk"
+    ],
+    [
+      "92-101",
+      "I walk along the sidewalk and enter the building.",
+      "Enters building"
+    ],
+    [
+      "102-107",
+      "I ride the descending escalator.",
+      "Steps off escalator"
+    ],
+    [
+      "108-119",
+      "I walk through the mall atrium and observe various store displays.",
+      "Boards escalator"
+    ],
+    [
+      "120-129",
+      "I ride the descending escalator and converse with my companion.",
+      "Steps off escalator"
+    ],
+    [
+      "130-140",
+      "I check the screen time settings on a phone while walking along the mall corridor.",
+      "Boards escalator"
+    ],
+    [
+      "141-148",
+      "I ride the descending escalator and inspect a display minivan.",
+      "Steps off escalator"
+    ],
+    [
+      "149-159",
+      "I walk through the mall and ride the descending escalator.",
+      "Approaches supermarket"
+    ],
+    [
+      "160-174",
+      "I enter the supermarket and select a bottle of salad dressing.",
+      "Proceeds to checkout"
+    ],
+    [
+      "175-188",
+      "I accompany my companion as she pays for the salad dressing at the self-checkout.",
+      "Leaves checkout area"
+    ],
+    [
+      "189-201",
+      "I ride the descending escalator with my companion.",
+      "Exits mall"
+    ],
+    [
+      "202-215",
+      "I exit the mall and walk toward Kowloon Tong Station.",
+      "Enters station"
+    ],
+    [
+      "216-224",
+      "I enter Kowloon Tong Station and pass through the fare gates.",
+      "Reaches platform area"
+    ],
+    [
+      "225-232",
+      "I walk along the station platform and observe my surroundings.",
+      "Continues walking towards queue"
+    ],
+    [
+      "233-249",
+      "I walk along the station platform and queue for the arriving train.",
+      "End of input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

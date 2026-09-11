@@ -1,94 +1,239 @@
 ```json
 {
   "target_level": "L2",
-  "plan": "Group consecutive action briefs into immediate tasks based on shared application usage, physical activity, or focus. Separate distinct phases of studying (typing, reading, writing), taking breaks, using utility applications (Screenpipe), packing up, walking, untangling earphones, and phone usage.",
+  "plan": "Group continuous actions into immediate tasks based on application usage, reading/writing focus, physical activity, and location shifts.",
   "events": [
     [
-      "750-773",
-      "I read and type a mathematical document on my laptop.",
-      "Continuous typing and reading of a single document"
+      "0-14",
+      "I type on a laptop at a library desk.",
+      "Task shifts to reading a math document"
     ],
     [
-      "774-776",
-      "I browse WeChat messages on my laptop.",
-      "Switches focus to a different application"
+      "15-23",
+      "I read a document containing mathematical formulas on my laptop.",
+      "Task shifts to browsing WeChat"
     ],
     [
-      "777-785",
-      "I prepare to solve the math homework assignment using my laptop and notepad.",
-      "Shifts attention to notebook and new homework document"
+      "24-26",
+      "I browse WeChat messages.",
+      "Task shifts to writing in a notepad"
     ],
     [
-      "786-814",
-      "I review my activity and settings in the Screenpipe application.",
-      "Focuses entirely on interacting with the Screenpipe software"
+      "27-33",
+      "I write notes on a notepad.",
+      "Task shifts to reading a homework assignment"
     ],
     [
-      "815-826",
-      "I review math hints and homework problems on my laptop.",
-      "Returns to math-related reading on the laptop"
+      "34-35",
+      "I read a homework assignment document.",
+      "Task shifts to interacting with the Screenpipe application"
     ],
     [
-      "827-872",
-      "I record mathematical notes and solutions on my notepad.",
-      "Dedicated period of handwriting notes and equations"
+      "36-50",
+      "I navigate the Screenpipe application settings.",
+      "Task shifts to reading a math document"
     ],
     [
-      "873-890",
-      "I read math homework problems on my laptop.",
-      "Focus shifts to reading Questions 2 and 3 on the screen"
+      "51-52",
+      "I read a math document.",
+      "Task shifts to reviewing Screenpipe settings"
     ],
     [
-      "891-943",
-      "I document mathematical derivations and diagrams on my notepad.",
-      "Returns to extended handwriting and drawing on paper"
+      "53-64",
+      "I review storage configurations in the Screenpipe application.",
+      "Task shifts to reading mathematical formulas"
     ],
     [
-      "944-948",
-      "I check WeChat on my laptop during a brief break.",
-      "Stops working to check messages and look around"
+      "65-70",
+      "I read mathematical formulas.",
+      "Task shifts to installing Screenpipe"
     ],
     [
-      "949-950",
-      "I pack items into my backpack.",
-      "Brief physical task of interacting with the backpack"
+      "71-75",
+      "I process the Screenpipe installation dialogs.",
+      "Task shifts to reading a homework assignment"
     ],
     [
-      "951-955",
-      "I walk through the library with my laptop and earphones.",
-      "Physical transit through the library"
+      "76-79",
+      "I read a homework assignment.",
+      "Task shifts to writing mathematical notes"
     ],
     [
-      "956-958",
-      "I walk down the hallway.",
-      "Transition into a new location"
+      "80-91",
+      "I write mathematical notes for a homework assignment on a notepad.",
+      "Task shifts back to reading the homework assignment"
     ],
     [
-      "959-969",
-      "I untangle my wired earphones on a hallway bench.",
-      "Distinct physical task while seated"
+      "92",
+      "I read a homework assignment.",
+      "Task shifts to writing mathematical proofs"
     ],
     [
-      "970-981",
-      "I view Zoom and WeChat applications on my laptop.",
-      "Sequence of short interactions with different applications on the laptop"
+      "93-117",
+      "I write mathematical proofs on a notepad.",
+      "Task shifts to scanning the library"
     ],
     [
-      "982-991",
-      "I converse on a phone call while referencing my laptop.",
-      "Concurrent phone conversation and laptop usage"
+      "118-119",
+      "I scan the library.",
+      "Task shifts to writing mathematical notes"
     ],
     [
-      "992-999",
+      "120-122",
+      "I write mathematical notes on paper.",
+      "Task shifts to reading a mathematical homework assignment"
+    ],
+    [
+      "123-128",
+      "I read a mathematical homework assignment.",
+      "Task shifts to reviewing handwritten notes"
+    ],
+    [
+      "129-133",
+      "I review my handwritten notes.",
+      "Task shifts to adjusting sitting position"
+    ],
+    [
+      "134-138",
+      "I prepare to resume work.",
+      "Task shifts to reading math homework problems"
+    ],
+    [
+      "139-140",
+      "I read math homework problems.",
+      "Task shifts to writing mathematical notes"
+    ],
+    [
+      "141-143",
+      "I write mathematical notes on paper.",
+      "Task shifts to reading a graph theory theorem"
+    ],
+    [
+      "144-145",
+      "I read a graph theory theorem on my laptop.",
+      "Task shifts to writing mathematical derivations"
+    ],
+    [
+      "146-151",
+      "I write mathematical derivations on my notepad.",
+      "Task shifts to examining objects"
+    ],
+    [
+      "152-153",
+      "I examine a pen with a small electronic clip.",
+      "Task shifts to writing notes"
+    ],
+    [
+      "154-162",
+      "I write notes on a notepad.",
+      "Task shifts to reading handwritten formulas"
+    ],
+    [
+      "163-165",
+      "I read my handwritten formulas.",
+      "Task shifts to looking around the library"
+    ],
+    [
+      "166",
+      "I look around the library study room.",
+      "Task shifts to writing mathematical formulas"
+    ],
+    [
+      "167-183",
+      "I write mathematical formulas on my notepad.",
+      "Task shifts to reading math problems"
+    ],
+    [
+      "184-185",
+      "I read math problems in a document.",
+      "Task shifts to writing mathematical notes"
+    ],
+    [
+      "186-192",
+      "I write mathematical notes on my notepad.",
+      "Task shifts to reading a PDF document"
+    ],
+    [
+      "193",
+      "I read a PDF document.",
+      "Task shifts to browsing WeChat"
+    ],
+    [
+      "194",
+      "I browse WeChat messages.",
+      "Task shifts to scanning the library"
+    ],
+    [
+      "195-198",
+      "I scan the library study area.",
+      "Task shifts to packing belongings to leave"
+    ],
+    [
+      "199-201",
+      "I prepare to leave the library study area.",
+      "Major trigger: abandoning studying to leave the library"
+    ],
+    [
+      "202-208",
+      "I walk through the library into a hallway.",
+      "Task shifts to sitting on a hallway bench"
+    ],
+    [
+      "209-211",
+      "I sit on a hallway bench.",
+      "Task shifts to untangling earphones"
+    ],
+    [
+      "212-219",
+      "I untangle a pair of white wired earphones.",
+      "Task shifts to opening Zoom Workplace"
+    ],
+    [
+      "220-223",
+      "I open the Zoom Workplace application on my laptop.",
+      "Task shifts to viewing images"
+    ],
+    [
+      "224-227",
+      "I view images on my laptop.",
+      "Task shifts to browsing WeChat"
+    ],
+    [
+      "228-232",
+      "I browse WeChat messages.",
+      "Task shifts to communicating a numerical code"
+    ],
+    [
+      "233-234",
+      "I communicate a numerical code.",
+      "Task shifts to opening Zoom Workplace"
+    ],
+    [
+      "235",
+      "I open the Zoom Workplace application.",
+      "Task shifts to navigating an interface"
+    ],
+    [
+      "236-240",
+      "I navigate an interface from a hallway bench.",
+      "Task shifts to examining a node diagram"
+    ],
+    [
+      "241",
+      "I examine a node diagram.",
+      "Task shifts to navigating a smartphone application"
+    ],
+    [
+      "242-249",
       "I navigate an application on my smartphone.",
-      "Focus shifts completely to the mobile device"
+      "End of provided data"
     ]
   ],
   "audit": {
     "complete": true,
     "uncertainties": [],
     "major_triggers": [
-      "Packing belongings and standing up to leave the library at 951 marks a major behavioral shift from focused study to transit and a break."
+      "199-201"
     ],
     "boundary_cautions": []
   }

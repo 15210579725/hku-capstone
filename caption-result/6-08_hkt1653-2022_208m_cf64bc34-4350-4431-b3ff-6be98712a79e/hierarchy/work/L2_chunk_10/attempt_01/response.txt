@@ -1,0 +1,56 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group action briefs into immediate tasks based on the primary application focus (Claude Code, editor, terminal, JSON files), standalone spoken remarks, and physical relocation.",
+  "events": [
+    [
+      "2250-2256",
+      "I review L1 evaluation metrics in Claude Code.",
+      "Focus shifts from Claude Code to checking logs and files in the editor."
+    ],
+    [
+      "2257-2263",
+      "I check output logs and the project directory in the editor.",
+      "Focus shifts from the editor to a spoken remark."
+    ],
+    [
+      "2264",
+      "I state a question about the time and location.",
+      "Focus shifts to inspecting JSON evaluation files."
+    ],
+    [
+      "2265-2274",
+      "I inspect DeepSeek-V4 evaluation JSON files for scores and candidates.",
+      "Focus shifts from reading JSON files to looking away from the screen."
+    ],
+    [
+      "2275-2276",
+      "I look toward the doorway to make a spoken remark.",
+      "Focus shifts back to Claude Code."
+    ],
+    [
+      "2277-2287",
+      "I query Claude Code about output file paths.",
+      "Focus shifts from Claude Code to terminal input."
+    ],
+    [
+      "2288-2289",
+      "I use the terminal to review JSON evaluation details.",
+      "Focus shifts from computer tasks to physical movement."
+    ],
+    [
+      "2290-2296",
+      "I get up from the bed to head toward the bathroom.",
+      "End of recording."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "2290-2296"
+    ],
+    "boundary_cautions": []
+  }
+}
+```

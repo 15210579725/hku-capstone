@@ -1,0 +1,18 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible pairs to identify immediate tasks split across batch boundaries. Pair [21, 22] transitions from reviewing Levenshtein metric analysis to a new conceptual query about probability distributions, so it remains separate. Pair [36, 37] represents drafting and submitting the exact same prompt, which is a single continuous task.",
+  "merges": [
+    [
+      36,
+      37,
+      "I draft and submit a prompt in ChatGPT Codex specifying formatting rules for model action prediction probabilities.",
+      "Drafting and submitting the same prompt continues across the batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

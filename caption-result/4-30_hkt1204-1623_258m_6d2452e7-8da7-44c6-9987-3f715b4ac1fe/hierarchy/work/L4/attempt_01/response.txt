@@ -1,51 +1,46 @@
 ```json
 {
   "target_level": "L4",
-  "plan": "Group coherent L3 episodes into broader goal-oriented phases based on major overarching objectives: library project work, a lunch break, shopping errands, apartment downtime activities, and attending a university lecture. Commutes and preparatory steps are absorbed into their destination goals.",
+  "plan": "Group L3 episodes into broader, goal-oriented phases: a library work session, a lunch break, a shopping trip, an apartment break, a major trigger abandoning rest, and attending a campus lecture.",
   "events": [
     [
-      "0-5",
-      "I research AI model training schemes and draft project documentation in the library study carrel.",
-      "Shift from academic project work to getting lunch."
+      "0-2",
+      "I complete a library work session for my digital twin and multimodal architecture software projects.",
+      "Work session ends with departure for lunch."
     ],
     [
-      "6-8",
-      "I eat a chicken and rice meal at the campus cafeteria.",
-      "Shift from lunch break to running errands."
+      "3-5",
+      "I consume a roasted chicken and rice lunch at the cafeteria.",
+      "Lunch concludes with departure for shopping errands."
     ],
     [
-      "9-12",
-      "I purchase household supplies and groceries from local vendors.",
-      "Shift from shopping errands to settling in at home."
+      "6-10",
+      "I complete my shopping errands for a plastic bucket, trash bags, and fresh produce.",
+      "Shopping errands conclude with organizing the items at home."
     ],
     [
-      "13-14",
-      "I settle into my apartment with my new purchases and a cucumber snack.",
-      "Shift from post-shopping tasks to collaborative project work."
+      "11-14",
+      "I take a break in my apartment for project communications, AI technology discussions, and rest.",
+      "Break is interrupted by a decision to abandon sleep."
     ],
     [
-      "15-16",
-      "I troubleshoot project API usage costs with my flatmate.",
-      "Shift from project troubleshooting to resting."
+      "15",
+      "I abandon my attempt to sleep.",
+      "Major behavior-changing trigger."
     ],
     [
-      "17-18",
-      "I take a rest in my bedroom.",
-      "Shift from resting to departing for a lecture."
-    ],
-    [
-      "19-23",
-      "I relocate to campus for a MATH6002 lecture on graph theory.",
-      "End of record."
+      "16-20",
+      "I attend the MATH6002 graph theory lecture on campus with my retrieved laptop.",
+      "End of input data."
     ]
   ],
   "audit": {
     "complete": true,
     "uncertainties": [],
-    "major_triggers": [],
-    "boundary_cautions": [
-      "Grouped the transit to the library and packing of belongings (19-21) with the MATH6002 lecture (22-23) because retrieving gear was a preparatory step for attending the lecture."
-    ]
+    "major_triggers": [
+      15
+    ],
+    "boundary_cautions": []
   }
 }
 ```

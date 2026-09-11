@@ -1,0 +1,18 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible pairs for direct continuation of the exact same immediate task. Pair [27, 28] represents the continuous process of selecting and paying for a water bottle. Pairs [59, 60], [87, 88], and [112, 113] involve distinct shifts in primary action (e.g., from reading to discussing, or changing physical focus) and are related by topic or context rather than being the same immediate task.",
+  "merges": [
+    [
+      27,
+      28,
+      "I purchase a bottle of mineral water at the store.",
+      "The task of acquiring the water continues directly across the batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

@@ -1,0 +1,101 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous, immediate tasks based on interactions with my companion on the bed, transitioning to the desk, and evaluating specific model prediction cases (L5-4, L5-3, supermarket, dinner, and shopping list) in a code editor.",
+  "events": [
+    [
+      "250-255",
+      "I laugh and converse with my companion about a task duration.",
+      "Conversation pauses"
+    ],
+    [
+      "256-278",
+      "I massage and pat User A's leg.",
+      "Shifts focus to stroking partner's back"
+    ],
+    [
+      "279-286",
+      "I stroke my partner's back and playfully interact with her as she rolls over.",
+      "Starts singing"
+    ],
+    [
+      "287-292",
+      "I sing and pat my companion's hip.",
+      "Changes to flexing arm"
+    ],
+    [
+      "293-295",
+      "I flex and inspect my bicep after my companion compliments me.",
+      "Changes focus to companion's phone usage"
+    ],
+    [
+      "296-308",
+      "I watch my companion browse and comment on Douyin videos.",
+      "Resumes massage"
+    ],
+    [
+      "309-322",
+      "I resume massaging my companion's leg until she asks me to stop.",
+      "Moves to the desk"
+    ],
+    [
+      "323-325",
+      "I sit down at my desk and look at my companion asking for a hug.",
+      "Begins computer evaluation task"
+    ],
+    [
+      "326-340",
+      "I open and review the context and evaluation logs for case L5-4 in VS Code.",
+      "Starts dictating scores for specific candidates"
+    ],
+    [
+      "341-353",
+      "I dictate and type the scoring rationale for candidates 1 and 2 of case L5-4.",
+      "Moves to candidate 3"
+    ],
+    [
+      "354-366",
+      "I dictate the scoring rationale for candidate 3 and finalize the scores for case L5-4.",
+      "Moves to case L5-3"
+    ],
+    [
+      "367-379",
+      "I examine the ground truth for case L5-3 and discuss the transcription with my roommate.",
+      "Starts dictating scores for candidates"
+    ],
+    [
+      "380-394",
+      "I dictate the scoring rationale for the candidates of case L5-3.",
+      "Moves to supermarket visit case"
+    ],
+    [
+      "395-409",
+      "I dictate the scoring rationale for the candidates of a supermarket visit case.",
+      "Moves to dinner eating case"
+    ],
+    [
+      "410-440",
+      "I dictate the scoring rationale and finalize the scores for the candidates of a dinner eating case.",
+      "Moves to evaluate a different set of dinner case candidates"
+    ],
+    [
+      "441-460",
+      "I evaluate a second set of candidates for a dinner eating case and dictate the scoring rationale.",
+      "Moves to shopping list case"
+    ],
+    [
+      "461-499",
+      "I evaluate the candidates for a shopping list checking case and review the final comparison metrics.",
+      "End of provided data"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      323
+    ],
+    "boundary_cautions": []
+  }
+}
+```

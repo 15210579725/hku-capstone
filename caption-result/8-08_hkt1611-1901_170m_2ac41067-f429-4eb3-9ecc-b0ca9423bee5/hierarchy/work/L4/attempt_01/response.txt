@@ -1,0 +1,29 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group the continuous office tasks into an academic and research work phase, the cafeteria visit into a dinner phase, and the continuous outdoor journey into a scenic scooter ride phase.",
+  "events": [
+    [
+      "0-6",
+      "I conduct a computer work session focused on reinforcement learning research and academic applications.",
+      "Groups continuous interleaved computer tasks for academic research and applications."
+    ],
+    [
+      "7-8",
+      "I eat a meal at the campus cafeteria.",
+      "Groups the transit to the cafeteria and the meal itself."
+    ],
+    [
+      "9-17",
+      "I complete a scenic round-trip electric scooter ride through the city back to the laboratory.",
+      "Groups the walk to the scooter, the entire scenic ride, the sunset stop, and the final return to the lab."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

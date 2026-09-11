@@ -1,0 +1,161 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group immediate tasks based on continuous actions directed towards a single objective, such as packing specific items, searching distinct locations, and traversing specific segments of a journey. Maintain boundaries for major goal changes, such as realizing the key is missing.",
+  "events": [
+    [
+      "0-6",
+      "I pack my laptop and computer mouse into my backpack.",
+      "Task complete"
+    ],
+    [
+      "7-18",
+      "I pack my phone charger into my backpack.",
+      "Task complete"
+    ],
+    [
+      "19-23",
+      "I pack my glasses into my backpack.",
+      "Task complete"
+    ],
+    [
+      "24-35",
+      "I pack a power bank into my backpack.",
+      "Task complete"
+    ],
+    [
+      "36-39",
+      "I retrieve my phone and resident ID card from the desk.",
+      "Task complete"
+    ],
+    [
+      "40-47",
+      "I store my resident ID card in my wallet inside my backpack.",
+      "Task complete"
+    ],
+    [
+      "48-54",
+      "I realize my key is missing during my final room check.",
+      "Major trigger changes behavior"
+    ],
+    [
+      "55-62",
+      "I search for my missing key around the bedroom desk.",
+      "Shifts search location"
+    ],
+    [
+      "63-75",
+      "I search for my missing key on the balcony and in the bathroom.",
+      "Shifts search location"
+    ],
+    [
+      "76-85",
+      "I search for my missing key on the bedroom bed and desk.",
+      "Search complete"
+    ],
+    [
+      "86-94",
+      "I leave the apartment.",
+      "Task complete"
+    ],
+    [
+      "95-108",
+      "I descend the building stairs to the exit.",
+      "Task complete"
+    ],
+    [
+      "109-120",
+      "I walk through the residential compound toward the waste sorting station.",
+      "Arrives at waste station"
+    ],
+    [
+      "121-124",
+      "I discard a banana peel at the waste sorting station.",
+      "Task complete"
+    ],
+    [
+      "125-139",
+      "I walk through the residential compound to exit through the main gate.",
+      "Exits compound"
+    ],
+    [
+      "140-142",
+      "I review the WeChat chat list on my iPhone.",
+      "Task complete"
+    ],
+    [
+      "143-147",
+      "I unlock a Meituan shared bicycle.",
+      "Task complete"
+    ],
+    [
+      "148-155",
+      "I set up bicycle navigation to Tongji University on the Amap app.",
+      "Task complete"
+    ],
+    [
+      "156-164",
+      "I maneuver my shared bicycle onto the street.",
+      "Task complete"
+    ],
+    [
+      "165-172",
+      "I ride the bicycle along the commercial street.",
+      "Approaches intersection"
+    ],
+    [
+      "173-180",
+      "I ride the bicycle along the bike lane toward an intersection.",
+      "Approaches next area"
+    ],
+    [
+      "181-188",
+      "I ride the bicycle along a tree-lined street.",
+      "Stops to check phone"
+    ],
+    [
+      "189-191",
+      "I check my phone navigation.",
+      "Task complete"
+    ],
+    [
+      "192-198",
+      "I ride the bicycle past a police station and bus stop.",
+      "Approaches bridge"
+    ],
+    [
+      "199-204",
+      "I ride the bicycle up the incline onto a bridge.",
+      "Reaches top of bridge"
+    ],
+    [
+      "205-209",
+      "I ride off the bridge to stop at a traffic light intersection.",
+      "Stops at light"
+    ],
+    [
+      "210-227",
+      "I wait at the intersection crosswalk.",
+      "Light turns green"
+    ],
+    [
+      "228-232",
+      "I cross the intersection into the continuing bike lane.",
+      "Crossed intersection"
+    ],
+    [
+      "233-249",
+      "I ride the bicycle along the road.",
+      "End of batch"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      54
+    ],
+    "boundary_cautions": []
+  }
+}
+```

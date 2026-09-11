@@ -1,0 +1,99 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group sequence into immediate tasks by tracking shifts between eating, watching the laptop, conversing on specific topics, and moving between locations (kitchen, bedroom).",
+  "events": [
+    [
+      "1250-1253",
+      "I eat rice with spicy meat.",
+      "Focus shifts to a conversation about eating schedules."
+    ],
+    [
+      "1254-1257",
+      "I discuss my eating schedule with my companion.",
+      "Focus shifts to handling food."
+    ],
+    [
+      "1258-1265",
+      "I examine a piece of food with my companion.",
+      "Focus shifts to observing my companion."
+    ],
+    [
+      "1266-1269",
+      "I share food with my companion.",
+      "Focus shifts to a laptop video."
+    ],
+    [
+      "1270-1277",
+      "I watch a video on my laptop.",
+      "Focus shifts to a conversation about future plans."
+    ],
+    [
+      "1278-1283",
+      "I discuss plans for a walk with my companion.",
+      "Conversation ends, focus returns to eating."
+    ],
+    [
+      "1284-1294",
+      "I consume my meal.",
+      "Focus shifts to a conversation about video advertisements."
+    ],
+    [
+      "1295-1303",
+      "I discuss video advertisements with my companion.",
+      "Conversation ends, focus returns to finishing the meal."
+    ],
+    [
+      "1304-1308",
+      "I finish eating from my plastic container.",
+      "Meal segment completes."
+    ],
+    [
+      "1309-1311",
+      "I observe my companion scooping soup.",
+      "Focus shifts to discussing other food."
+    ],
+    [
+      "1312-1314",
+      "I agree to eat watermelon with my companion.",
+      "Conversation ends, focus shifts to the laptop."
+    ],
+    [
+      "1315-1319",
+      "I watch a video on my laptop.",
+      "Focus shifts to cleaning up the takeout."
+    ],
+    [
+      "1320-1325",
+      "I pack the leftover takeout containers into a bag.",
+      "Cleanup task completes."
+    ],
+    [
+      "1326-1328",
+      "I listen to my companion comment on a character.",
+      "Conversation ends, location changes."
+    ],
+    [
+      "1329-1336",
+      "I wash chopsticks in the kitchen.",
+      "Washing completes, location changes to the bedroom."
+    ],
+    [
+      "1337-1341",
+      "I test the air conditioning remote in the bedroom.",
+      "Task completes, shifts to the desk."
+    ],
+    [
+      "1342-1343",
+      "I prepare to sit at my desk.",
+      "End of input."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

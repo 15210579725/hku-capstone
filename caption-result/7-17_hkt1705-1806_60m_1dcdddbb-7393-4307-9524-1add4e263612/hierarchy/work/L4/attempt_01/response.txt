@@ -1,0 +1,36 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group L3 episodes into broader phases: an initial work session evaluating models, a standalone trigger representing the GPU shortage that ends the work session, a cafeteria meal phase including transit, and a gym workout phase including transit.",
+  "events": [
+    [
+      "0-4",
+      "I conduct action prediction ablation experiment evaluations on the remote GPU cluster.",
+      "Work session halted by infrastructure limitation"
+    ],
+    [
+      "5",
+      "I discover a lack of available GPUs for my evaluation script.",
+      "Major trigger causing abandonment of the computing task and departure from the office"
+    ],
+    [
+      "6-10",
+      "I share a meal with my colleagues at the cafeteria.",
+      "Shift in location and objective to exercising"
+    ],
+    [
+      "11-14",
+      "I complete a back muscle workout with my companion at the gym.",
+      "End of recorded evidence"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      5
+    ],
+    "boundary_cautions": []
+  }
+}
+```

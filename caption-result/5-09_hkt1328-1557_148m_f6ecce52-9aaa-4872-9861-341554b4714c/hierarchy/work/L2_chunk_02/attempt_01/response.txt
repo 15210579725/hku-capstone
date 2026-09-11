@@ -1,0 +1,144 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group action_briefs into immediate tasks bounded by changes in device, conversational focus, physical location, or specific task goals.",
+  "events": [
+    [
+      "250-262",
+      "I watch a drama on my laptop and discuss it with my companion.",
+      "Focus shifts to using a smartphone."
+    ],
+    [
+      "263-274",
+      "I browse food delivery and spa deals on my smartphone.",
+      "Focus shifts back to watching the drama on the laptop."
+    ],
+    [
+      "275-275",
+      "I watch the drama on my laptop.",
+      "Focus shifts back to browsing food on the smartphone."
+    ],
+    [
+      "276-287",
+      "I search for and select durian on food delivery apps.",
+      "Focus shifts to conversing with User A."
+    ],
+    [
+      "288-289",
+      "I tell User A to get dressed.",
+      "Focus shifts back to the smartphone to complete the delivery order."
+    ],
+    [
+      "290-298",
+      "I save a delivery address and browse nearby store listings on my smartphone.",
+      "Focus shifts back to watching the drama on the laptop."
+    ],
+    [
+      "299-318",
+      "I watch a drama on my laptop.",
+      "Focus shifts to interacting with an injured friend."
+    ],
+    [
+      "319-323",
+      "I blow on my friend's injury to comfort them.",
+      "Interaction ends; focus shifts back to watching the drama on the laptop."
+    ],
+    [
+      "324-337",
+      "I watch a drama on my laptop.",
+      "Focus shifts to discussing clothes with my companion."
+    ],
+    [
+      "338-368",
+      "I help my companion choose an outfit to wear.",
+      "Outfit selection concludes; focus shifts to closing the laptop."
+    ],
+    [
+      "369-371",
+      "I close my laptop and tidy the desk.",
+      "Desk is tidied; focus shifts to checking the phone."
+    ],
+    [
+      "372-380",
+      "I browse a takeout menu and check my food delivery progress on my smartphone.",
+      "Focus shifts to listening to my companion."
+    ],
+    [
+      "381-384",
+      "I listen to my companion and watch User A jump onto the bed.",
+      "Focus shifts to inspecting a new pin badge."
+    ],
+    [
+      "385-400",
+      "I unpack a BEERBRO pin badge and attach it to my shirt.",
+      "Pin badge is attached; focus shifts to picking up a bag."
+    ],
+    [
+      "401-402",
+      "I pick up a plastic bag as someone compliments my shirt.",
+      "Focus shifts to leaving the room to collect takeout."
+    ],
+    [
+      "403-415",
+      "I leave the room and take the elevator down to the first floor.",
+      "Elevator ride to lobby concludes."
+    ],
+    [
+      "416-424",
+      "I collect my takeout order in the lobby and take the elevator back up.",
+      "Elevator ride back up concludes."
+    ],
+    [
+      "425-430",
+      "I return to the room and set down the takeout bag.",
+      "Takeout is placed; focus shifts to opening the window."
+    ],
+    [
+      "431-434",
+      "I open the hotel room window and walk toward the cabinet.",
+      "Window is opened; focus shifts to the mosquito repellent."
+    ],
+    [
+      "435-436",
+      "I plug a mosquito repellent into the wall socket.",
+      "Mosquito repellent is plugged in; focus shifts to observing the room."
+    ],
+    [
+      "437-438",
+      "I observe User A walking toward the window.",
+      "Focus shifts to discussing outfits."
+    ],
+    [
+      "439-447",
+      "I discuss outfit choices with User A.",
+      "Outfit discussion concludes; focus shifts to the takeout food."
+    ],
+    [
+      "448-474",
+      "I unpack the takeout food and prepare to eat with my companion.",
+      "Food is unpacked; focus shifts to inspecting the dish's contents."
+    ],
+    [
+      "475-489",
+      "I inspect the takeout food and realize the beef brisket is missing.",
+      "Inspection leads to verifying the order on the smartphone."
+    ],
+    [
+      "490-498",
+      "I check the takeout order details on my smartphone to verify the dish.",
+      "Order is verified; focus shifts back to eating."
+    ],
+    [
+      "499-499",
+      "I pick up the takeout food with my chopsticks.",
+      "End of input batch."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

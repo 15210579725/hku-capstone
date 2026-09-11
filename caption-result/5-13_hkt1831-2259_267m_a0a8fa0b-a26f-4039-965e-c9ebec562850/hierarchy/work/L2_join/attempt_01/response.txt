@@ -1,0 +1,48 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Merge eligible boundary pairs where the immediate task is identical and clearly continues across the batch edge. I will not merge sequential but distinct steps (e.g., browsing then reading, cooling then preparing) or unrelated concurrent activities.",
+  "merges": [
+    [
+      17,
+      18,
+      "I review my API usage, balances, and system dashboards across multiple platforms.",
+      "Same API and system dashboard review continues across batch edge"
+    ],
+    [
+      45,
+      46,
+      "I query Gemini to explain the SiLU activation function.",
+      "Same Gemini query continues across batch edge"
+    ],
+    [
+      76,
+      77,
+      "I monitor the boiling noodles and eggs in the pot while eating my sandwich in the kitchen.",
+      "Same eating and monitoring task continues across batch edge"
+    ],
+    [
+      115,
+      116,
+      "I study the flow matching training code, interpolation formulas, and Euler integration in Google Colab.",
+      "Same code study activity continues across batch edge"
+    ],
+    [
+      127,
+      128,
+      "I write Python code to implement optimal transport pairing and indexing in Google Colab.",
+      "Same implementation activity continues across batch edge"
+    ],
+    [
+      175,
+      176,
+      "I interact with Claude to understand the meaning of the right-side plot and flow model mapping.",
+      "Same Claude interaction continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

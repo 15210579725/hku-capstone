@@ -1,0 +1,51 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group L3 episodes into commuting, customer service administration, the standalone lunch invitation trigger, physical workspace preparation, the lunch gathering, digital workspace preparation, and AI-assisted model evaluation workflows.",
+  "events": [
+    [
+      "0-2",
+      "I commute from my residential building to the institute to establish my office workstation.",
+      "Commute and initial arrival complete."
+    ],
+    [
+      "3-4",
+      "I coordinate my personal scooter and delivery logistics via customer service channels.",
+      "Shifts from administrative logistics to an interruption."
+    ],
+    [
+      "5",
+      "I accept a WeChat lunch invitation during a screen break.",
+      "Standalone behavior-changing trigger."
+    ],
+    [
+      "6",
+      "I finalize the physical deployment of my MacBook accessories at my office workspace.",
+      "Physical setup ends before departing for lunch."
+    ],
+    [
+      "7-9",
+      "I attend a lunch gathering with companions at the campus cafeteria.",
+      "Lunch concludes, returning to the office workspace."
+    ],
+    [
+      "10-12",
+      "I prepare my digital workstation network, cloud storage, and code editor for model evaluation.",
+      "Digital preparation transitions into core evaluation work."
+    ],
+    [
+      "13-16",
+      "I manage my fine-tuned model evaluations and metric execution environments using AI assistants.",
+      "End of provided sequence."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      5
+    ],
+    "boundary_cautions": []
+  }
+}
+```

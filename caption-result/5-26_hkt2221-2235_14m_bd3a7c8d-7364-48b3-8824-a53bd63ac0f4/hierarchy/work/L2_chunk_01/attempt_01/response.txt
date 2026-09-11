@@ -1,0 +1,146 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group sequential actions that share a single immediate goal and primary target. Abstract incidental looks, repositioning, and brief concurrent speech into the dominant immediate task. Ensure no prohibited conjunctions are used to join distinct actions. Use comma-separated ID ranges for clips that are chronologically concurrent/overlapping due to batching.",
+  "events": [
+    [
+      "0-7",
+      "I discuss bedding differences with my companion.",
+      "Topic changes to massage frequency."
+    ],
+    [
+      "8-16",
+      "I discuss massage frequency with my companion.",
+      "Conversation pauses to inspect street menus."
+    ],
+    [
+      "17-21",
+      "I inspect eatery menus along the street.",
+      "Resumes joking about massage frequency."
+    ],
+    [
+      "22-24",
+      "I joke with my companion about massage frequency.",
+      "Arrives at the MTR station entrance."
+    ],
+    [
+      "25-28",
+      "I enter the HKU MTR station.",
+      "Completes station entry and begins browsing phone."
+    ],
+    [
+      "29-46",
+      "I browse Taobao product recommendations.",
+      "Switches from feed recommendations to searching."
+    ],
+    [
+      "47-58",
+      "I search for AI server listings on Taobao.",
+      "Companion initiates conversation."
+    ],
+    [
+      "59-62",
+      "I listen to my companion discuss massage timing.",
+      "Interrupts conversation to view Wi-Fi portal."
+    ],
+    [
+      "63",
+      "I view the MTR Free Wi-Fi portal page.",
+      "Resumes conversation with companion."
+    ],
+    [
+      "64-67",
+      "I discuss massage timing with my companion.",
+      "Pauses conversation to read a directory sign."
+    ],
+    [
+      "68",
+      "I read a station directory sign.",
+      "Resumes conversation with companion."
+    ],
+    [
+      "69-70",
+      "I ask my companion about the massage experience.",
+      "Interrupts conversation to check phone."
+    ],
+    [
+      "71-73",
+      "I check the MTR Free Wi-Fi portal.",
+      "Switches to browsing Taobao."
+    ],
+    [
+      "74-79",
+      "I browse AI server listings on Taobao.",
+      "Interrupts browsing to pass through the fare gates."
+    ],
+    [
+      "80-83",
+      "I pass through the MTR fare gates.",
+      "Resumes browsing Taobao after passing the gates."
+    ],
+    [
+      "84-88",
+      "I browse AI workstation listings on Taobao.",
+      "Interrupts browsing to relocate and sit."
+    ],
+    [
+      "89-91",
+      "I relocate to sit on the subway platform.",
+      "Resumes browsing Taobao after sitting."
+    ],
+    [
+      "92-94",
+      "I browse AI workstation search results on Taobao.",
+      "Switches app to Xiaohongshu."
+    ],
+    [
+      "95-106",
+      "I engage with Xiaohongshu content with my companion.",
+      "Switches to watching video posts."
+    ],
+    [
+      "107-115",
+      "I watch a video about vintage unique vehicles.",
+      "Switches to swiping through other videos."
+    ],
+    [
+      "116-118",
+      "I browse other short videos on Xiaohongshu.",
+      "Switches to a car review video."
+    ],
+    [
+      "119-128,179-181",
+      "I watch a Ferrari LUCE car review video.",
+      "Interrupts video to board the subway train."
+    ],
+    [
+      "129-131",
+      "I board the subway train.",
+      "Boarding complete, resumes watching video."
+    ],
+    [
+      "132-135",
+      "I watch the Ferrari LUCE car review video.",
+      "Interrupts video to watch a pet video."
+    ],
+    [
+      "136",
+      "I watch a pet video on my companion's phone.",
+      "Returns to the car review video."
+    ],
+    [
+      "137-178,182-186",
+      "I watch the Ferrari LUCE car review video.",
+      "Video watching continues to the end."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": [
+      "Overlapping batched output clips (179-181 and 182-186) were merged with their chronological concurrent actions through compound ID references."
+    ]
+  }
+}
+```

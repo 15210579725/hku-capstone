@@ -1,0 +1,86 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group contiguous action briefs into immediate L2 tasks based on continuous goal execution. Separate spotting, exercising, checking phone, stowing items, washing hands, inspecting the register, walking between buildings, and discrete stages of sharing and consuming a takeout meal.",
+  "events": [
+    [
+      "500-519",
+      "I spot my workout partner performing barbell bench press exercises.",
+      "My partner completes his bench press set."
+    ],
+    [
+      "520-531",
+      "I perform barbell bench press exercises while my partner spots me.",
+      "I complete my bench press set and stand up."
+    ],
+    [
+      "532-560",
+      "I check my smartphone for KFC food delivery updates.",
+      "I finish checking my phone and put it away."
+    ],
+    [
+      "561-564",
+      "I retrieve my power bank and charging cable from the weight machine and stow them in my pocket.",
+      "I finish retrieving and stowing my charging items."
+    ],
+    [
+      "565-578",
+      "I walk to the restroom and wash my hands.",
+      "I finish washing my hands and exit the restroom."
+    ],
+    [
+      "579-583",
+      "I inspect the visitor registration sheet at the gym reception desk.",
+      "I finish inspecting the registration sheet and turn away."
+    ],
+    [
+      "584-609",
+      "I walk outdoors to the laboratory building while discussing model training with my companion.",
+      "I arrive at the entrance of the laboratory building."
+    ],
+    [
+      "610-612",
+      "I pick up my KFC takeout bag from the lobby delivery shelf.",
+      "I secure my KFC takeout bag from the shelf."
+    ],
+    [
+      "613-635",
+      "I ride elevator 18 to the 9th floor and walk to my lab office.",
+      "I arrive at the lab office lounge."
+    ],
+    [
+      "636-653",
+      "I unpack the KFC takeout food and distribute egg tarts to my colleagues.",
+      "The food is unpacked and distributed."
+    ],
+    [
+      "654-663",
+      "I eat an egg tart.",
+      "I finish eating my first egg tart."
+    ],
+    [
+      "664-734",
+      "I eat fried chicken while conversing with my companion.",
+      "I finish eating fried chicken."
+    ],
+    [
+      "735-742",
+      "I eat another egg tart.",
+      "I finish eating my second egg tart."
+    ],
+    [
+      "743-749",
+      "I clean up the leftover food packaging and suggest going for a walk.",
+      "I finish cleaning up the food packaging."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "At 748, I suggest going for a walk, signaling a potential transition to a new outdoor activity after finishing the meal."
+    ],
+    "boundary_cautions": []
+  }
+}
+```

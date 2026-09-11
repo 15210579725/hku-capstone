@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible boundary pairs to determine if they represent the exact same immediate task interrupted by a transport batch edge. Pairs continuing the same continuous observation or continuous tool interaction for the same immediate goal are merged. Pairs showing transitions to distinct physical actions or distinct sequential subtasks (e.g., reading a summary vs. configuring a backend) are kept separate to prevent re-abstracting L2 into L3.",
+  "merges": [
+    [
+      23,
+      24,
+      "I observe my friends at the cafeteria dining table.",
+      "Continuous observation of companions at the dining table across batch edge"
+    ],
+    [
+      63,
+      64,
+      "I use Claude Code to manage Baidu Netdisk file comparisons and verification.",
+      "Continuous Claude Code interaction for Baidu Netdisk file comparison across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

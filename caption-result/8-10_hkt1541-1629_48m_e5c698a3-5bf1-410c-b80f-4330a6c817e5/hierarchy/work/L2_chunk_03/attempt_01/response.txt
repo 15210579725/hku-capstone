@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group device disconnection, checking the phone, and standing up into a unified desk departure task, followed by the transit into the hallway.",
+  "events": [
+    [
+      "500-503",
+      "I prepare to leave my desk.",
+      "Standing up completes the immediate preparations at the workstation"
+    ],
+    [
+      "504-505",
+      "I walk into the hallway.",
+      "End of sequence upon entering the hallway"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

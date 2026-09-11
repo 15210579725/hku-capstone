@@ -1,0 +1,64 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group action briefs into immediate tasks based on continuous interaction with a specific application or document, separating distinct prompting, reading, or application management activities.",
+  "events": [
+    [
+      "750-754",
+      "I type a prompt in Codex.",
+      "Switches from typing in Codex to reviewing a document."
+    ],
+    [
+      "755-757",
+      "I review ranking evaluation data in an online document.",
+      "Switches from reading the document to prompting Codex."
+    ],
+    [
+      "758-767",
+      "I prompt Codex with the daily events list.",
+      "Switches from Codex to WeChat."
+    ],
+    [
+      "768-781",
+      "I review party announcements in WeChat.",
+      "Switches from WeChat to interacting with dock icons."
+    ],
+    [
+      "782-786",
+      "I manage dock applications.",
+      "Switches from dock interaction to monitoring AI terminal logs."
+    ],
+    [
+      "787-794",
+      "I monitor the Codex AI task execution logs.",
+      "Switches from monitoring logs to reading ChatGPT analysis."
+    ],
+    [
+      "795-810",
+      "I read ChatGPT's analysis of Codex background task mechanics.",
+      "Switches from reading analysis to typing a new prompt in ChatGPT."
+    ],
+    [
+      "811-823",
+      "I prompt ChatGPT for implementation sequence recommendations.",
+      "Switches from ChatGPT to Codex."
+    ],
+    [
+      "824-830",
+      "I prompt Codex to use sub-agents for caption filtering.",
+      "Switches from typing the prompt to reading Codex's generated response."
+    ],
+    [
+      "831-844",
+      "I review Codex's response on sub-agent orchestration rules.",
+      "End of input."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

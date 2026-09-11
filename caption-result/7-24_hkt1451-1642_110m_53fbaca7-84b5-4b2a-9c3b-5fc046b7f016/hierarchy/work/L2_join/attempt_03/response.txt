@@ -1,0 +1,30 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Review the eligible pairs to identify immediate tasks that continue identically across batch edges. Merge 14-15 (LLM-judge configuration and logic in Claude Code), 24-25 (reviewing handwritten notes), and 39-40 (Claude Code dispatcher diagnosis and folder creation). Do not merge 65-66, as compacting a conversation/reviewing an archive summary is distinct from reviewing general documentation and switch configurations.",
+  "merges": [
+    [
+      14,
+      15,
+      "I use Claude Code to verify the LLM-judge evaluation logic and configuration scripts.",
+      "Same Claude Code investigation of LLM-judge scripts continues across batch edge"
+    ],
+    [
+      24,
+      25,
+      "I review and update my handwritten experimental notes.",
+      "Same note reviewing task continues across batch edge"
+    ],
+    [
+      39,
+      40,
+      "I instruct Claude Code to diagnose the H800 dispatcher timeout and create a scale_finetune folder.",
+      "Same Claude Code diagnostic and prompt writing task continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

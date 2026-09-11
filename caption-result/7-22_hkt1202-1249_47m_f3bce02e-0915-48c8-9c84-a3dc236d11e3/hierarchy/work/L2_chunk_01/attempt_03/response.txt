@@ -1,0 +1,144 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions sharing the same immediate goal and primary interface/target. Abstract individual keystrokes, UI clicks, and brief visual monitoring into coherent tasks like drafting text, monitoring an upload, checking pricing, or fixing code.",
+  "events": [
+    [
+      "0-10",
+      "I edit a Feishu document about predicting human behavior.",
+      "Switches to monitoring a file upload."
+    ],
+    [
+      "11-16",
+      "I monitor my file upload progress in Baidu Netdisk.",
+      "Switches to Finder to manage files."
+    ],
+    [
+      "17-23",
+      "I delete folder 6-08 in Finder.",
+      "Switches back to monitoring a cloud upload."
+    ],
+    [
+      "24-25",
+      "I monitor my cloud drive upload progress.",
+      "Switches to inspecting terminal logs."
+    ],
+    [
+      "26-33",
+      "I review the Claude GPU task pipeline and diagnostic logs in the terminal.",
+      "Switches to a Feishu table."
+    ],
+    [
+      "34",
+      "I review the Feishu evaluation metric table.",
+      "Switches to the Nova AI dashboard."
+    ],
+    [
+      "35-43",
+      "I check Claude model call metrics and pricing on the Nova AI dashboard.",
+      "Switches to checking terminal errors."
+    ],
+    [
+      "44-54",
+      "I investigate Claude API errors and Gemini routing tests in the terminal.",
+      "Switches to writing a prompt in Claude Code."
+    ],
+    [
+      "55-75",
+      "I prompt Claude Code to write a script for tracking Baidu Netdisk upload speed.",
+      "Switches to checking my iPhone."
+    ],
+    [
+      "76-78",
+      "I check WeChat messages on my iPhone.",
+      "Switches back to monitoring Claude Code on the laptop."
+    ],
+    [
+      "79-105",
+      "I use Claude Code to test Baidu Netdisk throughput with nettop.",
+      "Switches to checking Nova AI."
+    ],
+    [
+      "106",
+      "I browse Claude pricing on Nova AI.",
+      "Switches to reviewing a document."
+    ],
+    [
+      "107",
+      "I review an experimental results document.",
+      "Switches to reviewing a script in ChatGPT."
+    ],
+    [
+      "108-109",
+      "I review a Bash script for GPU daemon commands in ChatGPT.",
+      "Switches to reading a Feishu wiki."
+    ],
+    [
+      "110",
+      "I read a Feishu wiki document about research keywords.",
+      "Switches to reviewing code in the terminal."
+    ],
+    [
+      "111-118",
+      "I review chunk processing and model fallback code in the Claude Code terminal.",
+      "Switches to checking pricing on Nova AI."
+    ],
+    [
+      "119-130",
+      "I check Claude pricing and latency trends on Nova AI.",
+      "Switches to updating a script in Claude Code."
+    ],
+    [
+      "131-156",
+      "I prompt Claude Code to test specific opus-4-6thinking models and fix pipeline routing.",
+      "Switches to checking Anthropic pricing."
+    ],
+    [
+      "157-164",
+      "I browse Anthropic Claude model pricing details on Nova AI.",
+      "Switches to reading terminal warnings."
+    ],
+    [
+      "165-171",
+      "I review a Claude Code spend limit warning in the terminal and check NovAI pricing.",
+      "Switches to handling physical desk items."
+    ],
+    [
+      "172-177",
+      "I handle desk items including a yellow earplug and glasses accessories.",
+      "Switches to reading a paper in Feishu."
+    ],
+    [
+      "178-195",
+      "I read the EgoLife dataset paper introduction in Feishu.",
+      "Shifts focus to adjusting laptop hardware."
+    ],
+    [
+      "196-197",
+      "I adjust my laptop screen and USB-C cable.",
+      "Shifts back to reviewing the document."
+    ],
+    [
+      "198-208",
+      "I read the Feishu document while a colleague points at my screen.",
+      "Begins typing in the document."
+    ],
+    [
+      "209-246",
+      "I draft an introduction paragraph in the Feishu document about life choices and regrets.",
+      "Pauses typing to put on clothing."
+    ],
+    [
+      "247-249",
+      "I put on a grey hoodie and review the Feishu document.",
+      "End of input."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

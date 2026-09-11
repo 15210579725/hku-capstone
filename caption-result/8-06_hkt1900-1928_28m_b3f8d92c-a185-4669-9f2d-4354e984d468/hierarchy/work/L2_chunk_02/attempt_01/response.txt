@@ -1,0 +1,49 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous video call interactions into immediate tasks, separating the brief distraction of reading an article, the conclusion of the call, navigating the phone interface, walking back to the desk, and settling in.",
+  "events": [
+    [
+      "250-263",
+      "I converse on a video call about a cat's litter box behavior.",
+      "Switches task to reading an article"
+    ],
+    [
+      "264-265",
+      "I read a GeekPark tech article on my phone.",
+      "Switches task back to the video call"
+    ],
+    [
+      "266-324",
+      "I discuss cats and personal matters on the video call.",
+      "Initiates the conclusion of the call"
+    ],
+    [
+      "325-330",
+      "I conclude the video call.",
+      "Call ends and phone navigation begins"
+    ],
+    [
+      "331-334",
+      "I browse my phone interface.",
+      "Puts phone interface away and begins walking"
+    ],
+    [
+      "335-342",
+      "I return to my desk in the open-plan office.",
+      "Arrives and sits at the desk"
+    ],
+    [
+      "343-344",
+      "I look toward the USB receiver at my desk.",
+      "End of input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,13 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible boundary pairs to determine if they continue the same immediate task. Topics of conversation or different actions (e.g., watching a video vs. observing displays) will not be merged, but steps of a single unified action (like selecting and paying for an item) will be merged.",
+  "merges": [
+    [70, 71, "I purchase a pineapple bun at the food counter.", "Selecting and paying for the pastry are steps of a single immediate purchasing task."]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

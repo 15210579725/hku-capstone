@@ -1,0 +1,114 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks based on shared primary targets and unified objectives. Segment boundaries occur when the actor shifts focus to a different object (e.g., from laptop to phone, or kettle to shoe), initiates a new distinct phase of conversation or collaboration (e.g., independent vs. paired scoring), or handles a temporary interruption.",
+  "events": [
+    [
+      "1000-1001",
+      "I wrap a cable around a power bank.",
+      "Completes cable wrapping task"
+    ],
+    [
+      "1002-1005",
+      "I review candidate segmentation annotations on the laptop.",
+      "Shifts to laptop annotation review"
+    ],
+    [
+      "1006-1008",
+      "I speak to my roommate about a bottle location.",
+      "Brief interaction regarding a bottle"
+    ],
+    [
+      "1009-1015",
+      "I set up a new white electric kettle.",
+      "Shifts to unpacking and placing the kettle"
+    ],
+    [
+      "1016-1018",
+      "I check WeChat activity involving User X on the smartphones.",
+      "Shifts to messaging activity"
+    ],
+    [
+      "1019-1027",
+      "I review action segment evaluation notes on the laptop.",
+      "Returns to laptop evaluation work"
+    ],
+    [
+      "1028-1034",
+      "I converse with my roommate about relationship transfers.",
+      "Shifts to roommate conversation"
+    ],
+    [
+      "1035",
+      "I view the laptop screen.",
+      "Brief visual shift to the laptop"
+    ],
+    [
+      "1036-1060",
+      "I inspect a slide sandal during a gossip conversation concerning User X with my roommate.",
+      "Shifts to physical inspection and lengthy conversation"
+    ],
+    [
+      "1061-1069",
+      "I discuss annotation scoring rules for verbs and nouns with my companion.",
+      "Shifts to discussing annotation scoring rules"
+    ],
+    [
+      "1070-1074",
+      "I take a drink from a water bottle during my evaluation review.",
+      "Shifts to handling a water bottle"
+    ],
+    [
+      "1075-1077",
+      "I browse WeChat stickers on my smartphone.",
+      "Shifts to phone usage"
+    ],
+    [
+      "1078-1091",
+      "I introduce the annotation evaluation task structure to my roommate.",
+      "Starts collaborative evaluation task guidance"
+    ],
+    [
+      "1092-1110",
+      "I explain probability outputs and active action rules to my peer.",
+      "Shifts to explaining specific UI and scoring rules"
+    ],
+    [
+      "1111-1125",
+      "I clarify active action scoring rules for User A during a tissue-wiping candidate evaluation.",
+      "Shifts to evaluating a specific annotation candidate"
+    ],
+    [
+      "1126-1140",
+      "I discuss the scoring of object states and missing nouns with my companion.",
+      "Shifts to discussing scoring edge cases"
+    ],
+    [
+      "1141-1142",
+      "I instruct my companion to score independently.",
+      "Changes workflow to independent scoring"
+    ],
+    [
+      "1143-1150",
+      "I evaluate test drive speech logs and metrics on the laptop.",
+      "Focuses on independent log review"
+    ],
+    [
+      "1151-1156",
+      "I check the VS Code Copilot status after Person X disables the auto-completion.",
+      "Interruption to check tool status"
+    ],
+    [
+      "1157-1166",
+      "I approve my companion's detailed typed evaluation reasoning.",
+      "Shifts to reviewing companion's written work"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

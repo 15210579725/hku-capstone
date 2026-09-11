@@ -1,0 +1,39 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks based on location changes, phone usage, and distinct shifts in conversation topics during a meal.",
+  "events": [
+    ["0-7", "I discuss PC hardware and applying CPU thermal paste with a colleague.", "Conversation ends"],
+    ["8-10", "I walk to the elevator lobby.", "Arrives at elevator lobby"],
+    ["11-22", "I ride the elevator down to the parking garage.", "Exits elevator into parking garage"],
+    ["23-25", "I navigate the parking garage.", "Stops to use phone"],
+    ["26-35", "I exchange WeChat messages with 阿偶 regarding lunch.", "Finishes messaging"],
+    ["36-38", "I comment on a smell in the parking garage.", "Changes focus to phone"],
+    ["39-41", "I check an AutoDL balance notification on WeChat.", "Arrives at cafeteria doors"],
+    ["42-49", "I navigate through the lounge area to the cafeteria food counters.", "Arrives at food counter queue"],
+    ["50-65", "I select various dishes for lunch at the cafeteria self-service counter.", "Moves to checkout"],
+    ["66-73", "I pay for my cafeteria meal using the Alipay app.", "Payment completes"],
+    ["74-81", "I settle at a cafeteria booth table with my meal tray.", "Sitting down / task complete"],
+    ["82-93", "I discuss our dining styles and a pastry with my companion.", "Topic changes"],
+    ["94-101", "I eat stir-fried vegetables from my meal tray.", "Shifts attention to another dish"],
+    ["102-105", "I inspect a steamed meat dish on my meal tray.", "Companion initiates a new conversation topic"],
+    ["106-117", "I discuss renting situations and commutes with my companion.", "Topic changes to academic departments"],
+    ["118-132", "I discuss the technical capabilities of academic departments with my companion.", "Topic changes to a specific university"],
+    ["133-144", "I discuss Greater Bay Area University and the steamed cake's taste with my companion.", "Topic changes to an absent company team"],
+    ["145-154", "I discuss an absent company team with my companion.", "Topic changes to food drowsiness"],
+    ["155-162", "I joke with my companion about our food causing drowsiness.", "Topic changes to alternative dining locations"],
+    ["163-179", "I discuss alternative dining options at a nearby construction site with my companion.", "Topic changes to a vendor's promotions"],
+    ["180-187", "I discuss a delivery vendor's promotional tactics with my companion.", "Topic changes to a research group"],
+    ["188-199", "I discuss the size of my advisor's research group with my dining companions.", "Topic changes to a robotic arm project"],
+    ["200-214", "I discuss a robotic arm shoe gluing project with my dining companions.", "Topic changes to professor's large model attempts"],
+    ["215-227", "I discuss our professor's early attempts at using large models for robotic control with my companion.", "Topic changes to prompt engineering"],
+    ["228-249", "I discuss coding habits and prompt engineering for a summarization model with my companion.", "End of clip"]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

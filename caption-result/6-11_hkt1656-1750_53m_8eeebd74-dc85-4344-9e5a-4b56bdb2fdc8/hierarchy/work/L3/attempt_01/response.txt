@@ -1,0 +1,56 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group L2 tasks into continuous episodes based on major location changes and unified goals, such as transit journeys, walking routes to a destination, making a purchase, and distinct restaurant phases (deliberating/ordering vs. dining/waiting).",
+  "events": [
+    [
+      "0-5",
+      "I exit my apartment building into the residential plaza.",
+      "Reaching the outdoor plaza completes the building departure."
+    ],
+    [
+      "6-18",
+      "I walk to the train station entrance.",
+      "Arrival at the station escalators completes the neighborhood walk."
+    ],
+    [
+      "19-26",
+      "I commute by train to my destination.",
+      "Passing through the ticket gates completes the train journey."
+    ],
+    [
+      "27-43",
+      "I walk through a shopping mall and academic building to reach a snack shop.",
+      "Arrival at the snack shop completes the campus walk."
+    ],
+    [
+      "44-46",
+      "I purchase a packet of beef cubes at the snack shop.",
+      "Opening the snacks completes the purchase transaction."
+    ],
+    [
+      "47-49",
+      "I walk past the wet market to enter a restaurant.",
+      "Sitting down at the booth completes the arrival at the restaurant."
+    ],
+    [
+      "50-66",
+      "I finalize my food order at the restaurant.",
+      "Finalizing the food order with the companion completes the menu deliberation phase."
+    ],
+    [
+      "67-79",
+      "I enjoy soup and cat interactions at the restaurant table.",
+      "End of provided data during the table dining and waiting phase."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": [
+      "Event 77 involves confirming the food order, but it occurs after the initial soup consumption (68) and primary order finalization (66), so it remains grouped within the dining and waiting phase."
+    ]
+  }
+}
+```

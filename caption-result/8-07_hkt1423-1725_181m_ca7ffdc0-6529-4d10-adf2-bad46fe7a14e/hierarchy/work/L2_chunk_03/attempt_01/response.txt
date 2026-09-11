@@ -1,0 +1,159 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks focused on unified objectives, such as interacting with specific applications, debugging connection issues, navigating remote workspaces, and querying AI models.",
+  "events": [
+    [
+      "500-504",
+      "I check my CC Switch API balance and session limits.",
+      "Groups related CC switch API checks."
+    ],
+    [
+      "505",
+      "I read ChatGPT model evaluation results.",
+      "Standalone check of evaluation results."
+    ],
+    [
+      "506-522",
+      "I fill out and submit my MiraclePlus application.",
+      "Unified sequence of application review and submission."
+    ],
+    [
+      "523",
+      "I read an evaluation report in VS Code.",
+      "Standalone context check."
+    ],
+    [
+      "524",
+      "I check training loss curves in Claude.",
+      "Standalone context check."
+    ],
+    [
+      "525",
+      "I look through Apple Notes.",
+      "Standalone context check."
+    ],
+    [
+      "526",
+      "I watch a video playback in QuickTime Player.",
+      "Standalone context check."
+    ],
+    [
+      "527-528",
+      "I dismiss a CCSwitcher update modal.",
+      "Interacting with an update prompt."
+    ],
+    [
+      "529",
+      "I open Google Chrome.",
+      "Distinct application launch."
+    ],
+    [
+      "530",
+      "I view the MiraclePlus application page.",
+      "Brief context check of the application page."
+    ],
+    [
+      "531-548",
+      "I use ChatGPT to troubleshoot model evaluation issues and retrieve the magic-video backbone agent prompt.",
+      "Continuous sequence of reading evaluation issues and requesting the specific prompt."
+    ],
+    [
+      "549-552",
+      "I attempt to log into the SSO portal.",
+      "Login sequence ending in an error."
+    ],
+    [
+      "553-568",
+      "I read the ChatGPT response about the agent prompt until the connection drops.",
+      "Monitoring and reading the AI response up to the interruption."
+    ],
+    [
+      "569-584",
+      "I debug the ChatGPT connection interruption in a new chat.",
+      "Opening a new chat to resolve the connection issue."
+    ],
+    [
+      "585-589",
+      "I read ChatGPT's explanation about locating the MAGIC-Video backbone agent prompt.",
+      "Reading explanation while the AI executes a memory tool."
+    ],
+    [
+      "590-603",
+      "I open the 'mzx' workspace on the 'l40s-7' remote server in VS Code.",
+      "Remote connection and workspace initialization."
+    ],
+    [
+      "604-616",
+      "I browse the 'MAGIC-video-repo' directory and scripts in VS Code.",
+      "File exploration within the repository."
+    ],
+    [
+      "617-632",
+      "I use the Claude Code assistant to search for the original magic-video repository.",
+      "AI agent query, OAuth login, and execution monitoring."
+    ],
+    [
+      "633-644",
+      "I read ChatGPT's explanation of the MAGIC-Video backbone prompt differences and architecture.",
+      "Reading contiguous AI explanations."
+    ],
+    [
+      "645-650",
+      "I review the remote file tree and Copilot settings in VS Code.",
+      "Workspace settings and file review."
+    ],
+    [
+      "651-656",
+      "I review evaluation reports and JSON data in the 'my pov data preprocess' folder.",
+      "Reviewing specific evaluation files."
+    ],
+    [
+      "657-664",
+      "I search for and examine prompt definitions in 'memory_reasoning_unified_lucia.py'.",
+      "Locating and reading the prompt script."
+    ],
+    [
+      "665-690",
+      "I read ChatGPT's detailed instructions and system prompts for the backbone reasoning agent.",
+      "Reading extended prompt instructions and policies."
+    ],
+    [
+      "691-712",
+      "I inspect few-shot examples in 'memory_reasoning_unified_lucia.py' to investigate prompt versions.",
+      "Reviewing script examples and formulating queries about version differences."
+    ],
+    [
+      "713-721",
+      "I read ChatGPT's explanation comparing prompt versions for the unified agent memory retrieval.",
+      "Reading explanation of prompt versions."
+    ],
+    [
+      "722-727",
+      "I check a WeChat message on my smartphone.",
+      "Mobile messaging session."
+    ],
+    [
+      "728-735",
+      "I discuss training learning rates and curves with a colleague.",
+      "In-person technical conversation."
+    ],
+    [
+      "736-739",
+      "I observe my surroundings in the office.",
+      "Incidental office observation."
+    ],
+    [
+      "740-749",
+      "I ask ChatGPT to adapt the retrieval prompt for my workflow.",
+      "Reviewing previous context and requesting a file modification."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

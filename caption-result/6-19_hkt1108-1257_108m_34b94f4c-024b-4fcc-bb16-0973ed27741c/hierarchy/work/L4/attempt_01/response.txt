@@ -1,0 +1,34 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group episodes into broader goal-oriented phases based on major location and primary objective: morning preparation, completing a gym workout, visiting a shopping mall, and running food shopping errands.",
+  "events": [
+    [
+      "0",
+      "I prepare for the day in my apartment.",
+      "Discrete preparation phase at home"
+    ],
+    [
+      "1-8",
+      "I complete a workout session at the clubhouse gym.",
+      "Unifies travel, registration, multiple exercises, and exiting the gym into one fitness phase"
+    ],
+    [
+      "9-10",
+      "I visit The Wai mall.",
+      "Unifies walking to the mall and exploring its interior"
+    ],
+    [
+      "11-14",
+      "I run food shopping errands in the Tai Wai area.",
+      "Unifies transit, purchasing roast meats at the wet market, and shopping for groceries at the supermarket"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

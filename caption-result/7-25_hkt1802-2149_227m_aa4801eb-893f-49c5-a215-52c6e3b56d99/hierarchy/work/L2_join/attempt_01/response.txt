@@ -1,0 +1,36 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate the eligible pairs to merge those that represent a single uninterrupted immediate task continuing across the batch edge. I will merge tasks that represent parts of the same transaction (e.g., examining then purchasing) or identical continuous actions (e.g., continuous browsing or observing). I will not merge pairs that merely share a broad context but feature distinct conversation topics or separate actions.",
+  "merges": [
+    [
+      34,
+      35,
+      "I discuss my mosquito bites and wait for my companion to apply anti-itch ointment to them.",
+      "The retrieval and application of the ointment is a single continuous task broken by a batch edge."
+    ],
+    [
+      56,
+      57,
+      "I examine and purchase a Haitang cake for my companion at a food stall.",
+      "Selecting and purchasing the cake constitutes a single transaction broken by a batch edge."
+    ],
+    [
+      89,
+      90,
+      "I browse scenic driving route guides on the Xiaohongshu application and discuss them with the driver.",
+      "The identical continuous task of browsing and discussing driving routes extends across the batch edge."
+    ],
+    [
+      163,
+      164,
+      "I observe the city road from the passenger seat while listening to the driver and navigation.",
+      "Continuous passenger observation of the road continues uninterrupted across the batch edge."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

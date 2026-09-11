@@ -1,0 +1,44 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group atomic actions into immediate tasks: checking in at the reception, wheeling luggage out, boarding the elevator, riding to the floor, navigating the corridor, and inspecting the room.",
+  "events": [
+    [
+      "500-515",
+      "I check in at the hotel reception desk.",
+      "Companion receives keycard, concluding the check-in interaction"
+    ],
+    [
+      "516-522",
+      "I wheel my suitcase out of the reception area.",
+      "Passed through the entrance doors toward the elevator"
+    ],
+    [
+      "523-525",
+      "I board the elevator.",
+      "Entered the elevator car"
+    ],
+    [
+      "526-530",
+      "I ride the elevator to the second floor.",
+      "Exited the elevator on the second floor"
+    ],
+    [
+      "531-534",
+      "I navigate the hotel corridor to enter room 8207.",
+      "Entered the assigned hotel room"
+    ],
+    [
+      "535-539",
+      "I inspect my hotel room.",
+      "End of input batch"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

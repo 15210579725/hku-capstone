@@ -1,0 +1,19 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group the elevator descent, concurrent messaging, and lobby turnstile navigation into a single overarching building departure phase.",
+  "events": [
+    [
+      "0-2",
+      "I exit the building.",
+      "Completed turnstile exit into the next area"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

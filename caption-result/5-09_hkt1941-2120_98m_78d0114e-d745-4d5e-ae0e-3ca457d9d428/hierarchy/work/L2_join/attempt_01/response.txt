@@ -1,0 +1,30 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible pairs at batch edges to determine if they represent a continuation of the same immediate task. Merge pairs that share the identical ongoing action or conversation topic. Keep pairs distinct if they transition to a different action (e.g., walking vs. reading a sign, or recording vs. talking).",
+  "merges": [
+    [
+      19,
+      20,
+      "I ride my bicycle along the bike lane and road.",
+      "Same bicycle riding task continues across batch edge"
+    ],
+    [
+      76,
+      77,
+      "I check the transit timetables and bus stop signage for real-time information.",
+      "Same task of checking bus transit information continues across batch edge"
+    ],
+    [
+      105,
+      106,
+      "I discuss the topic of unannounced surprise visits with my companion while riding the bus.",
+      "Same conversation about unannounced visits continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

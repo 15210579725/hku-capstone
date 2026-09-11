@@ -1,0 +1,76 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous walking segments, conversations, phone usage, and waiting periods into immediate tasks. Isolate the major verbal decision to return to the car as a standalone behavior-changing trigger. Respect the out-of-sequence 11:06 AM clip batch as its own separate immediate task.",
+  "events": [
+    [
+      "1750-1768",
+      "I discuss drifting and the parking lot capacity with my companion while walking along the gravel road.",
+      "Transition from gravel road to misty path"
+    ],
+    [
+      "1769-1774",
+      "I comment on the landscaping while following my companion along the misty stone path.",
+      "Arrival at directional signs and plaza"
+    ],
+    [
+      "1775-1779",
+      "I follow the stone path into the plaza.",
+      "Arrival at plaza and companion's restroom comment"
+    ],
+    [
+      "1780-1786",
+      "I watch my companion walk toward the restroom from the plaza.",
+      "Companion departs and I observe the area"
+    ],
+    [
+      "1787-1798",
+      "I view WeChat on my phone while observing nearby visitors along the path.",
+      "Major decision to abandon current progress and return to car"
+    ],
+    [
+      "1799",
+      "I state my intention to return to the car to store my phone and glasses to prevent water damage.",
+      "Major behavior-changing trigger redirecting the plan"
+    ],
+    [
+      "1800-1808",
+      "I walk back along the misty stone pathway.",
+      "Entering the parking lot"
+    ],
+    [
+      "1809-1816",
+      "I walk across the gravel parking lot past parked vehicles.",
+      "Stopping to check phone"
+    ],
+    [
+      "1817-1818",
+      "I read WeChat messages on my phone.",
+      "Time jump in dataset batch"
+    ],
+    [
+      "1819-1824",
+      "I suggest to my companion at cabin 4 that we request a ride to the parking lot via WeChat.",
+      "Return to main recording timeline"
+    ],
+    [
+      "1825-1831",
+      "I carry my phone, umbrella, and shopping bag toward the parked cars.",
+      "Arriving at my vehicle"
+    ],
+    [
+      "1832-1835",
+      "I store my umbrella and bag on the driver's seat of my black sedan.",
+      "Belongings placed in car"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      5
+    ],
+    "boundary_cautions": []
+  }
+}
+```

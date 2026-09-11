@@ -1,0 +1,64 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group atomic observations into immediate tasks based on localized goals such as navigating transit segments, communicating, inspecting objects, and filling a bottle.",
+  "events": [
+    [
+      "0-3",
+      "I send a WeChat message during my elevator ride.",
+      "Elevator journey completes"
+    ],
+    [
+      "4-6",
+      "I walk from the elevator to the laboratory door.",
+      "Arrives at the laboratory entrance"
+    ],
+    [
+      "7-9",
+      "I enter the office to verify my sent WeChat message.",
+      "Message verification concludes"
+    ],
+    [
+      "10-12",
+      "I retrieve my glass water bottle near a colleague assembling a drone.",
+      "Object retrieved to prepare for departure"
+    ],
+    [
+      "13-16",
+      "I carry my water bottle down the corridor toward the pantry.",
+      "Arrives at the pantry area"
+    ],
+    [
+      "17-21",
+      "I inspect a bar stool seat with my fingers.",
+      "Inspection concludes"
+    ],
+    [
+      "22",
+      "I announce a potential delay for my two-thirty arrival.",
+      "Spoken message concludes"
+    ],
+    [
+      "23-27",
+      "I fill my glass water bottle at the kitchenette dispenser.",
+      "Water filling process concludes"
+    ],
+    [
+      "28-30",
+      "I secure the cap on my water bottle.",
+      "Bottle is sealed for transport"
+    ],
+    [
+      "31-35",
+      "I walk through the pantry and corridor toward the staircase.",
+      "End of input sequence"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

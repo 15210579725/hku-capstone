@@ -1,0 +1,76 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group contiguous action briefs into immediate functional tasks based on shared proximal goals, such as stowing items, navigating the aircraft aisle, disembarking, walking through the boarding bridge, and checking flight information.",
+  "events": [
+    [
+      "0-4",
+      "I stow my power bank inside a bag under the airplane seat.",
+      "Task completes before picking up a different item"
+    ],
+    [
+      "5",
+      "I examine the flight safety card.",
+      "Standalone interaction ends before standing up"
+    ],
+    [
+      "6-13",
+      "I navigate the airplane cabin aisle with my backpack.",
+      "Aisle navigation concludes upon entering the galley"
+    ],
+    [
+      "14-16",
+      "I disembark the airplane.",
+      "Exiting the aircraft concludes upon crossing the exit threshold"
+    ],
+    [
+      "17-23",
+      "I walk through the passenger boarding bridge to the terminal.",
+      "Transit concludes upon pausing to look out the window"
+    ],
+    [
+      "24-29",
+      "I observe the airport tarmac from the skybridge.",
+      "Observation ends upon proceeding through the glass doorway"
+    ],
+    [
+      "30-33",
+      "I enter the main terminal concourse.",
+      "Entry phase concludes prior to inspecting the physical ticket"
+    ],
+    [
+      "34-35",
+      "I review my China Southern Airlines boarding pass.",
+      "Boarding pass review completes before resuming walking"
+    ],
+    [
+      "36-38",
+      "I walk through the terminal concourse toward gate 124.",
+      "Walking is paused to interact with a smartphone"
+    ],
+    [
+      "39-48",
+      "I check my flight baggage carousel assignment on my smartphone.",
+      "Phone interaction task concludes before resuming movement"
+    ],
+    [
+      "49-52",
+      "I navigate the terminal concourse.",
+      "General navigation transitions to targeting a specific facility"
+    ],
+    [
+      "53-55",
+      "I approach the terminal restroom.",
+      "Arrival at the restroom entrance"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": [
+      "Fragmented walking segments in the terminal (36-38, 49-52) are kept separate at L2 due to intervening distinct tasks of checking the boarding pass and smartphone."
+    ]
+  }
+}
+```

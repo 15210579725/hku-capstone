@@ -1,0 +1,18 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate the eligible batch edge pairs for continuation of the same immediate task. Pair [41, 42] will be merged because both events describe the identical task of inspecting face detection metrics and video annotations. Pairs [23, 24] and [66, 67] will not be merged as they represent distinct steps (preparing a prompt vs. reviewing rules) or distinct interactions (examining freezer vs. walking conversation).",
+  "merges": [
+    [
+      41,
+      42,
+      "I review face detection video annotations and candidate evaluation metrics on my computer.",
+      "Same face detection evaluation task continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

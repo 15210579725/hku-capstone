@@ -1,0 +1,18 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible pairs to determine if they continue the exact same immediate task across a batch edge. Pair [41, 42] represents a continuous task of studying reinforcement learning notes and will be merged. Pair [23, 24] involves distinct actions (examining a diagram and replying to someone vs. reading lecture slides) and will not be merged.",
+  "merges": [
+    [
+      41,
+      42,
+      "I read notes and Claude AI explanations on offline reinforcement learning algorithms.",
+      "Same reading task continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

@@ -1,0 +1,119 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate, unified tasks based on their primary goal, such as transit segments between major locations, specific smartphone usage sessions, object interactions (like drinking water, unpacking salt, opening tissues), or studying on the laptop.",
+  "events": [
+    [
+      "0-5",
+      "I walk along the boardwalk to dispose of a tissue in the dolphin trash can.",
+      "Disposal task completes"
+    ],
+    [
+      "6-7",
+      "I observe children playing upon hearing a companion speak.",
+      "Observation ends before moving"
+    ],
+    [
+      "8-13",
+      "I drink water from a public drinking fountain.",
+      "Drinking finishes"
+    ],
+    [
+      "14-21",
+      "I walk along the promenade toward the road after hearing a companion speak.",
+      "Observation ends as road walk begins"
+    ],
+    [
+      "22-38",
+      "I walk along the street to observe the road markings and intersection.",
+      "Walking observation ends to check phone"
+    ],
+    [
+      "39-55",
+      "I review WeChat messages with babe ❤️ and various apps on my smartphone.",
+      "Phone session ends to cross street"
+    ],
+    [
+      "56-69",
+      "I navigate multiple zebra crossings along the sidewalk.",
+      "Sidewalk transit ends before crossing tracks"
+    ],
+    [
+      "70-78",
+      "I cycle across the intersection and down the street past DS GROCERIES.",
+      "Cycling transit concludes"
+    ],
+    [
+      "79-93",
+      "I walk along the sidewalk past Pacific Plaza and bamboo scaffolding.",
+      "Walk continues past Pacific Plaza"
+    ],
+    [
+      "94-111",
+      "I walk past various storefronts to cross the street toward the Shek Tong Tsui Municipal Services Building.",
+      "Arrives at the Municipal Services Building"
+    ],
+    [
+      "112-124",
+      "I enter the Shek Tong Tsui Municipal Services Building to take elevator 4.",
+      "Enters building and takes elevator"
+    ],
+    [
+      "125-137",
+      "I traverse the food centre toward the exit ramp.",
+      "Exits the food centre"
+    ],
+    [
+      "138-154",
+      "I navigate the curved road, dark alleyway, and outdoor stairs.",
+      "Outdoor transit completes"
+    ],
+    [
+      "155-168",
+      "I walk through the courtyard to take the elevator to floor 15.",
+      "Enters residential elevator"
+    ],
+    [
+      "169-173",
+      "I review my Mail inbox on my iPhone during the elevator ride.",
+      "Puts phone away to exit elevator"
+    ],
+    [
+      "174-180",
+      "I arrive at apartment 15B to drop off groceries and turn on the air conditioner.",
+      "Apartment arrival routine completes"
+    ],
+    [
+      "181-188",
+      "I place a bag of table salt on the kitchen refrigerator and inspect its contents.",
+      "Kitchen unpacking concludes"
+    ],
+    [
+      "189-196",
+      "I open a box of Virjoy tissues at the dining table.",
+      "Tissue opening completes"
+    ],
+    [
+      "197-204",
+      "I walk to the bedroom corridor to dispose of packaging.",
+      "Packaging disposal concludes"
+    ],
+    [
+      "205-226",
+      "I refill the kitchen water dispenser to get a drink of water.",
+      "Water refill and drinking concludes"
+    ],
+    [
+      "227-249",
+      "I study AWAC-like algorithm lecture slides and query Gemini regarding constrained optimization on my laptop.",
+      "Laptop study session ongoing"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,89 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous, immediate tasks based on the application being used (e.g., immigration portal, WeChat, web tool), physical movements, or distinct conversations. Ensure no description contains conjunctions like 'and'/'while' chaining multiple actions.",
+  "events": [
+    [
+      "750",
+      "I discard a mangosteen rind.",
+      "Action completes"
+    ],
+    [
+      "751-754",
+      "I read WeChat messages on my laptop at my study desk.",
+      "Focus shifts to walking away"
+    ],
+    [
+      "755-759",
+      "I make a brief trip to the kitchen.",
+      "Returns to desk to resume computer work"
+    ],
+    [
+      "760-790",
+      "I fill out the entry permit application form on the immigration portal.",
+      "Task interrupted by the need to compress a file"
+    ],
+    [
+      "791-794",
+      "I discuss file compression with my peer.",
+      "Conversation ends, starts searching for a web tool"
+    ],
+    [
+      "795-811",
+      "I compress a PDF document using an online web tool.",
+      "File compressed and downloaded, switches back to immigration portal"
+    ],
+    [
+      "812-816",
+      "I review photo specifications on the Taiwan immigration portal.",
+      "Focus shifts to conversing with friend"
+    ],
+    [
+      "817-821",
+      "I converse with my friend regarding image resolution requirements.",
+      "Conversation ends, returns to portal form"
+    ],
+    [
+      "822-832",
+      "I query my application status on the immigration portal.",
+      "Query complete, focus shifts to companion's phone"
+    ],
+    [
+      "833-838",
+      "I accept a money transfer on my partner's smartphone.",
+      "Transfer accepted, returns attention to MacBook"
+    ],
+    [
+      "839-845",
+      "I review my application progress on the immigration portal.",
+      "Shifts to submitting supplementary documents"
+    ],
+    [
+      "846-855",
+      "I upload a student ID PDF to the applicant data correction form on the immigration portal.",
+      "Upload complete, shifts to viewing User X's progress"
+    ],
+    [
+      "856-860",
+      "I read User X's application progress details on the immigration portal.",
+      "Viewing complete, switches to WeChat"
+    ],
+    [
+      "861",
+      "I type a WeChat reply.",
+      "Message typed, looks up to converse"
+    ],
+    [
+      "862-866",
+      "I converse with my roommate about an application issue.",
+      "Conversation concludes"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

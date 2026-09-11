@@ -1,0 +1,69 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group sequence into distinct tasks based on the narrator's immediate goal: discussing the menu (250-263), adjusting room controls (264-279), finalizing food choices on the laptop (280-303), discussing a smell outside (304-313), working on the laptop (314-338), ordering food (339-360), managing room humidity (361-370), relocating downstairs (371-380), exploring the living room (381-399), checking a phone and the living room windows (400-411), and finally returning upstairs (412-422).",
+  "events": [
+    [
+      "250-263",
+      "I discuss menu options with my companion to select our lunch dishes.",
+      "Discussion shifts to adjusting room controls"
+    ],
+    [
+      "264-279",
+      "I adjust the cabin thermostat and skylight shade.",
+      "Returns focus to menu discussion and laptop"
+    ],
+    [
+      "280-303",
+      "I finalize our food choices with my companion during my laptop session.",
+      "Interrupted by companion noticing a bad smell"
+    ],
+    [
+      "304-313",
+      "I discuss a foul outdoor smell with my companion.",
+      "Returns focus to laptop work"
+    ],
+    [
+      "314-338",
+      "I review a document on my laptop.",
+      "Initiates a phone call to order food"
+    ],
+    [
+      "339-360",
+      "I order our lunch from the hotel staff.",
+      "Completes the food order"
+    ],
+    [
+      "361-370",
+      "I manage the room's high humidity using the balcony window and air conditioning controls.",
+      "Finishes adjusting the climate controls"
+    ],
+    [
+      "371-380",
+      "I relocate to the downstairs living room.",
+      "Arrives in the living room"
+    ],
+    [
+      "381-399",
+      "I inspect the downstairs living room amenities and lighting.",
+      "Attention shifts to communication and a smartphone notification"
+    ],
+    [
+      "400-411",
+      "I inspect the living room windows and curtain after a smartphone interaction.",
+      "Leaves the living room to go upstairs"
+    ],
+    [
+      "412-422",
+      "I return upstairs to verify the room's climate controls.",
+      "Task completes"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

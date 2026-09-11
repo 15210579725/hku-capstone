@@ -1,0 +1,30 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Merge contiguous eligible pairs where the exact same immediate task continues across a batch boundary: reading Claude's generated review (14-15), typing research notes in Feishu (33-34), and crafting an evaluation prompt in Claude (53-54).",
+  "merges": [
+    [
+      14,
+      15,
+      "I read Claude's generated NeurIPS review and critique for my research paper.",
+      "Same reading task continues across batch edge"
+    ],
+    [
+      33,
+      34,
+      "I document concepts and decision-making notes in my Feishu document.",
+      "Same documentation task continues across batch edge"
+    ],
+    [
+      53,
+      54,
+      "I prepare and edit the NeurIPS paper evaluation prompt in Claude.",
+      "Same prompt preparation task continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

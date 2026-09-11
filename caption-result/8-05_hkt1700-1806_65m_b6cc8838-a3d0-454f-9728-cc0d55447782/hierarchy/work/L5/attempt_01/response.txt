@@ -1,0 +1,29 @@
+```json
+{
+  "target_level": "L5",
+  "plan": "Group the input phases into distinct major activities based on their overarching goals and primary locations, which in this case remain separate as work, dining, and exercise.",
+  "events": [
+    [
+      "0",
+      "I conduct machine learning model evaluation research at my office desk.",
+      "Distinct major work activity"
+    ],
+    [
+      "1",
+      "I have a meal with my colleagues at the cafeteria.",
+      "Location and overarching goal shift to dining and socializing"
+    ],
+    [
+      "2",
+      "I prepare for a workout at the fitness center.",
+      "Location and overarching goal shift to physical exercise"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

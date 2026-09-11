@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate the eligible pairs to identify identical continuous tasks artificially split by transport batch edges. Merge pairs [64, 65] (typing notes in Feishu) and [138, 139] (rallying in squash) because they describe the exact same uninterrupted immediate action. Reject other pairs as they represent genuine immediate task transitions, such as changing topics/activities, transitioning from preparing to playing, or moving between distinct transit zones.",
+  "merges": [
+    [
+      64,
+      65,
+      "I review and type research notes into a Feishu document.",
+      "Same task of typing notes into Feishu continues across batch edge"
+    ],
+    [
+      138,
+      139,
+      "I rally the squash ball with my companion.",
+      "Continuous squash rally interrupted by batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

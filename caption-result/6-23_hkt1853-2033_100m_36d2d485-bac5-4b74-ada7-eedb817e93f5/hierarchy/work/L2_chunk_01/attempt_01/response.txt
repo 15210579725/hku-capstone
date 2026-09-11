@@ -1,0 +1,104 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous walking segments, distinct conversational topics, and clear physical tasks into unified immediate task descriptions.",
+  "events": [
+    [
+      "0-8",
+      "I discard trash in the refuse collection room.",
+      "Completes discarding trash"
+    ],
+    [
+      "9-21",
+      "I wait for the elevator near a woman in the lobby.",
+      "Elevator arrives"
+    ],
+    [
+      "22-35",
+      "I take the elevator to the ground floor exit with my companion.",
+      "Exits the elevator and building"
+    ],
+    [
+      "36-49",
+      "I walk along the courtyard walkways outside the residential building.",
+      "Begins discussing personal items"
+    ],
+    [
+      "50-68",
+      "I discuss personal items and loans with my companion on the courtyard path.",
+      "Conversation shifts to rent"
+    ],
+    [
+      "69-89",
+      "I discuss rent and money matters with my companion on the promenade.",
+      "Opens wallet to check cash"
+    ],
+    [
+      "90-94",
+      "I inspect the cash in my wallet on the pedestrian walkway.",
+      "Completes wallet check"
+    ],
+    [
+      "95-101",
+      "I discuss dumpling fillings with my companion on the walkway.",
+      "Conversation shifts to cooking skills"
+    ],
+    [
+      "102-113",
+      "I discuss cooking skills with my companion on the pathway.",
+      "Conversation shifts to AI tokens"
+    ],
+    [
+      "114-141",
+      "I discuss AI token consumption and accounts with my companion on the garden pathway.",
+      "Enters building lobby"
+    ],
+    [
+      "142-152",
+      "I ride the descending escalator from the building lobby.",
+      "Steps off the escalator"
+    ],
+    [
+      "153-158",
+      "I walk across the lobby to the footbridge leading to The Wai.",
+      "Reaches the footbridge"
+    ],
+    [
+      "159-179",
+      "I discuss dumpling ingredients with my companion on the footbridge.",
+      "Steps onto the mall escalator"
+    ],
+    [
+      "180-188",
+      "I ride the escalator to the upper floor in the shopping mall.",
+      "Steps off the mall escalator"
+    ],
+    [
+      "189-199",
+      "I view store displays in the shopping mall corridor.",
+      "Begins conversation about personal messages"
+    ],
+    [
+      "200-231",
+      "I discuss personal messages and butter cookies with my companion in the shopping mall.",
+      "Enters the supermarket produce section"
+    ],
+    [
+      "232-238",
+      "I accompany my companion through the supermarket produce section.",
+      "Approaches the vegetable display"
+    ],
+    [
+      "239-249",
+      "I place a bundle of Chinese chives from the vegetable display into the shopping cart.",
+      "Places chives in the shopping cart"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,26 @@
+```json
+{
+  "target_level": "L5",
+  "plan": "Group the computer-based administration and research tasks into a single major work activity, followed by the distinct social lunch activity.",
+  "events": [
+    [
+      "0-1",
+      "I conduct computer-based administration and AI research tasks at my workstation.",
+      "Activity and location shift from workstation tasks to a cafeteria lunch"
+    ],
+    [
+      "2",
+      "I eat a cafeteria lunch with my colleagues.",
+      "End of provided data"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": [
+      "Overlapping timestamps between work and lunch represent natural metadata/concurrent transition and are kept exactly as provided."
+    ]
+  }
+}
+```

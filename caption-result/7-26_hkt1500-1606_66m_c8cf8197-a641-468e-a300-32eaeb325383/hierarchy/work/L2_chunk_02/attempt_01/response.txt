@@ -1,0 +1,69 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group immediate tasks based on continuous conversational topics and distinct physical phases of the meal, abstracting individual utterances and bites into cohesive conversational or dining segments.",
+  "events": [
+    [
+      "250-321",
+      "I discuss an acquaintance's relationship history with my companion over grilled fish.",
+      "Conversation shifts to personal skin sensitivity."
+    ],
+    [
+      "322-330",
+      "I wipe my mouth with a napkin during a discussion about personal sensitivity.",
+      "Conversation shifts back to food and casual bantering as I resume eating."
+    ],
+    [
+      "331-352",
+      "I consume grilled fish and rice with my companion.",
+      "Companion introduces a new topic about a past gift of headphones."
+    ],
+    [
+      "353-375",
+      "I extract fish meat from the bones during a discussion about returned headphones.",
+      "Conversation shifts to discussing dating activities."
+    ],
+    [
+      "376-403",
+      "I pick at the grilled fish during a conversation about dating activities.",
+      "Companion changes the subject to my lack of appetite and eating habits."
+    ],
+    [
+      "404-417",
+      "I consume fish skin in response to my companion's comments about my appetite.",
+      "Companion initiates a new topic about my ex-girlfriend and breakups."
+    ],
+    [
+      "418-428",
+      "I discuss coping mechanisms for breakups with my companion.",
+      "Conversation pivots to feelings of loneliness in Hong Kong."
+    ],
+    [
+      "429-454",
+      "I discuss loneliness and emotional sensitivity with my companion.",
+      "Focus of conversation shifts to finishing the remaining food."
+    ],
+    [
+      "455-477",
+      "I debate meal portion sizes and finishing the remaining food with my companion.",
+      "Conversation shifts to discussing dessert and morning coffee."
+    ],
+    [
+      "478-486",
+      "I converse with my companion about Basque cake and butter coffee.",
+      "Companion changes the topic to the cause of her recent anger."
+    ],
+    [
+      "487-499",
+      "I playfully argue with my companion about the cause of her anger and a consumed coffee.",
+      "End of input."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

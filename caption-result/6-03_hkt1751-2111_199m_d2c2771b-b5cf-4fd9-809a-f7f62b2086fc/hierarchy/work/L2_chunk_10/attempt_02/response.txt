@@ -1,0 +1,79 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group immediate actions based on contiguous movement phases, phone interactions, escalator rides, and distinct physical activities, respecting temporal gaps.",
+  "events": [
+    [
+      "2250-2254",
+      "I navigate the concourse to descend the exit stairs.",
+      "Completed descent of stairs from concourse"
+    ],
+    [
+      "2255-2263",
+      "I take the elevator down from the footbridge.",
+      "Exited the elevator at street level"
+    ],
+    [
+      "2264-2267",
+      "I approach an illuminated underpass via the plaza walkway.",
+      "Stopped walking to look at companion's phone"
+    ],
+    [
+      "2268-2274",
+      "I review apartment photos on my companion's phone.",
+      "Finished looking at phone and resumed walking"
+    ],
+    [
+      "2275-2282",
+      "I walk into the building lobby with my companion.",
+      "Reached the escalator"
+    ],
+    [
+      "2283-2289",
+      "I ride the escalator with my companion.",
+      "Began checking personal phone"
+    ],
+    [
+      "2290-2294",
+      "I check the capstone group chat on WeChat.",
+      "Finished checking phone and resumed walking"
+    ],
+    [
+      "2295-2304",
+      "I traverse the lobby via the ascending escalator.",
+      "Reached the building exit steps"
+    ],
+    [
+      "2305-2313",
+      "I walk along the outdoor covered walkway.",
+      "Transitioned to courtyard area"
+    ],
+    [
+      "2314-2321",
+      "I walk into the courtyard.",
+      "Continued past courtyard toward plaza"
+    ],
+    [
+      "2322-2330",
+      "I walk to the circular plaza.",
+      "Entered the circular plaza"
+    ],
+    [
+      "2331-2335",
+      "I observe my companion retrieving items from her backpack.",
+      "Temporal gap / end of observation sequence"
+    ],
+    [
+      "2336-2340",
+      "I prepare for the next squash rally with my partner.",
+      "End of squash preparation sequence"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

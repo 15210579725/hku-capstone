@@ -1,0 +1,134 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group immediate tasks into coherent activity episodes based on overarching goals and continuous locations. Episodes include getting ready, transiting, having breakfast, packing luggage, exploring the beach, driving, visiting shops, and spending time at a cat cafe.",
+  "events": [
+    [
+      "0-14",
+      "I prepare for the day in my hotel room.",
+      "Shift from morning preparation to leaving the room"
+    ],
+    [
+      "15-20",
+      "I walk from my hotel room to the lobby.",
+      "Arrival at the cafe and beginning to order"
+    ],
+    [
+      "21-28",
+      "I order a Coco Latte at the cafe counter.",
+      "Shift from the cafe to the breakfast buffet"
+    ],
+    [
+      "29-37",
+      "I gather food at the breakfast buffet.",
+      "Shift from gathering food to eating at the table"
+    ],
+    [
+      "38-55",
+      "I eat breakfast at the dining table.",
+      "Shift from eating breakfast to discussing travel plans"
+    ],
+    [
+      "56-60",
+      "I plan our itinerary using travel guides with my companion.",
+      "Shift from planning at the table to walking back to the room"
+    ],
+    [
+      "61-64",
+      "I walk back to my hotel room.",
+      "Arrival in the room and beginning to pack luggage"
+    ],
+    [
+      "65-83",
+      "I pack my luggage in the hotel room.",
+      "Shift from packing in the room to heading out with luggage"
+    ],
+    [
+      "84-86,154",
+      "I load my luggage into the parked car.",
+      "Finished loading the car, shifting to exploring nearby shops"
+    ],
+    [
+      "87-89",
+      "I browse for hats in a clothing boutique.",
+      "Leaving the boutique and entering the hotel lobby"
+    ],
+    [
+      "90-97",
+      "I handle inquiries at the hotel reception desk.",
+      "Leaving the hotel to ride the sightseeing shuttle"
+    ],
+    [
+      "98-99",
+      "I ride a sightseeing shuttle to a pedestrian plaza.",
+      "Disembarking the shuttle to walk through the plaza"
+    ],
+    [
+      "100-102,185",
+      "I walk across the pedestrian plaza toward the beach.",
+      "Arrival at the shoreline and starting to explore the sand"
+    ],
+    [
+      "103-126",
+      "I explore the sandy beach.",
+      "Leaving the sand to walk across the paved plaza"
+    ],
+    [
+      "127-133",
+      "I walk across the resort plaza to the shuttle stop.",
+      "Boarding the shuttle to return to the commercial area"
+    ],
+    [
+      "134-135",
+      "I return to the parking lot via the shuttle cart.",
+      "Arrival at the parking lot to begin the drive"
+    ],
+    [
+      "136-153,155-184,264",
+      "I drive my car to the hospital parking lot.",
+      "Arriving at the destination and exiting the car"
+    ],
+    [
+      "186-193",
+      "I walk from the parking lot to the covered arcade.",
+      "Stopping at a handicraft shop to browse accessories"
+    ],
+    [
+      "194-195",
+      "I purchase accessories in a handicraft shop.",
+      "Leaving the shop to continue walking to the cafe"
+    ],
+    [
+      "196-204",
+      "I explore the seating areas of a cafe.",
+      "Finding a kitten and starting to play with it"
+    ],
+    [
+      "205-248",
+      "I interact with kittens over shaved ice desserts at the cafe.",
+      "Leaving the cafe to walk along the street"
+    ],
+    [
+      "249-253",
+      "I stop to pet a tabby cat at a teahouse along the pedestrian street.",
+      "Stopping at a bakery to purchase buns"
+    ],
+    [
+      "254",
+      "I purchase pineapple buns at a bakery.",
+      "Completing the purchase and resuming the walk to the hospital"
+    ],
+    [
+      "255-263",
+      "I navigate to the hospital outpatient center.",
+      "End of recording"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

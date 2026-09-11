@@ -1,0 +1,39 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group contiguous actions into immediate tasks based on application focus and sub-goals. Abstract incidental glances, input pauses, and prompt edits into the primary task of dictating the ChatGPT prompt.",
+  "events": [
+    [
+      "500",
+      "I inspect export frame options in Figma.",
+      "Application switch to ChatGPT"
+    ],
+    [
+      "501",
+      "I read Figma SVG export advice in ChatGPT.",
+      "Task shift from reading advice to uploading files"
+    ],
+    [
+      "502-504",
+      "I upload reference PNG frames to ChatGPT.",
+      "Task shift from file management to dictating text"
+    ],
+    [
+      "505-516",
+      "I dictate a prompt instructing ChatGPT to generate stylized first-person images for my paper.",
+      "Task complete; application switch back to Figma"
+    ],
+    [
+      "517",
+      "I inspect the Figma SVG canvas.",
+      "End of input batch"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

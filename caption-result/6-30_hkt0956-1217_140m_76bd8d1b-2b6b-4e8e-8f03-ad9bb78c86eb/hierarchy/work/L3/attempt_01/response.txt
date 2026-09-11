@@ -1,0 +1,27 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group immediate tasks into coherent activity episodes based on primary locations and goals, distinguishing transits, meals, packing phases, and driving.",
+  "events": [
+    ["0-9", "I complete my morning grooming and laptop tasks in my cabin.", "Departure from the cabin to walk to the restaurant"],
+    ["10", "I walk to the restaurant.", "Arrival at the restaurant initiates the breakfast activity"],
+    ["11-33", "I eat a buffet breakfast with my companion at the restaurant.", "Completion of breakfast and departure from the restaurant"],
+    ["34-42", "I walk along the scenic path to return to my cabin.", "Arrival back at the cabin initiates departure preparations"],
+    ["43-80,103,133", "I finalize my packing and departure preparations in my cabin.", "Relocating to cabin 4 shifts focus to final luggage coordination with my companion"],
+    ["81-94,163", "I join my companion at cabin 4 to finalize our luggage for departure.", "Arrival of the shuttle cart initiates transit to the parked car"],
+    ["95-98", "I transfer my belongings to my parked car using the sightseeing shuttle cart.", "Loading completion and beginning the drive shifts focus to the road trip"],
+    ["99-102,104-132,134-142", "I drive my car along scenic rural roads toward Detian Waterfall.", "Arrival at the parking lot ends the drive"],
+    ["143-152", "I complete the vehicle parking and fee payment at the destination.", "Completion of parking tasks initiates the walk toward the attraction"],
+    ["153-158", "I walk toward the attraction plaza with my companion.", "Decision to prevent water damage triggers a return to the car"],
+    ["159-162,164-165", "I return to my parked car to safely store my belongings against water damage.", "End of provided events"]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      159
+    ],
+    "boundary_cautions": []
+  }
+}
+```

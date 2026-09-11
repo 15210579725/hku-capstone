@@ -1,0 +1,104 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions and concurrent detailed captions into immediate unified tasks based on the overarching goal at the time, such as practicing a specific song on the guitar, watching specific Bilibili videos, searching for information via ChatGPT, or messaging on WeChat.",
+  "events": [
+    [
+      "250-279",
+      "I practice the song 《如果的事》 using the guitar chord sheet on my laptop.",
+      "Switches focus from practicing to watching a video in a different browser tab."
+    ],
+    [
+      "280-304",
+      "I watch a Bilibili video about audio studio equipment on my laptop during a pause in guitar practice.",
+      "Changes focus to browsing Bilibili search results for a specific song cover."
+    ],
+    [
+      "305-325,458-465",
+      "I watch a live concert performance video of 《如果的事》 on Bilibili.",
+      "Switches tabs away from the video to return to the guitar chord sheet."
+    ],
+    [
+      "326-356,466-471",
+      "I resume practicing the song 《如果的事》 using the guitar chord sheet on my laptop.",
+      "Gets up from the desk to perform a physical action in the room."
+    ],
+    [
+      "357-358",
+      "I walk to the wall switch to turn on the room light.",
+      "Completes turning on the light and sits back down at the desk."
+    ],
+    [
+      "359-375",
+      "I continue practicing the song 《如果的事》 using the guitar chord sheet.",
+      "Attention shifts to a different visual element on the laptop screen."
+    ],
+    [
+      "376-380",
+      "I observe a white canvas displaying drawn black line segments and the numeral '4' on my laptop screen.",
+      "Returns focus to the guitar sheet music to resume practicing."
+    ],
+    [
+      "381-407",
+      "I complain about and test my noisy guitar pick during my practice of 《如果的事》.",
+      "Stops playing the guitar to use the smartphone."
+    ],
+    [
+      "408-413",
+      "I message 'babe' on WeChat to report being at home playing the guitar.",
+      "Puts the smartphone down and shifts attention back to the laptop browser."
+    ],
+    [
+      "414-418",
+      "I view Google search results for the song 《如果的事》 on my laptop.",
+      "Navigates to the ChatGPT webpage to start a new query."
+    ],
+    [
+      "419-420",
+      "I begin typing a prompt query into ChatGPT on my laptop.",
+      "Briefly switches contexts to view a PDF document and a different article."
+    ],
+    [
+      "421-424,472-476",
+      "I browse a University X mathematics PDF document and a web article about eukaryotic cells.",
+      "Returns to the ChatGPT tab to finish typing the query."
+    ],
+    [
+      "425-435",
+      "I use ChatGPT to search for drama soundtracks related to Greg Hsu and the drama 《想见你》.",
+      "Switches to Bilibili to search for the specific song mentioned by ChatGPT."
+    ],
+    [
+      "436-443",
+      "I cross-reference the ChatGPT response to watch a Bilibili video of the song 'Last Dance'.",
+      "Initiates a new search for a different song."
+    ],
+    [
+      "444-447",
+      "I watch an alternate music video on Bilibili out of frustration with the search results for '别再想见我'.",
+      "Picks up the smartphone to ask a question on WeChat."
+    ],
+    [
+      "448-450",
+      "I ask for the name of a song by Greg Hsu in a WeChat conversation on my smartphone.",
+      "Lowers the phone and resumes watching the laptop screen."
+    ],
+    [
+      "451-455",
+      "I watch a music performance video on Bilibili alongside a file selection window on my laptop screen.",
+      "Picks up the smartphone again to continue the WeChat conversation."
+    ],
+    [
+      "456-457",
+      "I reply to 'babe' in our WeChat conversation on my smartphone.",
+      "End of the provided video events."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

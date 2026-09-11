@@ -1,0 +1,18 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible pairs for exact task continuation rather than just topical similarity. Pair [100, 101] represents a continuous task of reviewing ChatGPT prompt instructions for data processing. Pairs [16, 17], [38, 39], and [71, 72] feature shifts in the immediate action (e.g., from preparing food to discussing it, or from discussing a contact to sending messages) and are not merged.",
+  "merges": [
+    [
+      100,
+      101,
+      "I review ChatGPT prompt instructions and templates for processing behavioral data.",
+      "Same task of reviewing prompt guidelines continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

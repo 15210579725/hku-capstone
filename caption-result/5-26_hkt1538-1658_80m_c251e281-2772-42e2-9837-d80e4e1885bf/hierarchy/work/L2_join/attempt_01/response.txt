@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible pairs to determine if the same immediate task continues across batch boundaries. Pair [6, 7] continues reading the CS 285 final project documents. Pair [23, 24] represents a task switch from reading lecture slides to prompting Claude, so it is not merged. Pair [42, 43] continues studying presentation slides on offline reinforcement learning.",
+  "merges": [
+    [
+      6,
+      7,
+      "I read the CS 285 final project documents.",
+      "Reading course project documents continues across batch edge"
+    ],
+    [
+      42,
+      43,
+      "I study presentation slides on offline reinforcement learning.",
+      "Studying offline reinforcement learning slides continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

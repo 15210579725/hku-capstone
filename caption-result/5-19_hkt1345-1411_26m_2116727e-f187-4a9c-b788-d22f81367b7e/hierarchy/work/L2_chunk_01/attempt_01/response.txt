@@ -1,0 +1,144 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks such as navigating the campus, ordering food, eating the meal, and reviewing smartphone apps. Distinct phases of eating solid food and drinking soup are separated to maintain immediate task granularity.",
+  "events": [
+    [
+      "0-21",
+      "I navigate the campus walkways toward the outdoor staircase.",
+      "Transitions from walkways to the outdoor staircase."
+    ],
+    [
+      "22-29",
+      "I walk down the outdoor staircase to the lower level.",
+      "Reaches the dining patio."
+    ],
+    [
+      "30-40",
+      "I walk across the dining patio to the canteen ordering kiosk.",
+      "Arrives at the kiosk to begin ordering."
+    ],
+    [
+      "41-67",
+      "I purchase a vegetarian meal using the canteen mobile ordering kiosk.",
+      "Completes the meal payment."
+    ],
+    [
+      "68-77",
+      "I collect my noodle bowl and soup at counter C.",
+      "Collects the prepared food."
+    ],
+    [
+      "78-81",
+      "I prepare my meal with sauces and a fork at the condiment table.",
+      "Finishes preparing the meal with condiments."
+    ],
+    [
+      "82-86",
+      "I carry my meal tray to an empty table on the outdoor patio.",
+      "Finds a seat and prepares to eat."
+    ],
+    [
+      "87-124",
+      "I eat my bowl of rice, bean sprouts, and braised meat.",
+      "Switches from solid food to soup."
+    ],
+    [
+      "125-127",
+      "I drink from my cup of soup.",
+      "Resumes eating the solid food."
+    ],
+    [
+      "128-152",
+      "I continue eating my rice and meat dish.",
+      "Pauses eating to look around."
+    ],
+    [
+      "153-155",
+      "I look around the outdoor terrace.",
+      "Picks up the soup cup."
+    ],
+    [
+      "156-158",
+      "I take a drink from my soup cup.",
+      "Resumes eating the solid food."
+    ],
+    [
+      "159-168",
+      "I eat more rice and meat from my bowl.",
+      "Pauses eating to drink soup."
+    ],
+    [
+      "169-172",
+      "I take another drink of my soup.",
+      "Takes a few more bites of solid food."
+    ],
+    [
+      "173-176",
+      "I eat a few more bites of rice and meat.",
+      "Takes a rest break from eating."
+    ],
+    [
+      "177-187",
+      "I observe the patio surroundings.",
+      "Takes a drink of soup."
+    ],
+    [
+      "188-190",
+      "I drink from my cup of soup.",
+      "Resumes eating to finish the food."
+    ],
+    [
+      "191-197",
+      "I eat the remaining rice in my bowl.",
+      "Finishes the solid food."
+    ],
+    [
+      "198-201",
+      "I finish drinking my soup.",
+      "Finishes the soup and completes the meal."
+    ],
+    [
+      "202-205",
+      "I watch passersby from the outdoor dining table.",
+      "Starts using the smartphone."
+    ],
+    [
+      "206-213",
+      "I review my recent payment transactions in Alipay.",
+      "Pauses phone use to drink soup."
+    ],
+    [
+      "214-216",
+      "I take a drink of my soup.",
+      "Resumes phone use."
+    ],
+    [
+      "217-232",
+      "I review my Alipay and WeChat Pay transaction histories.",
+      "Lowers the phone to look around."
+    ],
+    [
+      "233",
+      "I observe the outdoor patio terrace.",
+      "Resumes phone use for Alipay features."
+    ],
+    [
+      "234-239",
+      "I browse service notifications and merchant discounts in Alipay.",
+      "Opens the bus ticket mini-program."
+    ],
+    [
+      "240-249",
+      "I review cross-border bus ticket options in an Alipay mini-program.",
+      "End of input sequence."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

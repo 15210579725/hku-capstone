@@ -1,0 +1,94 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group immediate tasks (L2) into coherent episodes based on shared overarching goals, such as preparing in the hotel room, watching videos, applying makeup, eating a meal, working on a laptop, and traveling to a destination.",
+  "events": [
+    [
+      "0-5",
+      "I prepare my devices and pack my belongings in the hotel room.",
+      "Setup activities complete, transitions to watching videos on laptop."
+    ],
+    [
+      "6-21",
+      "I watch Bilibili videos and a drama on my laptop and review my development logs.",
+      "Video watching and dev log review complete, transitions to makeup preparation."
+    ],
+    [
+      "22-30",
+      "I prepare my makeup and discuss a drama with my companion.",
+      "Makeup preparation complete, transitions to ordering food."
+    ],
+    [
+      "31-39",
+      "I watch a drama on my laptop and browse food delivery and spa options on my smartphone.",
+      "Food ordering complete, transitions to tidying up and helping companion."
+    ],
+    [
+      "40-45",
+      "I tidy my belongings, check my food delivery, and help my companion prepare to leave.",
+      "Tidying complete, transitions to leaving the room to collect takeout."
+    ],
+    [
+      "46-48",
+      "I take the elevator to the lobby to collect my takeout order and return to my room.",
+      "Takeout collection complete, returns to room."
+    ],
+    [
+      "49-52",
+      "I adjust the room environment and discuss outfit choices with my companion.",
+      "Room adjustments complete, transitions to unpacking food."
+    ],
+    [
+      "53-72",
+      "I eat my takeout meal with my companion, discussing a missing item, and tidy the leftovers while watching a drama on my laptop.",
+      "Takeout meal complete and leftovers tidied, transitions to browsing smartphone."
+    ],
+    [
+      "73-82",
+      "I browse messages, emails, and articles on my smartphone.",
+      "Smartphone browsing complete, transitions to focused work on laptop."
+    ],
+    [
+      "83-96",
+      "I review my manuscript peer reviews and troubleshoot deleted caption data in VS Code on my laptop.",
+      "Laptop work and troubleshooting complete, transitions to preparing to leave."
+    ],
+    [
+      "97-100",
+      "I pack my belongings and prepare to leave the hotel room.",
+      "Preparation to leave complete, transitions to leaving the hotel."
+    ],
+    [
+      "101-107",
+      "I leave the hotel, interact with cafe animals, and board a booked ride to Changlong Ocean Kingdom.",
+      "Boarding complete, car ride begins."
+    ],
+    [
+      "108-136",
+      "I ride in a car to Changlong Ocean Kingdom, operating a DJI camera, conversing with my companions, and observing the passing scenery.",
+      "Car ride complete, arrives at destination drop-off."
+    ],
+    [
+      "137-141",
+      "I exit the car and walk across the plaza toward the park.",
+      "Walk to park ticket area complete, transitions to queuing for tickets."
+    ],
+    [
+      "142-144",
+      "I purchase an admission ticket for the park at the ticket counter.",
+      "Ticket purchase complete, transitions to entering park."
+    ],
+    [
+      "145-153",
+      "I pass through security and the admission turnstiles to enter the park.",
+      "Park entry and security checks complete."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

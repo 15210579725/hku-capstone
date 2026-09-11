@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Review eligible boundary pairs to determine if the exact same immediate task continues across the transport batch edge. Pairs with changing topics, tools, or physical actions will not be merged.",
+  "merges": [
+    [
+      46,
+      47,
+      "I use Claude Code to troubleshoot and test SSH access to the cluster nodes.",
+      "Same Claude Code SSH troubleshooting session continues across batch edge"
+    ],
+    [
+      132,
+      133,
+      "I review and prompt Claude Code execution plans on my laptop.",
+      "Same execution plan interaction continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

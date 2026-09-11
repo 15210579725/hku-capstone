@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L5",
+  "plan": "Merge the hot pot preparation, dining, and cleanup phases into a single overarching meal activity. Keep the subsequent unrelated conversation about the broken chair as a distinct major activity.",
+  "events": [
+    [
+      "0-2",
+      "I have a hot pot meal with my companions.",
+      "Meal and cleanup conclude, shifting to an unrelated conversation"
+    ],
+    [
+      "3",
+      "I discuss a broken chair with User X.",
+      "End of recording"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

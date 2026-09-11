@@ -1,0 +1,42 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible pairs to determine if they represent a continuation of the same immediate L2 task. Merges are applied only when the adjacent briefs share the exact same specific action and target, such as continuing to study the same document, watching the same presentation topic, messaging the same person, composing a single AI prompt, or inspecting the same object. Tasks that represent a clear shift in immediate action (e.g., configuring settings vs. watching, unpacking vs. grooming) are left unmerged.",
+  "merges": [
+    [
+      23,
+      24,
+      "I study the Implicit Q-Learning implementation, inverse temperature, and advantage-weighted regression explanations in the CS285 homework document.",
+      "Same studying task continues across batch edge"
+    ],
+    [
+      59,
+      60,
+      "I watch the presentation on the employer-employee payoff matrix and Social Chain of Thought.",
+      "Same presentation viewing continues across batch edge"
+    ],
+    [
+      125,
+      126,
+      "I exchange messages and view photos with babe ❤️ on WeChat.",
+      "Same messaging conversation continues across batch edge"
+    ],
+    [
+      168,
+      169,
+      "I copy text from a document and compose a Claude prompt about loss functions and evaluation standards.",
+      "Same prompt composition task continues across batch edge"
+    ],
+    [
+      194,
+      195,
+      "I pick up and inspect a plastic Apple EarPods case at my desk.",
+      "Same case inspection continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

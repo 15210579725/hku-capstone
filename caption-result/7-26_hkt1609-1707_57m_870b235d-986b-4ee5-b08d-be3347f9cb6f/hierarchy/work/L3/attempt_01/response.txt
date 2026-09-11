@@ -1,0 +1,97 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group immediate tasks into coherent activity episodes based on primary locations and distinct goals. Transit steps leading directly into a store visit are absorbed into the store's episode. Continuous journeys, such as the ride-hailing trip, unify all in-car discussions and incidental device usage.",
+  "events": [
+    [
+      "0-1",
+      "I investigate gas water heater options in the store and through the Taobao app.",
+      "Groups physical evaluation and online research for the same product category."
+    ],
+    [
+      "2-4",
+      "I explore the mall atrium with my companion.",
+      "Groups general mall observation and conversation."
+    ],
+    [
+      "5-7",
+      "I rent a shared power bank from a charging station.",
+      "Groups the complete process of acquiring and managing a rented power bank."
+    ],
+    [
+      "8-15",
+      "I explore smartphones and AITO vehicle interiors at the Huawei showroom.",
+      "Groups transit to and exploration within the Huawei store."
+    ],
+    [
+      "16-18",
+      "I search for a pet store using the Amap indoor navigation application.",
+      "Groups walking and navigating the indoor map for a specific target."
+    ],
+    [
+      "19-20",
+      "I evaluate jewelry displays and daily gold retail prices at Chow Tai Fook.",
+      "Groups browsing and conversing about items at Chow Tai Fook."
+    ],
+    [
+      "21",
+      "I browse toy figurines and plush displays inside the POP MART store.",
+      "Standalone episode for a distinct store visit."
+    ],
+    [
+      "22-24",
+      "I consult the Amap indoor navigation application to pinpoint a pet store's location.",
+      "Groups resumed mall navigation and map consultation for the pet store."
+    ],
+    [
+      "25-29",
+      "I purchase a beverage from The Green Party store.",
+      "Groups selecting, purchasing, and incidental phone use inside The Green Party store."
+    ],
+    [
+      "30-31",
+      "I inspect the interior features of an IM Motors display car.",
+      "Groups all interactions with the IM Motors vehicle."
+    ],
+    [
+      "32-33",
+      "I examine Osmo cameras at the DJI counter.",
+      "Groups walking to and browsing at the DJI counter."
+    ],
+    [
+      "34-35",
+      "I browse pet food and leashes at the 宠物部落 store.",
+      "Groups walking to and exploring a specific pet store inside the mall."
+    ],
+    [
+      "36-37",
+      "I return my rented power bank to a Meituan charging cabinet.",
+      "Groups the decision and action of returning the power bank."
+    ],
+    [
+      "38-41",
+      "I coordinate with my driver to locate my ride-hailing car outside Wanda Plaza.",
+      "Groups exiting the mall and locating the designated vehicle."
+    ],
+    [
+      "42-61",
+      "I travel in a ride-hailing car to a pet shop.",
+      "Groups the entire car journey, encompassing conversations and incidental phone usage."
+    ],
+    [
+      "62-66",
+      "I investigate puppies and specific dog breeds at a pet shop.",
+      "Groups walking to the destination and interacting with animals and staff."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": [
+      "Separated the pet store navigation (16-18 and 22-24) into two episodes because it is interrupted by distinct visits to Chow Tai Fook and POP MART.",
+      "Absorbed the incidental GaoDe Maps search (28) into The Green Party purchase episode (25-29) as it occurred inside the store between purchase and exit."
+    ]
+  }
+}
+```

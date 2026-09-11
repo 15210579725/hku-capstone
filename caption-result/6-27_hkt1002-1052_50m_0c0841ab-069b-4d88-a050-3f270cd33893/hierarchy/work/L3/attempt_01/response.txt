@@ -1,0 +1,59 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group immediate L2 tasks into coherent L3 episodes based on distinct commute phases: apartment departure preparations, building exit, outdoor pedestrian transit, station entry, the initial train ride, a concourse transfer, the connecting train ride, station exit, and arrival at the viewing destination.",
+  "events": [
+    [
+      "0-8",
+      "I prepare my backpack, clothing, and personal items for my departure from the apartment.",
+      "Leaves the apartment."
+    ],
+    [
+      "9-11",
+      "I descend in the building elevator to exit into the outdoor courtyard.",
+      "Exits the residential building."
+    ],
+    [
+      "12-15",
+      "I walk through the outdoor pedestrian areas toward the transit station.",
+      "Enters the transit station."
+    ],
+    [
+      "16-18",
+      "I access the station platform to board my train.",
+      "Boards the train."
+    ],
+    [
+      "19-41",
+      "I use my smartphone for entertainment and navigation during my train journey.",
+      "Exits the train for a transfer."
+    ],
+    [
+      "42-47",
+      "I follow my smartphone navigation route to '高雅大厦' through the station concourse to board my connecting MTR train.",
+      "Boards the connecting train."
+    ],
+    [
+      "48-55",
+      "I use my smartphone to browse social media and news content aboard the MTR train.",
+      "Exits the train at the destination station."
+    ],
+    [
+      "56-60",
+      "I traverse the station escalators and concourse to reach Exit B.",
+      "Arrives at the destination building."
+    ],
+    [
+      "61",
+      "I arrive at the Goa Building stairwell foyer for an apartment viewing.",
+      "End of recorded events."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

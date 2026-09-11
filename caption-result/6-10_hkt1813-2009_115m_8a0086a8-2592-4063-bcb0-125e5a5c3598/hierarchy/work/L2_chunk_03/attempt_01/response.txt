@@ -1,0 +1,141 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group dataset evaluation steps by document subject and task, separate the decision to leave as a standalone trigger, group packing actions by object handled, group walking segments by distinct locations and transit methods, and group the buffet dining process into entering, observing, selecting food, and paying.",
+  "events": [
+    [
+      "500-515",
+      "I evaluate candidate predictions for cases L2-1 through L2-4 in VS Code.",
+      "Groups consecutive evaluation of specific cases."
+    ],
+    [
+      "516-534",
+      "I evaluate dense caption and action candidates in VS Code.",
+      "Groups dense caption evaluation task."
+    ],
+    [
+      "535-555",
+      "I evaluate candidate options for cases L3-3 and L3-4.",
+      "Groups evaluation for L3 cases."
+    ],
+    [
+      "556-568",
+      "I evaluate transcript scoring criteria and comparison entries.",
+      "Groups transcript evaluation task."
+    ],
+    [
+      "569-580",
+      "I review the dataset expansion note and evaluation scores.",
+      "Groups note review and score checking."
+    ],
+    [
+      "581-603",
+      "I evaluate candidate options for party planning and dinner preparation.",
+      "Groups evaluation of party and dinner tasks."
+    ],
+    [
+      "604-629",
+      "I evaluate puzzle activity and task prediction candidates.",
+      "Groups remaining evaluation tasks before concluding."
+    ],
+    [
+      "630",
+      "I announce my readiness to leave.",
+      "Standalone behavior-changing trigger to stop working and leave."
+    ],
+    [
+      "631-634",
+      "I return the power adapter and charging cable to my companion.",
+      "Groups returning items to a companion."
+    ],
+    [
+      "635-640",
+      "I pack my water bottle into my backpack after taking a drink.",
+      "Groups packing the water bottle."
+    ],
+    [
+      "641-647",
+      "I pack my MacBook into my backpack.",
+      "Groups packing the laptop."
+    ],
+    [
+      "648-650",
+      "I pick up my smartphone and yellow foam earplugs.",
+      "Groups picking up remaining small items."
+    ],
+    [
+      "651-655",
+      "I restore the wheelchair-accessible table to its original position at the podium.",
+      "Groups resetting the table position."
+    ],
+    [
+      "656-661",
+      "I walk to the mezzanine corridor.",
+      "Groups walking to the mezzanine corridor."
+    ],
+    [
+      "662-667",
+      "I walk across the food court and dining hall.",
+      "Groups walking across the cafeteria."
+    ],
+    [
+      "668-674",
+      "I wait at the beverage station for my companion to fill a water bottle.",
+      "Groups waiting at the beverage station."
+    ],
+    [
+      "675-684",
+      "I walk out to the campus plaza concourse.",
+      "Groups walking out to the campus plaza concourse."
+    ],
+    [
+      "685-691",
+      "I walk up the outdoor stairs.",
+      "Groups walking up the outdoor stairs."
+    ],
+    [
+      "692-696",
+      "I ride the escalator up past a cafe.",
+      "Groups riding the escalator."
+    ],
+    [
+      "697-704",
+      "I wait for the elevator in the lobby.",
+      "Groups waiting for the elevator."
+    ],
+    [
+      "705-712",
+      "I ride the elevator up to floor 7.",
+      "Groups riding the elevator."
+    ],
+    [
+      "713-718",
+      "I approach the buffet island inside AC3 Bistro.",
+      "Groups entering the bistro."
+    ],
+    [
+      "719-731",
+      "I observe my companion and a diner selecting food at the buffet counter.",
+      "Groups observing food selection."
+    ],
+    [
+      "732-743",
+      "I select food into my bowl at the buffet counter.",
+      "Groups selecting food."
+    ],
+    [
+      "744-749",
+      "I pay for my food with Alipay at the checkout counter.",
+      "Groups paying at the checkout counter."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      630
+    ],
+    "boundary_cautions": []
+  }
+}
+```

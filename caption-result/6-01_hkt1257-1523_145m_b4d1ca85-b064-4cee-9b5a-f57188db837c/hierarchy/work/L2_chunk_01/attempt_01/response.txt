@@ -1,0 +1,154 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group consecutive actions into immediate tasks by identifying unifying objectives such as eating a specific dish, discussing a distinct topic, or focusing on a single object or activity. Overlapping out-of-order IDs are integrated logically based on concurrent timestamps.",
+  "events": [
+    [
+      "0-6",
+      "I eat the tomato scrambled eggs with rice and discuss the flavor.",
+      "Task switches to handling an earplug."
+    ],
+    [
+      "7",
+      "I place a yellow earplug beside the laptop.",
+      "Task switches to seasoning food."
+    ],
+    [
+      "8-26,49",
+      "I prepare my portion of tomato scrambled eggs by adding sugar and serving them onto my rice.",
+      "Preparation concludes as I begin eating."
+    ],
+    [
+      "27-32,50-53",
+      "I prepare to eat the tomato scrambled eggs with rice and praise the taste.",
+      "Task switches to eating stir-fried pork."
+    ],
+    [
+      "33-48",
+      "I eat stir-fried pork and discuss the meat preparation with my companion.",
+      "Conversation about meat preparation concludes."
+    ],
+    [
+      "54-61",
+      "I eat stir-fried meat and vegetables.",
+      "Conversation shifts to rice hardness preferences."
+    ],
+    [
+      "62-74",
+      "I discuss rice hardness preferences with my companion during the meal.",
+      "Conversation ends when companion states she is full."
+    ],
+    [
+      "75-85",
+      "I observe the food on the table and my companion.",
+      "Task switches to handling a phone."
+    ],
+    [
+      "86",
+      "I pick up my phone.",
+      "Task switches to inspecting an object."
+    ],
+    [
+      "87-91",
+      "I inspect a tub of Vaseline.",
+      "Inspection concludes as I resume observing my companion."
+    ],
+    [
+      "92-110",
+      "I watch my companion serve and eat food.",
+      "Topic shifts to a gym acquaintance and job opportunities."
+    ],
+    [
+      "111-132",
+      "I converse with my companion about a gym acquaintance and job opportunities.",
+      "Job discussion concludes."
+    ],
+    [
+      "133-144",
+      "I observe the food dishes and mention my long-term plans in Hong Kong to my companion.",
+      "Observation ends as I reach for remaining food."
+    ],
+    [
+      "145-161",
+      "I pick out the remaining pieces of stir-fried meat from the plate.",
+      "Task switches to finishing the rice and scrambled eggs."
+    ],
+    [
+      "162-175",
+      "I eat the remaining white rice and scraped scrambled eggs.",
+      "Eating concludes and conversation shifts to dresses."
+    ],
+    [
+      "176",
+      "I remark about white dresses to my companion.",
+      "Topic shifts to meal portion sizes."
+    ],
+    [
+      "177-187",
+      "I debate the meal portion size with my companion.",
+      "Meal discussion concludes as I look at my smartphone."
+    ],
+    [
+      "188-195",
+      "I review hotel listings on my smartphone and discuss prices with my companion.",
+      "Hotel review concludes as I focus on clearing dishes."
+    ],
+    [
+      "196-201",
+      "I watch my companion clear dishes and observe a woman eating.",
+      "Task switches to interacting with the door."
+    ],
+    [
+      "202-206",
+      "I interact with the door and briefly converse.",
+      "Task switches to observing my roommate again."
+    ],
+    [
+      "207-218",
+      "I observe my roommate clear the dishes and carry them away.",
+      "Roommate leaves with dishes."
+    ],
+    [
+      "219",
+      "I push the door open.",
+      "Task switches to observing the room."
+    ],
+    [
+      "220",
+      "I observe my study desk.",
+      "Task switches to examining a lip balm."
+    ],
+    [
+      "221-239",
+      "I unbox and inspect a MUJI lip balm.",
+      "Lip balm inspection concludes."
+    ],
+    [
+      "240",
+      "I say 'oh'.",
+      "Brief vocalization before interacting with a switch."
+    ],
+    [
+      "241",
+      "I flip a wall switch.",
+      "Task switches to looking at the bookshelf."
+    ],
+    [
+      "242",
+      "I look at the bookshelf.",
+      "Task switches to cleaning tables."
+    ],
+    [
+      "243-249",
+      "I wipe the tables clean with a tissue.",
+      "Cleaning task complete."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,99 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks focused on a single product evaluation, purchase step, or app activity. Abstract incidental navigation and separate distinct phases like browsing versus checking out.",
+  "events": [
+    [
+      "1000-1008",
+      "I browse the product details and reviews for the EBO Max pet robot on Taobao.",
+      "Shifts from the EBO Max to comparing other brands."
+    ],
+    [
+      "1009-1027",
+      "I compare alternative smart pet companion robots on Taobao by checking their specifications and buyer reviews.",
+      "Shifts from general pet cameras to specifically examining the Ezviz TAMO."
+    ],
+    [
+      "1028-1042",
+      "I examine the features and product details of the Ezviz TAMO mobile pet camera on Taobao.",
+      "Initiates the checkout and order placement process."
+    ],
+    [
+      "1043-1050",
+      "I navigate the checkout process to create an unpaid ¥664 order for the Ezviz TAMO camera.",
+      "Leaves the unpaid order page to browse other product descriptions."
+    ],
+    [
+      "1051-1090",
+      "I review alternative smart pet monitoring cameras on Taobao to evaluate their features and compare SKU configurations.",
+      "Returns to viewing listings for the Ezviz TAMO camera."
+    ],
+    [
+      "1091-1100",
+      "I revisit the Ezviz TAMO product page to check its discounted SKU pricing.",
+      "Navigates to the camera ranking leaderboard."
+    ],
+    [
+      "1101-1113",
+      "I generate a second unpaid order for the ¥689 EZVIZ TAMO via the camera ranking leaderboard.",
+      "Transitions from generating a new order to comparing existing orders."
+    ],
+    [
+      "1114-1119",
+      "I complete the Alipay payment for the discounted ¥664 EZVIZ TAMO pending order.",
+      "Shifts from completing the purchase to canceling a duplicate order."
+    ],
+    [
+      "1120-1122",
+      "I cancel my duplicate order through the Taobao account dashboard.",
+      "Moves from order management to browsing new product listings."
+    ],
+    [
+      "1123-1136",
+      "I browse additional mobile pet monitor listings including the WYNDME companion robot.",
+      "Shifts from pet cameras to browsing AR glasses and other tech gadgets."
+    ],
+    [
+      "1137-1143",
+      "I browse AR glasses and other tech gadgets on the shopping app feed.",
+      "Returns to the account dashboard to check order status."
+    ],
+    [
+      "1144-1150",
+      "I watch the product demonstration video for the EZVIZ TAMO camera from my pending order dashboard.",
+      "Leaves Taobao and opens Xiaohongshu to search for reviews."
+    ],
+    [
+      "1151-1182",
+      "I search Xiaohongshu for the TAMO pet camera to watch multiple user review videos.",
+      "Switches back to Taobao to inspect coupons and watch official product videos."
+    ],
+    [
+      "1183-1191",
+      "I review the official product demonstration video and Q&A for the TAMO camera on Taobao.",
+      "Shifts to browsing a different product, the Looki L1 camera."
+    ],
+    [
+      "1192-1199",
+      "I browse the Looki L1 wearable camera and smart pet monitoring robots on Taobao.",
+      "Leaves the shopping app and opens Xiaohongshu."
+    ],
+    [
+      "1200-1238",
+      "I search Xiaohongshu for smart pet cameras to watch multiple video reviews of the EZVIZ TAMO and other models.",
+      "Switches to WeChat to send a message."
+    ],
+    [
+      "1239-1249",
+      "I send a birthday message on WeChat mentioning my purchase of a mobile robot for Wangcai.",
+      "End of recording."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

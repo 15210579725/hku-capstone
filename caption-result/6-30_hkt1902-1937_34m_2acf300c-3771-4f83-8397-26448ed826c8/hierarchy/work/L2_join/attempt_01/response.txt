@@ -1,0 +1,18 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible pair [19, 20] to determine if they continue the same immediate task. Both events describe continuous riding of the electric scooter along an unpaved/dirt path, constituting the same immediate task split by a batch edge.",
+  "merges": [
+    [
+      19,
+      20,
+      "I ride the electric scooter along a dirt track.",
+      "Continuous riding on an unpaved path across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

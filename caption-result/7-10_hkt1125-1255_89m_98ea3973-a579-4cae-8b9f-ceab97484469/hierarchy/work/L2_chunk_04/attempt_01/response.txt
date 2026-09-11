@@ -1,0 +1,114 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous sequences of primitive actions into distinct immediate tasks, segmenting by clear changes in primary activity, location, conversation topic, or interaction target.",
+  "events": [
+    [
+      "750-756",
+      "I read an APPSO article about AI security and GPT-5.6.",
+      "Exits article to WeChat"
+    ],
+    [
+      "757-766",
+      "I reply to a WeChat message from babe.",
+      "Locks phone and views outdoor scenery"
+    ],
+    [
+      "767-784",
+      "I converse with my companion about the sunny weather and a video.",
+      "Shifts attention to inspecting nearby vehicles"
+    ],
+    [
+      "785-789",
+      "I inspect the nearby bicycle and scooter.",
+      "Shifts to relaxing and gazing around"
+    ],
+    [
+      "790-801",
+      "I relax in the sun holding my smartphone.",
+      "Initiates conversation about tanning"
+    ],
+    [
+      "802-811",
+      "I converse with my companion about tanning in flip-flops and food preferences.",
+      "Dismounts scooter to handle charging cable"
+    ],
+    [
+      "812-820",
+      "I stow the electric scooter charging cable.",
+      "Stands up to walk away"
+    ],
+    [
+      "821-837",
+      "I reminisce about past trips to Xigao Mountain and Shenzhen on a phone call.",
+      "Sits down on a stone bollard"
+    ],
+    [
+      "838-843",
+      "I rest on a stone bollard.",
+      "Resumes active conversation on the phone call"
+    ],
+    [
+      "844-869",
+      "I converse about mutual friends and past trips on a phone call.",
+      "Changes conversation topic to a photo"
+    ],
+    [
+      "870-882",
+      "I decline to view a photo on my smartphone due to the bright outdoor glare.",
+      "Changes conversation topic to laundry"
+    ],
+    [
+      "883-899",
+      "I discuss laundry equipment and underwear preferences on the phone call.",
+      "Distracted by an airplane contrail"
+    ],
+    [
+      "900-919",
+      "I observe an airplane contrail in the sky during the phone call.",
+      "Pauses conversation to stretch and inspect the ground"
+    ],
+    [
+      "920-927",
+      "I inspect the road seam from my seated position.",
+      "Begins hand shadows and scheduling"
+    ],
+    [
+      "928-941",
+      "I schedule a weekend visit on the phone during a hand shadow game with my companion.",
+      "Shifts conversation to flight costs"
+    ],
+    [
+      "942-953",
+      "I estimate flight costs from Shenzhen to Beijing on the phone.",
+      "Shifts to finalizing plans"
+    ],
+    [
+      "954-967",
+      "I conclude the phone call after finalizing the weekend visit plans.",
+      "Ends call and walks towards the office"
+    ],
+    [
+      "968-981",
+      "I walk through the campus to enter the office building lobby.",
+      "Enters elevator corridor"
+    ],
+    [
+      "982-995",
+      "I ride the elevator to the seventh floor.",
+      "Exits elevator and walks down hallway"
+    ],
+    [
+      "996-999",
+      "I return to my office desk to read the Codex migration guide.",
+      "End of input sequence"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,30 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Merge eligible pairs that represent the exact same continuous task across a batch edge, such as querying and reading an AI response, ongoing document editing, or completing a single purchase. Leave pairs unmerged if they represent shifts in focus or distinct sequential actions.",
+  "merges": [
+    [
+      19,
+      20,
+      "I consult ChatGPT and read model deployment logs regarding Qwen3.5 deployment in VS Code.",
+      "Task of consulting ChatGPT and reviewing its advice continues across batch edge"
+    ],
+    [
+      42,
+      43,
+      "I draft and review notes in the Feishu document on AI emotion modeling.",
+      "Document editing task continues across batch edge"
+    ],
+    [
+      114,
+      115,
+      "I order and pay for my meal at the cafeteria counter.",
+      "Single purchase activity continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

@@ -1,0 +1,43 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group continuous work sessions by their primary workspace location (bed desk vs. study desk), isolate the major trigger that redirects the broader evening plan, and abstract incidental domestic tasks and transitions.",
+  "events": [
+    [
+      "0-1",
+      "I conduct evaluations of AI models and video benchmark architectures.",
+      "Unified evaluation focus prior to the stroll agreement"
+    ],
+    [
+      "2",
+      "I agree with User Y to take a stroll after starting my runs.",
+      "Major trigger establishing the plan to leave the apartment"
+    ],
+    [
+      "3-6",
+      "I manage action prediction evaluations and administrative tasks from the bed desk.",
+      "Unified work phase at the bed desk incorporating incidental breaks"
+    ],
+    [
+      "7-9",
+      "I manage technical evaluations and real estate communications from the study desk.",
+      "Workspace shift to the study desk for continued tasks"
+    ],
+    [
+      "10",
+      "I depart the apartment.",
+      "Fulfillment of the earlier stroll agreement"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "2"
+    ],
+    "boundary_cautions": [
+      "Input 2 is preserved as a standalone major trigger because it establishes the future plan that culminates in the departure at input 10."
+    ]
+  }
+}
+```

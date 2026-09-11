@@ -1,0 +1,99 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group consecutive action_briefs into immediate tasks based on shared short-term goals and locations. Boundaries are set when the user transitions between discrete activities, such as finishing desk work, walking to the elevator, waiting and messaging, taking the elevator, walking to the car, preparing to drive, exiting the lot, setting up navigation, picking up a passenger, discussing route updates, instructing the passenger to send notifications, arriving at the gas station, fueling up, and walking to pay. Actions are abstracted into unified single objectives without using prohibited conjunctions to list consecutive steps.",
+  "events": [
+    [
+      "0-14",
+      "I review my Claude Code fine-tuning execution on my laptop.",
+      "Desk work finishes as the user stands up to leave."
+    ],
+    [
+      "15-20",
+      "I walk from my office desk to the L9 elevator lobby.",
+      "Walking task ends as the user arrives at the lobby to wait."
+    ],
+    [
+      "21-27",
+      "I message babe on WeChat regarding the sudden arrival at the elevator lobby.",
+      "Messaging task completes before entering the elevator."
+    ],
+    [
+      "28-40",
+      "I organize my University X ID badge during the elevator ride to the ground floor.",
+      "Elevator ride concludes upon arriving at the ground floor lobby."
+    ],
+    [
+      "41-44",
+      "I walk through the lobby to a blue Mercedes-Benz parked in the plaza.",
+      "Walking outdoors ends upon reaching the vehicle."
+    ],
+    [
+      "45-51",
+      "I prepare the blue Mercedes-Benz for driving.",
+      "Vehicle preparation completes as the user begins to drive."
+    ],
+    [
+      "52-64",
+      "I exit the plaza parking lot to merge onto the public road.",
+      "Parking lot exit completes upon merging onto the public road."
+    ],
+    [
+      "65-81",
+      "I drive along the road following traffic.",
+      "Normal driving is interrupted to configure navigation."
+    ],
+    [
+      "82-96",
+      "I configure an Amap navigation route to a Sinopec gas station on my mounted smartphone.",
+      "Navigation setup concludes when driving resumes."
+    ],
+    [
+      "97-146",
+      "I drive along Huaxia East Road following the navigation route.",
+      "Continuous driving is interrupted to unmount the phone and send a message."
+    ],
+    [
+      "147-151",
+      "I unmount my smartphone to message babe on WeChat regarding my arrival.",
+      "Arrival messaging completes as the passenger boards and conversation begins."
+    ],
+    [
+      "152-164",
+      "I discuss an automated hotel toilet with my passenger during the drive.",
+      "Casual conversation shifts to discussing delays and updating the route."
+    ],
+    [
+      "165-184",
+      "I instruct my passenger to add a gas station waypoint to the navigation during a discussion about my delay.",
+      "Route update instructions complete as the focus shifts to notifying a contact."
+    ],
+    [
+      "185-194",
+      "I instruct my passenger to notify our contact about our fifteen-minute delay.",
+      "Delay notification instructions conclude as the user focuses on navigating to the station."
+    ],
+    [
+      "195-211",
+      "I follow the navigation route into the gas station to queue behind another vehicle at the fuel pumps.",
+      "Gas station arrival completes upon pulling up to a fuel pump."
+    ],
+    [
+      "212-238",
+      "I supervise the gas station attendant filling up my rental car with 95-octane gas.",
+      "Fueling task concludes when the user leaves the vehicle to pay."
+    ],
+    [
+      "239-249",
+      "I walk into the convenience store with my Alipay QR code to pay for the gas.",
+      "End of provided events."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

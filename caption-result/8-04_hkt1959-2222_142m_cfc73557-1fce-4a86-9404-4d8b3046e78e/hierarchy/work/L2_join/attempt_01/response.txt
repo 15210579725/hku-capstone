@@ -1,0 +1,36 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible pairs to determine if they represent a single uninterrupted immediate task crossing a transport batch boundary. Merge interactions with the same tool on the same exact topic, but leave distinct physical actions or subject shifts unmerged.",
+  "merges": [
+    [
+      20,
+      21,
+      "I interact with ChatGPT regarding Qwen3-ASR model parameters.",
+      "The query and subsequent review of the response regarding Qwen3-ASR parameters represent one continuous interaction task."
+    ],
+    [
+      93,
+      94,
+      "I review dataset images, candidate data, and evaluation logs in VS Code.",
+      "The task of reviewing candidate data and images in VS Code continues across the batch edge."
+    ],
+    [
+      105,
+      106,
+      "I read Claude's explanations regarding V-JEPA philosophy and architecture.",
+      "Reading continuous explanations about V-JEPA concepts on Claude spans the batch edge."
+    ],
+    [
+      129,
+      130,
+      "I interact with ChatGPT and the Terminal to configure and troubleshoot MCP worker queues.",
+      "The troubleshooting interaction regarding MCP configurations and timeouts continues across the batch edge."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

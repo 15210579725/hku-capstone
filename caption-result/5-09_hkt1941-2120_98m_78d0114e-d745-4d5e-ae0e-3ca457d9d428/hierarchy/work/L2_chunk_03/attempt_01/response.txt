@@ -1,0 +1,169 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group consecutive actions into immediate tasks based on shared objectives, distinct conversational topics, and primary locations.",
+  "events": [
+    [
+      "0-2",
+      "I inspect directories and lightboxes at the mall entrance.",
+      "Task concludes as I start a conversation"
+    ],
+    [
+      "3-11",
+      "I converse with my companion about playing tennis.",
+      "Conversation concludes as we begin walking"
+    ],
+    [
+      "12-21",
+      "I walk past various shops and bakeries in the mall atrium.",
+      "Walking phase shifts into a conversation about food"
+    ],
+    [
+      "22-25",
+      "I discuss my craving for fresh egg tarts with my companion.",
+      "Conversation concludes as I approach the escalator"
+    ],
+    [
+      "26-28",
+      "I ride the escalator upward.",
+      "Escalator ride ends"
+    ],
+    [
+      "29-32",
+      "I comment on the lack of people in the mall.",
+      "Conversation concludes as I reach the climbing wall"
+    ],
+    [
+      "33-45",
+      "I inspect a climbing wall and gym facilities.",
+      "Inspection concludes as I head down the concourse"
+    ],
+    [
+      "46-51",
+      "I follow my companion and ride the escalator to level 3.",
+      "Escalator ride ends"
+    ],
+    [
+      "52-67",
+      "I walk along the concourse and discuss the boardwalk with my companion.",
+      "Topic shifts as I head toward the outdoor plaza"
+    ],
+    [
+      "68-83",
+      "I discuss vibrant pants while walking through the mall corridors.",
+      "Conversation concludes as I begin examining restaurants"
+    ],
+    [
+      "84-93",
+      "I walk along the mall corridor and examine restaurant menus and storefronts.",
+      "Examination shifts as I pass a photo booth"
+    ],
+    [
+      "94-100",
+      "I pass a photo booth and hoarding wall while my companion refuses to take photos.",
+      "Task concludes as conversation shifts to a specific hotpot restaurant"
+    ],
+    [
+      "101-104",
+      "I walk along the corridor and comment on the Nan Hotpot restaurant.",
+      "Conversation concludes as I decide to purchase a yogurt drink"
+    ],
+    [
+      "105-112",
+      "I order an avocado yogurt drink at the MoreYogurt counter.",
+      "Ordering concludes as I initiate payment"
+    ],
+    [
+      "113-118",
+      "I pay for my order using Alipay.",
+      "Payment concludes as conversation starts"
+    ],
+    [
+      "119-124",
+      "I converse about avocados and salami at home.",
+      "Conversation topic shifts"
+    ],
+    [
+      "125-129",
+      "I examine the ordering screen while my friend talks about Miss Sue.",
+      "Topic shifts to recorded movies"
+    ],
+    [
+      "130-139",
+      "I converse with my companion about cam-recorded movies.",
+      "Topic shifts to WeChat messages"
+    ],
+    [
+      "140-147",
+      "I check WeChat and discuss work meetings.",
+      "Topic shifts to a TV show"
+    ],
+    [
+      "148-151",
+      "I discuss watching the Kashgar love song show.",
+      "Topic shifts to the payment discount"
+    ],
+    [
+      "152-163",
+      "I discuss the highly discounted payment amount for the yogurt drink.",
+      "Conversation concludes as the drink order is called"
+    ],
+    [
+      "164-170",
+      "I watch my companion collect her yogurt drink from the counter.",
+      "Collection completes"
+    ],
+    [
+      "171-178",
+      "I follow my companion and ride the escalator down.",
+      "Escalator ride ends"
+    ],
+    [
+      "179-182",
+      "I comment on colors and character aesthetics on an LED screen.",
+      "Conversation concludes as I continue riding"
+    ],
+    [
+      "183-192",
+      "I ride the descending escalator and observe LED screen advertisements.",
+      "Escalator ride ends"
+    ],
+    [
+      "193-202",
+      "I walk past the Paul Kei shop and listen to my companion talk about buying food.",
+      "Walking task concludes as I exit the mall"
+    ],
+    [
+      "203-206",
+      "I exit the mall and walk across the outdoor plaza.",
+      "Walking task concludes as I check my phone"
+    ],
+    [
+      "207-215",
+      "I search for a restaurant using Gaode Map on my phone.",
+      "App usage shifts to conversation about the night market"
+    ],
+    [
+      "216-227",
+      "I discuss visiting the Xiawan night market with my companion.",
+      "Conversation concludes as I plan the transit route"
+    ],
+    [
+      "228-239",
+      "I use my phone's map app to find public transit routes to the night market.",
+      "Transit planning concludes as I walk to the bus stop"
+    ],
+    [
+      "240-249",
+      "I walk to the bus stop and check the bus arrival time.",
+      "Batch ends"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

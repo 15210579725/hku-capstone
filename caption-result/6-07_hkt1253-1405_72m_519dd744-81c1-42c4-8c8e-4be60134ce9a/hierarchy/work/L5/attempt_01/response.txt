@@ -1,0 +1,29 @@
+```json
+{
+  "target_level": "L5",
+  "plan": "The sequence consists of three distinct major activities: an initial work session, a meal break, and a subsequent work session in a new location. These represent independent, overarching goals that cannot be unified into a single objective without violating the rule against over-abstraction and losing the specific tasks.",
+  "events": [
+    [
+      "0",
+      "I work at my desk on action prediction research and my Taiwan entry permit application.",
+      "Distinct major work session with specific topics"
+    ],
+    [
+      "1",
+      "I share a meal with my roommate.",
+      "Distinct major activity (meal break) interrupting work"
+    ],
+    [
+      "2",
+      "I correct my Taiwan entry permit application.",
+      "Distinct major work session following the meal"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

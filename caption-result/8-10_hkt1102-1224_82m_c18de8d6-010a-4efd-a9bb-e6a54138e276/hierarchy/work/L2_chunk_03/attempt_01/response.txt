@@ -1,0 +1,71 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks: researching in ChatGPT, preparing and scheduling distinct PhD emails, checking messages and departing, transit to the cafeteria, selecting food, paying, finding a seat, and eating.",
+  "events": [
+    [
+      "500-514",
+      "I use ChatGPT to research and read an explanation of the MOTIF paper.",
+      "Focus shifts from researching in ChatGPT to drafting an email in Outlook."
+    ],
+    [
+      "515-554",
+      "I edit, format, attach files to, and schedule a PhD application email to Prof. Bacon.",
+      "Email scheduling completes, and focus shifts to preparing a different email."
+    ],
+    [
+      "555-603",
+      "I edit, format, attach files to, and schedule a PhD application email to Prof. Petzschner.",
+      "Email scheduling completes, and focus shifts to reviewing a third email."
+    ],
+    [
+      "604-607",
+      "I review a PhD application email draft to Prof. Blain.",
+      "Focus shifts from laptop work to checking phone notifications."
+    ],
+    [
+      "608-616",
+      "I check my phone, reply to a WeChat group message about lunch plans, and head out.",
+      "Leaves the room to travel for lunch."
+    ],
+    [
+      "617-627",
+      "I ride the elevator down to the underground parking garage while browsing WeChat Moments.",
+      "Elevator ride completes upon reaching the underground level."
+    ],
+    [
+      "628-649",
+      "I walk through the underground parking garage and cafeteria to the food counter.",
+      "Transit ends upon arriving at the cafeteria food counter."
+    ],
+    [
+      "650-668",
+      "I select a steamed bun, hot dishes, and soup at the cafeteria self-service counter.",
+      "Food selection completes and proceeds to payment."
+    ],
+    [
+      "669-676",
+      "I pay for my cafeteria meal using WeChat Pay.",
+      "Payment is successfully completed."
+    ],
+    [
+      "677-683",
+      "I carry my food tray to an empty window-side table.",
+      "Sitting down at the table marks the end of transit."
+    ],
+    [
+      "684-749",
+      "I eat my cafeteria lunch while looking out the window.",
+      "Batch ends while eating lunch."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      612
+    ],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,11 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate each eligible boundary pair to determine if the exact same immediate task continues across the batch edge. Pair [26, 27] transitions from drafting a prompt to typing specific examples; pair [50, 51] transitions from model configuration to reading a survey; pair [78, 79] transitions from prompting an AI to reviewing its response; pair [103, 104] transitions from monitoring execution to resting arms. None of these pairs represent the exact same interrupted immediate task continuing across the batch edge, so no merges will be made.",
+  "merges": [],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

@@ -1,0 +1,129 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group action briefs into immediate tasks based on continuous actions, single objectives, and uninterrupted interactions, such as conversations, walking segments, reading, queuing, and ordering.",
+  "events": [
+    [
+      "0-5",
+      "I discuss my recording device with my companion.",
+      "Conversation about the device concludes"
+    ],
+    [
+      "6-24",
+      "I walk along an outdoor colonnade with my companion.",
+      "Conversation about car memes begins"
+    ],
+    [
+      "25-33",
+      "I converse with my companion about car memes while walking.",
+      "Conversation ends, resume walking silently"
+    ],
+    [
+      "34-42",
+      "I walk along an outdoor pathway past a water pool.",
+      "Starts reading an article on phone"
+    ],
+    [
+      "43-53",
+      "I read an article about image compression on my phone while approaching a building lobby.",
+      "Steps onto escalator and begins conversing with companion"
+    ],
+    [
+      "54-59",
+      "I discuss shoe sizes with my companion on the escalator.",
+      "Escalator conversation ends, resumes reading phone"
+    ],
+    [
+      "60-64",
+      "I read an article about PICO on my phone while walking through the lobby.",
+      "Exits building to an outdoor footbridge"
+    ],
+    [
+      "65-80",
+      "I walk across a covered footbridge to approach the shopping mall.",
+      "Enters the shopping mall"
+    ],
+    [
+      "81-100",
+      "I walk through the shopping mall and discuss dining plans with my companion.",
+      "Steps onto the escalator"
+    ],
+    [
+      "101-104",
+      "I ride the escalator up in the shopping mall.",
+      "Arrives at the next floor and approaches a restaurant"
+    ],
+    [
+      "105-127",
+      "I queue for a table at the Khao San Thai restaurant with my companion.",
+      "Completes queuing and walks away from the restaurant"
+    ],
+    [
+      "128-135",
+      "I walk through the mall and discuss restaurant seating fees with my companion.",
+      "Stops to look at a train exhibition"
+    ],
+    [
+      "136-143",
+      "I examine an MTR train exhibition capsule in the mall.",
+      "Finishes inspecting the capsule and resumes walking"
+    ],
+    [
+      "144-158",
+      "I browse bakery and store displays with my companion.",
+      "Stops to read an article on phone"
+    ],
+    [
+      "159-160",
+      "I read an article about image compression models on my phone.",
+      "Companion suggests eating, shifting attention to restaurants"
+    ],
+    [
+      "161-177",
+      "I browse restaurant menus at ABURI-EN and Yakiniku Like.",
+      "Leaves the restaurant area to approach a tea store"
+    ],
+    [
+      "178-183",
+      "I scan a QR code to access the COMEBUYTEA ordering mini-program.",
+      "Finishes scanning the QR code, starts observing the environment"
+    ],
+    [
+      "184-192",
+      "I observe the baristas prepare drinks at COMEBUYTEA.",
+      "Returns attention to the phone to complete payment"
+    ],
+    [
+      "193-197",
+      "I authorize an Alipay payment for my drink order.",
+      "Payment is completed, begins waiting and discussing food plans"
+    ],
+    [
+      "198-207",
+      "I wait at the tea counter and discuss switching our food order to takeout.",
+      "Companion offers phone to browse the lunch menu"
+    ],
+    [
+      "208-224",
+      "I browse the Khao San lunch menu on my companion's phone.",
+      "Switches to using own phone"
+    ],
+    [
+      "225-228",
+      "I open the KeeTa food delivery app on my phone.",
+      "Resumes conversation about food choices"
+    ],
+    [
+      "229-249",
+      "I discuss takeout food choices with my companion while waiting at COMEBUYTEA.",
+      "End of input data"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

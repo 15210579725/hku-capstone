@@ -1,0 +1,154 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions sharing an immediate goal, such as navigating a physical segment, discussing a distinct topic, or unified phone browsing sessions. Merge concurrent walking, media consumption, and dialogue into single objectives without using joining conjunctions for consecutive actions. Retain concrete details like car models, specific video themes, and recipe components.",
+  "events": [
+    [
+      "500-512",
+      "I discuss purchasing a car with my companion using vehicle information on my phone.",
+      "Topic shifts to traffic rules."
+    ],
+    [
+      "513-520",
+      "I explain Beijing traffic rules to my companion during our walk onto the station platform.",
+      "Interaction shifts to a brief greeting."
+    ],
+    [
+      "521-525",
+      "I share a joke with a friend on the station platform.",
+      "Resumes uninterrupted walking."
+    ],
+    [
+      "526-532",
+      "I walk along the station platform toward the exit.",
+      "Conversation shifts to meal planning."
+    ],
+    [
+      "533-536",
+      "I discuss tomorrow's meal choices with my companion.",
+      "Approaches and uses fare gates."
+    ],
+    [
+      "537-545",
+      "I banter about walking speeds with my companion outside the station fare gates.",
+      "Transitions to footbridge stairs."
+    ],
+    [
+      "546-550",
+      "I walk down the footbridge corridor amidst my companion's complaints about my walking speed.",
+      "Arrives at the elevator."
+    ],
+    [
+      "551-552",
+      "I wait in the elevator.",
+      "Begins browsing videos on phone."
+    ],
+    [
+      "553-569",
+      "I browse various short videos on my phone.",
+      "Conversation about an agreement begins."
+    ],
+    [
+      "570-580",
+      "I agree to look into a matter for my companion during our walk along the outdoor covered pathway.",
+      "Topic shifts to arguing about the air fryer."
+    ],
+    [
+      "581-593",
+      "I argue with my companion about washing the air fryer near the building entrance.",
+      "Topic shifts to recipe proportions."
+    ],
+    [
+      "594-603",
+      "I negotiate reducing our recipe proportions with my companion for our upcoming cooking attempt.",
+      "Steps onto the lobby escalators."
+    ],
+    [
+      "604-616",
+      "I discuss food details with my companion during our lobby escalator rides.",
+      "Focus shifts to phone browsing."
+    ],
+    [
+      "617-623",
+      "I mention buying low-gluten starch to my companion during my phone browsing session.",
+      "Stops to check ingredients on companion's phone."
+    ],
+    [
+      "624-626",
+      "I verify baking ingredients using recipe pictures on my companion's phone near the exit doors.",
+      "Focus returns to independent phone browsing."
+    ],
+    [
+      "627-647",
+      "I browse various short videos on my phone.",
+      "Video theme shifts to a continuous helicopter rescue."
+    ],
+    [
+      "648-660",
+      "I watch a multi-part helicopter rescue video on my phone.",
+      "Switches to rapid video swiping."
+    ],
+    [
+      "661-666",
+      "I browse short videos on Xiaohongshu.",
+      "Begins discussing class schedule."
+    ],
+    [
+      "667-676",
+      "I discuss my class schedule with my companion alongside a car review video on my phone.",
+      "Conversation ends to focus on varied videos."
+    ],
+    [
+      "677-684",
+      "I listen to my companion discuss document certification during my phone browsing session.",
+      "Topic shifts to a disagreement."
+    ],
+    [
+      "685-693",
+      "I tell my companion to drop a subject amidst my news and video browsing on my phone.",
+      "Topic shifts to holiday schedule."
+    ],
+    [
+      "694-710",
+      "I mention my holiday schedule to my companion amidst my phone video browsing.",
+      "Conversation ends to resume silent browsing."
+    ],
+    [
+      "711-723",
+      "I browse various short videos and a Hubei Gaokao post on my phone.",
+      "Arrives at the building lobby doors."
+    ],
+    [
+      "724-725",
+      "I enter the building lobby.",
+      "Companion initiates weather discussion."
+    ],
+    [
+      "726-729",
+      "I watch a video on my phone amidst my companion's weather commentary.",
+      "Boards the elevator."
+    ],
+    [
+      "730-735",
+      "I board the elevator behind a talking woman.",
+      "Focus shifts to browsing the app feed."
+    ],
+    [
+      "736-744",
+      "I browse the Xiaohongshu feed on my phone.",
+      "Arrives at the apartment door."
+    ],
+    [
+      "745-749",
+      "I question my companion's actions at my apartment door.",
+      "End of input."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

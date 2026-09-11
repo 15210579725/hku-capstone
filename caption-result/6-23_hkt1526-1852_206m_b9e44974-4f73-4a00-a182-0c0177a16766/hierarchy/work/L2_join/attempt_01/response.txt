@@ -1,0 +1,48 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Merge eligible pairs where the same immediate task, application, or physical action continues uninterrupted across the batch boundary.",
+  "merges": [
+    [
+      30,
+      31,
+      "I edit notes on reinforcement learning reward functions in VS Code.",
+      "Note editing in VS Code continues across batch edge"
+    ],
+    [
+      61,
+      62,
+      "I initiate and submit a research prompt about evolutionary fitness models to Gemini.",
+      "Gemini prompt preparation and submission continues across batch edge"
+    ],
+    [
+      79,
+      80,
+      "I browse web articles and researcher homepages about reinforcement learning.",
+      "Web browsing session continues across batch edge"
+    ],
+    [
+      108,
+      109,
+      "I read academic technical documents on my laptop.",
+      "Document reading continues across batch edge"
+    ],
+    [
+      120,
+      121,
+      "I prepare and cook a flatbread in the frying pan.",
+      "Cooking the flatbread continues across batch edge"
+    ],
+    [
+      154,
+      155,
+      "I eat the pancake and encourage my roommate to join me.",
+      "Eating the pancake and interacting with roommate continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

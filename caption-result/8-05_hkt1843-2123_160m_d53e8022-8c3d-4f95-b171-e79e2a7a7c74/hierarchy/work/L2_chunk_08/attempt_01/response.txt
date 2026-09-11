@@ -1,0 +1,34 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions sharing the same immediate task context and objective, such as working in ChatGPT, reviewing video clips, conversing with a colleague, and evaluating OCR metrics.",
+  "events": [
+    [
+      "1750-1759",
+      "I interact with ChatGPT to debug VLM attention and review data preparation scripts.",
+      "Completes ChatGPT interaction session"
+    ],
+    [
+      "1760-1762",
+      "I review evaluation video clips and desktop files.",
+      "Completes video evaluation review"
+    ],
+    [
+      "1763-1765",
+      "I discuss data filtering with my colleague near my workstation.",
+      "Completes conversation with colleague"
+    ],
+    [
+      "1766-1769",
+      "I check a WeChat chat and review OCR recognition results and metrics.",
+      "End of provided events"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

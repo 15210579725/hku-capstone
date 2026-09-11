@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group actions into immediate navigation tasks based on location and unified goals: taking the elevator and walking through the hallway to a specific destination.",
+  "events": [
+    [
+      "750-756",
+      "I ride the elevator to the 6th floor.",
+      "Exiting the elevator concludes the ride."
+    ],
+    [
+      "757-767",
+      "I navigate the hallway to the restroom entryway.",
+      "Reaching the restroom entryway concludes the hallway walk."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

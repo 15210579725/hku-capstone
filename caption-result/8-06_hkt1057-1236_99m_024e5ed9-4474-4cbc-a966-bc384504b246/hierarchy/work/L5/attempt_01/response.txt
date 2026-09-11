@@ -1,0 +1,34 @@
+{
+  "target_level": "L5",
+  "plan": "Group L4 phases into major overarching activities: the morning research session, the lunch invitation trigger, the lunch excursion, and the return to work tasks.",
+  "events": [
+    [
+      "0-1",
+      "I conduct my morning research and development tasks for data masking testing pipelines and open-source OCR models.",
+      "Activity changes due to a lunch invitation"
+    ],
+    [
+      "2",
+      "I stand up to leave for lunch after my colleagues invite me.",
+      "Standalone behavior-changing trigger"
+    ],
+    [
+      "3",
+      "I complete a lunch excursion to the cafeteria with my colleagues.",
+      "Activity changes to resuming work tasks"
+    ],
+    [
+      "4-5",
+      "I resume my professional duties regarding office communications and GPU server troubleshooting.",
+      "End of recording"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "2"
+    ],
+    "boundary_cautions": []
+  }
+}

@@ -1,0 +1,121 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous video watching sessions by distinct topics/videos. Separate significant interruptions (conversations with companion, checking boarding gates) and physical actions (moving through the lounge, packing belongings, checking phone apps) into immediate tasks.",
+  "events": [
+    [
+      "750-776",
+      "I watch Bilibili videos about the Pinglu Canal construction and features.",
+      "Interrupted by companion asking about boarding."
+    ],
+    [
+      "777-778",
+      "I look at the boarding gate after my companion asks about boarding.",
+      "Gate check complete, returns to video."
+    ],
+    [
+      "779-801",
+      "I resume watching Bilibili videos about the Pinglu Canal.",
+      "Shifts attention to boarding pass and gate."
+    ],
+    [
+      "802-804",
+      "I check my boarding pass and look toward the boarding gate area.",
+      "Finishes checking pass, proceeds to close laptop."
+    ],
+    [
+      "805-807",
+      "I close my MacBook and look at the television.",
+      "Laptop is closed, stands up to walk."
+    ],
+    [
+      "808-811",
+      "I walk to the mobile charging station to retrieve my phone and unplug my charger.",
+      "Charger retrieved, starts using phone."
+    ],
+    [
+      "812-818",
+      "I use my phone to check my flight widget and message babe on WeChat.",
+      "Finishes messaging, begins packing charger."
+    ],
+    [
+      "819-823",
+      "I wind my charging cable and pack it into my backpack.",
+      "Packing complete, begins waiting."
+    ],
+    [
+      "824-827",
+      "I wait by the seats and pick up my laptop and phone.",
+      "Picks up devices to use them again."
+    ],
+    [
+      "828-873",
+      "I unlock my MacBook and watch Bilibili videos about the Pinglu Canal.",
+      "Exits video to browse homepage."
+    ],
+    [
+      "874-875",
+      "I navigate to the Bilibili homepage and browse video recommendations.",
+      "Selects a new video to watch."
+    ],
+    [
+      "876-905",
+      "I select and watch a Bilibili video about Mongolia's economy and mineral resources.",
+      "Interrupted by companion expressing apprehension."
+    ],
+    [
+      "906-910",
+      "I interact and hold hands with my companion after she expresses apprehension about going.",
+      "Conversation pauses, returns to video."
+    ],
+    [
+      "911-940",
+      "I resume watching the Bilibili video about Mongolia's geopolitics, trade, and coal agreements.",
+      "Video segment ends, returns to browsing feed."
+    ],
+    [
+      "941",
+      "I browse the Bilibili recommendation feed.",
+      "Selects a new video."
+    ],
+    [
+      "942-974",
+      "I open and watch a Bilibili video about the relocation of Deqin County due to geological hazards.",
+      "Pauses video to ask companion about boarding."
+    ],
+    [
+      "975-976",
+      "I ask my companion about the flight boarding time.",
+      "Question answered, checks phone for flight info."
+    ],
+    [
+      "977-993",
+      "I check my flight CZ5287 details on the Ctrip app and message babe on WeChat.",
+      "Finishes checking app, looks up at gate."
+    ],
+    [
+      "994-996",
+      "I look at the airport boarding gates.",
+      "Finishes looking at gate, resumes video."
+    ],
+    [
+      "997-999",
+      "I resume watching the Bilibili video about the hillside village relocation.",
+      "End of input."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "777",
+      "906",
+      "975"
+    ],
+    "boundary_cautions": [
+      "Incidental background chatter and passenger comments (e.g., 789, 795, 836) did not change my goal and were merged into the video watching task.",
+      "Companion conversations at 777, 906, and 975 actively diverted my attention from watching videos to checking boarding/interacting, so they were marked as distinct immediate tasks."
+    ]
+  }
+}
+```

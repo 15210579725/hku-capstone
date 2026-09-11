@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Merge pairs [22, 23] and [74, 75] as they continue the exact same immediate tasks (AI disk diagnostics and reading Claude's edit distance explanation, respectively) across the batch edges. Do not merge [55, 56] because inspecting gaze annotations and reviewing browser tabs are distinct tasks.",
+  "merges": [
+    [
+      22,
+      23,
+      "I instruct the AI to investigate local disk space consumption caused by the Qwen model and monitor its diagnostics.",
+      "Continuous AI disk troubleshooting task across batch edge"
+    ],
+    [
+      74,
+      75,
+      "I read Claude's explanation on the Levenshtein dynamic programming setup and edit distance for Ego4D.",
+      "Continuous reading of the same explanation across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

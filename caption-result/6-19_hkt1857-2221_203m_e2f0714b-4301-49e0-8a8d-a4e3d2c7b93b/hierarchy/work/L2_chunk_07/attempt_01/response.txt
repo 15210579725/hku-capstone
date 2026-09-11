@@ -1,0 +1,191 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions with identical immediate objectives, such as watching a specific Bilibili video, browsing a particular set of search results, exploring a map, engaging in a continuous conversation, or traversing a distinct segment of a transit route.",
+  "events": [
+    [
+      "1500-1510",
+      "I search for extreme rafting videos on Bilibili.",
+      "Opens first video"
+    ],
+    [
+      "1511-1534",
+      "I watch an extreme rafting video on Bilibili.",
+      "Returns to search results"
+    ],
+    [
+      "1535-1540",
+      "I browse search results for extreme rafting on Bilibili.",
+      "Selects next video"
+    ],
+    [
+      "1541-1543",
+      "I watch the '你们管这叫漂流?' video on Bilibili.",
+      "Returns to search results"
+    ],
+    [
+      "1544-1545",
+      "I browse rafting video search results on Bilibili.",
+      "Selects canyoning video"
+    ],
+    [
+      "1546-1551",
+      "I watch a first-person canyoning video on Bilibili.",
+      "Exits video"
+    ],
+    [
+      "1552",
+      "I browse recommended rafting videos on Bilibili.",
+      "Opens next video"
+    ],
+    [
+      "1553-1564",
+      "I examine a Guizhou extreme rafting video along with its comment section on Bilibili.",
+      "Returns to search results"
+    ],
+    [
+      "1565-1566",
+      "I browse extreme rafting search results on Bilibili.",
+      "Selects next video"
+    ],
+    [
+      "1567",
+      "I watch a body rafting video on Bilibili.",
+      "Returns to search results"
+    ],
+    [
+      "1568-1569",
+      "I browse extreme rafting video titles in the Bilibili search results.",
+      "Interrupts browsing to converse"
+    ],
+    [
+      "1570-1572",
+      "I converse with my companion about exciting rides on the subway.",
+      "Conversation concludes to open a video"
+    ],
+    [
+      "1573-1579",
+      "I review the '贵州管这叫漂流？' video along with its comments.",
+      "Initiates a new search topic"
+    ],
+    [
+      "1580-1582",
+      "I search for videos about Gaoguo River in Zhenyuan on Bilibili.",
+      "Opens video"
+    ],
+    [
+      "1583-1593",
+      "I watch a vlog about river rafting in Guizhou on Bilibili.",
+      "Video viewing interrupted by conversation"
+    ],
+    [
+      "1594-1595",
+      "I converse with my companion regarding my destination search.",
+      "Conversation ends to resume browsing"
+    ],
+    [
+      "1596",
+      "I browse search results for Gaoguo River on Bilibili.",
+      "Selects next video"
+    ],
+    [
+      "1597-1600",
+      "I review a Bilibili rafting video along with its user comments.",
+      "Switches to discussing canyoning"
+    ],
+    [
+      "1601-1606",
+      "I discuss canyoning terminology with my companion on the train.",
+      "Conversation ends to resume search"
+    ],
+    [
+      "1607",
+      "I browse stream descent video search results on Bilibili.",
+      "Opens canyoning video"
+    ],
+    [
+      "1608-1625",
+      "I watch a canyoning video about Tianyi Valley on Bilibili.",
+      "Exits video playback"
+    ],
+    [
+      "1626-1629",
+      "I browse video search results for stream trekking on Bilibili.",
+      "Switches applications"
+    ],
+    [
+      "1630-1639",
+      "I explore satellite terrain maps of Guangxi on a map app.",
+      "Passes phone to companion"
+    ],
+    [
+      "1640-1643",
+      "I observe my companion pan across the satellite map on my smartphone.",
+      "Arrival at station prompts alighting"
+    ],
+    [
+      "1644-1647",
+      "I alight from the subway train at East Tsim Sha Tsui station.",
+      "Train exited to move toward escalator"
+    ],
+    [
+      "1648-1652",
+      "I ride the escalator up from the station platform.",
+      "Escalator ascent complete"
+    ],
+    [
+      "1653-1658",
+      "I exit the MTR station fare gates.",
+      "Leaves fare zone"
+    ],
+    [
+      "1659-1685",
+      "I walk through the underground MTR station concourse past retail stores.",
+      "Reaches stairs to change level"
+    ],
+    [
+      "1686-1689",
+      "I ascend the stairs to exit the main MTR concourse.",
+      "Stair ascent complete"
+    ],
+    [
+      "1690-1697",
+      "I walk through an underground transit walkway towards K11 MUSEA.",
+      "Reaches escalator entrance"
+    ],
+    [
+      "1698-1706",
+      "I ride an escalator up to the ground level.",
+      "Steps off escalator outdoors"
+    ],
+    [
+      "1707-1712",
+      "I walk across the outdoor plaza to the K11 MUSEA entrance.",
+      "Enters shopping mall"
+    ],
+    [
+      "1713-1733",
+      "I walk through the K11 MUSEA luxury mall concourse to the waterfront exit.",
+      "Exits mall outdoors"
+    ],
+    [
+      "1734-1740",
+      "I walk along the outdoor waterfront promenade overlooking Victoria Harbour.",
+      "Attention shifts to live music"
+    ],
+    [
+      "1741-1749",
+      "I walk across the plaza towards a live singing performance at an illuminated pavilion.",
+      "End of sequence"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "Arriving at East Tsim Sha Tsui station concludes phone use and initiates transit exit."
+    ],
+    "boundary_cautions": []
+  }
+}
+```

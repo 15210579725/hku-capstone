@@ -1,0 +1,49 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions related to stowing items, observing the car interior, using digital apps, and interacting with car controls into distinct immediate tasks. Abstract incidental looks and minor actions into the overarching objective of each segment.",
+  "events": [
+    [
+      "0-1",
+      "I stow a power bank.",
+      "Stowing complete, attention shifts to observing the car interior"
+    ],
+    [
+      "2-8",
+      "I observe the car interior and the passenger.",
+      "Observation ends, attention shifts to the digital screen"
+    ],
+    [
+      "9-10",
+      "I check the 早安天气 app.",
+      "App exited, switching to the navigation app"
+    ],
+    [
+      "11-15",
+      "I download a Shanghai offline map package in 高德地图.",
+      "Map download initiated and interface returned, attention shifts back to the interior"
+    ],
+    [
+      "16-19",
+      "I observe the passenger, a handbag, and the dashboard.",
+      "Observation shifts to operating the door controls"
+    ],
+    [
+      "20-23",
+      "I operate the driver side door controls.",
+      "Door operation completes, attention shifts to looking around the interior"
+    ],
+    [
+      "24-27",
+      "I observe the passenger area, windshield, and ceiling.",
+      "End of recorded actions"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

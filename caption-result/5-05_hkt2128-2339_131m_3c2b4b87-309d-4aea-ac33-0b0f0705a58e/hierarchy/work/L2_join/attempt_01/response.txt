@@ -1,0 +1,30 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible pairs for continuations of the same immediate task. [24, 25] continues the continuous resting period. [28, 29] continues the uninterrupted walk from the resting area to the kitchen. [48, 49] continues watching the same continuous Bilibili video content regarding beef bone preparation and eating.",
+  "merges": [
+    [
+      24,
+      25,
+      "I rest in darkness.",
+      "Same resting period continues across batch edge"
+    ],
+    [
+      28,
+      29,
+      "I walk through the hallway toward the kitchen.",
+      "Continuous movement continues across batch edge"
+    ],
+    [
+      48,
+      49,
+      "I watch Bilibili videos about preparing and eating beef bones.",
+      "Same video content continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

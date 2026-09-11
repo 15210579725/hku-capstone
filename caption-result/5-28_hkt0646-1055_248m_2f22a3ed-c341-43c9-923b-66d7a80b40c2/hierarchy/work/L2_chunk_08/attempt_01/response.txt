@@ -1,0 +1,66 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group events into immediate tasks based on continuous video game segments (playing, conversing, navigating specific locations, or completing discrete objectives like changing clothes or finding a phone) and separate physical or desktop tasks (retrieving a jacket, installing software). Boundaries are established when in-game objectives change significantly, major cinematics begin, or attention shifts between physical and digital spaces.",
+  "events": [
+    [
+      "1750-1772",
+      "I play a video game on my laptop, watching character dialogue and room exploration.",
+      "Shifts focus to retrieving a physical item from the backpack"
+    ],
+    [
+      "1773-1783",
+      "I pause the laptop to retrieve a black jacket from my backpack and drape it over a chair.",
+      "Finishes handling the jacket and resumes playing the video game"
+    ],
+    [
+      "1784-1807",
+      "I play the video game, reading subtitles and selecting dialogue options during a conversation.",
+      "Completes the conversation and shifts to navigating a new location"
+    ],
+    [
+      "1808-1848",
+      "I play the video game, navigating a concert venue and engaging in a confrontation cutscene.",
+      "Video fades out and the intro cinematic begins"
+    ],
+    [
+      "1849-1862",
+      "I watch the introductory cinematic and title sequence for 'Life is Strange: Before the Storm'.",
+      "Title sequence ends, shifting to in-game bedroom exploration"
+    ],
+    [
+      "1863-1891",
+      "I play the video game, exploring the bedroom and changing the character's clothes.",
+      "Finishes changing clothes and shifts objective to finding the phone"
+    ],
+    [
+      "1892-1914",
+      "I play the video game, controlling the character to search for and find her phone in the bathroom.",
+      "Phone is found, shifting objective to heading downstairs"
+    ],
+    [
+      "1915-1934",
+      "I play the video game, navigating the character downstairs while asking out loud about her name.",
+      "Reaches the kitchen, shifting objective to talking with Joyce"
+    ],
+    [
+      "1935-1985",
+      "I play the video game, engaging in a dialogue with Joyce in the kitchen before pausing the game.",
+      "Pauses the game, abandoning gameplay to use the laptop desktop"
+    ],
+    [
+      "1986-1999",
+      "I navigate the laptop desktop to monitor the installation of '静静爱玩' and view Privacy & Security settings.",
+      "End of batch"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      9
+    ],
+    "boundary_cautions": []
+  }
+}
+```

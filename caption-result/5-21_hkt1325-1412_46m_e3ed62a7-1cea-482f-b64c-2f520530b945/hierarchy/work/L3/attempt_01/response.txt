@@ -1,0 +1,76 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group immediate L2 tasks into coherent L3 episodes based on unified goals and primary locations. Transit phases are separated from destination activities, and the major behavior-changing trigger remains standalone.",
+  "events": [
+    [
+      "0-6",
+      "I leave my apartment building.",
+      "Groups departure preparations, elevator ride, and exiting the residential building"
+    ],
+    [
+      "7-12",
+      "I navigate along the street and footbridges.",
+      "Groups continuous transit steps before the behavior-changing interruption"
+    ],
+    [
+      "13",
+      "I check a LaundrySMS message and decide to go back for my laundry.",
+      "Standalone behavior-changing trigger that redirects the trip"
+    ],
+    [
+      "14-17",
+      "I backtrack along the street to the residential courtyard.",
+      "Groups return transit to the laundry facility"
+    ],
+    [
+      "18-20",
+      "I process my laundry at the courtyard facility.",
+      "Groups transferring, paying for, and starting the laundry machines"
+    ],
+    [
+      "21-30",
+      "I navigate to the restaurant.",
+      "Groups continuous transit from the courtyard to the restaurant"
+    ],
+    [
+      "31-35",
+      "I purchase a chicken and soup meal at the restaurant.",
+      "Groups ID scanning, menu browsing, payment, and meal collection"
+    ],
+    [
+      "36-37",
+      "I consume my chicken and rice meal at the outdoor patio table.",
+      "Groups relocating to a table and consuming the meal"
+    ],
+    [
+      "38-39",
+      "I return my food tray to the cafeteria collection station.",
+      "Groups post-meal packing and tray return"
+    ],
+    [
+      "40",
+      "I navigate across the campus to the Main Library.",
+      "Groups continuous transit to a new major location"
+    ],
+    [
+      "41-46",
+      "I watch Bilibili documentaries about the iron ore industry in the library.",
+      "Groups settling into the workstation, viewing media, and minor phone interactions"
+    ],
+    [
+      "47-50",
+      "I navigate through the library to the elevator hallway.",
+      "Groups continuous transit exiting the library areas"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      13
+    ],
+    "boundary_cautions": []
+  }
+}
+```

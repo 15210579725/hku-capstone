@@ -1,0 +1,11 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate the eligible pair [8, 9] to see if it represents the exact same immediate task interrupted by a transport batch edge. Event 8 involves writing and simplifying equations on a notepad, while event 9 introduces a new immediate task of cross-referencing those equations with ChatGPT on a screen. Because these are distinct immediate actions (writing vs. screen comparison) and not merely an artificially split identical task, they should not be merged at the L2 level.",
+  "merges": [],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

@@ -1,0 +1,69 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group immediate L2 tasks into coherent activity episodes defined by shared overarching goals and primary locations, such as media consumption on the train, disembarking preparation, station navigation, ride-hailing organization, the car ride, and the hotel arrival sequence.",
+  "events": [
+    [
+      "0-7",
+      "I consume various short videos and social media posts on my smartphone.",
+      "Continuous media consumption concludes as focus shifts to arrival"
+    ],
+    [
+      "8-11",
+      "I await the train's platform arrival alongside my companion.",
+      "Train arrives at the station"
+    ],
+    [
+      "12-13",
+      "I gather my backpack and suitcase for disembarkation.",
+      "Luggage gathering is complete"
+    ],
+    [
+      "14-17",
+      "I navigate from the train platform through the station exit turnstiles with my luggage.",
+      "Exit from the paid station area"
+    ],
+    [
+      "18-21",
+      "I secure a dropped sneaker to my suitcase during my walk through the station corridor.",
+      "Transition from general navigation to organizing a ride"
+    ],
+    [
+      "22-25",
+      "I navigate to the street pickup area to meet our Didi ride-hailing car.",
+      "Arrival at the ride-hailing car"
+    ],
+    [
+      "26-27",
+      "I board the ride-hailing car with my luggage.",
+      "Boarding complete; car ride begins"
+    ],
+    [
+      "28-41",
+      "I discuss various topics with my companion and the driver during the car ride.",
+      "Car ride concludes at the destination"
+    ],
+    [
+      "42-43",
+      "I approach the hotel entrance with my unloaded luggage.",
+      "Arrival at the hotel lobby"
+    ],
+    [
+      "44-46",
+      "I complete my check-in process at the hotel reception desk.",
+      "Hotel check-in concludes"
+    ],
+    [
+      "47-50",
+      "I proceed to room 8207 for my initial inspection.",
+      "Arrival and inspection in the hotel room"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

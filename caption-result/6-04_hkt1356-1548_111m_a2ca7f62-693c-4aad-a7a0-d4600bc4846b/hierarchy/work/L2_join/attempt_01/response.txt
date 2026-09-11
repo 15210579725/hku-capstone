@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible pairs for continuation of the exact same immediate task. Merging pairs where the continuous timeframe and immediate objective remain identical (e.g., continuing the same project discussion, continuous troubleshooting of the same script). Rejecting pairs where the immediate action shifts (packing vs. handling water) or where timeframes and contexts are completely disjoint.",
+  "merges": [
+    [
+      25,
+      26,
+      "I discuss the project's behavior and action prediction goals.",
+      "Same project discussion topic continues across batch edge"
+    ],
+    [
+      50,
+      51,
+      "I troubleshoot the Claude Code script execution and API models.",
+      "Same API troubleshooting task continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

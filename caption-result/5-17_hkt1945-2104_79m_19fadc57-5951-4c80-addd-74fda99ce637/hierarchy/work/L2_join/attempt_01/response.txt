@@ -1,0 +1,18 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate the eligible batch-edge pairs to identify if they interrupt the exact same immediate task. Pair [13, 14] transitions from observing passengers to using a smartphone. Pair [49, 50] transitions from walking along a street to approaching and entering a building. Pair [75, 76] continuously watches the same Li Auto L9 review video discussing the suspension system.",
+  "merges": [
+    [
+      75,
+      76,
+      "I watch a Bilibili review video about the Li Auto L9 suspension, steering, and braking systems.",
+      "Watching the same car review video continues across the batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

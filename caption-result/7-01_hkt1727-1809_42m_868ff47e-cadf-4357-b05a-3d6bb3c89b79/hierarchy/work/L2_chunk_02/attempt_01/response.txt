@@ -1,0 +1,149 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group sequential action briefs into distinct, immediate tasks. Separate boundaries when there is a significant shift in activity, such as moving from pulling luggage to picking up a dropped item, loading a car, or changing conversational topics during a car ride.",
+  "events": [
+    [
+      "250-257",
+      "I pull my suitcase through the station corridor.",
+      "Walking transit interrupted by finding a dropped item"
+    ],
+    [
+      "258-261",
+      "I secure a dropped sneaker to my suitcase.",
+      "Task completes upon securing the sneaker"
+    ],
+    [
+      "262-268",
+      "I discuss the lost shoe with my companion.",
+      "Topic shifts to the station's appearance"
+    ],
+    [
+      "269-273",
+      "I discuss the old-fashioned station with my companion.",
+      "Walking transit pauses to handle ride-hailing"
+    ],
+    [
+      "274-280",
+      "I prepare a phone to call a ride-hailing car.",
+      "Resumes walking towards the exit"
+    ],
+    [
+      "281-297",
+      "I pull my suitcase along the walkway toward the pickup area.",
+      "Meets companion to check the app"
+    ],
+    [
+      "298-302",
+      "I check the Didi ride-hailing app with my companion.",
+      "Resumes walking on the street"
+    ],
+    [
+      "303-319",
+      "I navigate the street toward our ride-hailing car.",
+      "Arrives at the vehicle to load luggage"
+    ],
+    [
+      "320-329",
+      "I load luggage into the car trunk.",
+      "Luggage is loaded and trunk is closed"
+    ],
+    [
+      "330-339",
+      "I settle into the car for the ride.",
+      "Begins conversing about food"
+    ],
+    [
+      "340-351",
+      "I converse with my companion about local food preferences.",
+      "Conversation pauses for silent observation"
+    ],
+    [
+      "352-364",
+      "I observe the passing street scenes from the car.",
+      "Initiates new conversation about plans"
+    ],
+    [
+      "365-369",
+      "I discuss travel and internship plans with my companion.",
+      "Topic shifts to the driver speaking"
+    ],
+    [
+      "370-378",
+      "I discuss local noodles with the driver.",
+      "Interaction shifts to playing with companion's wrist"
+    ],
+    [
+      "379-383",
+      "I place a scrunchie on my companion's wrist.",
+      "Playful interaction concludes"
+    ],
+    [
+      "384-395",
+      "I comment on the old city area.",
+      "Topic shifts to a college roommate"
+    ],
+    [
+      "396-403",
+      "I discuss a college roommate with my companion.",
+      "Conversation ends"
+    ],
+    [
+      "404-410",
+      "I observe roadside shops from the car.",
+      "Topic shifts to driving and cars"
+    ],
+    [
+      "411-420",
+      "I discuss cars and driving confidence.",
+      "Topic shifts to food and night markets"
+    ],
+    [
+      "421-436",
+      "I discuss nearby food locations with my companion.",
+      "Topic shifts to childhood food memories"
+    ],
+    [
+      "437-445",
+      "I reminisce about childhood chicken cakes.",
+      "Topic shifts to getting a haircut"
+    ],
+    [
+      "446-452",
+      "I discuss getting a haircut with my companion.",
+      "Topic shifts to unwashed hair"
+    ],
+    [
+      "453-461",
+      "I joke with my companion about her unwashed hair.",
+      "Conversation ends"
+    ],
+    [
+      "462-473",
+      "I observe the street as the ride concludes.",
+      "Arrival prompts exiting the car"
+    ],
+    [
+      "474-480",
+      "I unload luggage from the car trunk.",
+      "Luggage is fully unloaded"
+    ],
+    [
+      "481-488",
+      "I approach the hotel entrance with my luggage.",
+      "Enters the hotel lobby"
+    ],
+    [
+      "489-499",
+      "I inspect the herbal display cart in the hotel lobby.",
+      "End of sequence"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

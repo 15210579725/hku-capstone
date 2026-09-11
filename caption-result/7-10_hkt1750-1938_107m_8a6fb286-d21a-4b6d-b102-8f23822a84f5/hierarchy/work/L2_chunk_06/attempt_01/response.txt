@@ -1,0 +1,44 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Grouped continuous steps of browsing and purchasing the NFC sticker into one task. Grouped the subsequent WeChat messaging about the card. Grouped the post-purchase review of another sticker on Taobao. Grouped the brief office visit to drop off the phone. Grouped navigating to and using the water dispensers into a single water-fetching task. Finally, grouped the corridor transit toward the staircase.",
+  "events": [
+    [
+      "1250-1275",
+      "I purchase CUID NFC stickers on Taobao.",
+      "Payment is confirmed and focus shifts to reading a tutorial."
+    ],
+    [
+      "1276-1282",
+      "I message User X on WeChat about cloning the CUID card.",
+      "Switches back to the Taobao app."
+    ],
+    [
+      "1283-1288",
+      "I review ultra-thin NFC CUID sticker details on Taobao.",
+      "Navigates away from the app and walks into the physical office."
+    ],
+    [
+      "1289-1294",
+      "I leave my phone in the office after checking my WeChat messages.",
+      "Exits the office to fetch water."
+    ],
+    [
+      "1295-1310",
+      "I fill my water bottle at the office water dispensers.",
+      "Finishes dispensing water and leaves the break area."
+    ],
+    [
+      "1311-1317",
+      "I walk through the office corridor toward the staircase.",
+      "End of provided data."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

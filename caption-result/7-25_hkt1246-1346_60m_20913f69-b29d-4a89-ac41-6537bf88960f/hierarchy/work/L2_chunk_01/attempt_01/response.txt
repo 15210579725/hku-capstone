@@ -1,0 +1,169 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group consecutive observations into immediate tasks based on shared overarching goals, such as placing orders, specific conversation topics with the companion, distinct phases of eating or preparing food, and interactions with restaurant staff or the phone.",
+  "events": [
+    [
+      "0-3",
+      "I order the meal deal on the smartphone.",
+      "Order placement complete"
+    ],
+    [
+      "4-22",
+      "I discuss the restaurant servers' appearance with my companion.",
+      "Conversation shifts to meal preparation"
+    ],
+    [
+      "23-27",
+      "I prepare my disposable apron.",
+      "Apron setup complete"
+    ],
+    [
+      "28-41",
+      "I observe the restaurant environment.",
+      "Attention shifts to companion's camera"
+    ],
+    [
+      "42-46",
+      "I discuss camera equipment with my companion.",
+      "Conversation shifts to hotel prices"
+    ],
+    [
+      "47-57",
+      "I discuss the Peace Hotel price with my companion.",
+      "User begins browsing on phone"
+    ],
+    [
+      "58-62",
+      "I browse Dragon Phoenix restaurant packages on Dianping.",
+      "Browsing completes"
+    ],
+    [
+      "63-68",
+      "I observe the restaurant interior.",
+      "Attention shifts to companion's phone"
+    ],
+    [
+      "69-72",
+      "I review the menu options on my companion's smartphone.",
+      "User switches to own phone"
+    ],
+    [
+      "73-86",
+      "I message a car rental contact on WeChat.",
+      "Messaging completes"
+    ],
+    [
+      "87-93",
+      "I listen to my companion discuss brand names.",
+      "Conversation pauses"
+    ],
+    [
+      "94-105",
+      "I observe the restaurant servers.",
+      "Conversation about past jobs begins"
+    ],
+    [
+      "106-120",
+      "I discuss past hotpot restaurant jobs with my companion.",
+      "Conversation interrupted by waiter serving food"
+    ],
+    [
+      "121-126",
+      "I clarify my hotpot broth order with the waiter.",
+      "Order clarified"
+    ],
+    [
+      "127-133",
+      "I listen to the waiter introduce the served dishes.",
+      "Waiter finishes introduction"
+    ],
+    [
+      "134-139",
+      "I prepare my dipping sauce.",
+      "Sauce preparation complete"
+    ],
+    [
+      "140-142",
+      "I check my smartphone.",
+      "Phone check complete"
+    ],
+    [
+      "143-149",
+      "I consume beef tripe and sliced beef.",
+      "Eating pauses to listen to staff"
+    ],
+    [
+      "150-152",
+      "I listen to the staff explain the hotpot boiling process.",
+      "Explanation completes"
+    ],
+    [
+      "153-161",
+      "I observe the simmering hotpot.",
+      "User initiates question to waiter"
+    ],
+    [
+      "162-168",
+      "I inquire about a three-person meal with the waiter.",
+      "Inquiry resolved"
+    ],
+    [
+      "169-173",
+      "I observe the waiter scoop food from the hotpot.",
+      "Scooping finishes"
+    ],
+    [
+      "174-184",
+      "I praise the waiter's attentive service.",
+      "Praising completes"
+    ],
+    [
+      "185-189",
+      "I interact with the server placing the scallion broth.",
+      "Interaction finishes"
+    ],
+    [
+      "190-194",
+      "I request an additional pair of chopsticks from the server.",
+      "Chopsticks received"
+    ],
+    [
+      "195-199",
+      "I discuss the hotpot broth flavors with my companion.",
+      "Discussion ends"
+    ],
+    [
+      "200-205",
+      "I prepare my minced meat rice.",
+      "Food preparation completes"
+    ],
+    [
+      "206-211",
+      "I discuss a school matter with my companion.",
+      "Conversation topic shifts"
+    ],
+    [
+      "212-221",
+      "I listen to my companion discuss a colleague.",
+      "Topic shifts to cooking"
+    ],
+    [
+      "222-229",
+      "I cook leafy greens in the hotpot.",
+      "Cooking interrupted by incoming phone call"
+    ],
+    [
+      "230-249",
+      "I answer a customer service phone call regarding a car rental replacement.",
+      "Phone call resolves"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

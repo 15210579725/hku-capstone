@@ -1,0 +1,36 @@
+```json
+{
+  "target_level": "L5",
+  "plan": "Group the consecutive academic computer tasks into one major working activity, preserve the behavior-changing invitation as a standalone trigger, and separate the distinct major goals of dining and navigating to a restroom.",
+  "events": [
+    [
+      "0-1",
+      "I work on my academic computing tasks concerning mathematics and dataset pipelines.",
+      "Goal shifts from academic work to responding to a companion's interruption"
+    ],
+    [
+      "2",
+      "I accept my companion's invitation to leave and get food.",
+      "Trigger event causing departure for a new location and activity"
+    ],
+    [
+      "3",
+      "I share a curry meal with my companion at the cafe.",
+      "Goal shifts from eating to finding personal care facilities"
+    ],
+    [
+      "4",
+      "I search the building for a restroom.",
+      "End of provided evidence"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      1
+    ],
+    "boundary_cautions": []
+  }
+}
+```

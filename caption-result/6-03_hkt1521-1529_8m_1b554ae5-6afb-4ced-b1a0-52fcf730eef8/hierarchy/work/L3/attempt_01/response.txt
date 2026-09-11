@@ -1,0 +1,44 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group L2 tasks into coherent activity episodes: organizing at the desk, conducting focused laptop work, packing and preparing to leave the apartment, disposing of garbage, transiting via the elevator, and walking outdoors.",
+  "events": [
+    [
+      "0-1",
+      "I organize my belongings at my desk.",
+      "Desk organization and incidental conversation complete; transitions to focused laptop work"
+    ],
+    [
+      "2-3",
+      "I test screen OCR dataset deduplication using Claude Code on my laptop.",
+      "Computer work complete; begins packing and preparing to leave"
+    ],
+    [
+      "4-7",
+      "I prepare to leave the apartment with my roommate.",
+      "Preparation complete upon reaching the front door to exit the apartment"
+    ],
+    [
+      "8",
+      "I dispose of a garbage bag in the 35th-floor refuse collection room.",
+      "Garbage disposal complete; proceeds to wait for the elevator"
+    ],
+    [
+      "9-11",
+      "I travel to the ground floor lobby via the elevator with my companion.",
+      "Elevator transit complete; exits the building to the outdoors"
+    ],
+    [
+      "12",
+      "I converse with my companion during a walk along the outdoor covered walkway.",
+      "Continues outdoor walk"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

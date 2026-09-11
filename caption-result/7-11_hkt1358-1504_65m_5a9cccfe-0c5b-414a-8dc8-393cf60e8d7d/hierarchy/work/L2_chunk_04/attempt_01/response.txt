@@ -1,0 +1,54 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group L1 briefs into immediate tasks based on continuous app usage, physical transitions, and distinct interactions. Boundaries occur when shifting from media consumption to exiting, changing focus from climbing gyms to a salon search, or switching from active navigation to browsing physical storefronts.",
+  "events": [
+    [
+      "750-769",
+      "I consume media about molten salt energy storage and power grids on my phone.",
+      "Returns to the home screen to begin walking."
+    ],
+    [
+      "770-773",
+      "I review climbing messages on WeChat during my exit from the restaurant.",
+      "Leaves the building and immediately begins checking climbing gym deals."
+    ],
+    [
+      "774-789",
+      "I check climbing gym locations and transit routes using Dianping and Amap.",
+      "Finishes evaluating the first route and switches to WeChat to discuss options."
+    ],
+    [
+      "790-802",
+      "I coordinate climbing gym choices and transit routes with a contact using WeChat and Amap.",
+      "Abandons the climbing gym discussion to search for a salon."
+    ],
+    [
+      "803-811",
+      "I search for the Pandora Salon on Amap to check its location.",
+      "Completes the salon search and begins following map navigation."
+    ],
+    [
+      "812-820",
+      "I follow map navigation on my phone toward the plaza building.",
+      "Shifts focus from map navigation to observing restaurant storefronts and posters."
+    ],
+    [
+      "821-828",
+      "I evaluate restaurant signs and a snack kiosk menu for potential food options.",
+      "Moves past the food options and continues walking through the plaza."
+    ],
+    [
+      "829-842",
+      "I observe the surrounding store signs and banners during my walk through the outdoor mall plaza.",
+      "End of input batch."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

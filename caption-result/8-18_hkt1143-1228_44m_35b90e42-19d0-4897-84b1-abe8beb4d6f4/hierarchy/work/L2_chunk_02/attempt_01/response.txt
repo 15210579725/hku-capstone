@@ -1,0 +1,99 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous sequences of eating, observing, navigating, and working into immediate tasks. Abstract away incidental glances and short pauses (e.g., brief looks around the cafeteria or room). Group conversations and device usage by their primary unified topic or application.",
+  "events": [
+    [
+      "250-272",
+      "I eat my lunch meal of tofu and rice in the cafeteria.",
+      "Finishes eating lunch and checks phone."
+    ],
+    [
+      "273-288",
+      "I review a payment completion screen and WeChat messages on my iPhone.",
+      "Switches from WeChat to a tech news app."
+    ],
+    [
+      "289-303",
+      "I read various tech news articles on the APPSO app.",
+      "Finishes reading articles and prepares to leave."
+    ],
+    [
+      "304-314",
+      "I pack up my meal box to leave the cafeteria table.",
+      "Leaves the table to return the tray."
+    ],
+    [
+      "315-321",
+      "I return my meal tray to the cafeteria conveyor belt.",
+      "Finishes returning the tray and begins walking to the office."
+    ],
+    [
+      "322-332",
+      "I walk through the building lounge to the stairwell.",
+      "Enters the parking garage."
+    ],
+    [
+      "333-343",
+      "I walk through the parking garage.",
+      "Arrives at the elevator lobby."
+    ],
+    [
+      "344-349",
+      "I wait for the elevator with my companions.",
+      "Enters the elevator."
+    ],
+    [
+      "350-367",
+      "I ride the elevator to the 5th floor during my companions' discussion about AI models.",
+      "Exits the elevator."
+    ],
+    [
+      "368-372",
+      "I take my seat at my office desk.",
+      "Arrives at the desk and begins working on the computer."
+    ],
+    [
+      "373-380",
+      "I review ChatGPT logs regarding a patrol script bug on my computer.",
+      "Switches from checking computer logs to using the iPhone."
+    ],
+    [
+      "381-389",
+      "I message on WeChat about afternoon plans to visit the botanical garden.",
+      "Topic shifts to writing the final report."
+    ],
+    [
+      "390-398",
+      "I converse with my colleague about writing our final report.",
+      "Opens the Feishu document to review the report."
+    ],
+    [
+      "399-465",
+      "I collaborate with my colleague on our research report in a Feishu document.",
+      "Topic shifts to a junior student's project progress."
+    ],
+    [
+      "466-480",
+      "I discuss a junior student's project progress over photos on my colleague's phone.",
+      "Topic shifts to the colleague's travel experiences."
+    ],
+    [
+      "481-494",
+      "I discuss my colleague's trip to Guangxi over his travel photos.",
+      "Topic shifts to a locked car."
+    ],
+    [
+      "495-499",
+      "I converse with my colleague about a locked car door.",
+      "End of input."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

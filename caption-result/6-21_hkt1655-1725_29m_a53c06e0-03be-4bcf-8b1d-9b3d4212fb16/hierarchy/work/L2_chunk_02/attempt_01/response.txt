@@ -1,0 +1,79 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group actions by immediate tasks, such as adding specific ingredients, tasting and adjusting seasoning, and transferring dishes to serve the meal.",
+  "events": [
+    [
+      "250-259",
+      "I season the stir-frying green peppers with seasoned oil.",
+      "Completed adding seasoned oil."
+    ],
+    [
+      "260-279",
+      "I stir-fry the green peppers with marinated meat and additional cooking oil.",
+      "Completed adding meat and oil."
+    ],
+    [
+      "280-285",
+      "I sweeten the stir-fry with sugar.",
+      "Completed adding sugar."
+    ],
+    [
+      "286-299",
+      "I flavor the stir-fry with chicken powder.",
+      "Completed adding chicken powder."
+    ],
+    [
+      "300-312",
+      "I season the stir-fry with table salt to improve its flavor.",
+      "Completed first salt addition."
+    ],
+    [
+      "313-330",
+      "I incorporate additional table salt into the stir-fry to adjust the taste.",
+      "Completed second salt addition."
+    ],
+    [
+      "331-347",
+      "I evaluate the stir-fry's unsatisfactory flavor.",
+      "Shifted to adding final salt."
+    ],
+    [
+      "348-363",
+      "I finish seasoning the stir-fry with a final addition of table salt.",
+      "Completed cooking the dish."
+    ],
+    [
+      "364-374",
+      "I transport my noodle bowl to the bedroom upon finishing cooking.",
+      "Placed the noodle bowl in the bedroom."
+    ],
+    [
+      "375-378",
+      "I transfer the cooked stir-fry from the frying pan into my noodle bowl.",
+      "Completed transferring the food."
+    ],
+    [
+      "379-383",
+      "I return the empty frying pan to the kitchen.",
+      "Returned the pan."
+    ],
+    [
+      "384-387",
+      "I settle into the bedroom for my meal.",
+      "Prepared to eat."
+    ],
+    [
+      "388-399",
+      "I consume my noodle meal during a discussion about the meat's marinade.",
+      "End of recording."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

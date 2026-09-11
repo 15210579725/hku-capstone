@@ -1,0 +1,84 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous app usages (ordering food, banking), specific conversational topics (student drink, friend's relationship content, past meals, post-exam plans, salary), and physical food-related tasks (managing new dishes, eating spaghetti, eating ribs) into distinct immediate tasks.",
+  "events": [
+    [
+      "250-259",
+      "I converse with my companion about a student drink while observing the restaurant.",
+      "Shift to ordering food"
+    ],
+    [
+      "260-279",
+      "I order BBQ pork ribs on the Dare Restaurant app using my companion's phone.",
+      "Order is confirmed"
+    ],
+    [
+      "280-297",
+      "I complete a 100 HKD bank transfer on the BOCHK app.",
+      "Transfer completes and phone is put away"
+    ],
+    [
+      "298-312",
+      "I converse with my companion about a friend's relationship-focused content creation.",
+      "Topic shifts to their earlier fish meal"
+    ],
+    [
+      "313-323",
+      "I converse with my companion about our earlier fish meal while observing the restaurant decor.",
+      "Attention shifts to companion's phone"
+    ],
+    [
+      "324-348",
+      "I read and discuss User X's Xiaohongshu posts about relationships with my companion.",
+      "Topic shifts to discussing meals"
+    ],
+    [
+      "349-383",
+      "I converse with my companion about previous and current meals while she eats pasta.",
+      "Topic shifts to post-exam plans"
+    ],
+    [
+      "384-411",
+      "I discuss post-exam and travel plans with my companion.",
+      "Shift to quietly observing the restaurant"
+    ],
+    [
+      "412-425",
+      "I observe the restaurant interior and patrons while my companion continues eating.",
+      "Topic shifts to yesterday's dinner"
+    ],
+    [
+      "426-448",
+      "I converse with my companion about her dinner from the previous night.",
+      "Waiter serves ribs"
+    ],
+    [
+      "449-459",
+      "I swap plates with my companion so she can cut the newly served BBQ pork ribs.",
+      "Topic shifts to salary and expenses"
+    ],
+    [
+      "460-472",
+      "I converse with my companion about her recent salary and living expenses.",
+      "Shift to eating spaghetti"
+    ],
+    [
+      "473-479",
+      "I eat a portion of spaghetti before returning the plate to my companion.",
+      "Shift to cutting and eating ribs"
+    ],
+    [
+      "480-499",
+      "I cut and eat the BBQ pork ribs while discussing my finances with my companion.",
+      "End of input batch"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

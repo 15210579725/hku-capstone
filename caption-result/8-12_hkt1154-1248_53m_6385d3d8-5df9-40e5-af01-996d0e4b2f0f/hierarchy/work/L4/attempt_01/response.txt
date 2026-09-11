@@ -1,0 +1,39 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Abstract the pre-meal document review, the complete cafeteria meal excursion with companions, the atrium lounge break, specific computer configuration tasks, and subsequent desk observation into distinct broader phases.",
+  "events": [
+    [
+      "0",
+      "I review work documents on my computer.",
+      "Task concludes before leaving the workspace"
+    ],
+    [
+      "1-5",
+      "I have a meal with my companions at the cafeteria.",
+      "Complete meal excursion from leaving to returning to the office floor"
+    ],
+    [
+      "6",
+      "I use my smartphone in the atrium lounge.",
+      "Activity ends upon returning to the office desk"
+    ],
+    [
+      "7-8",
+      "I configure AutoDL instances and data migration tasks at my office desk.",
+      "Specific computer tasks complete before a shift to observing the physical environment"
+    ],
+    [
+      "9",
+      "I observe the items on my desk.",
+      "End of provided evidence"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

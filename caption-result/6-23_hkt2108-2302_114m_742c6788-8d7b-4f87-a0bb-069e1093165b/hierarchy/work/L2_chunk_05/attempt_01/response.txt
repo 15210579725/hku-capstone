@@ -1,0 +1,154 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous, goal-oriented immediate tasks by identifying significant shifts in action, location, or objective. Abstract granular steps like reaching, saying, and looking into the overarching immediate goal such as folding a dumpling, peeling a wrapper, or discussing storage.",
+  "events": [
+    [
+      "0-2",
+      "I finalize a dumpling.",
+      "Finished interacting with the current dumpling."
+    ],
+    [
+      "3-17",
+      "I inspect the leftover dumpling batter and wrappers in the kitchen.",
+      "Leaves the kitchen with a bowl of soup."
+    ],
+    [
+      "18-29",
+      "I examine a torn dumpling during my meal at the dining table.",
+      "Leaves the dining table to return to the kitchen."
+    ],
+    [
+      "30-43",
+      "I assist with dumpling preparation in the kitchen.",
+      "Shifts focus to eating."
+    ],
+    [
+      "44-51",
+      "I have a meal at the dining table.",
+      "Finishes eating and enters the kitchen."
+    ],
+    [
+      "52-55",
+      "I peel a garlic clove in the kitchen.",
+      "Walks to the dining table."
+    ],
+    [
+      "56-66",
+      "I gather dumpling ingredients at the dining table.",
+      "Sits down at the dining table."
+    ],
+    [
+      "67-72",
+      "I observe my companion kneading dough.",
+      "Stands up to reach for the flour bag."
+    ],
+    [
+      "73-83",
+      "I discuss using flour to prevent sticking with my companion.",
+      "Topic shifts to being full."
+    ],
+    [
+      "84-85",
+      "I converse with User X about being full.",
+      "Moves to the kitchen sink."
+    ],
+    [
+      "86-99",
+      "I wash my hands at the kitchen sink.",
+      "Finishes washing hands."
+    ],
+    [
+      "100-101",
+      "I observe my companion sit down to eat.",
+      "Focus shifts to preparing wrappers."
+    ],
+    [
+      "102-113",
+      "I prepare spring roll wrappers for the dumplings.",
+      "Begins folding a dumpling."
+    ],
+    [
+      "114-124",
+      "I shape a pleated dumpling.",
+      "Finished shaping the dumpling."
+    ],
+    [
+      "125-133",
+      "I observe my companion wrapping a dumpling with a spring roll wrapper.",
+      "Focus shifts to storage containers."
+    ],
+    [
+      "134-139",
+      "I discuss storing the dumplings in a kraft paper container.",
+      "Begins preparing a wonton wrapper."
+    ],
+    [
+      "140-147",
+      "I fold a large wonton dumpling.",
+      "Finishes wrapping the large dumpling."
+    ],
+    [
+      "148-160",
+      "I prepare a wonton dumpling with my companion's assistance.",
+      "Shifts to peeling wrappers."
+    ],
+    [
+      "161-172",
+      "I separate wonton wrappers for my companion.",
+      "Topic changes to cooking methods."
+    ],
+    [
+      "173-179",
+      "I discuss cooking methods for spring rolls with my companion.",
+      "Returns to separating wrappers."
+    ],
+    [
+      "180-197",
+      "I separate various pastry wrappers.",
+      "Folds a wonton wrapper."
+    ],
+    [
+      "198-200",
+      "I fold a wonton wrapper.",
+      "Resumes separating pastry sheets."
+    ],
+    [
+      "201-217",
+      "I separate spring roll pastry sheets.",
+      "Tastes a piece of crispy pastry."
+    ],
+    [
+      "218-220",
+      "I taste the crispy pastry skin.",
+      "Begins wrapping a dumpling."
+    ],
+    [
+      "221-227",
+      "I wrap a dumpling.",
+      "Moves to pack the wrapped dumplings."
+    ],
+    [
+      "228-234",
+      "I pack the wrapped dumplings into a paper container.",
+      "Leaves the kitchen to show the packed dumplings."
+    ],
+    [
+      "235-246",
+      "I prepare to take the packed dumplings home.",
+      "Walks into the living room."
+    ],
+    [
+      "247-249",
+      "I walk into the bedroom.",
+      "End of input."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

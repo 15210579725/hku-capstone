@@ -1,0 +1,29 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group the transit and campus navigation steps into a single commute phase, consolidate the computer setup and sequential AI evaluation tasks into a unified work phase, and isolate the final departure preparation.",
+  "events": [
+    [
+      "0-4",
+      "I travel from the residential area to a study counter in the campus building.",
+      "Setting up the laptop at the study counter marks the transition from commuting to working"
+    ],
+    [
+      "5-8",
+      "I analyze AI model evaluation metrics and judge prompts on my MacBook Pro.",
+      "Packing the laptop concludes the continuous work session"
+    ],
+    [
+      "9",
+      "I pack my laptop to leave the campus building.",
+      "End of recorded input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

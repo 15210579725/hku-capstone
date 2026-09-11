@@ -1,0 +1,34 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group L3 episodes into broader goal-oriented phases: acquiring and departing in the rental vehicle, driving to the hotel, checking in and settling into the room, and planning the upcoming meal.",
+  "events": [
+    [
+      "0-3",
+      "I depart the train station in my rental vehicle with my luggage.",
+      "Exiting the parking facility concludes the vehicle acquisition and station departure phase"
+    ],
+    [
+      "4-6",
+      "I drive the rental vehicle to the hotel parking space.",
+      "Parking the vehicle completes the transit phase to the accommodation"
+    ],
+    [
+      "7-10",
+      "I settle into our guesthouse room with my companion and luggage.",
+      "Room inspection concludes the hotel arrival and check-in phase"
+    ],
+    [
+      "11-12",
+      "I organize our Beihai afternoon tea on my smartphone.",
+      "Finalizing the plans concludes the dining research phase"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

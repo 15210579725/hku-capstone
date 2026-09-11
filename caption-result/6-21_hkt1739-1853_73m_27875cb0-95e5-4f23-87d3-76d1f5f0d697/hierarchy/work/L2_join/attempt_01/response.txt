@@ -1,0 +1,18 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate each eligible boundary pair to determine if the exact same immediate task continues across the batch edge. For [25, 26], the user is inspecting specific rental listing details and amenities on Ziroom in both briefs; this is a continuous task and should be merged. For [47, 48], the user transitions from discussing walk plans with a roommate to messaging a Ziroom agent; these are separate immediate tasks. For [77, 78], the user transitions from reading Xiaohongshu posts to conversing with a roommate in the bedroom; these are distinct activities.",
+  "merges": [
+    [
+      25,
+      26,
+      "I examine specific apartment rental listings and their amenities on the Ziroom app.",
+      "The task of inspecting Ziroom rental listings continues across the batch edge."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

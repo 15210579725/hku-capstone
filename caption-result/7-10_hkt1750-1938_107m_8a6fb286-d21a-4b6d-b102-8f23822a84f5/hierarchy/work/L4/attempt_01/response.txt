@@ -1,0 +1,34 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group the cafeteria dinner excursion, office research discussions, personal phone tasks, and departure preparation into distinct broad phases.",
+  "events": [
+    [
+      "0-6",
+      "I complete a dinner excursion with my colleagues at the cafeteria.",
+      "Complete cycle of traveling, dining, and returning to the office"
+    ],
+    [
+      "7-8",
+      "I discuss AI research models and behavior trajectory simulations with my colleague at the office.",
+      "End of focused research collaboration"
+    ],
+    [
+      "9-11",
+      "I handle personal phone tasks, including purchasing NFC stickers to resolve an access card issue.",
+      "End of personal break and phone tasks"
+    ],
+    [
+      "12",
+      "I prepare to leave the office by filling my water bottle on my way to the staircase.",
+      "Departure signals a new broader phase"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

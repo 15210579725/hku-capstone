@@ -1,3 +1,114 @@
 ```json
-{"target_level":"L2","plan":"Group contiguous actions that share a single immediate objective, such as setting up a device, typing notes, or listening to a specific lecture topic, while abstracting incidental glances and fidgeting.","events":[["250-258","I monitor my laptop and smartphone screens.","Lecturer begins a specific explanation"],["259-279","I listen to the lecturer's explanation of matrix row interchanges.","Transitions to using a smartphone app"],["280-284","I set up my smartphone viewer app on my laptop.","Setup complete, begins monitoring the screen"],["285-306","I monitor the lecture presentation on my propped smartphone.","Topic shifts to the error equation"],["307-314","I listen to the lecturer's introduction of the error equation.","Shifts focus to typing notes on laptop"],["315-333","I type lecture notes on my laptop.","Stops typing to listen to a new topic"],["334-341","I listen to the lecturer's explanation of singular value decomposition and rank one matrices.","Topic shifts to neural networks"],["342-345","I listen to the lecturer's discussion of neural network parameters.","Returns to typing notes"],["346-350","I type lecture notes on my laptop.","Picks up phone to take a photograph"],["351-354","I capture a photograph of the lecture slide with my smartphone.","Lowers phone and starts fidgeting"],["355-357","I fidget with my fingernails.","Returns attention to the laptop diagram"],["358-363","I study a diagram on my laptop presentation canvas.","Instructor begins a new topic"],["364-366","I listen to the instructor's explanation of the inverse iteration method.","Returns to reading materials on laptop"],["367-374","I review an inductive bias article and a physics simulation on my laptop.","Focuses heavily on reading Notion notes"],["375-391","I review Notion notes on inductive bias on my laptop.","Picks up iPhone to check notifications"],["392-396","I prop my landscape-oriented iPhone against my laptop.","Setup complete, begins using the camera"],["397-403","I frame the lecture slide with my iPhone camera.","Lowers phone and returns to reading notes"],["404-411","I read my inductive bias notes on my laptop.","Begins to look around the hall environment"],["412-416","I observe the students and environment in the lecture hall.","Lecture topic shifts to ordinary differential equations"],["417-422","I listen to the lecture on ordinary differential equations.","Lecturer focuses on bivariate functions"],["423-433","I listen to the lecturer's explanation of bivariate functions.","Focuses on reading MLP notes"],["434-441","I read my notes on MLP inductive bias.","Looks around the hall and presentation screens"],["442-456","I observe the front projection screens in the lecture hall.","Begins reading an article as the theta method is introduced"],["457-461","I listen to the lecturer's introduction of the theta method.","Starts reading and looking around the hall"],["462-470","I observe the lecture presentation and hall environment.","Returns to focused reading of machine learning notes"],["471-481","I read notes on machine learning, network structure, and inductive bias on my laptop.","Lecturer begins explaining convergence rates"],["482-488","I listen to the lecturer's explanation of convergence rates and mesh size for the theta method.","Returns to studying definitions on laptop"],["489-499","I study error bounds and the Tom M. Mitchell inductive bias definition.","End of batch"]],"audit":{"complete":true,"uncertainties":[],"major_triggers":[],"boundary_cautions":[]}}
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into distinct immediate tasks, abstracting minor device switches and idle glances. Preserve specific mathematical and lecture topics in descriptions.",
+  "events": [
+    [
+      "250-279",
+      "I attend the lecture on matrix row interchanges.",
+      "Shift to using the smartphone viewer app"
+    ],
+    [
+      "280-284",
+      "I open the viewer app on my smartphone to read the lecture slide.",
+      "App opening completes"
+    ],
+    [
+      "285-308",
+      "I monitor my smartphone and laptop screens during the lecture.",
+      "Begins typing notes"
+    ],
+    [
+      "309-333",
+      "I type lecture notes regarding the error equation.",
+      "Lecturer changes topic to singular value decomposition"
+    ],
+    [
+      "334-345",
+      "I listen to the explanation of singular value decomposition and neural network parameters.",
+      "Shift back to typing notes"
+    ],
+    [
+      "346-350",
+      "I type lecture notes on my laptop.",
+      "Shift to photographing a slide"
+    ],
+    [
+      "351-353",
+      "I photograph the lecture slide with my smartphone.",
+      "Photographing completes"
+    ],
+    [
+      "354-363",
+      "I study a diagram in my laptop lecture notes.",
+      "Instructor begins explaining a new method"
+    ],
+    [
+      "364-366",
+      "I listen to the instructor explain the inverse iteration method.",
+      "Shift to reading articles"
+    ],
+    [
+      "367-391",
+      "I read inductive bias notes on my laptop.",
+      "Shift to adjusting the smartphone"
+    ],
+    [
+      "392-396",
+      "I set up my smartphone against my laptop screen.",
+      "Smartphone setup completes"
+    ],
+    [
+      "397-403",
+      "I photograph the lecture slide with my smartphone.",
+      "Framing and photography completes"
+    ],
+    [
+      "404-415",
+      "I read inductive bias notes on my laptop.",
+      "Shift to listening to the lecture"
+    ],
+    [
+      "416-433",
+      "I listen to the lecturer explain ordinary differential equations and bivariate functions.",
+      "Shift back to reading notes"
+    ],
+    [
+      "434-440",
+      "I read inductive bias notes on my laptop.",
+      "Shift to watching the lecture screens"
+    ],
+    [
+      "441-458",
+      "I watch the presentation on the front projection screens.",
+      "Lecturer introduces the theta method"
+    ],
+    [
+      "459-463",
+      "I listen to the lecturer explain the theta method.",
+      "Shift back to reading articles"
+    ],
+    [
+      "464-481",
+      "I read an inductive bias article on my laptop.",
+      "Lecturer begins explaining convergence rates"
+    ],
+    [
+      "482-490",
+      "I listen to the lecturer explain the theta method convergence rate and mesh size.",
+      "Shift back to reading notes"
+    ],
+    [
+      "491-499",
+      "I read the Tom M. Mitchell inductive bias definition on my laptop.",
+      "End of provided inputs"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
 ```

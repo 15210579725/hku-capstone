@@ -1,0 +1,18 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible boundary pairs to determine if they split a single continuous immediate task. Pair [31, 32] transitions from examining street stalls to entering a market building, which are distinct immediate tasks. Pair [47, 48] continues the same transaction for purchasing bananas.",
+  "merges": [
+    [
+      47,
+      48,
+      "I purchase bananas at the fruit shop.",
+      "Completing the grocery transaction is a direct continuation of the ongoing banana purchase."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

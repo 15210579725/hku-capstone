@@ -1,0 +1,29 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group the initial sequence of discussing and checking navigation into a single objective of planning a subway transfer, separating the subsequent distinct actions of watching a video and physically standing up.",
+  "events": [
+    [
+      "2500-2510",
+      "I plan a subway transfer after realizing the current train is terminating.",
+      "Task shifts from route navigation to watching a social media video"
+    ],
+    [
+      "2511",
+      "I watch a Douyin traffic video.",
+      "Task shifts from using the phone to physical movement"
+    ],
+    [
+      "2512",
+      "I stand up in the subway carriage.",
+      "End of input batch"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,158 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group atomic actions into immediate tasks by physical movement phases, app focus, and explicit task shifts. Concrete details such as app names, destinations, and rental durations are retained. Consecutive tasks are abstracted into single unified objectives without using forbidden conjunctions.",
+  "events": [
+    [
+      "0-3",
+      "I wait for the elevator in the hallway.",
+      "Waiting for the elevator concludes upon its arrival."
+    ],
+    [
+      "4-7",
+      "I board the elevator.",
+      "Boarding concludes once fully inside the elevator."
+    ],
+    [
+      "8-13",
+      "I browse Bilibili video recommendations on my iPhone until losing network connection.",
+      "Browsing stops due to network disconnection."
+    ],
+    [
+      "14-17",
+      "I exit the lobby into the covered portico.",
+      "Exiting the building is a distinct physical movement."
+    ],
+    [
+      "18-19",
+      "I announce my plan to check travel destinations.",
+      "Verbalizing a new plan shifts focus to a new activity."
+    ],
+    [
+      "20-31",
+      "I read Beihai travel guides on Xiaohongshu.",
+      "The travel search session concludes the current continuous event stream."
+    ],
+    [
+      "32-38",
+      "I walk into the outdoor courtyard to prepare for a travel search.",
+      "The courtyard walk concludes with deciding to search for travel."
+    ],
+    [
+      "39-43",
+      "I react to WeChat messages about the Hong Kong housing shortage.",
+      "Lowering the phone concludes the immediate reaction to the messages."
+    ],
+    [
+      "44-56",
+      "I discuss the high cost of short-term renting in the plaza.",
+      "The walking discussion ends upon reopening the travel app."
+    ],
+    [
+      "57-70",
+      "I browse Beihai travel guides and scenic spot ratings on Xiaohongshu.",
+      "Focus shifts from Beihai travel to searching for Hong Kong."
+    ],
+    [
+      "71-72",
+      "I initiate a Xiaohongshu search for Hong Kong in the courtyard.",
+      "The search initiation shifts focus to the WeChat app."
+    ],
+    [
+      "73-85",
+      "I process WeChat messages concerning rentals and water notices.",
+      "Message checking ends to focus on walking through the courtyard."
+    ],
+    [
+      "86-99",
+      "I walk through the residential courtyard past the water feature.",
+      "The open pathway transitions into a covered colonnade."
+    ],
+    [
+      "100-111",
+      "I walk along the covered colonnade toward the building lobby.",
+      "The colonnade walk ends upon reaching the building entrance."
+    ],
+    [
+      "112-113",
+      "I enter the building through the automatic glass sliding doors.",
+      "Entering the building concludes upon moving toward the escalators."
+    ],
+    [
+      "114-126",
+      "I descend to the lower lobby via the escalators.",
+      "The escalator descent ends in the lower lobby to check the phone."
+    ],
+    [
+      "127-138",
+      "I search Xiaohongshu for 4-month short-term rentals in Hong Kong.",
+      "Focus shifts from searching to exiting the building onto the sidewalk."
+    ],
+    [
+      "139-147",
+      "I review Xiaohongshu short-term rental posts on the sidewalk.",
+      "The sidewalk walk ends upon entering the MTR station."
+    ],
+    [
+      "148-154",
+      "I read Xiaohongshu rental comments on the MTR station escalator.",
+      "The escalator ride concludes upon stepping off toward the fare gates."
+    ],
+    [
+      "155-157",
+      "I pass through the MTR fare gates.",
+      "Passing the fare gates completes station entry."
+    ],
+    [
+      "158-172",
+      "I navigate the MTR concourse to the train platform.",
+      "Navigating finishes upon stopping to wait on the platform."
+    ],
+    [
+      "173-192",
+      "I wait on the MTR platform for the train.",
+      "Waiting concludes upon boarding the train."
+    ],
+    [
+      "193-196",
+      "I board the MTR train to Tai Wai.",
+      "Boarding finishes once inside checking the destination."
+    ],
+    [
+      "197-214",
+      "I read Xiaohongshu comments regarding rental options and roommates.",
+      "Focus shifts from comments to browsing new rental listings."
+    ],
+    [
+      "215-227",
+      "I browse apartment rental listings and notifications on my smartphone.",
+      "Browsing is interrupted by the train safety broadcast."
+    ],
+    [
+      "228",
+      "I listen to the train safety broadcast.",
+      "The broadcast ends, returning focus to phone apps."
+    ],
+    [
+      "229-230",
+      "I check my NetEase Mail inbox.",
+      "Checking mail concludes to return to rental searches."
+    ],
+    [
+      "231-249",
+      "I read Hong Kong rental search tips on Xiaohongshu.",
+      "Task continues to the end of the batch."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "39-43"
+    ],
+    "boundary_cautions": [
+      "Timestamps for 32-38 overlap with 14-31 due to parallel data streams of the same temporal sequence; they are processed sequentially as provided in the array."
+    ]
+  }
+}
+```

@@ -1,0 +1,117 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions sharing the same immediate task and focus into L2 events. Abstract routine browsing, price comparisons across apps, and checkout steps into the unified purchase objective. Subsume incidental glances, brief notifications, waiting periods, and transient app switches into their enclosing tasks.",
+  "events": [
+    [
+      "0-2",
+      "I observe my roommate at the dining table.",
+      "Roommate interaction ends"
+    ],
+    [
+      "3-5",
+      "I walk to my bedroom and look at my laptop.",
+      "Location and attention change"
+    ],
+    [
+      "6-50",
+      "I read AI-generated skincare and mite treatment advice on my laptop.",
+      "Switches to relocating"
+    ],
+    [
+      "51",
+      "I walk to the dining table.",
+      "Location change"
+    ],
+    [
+      "52-57",
+      "I message babe on WeChat about meal plans.",
+      "Switches to disposing trash"
+    ],
+    [
+      "58-60",
+      "I discard a crumpled tissue into the kitchen trash.",
+      "Switches to shopping on phone"
+    ],
+    [
+      "61-119",
+      "I purchase salicylic acid body wash on Taobao.",
+      "Purchase and browsing completed"
+    ],
+    [
+      "120-126",
+      "I message babe on WeChat regarding restaurant prices.",
+      "Switches to reading articles"
+    ],
+    [
+      "127-140",
+      "I read articles about AI agent costs in WeChat subscription accounts.",
+      "Switches to messaging"
+    ],
+    [
+      "141-147",
+      "I discuss dinner plans with babe on WeChat.",
+      "Puts phone away"
+    ],
+    [
+      "148-149",
+      "I leave my phone on the table and walk into the bedroom.",
+      "Location change"
+    ],
+    [
+      "150",
+      "I read a keratosis pilaris skincare guide.",
+      "Switches to terminal tasks"
+    ],
+    [
+      "151-165",
+      "I review Claude Code task statuses and pipeline bug fixes.",
+      "Switches to VS Code"
+    ],
+    [
+      "166-195",
+      "I review project files and ASR transcripts in VS Code.",
+      "Switches to Claude CLI"
+    ],
+    [
+      "196-207",
+      "I instruct Claude Code to process transcripts and enroll voiceprints.",
+      "Switches to reviewing subtitles"
+    ],
+    [
+      "208-212",
+      "I review subtitle transcripts in VS Code.",
+      "Switches to writing prompt"
+    ],
+    [
+      "213-217",
+      "I prompt Claude Code to review dialogue transcripts.",
+      "Switches to monitoring logs"
+    ],
+    [
+      "218-233",
+      "I monitor Claude Code background task execution and logs.",
+      "Switches to writing prompt"
+    ],
+    [
+      "234-244",
+      "I instruct Claude Code on VAD and voiceprint detection logic.",
+      "Switches to reviewing results"
+    ],
+    [
+      "245-249",
+      "I review Claude Code's voice classification results.",
+      "End of input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": [
+      "Grouped 61-119 into one purchase activity per the semantic rules, ignoring the app switches to Pinduoduo and the brief WeChat notification.",
+      "Included brief glances at the bed (224-225) into the Claude Code monitoring task."
+    ]
+  }
+}
+```

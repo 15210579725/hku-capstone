@@ -1,0 +1,174 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group sequential actions into immediate tasks, separating distinct activities such as navigating, conversing, waiting, and using devices.",
+  "events": [
+    [
+      "1000-1014",
+      "I navigate through the shopping mall atrium and push open the glass exit doors.",
+      "Groups navigating the mall and exiting the building."
+    ],
+    [
+      "1015-1021",
+      "I walk along the covered walkway past storefronts while briefly discussing a trip to Shenzhen.",
+      "Groups walking through the outdoor walkway area."
+    ],
+    [
+      "1022-1029",
+      "I walk toward the MTR fare gates while discussing testing my glasses.",
+      "Groups the approach to the fare gates and concurrent conversation."
+    ],
+    [
+      "1030-1031",
+      "I tap my phone on the reader to pass through the MTR fare gates.",
+      "Marks passing through the fare gates."
+    ],
+    [
+      "1032-1037",
+      "I walk along the train platform corridor.",
+      "Groups initial navigation along the platform."
+    ],
+    [
+      "1038-1052",
+      "I discuss renting and testing glasses in Shenzhen while walking along the platform.",
+      "Groups the continuous conversation about glasses on the platform."
+    ],
+    [
+      "1053-1059",
+      "I wait on the platform and watch the train arrive.",
+      "Groups waiting and observing the arriving train."
+    ],
+    [
+      "1060-1060",
+      "I board the MTR train.",
+      "Marks the distinct action of boarding."
+    ],
+    [
+      "1061-1064",
+      "I converse with my companion about going for a massage instead of hiking.",
+      "Groups the conversation topic."
+    ],
+    [
+      "1065-1068",
+      "I browse my phone while standing on the train.",
+      "Groups general phone usage."
+    ],
+    [
+      "1069-1071",
+      "I discuss my plans for getting glasses in Shenzhen while waiting during a massage.",
+      "Groups the continuation of the Shenzhen/glasses conversation."
+    ],
+    [
+      "1072-1090",
+      "I search for basketball court locations using map applications on my phone.",
+      "Groups the initial map search for basketball courts."
+    ],
+    [
+      "1091-1092",
+      "I briefly reply to my companion about adding more.",
+      "Groups a brief, separate conversation snippet."
+    ],
+    [
+      "1093-1109",
+      "I examine map search results and pins for basketball courts on Google Maps.",
+      "Groups detailed map interactions checking court locations."
+    ],
+    [
+      "1110-1113",
+      "I alight from the train and walk along the platform toward the exit.",
+      "Marks exiting the train and platform navigation."
+    ],
+    [
+      "1114-1120",
+      "I ask my companion about nearby basketball courts while walking to the exit.",
+      "Groups the conversation about court locations."
+    ],
+    [
+      "1121-1125",
+      "I tap my phone to exit through the fare gates and enter the station concourse.",
+      "Marks exiting the paid area of the station."
+    ],
+    [
+      "1126-1131",
+      "I discuss taking a shortcut via the stairs while walking through the concourse.",
+      "Groups the conversation about the navigation route."
+    ],
+    [
+      "1132-1140",
+      "I discuss basketball court fees and booking at Mingcheng with my companion.",
+      "Groups the conversation about the specific basketball court."
+    ],
+    [
+      "1141-1141",
+      "I enter the elevator.",
+      "Marks boarding the elevator."
+    ],
+    [
+      "1142-1150",
+      "I discuss booking requirements versus playing at public basketball courts while exiting the elevator.",
+      "Groups the continuation of the basketball court discussion."
+    ],
+    [
+      "1151-1156",
+      "I walk through the covered underpass.",
+      "Groups walking through the underpass area."
+    ],
+    [
+      "1157-1162",
+      "I converse about taking the correct subway exit with my companion.",
+      "Groups the navigation conversation."
+    ],
+    [
+      "1163-1170",
+      "I walk along the sidewalk and discuss what to do today.",
+      "Groups outdoor walking and casual conversation."
+    ],
+    [
+      "1171-1183",
+      "I enter the building and ride the escalator while discussing picking up a graduation gown and playing basketball with a friend.",
+      "Groups building entry, escalator ride, and the associated conversation."
+    ],
+    [
+      "1184-1190",
+      "I step off the escalator and walk through the lobby toward another escalator.",
+      "Groups the transition through the lobby between escalators."
+    ],
+    [
+      "1191-1203",
+      "I converse about electronic pianos and guitars while riding the escalator.",
+      "Groups the escalator ride and the music conversation."
+    ],
+    [
+      "1204-1214",
+      "I walk along the walkway while comparing the feel of electronic and traditional pianos.",
+      "Groups the walking segment and continuation of the piano conversation."
+    ],
+    [
+      "1215-1221",
+      "I walk along the paved garden pathway.",
+      "Groups walking through the garden path."
+    ],
+    [
+      "1222-1228",
+      "I check my phone and converse about the weather and pan-fried dumplings while walking.",
+      "Groups walking and light conversation."
+    ],
+    [
+      "1229-1235",
+      "I discuss outdoor activities and playing with dogs.",
+      "Groups the conversation about outdoor activities."
+    ],
+    [
+      "1236-1249",
+      "I walk across the plaza while discussing a dog obedience competition.",
+      "Groups walking and the conversation about the dog competition."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

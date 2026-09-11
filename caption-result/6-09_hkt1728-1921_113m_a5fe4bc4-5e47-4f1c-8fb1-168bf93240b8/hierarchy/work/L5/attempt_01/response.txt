@@ -1,0 +1,52 @@
+```json
+{
+  "target_level": "L5",
+  "plan": "Maintain distinct major research, leisure, and transit activities, as they represent separate overarching goals with distinct targets. Isolate the dead laptop battery and the meeting frustration as major behavior-changing triggers that substantially redirect the overarching plan.",
+  "events": [
+    [
+      "0",
+      "I work on dataset evaluation and literature notes on my laptop.",
+      "Distinct major research activity"
+    ],
+    [
+      "1",
+      "I watch short videos on Xiaohongshu.",
+      "Distinct major leisure activity"
+    ],
+    [
+      "2",
+      "I discover my MacBook battery has died.",
+      "Major behavior-changing trigger prompting a location change"
+    ],
+    [
+      "3",
+      "I commute from the campus to my bedroom desk.",
+      "Distinct major transit activity"
+    ],
+    [
+      "4",
+      "I watch short videos on my smartphone.",
+      "Distinct major leisure activity"
+    ],
+    [
+      "5",
+      "I lock my smartphone in frustration over an upcoming meeting.",
+      "Major behavior-changing trigger prompting a return to work"
+    ],
+    [
+      "6",
+      "I read Claude research materials on my MacBook.",
+      "Distinct major research activity"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      2,
+      5
+    ],
+    "boundary_cautions": []
+  }
+}
+```

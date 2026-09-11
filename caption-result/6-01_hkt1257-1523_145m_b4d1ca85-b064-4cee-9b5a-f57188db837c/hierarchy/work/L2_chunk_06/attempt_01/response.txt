@@ -1,0 +1,106 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group contiguous L1 action briefs into immediate tasks based on shared primary goals and targets. Boundaries are placed when the user switches applications, changes physical targets, or shifts conversational topics. Brief preparatory actions like sitting or stretching are merged with the subsequent core activity. Document subjects and specific video topics are preserved where distinguishing.",
+  "events": [
+    [
+      "0-12",
+      "I review document notes on the Emotion-Why-How dataset on my laptop.",
+      "Finished working and prepares to leave the desk"
+    ],
+    [
+      "13-21",
+      "I plug my smartphones into the charging cables.",
+      "Completes charging setup and moves to the iPad"
+    ],
+    [
+      "22-37",
+      "I watch an Inca mummy documentary on my iPad.",
+      "Switches from the documentary to social media"
+    ],
+    [
+      "38-41",
+      "I browse the Xiaohongshu feed to select a video.",
+      "Selects a video to start watching"
+    ],
+    [
+      "42-74",
+      "I watch various short videos on Xiaohongshu.",
+      "Returns to browsing the application feed"
+    ],
+    [
+      "75-84",
+      "I explore content on the Xiaohongshu application.",
+      "Leaves the app to open Bilibili"
+    ],
+    [
+      "85-89",
+      "I browse video recommendations on Bilibili.",
+      "Exits the app to the iPad home screen"
+    ],
+    [
+      "90-106",
+      "I configure an AI avatar application on the iPad.",
+      "Turns attention to speak with a companion"
+    ],
+    [
+      "107-119",
+      "I converse with my companion about her appearance.",
+      "Returns attention to the iPad avatar application"
+    ],
+    [
+      "120-134",
+      "I create an AI character profile on the iPad.",
+      "Swipes to the home screen and turns to companion"
+    ],
+    [
+      "135-138",
+      "I converse with my friend about a smell.",
+      "Begins scanning the room"
+    ],
+    [
+      "139-146",
+      "I visually scan various objects around the room.",
+      "Focuses on inspecting a specific item"
+    ],
+    [
+      "147-151",
+      "I inspect a cosmetic compact with my companion.",
+      "Puts the compact away to chat"
+    ],
+    [
+      "152-166",
+      "I joke around with my companion about playing games.",
+      "Shifts the topic to academic work"
+    ],
+    [
+      "167-171",
+      "I urge my companion to work on our research paper.",
+      "Sparks an argument about household chores"
+    ],
+    [
+      "172-187",
+      "I argue with my companion about the importance of household chores.",
+      "Companion leaves to do the laundry"
+    ],
+    [
+      "188-207",
+      "I converse with my companion about chores in the bathroom.",
+      "Companion finishes laundry and leaves the bathroom"
+    ],
+    [
+      "208-249",
+      "I compile LLM research notes on the Emotion-Why-How dataset using document editors on my laptop.",
+      "Ends at batch boundary"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "167-171"
+    ],
+    "boundary_cautions": []
+  }
+}
+```

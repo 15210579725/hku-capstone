@@ -1,0 +1,34 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group leaving the restaurant, the initial indoor transit and map search, the extended outdoor walk with conversation, and the arrival and assessment at the park into coherent activity episodes.",
+  "events": [
+    [
+      "0-1",
+      "I depart the restaurant with my companions after packing my charging cable.",
+      "Completes the departure from the dining establishment"
+    ],
+    [
+      "2-3",
+      "I navigate through an indoor market toward a basketball court using Google Maps while confirming a price of thirty-two.",
+      "Transitions from the indoor market to the outdoor walkways"
+    ],
+    [
+      "4-7",
+      "I navigate the outdoor sidewalks using Google Maps while discussing our daily routines and gym rules with my companion.",
+      "Arrival at the park entrance shifts focus from walking to destination assessment"
+    ],
+    [
+      "8-9",
+      "I assess basketball court availability and reservations upon arriving at the park.",
+      "Concludes the observed recording at the destination"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

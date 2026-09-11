@@ -1,0 +1,18 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Review eligible boundary pairs to identify immediate tasks that were artificially split by batch limits. Distinct tasks (e.g., transitioning from reading to writing, or from conversing to reading documents) will not be merged. Only continuous actions of the same type across the boundary will be joined.",
+  "merges": [
+    [
+      87,
+      88,
+      "I converse with my companion about our plans for contract renewal, exams, and hobbies.",
+      "Continuous conversation task continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

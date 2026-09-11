@@ -1,0 +1,41 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group L3 episodes into broader goal-oriented phases characterized by primary locations, travel modes, and overarching objectives: exploring the town, traveling as a passenger, taking over as driver, driving to a restaurant, and dining.",
+  "events": [
+    [
+      "0-4",
+      "I explore the ancient town sights and food stalls with my companion.",
+      "Walking exploration of the town concludes upon boarding the car for departure"
+    ],
+    [
+      "5-12",
+      "I assist the driver in navigating our scenic night journey into the city.",
+      "The passenger journey concludes with a seat swap"
+    ],
+    [
+      "13",
+      "I swap seats with my companion to take over driving the car.",
+      "Major role transition from passenger to driver alters the primary task"
+    ],
+    [
+      "14-17",
+      "I drive the car to an alternative crab roe noodle restaurant after abandoning our initial choice.",
+      "The driving phase concludes upon parking near the final destination"
+    ],
+    [
+      "18-20",
+      "I dine on a crab roe meal with my companion at the mall restaurant.",
+      "End of recording"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      13
+    ],
+    "boundary_cautions": []
+  }
+}
+```

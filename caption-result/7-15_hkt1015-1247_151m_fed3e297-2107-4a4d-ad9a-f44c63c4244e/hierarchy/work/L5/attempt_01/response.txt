@@ -1,0 +1,29 @@
+```json
+{
+  "target_level": "L5",
+  "plan": "Group the input into major blocks based on primary location and activity type: a morning block of solitary technical desk work, a continuous block of colleague interaction and discussion away from the desk, and a return to solitary desk work.",
+  "events": [
+    [
+      "0-1",
+      "I conduct technical research, AI model evaluations, and infrastructure troubleshooting at my desk.",
+      "Shift from solitary desk work to interacting with colleagues away from the desk."
+    ],
+    [
+      "2-3",
+      "I discuss AI benchmarks and research with my colleagues in the cafeteria and hallway.",
+      "Return to solitary desk work."
+    ],
+    [
+      "4",
+      "I analyze AI coding agent execution metrics at my desk.",
+      "End of recording."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

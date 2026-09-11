@@ -1,0 +1,81 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group immediate tasks into coherent activity episodes based on primary goals: transit phases, procuring meals, dedicated eating/socializing periods, deep research discussions, and distinct phone-based tasks (researching vs. purchasing).",
+  "events": [
+    [
+      "0-1",
+      "I travel with my colleagues through the parking garage to the cafeteria.",
+      "Travel phase ends upon arriving at the food counter."
+    ],
+    [
+      "2-3",
+      "I purchase my first meal for ¥14.70 at the cafeteria food counter.",
+      "Meal procurement ends upon completing payment and moving to the seating area."
+    ],
+    [
+      "4-12",
+      "I discuss research models and the approaching typhoon with my companions over my first meal.",
+      "Eating episode pauses to procure a second meal."
+    ],
+    [
+      "13-17",
+      "I obtain a second meal of twice-cooked pork for ¥8.30 at the cafeteria.",
+      "Second meal procurement ends upon returning to the table."
+    ],
+    [
+      "18-29",
+      "I discuss AI evaluation and code reproduction with my companions over my second meal.",
+      "Second eating episode ends upon finishing the food and resting chopsticks."
+    ],
+    [
+      "30-35",
+      "I return my empty meal tray to the cafeteria conveyor belt following my meal.",
+      "Cleanup and post-meal socialization ends upon initiating the walk back to the office."
+    ],
+    [
+      "36-46",
+      "I discuss AI evaluation metrics with my colleagues during our return to the C309 office.",
+      "Return transit ends upon arriving back at the workstation."
+    ],
+    [
+      "47-55",
+      "I discuss emotion manipulation models with my colleague over a banana snack.",
+      "Snack episode concludes with discarding the banana peel to focus on discussion."
+    ],
+    [
+      "56-73",
+      "I discuss inverse reinforcement learning and behavior trajectory simulations with my colleague at my desk.",
+      "In-depth discussion episode concludes when transitioning to personal phone and break tasks."
+    ],
+    [
+      "74-78",
+      "I take a short break at my desk for phone messaging and OFF! mosquito repellent application.",
+      "Desk break concludes when relocating to the lounge for a new objective."
+    ],
+    [
+      "79-91",
+      "I use Doubao to research NFC access card cloning methods on my phone in the lounge.",
+      "Lounge research phase ends when moving to the hallway to actively message contacts and begin purchasing."
+    ],
+    [
+      "92-101",
+      "I purchase ultra-thin CUID NFC stickers on Taobao to resolve my access card issue.",
+      "Purchase episode concludes upon finishing the transaction and putting away the phone."
+    ],
+    [
+      "102-104",
+      "I fill my water bottle at the office dispensers on my way to the staircase.",
+      "Preparation to leave concludes the recorded events."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": [
+      "The division between 79-91 and 92-101 splits the NFC access card objective into an initial research episode in the lounge and a subsequent execution/purchasing episode while walking in the hallway."
+    ]
+  }
+}
+```

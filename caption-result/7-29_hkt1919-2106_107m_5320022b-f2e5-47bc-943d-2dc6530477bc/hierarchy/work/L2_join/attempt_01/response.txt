@@ -1,0 +1,30 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluated eligible boundary pairs for immediate task continuity. Merged [42, 43] as continuous drafting of a ChatGPT prompt, [56, 57] as continuous data cleaning management in ChatGPT, and [83, 84] as continuous reading of ChatGPT explanations on SFT topics. Kept [25, 26] separate because troubleshooting an API spend limit error is an immediate task distinct from reviewing masking specifications.",
+  "merges": [
+    [
+      42,
+      43,
+      "I input data cleaning requirements and seating selection rules into ChatGPT.",
+      "Same prompt drafting task continues across batch edge"
+    ],
+    [
+      56,
+      57,
+      "I manage the L1 data cleaning process and log review notes in ChatGPT.",
+      "Same data cleaning task in ChatGPT continues across batch edge"
+    ],
+    [
+      83,
+      84,
+      "I read ChatGPT explanations about LLM SFT generalization, data diversity, and FLAN prompt formatting.",
+      "Continuous reading of ChatGPT SFT explanations across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

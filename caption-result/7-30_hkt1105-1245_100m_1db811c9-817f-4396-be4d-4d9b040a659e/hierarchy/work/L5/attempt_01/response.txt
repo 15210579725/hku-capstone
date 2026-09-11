@@ -1,0 +1,31 @@
+```json
+{
+  "target_level": "L5",
+  "plan": "Group L4 phases into major activities defined by primary location and overarching goals. The workstation sessions are separated by the distinct canteen lunch break. The brief personal interruption (ID 3) is subsumed into the afternoon workstation session to reflect the overarching office activity at this level of abstraction.",
+  "events": [
+    [
+      "0",
+      "I conduct a computer work session focused on MAGIC-Video evaluation logs, an online contact lens purchase, and ChatGPT prompt development.",
+      "Location and goal change for lunch break"
+    ],
+    [
+      "1",
+      "I take a lunch break with my companions at the canteen.",
+      "Location and goal change to resume office work"
+    ],
+    [
+      "2-4",
+      "I complete a workstation session focused on research article reviews, MAGIC-Video evaluation metrics, and the retrieval of a contact lens package.",
+      "End of recording"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": [
+      "Grouping the personal matters (ID 3) within the broader workstation session (IDs 2, 4) abstracts a brief errand interruption into the overarching office activity at L5."
+    ]
+  }
+}
+```

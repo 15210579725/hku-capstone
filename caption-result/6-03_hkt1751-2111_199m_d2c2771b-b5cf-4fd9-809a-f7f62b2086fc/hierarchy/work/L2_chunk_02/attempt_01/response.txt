@@ -1,0 +1,79 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions sharing a single immediate goal into L2 tasks. Boundaries correspond to physical transitions (e.g., getting up from a table, arriving at a new area), changes in the primary object of interaction (e.g., finishing a meal, switching to a smartphone, changing apps), or the completion of short distinct tasks (e.g., drinking water, returning a tray). Concurrent dialogue is integrated into the overarching task.",
+  "events": [
+    [
+      "250-274",
+      "I eat curry rice with my companion.",
+      "Finishes using the current napkin and decides to get more."
+    ],
+    [
+      "275-288",
+      "I fetch paper napkins from the cutlery station.",
+      "Returns to the table after fetching napkins."
+    ],
+    [
+      "289-319",
+      "I finish my curry rice meal with my companion.",
+      "Finishes eating and stops interacting with the food."
+    ],
+    [
+      "320-329",
+      "I observe my surroundings and companion at the dining table.",
+      "Transitions to drinking water."
+    ],
+    [
+      "330-334",
+      "I drink from my water bottle.",
+      "Finishes drinking water."
+    ],
+    [
+      "335-365",
+      "I view cat media on a smartphone with my companion.",
+      "Ends the phone interaction to leave the table."
+    ],
+    [
+      "366-372",
+      "I return my meal tray to the collection counter.",
+      "Transitions to interacting with a recycling machine."
+    ],
+    [
+      "373-391",
+      "I use the recycling machine with my companion.",
+      "Leaves the recycling machine to walk through the building."
+    ],
+    [
+      "392-413",
+      "I walk through the building corridors with my companion.",
+      "Arrives at the glass doors to enter a new area."
+    ],
+    [
+      "414-429",
+      "I relocate to a study booth.",
+      "Settles into the booth and begins using the smartphone."
+    ],
+    [
+      "430-452",
+      "I browse WeChat messages and notifications on my smartphone.",
+      "Hands the smartphone to the companion."
+    ],
+    [
+      "453-460",
+      "I observe my companion navigating my smartphone.",
+      "Companion opens the Xiaohongshu app for browsing."
+    ],
+    [
+      "461-499",
+      "I browse Xiaohongshu posts with my companion.",
+      "End of available input data."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

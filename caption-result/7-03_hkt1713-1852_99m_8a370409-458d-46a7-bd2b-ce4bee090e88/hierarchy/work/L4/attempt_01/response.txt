@@ -1,0 +1,49 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group the pre-dinner AI work session, the complete cafeteria dinner trip, and the extended post-dinner AI research session into overarching phases. Leave the subsequent interleaved personal tasks (rent payment, discussion with dad) and AI work tasks separate, as they represent distinct, alternating goals that cannot be merged without violating the unified objective rule.",
+  "events": [
+    [
+      "0-1",
+      "I perform my AI setup and research tasks.",
+      "Continuous workstation session before dinner."
+    ],
+    [
+      "2-6",
+      "I have dinner with my colleagues at the cafeteria.",
+      "Groups the complete round trip and meal episode."
+    ],
+    [
+      "7-13",
+      "I conduct my AI research and monitor evaluation tasks.",
+      "Extended post-dinner workstation session focused on AI tasks."
+    ],
+    [
+      "14",
+      "I transfer my rent payment.",
+      "Distinct personal financial task."
+    ],
+    [
+      "15",
+      "I develop prompt instructions based on an arXiv paper.",
+      "Switches back to a distinct AI development task."
+    ],
+    [
+      "16",
+      "I discuss the rent transfer with my dad.",
+      "Brief distinct personal conversation."
+    ],
+    [
+      "17",
+      "I monitor the AI research agent.",
+      "Switches back to AI monitoring."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

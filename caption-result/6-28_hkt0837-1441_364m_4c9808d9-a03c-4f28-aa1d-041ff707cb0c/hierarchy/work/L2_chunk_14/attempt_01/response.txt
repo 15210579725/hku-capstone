@@ -1,0 +1,124 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group consecutive action briefs into immediate tasks based on the primary video topic, conversation, or phone application being used. Distinct video types (e.g., roast duck shop vlogs, drama, soccer) and specific app activities (e.g., searching for specific car models on Xiaohongshu) form clear boundaries.",
+  "events": [
+    [
+      "3250-3259",
+      "I converse with my companion about an apartment and health on the train.",
+      "Conversation topic concludes and attention shifts to observing the cabin."
+    ],
+    [
+      "3260-3263",
+      "I exclaim about sheep eating dates in the train cabin.",
+      "Exclamation ends and attention shifts to the phone."
+    ],
+    [
+      "3264-3272",
+      "I set up my phone to charge with a power bank.",
+      "Charging setup is complete and I open an app."
+    ],
+    [
+      "3273-3282",
+      "I watch a nail salon vlog on Bilibili.",
+      "Topic changes to a different set of short videos on a different app."
+    ],
+    [
+      "3283-3297",
+      "I watch Douyin vlogs on my phone amid nearby snack sales.",
+      "Video content shifts specifically to a series of roast duck shop vlogs."
+    ],
+    [
+      "3298-3343",
+      "I watch roast duck shop vlogs on my phone.",
+      "Vlog concludes and attention shifts to a goose herding video."
+    ],
+    [
+      "3344-3353",
+      "I watch a goose herding video on my phone.",
+      "Topic changes to a drama video."
+    ],
+    [
+      "3354-3389",
+      "I watch a drama video about a besieged city on my phone.",
+      "Drama video ends and I swipe to soccer highlights."
+    ],
+    [
+      "3390-3396",
+      "I watch Manchester City soccer highlights on my phone.",
+      "Soccer video ends and I watch hiking content."
+    ],
+    [
+      "3397-3399",
+      "I watch Mount Rinjani hiking and action camera videos on my phone.",
+      "Topic changes to a seafood vlog."
+    ],
+    [
+      "3400-3410",
+      "I watch a seafood food vlog by JASON刘雨鑫 on my phone.",
+      "Vlog is interrupted by an incoming phone call."
+    ],
+    [
+      "3411-3417",
+      "I reject a spam phone call.",
+      "Call is dismissed and I return to watching short videos."
+    ],
+    [
+      "3418-3422",
+      "I watch a short video about a drink shop on my phone.",
+      "Drink shop video ends and I lower my phone briefly."
+    ],
+    [
+      "3423-3436",
+      "I scroll through various short videos on my phone.",
+      "Topic shifts specifically to an animal identification video."
+    ],
+    [
+      "3437-3445",
+      "I watch an animal identification video on Bilibili.",
+      "Identification video ends and I scroll through different short topics."
+    ],
+    [
+      "3446-3452",
+      "I scroll through short videos about farming and roommate issues on my phone.",
+      "Topic shifts to watching videos while hearing nearby passenger discussions."
+    ],
+    [
+      "3453-3459",
+      "I watch short videos on my phone amid nearby passenger conversations.",
+      "Passenger conversation ends and I focus on short animal and sports videos."
+    ],
+    [
+      "3460-3462",
+      "I watch short animal and sports videos on my phone.",
+      "Attention shifts to looking at my companion's phone."
+    ],
+    [
+      "3463-3465",
+      "I discuss a baby chimpanzee video playing on my companion's phone.",
+      "I take the phone to browse a creator profile."
+    ],
+    [
+      "3466-3473",
+      "I browse Xiaohongshu creator profile posts on a phone.",
+      "I initiate a specific search query for a car model."
+    ],
+    [
+      "3474-3486",
+      "I view Toyota Camry posts via Xiaohongshu search.",
+      "Search topic changes to a different car model."
+    ],
+    [
+      "3487-3499",
+      "I view Volkswagen Magotan posts via Xiaohongshu search.",
+      "End of provided video sequence."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

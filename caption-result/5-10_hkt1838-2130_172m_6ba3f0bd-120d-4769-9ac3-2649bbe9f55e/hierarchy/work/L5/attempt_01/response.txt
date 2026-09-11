@@ -1,0 +1,29 @@
+```json
+{
+  "target_level": "L5",
+  "plan": "Group the theme park visit and evening shows into the first major activity, and the definitive departure and travel to the hotel for medical management into the second.",
+  "events": [
+    [
+      "0-4",
+      "I experience the theme park attractions, illuminated displays, and evening performances with my companion.",
+      "The goal shifts from experiencing the theme park to permanently leaving the venue due to severe illness."
+    ],
+    [
+      "5-7",
+      "I return to my hotel room from the theme park to manage our severe stomach pain and delivered medication.",
+      "End of video."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      3,
+      5
+    ],
+    "boundary_cautions": [
+      "Event 3 involves seeking medical assistance, but is grouped with the theme park visit because the overarching goal of attending the park's evening events resumes in Event 4. The actual departure goal definitively begins at Event 5."
+    ]
+  }
+}
+```

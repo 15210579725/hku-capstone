@@ -1,117 +1,137 @@
 ```json
 {
   "target_level": "L2",
-  "plan": "Group continuous action briefs into immediate tasks based on shared local goals, such as transit segments, distinct store visits, navigating corridors, and specific phases of a restaurant dining experience.",
+  "plan": "Group action briefs into distinct, immediate tasks based on continuous goals such as transit, store interactions, and dining phases. Progressively abstract brief concurrent or sequential micro-actions into a unified immediate task.",
   "events": [
     [
-      "250-256",
-      "I board the MTR train.",
-      "Waiting for doors to open and boarding the train carriage."
+      "250-257",
+      "I board an MTR train carriage at the station platform.",
+      "Boarding the train is a distinct task."
     ],
     [
-      "257-281",
-      "I ride the MTR train.",
-      "Continuous transit on the train until arriving at the destination station."
+      "258-263",
+      "I observe the carriage interior and passing scenery during the train ride.",
+      "Observing during transit is a continuous state."
     ],
     [
-      "282-284",
-      "I disembark from the MTR train at Kowloon Tong station.",
-      "Exiting the train carriage onto the platform."
+      "264-278",
+      "I examine a small wire and the carriage interior during the train ride.",
+      "Examining an object and the surroundings is a distinct period of the ride."
     ],
     [
-      "285-287",
-      "I exit the MTR station through the turnstiles.",
-      "Passing the ticket barrier and leaving the transit system."
+      "279-284",
+      "I alight onto the Kowloon Tong station platform.",
+      "Alighting from the train is a distinct action."
     ],
     [
-      "288-299",
-      "I walk along outdoor walkways toward the shopping mall.",
-      "Navigating outdoor pedestrian paths before entering the mall."
+      "285-286",
+      "I exit the station through the ticket turnstile gate.",
+      "Exiting the turnstile completes the transit segment."
     ],
     [
-      "300-317",
-      "I walk through the shopping mall concourse.",
-      "Entering the mall and walking past storefronts."
+      "287-299",
+      "I follow my companion along outdoor walkways and a pedestrian footbridge toward a shopping mall.",
+      "Walking to the mall is a distinct transit task."
     ],
     [
-      "318-331",
-      "I examine a Mac Studio and Studio Display inside the Apple Store.",
-      "Entering the store and inspecting specific computer hardware before deciding to leave."
+      "300-316",
+      "I walk along the shopping mall corridors past various storefronts.",
+      "Navigating the mall is a distinct transit task."
     ],
     [
-      "332-338",
-      "I exit the Apple Store.",
-      "Walking away from the display and leaving the store to return to the mall concourse."
+      "317-330",
+      "I interact with a Mac Studio display inside an Apple Store.",
+      "Interacting with the Mac Studio marks a specific retail task."
     ],
     [
-      "339-346",
-      "I walk through the shopping mall toward Amaroni's restaurant.",
-      "Navigating the mall concourse toward the next destination."
+      "331-336",
+      "I discuss our next destination with my companion inside the Apple Store.",
+      "Conversing about leaving the store is a distinct interaction."
     ],
     [
-      "347-356",
-      "I examine the menus outside Amaroni's restaurant.",
-      "Reviewing the posted lunch and set menus before walking away."
+      "337-345",
+      "I walk along the shopping mall concourse past several retail boutiques.",
+      "Navigating the mall is a distinct transit task."
     ],
     [
-      "357-365",
-      "I walk along the shopping mall corridors.",
-      "Continuing to walk past various boutiques."
+      "346-355",
+      "I examine the menus and promotional posters outside Amaroni's New York Italian Restaurant.",
+      "Examining the restaurant menus is a distinct decision-making task."
     ],
     [
-      "366-378",
-      "I browse phone accessories inside the CASETiFY STUDIO store.",
-      "Entering the store to examine phone cases and adapters."
+      "356-365",
+      "I follow my companion along the mall walkway towards the CASETiFY STUDIO store.",
+      "Navigating the mall towards the next store is a distinct transit task."
     ],
     [
-      "379-385",
-      "I walk through the shopping mall plaza toward the escalators.",
-      "Leaving the store and navigating the open plaza."
+      "366-377",
+      "I inspect phone cases and charging accessories inside the CASETiFY STUDIO store.",
+      "Inspecting products inside the store is a distinct retail task."
     ],
     [
-      "386-390",
-      "I ride the escalators to navigate the shopping mall.",
-      "Using the moving escalators to change levels."
+      "378-384",
+      "I walk along the upper-level mall corridor after leaving the store.",
+      "Exiting the store and walking in the mall is a distinct transit task."
     ],
     [
-      "391-399",
-      "I walk through a pedestrian tunnel toward University X.",
-      "Entering and traversing the connecting tunnel."
+      "385-389",
+      "I take the mall escalators up to the landing and back down.",
+      "Riding the escalators is a specific physical task."
     ],
     [
-      "400-410",
-      "I walk through the university campus to Alice Cheng Hall.",
-      "Navigating covered outdoor corridors to reach the building."
+      "390-399",
+      "I walk through a pedestrian tunnel leading toward University X.",
+      "Navigating the pedestrian tunnel is a distinct transit task."
     ],
     [
-      "411-416",
-      "I enter Lodge Bistro and take a seat at a dining table.",
-      "Walking into the building and restaurant lobby to sit down."
+      "400-402",
+      "I pass through a security checkpoint turnstile along a covered outdoor walkway.",
+      "Passing the campus security checkpoint is a distinct task."
     ],
     [
-      "417-432",
-      "I review the restaurant menu to select a meal.",
-      "Reading the menu and discussing dining options with my companion."
+      "403-409",
+      "I walk down outdoor staircases and along covered corridors on campus.",
+      "Navigating the campus corridors is a distinct transit task."
     ],
     [
-      "433-458",
-      "I gather salad and soup from the restaurant buffet.",
-      "Walking to the buffet line and self-serving food onto a plate and bowls."
+      "410-415",
+      "I walk to a dining table inside the Lodge Bistro at Alice Cheng Hall.",
+      "Entering the restaurant and walking to the table is a distinct task."
+    ],
+    [
+      "416-432",
+      "I discuss the set menu options with my seated companion.",
+      "Discussing the menu at the table is a distinct planning task."
+    ],
+    [
+      "433-453",
+      "I assemble a mixed salad on my plate at the restaurant buffet station.",
+      "Assembling a salad at the buffet is a distinct food-gathering task."
+    ],
+    [
+      "454-458",
+      "I ladle yellow soup into two bowls at the buffet soup station.",
+      "Getting soup at the buffet is a distinct food-gathering task."
     ],
     [
       "459-463",
-      "I return to my dining table with my food.",
-      "Carrying the filled plate and bowls back to the seating area."
+      "I carry my salad plate and soup bowls back to the dining table.",
+      "Returning to the table with food is a distinct transit task."
     ],
     [
       "464-486",
-      "I eat my salad and soup at the dining table.",
-      "Consuming the meal and conversing with my companion."
+      "I eat my salad and soup at the table with my companion.",
+      "Eating the meal is a distinct continuous task."
     ],
     [
-      "487-499",
-      "I check WeChat messages and my calendar on my smartphone.",
-      "Using the phone to read group chat updates and view schedule."
+      "487-495",
+      "I read WeChat group messages regarding a presentation on my smartphone.",
+      "Checking WeChat group messages is a distinct digital task."
+    ],
+    [
+      "496-499",
+      "I check the Calendar app on my smartphone to discuss my availability with my companion.",
+      "Checking the calendar app is a distinct digital task."
     ]
   ],
   "audit": {

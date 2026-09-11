@@ -1,0 +1,61 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous action briefs into immediate tasks based on shared primary objectives, such as eating a meal, observing the surroundings, testing camera equipment, checking transit routes, packing for departure, and reviewing a companion's app.",
+  "events": [
+    [
+      "0-9",
+      "I eat dumplings with chili oil sauce and garlic at the dining table.",
+      "End of dumpling consumption to observe the surroundings"
+    ],
+    [
+      "10-17",
+      "I observe the restaurant environment and the objects on our dining table.",
+      "Shift from visual scanning to actively testing the camera"
+    ],
+    [
+      "18-28",
+      "I test the 4K60 selfie mode framing on the DJI Osmo Pocket camera.",
+      "Camera screen is turned off"
+    ],
+    [
+      "29-33",
+      "I interact with a hair clip during a conversation triggered by my companion's suggestion to leave.",
+      "Shift to checking the smartphone for navigation"
+    ],
+    [
+      "34-43",
+      "I check the bus 101 transit route to Xiawan Market Snack Street on my smartphone map app.",
+      "Phone is put down to pick up the camera"
+    ],
+    [
+      "44-53",
+      "I record my companion using the DJI Osmo Pocket camera.",
+      "Stop recording to discuss transportation"
+    ],
+    [
+      "54-68",
+      "I pack my camera into my tote bag during a conversation with my companion about cycling to our destination.",
+      "Transition from the dining table to the outdoor street"
+    ],
+    [
+      "69-75",
+      "I perform a mock livestream about Xiawan Market Snack Street on my phone during our walk along the night street.",
+      "Stop walking to observe the companion's phone screen"
+    ],
+    [
+      "76-84",
+      "I observe the Aria Dashboard app on my companion's phone during a discussion about wearing the smart glasses.",
+      "End of supplied events"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      29
+    ],
+    "boundary_cautions": []
+  }
+}
+```

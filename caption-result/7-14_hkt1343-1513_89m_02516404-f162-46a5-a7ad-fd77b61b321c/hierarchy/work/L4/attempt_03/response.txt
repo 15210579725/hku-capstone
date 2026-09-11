@@ -1,0 +1,36 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group the initial academic study on the smartphone as a distinct phase. Preserve the WeChat decision to attend the seminar as a standalone major trigger. Maintain the brief laptop note review as a separate task, then unify the travel and all subsequent seminar presentations into a single broad phase representing the seminar attendance.",
+  "events": [
+    [
+      "0",
+      "I research academic papers and PhD applications on my smartphone.",
+      "Distinct smartphone study phase"
+    ],
+    [
+      "1",
+      "I decide to attend a PhD recruitment seminar via a WeChat message with 嘉豪.",
+      "Standalone behavior-changing trigger"
+    ],
+    [
+      "2",
+      "I review reranking evaluation notes on my laptop.",
+      "Distinct laptop study task before departure"
+    ],
+    [
+      "3-8",
+      "I attend a PhD recruitment seminar on AI and robotics in Building A1.",
+      "Unifies travel and all thematic presentations under one overarching seminar goal"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      1
+    ],
+    "boundary_cautions": []
+  }
+}
+```

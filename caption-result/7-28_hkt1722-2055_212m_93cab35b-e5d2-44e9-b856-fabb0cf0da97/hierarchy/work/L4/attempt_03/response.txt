@@ -1,0 +1,44 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group coherent episodes into broader phases based on overarching goals and major location shifts, such as distinct office work sessions, dining, commuting, and exercising.",
+  "events": [
+    [
+      "0-1",
+      "I conduct behavior analysis prompt development and communication tasks at my office desk.",
+      "Continuous office work phase before dinner"
+    ],
+    [
+      "2-3",
+      "I dine with my companions at the campus cafeteria.",
+      "Groups transit and dining into a single dinner phase"
+    ],
+    [
+      "4-6",
+      "I commute by electric scooter to office C908 at another campus.",
+      "Groups transit legs into a single commute phase"
+    ],
+    [
+      "7",
+      "I research action categorization and VLM models at my workstation.",
+      "Distinct work phase between commute and gym"
+    ],
+    [
+      "8-10",
+      "I complete a workout session at the gym.",
+      "Groups transit and workout into a single gym phase"
+    ],
+    [
+      "11-18",
+      "I conduct research and development for multimodal models and behavioral timeline datasets at my office desk.",
+      "Continuous evening office work phase"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

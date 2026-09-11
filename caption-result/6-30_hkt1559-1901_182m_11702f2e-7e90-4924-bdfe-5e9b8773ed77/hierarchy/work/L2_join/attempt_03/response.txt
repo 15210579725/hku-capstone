@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Identify eligible pairs that represent the exact same immediate task artificially split by a batch edge. Merge continuous interactions (like a single phone interaction with the same person) and identical actions, but avoid re-abstracting distinct sequential steps into broader activities.",
+  "merges": [
+    [
+      118,
+      119,
+      "I use WeChat to accept the scooter rental shop's friend request, send my ID, and pay a deposit.",
+      "Continuous WeChat interaction with the same rental contact"
+    ],
+    [
+      153,
+      154,
+      "I prepare the electric scooter and our helmets for riding.",
+      "Same preparation task continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

@@ -1,0 +1,143 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group sequential action briefs that share a single immediate goal and primary target (e.g., reviewing configurations, monitoring metrics, watching a specific category of video, or completing a single conversational/messaging thread). Separate distinct shifts in attention, such as switching from eating to typing on a laptop, or switching between different mapping and messaging subtasks.",
+  "events": [
+    [
+      "750-760",
+      "I review EgoLifeQA evaluation notes and model configurations in VS Code.",
+      "Switch from reviewing configurations to monitoring metrics."
+    ],
+    [
+      "761-776",
+      "I monitor API usage, AutoDL system metrics, and model evaluation logs.",
+      "Switch from monitoring metrics to checking phone messages."
+    ],
+    [
+      "777-782",
+      "I read WeChat messages on my iPhone.",
+      "Switch from checking messages to conversing with roommate."
+    ],
+    [
+      "783-788",
+      "I discuss an unavailable apartment with my roommate.",
+      "Switch from conversation to watching Bilibili videos."
+    ],
+    [
+      "789-809",
+      "I browse short videos about cars, military, and comedy on Bilibili.",
+      "Switch from browsing assorted videos to watching a specific game video."
+    ],
+    [
+      "810-823",
+      "I watch a Bilibili video about The Password Game.",
+      "Switch from The Password Game video to a restaurant altercation video."
+    ],
+    [
+      "824-834",
+      "I watch a Bilibili video about a restaurant altercation.",
+      "Switch to watching short videos featuring dog clips."
+    ],
+    [
+      "835-845",
+      "I watch short videos featuring dog clips on Bilibili.",
+      "Switch to watching a travel vlog about Yancheng."
+    ],
+    [
+      "846-857",
+      "I watch a Bilibili travel vlog about Yancheng and Korean food.",
+      "Switch from travel vlog to short cooking and foraging videos."
+    ],
+    [
+      "858-865",
+      "I watch foraging and cooking short videos on Douyin and Bilibili.",
+      "Switch from watching videos to interacting with food."
+    ],
+    [
+      "866-867",
+      "I remark on the smell of the dumplings.",
+      "Switch to reading rental messages on WeChat."
+    ],
+    [
+      "868-880",
+      "I review WeChat rental messages and apartment tour videos from A-W.",
+      "Switch from reading messages to discussing lease terms with roommate."
+    ],
+    [
+      "881-895",
+      "I discuss lease terms and window orientation for the apartment.",
+      "Switch from discussing lease terms to eating food."
+    ],
+    [
+      "896-910",
+      "I eat dumplings with my roommate.",
+      "Switch from eating to messaging the landlord."
+    ],
+    [
+      "911-915",
+      "I message A-W on WeChat about sublease fees and deposit terms.",
+      "Pause messaging to handle food."
+    ],
+    [
+      "916-918",
+      "I pick up dumplings from the plate.",
+      "Switch from handling food to reading messages and discussing fees."
+    ],
+    [
+      "919-926",
+      "I discuss apartment agency fees with my roommate.",
+      "Switch from discussing fees to eating a dumpling."
+    ],
+    [
+      "927-932",
+      "I eat a dumpling with chili oil sauce.",
+      "Switch from eating to reviewing contract terms."
+    ],
+    [
+      "933-944",
+      "I review contract terms and an apartment video from A-W.",
+      "Switch to checking smartphone notifications."
+    ],
+    [
+      "945-953",
+      "I read my smartphone notifications and WeChat sublease terms.",
+      "Switch to messaging A-W for the address."
+    ],
+    [
+      "954-966",
+      "I acquire the apartment location from A-W on WeChat.",
+      "Switch to searching for the apartment location on the map."
+    ],
+    [
+      "967-978",
+      "I search for travel routes to Tangchao Apartment on Amap.",
+      "Switch from map search to requesting another room video."
+    ],
+    [
+      "979-988",
+      "I watch a requested video of the sun-facing room from A-W.",
+      "Switch to checking transit routes on Amap."
+    ],
+    [
+      "989-995",
+      "I review transit and e-bike routes to the apartment on Amap.",
+      "Switch from map routing to watching roommate pack."
+    ],
+    [
+      "996-999",
+      "I watch my roommate pack a suitcase.",
+      "End of provided events."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "783-788: The user discovers an apartment is unavailable, shifting their broader focus toward finding and evaluating a new rental option from A-W."
+    ],
+    "boundary_cautions": [
+      "The user interleaves eating dumplings, talking to their roommate, and messaging A-W. These are kept as separate sequential tasks at L2 to preserve distinct action targets without artificial merging."
+    ]
+  }
+}
+```

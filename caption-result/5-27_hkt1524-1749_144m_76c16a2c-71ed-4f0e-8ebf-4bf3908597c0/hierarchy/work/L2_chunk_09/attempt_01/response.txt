@@ -1,0 +1,39 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group sequential action briefs into immediate tasks centered on locations and direct objectives: retrieving the garbage, disposing of it in the refuse room, returning to the apartment, conversing with the flatmate, and moving to the bathroom.",
+  "events": [
+    [
+      "2000-2004",
+      "I navigate to the elevator lobby to retrieve a garbage bag.",
+      "Bag retrieved"
+    ],
+    [
+      "2005-2009",
+      "I navigate to the refuse room to throw away the garbage bag.",
+      "Garbage disposed"
+    ],
+    [
+      "2010-2013",
+      "I return to my apartment hallway.",
+      "Arrived in hallway"
+    ],
+    [
+      "2014-2016",
+      "I pick up a tissue from the desk during a conversation with my flatmate.",
+      "Conversation concluded"
+    ],
+    [
+      "2017-2019",
+      "I enter the bathroom to check the toiletry bottles.",
+      "Bathroom inspection complete"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,94 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks based on shared immediate goals and targets, separating distinct interactions, household chores, device usage, and work segments.",
+  "events": [
+    [
+      "500-528",
+      "I evaluate action prediction comparison cases on my laptop.",
+      "Focus shifts from evaluating cases to speaking with my companion."
+    ],
+    [
+      "529-533",
+      "I coordinate household chores with my companion.",
+      "Focus shifts from chore coordination to walking to the kitchen."
+    ],
+    [
+      "534-559",
+      "I wash a frying pan and bowls in the kitchen sink.",
+      "Focus shifts from washing dishes to leaving the kitchen."
+    ],
+    [
+      "560-565",
+      "I ask my roommate about combining our laundry in the bedroom.",
+      "Focus shifts from the laundry question to adjusting an office chair."
+    ],
+    [
+      "566-579",
+      "I adjust my office chair and check my smartphone.",
+      "Focus shifts from settling into the room to handling clothes."
+    ],
+    [
+      "580-593",
+      "I hang a garment on a velvet hanger while my roommate folds clothes.",
+      "Focus shifts from clothes to discussing a mattress topper."
+    ],
+    [
+      "594-601",
+      "I discuss the material of a new mattress topper with my roommate.",
+      "Focus shifts from the mattress discussion to a charging cable."
+    ],
+    [
+      "602-604",
+      "I untangle and adjust a charging cable on the power strip.",
+      "Focus shifts from the cable to interacting with User X."
+    ],
+    [
+      "605-608",
+      "I invite User X to sit on the bed.",
+      "Focus shifts from User X to checking my phone for food ordering."
+    ],
+    [
+      "609-615",
+      "I coordinate a KFC food order with my roommate on my smartphone.",
+      "Focus shifts from food ordering to reading WeChat articles."
+    ],
+    [
+      "616-648",
+      "I read WeChat articles about Recursive's AI benchmark achievements.",
+      "Focus shifts from reading articles to resuming work on my laptop."
+    ],
+    [
+      "649-658",
+      "I annotate action evaluation cases in VS Code.",
+      "Focus shifts from coding to transferring money."
+    ],
+    [
+      "659-671",
+      "I transfer money for a food order and discuss my monthly budget with my roommate.",
+      "Focus shifts from the budget discussion to preparing a chair."
+    ],
+    [
+      "672-681",
+      "I steady an office chair for my roommate to sit on.",
+      "Focus shifts from the chair back to collaborative work in VS Code."
+    ],
+    [
+      "682-749",
+      "I discuss action evaluation scoring guidelines and annotate cases in VS Code with my collaborator.",
+      "End of batch."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      [
+        659,
+        "Realizing the day of the week triggers a break from work to transfer money for food and discuss budget."
+      ]
+    ],
+    "boundary_cautions": []
+  }
+}
+```

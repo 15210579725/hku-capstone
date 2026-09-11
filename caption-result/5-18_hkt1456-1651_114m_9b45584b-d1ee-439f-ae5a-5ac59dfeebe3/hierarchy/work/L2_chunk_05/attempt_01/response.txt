@@ -1,0 +1,118 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous action briefs into immediate tasks based on a single unified objective, such as reading a specific document, writing a specific set of notes, or interacting with a specific physical object. I will create a boundary whenever the primary tool, topic, or immediate objective changes.",
+  "events": [
+    [
+      "1000-1002",
+      "I write notes in my notebook.",
+      "Switches from writing in the notebook to studying slides on the laptop"
+    ],
+    [
+      "1003-1007",
+      "I study Doolittle algorithm complexity slides and proofs on my laptop.",
+      "Opens the AI chat box to ask a question"
+    ],
+    [
+      "1008",
+      "I type a question asking for a derivation explanation into the AI chat box.",
+      "Transitions from typing in the chat to writing on paper"
+    ],
+    [
+      "1009",
+      "I write math notes on paper.",
+      "Shifts from writing notes to reading linear algebra notes on the laptop"
+    ],
+    [
+      "1010-1016",
+      "I read laptop notes on linear algebra methods including LU Factorization.",
+      "Begins writing paper notes based on the laptop content"
+    ],
+    [
+      "1017-1023",
+      "I write paper notes regarding Cholesky decomposition.",
+      "Turns attention back to reading exam review notes on the laptop"
+    ],
+    [
+      "1024-1027",
+      "I read laptop exam review notes covering Cholesky and LU decompositions.",
+      "Switches applications to read a different document"
+    ],
+    [
+      "1028-1052",
+      "I read a table and a text entry about Dorothy in the document editor.",
+      "Stops reading the document to review a math problem"
+    ],
+    [
+      "1053-1054",
+      "I review a Gauss elimination problem in my handwritten notes.",
+      "Begins typing on the laptop keyboard"
+    ],
+    [
+      "1055-1061",
+      "I type on the laptop keyboard.",
+      "Pauses typing to read aloud numbers from handwritten notes"
+    ],
+    [
+      "1062-1064",
+      "I read aloud numbers from my handwritten notes.",
+      "Resumes reading algorithm documentation on the laptop"
+    ],
+    [
+      "1065-1069",
+      "I read algorithm documentation and matrix stability analysis notes on my laptop.",
+      "Transitions from reading documentation to writing study notes on paper"
+    ],
+    [
+      "1070-1077",
+      "I write mathematical study notes on paper.",
+      "Stops writing to read stability analysis review notes"
+    ],
+    [
+      "1078-1081",
+      "I read stability analysis review notes on my laptop.",
+      "Begins copying formulas onto paper from the laptop screen"
+    ],
+    [
+      "1082-1089",
+      "I write error bound and condition number formulas on paper using VS Code review notes.",
+      "Shifts focus to a different set of review notes on the laptop"
+    ],
+    [
+      "1090-1098",
+      "I take linear algebra and condition number notes on paper using stability analysis notes on my laptop.",
+      "Concludes the studying session by picking up earplugs"
+    ],
+    [
+      "1099-1100",
+      "I pick up yellow foam earplugs.",
+      "Leaves the desk to walk into the hallway"
+    ],
+    [
+      "1101-1102",
+      "I make a brief round trip to the hallway.",
+      "Returns to the desk and picks up a packaged headband"
+    ],
+    [
+      "1103-1107",
+      "I unpack a black wavy headband at the dining table.",
+      "Leaves the dining table to walk down the hallway"
+    ],
+    [
+      "1108-1110",
+      "I approach the shower cubicle in the hallway.",
+      "End of input data"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "1101",
+      "1103",
+      "1108"
+    ],
+    "boundary_cautions": []
+  }
+}
+```

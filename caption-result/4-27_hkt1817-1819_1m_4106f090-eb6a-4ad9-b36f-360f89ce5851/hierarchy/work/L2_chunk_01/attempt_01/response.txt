@@ -1,3 +1,49 @@
 ```json
-{"target_level":"L2","plan":"Group actions into immediate physical and digital tasks: making a remark, connecting a power bank, adjusting the glasses, launching the smartphone app, and reviewing the app settings.","events":[["0","I make a conversational remark on an outdoor balcony terrace.","Utterance ends"],["1-5","I connect a power bank from my backpack to my smart glasses.","Device connected"],["6-7","I adjust my smart glasses on my face.","Hands lowered"],["8-12","I navigate to the Aria app on my smartphone.","App launched"],["13-16","I review the smart glasses recording status and device settings in the Aria Dashboard app.","Finished viewing settings"]],"audit":{"complete":true,"uncertainties":[],"major_triggers":[],"boundary_cautions":[]}}
+{
+  "target_level": "L2",
+  "plan": "Group atomic actions into immediate functional tasks such as setting up a power bank, checking specific phone applications, and individual conversational or physical actions.",
+  "events": [
+    [
+      "0",
+      "I express verbal approval.",
+      "Standalone conversation snippet"
+    ],
+    [
+      "1-5",
+      "I connect my smart glasses to a backpack power bank.",
+      "Power bank and cable connection sequence complete"
+    ],
+    [
+      "6",
+      "I adjust my smart glasses.",
+      "Standalone physical adjustment"
+    ],
+    [
+      "7",
+      "I observe the balcony view.",
+      "Standalone observation"
+    ],
+    [
+      "8",
+      "I propose a mutual recording strategy.",
+      "Standalone conversation snippet"
+    ],
+    [
+      "9-11",
+      "I access an in-progress ChatGPT query on my phone.",
+      "Phone unlocking and ChatGPT access complete"
+    ],
+    [
+      "12-16",
+      "I inspect the smart glasses recording status and device settings in the Aria app.",
+      "Aria app usage sequence complete"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
 ```

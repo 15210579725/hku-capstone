@@ -1,0 +1,71 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group sequential actions into immediate tasks based on the primary activity, such as playing the guitar, watching videos, typing lyrics, checking emails, or reviewing logs. Boundaries are placed when the user switches between distinct tools or primary modes of interaction.",
+  "events": [
+    [
+      "0-41",
+      "I practice a song on my guitar using a document on my laptop.",
+      "Shifts to watching music videos"
+    ],
+    [
+      "42-54",
+      "I watch music performance and tutorial videos on my laptop.",
+      "Switches back to playing the guitar"
+    ],
+    [
+      "55-71",
+      "I practice playing guitar chords.",
+      "Shifts to referencing sheet music and singing"
+    ],
+    [
+      "72-86",
+      "I practice a song using guitar sheet music on my laptop.",
+      "Switches to watching a concert video"
+    ],
+    [
+      "87-95",
+      "I watch a music concert video on my laptop.",
+      "Shifts to searching for and typing lyrics"
+    ],
+    [
+      "96-118",
+      "I type song lyrics into my laptop.",
+      "Switches to watching a concert video on Bilibili"
+    ],
+    [
+      "119-121",
+      "I watch a concert video on Bilibili.",
+      "Switches to reviewing terminal outputs"
+    ],
+    [
+      "122-124",
+      "I review terminal outputs in Claude Code and ChatGPT.",
+      "Discontinuous time jump to walking outside"
+    ],
+    [
+      "125-133",
+      "I manage Microsoft Outlook emails and an alarm during a walk outside.",
+      "Discontinuous time jump to watching a video"
+    ],
+    [
+      "134-137",
+      "I browse piano cover videos on Bilibili.",
+      "Discontinuous time jump to watching another video"
+    ],
+    [
+      "138-141",
+      "I browse music performance videos on Bilibili.",
+      "End of provided data"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": [
+      "A brief interaction with a noodle packet (1358-1361) is absorbed into the primary immediate task of typing lyrics (96-118)."
+    ]
+  }
+}
+```

@@ -1,0 +1,149 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group consecutive L1 clips into immediate tasks, abstracting routine walk, wait, kiosk navigation, and continuous eating bites. Conversations during the meal are split when distinct topics arise, and distinct physical actions like cleaning up or checking packages are segmented accordingly.",
+  "events": [
+    [
+      "500-504",
+      "I observe the graduation displays.",
+      "Finishes observing graduation displays to continue walking."
+    ],
+    [
+      "505-510",
+      "I walk through the corridor.",
+      "Utterance represents a distinct stated intention."
+    ],
+    [
+      "511",
+      "I mention returning for my camera.",
+      "Utterance complete, attention returns to navigating the concourse."
+    ],
+    [
+      "512-523",
+      "I walk through the concourse and atrium to the escalator.",
+      "Shifts attention from navigating to a video."
+    ],
+    [
+      "524-528",
+      "I watch an Mi-26 helicopter documentary on my phone during the walk.",
+      "Arrives at the kiosk to begin ordering."
+    ],
+    [
+      "529-547",
+      "I use a self-ordering kiosk to select a chicken and rice meal.",
+      "Completes the main meal selection and considers adding soup."
+    ],
+    [
+      "548-555",
+      "I discuss the sold-out soup options with my companion.",
+      "Learns soup is unavailable and moves to payment."
+    ],
+    [
+      "556-566",
+      "I observe my companion paying for my meal with an Octopus card.",
+      "Payment concludes successfully."
+    ],
+    [
+      "567-572",
+      "I browse the desserts and bakery shelf.",
+      "Moves from browsing to the pickup station."
+    ],
+    [
+      "573-581",
+      "I collect my chicken and rice meal from the Thai food pickup station.",
+      "Receives all food components and proceeds for cutlery."
+    ],
+    [
+      "582-585",
+      "I receive cutlery from my companion at the cutlery station.",
+      "Collects necessary dining items and searches for seating."
+    ],
+    [
+      "586-592",
+      "I prepare to eat my meal at a dining table.",
+      "Arrives at the table and prepares for the meal."
+    ],
+    [
+      "593-628",
+      "I eat my chicken and rice meal.",
+      "Initiates a distinct conversation topic about Saturday."
+    ],
+    [
+      "629-642",
+      "I discuss a Saturday plan with my companion over my meal.",
+      "Conversation concludes, refocusing entirely on eating."
+    ],
+    [
+      "643-655",
+      "I consume my chicken and rice meal.",
+      "Interrupts eating to clean up."
+    ],
+    [
+      "656-658",
+      "I wipe my shorts with a paper napkin.",
+      "Finishes wiping shorts and resumes eating."
+    ],
+    [
+      "659-673",
+      "I suggest eating lobster at AC3 for dinner during my meal.",
+      "Topic shifts to weekend graduation photos."
+    ],
+    [
+      "674-688",
+      "I discuss weekend graduation photo plans with my companion.",
+      "Topic shifts to a warning about clothing."
+    ],
+    [
+      "689-696",
+      "I acknowledge my companion's warning about dirtying my white clothes.",
+      "Ends the conversation and concentrates on finishing the meal."
+    ],
+    [
+      "697-707",
+      "I finish eating my chicken and rice meal.",
+      "Meal is completely eaten and utensils are set down."
+    ],
+    [
+      "708-710",
+      "I dispose of a paper tissue.",
+      "Discards tissue and shifts focus to the companion."
+    ],
+    [
+      "711-721",
+      "I monitor my companion tracking Taobao and Pinduoduo package deliveries on her phone.",
+      "Finishes looking at the phone and prepares to leave."
+    ],
+    [
+      "722-728",
+      "I return my empty meal tray to the collection station.",
+      "Tray is returned and attention shifts to fetching a new item."
+    ],
+    [
+      "729-732",
+      "I retrieve a napkin from the cutlery station.",
+      "Acquires the napkin and proceeds through the cafeteria."
+    ],
+    [
+      "733-736",
+      "I walk through the cafeteria.",
+      "Stops walking to address the companion's complaint."
+    ],
+    [
+      "737-740",
+      "I respond to my companion's complaint about my lack of communication.",
+      "Complaint is addressed, moves to the bakery section."
+    ],
+    [
+      "741-749",
+      "I select a pineapple bun from the bakery shelves.",
+      "Selects the bun and prepares to return to the companion."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

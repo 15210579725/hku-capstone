@@ -1,0 +1,99 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions with a unified immediate goal, such as acquiring water, moving between locations, interacting with a specific application or document, or searching. Incorporate brief wait times, incidental glances, and device repositioning into the overarching task they support. Establish boundaries when the primary tool, topic, or physical location changes significantly.",
+  "events": [
+    [
+      "0-5",
+      "I fill my glass bottle with water at the pantry dispenser.",
+      "Task completed, starts walking to the office."
+    ],
+    [
+      "6-12",
+      "I relocate to my workstation at desk 13.",
+      "Arrives at workstation and begins using laptop."
+    ],
+    [
+      "13-21",
+      "I document my reflections on the Anthropic emotion probe report in the POV Rollout Viewer.",
+      "Switches to reading a Feishu Wiki document."
+    ],
+    [
+      "22",
+      "I read a Feishu Wiki document on emotion vectors.",
+      "Switches to checking WeChat messages."
+    ],
+    [
+      "23-28",
+      "I exchange WeChat messages with babe.",
+      "Stops chatting to change physical locations."
+    ],
+    [
+      "29-36",
+      "I relocate to the open lounge atrium with my laptop.",
+      "Arrives in the lounge and resumes messaging on WeChat."
+    ],
+    [
+      "37-40",
+      "I exchange WeChat messages with babe.",
+      "Switches to the MACLab @ HKU chat."
+    ],
+    [
+      "41-45",
+      "I review the shared academic poster and messages in the MACLab @ HKU WeChat chat.",
+      "Switches to Claude to type a prompt."
+    ],
+    [
+      "46-57",
+      "I prompt Claude for an AI chat response.",
+      "Returns to WeChat to study the poster."
+    ],
+    [
+      "58-64",
+      "I study the research poster on deep sequence models and geometric memorization in WeChat.",
+      "Switches from WeChat to read a detailed Claude explanation."
+    ],
+    [
+      "65-83",
+      "I read Claude's explanation of the geometric memory paper and path-star graph experiment.",
+      "Switches to examine the poster image directly."
+    ],
+    [
+      "84-85",
+      "I examine the academic poster comparing associative and geometric memory.",
+      "Switches to read emotion vector notes."
+    ],
+    [
+      "86-87",
+      "I read emotion vector research notes.",
+      "Opens a new browser tab to search alphaXiv."
+    ],
+    [
+      "88-100",
+      "I search alphaXiv for the geometric memorization paper.",
+      "Prompted to sign in with Google."
+    ],
+    [
+      "101-102",
+      "I sign in to alphaXiv with my Google account.",
+      "Completes sign-in and accesses the paper."
+    ],
+    [
+      "103-105",
+      "I send a WeChat reply to babe.",
+      "Returns focus to the alphaXiv paper."
+    ],
+    [
+      "106-121",
+      "I read the alphaXiv paper sections comparing associative and geometric memory.",
+      "End of input."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,149 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group contiguous action sequences sharing the same immediate target and objective. Boundaries are drawn when the primary object or immediate task changes, such as switching from eating to peeling garlic, moving between rooms, shifting from dining to cleaning, or checking the phone.",
+  "events": [
+    [
+      "0-22",
+      "I write notes about goal-oriented behavior in a Feishu document.",
+      "Stands up to leave the desk"
+    ],
+    [
+      "23-33",
+      "I retrieve the cooked food from the kitchen.",
+      "Walks back to the bedroom"
+    ],
+    [
+      "34-37",
+      "I place the steamer pan of food on the bedroom table.",
+      "Switches focus to phone"
+    ],
+    [
+      "38-49",
+      "I message babe on WeChat about my lunch.",
+      "Sits down at the food table"
+    ],
+    [
+      "50-52",
+      "I peel a garlic clove at the table.",
+      "Starts recording a voice message"
+    ],
+    [
+      "53-56",
+      "I send a voice message regarding my departure plans.",
+      "Resumes peeling garlic"
+    ],
+    [
+      "57-63",
+      "I peel garlic cloves.",
+      "Shifts to interacting with the dumplings"
+    ],
+    [
+      "64-69",
+      "I inspect the steamed dumplings.",
+      "Switches to checking phone"
+    ],
+    [
+      "70-72",
+      "I view WeChat messages on my phone.",
+      "Sets down phone to eat"
+    ],
+    [
+      "73-100",
+      "I eat steamed dumplings and cabbage.",
+      "Sets down chopsticks to peel garlic"
+    ],
+    [
+      "101-103",
+      "I peel a garlic clove.",
+      "Resumes eating"
+    ],
+    [
+      "104-134",
+      "I eat steamed cabbage and dumplings.",
+      "Stops eating to peel another garlic clove"
+    ],
+    [
+      "135-136",
+      "I peel a garlic clove.",
+      "Resumes eating"
+    ],
+    [
+      "137-164",
+      "I eat pieces of steamed dumpling.",
+      "Reaches for phone"
+    ],
+    [
+      "165-169",
+      "I read WeChat messages from babe.",
+      "Finishes checking phone and starts cleaning up"
+    ],
+    [
+      "170-173",
+      "I carry the steamer pan and dishes to the kitchen sink.",
+      "Begins washing specific items"
+    ],
+    [
+      "174-181",
+      "I wash the frying pan with a soapy sponge.",
+      "Switches to washing chopsticks"
+    ],
+    [
+      "182-185",
+      "I wash the wooden chopsticks.",
+      "Switches to washing steamer parts"
+    ],
+    [
+      "186-201",
+      "I wash the steamer plate and metal rack.",
+      "Switches to washing hands"
+    ],
+    [
+      "202-213",
+      "I wash my hands in the sink.",
+      "Leaves sink to dry hands"
+    ],
+    [
+      "214-218",
+      "I dry my hands with a tissue.",
+      "Turns attention to the AC remote"
+    ],
+    [
+      "219-222",
+      "I check the air conditioner remote display.",
+      "Switches to using smartphone"
+    ],
+    [
+      "223-226",
+      "I send a voice message confirming I finished my meal.",
+      "Starts cleaning the desk"
+    ],
+    [
+      "227-231",
+      "I wipe debris off my desk.",
+      "Sits down to work"
+    ],
+    [
+      "232-239",
+      "I review experiment execution logs on my laptop.",
+      "Leaves desk"
+    ],
+    [
+      "240-244",
+      "I walk to the bathroom.",
+      "Starts dental hygiene task"
+    ],
+    [
+      "245-249",
+      "I apply toothpaste to my toothbrush.",
+      "Toothpaste successfully applied"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,36 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group L3 episodes into broader goal-oriented phases: a dining phase, a multi-modal commute to the campus, a unified gym workout session, and the final relocation back to the office.",
+  "events": [
+    [
+      "0-1",
+      "I dine with my companions at the cafeteria.",
+      "Navigating to and eating the meal form a complete dining phase"
+    ],
+    [
+      "2-7",
+      "I commute to the campus parking area by ride-hailing car and electric scooter.",
+      "Successive transit modes and an incidental police stop unified by the overarching goal of reaching the campus"
+    ],
+    [
+      "8-13",
+      "I complete a strength training session with my companions at the campus gym.",
+      "Relocating to the gym and the series of exercises and conversations form one unified workout phase"
+    ],
+    [
+      "14",
+      "I return to my office desk.",
+      "Final relocation represents a distinct phase"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": [
+      "Item 6 (police ID check) pauses the commute but does not abandon or redirect the major goal, so it is subsumed into the overarching transit phase rather than remaining standalone."
+    ]
+  }
+}
+```

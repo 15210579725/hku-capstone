@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible pairs for continuous immediate tasks. Pair 17-18 continues editing the same Feishu document. Pair 30-31 continues editing the same emotion modeling document on the laptop.",
+  "merges": [
+    [
+      17,
+      18,
+      "I type content into the Feishu document about AI emotion modeling on my laptop.",
+      "Continuous editing of the same Feishu document across batch edge"
+    ],
+    [
+      30,
+      31,
+      "I edit the AI emotion modeling draft in Google Docs on my laptop.",
+      "Continuous drafting of the emotion modeling document across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

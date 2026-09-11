@@ -1,0 +1,11 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate the eligible pair [30, 31] to determine if the events represent the same immediate task continuing across a batch boundary. Event 30 involves expressing satisfaction with the room, while event 31 shifts back to discussing food menu options. These are distinct objectives and not a single continuous task interrupted by a boundary, so no merges are performed.",
+  "merges": [],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

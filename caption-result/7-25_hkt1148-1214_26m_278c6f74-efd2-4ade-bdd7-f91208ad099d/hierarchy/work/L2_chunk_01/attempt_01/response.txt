@@ -1,0 +1,131 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group consecutive action_briefs into immediate tasks, separating distinct scooter maneuvers, app usage tasks, walking, and specific conversation topics or periods of monitoring the road during the car ride.",
+  "events": [
+    [
+      "0-15",
+      "I wait at the red light at the intersection on my electric scooter.",
+      "Task complete"
+    ],
+    [
+      "16-19",
+      "I message babe on WeChat about the electric scooter.",
+      "Task complete"
+    ],
+    [
+      "20-24",
+      "I cross the intersection on my electric scooter.",
+      "Task complete"
+    ],
+    [
+      "25-50",
+      "I ride my electric scooter along the Tanglu Highway bike lane.",
+      "Location change"
+    ],
+    [
+      "51-63",
+      "I ride my electric scooter over Chuangxin Road Bridge.",
+      "Maneuver complete"
+    ],
+    [
+      "64-87",
+      "I ride my electric scooter toward the residential complex.",
+      "Location change"
+    ],
+    [
+      "88-100",
+      "I park my electric scooter in the residential complex.",
+      "Task complete"
+    ],
+    [
+      "101-110",
+      "I initiate a charging session for my electric scooter.",
+      "Task complete"
+    ],
+    [
+      "111-121",
+      "I adjust the charging cable of my electric scooter.",
+      "Task complete"
+    ],
+    [
+      "122-129",
+      "I message babe on WeChat about a dog video.",
+      "Topic change"
+    ],
+    [
+      "130-131",
+      "I read babe's WeChat message suggesting a trip to Luyue.",
+      "Major trigger for new activity"
+    ],
+    [
+      "132-142",
+      "I book a ride-hailing car to Luyue Tiandi using Amap.",
+      "Task complete"
+    ],
+    [
+      "143-148",
+      "I inspect my electric scooter seat cushion.",
+      "Task complete"
+    ],
+    [
+      "149-161",
+      "I walk through the residential complex to the exit gate.",
+      "Task complete"
+    ],
+    [
+      "162-165",
+      "I board the ride-hailing car.",
+      "Task complete"
+    ],
+    [
+      "166-188",
+      "I listen to the driver discuss ride-hailing app dispatch mechanics.",
+      "Topic change"
+    ],
+    [
+      "189-198",
+      "I converse with the driver about a boy's mood.",
+      "Conversation ends"
+    ],
+    [
+      "199-228",
+      "I monitor the road from the passenger seat.",
+      "Driver initiates new topic"
+    ],
+    [
+      "229-233",
+      "I listen to the driver complain about ride-hailing orders and traffic.",
+      "Topic change"
+    ],
+    [
+      "234-237",
+      "I converse with the driver about Huangshan vegetable rice.",
+      "Conversation ends"
+    ],
+    [
+      "238-244",
+      "I monitor the road from the passenger seat.",
+      "Driver starts phone call"
+    ],
+    [
+      "245-247",
+      "I listen to the driver discuss meals on a phone call.",
+      "Phone call ends"
+    ],
+    [
+      "248-249",
+      "I ask the driver for our current location.",
+      "End of input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      10
+    ],
+    "boundary_cautions": []
+  }
+}
+```

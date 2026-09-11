@@ -1,0 +1,184 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous, fine-grained L1 actions into immediate tasks defined by singular goals, such as managing a device, riding a scooter through specific environments, walking through a mall, selecting a restaurant, ordering food, and chatting on a phone.",
+  "events": [
+    [
+      "0-1",
+      "I wrap a charging cable around my power bank.",
+      "Finishes cable management"
+    ],
+    [
+      "2-11",
+      "I descend the building stairs.",
+      "Finishes descending stairs to the ground floor"
+    ],
+    [
+      "12-16",
+      "I check WeChat messages on my smartphone.",
+      "Switches from messaging to the e-bike rental app"
+    ],
+    [
+      "17-20",
+      "I rent an electric scooter using the Hello E-Bike app.",
+      "Completes the rental process on the smartphone"
+    ],
+    [
+      "21-22",
+      "I prepare to ride the electric scooter.",
+      "Begins riding the scooter forward"
+    ],
+    [
+      "23-35",
+      "I ride the electric scooter out of the residential compound.",
+      "Transitions to riding on the street sidewalk"
+    ],
+    [
+      "36-39",
+      "I navigate the electric scooter from the sidewalk onto the road.",
+      "Transitions fully to riding on the asphalt road"
+    ],
+    [
+      "40-43",
+      "I ride the electric scooter across the intersection.",
+      "Clears the intersection"
+    ],
+    [
+      "44-52",
+      "I evaluate roadside restaurant options from my electric scooter.",
+      "Shifts focus back to riding along the street"
+    ],
+    [
+      "53-69",
+      "I ride the electric scooter along the street.",
+      "Arrives at the next intersection"
+    ],
+    [
+      "70",
+      "I ride the electric scooter across the intersection.",
+      "Clears the intersection"
+    ],
+    [
+      "71-82",
+      "I ride the electric scooter along the road.",
+      "Stops the scooter to dismount"
+    ],
+    [
+      "83-84",
+      "I dismount the electric scooter.",
+      "Finishes parking the scooter"
+    ],
+    [
+      "85-88",
+      "I prepare to cross the intersection.",
+      "Starts walking across the street"
+    ],
+    [
+      "89-97",
+      "I walk across the intersection zebra crossing.",
+      "Reaches the plaza sidewalk"
+    ],
+    [
+      "98-113",
+      "I walk across the outdoor mall plaza toward the entrance.",
+      "Reaches the mall glass doors"
+    ],
+    [
+      "114-116",
+      "I enter the mall lobby.",
+      "Enters the building interior"
+    ],
+    [
+      "117-124",
+      "I walk down the mall corridor past shops.",
+      "Starts a conversation about research ideas"
+    ],
+    [
+      "125-129",
+      "I discuss scientific research ideas.",
+      "Finishes the conversation and observes a specific shop"
+    ],
+    [
+      "130-132",
+      "I examine a gelato shop.",
+      "Moves to the descending escalator"
+    ],
+    [
+      "133-138",
+      "I ride the descending escalator to the lower floor.",
+      "Steps off the escalator"
+    ],
+    [
+      "139-146",
+      "I walk past various kiosks and restaurants in the mall.",
+      "Suggests a specific place to eat"
+    ],
+    [
+      "147-151",
+      "I evaluate the Zhang Qiansi restaurant menu.",
+      "Changes mind and continues walking"
+    ],
+    [
+      "152-165",
+      "I walk past various restaurants and kiosks in the mall.",
+      "Arrives at the final restaurant choice"
+    ],
+    [
+      "166-170",
+      "I approach an empty table at the Leifan restaurant.",
+      "Reaches the table and prepares to order"
+    ],
+    [
+      "171-176",
+      "I scan the table QR code to initiate my order.",
+      "Opens the digital menu to browse food"
+    ],
+    [
+      "177-186",
+      "I add a combination dish to my cart in the restaurant mini-program.",
+      "Proceeds to checkout"
+    ],
+    [
+      "187-194",
+      "I complete the payment for my order using WeChat Pay.",
+      "Payment is successful and interacts with staff"
+    ],
+    [
+      "195-196",
+      "I confirm my order with the restaurant staff.",
+      "Ends conversation and begins using phone"
+    ],
+    [
+      "197-217",
+      "I chat with Jiahao on WeChat about my plans and AI models.",
+      "Finishes chat and switches to reading Official Accounts"
+    ],
+    [
+      "218-230",
+      "I read tech articles in my WeChat Official Accounts feed.",
+      "Finishes reading and puts phone away"
+    ],
+    [
+      "231-236",
+      "I observe the mall surroundings from my restaurant table.",
+      "Staff approaches with the food"
+    ],
+    [
+      "237-238",
+      "I receive my meal from the restaurant staff.",
+      "Begins preparing to eat"
+    ],
+    [
+      "239-249",
+      "I prepare my food in the stone bowl.",
+      "End of input sequence"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

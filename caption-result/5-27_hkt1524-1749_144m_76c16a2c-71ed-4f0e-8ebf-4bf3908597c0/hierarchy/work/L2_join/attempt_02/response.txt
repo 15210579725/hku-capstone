@@ -1,0 +1,18 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible batch-edge pairs to determine if they represent the exact same immediate task (e.g., a single physical action or continuous identical conversation topic) continuing across the boundary. Only merge if the action is uninterrupted and semantically identical.",
+  "merges": [
+    [
+      84,
+      85,
+      "I prepare and add Napa cabbage to the frying pan.",
+      "The task of preparing and placing the Napa cabbage into the pan continues directly across the batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

@@ -1,0 +1,114 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group action briefs into immediate tasks based on continuous movement, tool usage, or sustained conversational topics, boundarying when the primary focus, location, or subject of discussion shifts significantly.",
+  "events": [
+    [
+      "500-519",
+      "I walk along the road under an umbrella amidst banter with my companion about how I hold it.",
+      "Conversation shifts from umbrella handling to observing surroundings."
+    ],
+    [
+      "520-531",
+      "I joke about the rain and our surroundings with my companion during our walk.",
+      "Conversation shifts to photography composition and flowers."
+    ],
+    [
+      "532-545",
+      "I discuss photography composition and a discarded snail with my companion along the flower path.",
+      "Pass an observation cabin and change conversation topic."
+    ],
+    [
+      "546-553",
+      "I discuss the people inside an observation cabin with my companion as we walk past.",
+      "Arrive at the porch."
+    ],
+    [
+      "554-556",
+      "I fold my collapsed umbrella upon entering the porch.",
+      "Enter the bathroom."
+    ],
+    [
+      "557-571",
+      "I rinse my sandals in the bathroom shower despite my companion's complaints about wetting the floor.",
+      "Finish rinsing sandals and move to the living area."
+    ],
+    [
+      "572-577",
+      "I relocate to the bar counter after telling my companion to start packing.",
+      "Sit down to use the MacBook."
+    ],
+    [
+      "578-585",
+      "I review data payload logs and a terminal traceback error on my MacBook.",
+      "Start conversing with companion about tickets and departure."
+    ],
+    [
+      "586-628",
+      "I coordinate our departure time and drifting ticket options based on my companion's Xiaohongshu search.",
+      "Finish departure discussion and move upstairs."
+    ],
+    [
+      "629-646",
+      "I ascend the spiral staircase to the loft to open the glass doors to the balcony.",
+      "Reach the balcony and turn attention to the loft interior."
+    ],
+    [
+      "647-658",
+      "I adjust the loft's sliding doors and window blinds to observe the misty pond.",
+      "Finish adjusting blinds and focus on charging phone."
+    ],
+    [
+      "659-668",
+      "I connect my phone to a power bank to charge.",
+      "Finish connecting phone and look out the window."
+    ],
+    [
+      "669-674",
+      "I admire the outside view through the upstairs windows.",
+      "Pick up the iPad to browse."
+    ],
+    [
+      "675-690",
+      "I review Xiaohongshu and alphaxiv paper titles on my iPad.",
+      "Put down the iPad and observe the rain."
+    ],
+    [
+      "691-701",
+      "I inspect the wet balcony and rainy forest through the sliding glass door.",
+      "Leave the window and walk downstairs."
+    ],
+    [
+      "702-706",
+      "I descend the spiral staircase to the study nook.",
+      "Reach the downstairs living area."
+    ],
+    [
+      "707-724",
+      "I joke with my companion about their blue pouch and my reliance on a power bank.",
+      "Shift from joking about belongings to a playful Q&A."
+    ],
+    [
+      "725-737",
+      "I answer my companion's playful questions about missing our time together.",
+      "Finish the Q&A and silently watch the rain."
+    ],
+    [
+      "738-745",
+      "I gaze at the rain falling in the garden.",
+      "Resume conversation about packing for the car."
+    ],
+    [
+      "746-749",
+      "I ask my companion about essential items to pack for the car.",
+      "End of provided sequence."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,167 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group brief actions into immediate tasks, distinguishing browsing, item selection, checkout, eating phases, cleanup, unlocking the vehicle, and distinct riding segments defined by major road features or intersections.",
+  "events": [
+    [
+      "0-16",
+      "I browse the bakery and deli selections in the supermarket.",
+      "Browsing phase concludes before specific item selection"
+    ],
+    [
+      "17-23",
+      "I select a box of Swiss rolls from the dessert chiller.",
+      "Item retrieval completes"
+    ],
+    [
+      "24-28",
+      "I walk through the supermarket aisles to the self-checkout stations.",
+      "Arrival at checkout area"
+    ],
+    [
+      "29-34",
+      "I purchase the Swiss rolls at the self-checkout kiosk using Alipay.",
+      "Transaction completes"
+    ],
+    [
+      "35",
+      "I exclaim in frustration.",
+      "Standalone frustration trigger"
+    ],
+    [
+      "36-46",
+      "I walk through the mall corridor.",
+      "Transit phase concludes before container interaction"
+    ],
+    [
+      "47-52",
+      "I peel a label off the Swiss roll container in the mall corridor.",
+      "Label removal task completes"
+    ],
+    [
+      "53-61",
+      "I eat a slice of Swiss roll on the mall stairs and escalator.",
+      "Eating sequence concludes upon exiting the mall"
+    ],
+    [
+      "62-67",
+      "I exit the mall into the outdoor plaza.",
+      "Arrival in outdoor plaza"
+    ],
+    [
+      "68-76",
+      "I inspect the unwrapped Swiss roll slices inside the container.",
+      "Inspection task completes"
+    ],
+    [
+      "77-85",
+      "I observe pedestrians and parked scooters in the plaza.",
+      "Observation phase concludes before moving to scooter"
+    ],
+    [
+      "86-99",
+      "I eat a slice of Swiss roll seated on a parked electric scooter.",
+      "Eating on scooter concludes"
+    ],
+    [
+      "100-107",
+      "I discard my wrapper trash in a public bin.",
+      "Cleanup and disposal task completes"
+    ],
+    [
+      "108-113",
+      "I pack the Swiss roll container into the front basket of my electric scooter.",
+      "Packing task completes"
+    ],
+    [
+      "114-117",
+      "I activate a rented Hello e-bike using my smartphone.",
+      "Activation task completes"
+    ],
+    [
+      "118-130",
+      "I merge the e-bike onto Tang'an Road.",
+      "Initial riding segment concludes before verbal trigger"
+    ],
+    [
+      "131",
+      "I complain about a traffic police officer.",
+      "Standalone verbal trigger"
+    ],
+    [
+      "132-137",
+      "I ride the e-bike past storefronts and parked vehicles on the street.",
+      "Street riding segment concludes before intersection"
+    ],
+    [
+      "138-143",
+      "I navigate the e-bike across a pedestrian intersection.",
+      "Intersection crossing completes"
+    ],
+    [
+      "144-152",
+      "I ride the e-bike along a commercial street toward a junction.",
+      "Riding segment concludes at junction"
+    ],
+    [
+      "153-159",
+      "I ride the e-bike past commercial storefronts toward Nanxinbang Bridge.",
+      "Riding segment concludes before entering protected bike lane"
+    ],
+    [
+      "160-175",
+      "I follow other riders along the tree-lined bike lane.",
+      "Bike lane riding concludes at major intersection"
+    ],
+    [
+      "176-189",
+      "I navigate the e-bike across the intersection after yielding to cross traffic.",
+      "Intersection crossing completes"
+    ],
+    [
+      "190-202",
+      "I ride the e-bike along the bike lane past a bus stop.",
+      "Bike lane riding concludes before intersection"
+    ],
+    [
+      "203-207",
+      "I ride the e-bike over Yuputang Bridge.",
+      "Bridge crossing completes"
+    ],
+    [
+      "208-216",
+      "I ride the e-bike over the Chuanyang River Bridge.",
+      "Major bridge crossing completes"
+    ],
+    [
+      "217-225",
+      "I follow a cargo cart on the e-bike along the ground-level road.",
+      "Ground riding concludes before underpass intersection"
+    ],
+    [
+      "226-231",
+      "I ride the e-bike through an intersection under an overpass.",
+      "Intersection crossing completes"
+    ],
+    [
+      "232-243",
+      "I ride the e-bike along the fenced bike lane on Tanghuang Road.",
+      "Bike lane riding concludes before turn"
+    ],
+    [
+      "244-249",
+      "I ride the e-bike down the road past parked trucks.",
+      "End of input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      35,
+      131
+    ],
+    "boundary_cautions": []
+  }
+}
+```

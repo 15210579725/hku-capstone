@@ -1,0 +1,66 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group atomic actions into immediate functional tasks such as transit segments, device interactions, and distinct physical activities (e.g., filling individual water bottles), ensuring each task expresses a single unified objective without using conjunctions.",
+  "events": [
+    [
+      "0-4",
+      "I board elevator 17 for the 9th floor.",
+      "Elevator entry and destination selection complete"
+    ],
+    [
+      "5-7",
+      "I use my iPhone.",
+      "Phone usage ends as elevator arrives"
+    ],
+    [
+      "8-11",
+      "I walk from the elevator into the office.",
+      "Arrival at the office desk"
+    ],
+    [
+      "12",
+      "I glance at my laptop.",
+      "Laptop observation complete"
+    ],
+    [
+      "13-17",
+      "I exit the office into the hallway.",
+      "Transit out of the office space complete"
+    ],
+    [
+      "18-23",
+      "I fill a glass bottle with water at the pantry dispenser.",
+      "First bottle filling complete"
+    ],
+    [
+      "24",
+      "I say '我总是觉得，这个世界是个很奇怪的地方。'",
+      "Speech phrase complete"
+    ],
+    [
+      "25-31",
+      "I fill a second glass bottle with water at the dispenser.",
+      "Second bottle filling complete"
+    ],
+    [
+      "32-34",
+      "I inspect a water puddle on the pantry floor.",
+      "Observation of the puddle complete"
+    ],
+    [
+      "35-40",
+      "I walk down the corridor toward the restroom.",
+      "Transit segment reaches the restroom turn"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": [
+      "Speech at 24 naturally separates the filling of two distinct water bottles into separate immediate tasks."
+    ]
+  }
+}
+```

@@ -1,0 +1,41 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group continuous work periods and excursions into broader phases. Abstract the break and lunch excursions to include their respective transit and minor preparation steps, while isolating the lunch agreement as a major behavior-changing trigger.",
+  "events": [
+    [
+      "0",
+      "I manage AI model pipelines and privacy automation tasks at my workstation.",
+      "Distinct continuous work phase"
+    ],
+    [
+      "1-3",
+      "I take a break in the atrium lounge.",
+      "Complete break excursion including round-trip transit"
+    ],
+    [
+      "4",
+      "I review model dataset evaluations and checkpoint metrics at my desk.",
+      "Distinct continuous work phase following the break"
+    ],
+    [
+      "5",
+      "I agree to join my colleagues for lunch.",
+      "Standalone major behavior-changing trigger redirecting to a new activity"
+    ],
+    [
+      "6-10",
+      "I have lunch with my colleagues at the cafeteria.",
+      "Unified lunch excursion encompassing incidental preparation, transit, purchase, and return"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      5
+    ],
+    "boundary_cautions": []
+  }
+}
+```

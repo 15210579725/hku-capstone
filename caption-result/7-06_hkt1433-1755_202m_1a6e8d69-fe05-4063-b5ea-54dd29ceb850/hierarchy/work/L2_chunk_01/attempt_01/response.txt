@@ -1,0 +1,136 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks, separated by clear changes in goal, application, or physical location. Maintain concrete details like app names, prices, and document subjects.",
+  "events": [
+    [
+      "0-3",
+      "I ride the elevator to the 9th floor.",
+      "Arrived at the 9th floor"
+    ],
+    [
+      "4-11",
+      "I walk through the 9th floor office and corridors toward the pantry.",
+      "Arrived at the pantry"
+    ],
+    [
+      "12-26",
+      "I fill my bottles at the pantry beverage station.",
+      "Finished getting water"
+    ],
+    [
+      "27-40",
+      "I return through the corridors to my desk.",
+      "Arrived at desk"
+    ],
+    [
+      "41-43",
+      "I prepare my laptop and water bottle at my desk.",
+      "Setup complete"
+    ],
+    [
+      "44",
+      "I check WeChat messages.",
+      "Switched to lecture video"
+    ],
+    [
+      "45-48",
+      "I watch the CS 285 offline reinforcement learning lecture video.",
+      "Switched to group chat"
+    ],
+    [
+      "49",
+      "I check the Lian Group chat on WeChat.",
+      "Opened shopping app"
+    ],
+    [
+      "50-74",
+      "I browse Type-C earphone listings on the Meituan app.",
+      "Interrupted by incoming phone call"
+    ],
+    [
+      "75-77",
+      "I answer an incoming phone call.",
+      "Call ended"
+    ],
+    [
+      "78-100",
+      "I review specifications for wired Type-C earphones on the Meituan app.",
+      "Moved to add-on items"
+    ],
+    [
+      "101-113",
+      "I add a nail clipper, tissues, and a pen to my Meituan cart as add-on items.",
+      "Proceeded to address entry"
+    ],
+    [
+      "114-129",
+      "I provide the delivery address for my Meituan order.",
+      "Proceeded to checkout"
+    ],
+    [
+      "130-132",
+      "I pay ¥21.10 for my Meituan order.",
+      "Order complete"
+    ],
+    [
+      "133-150",
+      "I review Calendly meeting slots via an email link.",
+      "Switched to Calendar app"
+    ],
+    [
+      "151-159",
+      "I review my schedule on the Calendar app.",
+      "Switched to specific event details"
+    ],
+    [
+      "160-162",
+      "I read the July 6 Departmental Seminar details in the Calendar app.",
+      "Switched to emails"
+    ],
+    [
+      "163-166",
+      "I read upcoming seminar emails from User Y.",
+      "Switched to lab meeting emails"
+    ],
+    [
+      "167-184",
+      "I review MAC Lab Meeting emails and calendar events.",
+      "Switched to today's seminar emails"
+    ],
+    [
+      "185-188",
+      "I read departmental seminar emails for the Zoom meeting details.",
+      "Clicked Zoom link"
+    ],
+    [
+      "189-201",
+      "I join the Recursive Mentalization departmental seminar on Zoom.",
+      "Zoom connected"
+    ],
+    [
+      "202-210",
+      "I wait for the Zoom seminar to launch.",
+      "Switched to code review"
+    ],
+    [
+      "211-218",
+      "I review the IQLAgent code in the CS285 VS Code workspace.",
+      "Opened homework PDF"
+    ],
+    [
+      "219-249",
+      "I study the Implicit Q-Learning implementation and loss functions in the CS285 homework PDF.",
+      "End of provided events"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "75-77"
+    ],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,99 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions with a single immediate goal into tasks based on changes in interaction target (e.g., from notepad to laptop), application (e.g., from PDF to ChatGPT to web browsing), or physical activity (e.g., standing up, resting).",
+  "events": [
+    [
+      "500-530",
+      "I write singular value decomposition matrix calculations on my notepad.",
+      "Finishes writing math and sets down the pen."
+    ],
+    [
+      "531-537",
+      "I read a PDF document on my MacBook.",
+      "Switches to interacting with ChatGPT."
+    ],
+    [
+      "538-539",
+      "I prompt ChatGPT to write down the SVD decomposition for X.",
+      "Switches to opening a new web tab."
+    ],
+    [
+      "540-590",
+      "I navigate to the Apple website and browse MacBook Air features and specifications.",
+      "Switches from MacBook pages to Apple Watch pages."
+    ],
+    [
+      "591-596",
+      "I browse Apple Watch models and bands on the Apple website.",
+      "Stops browsing to stand up and speak."
+    ],
+    [
+      "597-601",
+      "I speak and stand up from the bed.",
+      "Sits down to massage foot."
+    ],
+    [
+      "602-608",
+      "I sit beside my bed and massage my left foot.",
+      "Reaches toward the laptop to resume browsing."
+    ],
+    [
+      "609-616",
+      "I view the Apple Watch webpage, stand up, gesture, and speak.",
+      "Stops speaking to actively browse features again."
+    ],
+    [
+      "617-640",
+      "I browse the Apple Watch Series 11 bands and health features on the Apple website.",
+      "Looks away from the screen to the study desk."
+    ],
+    [
+      "641-643",
+      "I examine my study desk and touch a spray bottle.",
+      "Returns attention to the Apple website."
+    ],
+    [
+      "644-678",
+      "I browse Apple Watch fall detection features and various bands on the Apple website.",
+      "Navigates away from Apple Watch to Apple Music."
+    ],
+    [
+      "679-685",
+      "I navigate to and browse the Apple Music webpage.",
+      "Switches back to academic materials."
+    ],
+    [
+      "686-694",
+      "I review an SVD assignment and lecture PDF on my laptop.",
+      "Switches to reading explanations in ChatGPT."
+    ],
+    [
+      "695-703",
+      "I read SVD derivations and Compact SVD explanations in ChatGPT.",
+      "Turns attention to the notepad to write."
+    ],
+    [
+      "704-726",
+      "I write mathematical matrix calculations on my notepad while checking my laptop screen.",
+      "Pauses writing to rest hand and monitor screen."
+    ],
+    [
+      "727-742",
+      "I rest my hand and monitor my laptop screen.",
+      "Picks up the pen to resume writing."
+    ],
+    [
+      "743-749",
+      "I write mathematical formulas on my notepad.",
+      "End of input."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

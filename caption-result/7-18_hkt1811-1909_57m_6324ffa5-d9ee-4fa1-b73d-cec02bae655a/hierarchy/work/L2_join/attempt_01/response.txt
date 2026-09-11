@@ -1,0 +1,30 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible pairs for continuation of the exact same immediate task across batch boundaries.",
+  "merges": [
+    [
+      24,
+      25,
+      "I browse oral care products including toothbrushes and toothpastes.",
+      "Same toothpaste browsing task continues across batch edge"
+    ],
+    [
+      45,
+      46,
+      "I chat with babe on WeChat about a BBQ.",
+      "Same WeChat conversation continues across batch edge"
+    ],
+    [
+      62,
+      63,
+      "I watch short videos on a Xiaomi MIX Fold 4.",
+      "Same short video watching task continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

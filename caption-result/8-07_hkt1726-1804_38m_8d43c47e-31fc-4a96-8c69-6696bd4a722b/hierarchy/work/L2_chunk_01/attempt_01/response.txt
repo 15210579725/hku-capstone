@@ -1,0 +1,144 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group atomic actions into immediate tasks based on a single unified objective, such as navigating, messaging, reading specific documents/articles, or discussing a particular topic. Abstract incidental device handling, glances, or brief pauses into their overarching task.",
+  "events": [
+    [
+      "0-0",
+      "I walk across the atrium.",
+      "Task completion"
+    ],
+    [
+      "1-5",
+      "I message User A on WeChat.",
+      "Activity shift"
+    ],
+    [
+      "6-10",
+      "I gaze out the window at the atrium lounge.",
+      "Location change"
+    ],
+    [
+      "11-19",
+      "I return to my workstation.",
+      "Arrival at desk"
+    ],
+    [
+      "20-22",
+      "I read the ChatGPT evaluation scripts on my laptop.",
+      "Shift to conversation"
+    ],
+    [
+      "23-28",
+      "I converse with my colleague.",
+      "Shift to phone"
+    ],
+    [
+      "29-41",
+      "I chat with User X and User A on WeChat.",
+      "Topic change"
+    ],
+    [
+      "42-75",
+      "I read an APPSO article about AI hardware on my smartphone.",
+      "Article reading ends"
+    ],
+    [
+      "76-79",
+      "I browse my WeChat subscription feed.",
+      "Phone put away"
+    ],
+    [
+      "80-87",
+      "I discuss an API setup with my colleague at his desk.",
+      "Conversation ends"
+    ],
+    [
+      "88-92",
+      "I read the rebuttal draft on my laptop.",
+      "Shift to search"
+    ],
+    [
+      "93-108",
+      "I review a faculty publication list about facial expression recognition.",
+      "Shift to OpenReview"
+    ],
+    [
+      "109-129",
+      "I read the OpenReview rebuttal on computational overhead.",
+      "Shift to conversation"
+    ],
+    [
+      "130-147",
+      "I discuss time models and autoregressive stopping criteria with my colleague.",
+      "Conversation topic ends"
+    ],
+    [
+      "148-161",
+      "I read OpenReview reviewer comments and acknowledgments.",
+      "Conversation resumes"
+    ],
+    [
+      "162-166",
+      "I discuss classification heads with my colleague.",
+      "Conversation ends"
+    ],
+    [
+      "167-177",
+      "I read the OpenReview paper review and empirical analysis.",
+      "Shift to chair adjustment"
+    ],
+    [
+      "178-185",
+      "I adjust my office chair.",
+      "Shift to laptop cooler"
+    ],
+    [
+      "186-189",
+      "I adjust my laptop cooling stand.",
+      "Shift to reading"
+    ],
+    [
+      "190-212",
+      "I read paper abstracts and method descriptions on OpenReview.",
+      "Shift to colleague interaction"
+    ],
+    [
+      "213-218",
+      "I stand up from my desk.",
+      "Shift to laptop"
+    ],
+    [
+      "219-220",
+      "I review the ChatGPT evaluation smoke test on my laptop.",
+      "Shift to leaving"
+    ],
+    [
+      "221-227",
+      "I walk to the elevator.",
+      "Enters elevator"
+    ],
+    [
+      "228-231",
+      "I ride the elevator.",
+      "Begins conversation"
+    ],
+    [
+      "232-234",
+      "I discuss evaluation rounds with my companion.",
+      "Exits elevator"
+    ],
+    [
+      "235-249",
+      "I walk through the underground parking garage to the building entrance.",
+      "End of input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,37 +1,31 @@
 ```json
 {
   "target_level": "L2_JOIN",
-  "plan": "Evaluate each eligible boundary pair to determine if the exact same immediate task continues across the batch edge. Merge continuous short video viewing sessions, continuous boarding actions, single prompts spanning a boundary, and continuous handwriting sessions. Keep distinct tasks and separate long-form videos apart.",
+  "plan": "Evaluate each eligible pair to determine if the same immediate task continues across the batch boundary. Pairs continuing the exact same video topic, boarding sequence, or specific note-taking/querying task will be merged. Pairs transitioning between different video topics or discrete actions will remain separate.",
   "merges": [
     [
-      22,
-      23,
-      "I watch short videos about Porsche Panameras on my smartphone while eating.",
-      "Same task of watching Panamera short videos continues across batch edge"
+      24,
+      25,
+      "I watch a short video about a Panamera car while eating my meal.",
+      "Same Panamera video watching and eating task continues across batch edge"
     ],
     [
-      54,
-      55,
+      57,
+      58,
       "I board a double-decker tram and take a seat on the upper deck.",
-      "Continuous sequence of boarding and sitting on the tram"
+      "Same tram boarding and seating sequence continues across batch edge"
     ],
     [
-      118,
-      119,
-      "I browse and watch short videos on my smartphone.",
-      "Continuous session of browsing short videos continues across batch edge"
+      139,
+      140,
+      "I start a new chat query and submit a prompt in ChatGPT.",
+      "Same ChatGPT query submission task continues across batch edge"
     ],
     [
-      141,
-      142,
-      "I initiate and submit a new query to ChatGPT on my laptop.",
-      "Typing and submitting a single ChatGPT query continues across batch edge"
-    ],
-    [
-      164,
-      165,
-      "I write handwritten mathematical notes and equations for diffusion models.",
-      "Continuous task of writing diffusion model notes by hand continues across batch edge"
+      159,
+      160,
+      "I write and sketch DDPM and DDIM diffusion model notes and diagrams on a notepad.",
+      "Same continuous diffusion model note-taking task across batch edge"
     ]
   ],
   "audit": {

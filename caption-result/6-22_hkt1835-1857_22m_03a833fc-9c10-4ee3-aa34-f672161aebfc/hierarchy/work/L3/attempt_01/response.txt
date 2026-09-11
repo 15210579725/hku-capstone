@@ -1,0 +1,59 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group immediate transit and walking tasks into coherent episodes defined by the primary transit leg or location, such as crossing the footbridge, exploring the concourse, traversing the hillside, and visiting the drinking fountain.",
+  "events": [
+    [
+      "0-2",
+      "I discuss travel plans to Vietnam with my companion during our walk along the outdoor sidewalk and stairs.",
+      "Groups initial sidewalk walking and travel discussion prior to reaching the footbridge"
+    ],
+    [
+      "3-6",
+      "I traverse the footbridge, stairs, and outdoor elevator to reach the courtyard.",
+      "Groups the footbridge and associated elevator transit segment"
+    ],
+    [
+      "7-9",
+      "I access the fifth-floor covered walkway via the courtyard and building elevator.",
+      "Groups courtyard crossing and building entry to reach the concourse"
+    ],
+    [
+      "10-14",
+      "I survey concourse amenities including a Subway restaurant and vending machines during my walk along the covered walkway.",
+      "Groups the concourse exploration and observation of local amenities"
+    ],
+    [
+      "15-18",
+      "I return to the outdoor paved walkway by exiting the building via the elevator and outdoor escalator.",
+      "Groups the building exit and descent to the outdoor pathways"
+    ],
+    [
+      "19-24",
+      "I traverse the hillside pathways, stairs, and road intersections alongside my companion.",
+      "Groups the navigation of hillside outdoor terrain"
+    ],
+    [
+      "25-28",
+      "I walk along the sidewalk to the residential building during conversations about hygiene and passing dogs.",
+      "Groups the sidewalk transit and associated observations"
+    ],
+    [
+      "29-35",
+      "I approach the pavilion drinking fountain by navigating the park trail and footbridge with my companion.",
+      "Groups the trail navigation targeted at reaching the fountain destination"
+    ],
+    [
+      "36-37",
+      "I utilize the drinking fountain for personal hydration and filling User A's cup and my water bottle.",
+      "Groups the fountain usage for drinking and filling containers"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

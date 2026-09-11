@@ -1,0 +1,29 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group L3 episodes into broader journey phases: departing the apartment for the station, the main train commute, and final navigation from the station to the destination.",
+  "events": [
+    [
+      "0-2",
+      "I travel from my apartment to the transit station.",
+      "Arrival at the transit station"
+    ],
+    [
+      "3-6",
+      "I commute via multiple trains towards '高雅大厦'.",
+      "Arrival at the destination station"
+    ],
+    [
+      "7-8",
+      "I navigate from the transit station to my apartment viewing at the Goa Building.",
+      "Arrival at the apartment viewing"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

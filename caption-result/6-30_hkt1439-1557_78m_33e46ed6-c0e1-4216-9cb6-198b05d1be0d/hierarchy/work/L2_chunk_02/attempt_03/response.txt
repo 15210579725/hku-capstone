@@ -1,0 +1,52 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous driving segments interspersed with distinct conversational utterances, navigation checks, and a major pullover event to retrieve clothing from the trunk. Immediate tasks are bounded by shifts between driving, specific dialogue, and physical tasks outside the vehicle.",
+  "events": [
+    ["250-259", "I drive towards the karst mountains.", "Continuous driving phase"],
+    ["260-262", "I check the phone navigation and roadside signs.", "Brief orientation task"],
+    ["263-270", "I drive along the rural road.", "Continuous driving phase"],
+    ["271-274", "I check the roadside signs and phone navigation.", "Brief orientation task"],
+    ["275-284", "I drive along the rural road.", "Continuous driving phase"],
+    ["285-287", "I question the song's original singer and adaptation.", "Conversational topic"],
+    ["288-290", "I drive along the road.", "Continuous driving phase"],
+    ["291", "I suggest listening to the JJ Lin version of the song.", "Conversational utterance"],
+    ["292-308", "I drive toward the karst mountains.", "Continuous driving phase"],
+    ["309", "I note the original singer is female.", "Conversational utterance"],
+    ["310-317", "I follow a scooter along the road.", "Continuous driving phase"],
+    ["318", "I hear my passenger confirm the singer is female.", "Conversational utterance"],
+    ["319-329", "I drive along the guardrail-lined road.", "Continuous driving phase"],
+    ["330", "I hear a suggestion to sing directly.", "Conversational utterance"],
+    ["331-336", "I drive past a roadside store.", "Continuous driving phase"],
+    ["337", "I mention a female singer.", "Conversational utterance"],
+    ["338-343", "I drive along the road.", "Continuous driving phase"],
+    ["344-345", "I listen to my passenger analyze the singer's vocal performance.", "Conversational topic"],
+    ["346-348", "I drive along the winding mountain road.", "Continuous driving phase"],
+    ["349-350", "I discuss the song 'King of K-Pop'.", "Conversational topic"],
+    ["351-353", "I decelerate to follow a silver car.", "Driving maneuver"],
+    ["354", "I express feeling conflicted.", "Conversational utterance"],
+    ["355-365", "I drive through a mountain tunnel.", "Distinct driving segment"],
+    ["366-373", "I decelerate for oncoming vehicles.", "Driving maneuver"],
+    ["374-394", "I drive along the rural road.", "Continuous driving phase"],
+    ["395", "I hear a question about my location.", "Conversational utterance"],
+    ["396-413", "I navigate through an intersection.", "Distinct driving maneuver"],
+    ["414", "I reply in the negative.", "Conversational utterance"],
+    ["415-425", "I follow a red car along the road.", "Continuous driving phase"],
+    ["426-428", "I discuss needing to put on clothes due to a sticky seat.", "Trigger for stopping"],
+    ["429-431", "I open the car door to exit.", "Vehicle exit task"],
+    ["432-447", "I put on a black shirt from my suitcase in the trunk.", "Clothing change task"],
+    ["448-449", "I return to the driver's seat.", "Vehicle entry task"],
+    ["450-468", "I set the navigation route to Daxin Yue Shanshui Homestay on my phone.", "Navigation setup task"],
+    ["469-472", "I discuss the climate controls with my passenger.", "Conversational topic"],
+    ["473-487", "I drive along the rural road.", "Continuous driving phase"],
+    ["488", "I complain about another driver's lane positioning.", "Conversational utterance"],
+    ["489-499", "I drive along the rural road.", "Continuous driving phase"]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [29],
+    "boundary_cautions": []
+  }
+}
+```

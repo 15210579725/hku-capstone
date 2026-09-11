@@ -1,0 +1,109 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "I will group the observations into immediate tasks based on continuous goals. The user eats takeout food while watching a drama on their laptop, with boundaries naturally marked by distinct conversational topics (e.g., the video player, food order, taste, and sleeping arrangements). Other immediate tasks involve specific discrete actions like messaging an auntie about bed arrangements, opening a drink, sending a birthday voice message, cleaning up the meal, and checking their phone while moving to the bedroom.",
+  "events": [
+    [
+      "500-509",
+      "I examine the takeout food and discuss the beef brisket with my companion.",
+      "I begin eating."
+    ],
+    [
+      "510-563",
+      "I eat takeout food while watching a drama on my laptop.",
+      "I start a conversation about the video player."
+    ],
+    [
+      "564-570",
+      "I converse with my companion about refreshing the video page.",
+      "The conversation ends and I resume eating."
+    ],
+    [
+      "571-608",
+      "I eat takeout food while watching the drama on my laptop.",
+      "My companion initiates a conversation about the food order."
+    ],
+    [
+      "609-629",
+      "I discuss the food order and the stir-fried pork with my companion while eating.",
+      "The conversation concludes and I focus on eating."
+    ],
+    [
+      "630-634",
+      "I eat takeout food while watching the drama on my laptop.",
+      "I ask my companion why they are not eating."
+    ],
+    [
+      "635-645",
+      "I discuss the food's taste with my companion while eating and stacking a container.",
+      "I finish stacking the container and focus on the video."
+    ],
+    [
+      "646-651",
+      "I watch the drama on my laptop.",
+      "I engage in a conversation with an auntie."
+    ],
+    [
+      "652-654",
+      "I communicate with an auntie about bed arrangements and offer my help.",
+      "I finish talking to the auntie and turn back to my companion."
+    ],
+    [
+      "655-664",
+      "I converse with my companion about sleeping while watching the drama on my laptop.",
+      "I start a conversation about a drink."
+    ],
+    [
+      "665-673",
+      "I converse with my companion and open a carton of winter melon drink.",
+      "I finish opening the drink and focus on the video."
+    ],
+    [
+      "674-679",
+      "I watch the drama on my laptop.",
+      "I record a voice message."
+    ],
+    [
+      "680-684",
+      "I send a birthday greeting voice message to my mom.",
+      "I finish the voice message and return to my meal."
+    ],
+    [
+      "685-697",
+      "I eat takeout food and converse with my companion about the food and the video's romantic scene.",
+      "I instruct my companion to change the video speed."
+    ],
+    [
+      "698-714",
+      "I instruct my companion to speed up the video and eat takeout food while watching.",
+      "I initiate a conversation about the meal."
+    ],
+    [
+      "715-722",
+      "I converse with my companion about the meal and suggest going to Chimelong.",
+      "I start cleaning up the table."
+    ],
+    [
+      "723-736",
+      "I tidy up the leftover takeout containers into a plastic bag.",
+      "I finish cleaning and start using my phone."
+    ],
+    [
+      "737-741",
+      "I check WeChat messages and read a Xiaohongshu PhD admissions post on my phone while walking through the bedroom.",
+      "I start a conversation in the bathroom."
+    ],
+    [
+      "742-749",
+      "I converse with my companion about a hanging brush near the washbasin.",
+      "End of input batch."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

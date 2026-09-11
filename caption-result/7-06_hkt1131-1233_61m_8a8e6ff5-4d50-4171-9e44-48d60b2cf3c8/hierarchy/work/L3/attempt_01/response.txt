@@ -1,0 +1,52 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group L2 tasks into coherent activity episodes based on major location changes and primary goals: working at the desk, traveling to the cafeteria, purchasing food, eating, relocating to a lounge, relaxing on the phone, and relocating for sleep.",
+  "events": [
+    [
+      "0-13",
+      "I document video dataset annotations in Apple Notes and VS Code.",
+      "Leaves the desk to travel to the cafeteria."
+    ],
+    [
+      "14-19",
+      "I walk from the office to the basement cafeteria.",
+      "Arrives at the cafeteria food stalls."
+    ],
+    [
+      "20-28",
+      "I purchase side dishes and scallion noodles at the cafeteria food stalls.",
+      "Completes food purchases and goes to find a seat."
+    ],
+    [
+      "29-46",
+      "I eat my scallion noodles and side dishes during my companions' discussion of academic and technical topics.",
+      "Finishes the meal and leaves the table."
+    ],
+    [
+      "47-57",
+      "I travel from the cafeteria to a lounge seating area with my companions.",
+      "Sits down at the lounge table."
+    ],
+    [
+      "58-69",
+      "I browse WeChat and Bilibili on my phone.",
+      "Abandons phone browsing due to noise."
+    ],
+    [
+      "70-76",
+      "I relocate to a quiet area for sleep.",
+      "End of video clip."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "48: Suggesting to avoid the heat triggers moving from the cafeteria to the indoor lounge.",
+      "71: Complaining about noise triggers abandoning the lounge to find a quiet place to sleep."
+    ],
+    "boundary_cautions": []
+  }
+}
+```

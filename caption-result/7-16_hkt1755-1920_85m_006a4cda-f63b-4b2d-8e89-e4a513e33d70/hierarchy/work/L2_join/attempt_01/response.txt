@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Review eligible boundary pairs to determine if they represent the exact same immediate task interrupted by a transport batch edge. Pair [14, 15] is a continuous walking conversation in the parking garage. Pair [39, 40] transitions from tracking evaluation in VS Code to reviewing tables in Feishu; these are distinct tasks and should not be merged. Pair [54, 55] is a continuous task of editing the same Feishu document.",
+  "merges": [
+    [
+      14,
+      15,
+      "I walk through the parking garage while conversing with my companion about the wiring connection.",
+      "Walking conversation continues across batch edge"
+    ],
+    [
+      54,
+      55,
+      "I cross-reference benchmark results and edit the Feishu wiki document.",
+      "Editing the Feishu document continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

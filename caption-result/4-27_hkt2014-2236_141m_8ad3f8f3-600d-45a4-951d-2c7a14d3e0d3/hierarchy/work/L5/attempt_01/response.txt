@@ -1,3 +1,24 @@
 ```json
-{"target_level":"L5","plan":"Group academic tasks by their major overarching goals. ARIN7600 capstone research and application steps are merged into a single major activity despite a location change, while the distinct PhD advisor research remains separate to preserve specific academic document subjects.","events":[["0-1","I complete the application process and related administration for my ARIN7600 capstone project.","Shift to a distinct academic planning goal"],["2","I research potential PhD advisors to update my PhD research planning document.","End of recording"]],"audit":{"complete":true,"uncertainties":[],"major_triggers":[],"boundary_cautions":[]}}
+{
+  "target_level": "L5",
+  "plan": "Group ARIN7600 capstone work, including library research, transit home, and application completion, into one major activity. Keep the subsequent distinct focus on PhD advisor research as a separate major activity.",
+  "events": [
+    [
+      "0-2",
+      "I work on my ARIN7600 capstone project.",
+      "Shift from capstone project to PhD advisor research"
+    ],
+    [
+      "3",
+      "I research potential PhD advisors and academic opportunities using AI tools.",
+      "End of recording"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
 ```

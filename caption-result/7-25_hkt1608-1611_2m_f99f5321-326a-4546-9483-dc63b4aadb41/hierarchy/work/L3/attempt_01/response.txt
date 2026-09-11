@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group continuous walking and navigation through the parking lot, street, market corridor, and plaza into a single transit episode, abstracting incidental observations. Isolate the arrival at the restroom and hand washing into a distinct hygiene episode.",
+  "events": [
+    [
+      "0-3",
+      "I navigate through the parking lot, streets, and market plaza.",
+      "Continuous walking and navigation through connected outdoor and commercial areas"
+    ],
+    [
+      "4",
+      "I wash my hands in the restroom.",
+      "Location and activity shift to indoor hygiene"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

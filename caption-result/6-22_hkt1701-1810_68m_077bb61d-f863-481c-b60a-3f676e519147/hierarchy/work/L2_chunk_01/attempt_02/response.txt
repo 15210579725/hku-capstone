@@ -1,0 +1,124 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group action briefs into immediate tasks based on continuous physical navigation, environmental locations, and specific conversation or digital topics. Abstract minor navigational adjustments and group continuous smartphone activities unless the primary digital task shifts.",
+  "events": [
+    [
+      "0-7",
+      "I discuss dataset privacy masks and the camera's recording light with my companions.",
+      "Discussion topic shifts and companion begins taking photos"
+    ],
+    [
+      "8-9",
+      "I watch my companion photograph a bulletin board in the corridor.",
+      "Attention shifts to a seminar poster and academic discussion"
+    ],
+    [
+      "10-22",
+      "I discuss a Bayesian modeling course and the seminar speaker with my companions.",
+      "Group begins organizing and posing for photos"
+    ],
+    [
+      "23-53",
+      "I bid farewell to the professor during my friends' group photo session.",
+      "Group departs the immediate office area to walk to the elevator"
+    ],
+    [
+      "54-66",
+      "I discuss a professor's technical skills with my companion at the elevator lobby.",
+      "Attention shifts to reading nearby notice boards"
+    ],
+    [
+      "67-72",
+      "I read an academic cheating seminar poster and the floor directory at the notice board.",
+      "Focus returns to the elevator and waiting for it to arrive"
+    ],
+    [
+      "73-86",
+      "I discuss my current mood with my companions at the elevator.",
+      "I part ways with my friends to walk alone"
+    ],
+    [
+      "87-89",
+      "I bid farewell to my friends.",
+      "I depart from my friends and begin walking by myself"
+    ],
+    [
+      "90-95",
+      "I walk alone along the covered corridor.",
+      "I take out my smartphone to initiate a conversation"
+    ],
+    [
+      "96-124",
+      "I arrange a 6 PM hiking trip to High West with babe via WeChat.",
+      "I arrive at the elevator and press the call button"
+    ],
+    [
+      "125-135",
+      "I ride the elevator down to the LG1 floor.",
+      "I exit the elevator and transition to walking on the footbridge"
+    ],
+    [
+      "136-143",
+      "I walk across the footbridge to the escalator.",
+      "I board the escalator and resume using my phone"
+    ],
+    [
+      "144-151",
+      "I manage my WeChat messages and subscription feed on the escalator.",
+      "I open a specific article about AI mathematical verification to read"
+    ],
+    [
+      "152-165",
+      "I read a WeChat article about Terence Tao's AI mathematical verification project on my phone.",
+      "I finish reading and focus on navigating the sidewalk toward the stairs"
+    ],
+    [
+      "166-171",
+      "I walk along the sidewalk toward the staircase entrance.",
+      "I reach the stairs and begin descending"
+    ],
+    [
+      "172-181",
+      "I descend outdoor concrete staircases into a covered underpass.",
+      "I exit the underpass to walk along an outdoor pedestrian slope"
+    ],
+    [
+      "182-206",
+      "I navigate the downhill pedestrian slope and plaza past a recycling station.",
+      "I reach another flight of stairs to descend"
+    ],
+    [
+      "207-216",
+      "I descend a flight of stairs to walk past a learning centre and street shops.",
+      "I proceed toward a major intersection crossing"
+    ],
+    [
+      "217-231",
+      "I approach the main intersection's pedestrian crosswalk to wait for the traffic signal.",
+      "The pedestrian light turns green for crossing"
+    ],
+    [
+      "232-236",
+      "I cross Queen's Road West at the zebra crossing.",
+      "I complete the street crossing and enter an alleyway"
+    ],
+    [
+      "237-249",
+      "I navigate down a back alley toward an arcade entrance.",
+      "End of provided data"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      7
+    ],
+    "boundary_cautions": [
+      "152-165 groups the continuous reading of an article that spans across the physical action of stepping off the escalator, prioritizing the primary digital task over the minor navigation step.",
+      "182-206 unifies continuous downhill walking along a slope and plaza, encompassing minor corner crossings along the same path."
+    ]
+  }
+}
+```

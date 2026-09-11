@@ -1,0 +1,26 @@
+```json
+{
+  "target_level": "L5",
+  "plan": "Group the academic research session as one major activity and merge the lunch coordination trigger with the subsequent lunch break into the second major activity.",
+  "events": [
+    [
+      "0",
+      "I research academic profiles to schedule PhD inquiry emails to prospective supervisors.",
+      "Work session ends due to lunch plans"
+    ],
+    [
+      "1-2",
+      "I take my lunch break at the cafeteria.",
+      "End of recording"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "1"
+    ],
+    "boundary_cautions": []
+  }
+}
+```

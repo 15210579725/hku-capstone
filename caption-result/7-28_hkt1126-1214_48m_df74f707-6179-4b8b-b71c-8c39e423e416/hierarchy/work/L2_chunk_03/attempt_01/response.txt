@@ -1,0 +1,44 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous walking and transit segments by physical location, incorporating the ongoing conversation about machine learning models as concurrent context.",
+  "events": [
+    [
+      "500-512",
+      "I walk through the cafeteria and dining area while discussing machine learning baselines with a companion.",
+      "Wearer leaves the dining area and enters a dark corridor"
+    ],
+    [
+      "513-519",
+      "I walk through a corridor and descend the stairs while continuing to discuss machine learning models.",
+      "Wearer reaches the underground parking garage"
+    ],
+    [
+      "520-532",
+      "I walk through the underground parking garage while discussing behavior prediction models with my companions.",
+      "Wearer reaches the door to the elevator lobby"
+    ],
+    [
+      "533-537",
+      "I enter the elevator lobby, press the call button, and wait for the elevator while discussing screen recording and video models.",
+      "Elevator arrives and wearer enters"
+    ],
+    [
+      "538-547",
+      "I enter and ride the elevator while discussing model hardware requirements and costs with my companions.",
+      "Elevator reaches destination and wearer prepares to exit"
+    ],
+    [
+      "548-555",
+      "I wait for passengers to exit the elevator, then walk down the hallway while conversing with my companions.",
+      "End of provided recording"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

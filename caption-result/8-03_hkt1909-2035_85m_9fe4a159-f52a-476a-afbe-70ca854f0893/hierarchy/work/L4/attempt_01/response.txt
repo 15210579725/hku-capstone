@@ -1,0 +1,39 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Abstract the L3 episodes into broader goal-oriented phases: arriving at the workspace, preliminary project review, core development of the prompt guidelines, subsequent refinement/testing based on data, and departing.",
+  "events": [
+    [
+      "0",
+      "I commute to my office workstation.",
+      "Commute concludes upon arriving at the desk"
+    ],
+    [
+      "1",
+      "I review project configurations and the POV Rollout Viewer.",
+      "Administrative review completes before beginning prompt engineering"
+    ],
+    [
+      "2-5",
+      "I develop the unified L1-L5 prompt guidelines.",
+      "Phase shifts from authoring and troubleshooting to empirical evaluation"
+    ],
+    [
+      "6-8",
+      "I refine the prompt guidelines based on dataset generation results and execution tests.",
+      "Testing concludes the work session"
+    ],
+    [
+      "9",
+      "I leave the office.",
+      "End of recording"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,36 @@
+```json
+{
+  "target_level": "L5",
+  "plan": "Group departure preparation and transit into a single commute activity. Maintain the office research and administrative work as a distinct major activity. Preserve the colleague's invitation to leave as a standalone behavior-changing trigger. Group the transit to the restaurant and the meal itself into a unified dining activity.",
+  "events": [
+    [
+      "0-1",
+      "I commute from my residential community to the Shanghai Research Institute with my Cainiao Post Station parcels and MacBook equipment.",
+      "Unifies departure preparation and transit to the office"
+    ],
+    [
+      "2",
+      "I execute my LLM emotion steering research and WeChat administrative correspondence at the office workstation.",
+      "Continuous major work activity at a single location"
+    ],
+    [
+      "3",
+      "I pick up my smartphone in response to a colleague prompting me to leave the office.",
+      "Standalone trigger redirecting behavior from work to lunch"
+    ],
+    [
+      "4-5",
+      "I dine with my colleagues at McDonald's.",
+      "Unifies transit to the restaurant and the dining activity"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "3"
+    ],
+    "boundary_cautions": []
+  }
+}
+```

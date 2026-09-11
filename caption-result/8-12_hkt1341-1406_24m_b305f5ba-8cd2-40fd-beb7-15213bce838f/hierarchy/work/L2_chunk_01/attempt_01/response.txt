@@ -1,0 +1,174 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group brief atomic actions into coherent immediate tasks bounded by changes in active application, physical location, or immediate objective.",
+  "events": [
+    [
+      "0-3",
+      "I pick up my MacBook.",
+      "Transitions to walking"
+    ],
+    [
+      "4-7",
+      "I walk to the elevator lobby.",
+      "Arrives at the elevator"
+    ],
+    [
+      "8-16",
+      "I interact with the elevator.",
+      "Exits elevator to try again"
+    ],
+    [
+      "17-21",
+      "I wait for the upward elevator on the 6th floor.",
+      "Elevator arrives"
+    ],
+    [
+      "22-25",
+      "I ride the elevator to the 9th floor.",
+      "Arrives at the 9th floor"
+    ],
+    [
+      "26-28",
+      "I walk to the 9th floor lounge area.",
+      "Arrives in lounge"
+    ],
+    [
+      "29-32",
+      "I review notifications on my smartphone.",
+      "Opens WeChat"
+    ],
+    [
+      "33-41",
+      "I respond to messages in the [University Y] proj31 WeChat chat.",
+      "Switches to laptop Wi-Fi"
+    ],
+    [
+      "42-49",
+      "I configure the Wi-Fi network on my laptop.",
+      "Finishes network configuration"
+    ],
+    [
+      "50-54",
+      "I discuss my badge.",
+      "Switches focus to ChatGPT"
+    ],
+    [
+      "55-60",
+      "I read a ChatGPT discussion on AutoDL configuration.",
+      "Picks up smartphone"
+    ],
+    [
+      "61-68",
+      "I review data-masking chats in the smartphone ChatGPT app.",
+      "Looks away and starts speaking"
+    ],
+    [
+      "69-72",
+      "I comment on my mental state.",
+      "Sets phone down and uses desktop"
+    ],
+    [
+      "73-86",
+      "I interact with the ChatGPT desktop application.",
+      "Focuses on SSH response"
+    ],
+    [
+      "87-90",
+      "I review the SSH troubleshooting diagnostics in ChatGPT.",
+      "Switches to terminal"
+    ],
+    [
+      "91-97",
+      "I start a Claude Code session in the terminal.",
+      "Switches to Codex prompt"
+    ],
+    [
+      "98-109",
+      "I submit an AutoDL data-masking migration prompt into Codex.",
+      "Shifts focus to AutoDL instances"
+    ],
+    [
+      "110-119",
+      "I monitor the AutoDL migration task execution.",
+      "Reaches for phone"
+    ],
+    [
+      "120-123",
+      "I check my smartphone notifications.",
+      "Opens WeChat"
+    ],
+    [
+      "124-151",
+      "I discuss behavior prediction prompt rules on WeChat.",
+      "Returns to AutoDL console"
+    ],
+    [
+      "152-160",
+      "I review migration logs on the AutoDL console.",
+      "Starts typing into Codex"
+    ],
+    [
+      "161-168",
+      "I provide SSH instructions to Codex.",
+      "Stops to rest"
+    ],
+    [
+      "169-171",
+      "I rest in the armchair.",
+      "Picks up earphones"
+    ],
+    [
+      "172-175",
+      "I untangle my wired earphones.",
+      "Uses laptop again"
+    ],
+    [
+      "176-184",
+      "I review the LLM-Judge accuracy evaluation tables in ChatGPT.",
+      "Switches to VS Code"
+    ],
+    [
+      "185-207",
+      "I edit the few-shot prompt examples in VS Code.",
+      "Switches to Chrome"
+    ],
+    [
+      "208-212",
+      "I review the prompt evaluation feedback in ChatGPT.",
+      "Prepares to stand up"
+    ],
+    [
+      "213-216",
+      "I close my laptop.",
+      "Leaves workstation"
+    ],
+    [
+      "217-224",
+      "I walk to the atrium lounge.",
+      "Sits down at new location"
+    ],
+    [
+      "225-231",
+      "I analyze the ChatGPT evaluation feedback.",
+      "Switches to YouTube"
+    ],
+    [
+      "232-234",
+      "I open a Pieter Abbeel lecture on YouTube.",
+      "Switches to VS Code"
+    ],
+    [
+      "235-249",
+      "I configure a Jupyter kernel for the CS294 homework notebook in VS Code.",
+      "End of sequence"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

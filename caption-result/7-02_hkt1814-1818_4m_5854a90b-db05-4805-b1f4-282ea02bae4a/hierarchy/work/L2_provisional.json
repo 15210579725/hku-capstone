@@ -1,0 +1,178 @@
+[
+  {
+    "id": 0,
+    "start": 65673,
+    "end": 65695,
+    "text": "I stow my power bank inside a bag under the airplane seat.",
+    "refs": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "boundary_reason": "Task completes before picking up a different item",
+    "origin_chunk": 1
+  },
+  {
+    "id": 1,
+    "start": 65696,
+    "end": 65699,
+    "text": "I examine the flight safety card.",
+    "refs": [
+      5
+    ],
+    "boundary_reason": "Standalone interaction ends before standing up",
+    "origin_chunk": 1
+  },
+  {
+    "id": 2,
+    "start": 65700,
+    "end": 65746,
+    "text": "I navigate the airplane cabin aisle with my backpack.",
+    "refs": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "boundary_reason": "Aisle navigation concludes upon entering the galley",
+    "origin_chunk": 1
+  },
+  {
+    "id": 3,
+    "start": 65746,
+    "end": 65757,
+    "text": "I disembark the airplane.",
+    "refs": [
+      14,
+      15,
+      16
+    ],
+    "boundary_reason": "Exiting the aircraft concludes upon crossing the exit threshold",
+    "origin_chunk": 1
+  },
+  {
+    "id": 4,
+    "start": 65757,
+    "end": 65792,
+    "text": "I walk through the passenger boarding bridge to the terminal.",
+    "refs": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "boundary_reason": "Transit concludes upon pausing to look out the window",
+    "origin_chunk": 1
+  },
+  {
+    "id": 5,
+    "start": 65793,
+    "end": 65825,
+    "text": "I observe the airport tarmac from the skybridge.",
+    "refs": [
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    "boundary_reason": "Observation ends upon proceeding through the glass doorway",
+    "origin_chunk": 1
+  },
+  {
+    "id": 6,
+    "start": 65825,
+    "end": 65841,
+    "text": "I enter the main terminal concourse.",
+    "refs": [
+      30,
+      31,
+      32,
+      33
+    ],
+    "boundary_reason": "Entry phase concludes prior to inspecting the physical ticket",
+    "origin_chunk": 1
+  },
+  {
+    "id": 7,
+    "start": 65841,
+    "end": 65848,
+    "text": "I review my China Southern Airlines boarding pass.",
+    "refs": [
+      34,
+      35
+    ],
+    "boundary_reason": "Boarding pass review completes before resuming walking",
+    "origin_chunk": 1
+  },
+  {
+    "id": 8,
+    "start": 65848,
+    "end": 65857,
+    "text": "I walk through the terminal concourse toward gate 124.",
+    "refs": [
+      36,
+      37,
+      38
+    ],
+    "boundary_reason": "Walking is paused to interact with a smartphone",
+    "origin_chunk": 1
+  },
+  {
+    "id": 9,
+    "start": 65857,
+    "end": 65889,
+    "text": "I check my flight baggage carousel assignment on my smartphone.",
+    "refs": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48
+    ],
+    "boundary_reason": "Phone interaction task concludes before resuming movement",
+    "origin_chunk": 1
+  },
+  {
+    "id": 10,
+    "start": 65890,
+    "end": 65905,
+    "text": "I navigate the terminal concourse.",
+    "refs": [
+      49,
+      50,
+      51,
+      52
+    ],
+    "boundary_reason": "General navigation transitions to targeting a specific facility",
+    "origin_chunk": 1
+  },
+  {
+    "id": 11,
+    "start": 65906,
+    "end": 65915,
+    "text": "I approach the terminal restroom.",
+    "refs": [
+      53,
+      54,
+      55
+    ],
+    "boundary_reason": "Arrival at the restroom entrance",
+    "origin_chunk": 1
+  }
+]

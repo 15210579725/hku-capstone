@@ -1,0 +1,34 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group the input into four distinct phases based on overarching goals and locations: dining at AC3 Bistro, searching for a room at the language centre, buying a snack at City Express, and engaging in personal and work activities in Study Room 1.",
+  "events": [
+    [
+      "0-4",
+      "I have a meal with my companion at AC3 Bistro.",
+      "Departure from the cafeteria concludes the dining phase"
+    ],
+    [
+      "5-7",
+      "I attempt to secure a study space at the language centre.",
+      "Booking failure ends the search at the language centre and prompts relocation"
+    ],
+    [
+      "8-9",
+      "I purchase a bread bun at City Express.",
+      "Purchase completion and subsequent relocation"
+    ],
+    [
+      "10-12",
+      "I settle into Study Room 1 for companion conversations, a birthday package inquiry, and software review tasks on my MacBook.",
+      "End of input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

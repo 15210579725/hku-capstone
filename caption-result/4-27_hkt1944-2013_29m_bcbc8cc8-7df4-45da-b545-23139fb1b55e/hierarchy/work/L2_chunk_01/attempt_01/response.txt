@@ -1,3 +1,131 @@
 ```json
-{"target_level":"L2","plan":"Group consecutive brief observations into coherent immediate tasks based on the primary activity or conversational topic, handling chronological overlaps by merging related inputs.","events":[["0-2","I enter the lecture hall.","Entering the lecture hall is complete"],["3-6","I take a seat near my classmates in the lecture hall.","Sitting down is complete"],["7-26","I discuss capstone project advisors and research directions with my classmates.","Shift in focus to observing surroundings"],["27-37","I adjust my backpack and notify a classmate about a dropped earphone.","Shift to reviewing the course project document"],["38-41,75-79","I review and discuss the ARIN7600 course project document on my laptop.","Shift to participating in a group discussion"],["42-74","I discuss research fields, advisors, and application progress with my classmates.","Shift to a new conversation topic about summer research"],["80-88","I listen to my classmates discuss summer research applications and funding.","Shift to reviewing a friend's resume"],["89-104","I review my friend's resume on their laptop and discuss GPA calculations.","Shift to discussing career paths"],["105-110","I discuss career paths and reaching out to professors with my classmates.","Shift to a specific story about a PhD application"],["111-138","I listen to my classmates discuss a successful PhD application story involving a capstone project.","Shift to discussing coursework"],["139-144","I listen to my classmates discuss their coursework and course names.","Shift to advising on a resume"],["145-155","I advise a classmate on adding skills and projects to their resume.","Shift to discussing admission requirements"],["156-166","I listen to my classmates discuss program admission requirements, interview experiences, and application timelines.","Shift to discussing internships"],["167-179","I listen to my classmates discuss their current internship statuses and work tasks.","Shift to coordinating a video upload"],["180-191","I listen to my classmates coordinate editing and uploading a video project to YouTube.","Shift to discussing schedules"],["192-199","I listen to classmates discuss their schedules and internship plans.","Shift to examining a notebook"],["200-203","I examine a Capgemini notebook and listen to a classmate explain consulting.","Shift to discussing job applications"],["204-214","I listen to a classmate discuss job applications and their quantum algorithm thesis.","Shift to discussing course exams"],["215-219","I listen to my classmates discuss course exam difficulties.","Shift to exchanging WeChat contacts"],["220-234","I exchange WeChat contacts with my classmates.","Shift to reviewing Moodle course notes"],["235-249","I review Discrete Mathematics notes on Moodle and discuss the exam questions with my classmates.","End of input"]],"audit":{"complete":true,"uncertainties":[],"major_triggers":[],"boundary_cautions":[]}}
+{
+  "target_level": "L2",
+  "plan": "Group sequential and overlapping first-person actions into immediate tasks. Distinct conversation topics with clear thematic shifts (e.g., from GPA conversions to contacting professors) form distinct boundaries. Out-of-order overlapping actions (such as reading the ARIN7600 project description in IDs 75-79 overlapping with 38-41) are merged into single unified tasks to accurately represent continuous goals.",
+  "events": [
+    [
+      "0-6",
+      "I take a seat near my classmates in the lecture hall.",
+      "Settling in completes, shifting to participating in a group conversation"
+    ],
+    [
+      "7-26",
+      "I converse with classmates regarding Capstone project supervisor selections and 3D generation topics.",
+      "Conversation topic concludes, shifting focus to observing the environment"
+    ],
+    [
+      "27-29",
+      "I observe the front of the lecture hall and a departing classmate.",
+      "Observation ends, shifting attention to personal belongings at the desk"
+    ],
+    [
+      "30-33",
+      "I organize my backpack and laptop at my desk.",
+      "Task interrupted by noticing a classmate's dropped item"
+    ],
+    [
+      "34-37",
+      "I inform a classmate about their dropped earphones.",
+      "Quick interaction completes, shifting to studying course materials"
+    ],
+    [
+      "38-41,75-79",
+      "I evaluate the ARIN7600 course project P32 description with my classmate.",
+      "Document review concludes, shifting focus to a new conversation topic about graduation plans"
+    ],
+    [
+      "42-74",
+      "I discuss research application plans and potential advisors with my classmates.",
+      "Conversation topic shifts to summer research opportunities"
+    ],
+    [
+      "80-84",
+      "I listen to classmates discuss summer research application processes and funding.",
+      "Conversation concludes, shifting attention to a classmate's laptop screen"
+    ],
+    [
+      "85-93",
+      "I view a friend's concise CV on a MacBook.",
+      "Focus narrows from general resume viewing to debating a specific GPA detail"
+    ],
+    [
+      "94-104",
+      "I explain the university GPA conversion policy regarding the resume.",
+      "Topic shifts from GPA mechanics to broader strategies for contacting professors"
+    ],
+    [
+      "105-138",
+      "I listen to classmates discuss contacting professors for research opportunities and a senior's admission to a Hetao Institute joint program.",
+      "Conversation topic shifts to reviewing specific mathematics coursework"
+    ],
+    [
+      "139-144",
+      "I listen to classmates discuss the Pure and Applied mathematics coursework.",
+      "Conversation shifts back to providing specific resume additions"
+    ],
+    [
+      "145-155",
+      "I advise my classmate on adding Python skills and capstone projects to their resume.",
+      "Resume feedback concludes, shifting to discussing admission interviews"
+    ],
+    [
+      "156-166",
+      "I listen to classmates discuss admission interview coding questions and program deposit fees.",
+      "Conversation topic shifts to industry internships"
+    ],
+    [
+      "167-179",
+      "I listen to a peer describe their Sony internship and model deployment responsibilities.",
+      "Conversation topic shifts to video editing tasks"
+    ],
+    [
+      "180-191",
+      "I listen to classmates coordinate subtitle additions and YouTube processing for a video project.",
+      "Conversation shifts to coordinating schedules and availability"
+    ],
+    [
+      "192-199",
+      "I observe classmates discussing their availability and internship schedules.",
+      "Conversation concludes, shifting focus to examining a notebook and starting a new topic"
+    ],
+    [
+      "200-213",
+      "I converse with classmates about consulting and my quantum computing graduation thesis.",
+      "Conversation topic shifts to course exam expectations"
+    ],
+    [
+      "214-219",
+      "I listen to a classmate explain course exam expectations.",
+      "Conversation pauses as focus shifts to adding a contact on the smartphone"
+    ],
+    [
+      "220-229",
+      "I add a classmate named Serenity on WeChat using my QR code.",
+      "Contact addition completes, shifting focus back to an ongoing conversation"
+    ],
+    [
+      "230-233",
+      "I listen to classmates discuss their Discrete Mathematics midterm exam scores.",
+      "Exam score discussion concludes, shifting to handling a pending friend request"
+    ],
+    [
+      "234",
+      "I accept a WeChat friend request from a classmate.",
+      "Smartphone task completes, shifting to studying on the laptop"
+    ],
+    [
+      "235-249",
+      "I study Discrete Mathematics PDF notes regarding the Matrix Tree Theorem on Moodle.",
+      "End of input sequence"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": [
+      "IDs 75-79 overlap temporally with the sequence of events starting around ID 38. Because they share the exact same objective (reviewing the ARIN7600 project description), they have been merged with 38-41 to unify the continuous evaluation task."
+    ]
+  }
+}
 ```

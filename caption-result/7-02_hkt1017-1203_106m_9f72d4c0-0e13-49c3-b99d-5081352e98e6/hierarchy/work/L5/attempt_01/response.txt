@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L5",
+  "plan": "Group L4 phases into two distinct major activities: the transit to the airport, and the subsequent preparation and waiting inside the airport.",
+  "events": [
+    [
+      "0-1",
+      "I travel from my hotel to the airport.",
+      "Arrival at the airport"
+    ],
+    [
+      "2-3",
+      "I prepare for my departing flight at the airport.",
+      "End of recording"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

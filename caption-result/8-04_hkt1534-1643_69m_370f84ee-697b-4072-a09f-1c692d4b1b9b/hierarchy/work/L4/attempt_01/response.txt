@@ -1,0 +1,36 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group L3 events into broader L4 phases. Merge the continuous AI dataset processing and model evaluation tasks into a single primary overarching work phase, using non-contiguous intervals to accommodate brief personal interruptions. Group the incidental personal smartphone tasks into a separate phase to preserve the air conditioner repair context without violating the single-objective rule. Keep the commute as a standalone major phase. Unify the arrival routines (unlocking the door, checking academic messages, and inspecting the air conditioner) into a single arrival phase.",
+  "events": [
+    [
+      "0,2-6,8-12",
+      "I conduct AI dataset processing and model evaluation.",
+      "Groups continuous AI dataset processing and model evaluation work"
+    ],
+    [
+      "1,7",
+      "I handle personal tasks, including air conditioner repair, on my smartphone.",
+      "Groups incidental personal smartphone tasks"
+    ],
+    [
+      "13",
+      "I commute from the office to a residential community using an electric scooter.",
+      "Distinct commute phase"
+    ],
+    [
+      "14-17",
+      "I handle academic messages and an air conditioner inspection upon arrival at my residence.",
+      "Groups arrival routines and immediate residence tasks"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": [
+      "Interleaved personal smartphone tasks (1, 7) were grouped into a separate non-contiguous event to preserve the air conditioner repair context while maintaining a unified objective for the primary dataset processing work phase (0, 2-6, 8-12)."
+    ]
+  }
+}
+```

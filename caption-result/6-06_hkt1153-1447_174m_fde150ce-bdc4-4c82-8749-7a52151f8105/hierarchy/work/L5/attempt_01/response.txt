@@ -1,0 +1,29 @@
+```json
+{
+  "target_level": "L5",
+  "plan": "Merge the apartment departure and MTR commute into a single major transit activity. Keep the lunch break and the academic research session as distinct major activities to preserve their specific objectives and concrete subject matter.",
+  "events": [
+    [
+      "0-1",
+      "I commute from my apartment to the university campus via the MTR.",
+      "Arrival at the university campus concludes the transit goal."
+    ],
+    [
+      "2",
+      "I consume a lunch of chicken, rice, and pastries at the university campus.",
+      "Shift from the meal break to academic work."
+    ],
+    [
+      "3",
+      "I conduct a laptop-based research and programming session on hierarchical world models, robotics, and dataset planning in a classroom.",
+      "End of recorded input."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

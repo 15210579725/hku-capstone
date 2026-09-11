@@ -1,0 +1,39 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group continuous research sessions, separating the distinct interruption to assist the roommate. Abstract the cooking, eating, socializing, and cleanup into a single meal phase, followed by the preparation to leave.",
+  "events": [
+    [
+      "0-5",
+      "I research reinforcement learning and evolutionary reward functions.",
+      "Groups continuous research on reinforcement learning and reward functions."
+    ],
+    [
+      "6",
+      "I assist my roommate with a document review and an archived AI conversation.",
+      "Distinct goal of assisting the roommate."
+    ],
+    [
+      "7-13",
+      "I research evolutionary fitness, reward functions, and human motivation theories.",
+      "Groups continuous research on evolutionary fitness and motivation theories."
+    ],
+    [
+      "14-17",
+      "I share a homemade meal of egg pancakes with my roommate.",
+      "Abstracts cooking, eating, conversing, and cleaning up into a single meal phase."
+    ],
+    [
+      "18",
+      "I prepare to leave for the gym.",
+      "Distinct phase of preparing to leave."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

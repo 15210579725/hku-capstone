@@ -1,0 +1,99 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group actions into immediate tasks such as watching the performance, navigating the park, viewing attractions, buying a drink, queuing, and waiting for the theater show.",
+  "events": [
+    [
+      "500-512",
+      "I watch the end of a marine animal performance in the stadium.",
+      "Stands up to leave the stadium."
+    ],
+    [
+      "513-527",
+      "I leave the stadium and walk along the park path.",
+      "Stops to use smartphone."
+    ],
+    [
+      "528-530",
+      "I browse the park app and WeChat on my smartphone.",
+      "Engages with companion and surroundings."
+    ],
+    [
+      "531-539",
+      "I approach the '雨林飞翔' attraction queue, discussing sitting in the front.",
+      "Diverts attention to the drop tower and playground."
+    ],
+    [
+      "540-546",
+      "I observe the drop tower and Jungle Climb playground, deciding to try the climb first.",
+      "Begins walking across the plaza."
+    ],
+    [
+      "547-564",
+      "I walk through the plaza, reading maintenance notices and chatting with my companion.",
+      "Stops to check smartphone."
+    ],
+    [
+      "565-568",
+      "I pull out my smartphone and browse WeChat.",
+      "Puts phone away to watch the roller coaster."
+    ],
+    [
+      "569-580",
+      "I watch the roller coaster in operation and check the selfie camera framing with my companion.",
+      "Resumes walking along the pathway."
+    ],
+    [
+      "581-591",
+      "I walk along the boardwalk and pathway, observing sculptures and a park map.",
+      "Encounters the mammoth float parade."
+    ],
+    [
+      "592-609",
+      "I watch a parade featuring a mechanical mammoth float and costumed performers.",
+      "Resumes walking toward the Deep Sea Odyssey."
+    ],
+    [
+      "610-616",
+      "I walk toward the Deep Sea Odyssey entrance and browse souvenir plush toys.",
+      "Stops to purchase a drink at a vending machine."
+    ],
+    [
+      "617-633",
+      "I purchase a bottle of Sprite for ¥9.57 from a vending machine using Alipay.",
+      "Turns around after realizing we are going the wrong way."
+    ],
+    [
+      "634-641",
+      "I turn around after realizing we are going the wrong direction and walk towards the Beluga Theatre.",
+      "Arrives at the Beluga Theatre entrance."
+    ],
+    [
+      "642-651",
+      "I check the Beluga Theatre show schedules and discuss VIP seating with my companion.",
+      "Enters the theater queue pathway."
+    ],
+    [
+      "652-672",
+      "I follow staff instructions regarding the stroller and walk through the Beluga Theater queue.",
+      "Enters the theater auditorium."
+    ],
+    [
+      "673-696",
+      "I enter the Beluga Theater auditorium, walk down the staircase aisle, and sit in a blue stadium seat.",
+      "Sits down to wait for the show."
+    ],
+    [
+      "697-749",
+      "I wait in my stadium seat, observe the pool stage, and listen to the host's Mother's Day announcement.",
+      "End of input batch."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

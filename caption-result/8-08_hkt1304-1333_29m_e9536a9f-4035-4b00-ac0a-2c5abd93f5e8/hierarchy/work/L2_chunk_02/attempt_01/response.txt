@@ -1,0 +1,69 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions sharing the same immediate objective, such as reviewing specific profiles, searching for particular university rankings, reading platform-specific messages, or drafting a single prompt.",
+  "events": [
+    [
+      "250-261",
+      "I review the academic profiles and publications of Jussi Jokinen and User A.",
+      "Switch from viewing profiles to searching for a specific university."
+    ],
+    [
+      "262-270",
+      "I search for information about the University of Jyväskylä.",
+      "Switch from general university search to a specific ranking search."
+    ],
+    [
+      "271-275",
+      "I check the US News ranking for the University of Jyväskylä.",
+      "Target university for ranking search changes."
+    ],
+    [
+      "276-278",
+      "I check the US News ranking for Beihang University.",
+      "Target university for ranking search changes."
+    ],
+    [
+      "279-280",
+      "I check the US News ranking for Tongji University.",
+      "Switch from web searches to reviewing a Claude chat."
+    ],
+    [
+      "281-299",
+      "I review PhD advisor recommendations and research profiles in Claude.",
+      "Switch from Claude to checking Feishu."
+    ],
+    [
+      "300-301",
+      "I read my Feishu diary entries.",
+      "Switch from Feishu back to Claude."
+    ],
+    [
+      "302-309",
+      "I review a previous research plan in Claude and copy a prompt.",
+      "Switch from Claude to ChatGPT to use the copied prompt."
+    ],
+    [
+      "310-350",
+      "I draft and review a prompt in ChatGPT to find PhD advisors.",
+      "Prompt drafting concludes and a physical gesture begins."
+    ],
+    [
+      "351",
+      "I make a heart gesture with my hands.",
+      "Gesture concludes; switch to a new web search."
+    ],
+    [
+      "352-357",
+      "I search for 'singh' and 'singh RL' in Chrome.",
+      "Batch ends."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

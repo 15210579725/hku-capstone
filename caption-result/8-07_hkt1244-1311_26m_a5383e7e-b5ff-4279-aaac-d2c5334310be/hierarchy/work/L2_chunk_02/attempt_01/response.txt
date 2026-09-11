@@ -1,0 +1,64 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group action briefs into immediate tasks based on continuous conversational topics, navigational movements, and discrete interactions with devices or the environment.",
+  "events": [
+    [
+      "250-260",
+      "I discuss AI language model capabilities and training small models with a colleague.",
+      "Shift in conversation topic to memory requirements."
+    ],
+    [
+      "261-268",
+      "I discuss memory requirements and gradient caching with a colleague.",
+      "Shift in conversation topic to AI self-evolution."
+    ],
+    [
+      "269-289",
+      "I converse with a colleague about AI self-evolution, context learning, and prompt engineering.",
+      "Conversation concludes as the colleague stands up."
+    ],
+    [
+      "290-292",
+      "I observe my colleague end the conversation and walk away.",
+      "Colleague departs, prompting relocation."
+    ],
+    [
+      "293-297",
+      "I walk through the office to my workstation.",
+      "Arrival at the workstation area."
+    ],
+    [
+      "298-300",
+      "I check my laptop and observe a nearby colleague.",
+      "Departure from the workstation."
+    ],
+    [
+      "301-305",
+      "I walk down the corridor to a seating area.",
+      "Arrival at the seating area."
+    ],
+    [
+      "306-309",
+      "I sit in an armchair and look out the window.",
+      "Shift to using a mobile device."
+    ],
+    [
+      "310-316",
+      "I review my alarms in the Clock app on my phone.",
+      "Phone usage concludes."
+    ],
+    [
+      "317-319",
+      "I look out the window at the skyscraper facade.",
+      "End of input batch."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

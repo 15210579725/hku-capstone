@@ -1,3 +1,134 @@
 ```json
-{"target_level":"L2","plan":"Group contiguous action briefs into immediate tasks based on a single unified objective. Boundaries are drawn upon clear shifts in the primary target object, location, or conversational topic. Distinct subjects discussed during the meal are separated into sequential tasks, while continuous transit to fetch items is merged with the immediate preparation of those items.","events":[["1000-1001","I adjust the kitchen stove knob.","Interaction with stove completes"],["1002-1012","I converse with my newly arrived roommate about his clothes and our weekend plans.","Conversation ends as roommate walks away"],["1013-1017","I adjust the timer of the air fryer containing my food.","Finishes interacting with air fryer"],["1018-1037","I examine my contact lens case and electronic cigarette at the dining table.","Stands up to fetch food from kitchen"],["1038-1049","I carry my cooked food from the kitchen air fryer to the dining table.","Sitting down to start meal"],["1050-1053","I begin eating my pan-fried dumplings at the dining table.","Shifts to conversation"],["1054-1065","I converse with my roommate about snorkeling in Hong Kong during my dumpling meal.","Conversation topic concludes"],["1066-1072","I eat the dumplings from the black pan.","Shifts to new conversation topic"],["1073-1084","I discuss potential hiking and barbecue plans with my roommate during my meal.","Conversation pauses as roommate brings fruit"],["1085-1094","I observe my roommate peeling a small mango at the table.","Roommate finishes peeling and leaves field of view"],["1095-1101","I poke the remaining dumplings in the frying pan.","New conversation topic begins"],["1102-1114","I listen to an explanation of the buyer monopoly theory.","Explanation concludes, shifts to scraping food"],["1115-1131","I scrape the crispy crusts off the dumplings to eat them.","New conversation topic begins"],["1132-1136","I listen to a conversation about service workers and basic salaries.","Conversation pauses to wipe hands"],["1137-1141","I wipe my hands with a piece of tissue paper.","Hand wiping finishes"],["1142-1147","I finish eating the remaining dumplings from the frying pan.","Roommate brings out bread"],["1148-1155","I discuss bread and butter with my roommate.","Conversation ends, starts cleaning up"],["1156-1168","I wash my used frying pan and fork at the kitchen sink.","Dishwashing finishes"],["1169-1172","I dry my hands with tissue paper.","Hand drying completes, sits down for phone use"],["1173-1199","I browse the WeChat application on my smartphone to read an article about the Ouroboros wafer-scale chip.","Puts phone down to handle bread"],["1200-1205","I open a plastic bag of sliced sandwich bread at the dining table.","Stands up to fetch a knife"],["1206-1209","I clean a kitchen knife with a tissue paper for spreading.","Knife is clean and ready for use"],["1210-1224","I eat a slice of sandwich bread coated with chocolate paste.","Finishes eating first slice, prepares second"],["1225-1234","I prepare a second slice of sandwich bread with jam.","Stands up to get butter from fridge"],["1235-1240","I retrieve a foil-wrapped block of butter from the kitchen refrigerator.","Returns to table with butter"],["1241-1247","I slice pats of butter onto my prepared toast.","Finishes preparing toast, heads back to kitchen"],["1248-1249","I open the kitchen refrigerator.","End of batch"]],"audit":{"complete":true,"uncertainties":[],"major_triggers":[],"boundary_cautions":[]}}
+{
+  "target_level": "L2",
+  "plan": "Group continuous action briefs into immediate tasks sharing a primary goal and target, abstracting routine looks, pauses, and minor device interactions.",
+  "events": [
+    [
+      "1000-1011",
+      "I converse with User A and my roommate about my early return and girlfriend.",
+      "Conversation shifts to checking cooking food"
+    ],
+    [
+      "1012-1017",
+      "I inspect the food baking inside the kitchen air fryer.",
+      "Inspection concludes as I walk to the dining area"
+    ],
+    [
+      "1018-1037",
+      "I examine my contact lens case and electronic cigarette at the dining table.",
+      "I stand up to return to the kitchen"
+    ],
+    [
+      "1038-1045",
+      "I transfer the cooked food from the air fryer to the dining table.",
+      "Food is placed on the table ready to eat"
+    ],
+    [
+      "1046-1053",
+      "I eat fried food from the frying pan.",
+      "Focus shifts to conversing about snorkeling"
+    ],
+    [
+      "1054-1060",
+      "I discuss snorkeling with my roommate.",
+      "Conversation ends and I resume eating"
+    ],
+    [
+      "1061-1072",
+      "I eat dumplings from the frying pan.",
+      "Focus shifts to discussing hiking"
+    ],
+    [
+      "1073-1083",
+      "I discuss hiking and barbecuing with my roommate.",
+      "Conversation pauses as I observe my roommate"
+    ],
+    [
+      "1084-1093",
+      "I watch my roommate peel a mango.",
+      "Focus returns entirely to eating my food"
+    ],
+    [
+      "1094-1108",
+      "I eat the dumplings from the frying pan.",
+      "I stop eating to listen to a new topic"
+    ],
+    [
+      "1109-1111",
+      "I listen to an explanation of the buyer monopoly theory.",
+      "Explanation concludes and I focus on the food again"
+    ],
+    [
+      "1112-1131",
+      "I finish eating the remaining dumplings from the frying pan.",
+      "I pause to listen to a conversation"
+    ],
+    [
+      "1132-1135",
+      "I listen to a conversation about service workers' salaries.",
+      "Conversation ends and I clean my hands"
+    ],
+    [
+      "1136-1140",
+      "I wipe my hands with a tissue.",
+      "Cleaning concludes and I eat another dumpling"
+    ],
+    [
+      "1141-1147",
+      "I eat the dumplings from the frying pan.",
+      "Roommate interrupts with bread"
+    ],
+    [
+      "1148-1155",
+      "I converse with my roommate about bread and meals.",
+      "Conversation ends and I take the pan to the kitchen"
+    ],
+    [
+      "1156-1168",
+      "I wash the used frying pan in the kitchen sink.",
+      "Washing is complete and I return to the table"
+    ],
+    [
+      "1169-1172",
+      "I dry my hands with toilet paper.",
+      "Hands are dry and I pick up my phone"
+    ],
+    [
+      "1173-1199",
+      "I browse WeChat messages and an article about wafer-scale chips on my smartphone.",
+      "Phone use concludes and I focus on food"
+    ],
+    [
+      "1200-1205",
+      "I open a plastic bag of sliced bread at the dining table.",
+      "Bag is open and I move to clean my knife"
+    ],
+    [
+      "1206-1209",
+      "I clean a yellow-handled knife using the hot pan and a tissue.",
+      "Knife is clean and ready for spreading"
+    ],
+    [
+      "1210-1224",
+      "I eat a slice of bread covered in chocolate spread.",
+      "First slice is eaten and I prepare another"
+    ],
+    [
+      "1225-1233",
+      "I spread chocolate paste and jam onto a second slice of bread.",
+      "Spreading concludes and I fetch butter"
+    ],
+    [
+      "1234-1249",
+      "I slice refrigerated butter onto my bread.",
+      "Butter is added and I prepare to return to the fridge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
 ```

@@ -1,0 +1,139 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group sequential atomic actions into immediate, goal-directed tasks such as getting dressed, examining devices, conversing about specific topics, walking along the promenade, and ordering coffee. Boundaries are formed when the user completes a discrete task, shifts physical location, or changes conversation subjects.",
+  "events": [
+    [
+      "0-3",
+      "I put on a white shirt at the vanity.",
+      "Completes putting on the shirt"
+    ],
+    [
+      "4-11",
+      "I discuss getting coffee at the front desk with my companion.",
+      "Ends discussion about coffee"
+    ],
+    [
+      "12-19",
+      "I check the time and music on my smartphone.",
+      "Moves to selecting clothes"
+    ],
+    [
+      "20-27",
+      "I select a change of clothes from my suitcase.",
+      "Proceeds to the balcony to dress"
+    ],
+    [
+      "28-32",
+      "I button my shirt on the balcony.",
+      "Returns inside after buttoning shirt"
+    ],
+    [
+      "33-39",
+      "I discuss rent prices with my companion.",
+      "Ends discussion about rent"
+    ],
+    [
+      "40-45",
+      "I discuss getting water with my companion.",
+      "Shifts focus to the bathroom"
+    ],
+    [
+      "46-53",
+      "I examine a VS Code document and network settings on my MacBook.",
+      "Moves to the corridor"
+    ],
+    [
+      "54-63",
+      "I drink a bottle of water from my luggage.",
+      "Completes retrieving and drinking water"
+    ],
+    [
+      "64-69",
+      "I command the smart speaker to open the curtains.",
+      "Finishes operating smart speaker"
+    ],
+    [
+      "70-76",
+      "I read the hotel keycard sleeve.",
+      "Shifts attention to the laptop"
+    ],
+    [
+      "77-84",
+      "I connect my laptop to the Wi-Fi network.",
+      "Completes network setup and stands"
+    ],
+    [
+      "85-98",
+      "I joke with my companion about a bad smell in the bathroom.",
+      "Ends joke about the smell"
+    ],
+    [
+      "99-104",
+      "I style my hair in the bathroom.",
+      "Completes hair styling"
+    ],
+    [
+      "105-130",
+      "I observe the street view from the balcony.",
+      "Concludes balcony observation"
+    ],
+    [
+      "131-137",
+      "I collect my belongings to leave the room.",
+      "Signals intent to leave the room"
+    ],
+    [
+      "138-152",
+      "I wait for my companion to finish getting ready.",
+      "Shifts attention back to the bathroom"
+    ],
+    [
+      "153-159",
+      "I discuss device charging with my companion.",
+      "Ends discussion about charging"
+    ],
+    [
+      "160-167",
+      "I gather my remaining items before leaving.",
+      "Exits the room to the hallway"
+    ],
+    [
+      "168-181",
+      "I ride the elevator to the ground floor.",
+      "Arrives at the ground floor"
+    ],
+    [
+      "182-198",
+      "I walk along the outdoor promenade to the hotel lobby.",
+      "Reaches the cafe destination"
+    ],
+    [
+      "199-227",
+      "I order a Coco Latte at the cafe counter with my companion.",
+      "Finishes ordering process"
+    ],
+    [
+      "228-236",
+      "I wait for the coffee at the cafe counter.",
+      "Attention shifts to breakfast conversation"
+    ],
+    [
+      "237-243",
+      "I discuss breakfast coupons with my companion.",
+      "Ends discussion about breakfast"
+    ],
+    [
+      "244-249",
+      "I observe the barista preparing the drinks.",
+      "Input batch ends"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

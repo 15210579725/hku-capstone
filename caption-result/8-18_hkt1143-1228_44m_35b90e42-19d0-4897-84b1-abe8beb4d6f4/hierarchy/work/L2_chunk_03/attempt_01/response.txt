@@ -1,0 +1,44 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks based on conversational topics, digital document reading, attention to the colleague's phone, and periods of resting or idle observation.",
+  "events": [
+    [
+      "500-502",
+      "I discuss a convertible car with my colleague.",
+      "Conversation concludes"
+    ],
+    [
+      "503-506",
+      "I express my sleepiness to my colleague.",
+      "Switches to reading"
+    ],
+    [
+      "507-509",
+      "I read the document on '测试各种模型的预测能力' on my laptop.",
+      "Attention shifts to colleague"
+    ],
+    [
+      "510-512",
+      "I hear my colleague talk about a public bus.",
+      "Attention shifts to phone screen"
+    ],
+    [
+      "513-514",
+      "I watch a video on my colleague's phone.",
+      "Media viewing ends"
+    ],
+    [
+      "515-524",
+      "I sit observing various items on my desk.",
+      "End of recording"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

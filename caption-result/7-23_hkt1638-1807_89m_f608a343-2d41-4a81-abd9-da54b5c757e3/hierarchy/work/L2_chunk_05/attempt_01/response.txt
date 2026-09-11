@@ -1,0 +1,54 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group contiguous action briefs into immediate tasks based on continuous interactions and focused objectives, such as observing the dining environment, using a smartphone, returning meal trays, conversing about destinations, browsing cafeteria items, and navigating towards the gym.",
+  "events": [
+    [
+      "1000-1011",
+      "I observe my friends and the food at the dining table.",
+      "Switches from interacting at the dining table to using a smartphone."
+    ],
+    [
+      "1012-1018",
+      "I use my smartphone to message babe about a pizza photo on WeChat.",
+      "Switches from smartphone usage to standing up to return the meal tray."
+    ],
+    [
+      "1019-1026",
+      "I return my meal tray and chopsticks at the conveyor belt.",
+      "Completes returning the tray and begins discussing the next destination."
+    ],
+    [
+      "1027-1029",
+      "I discuss going to the gym with my companions.",
+      "Finishes the conversation and starts walking towards the exit."
+    ],
+    [
+      "1030-1037",
+      "I browse the drink shelves.",
+      "Moves away from the drink shelves to inspect the ice cream freezer."
+    ],
+    [
+      "1038-1043",
+      "I inspect the ice creams in the freezer.",
+      "Leaves the freezer area to continue walking towards the exit."
+    ],
+    [
+      "1044-1051",
+      "I exit the cafeteria through the glass doors.",
+      "Exits the cafeteria building to the outdoor corridor."
+    ],
+    [
+      "1052-1056",
+      "I walk along the outdoor corridor to the gym entrance.",
+      "End of the supplied action briefs."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

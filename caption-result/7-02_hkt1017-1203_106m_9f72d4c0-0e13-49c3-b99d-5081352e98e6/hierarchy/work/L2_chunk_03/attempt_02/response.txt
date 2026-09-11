@@ -1,0 +1,94 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group immediate tasks by continuous application usage, physical actions, and explicit shifts in search targets or attention, preserving key entities like specific prices and flight numbers.",
+  "events": [
+    [
+      "500",
+      "I check the airport bus route in Amap.",
+      "Switches to WeChat"
+    ],
+    [
+      "501",
+      "I reopen my WeChat chat with babe.",
+      "Attention shifts to the physical environment"
+    ],
+    [
+      "502-509",
+      "I observe the bus aisle and passengers.",
+      "Returns attention to the smartphone"
+    ],
+    [
+      "510-514",
+      "I review my WeChat chat with babe.",
+      "Switches to reading articles"
+    ],
+    [
+      "515-532",
+      "I read APPSO articles about tech rumors and EV sales.",
+      "Interrupted by fastening the seatbelt"
+    ],
+    [
+      "533-536",
+      "I fasten my seatbelt.",
+      "Returns to reading articles on the smartphone"
+    ],
+    [
+      "537-567",
+      "I read APPSO news updates on tech industry developments and EV deliveries.",
+      "Sequence abruptly shifts to an earlier ticket purchase event"
+    ],
+    [
+      "568-571",
+      "I purchase a bus ticket to Nanning Airport for ¥20.",
+      "Sequence returns to reading news articles"
+    ],
+    [
+      "572-581",
+      "I read tech and entertainment articles in my WeChat subscription feed.",
+      "Switches apps to message a contact"
+    ],
+    [
+      "582-591",
+      "I message babe on WeChat about my phone having 16% battery.",
+      "App switch to Xiaohongshu to browse car content"
+    ],
+    [
+      "592-616",
+      "I browse Xiaohongshu for NIO battery swap pricing and ET9 interior photos.",
+      "Changes search query to investigate EV sales figures"
+    ],
+    [
+      "617-638",
+      "I browse Xiaohongshu for June EV delivery statistics.",
+      "Changes search query to investigate a specific vehicle model"
+    ],
+    [
+      "639-689",
+      "I browse Xiaohongshu for NIO ES9 specifications, configurations, and test videos.",
+      "Switches app to check WeChat messages"
+    ],
+    [
+      "690-694",
+      "I reply to babe on WeChat.",
+      "Switches apps to check travel details"
+    ],
+    [
+      "695-701",
+      "I check my CZ5287 flight details on Alipay and Ctrip.",
+      "Puts phone away to observe the physical environment"
+    ],
+    [
+      "702-749",
+      "I sit on the bus observing the cabin interior, passengers, and outside scenery.",
+      "End of input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,46 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group L3 episodes into broader L4 phases based on major locations and overarching goals: home-based research, an outbound excursion for apartment viewing, commercial district shopping, a major behavior-changing injury trigger, the subsequent return transit, and final local errands before cooking at home.",
+  "events": [
+    [
+      "0-6",
+      "I conduct AI prediction research using Claude AI at home amidst breaks for a meal and personal hygiene.",
+      "Home-based research and break activities conclude upon departing the apartment."
+    ],
+    [
+      "7-16",
+      "I commute by MTR with my companion for an apartment viewing and negotiation alongside Shanghai flight coordination tasks.",
+      "The apartment viewing and negotiation excursion concludes."
+    ],
+    [
+      "17-21",
+      "I shop for groceries and cosmetics at commercial district stores alongside drafting a room-seeking post on my smartphone.",
+      "Shopping is abruptly abandoned due to a companion's injury."
+    ],
+    [
+      "22",
+      "I carry my injured companion to the Causeway Bay MTR station.",
+      "A major injury event redirects behavior toward an immediate return transit."
+    ],
+    [
+      "23-27",
+      "I return via MTR to Lok Ma Chau station with my injured companion alongside managing travel bookings on my smartphone.",
+      "The return MTR transit concludes upon exiting the destination station."
+    ],
+    [
+      "28-33",
+      "I secure evening provisions including cucumbers and a car rental booking on the route back to my apartment to cook chicken wings.",
+      "Local errands conclude upon returning home to prepare the evening meal."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      3
+    ],
+    "boundary_cautions": []
+  }
+}
+```

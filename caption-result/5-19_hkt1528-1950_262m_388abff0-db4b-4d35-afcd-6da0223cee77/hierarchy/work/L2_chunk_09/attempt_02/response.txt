@@ -1,0 +1,154 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks, abstracting short waits, incidental fidgets, and routine steps inside larger physical goals like collecting a parcel or purchasing pastries. Contiguous pedestrian stretches are grouped by physical waypoints or concurrent device usage.",
+  "events": [
+    [
+      "0-6",
+      "I research 3-inch photo dimensions on Doubao.",
+      "Goal completes when shifting from AI inquiry to Taobao shopping."
+    ],
+    [
+      "7-26",
+      "I browse plush photo albums on Taobao.",
+      "Groups continuous e-commerce search and product review."
+    ],
+    [
+      "27-29",
+      "I use my phone after a vocal gesture.",
+      "Groups brief vocalization and phone interaction before leaving the table."
+    ],
+    [
+      "30-36",
+      "I return my meal tray to the canteen counter.",
+      "Distinct physical task of clearing the table and depositing the tray."
+    ],
+    [
+      "37-45",
+      "I walk out of the canteen across the outdoor plaza.",
+      "Groups transit away from the canteen."
+    ],
+    [
+      "46-56",
+      "I take the elevator up from the lobby.",
+      "Groups waiting for, entering, and riding the elevator."
+    ],
+    [
+      "57-64",
+      "I walk across the courtyard to the footbridge elevator.",
+      "Groups continuous pedestrian transit to the next elevator."
+    ],
+    [
+      "65-71",
+      "I ride the glass elevator to the floor directory.",
+      "Groups one elevator ride and navigation check."
+    ],
+    [
+      "72-77",
+      "I take the elevator down to the LB floor.",
+      "Groups a distinct descending elevator ride."
+    ],
+    [
+      "78-81",
+      "I walk down the footbridge ramp.",
+      "Groups footbridge transit before stopping to use phone."
+    ],
+    [
+      "82-87",
+      "I browse WeChat chats and photos on my phone.",
+      "Groups dedicated phone interaction."
+    ],
+    [
+      "88-96",
+      "I take the elevator down to the Ground Floor.",
+      "Groups another discrete elevator ride."
+    ],
+    [
+      "97-103",
+      "I message on WeChat during my sidewalk walk.",
+      "Groups concurrent phone use and walking."
+    ],
+    [
+      "104-121",
+      "I descend the outdoor staircases to the curved sidewalk.",
+      "Groups continuous transit down the staircases."
+    ],
+    [
+      "122-131",
+      "I walk down the sloped sidewalk toward School X.",
+      "Groups continued pedestrian transit toward a directional sign."
+    ],
+    [
+      "132-140",
+      "I walk down the pedestrian stairs to a ramp.",
+      "Groups descent via stairs and ramps."
+    ],
+    [
+      "141-147",
+      "I speak to myself during my walk toward the pedestrian crossing.",
+      "Groups walking combined with brief vocalizations."
+    ],
+    [
+      "148-158",
+      "I walk across the street past several storefronts to the next crosswalk.",
+      "Groups street crossing and passing businesses."
+    ],
+    [
+      "159-164",
+      "I walk across the road past various shops.",
+      "Groups another distinct street crossing and commercial block."
+    ],
+    [
+      "165-174",
+      "I walk through an alleyway into an indoor building corridor.",
+      "Groups transition from outdoors into a building interior."
+    ],
+    [
+      "175-178",
+      "I check my phone during my walk down the corridor.",
+      "Groups dedicated mobile device use during indoor transit."
+    ],
+    [
+      "179-184",
+      "I collect a parcel at the Cainiao station.",
+      "Groups the distinct objective of retrieving a package."
+    ],
+    [
+      "185-194",
+      "I walk through the building corridor to the exit.",
+      "Groups indoor transit leaving the parcel station."
+    ],
+    [
+      "195-200",
+      "I walk along the sidewalk into a bakery.",
+      "Groups approach and entry into a new commercial location."
+    ],
+    [
+      "201-221",
+      "I purchase pastries at the bakery.",
+      "Groups browsing, selecting, and paying for food."
+    ],
+    [
+      "222-226",
+      "I eat a raisin bread roll outside the bakery.",
+      "Groups exiting and consuming the purchased food."
+    ],
+    [
+      "227-237",
+      "I walk through the plaza holding my food.",
+      "Groups pedestrian transit while holding items."
+    ],
+    [
+      "238-249",
+      "I walk across the intersection past various shops.",
+      "Groups crossing and navigating the sidewalk."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

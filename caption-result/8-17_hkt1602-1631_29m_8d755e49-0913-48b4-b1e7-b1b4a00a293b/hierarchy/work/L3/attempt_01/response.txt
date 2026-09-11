@@ -1,0 +1,51 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group immediate tasks into coherent activity episodes based on major goal and location shifts: purchasing the food, eating while walking outside, the main commute, arriving at the office to share food, reviewing a project with a colleague, a major trigger abandoning the discussion, and fetching water.",
+  "events": [
+    [
+      "0-3",
+      "I purchase a box of Swiss rolls at the supermarket.",
+      "Purchase is completed"
+    ],
+    [
+      "4-13",
+      "I eat slices of the Swiss roll while navigating the mall and outdoor plaza, then pack the remainder onto an electric scooter.",
+      "Finished eating and packing, transitioning to a commute"
+    ],
+    [
+      "14-31",
+      "I commute to the campus on a rented Hello electric bike.",
+      "Commute is completed and the vehicle is returned"
+    ],
+    [
+      "32-35",
+      "I bring the remaining Swiss rolls into the office building and distribute slices to my colleagues.",
+      "Arrival and distribution of food is complete"
+    ],
+    [
+      "36-39",
+      "I review the Mental World project webpage and Mentis code with my colleague.",
+      "Discussion is interrupted by a major behavioral shift"
+    ],
+    [
+      "40",
+      "I abandon the paper discussion with my colleague to write my report.",
+      "Standalone major trigger initiating a new plan"
+    ],
+    [
+      "41-43",
+      "I walk to the office pantry to fill my water bottle.",
+      "Water collection is complete"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      40
+    ],
+    "boundary_cautions": []
+  }
+}
+```

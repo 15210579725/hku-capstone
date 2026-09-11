@@ -1,0 +1,18 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Review eligible boundary pairs to identify actions that are identical in nature and simply split by a batch edge. Pair [48, 49] represents the continuous task of navigating the highway and observing overhead signs. Other eligible pairs denote sequential but distinct actions (e.g., approaching an exit vs. driving on the ramp, guessing a singer vs. discussing them) and remain separate.",
+  "merges": [
+    [
+      48,
+      49,
+      "I navigate the highway following overhead and upcoming exit signs.",
+      "Same continuous highway navigation task across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

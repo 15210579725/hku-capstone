@@ -1,0 +1,34 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group the sequence into broader goal-oriented phases: departing the residence, the main MTR commute, the campus library session, and the subsequent relocation.",
+  "events": [
+    [
+      "0-2",
+      "I depart my residential complex.",
+      "Completes the exit from the residential building and outdoor courtyard areas."
+    ],
+    [
+      "3-8",
+      "I research short-term rental options throughout my MTR commute to HKU Station.",
+      "Completes the MTR journey and exits the station platform."
+    ],
+    [
+      "9-12",
+      "I settle into the HKU Law library to consume social media posts and short videos.",
+      "Concludes the media consumption session to leave the library."
+    ],
+    [
+      "13",
+      "I relocate from the library to The Jockey Club Tower elevator lobby.",
+      "Initiates a new transit phase to another campus location."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

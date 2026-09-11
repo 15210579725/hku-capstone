@@ -1,0 +1,159 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group atomic actions into immediate tasks based on the primary focus, such as navigating software interfaces, reading specific document/slide topics, participating in Zoom discussions, and performing short physical tasks (e.g., closing doors, inspecting boxes).",
+  "events": [
+    [
+      "1000-1006",
+      "I join a Zoom meeting from the browser.",
+      "Meeting successfully launched"
+    ],
+    [
+      "1007-1008",
+      "I write notes in my notebook.",
+      "Finished writing"
+    ],
+    [
+      "1009-1010",
+      "I read a ChatGPT response.",
+      "Shifted attention back to laptop keyboard"
+    ],
+    [
+      "1011-1021",
+      "I monitor the Zoom whiteboard drawing on my laptop.",
+      "Starts typing on keyboard"
+    ],
+    [
+      "1022-1026",
+      "I read Lipschitz condition notes on my laptop.",
+      "Switches to physical notes"
+    ],
+    [
+      "1027-1031",
+      "I review handwritten notes on IVP uniqueness and Lipschitz bounds.",
+      "Returns focus to MacBook screen"
+    ],
+    [
+      "1032-1037",
+      "I read ODE lecture slides on explicit Euler.",
+      "Advances to a new slide topic"
+    ],
+    [
+      "1038-1047",
+      "I read lecture slides on Runge-Kutta methods.",
+      "Finished reviewing slides"
+    ],
+    [
+      "1048-1053",
+      "I read a document on my laptop.",
+      "Looks away to items on the table"
+    ],
+    [
+      "1054-1056",
+      "I inspect cardboard boxes and a voucher box on the table.",
+      "Returns focus to the laptop screen"
+    ],
+    [
+      "1057-1068",
+      "I read a document on my laptop.",
+      "Looks away to inspect physical items"
+    ],
+    [
+      "1069-1071",
+      "I inspect delivery boxes and a coupon card.",
+      "Returns focus to ChatGPT notes"
+    ],
+    [
+      "1072-1075",
+      "I read ChatGPT study notes on ODEs and Runge-Kutta methods.",
+      "Switches browser tabs"
+    ],
+    [
+      "1076-1087",
+      "I read lecture slides on Kernel PCA and the Adjoint method.",
+      "Advances past the slides to a blank webpage"
+    ],
+    [
+      "1088-1099",
+      "I monitor the connecting Zoom window in my browser.",
+      "Meeting audio connects and someone speaks"
+    ],
+    [
+      "1100-1113",
+      "I prepare my earphones for the Zoom meeting.",
+      "Earphones are plugged in and greeting concludes"
+    ],
+    [
+      "1114-1123",
+      "I watch the Zoom meeting participants.",
+      "Leaves the table"
+    ],
+    [
+      "1124-1127",
+      "I open the window.",
+      "Returns to the table"
+    ],
+    [
+      "1128-1135",
+      "I observe the video meeting.",
+      "Focus shifts to a shared screen document"
+    ],
+    [
+      "1136-1152",
+      "I read a shared presentation slide in the video meeting.",
+      "Stands up to walk toward the kitchen"
+    ],
+    [
+      "1153-1156",
+      "I close the kitchen door.",
+      "Returns to laptop and the Zoom presentation resumes"
+    ],
+    [
+      "1157-1163",
+      "I watch a presentation on sensory time perception.",
+      "Looks away from the presentation"
+    ],
+    [
+      "1164-1170",
+      "I outline my PhD research topics for the Zoom meeting.",
+      "Leaves the table to close a window"
+    ],
+    [
+      "1171-1177",
+      "I close the bedroom window and bathroom door.",
+      "Returns to the laptop"
+    ],
+    [
+      "1178-1203",
+      "I watch a presentation on perceptual load theory.",
+      "Looks away to turn on the air conditioner"
+    ],
+    [
+      "1204-1207",
+      "I turn on the Whirlpool air conditioner.",
+      "Returns to the laptop to read"
+    ],
+    [
+      "1208-1218",
+      "I read text in the Claude AI interface.",
+      "Switches window to the Zoom meeting"
+    ],
+    [
+      "1219-1237",
+      "I watch a presentation on Bayesian duration estimation in Zoom.",
+      "Begins speaking about personal PhD hypotheses"
+    ],
+    [
+      "1238-1249",
+      "I explain Bayesian modeling hypotheses for my PhD in the Zoom meeting.",
+      "Explanation complete"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

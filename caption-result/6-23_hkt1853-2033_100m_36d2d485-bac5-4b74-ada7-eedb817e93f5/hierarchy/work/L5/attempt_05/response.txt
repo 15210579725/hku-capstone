@@ -1,0 +1,29 @@
+```json
+{
+  "target_level": "L5",
+  "plan": "Group the continuous shopping tasks across different stores into one major purchasing activity, unify the commute home with the brief arrival/settling routine, and preserve the extended dumpling dough preparation as a distinct major activity.",
+  "events": [
+    [
+      "0-1",
+      "I purchase groceries and dumpling ingredients at local markets.",
+      "Unifies the continuous external shopping trip prior to heading home."
+    ],
+    [
+      "2-3",
+      "I return to my apartment.",
+      "Groups the transit home and the brief, routine arrival task of preparing the bedroom."
+    ],
+    [
+      "4",
+      "I prepare the dumpling dough in the kitchen.",
+      "Begins a distinct major cooking activity following arrival."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

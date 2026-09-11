@@ -1,0 +1,84 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks, such as riding the train, navigating distinct sections of the subway station (walking vs. escalators), walking along the street, and viewing specific apartments.",
+  "events": [
+    [
+      "1500-1520",
+      "I commute on the subway train.",
+      "Exited the train."
+    ],
+    [
+      "1521-1533",
+      "I walk along the subway platform to the escalator.",
+      "Reached the escalator."
+    ],
+    [
+      "1534-1542",
+      "I ride the escalator.",
+      "Stepped off the escalator."
+    ],
+    [
+      "1543-1546",
+      "I walk through the station concourse.",
+      "Boarded the next escalator."
+    ],
+    [
+      "1547-1548",
+      "I ride the escalator.",
+      "Escalator ride ends."
+    ],
+    [
+      "1549-1562",
+      "I walk across the concourse toward Exit A.",
+      "Reached the stairs to exit."
+    ],
+    [
+      "1563-1567",
+      "I ascend the stairs to exit the MTR station.",
+      "Reached the street level."
+    ],
+    [
+      "1568-1590",
+      "I walk along the street to the apartment building.",
+      "Arrived at the building entrance."
+    ],
+    [
+      "1591-1603",
+      "I ascend the building stairs to apartment E.",
+      "Entered the apartment."
+    ],
+    [
+      "1604-1663",
+      "I inspect apartment E.",
+      "Finished viewing and left the room."
+    ],
+    [
+      "1664-1677",
+      "I walk through the building to apartment C.",
+      "Entered the next apartment."
+    ],
+    [
+      "1678-1706",
+      "I inspect apartment C.",
+      "Finished viewing and left the room."
+    ],
+    [
+      "1707-1713",
+      "I ascend the stairs to apartment B.",
+      "Entered the next apartment."
+    ],
+    [
+      "1714-1731",
+      "I inspect apartment B.",
+      "Video batch ends during the viewing."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,29 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group immediate tasks into coherent activity episodes based on primary locations and objectives: arriving at the desk, getting water in the pantry, and heading to the restroom.",
+  "events": [
+    [
+      "0-3",
+      "I travel to my office desk.",
+      "Location and goal change from arriving at the workspace to fetching water."
+    ],
+    [
+      "4-8",
+      "I fill two glass bottles with water in the pantry.",
+      "Location and goal change from the pantry to transiting to the restroom."
+    ],
+    [
+      "9",
+      "I walk toward the restroom.",
+      "End of provided input."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

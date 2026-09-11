@@ -1,0 +1,84 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group atomic actions into immediate tasks such as reviewing evaluation tables, typing document notes, chatting with colleagues, and retrieving items.",
+  "events": [
+    [
+      "750-752",
+      "I review code execution and evaluation case comparisons in VS Code.",
+      "Task shifts to typing in browser"
+    ],
+    [
+      "753-756",
+      "I type in a Feishu document in Google Chrome.",
+      "Task shifts to reviewing benchmark metrics"
+    ],
+    [
+      "757-781",
+      "I review model benchmark evaluation tables and prediction comparisons.",
+      "Task shifts to adjusting personal items"
+    ],
+    [
+      "782-783",
+      "I adjust my face mask.",
+      "Task shifts to adjusting clothing"
+    ],
+    [
+      "784",
+      "I tie my pants drawstring.",
+      "Task shifts to typing notes"
+    ],
+    [
+      "785-788",
+      "I type notes about reinforcement learning loss functions into the Feishu document.",
+      "Task shifts to reading chat"
+    ],
+    [
+      "789",
+      "I read a WeChat group chat introduction.",
+      "Task shifts to closing laptop"
+    ],
+    [
+      "790-791",
+      "I close my MacBook.",
+      "Task shifts to walking"
+    ],
+    [
+      "792-794",
+      "I walk down the office hallway.",
+      "Task shifts to conversing"
+    ],
+    [
+      "795-798",
+      "I converse with a colleague about playing sports.",
+      "Task shifts to placing item"
+    ],
+    [
+      "799",
+      "I place my laptop on desk 13.",
+      "Task shifts to different conversation"
+    ],
+    [
+      "800-802",
+      "I ask a colleague about distance.",
+      "Task shifts to retrieving items"
+    ],
+    [
+      "803-805",
+      "I retrieve my access card lanyard and power adapter from workstation 13.",
+      "Task shifts to walking"
+    ],
+    [
+      "806-808",
+      "I walk toward the back cabinets.",
+      "End of batch"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

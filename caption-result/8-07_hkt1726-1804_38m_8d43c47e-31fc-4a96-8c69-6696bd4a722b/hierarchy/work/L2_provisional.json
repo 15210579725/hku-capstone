@@ -1,0 +1,892 @@
+[
+  {
+    "id": 0,
+    "start": 62764,
+    "end": 62774,
+    "text": "I walk across the atrium.",
+    "refs": [
+      0
+    ],
+    "boundary_reason": "Task completion",
+    "origin_chunk": 1
+  },
+  {
+    "id": 1,
+    "start": 62775,
+    "end": 62793,
+    "text": "I message User A on WeChat.",
+    "refs": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "boundary_reason": "Activity shift",
+    "origin_chunk": 1
+  },
+  {
+    "id": 2,
+    "start": 62824,
+    "end": 62862,
+    "text": "I gaze out the window at the atrium lounge.",
+    "refs": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "boundary_reason": "Location change",
+    "origin_chunk": 1
+  },
+  {
+    "id": 3,
+    "start": 62862,
+    "end": 62904,
+    "text": "I return to my workstation.",
+    "refs": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "boundary_reason": "Arrival at desk",
+    "origin_chunk": 1
+  },
+  {
+    "id": 4,
+    "start": 62905,
+    "end": 62927,
+    "text": "I read the ChatGPT evaluation scripts on my laptop.",
+    "refs": [
+      20,
+      21,
+      22
+    ],
+    "boundary_reason": "Shift to conversation",
+    "origin_chunk": 1
+  },
+  {
+    "id": 5,
+    "start": 62928,
+    "end": 62957,
+    "text": "I converse with my colleague.",
+    "refs": [
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "boundary_reason": "Shift to phone",
+    "origin_chunk": 1
+  },
+  {
+    "id": 6,
+    "start": 62958,
+    "end": 63012,
+    "text": "I chat with User X and User A on WeChat.",
+    "refs": [
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41
+    ],
+    "boundary_reason": "Topic change",
+    "origin_chunk": 1
+  },
+  {
+    "id": 7,
+    "start": 63013,
+    "end": 63203,
+    "text": "I read an APPSO article about AI hardware on my smartphone.",
+    "refs": [
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75
+    ],
+    "boundary_reason": "Article reading ends",
+    "origin_chunk": 1
+  },
+  {
+    "id": 8,
+    "start": 63204,
+    "end": 63219,
+    "text": "I browse my WeChat subscription feed.",
+    "refs": [
+      76,
+      77,
+      78,
+      79
+    ],
+    "boundary_reason": "Phone put away",
+    "origin_chunk": 1
+  },
+  {
+    "id": 9,
+    "start": 63220,
+    "end": 63262,
+    "text": "I discuss an API setup with my colleague at his desk.",
+    "refs": [
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87
+    ],
+    "boundary_reason": "Conversation ends",
+    "origin_chunk": 1
+  },
+  {
+    "id": 10,
+    "start": 63263,
+    "end": 63287,
+    "text": "I read the rebuttal draft on my laptop.",
+    "refs": [
+      88,
+      89,
+      90,
+      91,
+      92
+    ],
+    "boundary_reason": "Shift to search",
+    "origin_chunk": 1
+  },
+  {
+    "id": 11,
+    "start": 63288,
+    "end": 63350,
+    "text": "I review a faculty publication list about facial expression recognition.",
+    "refs": [
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108
+    ],
+    "boundary_reason": "Shift to OpenReview",
+    "origin_chunk": 1
+  },
+  {
+    "id": 12,
+    "start": 63350,
+    "end": 63462,
+    "text": "I read the OpenReview rebuttal on computational overhead.",
+    "refs": [
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129
+    ],
+    "boundary_reason": "Shift to conversation",
+    "origin_chunk": 1
+  },
+  {
+    "id": 13,
+    "start": 63462,
+    "end": 63548,
+    "text": "I discuss time models and autoregressive stopping criteria with my colleague.",
+    "refs": [
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147
+    ],
+    "boundary_reason": "Conversation topic ends",
+    "origin_chunk": 1
+  },
+  {
+    "id": 14,
+    "start": 63548,
+    "end": 63654,
+    "text": "I read OpenReview reviewer comments and acknowledgments.",
+    "refs": [
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161
+    ],
+    "boundary_reason": "Conversation resumes",
+    "origin_chunk": 1
+  },
+  {
+    "id": 15,
+    "start": 63655,
+    "end": 63683,
+    "text": "I discuss classification heads with my colleague.",
+    "refs": [
+      162,
+      163,
+      164,
+      165,
+      166
+    ],
+    "boundary_reason": "Conversation ends",
+    "origin_chunk": 1
+  },
+  {
+    "id": 16,
+    "start": 63683,
+    "end": 63746,
+    "text": "I read the OpenReview paper review and empirical analysis.",
+    "refs": [
+      167,
+      168,
+      169,
+      170,
+      171,
+      172,
+      173,
+      174,
+      175,
+      176,
+      177
+    ],
+    "boundary_reason": "Shift to chair adjustment",
+    "origin_chunk": 1
+  },
+  {
+    "id": 17,
+    "start": 63747,
+    "end": 63771,
+    "text": "I adjust my office chair.",
+    "refs": [
+      178,
+      179,
+      180,
+      181,
+      182,
+      183,
+      184,
+      185
+    ],
+    "boundary_reason": "Shift to laptop cooler",
+    "origin_chunk": 1
+  },
+  {
+    "id": 18,
+    "start": 63771,
+    "end": 63788,
+    "text": "I adjust my laptop cooling stand.",
+    "refs": [
+      186,
+      187,
+      188,
+      189
+    ],
+    "boundary_reason": "Shift to reading",
+    "origin_chunk": 1
+  },
+  {
+    "id": 19,
+    "start": 63789,
+    "end": 63951,
+    "text": "I read paper abstracts and method descriptions on OpenReview.",
+    "refs": [
+      190,
+      191,
+      192,
+      193,
+      194,
+      195,
+      196,
+      197,
+      198,
+      199,
+      200,
+      201,
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212
+    ],
+    "boundary_reason": "Shift to colleague interaction",
+    "origin_chunk": 1
+  },
+  {
+    "id": 20,
+    "start": 63952,
+    "end": 63970,
+    "text": "I stand up from my desk.",
+    "refs": [
+      213,
+      214,
+      215,
+      216,
+      217,
+      218
+    ],
+    "boundary_reason": "Shift to laptop",
+    "origin_chunk": 1
+  },
+  {
+    "id": 21,
+    "start": 63971,
+    "end": 63981,
+    "text": "I review the ChatGPT evaluation smoke test on my laptop.",
+    "refs": [
+      219,
+      220
+    ],
+    "boundary_reason": "Shift to leaving",
+    "origin_chunk": 1
+  },
+  {
+    "id": 22,
+    "start": 63982,
+    "end": 64001,
+    "text": "I walk to the elevator.",
+    "refs": [
+      221,
+      222,
+      223,
+      224,
+      225,
+      226,
+      227
+    ],
+    "boundary_reason": "Enters elevator",
+    "origin_chunk": 1
+  },
+  {
+    "id": 23,
+    "start": 64001,
+    "end": 64025,
+    "text": "I ride the elevator.",
+    "refs": [
+      228,
+      229,
+      230,
+      231
+    ],
+    "boundary_reason": "Begins conversation",
+    "origin_chunk": 1
+  },
+  {
+    "id": 24,
+    "start": 64025,
+    "end": 64036,
+    "text": "I discuss evaluation rounds with my companion.",
+    "refs": [
+      232,
+      233,
+      234
+    ],
+    "boundary_reason": "Exits elevator",
+    "origin_chunk": 1
+  },
+  {
+    "id": 25,
+    "start": 64037,
+    "end": 64125,
+    "text": "I walk through the underground parking garage to the building entrance.",
+    "refs": [
+      235,
+      236,
+      237,
+      238,
+      239,
+      240,
+      241,
+      242,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249
+    ],
+    "boundary_reason": "End of input",
+    "origin_chunk": 1
+  },
+  {
+    "id": 26,
+    "start": 64126,
+    "end": 64156,
+    "text": "I walk toward the cafeteria entrance.",
+    "refs": [
+      250,
+      251,
+      252,
+      253
+    ],
+    "boundary_reason": "Approach to cafeteria",
+    "origin_chunk": 2
+  },
+  {
+    "id": 27,
+    "start": 64156,
+    "end": 64179,
+    "text": "I queue at the cafeteria's self-service food counter.",
+    "refs": [
+      254,
+      255,
+      256,
+      257
+    ],
+    "boundary_reason": "Queueing for food",
+    "origin_chunk": 2
+  },
+  {
+    "id": 28,
+    "start": 64179,
+    "end": 64195,
+    "text": "I collect chopsticks and a dining tray.",
+    "refs": [
+      258,
+      259,
+      260,
+      261
+    ],
+    "boundary_reason": "Collecting tray",
+    "origin_chunk": 2
+  },
+  {
+    "id": 29,
+    "start": 64195,
+    "end": 64245,
+    "text": "I collect crispy fried meat and diced chicken stir-fry on my tray for checkout.",
+    "refs": [
+      262,
+      263,
+      264,
+      265,
+      266,
+      267,
+      268,
+      269,
+      270,
+      271,
+      272,
+      273
+    ],
+    "boundary_reason": "Selecting dishes",
+    "origin_chunk": 2
+  },
+  {
+    "id": 30,
+    "start": 64246,
+    "end": 64274,
+    "text": "I pay ¥14.50 for my meal via WeChat.",
+    "refs": [
+      274,
+      275,
+      276,
+      277,
+      278,
+      279,
+      280,
+      281,
+      282
+    ],
+    "boundary_reason": "Payment",
+    "origin_chunk": 2
+  },
+  {
+    "id": 31,
+    "start": 64275,
+    "end": 64298,
+    "text": "I carry my meal tray to a dining table.",
+    "refs": [
+      283,
+      284,
+      285,
+      286
+    ],
+    "boundary_reason": "Seating",
+    "origin_chunk": 2
+  },
+  {
+    "id": 32,
+    "start": 64298,
+    "end": 64385,
+    "text": "I discuss snacks and schedules with my companion over Kung Pao chicken.",
+    "refs": [
+      287,
+      288,
+      289,
+      290,
+      291,
+      292,
+      293,
+      294,
+      295,
+      296,
+      297,
+      298,
+      299,
+      300,
+      301,
+      302,
+      303,
+      304
+    ],
+    "boundary_reason": "Eating and schedule chat",
+    "origin_chunk": 2
+  },
+  {
+    "id": 33,
+    "start": 64385,
+    "end": 64474,
+    "text": "I discuss blueberries and teaching with my companion over chicken dishes.",
+    "refs": [
+      305,
+      306,
+      307,
+      308,
+      309,
+      310,
+      311,
+      312,
+      313,
+      314,
+      315,
+      316,
+      317,
+      318,
+      319,
+      320,
+      321,
+      322
+    ],
+    "boundary_reason": "Eating and blueberry chat",
+    "origin_chunk": 2
+  },
+  {
+    "id": 34,
+    "start": 64475,
+    "end": 64504,
+    "text": "I eat tofu with braised food and rice.",
+    "refs": [
+      323,
+      324,
+      325,
+      326
+    ],
+    "boundary_reason": "Eating tofu and rice",
+    "origin_chunk": 2
+  },
+  {
+    "id": 35,
+    "start": 64505,
+    "end": 64541,
+    "text": "I discard a green fiber found in the fried pork strips.",
+    "refs": [
+      327,
+      328,
+      329,
+      330,
+      331,
+      332,
+      333,
+      334,
+      335,
+      336
+    ],
+    "boundary_reason": "Discarding green fiber",
+    "origin_chunk": 2
+  },
+  {
+    "id": 36,
+    "start": 64542,
+    "end": 64632,
+    "text": "I consume white rice with tomato egg soup and a spicy dish.",
+    "refs": [
+      337,
+      338,
+      339,
+      340,
+      341,
+      342,
+      343,
+      344,
+      345,
+      346,
+      347,
+      348,
+      349,
+      350,
+      351
+    ],
+    "boundary_reason": "Eating soup and spicy dish",
+    "origin_chunk": 2
+  },
+  {
+    "id": 37,
+    "start": 64632,
+    "end": 64696,
+    "text": "I discuss User A with my companion over my meal.",
+    "refs": [
+      352,
+      353,
+      354,
+      355,
+      356,
+      357,
+      358,
+      359,
+      360,
+      361,
+      362,
+      363,
+      364,
+      365
+    ],
+    "boundary_reason": "Eating and User A chat",
+    "origin_chunk": 2
+  },
+  {
+    "id": 38,
+    "start": 64697,
+    "end": 64805,
+    "text": "I gather fried meat and food morsels from the sauce dish.",
+    "refs": [
+      366,
+      367,
+      368,
+      369,
+      370,
+      371,
+      372,
+      373,
+      374,
+      375,
+      376,
+      377,
+      378,
+      379
+    ],
+    "boundary_reason": "Gathering morsels",
+    "origin_chunk": 2
+  },
+  {
+    "id": 39,
+    "start": 64805,
+    "end": 64895,
+    "text": "I consume peanuts and chili-coated food morsels.",
+    "refs": [
+      380,
+      381,
+      382,
+      383,
+      384,
+      385,
+      386,
+      387,
+      388,
+      389,
+      390,
+      391,
+      392,
+      393,
+      394
+    ],
+    "boundary_reason": "Eating peanuts",
+    "origin_chunk": 2
+  },
+  {
+    "id": 40,
+    "start": 64895,
+    "end": 64918,
+    "text": "I finish my soup upon my companion's suggestion to leave.",
+    "refs": [
+      395,
+      396,
+      397,
+      398,
+      399
+    ],
+    "boundary_reason": "Finishing soup",
+    "origin_chunk": 2
+  },
+  {
+    "id": 41,
+    "start": 64918,
+    "end": 64950,
+    "text": "I place my meal tray onto the return station conveyor belt.",
+    "refs": [
+      400,
+      401,
+      402,
+      403,
+      404,
+      405
+    ],
+    "boundary_reason": "Tray return",
+    "origin_chunk": 2
+  },
+  {
+    "id": 42,
+    "start": 64951,
+    "end": 64965,
+    "text": "I retrieve napkins from my companion inside the dining hall.",
+    "refs": [
+      406,
+      407,
+      408,
+      409
+    ],
+    "boundary_reason": "Getting napkins",
+    "origin_chunk": 2
+  },
+  {
+    "id": 43,
+    "start": 64965,
+    "end": 65008,
+    "text": "I exit the cafeteria through the glass doors.",
+    "refs": [
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417
+    ],
+    "boundary_reason": "Cafeteria exit",
+    "origin_chunk": 2
+  },
+  {
+    "id": 44,
+    "start": 65008,
+    "end": 65036,
+    "text": "I walk along the outdoor terrace to the gym lobby.",
+    "refs": [
+      418,
+      419,
+      420,
+      421,
+      422,
+      423
+    ],
+    "boundary_reason": "Walk to gym",
+    "origin_chunk": 2
+  },
+  {
+    "id": 45,
+    "start": 65037,
+    "end": 65074,
+    "text": "I review the new schedule during my gym registration.",
+    "refs": [
+      424,
+      425,
+      426,
+      427,
+      428,
+      429
+    ],
+    "boundary_reason": "Gym registration",
+    "origin_chunk": 2
+  }
+]

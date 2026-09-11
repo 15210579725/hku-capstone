@@ -1,0 +1,41 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group actions into coherent episodes based on primary goals, such as focused evaluation work, hair care, mixed laptop work with socializing, and securing the bathroom.",
+  "events": [
+    [
+      "0-13",
+      "I manage annotation evaluation tasks and consistency metrics with my companion.",
+      "Groups continuous focused evaluation work and related instruction before leaving the room."
+    ],
+    [
+      "14-16",
+      "I blow-dry my roommate's hair and my own hair.",
+      "Groups hair drying activities in a single continuous episode."
+    ],
+    [
+      "17-24",
+      "I evaluate annotation consistency metrics and logic on my laptop.",
+      "Groups resumed evaluation work and device setup leading up to the video call."
+    ],
+    [
+      "25-68",
+      "I review evaluation documents on my laptop during personal conversations.",
+      "Groups the long concurrent session of reviewing laptop documents and conversing on a video call and with roommates."
+    ],
+    [
+      "69-74",
+      "I secure the bathroom window.",
+      "Groups the brief transition to the bathroom to adjust the window."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      25
+    ],
+    "boundary_cautions": []
+  }
+}
+```

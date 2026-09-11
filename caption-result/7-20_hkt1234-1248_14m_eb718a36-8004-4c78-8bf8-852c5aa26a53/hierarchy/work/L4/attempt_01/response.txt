@@ -1,0 +1,29 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group preliminary wrap-up and preparation steps into a unified departure phase, combine the building exit, campus walk, and entrance navigation into a single location transit phase, and establish the final analysis task as a distinct work phase.",
+  "events": [
+    [
+      "0-3",
+      "I prepare to depart from the office.",
+      "Preparation activities conclude and physical transit out of the building begins."
+    ],
+    [
+      "4-6",
+      "I transit across the campus to the office lounge area.",
+      "Transit concludes upon reaching the new indoor destination to begin work."
+    ],
+    [
+      "7",
+      "I evaluate the emotion-action predict dataset using Claude Code and a Feishu accuracy document.",
+      "End of provided data."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

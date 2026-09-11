@@ -1,0 +1,44 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group L3 episodes into broader L4 phases based on distinct workstation sessions, a complete lunch excursion, and a major off-desk errand triggered by a phone call.",
+  "events": [
+    [
+      "0-2",
+      "I conduct a computer work session involving MAGIC-Video evaluation logs, an online contact lens purchase, and ChatGPT prompt development.",
+      "Unifies a continuous workstation phase handling primary research tasks alongside a quick personal purchase."
+    ],
+    [
+      "3-5",
+      "I take a lunch break with my companions at the canteen.",
+      "Groups the complete lunch episode including transit to and from the dining area."
+    ],
+    [
+      "6",
+      "I resume my office work focusing on MAGIC-Video evaluation metrics and a depression detection research paper.",
+      "Maintains a brief focused work session that is abruptly bounded by a major phone call interruption."
+    ],
+    [
+      "7-11",
+      "I manage personal matters including a delivery phone call, a contact lens package retrieval, and a restroom break.",
+      "Groups a contiguous off-desk phase triggered by a call, unifying the delivery errand and a consecutive restroom stop before settling back at the workstation."
+    ],
+    [
+      "12-14",
+      "I complete a workstation session focused on article reviews, behavioral data abstraction, and ChatGPT integration research.",
+      "Unifies the final continuous workstation phase focusing on AI tools research and dataset processing."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      7
+    ],
+    "boundary_cautions": [
+      "Input 6 forms a very short phase but remains distinct as it is bounded by the return from lunch and a major behavior-changing trigger (phone call).",
+      "Input 11 (restroom) is grouped with the retrieval errand (7-10) as it occurs on the return trip before settling back at the workstation."
+    ]
+  }
+}
+```

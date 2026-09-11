@@ -1,0 +1,30 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible pairs for continuous immediate tasks across batch edges. Pairs [14, 15], [32, 33], and [52, 53] represent continuous actions of examining phones at a store display, inspecting the interior of a display car, and browsing local listings on the phone respectively, so they are merged.",
+  "merges": [
+    [
+      14,
+      15,
+      "I examine smartphone models at the Huawei store display.",
+      "Same phone inspection task continues across batch edge"
+    ],
+    [
+      32,
+      33,
+      "I inspect the interior of a display car.",
+      "Same car inspection task continues across batch edge"
+    ],
+    [
+      52,
+      53,
+      "I browse local listings on my phone and discuss recommendations.",
+      "Same phone browsing task continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

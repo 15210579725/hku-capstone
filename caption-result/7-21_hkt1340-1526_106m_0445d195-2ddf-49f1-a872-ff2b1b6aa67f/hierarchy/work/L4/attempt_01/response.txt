@@ -1,0 +1,34 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group L3 episodes into broader L4 phases based on overarching objectives: managing AI agent environments, configuring cluster access, collaborative model evaluation, and resolving cluster hardware errors.",
+  "events": [
+    [
+      "0-3",
+      "I manage my AI agent workflows and vLLM model deployments.",
+      "Shifts from AI agent and model management to configuring cluster infrastructure"
+    ],
+    [
+      "4-5",
+      "I configure the SSH connections and GPU allocations for the h800 cluster.",
+      "Shifts from cluster access configuration to collaborative model evaluation"
+    ],
+    [
+      "6",
+      "I review LLM judge alternative models and evaluation metrics with my colleagues.",
+      "Shifts from collaborative evaluation to investigating new cluster hardware errors"
+    ],
+    [
+      "7-9",
+      "I troubleshoot cluster hardware and terminal connection errors to process model evaluation results.",
+      "Concludes troubleshooting terminal and cluster errors"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

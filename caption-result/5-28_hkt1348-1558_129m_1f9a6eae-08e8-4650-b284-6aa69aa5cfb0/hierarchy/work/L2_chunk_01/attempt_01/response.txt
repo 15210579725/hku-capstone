@@ -1,0 +1,151 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions with a single immediate objective into tasks. Abstract away incidental looks, device switches, and scrolling when they serve the same task. Boundaries are placed when the primary focus or application changes, such as switching from browsing WeChat to inspecting project structure, transitioning into reviewing evaluation results, or shifting into a major activity like joining a Tencent Meeting.",
+  "events": [
+    [
+      "0-6",
+      "I interact with my MacBook and desk items.",
+      "Switches to browsing WeChat"
+    ],
+    [
+      "7-11",
+      "I browse WeChat and a VS Code transcript.",
+      "Switches to viewing other windows"
+    ],
+    [
+      "12-14",
+      "I view application windows including an installer and Claude Code.",
+      "Switches to inspecting project structure"
+    ],
+    [
+      "15-24",
+      "I inspect the project structure and evaluation files in VS Code.",
+      "Switches to reviewing result plots"
+    ],
+    [
+      "25-39",
+      "I review evaluation result plots and JSON files in VS Code.",
+      "Shifts focus to judge scripts"
+    ],
+    [
+      "40-42",
+      "I review judge implementation scripts and prompt rules in VS Code.",
+      "Switches to Claude Code dashboard"
+    ],
+    [
+      "43-51",
+      "I navigate the Claude Code multi-agent dashboard.",
+      "Begins reading specific findings"
+    ],
+    [
+      "52-64",
+      "I read action prediction key findings and evaluation summaries in Claude Code.",
+      "Begins querying Claude Code"
+    ],
+    [
+      "65-70",
+      "I query Claude Code about ground truth locations and prediction methods.",
+      "Returns to reviewing summaries"
+    ],
+    [
+      "71-77",
+      "I review action prediction evaluation summaries in VS Code.",
+      "Monitors benchmark evaluation"
+    ],
+    [
+      "78-79",
+      "I monitor the Claude Code benchmark evaluation.",
+      "Begins reading transcript files"
+    ],
+    [
+      "80-98",
+      "I read dense caption transcript files in VS Code.",
+      "Queries Claude Code for rules"
+    ],
+    [
+      "99-114",
+      "I query Claude Code for prediction target classification rules.",
+      "Begins reviewing prediction scripts"
+    ],
+    [
+      "115-130",
+      "I review autoregressive prediction scripts and evaluation results in VS Code.",
+      "Queries Claude Code for speech classification rules"
+    ],
+    [
+      "131-139",
+      "I query Claude Code for speech content classification rules.",
+      "Returns to reviewing dense captions"
+    ],
+    [
+      "140-144",
+      "I review dense captions and transcript entries in VS Code.",
+      "Switches to WeChat"
+    ],
+    [
+      "145-154",
+      "I message a contact in WeChat about finding a teacher.",
+      "Joins a Tencent Meeting"
+    ],
+    [
+      "155-159",
+      "I join a Tencent Meeting.",
+      "Opens VS Code to share transcript"
+    ],
+    [
+      "160-163",
+      "I review transcript lines in VS Code.",
+      "Begins speaking to the teacher"
+    ],
+    [
+      "164-181",
+      "I explain the action prediction dataset and autoregressive method to my teacher.",
+      "Answers a participant's question"
+    ],
+    [
+      "182-185",
+      "I answer a meeting participant's question about my behavior prediction task.",
+      "Discusses inputs and time intervals"
+    ],
+    [
+      "186-193",
+      "I discuss behavior prediction inputs and time intervals with meeting participants.",
+      "Explains the input method while scrolling"
+    ],
+    [
+      "194-202",
+      "I explain the autoregressive input method to the meeting participants.",
+      "Explains the data collection process"
+    ],
+    [
+      "203-210",
+      "I explain the data collection process and LLM Judge evaluation method.",
+      "Browses evaluation files"
+    ],
+    [
+      "211-218",
+      "I browse evaluation JSON files and prediction scripts in VS Code.",
+      "Explains the scoring rubric"
+    ],
+    [
+      "219-232",
+      "I explain the LLM Judge scoring rubric to the meeting participants.",
+      "Explains evaluation results"
+    ],
+    [
+      "233-249",
+      "I explain the evaluation results and tested prediction methods to the meeting participants.",
+      "End of input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "155"
+    ],
+    "boundary_cautions": []
+  }
+}
+```

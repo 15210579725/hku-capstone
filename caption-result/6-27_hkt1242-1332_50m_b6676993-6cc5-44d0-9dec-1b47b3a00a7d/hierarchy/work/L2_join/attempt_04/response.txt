@@ -1,0 +1,18 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible batch edge pairs for continuity of the same immediate task. Pair [25, 26] switches from software installation to picking up physical objects, so it is not merged. Pair [45, 46] continues the same task of typing habit modeling instructions and responses in VS Code.",
+  "merges": [
+    [
+      45,
+      46,
+      "I type habit modeling instructions and responses into VS Code and Claude Code.",
+      "Same typing and modeling task continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

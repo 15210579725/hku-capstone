@@ -1,0 +1,131 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks based on local objectives. Navigation to the airport entrance is grouped. Passing through the entrance security portal is one task. Walking through the departure hall to find the check-in area is grouped, pausing to dispose of a prohibited liquid item. The check-in process is split by a major trigger: initiating check-in at the counter, visiting the baggage inspection room to clear a laptop, and returning to the counter to finalize the drop. Navigating to and passing through domestic security is split by its natural stages: queuing, self-service ID verification, placing items in X-ray bins, physical metal detector scanning, and repacking. Post-security exploration includes examining smart luggage trolleys and attempting to access their charging feature, browsing a fruit kiosk, checking flight details and messaging a contact, and viewing promotional displays.",
+  "events": [
+    [
+      "0-17",
+      "I navigate the walkways toward the Domestic Departures Gate 7 entrance.",
+      "Arrival at terminal entrance security portal."
+    ],
+    [
+      "18-21",
+      "I pass through the entrance security portal into the departure hall.",
+      "Completed passing entrance security."
+    ],
+    [
+      "22-24",
+      "I check my flight details on my smartphone.",
+      "Finished checking phone."
+    ],
+    [
+      "25-41",
+      "I navigate the departure hall concourse past check-in counters and information displays.",
+      "Arrived at liquid disposal counter."
+    ],
+    [
+      "42-54",
+      "I discard a prohibited liquid item from my suitcase at the liquid disposal counter.",
+      "Finished discarding prohibited liquid."
+    ],
+    [
+      "55-65",
+      "I navigate past the VIP area to enter the check-in queue for counter D13.",
+      "Arrived at check-in counter."
+    ],
+    [
+      "66-87",
+      "I initiate my check-in at counter D13 until instructed to visit the baggage inspection room.",
+      "Instructed by agent to bring bag to inspection room."
+    ],
+    [
+      "88-103",
+      "I visit Baggage Inspection Room D2 to clear a security check for my checked luggage.",
+      "Exited baggage inspection room."
+    ],
+    [
+      "104-122",
+      "I finalize my baggage drop at the check-in counter.",
+      "Walked away from check-in counter."
+    ],
+    [
+      "123-125",
+      "I inspect my boarding pass and smartphone.",
+      "Finished inspecting items."
+    ],
+    [
+      "126-136",
+      "I queue for the domestic security checkpoint.",
+      "Arrived at self-service turnstile."
+    ],
+    [
+      "137-145",
+      "I verify my identity at the self-service security turnstile.",
+      "Passed turnstile into security lane."
+    ],
+    [
+      "146-166",
+      "I unpack my electronics and backpack into security bins for X-ray screening.",
+      "Moved to metal detector after placing items on conveyor."
+    ],
+    [
+      "167-175",
+      "I undergo a physical security scan at the metal detector.",
+      "Completed physical scan."
+    ],
+    [
+      "176-188",
+      "I repack my belongings from the security trays into my backpack.",
+      "Finished repacking and moved toward exit."
+    ],
+    [
+      "189-198",
+      "I exit the security area into the concourse.",
+      "Approached smart luggage carts."
+    ],
+    [
+      "199-213",
+      "I examine a parked smart luggage trolley to understand its functions.",
+      "Began specific attempt to use free charging."
+    ],
+    [
+      "214-223",
+      "I attempt to access the smart luggage cart's free charging feature.",
+      "Abandoned charging attempt at login screen."
+    ],
+    [
+      "224-229",
+      "I inspect another smart luggage trolley on the concourse.",
+      "Moved on to fruit kiosk."
+    ],
+    [
+      "230-233",
+      "I browse the fruit varieties at a concourse kiosk.",
+      "Finished browsing fruit."
+    ],
+    [
+      "234-238",
+      "I observe the concourse seating area.",
+      "Began checking phone."
+    ],
+    [
+      "239-246",
+      "I send a WeChat voice message to babe regarding the flight duration.",
+      "Completed sending WeChat message."
+    ],
+    [
+      "247-249",
+      "I view promotional displays while walking along the concourse.",
+      "End of input."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "1087: The agent instructs me to bring my luggage to the baggage inspection room, which forces a temporary suspension of the check-in process and redirects me to a new location."
+    ],
+    "boundary_cautions": []
+  }
+}
+```

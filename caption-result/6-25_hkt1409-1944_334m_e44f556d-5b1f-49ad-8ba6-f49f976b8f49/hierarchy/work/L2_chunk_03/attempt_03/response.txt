@@ -1,0 +1,161 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks by physical location, app used, or topic of focus. Abstract minor UI interactions and scrolling into cohesive reading or watching tasks. Keep the major declaration of hunger standalone as a trigger.",
+  "events": [
+    [
+      "500",
+      "I button my white shirt.",
+      "Single action before moving"
+    ],
+    [
+      "501-510",
+      "I look out the window and glance into the kitchen, stating my hunger.",
+      "Returns to desk afterward"
+    ],
+    [
+      "511-513",
+      "I approach my desk and inspect my laptop.",
+      "Finishes inspecting laptop"
+    ],
+    [
+      "514-518",
+      "I adjust my shorts and manipulate small metal items at my desk.",
+      "Turns attention to laptop screen"
+    ],
+    [
+      "519-525",
+      "I read an AI chat response and literature analysis about habitual and goal-directed behaviors on my laptop.",
+      "Switches to VS Code"
+    ],
+    [
+      "526-531",
+      "I review the model evaluation runbook and task list in VS Code.",
+      "Looks away at desk items"
+    ],
+    [
+      "532-535",
+      "I inspect items on my desk.",
+      "Returns to reading"
+    ],
+    [
+      "536-543",
+      "I review model evaluation notes and a Claude response regarding habitual and goal-oriented behaviors.",
+      "Pauses to finish dressing"
+    ],
+    [
+      "544-547",
+      "I fasten the remaining buttons on my shirt.",
+      "Returns to reading Claude analysis"
+    ],
+    [
+      "548-558",
+      "I read Claude's analysis about habitual versus goal-oriented behaviors across daily routines.",
+      "Transitions to typing a prompt"
+    ],
+    [
+      "559-570",
+      "I type prompts into Claude asking about the data needed to model goal-directed behaviors.",
+      "Switches to writing in notebook"
+    ],
+    [
+      "571-580",
+      "I write notes about habit and goal percentages in my spiral notebook.",
+      "Pauses to read notebook"
+    ],
+    [
+      "581-591",
+      "I review my handwritten notes and continue writing in the notebook.",
+      "Switches to reading laptop"
+    ],
+    [
+      "592-609",
+      "I read a document and view modal dialogs on my laptop screen.",
+      "Stands up to walk around"
+    ],
+    [
+      "610-618",
+      "I walk to my bedroom desk with a spiral notepad and examine a dialog on my laptop screen.",
+      "Switches to using smartphone"
+    ],
+    [
+      "619-629",
+      "I chat with babe on WeChat about purchasing flight tickets.",
+      "Switches to browsing WeChat Official Accounts"
+    ],
+    [
+      "630-634",
+      "I browse my WeChat Official Accounts feed and check my iPhone Mail inbox.",
+      "Switches to Xiaohongshu"
+    ],
+    [
+      "635-648",
+      "I read a Xiaohongshu post and its comments reflecting on a NeuroPhD defense and research directions.",
+      "Switches to scrolling feed"
+    ],
+    [
+      "649-656",
+      "I scroll through the Xiaohongshu discovery feed, read an AI post, and watch videos.",
+      "Switches to reading a specific post"
+    ],
+    [
+      "657-666",
+      "I read Xiaohongshu posts about the SPHBM4 standard and French reactions to pigpen air conditioning.",
+      "Switches to watching videos"
+    ],
+    [
+      "667-680",
+      "I watch various short videos on the Xiaohongshu discovery feed.",
+      "Opens a specific post"
+    ],
+    [
+      "681-688",
+      "I dismiss an incoming call from 3848 2724 and read a Xiaohongshu post debating European air conditioning.",
+      "Switches to reading another post"
+    ],
+    [
+      "689-695",
+      "I read Xiaohongshu posts about Anthropic distillation and an apartment sublet.",
+      "Switches to reading about DIY exhaust"
+    ],
+    [
+      "696-703",
+      "I read a Xiaohongshu post and comments about a DIY air conditioner exhaust setup.",
+      "Switches to WeChat"
+    ],
+    [
+      "704-708",
+      "I check the Xiaohongshu messages tab, then return to the home screen to read and reply to WeChat messages.",
+      "Returns to working in Claude"
+    ],
+    [
+      "709-716",
+      "I review and edit my prompt draft about goal-directed behavior modeling in Claude.",
+      "Stands up to walk around"
+    ],
+    [
+      "717-729",
+      "I walk around the apartment to inspect the air conditioners and a water bucket.",
+      "Major trigger follows"
+    ],
+    [
+      "730",
+      "I declare that I want to eat something because I am hungry.",
+      "Major trigger to start eating"
+    ],
+    [
+      "731-749",
+      "I survey the room, enter the kitchen, retrieve a frozen food bag from the freezer, and prepare a frying pan with water on the stove.",
+      "End of batch"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      27
+    ],
+    "boundary_cautions": []
+  }
+}
+```

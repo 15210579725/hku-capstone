@@ -1,0 +1,44 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group consecutive actions by immediate application tasks (reading Apple Notes, navigating to and reading Feishu Wiki, composing a Claude terminal message), clothing adjustment, and distinct physical movements to prepare to leave the desk.",
+  "events": [
+    [
+      "0-1",
+      "I read the agent simulation note in Apple Notes.",
+      "Application focus shifts to navigating the system"
+    ],
+    [
+      "2-5",
+      "I read the simulation environments section on the Feishu Wiki.",
+      "Application focus shifts to opening a terminal session"
+    ],
+    [
+      "6-11",
+      "I draft a message in the Claude terminal regarding HKU and the University X capstone project using the Emotion-Probe evaluation documents.",
+      "Computer tasks conclude as attention shifts to clothing"
+    ],
+    [
+      "12-13",
+      "I tie my sweatpants drawstring.",
+      "Task shifts to reaching for an object"
+    ],
+    [
+      "14",
+      "I reach toward my water bottle.",
+      "Task shifts to a full body movement"
+    ],
+    [
+      "15-16",
+      "I stand up from my desk with a brief verbal acknowledgment.",
+      "Recording ends"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

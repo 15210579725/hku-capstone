@@ -1,0 +1,46 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "At L4, I group L3 episodes into broader goal-oriented phases. Events 0-3 unify the morning errands and packing into a single commute preparation phase. Event 4 is the distinct transit phase to the workplace. Events 5-10 encompass the primary office work session, unifying setup, research, and administrative tasks. Event 11 is preserved as a standalone major behavior-changing trigger that redirects the wearer's morning work to a lunch outing. Events 12-14 merge into the transit phase to the restaurant, and events 15-18 abstract seating, ordering, waiting, and eating into the overarching dining phase.",
+  "events": [
+    [
+      "0-3",
+      "I prepare my Cainiao Post Station parcels and MacBook equipment in my bedroom for my workday commute.",
+      "Preparation activities complete; transitions to the scooter commute"
+    ],
+    [
+      "4",
+      "I commute from my residential community to the Shanghai Research Institute on my electric scooter.",
+      "Commute completes upon arrival at the workplace"
+    ],
+    [
+      "5-10",
+      "I execute my LLM emotion steering research and WeChat administrative correspondence on my laptop at the office workstation.",
+      "Work session is interrupted by an external trigger"
+    ],
+    [
+      "11",
+      "I pick up my smartphone in response to a colleague prompting me to leave the office.",
+      "Major behavior-changing trigger redirects activity to a lunch outing"
+    ],
+    [
+      "12-14",
+      "I travel to McDonald's on my electric scooter while discussing evaluation consistency coefficients with my colleagues.",
+      "Transit concludes upon arrival at the dining location"
+    ],
+    [
+      "15-18",
+      "I dine on my cheeseburger and strawberry sundae meal with my friends at McDonald's.",
+      "Lunch activity continues to the end of the provided input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      3
+    ],
+    "boundary_cautions": []
+  }
+}
+```

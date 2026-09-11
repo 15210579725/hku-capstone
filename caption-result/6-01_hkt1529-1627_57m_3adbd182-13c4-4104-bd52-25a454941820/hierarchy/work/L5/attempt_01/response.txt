@@ -1,0 +1,31 @@
+```json
+{
+  "target_level": "L5",
+  "plan": "Group distinct major activities. The academic research sessions are interrupted by a substantial social and logistical planning phase. Because these phases serve different primary goals (research vs. coordination) and cannot be merged without using prohibited conjunctions or losing key details, they remain as separate major activities at L5.",
+  "events": [
+    [
+      "0",
+      "I research egocentric AI systems and behavior simulation models.",
+      "End of primary research block prior to a coordination break"
+    ],
+    [
+      "1",
+      "I coordinate evening study and dinner plans with my companions.",
+      "End of logistical coordination before returning to academic work"
+    ],
+    [
+      "2",
+      "I review AI analyses regarding egocentric action prediction.",
+      "Distinct resumption of the research goal"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": [
+      "Items 0 and 2 share a similar academic topic but are separated by a distinct 7-minute social/logistical planning activity. They are kept separate to preserve unified objectives and avoid unsupported continuous spans."
+    ]
+  }
+}
+```

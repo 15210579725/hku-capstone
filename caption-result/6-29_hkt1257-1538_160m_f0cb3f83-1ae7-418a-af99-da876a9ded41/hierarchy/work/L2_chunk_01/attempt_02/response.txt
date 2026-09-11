@@ -1,0 +1,139 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group inputs into immediate tasks based on continuous driving maneuvers, stops at intersections, and distinct conversation topics with the passenger, separating the initial walk to the car, boarding, and departure preparations.",
+  "events": [
+    [
+      "0-7",
+      "I walk out of the hospital building.",
+      "Leaves hospital building"
+    ],
+    [
+      "8-14",
+      "I walk along the hospital roadway holding my car key.",
+      "Transitions to walking on roadway"
+    ],
+    [
+      "15-23",
+      "I walk through the parking lot to locate my car.",
+      "Transitions to parking lot to find car"
+    ],
+    [
+      "24-27",
+      "I get into the driver's seat of my car.",
+      "Enters vehicle"
+    ],
+    [
+      "28-40",
+      "I converse with the passenger about parking fees and the car brand.",
+      "Converses before driving"
+    ],
+    [
+      "41-48",
+      "I prepare for departure by setting the navigation.",
+      "Initiates departure and sets navigation"
+    ],
+    [
+      "49-59",
+      "I drive toward the parking exit discussing the route and fuel.",
+      "Drives to exit and discusses route"
+    ],
+    [
+      "60-74",
+      "I drive through a roundabout onto the main road.",
+      "Navigates roundabout to main road"
+    ],
+    [
+      "75-83",
+      "I watch short videos on the passenger's phone.",
+      "Watches phone video"
+    ],
+    [
+      "84-88",
+      "I drive forward discussing the highway route.",
+      "Returns focus to driving and route"
+    ],
+    [
+      "89-104",
+      "I wait at a long traffic light observing the car interior.",
+      "Stops at traffic light"
+    ],
+    [
+      "105-113",
+      "I accelerate through the intersection following dispersing traffic.",
+      "Accelerates through intersection"
+    ],
+    [
+      "114-125",
+      "I converse with the passenger about Japanese visa prices.",
+      "Starts new conversation about visa prices"
+    ],
+    [
+      "126-134",
+      "I stop in traffic hearing the passenger mention a high-speed rail pickup.",
+      "Stops in traffic for new topic"
+    ],
+    [
+      "135-146",
+      "I drive forward along the avenue.",
+      "Accelerates on avenue"
+    ],
+    [
+      "147-154",
+      "I discuss a JJ Lin song with the passenger.",
+      "Starts new conversation about song"
+    ],
+    [
+      "155-174",
+      "I wait at an intersection examining a rental car tag.",
+      "Waits at intersection and looks around interior"
+    ],
+    [
+      "175-189",
+      "I drive through the intersection reminding the passenger not to scare me.",
+      "Drives through intersection"
+    ],
+    [
+      "190-194",
+      "I identify the song Ge Qian playing in the car.",
+      "Identifies song"
+    ],
+    [
+      "195-201",
+      "I drive along the boulevard following navigation instructions.",
+      "Follows navigation on boulevard"
+    ],
+    [
+      "202-205",
+      "I turn left at the intersection.",
+      "Turns left at intersection"
+    ],
+    [
+      "206-211",
+      "I discuss my preference for Jay Chou with the passenger.",
+      "Starts conversation about Jay Chou"
+    ],
+    [
+      "212-220",
+      "I follow navigation instructions discussing the car audio system.",
+      "Discusses car audio"
+    ],
+    [
+      "221-239",
+      "I drive straight discussing the speed limit with the passenger.",
+      "Discusses speed limits"
+    ],
+    [
+      "240-249",
+      "I guess the singer of a song played by the passenger.",
+      "Guesses singer"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

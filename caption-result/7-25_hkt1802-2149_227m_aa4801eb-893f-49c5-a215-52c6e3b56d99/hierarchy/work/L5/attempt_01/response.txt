@@ -1,0 +1,29 @@
+```json
+{
+  "target_level": "L5",
+  "plan": "Abstract the broader phases into distinct major activities: sightseeing in the ancient town, the extended car transit into the city, and the dining experience at the destination.",
+  "events": [
+    [
+      "0",
+      "I explore the ancient town sights and food stalls with my companion.",
+      "Activity shifts from sightseeing to inter-city transit"
+    ],
+    [
+      "1-3",
+      "I travel by car to a crab roe noodle restaurant in the city.",
+      "Arrival at destination; activity shifts from transit to dining"
+    ],
+    [
+      "4",
+      "I dine on a crab roe meal with my companion at the mall restaurant.",
+      "End of recording"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

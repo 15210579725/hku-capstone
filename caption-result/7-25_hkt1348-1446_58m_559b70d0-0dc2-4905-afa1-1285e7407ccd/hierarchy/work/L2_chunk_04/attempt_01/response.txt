@@ -1,0 +1,59 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group sequential actions into immediate tasks focusing on specific interfaces or interactions, such as exploring the instrument cluster, using the central infotainment screen, attempting Bluetooth pairing, and discussing the audio system.",
+  "events": [
+    [
+      "750-758",
+      "I inspect the interior vehicle controls and displays.",
+      "Transition from general visual inspection to interacting with the infotainment screen."
+    ],
+    [
+      "759-765",
+      "I interact with the central infotainment screen.",
+      "Transition from the infotainment screen to configuring instrument cluster themes."
+    ],
+    [
+      "766-775",
+      "I configure the digital instrument cluster themes.",
+      "Theme configuration concludes; transition to central touchscreen settings."
+    ],
+    [
+      "776-780",
+      "I explore the settings on the central touchscreen.",
+      "Settings exploration ends; transition to pairing a smartphone."
+    ],
+    [
+      "781-794",
+      "I attempt to pair my smartphone to the vehicle's Bluetooth system.",
+      "Bluetooth pairing attempt concludes with a failure alert."
+    ],
+    [
+      "795-809",
+      "I discuss the audio system settings and quality with the passenger.",
+      "Audio discussion ends; focus shifts back to the instrument cluster."
+    ],
+    [
+      "810-825",
+      "I browse the system menus on the digital instrument cluster.",
+      "Instrument cluster menu navigation concludes."
+    ],
+    [
+      "826-827",
+      "I examine the headlight switch and rearview mirror.",
+      "Transition from inspecting physical controls to observing the passenger."
+    ],
+    [
+      "828-834",
+      "I observe the passenger adjust the vehicle climate controls.",
+      "End of provided events."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

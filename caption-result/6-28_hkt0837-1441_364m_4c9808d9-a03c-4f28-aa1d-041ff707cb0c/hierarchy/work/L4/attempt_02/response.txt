@@ -1,0 +1,44 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group L3 episodes into broader travel phases: departing the residence, commuting to the rail station, clearing station checkpoints to board, riding the first high-speed train, transferring at the station, and riding the connecting high-speed train.",
+  "events": [
+    [
+      "0-2",
+      "I depart from my apartment building with my companion following my final packing and trash disposal.",
+      "Departing the apartment building concludes the initial preparation phase."
+    ],
+    [
+      "3-6",
+      "I commute to the High Speed Rail station via the MTR with my companion.",
+      "Arriving at the High Speed Rail station completes the local commute."
+    ],
+    [
+      "7-9",
+      "I board my first high-speed train after clearing the border immigration, customs, and security checkpoints.",
+      "Boarding the high-speed train completes the station processing and navigation phase."
+    ],
+    [
+      "10-15",
+      "I travel on the first high-speed train until my disembarkation, engaging in digital entertainment and seat activities.",
+      "Disembarking concludes the first leg of the high-speed rail journey."
+    ],
+    [
+      "16-18",
+      "I transfer to my connecting high-speed train via the station transfer concourse.",
+      "Boarding the transfer train completes the station transfer process."
+    ],
+    [
+      "19-27",
+      "I travel on the connecting high-speed train, engaging in leisure activities, conversation, and car rental arrangements.",
+      "The remaining events comprise the continuous journey on the connecting train."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

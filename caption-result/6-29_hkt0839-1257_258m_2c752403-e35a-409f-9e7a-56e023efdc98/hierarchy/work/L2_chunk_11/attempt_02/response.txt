@@ -1,0 +1,114 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions directed at the same immediate target, such as navigating the cafe, inspecting seating, interacting with the kitten, paying at the counter, and handling items.",
+  "events": [
+    [
+      "2500-2507",
+      "I navigate the cafe to find seating.",
+      "Finishes moving around the cafe"
+    ],
+    [
+      "2508-2510",
+      "I signal a staff member at the counter.",
+      "Changes focus after signaling"
+    ],
+    [
+      "2511-2516",
+      "I watch an orange kitten moving in the aisle.",
+      "Kitten runs off; begins looking around cafe"
+    ],
+    [
+      "2517-2524",
+      "I inspect the cafe seating.",
+      "Returns focus to watching the kitten"
+    ],
+    [
+      "2525-2541",
+      "I interact with a kitten hiding under a chair.",
+      "Moves to handle objects"
+    ],
+    [
+      "2542-2544",
+      "I adjust a chair and open a paper bag.",
+      "Bag opened; returns to observing kitten"
+    ],
+    [
+      "2545-2558",
+      "I observe a kitten and reach for it under the furniture.",
+      "Stands up and shifts focus"
+    ],
+    [
+      "2559-2565",
+      "I handle a cable and a pet leash.",
+      "Finishes holding leash, walks toward service counter"
+    ],
+    [
+      "2566-2568",
+      "I walk to the service counter and inspect furniture.",
+      "Returns focus to kitten"
+    ],
+    [
+      "2569-2575",
+      "I play with a kitten.",
+      "Stands up; turns to receive a drink"
+    ],
+    [
+      "2576-2579",
+      "I receive a drink from a staff member.",
+      "Drink received; spots kitten again"
+    ],
+    [
+      "2580-2585",
+      "I approach and pet a cat near a table.",
+      "Leaves to go pay at counter"
+    ],
+    [
+      "2586-2598",
+      "I pay for my order via Alipay at the counter.",
+      "Payment completed; switches to playing with cat"
+    ],
+    [
+      "2599-2616",
+      "I tease a kitten with a wand and cord.",
+      "Stands up and moves to take a napkin"
+    ],
+    [
+      "2617-2623",
+      "I take and fold a napkin near a table.",
+      "Moves to interact with the kitten again"
+    ],
+    [
+      "2624-2661",
+      "I play with a kitten resting and rolling near the furniture.",
+      "Rises to scan cafe and check drink"
+    ],
+    [
+      "2662-2668",
+      "I inspect my iced drink and items at the bar counter.",
+      "Finishes looking at drink, returns to kitten"
+    ],
+    [
+      "2669-2689",
+      "I watch and play with a kitten moving among the chairs.",
+      "Stands up to look at decor and handle a cup"
+    ],
+    [
+      "2690-2697",
+      "I inspect the cafe decor and hold a glass cup from the counter.",
+      "Finishes at counter; starts new play session"
+    ],
+    [
+      "2698-2749",
+      "I tease a kitten using a black cable.",
+      "End of input batch"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

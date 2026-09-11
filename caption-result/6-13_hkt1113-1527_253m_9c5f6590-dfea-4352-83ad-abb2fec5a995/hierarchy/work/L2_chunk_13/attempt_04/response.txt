@@ -1,0 +1,51 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group actions into immediate tasks such as exporting data, reviewing the workspace, adjusting settings, reading documents, and handling a phone call, ending with a physical transition away from the workstation.",
+  "events": [
+    [
+      "3000-3007",
+      "I generate participant data in the Gorilla interface.",
+      "Gorilla processing modal is closed."
+    ],
+    [
+      "3008-3017",
+      "I review instructions and notifications in the Claude AI workspace.",
+      "Transitions to opening Claude settings."
+    ],
+    [
+      "3018-3028",
+      "I review Claude settings and privacy terms.",
+      "Settings modal is reviewed and closed."
+    ],
+    [
+      "3029-3033",
+      "I read a web document.",
+      "Interrupted by an incoming voice call."
+    ],
+    [
+      "3034-3041",
+      "I complete a voice call.",
+      "Call concludes and phone is placed on the sofa."
+    ],
+    [
+      "3042-3045",
+      "I review technical documentation and Claude settings.",
+      "Physical transition away from the laptop begins."
+    ],
+    [
+      "3046-3049",
+      "I place my devices on the table to stand up.",
+      "End of recording."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "Incoming phone call at 3034 pauses computer work."
+    ],
+    "boundary_cautions": []
+  }
+}
+```

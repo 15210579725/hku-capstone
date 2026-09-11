@@ -1,0 +1,124 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group consecutive atomic actions into cohesive immediate tasks, such as navigating specific building areas, riding elevators between floors, operating control systems, and browsing distinct topics on mobile applications.",
+  "events": [
+    [
+      "1000-1004",
+      "I count up to twenty in the open hall.",
+      "Counting sequence concludes"
+    ],
+    [
+      "1005-1010",
+      "I inspect the unfinished concrete hall at the top of the stairs.",
+      "Finishes observing the concrete hall"
+    ],
+    [
+      "1011-1016",
+      "I wait for the elevator in the lobby.",
+      "Enters elevator"
+    ],
+    [
+      "1017-1025",
+      "I take the elevator to floor six.",
+      "Doors open at floor six"
+    ],
+    [
+      "1026-1034",
+      "I ride the elevator up to floor eleven.",
+      "Elevator doors open at destination"
+    ],
+    [
+      "1035-1040",
+      "I walk through the corridor to call another elevator.",
+      "Elevator doors open"
+    ],
+    [
+      "1041-1049",
+      "I observe the safety notices during my elevator ride.",
+      "Steps out of elevator"
+    ],
+    [
+      "1050-1053",
+      "I enter a dark room from the hallway.",
+      "Approaches control panel"
+    ],
+    [
+      "1054-1074",
+      "I adjust the settings on the lighting control system dashboard.",
+      "Completes dashboard interaction"
+    ],
+    [
+      "1075-1079",
+      "I explore the illuminated rock tunnel corridor.",
+      "Turns to the control panel"
+    ],
+    [
+      "1080-1082",
+      "I turn off the hallway lights using the control panel.",
+      "Leaves darkened hallway"
+    ],
+    [
+      "1083-1089",
+      "I exit the building through the sliding glass doors.",
+      "Reaches exterior"
+    ],
+    [
+      "1090-1097",
+      "I walk along the exterior road to reach another building entrance.",
+      "Enters building lobby"
+    ],
+    [
+      "1098-1102",
+      "I enter the building lobby to call the elevator.",
+      "Elevator arrives"
+    ],
+    [
+      "1103-1111",
+      "I ride the elevator with my laptop.",
+      "Doors open at destination"
+    ],
+    [
+      "1112-1126",
+      "I settle into an acoustic booth in the study lounge.",
+      "Switches to using phone"
+    ],
+    [
+      "1127-1137",
+      "I respond to food photos from babe in WeChat.",
+      "Switches to reading articles"
+    ],
+    [
+      "1138-1162",
+      "I read an article about smart glasses privacy on WeChat.",
+      "Returns to home screen"
+    ],
+    [
+      "1163-1164",
+      "I browse food items on a food ordering app.",
+      "Switches to Taobao"
+    ],
+    [
+      "1165-1172",
+      "I browse smart glasses and accessories on Taobao.",
+      "Switches to food delivery option"
+    ],
+    [
+      "1173-1196",
+      "I browse burger combo meals on a takeout delivery app.",
+      "Switches apps"
+    ],
+    [
+      "1197-1200",
+      "I place my phone on the desk with the Xianyu app open.",
+      "Ends interaction with phone"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

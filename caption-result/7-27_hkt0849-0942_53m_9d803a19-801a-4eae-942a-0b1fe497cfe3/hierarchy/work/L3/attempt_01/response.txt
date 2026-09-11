@@ -1,0 +1,61 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group immediate tasks into coherent activity episodes based on significant location changes, primary targets, and distinct overarching goals (e.g., hotel departure, coffee pickup, parting ways with a companion, scooter commute, and phases of office work).",
+  "events": [
+    [
+      "0-12",
+      "I pack my bags and prepare to leave the hotel room with my companion.",
+      "Leaving the hotel room."
+    ],
+    [
+      "13-15",
+      "I depart the hotel and exit onto the sidewalk.",
+      "Transitioning from the hotel interior to the street."
+    ],
+    [
+      "16-20",
+      "I pick up my Luckin Coffee order and dispose of an unwanted sandwich.",
+      "Coffee pickup and associated tasks completed."
+    ],
+    [
+      "21-27",
+      "I converse with my companion about our routes, dispose of a plush toy, and bid her farewell.",
+      "Companion departs, marking the end of the shared interactions."
+    ],
+    [
+      "28-32",
+      "I walk along the street and navigate through a plaza and community gate.",
+      "Arriving at the location to rent a scooter."
+    ],
+    [
+      "33-44",
+      "I unlock a rented electric scooter and ride it to the research institute campus.",
+      "Arriving at the destination and parking the scooter."
+    ],
+    [
+      "45-49",
+      "I enter the laboratory building and settle at my office desk.",
+      "Arriving at the desk to begin work."
+    ],
+    [
+      "50-56",
+      "I perform initial desk activities, including messaging my partner on WeChat, monitoring a Baidu Netdisk upload, and updating my Feishu journal.",
+      "Transitioning to focused research and fine-tuning tasks."
+    ],
+    [
+      "57-67",
+      "I conduct research on my laptop, focusing on Claude Code fine-tuning and reading the EgoSelf paper.",
+      "End of provided events."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      27
+    ],
+    "boundary_cautions": []
+  }
+}
+```

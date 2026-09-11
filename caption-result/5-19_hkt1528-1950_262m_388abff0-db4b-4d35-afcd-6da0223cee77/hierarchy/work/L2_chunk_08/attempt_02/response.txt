@@ -1,0 +1,129 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group contiguous action briefs into immediate tasks based on shared goals and primary targets. Separate distinct meal components, such as eating the main dish versus drinking soup, into their own tasks. Distinguish specific digital interactions, such as chatting on WeChat, searching general listings on Taobao, evaluating specific product SKUs, and checking logistics.",
+  "events": [
+    [
+      "1750",
+      "I place my smartphone.",
+      "Meal preparation begins"
+    ],
+    [
+      "1751-1787",
+      "I eat my chicken, rice, and cucumber.",
+      "Switches from eating solid food to drinking soup"
+    ],
+    [
+      "1788-1790",
+      "I drink soup.",
+      "Returns to eating solid food"
+    ],
+    [
+      "1791-1834",
+      "I eat my chicken and rice.",
+      "Pauses solid food to drink soup"
+    ],
+    [
+      "1835-1836",
+      "I drink soup.",
+      "Returns to eating solid food"
+    ],
+    [
+      "1837-1851",
+      "I eat my chicken, fish, and rice.",
+      "Finishes eating main food items and begins scraping the tray"
+    ],
+    [
+      "1852-1858",
+      "I scrape the leftovers from my meal tray.",
+      "Finishes scraping and picks up the soup bowl"
+    ],
+    [
+      "1859-1869",
+      "I drink the remaining soup.",
+      "Finishes the meal entirely and turns to the backpack"
+    ],
+    [
+      "1870-1873",
+      "I secure my backpack.",
+      "Finishes backpack adjustment and picks up the phone"
+    ],
+    [
+      "1874-1879",
+      "I message babe on WeChat.",
+      "Switches app to Taobao"
+    ],
+    [
+      "1880-1888",
+      "I browse DIY photo albums on Taobao.",
+      "Switches app back to WeChat"
+    ],
+    [
+      "1889-1899",
+      "I browse my March and April 2026 photos in WeChat.",
+      "Puts the phone down to interact with the backpack"
+    ],
+    [
+      "1900-1903",
+      "I search my backpack.",
+      "Returns focus to the phone and Taobao"
+    ],
+    [
+      "1904-1910",
+      "I message a Taobao merchant about a DIY photo album.",
+      "Leaves the chat to browse scrapbook listings"
+    ],
+    [
+      "1911-1918",
+      "I browse DIY scrapbook kits on Taobao.",
+      "Navigates to messages and logistics tracking"
+    ],
+    [
+      "1919-1923",
+      "I check my Taobao logistics tracking.",
+      "Returns to browsing DIY photo album search results"
+    ],
+    [
+      "1924-1936",
+      "I browse DIY photo album search results on Taobao.",
+      "Selects a specific accordion album to review SKUs"
+    ],
+    [
+      "1937-1948",
+      "I review the SKU options for a DIY accordion album on Taobao.",
+      "Switches to reviewing a plush DIY album"
+    ],
+    [
+      "1949-1960",
+      "I evaluate the pricing for a DIY plush photo album on Taobao.",
+      "Rejects the price and returns to browsing search listings"
+    ],
+    [
+      "1961-1974",
+      "I browse DIY pop-up photo albums on Taobao.",
+      "Narrows focus to accordion photo albums"
+    ],
+    [
+      "1975-1983",
+      "I browse DIY accordion photo albums on Taobao.",
+      "Opens a specific kit product page"
+    ],
+    [
+      "1984-1996",
+      "I examine a DIY accordion photo album kit on Taobao.",
+      "Exits Taobao and opens the Doubao app"
+    ],
+    [
+      "1997-1999",
+      "I view a chat about 《人民的名义》 in the Doubao app.",
+      "End of supplied briefs"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

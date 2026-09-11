@@ -1,0 +1,66 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group actions into immediate tasks centered on the user's focus: manipulating a paper sheet, studying a physical notebook, alternating between drafting prompts and reading AI responses in Claude, and handling an interrupting phone call.",
+  "events": [
+    [
+      "0-4",
+      "I manipulate a paper sheet to temporarily block my view.",
+      "Finishes moving the paper and focuses on the notebook."
+    ],
+    [
+      "5-53",
+      "I annotate a flowchart about habit triggers in my notebook.",
+      "Turns attention from the notebook to the laptop to use Claude."
+    ],
+    [
+      "54-66",
+      "I type prompt instructions for daily schedule sorting into Claude AI.",
+      "Interrupted by an incoming phone call, prompting a move away from the desk."
+    ],
+    [
+      "67-105",
+      "I handle a WeChat phone call with babe regarding an apartment visit.",
+      "Ends the call, puts away the wallet, and returns focus to the laptop."
+    ],
+    [
+      "106-146",
+      "I read Claude's comprehensive response detailing physical, temporal, and social habit trigger cues.",
+      "Finishes reading the generated text and begins composing a new prompt."
+    ],
+    [
+      "147-163",
+      "I draft a prompt to Claude about compressing and manipulating habit triggers.",
+      "Submits the prompt and waits for the AI response."
+    ],
+    [
+      "164-194",
+      "I read Claude's explanation regarding perceptual clusters and basal ganglia habit mechanisms.",
+      "Finishes reading the response and types a quick follow-up request."
+    ],
+    [
+      "195-195",
+      "I type a prompt requesting research papers and examples from Claude.",
+      "Submits the short prompt and immediately begins reading the next output."
+    ],
+    [
+      "196-239",
+      "I read Claude's explanation on internal states, emotion specificity, and behavioral chunking.",
+      "Finishes reading the detailed response and opens a modal dialog."
+    ],
+    [
+      "240-249",
+      "I type notes about habit cues into a modal dialog.",
+      "Ends at the boundary of the provided data."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "Incoming WeChat call from babe at index 69 significantly redirects behavior to handle an apartment visit discussion."
+    ],
+    "boundary_cautions": []
+  }
+}
+```

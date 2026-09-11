@@ -1,0 +1,189 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous micro-actions toward a single immediate goal (e.g., fetching items, prepping ingredients, cleaning, navigating devices) into discrete tasks.",
+  "events": [
+    [
+      "0-3",
+      "I walk to the kitchen countertop.",
+      "Location change complete."
+    ],
+    [
+      "4-10",
+      "I struggle to close the stuck refrigerator crisper drawer.",
+      "Drawer closed, objective ends."
+    ],
+    [
+      "11-15",
+      "I watch my companion wash lettuce.",
+      "Observation ends, shifts to putting cabbage away."
+    ],
+    [
+      "16-17",
+      "I put the cabbage into the refrigerator.",
+      "Cabbage stored."
+    ],
+    [
+      "18-21",
+      "I walk back to the bedroom.",
+      "Location change complete."
+    ],
+    [
+      "22-24",
+      "I inspect the electric cooking pot with the hotpot seasoning packet.",
+      "Inspection complete."
+    ],
+    [
+      "25-30",
+      "I start the electric pot with water from the kettle.",
+      "Pot turned on, shifts to looking around."
+    ],
+    [
+      "31-34",
+      "I look at the food preparation setup.",
+      "Observation ends."
+    ],
+    [
+      "35-55",
+      "I empty the hot pot seasoning pouch into the electric pot.",
+      "Seasoning added and trash discarded."
+    ],
+    [
+      "56-60",
+      "I stir the hot pot soup with a kitchen knife.",
+      "Stirring finishes, shifts to handling meat."
+    ],
+    [
+      "61-67",
+      "I unwrap the trays of raw meat.",
+      "Meat trays opened."
+    ],
+    [
+      "68-73",
+      "I clean my hands in the bathroom sink.",
+      "Hand washing complete."
+    ],
+    [
+      "74-85",
+      "I transfer tap water to the electric multi-cooker using the kettle.",
+      "Kettle refilled and set down."
+    ],
+    [
+      "86-88",
+      "I inspect the hot pot ingredients.",
+      "Observation ends."
+    ],
+    [
+      "89-98",
+      "I prepare the sesame sauce pouch.",
+      "Pouch kneaded and placed down."
+    ],
+    [
+      "99-109",
+      "I set up my laptop to play a YouTube video.",
+      "Laptop placed and playing."
+    ],
+    [
+      "110-117",
+      "I sort the fresh lettuce leaves.",
+      "Lettuce sorted and set aside."
+    ],
+    [
+      "118-120",
+      "I plug in the electric cooking pot.",
+      "Pot plugged in."
+    ],
+    [
+      "121-131",
+      "I discuss dipping sauce choices with my roommate.",
+      "Conversation concludes, shifts to slicing meat."
+    ],
+    [
+      "132-150",
+      "I slice the raw meat.",
+      "Meat separated, interrupted to wash a scrap."
+    ],
+    [
+      "151-157",
+      "I wash a food scrap with a plastic film wrapper in the bathroom sink.",
+      "Washing finishes."
+    ],
+    [
+      "158-162",
+      "I separate slices of raw meat.",
+      "Meat separated, leaves room."
+    ],
+    [
+      "163-169",
+      "I fetch a bowl with chopsticks from the kitchen.",
+      "Tableware received."
+    ],
+    [
+      "170-181",
+      "I arrange the chili sauce jar with my tableware.",
+      "Items placed down."
+    ],
+    [
+      "182-187",
+      "I discuss seating arrangements with my roommate.",
+      "Conversation ends."
+    ],
+    [
+      "188-193",
+      "I wipe my hands with a tissue.",
+      "Hand wiping complete, responds to request for cutting board."
+    ],
+    [
+      "194-201",
+      "I retrieve a rinsed cutting board from the kitchen.",
+      "Cutting board fetched."
+    ],
+    [
+      "202-204",
+      "I return to the bedroom.",
+      "Location change complete."
+    ],
+    [
+      "205-207",
+      "I adjust the portable fan.",
+      "Fan positioned."
+    ],
+    [
+      "208-208",
+      "I monitor the simmering hot pot.",
+      "Monitoring ends to check laptop."
+    ],
+    [
+      "209-212",
+      "I navigate the YouTube music video on my laptop.",
+      "Interaction ends, returns to hotpot."
+    ],
+    [
+      "213-233",
+      "I add sliced raw meat into the hotpot.",
+      "Meat added, switches to vegetables."
+    ],
+    [
+      "234-243",
+      "I cook vegetables with meat in the hotpot.",
+      "Ingredients submerged, chopsticks put down."
+    ],
+    [
+      "244-246",
+      "I eat cucumber slices.",
+      "Eating cucumber finishes."
+    ],
+    [
+      "247-249",
+      "I watch my roommate cook ingredients.",
+      "End of input."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,114 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous walking segments, distinct conversational topics, smartphone usage phases, and navigation milestones (like riding the elevator or entering the restaurant) into immediate tasks.",
+  "events": [
+    [
+      "0-9",
+      "I leave the study area.",
+      "Completes exiting the building."
+    ],
+    [
+      "10-20",
+      "I walk along the covered walkway toward the science building.",
+      "Shifts from focused walking to a specific conversation."
+    ],
+    [
+      "21-27",
+      "I discuss in-context learning with my companion.",
+      "Conversation topic concludes."
+    ],
+    [
+      "28-41",
+      "I walk toward the HKU Station entrance with my companion.",
+      "Arrives at the station elevators."
+    ],
+    [
+      "42-58",
+      "I ride the station elevator.",
+      "Completes elevator ride."
+    ],
+    [
+      "59-69",
+      "I walk through the station pedestrian tunnel.",
+      "Shifts to smartphone usage."
+    ],
+    [
+      "70-74",
+      "I read WeChat articles on my smartphone.",
+      "Puts phone away to resume walking."
+    ],
+    [
+      "75-97",
+      "I walk through the subway tunnel toward Exit B1.",
+      "Shifts back to smartphone usage."
+    ],
+    [
+      "98-105",
+      "I review my financial balances on my smartphone.",
+      "Transitions from standing to riding the escalator."
+    ],
+    [
+      "106-122",
+      "I monitor banking applications with my companion on the escalator.",
+      "Completes escalator ride and smartphone use."
+    ],
+    [
+      "123-132",
+      "I converse with my companion about their heavy backpack.",
+      "Conversation topic concludes."
+    ],
+    [
+      "133-138",
+      "I walk uphill along the street.",
+      "Shifts from walking to a new conversation topic."
+    ],
+    [
+      "139-159",
+      "I discuss a friend's relationship with my companion.",
+      "Conversation topic shifts to birthday plans."
+    ],
+    [
+      "160-168",
+      "I discuss meal plans with my companion for my birthday.",
+      "Shifts from planning to actively looking for restaurants on the street."
+    ],
+    [
+      "169-193",
+      "I browse restaurant options along the street with my companion.",
+      "Selects a restaurant and proceeds toward it."
+    ],
+    [
+      "194-204",
+      "I walk toward the selected restaurant.",
+      "Arrives at the restaurant entrance stairs."
+    ],
+    [
+      "205-215",
+      "I enter the restaurant.",
+      "Completes entering the restaurant."
+    ],
+    [
+      "216-224",
+      "I settle at a dining table.",
+      "Completes seating process."
+    ],
+    [
+      "225-231",
+      "I browse the digital Dare Restaurant menu on my smartphone.",
+      "Completes menu browsing."
+    ],
+    [
+      "232-249",
+      "I converse with my companion while waiting at the dining table.",
+      "End of input sequence."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

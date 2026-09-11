@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group the indoor packing into a discrete preparation phase, and merge exiting the building and moving through the plaza into a single unified transit phase.",
+  "events": [
+    [
+      "0",
+      "I pack my swim gear and laptop charger in the bedroom.",
+      "Distinct indoor preparation phase"
+    ],
+    [
+      "1-2",
+      "I travel from the apartment building through the outdoor plaza with my companion.",
+      "Continuous outbound transit phase"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

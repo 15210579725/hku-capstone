@@ -1,0 +1,119 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group contiguous actions into immediate tasks defined by specific physical interactions, reading distinct articles, distinct conversational topics during transit, and location changes.",
+  "events": [
+    [
+      "0-2",
+      "I pack a power bank and charging cable into my backpack.",
+      "Task completion: finished packing the electronic accessories."
+    ],
+    [
+      "3-17",
+      "I interact with my roommate regarding my outfit.",
+      "Task completion: social interaction concludes as attention shifts to the smartphone."
+    ],
+    [
+      "18-35",
+      "I read a WeChat article about GPT-5.6 and AI model pricing on my phone.",
+      "Target change: switched to reading a different tech article."
+    ],
+    [
+      "36-58",
+      "I read a WeChat article about Claude Fable 5's coding capabilities.",
+      "Task completion: finished reading and switched back to packing."
+    ],
+    [
+      "59-66",
+      "I pack a red shirt into my backpack.",
+      "Task completion: finished packing the clothing."
+    ],
+    [
+      "67-74",
+      "I observe my companion getting ready to leave.",
+      "Target change: companion finishes preparing, initiating departure."
+    ],
+    [
+      "75-81",
+      "I walk out of the apartment to the elevator lobby.",
+      "Location change: arrived at the building's elevator lobby."
+    ],
+    [
+      "82-89",
+      "I accompany my companion to the refuse collection room.",
+      "Task completion: finished trash disposal and returned to the lobby."
+    ],
+    [
+      "90-96",
+      "I converse with my companion about carrying items.",
+      "Target change: the elevator arrives, ending the waiting period."
+    ],
+    [
+      "97-113",
+      "I converse with my companion about her earplugs during the elevator ride.",
+      "Location change: exiting the elevator."
+    ],
+    [
+      "114-119",
+      "I walk out through the building reception lobby.",
+      "Location change: moved from indoors to the outdoor walkway."
+    ],
+    [
+      "120-126",
+      "I comment on the swimming pool leaves to my companion.",
+      "Target change: moved past the pool area."
+    ],
+    [
+      "127-142",
+      "I discuss internship requirements with my companion during our walk.",
+      "Target change: conversational focus shifts upon reaching the garden."
+    ],
+    [
+      "143-149",
+      "I hold hands with my companion on the garden pathway.",
+      "Target change: companion initiates a new conversational topic."
+    ],
+    [
+      "150-166",
+      "I discuss early morning commute logistics with my companion.",
+      "Topic change: conversation shifts from commuting to personal jokes."
+    ],
+    [
+      "167-184",
+      "I joke about my companion's mothering behavior in the courtyard plaza.",
+      "Topic change: conversation shifts to housing arrangements."
+    ],
+    [
+      "185-202",
+      "I discuss housing arrangements for my offline internship.",
+      "Topic change: conversation shifts to my companion's schedule."
+    ],
+    [
+      "203-213",
+      "I discuss my companion's project timetable and travel plans.",
+      "Topic change: conversation shifts back to my own internship details."
+    ],
+    [
+      "214-234",
+      "I discuss my internship location and AI model fine-tuning goals.",
+      "Location change: approached and entered a new building."
+    ],
+    [
+      "235-240",
+      "I enter the building lobby.",
+      "Location change: reached the escalator inside the building."
+    ],
+    [
+      "241-249",
+      "I discuss peers with my companion on the descending escalator.",
+      "Task continues across batch edge."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

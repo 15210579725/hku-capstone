@@ -1,0 +1,117 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions sharing a single immediate objective and location. Maintain major triggers as standalone events, such as swapping cooking duties for working. Keep distinct digital tasks (e.g., reading AI responses, browsing TikZ templates, using VS Code, viewing GitHub) separated into their immediate task goals.",
+  "events": [
+    [
+      "250-332",
+      "I slice potatoes into crinkle strips on a cutting board during a conversation with my companion.",
+      "Finished slicing potatoes and picked up the cutting board."
+    ],
+    [
+      "333-337",
+      "I transfer the sliced potatoes into hot oil in a frying pan on the stove.",
+      "Finished adding potatoes to the pan and turned to roommate."
+    ],
+    [
+      "338-343",
+      "I receive a bowl of ramen from my roommate, transfer cooking duties to her, and walk toward my bedroom to write a paper.",
+      "Completed interaction and began focusing entirely on the ramen."
+    ],
+    [
+      "344-361",
+      "I eat and stir a bowl of instant ramen noodles.",
+      "Finished eating in place and began walking."
+    ],
+    [
+      "362-366",
+      "I walk through the living room to my bedroom holding my ramen bowl.",
+      "Arrived in the bedroom area near the window."
+    ],
+    [
+      "367-372",
+      "I adjust hanging clothes and towels on a drying rod by the bedroom window.",
+      "Finished interacting with the laundry."
+    ],
+    [
+      "373-374",
+      "I sit down in my office chair at my bedroom desk.",
+      "Seated and began using the computer."
+    ],
+    [
+      "375-388",
+      "I read a Claude AI response summarizing scientific diagramming tools.",
+      "Finished reading the AI response and opened Draw.io."
+    ],
+    [
+      "389-395",
+      "I initialize the draw.io web interface and wipe my device screen.",
+      "Finished initial setup and switched tabs."
+    ],
+    [
+      "396-400",
+      "I read Claude AI recommendations for LaTeX TikZ templates.",
+      "Finished reading recommendations and navigated to a new site."
+    ],
+    [
+      "401-402",
+      "I browse example scientific graphics on TikZ.net.",
+      "Left the computer to visit the kitchen."
+    ],
+    [
+      "403-415",
+      "I visit the kitchen to adjust the frying pan on the stove and watch my housemate prepare food.",
+      "Finished checking the stove and left the kitchen."
+    ],
+    [
+      "416-425",
+      "I walk back to my bedroom desk after discussing buying cooking oil with my housemate.",
+      "Arrived at the desk to resume computer work."
+    ],
+    [
+      "426-435",
+      "I browse scientific diagram templates on TikZ.net.",
+      "Finished browsing templates and switched back to Draw.io."
+    ],
+    [
+      "436-437",
+      "I examine shapes in draw.io and select a rounded rectangle.",
+      "Finished shape selection and switched applications."
+    ],
+    [
+      "438-458",
+      "I review a digital-twin evaluation scheme diagram and project log files in VS Code.",
+      "Shifted from reviewing files to typing a prompt."
+    ],
+    [
+      "459-467",
+      "I type a Chinese prompt requesting examples into the Claude Code terminal in VS Code.",
+      "Finished typing the prompt and switched to the browser."
+    ],
+    [
+      "468-476",
+      "I read Claude AI recommendations for scientific diagramming tools in Google Chrome.",
+      "Finished reading the AI chat and switched tools."
+    ],
+    [
+      "477-479",
+      "I navigate to the dair-ai/ml-visuals GitHub repository.",
+      "Page loaded and began exploring the repository."
+    ],
+    [
+      "480-499",
+      "I explore the dair-ai/ml-visuals GitHub repository to review machine learning diagram topics and previews.",
+      "Batch ends."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "338-343: Swapping cooking duties with the roommate for a bowl of ramen and departing to work on a paper fundamentally redirects behavior from cooking to eating/working.",
+      "403-415: Leaving the desk setup to return to the kitchen to check on the stove interrupts computer work."
+    ],
+    "boundary_cautions": []
+  }
+}
+```

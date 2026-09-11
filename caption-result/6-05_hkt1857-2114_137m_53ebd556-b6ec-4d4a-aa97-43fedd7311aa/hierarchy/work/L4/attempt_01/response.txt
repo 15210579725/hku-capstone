@@ -1,0 +1,46 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group L3 episodes into broader L4 goal-oriented phases based on major location changes and unified goals: an AI research session, a standalone departure trigger, departure preparations, a complete subway commute, walking through the commercial area, and arriving at the apartment to organize belongings.",
+  "events": [
+    [
+      "0-6",
+      "I conduct AI research on action prediction and latent variables in the lecture hall.",
+      "Continuous research work session at the desk"
+    ],
+    [
+      "7",
+      "I pick up my smartphone upon hearing User A suggest leaving.",
+      "Major behavior-changing trigger initiating departure"
+    ],
+    [
+      "8-10",
+      "I prepare to depart the lecture hall.",
+      "Preparation and packing phase before transit"
+    ],
+    [
+      "11-17",
+      "I commute via the subway system to my destination.",
+      "Complete subway journey from station approach to exit"
+    ],
+    [
+      "18-19",
+      "I navigate the street and outdoor plaza with my companion.",
+      "Walking from transit to the apartment building"
+    ],
+    [
+      "20-22",
+      "I organize my personal and household belongings upon returning to my apartment.",
+      "Arriving at the apartment and settling in"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      7
+    ],
+    "boundary_cautions": []
+  }
+}
+```

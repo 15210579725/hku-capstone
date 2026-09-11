@@ -1,0 +1,76 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group action briefs into immediate tasks by identifying continuous physical activities and primary conversational topics. Boundaries are marked by shifts between practicing guitar, checking devices, changing conversation subjects on the video call, packing the instrument, handling a low-battery phone, and fetching water.",
+  "events": [
+    [
+      "2000-2021",
+      "I practice the Gmaj7 chord on my guitar during a video call.",
+      "Shifts to checking the laptop and guitar headstock"
+    ],
+    [
+      "2022-2026",
+      "I check the guitar headstock and MacBook trackpad.",
+      "Resumes active guitar practice"
+    ],
+    [
+      "2027-2061",
+      "I practice the Gmaj7 chord on my guitar during a video call discussion about career plans.",
+      "Conversation shifts to visa extensions and part-time jobs"
+    ],
+    [
+      "2062-2098",
+      "I discuss visa extensions and part-time jobs on the video call.",
+      "Resumes playing the guitar strings"
+    ],
+    [
+      "2099-2106",
+      "I practice the Gmaj7 chord on my acoustic guitar during the video call.",
+      "Stands up to pack the guitar away"
+    ],
+    [
+      "2107-2115",
+      "I pack the acoustic guitar and a capo into the gig bag.",
+      "Proceeds to hang the bag on the rack"
+    ],
+    [
+      "2116-2123",
+      "I hang the guitar bag on the rack after extracting a silver capo during the video call.",
+      "Walks to the dining table to check the MacBook"
+    ],
+    [
+      "2124-2126",
+      "I read the Gmaj7 chord tutorial on my MacBook at the dining table.",
+      "Leaves the laptop to fetch water in the kitchen"
+    ],
+    [
+      "2127-2129",
+      "I place a glass on the water dispenser tray in the kitchen.",
+      "Interrupts getting water to handle a low-battery phone"
+    ],
+    [
+      "2130-2135",
+      "I place my low-battery phone on the table to monitor it powering off.",
+      "Returns to the kitchen to fetch water"
+    ],
+    [
+      "2136-2141",
+      "I fill a glass bottle with water from the kitchen dispenser.",
+      "Returns to the dining table"
+    ],
+    [
+      "2142-2143",
+      "I reposition my smartphone on the dining table.",
+      "End of input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "2130-2131: Realizing the phone battery is dying triggers a shift from fetching water to handling the phone."
+    ],
+    "boundary_cautions": []
+  }
+}
+```

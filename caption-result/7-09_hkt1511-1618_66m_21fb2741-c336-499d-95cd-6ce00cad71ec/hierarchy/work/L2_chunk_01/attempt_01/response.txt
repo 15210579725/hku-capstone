@@ -1,0 +1,164 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous action briefs into immediate tasks based on distinct locations, conversational events, crossing intersections, and waiting periods. Each task represents a unified goal such as riding along a road segment, waiting at a traffic light, texting, or performing a distinct activity at home.",
+  "events": [
+    [
+      "0-6",
+      "I walk to the elevator lobby and board the elevator.",
+      "Completes boarding the elevator"
+    ],
+    [
+      "7-16",
+      "I attempt to log into the Aria app on my smartphone while hearing a staff member speak, but encounter an error.",
+      "Completes using the phone in the elevator"
+    ],
+    [
+      "17-18",
+      "I read the elevator notices until I hear the first floor arrival announcement.",
+      "Completes the elevator ride to the first floor"
+    ],
+    [
+      "19-28",
+      "I exit the building and walk along the pedestrian pathway.",
+      "Completes walking outside to the pathway"
+    ],
+    [
+      "29-33",
+      "I rent an electric scooter using the Alipay app and grab the handlebars.",
+      "Completes unlocking the scooter"
+    ],
+    [
+      "34-43",
+      "I ride the electric scooter along the road.",
+      "Completes riding on the road before the security gate"
+    ],
+    [
+      "44-48",
+      "I ride the electric scooter to the security gate and ask the guard to open it.",
+      "Completes passing through the security gate"
+    ],
+    [
+      "49-53",
+      "I ride the electric scooter past a parked forklift and curse about the heavy rain.",
+      "Completes riding before stopping to wipe face"
+    ],
+    [
+      "54-60",
+      "I stop the electric scooter to wipe the rain from my face.",
+      "Completes stopping and wiping face"
+    ],
+    [
+      "61-68",
+      "I ride the electric scooter past parked trucks and approach the intersection.",
+      "Completes riding before stopping at the intersection"
+    ],
+    [
+      "69-77",
+      "I wait at the intersection red light and monitor crossing traffic.",
+      "Completes waiting at the intersection"
+    ],
+    [
+      "78-86",
+      "I ride the electric scooter along the bike lane and cross an intersection.",
+      "Completes riding along the bike lane before singing"
+    ],
+    [
+      "87-96",
+      "I sing while riding the electric scooter across the intersection under the elevated highway.",
+      "Completes crossing the intersection under the highway"
+    ],
+    [
+      "97-106",
+      "I ride the electric scooter over the bridge ramp and past a bus stop.",
+      "Completes riding over the bridge ramp"
+    ],
+    [
+      "107-116",
+      "I wait at the intersection red light and talk about an order before riding the electric scooter forward.",
+      "Completes waiting at the red light"
+    ],
+    [
+      "117-129",
+      "I ride the electric scooter across the bridge and past parked vehicles.",
+      "Completes riding across the bridge"
+    ],
+    [
+      "130-142",
+      "I navigate the intersection and wait for cross traffic before continuing to ride.",
+      "Completes crossing the intersection"
+    ],
+    [
+      "143-151",
+      "I ride the electric scooter past a campus wall, shops, and across a bridge toward the intersection.",
+      "Completes riding toward the Qiai Road intersection"
+    ],
+    [
+      "152-174",
+      "I wait on my electric scooter at the Qiai Road intersection red light and watch passing traffic.",
+      "Completes waiting at the Qiai Road intersection"
+    ],
+    [
+      "175-181",
+      "I sing while riding the electric scooter toward the residential entrance.",
+      "Completes riding toward the residential gate"
+    ],
+    [
+      "182-188",
+      "I ride the electric scooter through the residential gate and down the tree-lined street.",
+      "Completes riding into the residential area"
+    ],
+    [
+      "189-193",
+      "I park and lock the electric scooter using the HelloBike app.",
+      "Completes parking and locking the scooter"
+    ],
+    [
+      "194-203",
+      "I descend the stairs and type a WeChat message requesting a repair, replacement, or refund for the rented scooter.",
+      "Completes typing the WeChat message on the stairs"
+    ],
+    [
+      "204-212",
+      "I walk up the staircase, confirm to a man that I am repairing the AC, and enter my apartment.",
+      "Completes entering the apartment"
+    ],
+    [
+      "213-217",
+      "I send a WeChat message demanding a refund for the scooter rental and hear a man suggest knocking on a door.",
+      "Completes sending the WeChat message"
+    ],
+    [
+      "218-228",
+      "I wash my legs and arm with the showerhead in the bathroom.",
+      "Completes washing in the bathroom"
+    ],
+    [
+      "229-234",
+      "I hang a towel on the drying rack on the balcony.",
+      "Completes hanging the towel"
+    ],
+    [
+      "235-239",
+      "I attempt unsuccessfully to open the window, telling the man it will not open.",
+      "Completes attempting to open the window"
+    ],
+    [
+      "240-243",
+      "I enter my bedroom, turn on the air conditioner, and walk toward the balcony door.",
+      "Completes turning on the air conditioner"
+    ],
+    [
+      "244-249",
+      "I answer a friend's question about my roommate and knock on my roommate's door to check if anyone is there.",
+      "Completes knocking on the roommate's door"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

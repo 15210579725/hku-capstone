@@ -1,0 +1,64 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks based on the application being used and the specific goal. Separate tasks for editing prompt instructions, reviewing ChatGPT compression statistics, reviewing rules in VS Code, querying ChatGPT about excessive compression, cross-referencing those definitions, handling a ChatGPT crash by resubmitting, reviewing dataset outputs, tweaking prompt parameters, logging notes in Feishu, and finally reading segmentation reasoning.",
+  "events": [
+    [
+      "250-280",
+      "I edit prompt instructions in VS Code.",
+      "Switches to testing the prompt in ChatGPT"
+    ],
+    [
+      "281-302",
+      "I review prompt compression statistics in ChatGPT.",
+      "Switches to reviewing prompt rules in VS Code"
+    ],
+    [
+      "303-314",
+      "I review prompt rules in VS Code.",
+      "Switches to querying ChatGPT about its output"
+    ],
+    [
+      "315-348",
+      "I query ChatGPT about its excessive L2 compression.",
+      "Switches to cross-referencing rules in VS Code"
+    ],
+    [
+      "349-371",
+      "I evaluate ChatGPT's compression definitions against the prompt rules.",
+      "A ChatGPT crash interrupts the workflow"
+    ],
+    [
+      "372-408",
+      "I resubmit the prompt to ChatGPT after encountering an error.",
+      "Successful submission leads to reviewing the new output"
+    ],
+    [
+      "409-472",
+      "I review ChatGPT's dataset processing output.",
+      "Switches to editing prompt parameters"
+    ],
+    [
+      "473-475",
+      "I edit prompt parameters in ChatGPT.",
+      "Switches to Feishu to log test notes"
+    ],
+    [
+      "476-482",
+      "I log prompt test notes in Feishu.",
+      "Switches to monitoring ChatGPT's reasoning"
+    ],
+    [
+      "483-499",
+      "I read ChatGPT's reasoning on segmentation boundaries.",
+      "End of batch"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

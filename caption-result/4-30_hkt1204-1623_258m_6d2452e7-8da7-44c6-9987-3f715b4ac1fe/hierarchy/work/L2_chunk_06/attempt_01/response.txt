@@ -1,132 +1,117 @@
 ```json
 {
   "target_level": "L2",
-  "plan": "Group continuous navigation segments by distinct pathways and floors. Group indoor actions around specific tasks like managing trash bags, washing produce, and checking emails. Segment conversations based on distinct topics such as API pricing, caching, and troubleshooting.",
+  "plan": "Group continuous actions into distinct, immediate tasks based on changes in primary location, focal object, or conversation topic.",
   "events": [
     [
       "1250-1254",
-      "I finalize my produce purchase with a street vendor.",
-      "Purchase interaction concludes"
+      "I finalize a transaction with a market vendor.",
+      "Goal of transaction completes"
     ],
     [
-      "1255-1262",
-      "I walk from the street market to the lobby of the Shek Tong Tsui Municipal Services Building.",
-      "Arrival at building lobby"
+      "1255-1259",
+      "I walk towards the market exit.",
+      "Enters a new building"
+    ],
+    [
+      "1260-1262",
+      "I walk to the elevators inside the Shek Tong Tsui Municipal Services Building.",
+      "Enters the elevator"
     ],
     [
       "1263-1269",
-      "I take the elevator to the indoor market area.",
-      "Elevator ride completes"
+      "I ride the elevator down to the ground floor.",
+      "Arrives at the ground floor"
     ],
     [
       "1270-1277",
       "I walk through the indoor cooked food market.",
-      "Exiting indoor market"
+      "Transitions to outdoor street walking"
     ],
     [
-      "1278-1288",
-      "I walk along the street away from the market.",
-      "Changes street path"
+      "1278-1302",
+      "I walk along outdoor pedestrian paths toward my apartment building.",
+      "Arrives at the destination building"
     ],
     [
-      "1289-1294",
-      "I walk through a covered walkway and up a set of stairs.",
-      "Changes walking environment"
+      "1303-1305",
+      "I enter my apartment building lobby.",
+      "Boards the building elevator"
     ],
     [
-      "1295-1306",
-      "I walk along the street to my apartment building's elevator.",
-      "Arrival at elevator"
+      "1306-1313",
+      "I ride the building elevator to the 15th floor.",
+      "Arrives at the apartment floor"
     ],
     [
-      "1307",
-      "I organize my groceries in a white bucket.",
-      "Action completes before boarding elevator"
+      "1314-1318",
+      "I enter my apartment with my belongings.",
+      "Starts settling in and adjusting environment"
     ],
     [
-      "1308-1313",
-      "I take the elevator to the 15th floor.",
-      "Elevator ride completes"
+      "1319-1321",
+      "I adjust the living area air conditioner.",
+      "Shifts focus to unpacking items from the bucket"
     ],
     [
-      "1314-1315",
-      "I unlock and enter my apartment.",
-      "Entry completes"
+      "1322-1335",
+      "I set up a trash bag inside a white plastic bucket.",
+      "Shifts to tidying the table"
     ],
     [
-      "1316-1321",
-      "I place my groceries on the dining table and adjust the living room air conditioner.",
-      "Initial unpacking and settling task completes"
-    ],
-    [
-      "1322-1329",
-      "I open and inspect a new roll of trash bags.",
-      "Unboxing task completes"
-    ],
-    [
-      "1330-1343",
-      "I line a bucket with a black trash bag and dispose of wrappers.",
-      "Trash bin preparation completes"
+      "1336-1343",
+      "I tidy packaging trash from the dining table.",
+      "Moves to the kitchen to store items"
     ],
     [
       "1344-1350",
-      "I organize items in the kitchen and put on my glasses.",
-      "Organizing and wearing glasses completes"
+      "I organize household items in the kitchen.",
+      "Shifts focus to washing the cucumber"
     ],
     [
       "1351-1354",
-      "I wash the cucumber in the kitchen sink.",
-      "Washing task completes"
+      "I wash a cucumber at the kitchen sink.",
+      "Leaves the kitchen to walk around"
     ],
     [
-      "1355-1371",
-      "I walk around the apartment holding the cucumber.",
-      "Pacing sequence concludes before specific action"
+      "1355-1377",
+      "I walk around the apartment holding the washed cucumber.",
+      "Enters a bedroom to adjust climate controls"
     ],
     [
-      "1372-1382",
-      "I adjust the bedroom air conditioner while walking around the apartment.",
-      "Air conditioner adjustment completes"
+      "1378-1383",
+      "I adjust the window and air conditioner in the bedroom.",
+      "Returns to the dining table to eat"
     ],
     [
-      "1383-1402",
-      "I adjust items on the dining table while holding a piece of cucumber.",
-      "Table adjustment completes before sitting"
-    ],
-    [
-      "1403-1411",
-      "I sit at the dining table and eat a piece of cucumber.",
-      "Eating and resting task completes"
+      "1384-1411",
+      "I eat a piece of cucumber at the cluttered dining table.",
+      "Shifts focus to checking emails on the smartphone"
     ],
     [
       "1412-1430",
-      "I read emails about the ARIN7600 project on my smartphone.",
-      "Email reading concludes"
+      "I read emails regarding the ARIN7600 project on my smartphone.",
+      "Puts down the phone to rest"
     ],
     [
-      "1431-1444",
-      "I speak about the project while observing the dining area.",
-      "Speaking about project completes"
+      "1431-1452",
+      "I take a break at the dining table.",
+      "Interrupted by flatmate speaking"
     ],
     [
-      "1445-1451",
-      "I stretch and inspect items while sitting at the dining table.",
-      "Stretching and resting concludes before conversation"
+      "1453-1464",
+      "I discuss my work absence and the thunderstorm with my flatmate.",
+      "Starts a new conversation about APIs"
     ],
     [
-      "1452-1476",
-      "I discuss my absence from work, the weather, and an API pricing discrepancy with my flatmate.",
-      "Conversation shifts topic"
-    ],
-    [
-      "1477-1492",
-      "I discuss API caching and query costs with my flatmate.",
-      "Conversation moves to desk"
+      "1465-1492",
+      "I discuss API pricing and model context caching issues with a friend.",
+      "Relocates to the bedroom desk to check API usage"
     ],
     [
       "1493-1499",
-      "I walk to my study desk to troubleshoot API usage with my flatmate.",
-      "Relocating to troubleshoot completes"
+      "I review API cost commands with my peer at my bedroom desk.",
+      "End of sequence"
     ]
   ],
   "audit": {

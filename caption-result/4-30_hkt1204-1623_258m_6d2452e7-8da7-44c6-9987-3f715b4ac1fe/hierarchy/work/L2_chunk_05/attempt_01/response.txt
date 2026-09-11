@@ -1,107 +1,157 @@
 ```json
 {
   "target_level": "L2",
-  "plan": "Group continuous walking segments into distinct transit tasks based on key paths and intersections. Group retail browsing by specific item categories or focused interactions (general homeware, travel accessories, trash cans, selecting trash bags, testing buckets). Group entire purchasing activities into single tasks that seamlessly absorb item selection, vendor dialogue, packing, and payment steps. Combine concurrent prolonged interactions, such as using a smartphone to reload a transit card while walking, into unified tasks.",
+  "plan": "Group continuous L1 actions into immediate L2 tasks based on unified short-term objectives such as specific navigation segments, individual product inspections, and localized store interactions.",
   "events": [
     [
-      "1000-1012",
-      "I walk down a concrete pathway with flights of steps to reach an alleyway.",
-      "Reaches the flyover area, completing the descent."
+      "1000-1017",
+      "I walk downhill along a pedestrian path under a highway overpass.",
+      "Continues walking downhill into a different street segment."
     ],
     [
-      "1013-1022",
-      "I walk downhill under a concrete flyover structure.",
-      "Exits the flyover area to approach the next set of stairs and shops."
+      "1018-1036",
+      "I walk downhill past storefronts toward a street intersection.",
+      "Reaches the pedestrian crossing."
     ],
     [
-      "1023-1036",
-      "I walk down a sloped sidewalk past several storefronts toward a street intersection.",
-      "Arrives at the intersection to prepare for crossing."
+      "1037-1049",
+      "I wait at a pedestrian crossing.",
+      "Begins crossing the street."
     ],
     [
-      "1037-1051",
-      "I cross the street at the zebra crossing.",
-      "Completes the street crossing."
+      "1050-1054",
+      "I walk across the street toward a Japan Home Centre store.",
+      "Enters the store."
     ],
     [
-      "1052-1055",
-      "I enter the Japan Home Centre store from the covered sidewalk.",
-      "Enters the store to begin shopping."
+      "1055-1062",
+      "I navigate to the cleaning tools section inside a Japan Home Centre store.",
+      "Stops to inspect a specific item."
     ],
     [
-      "1056-1081",
-      "I browse household organizers, cleaning supplies, and personal care products in the store aisles.",
-      "Shifts focus specifically to travel accessories."
+      "1063-1065",
+      "I inspect a light blue bucket.",
+      "Resumes browsing the shelves."
     ],
     [
-      "1082-1088",
-      "I inspect luggage tags and travel accessories.",
-      "Moves on to inspect trash cans."
+      "1066-1070",
+      "I scan the store aisles for household goods.",
+      "Begins walking down a new aisle."
     ],
     [
-      "1089-1100",
-      "I discuss plastic trash cans with a store staff member.",
-      "Follows the staff member to the disposables aisle."
+      "1071-1081",
+      "I browse various household products in the aisles.",
+      "Enters the travel accessories aisle."
     ],
     [
-      "1101-1111",
-      "I select a roll of light blue trash bags in the disposables aisle with the help of a store employee.",
-      "Switches attention to evaluate heavier-duty trash bags."
+      "1082-1090",
+      "I browse travel accessories and storage items.",
+      "Shifts focus to buckets and trash cans."
     ],
     [
-      "1112-1130",
-      "I select two rolls of green heavy-duty garbage bags from multiple options.",
-      "Secures the trash bags and moves to inspect buckets."
+      "1091-1097",
+      "I inspect trash cans and cleaning tools on the shelves.",
+      "Engages a store employee for assistance."
     ],
     [
-      "1131-1149",
-      "I organize plastic buckets to test the fit of a trash bag roll.",
-      "Completes bucket testing and resumes general browsing."
+      "1098-1102",
+      "I follow a store employee to the trash bags aisle.",
+      "Begins inspecting the trash bags."
     ],
     [
-      "1150-1176",
-      "I browse laundry supplies, hardware, sponges, and air fresheners.",
-      "Finds the final item to purchase."
+      "1103-1111",
+      "I select a light blue roll of trash bags.",
+      "Begins examining other types of trash bags."
     ],
     [
-      "1177-1179",
-      "I retrieve a large white plastic bucket to carry toward the store exit.",
-      "Proceeds to the checkout counter."
+      "1112-1118",
+      "I examine other garbage bags and disposable household items.",
+      "Requests a larger size of trash bags."
+    ],
+    [
+      "1119-1127",
+      "I select large green heavy-duty trash bags.",
+      "Leaves the aisle to find a bucket."
+    ],
+    [
+      "1128-1132",
+      "I walk to the cleaning supplies section to find a bucket.",
+      "Begins inspecting the buckets."
+    ],
+    [
+      "1133-1139",
+      "I select a white plastic bucket.",
+      "Begins checking the fit of the trash bags."
+    ],
+    [
+      "1140-1147",
+      "I verify the fit of the trash bags inside the white plastic bucket.",
+      "Resumes walking down the aisles."
+    ],
+    [
+      "1148-1163",
+      "I inspect cleaning sponges and detergents in the aisles.",
+      "Shifts focus to cleaning cloths and mops."
+    ],
+    [
+      "1164-1168",
+      "I scan the shelves of cleaning cloths and mops.",
+      "Moves on to browse air fresheners."
+    ],
+    [
+      "1169-1175",
+      "I inspect room deodorizers and air fresheners.",
+      "Heads toward the store exit."
+    ],
+    [
+      "1176-1179",
+      "I carry a white plastic bucket toward the store exit.",
+      "Arrives at the checkout counter."
     ],
     [
       "1180-1184",
-      "I pay for my items at the checkout counter using my smartphone.",
-      "Completes the checkout payment."
+      "I pay for my items at the checkout counter.",
+      "Completes the transaction and leaves the store."
     ],
     [
       "1185-1190",
-      "I walk out of the store to approach a pedestrian crossing.",
+      "I walk from the store to a pedestrian crossing.",
       "Arrives at the pedestrian crossing."
     ],
     [
       "1191-1195",
-      "I cross the street at the pedestrian crossing.",
-      "Completes the street crossing to reach the fresh produce stall."
+      "I cross the street at a pedestrian crossing.",
+      "Approaches a fresh produce stall."
     ],
     [
-      "1196-1215",
-      "I purchase cucumbers and tomatoes at a fresh produce stall.",
-      "Completes the produce purchase and walks away."
+      "1196-1203",
+      "I order cucumbers and tomatoes at a fresh produce stall.",
+      "Prepares to pay for the vegetables."
     ],
     [
-      "1216-1240",
-      "I reload my Octopus card on my smartphone during a walk along the sidewalk.",
-      "Finishes the smartphone top-up task to prepare for entering the market."
+      "1204-1214",
+      "I pay for the vegetables using an Octopus card on my phone.",
+      "Completes the purchase and resumes walking."
     ],
     [
-      "1241-1243",
-      "I walk into the municipal market from the street.",
-      "Enters the market to approach a fruit stall."
+      "1215-1221",
+      "I view my Apple Account card in Apple Wallet.",
+      "Switches to the Octopus card to top it up."
     ],
     [
-      "1244-1249",
-      "I select bananas at a fruit stall for purchase.",
-      "Completes the banana selection and initiates payment."
+      "1222-1234",
+      "I top up my Octopus card via Apple Pay.",
+      "Completes the top-up transaction."
+    ],
+    [
+      "1235-1242",
+      "I walk toward the market entrance.",
+      "Enters the market to buy fruit."
+    ],
+    [
+      "1243-1249",
+      "I select bananas at a fruit stall.",
+      "Ends sequence while inquiring about payment."
     ]
   ],
   "audit": {

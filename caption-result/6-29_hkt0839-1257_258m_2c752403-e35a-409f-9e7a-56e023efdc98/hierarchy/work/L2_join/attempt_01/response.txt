@@ -1,0 +1,54 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Merge pairs that represent the continuous execution of the exact same immediate task across a batch boundary, such as observing drink preparation, packing electronics into a backpack, walking on the beach, driving along the street, conversing with a companion, teasing a cat, or walking past pedestrian stalls. Do not merge distinct sequential tasks (e.g., offering an egg then getting buffet food, browsing outside then entering a boutique, walking then stopping to observe in traffic).",
+  "merges": [
+    [
+      24,
+      25,
+      "I observe the staff preparing drinks at the cafe counter.",
+      "Same observation task continues across batch edge"
+    ],
+    [
+      69,
+      70,
+      "I pack my electronics and cables into my backpack.",
+      "Same packing task continues across batch edge"
+    ],
+    [
+      107,
+      108,
+      "I walk across the beach toward the shoreline.",
+      "Same walking task continues across batch edge"
+    ],
+    [
+      152,
+      153,
+      "I drive the car along the avenue.",
+      "Same driving task continues across batch edge"
+    ],
+    [
+      196,
+      197,
+      "I converse with my companion in the alleyway.",
+      "Same conversation continues across batch edge"
+    ],
+    [
+      230,
+      231,
+      "I tease a cat using a cord.",
+      "Same playing task continues across batch edge"
+    ],
+    [
+      259,
+      260,
+      "I walk along the pedestrian street past various stalls.",
+      "Same walking task continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible pairs to determine if the same immediate task continues across the batch edge. Pair [30, 31] continues reviewing logs and metrics in the Right Code dashboard. Pair [56, 57] continues researching Claude API proxy platforms and pricing. Pair [88, 89] switches from checking logs in VS Code to reading notes in Feishu, representing distinct tasks, and will not be merged.",
+  "merges": [
+    [
+      30,
+      31,
+      "I review logs and metrics in the Right Code dashboard.",
+      "Same Right Code review task continues across batch edge"
+    ],
+    [
+      56,
+      57,
+      "I research Claude API proxy platforms and pricing.",
+      "Same research task continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

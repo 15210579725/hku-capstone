@@ -1,0 +1,82 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks focused on a single application or physical goal (e.g., modifying diagrams in Claude, checking the iPhone, exploring Figma, taking a break in the kitchen).",
+  "events": [
+    [
+      "250-276",
+      "I modify the reinforcement learning architecture diagram in Claude.",
+      "Shifts attention from the laptop to delivery boxes in the room."
+    ],
+    [
+      "277-279",
+      "I examine the delivery packages on my desk.",
+      "Picks up the iPhone to check notifications and messages."
+    ],
+    [
+      "280-296",
+      "I browse WeChat messages and articles on my iPhone.",
+      "Places the iPhone on the table to resume the Claude conversation on the MacBook."
+    ],
+    [
+      "297-311,455-456",
+      "I consult Claude about scientific diagram export formats.",
+      "Searches for Figma on Google to explore the recommended software."
+    ],
+    [
+      "312-325",
+      "I explore Figma diagram templates.",
+      "Returns to Claude to request SVG format code."
+    ],
+    [
+      "326-339",
+      "I request SVG format code for the architecture diagram from Claude.",
+      "Shifts to evaluating SVG export options and searching for other editors."
+    ],
+    [
+      "340-355",
+      "I search for online SVG editors.",
+      "Decides to use Figma and switches to the Figma canvas to import the SVG."
+    ],
+    [
+      "356-377",
+      "I edit the SVG architecture diagram in Figma.",
+      "Switches back to Claude to prompt for diagram updates."
+    ],
+    [
+      "378-391",
+      "I prompt Claude to generate updates for the architecture diagram.",
+      "Leaves the laptop to check the kitchen for food."
+    ],
+    [
+      "392-407",
+      "I inspect the meal packages and kitchen cabinets.",
+      "Returns to the laptop to resume reviewing the architecture diagram."
+    ],
+    [
+      "408-447",
+      "I instruct Claude to modify the reinforcement learning architecture diagram.",
+      "Opens WeChat to read messages from a hiking group."
+    ],
+    [
+      "448-450,457",
+      "I read hiking and diving plans in a WeChat group.",
+      "Minimizes WeChat and checks the time before heading to sleep."
+    ],
+    [
+      "451-454,458-460",
+      "I prepare to go to sleep.",
+      "End of input sequence."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      392,
+      452
+    ],
+    "boundary_cautions": []
+  }
+}
+```

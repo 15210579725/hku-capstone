@@ -1,0 +1,124 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group raw action briefs into immediate tasks based on continuous goals such as navigating through different environments, ordering and paying for food, consuming distinct parts of the meal, and operating a smartphone.",
+  "events": [
+    [
+      "750-755",
+      "I walk through the underground parking garage.",
+      "Navigation through the parking garage concludes upon reaching the intersection."
+    ],
+    [
+      "756-760",
+      "I enter the dining hall.",
+      "Navigation concludes upon entering the dining hall interior."
+    ],
+    [
+      "761-767",
+      "I walk to the cafeteria food counter.",
+      "Navigation concludes upon reaching the food counter."
+    ],
+    [
+      "768-774",
+      "I wait in the cafeteria queue.",
+      "Queueing concludes when reaching the hot dish counter to order."
+    ],
+    [
+      "775-783",
+      "I receive a hot meat dish at the food counter.",
+      "Task concludes after the cooked meat dish is placed on the meal tray."
+    ],
+    [
+      "784-789",
+      "I collect soup and rice bowls for my meal.",
+      "Task concludes after placing the rice bowl on the meal tray."
+    ],
+    [
+      "790-798",
+      "I purchase my meal and diced fruit at the cashier.",
+      "Payment concludes after displaying the payment screen and turning away from the cashier."
+    ],
+    [
+      "799-803",
+      "I take a seat at a dining table.",
+      "Navigation concludes upon sitting down at the table."
+    ],
+    [
+      "804-817",
+      "I eat braised pork ribs and rice.",
+      "Eating segment pauses to mix additional food into the rice bowl."
+    ],
+    [
+      "818-834",
+      "I eat my mixed pork ribs and rice.",
+      "Eating segment concludes upon returning the rice bowl to the tray."
+    ],
+    [
+      "835-836",
+      "I reposition the egg drop soup bowl on my meal tray.",
+      "Tray organization concludes after moving the soup bowl."
+    ],
+    [
+      "837-846",
+      "I eat rice and stir-fried meat.",
+      "Eating segment pauses to switch focus to another dish."
+    ],
+    [
+      "847-865",
+      "I finish eating my rice and meat dishes.",
+      "Eating task concludes when the empty bowl and chopsticks are set down."
+    ],
+    [
+      "866",
+      "I drink egg drop soup.",
+      "Brief soup consumption concludes before switching to fruit."
+    ],
+    [
+      "867-876",
+      "I eat the diced papaya.",
+      "Fruit consumption concludes when the empty bowl is placed on the tray."
+    ],
+    [
+      "877-879",
+      "I review my payment completion screen.",
+      "Task concludes before opening the WeChat application."
+    ],
+    [
+      "880-881",
+      "I send a WeChat message to my partner.",
+      "Messaging task concludes before adjusting network settings."
+    ],
+    [
+      "882-888",
+      "I adjust my smartphone network settings.",
+      "Settings adjustment concludes when the phone is locked."
+    ],
+    [
+      "889-897",
+      "I observe my dining companions eating lunch.",
+      "Observation task pauses to consume more soup."
+    ],
+    [
+      "898-900",
+      "I finish drinking my egg drop soup.",
+      "Soup consumption concludes after returning the bowl to the tray."
+    ],
+    [
+      "901-908",
+      "I rest at the cafeteria table.",
+      "Resting segment concludes before reading SMS messages."
+    ],
+    [
+      "909-911",
+      "I read SMS messages on my smartphone.",
+      "Messaging task concludes the provided sequence."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

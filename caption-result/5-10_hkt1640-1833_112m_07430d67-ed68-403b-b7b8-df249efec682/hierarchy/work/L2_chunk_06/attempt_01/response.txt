@@ -1,0 +1,39 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group stationary queue waits, movement through the queue pathways, interactions with ride attendants, and boarding preparation into distinct immediate tasks.",
+  "events": [
+    [
+      "1250-1292",
+      "I wait in the attraction queue with my companion.",
+      "The stationary wait ends as the line begins to move forward."
+    ],
+    [
+      "1293-1306",
+      "I advance up the stairs into the roller coaster boarding station.",
+      "The movement phase concludes upon entering the boarding station pavilion."
+    ],
+    [
+      "1307-1317",
+      "I receive seating directions from the ride attendant.",
+      "The interaction regarding seating assignments concludes."
+    ],
+    [
+      "1318-1327",
+      "I wait at the boarding track for the roller coaster to arrive.",
+      "The waiting phase ends as the previous passengers begin to disembark."
+    ],
+    [
+      "1328-1336",
+      "I store my belongings in the locker cabinet before boarding.",
+      "End of input data."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

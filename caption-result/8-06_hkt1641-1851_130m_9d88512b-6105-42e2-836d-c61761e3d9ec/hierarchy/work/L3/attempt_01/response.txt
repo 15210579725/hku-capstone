@@ -1,0 +1,126 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group L2 tasks into coherent L3 episodes based on continuous topical discussions, distinct office work phases, transit segments, and discrete food-gathering or dining phases. Routine repositioning, minor device switches, and payment steps are abstracted into their overarching episodes. The invitation at 50 is preserved as a major behavior-changing trigger.",
+  "events": [
+    [
+      "0-14",
+      "I discuss action prediction dataset scaling and temporal boundaries with my colleagues.",
+      "Topic shifts from data scaling theory to reviewing model configurations and benchmarks."
+    ],
+    [
+      "15-24",
+      "I review action prediction training configurations and Magic Video test cases with my colleagues.",
+      "Topic shifts from internal models to reviewing a separate research paper."
+    ],
+    [
+      "25-35",
+      "I evaluate the LongNAP paper's methodology and LLM judge prompt with my colleague.",
+      "Focus shifts back to reviewing internal dataset experiment logs."
+    ],
+    [
+      "36-38",
+      "I review action prediction experiment logs and dataset sizes with my colleagues.",
+      "Meeting concludes, initiating relocation to the desk."
+    ],
+    [
+      "39-42",
+      "I return to my desk in office C909 from the conference room.",
+      "Arrival at desk initiates individual computer tasks."
+    ],
+    [
+      "43-47",
+      "I perform dataset management and messaging tasks at my desk.",
+      "Task shifts from active work to reading news articles."
+    ],
+    [
+      "48-49",
+      "I read WeChat articles.",
+      "Interrupted by an invitation to get food."
+    ],
+    [
+      "50",
+      "I invite a coworker to go out to eat.",
+      "Standalone trigger initiating a new overarching goal to leave for a meal."
+    ],
+    [
+      "51-52",
+      "I check engineering logs and a circuit board at my workstation.",
+      "Task shifts to resting in a different area."
+    ],
+    [
+      "53-56",
+      "I take a break with my smartphone in the break room.",
+      "Break concludes to begin departure from the campus."
+    ],
+    [
+      "57-64",
+      "I depart from the campus with my companion.",
+      "Campus exit is complete, transitioning to bicycle travel."
+    ],
+    [
+      "65-71",
+      "I ride a shared bicycle to the street food area.",
+      "Arrival at the first food stall concludes the initial ride."
+    ],
+    [
+      "72-73",
+      "I purchase meat pan-fried buns from a food stall.",
+      "Purchase is complete, resuming bicycle travel."
+    ],
+    [
+      "74-76",
+      "I ride my shared bicycle in search of a dining location.",
+      "Riding halts to eat the purchased food."
+    ],
+    [
+      "77-78",
+      "I eat a pan-fried bun with my companion at the curb.",
+      "Focus shifts from eating to feeding dogs and conversing with locals."
+    ],
+    [
+      "79-83",
+      "I feed my remaining pan-fried buns to local dogs during a conversation with the residents.",
+      "Interaction concludes, resuming travel for more food."
+    ],
+    [
+      "84-85",
+      "I purchase braised food from a street cart along the residential streets.",
+      "First braised food purchase completes, moving to a different area."
+    ],
+    [
+      "86-90",
+      "I purchase fried chicken from a street food cart in the commercial area.",
+      "Fried chicken purchase completes upon meeting companion."
+    ],
+    [
+      "91-95",
+      "I order stir-fry ingredients at a food stall.",
+      "Stir-fry ordering completes, moving to the supermarket."
+    ],
+    [
+      "96-97",
+      "I purchase a bottle of chrysanthemum tea from a supermarket.",
+      "Beverage purchase completes, moving to the final dining area."
+    ],
+    [
+      "98-101",
+      "I transition to the courtyard dining area.",
+      "Arrival and settling at the dining courtyard completes."
+    ],
+    [
+      "102-116",
+      "I eat a meal of shared street food with my companions in the courtyard.",
+      "Recording ends during the meal."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      50
+    ],
+    "boundary_cautions": []
+  }
+}
+```

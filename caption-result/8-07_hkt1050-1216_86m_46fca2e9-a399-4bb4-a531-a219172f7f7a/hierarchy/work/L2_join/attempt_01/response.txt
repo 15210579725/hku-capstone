@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate the eligible pairs to determine if they represent the exact same immediate task interrupted by a batch boundary. Pair 21-22 continues the same activity of observing the atrium architecture. Pair 60-61 continues the same activity of eating the cafeteria meal. Pair 29-30 involves reading distinct reports in different applications, so they will not be merged at the L2 level.",
+  "merges": [
+    [
+      21,
+      22,
+      "I observe the atrium architectural structures.",
+      "Observing the atrium architecture continues across batch edge"
+    ],
+    [
+      60,
+      61,
+      "I eat my fish, vegetables, and rice.",
+      "Eating the cafeteria meal components continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

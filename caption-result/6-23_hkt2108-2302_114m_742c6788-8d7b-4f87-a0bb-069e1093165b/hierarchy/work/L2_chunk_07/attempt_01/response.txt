@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Maintain the distinct final actions as separate immediate tasks, as speaking a specific phrase and leaving the glasses stationary do not share a unified immediate objective.",
+  "events": [
+    [
+      "1500",
+      "I say '我们不一样'.",
+      "Standalone speech action"
+    ],
+    [
+      "1501",
+      "I leave the glasses stationary.",
+      "Discrete physical state ending the sequence"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,134 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group sequential L1 action briefs into immediate tasks based on a shared immediate objective, target application, or specific step in the OCR testing and evaluation workflow. Boundaries are created when switching between distinct software tools (e.g., MiMo Studio, ChatGPT, Finder, WeChat) or shifting focus to a new specific objective (e.g., prompting, reviewing benchmarks, inspecting files, or messaging a colleague).",
+  "events": [
+    [
+      "0-7",
+      "I inspect the Xiaomi MiMo Studio interface and features.",
+      "Initial exploration of the studio interface elements."
+    ],
+    [
+      "8-21",
+      "I review the Xiaomi MiMo-V2.5-Pro model specifications and benchmark charts.",
+      "Shift to reading specific performance benchmarks and specifications."
+    ],
+    [
+      "22-38",
+      "I review the ChatGPT OCR testing plan and benchmark comparisons.",
+      "Shift to evaluating the OCR testing plan and related metrics."
+    ],
+    [
+      "39-49",
+      "I prompt ChatGPT to select and download ten text-dense images.",
+      "Shift to generating a specific image selection prompt."
+    ],
+    [
+      "50-55",
+      "I inspect the downloaded text-dense images in Finder.",
+      "Shift from the browser to inspecting local files."
+    ],
+    [
+      "56-74",
+      "I test the Xiaomi MiMo Studio OCR extraction on the selected images and review the results.",
+      "Shift to actively testing OCR capabilities with the downloaded images."
+    ],
+    [
+      "75-81",
+      "I prompt Xiaomi MiMo Studio to output the OCR extraction to a text box and review the file tree response.",
+      "New specific prompt objective for text output formatting."
+    ],
+    [
+      "82-99",
+      "I message 张家畅 on WeChat to add an OCR instruction to the caption prompt.",
+      "Switch to communication app to coordinate with a colleague."
+    ],
+    [
+      "100-105",
+      "I set up a new Xiaomi MiMo-V2.5-Pro conversation and review OCR test logs.",
+      "Return to MiMo Studio to initiate a fresh session."
+    ],
+    [
+      "106-110",
+      "I browse and preview image files in Finder.",
+      "Switch back to inspecting local image files."
+    ],
+    [
+      "111-117",
+      "I review the OCR comparison and image results in ChatGPT.",
+      "Return to ChatGPT to check the outcome of the image selection tool."
+    ],
+    [
+      "118-130",
+      "I prompt ChatGPT to find twenty diverse text-dense images and monitor the response.",
+      "New prompt objective for a larger image dataset."
+    ],
+    [
+      "131-134",
+      "I check WeChat messages regarding the OCR prompt instructions.",
+      "Interruption to read incoming messages from a colleague."
+    ],
+    [
+      "135-139",
+      "I inspect the filtered diverse text-dense images in Finder.",
+      "Shift to inspecting the newly downloaded dataset in the local filesystem."
+    ],
+    [
+      "140-151",
+      "I prompt Xiaomi MiMo Studio to extract text into JSON format and review the OCR evaluation report.",
+      "New prompt objective for JSON output and report analysis."
+    ],
+    [
+      "152-167",
+      "I prompt Xiaomi MiMo Studio to read all text and review the resulting OCR analysis logs.",
+      "Follow-up extraction test and log review."
+    ],
+    [
+      "168-177",
+      "I discuss the Xiaomi MiMo-V2.5 OCR performance and read group messages on WeChat.",
+      "Shift to WeChat to share testing impressions."
+    ],
+    [
+      "178-189",
+      "I review the Xiaomi MiMo OCR benchmark reports and ChatGPT model recommendations.",
+      "Return to reading evaluation materials and benchmark results."
+    ],
+    [
+      "190-203",
+      "I evaluate the PaddleOCR-VL-1.6 recommendation and OCR model leaderboard in ChatGPT.",
+      "Focus narrows to analyzing specific OCR model options."
+    ],
+    [
+      "204-214",
+      "I research the PaddleOCR API documentation and add it to my Feishu todo list.",
+      "Shift to investigating API integration and tracking the task."
+    ],
+    [
+      "215-223",
+      "I navigate to the PaddleOCR AI Studio website and take handwritten notes.",
+      "Shift to accessing the web platform and writing manual notes."
+    ],
+    [
+      "224-230",
+      "I upload a test image to the PaddleOCR web interface and monitor the parsing progress.",
+      "Active testing of an image on the new platform."
+    ],
+    [
+      "231-238",
+      "I inspect the text bounding boxes and parsed JSON results in the PaddleOCR interface.",
+      "Shift from uploading to analyzing the parsed results."
+    ],
+    [
+      "239-249",
+      "I configure the PaddleOCR parsing settings and monitor the extraction speed.",
+      "Adjusting configuration settings for subsequent testing."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

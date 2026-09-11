@@ -1,0 +1,99 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks such as walking to the scooter, preparing it, storing items, riding, doing laundry, and checking a map. Ensure each description reflects a single, concrete objective without using conjunctions for consecutive steps.",
+  "events": [
+    [
+      "1500-1507",
+      "I walk through the parking lot to my electric scooter.",
+      "Walking to the scooter completes."
+    ],
+    [
+      "1508-1514",
+      "I start the electric scooter.",
+      "Scooter preparation completes as riding begins."
+    ],
+    [
+      "1515-1522",
+      "I ride the electric scooter along the road.",
+      "Riding is interrupted to meet the companion."
+    ],
+    [
+      "1523-1551",
+      "I store my companion's bags in the scooter's under-seat compartment.",
+      "Storing the bags completes."
+    ],
+    [
+      "1552-1569",
+      "I secure a bag of drinks on the scooter hook.",
+      "Drink storage completes."
+    ],
+    [
+      "1570-1582",
+      "I unfold the scooter footrests for my companion.",
+      "Preparation to ride with passenger completes."
+    ],
+    [
+      "1583-1616",
+      "I ride the electric scooter along the road with my companion.",
+      "Riding continues until a discussion changes the plan."
+    ],
+    [
+      "1617-1629",
+      "I park the electric scooter at the guesthouse so my companion can change clothes.",
+      "Arrival and parking at the guesthouse completes."
+    ],
+    [
+      "1630-1644",
+      "I retrieve items from the parked scooter with my companion.",
+      "Retrieving items from the parked scooter completes."
+    ],
+    [
+      "1645-1657",
+      "I take the elevator to the fifth floor.",
+      "Elevator ride completes."
+    ],
+    [
+      "1658-1679",
+      "I start a laundry cycle.",
+      "Laundry task completes."
+    ],
+    [
+      "1680-1694",
+      "I take the elevator down to the first floor lobby.",
+      "Elevator ride to the lobby completes."
+    ],
+    [
+      "1695-1703",
+      "I unpack takeaway drinks at a lobby table.",
+      "Unpacking the drinks completes."
+    ],
+    [
+      "1704-1718",
+      "I check a map application on my phone to plan a route.",
+      "Map navigation task completes."
+    ],
+    [
+      "1719-1726",
+      "I observe a bird in a cage with my companion.",
+      "Bird observation completes."
+    ],
+    [
+      "1727-1734",
+      "I walk out of the lobby to the parked scooter.",
+      "Walking to the scooter completes."
+    ],
+    [
+      "1735-1749",
+      "I prepare the scooter and our helmets for riding.",
+      "Scooter preparation completes."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

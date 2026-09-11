@@ -1,0 +1,109 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group sequential action briefs into distinct immediate tasks based on changes in activity such as navigating a plaza, waiting for and riding a shuttle, walking through a commercial area, getting into a car, and distinct phases of driving bounded by stops, intersections, and turns.",
+  "events": [
+    [
+      "1500-1513",
+      "I inspect directional signposts in the plaza.",
+      "Transition to drinking water"
+    ],
+    [
+      "1514-1518",
+      "I drink water from a bottle.",
+      "Transition to walking and waiting for a shuttle"
+    ],
+    [
+      "1519-1526",
+      "I wait by the roadside for the shuttle.",
+      "Transition to boarding and riding the shuttle"
+    ],
+    [
+      "1527-1566",
+      "I ride the shuttle cart past roadside shops.",
+      "Transition to disembarking and walking"
+    ],
+    [
+      "1567-1580",
+      "I walk through the commercial area.",
+      "Transition to entering the parking lot"
+    ],
+    [
+      "1581-1587",
+      "I get into my car in the parking lot.",
+      "Transition to preparing the car for driving"
+    ],
+    [
+      "1588-1596",
+      "I reverse the car out of the parking space.",
+      "Transition to driving down the street"
+    ],
+    [
+      "1597-1607",
+      "I drive the car along the commercial street.",
+      "Transition to taking a water bottle from the passenger"
+    ],
+    [
+      "1608-1610",
+      "I take a water bottle from the passenger.",
+      "Transition to driving forward"
+    ],
+    [
+      "1611-1620",
+      "I stop the car behind a vehicle.",
+      "Transition to waiting in the stopped car"
+    ],
+    [
+      "1621-1632",
+      "I wait in the stopped car.",
+      "Transition to resuming driving"
+    ],
+    [
+      "1633-1644",
+      "I drive the car straight ahead.",
+      "Transition to stopping in traffic"
+    ],
+    [
+      "1645-1658",
+      "I wait in stopped traffic.",
+      "Transition to resuming driving"
+    ],
+    [
+      "1659-1667",
+      "I drive toward the intersection.",
+      "Transition to stopping at the intersection"
+    ],
+    [
+      "1668-1690",
+      "I wait at the intersection.",
+      "Transition to driving across the intersection"
+    ],
+    [
+      "1691-1704",
+      "I drive across the intersection onto the road.",
+      "Transition to decelerating for a crosswalk"
+    ],
+    [
+      "1705-1715",
+      "I decelerate to approach a crosswalk.",
+      "Transition to driving through the intersection"
+    ],
+    [
+      "1716-1731",
+      "I drive through the intersection onto the boulevard.",
+      "Transition to turning right at the intersection"
+    ],
+    [
+      "1732-1749",
+      "I turn right at the intersection to drive down the avenue.",
+      "End of transport batch"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

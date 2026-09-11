@@ -1,0 +1,18 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Review the provided eligible boundary pairs to determine if the same immediate task continues across the batch edge. Pair [27, 28] changes from navigating to the jewelry counter to tasting milk. Pair [46, 47] changes from browsing chips to navigating to the checkout. Pair [65, 66] continues the single task of mobile ordering at the bar, starting with scanning the sticker and ending with submitting the menu order.",
+  "merges": [
+    [
+      65,
+      66,
+      "I order drinks via the mobile menu after scanning the bar's ordering sticker.",
+      "Scanning the table's ordering QR code and selecting drinks on the phone is a single continuous mobile ordering task."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

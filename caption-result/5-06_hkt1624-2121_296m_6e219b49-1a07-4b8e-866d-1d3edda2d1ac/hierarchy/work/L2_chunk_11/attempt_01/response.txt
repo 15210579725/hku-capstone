@@ -1,0 +1,114 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks based on distinct goals and targets. Consecutive steps in gathering ingredients, prepping specific items, adding components to a pan, cooking, and eating are kept together. Distinct interruptions like switching between cooking and checking phones, or changing conversation topics, form natural boundaries at this immediate level.",
+  "events": [
+    [
+      "2500-2511",
+      "I check an email from Master of Science in Artificial Intelligence.",
+      "Switches from checking phone to gathering ingredients"
+    ],
+    [
+      "2512-2529",
+      "I retrieve a zucchini from the refrigerator.",
+      "Moves to the sink to prepare the zucchini"
+    ],
+    [
+      "2530-2541",
+      "I prepare a zucchini at the sink.",
+      "Switches to peeling a cucumber"
+    ],
+    [
+      "2542-2547",
+      "I peel a cucumber into the sink.",
+      "Moves to the dining table to open mail packages"
+    ],
+    [
+      "2548-2559",
+      "I inspect the seasoning packets from the mail.",
+      "Moves to the stove to start cooking"
+    ],
+    [
+      "2560-2565",
+      "I melt butter in the frying pan.",
+      "Pauses cooking to search for missing ingredients"
+    ],
+    [
+      "2566-2572",
+      "I search the kitchen for missing ingredients required by the seasoning packet.",
+      "Resumes food preparation by slicing vegetables"
+    ],
+    [
+      "2573-2580",
+      "I slice zucchini and other vegetables into the frying pan.",
+      "Switches from vegetable preparation to adding meat"
+    ],
+    [
+      "2581-2587",
+      "I add sliced meat to the frying pan on the stove.",
+      "Switches to adding seasoning to the pan"
+    ],
+    [
+      "2588-2594",
+      "I squeeze seasoning sauce into the frying pan.",
+      "Begins stir-frying the combined ingredients"
+    ],
+    [
+      "2595-2602",
+      "I stir-fry the ingredients in the frying pan.",
+      "Pauses cooking to microwave rice"
+    ],
+    [
+      "2603-2605",
+      "I microwave a bowl of instant rice.",
+      "Returns to the stove to continue cooking"
+    ],
+    [
+      "2606-2614",
+      "I crack two eggs into the frying pan.",
+      "Starts stir-frying the eggs into the mixture"
+    ],
+    [
+      "2615-2629",
+      "I stir-fry the ingredients to doneness.",
+      "Finishes cooking and moves the food to the dining table"
+    ],
+    [
+      "2630-2634",
+      "I transfer the cooked food and microwaved rice to the dining table.",
+      "Sits down and begins eating the meal"
+    ],
+    [
+      "2635-2679",
+      "I eat the stir-fried food and rice.",
+      "Pauses eating to converse on WeChat"
+    ],
+    [
+      "2680-2698",
+      "I converse with babe ♥ on WeChat about the meal.",
+      "Resumes eating the meal"
+    ],
+    [
+      "2699-2719",
+      "I eat the stir-fried food during a WeChat conversation with babe ♥.",
+      "Shifts conversation to discussing a new dish"
+    ],
+    [
+      "2720-2739",
+      "I discuss cooking a radish and avocado dish with babe ♥ on WeChat.",
+      "Finishes the meal and handles the remaining food"
+    ],
+    [
+      "2740-2749",
+      "I scrape the remaining food remnants in the pan.",
+      "End of provided sequence"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

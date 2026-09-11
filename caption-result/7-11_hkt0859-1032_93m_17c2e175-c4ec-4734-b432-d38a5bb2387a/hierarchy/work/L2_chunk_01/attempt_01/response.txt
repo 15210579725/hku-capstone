@@ -1,0 +1,99 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group immediate contiguous sequences of actions that serve a single immediate task (e.g., adjusting hardware, reading a specific topic, drafting a prompt). Boundaries are drawn where the target device/app changes or the primary immediate intent shifts.",
+  "events": [
+    [
+      "0-2",
+      "I settle at workstation 14 with my power bank.",
+      "Device transition to iPhone begins"
+    ],
+    [
+      "3-17",
+      "I use Doubao AI on my iPhone to research dragonfly flight behavior.",
+      "Attention shifts to managing power bank"
+    ],
+    [
+      "18-23",
+      "I adjust the power bank and connected cables on my lap.",
+      "Attention returns to reading Doubao AI"
+    ],
+    [
+      "24-46",
+      "I read Doubao AI explanations regarding various animal weather prediction behaviors.",
+      "Focus shifts to MacBook and desk"
+    ],
+    [
+      "47-51",
+      "I review the VS Code events list on my MacBook.",
+      "Focus shifts to opening ChatGPT Work"
+    ],
+    [
+      "52-61",
+      "I verify my account usage quota in the newly opened ChatGPT Work application.",
+      "Begins formulating a specific prompt"
+    ],
+    [
+      "62-88",
+      "I formulate a ChatGPT prompt to survey the caption quality of mainstream multimodal models.",
+      "Focus shifts to referencing Feishu Wiki"
+    ],
+    [
+      "89-94",
+      "I review action prediction evaluation metrics and benchmark requirements in a Feishu Wiki document.",
+      "Focus shifts back to drafting prompt in ChatGPT"
+    ],
+    [
+      "95-124",
+      "I draft a ChatGPT prompt seeking alternative POV video captioning models based on my VS Code annotations.",
+      "Prompt submitted; waiting and reading response begins"
+    ],
+    [
+      "125-145",
+      "I review ChatGPT's analysis of video sampling rates and caption models.",
+      "Provides new input by pasting timestamps"
+    ],
+    [
+      "146-153",
+      "I paste atomic action timestamps into ChatGPT to receive an updated model comparison.",
+      "Shifts to studying broader pipeline solutions"
+    ],
+    [
+      "154-176",
+      "I study ChatGPT's proposed multi-tier pipeline solutions and model specifications.",
+      "Navigates to Nova AI to check pricing"
+    ],
+    [
+      "177-194",
+      "I examine Gemini model pricing and catalog specifications on Nova AI.",
+      "Returns to ChatGPT application"
+    ],
+    [
+      "195-231",
+      "I return to ChatGPT to review detailed benchmark comparisons for Qwen3.5 and Gemma 4 captioning models.",
+      "Begins drafting a new prompt test"
+    ],
+    [
+      "232-235",
+      "I draft a follow-up ChatGPT prompt to test specific Qwen3.5 models on a complex scene.",
+      "Interrupts typing to adjust laptop hardware"
+    ],
+    [
+      "236-239",
+      "I adjust my laptop screen and docking station.",
+      "Returns to interacting with ChatGPT"
+    ],
+    [
+      "240-249",
+      "I review pipeline guidelines and JSON schemas in ChatGPT to formulate deployment questions.",
+      "End of input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

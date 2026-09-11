@@ -1,0 +1,64 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group action briefs into immediate tasks based on the primary focus, separating slide review, reading AI notes, packing the laptop, walking segments, messaging on WeChat, calling/taking the elevator, and exiting the building.",
+  "events": [
+    [
+      "750-759",
+      "I review presentation slides on offline reinforcement learning and distributional shift.",
+      "Switches focus from presentation slides to Claude AI notes"
+    ],
+    [
+      "760-765",
+      "I read Claude AI notes on offline reinforcement learning.",
+      "Stops studying to pack up laptop"
+    ],
+    [
+      "766-772",
+      "I pack my MacBook into my backpack.",
+      "Finishes packing and prepares to leave the desk"
+    ],
+    [
+      "773-775",
+      "I walk down the library aisle.",
+      "Receives a notification and starts messaging"
+    ],
+    [
+      "776-782",
+      "I message babe on WeChat.",
+      "Reaches the lobby doors and stops messaging to call the elevator"
+    ],
+    [
+      "783-786",
+      "I call the elevator in the lobby.",
+      "Waits for the elevator and resumes phone usage"
+    ],
+    [
+      "787-790",
+      "I message babe on WeChat.",
+      "Elevator doors open"
+    ],
+    [
+      "791-796",
+      "I take the elevator to floor 2.",
+      "Exits the elevator to continue walking"
+    ],
+    [
+      "797-804",
+      "I exit the library building.",
+      "Passes through the automatic glass doors to the outside"
+    ],
+    [
+      "805-811",
+      "I walk along the outdoor covered walkway.",
+      "End of input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

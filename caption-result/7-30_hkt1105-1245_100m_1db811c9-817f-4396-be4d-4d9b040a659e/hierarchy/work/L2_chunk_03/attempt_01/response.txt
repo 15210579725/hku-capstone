@@ -1,0 +1,114 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group consecutive clips into immediate tasks by identifying the primary physical action, interaction target, or specific conversation topic.",
+  "events": [
+    [
+      "0-12",
+      "I discuss the food with my companions.",
+      "Discussing the food at the start of the recording"
+    ],
+    [
+      "13-18",
+      "I observe the dining environment.",
+      "Briefly observing the environment"
+    ],
+    [
+      "19-36",
+      "I eat my meal.",
+      "Eating and engaging in general table conversation"
+    ],
+    [
+      "37-41",
+      "I listen to my companions discuss sleeping arrangements.",
+      "Listening to conversation about 5th floor sleeping"
+    ],
+    [
+      "42-66",
+      "I consume my lunch.",
+      "Eating various dishes on the tray"
+    ],
+    [
+      "67-79",
+      "I purchase a fruit tart at the food counter.",
+      "Purchasing a fruit tart via mobile payment"
+    ],
+    [
+      "80-82",
+      "I walk back to the dining table.",
+      "Walking back to seat"
+    ],
+    [
+      "83-108",
+      "I prepare the fruit tart.",
+      "Peeling and interacting with the fruit tart"
+    ],
+    [
+      "109-115",
+      "I listen to colleagues discuss group meetings.",
+      "Listening to colleagues discuss group meetings"
+    ],
+    [
+      "116-125",
+      "I discuss my breakfast with my companions.",
+      "Discussing breakfast ice cream"
+    ],
+    [
+      "126-141",
+      "I listen to my colleagues plan a KFC order.",
+      "Colleagues discussing a KFC order"
+    ],
+    [
+      "142-154",
+      "I eat my meal.",
+      "Eating vermicelli and garlic scapes"
+    ],
+    [
+      "155-168",
+      "I converse with my companions about local food.",
+      "Conversing about squid and fried ice cream"
+    ],
+    [
+      "169-174",
+      "I return my meal tray to the conveyor belt.",
+      "Returning the meal tray"
+    ],
+    [
+      "175-184",
+      "I walk out of the canteen.",
+      "Walking through the lounge to exit"
+    ],
+    [
+      "185-203",
+      "I check the Meituan app for my contact lens delivery.",
+      "Checking the delivery status of contact lenses"
+    ],
+    [
+      "204-222",
+      "I ride the elevator.",
+      "Riding the elevator to the office floor"
+    ],
+    [
+      "223-231",
+      "I walk to my office.",
+      "Walking to the desk in the office"
+    ],
+    [
+      "232-239",
+      "I review MAGIC-Video benchmark metrics in VS Code.",
+      "Reviewing computer benchmark metrics"
+    ],
+    [
+      "240-249",
+      "I show a WeChat chat alias to my colleague.",
+      "Showing a WeChat chat alias on the phone"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

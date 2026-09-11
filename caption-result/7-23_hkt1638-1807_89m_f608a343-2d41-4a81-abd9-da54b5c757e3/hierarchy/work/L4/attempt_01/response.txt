@@ -1,0 +1,42 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group continuous office work, dinner routine, and gym transit into broader phases, preserving major conversational activity-changing triggers as standalone events.",
+  "events": [
+    [
+      "0-6",
+      "I conduct research on video pretraining and action prediction models at my office.",
+      "Unifies continuous computer work, dataset management, and workstation setup into a single research phase"
+    ],
+    [
+      "7",
+      "I invite my colleagues to eat.",
+      "Major behavior-changing trigger that redirects activity from work to dinner"
+    ],
+    [
+      "8-10",
+      "I have dinner with my colleagues at the cafeteria.",
+      "Groups transit, food purchase, and dining into a unified dinner phase"
+    ],
+    [
+      "11",
+      "I discuss going to the gym with my companions.",
+      "Major behavior-changing trigger that redirects activity from dinner to the gym"
+    ],
+    [
+      "12",
+      "I travel to the gym with my companions.",
+      "Starts a new broader transit phase towards the next destination"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      7,
+      11
+    ],
+    "boundary_cautions": []
+  }
+}
+```

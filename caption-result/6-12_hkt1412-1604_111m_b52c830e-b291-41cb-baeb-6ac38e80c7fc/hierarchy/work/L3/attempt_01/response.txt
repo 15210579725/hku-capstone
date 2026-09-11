@@ -1,0 +1,54 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group immediate tasks into coherent activity episodes based on unified goals and primary targets. The sequence naturally divides into an initial bedroom routine, a massage session with the companion, a focused work session evaluating model predictions, a short break to assist the roommate, a resumed work session, watching a vlog to decompress, a brief earwax inspection, and a final extended session of watching various vlogs.",
+  "events": [
+    [
+      "0-5",
+      "I organize my bedroom and review language options.",
+      "User completes their bedroom routine and shifts focus to interacting with their companion."
+    ],
+    [
+      "6-18",
+      "I provide a massage to my companion and engage in playful interactions.",
+      "User finishes interacting with their companion and moves to their desk to begin working."
+    ],
+    [
+      "19-40",
+      "I evaluate model prediction candidates for various cases in VS Code.",
+      "User pauses their evaluation work to take a beverage break and assist their roommate."
+    ],
+    [
+      "41-45",
+      "I assist my roommate with her desk setup and presentation slides during a beverage break.",
+      "User finishes assisting their roommate and resumes their evaluation work."
+    ],
+    [
+      "46-53",
+      "I evaluate additional model prediction annotations and candidates on my laptop.",
+      "User stops their annotation work to watch a vlog and express their work fatigue."
+    ],
+    [
+      "54-55",
+      "I watch a South Korean travel vlog to decompress from my annotation work.",
+      "User pauses their video watching to physically inspect their earwax with their companion."
+    ],
+    [
+      "56-58",
+      "I inspect and discuss my earwax buildup with my companion.",
+      "User finishes inspecting their earwax and returns to their laptop to watch more videos."
+    ],
+    [
+      "59-70",
+      "I watch various travel, food, and culture vlogs on my laptop.",
+      "End of recording."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

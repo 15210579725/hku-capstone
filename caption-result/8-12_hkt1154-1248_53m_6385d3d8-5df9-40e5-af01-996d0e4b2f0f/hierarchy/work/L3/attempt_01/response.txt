@@ -1,0 +1,67 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group immediate tasks into coherent activity episodes based on primary goals and locations, distinguishing significant transit phases, meal purchasing, dining, taking a lounge break, and focused desk work.",
+  "events": [
+    [
+      "0",
+      "I review work documents on my computer.",
+      "Document review concludes to leave for lunch"
+    ],
+    [
+      "1-7",
+      "I walk to the cafeteria food counter with my companions.",
+      "Arrival at the food counter"
+    ],
+    [
+      "8-9",
+      "I purchase my meal at the cafeteria counter.",
+      "Meal purchase completes"
+    ],
+    [
+      "10-24",
+      "I share a meal with my companions at the dining table.",
+      "Meal concludes and preparation to leave begins"
+    ],
+    [
+      "25",
+      "I return my meal tray to the conveyor belt.",
+      "Tray returned"
+    ],
+    [
+      "26-31",
+      "I return to the office floor with my companions.",
+      "Transit to the office floor completes"
+    ],
+    [
+      "32-38",
+      "I use my smartphone in the atrium lounge.",
+      "Lounge break concludes and transit to desk begins"
+    ],
+    [
+      "39",
+      "I walk to my office desk.",
+      "Arrival at the desk"
+    ],
+    [
+      "40-49",
+      "I configure AutoDL instances and data migration tasks on my computer.",
+      "Active computer work pauses"
+    ],
+    [
+      "50",
+      "I observe the items on my desk.",
+      "End of recording"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": [
+      "Tray return (25) is maintained as a separate episode from the return transit (26-31) due to its distinct cafeteria target and completion.",
+      "Short transit to the desk (39) is kept separate from the stationary lounge break (32-38) and the subsequent desk work (40-49)."
+    ]
+  }
+}
+```

@@ -1,0 +1,126 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group atomic actions into immediate tasks based on continuous interactions with devices, continuous segments of walking or riding with stable topics, and environmental bounds like waiting at a red light.",
+  "events": [
+    [
+      "0-16",
+      "I draft Feishu notes regarding emotion extraction and generation.",
+      "Topic shift to emotion steering"
+    ],
+    [
+      "17-29",
+      "I draft Feishu notes regarding emotion steering and behavior testing.",
+      "Shift to browsing multiple notes"
+    ],
+    [
+      "30-41",
+      "I browse research notes and WeChat messages.",
+      "Shift to task notes and evaluation to-dos"
+    ],
+    [
+      "42-58",
+      "I review Feishu task notes and evaluation to-dos.",
+      "Shift to messaging the landlord"
+    ],
+    [
+      "59-69",
+      "I message the landlord on WeChat about the broken air conditioning.",
+      "Trigger: Departure from office"
+    ],
+    [
+      "70-74",
+      "I leave the office with my colleagues.",
+      "Enter elevator and begin new conversation"
+    ],
+    [
+      "75-88",
+      "I discuss action prediction filtering with colleagues in the elevator.",
+      "Exit elevator and walk through building"
+    ],
+    [
+      "89-103",
+      "I discuss action prediction scoring with a colleague on our way out of the building.",
+      "Arrival at cafeteria and topic shift to lunch"
+    ],
+    [
+      "104-115",
+      "I converse with my colleagues about lunch plans in the cafeteria.",
+      "Shift to checking navigation app"
+    ],
+    [
+      "116-128",
+      "I organize a scooter ride to McDonald's using Amap navigation.",
+      "Resume walking with the group"
+    ],
+    [
+      "129-137",
+      "I walk through the cafeteria lounge with my friends.",
+      "Exit building and topic shift to scooter rentals"
+    ],
+    [
+      "138-149",
+      "I converse with my friends about electric scooter rentals on the outdoor pathway.",
+      "Stop to coordinate riding pairs"
+    ],
+    [
+      "150-154",
+      "I coordinate the scooter riding arrangements with my friends using map navigation.",
+      "Walk to scooters and begin discussion on evaluation methods"
+    ],
+    [
+      "155-174",
+      "I discuss caption evaluation methods with a colleague on the way to the scooters.",
+      "Arrive at scooters"
+    ],
+    [
+      "175-181",
+      "I explain the battery issue of my rented electric scooter to my companion.",
+      "Begin riding scooter"
+    ],
+    [
+      "182-195",
+      "I converse about evaluation methods during my scooter ride out of the gate.",
+      "Topic shift to cost benefits"
+    ],
+    [
+      "196-203",
+      "I discuss the cost benefits of embedding evaluation during my scooter ride.",
+      "Approach intersection"
+    ],
+    [
+      "204-214",
+      "I discuss evaluation correlation coefficients during my scooter ride across an intersection.",
+      "Stop at red light"
+    ],
+    [
+      "215-222",
+      "I wait at a red light on my electric scooter.",
+      "Traffic clears and resume riding"
+    ],
+    [
+      "223-231",
+      "I discuss evaluation consistency coefficients during my scooter ride.",
+      "Topic shift to navigation"
+    ],
+    [
+      "232-239",
+      "I confirm navigation directions with my companion during my scooter ride up an overpass ramp.",
+      "Topic shift back to LM Judge"
+    ],
+    [
+      "240-249",
+      "I discuss the consistency of LM Judge scoring during my scooter ride.",
+      "End of batch"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "70-74"
+    ],
+    "boundary_cautions": []
+  }
+}
+```

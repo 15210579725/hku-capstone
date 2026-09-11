@@ -1,0 +1,76 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group sequential actions into immediate tasks based on the primary application or physical activity, abstracting incidental looks, pauses, and posture changes.",
+  "events": [
+    [
+      "1000-1059",
+      "I use Claude to research OCR image splitting and scaling optimizations.",
+      "Switches focus to WeChat"
+    ],
+    [
+      "1060-1094",
+      "I discuss OCR det_limit_side_len parameters and ASR benchmarks in WeChat.",
+      "Switches to ChatGPT"
+    ],
+    [
+      "1095-1109",
+      "I review TensorRT and vLLM acceleration benchmark data in ChatGPT.",
+      "Returns to WeChat"
+    ],
+    [
+      "1110-1122",
+      "I read follow-up WeChat messages about OCR pipeline optimization.",
+      "Switches to ChatGPT logs"
+    ],
+    [
+      "1123-1128",
+      "I inspect ChatGPT benchmark logs.",
+      "Starts adjusting clothing"
+    ],
+    [
+      "1129-1139",
+      "I tie my shorts drawstring.",
+      "Turns attention to local files"
+    ],
+    [
+      "1140-1147",
+      "I browse my code editor, note windows, and desktop files.",
+      "Switches to ChatGPT"
+    ],
+    [
+      "1148-1153",
+      "I read GPU benchmark results and troubleshooting steps in ChatGPT.",
+      "Returns to desktop environment"
+    ],
+    [
+      "1154-1161",
+      "I scan my desktop environment.",
+      "Opens model evaluation report"
+    ],
+    [
+      "1162-1189",
+      "I review the MAGIC-Video model evaluation report.",
+      "Rests in chair"
+    ],
+    [
+      "1190-1202",
+      "I rest in my chair.",
+      "Stands up to leave"
+    ],
+    [
+      "1203-1210",
+      "I walk to the restroom.",
+      "End of sequence"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      11
+    ],
+    "boundary_cautions": []
+  }
+}
+```

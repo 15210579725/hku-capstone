@@ -1,0 +1,48 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Grouped L3 episodes into broader L4 goal-oriented phases: an initial dataset analysis block (0-1), a desk intermission for administrative and access setups (2-4), a continuous phase of dataset repair and metric evaluation (5-8), and a lunch break divided into an acquisition/transit phase (10-12) and a consumption/return phase unified by continuous conversation (13-15). The departure trigger (9) remains standalone as required.",
+  "events": [
+    [
+      "0-1",
+      "I conduct initial dataset evaluation log analysis and prompt drafting tasks using ChatGPT.",
+      "Groups dataset preparation and initial prompting into one preliminary analysis phase."
+    ],
+    [
+      "2-4",
+      "I manage remote server SSH configurations and meeting rescheduling tasks during a desk break.",
+      "Unifies administrative setups and scheduling handled during a resting period at the desk."
+    ],
+    [
+      "5-8",
+      "I execute dataset generation repair and face detection threshold evaluation tasks using ChatGPT and Claude Code.",
+      "Consolidates dataset auditing, repair, and subsequent metric evaluation into a single technical work phase."
+    ],
+    [
+      "9",
+      "I hear a colleague initiate our departure.",
+      "Standalone behavior-changing trigger redirecting focus from workspace tasks to the lunch break."
+    ],
+    [
+      "10-12",
+      "I commute to the cafeteria building for my lunch purchase.",
+      "Abstracts the brief workspace wrap-up as an incidental departure step, unifying it with the transit and food acquisition."
+    ],
+    [
+      "13-15",
+      "I discuss travel, traffic, and technical topics with my colleagues throughout our cafeteria meal and return transit to the office corridor.",
+      "Unifies the meal, routine tray return, and walk back under the continuous overarching conversation and return process."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      9
+    ],
+    "boundary_cautions": [
+      "Merged the brief 8-second query wrap-up (10) with the cafeteria transit (11-12) as an incidental step of initiating the lunch acquisition phase."
+    ]
+  }
+}
+```

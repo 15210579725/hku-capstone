@@ -1,0 +1,62 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks such as reading specific content, eating, handling objects, and interacting with specific apps or features.",
+  "events": [
+    [
+      "500-556",
+      "I read a ChatGPT explanation about reinforcement learning algorithms and successor features.",
+      "Reading session ends when I pick up food."
+    ],
+    [
+      "557-564",
+      "I eat a packaged meat floss toast.",
+      "Eating finishes and I return to my screen."
+    ],
+    [
+      "565-610",
+      "I read a Nature paper on the DiscoRL reinforcement learning benchmark.",
+      "Reading is interrupted to handle a tissue."
+    ],
+    [
+      "611-616",
+      "I discard a crumpled tissue.",
+      "Tissue is discarded and reading resumes."
+    ],
+    [
+      "617-643",
+      "I resume reading the Nature paper on reinforcement learning concepts.",
+      "Reading concludes when I pick up my smartphone to check WeChat."
+    ],
+    [
+      "644-665",
+      "I interact in a WeChat chat regarding a shared video about messy rooms.",
+      "Chat concludes and I switch to reading news articles."
+    ],
+    [
+      "666-700",
+      "I read tech news articles on WeChat Official Accounts.",
+      "General news browsing transitions into reading one specific long article."
+    ],
+    [
+      "701-711",
+      "I read a WeChat article about a user's experience with ChatGPT voice mode.",
+      "Reading concludes and I switch to my laptop to configure a feature."
+    ],
+    [
+      "712-749",
+      "I pair my iPhone with my MacBook to set up the ChatGPT remote control feature.",
+      "End of provided L1 data."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": [
+      "Item 524 involves a colleague saying '走。', but this does not redirect the user's plan as they continue reading, so it is not a major trigger.",
+      "Item 565 is a brief glance at ChatGPT before immediately switching to the Nature paper in 566; it is grouped with the paper reading task as it initiates the post-snack study session."
+    ]
+  }
+}
+```

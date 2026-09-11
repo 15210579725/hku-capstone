@@ -1,0 +1,106 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group the L2 immediate tasks into L3 coherent activity episodes by identifying continuous segments sharing a unified objective, such as navigating a specific route, exploring a location, or completing a distinct interaction like a purchase or meal. Retain the major plan-changing trigger as a standalone event.",
+  "events": [
+    [
+      "0-2",
+      "I exit the cafe into the parking lot.",
+      "Exiting the cafe concludes the indoor visit."
+    ],
+    [
+      "3-6",
+      "I select a bicycle travel route with my companion in the parking lot.",
+      "Selecting a route completes the initial planning phase."
+    ],
+    [
+      "7-14",
+      "I navigate to the sidewalk to prepare a shared bicycle for our trip.",
+      "Preparing the bicycles readies them for transit."
+    ],
+    [
+      "15-28",
+      "I travel to my destination by riding a shared bicycle.",
+      "Returning the bicycle completes the transit episode."
+    ],
+    [
+      "29-33",
+      "I navigate the plaza pathways towards the C-STORE.",
+      "Arrival at the store transitions to a shopping task."
+    ],
+    [
+      "34",
+      "I purchase shopping bags at the C-STORE to pack my belongings.",
+      "Purchasing the bags completes the transaction."
+    ],
+    [
+      "35-39",
+      "I traverse the plaza to reach the underground pedestrian channel entrance.",
+      "Arrival at the entrance transitions to underground navigation."
+    ],
+    [
+      "40-42",
+      "I navigate the underground pedestrian channel to reach the shopping mall.",
+      "Entering the mall concludes the underground channel transit."
+    ],
+    [
+      "43-57",
+      "I explore the shopping mall with my companion to browse the shops and restaurants.",
+      "Stopping to order a drink shifts focus from general exploration."
+    ],
+    [
+      "58-66",
+      "I purchase an avocado yogurt drink at the MoreYogurt counter.",
+      "Receiving the drink concludes the purchase episode."
+    ],
+    [
+      "67-71",
+      "I exit the shopping mall through the outdoor plaza.",
+      "Exiting the plaza transitions to finding onward transit."
+    ],
+    [
+      "72-79",
+      "I wait at the bus stop for transit to the Xiawan night market.",
+      "Boarding the bus concludes the waiting period."
+    ],
+    [
+      "80-104",
+      "I ride the Route 9 bus toward the night market with my companion.",
+      "The bus ride is interrupted by a sudden change in plans."
+    ],
+    [
+      "105",
+      "I abandon the night market plan to alight the bus for a dumpling restaurant.",
+      "This decision substantially redirects the evening plan toward a new dining destination."
+    ],
+    [
+      "106-109",
+      "I walk from the bus stop to the dumpling restaurant.",
+      "Arrival at the restaurant completes the pedestrian transit."
+    ],
+    [
+      "110-113",
+      "I order lamb carrot dumplings and drinks at the restaurant.",
+      "Placing the order transitions to waiting at the table."
+    ],
+    [
+      "114-119",
+      "I operate the DJI Osmo Pocket 3 camera to record my companion.",
+      "Starting the meal shifts focus away from camera operation."
+    ],
+    [
+      "120-127",
+      "I dine on lamb carrot dumplings with my companion at the restaurant.",
+      "Dining forms the primary activity at the table."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      13
+    ],
+    "boundary_cautions": []
+  }
+}
+```

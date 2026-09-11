@@ -1,0 +1,99 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks based on physical movement, shifts in conversational topics, and interactions with objects or specific environments.",
+  "events": [
+    [
+      "1500-1517",
+      "I pack my belongings and prepare to leave while conversing with my companion.",
+      "Completes packing and begins walking to leave."
+    ],
+    [
+      "1518-1523",
+      "I walk across the foyer toward the elevators.",
+      "Reaches the elevators and presses the call button."
+    ],
+    [
+      "1524-1544",
+      "I wait near the elevator with my companion while discussing study spaces.",
+      "Abandons waiting for the elevator to take the stairs instead."
+    ],
+    [
+      "1545-1564",
+      "I walk down the stairs to the lobby and exit the building.",
+      "Exits the building to the outdoors."
+    ],
+    [
+      "1565-1583",
+      "I walk outdoors with my companion, discussing the weather and surroundings.",
+      "Approaches and reaches the entrance to Snoopy's World."
+    ],
+    [
+      "1584-1596",
+      "I walk to and enter Snoopy's World.",
+      "Enters Snoopy's World and moves into the plaza."
+    ],
+    [
+      "1597-1607",
+      "I explore the Snoopy's World plaza and walk toward the playground.",
+      "Reaches the playground and begins interacting with the play structure."
+    ],
+    [
+      "1608-1617",
+      "I climb the playground structure and slide down the slide.",
+      "Finishes sliding and continues walking through the area."
+    ],
+    [
+      "1618-1633",
+      "I walk through the playground area and converse with my companion.",
+      "Shifts activity to checking the weather on a smartphone."
+    ],
+    [
+      "1634-1647",
+      "I walk along the walkway and check the weather on my companion's smartphone.",
+      "Reaches the mall entrance and goes inside."
+    ],
+    [
+      "1648-1675",
+      "I enter a shopping mall and walk down the corridor while conversing with my companion.",
+      "Enters the central concourse and atrium area."
+    ],
+    [
+      "1676-1688",
+      "I walk through the mall's central concourse and atrium.",
+      "Reaches the escalator to go to the next floor."
+    ],
+    [
+      "1689-1697",
+      "I ride the escalator up to the next floor.",
+      "Arrives on the upper floor and begins looking for restaurants."
+    ],
+    [
+      "1698-1713",
+      "I walk along the corridor and browse a food directory to find a restaurant.",
+      "Finishes checking the food directory and resumes walking."
+    ],
+    [
+      "1714-1725",
+      "I walk past storefronts and approach Watsons.",
+      "Arrives at and enters the Watsons store."
+    ],
+    [
+      "1726-1735",
+      "I browse products in Watsons and discuss purchasing bug spray with my companion.",
+      "Finishes browsing in Watsons and exits the store."
+    ],
+    [
+      "1736-1749",
+      "I exit Watsons and walk along the corridor while discussing dinner plans.",
+      "End of input."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

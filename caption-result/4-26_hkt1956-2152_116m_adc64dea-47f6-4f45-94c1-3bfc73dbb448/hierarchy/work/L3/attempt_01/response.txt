@@ -1,97 +1,87 @@
 ```json
 {
   "target_level": "L3",
-  "plan": "Group immediate tasks into coherent activity episodes based on location boundaries (such as specific commute legs and store visits) and overarching objectives (such as commuting, shopping, walking home, and distinct phases of presentation preparation including generating content, reviewing, rehearsing, and recording).",
+  "plan": "Group immediate tasks (L2) into coherent activity episodes based on continuous goals, major location shifts, and distinct phases of a project.",
   "events": [
     [
-      "0-7",
-      "I ride the MTR train to Admiralty station.",
-      "Stepping off the train completes the first leg of the commute"
+      "0-9",
+      "I ride the MTR subway train.",
+      "Groups observing, conversing, and sitting during the first subway ride."
     ],
     [
-      "8-11",
-      "I navigate Admiralty station to transfer to a connecting MTR train.",
-      "Waiting on the platform completes the transfer process"
+      "10-13",
+      "I transfer through the Admiralty station concourse to the subway platform.",
+      "Groups navigating corridors, escalators, and waiting for the connecting train."
     ],
     [
-      "12-29",
-      "I ride the connecting MTR train.",
-      "Standing up to exit completes the second train ride"
+      "14-39",
+      "I ride the subway train with my companion.",
+      "Groups boarding, riding, conversing, and smartphone use on the second subway leg."
     ],
     [
-      "30-32",
-      "I exit the subway station with my companion.",
-      "Passing through the turnstiles completes the station exit"
+      "40-45",
+      "I exit the subway station.",
+      "Groups walking along the platform, navigating turnstiles, and taking the exit."
     ],
     [
-      "33-39",
-      "I browse groceries at the 優品360° store.",
-      "Leaving the first store shifts the shopping activity"
+      "46-54",
+      "I browse grocery items in the 優品360° store.",
+      "Groups navigating aisles and examining various pantry and snack items."
     ],
     [
-      "40-43",
-      "I purchase a slice of cheesecake at a bakery.",
-      "Purchasing the cheesecake completes the bakery visit"
+      "55-60",
+      "I purchase a slice of cheesecake at the bakery.",
+      "Groups discussing, selecting, and purchasing the cake."
     ],
     [
-      "44-50",
-      "I walk through the shopping mall concourse with my companion.",
-      "Arriving at the supermarket completes the mall walk"
+      "61-68",
+      "I navigate the shopping mall concourse.",
+      "Groups walking, riding escalators, and conversing within the mall."
     ],
     [
-      "51-57",
-      "I purchase cucumbers and milk at the Market Place supermarket.",
-      "Completing checkout finishes the grocery purchase"
+      "69-80",
+      "I purchase packaged cucumbers and Meiji milk at the Market Place supermarket.",
+      "Groups browsing produce, checking out, and organizing the purchased groceries."
     ],
     [
-      "58-59",
-      "I prepare a carton of milk for my companion during a conversation in the mall hallway.",
-      "Finishing the milk break shifts the activity back to walking"
+      "81-92",
+      "I walk home from the shopping mall.",
+      "Groups exiting the mall, crossing the bridge, and conversing during the walk."
     ],
     [
-      "60-67",
-      "I walk outdoors from the mall to my apartment building.",
-      "Reaching the building completes the outdoor walk"
+      "93-95",
+      "I travel up to the 35th-floor apartment hallway.",
+      "Groups entering the lobby, riding the elevator, and waiting in the hallway."
     ],
     [
-      "68-70",
-      "I travel through the building to my apartment.",
-      "Entering the apartment completes the journey home"
+      "96-102",
+      "I settle into my apartment.",
+      "Groups entering the apartment, unpacking gear, washing hands, and roommate banter."
     ],
     [
-      "71-75",
-      "I settle into my apartment with my roommate.",
-      "Settling in concludes the arrival phase before starting work"
+      "103-112",
+      "I generate '7102 Risk Analysis' presentation slides using Claude.",
+      "Groups reviewing the outline, prompting for content, and inspecting the generated slides."
     ],
     [
-      "76-84",
-      "I generate risk analysis presentation content using Claude AI on my laptop.",
-      "Switching from generating content to reviewing slides marks a new study phase"
+      "113",
+      "I search my backpack for a missing webcam.",
+      "Standalone task interrupting the computer workflow."
     ],
     [
-      "85-106",
-      "I review my fairness audit presentation materials alongside a cucumber snack at my desk.",
-      "Recording the presentation video shifts from preparation to execution"
+      "114-124",
+      "I study explanations of the KMeans and fairness audit presentation slides using Claude.",
+      "Groups reviewing slide explanations and researching terminology."
     ],
     [
-      "107",
-      "I record a complete take of my risk analysis presentation.",
-      "Completing the first recording take shifts the activity to rehearsal"
+      "125-131",
+      "I record video presentation takes covering sentiment analysis and machine learning models.",
+      "Groups recording video attempts and reviewing the footage."
     ],
     [
-      "108-121",
-      "I rehearse my risk analysis presentation script on my laptop.",
-      "Starting the final recording concludes the rehearsal phase"
-    ],
-    [
-      "122-124",
-      "I record the final sections of my risk analysis presentation.",
-      "Finishing the final recording sections completes the presentation delivery"
-    ],
-    [
-      "125-128",
-      "I review my presentation files and messages on my laptop.",
-      "Reviewing files concludes the presentation work session"
+      "132-141",
+      "I rehearse my data project presentation script.",
+      "Groups drafting notes, practicing specific slide sections, and navigating project files."
     ]
   ],
   "audit": {

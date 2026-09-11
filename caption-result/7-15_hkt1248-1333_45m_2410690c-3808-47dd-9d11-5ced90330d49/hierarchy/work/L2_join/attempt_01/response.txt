@@ -1,0 +1,18 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate the eligible pair [21, 22]. Events 21 and 22 represent a continuous interaction with Codex regarding pair-order agreement, where the user queries the agent and then reviews the resulting calculations. This immediate task continues across the batch edge and should be merged.",
+  "merges": [
+    [
+      21,
+      22,
+      "I query Codex for clarification on pair-order agreement candidate mismatches and review the resulting calculations.",
+      "Codex prompt and subsequent review of the response continue across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

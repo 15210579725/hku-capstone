@@ -1,0 +1,96 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group action briefs into immediate tasks based on continuous goals such as checking messages, tracking a package, calling a courier, setting up a workspace, walking to the cafeteria, getting food, paying, and eating.",
+  "events": [
+    [
+      "500-503",
+      "I survey the room.",
+      "Shifts from observing the room to checking phone"
+    ],
+    [
+      "504-539",
+      "I check my SMS messages on my iPhone for package information.",
+      "Shifts from SMS to searching apps and opening Mail"
+    ],
+    [
+      "540-551",
+      "I search my email and SMS for my SIM card order.",
+      "Shifts to searching for a tracking mini-program in WeChat"
+    ],
+    [
+      "552-575",
+      "I search for tracking number 621249568261494 in the Dan Niao Express mini-program.",
+      "Opens customer service chat to inquire about the tracking"
+    ],
+    [
+      "576-594",
+      "I inquire about my package status through Dan Niao Express customer service.",
+      "Leaves chat to make a phone call to the courier"
+    ],
+    [
+      "595-600",
+      "I call the courier to arrange the delivery of my SIM card.",
+      "Ends phone call and returns to the tracking app"
+    ],
+    [
+      "601-606",
+      "I follow up on the package tracking in the mini-program.",
+      "Exits customer service page and switches to casual phone use"
+    ],
+    [
+      "607-610",
+      "I watch a vlog on my phone.",
+      "Interrupted by a WeChat notification to eat"
+    ],
+    [
+      "611-613",
+      "I reply to a WeChat invitation to eat.",
+      "Puts phone away and starts walking down the corridor"
+    ],
+    [
+      "614-618",
+      "I walk to my workspace in the office.",
+      "Arrives at desk and starts unpacking laptop"
+    ],
+    [
+      "619-645",
+      "I set up my MacBook and accessories at my desk.",
+      "Finishes setting up and leaves the office for lunch"
+    ],
+    [
+      "646-655",
+      "I take the elevator.",
+      "Exits elevator and enters the parking garage"
+    ],
+    [
+      "656-672",
+      "I walk through the parking garage to the cafeteria.",
+      "Arrives at the cafeteria self-service food counter"
+    ],
+    [
+      "673-690",
+      "I select my food at the cafeteria self-service counter.",
+      "Finishes selecting food and goes to the checkout counter"
+    ],
+    [
+      "691-696",
+      "I pay for my meal at the cafeteria checkout counter.",
+      "Completes payment and walks into the dining area"
+    ],
+    [
+      "697-749",
+      "I eat my meal with my companions in the cafeteria.",
+      "End of provided action briefs"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "611-613"
+    ],
+    "boundary_cautions": []
+  }
+}
+```

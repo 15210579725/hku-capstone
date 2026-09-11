@@ -1,0 +1,102 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group immediate tasks into coherent episodes based on distinct regional explorations, major NPC interactions, specific quest objectives, and real-world interruptions. Abstract minor inventory checks, journal reviews, and incidental navigations into their overarching regional or investigative goals.",
+  "events": [
+    [
+      "0",
+      "I tidy my room.",
+      "Tidying physical space is a distinct real-world task"
+    ],
+    [
+      "1-2",
+      "I initiate my Disco Elysium gameplay session on my laptop.",
+      "Minor device interaction is abstracted into the overarching gameplay preparation"
+    ],
+    [
+      "3-4",
+      "I interact with the clerk inside the Frittte store in Disco Elysium.",
+      "Store visit constitutes a complete short episode"
+    ],
+    [
+      "5-11",
+      "I investigate the outdoor areas around the bookstore and pier in Disco Elysium.",
+      "Continuous exploration of the surrounding commercial area forms a coherent episode"
+    ],
+    [
+      "12-15",
+      "I access the apartment building interior using a hidden key following my conversation with the Smoker on the Balcony in Disco Elysium.",
+      "Locating the key and entering the building fulfills an access objective"
+    ],
+    [
+      "16",
+      "I converse with Kim Kitsuragi about the case briefing and his background in Disco Elysium.",
+      "Lengthy critical dialogue forms a standalone episode"
+    ],
+    [
+      "17-30",
+      "I conduct an investigation of the apartment building's rooms and residents in Disco Elysium.",
+      "Exploration and questioning within the building represent a unified investigation phase"
+    ],
+    [
+      "31-36",
+      "I search the apartment building walkways to locate the Smoker on the Balcony in Disco Elysium.",
+      "Searching for a specific NPC's apartment is a focused goal"
+    ],
+    [
+      "37-43",
+      "I retreat from the hanged man to find ammonia following a vomiting response in Disco Elysium.",
+      "Initial attempt to interact with the corpse ends with a retreat, forming a discrete episode"
+    ],
+    [
+      "44-50",
+      "I abandon the ammonia plan for handling the corpse upon discovering its uselessness from the gardener in Disco Elysium.",
+      "Failing to acquire a useful tool concludes the secondary ammonia plan"
+    ],
+    [
+      "51",
+      "I read the Epicure research paper and WeChat messages on my smartphone.",
+      "Real-world smartphone usage forms a distinct interruption episode"
+    ],
+    [
+      "52-60",
+      "I search the Whirling-in-Rags hotel rooms and lobby for items in Disco Elysium.",
+      "Exploration of the hotel's accommodations represents a cohesive regional objective"
+    ],
+    [
+      "61-65",
+      "I converse with Garte and Lena within the Whirling-in-Rags cafeteria in Disco Elysium.",
+      "Conversations with NPCs in the cafeteria form a distinct social episode"
+    ],
+    [
+      "66-70",
+      "I acquire medicine and a raincoat from the Frittte store in Disco Elysium.",
+      "Acquiring supplies from the store is a discrete objective"
+    ],
+    [
+      "71-79",
+      "I complete a physical examination of the hanged man's corpse in Disco Elysium.",
+      "The successful examination of the corpse represents a major completed episode"
+    ],
+    [
+      "80-82",
+      "I interrogate Cuno regarding the missing armor following my attempt to shoot down the hanged body in Disco Elysium.",
+      "Post-examination interactions with the body and witness constitute a distinct episode"
+    ],
+    [
+      "83",
+      "I quit Disco Elysium to return to the macOS desktop.",
+      "Exiting the game marks the session's end"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "51",
+      "83"
+    ],
+    "boundary_cautions": []
+  }
+}
+```

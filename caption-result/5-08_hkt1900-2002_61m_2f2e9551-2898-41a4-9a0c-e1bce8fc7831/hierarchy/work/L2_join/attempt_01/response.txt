@@ -1,0 +1,11 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible pairs for immediate task continuation. [24, 25] transitions from completing check-in to entering the elevator. [50, 51] transitions from interacting with a cat to leaving the cafe. [64, 65] transitions from browsing maps to unlocking a bicycle. None of these pairs represent the exact same immediate task interrupted by a batch boundary, so no merges will be performed.",
+  "merges": [],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

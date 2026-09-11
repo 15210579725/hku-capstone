@@ -1,0 +1,69 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group immediate tasks by continuous transit segments with their corresponding conversations, settling into the classroom, and distinct computer activities (such as setup, debugging, and studying a lecture).",
+  "events": [
+    [
+      "250-262",
+      "I walk through the university tunnel while discussing the wall murals with my companion.",
+      "Transit through the tunnel accompanied by a continuous conversation about the art."
+    ],
+    [
+      "263-272",
+      "I walk along the outdoor walkways while discussing graduation photos with my companion.",
+      "Shift to outdoor transit and a new conversation topic."
+    ],
+    [
+      "273-277",
+      "I enter the building and pass through the security turnstiles.",
+      "Entering the building and clearing access control."
+    ],
+    [
+      "278-294",
+      "I ride the escalators and walk through the building while discussing physical fatigue with my companion.",
+      "Indoor transit phase dominated by a discussion about tiredness and working out."
+    ],
+    [
+      "295-307",
+      "I navigate the corridors and enter classroom G5-314.",
+      "Final approach and entry into the destination classroom."
+    ],
+    [
+      "308-317",
+      "I select a seat in the classroom and sit down with my companion.",
+      "Finding seats and settling down inside the room."
+    ],
+    [
+      "318-330",
+      "I set up my MacBook on the desk while chatting with my companion.",
+      "Unpacking and preparing the laptop for use."
+    ],
+    [
+      "331-333",
+      "I browse music and review Claude Code outputs on my MacBook.",
+      "Initial computer task before a physical interruption."
+    ],
+    [
+      "334-337",
+      "I look at my companion's phone to view and discuss swimsuits.",
+      "Distinct interaction focusing on the companion's device."
+    ],
+    [
+      "338-344",
+      "I monitor Claude Code script executions and inspect files in VS Code.",
+      "Resuming coding and debugging tasks on the laptop."
+    ],
+    [
+      "345-366",
+      "I study a Berkeley CS294-158 lecture and review the accompanying slides.",
+      "Task shift to watching an educational video and reading its materials."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

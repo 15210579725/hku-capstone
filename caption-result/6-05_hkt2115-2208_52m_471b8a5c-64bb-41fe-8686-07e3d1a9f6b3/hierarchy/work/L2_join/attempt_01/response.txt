@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate the eligible pairs to determine if they represent the same immediate task continuing across a batch boundary. Both pairs involve continuous use of the same application for the same purpose.",
+  "merges": [
+    [
+      31,
+      32,
+      "I browse posts on my X feed.",
+      "Browsing the X feed continues across the batch edge."
+    ],
+    [
+      56,
+      57,
+      "I use Claude to research AI papers.",
+      "Researching papers using Claude continues across the batch edge."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

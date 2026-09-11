@@ -1,0 +1,86 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group consecutive actions into immediate functional tasks based on shared application focus, specific conversational or reading topics, and distinct physical activities.",
+  "events": [
+    [
+      "0-5",
+      "I adjust the macOS display and dock settings.",
+      "Finishes adjusting display settings and switches to the browser."
+    ],
+    [
+      "6-15",
+      "I manage my Claude web account settings.",
+      "Concludes account management and starts reading a chat response."
+    ],
+    [
+      "16-28",
+      "I read Claude's explanation on Representation Engineering (RepE) for emotion vector extraction.",
+      "Finishes reading the explanation and switches to VS Code to type."
+    ],
+    [
+      "29-40",
+      "I review and update the RepE implementation plan using Claude Code.",
+      "Shifts focus to inspecting the workspace files and settings."
+    ],
+    [
+      "41-50",
+      "I examine the RepE project files and configurations in VS Code.",
+      "Finishes file inspection and begins typing a new long prompt."
+    ],
+    [
+      "51-62",
+      "I input emotion probing research instructions into Claude Code.",
+      "Completes inputting the research plan and pauses to review configurations."
+    ],
+    [
+      "63-68",
+      "I verify the model configuration and enter instructions into Claude Code.",
+      "Switches back to reading Claude's detailed explanation of the datasets."
+    ],
+    [
+      "69-78",
+      "I read Claude's explanation of the emotion scenario dataset and extraction templates.",
+      "Finishes reading dataset details and begins typing follow-up questions."
+    ],
+    [
+      "79-88",
+      "I query Claude about the methodology for emotion vector extraction and PCA.",
+      "Concludes questioning and shifts back to drafting an experiment prompt."
+    ],
+    [
+      "89-98",
+      "I draft a research experiment prompt in Claude Code.",
+      "Submits the prompt and begins reading the lengthy response."
+    ],
+    [
+      "99-116",
+      "I read Claude's explanation comparing Concept and Function probing.",
+      "Finishes interacting with Claude and switches to a physical task."
+    ],
+    [
+      "117-118",
+      "I adjust my desk lamp.",
+      "Completes lamp adjustment before gathering items to leave the desk."
+    ],
+    [
+      "119-127",
+      "I fill my water bottle at the Well# water station.",
+      "Water filling complete, begins returning to the study area."
+    ],
+    [
+      "128-129",
+      "I walk through the study commons.",
+      "Ends at batch transport limit while walking."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      119
+    ],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,46 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group immediate tasks into coherent episodes based on continuous shared goals, separating distinct study sessions, personal care transitions, and significant online browsing breaks.",
+  "events": [
+    [
+      "0",
+      "I inspect the frying pan on the kitchen stovetop.",
+      "End of brief kitchen check"
+    ],
+    [
+      "1-28",
+      "I study SVD, linear algebra, and matrix complexity using my laptop, handwritten notes, and AI assistants.",
+      "Shifts to personal care and relocation"
+    ],
+    [
+      "29-32",
+      "I relocate to the bedroom following a brief personal care routine involving cologne and foam earplugs.",
+      "Resumes studying"
+    ],
+    [
+      "33-36",
+      "I study eigenvalue and SVD calculations using my notebook and ChatGPT.",
+      "Shifts to browsing Apple products"
+    ],
+    [
+      "37-45",
+      "I browse Apple Watch and MacBook features online during a physical stretching and foot-massage break.",
+      "Returns to studying"
+    ],
+    [
+      "46-60",
+      "I study Kernel PCA, SVD, and Kernel Ridge Regression using Claude, ChatGPT, and my handwritten notes.",
+      "End of data"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "37: I navigate to the Apple website and browse MacBook Air features and specifications."
+    ],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,57 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group initial vehicle troubleshooting, relocating to a legal parking spot, retrieving items from a hotel, solo driving to a pickup location, local driving while assisting a newly boarded passenger, the continuous expressway journey to the final destination, and post-drive vehicle configuration into coherent activity episodes.",
+  "events": [
+    [
+      "0-2",
+      "I troubleshoot the Mercedes parking brake to prepare for driving.",
+      "Groups the initial vehicle troubleshooting and preparation steps before moving the car."
+    ],
+    [
+      "3-6",
+      "I relocate the vehicle from the initial parking area to a legal parking spot.",
+      "Unifies the short drive to locate and secure a legal parking position."
+    ],
+    [
+      "7-10",
+      "I walk to the hotel reception to collect a pink backpack and mineral water.",
+      "Unifies the pedestrian journey to the hotel and the item collection task."
+    ],
+    [
+      "11-14",
+      "I walk back to the parking lot to enter the driver's seat of the blue Mercedes.",
+      "Unifies the pedestrian return journey and boarding the vehicle."
+    ],
+    [
+      "15-31",
+      "I drive the vehicle to the HOPPY ROOMY restaurant following navigation to pick up a waiting contact.",
+      "Unifies the entire solo driving episode from exiting the parking lot to arriving at the passenger pickup location."
+    ],
+    [
+      "32-44",
+      "I transport the newly boarded passenger through local traffic, accommodating their phone charging and vehicle seat adjustments.",
+      "Unifies the initial start-stop local driving phase and passenger setup before merging onto the expressway."
+    ],
+    [
+      "45-64",
+      "I drive the Mercedes C-Class along the expressway to the destination parking lot, evaluating the vehicle's features with the passenger.",
+      "Unifies the continuous driving segment on the expressway and main roads leading up to parking at the destination."
+    ],
+    [
+      "65-73",
+      "I configure the digital instrument cluster, infotainment system, and interior controls of the parked vehicle with the passenger.",
+      "Unifies the post-drive stationary exploration and configuration of the vehicle's digital interfaces."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": [
+      "The boundary at 31/32 marks the transition from solo driving to transporting the passenger.",
+      "The boundary at 44/45 separates the local traffic/setup phase from the continuous expressway journey."
+    ]
+  }
+}
+```

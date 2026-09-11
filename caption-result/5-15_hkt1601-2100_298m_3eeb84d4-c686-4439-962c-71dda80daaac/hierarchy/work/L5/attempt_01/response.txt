@@ -1,0 +1,41 @@
+```json
+{
+  "target_level": "L5",
+  "plan": "Abstract into major activities by grouping home chores and research, library studies, and the evening outing, while preserving the unexpected work meeting as a standalone major trigger.",
+  "events": [
+    [
+      "0-2",
+      "I conduct my academic research and laundry management at my residence.",
+      "Location and goal change to library studies"
+    ],
+    [
+      "3",
+      "I complete my kernel and numerical methods exam assignment studies and system management at the Main Library.",
+      "Location and goal change to evening outing"
+    ],
+    [
+      "4",
+      "I travel to a restaurant to socialize with my companion.",
+      "Unexpected work meeting interrupts evening plans"
+    ],
+    [
+      "5",
+      "I attend a Lark meeting regarding manuscript revisions outside a convenience store using borrowed devices.",
+      "Meeting concludes, resumption of evening outing"
+    ],
+    [
+      "6-8",
+      "I share a dinner and supermarket shopping outing with my companion before commuting to my apartment building.",
+      "End of recording"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      5
+    ],
+    "boundary_cautions": []
+  }
+}
+```

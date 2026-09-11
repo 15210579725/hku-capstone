@@ -1,0 +1,43 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Abstract L3 episodes into broader L4 phases centered on major locations and overarching goals, grouping transit with the corresponding destination activities while leaving the major plan-changing trigger standalone.",
+  "events": [
+    [
+      "0-3",
+      "I commute by shared bicycle with my companion from the cafe to the plaza.",
+      "Bicycle transit phase"
+    ],
+    [
+      "4-10",
+      "I visit the shopping mall via the plaza with my companion to purchase shopping bags and an avocado yogurt drink.",
+      "Mall excursion phase including plaza transit and purchases"
+    ],
+    [
+      "11-12",
+      "I travel by bus with my companion toward the Xiawan night market.",
+      "Bus transit phase"
+    ],
+    [
+      "13",
+      "I abandon the night market plan to alight the bus for a dumpling restaurant.",
+      "Major standalone trigger redirecting the evening plan"
+    ],
+    [
+      "14-17",
+      "I dine on lamb carrot dumplings with my companion at the restaurant.",
+      "Restaurant dining phase including arrival and recording"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "13"
+    ],
+    "boundary_cautions": [
+      "Merged the plaza transit and C-STORE bag purchase with the shopping mall visit to represent one cohesive plaza-area shopping phase."
+    ]
+  }
+}
+```

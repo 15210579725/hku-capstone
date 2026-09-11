@@ -1,0 +1,149 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks based on shared objectives, distinct locations, or specific interactions, progressing logically without using forbidden conjunctions for consecutive actions.",
+  "events": [
+    [
+      "0-14",
+      "I walk along the sidewalk.",
+      "Path changes to a downhill slope."
+    ],
+    [
+      "15-23",
+      "I walk downhill along the sidewalk.",
+      "Stops to observe a specific restaurant."
+    ],
+    [
+      "24-25",
+      "I observe THE ROCKPOOL restaurant.",
+      "Shifts focus to approaching the transit station."
+    ],
+    [
+      "26-29",
+      "I approach the HKU Station entrance.",
+      "Resumes walking along the sidewalk."
+    ],
+    [
+      "30-37",
+      "I walk along the sidewalk.",
+      "Stops to read a directory board."
+    ],
+    [
+      "38-40",
+      "I read the Shek Tong Tsui Cooked Food Centre directory board.",
+      "Finishes reading and resumes walking."
+    ],
+    [
+      "41-43",
+      "I walk past the sidewalk benches.",
+      "Enters the building lobby to access the elevator."
+    ],
+    [
+      "44-47",
+      "I access the Shek Tong Tsui Municipal Services Building elevator.",
+      "Boards the elevator."
+    ],
+    [
+      "48-55",
+      "I ride the elevator with my companion.",
+      "Exits the elevator into the dining hall."
+    ],
+    [
+      "56-65",
+      "I navigate through the cooked food center dining hall.",
+      "Transitions from the dining hall to the outdoor pedestrian ramp."
+    ],
+    [
+      "66-70",
+      "I descend the pedestrian ramp to the street.",
+      "Stops to inspect a specific vehicle's license plate."
+    ],
+    [
+      "71-73",
+      "I examine a vehicle's license plate.",
+      "Resumes walking uphill along the road."
+    ],
+    [
+      "74-86",
+      "I walk uphill along the road.",
+      "Reaches the stairs to climb."
+    ],
+    [
+      "87-92",
+      "I climb the outdoor stairs.",
+      "Finishes climbing and resumes walking on the sidewalk."
+    ],
+    [
+      "93-97",
+      "I walk along the sidewalk.",
+      "Transitions to entering the building courtyard."
+    ],
+    [
+      "98-104",
+      "I navigate through the courtyard to the Y.Hill building entrance.",
+      "Arrives at the reception counter."
+    ],
+    [
+      "105-108",
+      "I interact at the reception counter.",
+      "Moves to board the elevator."
+    ],
+    [
+      "109-119",
+      "I ride the elevator to the 15th floor with my companion.",
+      "Arrives at the 15th floor and exits into the apartment."
+    ],
+    [
+      "120-121",
+      "I enter apartment 15B.",
+      "Transitions to inspecting items inside the apartment."
+    ],
+    [
+      "122-123",
+      "I inspect the hanging laundry.",
+      "Shifts focus from the laundry to the dining table."
+    ],
+    [
+      "124-126",
+      "I secure a black drawstring bag at the dining table.",
+      "Moves to the bedroom alcove desk to retrieve an item."
+    ],
+    [
+      "127-133",
+      "I retrieve a black electric shaver from the desk drawer.",
+      "Moves to check clothing items on the drying rack."
+    ],
+    [
+      "134-136",
+      "I check my hanging clothes to locate my wallet.",
+      "Transitions to searching the backpack for the wallet."
+    ],
+    [
+      "137-140",
+      "I search a floral backpack.",
+      "Finishes checking the backpack and moves around the bedroom."
+    ],
+    [
+      "141-144",
+      "I observe the bedroom near my companion browsing the wardrobe.",
+      "Moves to the dining table for a new search task."
+    ],
+    [
+      "145-151",
+      "I search the items on the dining table for glasses nose pads.",
+      "Moves to the desk to continue the search."
+    ],
+    [
+      "152-160",
+      "I retrieve the nose pads from the desk drawer.",
+      "Task concludes as the item is found."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

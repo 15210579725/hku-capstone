@@ -1,0 +1,114 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group action briefs into immediate tasks based on contiguous goals such as preparing the vehicle, troubleshooting controls, driving, walking, messaging, and collecting items.",
+  "events": [
+    [
+      "0-12",
+      "I prepare to drive the Mercedes.",
+      "Preparation to drive complete."
+    ],
+    [
+      "13-25",
+      "I search for the parking brake release.",
+      "Unable to find the release, focus shifts to troubleshooting."
+    ],
+    [
+      "26-40",
+      "I troubleshoot the vehicle's parking brake.",
+      "Troubleshooting complete, proceeds to drive."
+    ],
+    [
+      "41-49",
+      "I drive the vehicle out of the parking area onto the street.",
+      "Successfully merged onto the street."
+    ],
+    [
+      "50-67",
+      "I drive along the street to locate a legal parking spot.",
+      "Identified a suitable parking location."
+    ],
+    [
+      "68-90",
+      "I maneuver the vehicle into a parking lot.",
+      "Vehicle successfully parked."
+    ],
+    [
+      "91-107",
+      "I secure the parked vehicle.",
+      "Vehicle is locked and user walks away."
+    ],
+    [
+      "108-115",
+      "I walk along the tree-shaded sidewalk.",
+      "Attention shifts to smartphone messaging."
+    ],
+    [
+      "116-121",
+      "I message babe to confirm I am picking up the bag.",
+      "Messaging complete, resumes walking focus."
+    ],
+    [
+      "122-143",
+      "I walk along the street toward the hotel.",
+      "Reached the hotel entrance."
+    ],
+    [
+      "144-152",
+      "I collect a pink backpack and a bottle of mineral water at the hotel reception.",
+      "Items collected."
+    ],
+    [
+      "153-181",
+      "I walk along the sidewalk past various storefronts.",
+      "Attention shifts to smartphone messaging."
+    ],
+    [
+      "182-188",
+      "I message babe on WeChat regarding the vehicle's poor handling.",
+      "Messaging complete."
+    ],
+    [
+      "189-194",
+      "I walk through the parking lot to the blue Mercedes.",
+      "Reached the vehicle."
+    ],
+    [
+      "195-202",
+      "I enter the driver's seat of the vehicle.",
+      "Boarding complete."
+    ],
+    [
+      "203-212",
+      "I initiate smartphone navigation to the HOPPY ROOMY restaurant.",
+      "Navigation started."
+    ],
+    [
+      "213-221",
+      "I steer the vehicle through the parking lot.",
+      "Driving paused to manage devices."
+    ],
+    [
+      "222-227",
+      "I manage my smartphone and the vehicle's infotainment system.",
+      "Device interaction complete."
+    ],
+    [
+      "228-233",
+      "I drive the vehicle past the parking exit barrier onto the road.",
+      "Exited the parking lot."
+    ],
+    [
+      "234-249",
+      "I drive the vehicle along the road following navigation instructions.",
+      "End of input sequence."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

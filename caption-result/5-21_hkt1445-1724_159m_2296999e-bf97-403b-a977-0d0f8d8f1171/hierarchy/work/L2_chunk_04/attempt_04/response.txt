@@ -1,0 +1,76 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions serving a single immediate goal. Absorb incidental looks, minor fidgeting, and concurrent multi-device usage into the primary task. Preserve the pathway interruption as a standalone behavior-changing trigger.",
+  "events": [
+    [
+      "750-851",
+      "I study Flow Models lecture materials using Claude and Google Slides.",
+      "Closes laptop to pack up"
+    ],
+    [
+      "852-857",
+      "I pack my laptop into my backpack.",
+      "Begins walking to a new location"
+    ],
+    [
+      "858-888",
+      "I walk from the patio to the Main Library lobby.",
+      "Enters the library building"
+    ],
+    [
+      "889-896",
+      "I walk through the library commons to the Old Wing doors.",
+      "Encounters a blocked path"
+    ],
+    [
+      "897-900",
+      "I reroute through the exit door due to the cordoned-off Old Wing.",
+      "Blocked path forces rerouting to a different floor"
+    ],
+    [
+      "901-912",
+      "I walk down to the Special Collections study hall.",
+      "Arrives at an available study desk"
+    ],
+    [
+      "913-918",
+      "I unpack my MacBook and iPhone at the study desk.",
+      "Switches to checking phone messages"
+    ],
+    [
+      "919-944",
+      "I review WeChat group chats and relevant course files on my devices.",
+      "Swipes to phone home screen and switches to power bank setup"
+    ],
+    [
+      "945-948",
+      "I prepare my power bank for use.",
+      "Finishes power bank setup and turns to laptop"
+    ],
+    [
+      "949-952",
+      "I browse my course materials and flow notes on HKU Moodle.",
+      "Pauses course review to insert earplugs"
+    ],
+    [
+      "953-961",
+      "I insert foam earplugs to block out noise.",
+      "Finishes inserting earplugs and resumes studying"
+    ],
+    [
+      "962-999",
+      "I study Flow Models and normal distributions using Google Slides and Claude.",
+      "End of input batch"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "897-900"
+    ],
+    "boundary_cautions": []
+  }
+}
+```

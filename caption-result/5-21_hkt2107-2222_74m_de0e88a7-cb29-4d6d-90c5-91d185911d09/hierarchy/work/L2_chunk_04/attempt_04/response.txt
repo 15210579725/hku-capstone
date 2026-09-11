@@ -1,0 +1,131 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group atomic actions into immediate tasks, handling an initial transition from chores to work, followed by brief app checks (music, proxy, messaging). The bulk of the segment involves refining an architecture diagram with Claude, followed by a long sequence of discovering, installing, configuring, and using a WeChat Read MCP skill in Claude to summarize specific chapters of a biology book.",
+  "events": [
+    [
+      "750-753",
+      "I line a bucket with a new trash bag.",
+      "Task completion"
+    ],
+    [
+      "754-760",
+      "I place a freshly filled water bottle on the kitchen dispenser.",
+      "Task completion"
+    ],
+    [
+      "761-762",
+      "I abruptly relocate to the dining table to begin work upon remembering a task.",
+      "Major behavior shift to work"
+    ],
+    [
+      "763-780",
+      "I review my research architecture diagram across Claude, MDPI, and Figma.",
+      "Shift to music app"
+    ],
+    [
+      "781-782",
+      "I browse playlists in QQ Music.",
+      "Shift to proxy app"
+    ],
+    [
+      "783-785",
+      "I check my proxy latency in Clash Verge.",
+      "Shift to WeChat"
+    ],
+    [
+      "786-790",
+      "I message my partner on WeChat about getting food.",
+      "Shift back to Claude diagram work"
+    ],
+    [
+      "791-832",
+      "I instruct Claude to refine my research architecture diagram based on reviewer comments.",
+      "Shift to reading app"
+    ],
+    [
+      "833-837",
+      "I read a chapter about eukaryote evolution in WeChat Read.",
+      "Shift to Claude for summary"
+    ],
+    [
+      "838-851",
+      "I request a WeChat Read chapter summary and skill installation from Claude.",
+      "Shift to browsing skills menu"
+    ],
+    [
+      "852-859",
+      "I browse Claude's plugin and connector directory.",
+      "Shift to external website"
+    ],
+    [
+      "860-869",
+      "I read an article about cellular power density on Nick Lane's website.",
+      "Return to WeChat Read and Claude"
+    ],
+    [
+      "870-872",
+      "I review the WeChat Reading table of contents alongside Claude's previous summary.",
+      "Shift to dictating prompt"
+    ],
+    [
+      "873-878,984-986",
+      "I dictate a Claude prompt requesting WeChat Read skill installation and chapter summarization.",
+      "Shift to reading Claude's plan"
+    ],
+    [
+      "879-887",
+      "I review Claude's response and plan for using the mcp-server-weread tool.",
+      "Shift to web search for key"
+    ],
+    [
+      "888-899",
+      "I acquire the WeChat Read skill API key via a web search.",
+      "Shift to monitoring Claude installation"
+    ],
+    [
+      "900-911",
+      "I monitor Claude's downloading and configuration of the WeRead skill with my API key.",
+      "Shift to Cowork dashboard"
+    ],
+    [
+      "912-921",
+      "I verify my API key configuration on the Cowork dashboard.",
+      "Shift to prompt refinement"
+    ],
+    [
+      "922-929,987-991",
+      "I submit a refined prompt instructing Claude to summarize the chapter section.",
+      "Shift to monitoring API execution"
+    ],
+    [
+      "930-943",
+      "I monitor Claude executing API commands to fetch the chapter content from WeRead.",
+      "Shift to reading summary"
+    ],
+    [
+      "944-948",
+      "I read Claude's summary of the chapter concerning cellular morphology and archaea.",
+      "Shift to reading book text"
+    ],
+    [
+      "949-957",
+      "I cross-reference Claude's summary by reading the original book text in WeChat Read.",
+      "Shift to reading detailed notes"
+    ],
+    [
+      "958-983,992-995",
+      "I review Claude's detailed notes on endosymbiosis and gene origins.",
+      "End of batch"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      2
+    ],
+    "boundary_cautions": []
+  }
+}
+```

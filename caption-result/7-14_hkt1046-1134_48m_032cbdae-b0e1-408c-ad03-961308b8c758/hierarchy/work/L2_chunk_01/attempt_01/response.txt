@@ -1,0 +1,121 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks defined by the primary application, physical action, or specific operational goal being pursued. Boundaries occur when the user switches applications, shifts physical focus, or completely changes the current task topic.",
+  "events": [
+    [
+      "0",
+      "I check my seminar schedule in Calendar.",
+      "Switches application to Xianyu"
+    ],
+    [
+      "1-5",
+      "I check a shipment notification and order details in Xianyu before returning to the home screen.",
+      "Switches application to Claude Code terminal"
+    ],
+    [
+      "6-19",
+      "I query Claude Code regarding eye gaze data storage paths and review the VRS status summary.",
+      "Switches focus to Baidu account in browser"
+    ],
+    [
+      "20-24",
+      "I inspect my Baidu account security settings and the account appeal instructions.",
+      "Picks up iPhone to switch devices"
+    ],
+    [
+      "25-36",
+      "I check the ZTO Express tracking details for my CUID key fob order on Taobao using my iPhone.",
+      "Puts phone down and returns to laptop"
+    ],
+    [
+      "37-59",
+      "I execute a Claude Code plan to modify the VRS eye gaze data batch scripts while instructing it to use a code review sub-agent.",
+      "Switches application to Codex"
+    ],
+    [
+      "60-61",
+      "I review the Codex import summary.",
+      "Picks up smartphone to use Xianyu"
+    ],
+    [
+      "62-77",
+      "I browse Baidu Netdisk SVIP account listings on Xianyu using my smartphone.",
+      "Exits Xianyu and looks back at laptop"
+    ],
+    [
+      "78-80",
+      "I review the Claude summary validation report in Codex.",
+      "Switches focus to monitoring Claude Code terminal"
+    ],
+    [
+      "81-92",
+      "I monitor the Claude Code background agent reviewing the eye gaze batch script modifications.",
+      "Interrupted by a colleague speaking"
+    ],
+    [
+      "93-94",
+      "I observe a colleague speaking while checking the Codex summary results.",
+      "Switches focus back to browser tabs"
+    ],
+    [
+      "95-96",
+      "I examine my Baidu Account Settings.",
+      "Opens new Chrome window for Feishu"
+    ],
+    [
+      "97-116",
+      "I read and annotate a Feishu research document regarding research pipelines and memory evaluation biases.",
+      "Navigates to ChatGPT"
+    ],
+    [
+      "117-133",
+      "I evaluate Bradley-Terry preference ranking comparisons in ChatGPT.",
+      "Focus shifts to picking up an earplug"
+    ],
+    [
+      "134-138",
+      "I insert a yellow earplug into my ear while reading ChatGPT.",
+      "Returns to interacting with the ChatGPT ranking task"
+    ],
+    [
+      "139-145",
+      "I answer question 12 of the Bradley-Terry preference ranking task in ChatGPT.",
+      "Switches focus to Claude Code bash repair"
+    ],
+    [
+      "146-160",
+      "I review and execute the Claude Code bash repair script for the batch_eye_gaze_all script.",
+      "Starts a new prompt topic regarding API usage"
+    ],
+    [
+      "161-191",
+      "I configure Claude Code memory to dynamically use a code review sub-agent for major modifications.",
+      "Decides to delete the newly added rule"
+    ],
+    [
+      "192-208",
+      "I instruct Claude Code to delete the code review memory rule and clear the session.",
+      "Starts a completely new coding project"
+    ],
+    [
+      "209-230",
+      "I execute a Claude Code plan to create a 2048 game.",
+      "Switches application back to ChatGPT"
+    ],
+    [
+      "231-249",
+      "I complete the final Bradley-Terry preference ranking comparisons and review the hierarchical ranking results in ChatGPT.",
+      "End of sequence"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "93"
+    ],
+    "boundary_cautions": []
+  }
+}
+```

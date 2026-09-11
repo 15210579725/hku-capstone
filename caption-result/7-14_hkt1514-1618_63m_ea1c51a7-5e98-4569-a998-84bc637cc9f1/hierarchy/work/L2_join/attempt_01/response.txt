@@ -1,0 +1,18 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible pairs for continuity of the same immediate task. Pair [13, 14] continues watching the same robotics presentation and should be merged. Pair [26, 27] involves switching apps from WeChat to web browsing and should not be merged.",
+  "merges": [
+    [
+      13,
+      14,
+      "I watch Liu laoshi's presentation on robotics and embodied agents.",
+      "Same presentation continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

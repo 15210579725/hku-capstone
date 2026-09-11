@@ -1,0 +1,49 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks based on location and direct object of interaction, such as changing clothes, organizing items at the entryway, retrieving a wallet, reading notes on the laptop, fetching water, and plugging in a USB drive.",
+  "events": [
+    [
+      "2250-2261",
+      "I converse with my roommate about clothes and change into my knit shorts for the gym.",
+      "Task shifts from changing clothes to moving to the entryway."
+    ],
+    [
+      "2262-2266",
+      "I walk to the entryway, fold a garment, and interact with the entryway shelf.",
+      "Task shifts from organizing the entryway to retrieving an item in the bedroom."
+    ],
+    [
+      "2267-2271",
+      "I go to my bedroom desk, retrieve my wallet from my backpack, and adjust items on the chair.",
+      "Task shifts from handling the backpack to using the MacBook."
+    ],
+    [
+      "2272-2285",
+      "I discuss the Barton paper on reward functions while reviewing reminders, a video, and my paper notes in VS Code on my MacBook.",
+      "Task shifts from reading notes to typing and conversing about leaving."
+    ],
+    [
+      "2286-2288",
+      "I type on my keyboard and speak with my roommate about leaving.",
+      "Task shifts from typing and conversing to fetching water."
+    ],
+    [
+      "2289-2297",
+      "I carry the electric kettle to the bathroom, fill it with tap water, and return to my study desk.",
+      "Task shifts from fetching water to handling a USB drive."
+    ],
+    [
+      "2298-2300",
+      "I plug a USB drive into my laptop and converse.",
+      "End of provided data."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

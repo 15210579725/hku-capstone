@@ -1,0 +1,89 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks, defined by unified goals such as navigating between locations, making a purchase, observing food preparation, interacting with animals, or inspecting pricing.",
+  "events": [
+    [
+      "1000-1012",
+      "I ride the escalator down to the lower level.",
+      "Steps off the escalator"
+    ],
+    [
+      "1013-1021",
+      "I purchase a cheese rice ball at the kiosk for 17 yuan.",
+      "Completes transaction and leaves"
+    ],
+    [
+      "1022-1025",
+      "I walk down the hallway to a rice roll stall.",
+      "Stops at the stall counter"
+    ],
+    [
+      "1026-1034",
+      "I watch a staff member prepare a rice roll at the stall.",
+      "Finishes watching and walks away"
+    ],
+    [
+      "1035-1037",
+      "I walk toward a pet shop.",
+      "Arrives at the pet shop"
+    ],
+    [
+      "1038-1095",
+      "I observe and interact with various kittens in their enclosures at the pet shop.",
+      "Decides to leave the pet shop"
+    ],
+    [
+      "1096-1099",
+      "I walk along the concourse.",
+      "Stops at the HEY.YO counter"
+    ],
+    [
+      "1100-1102",
+      "I examine the topping display at the HEY.YO counter.",
+      "Walks away from the counter"
+    ],
+    [
+      "1103-1113",
+      "I view the pet playground exhibition from the upper level and discuss going down.",
+      "Boards the escalator"
+    ],
+    [
+      "1114-1117",
+      "I ride the escalator down to the lower level.",
+      "Steps off the escalator"
+    ],
+    [
+      "1118-1124",
+      "I observe a cat in the pet playground enclosure from the mall hallway.",
+      "Shifts focus to pricing signs"
+    ],
+    [
+      "1125-1148",
+      "I decide against purchasing a cat space entry ticket after inspecting the pricing and rules.",
+      "Concludes the ticket discussion"
+    ],
+    [
+      "1149-1160",
+      "I sit and observe the cats through the glass partition.",
+      "Stands up and resumes walking"
+    ],
+    [
+      "1161-1173",
+      "I take the elevator to another floor.",
+      "Arrives at the destination floor"
+    ],
+    [
+      "1174-1185",
+      "I register my phone number (XXX-XXXX-XXXX) and select a haircut price at the hair salon reception.",
+      "Enters the salon area"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

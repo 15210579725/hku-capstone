@@ -1,0 +1,36 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group L3 episodes into broader goal-oriented phases: dining at a restaurant, exploring the resort grounds, traveling to a new destination, and exploring the destination's amenities.",
+  "events": [
+    [
+      "0-1",
+      "I travel from the cabin to complete a dining experience at the Mingshi Shanye Restaurant with User X and my companion.",
+      "Conclusion of the restaurant visit"
+    ],
+    [
+      "2",
+      "I explore the resort grounds with User A and my companions for photography and mosquito repellent application.",
+      "Shift in objective to securing vehicle transport"
+    ],
+    [
+      "3-6",
+      "I secure a rental vehicle and a charger from Cabin 4 to travel to Yulin Dam.",
+      "Arrival at the destination area"
+    ],
+    [
+      "7-9",
+      "I explore the wooden bakery and market corridor at the destination to finalize vehicle parking and a green tea purchase.",
+      "End of recorded sequence"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": [
+      "Event 8 (guiding companion to park) is grouped with destination exploration (7-9) because it occurs after the wearer has already arrived and begun browsing the local amenities (7)."
+    ]
+  }
+}
+```

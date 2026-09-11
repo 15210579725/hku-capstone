@@ -1,0 +1,89 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions related to a single immediate task or localized interaction, such as inspecting a specific display, searching on a phone, renting a power bank, navigating the mall, or testing a specific vehicle model.",
+  "events": [
+    [
+      "0-16",
+      "I evaluate Vanward water heaters in the store by checking their physical components and discussing their high prices with my companion.",
+      "Switches focus from physical displays to searching on the phone."
+    ],
+    [
+      "17-28",
+      "I research gas water heater options and prices on the Taobao app.",
+      "Puts phone away to walk and observe the mall."
+    ],
+    [
+      "29-34",
+      "I observe the mall atrium architecture and advertisements while walking along the upper walkway.",
+      "Stops walking to interact with the companion."
+    ],
+    [
+      "35-41",
+      "I observe my companion posing by the glass railing and look at the nearby LED advertisements.",
+      "Resumes walking and changes conversation topic to phone batteries."
+    ],
+    [
+      "42-52",
+      "I discuss my phone battery level and hunger with my companion while walking through the mall.",
+      "Arrives at a charging station to rent a power bank."
+    ],
+    [
+      "53-78",
+      "I rent a shared power bank from a charging station after debating the rental cost with my companion.",
+      "Leaves the power bank station to navigate down the mall."
+    ],
+    [
+      "79-96",
+      "I navigate down the mall escalators and corridors while listening to my companion's comments.",
+      "Stops to adjust clothing."
+    ],
+    [
+      "97-101",
+      "I adjust my pants to accommodate the heavy weight of the rented power bank.",
+      "Resumes walking and changes conversation topic to celebrities."
+    ],
+    [
+      "102-112",
+      "I walk down the mall concourse while bantering with my companion about celebrities.",
+      "Shifts focus to approaching a specific store."
+    ],
+    [
+      "113-117",
+      "I walk through the mall hallway towards the Huawei store.",
+      "Arrives at the Huawei display table to inspect phones."
+    ],
+    [
+      "118-132",
+      "I examine the folding mechanism and interface of the Huawei Mate XT smartphone at the display table.",
+      "Moves from the phone display to the car showroom."
+    ],
+    [
+      "133-176",
+      "I test the rear seat comfort and interior features of the AITO M7.",
+      "Exits the M7 to view another vehicle."
+    ],
+    [
+      "177-202",
+      "I evaluate the rear cabin space and center console of a champagne-colored SUV.",
+      "Moves on to inspect the AITO M9."
+    ],
+    [
+      "203-244",
+      "I test the seating adjustments and electronic controls inside the AITO M9.",
+      "Leaves the vehicle to check phone displays."
+    ],
+    [
+      "245-249",
+      "I approach the Huawei display table to inspect a foldable smartphone.",
+      "End of input sequence."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

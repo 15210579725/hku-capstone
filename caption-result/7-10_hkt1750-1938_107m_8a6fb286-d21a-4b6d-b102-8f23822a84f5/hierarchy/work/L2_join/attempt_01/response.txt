@@ -1,0 +1,42 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Review the eligible transport-boundary pairs to determine if they interrupt a single immediate task. Pairs will be merged if they represent continuous phases of the exact same task (e.g., preparing to pay and paying, continuous reading of the same query response, or browsing and purchasing the same item).",
+  "merges": [
+    [
+      16,
+      17,
+      "I pay ¥8.30 for my second meal using Alipay at the checkout counter.",
+      "Same payment task continues across batch edge"
+    ],
+    [
+      59,
+      60,
+      "I discuss inverse reinforcement learning, reward functions, and imitation learning with my colleague.",
+      "Same continuous discussion topic spans across batch edge"
+    ],
+    [
+      68,
+      69,
+      "I discuss AI personalization constraints and behavioral guidance for different demographics with my colleague.",
+      "Same continuous discussion topic spans across batch edge"
+    ],
+    [
+      88,
+      89,
+      "I query Doubao about where to purchase CUID cards and read its recommendations.",
+      "Reading the same query response continues across batch edge"
+    ],
+    [
+      103,
+      104,
+      "I purchase ultra-thin CUID NFC stickers on Taobao.",
+      "Selecting and paying for the same item constitutes one immediate task across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

@@ -1,0 +1,96 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks based on the primary focus, such as interacting with desk items, working on the computer, writing notes, transitioning locations, conversing, interacting with cats, and messaging.",
+  "events": [
+    [
+      "500-512",
+      "I look around at the notebook and items on my desk.",
+      "Shift from looking at desk items to handling earplugs"
+    ],
+    [
+      "513-518",
+      "I prepare and handle foam earplugs.",
+      "Shift to reviewing computer screens"
+    ],
+    [
+      "519-532",
+      "I review Claude Code evaluation logs and chat messages on my computer.",
+      "Shift to writing in physical notebook"
+    ],
+    [
+      "533-550",
+      "I write handwritten notes about habit execution in my notebook.",
+      "Colleague prompts moving, initiating a new errand"
+    ],
+    [
+      "551-564",
+      "I gather my phone, wallet, and application form to leave the office.",
+      "Transition from gathering belongings to riding the elevator"
+    ],
+    [
+      "565-582",
+      "I ride the elevator and discuss a dataset with my companion.",
+      "Exits the turnstile and begins walking outside"
+    ],
+    [
+      "583-605",
+      "I walk across campus with my companion discussing project details.",
+      "Stops walking to interact with a stray cat"
+    ],
+    [
+      "606-617",
+      "I pet and interact with a stray cat on the campus pathway.",
+      "Resumes walking towards the destination building"
+    ],
+    [
+      "618-629",
+      "I walk to the destination building and enter the lobby.",
+      "Shifts to taking the elevator inside the building"
+    ],
+    [
+      "630-647",
+      "I take the elevator to the third floor.",
+      "Arrives at destination office A314"
+    ],
+    [
+      "648-671",
+      "I visit office A314 to leave my application form and write a note for Teacher Guo.",
+      "Finishes leaving the note and exits the office"
+    ],
+    [
+      "672-689",
+      "I leave office A314 and take the elevator down to the ground floor.",
+      "Shifts focus to sending a text message on phone"
+    ],
+    [
+      "690-708",
+      "I compose and send a text message to Teacher X with my registration details.",
+      "Encounters another cat while walking"
+    ],
+    [
+      "709-724",
+      "I observe and pet a calico cat while walking outdoors.",
+      "Enters another building and resumes drafting messages"
+    ],
+    [
+      "725-741",
+      "I walk through the building while drafting a text message to Teacher Guo.",
+      "Returns to walking on an outdoor path"
+    ],
+    [
+      "742-749",
+      "I walk along an outdoor path holding my application document.",
+      "End of input sequence"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      551
+    ],
+    "boundary_cautions": []
+  }
+}
+```

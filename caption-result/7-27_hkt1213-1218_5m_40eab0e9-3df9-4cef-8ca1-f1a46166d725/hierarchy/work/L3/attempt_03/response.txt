@@ -1,0 +1,29 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Abstract immediate transit and setup tasks into three coherent episodes: outdoor campus navigation, indoor building transit to the second floor, and settling into a privacy pod workspace.",
+  "events": [
+    [
+      "0-2",
+      "I navigate the outdoor campus to reach the roadway intersection.",
+      "Transitions from outdoor transit to entering a building."
+    ],
+    [
+      "3-6",
+      "I navigate through the building to the second-floor corridor.",
+      "Transitions from building transit to settling into a specific lounge area."
+    ],
+    [
+      "7-9",
+      "I settle into an acoustic privacy pod in the lounge area.",
+      "End of recorded activity."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

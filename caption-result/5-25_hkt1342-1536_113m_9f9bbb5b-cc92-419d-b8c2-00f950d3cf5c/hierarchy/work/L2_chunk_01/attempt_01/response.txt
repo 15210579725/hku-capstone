@@ -1,0 +1,104 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group action briefs into immediate tasks such as riding the elevator, distinct phases of walking based on environment (downhill, indoor corridors, uphill), engaging in focused WeChat conversations, retrieving a parcel, and unboxing/examining a craft kit.",
+  "events": [
+    [
+      "0-4",
+      "I board the elevator from my floor.",
+      "Enters elevator"
+    ],
+    [
+      "5-11",
+      "I converse with a cleaning staff member.",
+      "Converses with staff"
+    ],
+    [
+      "12-19",
+      "I ride the descending elevator.",
+      "Rides elevator down"
+    ],
+    [
+      "20-29",
+      "I exit the building to the street.",
+      "Leaves building"
+    ],
+    [
+      "30-60",
+      "I walk downhill through the neighborhood.",
+      "Continuous downhill walk"
+    ],
+    [
+      "61-65",
+      "I arrange Wednesday plans with babe on WeChat.",
+      "Switches focus to messaging"
+    ],
+    [
+      "66-88",
+      "I walk along the street toward my destination.",
+      "Resumes walking task"
+    ],
+    [
+      "89-100",
+      "I navigate the indoor corridors to the Cainiao Station.",
+      "Enters indoor area to reach destination"
+    ],
+    [
+      "101-108",
+      "I retrieve my parcel from the Cainiao Station.",
+      "Interacts with staff to get parcel"
+    ],
+    [
+      "109-123",
+      "I discuss skewers with babe on WeChat.",
+      "Messages on phone while walking"
+    ],
+    [
+      "124-140",
+      "I walk along the street to Hill Road.",
+      "Walks along street"
+    ],
+    [
+      "141-172",
+      "I walk uphill through the neighborhood toward my building.",
+      "Walks uphill toward building"
+    ],
+    [
+      "173-187",
+      "I navigate the courtyard to enter my residential building.",
+      "Arrives at and enters building"
+    ],
+    [
+      "188-199",
+      "I ride the elevator to my floor.",
+      "Rides elevator up"
+    ],
+    [
+      "200-206",
+      "I take my delivery parcel into the kitchen to unwrap it.",
+      "Enters home and opens package"
+    ],
+    [
+      "207-223",
+      "I examine the contents of the DIY scrapbook kit.",
+      "Looks through kit materials"
+    ],
+    [
+      "224-239",
+      "I message babe on WeChat to propose assembling the scrapbook kit.",
+      "Takes photo and messages babe"
+    ],
+    [
+      "240-249",
+      "I decorate the scrapbook with stickers and photos.",
+      "Begins actual assembly"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

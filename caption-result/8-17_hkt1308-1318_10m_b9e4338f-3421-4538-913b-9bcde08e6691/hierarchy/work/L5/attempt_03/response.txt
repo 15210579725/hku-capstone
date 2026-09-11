@@ -1,0 +1,26 @@
+```json
+{
+  "target_level": "L5",
+  "plan": "Group major activities. The session consists of a single primary document analysis activity, which is abruptly concluded by a major behavior-changing trigger that must remain standalone.",
+  "events": [
+    [
+      "0",
+      "I analyze an action prediction research document at my desk.",
+      "Primary major activity"
+    ],
+    [
+      "1",
+      "I stop my computer activity after a colleague tells me to stop.",
+      "Standalone major behavior-changing trigger"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "1"
+    ],
+    "boundary_cautions": []
+  }
+}
+```

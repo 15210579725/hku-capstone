@@ -1,0 +1,458 @@
+[
+  {
+    "id": 0,
+    "start": 59003,
+    "end": 59076,
+    "text": "I observe the outside view from the atrium lounge windows.",
+    "refs": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "boundary_reason": "Target shifts to indoor navigation",
+    "origin_chunk": 1
+  },
+  {
+    "id": 1,
+    "start": 59076,
+    "end": 59093,
+    "text": "I walk down the corridor to an open office.",
+    "refs": [
+      14,
+      15,
+      16,
+      17
+    ],
+    "boundary_reason": "Conversation begins",
+    "origin_chunk": 1
+  },
+  {
+    "id": 2,
+    "start": 59093,
+    "end": 59122,
+    "text": "I discuss the 650 cost laptop repair with a colleague.",
+    "refs": [
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "boundary_reason": "Conversation ends",
+    "origin_chunk": 1
+  },
+  {
+    "id": 3,
+    "start": 59123,
+    "end": 59133,
+    "text": "I announce my intention to get a drink to the colleagues.",
+    "refs": [
+      25,
+      26,
+      27
+    ],
+    "boundary_reason": "Departure to new location",
+    "origin_chunk": 1
+  },
+  {
+    "id": 4,
+    "start": 59134,
+    "end": 59159,
+    "text": "I walk to the pantry.",
+    "refs": [
+      28,
+      29,
+      30,
+      31,
+      32,
+      33
+    ],
+    "boundary_reason": "Arrival at target location",
+    "origin_chunk": 1
+  },
+  {
+    "id": 5,
+    "start": 59160,
+    "end": 59190,
+    "text": "I fill a glass bottle at the water dispenser.",
+    "refs": [
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41
+    ],
+    "boundary_reason": "Task shifts to inspection",
+    "origin_chunk": 1
+  },
+  {
+    "id": 6,
+    "start": 59190,
+    "end": 59206,
+    "text": "I inspect the pantry coffee machine and kitchen items.",
+    "refs": [
+      42,
+      43,
+      44,
+      45
+    ],
+    "boundary_reason": "Navigation begins",
+    "origin_chunk": 1
+  },
+  {
+    "id": 7,
+    "start": 59206,
+    "end": 59221,
+    "text": "I walk to the breakroom exit door.",
+    "refs": [
+      46,
+      47,
+      48,
+      49,
+      50
+    ],
+    "boundary_reason": "Location change to stairwell",
+    "origin_chunk": 1
+  },
+  {
+    "id": 8,
+    "start": 59221,
+    "end": 59253,
+    "text": "I inspect the stairwell fire safety features.",
+    "refs": [
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59
+    ],
+    "boundary_reason": "Navigation to desk begins",
+    "origin_chunk": 1
+  },
+  {
+    "id": 9,
+    "start": 59253,
+    "end": 59284,
+    "text": "I navigate to workstation 13 in room C909.",
+    "refs": [
+      60,
+      61,
+      62,
+      63,
+      64,
+      65
+    ],
+    "boundary_reason": "Computer work begins",
+    "origin_chunk": 1
+  },
+  {
+    "id": 10,
+    "start": 59284,
+    "end": 59310,
+    "text": "I review MiraclePlus compute quota guidelines on my computer.",
+    "refs": [
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72
+    ],
+    "boundary_reason": "Topic shifts to evaluations",
+    "origin_chunk": 1
+  },
+  {
+    "id": 11,
+    "start": 59311,
+    "end": 59371,
+    "text": "I review ChatGPT habit evaluation reports for the Qwen3.5-4B model.",
+    "refs": [
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81
+    ],
+    "boundary_reason": "Application shifts to terminal",
+    "origin_chunk": 1
+  },
+  {
+    "id": 12,
+    "start": 59372,
+    "end": 59402,
+    "text": "I monitor remote server GPU metrics using nvidia-smi in the Terminal.",
+    "refs": [
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88
+    ],
+    "boundary_reason": "Location change",
+    "origin_chunk": 1
+  },
+  {
+    "id": 13,
+    "start": 59403,
+    "end": 59438,
+    "text": "I execute a terminal job command on my way to the elevator.",
+    "refs": [
+      89,
+      90,
+      91,
+      92,
+      93,
+      94
+    ],
+    "boundary_reason": "Elevator ride begins",
+    "origin_chunk": 1
+  },
+  {
+    "id": 14,
+    "start": 59438,
+    "end": 59465,
+    "text": "I ride the elevator with colleagues.",
+    "refs": [
+      95,
+      96,
+      97,
+      98,
+      99
+    ],
+    "boundary_reason": "Navigation to conference room begins",
+    "origin_chunk": 1
+  },
+  {
+    "id": 15,
+    "start": 59466,
+    "end": 59490,
+    "text": "I navigate to conference room C514.",
+    "refs": [
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106
+    ],
+    "boundary_reason": "Arrival and setup begins",
+    "origin_chunk": 1
+  },
+  {
+    "id": 16,
+    "start": 59491,
+    "end": 59527,
+    "text": "I unpack my laptop equipment in the conference room.",
+    "refs": [
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113
+    ],
+    "boundary_reason": "Task shifts to connection setup",
+    "origin_chunk": 1
+  },
+  {
+    "id": 17,
+    "start": 59528,
+    "end": 59586,
+    "text": "I connect my MacBook to the network screencast dongle.",
+    "refs": [
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127
+    ],
+    "boundary_reason": "Document review begins",
+    "origin_chunk": 1
+  },
+  {
+    "id": 18,
+    "start": 59586,
+    "end": 59625,
+    "text": "I read Feishu research notes regarding LLM-judge reliability.",
+    "refs": [
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136
+    ],
+    "boundary_reason": "Verbal presentation starts",
+    "origin_chunk": 1
+  },
+  {
+    "id": 19,
+    "start": 59626,
+    "end": 59695,
+    "text": "I present July fine-tuning findings regarding multimodal damage.",
+    "refs": [
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147
+    ],
+    "boundary_reason": "Topic shifts to past image description examples",
+    "origin_chunk": 1
+  },
+  {
+    "id": 20,
+    "start": 59695,
+    "end": 59766,
+    "text": "I present examples of models describing past images instead of predicting actions.",
+    "refs": [
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162
+    ],
+    "boundary_reason": "Topic shifts to caption limits",
+    "origin_chunk": 1
+  },
+  {
+    "id": 21,
+    "start": 59767,
+    "end": 59820,
+    "text": "I explain text caption limitations using the Lucia cardboard dog example.",
+    "refs": [
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170,
+      171,
+      172
+    ],
+    "boundary_reason": "Topic shifts to visual failure",
+    "origin_chunk": 1
+  },
+  {
+    "id": 22,
+    "start": 59821,
+    "end": 59890,
+    "text": "I discuss the failure of models to utilize visual modality for action prediction.",
+    "refs": [
+      173,
+      174,
+      175,
+      176,
+      177,
+      178,
+      179,
+      180,
+      181,
+      182,
+      183,
+      184,
+      185,
+      186
+    ],
+    "boundary_reason": "Topic shifts to attention analysis",
+    "origin_chunk": 1
+  },
+  {
+    "id": 23,
+    "start": 59890,
+    "end": 59960,
+    "text": "I discuss visual token analysis using attention weights and gradient saliency maps.",
+    "refs": [
+      187,
+      188,
+      189,
+      190,
+      191,
+      192,
+      193,
+      194,
+      195,
+      196,
+      197,
+      198,
+      199
+    ],
+    "boundary_reason": "Topic shifts to metrics review",
+    "origin_chunk": 1
+  },
+  {
+    "id": 24,
+    "start": 59960,
+    "end": 59983,
+    "text": "I review fine-tuning checkpoint metrics for data scaling.",
+    "refs": [
+      200,
+      201,
+      202,
+      203,
+      204,
+      205
+    ],
+    "boundary_reason": "End of sequence",
+    "origin_chunk": 1
+  }
+]

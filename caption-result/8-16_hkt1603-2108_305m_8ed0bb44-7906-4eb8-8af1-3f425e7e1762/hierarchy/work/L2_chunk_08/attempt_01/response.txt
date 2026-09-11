@@ -1,0 +1,166 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group action briefs into immediate tasks based on the specific goal and target. Abstract incidental looks, device switches, and wait times into the primary task. Delineate between distinct research tasks (e.g., prompting Claude vs. checking logs), investigating different professors, interacting with colleagues, and phone usage.",
+  "events": [
+    [
+      "1750-1752",
+      "I review Zhang Wenqiang's faculty profile.",
+      "Task shifts to reviewing the ChatGPT advisor table"
+    ],
+    [
+      "1753-1756",
+      "I review the ChatGPT advisor comparison table.",
+      "Task shifts to querying Claude"
+    ],
+    [
+      "1757-1777",
+      "I query Claude with PhD advisor research criteria and read the responses.",
+      "Task shifts to reviewing server logs"
+    ],
+    [
+      "1778-1789",
+      "I review a ChatGPT report on westc server metrics and storage status.",
+      "Task shifts back to reading advisor analysis"
+    ],
+    [
+      "1790-1794",
+      "I read Claude's advisor matching analysis.",
+      "Interrupted by a coworker interaction"
+    ],
+    [
+      "1795-1800",
+      "I converse with a coworker.",
+      "Coworker interaction concludes"
+    ],
+    [
+      "1801-1805",
+      "I read Claude's evaluations of professors Qiang Luo and Zhongyu Wei.",
+      "Task shifts to modifying the Claude prompt"
+    ],
+    [
+      "1806-1819",
+      "I prompt Claude to exclude medical and neuroscience advisors and read the updated evaluations.",
+      "Task shifts to checking terminal logs"
+    ],
+    [
+      "1820-1822",
+      "I check batch processing logs in the terminal.",
+      "Task shifts to reviewing recommendations"
+    ],
+    [
+      "1823-1832",
+      "I review faculty recommendations and publication analyses on Claude and ChatGPT.",
+      "Task shifts to reviewing a prompt draft"
+    ],
+    [
+      "1833-1840",
+      "I review a PhD advisor prompt draft on ChatGPT.",
+      "Task shifts to adding specific requirements to the prompt"
+    ],
+    [
+      "1841-1851",
+      "I add inverse reinforcement learning and citation requirements to my ChatGPT prompt and read the advisor recommendations.",
+      "Task shifts to reviewing specific evaluation profiles"
+    ],
+    [
+      "1852-1863",
+      "I review faculty evaluation profiles on Claude, focusing on Wei Zhongyu.",
+      "Task shifts to investigating a specific professor"
+    ],
+    [
+      "1864-1878",
+      "I investigate Wei Zhongyu's profile and the 'LifeSim' paper on Google Scholar.",
+      "Task shifts to reading notes"
+    ],
+    [
+      "1879-1880",
+      "I read Feishu advisor notes.",
+      "Task shifts to checking agent logs"
+    ],
+    [
+      "1881-1883",
+      "I check terminal data masking and Claude Code agent logs in VS Code.",
+      "Task shifts back to reviewing evaluations"
+    ],
+    [
+      "1884-1889",
+      "I review candidate evaluations for Wei Zhongyu and Li Shang in Feishu and Claude.",
+      "Task shifts to investigating a specific professor"
+    ],
+    [
+      "1890-1897",
+      "I read Li Shang's faculty page and publications.",
+      "Task shifts to reviewing notes and evaluations"
+    ],
+    [
+      "1898-1900",
+      "I review Feishu advisor notes and Claude candidate evaluations.",
+      "Task shifts to investigating a specific professor"
+    ],
+    [
+      "1901-1912",
+      "I investigate Luo Qiang's faculty profile and education history.",
+      "Task shifts to reviewing biographies"
+    ],
+    [
+      "1913-1919",
+      "I review academic biographies and advisor evaluations on Claude and Feishu.",
+      "Task shifts to investigating a specific professor"
+    ],
+    [
+      "1920-1930",
+      "I browse Wang Jianqin's profiles and publications on ResearchGate and AiScholar.",
+      "Task shifts to reading evaluations"
+    ],
+    [
+      "1931-1932",
+      "I read PhD advisor evaluations on Claude.",
+      "Task shifts to investigating a specific professor"
+    ],
+    [
+      "1933-1950",
+      "I investigate Tun Lu's Google Scholar profile, publications, and academic CV.",
+      "Task shifts to checking wiki document"
+    ],
+    [
+      "1951-1951",
+      "I check the Feishu wiki document.",
+      "Task shifts to typing research requirements"
+    ],
+    [
+      "1952-1968",
+      "I type research requirements into ChatGPT and review the advisor recommendations.",
+      "Task shifts to editing the prompt"
+    ],
+    [
+      "1969-1975",
+      "I edit my research mentor prompt in ChatGPT and review candidate summaries.",
+      "Task shifts to checking phone"
+    ],
+    [
+      "1976-1978",
+      "I check WeChat on my phone.",
+      "Task shifts to talking with a colleague"
+    ],
+    [
+      "1979-1994",
+      "I discuss the Cramer-Wold theorem and travel plans with a colleague at their desk.",
+      "Conversation concludes"
+    ],
+    [
+      "1995-1999",
+      "I watch a comedy video on my iPhone.",
+      "End of batch"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "Watching a comedy video on the iPhone marks the beginning of a break from work."
+    ],
+    "boundary_cautions": []
+  }
+}
+```

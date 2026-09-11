@@ -1,0 +1,34 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group L3 episodes into broader phases: an initial office research session, a lunch excursion to the cafeteria including transit, a subsequent reading session upon returning, and office departure.",
+  "events": [
+    [
+      "0-2",
+      "I research scaling laws and the ACL dataset using Claude Code.",
+      "Combines AI literature analysis and an incidental message check into one unified office work phase"
+    ],
+    [
+      "3-7",
+      "I take a lunch break at the main cafeteria.",
+      "Groups transit, purchasing, eating, and incidental photography into a single lunch excursion phase"
+    ],
+    [
+      "8",
+      "I read articles about Claude and mathematics.",
+      "Distinct reading phase following the return to the office"
+    ],
+    [
+      "9",
+      "I leave my office.",
+      "Departure marks a clear phase change and the end of the office session"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,69 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group immediate L2 tasks into coherent episodes based on primary activity transitions, such as completing coding work, transiting between locations, purchasing food, eating and conversing, and distinct phases of a gym workout (initial setup, discussion breaks, specific exercise sets, and departure).",
+  "events": [
+    [
+      "0-7",
+      "I develop prediction prompt guidelines using Visual Studio Code and ChatGPT.",
+      "Completes prompt coding and leaves the office for dinner."
+    ],
+    [
+      "8-11",
+      "I travel from the office to the cafeteria with my companion.",
+      "Arrives at the cafeteria to begin purchasing food."
+    ],
+    [
+      "12-16",
+      "I purchase a steamed bun for my meal in the cafeteria.",
+      "Completes food purchase and sits down to eat."
+    ],
+    [
+      "17-24",
+      "I discuss technology and research with my companions over my steamed bun meal.",
+      "Finishes the meal and academic discussion to leave the cafeteria."
+    ],
+    [
+      "25-27",
+      "I relocate from the cafeteria to the gym with my companions.",
+      "Arrives at the gym to start the workout session."
+    ],
+    [
+      "28-32",
+      "I commence my gym workout with pull-ups and a smartphone review.",
+      "Shifts from initial pull-ups to an extended rest and discussion period."
+    ],
+    [
+      "33-41",
+      "I engage in a machine learning discussion and WeChat conversation near the cable machine.",
+      "Concludes phone use to focus on dumbbell exercises and academic discussion."
+    ],
+    [
+      "42-52",
+      "I perform a set of 15kg dumbbell shoulder presses during an academic discussion.",
+      "Completes the exercise set to take a break and adjust the room temperature."
+    ],
+    [
+      "53-63",
+      "I perform my second set of 15kg dumbbell shoulder presses during a dinner discussion and air conditioning adjustment.",
+      "Completes the set to begin the final sequence of gym exercises."
+    ],
+    [
+      "64-69",
+      "I complete my final machine and 15kg dumbbell exercises.",
+      "Completes all workout exercises to begin packing up."
+    ],
+    [
+      "70-73",
+      "I collect my personal belongings for my departure from the gym.",
+      "Leaves the gym, concluding the workout session."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

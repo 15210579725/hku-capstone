@@ -1,0 +1,42 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Merge eligible pairs where the same immediate task (e.g., watching a specific type of video, reading, observing) clearly continues across the batch boundary. Do not merge distinct navigational steps, distinct app activities, or interactions with different subjects.",
+  "merges": [
+    [
+      86,
+      87,
+      "I watch a delivery vlog on my phone.",
+      "Same delivery vlog viewing continues across batch edge"
+    ],
+    [
+      115,
+      116,
+      "I watch a variety show on the tablet with my companion.",
+      "Same video viewing on the tablet continues across batch edge"
+    ],
+    [
+      211,
+      212,
+      "I watch short videos on my phone.",
+      "Same short video viewing session continues across batch edge"
+    ],
+    [
+      225,
+      226,
+      "I read a book.",
+      "Same reading activity continues across batch edge"
+    ],
+    [
+      245,
+      246,
+      "I observe the train cabin from my seat.",
+      "Same observing and resting behavior continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

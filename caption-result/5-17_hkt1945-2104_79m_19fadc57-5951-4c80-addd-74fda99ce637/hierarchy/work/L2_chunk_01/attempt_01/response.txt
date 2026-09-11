@@ -1,0 +1,95 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group immediate tasks by continuous navigation segments, conversational topics, phone usage sessions, and train boarding phases.",
+  "events": [
+    [
+      "0-9",
+      "I navigate the building corridors and fire doors to access the concourse.",
+      "Reached concourse"
+    ],
+    [
+      "10-30",
+      "I discuss the restroom layout and automatic doors with my companion navigating to the building exit.",
+      "Reached outdoor plaza"
+    ],
+    [
+      "31-50",
+      "I traverse the outdoor plaza and pedestrian tunnel discussing bistro food with my companion.",
+      "Reached mall entrance"
+    ],
+    [
+      "51-84",
+      "I evaluate mall dining options with my companion until deciding to abandon our meal plans and exit.",
+      "Exited mall"
+    ],
+    [
+      "85-123",
+      "I bid farewell to my companion at the MTR station following our decision to return for homework.",
+      "Companion departed"
+    ],
+    [
+      "124-132",
+      "I navigate the stairs to enter the MTR station through the fare gate.",
+      "Passed fare gate"
+    ],
+    [
+      "133-141",
+      "I inspect the pastry selection at the A-1 Bakery display.",
+      "Finished browsing bakery"
+    ],
+    [
+      "142-154",
+      "I ride the escalator to the platform concourse checking WeChat messages from babe.",
+      "Reached train platform"
+    ],
+    [
+      "155-168",
+      "I wait on the platform for the train arrival.",
+      "Train arrived"
+    ],
+    [
+      "169-170",
+      "I take a seat upon boarding the train.",
+      "Seated on train"
+    ],
+    [
+      "171-177",
+      "I exchange WeChat messages with babe on my phone.",
+      "Switched to reading articles"
+    ],
+    [
+      "178-209",
+      "I read WeChat articles about OpenHuman and humanoid robotics.",
+      "Finished reading articles"
+    ],
+    [
+      "210-228",
+      "I browse WeChat articles and chat messages.",
+      "Exited app"
+    ],
+    [
+      "229-249",
+      "I observe the train passengers including a toddler walking down the aisle.",
+      "End of sequence"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      [
+        51,
+        84,
+        "Abandoning meal plans inside the mall redirects the goal toward going home."
+      ],
+      [
+        85,
+        123,
+        "Decision to return home for homework formally redirects the evening plan."
+      ]
+    ],
+    "boundary_cautions": []
+  }
+}
+```

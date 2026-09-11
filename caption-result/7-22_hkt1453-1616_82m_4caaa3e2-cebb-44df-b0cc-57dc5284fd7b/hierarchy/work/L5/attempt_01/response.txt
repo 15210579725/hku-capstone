@@ -1,0 +1,29 @@
+```json
+{
+  "target_level": "L5",
+  "plan": "Group continuous diffusion model development and training tasks into a single major activity. Maintain the API integration test and document review as distinct major activities due to their separate goals and targets.",
+  "events": [
+    [
+      "0-1",
+      "I develop and train diffusion models.",
+      "Activity shifts from diffusion model training to API token routing testing."
+    ],
+    [
+      "2",
+      "I test model token routing using a Claude Code API key.",
+      "Activity shifts from software testing to document review."
+    ],
+    [
+      "3",
+      "I review a behavior prediction document.",
+      "End of recording."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

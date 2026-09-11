@@ -1,0 +1,139 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group consecutive action briefs into immediate tasks based on shared locations, objects of focus, and unified goals such as navigating specific mall areas, searching for shops, making a complete purchase, and browsing distinct supermarket aisles.",
+  "events": [
+    [
+      "0-3",
+      "I walk past stores and displays in the mall.",
+      "Reaches the downward escalator"
+    ],
+    [
+      "4-16",
+      "I ride the downward escalator to the lower level.",
+      "Steps off the escalator"
+    ],
+    [
+      "17-27",
+      "I walk past various stores in the mall corridor.",
+      "Begins actively searching for a dessert shop"
+    ],
+    [
+      "28-50",
+      "I search the mall storefronts for a dessert shop with my companion.",
+      "Stops searching visually to use a map app"
+    ],
+    [
+      "51-68",
+      "I use the Amap app on my phone to search for nearby bakery and dessert shops.",
+      "Finishes searching the app and resumes walking"
+    ],
+    [
+      "69-77",
+      "I navigate the mall corridor using the indoor map on my phone.",
+      "Puts the map away and walks freely"
+    ],
+    [
+      "78-83",
+      "I walk past advertising lightboxes and the LeFit gym.",
+      "Enters the mall atrium"
+    ],
+    [
+      "84-88",
+      "I browse a secondhand book fair in the mall atrium.",
+      "Leaves the book fair area"
+    ],
+    [
+      "89-105",
+      "I walk through the mall concourse and food court areas.",
+      "Approaches a specific bakery to buy food"
+    ],
+    [
+      "106-137",
+      "I purchase pastries and a cream puff at DUSU Bakery.",
+      "Completes the transaction and leaves the bakery counter"
+    ],
+    [
+      "138-142",
+      "I inspect snacks at the Qiwang Peanuts kiosk.",
+      "Moves on from the snack kiosk"
+    ],
+    [
+      "143-171",
+      "I traverse the mall corridor eating my cream puff.",
+      "Shifts focus to reading restaurant menus"
+    ],
+    [
+      "172-184",
+      "I observe various restaurant menus along the mall corridor.",
+      "Reaches the supermarket entrance"
+    ],
+    [
+      "185-187",
+      "I enter Yonghui Supermarket.",
+      "Enters the main supermarket aisles"
+    ],
+    [
+      "188-194",
+      "I browse the household goods and toy aisles in the supermarket.",
+      "Stops to take out food"
+    ],
+    [
+      "195-197",
+      "I take a pastry out of my shopping bag.",
+      "Resumes looking at shelves"
+    ],
+    [
+      "198-200",
+      "I browse the pet food shelves.",
+      "Moves to a different product display"
+    ],
+    [
+      "201-204",
+      "I examine a hanging tissue paper promotion.",
+      "Moves to the laundry aisle"
+    ],
+    [
+      "205-209",
+      "I browse the laundry detergent and dish soap aisle.",
+      "Focuses specifically on washing machine cleaners"
+    ],
+    [
+      "210-219",
+      "I inspect various washing machine cleaners and their instructions.",
+      "Moves to other specialty cleaning supplies"
+    ],
+    [
+      "220-228",
+      "I browse specialty surface cleaners and mosquito repellents.",
+      "Moves to the tissue products aisle"
+    ],
+    [
+      "229-232",
+      "I browse the tissue paper aisle.",
+      "Pauses to access food"
+    ],
+    [
+      "233",
+      "I take a pastry out of its packaging.",
+      "Resumes browsing the shelves"
+    ],
+    [
+      "234-236",
+      "I browse men's hair styling products and shampoos.",
+      "Moves to the oral care section"
+    ],
+    [
+      "237-249",
+      "I browse oral care products including toothbrushes and toothpastes.",
+      "End of sequence"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

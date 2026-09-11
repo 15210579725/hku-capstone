@@ -1,0 +1,79 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks, abstracting short interactions and movements into their unified objectives without using forbidden conjunctions.",
+  "events": [
+    [
+      "0-1",
+      "I watch a Bilibili video about a concept car.",
+      "Completes watching the video before getting food"
+    ],
+    [
+      "2-6",
+      "I settle at a table with my food tray.",
+      "Sits down at the table to prepare for eating"
+    ],
+    [
+      "7-26",
+      "I eat an egg tart from my food tray.",
+      "Finishes eating the egg tart and folds a napkin"
+    ],
+    [
+      "27-54",
+      "I watch car design videos on Bilibili using my smartphone.",
+      "Companion interrupts video watching to go to the restroom"
+    ],
+    [
+      "55-61",
+      "I wait at the table for my companion to return from the restroom.",
+      "Companion returns and indicates it is time to leave"
+    ],
+    [
+      "62-68",
+      "I exit the building with my companion.",
+      "Exits the glass doors to the outside walkway"
+    ],
+    [
+      "69-79",
+      "I cross the street to the commercial buildings.",
+      "Crosses the street and starts a new conversation"
+    ],
+    [
+      "80-99",
+      "I discuss cloud billing and flights with my companion in the arcade corridor.",
+      "Companion asks for home directions, triggering navigation uncertainty"
+    ],
+    [
+      "100-118",
+      "I navigate the arcade walkways with my companion to find our way.",
+      "Approaches the hotel lobby area"
+    ],
+    [
+      "119-128",
+      "I discuss a VPN setup with my companion near the hotel lobby.",
+      "Reaches the elevator"
+    ],
+    [
+      "129-134",
+      "I take the hotel elevator with my companion.",
+      "Elevator ride completes"
+    ],
+    [
+      "135-141",
+      "I enter room 8207 from the hallway.",
+      "Successfully unlocks and enters the hotel room"
+    ],
+    [
+      "142-146",
+      "I observe storefronts along a pedestrian street.",
+      "End of input sequence"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

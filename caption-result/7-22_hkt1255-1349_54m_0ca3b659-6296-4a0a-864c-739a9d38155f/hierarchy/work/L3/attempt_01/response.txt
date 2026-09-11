@@ -1,0 +1,64 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group sequential L2 actions into coherent L3 episodes: editing work documents, troubleshooting Baidu Netdisk, initiating uploads, monitoring the network speed, transiting to the cafeteria, purchasing food, eating the meal, returning the tray, navigating the parking garage, and returning to the office.",
+  "events": [
+    [
+      "0-5",
+      "I edit my work documents regarding behavior style and data prediction.",
+      "Completed document editing to switch to troubleshooting."
+    ],
+    [
+      "6-12",
+      "I troubleshoot a Baidu Netdisk upload throttling issue using ChatGPT and Claude Code.",
+      "Shifted from issue diagnosis to account login."
+    ],
+    [
+      "13-17",
+      "I log into Baidu Netdisk to initiate my folder uploads.",
+      "Uploads initiated, shifting to monitoring and speed configuration."
+    ],
+    [
+      "18-28",
+      "I manage the Baidu Netdisk upload speed limits and network progress.",
+      "Computer tasks concluded to leave for lunch."
+    ],
+    [
+      "29-32",
+      "I travel from the office to the cafeteria hall.",
+      "Arrived at the cafeteria food stalls."
+    ],
+    [
+      "33-39",
+      "I purchase a meal from the cafeteria staff.",
+      "Payment completed, transitioning to eating."
+    ],
+    [
+      "40-47",
+      "I consume my cafeteria meal at a dining table.",
+      "Finished eating and prepared to leave."
+    ],
+    [
+      "48-49",
+      "I deposit my meal tray at the return conveyor belt to exit the cafeteria.",
+      "Left the cafeteria to enter the parking garage."
+    ],
+    [
+      "50-61",
+      "I navigate the underground parking garage to locate the outdoor exit.",
+      "Exited the garage to walk outdoors."
+    ],
+    [
+      "62-68",
+      "I travel from the parking garage foyer to the 11th floor of the office building.",
+      "End of recording."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

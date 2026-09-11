@@ -1,0 +1,64 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group sequential actions into immediate tasks centered on single concrete objectives, such as walking to the library, setting up the study space, and using specific applications. Incidental eating, screen glances, and peripheral setup (like connecting a monitor) are abstracted into the primary task they accompany.",
+  "events": [
+    [
+      "500-508",
+      "I walk along the covered walkway.",
+      "Arrives at the library entrance"
+    ],
+    [
+      "509-523",
+      "I navigate through the library to the study hall.",
+      "Arrives at an empty study carrel"
+    ],
+    [
+      "524-529",
+      "I set up my workspace at an empty study carrel.",
+      "Workspace is set up, shifts to retrieving the laptop"
+    ],
+    [
+      "530-536",
+      "I log into my MacBook.",
+      "MacBook is unlocked, shifts to reviewing work"
+    ],
+    [
+      "537-542",
+      "I review code logs and habit theory notes.",
+      "Switches from notes to checking emails"
+    ],
+    [
+      "543-560",
+      "I read my emails in Outlook.",
+      "Switches from Outlook to WeChat"
+    ],
+    [
+      "561-572",
+      "I manage my WeChat messages and contacts.",
+      "Shifts from general WeChat usage to reading specific HPC instructions"
+    ],
+    [
+      "573-585",
+      "I read the HPC account application guidelines on the Research Computing webpage.",
+      "Finishes reading guidelines, clicks the form link to log in"
+    ],
+    [
+      "586-590",
+      "I log into the HKU Portal to access the CF162b application form.",
+      "Logs in and reaches the form, shifts to reviewing system specs"
+    ],
+    [
+      "591-599",
+      "I review the HPC2021 system specifications.",
+      "Batch ends"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,31 @@
+```json
+{
+  "target_level": "L5",
+  "plan": "Abstract into major activities. The prolonged research phase is separated from the subsequent meal phase by a major behavior-changing trigger (a phone call invitation), which remains standalone as it dictates a complete shift in location and overarching goal. Transit is abstracted into the primary meal objective.",
+  "events": [
+    [
+      "0",
+      "I work on human behavior prediction model fine-tuning and research documentation.",
+      "Activity concludes due to an interruption"
+    ],
+    [
+      "1",
+      "I accept an invitation to leave during a phone call.",
+      "Major behavior-changing trigger redirecting the daily plan"
+    ],
+    [
+      "2",
+      "I have a meal at the dining hall.",
+      "New major location and activity"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      1
+    ],
+    "boundary_cautions": []
+  }
+}
+```

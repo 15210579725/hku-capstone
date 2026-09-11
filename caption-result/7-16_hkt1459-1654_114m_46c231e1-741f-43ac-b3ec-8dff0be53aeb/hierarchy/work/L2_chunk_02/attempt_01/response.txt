@@ -1,0 +1,134 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group sequential actions into immediate L2 tasks based on shared applications, interface contexts, and short-term objectives, establishing boundaries when the primary focus or tool changes significantly.",
+  "events": [
+    [
+      "250-265",
+      "I review my workspace and application settings.",
+      "Task changes from settings review to editing a document"
+    ],
+    [
+      "266-278",
+      "I write research notes on next-action prediction in a Feishu document.",
+      "Task changes from document editing to reviewing dashboard limits"
+    ],
+    [
+      "279-284",
+      "I review agent evaluation logs and system usage limits.",
+      "Task changes to reading a research document"
+    ],
+    [
+      "285-286",
+      "I read the '7-16' research notes document.",
+      "Task changes to checking a messaging application"
+    ],
+    [
+      "287-294",
+      "I read messages in WeChat group chats.",
+      "Task changes from messaging to retrieving server credentials"
+    ],
+    [
+      "295-297",
+      "I retrieve server credentials from my Notes.",
+      "Task changes from local notes to logging into a web terminal"
+    ],
+    [
+      "298-303",
+      "I log into the E-Shell web terminal to monitor cluster resources.",
+      "Task changes from terminal login to executing SSH commands for GPU checks"
+    ],
+    [
+      "304-320",
+      "I check GPU resource status on cluster nodes via SSH.",
+      "Task changes from checking GPU status to reading plans and guidelines"
+    ],
+    [
+      "321-326",
+      "I review embedding benchmark plans and model audit guidelines.",
+      "Task changes to connecting the AI coding assistant"
+    ],
+    [
+      "327-333",
+      "I connect Claude Code to the cluster terminal.",
+      "Task changes to manually inspecting terminal processes"
+    ],
+    [
+      "334-342",
+      "I inspect GPU metrics and processes on a cluster node terminal.",
+      "Task changes to monitoring automated terminal navigation"
+    ],
+    [
+      "343-368",
+      "I monitor Claude Code navigating the cluster dashboard and E-Shell terminal.",
+      "Task changes from dashboard monitoring to troubleshooting connection errors"
+    ],
+    [
+      "369-376",
+      "I troubleshoot a Claude Code connection issue.",
+      "Task changes to monitoring agent file inspection"
+    ],
+    [
+      "377-386",
+      "I monitor Claude Code inspecting the authorized_keys file.",
+      "Task changes to manual terminal interaction"
+    ],
+    [
+      "387-396",
+      "I list files in the SSH directory using the E-Shell terminal.",
+      "Task changes to testing agent output reading capabilities"
+    ],
+    [
+      "397-409",
+      "I test Claude Code's ability to read the E-Shell terminal output.",
+      "Task changes to verifying SSH keys"
+    ],
+    [
+      "410-422",
+      "I verify SSH keys with Claude Code.",
+      "Task changes to reviewing GPU statistics"
+    ],
+    [
+      "423-428",
+      "I review GPU statistics and connection routes in Claude Code.",
+      "Task changes to reading document notes"
+    ],
+    [
+      "429-434",
+      "I read experiment evaluation metrics and data strategies.",
+      "Task changes to querying agent about node processes"
+    ],
+    [
+      "435-444",
+      "I query Claude Code about process status on a specific GPU node.",
+      "Task changes to monitoring connection attempts"
+    ],
+    [
+      "445-454",
+      "I monitor Claude Code attempting to connect to a GPU node.",
+      "Task changes to reviewing GPU process tables"
+    ],
+    [
+      "455-465",
+      "I review GPU process tables and resource release strategies.",
+      "Task changes to instructing the agent to create a script"
+    ],
+    [
+      "466-486",
+      "I instruct Claude Code to create an automated script to persist SSH key access.",
+      "Task changes to refining the script for stealth"
+    ],
+    [
+      "487-499",
+      "I instruct Claude Code to conceal the SSH persistence script from administrators.",
+      "End of supplied events"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

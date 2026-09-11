@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group L2 tasks into coherent L3 episodes such as meal preparation, eating, cleaning, garbage disposal, shopping, and transit.",
+  "events": [
+    ["0-22", "I prepare a meal of chicken stir-fry.", "Meal preparation complete"],
+    ["23-36", "I eat my meal at the dining table.", "Meal finished"],
+    ["37-47", "I clean the kitchen and cooking utensils.", "Kitchen cleaning complete"],
+    ["48-49", "I dispose of a garbage bag in the stairwell bin.", "Garbage disposed"],
+    ["50-53", "I line a garbage bucket in the kitchen.", "Bucket lined"],
+    ["54", "I eat a cucumber half.", "Snack finished"],
+    ["55-64", "I travel to the supermarket.", "Arrival at supermarket"],
+    ["65-76", "I purchase groceries at the supermarket.", "Grocery shopping complete"],
+    ["77-82", "I purchase a pack of tissue at a Wellcome supermarket.", "Tissue purchase complete"],
+    ["83-90", "I travel to the waterfront promenade to eat my toast.", "End of evidence"]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

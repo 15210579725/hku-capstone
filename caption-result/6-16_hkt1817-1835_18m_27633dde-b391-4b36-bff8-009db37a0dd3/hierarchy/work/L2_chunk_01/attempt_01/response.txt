@@ -1,0 +1,89 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks, absorbing incidental waiting, UI navigation, and posture changes. Boundaries are formed when the user shifts between searching, drafting prompts, reading results, adjusting tool settings, managing accounts/network, and physically leaving the workspace.",
+  "events": [
+    [
+      "0-5",
+      "I browse the Connected Papers citation graph for my emotion probe research.",
+      "Switches to Claude AI to ask for tool recommendations."
+    ],
+    [
+      "6-25",
+      "I draft and send a prompt to Claude AI requesting literature mapping tools for a new field.",
+      "Submits the prompt and waits for the response."
+    ],
+    [
+      "26-38",
+      "I read Claude AI's recommendations for literature mapping tools.",
+      "Moves to try Litmaps based on the recommendations."
+    ],
+    [
+      "39-49",
+      "I search for a seed paper on emotion concepts in Litmaps.",
+      "Seed map loads, shifting focus to exploring individual nodes."
+    ],
+    [
+      "50-69",
+      "I examine paper abstracts and citation nodes on the Litmaps graph.",
+      "Encounters a guest mode limit and decides to sign in."
+    ],
+    [
+      "70-74",
+      "I sign in to my Litmaps account using Google.",
+      "Login completes and returns to the search dashboard."
+    ],
+    [
+      "75-94",
+      "I delete an older Litmap to generate a new citation network.",
+      "Map generation completes, turning to algorithm settings."
+    ],
+    [
+      "95-113",
+      "I adjust the Litmaps search algorithm settings for my paper exploration.",
+      "Applies settings and waits for the updated graph to load."
+    ],
+    [
+      "114-134",
+      "I explore paper nodes on the updated Litmaps citation graph.",
+      "Switches focus back to Claude to check other recommended tools."
+    ],
+    [
+      "135-141",
+      "I review Claude's additional literature tool recommendations and an arXiv paper.",
+      "Shifts focus to Connected Papers to view a different graph."
+    ],
+    [
+      "142-164",
+      "I investigate emotion organization paper nodes on Connected Papers.",
+      "Leaves the tool to troubleshoot network issues."
+    ],
+    [
+      "165-175",
+      "I switch my Clash Verge VPN node.",
+      "Completes proxy switch and opens Google Gemini."
+    ],
+    [
+      "176-201",
+      "I launch a Deep Research query in Google Gemini regarding LLM internal emotions.",
+      "Leaves the computer while the research runs."
+    ],
+    [
+      "202-208",
+      "I walk down the corridor to the male restroom.",
+      "End of the recorded sequence."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      202
+    ],
+    "boundary_cautions": [
+      "Briefly referencing Connected Papers and the arXiv paper between Litmaps sessions (77-82, 135-141) are kept contextual to the primary immediate task rather than splintered.",
+      "Incidental posture changes (18-19, 187) are absorbed into their co-occurring prompt-drafting tasks."
+    ]
+  }
+}
+```

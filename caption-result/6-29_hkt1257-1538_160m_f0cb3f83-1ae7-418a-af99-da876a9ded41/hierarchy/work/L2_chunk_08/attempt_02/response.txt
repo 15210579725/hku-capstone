@@ -1,0 +1,129 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous highway driving segments as baseline tasks. Abstract concurrent minor actions, observations, and brief system warnings into these driving tasks. Isolate distinct passenger conversations, arguments, tunnel transits, and the final service area arrival/parking sequences as their own immediate tasks based on continuous goal alignment.",
+  "events": [
+    [
+      "1750-1756",
+      "I drive along the expressway.",
+      "Continuous highway driving before passenger conversation."
+    ],
+    [
+      "1757-1761",
+      "I converse with the passenger about a police patrol.",
+      "Distinct conversation ends."
+    ],
+    [
+      "1762-1772",
+      "I discuss visiting Vietnam with my companions.",
+      "Conversation about the border concludes."
+    ],
+    [
+      "1773-1790",
+      "I drive along the highway.",
+      "Continuous driving until speeding warnings."
+    ],
+    [
+      "1791-1794",
+      "I receive speeding warnings from the navigation system and passenger.",
+      "Prominent cluster of speeding warnings ends."
+    ],
+    [
+      "1795-1796",
+      "I drive along the highway.",
+      "Brief driving segment before song conversation."
+    ],
+    [
+      "1797-1815",
+      "I converse with the passengers about identifying a song.",
+      "Song identification conversation concludes."
+    ],
+    [
+      "1816-1823",
+      "I drive along the highway.",
+      "Continuous driving until geology conversation."
+    ],
+    [
+      "1824-1830",
+      "I converse with the passenger about geological traces.",
+      "Conversation concludes."
+    ],
+    [
+      "1831-1837",
+      "I drive along the highway.",
+      "Continuous driving until argument."
+    ],
+    [
+      "1838-1845",
+      "I argue with the passenger.",
+      "Dispute concludes."
+    ],
+    [
+      "1846-1859",
+      "I drive along the highway.",
+      "Continuous driving until curve."
+    ],
+    [
+      "1860-1869",
+      "I navigate a highway curve.",
+      "Curve navigation completes."
+    ],
+    [
+      "1870-1879",
+      "I drive through the Guzhushan tunnel.",
+      "Tunnel transit completes."
+    ],
+    [
+      "1880-1907",
+      "I drive along the highway.",
+      "Continuous driving until next tunnel."
+    ],
+    [
+      "1908-1913",
+      "I drive through the Longpingshan tunnel.",
+      "Tunnel transit completes."
+    ],
+    [
+      "1914-1922",
+      "I drive along the highway.",
+      "Driving between tunnels completes."
+    ],
+    [
+      "1923-1929",
+      "I drive through a tunnel.",
+      "Tunnel transit completes."
+    ],
+    [
+      "1930-1942",
+      "I drive along the highway.",
+      "Highway driving until approaching service area."
+    ],
+    [
+      "1943-1953",
+      "I drive toward the Xinghe service area.",
+      "Approach to service area ends at exit."
+    ],
+    [
+      "1954-1958",
+      "I park at the service area.",
+      "Parking maneuver completes."
+    ],
+    [
+      "1959-1964",
+      "I converse with the passenger about the parking and restroom.",
+      "Post-parking conversation completes."
+    ],
+    [
+      "1965-1974",
+      "I walk toward the service area entrance.",
+      "Departure from car completes."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

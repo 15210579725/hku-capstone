@@ -1,0 +1,30 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Merge eligible pairs where the exact same immediate task (like eating the same meal or reading the same document) continues across the batch boundary. Do not merge consecutive but distinct setup actions or searches for different subjects.",
+  "merges": [
+    [
+      27,
+      28,
+      "I eat my chicken and rice meal.",
+      "Same eating task continues across batch edge"
+    ],
+    [
+      72,
+      73,
+      "I read Question 2 of the AI exam paper.",
+      "Same exam reading task continues across batch edge"
+    ],
+    [
+      93,
+      94,
+      "I read the Claude summary document about AI trends.",
+      "Same document reading task continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

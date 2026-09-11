@@ -1,0 +1,81 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group contiguous actions by immediate task, such as distinct conversation topics, navigating street segments, ordering food, and configuring a specific device.",
+  "events": [
+    [
+      "1000-1030",
+      "I discuss the acceptability of unannounced visits with my companion while riding the bus.",
+      "Conversation shifts to a new topic regarding accommodation plans."
+    ],
+    [
+      "1031-1049",
+      "I observe the night scenery from the bus window and discuss my accommodation plans with my companion.",
+      "Spotting the restaurant triggers a new goal to alight the bus."
+    ],
+    [
+      "1050-1064",
+      "I agree to my companion's suggestion to alight the bus to buy dumplings after spotting a restaurant.",
+      "Leaving the bus initiates the walking and navigation phase."
+    ],
+    [
+      "1065-1081",
+      "I walk away from the bus stop and navigate a crosswalk with my companion.",
+      "Conversation shifts to discussing a funny video blogger."
+    ],
+    [
+      "1082-1092",
+      "I walk along the sidewalk and discuss a funny video blogger with my companion.",
+      "Conversation ends as focus shifts back to walking and observing traffic."
+    ],
+    [
+      "1093-1117",
+      "I walk along the street and observe crossing vehicles at an intersection.",
+      "Conversation shifts to discussing driving lessons and traffic lights."
+    ],
+    [
+      "1118-1135",
+      "I cross the street and discuss driving lessons with my companion.",
+      "Arrival at the restaurant ends the walking phase."
+    ],
+    [
+      "1136-1153",
+      "I arrive at the dumpling restaurant, confirm they have food, and decide on lamb carrot dumplings with my companion.",
+      "Shift from verbal menu discussion to placing the digital order."
+    ],
+    [
+      "1154-1172",
+      "I use my smartphone to order lamb carrot dumplings and drinks via the table's QR code.",
+      "Ordering complete; shift to retrieving a physical item."
+    ],
+    [
+      "1173-1187",
+      "I retrieve a bottle of water from the restaurant refrigerator for the table.",
+      "Returning to the table ends fetching; shift to checking personal apps."
+    ],
+    [
+      "1188-1200",
+      "I check my WeChat, Mail, and Messages apps on my smartphone.",
+      "Shift from using the smartphone to handling the camera."
+    ],
+    [
+      "1201-1233",
+      "I configure the system settings and test the live view on the DJI Osmo Pocket 3 camera.",
+      "Shift from camera configuration to actively recording a subject."
+    ],
+    [
+      "1234-1249",
+      "I hold the DJI Osmo Pocket 3 camera to record my companion posing at the table.",
+      "End of provided events."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "1050-1064"
+    ],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,44 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group actions into immediate tasks based on the specific store targeted during map searches, distinct visual observations, and discrete conversation topics.",
+  "events": [
+    [
+      "250-255",
+      "I search for '锦忆林' using Gaode Map and the mall directory.",
+      "Target changes to searching for a different restaurant."
+    ],
+    [
+      "256-261",
+      "I search for '耿大叔擂椒盖码饭' on Gaode Maps.",
+      "Map search concludes."
+    ],
+    [
+      "262",
+      "I observe my companion holding a watermelon.",
+      "Observation ends and focus shifts to the phone."
+    ],
+    [
+      "263",
+      "I check my phone home screen.",
+      "Focus shifts to conversation."
+    ],
+    [
+      "264",
+      "I discuss a late-night diner.",
+      "Topic of conversation changes."
+    ],
+    [
+      "265-266",
+      "I identify our bag.",
+      "Recording ends."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

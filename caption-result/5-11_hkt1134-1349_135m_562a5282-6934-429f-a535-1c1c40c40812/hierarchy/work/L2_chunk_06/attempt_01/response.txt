@@ -1,0 +1,101 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions with a single immediate goal such as taking notes, reading specific topics, checking progress, or incidental tasks like checking the phone or fidgeting. Boundaries occur when the user switches between distinct primary activities (e.g., reading vs. writing) or when there is a significant context change, such as departing the workspace.",
+  "events": [
+    [
+      "1250-1253",
+      "I write the improved Euler method formula in my handwritten ODE notes.",
+      "Focus shifts from writing to reading on screen"
+    ],
+    [
+      "1254-1275",
+      "I study explicit single-step ODE methods, consistency, and convergence using Claude and my lecture slides.",
+      "Focus shifts back to taking notes"
+    ],
+    [
+      "1276-1286",
+      "I write notes on numerical error, consistency, and convergence based on Claude's explanations.",
+      "Focus shifts to checking the phone"
+    ],
+    [
+      "1287-1289",
+      "I check my smartphone lock screen.",
+      "Phone check concludes, returns to studying"
+    ],
+    [
+      "1290-1301",
+      "I investigate Runge-Kutta stage numbers and accuracy orders using Claude.",
+      "Focus shifts to playing with a plastic case"
+    ],
+    [
+      "1302-1307",
+      "I fidget with a clear plastic case.",
+      "Physical fidgeting ends, focus returns to monitor"
+    ],
+    [
+      "1308-1329",
+      "I study Claude's explanations on Runge-Kutta stage formulas, precision orders, and stability.",
+      "Reading pauses to look around the room"
+    ],
+    [
+      "1330-1334",
+      "I look around the library.",
+      "Looking around ends, focus returns to studying"
+    ],
+    [
+      "1335-1347",
+      "I study lecture slides and Claude notes on ODE stability, explicit one-step methods, and error bound proofs.",
+      "Focus shifts to checking terminal"
+    ],
+    [
+      "1348-1350",
+      "I check task progress in the terminal overlay.",
+      "Terminal check ends, focus returns to studying slides"
+    ],
+    [
+      "1351-1357",
+      "I study lecture slides and Claude notes about ODE consistency and the Runge-Kutta Butcher tableau.",
+      "Focus shifts to writing in notebook"
+    ],
+    [
+      "1358-1363",
+      "I write notes on the 4th order Runge-Kutta method and ODE formulas in my notebook.",
+      "Focus shifts back to reading screen"
+    ],
+    [
+      "1364-1369",
+      "I read Claude's explanations on ODE absolute stability, exam summary, and Runge-Kutta accuracy.",
+      "Focus shifts to writing notes"
+    ],
+    [
+      "1370",
+      "I write notes on paper.",
+      "Focus shifts to opening and reading slides in Chrome"
+    ],
+    [
+      "1371-1387",
+      "I review numerical methods lecture slides on explicit Runge-Kutta methods and stability.",
+      "Focus shifts to writing notes"
+    ],
+    [
+      "1388",
+      "I write notes on paper.",
+      "Studying concludes to leave library"
+    ],
+    [
+      "1389-1396",
+      "I depart from my library workstation and exit through the turnstiles.",
+      "End of recording"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "1389: Picking up phone and standing up initiates departure from the library"
+    ],
+    "boundary_cautions": []
+  }
+}
+```

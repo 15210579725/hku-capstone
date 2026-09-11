@@ -1,0 +1,18 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Merge pairs that represent the exact same continuous immediate action severed by a batch boundary. Do not merge sequential distinct steps (like reading then prompting) or topic changes.",
+  "merges": [
+    [
+      49,
+      50,
+      "I work on problems 2 and 3 of Math Homework Assignment 6.",
+      "Same homework assignment task continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

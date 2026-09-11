@@ -1,0 +1,164 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions that share a single immediate goal, such as sustaining a specific conversation topic, engaging with a distinct post or app on a smartphone, or executing a physical maneuver like exiting the train or navigating to a store.",
+  "events": [
+    [
+      "250-271",
+      "I discuss my companion's frustration regarding my poor communication.",
+      "Conversation topic shifts"
+    ],
+    [
+      "272-273",
+      "I rest while holding my face mask.",
+      "Pause before new conversation topic begins"
+    ],
+    [
+      "274-329",
+      "I explain my anger regarding the restaurant's refusal to serve us food.",
+      "Conversation transitions to smartphone usage"
+    ],
+    [
+      "330-331",
+      "I navigate to the App Library on my smartphone.",
+      "App navigation completes"
+    ],
+    [
+      "332-364",
+      "I discuss AI-generated portraits with my companion while viewing them on my smartphone.",
+      "Switches to viewing a pricing chart"
+    ],
+    [
+      "365-367",
+      "I view an AI pricing comparison chart on my smartphone.",
+      "Switches app context"
+    ],
+    [
+      "368-370",
+      "I open a video post on Xiaohongshu.",
+      "Companion interrupts with a new offline topic"
+    ],
+    [
+      "371-375",
+      "I converse with my companion about their physical discomfort from anger.",
+      "Conversation concludes and I return to browsing"
+    ],
+    [
+      "376-378",
+      "I browse the Xiaohongshu feed.",
+      "Engages with a specific detailed post"
+    ],
+    [
+      "379-383",
+      "I read a Xiaohongshu post about a student's grade correction email.",
+      "Switches to viewing companion's phone"
+    ],
+    [
+      "384-400",
+      "I discuss a McDonald's wedding post with my companion.",
+      "Wedding discussion ends"
+    ],
+    [
+      "401-402",
+      "I observe the passengers across the train carriage.",
+      "Observation ends and returns to phone"
+    ],
+    [
+      "403-416",
+      "I browse entertainment posts on the Xiaohongshu feed.",
+      "Switches focus to an academic post on a second phone"
+    ],
+    [
+      "417-425",
+      "I read a Xiaohongshu post about academic networking.",
+      "Returns to general feed browsing"
+    ],
+    [
+      "426-429",
+      "I browse Xiaohongshu posts.",
+      "Interrupts browsing to prepare for train exit"
+    ],
+    [
+      "430-432",
+      "I discuss food options with my companion.",
+      "Stands up to exit"
+    ],
+    [
+      "433-436",
+      "I exit the train onto the station platform.",
+      "Exit maneuver complete"
+    ],
+    [
+      "437-438",
+      "I agree with my companion to walk through the mall.",
+      "Route decision made"
+    ],
+    [
+      "439-443",
+      "I adjust my bags.",
+      "Bag adjustment complete"
+    ],
+    [
+      "444",
+      "I observe the passengers walking toward the exit.",
+      "Observation ends"
+    ],
+    [
+      "445-449",
+      "I view a comic meme on Xiaohongshu.",
+      "Starts walking along the platform"
+    ],
+    [
+      "450-452",
+      "I walk along the station platform while discussing food with my companion.",
+      "Focus shifts to reading phone while walking"
+    ],
+    [
+      "453-454",
+      "I read a Xiaohongshu comment thread about research funding.",
+      "Approaches the escalator"
+    ],
+    [
+      "455-462",
+      "I ride the escalator down to the station concourse.",
+      "Steps off the escalator"
+    ],
+    [
+      "463-474",
+      "I walk through the station concourse towards the fare gates.",
+      "Arrives at the fare gate"
+    ],
+    [
+      "475-476",
+      "I tap my smartphone to pass through the fare gate.",
+      "Fare gate passage complete"
+    ],
+    [
+      "477-479",
+      "I walk towards Sushi Express.",
+      "Arrives at the sushi store"
+    ],
+    [
+      "480-489",
+      "I browse the discounted sushi selections at Sushi Express.",
+      "Selection complete"
+    ],
+    [
+      "490-493",
+      "I present my Alipay QR code to pay for my purchase.",
+      "Payment complete"
+    ],
+    [
+      "494-499",
+      "I walk across the concourse towards The Wai shopping mall.",
+      "End of provided input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

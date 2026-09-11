@@ -1,0 +1,39 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group the L3 episodes into broad goal-oriented phases: outbound transit, dining, return transit, an academic work session, and a concluding break.",
+  "events": [
+    [
+      "0-1",
+      "I walk off-campus through a snack store and a wet market with my companion.",
+      "Transit concludes upon arriving at the restaurant."
+    ],
+    [
+      "2-6",
+      "I dine at Kam Wah Restaurant with my companion.",
+      "The dining experience concludes after paying and exiting the establishment."
+    ],
+    [
+      "7-8",
+      "I return to the university campus to settle into classroom G5-314.",
+      "Transit concludes upon settling into the target classroom."
+    ],
+    [
+      "9-12",
+      "I conduct an academic research session on AI behavior forecasting models in classroom G5-314.",
+      "The primary work session is paused to leave for a restroom break."
+    ],
+    [
+      "13",
+      "I walk from the classroom to the restroom.",
+      "The recording ends during this short transit."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

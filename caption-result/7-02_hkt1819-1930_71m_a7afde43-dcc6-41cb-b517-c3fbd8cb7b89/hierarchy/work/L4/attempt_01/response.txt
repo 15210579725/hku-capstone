@@ -1,0 +1,29 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group episodes into broader goal-oriented travel phases: navigating the airport for baggage, securing ground transportation, and traveling to the final destination.",
+  "events": [
+    [
+      "0-3",
+      "I navigate the airport terminal to retrieve my suitcase.",
+      "Unifies terminal transit steps ending with baggage claim"
+    ],
+    [
+      "4-5",
+      "I proceed to the P2 Parking Garage to board my ride-hailing vehicle.",
+      "Unifies transit to the pickup zone and boarding the vehicle"
+    ],
+    [
+      "6-7",
+      "I travel to my destination at 齐爱佳苑.",
+      "Unifies the vehicle journey and the immediate arrival on foot"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

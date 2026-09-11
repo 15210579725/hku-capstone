@@ -1,0 +1,36 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible L2 batch edge pairs to determine if they split a single continuous immediate task. Merge pairs that share the exact same immediate goal and action (e.g., continuing to eat, walk along the same path, or study the same material). Leave distinct consecutive tasks unmerged.",
+  "merges": [
+    [
+      25,
+      26,
+      "I eat my chicken and rice meal on the outdoor patio.",
+      "Eating meal continues across batch edge."
+    ],
+    [
+      42,
+      43,
+      "I walk along the commercial street.",
+      "Walking along the street continues across batch edge."
+    ],
+    [
+      86,
+      87,
+      "I study matrix condition numbers and numerical analysis using my notes and MacBook.",
+      "Studying the same topic continues across batch edge."
+    ],
+    [
+      108,
+      109,
+      "I type and study content on my MacBook.",
+      "MacBook study session continues across batch edge."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

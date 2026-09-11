@@ -1,0 +1,171 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group action briefs into immediate tasks based on continuous goals, distinct conversational topics, and transit phases. Abstract concurrent actions and short pauses into unified objectives with temporal contexts, strictly avoiding sequential conjunctions like 'and' or 'while'.",
+  "events": [
+    [
+      "0",
+      "I stow a small accessory.",
+      "Distinct solitary action prior to the interaction."
+    ],
+    [
+      "1-18",
+      "I help User X locate a missing drink in her handbag.",
+      "Groups the continuous interaction and search for the missing item."
+    ],
+    [
+      "19-27",
+      "I manage the disposal of the bathroom trash with my companion.",
+      "Unifies the collaborative task of managing the bathroom trash."
+    ],
+    [
+      "28-32",
+      "I prepare for my departure to dispose of the trash.",
+      "Groups the announcement of departure and gathering of belongings."
+    ],
+    [
+      "33-39",
+      "I occupy myself on my phone during a brief wait in the apartment.",
+      "Unifies the brief waiting period before exiting the apartment."
+    ],
+    [
+      "40-47",
+      "I dispose of the trash bags in the refuse room.",
+      "Groups the transit to the refuse room and the disposal of the trash."
+    ],
+    [
+      "48-52",
+      "I return to the apartment corridor via the elevator.",
+      "Unifies the elevator ride back up to the apartment corridor."
+    ],
+    [
+      "53-86",
+      "I read a DingTalk PDF on my phone during the wait in the apartment corridor.",
+      "Groups continuous reading on the phone during the wait for the companion."
+    ],
+    [
+      "87-93",
+      "I wait in the elevator during my companion's realization of a forgotten document.",
+      "Captures the interruption caused by the forgotten document during the elevator ride."
+    ],
+    [
+      "94-97",
+      "I read the DingTalk PDF on my phone during our return to the hallway.",
+      "Unifies reading the phone during the return to the hallway."
+    ],
+    [
+      "98-102",
+      "I retrieve my keys from the apartment desk.",
+      "Groups the task of re-entering the apartment to fetch keys."
+    ],
+    [
+      "103-112",
+      "I read the DingTalk PDF on my phone during the downward elevator transit.",
+      "Unifies reading on the phone during the downward elevator ride."
+    ],
+    [
+      "113-115",
+      "I exit the building from the elevator lobby.",
+      "Groups the actions of leaving the elevator and exiting the building."
+    ],
+    [
+      "116-121",
+      "I discuss the bright sunlight with my companion during our courtyard walk.",
+      "Unifies the outdoor walk and conversation about the weather."
+    ],
+    [
+      "122-126",
+      "I read the DingTalk PDF on my phone during my walk.",
+      "Groups a segment of focused reading on the phone during the walk."
+    ],
+    [
+      "127-128",
+      "I receive a vampire joke from my companion regarding the sunlight.",
+      "Captures a brief conversational exchange."
+    ],
+    [
+      "129-144",
+      "I read the DingTalk PDF on my phone during my walk along the estate pathways.",
+      "Unifies continuous reading on the phone during the estate navigation."
+    ],
+    [
+      "145-149",
+      "I discuss a potential trip to Korea with my companion.",
+      "Groups the initial conversation about the Korea trip."
+    ],
+    [
+      "150-152",
+      "I read the DingTalk PDF on my phone.",
+      "Groups a brief period of focused reading."
+    ],
+    [
+      "153-160",
+      "I walk along the paved pathways and plazas.",
+      "Unifies transit through the outdoor plazas."
+    ],
+    [
+      "161-172",
+      "I continue the Korea trip discussion with my companion.",
+      "Groups the continuation of the conversation regarding the Korea trip."
+    ],
+    [
+      "173-198",
+      "I transit through the estate pathways to a building escalator.",
+      "Unifies the transit toward and into the building."
+    ],
+    [
+      "199-201",
+      "I acknowledge my sweating to my companion.",
+      "Captures a short conversational exchange about sweating."
+    ],
+    [
+      "202-217",
+      "I descend through the lower lobby via successive escalators.",
+      "Groups the continuous descent via escalators."
+    ],
+    [
+      "218-225",
+      "I transit through the lower lobby toward the outdoor underpass.",
+      "Unifies the transit through the lobby toward the underpass."
+    ],
+    [
+      "226-229",
+      "I evaluate a hair color on my companion's phone.",
+      "Groups the brief conversation about hair color."
+    ],
+    [
+      "230-233",
+      "I explain the Filipino maid visa regulations to my companion.",
+      "Unifies the conversation about visa regulations."
+    ],
+    [
+      "234-237",
+      "I read a PDF document about product philosophy on my phone.",
+      "Groups a period of reading a PDF on the phone."
+    ],
+    [
+      "238-240",
+      "I pass through the subway station ticket barriers.",
+      "Unifies arriving at the station and passing the fare gates."
+    ],
+    [
+      "241-249",
+      "I navigate the station platform with my phone and a directory map.",
+      "Groups the navigation along the station platform."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      [
+        87,
+        "Companion realizes they forgot a document, which shifts the immediate goal to returning to the apartment to retrieve items."
+      ]
+    ],
+    "boundary_cautions": [
+      "The conversation about the Korea trip is split across multiple events (145-149, 161-172) because it is interrupted by a distinct period of focused reading and walking. This properly separates the immediate tasks at the L2 level."
+    ]
+  }
+}
+```

@@ -1,0 +1,18 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Review the eligible pair at the batch edge to determine if the same immediate task continues.",
+  "merges": [
+    [
+      17,
+      18,
+      "I open and review captions_L1_A02.txt in VS Code.",
+      "Same file review continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

@@ -1,0 +1,36 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Review eligible boundary pairs to determine if the exact same immediate task continues across the transport batch edge. Merge tasks involving continuous interaction with the same app for the same topic (ChatGPT prompting, Feishu note-taking, WeChat reading, X browsing). Keep distinct actions (like closing a terminal vs. inspecting directories, or paying vs. sitting down) separate.",
+  "merges": [
+    [
+      39,
+      40,
+      "I interact with ChatGPT regarding action prediction evaluation time granularity.",
+      "Same ChatGPT prompt engineering session continues across batch edge"
+    ],
+    [
+      50,
+      51,
+      "I draft and edit research notes on action prediction in Feishu.",
+      "Same Feishu note-taking task continues across batch edge"
+    ],
+    [
+      97,
+      98,
+      "I read WeChat articles concerning GLM-5.3.",
+      "Same task of reading related WeChat articles continues across batch edge"
+    ],
+    [
+      116,
+      117,
+      "I browse the X feed on my smartphone.",
+      "Same task of browsing the X feed continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

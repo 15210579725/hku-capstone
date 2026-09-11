@@ -1,0 +1,59 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group fine-grained movements, queueing, and conversations into immediate tasks such as entering the plaza, passing through security, waiting for admission, and passing through turnstiles.",
+  "events": [
+    [
+      "1750-1756",
+      "I walk into the open plaza while conversing about a notice sign.",
+      "Arrival in the plaza is complete; transitions to queuing for security."
+    ],
+    [
+      "1757-1766",
+      "I wait in line and pass through the security metal detector.",
+      "Passes the security checkpoint; transitions to post-security conversation."
+    ],
+    [
+      "1767-1770",
+      "I converse with my companion about phone charging.",
+      "Conversation concludes; transitions to queuing for admission."
+    ],
+    [
+      "1771-1794",
+      "I wait in the queue for the admission turnstiles.",
+      "Reaches the front of the line; transitions to entering the turnstile."
+    ],
+    [
+      "1795-1797",
+      "I present my ticket and pass through the admission turnstile.",
+      "Entry is complete; transitions to walking into the park."
+    ],
+    [
+      "1798-1805",
+      "I walk into the park and observe visiting students.",
+      "Observation pauses; turns back to the ticket gates."
+    ],
+    [
+      "1806-1812",
+      "I walk back and pass through the entrance turnstile.",
+      "Passes the turnstile again; transitions to walking in the plaza."
+    ],
+    [
+      "1813-1817",
+      "I walk across the park plaza and observe playing children.",
+      "Observation concludes; shifts to folding umbrella and discussing tickets."
+    ],
+    [
+      "1818-1828",
+      "I fold my umbrella and converse with my companion about ticket purchases.",
+      "End of provided input."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

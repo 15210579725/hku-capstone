@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group departure coordination and packing tasks into a preparation episode, followed by the physical transit tasks into a navigation episode.",
+  "events": [
+    [
+      "0-2",
+      "I gather my personal belongings to prepare for our departure.",
+      "Transition from preparation to physical transit"
+    ],
+    [
+      "3-4",
+      "I travel from the study lounge to the lobby.",
+      "End of provided sequence"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

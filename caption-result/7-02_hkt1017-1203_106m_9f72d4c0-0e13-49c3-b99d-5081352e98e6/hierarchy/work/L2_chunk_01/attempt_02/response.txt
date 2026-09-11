@@ -1,0 +1,136 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group contiguous action briefs into immediate tasks based on a single shared objective, such as packing, navigating, or conversing about a specific topic.",
+  "events": [
+    [
+      "0-16",
+      "I pack my suitcase in the hotel room.",
+      "Finished packing luggage"
+    ],
+    [
+      "17-22",
+      "I wash my hands in the bathroom.",
+      "Finished hand hygiene"
+    ],
+    [
+      "23-26",
+      "I collect my personal items from the bed.",
+      "Finished gathering belongings"
+    ],
+    [
+      "27-32",
+      "I examine my McDonald's breakfast items.",
+      "Finished inspecting food"
+    ],
+    [
+      "33-43",
+      "I discuss the takeout food packaging with my companion.",
+      "Topic shifts to ordering a ride"
+    ],
+    [
+      "44-51",
+      "I monitor my companion ordering a ride on her phone.",
+      "Finished arranging transportation"
+    ],
+    [
+      "52-57",
+      "I grab my breakfast to leave the room.",
+      "Exited the hotel room"
+    ],
+    [
+      "58-61",
+      "I walk down the hotel corridor.",
+      "Reached the elevator"
+    ],
+    [
+      "62-66",
+      "I ride the elevator down to the lobby.",
+      "Exited the elevator"
+    ],
+    [
+      "67-71",
+      "I walk through the lobby to the outdoor street corner.",
+      "Reached the outdoor pickup location"
+    ],
+    [
+      "72-89",
+      "I discuss the train schedule with my companion at the street corner.",
+      "Ride vehicle arrives"
+    ],
+    [
+      "90-97",
+      "I load the luggage into the car trunk.",
+      "Finished loading vehicle"
+    ],
+    [
+      "98-120",
+      "I observe the passing street view from the car.",
+      "Focus shifts to checking the phone"
+    ],
+    [
+      "121-164",
+      "I review the train schedule on the phone to manage a timing mistake.",
+      "Focus shifts back to the street view"
+    ],
+    [
+      "165-173",
+      "I look out the car window at the passing traffic.",
+      "Focus shifts to discussing new travel plans"
+    ],
+    [
+      "174-192",
+      "I discuss alternative travel arrangements with my companion.",
+      "Conversation pauses"
+    ],
+    [
+      "193-200",
+      "I prepare to exit the car at the destination.",
+      "Arrived at drop-off point"
+    ],
+    [
+      "201-208",
+      "I retrieve my luggage from the car trunk.",
+      "Finished unloading vehicle"
+    ],
+    [
+      "209-214",
+      "I cross the crosswalk with my companion.",
+      "Finished crossing the street"
+    ],
+    [
+      "215-219",
+      "I walk along the sidewalk toward Nanning Railway Station.",
+      "Stopped to adjust luggage"
+    ],
+    [
+      "220-222",
+      "I secure my drawstring bag to the suitcase handle.",
+      "Finished adjusting luggage"
+    ],
+    [
+      "223-229",
+      "I consult the transit route on my phone map.",
+      "Focus shifts to observing surroundings"
+    ],
+    [
+      "230-247",
+      "I wait near the crosswalk under the overpass.",
+      "Began crossing the street"
+    ],
+    [
+      "248-249",
+      "I navigate the street crossing using my phone map.",
+      "End of input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "Realizing the train departure time was misremembered redirects the ongoing conversation toward managing missed connections and changing tickets."
+    ],
+    "boundary_cautions": []
+  }
+}
+```

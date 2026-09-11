@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L5",
+  "plan": "Abstract the transit phase into a distinct commuting activity. Group the staircase call and subsequent move to the desk into a single initial office activity, treating the relocation as incidental repositioning following the call.",
+  "events": [
+    [
+      "0",
+      "I travel to the office.",
+      "Transit phase concludes upon arrival at the destination."
+    ],
+    [
+      "1-2",
+      "I conduct a WeChat video call at the office.",
+      "End of recording."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

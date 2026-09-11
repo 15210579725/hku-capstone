@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L5",
+  "plan": "Unify the restaurant waiting, dining, and wrap-up phases into a single major meal activity. Treat the subsequent mall navigation for the washroom as a distinct major activity.",
+  "events": [
+    [
+      "0-2",
+      "I share a grilled fish meal with my companion.",
+      "Departure from the restaurant"
+    ],
+    [
+      "3",
+      "I navigate the shopping mall to locate the washroom.",
+      "End of input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,44 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group L3 episodes into broader goal-oriented phases: a meal, an initial research session encompassing AI models and an incidental chat, a personal care and media break, a focused note compilation session, a leisure break, and a resumed note documentation session.",
+  "events": [
+    [
+      "0",
+      "I converse with my companion during our meal.",
+      "Meal ends and work preparation begins"
+    ],
+    [
+      "1-4",
+      "I conduct a laptop research session on AI and Large World Models.",
+      "Transitions to personal care break"
+    ],
+    [
+      "5-6",
+      "I manage minor room tasks and my skincare routine during a tablet drama session.",
+      "Returns to laptop research"
+    ],
+    [
+      "7",
+      "I compile research notes on AI literature on my laptop.",
+      "Moves to a relaxation phase"
+    ],
+    [
+      "8-9",
+      "I relax with iPad entertainment videos and companion conversation.",
+      "Returns to laptop research"
+    ],
+    [
+      "10",
+      "I document research notes on AI video modeling on my laptop.",
+      "End of input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

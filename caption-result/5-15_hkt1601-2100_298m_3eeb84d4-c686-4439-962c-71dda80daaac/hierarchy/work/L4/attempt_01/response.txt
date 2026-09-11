@@ -1,0 +1,61 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group L3 episodes into broader goal-oriented phases based on location and primary objective, abstracting transit into the overarching destination goals and respecting significant interruptions.",
+  "events": [
+    [
+      "0-1",
+      "I manage my laundry drying cycle and WeChat content consumption outdoors.",
+      "Relocating indoors sets up a dedicated workspace for research."
+    ],
+    [
+      "2-6",
+      "I advance my emotion prediction research, biology reading, and roommate conversation at my dining table.",
+      "Interrupting work to retrieve laundry."
+    ],
+    [
+      "7-8",
+      "I handle the retrieval and wardrobe organization of my dry laundry.",
+      "Laundry completion marks the end of home activities before departure."
+    ],
+    [
+      "9-14",
+      "I travel to the Main Library for my exam assignment studies on kernel and numerical methods alongside cloud API and Alipay management.",
+      "Exiting the library to meet a companion."
+    ],
+    [
+      "15-18",
+      "I travel to a restaurant for pre-meal socialization with my companion.",
+      "A Lark meeting interrupts the restaurant wait."
+    ],
+    [
+      "19-20",
+      "I attend a Lark meeting regarding manuscript revisions outside a convenience store using borrowed devices.",
+      "Meeting concludes, returning to the restaurant for the meal."
+    ],
+    [
+      "21-22",
+      "I share a meal and a subsequent walk with my companion.",
+      "Meal and social walk conclude upon starting grocery errands."
+    ],
+    [
+      "23",
+      "I purchase bananas and toothpaste at the Wellcome supermarket.",
+      "Shopping concludes, shifting to the final commute home."
+    ],
+    [
+      "24",
+      "I commute back to my apartment building with my companion.",
+      "End of the recorded commute sequence."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "A Lark meeting about manuscript revisions outside a convenience store significantly interrupts the restaurant wait."
+    ],
+    "boundary_cautions": []
+  }
+}
+```

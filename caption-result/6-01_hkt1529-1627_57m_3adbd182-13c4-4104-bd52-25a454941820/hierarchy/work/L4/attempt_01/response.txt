@@ -1,0 +1,29 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Unify the consecutive AI research and note-drafting activities into a single primary research phase. Isolate the distinct conversation about evening plans. Preserve the final research review as a separate phase following the planning discussion.",
+  "events": [
+    [
+      "0-2",
+      "I research egocentric AI systems and behavior simulation models.",
+      "Shift from independent research to a planning conversation"
+    ],
+    [
+      "3",
+      "I discuss evening study and dinner plans with my companions.",
+      "Conversation concludes; shift back to reviewing research"
+    ],
+    [
+      "4",
+      "I review AI analyses and research notes regarding egocentric action prediction.",
+      "End of provided evidence"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,30 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Merge eligible pairs where the exact same immediate task (e.g., messaging the same person, reading the same document, or filling out the same specific form section) continues seamlessly across the batch boundary. Do not merge pairs that transition to a new phase, such as moving from editing to submitting, or switching applications to ask for help.",
+  "merges": [
+    [
+      24,
+      25,
+      "I message *jqz on WeChat regarding the compute subsidy and digital twin project.",
+      "Messaging the same person on WeChat about the same project continues across batch edge"
+    ],
+    [
+      36,
+      37,
+      "I read the MiraclePlus FAQ regarding application policies and requirements.",
+      "Reading the same FAQ document continues across batch edge"
+    ],
+    [
+      53,
+      54,
+      "I fill out the milestone and compute requirements in the MiraclePlus application form.",
+      "Filling out the same compute sections of the application form continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

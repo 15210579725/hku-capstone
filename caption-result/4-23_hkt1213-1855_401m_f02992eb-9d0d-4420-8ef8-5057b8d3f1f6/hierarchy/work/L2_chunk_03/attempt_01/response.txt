@@ -1,3 +1,144 @@
 ```json
-{"target_level":"L2","plan":"Group continuous sequences of action briefs into immediate tasks based on the primary application, document, or physical action being performed. Abstract very brief incidental glances or interactions (such as a split-second application switch) into the surrounding active task if the main goal continues immediately after. Boundaries are drawn when the wearer clearly switches to a different tool, document, or distinct physical activity.","events":[["500-515","I message contacts using the WeChat application on my laptop.","Transitions from messaging to packing items."],["516-520","I pack my belongings into my backpack.","Finishes packing and begins sitting quietly."],["521-578","I observe my surroundings while sitting quietly at the library table.","Ends the inactive period and unpacks the laptop."],["579-584","I unpack my laptop onto the desk.","Finishes unpacking and opens a math homework assignment."],["585-586","I read a math homework assignment on my laptop.","Switches from math homework to WeChat."],["587-590","I browse messages on WeChat.","Switches from WeChat to reading research notes."],["591-593","I review my DMER-agent research notes.","Switches from reading notes to completing math homework."],["594-599","I complete a math homework assignment on a web page.","Finishes answering a math question and returns to reading research notes."],["600-605","I read my research notes on multimodal emotion conflict.","Pauses reading to watch a student."],["606","I watch a student set up a laptop stand.","Shifts attention to a web application on the laptop."],["607-614","I monitor AI agent execution logs using the MATH650 web application.","Finishes checking AI logs and looks at physical notes."],["615","I review handwritten math formulas on my desk.","Finishes reviewing paper notes and drinks water."],["616-619","I drink water from my plastic bottle.","Finishes drinking water and begins studying research notes."],["620-648","I study the DMER method using my research notes and Claude.ai.","Switches from DMER research to browsing WeChat articles."],["649-653","I browse articles on WeChat Official Accounts.","Switches from WeChat articles to a homework document."],["654-655","I view my homework assignment document.","Switches back to editing research notes."],["656-680","I edit my research notes on multimodal emotion conflict.","Switches from editing research notes to reading a resume."],["681","I read a resume document on my laptop.","Switches from the resume document to the MER2025 website."],["682-694","I browse the MER2025 workshop website.","Switches from the workshop website to a homework PDF."],["695","I view a homework PDF document.","Switches from the homework PDF to reading research documents."],["696-703","I read a research document on multimodal emotion conflict.","Switches from reading research documents to checking WeChat."],["704","I browse my WeChat chat list.","Switches from WeChat to studying mathematical proofs."],["705-716","I study mathematical formulas and proofs on my laptop.","Switches from studying proofs on the laptop to writing formulas on paper."],["717-747","I write mathematical formulas on my notepad.","Finishes writing on paper and begins typing on the laptop keyboard."],["748-749","I type on my laptop keyboard.","End of provided sequence."]],"audit":{"complete":true,"uncertainties":[],"major_triggers":[],"boundary_cautions":[]}}
+{
+  "target_level": "L2",
+  "plan": "Group contiguous action briefs into immediate tasks based on continuous interaction with the same application, document, or physical object to achieve a single immediate objective.",
+  "events": [
+    [
+      "500",
+      "I finish writing.",
+      "Writing finished"
+    ],
+    [
+      "501-515",
+      "I message in a WeChat group chat.",
+      "Focus shifts to packing"
+    ],
+    [
+      "516-520",
+      "I pack my laptop and belongings into my backpack.",
+      "Packing finishes, sit idly"
+    ],
+    [
+      "521-578",
+      "I sit at a library desk to observe the surrounding study area.",
+      "Stops sitting idly to open laptop"
+    ],
+    [
+      "579-584",
+      "I open my silver laptop on the desk.",
+      "Laptop opened, begins reading homework"
+    ],
+    [
+      "585-586",
+      "I read a math homework assignment PDF.",
+      "Switches to WeChat"
+    ],
+    [
+      "587-590",
+      "I participate in a WeChat chat.",
+      "Switches to notes document"
+    ],
+    [
+      "591-593",
+      "I review my notes on the DMER-agent.",
+      "Switches to coding homework"
+    ],
+    [
+      "594-599",
+      "I work on my math homework involving code output and scatter plots.",
+      "Homework task complete, switches to AI agent"
+    ],
+    [
+      "600-614",
+      "I configure an AI agent in a web application to run tests on math papers.",
+      "AI agent task ends, looks at physical notes"
+    ],
+    [
+      "615",
+      "I review handwritten formulas on physical paper notes.",
+      "Switches to drink water"
+    ],
+    [
+      "616-619",
+      "I drink water from my plastic bottle.",
+      "Finishes drinking water, begins reading research notes"
+    ],
+    [
+      "620-634",
+      "I read my research notes document on a multimodal emotion recognition benchmark.",
+      "Switches to using an AI assistant to explain notes"
+    ],
+    [
+      "635-648",
+      "I read a plain-language AI explanation of my DMER research notes.",
+      "Switches to WeChat official accounts"
+    ],
+    [
+      "649-653",
+      "I browse articles from WeChat Official Accounts.",
+      "Switches back to homework document"
+    ],
+    [
+      "654-655",
+      "I read my homework assignment document.",
+      "Switches to editing research document"
+    ],
+    [
+      "656-673",
+      "I edit my research document outlining new dataset creation ideas.",
+      "Switches to reading modality conflict documents"
+    ],
+    [
+      "674-681",
+      "I read research documents about modality conflict alongside a resume.",
+      "Switches to browsing MER2025 website"
+    ],
+    [
+      "682-694",
+      "I browse the MER2025 challenge website for workshop speakers and organizers.",
+      "Switches to viewing homework document"
+    ],
+    [
+      "695",
+      "I view a homework PDF document.",
+      "Switches to reading research case documents"
+    ],
+    [
+      "696-702",
+      "I read a document listing research cases on multimodal emotion conflict.",
+      "Switches to WeChat chat list"
+    ],
+    [
+      "703-704",
+      "I browse my WeChat chat list.",
+      "Switches to mathematical web document"
+    ],
+    [
+      "705-714",
+      "I read mathematical formulas and proofs in a web document.",
+      "Briefly checks WeChat"
+    ],
+    [
+      "715-716",
+      "I briefly view my WeChat chat list.",
+      "Begins writing on physical paper"
+    ],
+    [
+      "717-747",
+      "I write mathematical formulas and calculations on a sheet of paper with a pen.",
+      "Switches back to typing on laptop"
+    ],
+    [
+      "748-749",
+      "I type code or text on my laptop keyboard.",
+      "End of provided inputs"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
 ```

@@ -1,0 +1,109 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group actions into immediate tasks based on continuous interactions with specific apps, objects, or coherent navigational segments, separating smartphone usage from resting and distinct walking phases.",
+  "events": [
+    [
+      "500-528",
+      "I consume short videos and social media feeds on my smartphone.",
+      "Switches to messaging on WeChat."
+    ],
+    [
+      "529-534",
+      "I message babe on WeChat.",
+      "Puts the smartphone down to observe the surroundings."
+    ],
+    [
+      "535-544",
+      "I sit inside the concrete tube to observe my surroundings.",
+      "Resumes using the smartphone."
+    ],
+    [
+      "545-549",
+      "I read my WeChat messages with babe.",
+      "Switches from reading messages to an official account article."
+    ],
+    [
+      "550-561",
+      "I read an APPSO article about TOTO's semiconductor business on WeChat.",
+      "Switches to reading a different article."
+    ],
+    [
+      "562-580",
+      "I read a GeekPark article about Jane Street and Anthropic on WeChat.",
+      "Puts down the smartphone to rest."
+    ],
+    [
+      "581-591",
+      "I rest inside the concrete pipe pavilion.",
+      "Resumes using the smartphone."
+    ],
+    [
+      "592-606",
+      "I read a WeChat article about the MiniT2I architecture.",
+      "Switches from WeChat to checking emails."
+    ],
+    [
+      "607-628",
+      "I read academic emails in the Mail and Outlook apps.",
+      "Exits the email applications to observe the surroundings."
+    ],
+    [
+      "629-654",
+      "I observe the waterfront promenade from the concrete pipe pavilion.",
+      "Resumes using the smartphone."
+    ],
+    [
+      "655-665",
+      "I watch a Zephyr AI video on Bilibili.",
+      "Exits the video application."
+    ],
+    [
+      "666-672",
+      "I observe a boy playing nearby from the concrete pipe pavilion.",
+      "Stands up to leave the concrete pipe pavilion."
+    ],
+    [
+      "673-678",
+      "I step out of the concrete pipe pavilion with my belongings.",
+      "Begins walking across the promenade."
+    ],
+    [
+      "679-684",
+      "I walk across the waterfront promenade plaza.",
+      "Transitions from the plaza to the roadway."
+    ],
+    [
+      "685-701",
+      "I walk along the roadside past parked delivery trucks.",
+      "Moves past the delivery vehicles to the pedestrian sidewalk."
+    ],
+    [
+      "702-715",
+      "I walk along the sidewalk past the construction hoarding.",
+      "Reaches the intersection to cross the street."
+    ],
+    [
+      "716-723",
+      "I cross the street under the highway overpass to a pedestrian crossing island.",
+      "Arrives at the pedestrian crossing island."
+    ],
+    [
+      "724-738",
+      "I cross the roadway toward the commercial shops.",
+      "Arrives at the bakery storefront."
+    ],
+    [
+      "739-749",
+      "I select a Frankfurt sausage bun inside Lai Wah Bakery.",
+      "Ends the batch after selecting a pastry."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

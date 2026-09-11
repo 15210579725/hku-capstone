@@ -1,0 +1,931 @@
+[
+  {
+    "id": 0,
+    "start": 75706,
+    "end": 75723,
+    "text": "I sort out footwear with User A.",
+    "refs": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "boundary_reason": "Footwear sorted",
+    "origin_chunk": 1
+  },
+  {
+    "id": 1,
+    "start": 75724,
+    "end": 75746,
+    "text": "I inspect the earbud case and items on the storage shelf.",
+    "refs": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "boundary_reason": "Inspection complete",
+    "origin_chunk": 1
+  },
+  {
+    "id": 2,
+    "start": 75747,
+    "end": 75787,
+    "text": "I review my thesis text and Claude Code terminal on the computer in the bedroom.",
+    "refs": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "boundary_reason": "Work review complete",
+    "origin_chunk": 1
+  },
+  {
+    "id": 3,
+    "start": 75787,
+    "end": 75813,
+    "text": "I discuss a water spill on the floor with my flatmates.",
+    "refs": [
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+    ],
+    "boundary_reason": "Discussion shifts to other items",
+    "origin_chunk": 1
+  },
+  {
+    "id": 4,
+    "start": 75814,
+    "end": 75829,
+    "text": "I inspect a shuttlecock in the bedroom.",
+    "refs": [
+      28,
+      29,
+      30,
+      31,
+      32
+    ],
+    "boundary_reason": "Inspection complete",
+    "origin_chunk": 1
+  },
+  {
+    "id": 5,
+    "start": 75830,
+    "end": 75861,
+    "text": "I clean up the water spill with paper towels.",
+    "refs": [
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41
+    ],
+    "boundary_reason": "Spill cleaned",
+    "origin_chunk": 1
+  },
+  {
+    "id": 6,
+    "start": 75862,
+    "end": 75873,
+    "text": "I look at a takeout box in the living room.",
+    "refs": [
+      42,
+      43,
+      44
+    ],
+    "boundary_reason": "Observation complete",
+    "origin_chunk": 1
+  },
+  {
+    "id": 7,
+    "start": 75874,
+    "end": 75908,
+    "text": "I call the elevator and return to the apartment entryway.",
+    "refs": [
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53
+    ],
+    "boundary_reason": "Returned to entryway",
+    "origin_chunk": 1
+  },
+  {
+    "id": 8,
+    "start": 75909,
+    "end": 75924,
+    "text": "I collect a packaged Joyoung appliance from the entryway.",
+    "refs": [
+      54,
+      55,
+      56,
+      57
+    ],
+    "boundary_reason": "Package collected",
+    "origin_chunk": 1
+  },
+  {
+    "id": 9,
+    "start": 75925,
+    "end": 75962,
+    "text": "I discard cardboard packaging in the stairwell refuse room.",
+    "refs": [
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67
+    ],
+    "boundary_reason": "Packaging discarded",
+    "origin_chunk": 1
+  },
+  {
+    "id": 10,
+    "start": 75962,
+    "end": 76047,
+    "text": "I ride the elevator down from the 35th floor.",
+    "refs": [
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81
+    ],
+    "boundary_reason": "Elevator ride complete",
+    "origin_chunk": 1
+  },
+  {
+    "id": 11,
+    "start": 76047,
+    "end": 76155,
+    "text": "I walk through the outdoor residential pathways.",
+    "refs": [
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103
+    ],
+    "boundary_reason": "Walking alone complete",
+    "origin_chunk": 1
+  },
+  {
+    "id": 12,
+    "start": 76156,
+    "end": 76276,
+    "text": "I follow my companion along the covered walkways.",
+    "refs": [
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129
+    ],
+    "boundary_reason": "Arrived at building plaza",
+    "origin_chunk": 1
+  },
+  {
+    "id": 13,
+    "start": 76276,
+    "end": 76332,
+    "text": "I ride the elevator to the lobby exit.",
+    "refs": [
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142
+    ],
+    "boundary_reason": "Elevator ride complete",
+    "origin_chunk": 1
+  },
+  {
+    "id": 14,
+    "start": 76332,
+    "end": 76381,
+    "text": "I accompany my companion to collect a parcel from a Cainiao locker.",
+    "refs": [
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151
+    ],
+    "boundary_reason": "Parcel collected",
+    "origin_chunk": 1
+  },
+  {
+    "id": 15,
+    "start": 76381,
+    "end": 76446,
+    "text": "I ride the ascending elevator with my companion.",
+    "refs": [
+      152,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      164
+    ],
+    "boundary_reason": "Elevator ride complete",
+    "origin_chunk": 1
+  },
+  {
+    "id": 16,
+    "start": 76446,
+    "end": 76497,
+    "text": "I follow my companion across the courtyard.",
+    "refs": [
+      165,
+      166,
+      167,
+      168,
+      169,
+      170,
+      171
+    ],
+    "boundary_reason": "Arrived at companion",
+    "origin_chunk": 1
+  },
+  {
+    "id": 17,
+    "start": 76498,
+    "end": 76504,
+    "text": "I take a blue parcel from my companion.",
+    "refs": [
+      172,
+      173
+    ],
+    "boundary_reason": "Parcel taken",
+    "origin_chunk": 1
+  },
+  {
+    "id": 18,
+    "start": 76505,
+    "end": 76661,
+    "text": "I follow my companion along the garden pathway to a gazebo.",
+    "refs": [
+      174,
+      175,
+      176,
+      177,
+      178,
+      179,
+      180,
+      181,
+      182,
+      183,
+      184,
+      185,
+      186,
+      187,
+      188,
+      189,
+      190,
+      191,
+      192,
+      193,
+      194,
+      195
+    ],
+    "boundary_reason": "Arrived at gazebo",
+    "origin_chunk": 1
+  },
+  {
+    "id": 19,
+    "start": 76661,
+    "end": 76733,
+    "text": "I observe my surroundings and my companion from the gazebo bench.",
+    "refs": [
+      196,
+      197,
+      198,
+      199,
+      200,
+      201,
+      202,
+      203,
+      204,
+      205,
+      206
+    ],
+    "boundary_reason": "Observation shifts to conversation",
+    "origin_chunk": 1
+  },
+  {
+    "id": 20,
+    "start": 76734,
+    "end": 76757,
+    "text": "I hold the blue package and converse with my companion.",
+    "refs": [
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      213
+    ],
+    "boundary_reason": "Conversation shifts to viewing photos",
+    "origin_chunk": 1
+  },
+  {
+    "id": 21,
+    "start": 76757,
+    "end": 76795,
+    "text": "I view photos on my companion's smartphone.",
+    "refs": [
+      214,
+      215,
+      216,
+      217,
+      218,
+      219,
+      220,
+      221
+    ],
+    "boundary_reason": "Photo viewing complete",
+    "origin_chunk": 1
+  },
+  {
+    "id": 22,
+    "start": 76796,
+    "end": 77116,
+    "text": "I converse with my companion while resting in the gazebo.",
+    "refs": [
+      222,
+      223,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      230,
+      231,
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239,
+      240,
+      241,
+      242,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249
+    ],
+    "boundary_reason": "End of input",
+    "origin_chunk": 1
+  },
+  {
+    "id": 23,
+    "start": 77116,
+    "end": 77146,
+    "text": "I prepare to walk with my companion.",
+    "refs": [
+      250,
+      251,
+      252,
+      253,
+      254
+    ],
+    "boundary_reason": "Preparation complete, walking begins",
+    "origin_chunk": 2
+  },
+  {
+    "id": 24,
+    "start": 77146,
+    "end": 77208,
+    "text": "I walk along the outdoor pathway with my companion.",
+    "refs": [
+      255,
+      256,
+      257,
+      258,
+      259,
+      260,
+      261,
+      262,
+      263,
+      264,
+      265,
+      266,
+      267,
+      268,
+      269
+    ],
+    "boundary_reason": "Stops walking to discuss building facade",
+    "origin_chunk": 2
+  },
+  {
+    "id": 25,
+    "start": 77208,
+    "end": 77230,
+    "text": "I discuss a building facade issue with my companion.",
+    "refs": [
+      270,
+      271,
+      272,
+      273,
+      274
+    ],
+    "boundary_reason": "Discussion ends, walking resumes",
+    "origin_chunk": 2
+  },
+  {
+    "id": 26,
+    "start": 77230,
+    "end": 77296,
+    "text": "I walk along the path to the building entrance.",
+    "refs": [
+      275,
+      276,
+      277,
+      278,
+      279,
+      280,
+      281,
+      282,
+      283,
+      284
+    ],
+    "boundary_reason": "Reaches building entrance",
+    "origin_chunk": 2
+  },
+  {
+    "id": 27,
+    "start": 77296,
+    "end": 77319,
+    "text": "I follow my companion into the building lobby toward the elevators.",
+    "refs": [
+      285,
+      286,
+      287,
+      288
+    ],
+    "boundary_reason": "Enters elevator",
+    "origin_chunk": 2
+  },
+  {
+    "id": 28,
+    "start": 77319,
+    "end": 77356,
+    "text": "I unwrap a blue parcel during the elevator ride.",
+    "refs": [
+      289,
+      290,
+      291,
+      292,
+      293,
+      294,
+      295,
+      296,
+      297
+    ],
+    "boundary_reason": "Elevator ride ends, changes location to apartment",
+    "origin_chunk": 2
+  },
+  {
+    "id": 29,
+    "start": 77386,
+    "end": 77409,
+    "text": "I sit down in the apartment to unpack the parcels.",
+    "refs": [
+      298,
+      299,
+      300,
+      301,
+      302
+    ],
+    "boundary_reason": "Sitting down to start unwrapping",
+    "origin_chunk": 2
+  },
+  {
+    "id": 30,
+    "start": 77410,
+    "end": 77460,
+    "text": "I cut open the courier packaging to access the inner contents.",
+    "refs": [
+      303,
+      304,
+      305,
+      306,
+      307,
+      308,
+      309,
+      310,
+      311
+    ],
+    "boundary_reason": "Outer packaging opened, shifts to specific items",
+    "origin_chunk": 2
+  },
+  {
+    "id": 31,
+    "start": 77461,
+    "end": 77466,
+    "text": "I unpack a packet of gelatine leaves.",
+    "refs": [
+      312,
+      313
+    ],
+    "boundary_reason": "Item unpacked",
+    "origin_chunk": 2
+  },
+  {
+    "id": 32,
+    "start": 77467,
+    "end": 77489,
+    "text": "I unbox a silver food pouch.",
+    "refs": [
+      314,
+      315,
+      316,
+      317,
+      318,
+      319
+    ],
+    "boundary_reason": "Item unpacked",
+    "origin_chunk": 2
+  },
+  {
+    "id": 33,
+    "start": 77490,
+    "end": 77521,
+    "text": "I unbox a bottle of Rayner's vanilla extract.",
+    "refs": [
+      320,
+      321,
+      322,
+      323,
+      324,
+      325
+    ],
+    "boundary_reason": "Item unpacked",
+    "origin_chunk": 2
+  },
+  {
+    "id": 34,
+    "start": 77522,
+    "end": 77538,
+    "text": "I unbox fine white granulated sugar.",
+    "refs": [
+      326,
+      327,
+      328,
+      329
+    ],
+    "boundary_reason": "Item unpacked",
+    "origin_chunk": 2
+  },
+  {
+    "id": 35,
+    "start": 77538,
+    "end": 77556,
+    "text": "I unbox a plastic mesh strainer.",
+    "refs": [
+      330,
+      331,
+      332,
+      333,
+      334
+    ],
+    "boundary_reason": "Item unpacked",
+    "origin_chunk": 2
+  },
+  {
+    "id": 36,
+    "start": 77556,
+    "end": 77658,
+    "text": "I open a styrofoam cooler box to retrieve whipping cream and food packages.",
+    "refs": [
+      335,
+      336,
+      337,
+      338,
+      339,
+      340,
+      341,
+      342,
+      343,
+      344,
+      345,
+      346,
+      347,
+      348,
+      349,
+      350,
+      351,
+      352,
+      353,
+      354,
+      355
+    ],
+    "boundary_reason": "Cooler box unpacked, shifts to storing items",
+    "origin_chunk": 2
+  },
+  {
+    "id": 37,
+    "start": 77659,
+    "end": 77692,
+    "text": "I store the rinsed foil package in the refrigerator.",
+    "refs": [
+      356,
+      357,
+      358,
+      359,
+      360,
+      361,
+      362,
+      363,
+      364,
+      365
+    ],
+    "boundary_reason": "Item stored, shifts to inspecting fridge",
+    "origin_chunk": 2
+  },
+  {
+    "id": 38,
+    "start": 77693,
+    "end": 77718,
+    "text": "I inspect a Creme Brulee Butter Sand box in the refrigerator.",
+    "refs": [
+      366,
+      367,
+      368,
+      369,
+      370,
+      371,
+      372,
+      373
+    ],
+    "boundary_reason": "Inspection complete, shifts to cream cartons",
+    "origin_chunk": 2
+  },
+  {
+    "id": 39,
+    "start": 77719,
+    "end": 77745,
+    "text": "I carry the cream cartons to the kitchen to check their nutrition table.",
+    "refs": [
+      374,
+      375,
+      376,
+      377,
+      378,
+      379
+    ],
+    "boundary_reason": "Task complete, shifts to other ingredients",
+    "origin_chunk": 2
+  },
+  {
+    "id": 40,
+    "start": 77776,
+    "end": 77806,
+    "text": "I inspect baking ingredients for tomorrow's cooking.",
+    "refs": [
+      380,
+      381,
+      382,
+      383,
+      384
+    ],
+    "boundary_reason": "Inspection complete, shifts to cleaning up",
+    "origin_chunk": 2
+  },
+  {
+    "id": 41,
+    "start": 77806,
+    "end": 77828,
+    "text": "I retrieve a white plastic bag from the hallway cabinet.",
+    "refs": [
+      385,
+      386,
+      387,
+      388,
+      389
+    ],
+    "boundary_reason": "Bag retrieved, shifts to packing trash",
+    "origin_chunk": 2
+  },
+  {
+    "id": 42,
+    "start": 77829,
+    "end": 77865,
+    "text": "I pack empty cardboard boxes and bubble wrap into a white plastic bag.",
+    "refs": [
+      390,
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400
+    ],
+    "boundary_reason": "Packing complete, shifts to inspecting remaining items",
+    "origin_chunk": 2
+  },
+  {
+    "id": 43,
+    "start": 77866,
+    "end": 77880,
+    "text": "I inspect a white delivery sack and a sushi box.",
+    "refs": [
+      401,
+      402,
+      403
+    ],
+    "boundary_reason": "Inspection complete, shifts to leaving apartment",
+    "origin_chunk": 2
+  },
+  {
+    "id": 44,
+    "start": 77881,
+    "end": 77895,
+    "text": "I leave the apartment to enter the corridor.",
+    "refs": [
+      404,
+      405,
+      406,
+      407
+    ],
+    "boundary_reason": "Enters corridor",
+    "origin_chunk": 2
+  },
+  {
+    "id": 45,
+    "start": 77926,
+    "end": 77938,
+    "text": "I return to the apartment from the fire exit corridor.",
+    "refs": [
+      408,
+      409,
+      410,
+      411
+    ],
+    "boundary_reason": "Returns to apartment",
+    "origin_chunk": 2
+  },
+  {
+    "id": 46,
+    "start": 77938,
+    "end": 77967,
+    "text": "I observe a woman cleaning the apartment.",
+    "refs": [
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419
+    ],
+    "boundary_reason": "Observation complete, shifts to checking MacBook",
+    "origin_chunk": 2
+  },
+  {
+    "id": 47,
+    "start": 77968,
+    "end": 78035,
+    "text": "I read WeChat messages about a farewell lunch on my MacBook.",
+    "refs": [
+      420,
+      421,
+      422,
+      423,
+      424,
+      425,
+      426,
+      427,
+      428,
+      429,
+      430
+    ],
+    "boundary_reason": "Reading complete, shifts to preparing to leave",
+    "origin_chunk": 2
+  },
+  {
+    "id": 48,
+    "start": 78036,
+    "end": 78057,
+    "text": "I secure the room to go downstairs.",
+    "refs": [
+      431,
+      432,
+      433,
+      434,
+      435,
+      436,
+      437,
+      438
+    ],
+    "boundary_reason": "End of recording",
+    "origin_chunk": 2
+  }
+]

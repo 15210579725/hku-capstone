@@ -1,0 +1,18 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible pairs to identify continuations of the exact same immediate task across batch edges. Pair 24-25 transitions from physical consumption to conversing, which constitutes a distinct task despite the related topic. Pair 41-42 continues the physical interaction and consumption of the takeout noodles on the bench, so they are merged.",
+  "merges": [
+    [
+      41,
+      42,
+      "I eat and prepare my takeout noodles on an outdoor bench.",
+      "Same noodle meal interaction continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

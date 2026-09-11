@@ -1,0 +1,36 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group episodes into overarching phases based on major goals and locations: document editing, a dinner invitation trigger, a cafeteria meal, and a complete fitness center visit.",
+  "events": [
+    [
+      "0-2",
+      "I finalize my Feishu document sections regarding action prediction and environmental influences.",
+      "Work concludes to prepare for dinner"
+    ],
+    [
+      "3",
+      "I invite my office colleagues to eat dinner.",
+      "Trigger event initiating a location and activity change for dinner"
+    ],
+    [
+      "4-6",
+      "I share a dinner meal discussing AI and image processing with my colleagues at the cafeteria.",
+      "Dinner concludes and the location changes for the gym"
+    ],
+    [
+      "7-19",
+      "I complete a fitness center workout session with my companion.",
+      "Workout session concludes with departure from the gym"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      3
+    ],
+    "boundary_cautions": []
+  }
+}
+```

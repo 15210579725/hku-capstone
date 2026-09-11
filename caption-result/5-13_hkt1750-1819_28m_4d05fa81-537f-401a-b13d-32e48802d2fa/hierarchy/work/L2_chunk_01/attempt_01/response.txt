@@ -1,0 +1,149 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks, abstracting incidental observations, brief waiting, and device switches. Separate distinct tasks like navigation, phone usage, physical adjustments, and package pickups, unless they seamlessly overlap as a single cohesive activity.",
+  "events": [
+    [
+      "0-7",
+      "I walk through the library and exit onto the outdoor terrace.",
+      "Leaves the library building to the terrace"
+    ],
+    [
+      "8-13",
+      "I walk along the footbridge and covered pedestrian walkway.",
+      "Stops to check phone"
+    ],
+    [
+      "14-17",
+      "I message babe on WeChat about a flow matching algorithm.",
+      "Puts phone away to resume navigation"
+    ],
+    [
+      "18-22",
+      "I walk along the Upper University Street corridor.",
+      "Pauses to adjust backpack"
+    ],
+    [
+      "23-28",
+      "I adjust my backpack and inspect the zipper on my floral pouch.",
+      "Finishes adjusting bag and focuses on walking"
+    ],
+    [
+      "29-32",
+      "I walk toward and enter the building corridor.",
+      "Arrives at the elevator"
+    ],
+    [
+      "33-39",
+      "I wait for and enter the elevator.",
+      "Transitions to using phone while in the elevator"
+    ],
+    [
+      "40-46",
+      "I check my email and message babe on WeChat in the elevator.",
+      "Elevator ride ends and user leaves"
+    ],
+    [
+      "47-62",
+      "I walk along the covered footbridge toward the HKU Station elevator lobby.",
+      "Arrives at the HKU station elevator"
+    ],
+    [
+      "63-71",
+      "I take the HKU Station elevator down to the ground floor.",
+      "Exits the elevator at the ground floor"
+    ],
+    [
+      "72-80",
+      "I walk along the sidewalk past a school and bus stop.",
+      "Reaches a descending concrete staircase"
+    ],
+    [
+      "81-89",
+      "I descend a long flight of concrete stairs to the lower street level.",
+      "Reaches the sidewalk at the bottom of the stairs"
+    ],
+    [
+      "90-104",
+      "I step over a guardrail and walk downhill along the sloped sidewalk.",
+      "Enters an open concrete plaza"
+    ],
+    [
+      "105-117",
+      "I walk across an open concrete plaza and descend stairs.",
+      "Enters a sloped alleyway"
+    ],
+    [
+      "118-128",
+      "I walk down a sloped alley past shops and restaurants.",
+      "Reaches a pedestrian crossing"
+    ],
+    [
+      "129-138",
+      "I cross Hill Road and walk along the sunny sidewalk.",
+      "Turns into an alleyway"
+    ],
+    [
+      "139-155",
+      "I navigate through an alleyway and indoor corridor to the Cainiao Post Station.",
+      "Enters the Cainiao station"
+    ],
+    [
+      "156-166",
+      "I enter the Cainiao Post Station and check my Taobao parcel tracking.",
+      "Starts interacting with staff for pickup"
+    ],
+    [
+      "167-176",
+      "I pick up my package from the Cainiao staff and leave the station.",
+      "Begins browsing phone while walking"
+    ],
+    [
+      "177-185",
+      "I browse Taobao and message babe on WeChat about snorkeling and fireflies while walking.",
+      "Exits the building to the street"
+    ],
+    [
+      "186-195",
+      "I walk out to the street and inspect my package label.",
+      "Reaches a pedestrian crossing"
+    ],
+    [
+      "196-203",
+      "I cross the street and walk past storefronts.",
+      "Stops to open the package"
+    ],
+    [
+      "204-210",
+      "I unwrap my package to inspect a black clip while walking through an alleyway.",
+      "Finishes inspecting clip and reaches the next pickup shop"
+    ],
+    [
+      "211-220",
+      "I retrieve another parcel at a pickup shop using an SMS code.",
+      "Finishes parcel pickup and leaves"
+    ],
+    [
+      "221-233",
+      "I walk through the alleyway and along Queen's Road West past market stalls.",
+      "Reaches a pedestrian crossing"
+    ],
+    [
+      "234-244",
+      "I cross the street and walk to the Wellcome supermarket.",
+      "Enters the supermarket"
+    ],
+    [
+      "245-249",
+      "I enter the Wellcome supermarket and browse the packaged vegetables.",
+      "End of input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

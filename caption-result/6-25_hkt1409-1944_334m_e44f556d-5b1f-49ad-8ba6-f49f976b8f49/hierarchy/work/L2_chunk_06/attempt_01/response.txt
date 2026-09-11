@@ -1,0 +1,156 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group bedroom and bathroom preparation tasks by distinct actions. Group the departure and trash disposal sequence. Abstract the walk to the station into logical segments based on location changes (residential courtyard, promenades, fountain plaza, colonnade, commercial building lobby). Group station entry, platform navigation, map examination, and train waiting into discrete tasks. Group the train ride into boarding, app browsing, watching documentary segments, and exiting. Group the final arrival actions into messaging and meeting a friend.",
+  "events": [
+    [
+      "1250-1251",
+      "I turn on the bathroom faucet and exit the bathroom.",
+      "Action completes upon exiting the bathroom"
+    ],
+    [
+      "1252-1260",
+      "I walk around my bedroom holding a tool.",
+      "Pacing ends when returning to the bathroom"
+    ],
+    [
+      "1261-1272",
+      "I return to the bathroom to put away a toothbrush and wash my hands.",
+      "Hygiene task completes when heading to the bedroom"
+    ],
+    [
+      "1273-1281",
+      "I read evaluation notes and script details on my laptop.",
+      "Reading session completes upon standing up"
+    ],
+    [
+      "1282-1289",
+      "I interact with my wallet and place a glass bottle on the desk before opening the bedroom door.",
+      "Bedroom preparation completes upon heading to the kitchen"
+    ],
+    [
+      "1290-1298",
+      "I take a trash bag from the kitchen and throw it away in the stairwell refuse bin.",
+      "Trash disposal completes upon throwing the bag in the bin"
+    ],
+    [
+      "1299-1304",
+      "I walk to the elevator lobby and wait for the elevator.",
+      "Waiting completes when the elevator arrives"
+    ],
+    [
+      "1305-1314",
+      "I ride the elevator down to the ground floor lobby while checking my phone.",
+      "Elevator ride completes upon exiting into the lobby"
+    ],
+    [
+      "1315-1324",
+      "I exit the building and walk through the courtyard to the adjacent tower entrance.",
+      "Courtyard navigation completes upon reaching the next residential area"
+    ],
+    [
+      "1325-1343",
+      "I walk along the outdoor residential stone pathways and promenades.",
+      "Walking phase transitions to a crowded paved walkway"
+    ],
+    [
+      "1344-1363",
+      "I follow other pedestrians along the outdoor paved walkways.",
+      "Walking phase transitions to the fountain courtyard"
+    ],
+    [
+      "1364-1376",
+      "I walk through the fountain courtyard and garden paths.",
+      "Courtyard navigation completes upon reaching the colonnade"
+    ],
+    [
+      "1377-1387",
+      "I walk through a stone colonnade and enter a commercial building.",
+      "Colonnade navigation completes upon entering the building"
+    ],
+    [
+      "1388-1395",
+      "I navigate the building lobby and ride the escalators down.",
+      "Lobby navigation transitions to phone usage on the next escalator"
+    ],
+    [
+      "1396-1403",
+      "I message my partner on WeChat and browse my phone while riding the escalator.",
+      "Phone messaging completes upon stepping off the escalator"
+    ],
+    [
+      "1404-1412",
+      "I walk from the building exit to the MTR transit station entrance.",
+      "Walk completes upon entering the station corridor"
+    ],
+    [
+      "1413-1419",
+      "I ride the escalator down to the station concourse.",
+      "Escalator ride completes upon reaching the concourse"
+    ],
+    [
+      "1420-1426",
+      "I pass through the fare gates and walk along the MTR platform.",
+      "Platform entry completes when stopping to observe the train"
+    ],
+    [
+      "1427-1431",
+      "I observe an MTR train and the surrounding residential buildings.",
+      "Observation completes when turning to examine the map boards"
+    ],
+    [
+      "1432-1442",
+      "I examine the MTR route maps and tourist attraction index on the platform.",
+      "Map examination completes when approaching the platform doors"
+    ],
+    [
+      "1443-1446",
+      "I wait at the platform doors for passengers to alight from the train.",
+      "Waiting completes when boarding the train"
+    ],
+    [
+      "1447-1449",
+      "I board the MTR train and take a seat.",
+      "Boarding completes when seated and opening phone apps"
+    ],
+    [
+      "1450-1456",
+      "I browse video recommendations on the Bilibili app.",
+      "Browsing completes when starting a specific documentary video"
+    ],
+    [
+      "1457-1470",
+      "I watch a documentary video about UK energy debt enforcement on my phone.",
+      "Topic shifts after rotating the smartphone"
+    ],
+    [
+      "1471-1490",
+      "I watch a documentary segment about UK power grid privatization.",
+      "Video watching completes when preparing to exit the train"
+    ],
+    [
+      "1491-1492",
+      "I stand up and exit the MTR train.",
+      "Train exit completes upon leaving the car"
+    ],
+    [
+      "1493-1496",
+      "I message my partner on WeChat to announce my arrival at the station.",
+      "Messaging completes when walking towards the exit to meet a friend"
+    ],
+    [
+      "1497-1499",
+      "I walk along the station platform and reunite with my friend.",
+      "Meeting friend completes the sequence"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "1497-1499"
+    ],
+    "boundary_cautions": []
+  }
+}
+```

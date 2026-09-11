@@ -1,0 +1,54 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group L2 tasks into coherent episodes based on primary activity themes: WeChat communication, mixed application browsing and searching, a long period of rest, interacting with a housemate, and distinct thematic phases of media consumption.",
+  "events": [
+    [
+      "0-5",
+      "I communicate with babe on WeChat regarding meeting plans and short dramas.",
+      "Continuous conversation with a specific person on a single platform."
+    ],
+    [
+      "6-21",
+      "I browse Xianyu, Chrome, and WeChat for various listings and articles, including dramas, AI tools, and Zhuhai travel.",
+      "A continuous session of phone usage across multiple apps for varied information gathering."
+    ],
+    [
+      "22-26",
+      "I set an alarm, walk through the house, and rest in darkness, briefly outlining a research plan.",
+      "Groups the preparation for sleep and a long continuous period of resting."
+    ],
+    [
+      "27-30",
+      "I walk toward the kitchen, check my devices, and converse with User A about my smart glasses.",
+      "Continuous sequence of getting up, checking device status, and interacting with another person."
+    ],
+    [
+      "31-34",
+      "I review Claude Code pipeline debugging output on my MacBook and browse mixed content on Bilibili and Xiaohongshu.",
+      "Initial screen time session after resting, covering technical review and varied social media exploration."
+    ],
+    [
+      "35-48",
+      "I watch a series of Bilibili vlogs primarily focused on food preparation and cooking, briefly inspecting code.",
+      "Coherent episode of watching food-related video content on Bilibili."
+    ],
+    [
+      "49-59",
+      "I watch several Bilibili videos and vlogs focused on working life, daily labor, and economic conditions.",
+      "Coherent episode of watching socio-economic and working life video content on Bilibili."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "Setting an alarm and going to rest in darkness represents a major behavior shift.",
+      "Getting up and interacting with User A breaks the long resting period."
+    ],
+    "boundary_cautions": [
+      "Grouped sleep preparation tasks (22-23) directly with the main resting period (24-26) as they serve the unified objective of going to sleep."
+    ]
+  }
+}
+```

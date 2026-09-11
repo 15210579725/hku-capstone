@@ -1,0 +1,91 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group immediate tasks into coherent activity episodes based on primary locations, transport phases, shopping objectives, and distinct major work tasks.",
+  "events": [
+    [
+      "0-2",
+      "I gather my clothes and a device in my apartment.",
+      "Completes gathering items to leave the apartment."
+    ],
+    [
+      "3-9",
+      "I converse with babe on a WeChat video call departing my building.",
+      "Ends the video call, transitioning to focused navigation."
+    ],
+    [
+      "10-13",
+      "I walk along the streets departing the plaza toward the waterfront promenade.",
+      "Enters the waterfront promenade, changing the environment and activity."
+    ],
+    [
+      "14-32",
+      "I traverse the waterfront promenade observing the harbor skyline.",
+      "Leaves the promenade to navigate toward the tram stop."
+    ],
+    [
+      "33-37",
+      "I navigate to the tram stop via a pedestrian footbridge.",
+      "Arrives at the tram platform to wait for transport."
+    ],
+    [
+      "38-46",
+      "I wait on the tram platform observing traffic alongside a WeChat conversation with babe.",
+      "Boards the tram, ending the waiting period."
+    ],
+    [
+      "47-58",
+      "I ride the tram browsing the Xianyu app and observing the surroundings.",
+      "Exits the tram, ending the ride."
+    ],
+    [
+      "59-61",
+      "I walk from the tram stop toward the Wellcome supermarket.",
+      "Arrives at the supermarket to begin shopping."
+    ],
+    [
+      "62-64",
+      "I purchase bananas at the Wellcome supermarket.",
+      "Completes the purchase and exits the supermarket."
+    ],
+    [
+      "65-69",
+      "I navigate to my apartment building courtyard eating my banana.",
+      "Arrives at the apartment building elevators."
+    ],
+    [
+      "70-71",
+      "I enter my apartment via the building elevator.",
+      "Enters the apartment to begin home activities."
+    ],
+    [
+      "72-74",
+      "I complete kitchen chores involving the trash and water dispenser.",
+      "Trigger event abruptly interrupts the chores."
+    ],
+    [
+      "75",
+      "I abruptly relocate to the dining table to begin work upon remembering a task.",
+      "Standalone trigger shifting focus to a new major work task."
+    ],
+    [
+      "76-80",
+      "I refine my research architecture diagram with Claude managing minor background tasks.",
+      "Shifts from refining a diagram to reading a chapter and configuring a different Claude skill."
+    ],
+    [
+      "81-95",
+      "I summarize a WeChat Read chapter about eukaryote evolution by configuring a Claude skill.",
+      "End of the recorded session for this reading and summarization task."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      75
+    ],
+    "boundary_cautions": []
+  }
+}
+```

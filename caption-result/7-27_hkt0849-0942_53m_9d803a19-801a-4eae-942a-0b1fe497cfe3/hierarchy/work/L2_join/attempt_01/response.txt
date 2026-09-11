@@ -1,0 +1,11 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluated eligible pairs to determine if they represent the exact same immediate task interrupted by a batch boundary. Pair [31, 32] transitions from entering a gate to walking along the street, which are distinct immediate actions. Pair [56, 57] transitions from messaging on WeChat to working in Feishu, which are entirely different tasks. Neither pair continues the same immediate task.",
+  "merges": [],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

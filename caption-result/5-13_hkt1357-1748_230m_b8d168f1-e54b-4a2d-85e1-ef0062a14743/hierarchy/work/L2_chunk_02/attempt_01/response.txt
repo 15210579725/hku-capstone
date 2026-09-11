@@ -1,0 +1,156 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group sequential actions into distinct immediate tasks, abstracting incidental looks and minor repositioning. Boundaries are formed when the primary goal, tool, or location/target shifts, such as switching between eating and texting, completing a walking segment, or transitioning between distinct lecture slides.",
+  "events": [
+    [
+      "250-257",
+      "I eat a portion of food from my rice bowl.",
+      "Goal completes when setting chopsticks down to check smartphone"
+    ],
+    [
+      "258-265",
+      "I message babe on WeChat about the insurance industry.",
+      "Messaging completes when putting the phone down to drink soup"
+    ],
+    [
+      "266-274",
+      "I drink from my cup of soup.",
+      "Drinking completes when placing the cup down to use chopsticks"
+    ],
+    [
+      "275-292",
+      "I use my chopsticks to eat vegetables from my meal.",
+      "Goal completes when resting chopsticks to grab the soup cup"
+    ],
+    [
+      "293-295",
+      "I take a drink of soup from my cup.",
+      "Goal completes when setting the cup down to gather rice"
+    ],
+    [
+      "296-300",
+      "I gather the remaining chicken and rice in my bowl.",
+      "Goal completes when the bowl is empty and focus shifts to the soup"
+    ],
+    [
+      "301-313",
+      "I consume the remaining broth and vegetables in my soup cup.",
+      "Goal completes when setting the empty cup down and declaring being full"
+    ],
+    [
+      "314-319",
+      "I rest at the picnic table after finishing my meal.",
+      "Resting phase ends when turning to pack the backpack"
+    ],
+    [
+      "320-324",
+      "I pack my belongings to leave the dining patio.",
+      "Packing completes when picking up the food tray to depart"
+    ],
+    [
+      "325-332",
+      "I return my empty food tray at the cafeteria return counter.",
+      "Tray is returned and focus shifts to exiting the building"
+    ],
+    [
+      "333-339",
+      "I walk up the outdoor stairs to the elevated campus concourse.",
+      "Path transitions from the stairs to the flat brick walkway"
+    ],
+    [
+      "340-352",
+      "I walk along the covered brick pedestrian walkway.",
+      "Path transitions from the pergola walkway to the elevated bridge"
+    ],
+    [
+      "353-360",
+      "I walk along the elevated covered bridge approaching the Main Library.",
+      "Walking segment ends upon reaching the library entrance"
+    ],
+    [
+      "361-365",
+      "I pass through the facial recognition turnstiles to enter the Main Library.",
+      "Entry is authenticated and focus shifts to navigating to a desk"
+    ],
+    [
+      "366-372",
+      "I take a seat at a study desk in the library maker space.",
+      "Seating is secured and focus shifts to unpacking equipment"
+    ],
+    [
+      "373-379",
+      "I set up my MacBook Pro on the study desk.",
+      "Laptop is unpacked and unlocked for use"
+    ],
+    [
+      "380-384",
+      "I connect my wired earphones to my laptop.",
+      "Earphones are successfully plugged in and focus shifts to clothing"
+    ],
+    [
+      "385-386",
+      "I put on a red plaid shirt.",
+      "Shirt is on and focus returns to the laptop screen"
+    ],
+    [
+      "387-405",
+      "I operate a Claude Code agent session in my laptop terminal.",
+      "Terminal management completes and focus shifts to starting a video"
+    ],
+    [
+      "406-409",
+      "I start YouTube Lecture 3 on Flow Models on my laptop.",
+      "Video is opened in full screen to begin watching"
+    ],
+    [
+      "410-418",
+      "I watch the introductory segment of the Flow Models lecture video.",
+      "Introduction ends as the slide transitions to the Overview"
+    ],
+    [
+      "419-426",
+      "I watch the lecture slide giving an overview of generative models.",
+      "Slide focus pauses to plug in a power bank"
+    ],
+    [
+      "427-432",
+      "I plug a USB cable into a portable power bank.",
+      "Device is connected and focus returns to watching the lecture"
+    ],
+    [
+      "433-447",
+      "I watch the lecture video explain the characteristics of autoregressive models.",
+      "Explanation completes as the slide transitions to Flow Models"
+    ],
+    [
+      "448-455",
+      "I watch the lecture slide formulating the goals of Flow Models.",
+      "Slide explanation completes and transitions to the Outline"
+    ],
+    [
+      "456-464",
+      "I watch the lecture slide outlining the upcoming topics on flow models.",
+      "Outline review concludes as the slide transitions to a probability refresher"
+    ],
+    [
+      "465-481",
+      "I watch the lecture slide reviewing probability density models.",
+      "Probability refresher completes and the slide transitions to fitting density models"
+    ],
+    [
+      "482-499",
+      "I watch the lecture slide explaining how to fit a density model.",
+      "Batch ends while continuing to watch the explanation of fitting density models"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      324
+    ],
+    "boundary_cautions": []
+  }
+}
+```

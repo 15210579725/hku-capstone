@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Abstract the ride-hailing journey and in-car activities into a single travel phase, and the subsequent hotel arrival and room entry into a single settling phase.",
+  "events": [
+    [
+      "0-4",
+      "I travel by ride-hailing car to the Tangzhen subway station.",
+      "Arrival at the destination and disembarking concludes the journey"
+    ],
+    [
+      "5-6",
+      "I settle into hotel room 8220.",
+      "End of recording"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

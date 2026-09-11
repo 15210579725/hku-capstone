@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Merge adjacent L2 events across transport batches if they describe the exact same immediate task arbitrarily split.",
+  "merges": [
+    [
+      96,
+      97,
+      "I review AI model API pricing.",
+      "Review of model pricing continues across batch edge"
+    ],
+    [
+      137,
+      138,
+      "I purchase a blueberry cheesecake at the cafeteria.",
+      "Selecting and purchasing food forms a single transaction across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

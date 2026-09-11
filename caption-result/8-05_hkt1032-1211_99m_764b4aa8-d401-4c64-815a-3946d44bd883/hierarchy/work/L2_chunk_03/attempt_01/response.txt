@@ -1,0 +1,76 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group by immediate tasks defined by location changes (office, elevator, parking garage, cafeteria) and distinct sequential actions during meal purchase and consumption (selecting food, paying, carrying tray, inspecting food, eating, and conversing).",
+  "events": [
+    [
+      "500-615",
+      "I monitor the office workspace from my desk.",
+      "Sitting and observing office before leaving"
+    ],
+    [
+      "616-623",
+      "I walk from the office to the elevator.",
+      "Arrives at the elevator"
+    ],
+    [
+      "624-637",
+      "I ride the elevator down to the parking garage with colleagues.",
+      "Exits the elevator"
+    ],
+    [
+      "638-654",
+      "I navigate through the parking garage to the cafeteria building.",
+      "Exits the parking garage and enters the building"
+    ],
+    [
+      "655-665",
+      "I walk through the lounge to the central dining hall.",
+      "Arrives at the food counter"
+    ],
+    [
+      "666-681",
+      "I select fish, sweet potato, cauliflower, and soup at the cafeteria self-service counter.",
+      "Finishes selecting food"
+    ],
+    [
+      "682-696",
+      "I pay for my meal at the cashier using Alipay.",
+      "Payment completes"
+    ],
+    [
+      "697-700",
+      "I carry my food tray to a window-side dining table.",
+      "Arrives at table"
+    ],
+    [
+      "701-712",
+      "I inspect my food upon settling at the dining table.",
+      "Starts a new specific eating task"
+    ],
+    [
+      "713-721",
+      "I peel my roasted sweet potato.",
+      "Finishes peeling the sweet potato"
+    ],
+    [
+      "722-735",
+      "I eat my shrimp and cauliflower dishes with my dining companions.",
+      "Conversation topic shifts significantly"
+    ],
+    [
+      "736-749",
+      "I listen to my colleagues discuss coffee and dormitory arrangements over lunch.",
+      "End of input sequence"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": [
+      "Grouped 500-615 as a single immediate task because the wearer remains seated at the desk monitoring the workspace without executing any new distinct tasks."
+    ]
+  }
+}
+```

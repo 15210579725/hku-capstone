@@ -1,0 +1,159 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group immediate tasks by continuous location movement, specific app usage, distinct video content viewed, and interactions with companions.",
+  "events": [
+    [
+      "500-502",
+      "I suggest moving inside to avoid the heat.",
+      "Suggesting a location change"
+    ],
+    [
+      "503-507",
+      "I converse with my companions while looking around the seating area.",
+      "End of conversation before moving"
+    ],
+    [
+      "508-518",
+      "I walk through the dining area toward the exit doorway.",
+      "Exiting dining area"
+    ],
+    [
+      "519-521",
+      "I navigate the corridor and stairs.",
+      "Entering garage"
+    ],
+    [
+      "522-529",
+      "I follow my companions through the parking garage.",
+      "Change to reaching the elevator lobby door"
+    ],
+    [
+      "530-534",
+      "I walk past parked cars and watch my companion open the elevator lobby door.",
+      "Entering elevator lobby"
+    ],
+    [
+      "535-540",
+      "I select a floor after following my companions into the elevator.",
+      "Elevator doors close"
+    ],
+    [
+      "541-543",
+      "I observe the elevator notices and watch a woman exit.",
+      "Woman exits the elevator"
+    ],
+    [
+      "544-552",
+      "I listen to my companions converse in the elevator.",
+      "End of elevator ride conversation"
+    ],
+    [
+      "553-560",
+      "I check WeChat on my phone while walking to a round table to sit down.",
+      "Sitting down at table"
+    ],
+    [
+      "561-567",
+      "I read a WeChat article about Smallville LLM game agents.",
+      "Exiting article"
+    ],
+    [
+      "568-572",
+      "I browse WeChat Service Accounts updates.",
+      "Switching to Bilibili"
+    ],
+    [
+      "573-576",
+      "I open Bilibili and browse the recommendation feed.",
+      "Selecting a video to watch"
+    ],
+    [
+      "577-594",
+      "I watch a CCTV Agriculture Bilibili video about fertilizer prices and spring plowing.",
+      "End of video"
+    ],
+    [
+      "595-598",
+      "I watch a Bilibili video of MrBeast racing Usain Bolt.",
+      "Swiping to next videos"
+    ],
+    [
+      "599-604",
+      "I fast-forward and swipe through various short Bilibili videos.",
+      "Stopping on a specific video"
+    ],
+    [
+      "605-615",
+      "I watch a Journey to the West video and read danmu comments on Bilibili.",
+      "Swiping to next video"
+    ],
+    [
+      "616-622",
+      "I browse and fast-forward through several Bilibili videos.",
+      "Stopping on a specific video"
+    ],
+    [
+      "623-636",
+      "I watch a Bilibili video investigating river pollution.",
+      "Swiping to next videos"
+    ],
+    [
+      "637-650",
+      "I watch and fast-forward a Bilibili video about industrial chilis after swiping past a vlog.",
+      "End of video focus"
+    ],
+    [
+      "651-660",
+      "I scroll through the Bilibili recommendation feed and mark a video as not interested.",
+      "Switching to WeChat"
+    ],
+    [
+      "661-667",
+      "I chat with my babe on WeChat and view food photos.",
+      "Putting phone away"
+    ],
+    [
+      "668-675",
+      "I approach a round table to view my MacBook Pro.",
+      "Standing up to leave due to noise"
+    ],
+    [
+      "676-681",
+      "I leave the lounge and walk down the hallway after complaining about the noise.",
+      "Reaching elevator lobby"
+    ],
+    [
+      "682-687",
+      "I wait for the elevator in the lobby.",
+      "Elevator arrives"
+    ],
+    [
+      "688-694",
+      "I ride the elevator and roll a foam earplug.",
+      "Elevator doors open"
+    ],
+    [
+      "695-698",
+      "I walk down the corridor to the stairwell.",
+      "Starting to descend stairs"
+    ],
+    [
+      "699-701",
+      "I walk down the stairs while stating my intention to sleep.",
+      "Reaching the next floor corridor"
+    ],
+    [
+      "702-704",
+      "I walk along the corridor toward the green sofa.",
+      "End of provided inputs"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

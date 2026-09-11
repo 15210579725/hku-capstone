@@ -1,0 +1,29 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group the bicycle ride and building navigation into a single office travel phase, keep the prolonged WeChat video call as a distinct goal-oriented phase, and treat the final relocation to the desk as the concluding phase.",
+  "events": [
+    [
+      "0-1",
+      "I travel to the office.",
+      "Commute and navigation conclude to begin a stationary video call"
+    ],
+    [
+      "2",
+      "I conduct a WeChat video call from the staircase.",
+      "Call concludes and movement to the desk begins"
+    ],
+    [
+      "3",
+      "I relocate to my desk in the open-plan office.",
+      "End of input sequence"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

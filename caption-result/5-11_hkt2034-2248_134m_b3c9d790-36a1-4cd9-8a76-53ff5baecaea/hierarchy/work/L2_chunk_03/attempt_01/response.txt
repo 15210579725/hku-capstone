@@ -1,0 +1,106 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group actions into immediate tasks based on the specific math calculation being performed, the application being used (Notepad, Chrome, ChatGPT, PDF), or the distinct stage of handling the paper review interruption (phone messaging, checking MDPI portals, reading Outlook emails, and sharing screenshots).",
+  "events": [
+    [
+      "0-16",
+      "I calculate the first power iteration vector V^1 on a notepad.",
+      "Finishes writing the V^1 vector and moves on to calculate the next iteration."
+    ],
+    [
+      "17-32",
+      "I calculate the subsequent power iteration vectors V^2 and V_3.",
+      "Finishes calculating V_3 and switches to part (b) of the exam problem."
+    ],
+    [
+      "33-42",
+      "I derive the Rayleigh quotient eigenvalue formula for problem 3(b) on paper.",
+      "Finishes writing the eigenvalue equation and switches to a browser to calculate the numerical value."
+    ],
+    [
+      "43-49",
+      "I compute the numerical value of the eigenvalue expression using the Chrome address bar.",
+      "Finishes the browser calculation and returns to reviewing handwritten math notes."
+    ],
+    [
+      "50-66",
+      "I verify my handwritten eigenvalue calculation against the assignment.",
+      "Finishes verifying the calculation and starts re-reading the next part of the problem."
+    ],
+    [
+      "67-73",
+      "I review part (b) of the linear algebra problem in the PDF document.",
+      "Finishes reviewing the problem and opens ChatGPT for assistance."
+    ],
+    [
+      "74-83",
+      "I study ChatGPT's derivation and power iteration steps for problem (b).",
+      "Finishes reading ChatGPT's answer and switches back to the exam PDF."
+    ],
+    [
+      "84-93",
+      "I review the problem instructions and my notes to prepare for the PCA and SVD questions.",
+      "Finishes reading the new problem and prompts ChatGPT for an explanation."
+    ],
+    [
+      "94-116",
+      "I study the Singular Value Decomposition (SVD) process using ChatGPT.",
+      "Interrupted by a phone notification regarding a paper review."
+    ],
+    [
+      "117-135",
+      "I address phone notifications and WeChat messages concerning a paper review.",
+      "Finishes checking phone messages and opens the review link on the laptop."
+    ],
+    [
+      "136-148",
+      "I inspect the paper review report on the MDPI reviewer portal.",
+      "Finishes checking the portal and opens Outlook to search for the official email."
+    ],
+    [
+      "149-170",
+      "I read the Major Revision decision email from MDPI Entropy in Outlook.",
+      "Finishes reading the email and navigates to the MDPI SuSy portal for more details."
+    ],
+    [
+      "171-190",
+      "I examine the detailed manuscript status and reviewer comments on the MDPI SuSy portal.",
+      "Finishes examining the portal and picks up the phone to summarize the feedback."
+    ],
+    [
+      "191-201",
+      "I summarize the reviewers' feedback into a WeChat group chat on my phone.",
+      "Finishes sending the summary and sets down the phone to use the laptop."
+    ],
+    [
+      "202-218",
+      "I review the reviewer reports on my laptop to share a relevant screenshot in Feishu.",
+      "Finishes sharing the screenshot and resumes reading the SVD math explanation on ChatGPT."
+    ],
+    [
+      "219-227",
+      "I resume studying the SVD calculation steps on ChatGPT.",
+      "Finishes reading the steps and prepares the physical workspace to solve the math problem."
+    ],
+    [
+      "228-235",
+      "I set up my earplugs and notes to continue solving the math assignment.",
+      "Finishes setting up the workspace and starts writing down calculations."
+    ],
+    [
+      "236-249",
+      "I write down the SVD eigenvalues and eigenvectors on my notepad based on ChatGPT's explanation.",
+      "Final action in the batch."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      117
+    ],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,34 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group episodes into broader functional phases: the initial commute to the store, the main shopping trip, dining at the food court, and the final multi-leg commute away from the store.",
+  "events": [
+    [
+      "0-2",
+      "I commute from the mall to Costco via a ride-hailing vehicle.",
+      "Arrival at Costco and transition into the store for shopping"
+    ],
+    [
+      "3-10",
+      "I shop for merchandise and groceries at Costco.",
+      "Completion of checkout and transition to the food court"
+    ],
+    [
+      "11-12",
+      "I dine with my companion at the Costco food court.",
+      "Completion of the meal and exit from the store"
+    ],
+    [
+      "13-18",
+      "I commute from Costco via a ride-hailing vehicle and the subway.",
+      "End of recording"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

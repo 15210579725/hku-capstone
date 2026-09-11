@@ -1,0 +1,158 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group L1 action briefs into continuous L2 immediate tasks based on shared primary objectives, physical movements, or distinct conversational topics. A sequence of anomalous timestamps near the end is grouped separately to maintain chronological integrity of the main timeline.",
+  "events": [
+    [
+      "2000-2012",
+      "I walk along the outdoor promenade and plaza past pedestrians, the Clock Tower, and construction barricades.",
+      "Approaching the staircase to the upper deck"
+    ],
+    [
+      "2013-2020",
+      "I look at an outdoor staircase and discuss going up to the upper deck with my companion.",
+      "Resuming walking towards the pier"
+    ],
+    [
+      "2021-2031",
+      "I walk across the plaza and along the covered bus terminus platform past queuing commuters.",
+      "Approaching a retail kiosk to buy a drink"
+    ],
+    [
+      "2032-2040",
+      "I purchase a bottle of Cestbon water from a retail kiosk with my companion.",
+      "Purchase completed, walking away"
+    ],
+    [
+      "2041-2048",
+      "I follow my companion along the covered ferry pier corridor past various shops.",
+      "Starting a conversation about the purchased drinks"
+    ],
+    [
+      "2049-2059",
+      "I converse with my companion about our drinks while walking into the Star Ferry concourse.",
+      "Exiting into the open plaza"
+    ],
+    [
+      "2060-2066",
+      "I walk across the open plaza towards McDonald's and observe the queuing crowd and smell of durian.",
+      "Deciding to buy food"
+    ],
+    [
+      "2067-2077",
+      "I converse with my companion about buying food at McDonald's and checking my Octopus card balance.",
+      "Arriving at the dessert kiosk stairs"
+    ],
+    [
+      "2078-2086",
+      "I observe the McDonald's dessert kiosk and staff bringing supplies.",
+      "Joining the queue on the stairs"
+    ],
+    [
+      "2087-2097",
+      "I wait in the queue for the dessert ordering kiosk and discuss food options with my companion.",
+      "Brief shift in attention to friends and billboard"
+    ],
+    [
+      "2098-2099",
+      "I chat with friends while looking at a large LED concert billboard in the outdoor plaza.",
+      "Returning to the queue conversation"
+    ],
+    [
+      "2100-2109",
+      "I discuss McDonald's reward points and spending with my companion in the queue.",
+      "Opening the app to select a coupon"
+    ],
+    [
+      "2110-2119",
+      "I watch my companion browse and select a McNuggets coupon on the McDonald's app.",
+      "Stepping forward to the counter"
+    ],
+    [
+      "2120-2129",
+      "I wait at the McDonald's dessert kiosk counter as my companion receives her durian sundae.",
+      "Leaving the counter to go inside"
+    ],
+    [
+      "2130-2136",
+      "I walk down the staircase into the main McDonald's ordering lobby.",
+      "Approaching the self-ordering kiosk"
+    ],
+    [
+      "2137-2146",
+      "I help my companion scan her McDonald's app discount coupon QR code at the self-ordering kiosk.",
+      "Coupon scanned, beginning meal selection"
+    ],
+    [
+      "2147-2158",
+      "I browse the self-ordering kiosk menu and select a $49 18-piece McNuggets meal.",
+      "Proceeding to checkout"
+    ],
+    [
+      "2159-2169",
+      "I proceed to checkout and select mobile payment at the self-ordering kiosk.",
+      "Payment completed, waiting for receipt"
+    ],
+    [
+      "2170-2173",
+      "I converse with my companion and collect my printed receipt from the kiosk.",
+      "Moving away from the kiosk"
+    ],
+    [
+      "2174-2178",
+      "I discuss a location and phone signal with my companion.",
+      "Topic shifts to the ice cream"
+    ],
+    [
+      "2179-2191",
+      "I eat ice cream fed by my companion and discuss buying frozen durian puree packs online.",
+      "Topic shifts to seating and the receipt"
+    ],
+    [
+      "2192-2200",
+      "I agree to sit at Harbour City and discuss the extra charge on the McDonald's receipt with my companion.",
+      "Topic shifts to photos"
+    ],
+    [
+      "2201-2203",
+      "I view photos on a phone and discuss a friend eating zongzi.",
+      "Checking the order status"
+    ],
+    [
+      "2204-2211",
+      "I check the order status screen and remark on the wait time while my companion eats ice cream.",
+      "Opening Taobao to search"
+    ],
+    [
+      "2212-2230",
+      "I search for frozen durian puree on Taobao and show the product options to my companion.",
+      "Putting phone away, returning to joking"
+    ],
+    [
+      "2231-2244",
+      "I converse with my companion about making ice cream at home while she eats her dessert.",
+      "Conversation pauses, looking around"
+    ],
+    [
+      "2245,2249",
+      "I observe the customers and service desk in the queue area near the pickup counter.",
+      "End of observations"
+    ],
+    [
+      "2246-2248",
+      "I say it is time to go and read an article about Claude Code on my device.",
+      "Anomalous clip ends"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [
+      "Clips 2246-2248 contain anomalous out-of-order timestamps (20:28 instead of 21:59-22:00) and structurally unrelated content. They have been grouped together as an independent task."
+    ],
+    "major_triggers": [
+      "Deciding to buy chicken nuggets at McDonald's (2067)"
+    ],
+    "boundary_cautions": []
+  }
+}
+```

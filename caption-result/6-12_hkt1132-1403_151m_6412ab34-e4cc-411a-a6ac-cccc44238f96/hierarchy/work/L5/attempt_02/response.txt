@@ -1,0 +1,47 @@
+{
+  "target_level": "L5",
+  "plan": "The recording consists of distinct major activities that alternate between work, chores, dining, and leisure. I will keep each L4 phase separate because they represent fundamental shifts in overarching goals and locations (workspace setup -> independent work -> chores/ordering -> collaborative work -> eating -> collaborative work -> leisure). I will abstract the post-meal cleanup into the major meal activity.",
+  "events": [
+    [
+      ["0"],
+      "I prepare my workspace with an assembled office chair and desk accessories.",
+      "Distinct major activity for workspace setup"
+    ],
+    [
+      ["1"],
+      "I perform independent computer work on action prediction cases and API billing.",
+      "Distinct major activity for independent work"
+    ],
+    [
+      ["2"],
+      "I handle household chores and coordinate a KFC lunch order with my roommate.",
+      "Distinct major activity for chores and meal coordination"
+    ],
+    [
+      ["3"],
+      "I collaborate with my companion on evaluating action annotation cases and scoring rules.",
+      "Distinct major activity for collaborative work prior to the meal"
+    ],
+    [
+      ["4"],
+      "I share a KFC takeout meal with my roommate.",
+      "Distinct major activity for the meal, abstracting cleanup"
+    ],
+    [
+      ["5"],
+      "I instruct my companion on evaluation guidelines and rubric options.",
+      "Distinct major activity for resumed collaborative work post-meal"
+    ],
+    [
+      ["6"],
+      "I browse Bilibili on my smartphone.",
+      "Distinct leisure activity separating from the work session"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}

@@ -1,0 +1,41 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group L2 events into coherent episodes: dining, testing equipment, the departure trigger, travel preparation, and the subsequent street transit.",
+  "events": [
+    [
+      "0-1",
+      "I consume my meal at the restaurant dining table.",
+      "Dining activity concludes, shifting focus to equipment."
+    ],
+    [
+      "2",
+      "I test the framing on my DJI Osmo Pocket camera.",
+      "Equipment test is interrupted by a departure suggestion."
+    ],
+    [
+      "3",
+      "I discuss leaving the restaurant with my companion.",
+      "Behavior-changing trigger to leave the current location."
+    ],
+    [
+      "4-6",
+      "I prepare to travel to Xiawan Market Snack Street.",
+      "Preparation concludes as we leave the restaurant."
+    ],
+    [
+      "7-8",
+      "I interact with mobile devices on the night street.",
+      "End of provided input."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      3
+    ],
+    "boundary_cautions": []
+  }
+}
+```

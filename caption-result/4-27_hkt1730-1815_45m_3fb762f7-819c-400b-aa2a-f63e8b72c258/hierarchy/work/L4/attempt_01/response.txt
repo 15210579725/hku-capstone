@@ -1,3 +1,29 @@
 ```json
-{"target_level":"L4","plan":"Group the L3 episodes into three major phases of the commute: traveling from the origin to the transit station, the primary transit journey itself, and navigating from the destination station to the final location.","events":[["0-1","I walk from the Festival City residential area to the MTR station platform.","Arrival at the boarding platform"],["2-4","I commute on MTR trains to the HKU station.","Disembarking the train at the destination station"],["5-6","I walk from the HKU MTR station across the university campus to the Main Library.","Arrival at the final destination"]],"audit":{"complete":true,"uncertainties":[],"major_triggers":[],"boundary_cautions":[]}}
+{
+  "target_level": "L4",
+  "plan": "Group the L3 episodes into three broader phases of the commute: reaching the initial train platform, completing the multi-leg MTR train journey, and navigating from the destination station to the final location.",
+  "events": [
+    [
+      "0-1",
+      "I travel from my residential area to the MTR station platform.",
+      "Groups walking to the station and navigating the concourse to reach the boarding point"
+    ],
+    [
+      "2-4",
+      "I transit via the MTR system to HKU station.",
+      "Groups the train rides and the platform transfer into one continuous subway transit phase"
+    ],
+    [
+      "5-6",
+      "I navigate from the HKU MTR station to the university Main Library.",
+      "Groups exiting the transit station and walking across campus to the final destination"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
 ```

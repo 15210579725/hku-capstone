@@ -1,0 +1,32 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group the continuous technical conversation into one episode, the brief workstation laptop check into a second episode, and the relocation to the armchair to check the phone into the final episode.",
+  "events": [
+    [
+      "0-16",
+      "I discuss AI agent simulation, multimodal visual processing, and model training methodologies with my colleague.",
+      "The discussion concludes when the colleague departs, prompting a location change."
+    ],
+    [
+      "17-18",
+      "I check my laptop at my workstation.",
+      "Completion of the workstation task initiates a relocation to a seating area."
+    ],
+    [
+      "19-22",
+      "I review my phone alarms from a window-facing armchair.",
+      "End of recording."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": [
+      "0-16: Merged into a single episode despite natural topic shifts because it represents one continuous interaction and overarching goal with the same colleague.",
+      "19-22: Abstracted the corridor transit (19) into the armchair destination activity as it serves the broader goal of relocating to rest and check the phone."
+    ]
+  }
+}
+```

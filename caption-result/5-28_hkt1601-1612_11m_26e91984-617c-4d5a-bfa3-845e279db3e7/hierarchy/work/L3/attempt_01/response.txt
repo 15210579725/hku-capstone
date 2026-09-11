@@ -1,0 +1,41 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group the initial paper study tasks into one continuous reading episode, abstracting the incidental vibration. Group the subsequent phone usage in the dining area into a digital review episode, absorbing a brief look at table items. Keep the prolonged physical inspection of the casing and jar as a distinct episode. Isolate the health discussion as a major behavior-changing trigger that redirects the wearer's overarching plan. Group the final sequence of shutting the laptop, moving, and adjusting the environment into a unified sleep preparation episode.",
+  "events": [
+    [
+      "0-5",
+      "I read the 'Modeling Cognitive-Affective Processes' paper on alphaXiv.",
+      "Reading session concludes as focus shifts to a new location."
+    ],
+    [
+      "6-15",
+      "I review WeChat, email, and Pinduoduo on my phone in the dining area.",
+      "Focus shifts from digital phone browsing to examining physical objects."
+    ],
+    [
+      "16-17",
+      "I inspect a grey device casing and a Nutella jar.",
+      "Activity is interrupted by a health-related trigger."
+    ],
+    [
+      "18",
+      "I discuss my dizziness and need for sleep with my roommate.",
+      "Major behavior-changing trigger that initiates a new plan to rest."
+    ],
+    [
+      "19-22",
+      "I prepare my bedroom and belongings for sleep.",
+      "End of recorded sequence."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      18
+    ],
+    "boundary_cautions": []
+  }
+}
+```

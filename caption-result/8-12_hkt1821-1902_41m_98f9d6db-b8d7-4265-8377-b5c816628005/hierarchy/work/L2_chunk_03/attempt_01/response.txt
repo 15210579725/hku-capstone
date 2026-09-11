@@ -1,0 +1,46 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions with a single immediate objective, isolating the major trigger where the companion initiates departure.",
+  "events": [
+    [
+      "500-504",
+      "I survey the gym environment during a conversation about boxing.",
+      "Transitions to using a specific machine"
+    ],
+    [
+      "505-508",
+      "I exercise on the elliptical trainer.",
+      "Interrupted by companion's instruction to leave"
+    ],
+    [
+      "509",
+      "I hear my companion initiate our departure.",
+      "Major trigger redirecting behavior to leaving the gym"
+    ],
+    [
+      "510-513",
+      "I collect my belongings from the cardio area.",
+      "Preparation to leave complete; movement towards exit begins"
+    ],
+    [
+      "514-515",
+      "I walk toward the gym exit.",
+      "Stops walking to inspect an item"
+    ],
+    [
+      "516-517",
+      "I inspect my white hoodie with surprise.",
+      "End of input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "509"
+    ],
+    "boundary_cautions": []
+  }
+}
+```

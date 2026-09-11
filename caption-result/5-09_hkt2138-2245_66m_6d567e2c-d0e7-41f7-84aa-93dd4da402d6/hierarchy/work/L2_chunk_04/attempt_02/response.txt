@@ -1,0 +1,59 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks based on the primary object of interaction, such as alternating between the printed menu and smartphone, and significant shifts in conversation topics or navigational activities.",
+  "events": [
+    [
+      "750-766",
+      "I evaluate various dish options including mango changfen on the printed menu with my companion.",
+      "Shifts from evaluating the printed menu to checking group-buying packages on the smartphone."
+    ],
+    [
+      "767-774",
+      "I review Meituan group-buying packages on my smartphone to discuss dining choices with my companion.",
+      "Shifts from reviewing smartphone packages back to browsing specific categories on the printed menu."
+    ],
+    [
+      "775-782",
+      "I examine the printed menu for seafood, congee, and cold appetizers.",
+      "Shifts to a focused discussion on a specific boiled shrimp request from the companion."
+    ],
+    [
+      "783-797",
+      "I verify the absence of boiled shrimp in the smartphone set meal details to confirm an a la carte order with my companion.",
+      "Concludes the shrimp discussion and resumes general browsing of the printed menu."
+    ],
+    [
+      "798-801",
+      "I browse the printed menu to review vegetable and signature dishes.",
+      "Shifts attention from the printed menu to a modal on the companion's phone screen."
+    ],
+    [
+      "802-804",
+      "I inspect a deletion modal on my companion's phone screen.",
+      "Temporal jump and location change to riding a bicycle outside."
+    ],
+    [
+      "805-808",
+      "I ride a yellow shared bike on the sidewalk behind my friend.",
+      "Temporal jump to a smartphone navigation task."
+    ],
+    [
+      "809-816",
+      "I monitor the smartphone navigation route to guide my movement alongside my bicycle-riding companion.",
+      "Temporal jump to riding a bicycle in a different location."
+    ],
+    [
+      "817-820",
+      "I converse with my friend during a bicycle ride along a paved bike lane.",
+      "End of provided input."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

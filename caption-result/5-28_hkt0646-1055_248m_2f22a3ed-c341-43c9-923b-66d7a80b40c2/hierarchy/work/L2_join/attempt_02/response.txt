@@ -1,0 +1,36 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Merge adjacent L2 events across transport batches only if they represent a continuous, uninterrupted execution of the exact same immediate task (e.g., continuing to read about the same topic, continuing to watch the same video series, or continuing the same setup/purchase action).",
+  "merges": [
+    [
+      73,
+      74,
+      "I read X posts about multi-agent drone racing and reinforcement learning.",
+      "Same reading activity about drone racing continues across batch edge"
+    ],
+    [
+      108,
+      109,
+      "I watch Genesis World 1.0 robotics and sensing demonstration videos.",
+      "Same video watching activity continues across batch edge"
+    ],
+    [
+      153,
+      154,
+      "I use a self-service kiosk to order and purchase my breakfast.",
+      "Same kiosk interaction and breakfast purchase continues across batch edge"
+    ],
+    [
+      166,
+      167,
+      "I set up my MacBook and earphones at an Innovation Centre workstation.",
+      "Same workstation setup activity continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

@@ -1,0 +1,114 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions with a single immediate objective. Separate distinct immediate goals such as managing food preparation, joining a specific meeting, reading emails, terminal debugging, and unpacking groceries. Avoid using conjunctions to list consecutive actions.",
+  "events": [
+    [
+      "1000-1003",
+      "I eat a sandwich in the kitchen.",
+      "Subject shifts to inspecting other kitchen items."
+    ],
+    [
+      "1004-1010",
+      "I inspect food items on the kitchen counter.",
+      "Subject shifts to managing the stove."
+    ],
+    [
+      "1011-1013",
+      "I stir boiling noodles on the stove.",
+      "Subject moves to the dining table."
+    ],
+    [
+      "1014-1016",
+      "I check phone notifications at the dining table.",
+      "Subject shifts to setting up a laptop application."
+    ],
+    [
+      "1017-1044",
+      "I join a Feishu meeting for '论文等投必中的小圈'.",
+      "Meeting joined; subject briefly searches backpack."
+    ],
+    [
+      "1045-1048",
+      "I inspect a metal clip from my backpack.",
+      "Subject returns focus to the meeting and computer."
+    ],
+    [
+      "1049-1050",
+      "I monitor the Feishu meeting at my desk.",
+      "Subject shifts to checking emails."
+    ],
+    [
+      "1051-1066",
+      "I review MDPI manuscript comments via an Outlook email link.",
+      "Task shifts to chatting on phone."
+    ],
+    [
+      "1067-1089",
+      "I discuss a meeting schedule in Feishu and Lark chats.",
+      "Chat concludes; subject returns to MDPI dashboard."
+    ],
+    [
+      "1090-1094",
+      "I access a manuscript review report on the MDPI author dashboard.",
+      "Subject shifts focus to the Claude Code terminal."
+    ],
+    [
+      "1095-1132",
+      "I evaluate speech diarization benchmark scripts in the Claude Code terminal.",
+      "Terminal session pauses to set a phone alarm."
+    ],
+    [
+      "1133-1139",
+      "I set a phone alarm for 7:55 PM.",
+      "Alarm set; subject resumes terminal task."
+    ],
+    [
+      "1140-1172",
+      "I instruct Claude Code on AI model comparisons and updated audio processing scripts.",
+      "Terminal task submitted; subject checks phone."
+    ],
+    [
+      "1173-1177",
+      "I monitor phone notifications and my laptop screen.",
+      "Subject leaves desk to cook."
+    ],
+    [
+      "1178-1194",
+      "I manage boiled noodles and a meal packet on the stove.",
+      "Task shifts to preparing vegetables."
+    ],
+    [
+      "1195-1202",
+      "I add a sliced tomato to my noodle bowl.",
+      "Task shifts to preparing eggs."
+    ],
+    [
+      "1203-1224",
+      "I prepare boiled eggs for my noodles at the kitchen sink.",
+      "Task shifts to adding seasoning."
+    ],
+    [
+      "1225-1234",
+      "I manage my noodle seasoning and the boiling retort pouch on the stove.",
+      "Task shifts to unpacking groceries."
+    ],
+    [
+      "1235-1243",
+      "I store freshly unpacked groceries.",
+      "Groceries unpacked; subject returns to the stove."
+    ],
+    [
+      "1244-1249",
+      "I cool the retrieved meal pouch under running water.",
+      "Meal pouch processing concludes the input."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

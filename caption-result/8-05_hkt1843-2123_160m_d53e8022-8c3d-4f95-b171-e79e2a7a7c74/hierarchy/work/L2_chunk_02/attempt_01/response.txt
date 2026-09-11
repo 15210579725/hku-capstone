@@ -1,0 +1,104 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions sharing a unified immediate task, such as specific conversation topics, walking segments, tool interactions, and desk activities.",
+  "events": [
+    [
+      "250-280",
+      "I converse with my companion about PhD student recruitment and costs while walking in the park.",
+      "Shifts to discussing affective computing and advisor age preferences."
+    ],
+    [
+      "281-292",
+      "I discuss affective computing and my preference for younger PhD advisors with my companion.",
+      "Shifts to discussing a past internship."
+    ],
+    [
+      "293-306",
+      "I discuss my past internship researching eye-tracking and curiosity at the Institute of Psychology with my companion.",
+      "Shifts to discussing a specific person's capabilities."
+    ],
+    [
+      "307-315",
+      "I discuss User X's work efficiency with my companion while walking towards the road.",
+      "Shifts to discussing project progress."
+    ],
+    [
+      "316-337",
+      "I discuss data cleaning and model evaluation progress with my companion while walking.",
+      "Arrives at the campus turnstile gate."
+    ],
+    [
+      "338-344",
+      "I walk through the turnstile gate onto the campus with User X.",
+      "Passes the gate and shifts to discussing David Tao's music."
+    ],
+    [
+      "345-361",
+      "I discuss David Tao's apology presentation with my companion while walking along the campus path.",
+      "Starts watching the mentioned apology video on my phone."
+    ],
+    [
+      "362-369",
+      "I watch a Douyin video of David Tao's apology press conference on my phone.",
+      "Finishes the video and resumes conversation."
+    ],
+    [
+      "370-375",
+      "I discuss asking a teacher for PhD advisor recommendations with my companion while walking toward the building entrance.",
+      "Arrives at the building entrance."
+    ],
+    [
+      "376-381",
+      "I enter the office building lobby and pass through the turnstiles.",
+      "Moves to take the elevator."
+    ],
+    [
+      "382-395",
+      "I ride the elevator to the 12th floor while discussing dining habits with my companion.",
+      "Arrives at the office workspace."
+    ],
+    [
+      "396-403",
+      "I arrive at my desk and check WeChat messages on my laptop.",
+      "Shifts to browsing WeChat Official Accounts."
+    ],
+    [
+      "404-408",
+      "I browse articles on WeChat Official Accounts.",
+      "Shifts to reviewing the POV Rollout Viewer."
+    ],
+    [
+      "409-415",
+      "I inspect the decision tree and advice in the POV Rollout Viewer.",
+      "Turns to show the laptop to a colleague."
+    ],
+    [
+      "416-461",
+      "I discuss the POV Rollout Viewer's predictions and my emotion data labeling process with a colleague while showing them my laptop screen.",
+      "Shifts to interacting with the tool interface to submit new text."
+    ],
+    [
+      "462-471",
+      "I interact with the POV Rollout Viewer interface to submit text clarifying my actions.",
+      "Switches to reading research notes in Feishu."
+    ],
+    [
+      "472-492",
+      "I explain how to debug VLM models using attention and gradient maps to my colleague based on Feishu research notes.",
+      "Shifts to discussing which models are currently being run."
+    ],
+    [
+      "493-499",
+      "I discuss the testing progress of various models with my colleague.",
+      "End of input."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

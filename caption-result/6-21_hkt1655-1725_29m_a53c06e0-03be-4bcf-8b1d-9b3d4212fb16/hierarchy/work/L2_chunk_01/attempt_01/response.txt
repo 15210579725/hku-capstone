@@ -1,0 +1,94 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks based on the primary object being handled or the active step in the cooking process (e.g., preparing meat, reading recipes, portioning noodles, slicing vegetables, searching for ingredients).",
+  "events": [
+    [
+      "0-4",
+      "I discuss cooking plans with my roommate.",
+      "Conversation ends, switching to meal preparation"
+    ],
+    [
+      "5-13",
+      "I prepare the packaged noodles for cooking.",
+      "Noodle prep ends, switching to handling raw meat"
+    ],
+    [
+      "14-28",
+      "I prepare the packaged pork for slicing.",
+      "Meat unpackaging and washing complete, switching to slicing"
+    ],
+    [
+      "29-52",
+      "I slice the raw meat into strips.",
+      "Meat slicing complete, switching to washing tools"
+    ],
+    [
+      "53-59",
+      "I switch from a cleaver to a chef's knife.",
+      "Tool switching complete, switching to vegetable preparation"
+    ],
+    [
+      "60-70",
+      "I wash the unpackaged green peppers.",
+      "Vegetable washing complete, switching to checking recipe"
+    ],
+    [
+      "71-76",
+      "I read a meat marinade recipe on my phone.",
+      "Recipe checking complete, switching to meat washing"
+    ],
+    [
+      "77-89",
+      "I rinse the sliced meat in a bowl.",
+      "Meat washing complete, switching to adding liquid seasonings"
+    ],
+    [
+      "90-117",
+      "I season the sliced meat with liquid condiments and sugar.",
+      "Liquid seasoning complete, switching to adding cornstarch"
+    ],
+    [
+      "118-133",
+      "I mix cornstarch into the seasoned meat.",
+      "Meat marination complete, switching to noodle handling"
+    ],
+    [
+      "134-155",
+      "I portion the cooked noodles into a bowl.",
+      "Noodle portioning complete, switching to slicing vegetables"
+    ],
+    [
+      "156-173",
+      "I slice the green chili peppers.",
+      "Vegetable slicing complete, switching to reading recipes"
+    ],
+    [
+      "174-194",
+      "I browse Xiaohongshu recipes for chili fried pork on my smartphone.",
+      "Recipe browsing complete, switching to cooking on the stove"
+    ],
+    [
+      "195-204",
+      "I transfer the chopped green peppers to the heated frying pan.",
+      "Initial pan preparation complete, interrupted by searching for MSG"
+    ],
+    [
+      "205-220",
+      "I locate the MSG with the help of my roommate.",
+      "MSG located, switching back to cooking on the stove"
+    ],
+    [
+      "221-249",
+      "I stir-fry the green peppers in the pan.",
+      "End of input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

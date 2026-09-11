@@ -1,0 +1,46 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Abstract L3 episodes into broader goal-oriented phases: dining, preliminary study in a booth, a behavior-changing trigger, focused academic research in a classroom, a squash session, and a subway commute.",
+  "events": [
+    [
+      "0-3",
+      "I consume a chicken rice meal with my companion at the dining hall.",
+      "Completed dining and disposal of meal items before relocating."
+    ],
+    [
+      "4-5",
+      "I research complex systems with my companion in a study booth.",
+      "Activity interrupted by a conversational trigger to refocus."
+    ],
+    [
+      "6",
+      "I hear a suggestion to study.",
+      "Standalone behavior-changing trigger that redirects the activity to a new location for focused work."
+    ],
+    [
+      "7-11",
+      "I conduct research on action prediction datasets and course materials in a classroom.",
+      "Completed academic study session and packed belongings to leave the building."
+    ],
+    [
+      "12-18",
+      "I engage in a squash session with my partner at the sports center.",
+      "Completed sports session, rested, and exited the facility."
+    ],
+    [
+      "19-21",
+      "I commute via the subway to the circular plaza.",
+      "End of provided recording."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      6
+    ],
+    "boundary_cautions": []
+  }
+}
+```

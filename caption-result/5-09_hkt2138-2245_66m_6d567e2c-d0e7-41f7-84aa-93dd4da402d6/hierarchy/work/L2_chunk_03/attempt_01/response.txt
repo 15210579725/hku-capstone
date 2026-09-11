@@ -1,0 +1,139 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous, unified immediate tasks such as riding along specific path segments, navigating the underpass, waiting at intersections, walking on the commercial street, and evaluating restaurants.",
+  "events": [
+    [
+      "500-505",
+      "I ride a shared bicycle along the road.",
+      "Continuous riding before arriving at the intersection."
+    ],
+    [
+      "506-525",
+      "I cross the intersection on my bicycle.",
+      "Starts with stopping at the intersection and ends after safely crossing."
+    ],
+    [
+      "526-538",
+      "I ride my bicycle along the road behind my companion.",
+      "Continuous riding following a companion."
+    ],
+    [
+      "539-548",
+      "I ride my bicycle along the sidewalk.",
+      "Continuous riding on pedestrian paths."
+    ],
+    [
+      "549-556",
+      "I ride my bicycle into the underpass entrance ramp.",
+      "Grouped by the decision and action to enter the underpass."
+    ],
+    [
+      "557-564",
+      "I navigate my bicycle down the underpass ramp.",
+      "Descending the ramp and pausing at the bottom."
+    ],
+    [
+      "565-578",
+      "I ride my bicycle through the underpass tunnel to exit onto the sidewalk.",
+      "Traversing the underground section and exiting."
+    ],
+    [
+      "579-586",
+      "I wait outside the underpass exit for my companion.",
+      "Standing still and observing the surroundings after exiting."
+    ],
+    [
+      "587-594",
+      "I reunite with my companion outside the underpass.",
+      "Companion arrives from the underpass."
+    ],
+    [
+      "595-601",
+      "I check the navigation map with my companion to determine our route.",
+      "Dedicated task of consulting the map for directions."
+    ],
+    [
+      "602-611",
+      "I ride my bicycle through an alleyway to a pedestrian crossing.",
+      "Continuous riding through specific small paths."
+    ],
+    [
+      "612-618",
+      "I follow my companion on my bicycle along the path.",
+      "Continuous riding on a dedicated path."
+    ],
+    [
+      "619-629",
+      "I ride my bicycle along the sidewalk to the next intersection.",
+      "Continuous riding ending with stopping at a major intersection."
+    ],
+    [
+      "630-647",
+      "I wait at the intersection with my companion.",
+      "Extended waiting period at the crosswalk."
+    ],
+    [
+      "648-654",
+      "I cross the intersection to resume riding my bicycle on the sidewalk.",
+      "Active crossing of the road."
+    ],
+    [
+      "655-664",
+      "I converse with my companion about cars during our bicycle ride.",
+      "Continuous riding characterized by a specific conversation topic."
+    ],
+    [
+      "665-675",
+      "I ride my bicycle past several auto repair shops and a hotel.",
+      "Continuous riding past specific commercial storefronts."
+    ],
+    [
+      "676-687",
+      "I ride my bicycle along the bike lane past a subway entrance.",
+      "Continuous riding past specific landmarks."
+    ],
+    [
+      "688-699",
+      "I ride my bicycle to a parking spot on the sidewalk.",
+      "The final segment of the bike ride ending at the destination parking area."
+    ],
+    [
+      "700-707",
+      "I return my shared bicycle at the parking spot with my companion.",
+      "Completing the bicycle rental process."
+    ],
+    [
+      "708-713",
+      "I evaluate a seafood restaurant's menu with my companion.",
+      "A brief task of inspecting a specific dining option before leaving."
+    ],
+    [
+      "714-726",
+      "I walk along the commercial street to evaluate other restaurant options.",
+      "Walking past multiple storefronts searching for a place to eat."
+    ],
+    [
+      "727-734",
+      "I walk along the quiet sidewalk with my companion.",
+      "Walking along the street accompanied by a conversation about the surroundings."
+    ],
+    [
+      "735-738",
+      "I cross the street with my companion.",
+      "A brief interaction followed immediately by crossing the road."
+    ],
+    [
+      "739-749",
+      "I inspect the menu at our restaurant table.",
+      "Entering the final destination and preparing to order food."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

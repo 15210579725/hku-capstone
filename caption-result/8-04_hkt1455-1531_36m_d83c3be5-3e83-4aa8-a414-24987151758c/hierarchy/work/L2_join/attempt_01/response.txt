@@ -1,0 +1,18 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible pairs to determine if an immediate task spans the batch boundary. Events 20 and 21 clearly represent the continuous task of drafting and submitting the same ChatGPT prompt regarding audio anonymization, so they should be merged.",
+  "merges": [
+    [
+      20,
+      21,
+      "I draft and submit a ChatGPT prompt clarifying my relaxed requirements for audio anonymization and transcription.",
+      "Same prompt drafting and submission continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

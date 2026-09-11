@@ -1,0 +1,56 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group immediate tasks into coherent cooking and dining episodes: initial noodle prep, slicing the main protein, preparing the marinade and vegetables, final ingredient staging, the main stir-frying action, flavor adjustment/seasoning, serving the dish, and consuming the meal.",
+  "events": [
+    [
+      "0-1",
+      "I prepare the packaged noodles for cooking following a discussion about cooking plans.",
+      "Completed initial discussion and noodle preparation"
+    ],
+    [
+      "2-4",
+      "I slice the packaged raw pork into strips using a chef's knife.",
+      "Completed slicing the raw pork"
+    ],
+    [
+      "5-9",
+      "I prepare the green peppers and the sliced meat marinade based on a smartphone recipe.",
+      "Completed preparing the green peppers and meat marinade"
+    ],
+    [
+      "10-11",
+      "I finalize the preparation of the cooked noodles and green chili peppers.",
+      "Completed the final ingredient preparation before cooking"
+    ],
+    [
+      "12-16",
+      "I stir-fry the green peppers, MSG, and marinated meat following a Xiaohongshu recipe.",
+      "Completed the initial stir-frying phase, shifting focus to detailed seasoning"
+    ],
+    [
+      "17-22",
+      "I adjust the flavor of the stir-fry using sugar, chicken powder, and table salt.",
+      "Completed cooking and seasoning the stir-fry"
+    ],
+    [
+      "23-25",
+      "I serve the cooked stir-fry over my noodles in the bedroom.",
+      "Completed serving the meal and routine cleanup"
+    ],
+    [
+      "26-27",
+      "I consume my noodle meal in the bedroom during a discussion about the meat's marinade.",
+      "End of the recorded meal consumption"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": [
+      "Separated the main stir-frying phase (12-16) from the extensive seasoning and flavor evaluation phase (17-22) to reflect distinct coherent episodes."
+    ]
+  }
+}
+```

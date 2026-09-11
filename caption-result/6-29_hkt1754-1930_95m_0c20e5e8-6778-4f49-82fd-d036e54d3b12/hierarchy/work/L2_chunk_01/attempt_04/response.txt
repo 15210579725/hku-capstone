@@ -1,0 +1,146 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group observations into immediate tasks based on continuous goals such as exiting the room, chatting on the phone, navigating the resort paths, arriving at the restaurant, setting up tableware, and the sequence of serving, eating, and conversational topics during the dinner.",
+  "events": [
+    [
+      "0-3",
+      "I exit the room via the glass patio door.",
+      "Finished exiting the room"
+    ],
+    [
+      "4-13",
+      "I discuss action prediction metrics in a WeChat group on my smartphone.",
+      "Finished messaging on the phone"
+    ],
+    [
+      "14-21",
+      "I remind User X about the keycard at the cabin entrance and wait for her to exit.",
+      "User X has exited and door handling is complete"
+    ],
+    [
+      "22-29",
+      "I examine the electric tricycles and carts near the cabins.",
+      "Conversation and attention shift to walking along the path"
+    ],
+    [
+      "30-38",
+      "I follow my companion along the path and observe the riverside scenery.",
+      "Turned off the main path toward the restaurant"
+    ],
+    [
+      "39-44",
+      "I follow my companion into the Mingshi Shanye Restaurant and approach a dining table.",
+      "Arrived at the dining table"
+    ],
+    [
+      "45-52",
+      "I sit at the dining table, unwrap my tableware set, and pour tea.",
+      "Finished initial seating and pouring tea"
+    ],
+    [
+      "53-62",
+      "I receive our food from the waitress and prepare my shrink-wrapped tableware.",
+      "Finished unwrapping tableware"
+    ],
+    [
+      "63-71",
+      "I watch my companion serve prawns and broth from the hot pot.",
+      "Companion begins serving soup into my bowl"
+    ],
+    [
+      "72-83",
+      "I joke with my companion while receiving a bowl of seafood soup.",
+      "Finished receiving the served soup"
+    ],
+    [
+      "84-93",
+      "I stir and taste my seafood soup.",
+      "Finished initial soup tasting"
+    ],
+    [
+      "94-100",
+      "I sort ingredients from my soup and question my companion about the large amount of shrimp.",
+      "Conversation shifts to daily meal frequency"
+    ],
+    [
+      "101-114",
+      "I discuss my daily meal count with my companion.",
+      "Conversation ends and attention shifts to the dishes"
+    ],
+    [
+      "115-125",
+      "I praise the pork ribs and read the restaurant wall menus.",
+      "Attention shifts to picking up new food items"
+    ],
+    [
+      "126-134",
+      "I eat cucumber and century egg from the plate.",
+      "Companion asks about the next destination"
+    ],
+    [
+      "135-143",
+      "I open map apps on my phone after my companion asks about our next destination.",
+      "Opened the map app"
+    ],
+    [
+      "144-155",
+      "I examine the Mingshi area on the map and discuss taking a bamboo raft on the river.",
+      "Topic shifts to the rafting area being closed"
+    ],
+    [
+      "156-168",
+      "I eat cucumber while my companion explains that the rafting area is closed.",
+      "Conversation concludes"
+    ],
+    [
+      "169-178",
+      "I praise the pork ribs and watch my companion eat.",
+      "Attention shifts back to the phone"
+    ],
+    [
+      "179-183",
+      "I check travel times on my phone map and rotate the turntable.",
+      "Companion begins serving more soup"
+    ],
+    [
+      "184-194",
+      "I eat soup after my companion serves me more broth.",
+      "Finished eating the recent serving of soup"
+    ],
+    [
+      "195-211",
+      "I eat rice and vegetables while observing my companion eat.",
+      "Shifted to observing remaining dishes"
+    ],
+    [
+      "212-224",
+      "I eat rice and observe the remaining dishes on the table.",
+      "Shifted to drinking broth"
+    ],
+    [
+      "225-233",
+      "I drink broth and discuss the taste of the tofu with my companion.",
+      "Finished tofu discussion"
+    ],
+    [
+      "234-240",
+      "I look around the restaurant and mention Guilin to my companion.",
+      "Began handling food again"
+    ],
+    [
+      "241-249",
+      "I pick up meat from the lotus petal dish and discuss Guilin with my companion.",
+      "End of provided input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "135"
+    ],
+    "boundary_cautions": []
+  }
+}
+```

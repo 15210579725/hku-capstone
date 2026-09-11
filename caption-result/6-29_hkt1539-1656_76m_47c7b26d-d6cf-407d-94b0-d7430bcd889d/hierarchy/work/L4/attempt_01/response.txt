@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group the vehicle journey, including a rest stop and driving through weather, into a single travel phase. Group the parking, shuttle transfer, and cabin entry into an arrival and settling phase.",
+  "events": [
+    [
+      "0-2",
+      "I drive my vehicle to the resort.",
+      "Driving phase concludes upon parking at the resort"
+    ],
+    [
+      "3-5",
+      "I settle into my assigned resort cabin.",
+      "Arrival and transfer phase completes upon entering the cabin"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

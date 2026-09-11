@@ -1,3 +1,86 @@
 ```json
-{"target_level":"L2","plan":"Group continuous, related action briefs into immediate tasks such as discrete topics of conversation, eating episodes, observing surroundings, settling the bill, packing, and segments of walking/navigating. Break boundaries when the primary focus shifts (e.g., from conversation to eating, observing, or navigating).","events":[["3000-3004","I converse with my companion over green tea.","Conversation pauses as my attention shifts to the restaurant surroundings"],["3005-3009","I scan the restaurant interior.","Observation ends to start a new discussion"],["3010-3015","I converse with my companion about restaurant locations.","Conversation topic shifts from restaurant locations to caloric restriction"],["3016-3021","I discuss caloric restriction with User A.","Discussion pauses for me to eat"],["3022-3024","I eat rice from a bowl.","Eating pauses for further conversation"],["3025-3037","I converse with my companion about our meal.","Conversation ends to pay the bill"],["3038-3047","I pay the meal bill at the cashier.","Payment is completed and I return to the table"],["3048-3049","I eat from a small bowl.","Eating finishes to start a new discussion"],["3050-3056","I discuss a food blogger's monetization model with my companion.","Discussion topic concludes"],["3057-3062","I interact with my companion over tea.","Conversation pauses to look around"],["3063-3064","I observe the restaurant interior.","Observation ends to discuss spicy food"],["3065-3068","I converse with my companion about eating spicy food.","Discussion concludes and I look around"],["3069-3073","I scan the restaurant interior.","Observation ends to discuss tomorrow's plans"],["3074-3079","I discuss my schedule for tomorrow with my companion.","Planning discussion concludes"],["3080-3085","I observe my companion packing her belongings.","Companion finishes packing"],["3086-3098","I prepare to leave the restaurant.","Preparation to leave is complete"],["3099-3103","I exit the restaurant onto the sidewalk.","Exit from the restaurant is complete"],["3104-3116","I navigate with a map application on my phone.","Navigation task completes"],["3117-3124","I converse with my companion on the sidewalk.","Conversation pauses to observe storefronts"],["3125-3138","I observe the street environment during my walk.","Observation pauses to check the map application"],["3139-3147","I check a map application on my phone during my walk.","Map check completes"],["3148-3157","I observe my surroundings on the sidewalk.","Observation shifts to waiting at the crosswalk"],["3158-3165","I wait at a pedestrian crossing with my companion.","Crossing wait finishes"],["3166-3170","I follow my companions along the sidewalk.","Walking focus shifts to crossing the intersection"],["3171-3176","I cross a street intersection.","Intersection crossing completes"],["3177-3183","I inspect various storefronts on the sidewalk.","Storefront inspection ends to tell a story"],["3184-3189","I tell my companion a story about a class during my walk.","Story concludes upon approaching the supermarket"],["3190-3195","I approach a PARKnSHOP supermarket to buy a cucumber.","Supermarket entrance is reached"]],"audit":{"complete":true,"uncertainties":[],"major_triggers":[],"boundary_cautions":[]}}
+{
+  "target_level": "L2",
+  "plan": "Group consecutive action briefs into immediate tasks based on the primary unified objective. For the restaurant segment, group by conversation topic, eating, and the distinct payment task. For the transit segment, group by navigational focus, continuous observation, street crossings, and storytelling. The decision to buy cucumbers constitutes a new major goal and triggers a distinct boundary.",
+  "events": [
+    [
+      "0-15",
+      "I discuss restaurant locations with my companion over tea.",
+      "Topic shifts to caloric restriction"
+    ],
+    [
+      "16-26",
+      "I discuss caloric restriction with my companion during the meal.",
+      "Topic shifts to finishing food"
+    ],
+    [
+      "27-37",
+      "I joke with my companion about finishing our food.",
+      "Stands up to pay the bill"
+    ],
+    [
+      "38-46",
+      "I pay the $248.0 meal bill at the restaurant counter using a student discount.",
+      "Payment complete, returns to table"
+    ],
+    [
+      "47-68",
+      "I discuss a food blogger and spicy food with my companion over a small bowl of food.",
+      "Conversation pauses, begins discussing future plans"
+    ],
+    [
+      "69-83",
+      "I discuss tomorrow's plans with my companion at the restaurant table.",
+      "Meal concludes, prepares to depart"
+    ],
+    [
+      "84-94",
+      "I prepare to leave the restaurant for a friend's house.",
+      "Starts packing backpack"
+    ],
+    [
+      "95-103",
+      "I exit the restaurant onto the sidewalk with my packed backpack.",
+      "Begins walking on the sidewalk"
+    ],
+    [
+      "104-115",
+      "I navigate toward the subway station using Google Maps.",
+      "Navigation complete, continues walking"
+    ],
+    [
+      "116-157",
+      "I observe my surroundings on the sidewalk.",
+      "Arrives at pedestrian crossing"
+    ],
+    [
+      "158-165",
+      "I interact with my companion at the pedestrian crossing.",
+      "Crossing interaction complete"
+    ],
+    [
+      "166-183",
+      "I inspect storefront window displays on the street.",
+      "Starts recounting a story"
+    ],
+    [
+      "184-189",
+      "I recount a class story to my companion on the sidewalk.",
+      "Spots supermarket and changes goal"
+    ],
+    [
+      "190-195",
+      "I approach the PARKnSHOP supermarket entrance to buy cucumbers.",
+      "End of input sequence"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "Deciding to purchase cucumbers at the PARKnSHOP supermarket"
+    ],
+    "boundary_cautions": []
+  }
+}
 ```

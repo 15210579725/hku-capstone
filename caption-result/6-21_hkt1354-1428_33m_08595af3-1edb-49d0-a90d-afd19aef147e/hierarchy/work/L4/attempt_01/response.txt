@@ -1,0 +1,32 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group continuous AI-assisted design and coding tasks into a unified development phase. Separate the subsequent phone break and the final task refinement due to their distinct goals and major behavioral triggers (expressing fatigue, intending to sleep).",
+  "events": [
+    [
+      "0-3",
+      "I generate project assets including puzzle diagrams, room layouts, and Python scripts using AI and design tools.",
+      "Shift from computer-based project development to leisure activities on the phone."
+    ],
+    [
+      "4",
+      "I browse social media on my phone after telling my roommate about my fatigue.",
+      "Brief return to the computer to finalize a work task."
+    ],
+    [
+      "5",
+      "I refine an AI image generation prompt on my computer before stating my intention to sleep.",
+      "Final action ending with a stated intention to sleep."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "telling my roommate I am tired",
+      "stating my intention to sleep"
+    ],
+    "boundary_cautions": []
+  }
+}
+```

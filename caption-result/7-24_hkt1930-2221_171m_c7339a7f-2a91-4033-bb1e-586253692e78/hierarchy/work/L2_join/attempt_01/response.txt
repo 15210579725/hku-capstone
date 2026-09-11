@@ -1,0 +1,48 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Review eligible boundary pairs to merge those that demonstrably continue the same immediate task (e.g., continuous riding, same purchase transaction, or unbroken app usage). Distinct actions and conversational topics at the boundaries will remain unmerged.",
+  "merges": [
+    [
+      31,
+      32,
+      "I ride the electric scooter along the river pathway and converse with my companion about the surroundings.",
+      "Continuous riding on the same path"
+    ],
+    [
+      63,
+      64,
+      "I inspect a smart telescope and Anker Liberty 5 Pro Max earbuds with their charging case.",
+      "Continuous examination of Anker products"
+    ],
+    [
+      90,
+      91,
+      "I ride the electric scooter along a pedestrian pathway.",
+      "Continuous riding along the pathway"
+    ],
+    [
+      117,
+      118,
+      "I ride the electric scooter along the road.",
+      "Continuous riding along the road"
+    ],
+    [
+      137,
+      138,
+      "I purchase drinks, including a 7 RMB jasmine milk green tea, at the Mixue Bingcheng counter.",
+      "Same drink purchase transaction continues across the batch edge"
+    ],
+    [
+      188,
+      189,
+      "I review Tesla Model Y rental terms and browse listings on Didi Car Rental despite my phone crashing.",
+      "Continuous browsing of the Didi Car Rental app"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

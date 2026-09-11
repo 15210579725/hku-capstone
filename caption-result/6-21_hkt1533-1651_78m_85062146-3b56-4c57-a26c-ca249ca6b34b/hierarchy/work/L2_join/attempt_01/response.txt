@@ -1,0 +1,30 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible boundary pairs to merge those that continue the exact same immediate task across transport batches.",
+  "merges": [
+    [
+      24,
+      25,
+      "I rest in bed.",
+      "Same resting period continues across batch edge"
+    ],
+    [
+      45,
+      46,
+      "I review the action prediction storyboard in Figma.",
+      "Same Figma storyboard review continues across batch edge"
+    ],
+    [
+      64,
+      65,
+      "I review the action-prediction storyboard in Figma.",
+      "Same Figma storyboard review continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

@@ -1,0 +1,18 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Review eligible boundary pairs to identify where the exact same immediate task continues across a batch edge. Do not merge distinct sequential actions, topic changes, or related but separate tasks.",
+  "merges": [
+    [
+      89,
+      90,
+      "I ride a shared bicycle along the street to meet my companion.",
+      "Bicycle riding continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

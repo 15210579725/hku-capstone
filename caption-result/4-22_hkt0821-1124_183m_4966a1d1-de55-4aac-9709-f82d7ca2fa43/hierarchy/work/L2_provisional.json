@@ -3,7 +3,7 @@
     "id": 0,
     "start": 30072,
     "end": 30124,
-    "text": "I pack my laptop and accessories into my backpack.",
+    "text": "I pack my MacBook, a USB-C hub, and paper into my floral backpack.",
     "refs": [
       0,
       1,
@@ -15,34 +15,44 @@
       7,
       8
     ],
-    "boundary_reason": "Packing task is complete",
+    "boundary_reason": "Completes packing the backpack.",
     "origin_chunk": 1
   },
   {
     "id": 1,
     "start": 30125,
     "end": 30137,
-    "text": "I walk out of my apartment with my phone.",
+    "text": "I walk through my apartment, pick up my phone, and exit to the elevator lobby.",
     "refs": [
       9,
       10,
       11,
       12
     ],
-    "boundary_reason": "Leaves the apartment",
+    "boundary_reason": "Arrives at the elevator lobby.",
     "origin_chunk": 1
   },
   {
     "id": 2,
     "start": 30137,
-    "end": 30215,
-    "text": "I ride the elevator down to the ground floor lobby.",
+    "end": 30170,
+    "text": "I call and wait for the elevator.",
     "refs": [
       13,
       14,
       15,
       16,
-      17,
+      17
+    ],
+    "boundary_reason": "Elevator arrives.",
+    "origin_chunk": 1
+  },
+  {
+    "id": 3,
+    "start": 30171,
+    "end": 30215,
+    "text": "I ride the elevator down to the ground floor lobby.",
+    "refs": [
       18,
       19,
       20,
@@ -51,28 +61,28 @@
       23,
       24
     ],
-    "boundary_reason": "Exits the elevator",
+    "boundary_reason": "Reaches the ground floor lobby.",
     "origin_chunk": 1
   },
   {
-    "id": 3,
+    "id": 4,
     "start": 30216,
     "end": 30233,
-    "text": "I exit the building courtyard onto the street sidewalk.",
+    "text": "I exit the building courtyard through the security gate to the street.",
     "refs": [
       25,
       26,
       27,
       28
     ],
-    "boundary_reason": "Transitions from building premises to public street",
+    "boundary_reason": "Exits the building to the street.",
     "origin_chunk": 1
   },
   {
-    "id": 4,
+    "id": 5,
     "start": 30234,
-    "end": 30306,
-    "text": "I walk down the sloping street to a descending pedestrian ramp.",
+    "end": 30472,
+    "text": "I walk down sloping sidewalks, outdoor staircases, and pedestrian pathways past storefronts.",
     "refs": [
       29,
       30,
@@ -86,17 +96,7 @@
       38,
       39,
       40,
-      41
-    ],
-    "boundary_reason": "Path transitions from sidewalk to a ramp",
-    "origin_chunk": 1
-  },
-  {
-    "id": 5,
-    "start": 30307,
-    "end": 30431,
-    "text": "I walk down a pedestrian ramp and outdoor staircase to a sloped street.",
-    "refs": [
+      41,
       42,
       43,
       44,
@@ -110,33 +110,33 @@
       52,
       53,
       54,
-      55
-    ],
-    "boundary_reason": "Descends pedestrian infrastructure to street level",
-    "origin_chunk": 1
-  },
-  {
-    "id": 6,
-    "start": 30432,
-    "end": 30479,
-    "text": "I inspect a McDonald's entrance while walking along the sidewalk.",
-    "refs": [
+      55,
       56,
       57,
       58,
       59,
-      60,
+      60
+    ],
+    "boundary_reason": "Pauses at a McDonald's doorway.",
+    "origin_chunk": 1
+  },
+  {
+    "id": 6,
+    "start": 30472,
+    "end": 30479,
+    "text": "I briefly step into a McDonald's doorway and return to the sidewalk.",
+    "refs": [
       61,
       62
     ],
-    "boundary_reason": "Resumes walking after checking the entrance",
+    "boundary_reason": "Returns to walking on the street.",
     "origin_chunk": 1
   },
   {
     "id": 7,
     "start": 30479,
-    "end": 30552,
-    "text": "I walk along the sidewalk to the Hill Road pedestrian crossing.",
+    "end": 30588,
+    "text": "I walk along the sidewalk, crossing the street and passing shops and scaffolding.",
     "refs": [
       63,
       64,
@@ -151,39 +151,29 @@
       73,
       74,
       75,
-      76
-    ],
-    "boundary_reason": "Stops to wait at a major crossing",
-    "origin_chunk": 1
-  },
-  {
-    "id": 8,
-    "start": 30552,
-    "end": 30611,
-    "text": "I walk along the street to a tram platform.",
-    "refs": [
+      76,
       77,
       78,
       79,
       80,
       81,
-      82,
+      82
+    ],
+    "boundary_reason": "Arrives at the tram tracks crossing.",
+    "origin_chunk": 1
+  },
+  {
+    "id": 8,
+    "start": 30588,
+    "end": 30691,
+    "text": "I cross the tram tracks at a pedestrian crossing while observing intersection traffic.",
+    "refs": [
       83,
       84,
       85,
       86,
       87,
-      88
-    ],
-    "boundary_reason": "Enters the tram platform area",
-    "origin_chunk": 1
-  },
-  {
-    "id": 9,
-    "start": 30612,
-    "end": 30683,
-    "text": "I navigate across the street and tram tracks at the pedestrian crossing.",
-    "refs": [
+      88,
       89,
       90,
       91,
@@ -195,18 +185,18 @@
       97,
       98,
       99,
-      100
+      100,
+      101
     ],
-    "boundary_reason": "Completes crossing the street",
+    "boundary_reason": "Completes crossing the tram tracks.",
     "origin_chunk": 1
   },
   {
-    "id": 10,
-    "start": 30684,
-    "end": 30791,
-    "text": "I walk along the sidewalk past parked trucks and a construction area.",
+    "id": 9,
+    "start": 30692,
+    "end": 30821,
+    "text": "I walk past parked delivery trucks and unloading workers toward the waterfront promenade entrance.",
     "refs": [
-      101,
       102,
       103,
       104,
@@ -219,39 +209,39 @@
       111,
       112,
       113,
-      114
-    ],
-    "boundary_reason": "Steps off the sidewalk onto the street",
-    "origin_chunk": 1
-  },
-  {
-    "id": 11,
-    "start": 30792,
-    "end": 30830,
-    "text": "I observe the parked delivery trucks and construction area near the promenade entrance.",
-    "refs": [
+      114,
       115,
       116,
       117,
       118,
       119,
-      120,
+      120
+    ],
+    "boundary_reason": "Arrives at the promenade entrance plaza.",
+    "origin_chunk": 1
+  },
+  {
+    "id": 10,
+    "start": 30822,
+    "end": 30833,
+    "text": "I observe the construction area and entrance plaza at the harborfront promenade.",
+    "refs": [
       121,
       122,
       123,
       124,
-      125
+      125,
+      126
     ],
-    "boundary_reason": "Transitions to walking onto the promenade",
+    "boundary_reason": "Begins walking on the elevated promenade.",
     "origin_chunk": 1
   },
   {
-    "id": 12,
-    "start": 30831,
-    "end": 30905,
-    "text": "I walk along the elevated waterfront promenade to a wooden viewing pier.",
+    "id": 11,
+    "start": 30834,
+    "end": 30911,
+    "text": "I walk along the elevated waterfront promenade deck to a wooden viewing pier.",
     "refs": [
-      126,
       127,
       128,
       129,
@@ -265,18 +255,18 @@
       137,
       138,
       139,
-      140
+      140,
+      141
     ],
-    "boundary_reason": "Arrives at the viewing pier",
+    "boundary_reason": "Arrives at the viewing pier and stops.",
     "origin_chunk": 1
   },
   {
-    "id": 13,
-    "start": 30906,
+    "id": 12,
+    "start": 30912,
     "end": 30945,
-    "text": "I observe the waterfront scenery from the wooden deck.",
+    "text": "I observe the harbor view from the open pier and mention needing shelter.",
     "refs": [
-      141,
       142,
       143,
       144,
@@ -285,29 +275,29 @@
       147,
       148
     ],
-    "boundary_reason": "Shifts focus to retrieving items",
+    "boundary_reason": "Shifts to unpacking the laptop.",
+    "origin_chunk": 1
+  },
+  {
+    "id": 13,
+    "start": 30946,
+    "end": 30956,
+    "text": "I take my MacBook out of my backpack and open it.",
+    "refs": [
+      149,
+      150,
+      151
+    ],
+    "boundary_reason": "Laptop is ready for use.",
     "origin_chunk": 1
   },
   {
     "id": 14,
-    "start": 30946,
-    "end": 30961,
-    "text": "I take out and unlock my laptop.",
+    "start": 30957,
+    "end": 31071,
+    "text": "I consult ChatGPT for methods to hide or customize the macOS menu bar clock.",
     "refs": [
-      149,
-      150,
-      151,
-      152
-    ],
-    "boundary_reason": "Prepares the laptop for use",
-    "origin_chunk": 1
-  },
-  {
-    "id": 15,
-    "start": 30962,
-    "end": 31151,
-    "text": "I consult ChatGPT to learn how to customize the macOS menu bar clock.",
-    "refs": [
+      152,
       153,
       154,
       155,
@@ -319,7 +309,17 @@
       161,
       162,
       163,
-      164,
+      164
+    ],
+    "boundary_reason": "Shifts to navigating System Settings.",
+    "origin_chunk": 1
+  },
+  {
+    "id": 15,
+    "start": 31071,
+    "end": 31241,
+    "text": "I navigate macOS System Settings to explore language and time format options.",
+    "refs": [
       165,
       166,
       167,
@@ -328,17 +328,7 @@
       170,
       171,
       172,
-      173
-    ],
-    "boundary_reason": "Shifts to specific language configuration",
-    "origin_chunk": 1
-  },
-  {
-    "id": 16,
-    "start": 31152,
-    "end": 31332,
-    "text": "I use macOS System Settings to change my primary language to Arabic.",
-    "refs": [
+      173,
       174,
       175,
       176,
@@ -350,7 +340,17 @@
       182,
       183,
       184,
-      185,
+      185
+    ],
+    "boundary_reason": "Shifts to adding a specific language.",
+    "origin_chunk": 1
+  },
+  {
+    "id": 16,
+    "start": 31242,
+    "end": 31348,
+    "text": "I add Arabic as a preferred language and input source in macOS System Settings.",
+    "refs": [
       186,
       187,
       188,
@@ -358,18 +358,18 @@
       190,
       191,
       192,
-      193
+      193,
+      194
     ],
-    "boundary_reason": "Language change is complete",
+    "boundary_reason": "Shifts to screensaver settings.",
     "origin_chunk": 1
   },
   {
     "id": 17,
-    "start": 0,
-    "end": 31451,
-    "text": "I adjust my macOS screensaver settings based on ChatGPT's instructions.",
+    "start": 31349,
+    "end": 31426,
+    "text": "I consult ChatGPT and adjust macOS screensaver timing and visual options.",
     "refs": [
-      194,
       195,
       196,
       197,
@@ -382,22 +382,22 @@
       204,
       205,
       206,
-      207,
-      208,
-      209,
-      210,
-      211,
-      212
+      207
     ],
-    "boundary_reason": "Shifts to reviewing wallpaper and clock settings",
+    "boundary_reason": "Shifts to lock screen and wallpaper settings.",
     "origin_chunk": 1
   },
   {
     "id": 18,
-    "start": 31452,
-    "end": 31519,
-    "text": "I review the macOS wallpaper and clock appearance settings.",
+    "start": 31427,
+    "end": 31511,
+    "text": "I configure macOS wallpaper and clock appearance settings using ChatGPT and lock my screen.",
     "refs": [
+      208,
+      209,
+      210,
+      211,
+      212,
       213,
       214,
       215,
@@ -406,19 +406,19 @@
       218,
       219,
       220,
-      221,
-      222,
-      223
+      221
     ],
-    "boundary_reason": "Shifts from system settings to reading math content",
+    "boundary_reason": "Shifts to reading mathematical derivations.",
     "origin_chunk": 1
   },
   {
     "id": 19,
-    "start": 31520,
+    "start": 31512,
     "end": 31590,
-    "text": "I read mathematical notes about kernel methods on my laptop.",
+    "text": "I read a ChatGPT explanation detailing mathematical derivations for kernel methods and RKHS.",
     "refs": [
+      222,
+      223,
       224,
       225,
       226,
@@ -427,14 +427,14 @@
       229,
       230
     ],
-    "boundary_reason": "Interrupts laptop use to evaluate the environment",
+    "boundary_reason": "Shifts to packing up and leaving.",
     "origin_chunk": 1
   },
   {
     "id": 20,
     "start": 31591,
     "end": 31614,
-    "text": "I state my need for a more sheltered place in the open area.",
+    "text": "I look around the open waterfront deck, check my backpack, and state the need to find a more sheltered place.",
     "refs": [
       231,
       232,
@@ -444,29 +444,29 @@
       236,
       237
     ],
-    "boundary_reason": "Trigger to abandon the current location",
+    "boundary_reason": "Behavior-changing trigger to pack up and relocate.",
     "origin_chunk": 1
   },
   {
     "id": 21,
     "start": 31615,
-    "end": 31629,
-    "text": "I pack my laptop into my backpack.",
+    "end": 31631,
+    "text": "I pack my MacBook into my backpack and stand up.",
     "refs": [
       238,
       239,
-      240
+      240,
+      241
     ],
-    "boundary_reason": "Packing task is complete",
+    "boundary_reason": "Begins walking to a new location.",
     "origin_chunk": 1
   },
   {
     "id": 22,
-    "start": 31630,
+    "start": 31632,
     "end": 31680,
-    "text": "I walk along the waterfront promenade towards a sheltered seating area.",
+    "text": "I walk along the waterfront promenade observing pavilions and seating to find a sheltered area.",
     "refs": [
-      241,
       242,
       243,
       244,
@@ -476,14 +476,14 @@
       248,
       249
     ],
-    "boundary_reason": "End of input",
+    "boundary_reason": "End of provided events.",
     "origin_chunk": 1
   },
   {
     "id": 23,
     "start": 31681,
     "end": 31710,
-    "text": "I prepare to work on my laptop at an outdoor bench.",
+    "text": "I prepare my workspace by opening my MacBook at an outdoor bench.",
     "refs": [
       250,
       251,
@@ -493,14 +493,14 @@
       255,
       256
     ],
-    "boundary_reason": "Starts writing in notebook",
+    "boundary_reason": "Workspace setup is complete; begins writing notes.",
     "origin_chunk": 2
   },
   {
     "id": 24,
     "start": 31711,
     "end": 31835,
-    "text": "I write mathematical notes in my notepad.",
+    "text": "I resume writing mathematical notes in my notebook.",
     "refs": [
       257,
       258,
@@ -514,14 +514,14 @@
       266,
       267
     ],
-    "boundary_reason": "Picks up smartphone to chat",
+    "boundary_reason": "Note writing is interrupted to check WeChat.",
     "origin_chunk": 2
   },
   {
     "id": 25,
     "start": 31836,
     "end": 31901,
-    "text": "I chat with babe on WeChat using my smartphone.",
+    "text": "I reply to a WeChat message from my partner on my smartphone.",
     "refs": [
       268,
       269,
@@ -536,14 +536,14 @@
       278,
       279
     ],
-    "boundary_reason": "Shifts attention to observe pedestrians",
+    "boundary_reason": "WeChat conversation ends; switches to observing the area.",
     "origin_chunk": 2
   },
   {
     "id": 26,
     "start": 31902,
     "end": 31999,
-    "text": "I observe pedestrians walking along the waterfront promenade.",
+    "text": "I observe pedestrians and joggers along the waterfront promenade.",
     "refs": [
       280,
       281,
@@ -559,14 +559,14 @@
       291,
       292
     ],
-    "boundary_reason": "Looks down at laptop math notes",
+    "boundary_reason": "Observation break ends; begins solving mathematical problems.",
     "origin_chunk": 2
   },
   {
     "id": 27,
     "start": 32000,
-    "end": 32178,
-    "text": "I draft mathematical derivations in my notepad using documents on my laptop.",
+    "end": 32292,
+    "text": "I write mathematical derivations for problems displayed on my laptop.",
     "refs": [
       293,
       294,
@@ -588,17 +588,7 @@
       310,
       311,
       312,
-      313
-    ],
-    "boundary_reason": "Focuses exclusively on laptop screen",
-    "origin_chunk": 2
-  },
-  {
-    "id": 28,
-    "start": 32178,
-    "end": 32232,
-    "text": "I read math problems on my laptop screen.",
-    "refs": [
+      313,
       314,
       315,
       316,
@@ -607,55 +597,45 @@
       319,
       320,
       321,
-      322
-    ],
-    "boundary_reason": "Resumes writing formulas in notepad",
-    "origin_chunk": 2
-  },
-  {
-    "id": 29,
-    "start": 32232,
-    "end": 32269,
-    "text": "I solve mathematical formulas using my notepad and laptop keyboard.",
-    "refs": [
+      322,
       323,
       324,
       325,
       326,
       327,
-      328
+      328,
+      329,
+      330,
+      331
     ],
-    "boundary_reason": "Lifts hands to observe surroundings",
+    "boundary_reason": "Math problem solving is paused to watch pedestrians.",
     "origin_chunk": 2
   },
   {
-    "id": 30,
-    "start": 32269,
-    "end": 32337,
-    "text": "I take a break to observe pedestrians on the promenade.",
+    "id": 28,
+    "start": 32292,
+    "end": 32326,
+    "text": "I watch pedestrians passing by on the promenade.",
     "refs": [
-      329,
-      330,
-      331,
       332,
       333,
       334,
       335,
       336,
-      337,
-      338,
-      339,
-      340
+      337
     ],
-    "boundary_reason": "Starts rapid alternating read-write workflow",
+    "boundary_reason": "Observation ends; resumes copying matrix formulas.",
     "origin_chunk": 2
   },
   {
-    "id": 31,
-    "start": 32338,
-    "end": 32545,
-    "text": "I write mathematical derivations in my notepad by continuously referencing equations on my laptop screen.",
+    "id": 29,
+    "start": 32327,
+    "end": 32502,
+    "text": "I copy matrix derivation formulas from my laptop screen into my notepad.",
     "refs": [
+      338,
+      339,
+      340,
       341,
       342,
       343,
@@ -697,7 +677,17 @@
       379,
       380,
       381,
-      382,
+      382
+    ],
+    "boundary_reason": "Matrix derivation copying shifts to studying new kernel PCA exercises.",
+    "origin_chunk": 2
+  },
+  {
+    "id": 30,
+    "start": 32502,
+    "end": 32610,
+    "text": "I calculate matrix formulas for kernel PCA exercises in my notebook.",
+    "refs": [
       383,
       384,
       385,
@@ -710,17 +700,7 @@
       392,
       393,
       394,
-      395
-    ],
-    "boundary_reason": "Transitions to a new kernel PCA exercise",
-    "origin_chunk": 2
-  },
-  {
-    "id": 32,
-    "start": 32546,
-    "end": 32610,
-    "text": "I calculate matrix formulas for kernel PCA exercises using my laptop and notebook.",
-    "refs": [
+      395,
       396,
       397,
       398,
@@ -734,31 +714,31 @@
       406,
       407
     ],
-    "boundary_reason": "Pauses to check smartphone",
+    "boundary_reason": "Kernel PCA calculation is interrupted by checking smartphone.",
     "origin_chunk": 2
   },
   {
-    "id": 33,
+    "id": 31,
     "start": 32611,
-    "end": 32651,
-    "text": "I check my smartphone during a brief pause from my work.",
+    "end": 32621,
+    "text": "I check my smartphone during a brief break.",
     "refs": [
       408,
-      409,
+      409
+    ],
+    "boundary_reason": "Smartphone check ends; returns to studying machine learning notes.",
+    "origin_chunk": 2
+  },
+  {
+    "id": 32,
+    "start": 32622,
+    "end": 32905,
+    "text": "I verify my calculated matrix values against machine learning notes on my laptop.",
+    "refs": [
       410,
       411,
       412,
-      413
-    ],
-    "boundary_reason": "Focuses on machine learning notes on laptop",
-    "origin_chunk": 2
-  },
-  {
-    "id": 34,
-    "start": 32652,
-    "end": 32823,
-    "text": "I study machine learning matrix calculations on my laptop.",
-    "refs": [
+      413,
       414,
       415,
       416,
@@ -775,17 +755,7 @@
       427,
       428,
       429,
-      430
-    ],
-    "boundary_reason": "Starts verifying calculations in notepad",
-    "origin_chunk": 2
-  },
-  {
-    "id": 35,
-    "start": 32823,
-    "end": 32905,
-    "text": "I verify my handwritten matrix calculations against the math problems on my laptop.",
-    "refs": [
+      430,
       431,
       432,
       433,
@@ -804,42 +774,32 @@
       446,
       447
     ],
-    "boundary_reason": "Looks up to watch joggers",
+    "boundary_reason": "Verification of matrix values ends; takes a brief look at joggers.",
     "origin_chunk": 2
   },
   {
-    "id": 36,
+    "id": 33,
     "start": 32906,
     "end": 32926,
-    "text": "I observe joggers along the seaside promenade.",
+    "text": "I watch joggers run past on the seaside promenade.",
     "refs": [
       448,
       449,
       450
     ],
-    "boundary_reason": "Switches to using ChatGPT on laptop",
+    "boundary_reason": "Observation ends; shifts to querying ChatGPT.",
     "origin_chunk": 2
   },
   {
-    "id": 37,
+    "id": 34,
     "start": 32926,
-    "end": 32952,
-    "text": "I use ChatGPT on my laptop to understand a Rayleigh quotient math problem.",
+    "end": 32984,
+    "text": "I use ChatGPT to research the Rayleigh quotient problem.",
     "refs": [
       451,
       452,
       453,
-      454
-    ],
-    "boundary_reason": "Returns to drafting kernel PCA notes",
-    "origin_chunk": 2
-  },
-  {
-    "id": 38,
-    "start": 32952,
-    "end": 32984,
-    "text": "I draft notes for the kernel PCA assignment using my laptop and notebook.",
-    "refs": [
+      454,
       455,
       456,
       457,
@@ -847,26 +807,26 @@
       459,
       460
     ],
-    "boundary_reason": "Watches pedestrians on the promenade",
+    "boundary_reason": "ChatGPT query concludes; pauses to watch pedestrians.",
     "origin_chunk": 2
   },
   {
-    "id": 39,
+    "id": 35,
     "start": 32985,
     "end": 33001,
-    "text": "I watch pedestrians on the promenade.",
+    "text": "I watch pedestrians passing by on the promenade.",
     "refs": [
       461,
       462
     ],
-    "boundary_reason": "Resumes writing formulas in notepad",
+    "boundary_reason": "Observation ends; resumes writing Rayleigh quotient derivations.",
     "origin_chunk": 2
   },
   {
-    "id": 40,
+    "id": 36,
     "start": 33002,
     "end": 33096,
-    "text": "I document mathematical formulas for kernel PCA in my notepad.",
+    "text": "I write mathematical derivations for the Rayleigh quotient iteration in my notepad.",
     "refs": [
       463,
       464,
@@ -884,14 +844,14 @@
       476,
       477
     ],
-    "boundary_reason": "Reads a new Gram matrix problem on laptop",
+    "boundary_reason": "Derivation writing shifts to reviewing the assignment and a ChatGPT explanation.",
     "origin_chunk": 2
   },
   {
-    "id": 41,
+    "id": 37,
     "start": 33097,
     "end": 33158,
-    "text": "I draft kernel PCA equations in my notepad using ChatGPT explanations on my laptop.",
+    "text": "I review the Rayleigh quotient iteration assignment and its ChatGPT explanation.",
     "refs": [
       478,
       479,
@@ -903,73 +863,63 @@
       485,
       486
     ],
-    "boundary_reason": "Watches dogs and declares working status",
+    "boundary_reason": "Assignment review ends; takes a break to observe the surroundings.",
     "origin_chunk": 2
   },
   {
-    "id": 42,
+    "id": 38,
     "start": 33159,
-    "end": 33176,
-    "text": "I declare my working status to someone on the promenade.",
+    "end": 33205,
+    "text": "I observe pedestrians and dogs on the promenade.",
     "refs": [
       487,
       488,
       489,
       490,
-      491
-    ],
-    "boundary_reason": "Returns to reviewing notes and laptop",
-    "origin_chunk": 2
-  },
-  {
-    "id": 43,
-    "start": 33177,
-    "end": 33211,
-    "text": "I review my handwritten notes facing the promenade.",
-    "refs": [
+      491,
       492,
       493,
       494,
       495,
       496,
       497,
-      498,
-      499
+      498
     ],
-    "boundary_reason": "End of input",
+    "boundary_reason": "Observation break ends; returns focus to the laptop document.",
     "origin_chunk": 2
   },
   {
-    "id": 44,
-    "start": 33212,
-    "end": 33215,
-    "text": "I hear a passerby make a remark.",
+    "id": 39,
+    "start": 33206,
+    "end": 33211,
+    "text": "I read a mathematical document on my laptop.",
     "refs": [
-      500
+      499
     ],
-    "boundary_reason": "Brief isolated auditory event",
-    "origin_chunk": 3
+    "boundary_reason": "Document reading continues into the next batch.",
+    "origin_chunk": 2
   },
   {
-    "id": 45,
-    "start": 33216,
+    "id": 40,
+    "start": 33212,
     "end": 33260,
-    "text": "I handle my pens and write on my notepad.",
+    "text": "I write on my notepad using a mechanical pencil.",
     "refs": [
+      500,
       501,
       502,
       503,
       504,
       505
     ],
-    "boundary_reason": "Shift to handling pens and starting to write",
+    "boundary_reason": "Completes adjusting pen and starts writing",
     "origin_chunk": 3
   },
   {
-    "id": 46,
+    "id": 41,
     "start": 33261,
     "end": 33349,
-    "text": "I read ChatGPT explanations and assignment questions regarding the Gram matrix and Rayleigh quotient on my laptop.",
+    "text": "I read ChatGPT explanations and the assignment PDF on the Rayleigh quotient and Gram matrix.",
     "refs": [
       506,
       507,
@@ -984,20 +934,30 @@
       516,
       517
     ],
-    "boundary_reason": "Shift to reading specific topics on laptop",
+    "boundary_reason": "Focus shifts to reading AI explanations and assignment",
     "origin_chunk": 3
   },
   {
-    "id": 47,
+    "id": 42,
     "start": 33350,
-    "end": 33499,
-    "text": "I write mathematical derivations for the Rayleigh quotient iteration on my notepad.",
+    "end": 33380,
+    "text": "I write Rayleigh quotient formulas on my notepad based on my derivations.",
     "refs": [
       518,
       519,
       520,
       521,
-      522,
+      522
+    ],
+    "boundary_reason": "Focus shifts to writing formulas on notepad",
+    "origin_chunk": 3
+  },
+  {
+    "id": 43,
+    "start": 33381,
+    "end": 33501,
+    "text": "I calculate Rayleigh quotient iterations on my notepad using the kernel PCA problem on my laptop.",
+    "refs": [
       523,
       524,
       525,
@@ -1011,46 +971,36 @@
       533,
       534,
       535,
-      536
+      536,
+      537
     ],
-    "boundary_reason": "Shift to sustained writing on notepad",
+    "boundary_reason": "Begins calculating iterations for the problem",
     "origin_chunk": 3
   },
   {
-    "id": 48,
-    "start": 33500,
-    "end": 33551,
-    "text": "I type on my laptop and read a math assignment document.",
+    "id": 44,
+    "start": 33502,
+    "end": 33573,
+    "text": "I read a ChatGPT-generated solution regarding the Gram matrix and Rayleigh quotient.",
     "refs": [
-      537,
       538,
       539,
       540,
-      541
-    ],
-    "boundary_reason": "Shift to typing and reading on laptop",
-    "origin_chunk": 3
-  },
-  {
-    "id": 49,
-    "start": 33552,
-    "end": 33555,
-    "text": "I make a comment about my waist and sitting on a chair.",
-    "refs": [
-      542
-    ],
-    "boundary_reason": "Brief isolated speech event",
-    "origin_chunk": 3
-  },
-  {
-    "id": 50,
-    "start": 33555,
-    "end": 33619,
-    "text": "I navigate between my math assignment, ChatGPT, and Google Gemini on my laptop.",
-    "refs": [
+      541,
+      542,
       543,
       544,
-      545,
+      545
+    ],
+    "boundary_reason": "Opens ChatGPT to read generated solutions",
+    "origin_chunk": 3
+  },
+  {
+    "id": 45,
+    "start": 33573,
+    "end": 33619,
+    "text": "I consult Google Gemini and ChatGPT for responses to a mathematical problem.",
+    "refs": [
       546,
       547,
       548,
@@ -1058,14 +1008,14 @@
       550,
       551
     ],
-    "boundary_reason": "Shift to navigating AI tools on laptop",
+    "boundary_reason": "Switches to interacting with Google Gemini",
     "origin_chunk": 3
   },
   {
-    "id": 51,
+    "id": 46,
     "start": 33620,
     "end": 33649,
-    "text": "I watch pedestrians and dogs pass by on the outdoor promenade.",
+    "text": "I watch pedestrians and dogs on the outdoor promenade.",
     "refs": [
       552,
       553,
@@ -1074,14 +1024,14 @@
       556,
       557
     ],
-    "boundary_reason": "Shift to observing the environment",
+    "boundary_reason": "Attention shifts to pedestrians and dogs on the promenade",
     "origin_chunk": 3
   },
   {
-    "id": 52,
+    "id": 47,
     "start": 33649,
     "end": 33716,
-    "text": "I read a ChatGPT response and math document on my laptop.",
+    "text": "I read a ChatGPT response and math assignment document on my laptop.",
     "refs": [
       558,
       559,
@@ -1093,14 +1043,14 @@
       565,
       566
     ],
-    "boundary_reason": "Shift back to reading on laptop",
+    "boundary_reason": "Focus returns to reading on the laptop",
     "origin_chunk": 3
   },
   {
-    "id": 53,
+    "id": 48,
     "start": 33717,
     "end": 33747,
-    "text": "I write and review mathematical formulas on my notepad.",
+    "text": "I write mathematical formulas and annotations on my notepad.",
     "refs": [
       567,
       568,
@@ -1110,14 +1060,14 @@
       572,
       573
     ],
-    "boundary_reason": "Shift to writing on notepad",
+    "boundary_reason": "Picks up notepad to write formulas",
     "origin_chunk": 3
   },
   {
-    "id": 54,
+    "id": 49,
     "start": 33748,
     "end": 33816,
-    "text": "I read notes on the PCA iterative algorithm on my laptop and cross-reference them with my handwritten derivations.",
+    "text": "I cross-reference my handwritten PCA derivations with the math document on my laptop.",
     "refs": [
       574,
       575,
@@ -1127,14 +1077,14 @@
       579,
       580
     ],
-    "boundary_reason": "Shift to reading laptop and comparing with notes",
+    "boundary_reason": "Focus shifts to cross-referencing derivations with the document",
     "origin_chunk": 3
   },
   {
-    "id": 55,
+    "id": 50,
     "start": 33817,
-    "end": 33868,
-    "text": "I write calculations for the kernel PCA problem on my notepad.",
+    "end": 33876,
+    "text": "I write mathematical calculations for the kernel PCA and Rayleigh quotient iteration on my notepad.",
     "refs": [
       581,
       582,
@@ -1144,30 +1094,30 @@
       586,
       587,
       588,
-      589
+      589,
+      590
     ],
-    "boundary_reason": "Shift to writing calculations on notepad",
+    "boundary_reason": "Starts writing calculations for kernel PCA",
     "origin_chunk": 3
   },
   {
-    "id": 56,
-    "start": 33869,
+    "id": 51,
+    "start": 33877,
     "end": 33891,
-    "text": "I type on my laptop to run Python validation code for matrix calculations.",
+    "text": "I run Python validation code for matrix calculations on my laptop.",
     "refs": [
-      590,
       591,
       592,
       593
     ],
-    "boundary_reason": "Shift to running code on laptop",
+    "boundary_reason": "Switches to running Python validation code",
     "origin_chunk": 3
   },
   {
-    "id": 57,
+    "id": 52,
     "start": 33892,
     "end": 33937,
-    "text": "I scan the promenade and watch pedestrians walking by.",
+    "text": "I observe pedestrians passing by the open waterfront promenade.",
     "refs": [
       594,
       595,
@@ -1177,14 +1127,14 @@
       599,
       600
     ],
-    "boundary_reason": "Shift to observing the environment",
+    "boundary_reason": "Attention shifts to pedestrians on the promenade",
     "origin_chunk": 3
   },
   {
-    "id": 58,
+    "id": 53,
     "start": 33938,
     "end": 33973,
-    "text": "I read PCA mathematical derivations and MSE calculations on my laptop.",
+    "text": "I review my notes and PCA mathematical derivations on ChatGPT.",
     "refs": [
       601,
       602,
@@ -1192,45 +1142,45 @@
       604,
       605
     ],
-    "boundary_reason": "Shift to reading specific calculations on laptop",
+    "boundary_reason": "Focus returns to reading PCA derivations on ChatGPT",
     "origin_chunk": 3
   },
   {
-    "id": 59,
+    "id": 54,
     "start": 33974,
-    "end": 34001,
-    "text": "I draw a vector diagram and review previous pages on my notepad.",
+    "end": 33995,
+    "text": "I draw a vector diagram on my notepad.",
     "refs": [
       606,
       607,
       608,
       609,
-      610,
-      611
+      610
     ],
-    "boundary_reason": "Shift to drawing and reviewing on notepad",
+    "boundary_reason": "Draws a vector diagram on the notepad",
     "origin_chunk": 3
   },
   {
-    "id": 60,
-    "start": 34002,
+    "id": 55,
+    "start": 33996,
     "end": 34047,
-    "text": "I review PCA notes and edit mathematical derivations on my laptop.",
+    "text": "I edit my handwritten notes regarding the PCA eigenvalue derivation.",
     "refs": [
+      611,
       612,
       613,
       614,
       615,
       616
     ],
-    "boundary_reason": "Shift to editing notes on laptop",
+    "boundary_reason": "Focus shifts to editing handwritten notes based on derivations",
     "origin_chunk": 3
   },
   {
-    "id": 61,
+    "id": 56,
     "start": 34048,
     "end": 34131,
-    "text": "I browse my HKU Moodle dashboard and read forum posts about course announcements and assignment issues.",
+    "text": "I read course announcements and forum posts on my HKU Moodle dashboard.",
     "refs": [
       617,
       618,
@@ -1243,47 +1193,47 @@
       625,
       626
     ],
-    "boundary_reason": "Shift to navigating Moodle dashboard",
+    "boundary_reason": "Navigates to HKU Moodle to read announcements",
     "origin_chunk": 3
   },
   {
-    "id": 62,
+    "id": 57,
     "start": 34132,
     "end": 34153,
-    "text": "I close my laptop and look around the waterfront promenade at passing runners.",
+    "text": "I watch runners on the waterfront promenade.",
     "refs": [
       627,
       628,
       629,
       630
     ],
-    "boundary_reason": "Action of closing laptop and watching runners",
+    "boundary_reason": "Attention shifts to runners on the promenade",
     "origin_chunk": 3
   },
   {
-    "id": 63,
+    "id": 58,
     "start": 34153,
-    "end": 34175,
-    "text": "I read Moodle forum posts discussing Assignment 2 on my laptop.",
+    "end": 34195,
+    "text": "I review Moodle forum posts about an assignment and my enrolled courses.",
     "refs": [
       631,
       632,
       633,
-      634
-    ],
-    "boundary_reason": "Shift to reading specific Moodle posts",
-    "origin_chunk": 3
-  },
-  {
-    "id": 64,
-    "start": 34176,
-    "end": 34260,
-    "text": "I navigate HKU Moodle and read the Assignment 3 PDF questions regarding Kernel PCA and Euler schemes.",
-    "refs": [
+      634,
       635,
       636,
       637,
-      638,
+      638
+    ],
+    "boundary_reason": "Returns to Moodle to read forum posts",
+    "origin_chunk": 3
+  },
+  {
+    "id": 59,
+    "start": 34195,
+    "end": 34242,
+    "text": "I read the assignment PDF problems on PCA and differential equations on HKU Moodle.",
+    "refs": [
       639,
       640,
       641,
@@ -1291,23 +1241,33 @@
       643,
       644,
       645,
-      646,
-      647,
-      648,
-      649
+      646
     ],
-    "boundary_reason": "Shift to navigating and reading Assignment 3",
+    "boundary_reason": "Opens Assignment 3 PDF to read problems",
     "origin_chunk": 3
   },
   {
-    "id": 65,
-    "start": 34260,
-    "end": 34434,
-    "text": "I write the analytical solution for a differential equation problem on my notepad.",
+    "id": 60,
+    "start": 34242,
+    "end": 34271,
+    "text": "I review my handwritten math notes and the assignment questions on Euler schemes.",
     "refs": [
+      647,
+      648,
+      649,
       650,
       651,
-      652,
+      652
+    ],
+    "boundary_reason": "Focus shifts to reviewing handwritten notes and Euler scheme questions",
+    "origin_chunk": 3
+  },
+  {
+    "id": 61,
+    "start": 34272,
+    "end": 34341,
+    "text": "I start writing a mathematical equation for the Euler scheme problem on my notepad.",
+    "refs": [
       653,
       654,
       655,
@@ -1316,7 +1276,17 @@
       658,
       659,
       660,
-      661,
+      661
+    ],
+    "boundary_reason": "Begins writing an equation for the Euler scheme problem",
+    "origin_chunk": 3
+  },
+  {
+    "id": 62,
+    "start": 34341,
+    "end": 34434,
+    "text": "I write the mathematical steps for the analytical solution to a differential equation on my notepad.",
+    "refs": [
       662,
       663,
       664,
@@ -1336,43 +1306,33 @@
       678,
       679
     ],
-    "boundary_reason": "Shift to sustained writing task for a new problem",
+    "boundary_reason": "Focus shifts to calculating the analytical solution steps",
     "origin_chunk": 3
   },
   {
-    "id": 66,
+    "id": 63,
     "start": 34435,
-    "end": 34461,
-    "text": "I switch to an AI assistant interface on my laptop while reviewing my math problem.",
+    "end": 34482,
+    "text": "I review my handwritten calculations and the math problem set using an AI assistant.",
     "refs": [
       680,
       681,
       682,
       683,
-      684
-    ],
-    "boundary_reason": "Shift to interacting with AI assistant",
-    "origin_chunk": 3
-  },
-  {
-    "id": 67,
-    "start": 34462,
-    "end": 34482,
-    "text": "I alternate between looking around the waterfront and reviewing my handwritten math calculations.",
-    "refs": [
+      684,
       685,
       686,
       687,
       688
     ],
-    "boundary_reason": "Shift to mixed observation and review",
+    "boundary_reason": "Switches to using an AI assistant to review the problem set",
     "origin_chunk": 3
   },
   {
-    "id": 68,
+    "id": 64,
     "start": 34482,
     "end": 34512,
-    "text": "I take out and set up a power bank and charging cable.",
+    "text": "I connect my power bank to a charging cable on the bench.",
     "refs": [
       689,
       690,
@@ -1380,27 +1340,17 @@
       692,
       693
     ],
-    "boundary_reason": "Shift to managing electronic devices",
+    "boundary_reason": "Interrupts work to connect a power bank",
     "origin_chunk": 3
   },
   {
-    "id": 69,
+    "id": 65,
     "start": 34512,
-    "end": 34519,
-    "text": "I scan the open outdoor promenade area.",
+    "end": 34577,
+    "text": "I type in a document regarding the numerical analysis assignment questions on Euler schemes.",
     "refs": [
       694,
-      695
-    ],
-    "boundary_reason": "Brief environmental scan",
-    "origin_chunk": 3
-  },
-  {
-    "id": 70,
-    "start": 34520,
-    "end": 34577,
-    "text": "I read and edit text for numerical analysis assignment questions about Euler schemes on my laptop.",
-    "refs": [
+      695,
       696,
       697,
       698,
@@ -1408,11 +1358,11 @@
       700,
       701
     ],
-    "boundary_reason": "Shift to reading and editing assignment text",
+    "boundary_reason": "Focus shifts to typing in a document while reviewing questions",
     "origin_chunk": 3
   },
   {
-    "id": 71,
+    "id": 66,
     "start": 34578,
     "end": 34635,
     "text": "I write the Forward Euler iteration formula and numerical evaluation steps on my notepad.",
@@ -1429,19 +1379,29 @@
       711,
       712
     ],
-    "boundary_reason": "Shift to writing specific formulas on notepad",
+    "boundary_reason": "Focus shifts to writing Forward Euler steps on the notepad",
     "origin_chunk": 3
   },
   {
-    "id": 72,
+    "id": 67,
     "start": 34636,
-    "end": 34732,
-    "text": "I write Euler scheme calculations on my notepad while repeatedly referencing my laptop.",
+    "end": 34664,
+    "text": "I look across the open waterfront promenade.",
     "refs": [
       713,
       714,
       715,
-      716,
+      716
+    ],
+    "boundary_reason": "Attention shifts to looking across the promenade",
+    "origin_chunk": 3
+  },
+  {
+    "id": 68,
+    "start": 34665,
+    "end": 34732,
+    "text": "I write the calculations for solving differential equations using the Euler method on my notepad.",
+    "refs": [
       717,
       718,
       719,
@@ -1460,14 +1420,14 @@
       732,
       733
     ],
-    "boundary_reason": "Shift to continuous writing and referencing task",
+    "boundary_reason": "Returns focus to solving differential equations on the notepad",
     "origin_chunk": 3
   },
   {
-    "id": 73,
+    "id": 69,
     "start": 34733,
     "end": 34802,
-    "text": "I alternate between observing pedestrians on the promenade and reviewing my handwritten calculations.",
+    "text": "I watch pedestrians pass by on the promenade.",
     "refs": [
       734,
       735,
@@ -1476,27 +1436,27 @@
       738,
       739
     ],
-    "boundary_reason": "Shift to mixed observation and review",
+    "boundary_reason": "Attention shifts to pedestrians while reviewing calculations",
     "origin_chunk": 3
   },
   {
-    "id": 74,
+    "id": 70,
     "start": 34803,
     "end": 34824,
-    "text": "I read a differential equations assignment problem on my laptop and check my notes.",
+    "text": "I review the numerical analysis assignment problems on my laptop.",
     "refs": [
       740,
       741,
       742
     ],
-    "boundary_reason": "Shift to reading problem on laptop",
+    "boundary_reason": "Focus shifts back to reading assignment problems on the laptop",
     "origin_chunk": 3
   },
   {
-    "id": 75,
+    "id": 71,
     "start": 34825,
     "end": 34870,
-    "text": "I watch pigeons walking along the paved promenade.",
+    "text": "I watch a pigeon walking along the waterfront promenade.",
     "refs": [
       743,
       744,
@@ -1506,14 +1466,14 @@
       748,
       749
     ],
-    "boundary_reason": "Shift to observing wildlife",
+    "boundary_reason": "Attention shifts to watching a pigeon on the promenade",
     "origin_chunk": 3
   },
   {
-    "id": 76,
+    "id": 72,
     "start": 34870,
     "end": 34958,
-    "text": "I observe the pigeons and passing joggers from a bench at the waterfront promenade.",
+    "text": "I observe pigeons and joggers along the waterfront promenade.",
     "refs": [
       750,
       751,
@@ -1526,14 +1486,14 @@
       758,
       759
     ],
-    "boundary_reason": "Initial observation of the surroundings before starting work.",
+    "boundary_reason": "Continuous observation of surroundings at the waterfront.",
     "origin_chunk": 4
   },
   {
-    "id": 77,
+    "id": 73,
     "start": 34959,
-    "end": 35069,
-    "text": "I reference my laptop to write Forward and Backward Euler calculations on my notepad.",
+    "end": 35089,
+    "text": "I solve Forward and Backward Euler math assignment problems using my notepad and laptop.",
     "refs": [
       760,
       761,
@@ -1553,48 +1513,38 @@
       775,
       776,
       777,
-      778
-    ],
-    "boundary_reason": "Begins solving the math assignment on the notepad.",
-    "origin_chunk": 4
-  },
-  {
-    "id": 78,
-    "start": 35070,
-    "end": 35088,
-    "text": "I resume typing on my laptop upon hearing my friend return.",
-    "refs": [
+      778,
       779,
       780,
-      781
+      781,
+      782
     ],
-    "boundary_reason": "Brief interruption from a friend's return.",
+    "boundary_reason": "Begins studying activity on the math assignment.",
     "origin_chunk": 4
   },
   {
-    "id": 79,
-    "start": 35088,
-    "end": 35131,
-    "text": "I observe pedestrians stretching along the waterfront promenade.",
+    "id": 74,
+    "start": 35089,
+    "end": 35115,
+    "text": "I observe people stretching along the boardwalk.",
     "refs": [
-      782,
       783,
       784,
       785,
       786,
-      787,
-      788,
-      789
+      787
     ],
-    "boundary_reason": "Shifts attention to observe nearby pedestrians.",
+    "boundary_reason": "Break from studying to observe people.",
     "origin_chunk": 4
   },
   {
-    "id": 80,
-    "start": 35132,
-    "end": 35208,
-    "text": "I reference an online quiz on my laptop to write Forward Euler calculations on my notepad.",
+    "id": 75,
+    "start": 35116,
+    "end": 35204,
+    "text": "I write Forward and Backward Euler calculations on my notepad for my math assignment.",
     "refs": [
+      788,
+      789,
       790,
       791,
       792,
@@ -1607,19 +1557,19 @@
       799,
       800,
       801,
-      802,
-      803,
-      804
+      802
     ],
-    "boundary_reason": "Returns to writing Forward Euler calculations.",
+    "boundary_reason": "Resumes writing math calculations.",
     "origin_chunk": 4
   },
   {
-    "id": 81,
-    "start": 35209,
-    "end": 35293,
-    "text": "I write the algebraic derivation for the Backward Euler scheme on my notepad.",
+    "id": 76,
+    "start": 35205,
+    "end": 35432,
+    "text": "I write Backward Euler algebraic derivations on my notepad using ChatGPT explanations on my laptop.",
     "refs": [
+      803,
+      804,
       805,
       806,
       807,
@@ -1628,17 +1578,7 @@
       810,
       811,
       812,
-      813
-    ],
-    "boundary_reason": "Focuses on deriving the Backward Euler formula.",
-    "origin_chunk": 4
-  },
-  {
-    "id": 82,
-    "start": 35294,
-    "end": 35395,
-    "text": "I reference the differential equations assignment on my laptop to calculate x(0.75) on my notepad.",
-    "refs": [
+      813,
       814,
       815,
       816,
@@ -1650,17 +1590,7 @@
       822,
       823,
       824,
-      825
-    ],
-    "boundary_reason": "Shifts to computing a specific numerical step.",
-    "origin_chunk": 4
-  },
-  {
-    "id": 83,
-    "start": 35395,
-    "end": 35432,
-    "text": "I review my handwritten math notes alongside a ChatGPT explanation comparing Forward and Backward Euler schemes.",
-    "refs": [
+      825,
       826,
       827,
       828,
@@ -1669,30 +1599,30 @@
       831,
       832
     ],
-    "boundary_reason": "Transitions to reviewing explanations and notes.",
+    "boundary_reason": "Shifts focus to algebraic derivations using ChatGPT.",
     "origin_chunk": 4
   },
   {
-    "id": 84,
+    "id": 77,
     "start": 35433,
-    "end": 35471,
-    "text": "I stand to observe pedestrians on the promenade during a brief break from my laptop.",
+    "end": 35451,
+    "text": "I observe pedestrians walking on the waterfront promenade.",
     "refs": [
       833,
       834,
       835,
-      836,
-      837
+      836
     ],
-    "boundary_reason": "Takes a short break to observe the promenade.",
+    "boundary_reason": "Brief break to observe pedestrians.",
     "origin_chunk": 4
   },
   {
-    "id": 85,
-    "start": 35472,
-    "end": 35541,
-    "text": "I type on my laptop to verify computed values from my handwritten notes.",
+    "id": 78,
+    "start": 35452,
+    "end": 35561,
+    "text": "I type on my laptop to verify the computed math values on my notepad.",
     "refs": [
+      837,
       838,
       839,
       840,
@@ -1705,18 +1635,18 @@
       847,
       848,
       849,
-      850
+      850,
+      851
     ],
-    "boundary_reason": "Resumes active laptop work and verification.",
+    "boundary_reason": "Resumes studying by verifying values on the laptop.",
     "origin_chunk": 4
   },
   {
-    "id": 86,
-    "start": 35542,
+    "id": 79,
+    "start": 35562,
     "end": 35594,
-    "text": "I watch a man adjust a recycling container with a wooden pole from my laptop workstation.",
+    "text": "I watch a man adjusting a recycling container with a wooden pole along the promenade.",
     "refs": [
-      851,
       852,
       853,
       854,
@@ -1726,14 +1656,14 @@
       858,
       859
     ],
-    "boundary_reason": "Attention is drawn to a man working nearby.",
+    "boundary_reason": "Extended observation of a man at the recycling container.",
     "origin_chunk": 4
   },
   {
-    "id": 87,
+    "id": 80,
     "start": 35595,
     "end": 35634,
-    "text": "I review a ChatGPT document comparing the Forward and Backward Euler numerical methods on my laptop.",
+    "text": "I review the ChatGPT technical explanation comparing Forward and Backward Euler methods.",
     "refs": [
       860,
       861,
@@ -1741,31 +1671,31 @@
       863,
       864
     ],
-    "boundary_reason": "Returns focus to reading technical math explanations.",
+    "boundary_reason": "Focus shifts back to reading the ChatGPT explanation.",
     "origin_chunk": 4
   },
   {
-    "id": 88,
+    "id": 81,
     "start": 35635,
-    "end": 35652,
-    "text": "I pack my laptop and handwritten notes into my backpack.",
+    "end": 35656,
+    "text": "I pack my MacBook and math notes into my backpack to leave the bench.",
     "refs": [
       865,
       866,
       867,
       868,
-      869
+      869,
+      870
     ],
-    "boundary_reason": "Concludes the study session by packing up.",
+    "boundary_reason": "Activity changes from studying to packing belongings.",
     "origin_chunk": 4
   },
   {
-    "id": 89,
-    "start": 35653,
+    "id": 82,
+    "start": 35657,
     "end": 35711,
-    "text": "I walk along the waterfront promenade typing messages to 'babe' on WeChat.",
+    "text": "I exchange WeChat messages with 'babe' during my walk along the promenade.",
     "refs": [
-      870,
       871,
       872,
       873,
@@ -1773,14 +1703,14 @@
       875,
       876
     ],
-    "boundary_reason": "Begins walking and messaging on the smartphone.",
+    "boundary_reason": "Activity shifts to walking and messaging on the phone.",
     "origin_chunk": 4
   },
   {
-    "id": 90,
+    "id": 83,
     "start": 35712,
     "end": 35801,
-    "text": "I walk along the street observing parked delivery trucks and cargo workers.",
+    "text": "I walk along the road past parked delivery trucks and cargo workers.",
     "refs": [
       877,
       878,
@@ -1797,14 +1727,14 @@
       889,
       890
     ],
-    "boundary_reason": "Focuses on observing the street vehicles and cargo workers.",
+    "boundary_reason": "Phone usage ends; walking continues past cargo operations.",
     "origin_chunk": 4
   },
   {
-    "id": 91,
+    "id": 84,
     "start": 35802,
-    "end": 35831,
-    "text": "I exclaim in surprise near the Western Wholesale Food Market during my walk along the sidewalk.",
+    "end": 35843,
+    "text": "I walk past the Western Wholesale Food Market and a white construction wall.",
     "refs": [
       891,
       892,
@@ -1813,19 +1743,19 @@
       895,
       896,
       897,
-      898
+      898,
+      899,
+      900
     ],
-    "boundary_reason": "Reaches the food market entrance and reacts to the surroundings.",
+    "boundary_reason": "Location progresses to the food market and construction wall.",
     "origin_chunk": 4
   },
   {
-    "id": 92,
-    "start": 35832,
+    "id": 85,
+    "start": 35844,
     "end": 35952,
-    "text": "I walk along the street reading X posts about OpenAI and robot design on my smartphone.",
+    "text": "I read AI-related social media posts on my smartphone during my walk across the street.",
     "refs": [
-      899,
-      900,
       901,
       902,
       903,
@@ -1841,14 +1771,14 @@
       913,
       914
     ],
-    "boundary_reason": "Shifts to continuously browsing social media on the phone.",
+    "boundary_reason": "Activity shifts to reading social media on the phone.",
     "origin_chunk": 4
   },
   {
-    "id": 93,
+    "id": 86,
     "start": 35952,
-    "end": 36024,
-    "text": "I navigate the sidewalk past storefronts and real estate listings after crossing the street.",
+    "end": 36028,
+    "text": "I walk past street intersections and sidewalk storefronts to approach a bakery.",
     "refs": [
       915,
       916,
@@ -1859,18 +1789,18 @@
       921,
       922,
       923,
-      924
+      924,
+      925
     ],
-    "boundary_reason": "Transitions from browsing the phone to navigating street crossings.",
+    "boundary_reason": "Phone usage ends; walking continues towards the bakery.",
     "origin_chunk": 4
   },
   {
-    "id": 94,
-    "start": 36025,
-    "end": 36084,
-    "text": "I browse the bakery display cases selecting a packaged loaf of bread.",
+    "id": 87,
+    "start": 36029,
+    "end": 36101,
+    "text": "I purchase a packaged loaf of bread at a bakery contactless terminal.",
     "refs": [
-      925,
       926,
       927,
       928,
@@ -1884,30 +1814,20 @@
       936,
       937,
       938,
-      939
-    ],
-    "boundary_reason": "Enters the bakery to select a purchase.",
-    "origin_chunk": 4
-  },
-  {
-    "id": 95,
-    "start": 36085,
-    "end": 36101,
-    "text": "I pay for the pastry at the bakery counter using my smartphone.",
-    "refs": [
+      939,
       940,
       941,
       942,
       943
     ],
-    "boundary_reason": "Completes the bakery purchase at the counter.",
+    "boundary_reason": "Activity changes to shopping inside the bakery.",
     "origin_chunk": 4
   },
   {
-    "id": 96,
+    "id": 88,
     "start": 36102,
-    "end": 36131,
-    "text": "I untie my pastry bag to tear off a piece of bread upon entering the open plaza.",
+    "end": 36212,
+    "text": "I eat pieces of my torn bread during my walk along the pedestrian plaza.",
     "refs": [
       944,
       945,
@@ -1915,17 +1835,7 @@
       947,
       948,
       949,
-      950
-    ],
-    "boundary_reason": "Exits the bakery and prepares to eat the pastry.",
-    "origin_chunk": 4
-  },
-  {
-    "id": 97,
-    "start": 36132,
-    "end": 36212,
-    "text": "I walk across the pedestrian plaza tearing off pieces of the bread bun.",
-    "refs": [
+      950,
       951,
       952,
       953,
@@ -1941,14 +1851,14 @@
       963,
       964
     ],
-    "boundary_reason": "Steadily walks and eats the bread.",
+    "boundary_reason": "Activity changes to walking and eating the purchased bread.",
     "origin_chunk": 4
   },
   {
-    "id": 98,
+    "id": 89,
     "start": 36213,
     "end": 36274,
-    "text": "I converse with a street vendor to purchase two cucumbers using Octopus on my smartphone.",
+    "text": "I purchase two cucumbers from a street-side vegetable vendor using Octopus.",
     "refs": [
       965,
       966,
@@ -1965,14 +1875,14 @@
       977,
       978
     ],
-    "boundary_reason": "Stops to purchase vegetables from a street stall.",
+    "boundary_reason": "Activity changes to interacting with a vegetable vendor.",
     "origin_chunk": 4
   },
   {
-    "id": 99,
+    "id": 90,
     "start": 36275,
-    "end": 36341,
-    "text": "I walk down the sidewalk past storefronts toward the municipal building entrance eating my pastry.",
+    "end": 36340,
+    "text": "I eat pieces of my bread during my walk along the Queen's Road West sidewalk towards the municipal building.",
     "refs": [
       979,
       980,
@@ -1985,18 +1895,18 @@
       987,
       988,
       989,
-      990,
-      991
+      990
     ],
-    "boundary_reason": "Resumes walking down the street after the vegetable purchase.",
+    "boundary_reason": "Resumes walking and eating bread.",
     "origin_chunk": 4
   },
   {
-    "id": 100,
-    "start": 36342,
+    "id": 91,
+    "start": 36341,
     "end": 36382,
-    "text": "I ride the elevator to the 5th floor eating my pastry.",
+    "text": "I eat my bread during my elevator ride up to a market foyer in the municipal building.",
     "refs": [
+      991,
       992,
       993,
       994,
@@ -2006,28 +1916,18 @@
       998,
       999
     ],
-    "boundary_reason": "Enters the building and takes the elevator.",
+    "boundary_reason": "Location changes to entering a building and riding an elevator.",
     "origin_chunk": 4
   },
   {
-    "id": 101,
+    "id": 92,
     "start": 36383,
-    "end": 36412,
-    "text": "I navigate the indoor market to sit at a table.",
+    "end": 36622,
+    "text": "I walk home from the market.",
     "refs": [
       1000,
       1001,
-      1002
-    ],
-    "boundary_reason": "Begins walking home",
-    "origin_chunk": 5
-  },
-  {
-    "id": 102,
-    "start": 36412,
-    "end": 36506,
-    "text": "I walk along the street eating a pastry.",
-    "refs": [
+      1002,
       1003,
       1004,
       1005,
@@ -2041,17 +1941,7 @@
       1013,
       1014,
       1015,
-      1016
-    ],
-    "boundary_reason": "Turns off main street",
-    "origin_chunk": 5
-  },
-  {
-    "id": 103,
-    "start": 36507,
-    "end": 36622,
-    "text": "I walk along outdoor walkways toward my apartment building.",
-    "refs": [
+      1016,
       1017,
       1018,
       1019,
@@ -2070,28 +1960,18 @@
       1032,
       1033
     ],
-    "boundary_reason": "Enters building lobby",
+    "boundary_reason": "Walking from the market through the streets to the apartment complex",
     "origin_chunk": 5
   },
   {
-    "id": 104,
+    "id": 93,
     "start": 36623,
-    "end": 36639,
-    "text": "I enter the apartment building lobby.",
+    "end": 36702,
+    "text": "I navigate into my apartment.",
     "refs": [
       1034,
       1035,
-      1036
-    ],
-    "boundary_reason": "Enters elevator",
-    "origin_chunk": 5
-  },
-  {
-    "id": 105,
-    "start": 36640,
-    "end": 36683,
-    "text": "I ride the elevator to my floor.",
-    "refs": [
+      1036,
       1037,
       1038,
       1039,
@@ -2099,17 +1979,7 @@
       1041,
       1042,
       1043,
-      1044
-    ],
-    "boundary_reason": "Arrives at apartment",
-    "origin_chunk": 5
-  },
-  {
-    "id": 106,
-    "start": 36683,
-    "end": 36702,
-    "text": "I unlock the door to enter my apartment.",
-    "refs": [
+      1044,
       1045,
       1046,
       1047,
@@ -2117,44 +1987,44 @@
       1049,
       1050
     ],
-    "boundary_reason": "Moves to dining table",
+    "boundary_reason": "Entering the building, taking the elevator, and unlocking the apartment door",
     "origin_chunk": 5
   },
   {
-    "id": 107,
+    "id": 94,
     "start": 36702,
     "end": 36717,
-    "text": "I unwrap a pastry at the dining table.",
+    "text": "I unwrap my leftover pastry on the dining table.",
     "refs": [
       1051,
       1052,
       1053
     ],
-    "boundary_reason": "Moves to kitchen to wash hands",
+    "boundary_reason": "Setting down and unwrapping the food brought from outside",
     "origin_chunk": 5
   },
   {
-    "id": 108,
+    "id": 95,
     "start": 36717,
-    "end": 36756,
-    "text": "I wash my hands at the kitchen sink.",
+    "end": 36753,
+    "text": "I wash my hands in the kitchen.",
     "refs": [
       1054,
       1055,
       1056,
       1057,
-      1058,
-      1059
+      1058
     ],
-    "boundary_reason": "Starts preparing meat",
+    "boundary_reason": "Handwashing before cooking",
     "origin_chunk": 5
   },
   {
-    "id": 109,
-    "start": 36757,
-    "end": 36783,
-    "text": "I place raw meat into the air fryer.",
+    "id": 96,
+    "start": 36754,
+    "end": 36777,
+    "text": "I start cooking raw meat in the air fryer.",
     "refs": [
+      1059,
       1060,
       1061,
       1062,
@@ -2162,32 +2032,22 @@
       1064,
       1065,
       1066,
-      1067,
-      1068
+      1067
     ],
-    "boundary_reason": "Starts preparing stove",
+    "boundary_reason": "Placing meat in the air fryer and turning it on",
     "origin_chunk": 5
   },
   {
-    "id": 110,
-    "start": 36784,
-    "end": 36799,
-    "text": "I heat a frying pan of water on the stove.",
+    "id": 97,
+    "start": 36778,
+    "end": 36895,
+    "text": "I start cooking instant noodles and eggs.",
     "refs": [
+      1068,
       1069,
       1070,
       1071,
-      1072
-    ],
-    "boundary_reason": "Adds ingredients to pan",
-    "origin_chunk": 5
-  },
-  {
-    "id": 111,
-    "start": 36800,
-    "end": 36895,
-    "text": "I cook Shin Ramyun instant noodles with eggs in the frying pan.",
-    "refs": [
+      1072,
       1073,
       1074,
       1075,
@@ -2204,39 +2064,39 @@
       1086,
       1087
     ],
-    "boundary_reason": "Checks air fryer",
+    "boundary_reason": "Rinsing the pan, boiling water, and adding the noodles and eggs",
     "origin_chunk": 5
   },
   {
-    "id": 112,
+    "id": 98,
     "start": 36896,
     "end": 36913,
-    "text": "I arrange the marinated meat inside the air fryer basket.",
+    "text": "I adjust the meat inside the air fryer.",
     "refs": [
       1088,
       1089,
       1090
     ],
-    "boundary_reason": "Checks noodles",
+    "boundary_reason": "Flattening the meat in the basket",
     "origin_chunk": 5
   },
   {
-    "id": 113,
+    "id": 99,
     "start": 36914,
     "end": 36917,
-    "text": "I check the noodles cooking on the stove.",
+    "text": "I inspect the cooking noodles.",
     "refs": [
       1091,
       1092
     ],
-    "boundary_reason": "Sits at dining table",
+    "boundary_reason": "Briefly checking the stove",
     "origin_chunk": 5
   },
   {
-    "id": 114,
+    "id": 100,
     "start": 36918,
-    "end": 37031,
-    "text": "I spend time at the dining table.",
+    "end": 37038,
+    "text": "I arrange a grocery bag on my desk.",
     "refs": [
       1093,
       1094,
@@ -2244,44 +2104,34 @@
       1096,
       1097,
       1098,
-      1099
+      1099,
+      1100
     ],
-    "boundary_reason": "Walks to bedroom",
+    "boundary_reason": "Sitting down and adjusting items",
     "origin_chunk": 5
   },
   {
-    "id": 115,
-    "start": 37032,
-    "end": 37061,
-    "text": "I walk to the small bedroom with a cucumber.",
+    "id": 101,
+    "start": 37039,
+    "end": 37070,
+    "text": "I relocate to the dining table.",
     "refs": [
-      1100,
       1101,
       1102,
-      1103
-    ],
-    "boundary_reason": "Returns to dining area",
-    "origin_chunk": 5
-  },
-  {
-    "id": 116,
-    "start": 37062,
-    "end": 37076,
-    "text": "I return to the dining table.",
-    "refs": [
+      1103,
       1104,
-      1105,
-      1106
+      1105
     ],
-    "boundary_reason": "Starts reading on smartphone",
+    "boundary_reason": "Moving across the room to sit at a different table",
     "origin_chunk": 5
   },
   {
-    "id": 117,
-    "start": 37076,
+    "id": 102,
+    "start": 37070,
     "end": 37318,
-    "text": "I read posts about Gemini Deep Research and FlashKDA on X using my smartphone.",
+    "text": "I browse social media on my phone.",
     "refs": [
+      1106,
       1107,
       1108,
       1109,
@@ -2320,14 +2170,14 @@
       1142,
       1143
     ],
-    "boundary_reason": "Returns to kitchen to season food",
+    "boundary_reason": "Reading various posts and articles on the phone",
     "origin_chunk": 5
   },
   {
-    "id": 118,
+    "id": 103,
     "start": 37318,
     "end": 37348,
-    "text": "I season the cooked meat in the air fryer.",
+    "text": "I season the cooking meat in the air fryer.",
     "refs": [
       1144,
       1145,
@@ -2339,14 +2189,14 @@
       1151,
       1152
     ],
-    "boundary_reason": "Seasons noodles on stove",
+    "boundary_reason": "Taking the meat out to season it and restarting the air fryer",
     "origin_chunk": 5
   },
   {
-    "id": 119,
+    "id": 104,
     "start": 37349,
     "end": 37453,
-    "text": "I prepare the boiling instant noodles with seasoning on the stove.",
+    "text": "I finish cooking the instant noodles.",
     "refs": [
       1153,
       1154,
@@ -2371,14 +2221,14 @@
       1173,
       1174
     ],
-    "boundary_reason": "Converses with roommate at dining table",
+    "boundary_reason": "Adding seasoning packets and stirring the noodles to completion",
     "origin_chunk": 5
   },
   {
-    "id": 120,
+    "id": 105,
     "start": 37453,
-    "end": 37503,
-    "text": "I discuss breakfast plans with my roommate at the dining table.",
+    "end": 37497,
+    "text": "I discuss breakfast with my departing roommate.",
     "refs": [
       1175,
       1176,
@@ -2391,48 +2241,38 @@
       1183,
       1184,
       1185,
-      1186,
-      1187,
-      1188
+      1186
     ],
-    "boundary_reason": "Roommate leaves immediate area",
+    "boundary_reason": "Placing the food on the table and conversing with a roommate",
     "origin_chunk": 5
   },
   {
-    "id": 121,
-    "start": 37503,
-    "end": 37526,
-    "text": "I pace between the kitchen and dining area.",
+    "id": 106,
+    "start": 37497,
+    "end": 37549,
+    "text": "I converse with my roommates about my meal.",
     "refs": [
+      1187,
+      1188,
       1189,
       1190,
       1191,
       1192,
-      1193
-    ],
-    "boundary_reason": "Resumes conversation with roommate",
-    "origin_chunk": 5
-  },
-  {
-    "id": 122,
-    "start": 37527,
-    "end": 37549,
-    "text": "I talk to my roommate about my noodles.",
-    "refs": [
+      1193,
       1194,
       1195,
       1196,
       1197,
       1198
     ],
-    "boundary_reason": "Starts cleaning kitchen",
+    "boundary_reason": "Lingering in the dining area and discussing the noodles",
     "origin_chunk": 5
   },
   {
-    "id": 123,
+    "id": 107,
     "start": 37550,
     "end": 37574,
-    "text": "I wipe the kitchen countertop with a paper towel.",
+    "text": "I wipe the kitchen countertop.",
     "refs": [
       1199,
       1200,
@@ -2440,24 +2280,24 @@
       1202,
       1203
     ],
-    "boundary_reason": "Checks air fryer",
+    "boundary_reason": "Cleaning the food preparation area",
     "origin_chunk": 5
   },
   {
-    "id": 124,
+    "id": 108,
     "start": 37575,
     "end": 37596,
-    "text": "I adjust the air fryer settings.",
+    "text": "I check the food in the air fryer.",
     "refs": [
       1204,
       1205,
       1206
     ],
-    "boundary_reason": "Expresses fatigue",
+    "boundary_reason": "Briefly inspecting the cooking meat",
     "origin_chunk": 5
   },
   {
-    "id": 125,
+    "id": 109,
     "start": 37597,
     "end": 37613,
     "text": "I complain about being tired.",
@@ -2466,14 +2306,14 @@
       1208,
       1209
     ],
-    "boundary_reason": "Looks at smartphone",
+    "boundary_reason": "Expressing fatigue from being woken up",
     "origin_chunk": 5
   },
   {
-    "id": 126,
+    "id": 110,
     "start": 37614,
-    "end": 37661,
-    "text": "I browse apps and media on my smartphone.",
+    "end": 37881,
+    "text": "I watch videos on my phone.",
     "refs": [
       1210,
       1211,
@@ -2482,17 +2322,7 @@
       1214,
       1215,
       1216,
-      1217
-    ],
-    "boundary_reason": "Starts watching a video",
-    "origin_chunk": 5
-  },
-  {
-    "id": 127,
-    "start": 37662,
-    "end": 37860,
-    "text": "I watch a Bilibili video about the Chinese food delivery industry on my smartphone.",
-    "refs": [
+      1217,
       1218,
       1219,
       1220,
@@ -2519,37 +2349,37 @@
       1241,
       1242,
       1243,
-      1244
-    ],
-    "boundary_reason": "Browses video recommendations",
-    "origin_chunk": 5
-  },
-  {
-    "id": 128,
-    "start": 37861,
-    "end": 37881,
-    "text": "I browse the video recommendation feed on my smartphone.",
-    "refs": [
+      1244,
       1245,
       1246,
       1247,
       1248,
       1249
     ],
-    "boundary_reason": "End of sequence",
+    "boundary_reason": "Watching and scrolling through online video content",
     "origin_chunk": 5
   },
   {
-    "id": 129,
+    "id": 111,
     "start": 37881,
-    "end": 38014,
-    "text": "I watch videos about hardware and cars on my smartphone.",
+    "end": 37908,
+    "text": "I browse my phone feed and watch short videos about hardware and coffee.",
     "refs": [
       1250,
       1251,
       1252,
       1253,
-      1254,
+      1254
+    ],
+    "boundary_reason": "Browsing mixed videos",
+    "origin_chunk": 6
+  },
+  {
+    "id": 112,
+    "start": 37909,
+    "end": 37996,
+    "text": "I watch a video review of a red Jaguar sports car on my phone.",
+    "refs": [
       1255,
       1256,
       1257,
@@ -2561,19 +2391,19 @@
       1263,
       1264,
       1265,
-      1266,
-      1267,
-      1268
+      1266
     ],
-    "boundary_reason": "Topic changes to social welfare",
+    "boundary_reason": "Watching specific car video",
     "origin_chunk": 6
   },
   {
-    "id": 130,
-    "start": 38014,
-    "end": 38081,
-    "text": "I watch videos about Nordic social welfare on my smartphone.",
+    "id": 113,
+    "start": 37996,
+    "end": 38078,
+    "text": "I scroll through my video feed and watch a video about European social welfare.",
     "refs": [
+      1267,
+      1268,
       1269,
       1270,
       1271,
@@ -2583,44 +2413,54 @@
       1275,
       1276,
       1277,
-      1278,
-      1279
+      1278
     ],
-    "boundary_reason": "Exits video app",
+    "boundary_reason": "Watching social welfare video",
     "origin_chunk": 6
   },
   {
-    "id": 131,
-    "start": 38082,
+    "id": 114,
+    "start": 38079,
     "end": 38101,
-    "text": "I view WeChat messages on my iPhone.",
+    "text": "I check my iPhone notifications and view a WeChat conversation.",
     "refs": [
+      1279,
       1280,
       1281
     ],
-    "boundary_reason": "Moves to the kitchen",
+    "boundary_reason": "App switch to WeChat",
     "origin_chunk": 6
   },
   {
-    "id": 132,
+    "id": 115,
     "start": 38102,
-    "end": 38117,
-    "text": "I discard a paper bag in the kitchen trash bin.",
+    "end": 38111,
+    "text": "I walk to the kitchen and inspect the baked milk skin in the air fryer.",
     "refs": [
       1282,
       1283,
-      1284,
-      1285,
-      1286
+      1284
     ],
-    "boundary_reason": "Sits at the dining table",
+    "boundary_reason": "Moving to kitchen to check food",
     "origin_chunk": 6
   },
   {
-    "id": 133,
+    "id": 116,
+    "start": 38112,
+    "end": 38117,
+    "text": "I crumple a brown paper bag and throw it into the trash bin.",
+    "refs": [
+      1285,
+      1286
+    ],
+    "boundary_reason": "Disposing of a paper bag",
+    "origin_chunk": 6
+  },
+  {
+    "id": 117,
     "start": 38118,
-    "end": 38261,
-    "text": "I eat instant noodles, egg, and chicken from the frying pan.",
+    "end": 38295,
+    "text": "I sit at the dining table and eat instant noodles and fried egg from a frying pan.",
     "refs": [
       1287,
       1288,
@@ -2643,35 +2483,25 @@
       1305,
       1306,
       1307,
-      1308
-    ],
-    "boundary_reason": "Pauses to inspect table items",
-    "origin_chunk": 6
-  },
-  {
-    "id": 134,
-    "start": 38262,
-    "end": 38307,
-    "text": "I inspect the frying pan and a cucumber on the dining table.",
-    "refs": [
+      1308,
       1309,
       1310,
       1311,
       1312,
       1313,
-      1314,
-      1315,
-      1316
+      1314
     ],
-    "boundary_reason": "Resumes eating",
+    "boundary_reason": "Starting meal phase",
     "origin_chunk": 6
   },
   {
-    "id": 135,
-    "start": 38308,
+    "id": 118,
+    "start": 38296,
     "end": 38420,
-    "text": "I eat meat, noodles, and egg from the frying pan.",
+    "text": "I eat grilled chicken, noodles, and egg from the frying pan.",
     "refs": [
+      1315,
+      1316,
       1317,
       1318,
       1319,
@@ -2691,14 +2521,14 @@
       1333,
       1334
     ],
-    "boundary_reason": "Pauses to observe table",
+    "boundary_reason": "Eating chicken and noodles",
     "origin_chunk": 6
   },
   {
-    "id": 136,
+    "id": 119,
     "start": 38421,
-    "end": 38479,
-    "text": "I handle a cucumber slice at the dining table.",
+    "end": 38509,
+    "text": "I look at items on the dining table, move a cucumber slice into the pan, and cut a meat patty.",
     "refs": [
       1335,
       1336,
@@ -2710,26 +2540,16 @@
       1342,
       1343,
       1344,
-      1345
-    ],
-    "boundary_reason": "Resumes eating",
-    "origin_chunk": 6
-  },
-  {
-    "id": 137,
-    "start": 38480,
-    "end": 38509,
-    "text": "I eat meat from the frying pan.",
-    "refs": [
+      1345,
       1346,
       1347,
       1348
     ],
-    "boundary_reason": "Stops to wipe hands",
+    "boundary_reason": "Looking around and cutting meat",
     "origin_chunk": 6
   },
   {
-    "id": 138,
+    "id": 120,
     "start": 38510,
     "end": 38536,
     "text": "I wipe my hands with a paper towel.",
@@ -2739,14 +2559,14 @@
       1351,
       1352
     ],
-    "boundary_reason": "Resumes eating",
+    "boundary_reason": "Hand cleaning interruption",
     "origin_chunk": 6
   },
   {
-    "id": 139,
+    "id": 121,
     "start": 38536,
-    "end": 38588,
-    "text": "I eat food from the frying pan.",
+    "end": 38598,
+    "text": "I eat meat and gather the remaining food in the frying pan.",
     "refs": [
       1353,
       1354,
@@ -2754,60 +2574,40 @@
       1356,
       1357,
       1358,
-      1359
+      1359,
+      1360,
+      1361
     ],
-    "boundary_reason": "Pauses to stretch",
+    "boundary_reason": "Resuming eating",
     "origin_chunk": 6
   },
   {
-    "id": 140,
-    "start": 38589,
-    "end": 38622,
-    "text": "I look around the room.",
+    "id": 122,
+    "start": 38599,
+    "end": 38624,
+    "text": "I stretch my arms and look around the room.",
     "refs": [
-      1360,
-      1361,
       1362,
       1363,
       1364,
-      1365
+      1365,
+      1366
     ],
-    "boundary_reason": "Resumes eating",
+    "boundary_reason": "Stretching break",
     "origin_chunk": 6
   },
   {
-    "id": 141,
-    "start": 38622,
-    "end": 38638,
-    "text": "I eat a piece of cucumber.",
+    "id": 123,
+    "start": 38625,
+    "end": 38762,
+    "text": "I eat pieces of cucumber, noodles, and egg from the frying pan.",
     "refs": [
-      1366,
       1367,
       1368,
-      1369
-    ],
-    "boundary_reason": "Reaches for tissue",
-    "origin_chunk": 6
-  },
-  {
-    "id": 142,
-    "start": 38639,
-    "end": 38651,
-    "text": "I reach for a tissue at the dining table.",
-    "refs": [
+      1369,
       1370,
       1371,
-      1372
-    ],
-    "boundary_reason": "Resumes eating",
-    "origin_chunk": 6
-  },
-  {
-    "id": 143,
-    "start": 38652,
-    "end": 38712,
-    "text": "I eat noodles, egg, and cucumber from the frying pan.",
-    "refs": [
+      1372,
       1373,
       1374,
       1375,
@@ -2817,29 +2617,9 @@
       1379,
       1380,
       1381,
-      1382
-    ],
-    "boundary_reason": "Looks around",
-    "origin_chunk": 6
-  },
-  {
-    "id": 144,
-    "start": 38712,
-    "end": 38723,
-    "text": "I look around the room.",
-    "refs": [
+      1382,
       1383,
-      1384
-    ],
-    "boundary_reason": "Resumes eating",
-    "origin_chunk": 6
-  },
-  {
-    "id": 145,
-    "start": 38724,
-    "end": 38762,
-    "text": "I finish eating cucumber pieces from the frying pan.",
-    "refs": [
+      1384,
       1385,
       1386,
       1387,
@@ -2848,14 +2628,14 @@
       1390,
       1391
     ],
-    "boundary_reason": "Leaves the table",
+    "boundary_reason": "Finishing meal",
     "origin_chunk": 6
   },
   {
-    "id": 146,
+    "id": 124,
     "start": 38763,
     "end": 38806,
-    "text": "I dispose of a trash bag in the hallway bin.",
+    "text": "I take a tied trash bag from the kitchen and throw it into the hallway trash bin.",
     "refs": [
       1392,
       1393,
@@ -2867,14 +2647,14 @@
       1399,
       1400
     ],
-    "boundary_reason": "Returns to look for new bag",
+    "boundary_reason": "Taking out trash",
     "origin_chunk": 6
   },
   {
-    "id": 147,
+    "id": 125,
     "start": 38807,
     "end": 38861,
-    "text": "I line the kitchen trash can with a plastic bag.",
+    "text": "I search for a new trash bag and line the kitchen trash can with a plastic bag.",
     "refs": [
       1401,
       1402,
@@ -2888,14 +2668,14 @@
       1410,
       1411
     ],
-    "boundary_reason": "Moves to the sink",
+    "boundary_reason": "Replacing trash bag",
     "origin_chunk": 6
   },
   {
-    "id": 148,
+    "id": 126,
     "start": 38862,
     "end": 38892,
-    "text": "I wash the air fryer basket in the kitchen sink.",
+    "text": "I scrub the air fryer basket in the sink and return it to the air fryer.",
     "refs": [
       1412,
       1413,
@@ -2904,32 +2684,32 @@
       1416,
       1417
     ],
-    "boundary_reason": "Handles the trash bin",
+    "boundary_reason": "Washing air fryer",
     "origin_chunk": 6
   },
   {
-    "id": 149,
+    "id": 127,
     "start": 38892,
-    "end": 38915,
-    "text": "I empty spoiled food from the frying pan into the trash bin.",
+    "end": 38919,
+    "text": "I move the trash bin to the dining area, discard spoiled food from the frying pan into it, and return to the kitchen.",
     "refs": [
       1418,
       1419,
       1420,
       1421,
       1422,
-      1423
+      1423,
+      1424
     ],
-    "boundary_reason": "Moves pan to the sink",
+    "boundary_reason": "Discarding food",
     "origin_chunk": 6
   },
   {
-    "id": 150,
-    "start": 38916,
+    "id": 128,
+    "start": 38920,
     "end": 38975,
-    "text": "I wash the frying pan in the kitchen sink.",
+    "text": "I wash the empty frying pan in the kitchen sink.",
     "refs": [
-      1424,
       1425,
       1426,
       1427,
@@ -2941,40 +2721,30 @@
       1433,
       1434
     ],
-    "boundary_reason": "Handles the sink strainer",
+    "boundary_reason": "Washing pan",
     "origin_chunk": 6
   },
   {
-    "id": 151,
+    "id": 129,
     "start": 38976,
-    "end": 38992,
-    "text": "I empty the sink strainer basket into the trash bin.",
+    "end": 39007,
+    "text": "I empty the sink strainer basket into the trash bin and rinse my hands.",
     "refs": [
       1435,
       1436,
       1437,
-      1438
-    ],
-    "boundary_reason": "Rinses hands",
-    "origin_chunk": 6
-  },
-  {
-    "id": 152,
-    "start": 38993,
-    "end": 39007,
-    "text": "I rinse my hands in the kitchen sink.",
-    "refs": [
+      1438,
       1439,
       1440
     ],
-    "boundary_reason": "Takes out trash",
+    "boundary_reason": "Emptying strainer",
     "origin_chunk": 6
   },
   {
-    "id": 153,
+    "id": 130,
     "start": 39007,
     "end": 39026,
-    "text": "I deposit a trash bag at the hallway collection spot.",
+    "text": "I take another trash bag to the hallway collection spot and return to the apartment.",
     "refs": [
       1441,
       1442,
@@ -2988,46 +2758,36 @@
       1450,
       1451
     ],
-    "boundary_reason": "Returns to apartment",
+    "boundary_reason": "Taking out more trash",
     "origin_chunk": 6
   },
   {
-    "id": 154,
+    "id": 131,
     "start": 39027,
-    "end": 39041,
-    "text": "I stand near the front door with a torn paper towel.",
+    "end": 39060,
+    "text": "I carry a torn paper towel to the hallway refuse room and return to my bedroom.",
     "refs": [
       1452,
       1453,
       1454,
       1455,
       1456,
-      1457
-    ],
-    "boundary_reason": "Checks the hallway",
-    "origin_chunk": 6
-  },
-  {
-    "id": 155,
-    "start": 39042,
-    "end": 39056,
-    "text": "I inspect the hallway refuse room.",
-    "refs": [
+      1457,
       1458,
       1459,
       1460,
-      1461
+      1461,
+      1462
     ],
-    "boundary_reason": "Goes to the bedroom",
+    "boundary_reason": "Disposing of paper towel in refuse room",
     "origin_chunk": 6
   },
   {
-    "id": 156,
-    "start": 39057,
+    "id": 132,
+    "start": 39061,
     "end": 39097,
-    "text": "I reply to a WeChat video message in my bedroom.",
+    "text": "I view a WeChat chat and send a message saying I am going to sleep.",
     "refs": [
-      1462,
       1463,
       1464,
       1465,
@@ -3037,14 +2797,14 @@
       1469,
       1470
     ],
-    "boundary_reason": "Starts browsing articles",
+    "boundary_reason": "Sending WeChat message",
     "origin_chunk": 6
   },
   {
-    "id": 157,
+    "id": 133,
     "start": 39098,
     "end": 39161,
-    "text": "I browse my WeChat subscription feed on my smartphone.",
+    "text": "I browse WeChat articles and watch short videos in the feed.",
     "refs": [
       1471,
       1472,
@@ -3056,14 +2816,14 @@
       1478,
       1479
     ],
-    "boundary_reason": "Focuses on specific articles",
+    "boundary_reason": "Browsing WeChat feed",
     "origin_chunk": 6
   },
   {
-    "id": 158,
+    "id": 134,
     "start": 39162,
     "end": 39346,
-    "text": "I read WeChat articles about AI image models and benchmarks on my smartphone.",
+    "text": "I read a social media post about ChatGPT Images 2.0, reviewing image comparisons, benchmark charts, and pricing details.",
     "refs": [
       1480,
       1481,
@@ -3086,14 +2846,14 @@
       1498,
       1499
     ],
-    "boundary_reason": "End of input",
+    "boundary_reason": "Reading AI article",
     "origin_chunk": 6
   },
   {
-    "id": 159,
+    "id": 135,
     "start": 39346,
-    "end": 39406,
-    "text": "I read an article and view photos about the GPT-Image-2 research team.",
+    "end": 39401,
+    "text": "I read an article about the GPT-Image-2 research team on my smartphone.",
     "refs": [
       1500,
       1501,
@@ -3101,44 +2861,54 @@
       1503,
       1504,
       1505,
-      1506,
-      1507
+      1506
     ],
-    "boundary_reason": "Shift to news feed",
+    "boundary_reason": "Topic shifts from the GPT-Image-2 article to general tech news feeds.",
     "origin_chunk": 7
   },
   {
-    "id": 160,
-    "start": 39407,
+    "id": 136,
+    "start": 39402,
     "end": 39432,
-    "text": "I browse the AIGC article feed and AI tech news headlines.",
+    "text": "I review the AIGC article feed featuring AI tech news headlines and a food post.",
     "refs": [
+      1507,
       1508,
       1509,
       1510
     ],
-    "boundary_reason": "Shift to specific article",
+    "boundary_reason": "User switches from the tech news feed to a specific Toutiao article.",
     "origin_chunk": 7
   },
   {
-    "id": 161,
+    "id": 137,
     "start": 39432,
-    "end": 39467,
-    "text": "I read a Toutiao article discussing Apple product lines.",
+    "end": 39461,
+    "text": "I read a Toutiao article on my smartphone.",
     "refs": [
       1511,
       1512,
-      1513,
-      1514
+      1513
     ],
-    "boundary_reason": "Shift of attention to physical objects",
+    "boundary_reason": "User finishes the Toutiao article and opens a piece on Apple products.",
     "origin_chunk": 7
   },
   {
-    "id": 162,
+    "id": 138,
+    "start": 39462,
+    "end": 39467,
+    "text": "I read a text article discussing Apple product lines.",
+    "refs": [
+      1514
+    ],
+    "boundary_reason": "User looks away from the phone to examine physical items on the table.",
+    "origin_chunk": 7
+  },
+  {
+    "id": 139,
     "start": 39468,
-    "end": 39521,
-    "text": "I inspect items on the table including a water bottle, toilet paper, and snack boxes.",
+    "end": 39519,
+    "text": "I grasp a water bottle and inspect physical items on the table including toilet paper and snack boxes.",
     "refs": [
       1515,
       1516,
@@ -3147,61 +2917,51 @@
       1519,
       1520,
       1521,
-      1522,
-      1523
+      1522
     ],
-    "boundary_reason": "Return to phone screen",
+    "boundary_reason": "User ceases inspecting table items and returns to browsing the smartphone.",
     "origin_chunk": 7
   },
   {
-    "id": 163,
-    "start": 39522,
-    "end": 39551,
-    "text": "I browse the domestic news section on my phone.",
+    "id": 140,
+    "start": 39519,
+    "end": 39611,
+    "text": "I read a 雷峰网 domestic news article featuring an embedded screenshot.",
     "refs": [
+      1523,
       1524,
       1525,
       1526,
-      1527
-    ],
-    "boundary_reason": "Opens specific article",
-    "origin_chunk": 7
-  },
-  {
-    "id": 164,
-    "start": 39552,
-    "end": 39588,
-    "text": "I read a 雷峰网 article.",
-    "refs": [
+      1527,
       1528,
       1529,
       1530,
       1531,
-      1532
-    ],
-    "boundary_reason": "Opens embedded media",
-    "origin_chunk": 7
-  },
-  {
-    "id": 165,
-    "start": 39588,
-    "end": 39641,
-    "text": "I examine an embedded screenshot and a document preview on my phone.",
-    "refs": [
+      1532,
       1533,
       1534,
       1535,
-      1536,
+      1536
+    ],
+    "boundary_reason": "User switches from reading the domestic news article to a document preview page.",
+    "origin_chunk": 7
+  },
+  {
+    "id": 141,
+    "start": 39612,
+    "end": 39641,
+    "text": "I review a document preview page and its prompt bubbles on my smartphone.",
+    "refs": [
       1537,
       1538,
       1539,
       1540
     ],
-    "boundary_reason": "App switch to WeChat",
+    "boundary_reason": "User leaves the document preview to check WeChat messages.",
     "origin_chunk": 7
   },
   {
-    "id": 166,
+    "id": 142,
     "start": 39642,
     "end": 39679,
     "text": "I read WeChat chat messages.",
@@ -3210,14 +2970,14 @@
       1542,
       1543
     ],
-    "boundary_reason": "App switch back to news",
+    "boundary_reason": "User switches from WeChat to reading a LeiFeng tech article.",
     "origin_chunk": 7
   },
   {
-    "id": 167,
+    "id": 143,
     "start": 39679,
     "end": 39731,
-    "text": "I read a tech article about AI image generation and smartphone pricing.",
+    "text": "I read a 雷峰网 tech article concerning AI image generation and smartphone market pricing.",
     "refs": [
       1544,
       1545,
@@ -3225,55 +2985,65 @@
       1547,
       1548
     ],
-    "boundary_reason": "Shift to social media feed",
+    "boundary_reason": "User transitions from the tech article to browsing Alibaba trademark posts on social media.",
     "origin_chunk": 7
   },
   {
-    "id": 168,
+    "id": 144,
     "start": 39732,
-    "end": 39791,
-    "text": "I browse a social media feed about AI trademark applications.",
+    "end": 39781,
+    "text": "I browse a text-heavy social media post regarding Alibaba's AI trademark applications.",
     "refs": [
       1549,
       1550,
-      1551,
-      1552,
-      1553
+      1551
     ],
-    "boundary_reason": "Shift to article comments",
+    "boundary_reason": "User momentarily looks away from the phone to scan the room.",
     "origin_chunk": 7
   },
   {
-    "id": 169,
-    "start": 39792,
-    "end": 39834,
-    "text": "I read user comments on a 雷峰网 tech news article.",
+    "id": 145,
+    "start": 39782,
+    "end": 39782,
+    "text": "I scan the room towards the hallway and blue lockers.",
     "refs": [
+      1552
+    ],
+    "boundary_reason": "User returns focus to the smartphone to scroll a social media feed.",
+    "origin_chunk": 7
+  },
+  {
+    "id": 146,
+    "start": 39783,
+    "end": 39834,
+    "text": "I review user comments on a 雷峰网 tech news post in my social media feed.",
+    "refs": [
+      1553,
       1554,
       1555,
       1556,
       1557,
       1558
     ],
-    "boundary_reason": "Shift to WeChat Official Accounts",
+    "boundary_reason": "User switches from LeiFeng news comments to the WeChat Official Accounts feed.",
     "origin_chunk": 7
   },
   {
-    "id": 170,
+    "id": 147,
     "start": 39834,
     "end": 39842,
     "text": "I browse the WeChat Official Accounts feed.",
     "refs": [
       1559
     ],
-    "boundary_reason": "Opens specific article",
+    "boundary_reason": "User selects a specific XinZhiYuan article to read from the feed.",
     "origin_chunk": 7
   },
   {
-    "id": 171,
+    "id": 148,
     "start": 39842,
     "end": 40031,
-    "text": "I read a 新智元 article about LingBot-Map and 3D indoor scene reconstruction.",
+    "text": "I read a 新智元 article detailing the LingBot-Map 3D scene reconstruction and selective memory system.",
     "refs": [
       1560,
       1561,
@@ -3301,14 +3071,14 @@
       1583,
       1584
     ],
-    "boundary_reason": "Opens different article",
+    "boundary_reason": "User transitions from the LingBot-Map article to one about LingBot-Depth.",
     "origin_chunk": 7
   },
   {
-    "id": 172,
+    "id": 149,
     "start": 40032,
     "end": 40097,
-    "text": "I read a 新智元 article about LingBot-Depth.",
+    "text": "I read a 新智元 article regarding the LingBot-Depth technology.",
     "refs": [
       1585,
       1586,
@@ -3320,29 +3090,39 @@
       1592,
       1593
     ],
-    "boundary_reason": "Opens different post",
+    "boundary_reason": "User momentarily looks away toward the hallway.",
     "origin_chunk": 7
   },
   {
-    "id": 173,
+    "id": 150,
     "start": 40097,
+    "end": 40099,
+    "text": "I look toward the hallway.",
+    "refs": [
+      1594
+    ],
+    "boundary_reason": "User returns attention to the phone to read a formatting tutorial.",
+    "origin_chunk": 7
+  },
+  {
+    "id": 151,
+    "start": 40099,
     "end": 40144,
     "text": "I read a formatting tutorial post on my phone.",
     "refs": [
-      1594,
       1595,
       1596,
       1597,
       1598
     ],
-    "boundary_reason": "Companion approaches with object",
+    "boundary_reason": "User is interrupted by a companion placing a tissue package nearby.",
     "origin_chunk": 7
   },
   {
-    "id": 174,
+    "id": 152,
     "start": 40144,
     "end": 40201,
-    "text": "I converse with my companion and tear open a hanging tissue package.",
+    "text": "I examine and tear open a newly purchased hanging tissue package with my companion.",
     "refs": [
       1599,
       1600,
@@ -3361,14 +3141,14 @@
       1613,
       1614
     ],
-    "boundary_reason": "Physical interaction completes, focus shifts to conversation content",
+    "boundary_reason": "The immediate action of opening the new tissue pack concludes, leading to a broader discussion about its usability.",
     "origin_chunk": 7
   },
   {
-    "id": 175,
+    "id": 153,
     "start": 40202,
     "end": 40282,
-    "text": "I discuss the facial tissue and throwing out the trash with my flatmate.",
+    "text": "I debate tissue usability and a smelly trash can with my roommate while browsing my smartphone.",
     "refs": [
       1615,
       1616,
@@ -3386,14 +3166,14 @@
       1628,
       1629
     ],
-    "boundary_reason": "Returns focus to phone screen",
+    "boundary_reason": "The conversation ends and the user refocuses fully on specific phone content.",
     "origin_chunk": 7
   },
   {
-    "id": 176,
+    "id": 154,
     "start": 40282,
     "end": 40351,
-    "text": "I browse my phone and view a post and 3D trajectory demo video about LingBot-Map.",
+    "text": "I browse social media posts and demo videos concerning the LingBot-Map 3D foundation model.",
     "refs": [
       1630,
       1631,
@@ -3404,45 +3184,55 @@
       1636,
       1637
     ],
-    "boundary_reason": "App switch to WeChat",
+    "boundary_reason": "User switches from browsing LingBot-Map posts to a WeChat chat.",
     "origin_chunk": 7
   },
   {
-    "id": 177,
+    "id": 155,
     "start": 40351,
     "end": 40370,
-    "text": "I check a WeChat conversation.",
+    "text": "I open and view a WeChat conversation.",
     "refs": [
       1638,
       1639,
       1640,
       1641
     ],
-    "boundary_reason": "Navigates to home screen",
+    "boundary_reason": "User leaves the WeChat chat to briefly browse tech articles.",
     "origin_chunk": 7
   },
   {
-    "id": 178,
+    "id": 156,
     "start": 40370,
-    "end": 40376,
-    "text": "I browse tech articles and navigate to the home screen.",
+    "end": 40373,
+    "text": "I browse tech articles on my smartphone.",
     "refs": [
-      1642,
-      1643
+      1642
     ],
-    "boundary_reason": "Opens X app",
+    "boundary_reason": "User exits the tech articles to open the X app from the home screen.",
     "origin_chunk": 7
   },
   {
-    "id": 179,
-    "start": 40376,
-    "end": 40451,
-    "text": "I read a Google Research post about ReasoningBank on X.",
+    "id": 157,
+    "start": 40373,
+    "end": 40397,
+    "text": "I browse the X timeline for updates on Gemini Deep Research and agricultural futures.",
     "refs": [
+      1643,
       1644,
       1645,
       1646,
-      1647,
+      1647
+    ],
+    "boundary_reason": "User pauses scrolling the feed to focus on a specific ReasoningBank post.",
+    "origin_chunk": 7
+  },
+  {
+    "id": 158,
+    "start": 40397,
+    "end": 40451,
+    "text": "I read a Google Research post about ReasoningBank on X.",
+    "refs": [
       1648,
       1649,
       1650,
@@ -3450,14 +3240,14 @@
       1652,
       1653
     ],
-    "boundary_reason": "Shift to different article",
+    "boundary_reason": "User switches from the ReasoningBank post to an in-depth article on CUDA Graph.",
     "origin_chunk": 7
   },
   {
-    "id": 180,
+    "id": 159,
     "start": 40452,
     "end": 40777,
-    "text": "I read a technical article explaining CUDA Graph acceleration for LLM inference.",
+    "text": "I read a comprehensive technical article detailing CUDA Graph optimization for LLM inference in PyTorch.",
     "refs": [
       1654,
       1655,
@@ -3500,19 +3290,29 @@
       1692,
       1693
     ],
-    "boundary_reason": "Returns to X feed",
+    "boundary_reason": "User finishes the lengthy technical article and returns to browsing the X feed.",
     "origin_chunk": 7
   },
   {
-    "id": 181,
+    "id": 160,
     "start": 40777,
-    "end": 40950,
-    "text": "I browse my X feed and read AI research posts including Energy Transformers.",
+    "end": 40801,
+    "text": "I review an X post by Philippe Laban concerning LLMs within my feed.",
     "refs": [
       1694,
       1695,
       1696,
-      1697,
+      1697
+    ],
+    "boundary_reason": "User scrolls past the LLM post to focus on a specific 'Minimal Brain Damage' research thread.",
+    "origin_chunk": 7
+  },
+  {
+    "id": 161,
+    "start": 40802,
+    "end": 40878,
+    "text": "I review the 'Minimal Brain Damage' AI research post and its replies on X.",
+    "refs": [
       1698,
       1699,
       1700,
@@ -3521,13 +3321,43 @@
       1703,
       1704,
       1705,
-      1706,
+      1706
+    ],
+    "boundary_reason": "User finishes reading the 'Minimal Brain Damage' thread and continues scrolling the X feed.",
+    "origin_chunk": 7
+  },
+  {
+    "id": 162,
+    "start": 40879,
+    "end": 40908,
+    "text": "I review X posts featuring DailyPapers updates and a Google Gemma benchmark video.",
+    "refs": [
       1707,
       1708,
       1709,
-      1710,
+      1710
+    ],
+    "boundary_reason": "User transitions from the Gemma benchmark post to read about Anthropic STEM Fellows.",
+    "origin_chunk": 7
+  },
+  {
+    "id": 163,
+    "start": 40909,
+    "end": 40923,
+    "text": "I read a post regarding the Anthropic STEM Fellows program on X.",
+    "refs": [
       1711,
-      1712,
+      1712
+    ],
+    "boundary_reason": "User moves from the Anthropic post to read about Energy-Based Transformers.",
+    "origin_chunk": 7
+  },
+  {
+    "id": 164,
+    "start": 40924,
+    "end": 40950,
+    "text": "I read and translate an X post discussing Energy-Based Transformers.",
+    "refs": [
       1713,
       1714,
       1715,
@@ -3535,17 +3365,27 @@
       1717,
       1718
     ],
-    "boundary_reason": "Shift to 3D and robotics videos",
+    "boundary_reason": "User finishes the Energy-Based Transformers post and scrolls to a Depth Anything V2 video.",
     "origin_chunk": 7
   },
   {
-    "id": 182,
+    "id": 165,
     "start": 40950,
-    "end": 41069,
-    "text": "I view posts and demo videos about 3D models and spatial navigation on X.",
+    "end": 40975,
+    "text": "I watch a Depth Anything V2 video demo on X.",
     "refs": [
       1719,
-      1720,
+      1720
+    ],
+    "boundary_reason": "User scrolls past the Depth Anything video to read an Asset Harvester announcement.",
+    "origin_chunk": 7
+  },
+  {
+    "id": 166,
+    "start": 40975,
+    "end": 41051,
+    "text": "I review an X thread featuring translated text and demo videos for the Asset Harvester 3D model.",
+    "refs": [
       1721,
       1722,
       1723,
@@ -3556,20 +3396,30 @@
       1728,
       1729,
       1730,
-      1731,
+      1731
+    ],
+    "boundary_reason": "User finishes the Asset Harvester thread and continues scrolling through other X posts.",
+    "origin_chunk": 7
+  },
+  {
+    "id": 167,
+    "start": 41052,
+    "end": 41069,
+    "text": "I browse my X feed to view a street navigation video and a workflow diagram.",
+    "refs": [
       1732,
       1733,
       1734,
       1735
     ],
-    "boundary_reason": "Notification interrupts",
+    "boundary_reason": "User stops scrolling the X feed to address a new lock screen notification.",
     "origin_chunk": 7
   },
   {
-    "id": 183,
+    "id": 168,
     "start": 41070,
     "end": 41096,
-    "text": "I reply to a WeChat message from babe and place my phone on the table.",
+    "text": "I reply to a WeChat notification from babe and place my phone on the table.",
     "refs": [
       1736,
       1737,
@@ -3579,7 +3429,7 @@
       1741,
       1742
     ],
-    "boundary_reason": "End of recorded actions",
+    "boundary_reason": "End of recording batch.",
     "origin_chunk": 7
   }
 ]

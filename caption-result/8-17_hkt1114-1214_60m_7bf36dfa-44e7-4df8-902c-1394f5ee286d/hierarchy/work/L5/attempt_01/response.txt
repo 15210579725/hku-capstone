@@ -1,0 +1,36 @@
+```json
+{
+  "target_level": "L5",
+  "plan": "Retain the major work activity, isolate the abrupt departure as a standalone behavior-changing trigger per rule 3, and maintain the meal and parcel collection as distinct major activities due to their separate primary locations and concrete targets.",
+  "events": [
+    [
+      "0",
+      "I conduct my model research and AutoDL cluster administration.",
+      "Distinct major work session"
+    ],
+    [
+      "1",
+      "I abruptly leave the office following a surprising notification.",
+      "Standalone major behavior-changing trigger"
+    ],
+    [
+      "2",
+      "I eat a meal with my colleagues at the cafeteria.",
+      "Distinct overarching goal and location"
+    ],
+    [
+      "3",
+      "I acquire my new desk fan from the campus parcel locker.",
+      "Distinct overarching goal and location"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "1"
+    ],
+    "boundary_cautions": []
+  }
+}
+```

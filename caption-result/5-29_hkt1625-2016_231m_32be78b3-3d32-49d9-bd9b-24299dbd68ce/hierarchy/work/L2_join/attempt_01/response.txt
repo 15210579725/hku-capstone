@@ -1,0 +1,36 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Merge adjacent L2 events that describe the exact same ongoing immediate task (such as continuous walking/conversing or continuous packing) interrupted only by the batch boundary. Do not merge sequential steps that represent a change in the immediate tool, target, or sub-task.",
+  "merges": [
+    [
+      141,
+      142,
+      "I pack my belongings into my backpack and prepare to leave while conversing with my companion about API errors.",
+      "Same packing and preparing to leave task continues across batch edge"
+    ],
+    [
+      158,
+      159,
+      "I walk along the mall corridor and converse with my companion about dinner plans and rent.",
+      "Same walking and conversing task continues across batch edge"
+    ],
+    [
+      178,
+      179,
+      "I navigate the shopping mall corridor past various storefronts.",
+      "Same walking task continues across batch edge"
+    ],
+    [
+      211,
+      212,
+      "I walk along the outdoor pedestrian corridors and sidewalk with my companion while conversing about hot pot ingredients.",
+      "Same walking and conversing task continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

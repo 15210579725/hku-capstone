@@ -1,0 +1,81 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group actions by immediate tasks, distinguishing script configuration, a mobile payment attempt interrupted by Wi-Fi troubleshooting, dashboard review, log monitoring, phone breaks, and explicit conversational triggers.",
+  "events": [
+    [
+      "250-286",
+      "I configure and run the Claude Code calibration script in VS Code.",
+      "Shifts from VS Code script execution to browser AI menus"
+    ],
+    [
+      "287-290",
+      "I review AI provider options in the browser.",
+      "Shifts from laptop browser to smartphone payment setup"
+    ],
+    [
+      "291-320",
+      "I attempt a ¥200 Right Code recharge via Alipay but encounter a network error.",
+      "Network error interrupts payment, requiring Wi-Fi configuration"
+    ],
+    [
+      "321-331",
+      "I connect my iPhone to the eduroam Wi-Fi network.",
+      "Wi-Fi connection established, returning to payment flow"
+    ],
+    [
+      "332-341",
+      "I complete the ¥200 Right Code recharge payment using Alipay.",
+      "Payment succeeds, focus shifts back to laptop web dashboard"
+    ],
+    [
+      "342-345",
+      "I review API usage metrics on the RightCode dashboard.",
+      "Shifts from web dashboard to VS Code workspace"
+    ],
+    [
+      "346-361",
+      "I search for a lost VS Code interface window.",
+      "Window context recovered, attention stabilizes on script execution"
+    ],
+    [
+      "362-387",
+      "I monitor the Claude Code evaluation script progress in VS Code.",
+      "Takes a brief break from the screen to look around"
+    ],
+    [
+      "388-395",
+      "I acknowledge a classmate while observing my surroundings.",
+      "Returns focus from environment back to laptop screen"
+    ],
+    [
+      "396-439",
+      "I monitor Claude Code calibration progress in VS Code.",
+      "Shifts from laptop work to checking smartphone"
+    ],
+    [
+      "440-451",
+      "I read technology articles on WeChat on my iPhone.",
+      "Interrupted by a companion's arrival"
+    ],
+    [
+      "452-456",
+      "I ask my companion to wait ten minutes for me to finish scoring before we leave to eat.",
+      "Conversation ends, explicitly commits to completing the evaluation task"
+    ],
+    [
+      "457-499",
+      "I evaluate action prediction test cases in VS Code.",
+      "End of input batch"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "452-456"
+    ],
+    "boundary_cautions": []
+  }
+}
+```

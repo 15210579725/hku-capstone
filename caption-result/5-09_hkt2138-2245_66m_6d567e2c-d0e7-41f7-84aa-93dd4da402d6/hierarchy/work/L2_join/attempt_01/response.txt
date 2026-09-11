@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Assess whether eligible adjacent L2 items continue the exact same immediate task. Pair [15, 16] transitions from reviewing documentation to providing CLI feedback and conversing, so it is not merged. Pair [44, 45] is a continuous bicycle riding task split by the batch boundary. Pair [69, 70] is a continuous printed menu evaluation task split by the batch boundary.",
+  "merges": [
+    [
+      44,
+      45,
+      "I ride a shared bicycle along the road behind my companion.",
+      "Same bicycle riding action continues across batch edge"
+    ],
+    [
+      69,
+      70,
+      "I evaluate dish options on the printed restaurant menu with my companion.",
+      "Same menu evaluation task continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

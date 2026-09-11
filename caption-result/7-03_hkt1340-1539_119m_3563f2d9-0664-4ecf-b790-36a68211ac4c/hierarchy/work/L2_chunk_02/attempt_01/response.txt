@@ -1,0 +1,39 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions sharing a single immediate goal, target, or context into tasks. Separate brief context switches such as checking messages or monitoring dashboards from the primary research and reading activities.",
+  "events": [
+    ["250-251", "I view a paper in Chrome.", "Switches to checking WeChat"],
+    ["252-254", "I check WeChat notifications.", "Switches to Claude"],
+    ["255-264", "I query Claude and ChatGPT for a comparison between H800 and L40 GPUs.", "Switches back to WeChat"],
+    ["265-266", "I read forwarded chat history in WeChat.", "Opens cluster dashboard"],
+    ["267-277", "I check cluster resources and hardware specifications on the dashboard.", "Switches to ChatGPT tab"],
+    ["278-289", "I read the ChatGPT comparison of H800 and L40 GPUs.", "Returns to cluster dashboard"],
+    ["290-301", "I review historical compute jobs and benchmark logs on the cluster dashboard.", "Switches to Claude Code in VS Code"],
+    ["302-309", "I monitor Claude Code package downloads and execution status in VS Code.", "Switches to E-Shell tab"],
+    ["310-316", "I execute diagnostic commands in the E-Shell terminal.", "Switches to cluster control panel"],
+    ["317-321", "I review cloud computing cluster statistics in the control panel.", "Switches to browser tabs"],
+    ["322-325", "I inspect various browser tabs including the ChatGPT comparison, API usage, and WeChat.", "Takes a break from the screen"],
+    ["326-331", "I inspect my hands and laptop area.", "Returns to ChatGPT"],
+    ["332-333", "I read the ChatGPT GPU comparison.", "Switches to VS Code agent logs"],
+    ["334-351", "I manage task inputs and model permissions for the AI coding agent in VS Code.", "Takes a brief break"],
+    ["352-358", "I observe my office surroundings and myself.", "Returns to terminal prompt"],
+    ["359-365", "I approve scp and gpu.py commands for the running AI coding task.", "Returns to ChatGPT"],
+    ["366-368", "I read the ChatGPT comparison between H800 and L40 GPUs.", "Switches to Claude application"],
+    ["369-373", "I review my chat history in the Claude application.", "Looks away from screen"],
+    ["374-381", "I observe my desk area and lap.", "Reaches for notebook"],
+    ["382-409", "I review my handwritten notebook notes on habit triggers and goal-directed behavior.", "Prepares to write"],
+    ["410-431", "I prepare to write in my notebook.", "Starts writing"],
+    ["432-439", "I write a question about habit rewards in my notebook.", "Stops writing and reviews"],
+    ["440-478", "I review my handwritten question on habit rewards.", "Returns to coding agent"],
+    ["479-491", "I manage AI coding agent commands and execution logs.", "Returns to notebook"],
+    ["492-499", "I write an additional note about habit rewards in my notebook.", "Task completes"]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

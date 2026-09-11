@@ -1,0 +1,26 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group the heavily overlapping action briefs into two distinct immediate tasks based on their semantic intent: stationary waiting and observing versus actively riding and crossing.",
+  "events": [
+    [
+      "0-24,27-29,32-36,40-42,46,48-49",
+      "I wait on my bicycle at the crosswalk.",
+      "Groups all stationary waiting, holding handlebars, and traffic observation actions."
+    ],
+    [
+      "25-26,30-31,37-39,43-45,47,50",
+      "I ride my bicycle across the intersection.",
+      "Groups all active pedaling, grasping handlebars to move, and crossing actions."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": [
+      "Due to overlapping annotations describing both waiting and riding during the same time period (21:29:25 onwards), briefs are partitioned by their explicit semantic action to preserve evidence and form distinct immediate tasks."
+    ]
+  }
+}
+```

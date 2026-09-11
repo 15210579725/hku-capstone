@@ -1,0 +1,29 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group the ferry trip into three broad phases: the pre-departure wait characterized by smartphone use and cabin observations, the main transit focused on sightseeing and passing the time, and the final disembarkation into the terminal.",
+  "events": [
+    [
+      "0-4",
+      "I wait out the ferry departure delay by occupying myself with smartphone applications and cabin observations.",
+      "Transition from the delayed departure phase to the main ferry transit."
+    ],
+    [
+      "5-10",
+      "I pass the time during the ferry transit by enjoying the scenic ocean views and engaging in casual leisure activities.",
+      "Transition from the transit phase to the disembarkation process."
+    ],
+    [
+      "11-12",
+      "I disembark the ferry into the arrival terminal with my companion and luggage.",
+      "End of the ferry journey."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

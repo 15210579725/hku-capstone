@@ -1,0 +1,36 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group immediate tasks into coherent study episodes based on the primary focus of attention (handwritten notes versus Claude screen) and distinct phases of AI interaction (reviewing history versus studying a newly requested explanation).",
+  "events": [
+    [
+      "0-10",
+      "I revise my handwritten mathematical notes and diagrams for the tournament proof.",
+      "Focus shifts from physical handwritten notes to reading the AI assistant on screen"
+    ],
+    [
+      "11-14",
+      "I study the Theorem 22 tournament proof and related probabilistic concepts on Claude.",
+      "Activity shifts from reviewing previous chat context to prompting for new explanations"
+    ],
+    [
+      "15-18",
+      "I study Claude's step-by-step explanations of the logical parts of the tournament proof.",
+      "Activity shifts from reading the AI's explanations to passively observing the environment"
+    ],
+    [
+      "19",
+      "I stare at my laptop keyboard and surrounding study area.",
+      "End of input sequence"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": [
+      "Event 10 involves expressing frustration about being rushed out, but since the user continues studying immediately after without abandoning the activity, it does not act as a standalone major trigger and is absorbed into the ongoing study episode."
+    ]
+  }
+}
+```

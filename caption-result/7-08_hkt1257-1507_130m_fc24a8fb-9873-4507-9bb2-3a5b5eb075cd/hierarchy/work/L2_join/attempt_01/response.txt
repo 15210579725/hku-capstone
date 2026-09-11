@@ -1,0 +1,30 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate each eligible pair for task continuity. Pair [20, 21] continues the identical task of updating Feishu notes about benchmarks. Pair [58, 59] continues the continuous action of entering and settling into the video meeting. Pair [71, 72] continues the same passive task of attending/monitoring the video meeting. Pair [37, 38] involves switching applications (VS Code/Feishu to Chrome) and topics, and pair [94, 95] shifts from silent code examination to active discussion; these represent distinct immediate tasks and will not be merged.",
+  "merges": [
+    [
+      20,
+      21,
+      "I update my Feishu research notes about AI benchmarks.",
+      "Same immediate task of updating Feishu notes continues across batch edge"
+    ],
+    [
+      58,
+      59,
+      "I join and monitor the Zoom video meeting.",
+      "Same immediate task of joining and establishing presence in the meeting continues across batch edge"
+    ],
+    [
+      71,
+      72,
+      "I attend and monitor the video meeting.",
+      "Same immediate task of attending and monitoring the meeting continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

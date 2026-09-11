@@ -1,0 +1,117 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks. Walk/transit segments are unified by path and ongoing device usage. The fruit purchase (310-372) is grouped into a single unified task as per the cucumber rule, incorporating selection, vendor interaction, and payment. Requesting and using the address are kept as distinct immediate tasks.",
+  "events": [
+    [
+      "250-252",
+      "I speak in the atrium while checking my smartphone.",
+      "Walks to elevator"
+    ],
+    [
+      "253-257",
+      "I enter the elevator.",
+      "Elevator doors close"
+    ],
+    [
+      "258-265",
+      "I browse WeChat messages while riding the elevator.",
+      "Exits elevator"
+    ],
+    [
+      "266-271",
+      "I read a WeChat message from babe while walking out of the building lobby.",
+      "Reaches exterior sidewalk"
+    ],
+    [
+      "272-280",
+      "I read WeChat messages while walking past MTR Tai Wai Station.",
+      "Begins dictating a message"
+    ],
+    [
+      "281-287",
+      "I dictate a WeChat message asking for Xu's contact while walking up the footbridge stairs.",
+      "Reaches footbridge walkway"
+    ],
+    [
+      "288-297",
+      "I dictate WeChat messages while walking along the footbridge.",
+      "Approaches elevator"
+    ],
+    [
+      "298-309",
+      "I take the elevator down from the footbridge to the plaza.",
+      "Exits elevator into plaza"
+    ],
+    [
+      "310-372",
+      "I purchase bananas, oranges, and mangoes at the Fu Ka Food supermarket.",
+      "Leaves fruit stall after payment"
+    ],
+    [
+      "373-379",
+      "I check my smartphone while crossing the plaza to the glass elevator.",
+      "Enters elevator"
+    ],
+    [
+      "380-384",
+      "I read WeChat messages while riding the glass elevator up to the footbridge.",
+      "Exits elevator onto footbridge"
+    ],
+    [
+      "385-393",
+      "I descend the footbridge stairs to the plaza.",
+      "Reaches plaza level"
+    ],
+    [
+      "394-401",
+      "I walk along the sidewalk under the overpass outside Tai Wai Station.",
+      "Raises phone to message babe"
+    ],
+    [
+      "402-409",
+      "I obtain babe's home address via WeChat while walking toward the building lobby.",
+      "Enters building lobby"
+    ],
+    [
+      "410-423",
+      "I register my visit with the security guard at the building lobby using babe's address.",
+      "Walks to escalator"
+    ],
+    [
+      "424-432",
+      "I ride the escalator up from the building lobby.",
+      "Steps off escalator"
+    ],
+    [
+      "433-443",
+      "I approach the outdoor entrance via a second escalator.",
+      "Exits lobby to outdoor pathway"
+    ],
+    [
+      "444-462",
+      "I sing a song while walking along the outdoor colonnade and garden pathway into the courtyard.",
+      "Transitions to outdoor promenade"
+    ],
+    [
+      "463-484",
+      "I walk through the outdoor pedestrian plaza and paved promenades.",
+      "Approaches covered colonnade"
+    ],
+    [
+      "485-499",
+      "I approach the glass building entrance holding my visitor slip.",
+      "Batch ends"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": [
+      "310-372: Unified into a single purchase event covering fruit selection and payment, adhering to the cucumber rule.",
+      "402-423: Split into two logical L2 tasks (obtaining the address, then using the address to register)."
+    ]
+  }
+}
+```

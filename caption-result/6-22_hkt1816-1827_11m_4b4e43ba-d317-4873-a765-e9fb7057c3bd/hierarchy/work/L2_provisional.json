@@ -1,0 +1,338 @@
+[
+  {
+    "id": 0,
+    "start": 65809,
+    "end": 65832,
+    "text": "I inspect the planter bench and glue package.",
+    "refs": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "boundary_reason": "Shift to donning a garment",
+    "origin_chunk": 1
+  },
+  {
+    "id": 1,
+    "start": 65832,
+    "end": 65865,
+    "text": "I put on a white garment.",
+    "refs": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "boundary_reason": "Garment donned, shift to cleaning",
+    "origin_chunk": 1
+  },
+  {
+    "id": 2,
+    "start": 65865,
+    "end": 65890,
+    "text": "I wipe the planter bench with a tissue.",
+    "refs": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "boundary_reason": "Bench wiped, shift to backpack",
+    "origin_chunk": 1
+  },
+  {
+    "id": 3,
+    "start": 65890,
+    "end": 65899,
+    "text": "I close my backpack.",
+    "refs": [
+      18,
+      19,
+      20
+    ],
+    "boundary_reason": "Backpack closed, shift to preparing glue",
+    "origin_chunk": 1
+  },
+  {
+    "id": 4,
+    "start": 65899,
+    "end": 65908,
+    "text": "I unwrap the glue package.",
+    "refs": [
+      21,
+      22
+    ],
+    "boundary_reason": "Glue unwrapped, shift to walking",
+    "origin_chunk": 1
+  },
+  {
+    "id": 5,
+    "start": 65909,
+    "end": 65955,
+    "text": "I walk toward the McDonald's entrance.",
+    "refs": [
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32
+    ],
+    "boundary_reason": "Arrived near destination, shift to communicating",
+    "origin_chunk": 1
+  },
+  {
+    "id": 6,
+    "start": 65956,
+    "end": 65988,
+    "text": "I inform my contact of my arrival at the B2 entrance.",
+    "refs": [
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "boundary_reason": "Location communicated, shift to walking",
+    "origin_chunk": 1
+  },
+  {
+    "id": 7,
+    "start": 65989,
+    "end": 66018,
+    "text": "I navigate toward the street intersection.",
+    "refs": [
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47
+    ],
+    "boundary_reason": "Arrived at intersection, shift to observing",
+    "origin_chunk": 1
+  },
+  {
+    "id": 8,
+    "start": 66019,
+    "end": 66108,
+    "text": "I observe traffic and commuters at the MTR station entrance.",
+    "refs": [
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67
+    ],
+    "boundary_reason": "Shift to conversing with companion",
+    "origin_chunk": 1
+  },
+  {
+    "id": 9,
+    "start": 66109,
+    "end": 66141,
+    "text": "I discuss the heat and returning home with my companion.",
+    "refs": [
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75
+    ],
+    "boundary_reason": "Topic shifts to Japanese restaurant",
+    "origin_chunk": 1
+  },
+  {
+    "id": 10,
+    "start": 66141,
+    "end": 66224,
+    "text": "I discuss local food options with my companion.",
+    "refs": [
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91
+    ],
+    "boundary_reason": "Topic shifts to research data",
+    "origin_chunk": 1
+  },
+  {
+    "id": 11,
+    "start": 66225,
+    "end": 66281,
+    "text": "I discuss my companion's research data methodology.",
+    "refs": [
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102
+    ],
+    "boundary_reason": "Topic shifts to cooling devices",
+    "origin_chunk": 1
+  },
+  {
+    "id": 12,
+    "start": 66282,
+    "end": 66327,
+    "text": "I retrieve my portable fan to check its battery.",
+    "refs": [
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114
+    ],
+    "boundary_reason": "Fan checked, shift to general conversation",
+    "origin_chunk": 1
+  },
+  {
+    "id": 13,
+    "start": 66328,
+    "end": 66358,
+    "text": "I converse with my companion while walking along the sidewalk.",
+    "refs": [
+      115,
+      116,
+      117,
+      118,
+      119,
+      120
+    ],
+    "boundary_reason": "Shift to entering building",
+    "origin_chunk": 1
+  },
+  {
+    "id": 14,
+    "start": 66359,
+    "end": 66403,
+    "text": "I enter the residential building lobby.",
+    "refs": [
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133
+    ],
+    "boundary_reason": "Entered lobby, shift to elevator ride",
+    "origin_chunk": 1
+  },
+  {
+    "id": 15,
+    "start": 66404,
+    "end": 66438,
+    "text": "I assist my companion in cooling down during the elevator ride.",
+    "refs": [
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144
+    ],
+    "boundary_reason": "Topic shifts to seaside visit",
+    "origin_chunk": 1
+  },
+  {
+    "id": 16,
+    "start": 66439,
+    "end": 66448,
+    "text": "I discuss my seaside visit with my companion.",
+    "refs": [
+      145,
+      146,
+      147,
+      148
+    ],
+    "boundary_reason": "Shift to entering apartment",
+    "origin_chunk": 1
+  },
+  {
+    "id": 17,
+    "start": 66448,
+    "end": 66472,
+    "text": "I turn on the air conditioner upon entering apartment 15B.",
+    "refs": [
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155
+    ],
+    "boundary_reason": "End of recording",
+    "origin_chunk": 1
+  }
+]

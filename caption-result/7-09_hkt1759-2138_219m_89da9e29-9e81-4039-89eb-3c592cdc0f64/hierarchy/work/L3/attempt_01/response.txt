@@ -1,0 +1,50 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group immediate L2 tasks into coherent L3 episodes by identifying the continuous pursuit of a single goal (e.g., eating a meal, completing a purchase, or researching a specific metric). Distinct shifts in activity, such as browsing different product categories on e-commerce or interleaving phone checks during desk work, represent significant changes in focus and are maintained as separate episodes.",
+  "events": [
+    ["0-14", "I eat dinner and converse with my friends at the cafeteria dining table.", "Goal shifts to acquiring more food"],
+    ["15-19", "I purchase a plate of fried fish and bring it back to my table.", "Goal shifts to eating the newly acquired food"],
+    ["20-30", "I eat the fried fish, send photos to WeChat, and return my food tray.", "Goal shifts to personal hygiene and leaving the cafeteria"],
+    ["31-33", "I visit the restroom to wash my hands.", "Goal shifts to walking outdoors and taking a video call"],
+    ["34-39", "I walk outdoors while conversing on a WeChat video call with babe.", "Call ends, goal shifts to walking to the office"],
+    ["40-45", "I walk along the outdoor road toward the office.", "Goal shifts to resting and checking the phone"],
+    ["46-49,65,76", "I rest by the road and manage GPU allocations in WeChat.", "Goal shifts to entering the office building"],
+    ["50-54", "I walk into the office building and settle at my workstation.", "Goal shifts to working on literature review"],
+    ["55-60", "I review literature on egocentric action prediction using Claude AI and arXiv.", "Interrupted by WeChat messages"],
+    ["61", "I check WeChat messages regarding GPU allocation and scooter repair.", "Goal shifts to testing code and modeling"],
+    ["62-64", "I examine egocentric action prediction paradigms and test eye-gaze annotations using AI assistants.", "Goal shifts to walking and a phone call"],
+    ["66-67", "I take a phone call with 'ma' and check WeChat messages while walking to the elevator lobby.", "Goal shifts to browsing e-commerce"],
+    ["68-75", "I search for birthday gift ideas for my father and browse smart gadgets on Taobao.", "Focus shifts specifically to smart glasses"],
+    ["77-81", "I browse smart glasses listings and evaluate product specifications on e-commerce apps.", "Focus shifts to shoes and apparel"],
+    ["82-86", "I browse athletic shoes and apparel listings on Taobao.", "Goal shifts to researching and purchasing a pet camera"],
+    ["87-97", "I evaluate pet companion robots on Taobao and purchase the EZVIZ TAMO camera.", "Goal shifts to watching user reviews"],
+    ["98-103", "I watch review and demonstration videos for the EZVIZ TAMO and other pet cameras on Xiaohongshu and Taobao.", "Goal shifts to sharing content on WeChat"],
+    ["104-108", "I watch and share pet companion robot videos on Xiaohongshu and WeChat.", "Goal shifts to general chat replies"],
+    ["109-111", "I read and reply to WeChat messages.", "Goal shifts to returning to the desk"],
+    ["112-113", "I walk back to my workstation and take a drink of water.", "Goal shifts to researching evaluation metrics"],
+    ["114-120", "I research video action prediction metrics using Claude AI and review a collaborative document.", "Interrupted by social messages"],
+    ["121-124", "I read and reply to WeChat messages from my family and friends.", "Goal returns to metric research"],
+    ["125-127", "I read Claude AI's explanation on Soft-DTW and segmental edit score metrics.", "Interrupted by checking online orders"],
+    ["128-131", "I read my WeChat feed and check my TAMO pet camera order on Taobao.", "Goal returns to researching metrics"],
+    ["132-137", "I research temporal action segmentation metrics with Claude AI and discuss training models with a colleague.", "Interrupted to coordinate a gift"],
+    ["138", "I coordinate the pet robot gift with my mother on my smartphone.", "Goal returns to AI research and note-taking"],
+    ["139-146", "I research Ego4D evaluation metrics with Claude AI and take notes.", "Goal shifts to processing eye-gaze tracking data"],
+    ["147-150", "I review gaze overlay code and process eye-gaze tracking recordings in ARIA Studio.", "Goal shifts to long-term action prediction concepts"],
+    ["151-159", "I prompt ChatGPT and use a coding assistant to establish long-term action prediction metrics.", "Goal shifts to manual study and math equations"],
+    ["160-166", "I study dynamic programming for sequence alignment and discuss my handwritten notes with a colleague.", "Goal shifts to coding custom evaluation metrics"],
+    ["167-177", "I query ChatGPT on Levenshtein distance metrics and implement custom evaluation scripts.", "Goal shifts to writing daily reflections"],
+    ["178-185", "I type daily reflections and notes into my DR and research documents.", "Goal shifts to reading research papers"],
+    ["186-195", "I open a Python file in Cursor and read research papers on alphaXiv regarding LLM verifiers.", "Goal shifts to an ending interaction"],
+    ["196", "I ask a colleague a question and prepare my earphones.", "End of supplied events"]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": [
+      "Items 65 and 76 were chronologically overlapping with 46-49 and merged correctly into their corresponding chronological L3 event."
+    ]
+  }
+}
+```

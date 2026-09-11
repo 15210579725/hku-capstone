@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Abstract the episodes into two broader phases: obtaining the food at the canteen, and consuming the meal at the patio alongside phone use.",
+  "events": [
+    [
+      "0-1",
+      "I obtain my vegetarian meal at the campus canteen.",
+      "Navigating, ordering, and collecting food form a single procurement phase"
+    ],
+    [
+      "2-4",
+      "I consume my meal at the outdoor patio while reviewing travel schedules and reading an article about AI data center electricity demands on my phone.",
+      "Eating and concurrent phone browsing form a single consumption phase"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

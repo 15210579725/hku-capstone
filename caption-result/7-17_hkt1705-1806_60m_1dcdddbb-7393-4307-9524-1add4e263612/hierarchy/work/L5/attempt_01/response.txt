@@ -1,0 +1,36 @@
+```json
+{
+  "target_level": "L5",
+  "plan": "Retain the distinct major activities: the initial work session, the major behavior-changing trigger that halts the work, the cafeteria meal, and the gym workout. No broader unification is possible at this level without losing the primary location and target constraint.",
+  "events": [
+    [
+      "0",
+      "I conduct action prediction ablation experiment evaluations on the remote GPU cluster.",
+      "Work session is interrupted by a resource limitation"
+    ],
+    [
+      "1",
+      "I discover a lack of available GPUs for my evaluation script.",
+      "Standalone major trigger that redirects behavior to a meal break"
+    ],
+    [
+      "2",
+      "I share a meal with my colleagues at the cafeteria.",
+      "Distinct location and goal change to a gym workout"
+    ],
+    [
+      "3",
+      "I complete a back muscle workout with my companion at the gym.",
+      "End of recording"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "1"
+    ],
+    "boundary_cautions": []
+  }
+}
+```

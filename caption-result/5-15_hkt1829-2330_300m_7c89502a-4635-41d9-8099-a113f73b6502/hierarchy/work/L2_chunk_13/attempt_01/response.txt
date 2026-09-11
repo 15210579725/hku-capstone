@@ -1,0 +1,194 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks based on distinct conversational topics, physical navigation phases, or specific item interactions. Abstract minor conversational turns, glances, and brief steps into the primary immediate goal.",
+  "events": [
+    [
+      "3000-3002",
+      "I enter the building lobby.",
+      "Lobby entry is complete."
+    ],
+    [
+      "3003-3007",
+      "I board the escalator with my companion.",
+      "Escalator boarding is complete."
+    ],
+    [
+      "3008-3015",
+      "I discuss eating green onions with my companion.",
+      "Conversation shifts to hairstyle."
+    ],
+    [
+      "3016-3018",
+      "I compliment my companion's hairstyle.",
+      "Topic concludes upon reaching the escalator landing."
+    ],
+    [
+      "3019-3022",
+      "I navigate through the upper hotel lobby.",
+      "Arrival at the next escalator."
+    ],
+    [
+      "3023-3030",
+      "I discuss my physical fitness with my companion.",
+      "Conversation pauses to look at phone."
+    ],
+    [
+      "3031-3033",
+      "I read a WeChat article about a heatwave in India.",
+      "Reading stops upon stepping off the escalator."
+    ],
+    [
+      "3034-3036",
+      "I walk outdoors to the walkway.",
+      "Transition from navigating doors to initiating a new conversation."
+    ],
+    [
+      "3037-3048",
+      "I schedule my morning alarm for a swimming session with my companion.",
+      "Alarm configuration and associated scheduling discussion are complete."
+    ],
+    [
+      "3049-3051",
+      "I walk along the stone walkway.",
+      "Walking in silence ends as conversation resumes."
+    ],
+    [
+      "3052-3073",
+      "I discuss the outdoor swimming pool's maintenance status with my companion.",
+      "Topic shifts to playful banter."
+    ],
+    [
+      "3074-3077",
+      "I converse playfully with my companion.",
+      "Topic shifts to discussing food."
+    ],
+    [
+      "3078-3093",
+      "I debate the risk of food poisoning from undercooked eggplant with my companion.",
+      "Conversation transitions to environmental issues."
+    ],
+    [
+      "3094-3101",
+      "I joke about ozone layer depletion with my companion.",
+      "Topic shifts to a specific blog about carbon emissions."
+    ],
+    [
+      "3102-3118",
+      "I discuss a tech blog about carbon emissions with my companion.",
+      "Focus returns to the swimming pool."
+    ],
+    [
+      "3119-3121",
+      "I express disappointment about the outdoor pool closure.",
+      "Visual attention shifts to the garden."
+    ],
+    [
+      "3122-3125",
+      "I examine the cordoned-off garden area.",
+      "Attention shifts back to the pool conversation."
+    ],
+    [
+      "3126-3132",
+      "I discuss the pool cleaning schedule with my companion.",
+      "Conversation pauses to walk past signs."
+    ],
+    [
+      "3133-3135",
+      "I walk past a caution sign on the walkway.",
+      "Conversation resumes about swimming locations."
+    ],
+    [
+      "3136-3141",
+      "I decline my companion's suggestion to swim at her school.",
+      "Conversation shifts to discussing upcoming plans."
+    ],
+    [
+      "3142-3147",
+      "I discuss my upcoming birthday dinner plans with my companion.",
+      "Focus shifts to navigation."
+    ],
+    [
+      "3148-3152",
+      "I walk toward the recycling station.",
+      "Conversation about dining resumes."
+    ],
+    [
+      "3153-3159",
+      "I suggest dining at the Twenty-Four Food Court for my birthday.",
+      "Dining conversation concludes."
+    ],
+    [
+      "3160-3161",
+      "I walk along the covered colonnade.",
+      "Companion initiates a new banter topic."
+    ],
+    [
+      "3162-3167",
+      "I banter with my companion about our past meeting locations.",
+      "Focus shifts to the building entrance."
+    ],
+    [
+      "3168-3173",
+      "I approach the Tower 1 residential entrance.",
+      "Arrived at the entrance doors to read notices."
+    ],
+    [
+      "3174-3177",
+      "I read the notices posted on the building entrance door.",
+      "Finished reading notices and preparing to enter."
+    ],
+    [
+      "3178-3181",
+      "I hold the entrance door for my companion.",
+      "Building entry is complete."
+    ],
+    [
+      "3182-3185",
+      "I enter the building elevator.",
+      "Elevator entry is complete."
+    ],
+    [
+      "3186-3193",
+      "I discuss the guests in our apartment with my companion.",
+      "Conversation concludes as focus shifts to the smartphone."
+    ],
+    [
+      "3194-3199",
+      "I check the alarms on my smartphone in the elevator.",
+      "Elevator ride concludes."
+    ],
+    [
+      "3200-3205",
+      "I follow my companion down the residential corridor.",
+      "Arrival at the apartment door."
+    ],
+    [
+      "3206-3212",
+      "I enter my bedroom in the apartment.",
+      "Entry into the bedroom is complete."
+    ],
+    [
+      "3213-3223",
+      "I evaluate the snacks on my bedroom shelf.",
+      "Focus shifts to observing the roommate."
+    ],
+    [
+      "3224-3226",
+      "I observe my roommate walking to the bathroom.",
+      "Roommate exits line of sight."
+    ],
+    [
+      "3227-3235",
+      "I visually scan the items around my desk.",
+      "Visual scanning of desk area is complete."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

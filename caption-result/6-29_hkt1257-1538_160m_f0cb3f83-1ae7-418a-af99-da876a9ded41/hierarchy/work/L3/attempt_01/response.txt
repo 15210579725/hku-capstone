@@ -1,0 +1,54 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group the continuous driving trip into coherent episodes based on distinct phases of the journey: locating and preparing the car, driving on city streets, driving on the initial expressway, passing a toll station, driving on the highway towards a major interchange, navigating the interchange, cruising along the connecting highway, and parking at a service area.",
+  "events": [
+    [
+      "0-5",
+      "I return to my car at the hospital and prepare for departure.",
+      "Car located and navigation set for departure"
+    ],
+    [
+      "6-29",
+      "I drive through city streets following navigation instructions.",
+      "City driving concludes as I steer onto the overpass exit ramp"
+    ],
+    [
+      "30-42",
+      "I enter the expressway and drive toward the Hegu Toll Station.",
+      "Approaching the toll station queue"
+    ],
+    [
+      "43-45",
+      "I pass through the Hegu Toll Station.",
+      "Toll booth interaction is complete and highway driving resumes"
+    ],
+    [
+      "46-76",
+      "I drive along the highway toward the Shangsi and Chongzuo exit.",
+      "Approaching the interchange exit ramp"
+    ],
+    [
+      "77-79",
+      "I navigate an interchange to merge onto a connecting highway.",
+      "Successfully merged onto the new main highway"
+    ],
+    [
+      "80-163",
+      "I drive along the connecting highway through various tunnels.",
+      "Highway cruising concludes as I approach a service area"
+    ],
+    [
+      "164-167",
+      "I park at the Xinghe service area and walk toward the entrance.",
+      "End of sequence"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

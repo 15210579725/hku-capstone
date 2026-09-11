@@ -1,0 +1,54 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group immediate tasks into coherent activity episodes based on major transit phases, such as concourse navigation, the airport train ride, baggage claim, securing ground transportation, and the final car journey.",
+  "events": [
+    [
+      "0-5",
+      "I navigate the airport concourse to the escalator lobby.",
+      "Concourse transit ends at the escalator leading to the train platform."
+    ],
+    [
+      "6-9",
+      "I take the airport transit train to the next terminal area.",
+      "Train journey concludes upon arriving at the destination platform."
+    ],
+    [
+      "10-16",
+      "I navigate the terminal concourse to the exit checkpoint.",
+      "Post-train navigation concludes at the exit checkpoint to the arrival hall."
+    ],
+    [
+      "17-23",
+      "I retrieve my suitcase from baggage carousel 39.",
+      "Baggage retrieval episode ends upon exiting the baggage claim area."
+    ],
+    [
+      "24-30",
+      "I navigate the terminal corridor to the P2 Parking Garage.",
+      "Terminal transit concludes upon entering the parking facility lobby."
+    ],
+    [
+      "31-37",
+      "I board my ride-hailing vehicle at the B2 pickup zone.",
+      "Vehicle pickup sequence ends upon successfully boarding the confirmed car."
+    ],
+    [
+      "38-54",
+      "I travel in a ride-hailing vehicle to my destination.",
+      "Passenger journey concludes upon opening the car door at the destination."
+    ],
+    [
+      "55-58",
+      "I approach the northeast gate of 齐爱佳苑 with my luggage.",
+      "Final sequence covers disembarking and the pedestrian approach to the destination."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

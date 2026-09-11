@@ -1,0 +1,104 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group observations into immediate tasks based on continuous actions such as riding specific road segments, parking and charging, phone usage, and hanging laundry, using clear location shifts and task completions as boundaries.",
+  "events": [
+    [
+      "0-11",
+      "I take the elevator down to the lobby.",
+      "Exited the elevator into the lobby"
+    ],
+    [
+      "12-15",
+      "I exit the building.",
+      "Passed through the glass doors to the outside"
+    ],
+    [
+      "16-27",
+      "I walk to a parked electric scooter and prepare to ride it.",
+      "Took hold of the scooter handlebars"
+    ],
+    [
+      "28-39",
+      "I ride the electric scooter out of the compound onto the public street.",
+      "Rode through the gate onto the public street"
+    ],
+    [
+      "40-51",
+      "I ride the electric scooter down the street past parked trucks.",
+      "Completed street segment before major intersection"
+    ],
+    [
+      "52-64",
+      "I ride the electric scooter through a large intersection.",
+      "Cleared the intersection"
+    ],
+    [
+      "65-83",
+      "I ride the electric scooter over the Chuanyang River Bridge.",
+      "Crossed the bridge and passed monument stones"
+    ],
+    [
+      "84-93",
+      "I ride the electric scooter over the Nancao Bridge.",
+      "Crossed the bridge and approached next intersection"
+    ],
+    [
+      "94-113",
+      "I ride the electric scooter along the road and stop at an intersection.",
+      "Stopped and waited at the intersection"
+    ],
+    [
+      "114-136",
+      "I ride the electric scooter through city streets and across intersections.",
+      "Approached the destination residential compound"
+    ],
+    [
+      "137-148",
+      "I ride the electric scooter into the Aijiayuan compound and park in a scooter shelter.",
+      "Pulled into the scooter shelter"
+    ],
+    [
+      "149-162",
+      "I position the electric scooter and pay for charging using Alipay.",
+      "Monitored the active charging indicator light"
+    ],
+    [
+      "163-172",
+      "I walk to my building while watching a cat video on WeChat.",
+      "Arrived at the building stairs"
+    ],
+    [
+      "173-185",
+      "I send WeChat messages and walk through the stairwell to my apartment door.",
+      "Opened the apartment door"
+    ],
+    [
+      "186-216",
+      "I hang damp clothes on the balcony drying rack.",
+      "Finished hanging the main batch of clothes"
+    ],
+    [
+      "217-225",
+      "I adjust and re-hang a garment near the indoor sink.",
+      "Stepped inside away from the laundry area"
+    ],
+    [
+      "226-232",
+      "I watch the cat video on WeChat again on my phone.",
+      "Returned to the phone home screen"
+    ],
+    [
+      "233-249",
+      "I inspect the balcony and hang remaining laundry on the drying rack.",
+      "Finished hanging clothes and looked outside"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

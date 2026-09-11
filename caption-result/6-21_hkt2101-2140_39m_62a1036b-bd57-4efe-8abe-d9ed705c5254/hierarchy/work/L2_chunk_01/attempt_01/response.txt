@@ -1,0 +1,104 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group action briefs into immediate tasks based on continuous goals such as conversations, computer use, cleaning, transits, and parcel collection.",
+  "events": [
+    [
+      ["0-5"],
+      "I discuss footwear choices with User A by the shoe rack.",
+      "Footwear conversation ends; shifts to checking personal items."
+    ],
+    [
+      ["6-11"],
+      "I inspect my earbud case and the storage shelf items.",
+      "Moves to the bedroom to check the computer."
+    ],
+    [
+      ["12-19"],
+      "I review the Claude Code terminal and a thesis document on my bedroom computer.",
+      "Computer review interrupted by a discussion about a water spill."
+    ],
+    [
+      ["20-25"],
+      "I discuss a water spill in the bedroom with User Y and the woman.",
+      "Starts fetching paper towels to clean the spill."
+    ],
+    [
+      ["26-41"],
+      "I use a kitchen paper towel to clean up the water spill on the floor.",
+      "Spill cleanup finishes; heads to the hallway."
+    ],
+    [
+      ["42-53"],
+      "I return to the apartment entryway after briefly waiting for the hallway elevator.",
+      "Elevator attempt abandoned; switches to picking up a package."
+    ],
+    [
+      ["54-57"],
+      "I retrieve a packaged Joyoung appliance from the apartment parcel box.",
+      "Package retrieved; shifts to discarding packaging outside."
+    ],
+    [
+      ["58-67"],
+      "I discard the appliance cardboard packaging in the stairwell refuse collection room.",
+      "Discarding completes; proceeds to take the elevator downstairs."
+    ],
+    [
+      ["68-81"],
+      "I ride the elevator down from the 35th-floor lobby.",
+      "Elevator ride ends; begins outdoor walk."
+    ],
+    [
+      ["82-132"],
+      "I walk with my companion along the outdoor covered walkways to the Tower 5 lobby.",
+      "Reaches Tower 5 and enters the elevator."
+    ],
+    [
+      ["133-141"],
+      "I ride the Tower 5 elevator to the covered driveway.",
+      "Elevator ride ends; approaches the parcel lockers."
+    ],
+    [
+      ["142-151"],
+      "I assist my companion in retrieving a parcel from the Cainiao locker.",
+      "Parcel retrieved; heads into the adjacent building lobby."
+    ],
+    [
+      ["152-163"],
+      "I ride lift C from the building lobby with my companion.",
+      "Elevator ride ends; exits into the courtyard."
+    ],
+    [
+      ["164-180"],
+      "I carry my companion's blue parcel through the courtyard.",
+      "Walking interrupted to admire the moon."
+    ],
+    [
+      ["181-186"],
+      "I admire the bright moon during the courtyard walk with my companion.",
+      "Moon gazing ends; resumes walking toward the gazebo."
+    ],
+    [
+      ["187-195"],
+      "I follow my companion along the dark garden path to a gazebo.",
+      "Arrives and sits in the gazebo."
+    ],
+    [
+      ["196-220"],
+      "I view my companion's smartphone screen and photos in the gazebo.",
+      "Shifts from phone viewing to a personal conversation."
+    ],
+    [
+      ["221-249"],
+      "I discuss family resemblance and childhood photos with my companion in the gazebo.",
+      "End of input."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,104 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions with a single immediate objective, separating tasks when the camera wearer changes location, switches to a significantly different activity, or starts a new interaction.",
+  "events": [
+    [
+      "250-261",
+      "I converse with my friend in the bedroom and feed them chicken softbone.",
+      "Friend in bed finishes eating, shifting focus to resting."
+    ],
+    [
+      "262-282",
+      "I hold hands with my friend, watch them sleep, and rest in the dark bedroom.",
+      "Interrupted by User A speaking from another bed."
+    ],
+    [
+      "283-294",
+      "I converse with my roommates about food shortages and decide to eat something.",
+      "Decision made to cook, prompting a move to the kitchen."
+    ],
+    [
+      "295-304",
+      "I enter the kitchen and wipe the range hood trim with a paper towel.",
+      "Attention shifts to a roommate's laundry task."
+    ],
+    [
+      "305-311",
+      "I discuss cleaning the washing machine with my roommate while watching User A unload it.",
+      "Laundry conversation concludes, returning focus to cooking preparation."
+    ],
+    [
+      "312-326",
+      "I ignite the gas stove and heat cooking oil in the frying pan.",
+      "Cooking preparation paused to wipe the range hood again."
+    ],
+    [
+      "327-333",
+      "I wipe the range hood edge with a paper towel and dispose of it.",
+      "Wiping finishes, resuming cooking."
+    ],
+    [
+      "334-345",
+      "I add CP Chicken Softbone Knee to the frying pan and monitor it as it cooks.",
+      "Leaves kitchen to retrieve phone."
+    ],
+    [
+      "346-353",
+      "I walk to bedroom B to retrieve my iPhone from the study desk.",
+      "Retrieves phone and returns to the kitchen."
+    ],
+    [
+      "354-356",
+      "I return to the kitchen and briefly stir-fry the meat pieces in the pan.",
+      "Leaves kitchen again to check study notebook."
+    ],
+    [
+      "357-367",
+      "I visit bedroom B to review a mathematical continuity proof in my notebook.",
+      "Finishes reviewing the notebook and returns to the kitchen."
+    ],
+    [
+      "368-386",
+      "I briefly check the frying food before searching the bedroom for clothing, inspecting my Shin-chan pajama shorts, and returning to the kitchen.",
+      "Clothing search concludes, returning to kitchen to manage the cooked food."
+    ],
+    [
+      "387-414",
+      "I finish frying the chicken softbone, evaluate its doneness, and discuss dipping sauces with my companions.",
+      "Leaves kitchen to fetch plastic bags."
+    ],
+    [
+      "415-424",
+      "I retrieve white plastic bags from the entryway shoe cabinet.",
+      "Retrieves plastic bags and returns to the kitchen."
+    ],
+    [
+      "425-429",
+      "I store a white plastic bag in a kitchen drawer.",
+      "Bag stored, focus returns to eating the cooked food."
+    ],
+    [
+      "430-456",
+      "I eat the fried chicken softbone in the kitchen while discussing its taste and cost with my companion.",
+      "Companion leaves, flatmate enters to prepare noodles."
+    ],
+    [
+      "457-488",
+      "I continue eating the fried meat while watching and conversing with my flatmate as she prepares instant noodles.",
+      "Flatmate's noodle prep ends, shifting focus to the refrigerator."
+    ],
+    [
+      "489-499",
+      "I open the refrigerator and retrieve a ziplock bag of frozen bananas.",
+      "End of provided events."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,109 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group sequential actions that serve the same immediate task, such as uploading data and submitting prompts for a specific participant, searching for keywords, or reviewing code. Break when the overarching task, application focus, or primary objective changes.",
+  "events": [
+    [
+      "750-780",
+      "I review ChatGPT prompt results alongside data processing logs and Feishu rules.",
+      "Switches from reviewing guidelines to making a specific voice query about limits"
+    ],
+    [
+      "781-784",
+      "I ask ChatGPT about ChatGPT Plus message limits via voice dictation.",
+      "Switches to Google search for action levels"
+    ],
+    [
+      "785-788",
+      "I search for 'a2 最低层次' on Google.",
+      "Switches to VS Code to inspect files"
+    ],
+    [
+      "789-792",
+      "I inspect 'ocr_review.html' in VS Code to determine my next task.",
+      "Switches to Finder to extract an archive"
+    ],
+    [
+      "793-796",
+      "I extract the A1_JAKE zip archive in Finder.",
+      "Switches to VS Code to browse directories"
+    ],
+    [
+      "797-807",
+      "I browse the egolife directories to inspect the events.txt file in VS Code.",
+      "Switches to Finder to compress participant data folders"
+    ],
+    [
+      "808-812",
+      "I compress the participant data folders in Finder.",
+      "Shifts to reorganizing transcripts within the A4_LUCIA directory"
+    ],
+    [
+      "813-839",
+      "I restructure the A4_LUCIA directory containing transcript files for recompression.",
+      "Switches back to Chrome to read the ChatGPT Plus limits response"
+    ],
+    [
+      "840-849",
+      "I read the ChatGPT response regarding ChatGPT Plus model message limits.",
+      "Starts uploading data and submitting prompts for Alice"
+    ],
+    [
+      "850-887",
+      "I submit the A2_ALICE data with prompt templates for multiple days to ChatGPT.",
+      "Finishes Alice prompts to search Google for keywords"
+    ],
+    [
+      "888-895",
+      "I search Google for participant action level keywords to guide my ChatGPT tasks.",
+      "Switches to dictating a complex prompt for an API automation script"
+    ],
+    [
+      "896-905",
+      "I dictate a prompt instructing ChatGPT to write an automation script for interacting with its API.",
+      "Switches to reviewing Jake Day 1 processing notes"
+    ],
+    [
+      "906-909",
+      "I review the Jake Day 1 data processing notes in ChatGPT.",
+      "Task shifts to personal speech and checking the Task Manager"
+    ],
+    [
+      "910-916",
+      "I check the browser Task Manager during a brief personal distraction.",
+      "Shifts from personal distraction to searching for Tasha action level keywords"
+    ],
+    [
+      "917-922",
+      "I search Google for 'a3 tasha 最低版次'.",
+      "Starts uploading data and submitting prompts for Tasha"
+    ],
+    [
+      "923-959",
+      "I submit the A3_TASHA data with prompt templates for multiple days to ChatGPT.",
+      "Switches to reviewing the newly generated automation script"
+    ],
+    [
+      "960-971",
+      "I review the ChatGPT automation script alongside its code execution logs.",
+      "Switches to searching for Lucia action levels"
+    ],
+    [
+      "972-976",
+      "I consult the Feishu annotation document alongside Google search results for participant action levels.",
+      "Starts uploading data and configuring prompts for Lucia"
+    ],
+    [
+      "977-999",
+      "I configure prompt templates with the uploaded A4_LUCIA data for multiple days in ChatGPT.",
+      "End of provided data"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

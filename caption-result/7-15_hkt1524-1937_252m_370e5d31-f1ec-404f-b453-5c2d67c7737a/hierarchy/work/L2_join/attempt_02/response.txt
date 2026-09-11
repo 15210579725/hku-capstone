@@ -1,0 +1,60 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate the eligible L2 boundary pairs to merge only those that represent the continuous execution of a single immediate task split by a transport batch edge.",
+  "merges": [
+    [
+      16,
+      17,
+      "I study the architecture diagram of the SpanUQ paper.",
+      "Continuous study of the same paper architecture diagram across a batch edge"
+    ],
+    [
+      32,
+      33,
+      "I read the Semantic Entropy Probes paper and ChatGPT analysis.",
+      "Continuous reading task of the same paper across a batch edge"
+    ],
+    [
+      54,
+      55,
+      "I review handwritten diffusion equations.",
+      "Exact same task continuing across a batch edge"
+    ],
+    [
+      72,
+      73,
+      "I study DDPM mathematical derivations on ChatGPT and my notebook.",
+      "Continuous study of the same mathematical topic on the same devices across a batch edge"
+    ],
+    [
+      94,
+      95,
+      "I prepare my lined notepad and write diffusion equations on it.",
+      "Placing the notepad and immediately writing on it constitutes a single immediate task split by a batch edge"
+    ],
+    [
+      118,
+      119,
+      "I eat fried chicken while conversing on a smartphone video call.",
+      "Continuous task of eating and video calling across a batch edge"
+    ],
+    [
+      130,
+      131,
+      "I find and retrieve napkins from a staff member in the cafeteria.",
+      "Searching for and immediately receiving the napkins is one continuous immediate task"
+    ],
+    [
+      151,
+      152,
+      "I ride my electric scooter along the road toward an intersection.",
+      "Continuous scooter riding activity along the same route split by a batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

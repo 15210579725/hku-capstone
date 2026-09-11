@@ -1,0 +1,104 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous, related L1 actions into immediate tasks such as parking the scooter, treating insect bites, browsing shops, exploring the outdoor area, boarding the tricycle, navigating different segments of the ride, and searching for free parking.",
+  "events": [
+    [
+      "1000-1004",
+      "I park the scooter.",
+      "Scooter parked"
+    ],
+    [
+      "1005-1014",
+      "I treat my insect bites with Mopidick.",
+      "Treatment finishes"
+    ],
+    [
+      "1015-1024",
+      "I lock the scooter.",
+      "Focus shifts to bakery"
+    ],
+    [
+      "1025-1033",
+      "I enter the wooden bakery.",
+      "Inside the bakery"
+    ],
+    [
+      "1034-1049",
+      "I browse the bakery seating area and accessories.",
+      "Exits visitor station"
+    ],
+    [
+      "1050-1054",
+      "I inspect an electric tricycle outside the bakery.",
+      "Walking to outdoor area"
+    ],
+    [
+      "1055-1071",
+      "I explore the outdoor pavilion and scenic washroom area.",
+      "Enters another shop"
+    ],
+    [
+      "1072-1075",
+      "I read the menu boards inside the shop.",
+      "Begins browsing displays"
+    ],
+    [
+      "1076-1091",
+      "I examine the shop displays and merchandise.",
+      "Exits the shop"
+    ],
+    [
+      "1092-1095",
+      "I reunite with my companions outside the shop.",
+      "Approaches rental tricycle"
+    ],
+    [
+      "1096-1121",
+      "I instruct my companion on the rental tricycle controls.",
+      "Ride begins"
+    ],
+    [
+      "1122-1144",
+      "I enjoy the scenery on the initial tricycle ride.",
+      "Focus shifts to active navigation"
+    ],
+    [
+      "1145-1182",
+      "I guide the driver along the route.",
+      "Road conditions become challenging"
+    ],
+    [
+      "1183-1213",
+      "I assist the driver through turns and a bumpy road segment.",
+      "Approaches parking area"
+    ],
+    [
+      "1214-1224",
+      "I reject a parking spot upon discovering a fee.",
+      "Decides to leave spot"
+    ],
+    [
+      "1225-1229",
+      "I direct the driver to reverse out of the paid parking area.",
+      "Back on the road"
+    ],
+    [
+      "1230-1244",
+      "I search for alternative free parking along the road.",
+      "Attendant offers help"
+    ],
+    [
+      "1245-1249",
+      "I follow a parking attendant's directions to an alternative spot.",
+      "Batch ends"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,34 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group the initial video call as a distinct social phase. Group the subsequent sequence of walking and subway travel into a single commute phase terminating at the destination building. Group the indoor relocation and device setup as a transition phase. Group the final concurrent viewing and dining activities into a single concluding phase.",
+  "events": [
+    [
+      "0",
+      "I engage in a video call with my friends.",
+      "Social activity ends before the transit phase begins"
+    ],
+    [
+      "1-4",
+      "I commute by subway to a commercial building.",
+      "Transit phase concludes upon arrival inside the destination building"
+    ],
+    [
+      "5-6",
+      "I relocate to the apartment bedroom to prepare a tablet for drama viewing.",
+      "Relocation and device setup concludes once the main viewing session begins"
+    ],
+    [
+      "7-9",
+      "I watch tablet dramas during the remainder of my fast food meal.",
+      "Viewing and dining session concludes with final cleanup"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

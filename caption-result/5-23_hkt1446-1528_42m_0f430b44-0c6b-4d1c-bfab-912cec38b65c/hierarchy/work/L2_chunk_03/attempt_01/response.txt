@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group consecutive speech segments by the specific presentation topic being discussed.",
+  "events": [
+    [
+      "500-505",
+      "I hear the presenter discuss the approach, superior performance, and customization of their unified training models.",
+      "Topic covers unified model training and performance"
+    ],
+    [
+      "506-508",
+      "I hear the presenter introduce the powerful user-facing literature features.",
+      "Topic shifts to user-facing literature features"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

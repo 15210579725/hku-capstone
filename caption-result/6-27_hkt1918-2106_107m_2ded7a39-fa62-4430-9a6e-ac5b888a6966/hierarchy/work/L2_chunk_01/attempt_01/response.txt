@@ -1,0 +1,149 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group immediate tasks by contiguous focus, such as retrieving sets of items, prepping an ingredient, cooking a phase, or performing a cleaning task. Boundaries occur when the person shifts focus to a new ingredient, tool, location, or cleaning activity.",
+  "events": [
+    [
+      "0-1",
+      "I enter the kitchen.",
+      "Arriving in the kitchen shifts focus to interacting with the refrigerator."
+    ],
+    [
+      "2-14",
+      "I retrieve a plastic-wrapped bowl of rice, cabbage, and a green capsicum from the refrigerator.",
+      "Turning away to ask a question interrupts retrieving ingredients."
+    ],
+    [
+      "15-17",
+      "I ask someone if the bell peppers and small green peppers belong to them.",
+      "Conversation ends, returning focus to retrieving ingredients from the refrigerator."
+    ],
+    [
+      "18-35",
+      "I retrieve more vegetables, eggs, citrus fruits, and condiments from the refrigerator.",
+      "Finishes gathering ingredients from the refrigerator and shifts to washing vegetables."
+    ],
+    [
+      "36-45",
+      "I wash and trim the cabbage, discarding the root end.",
+      "Leaves the kitchen to fetch an item, pausing food preparation."
+    ],
+    [
+      "46-49",
+      "I fetch a white cloth from the dining area.",
+      "Returns to the kitchen, shifting focus back to washing vegetables."
+    ],
+    [
+      "50-53",
+      "I wash the napa cabbage in the sink.",
+      "Finishes washing the cabbage and moves to start cooking at the stove."
+    ],
+    [
+      "54-57",
+      "I place the cabbage into the frying pan and ignite the stove.",
+      "Turns on the stove and shifts focus to preparing seasonings and oil."
+    ],
+    [
+      "58-70",
+      "I prepare seasonings, quickly wash utensils, and pour cooking oil over the cabbage in the frying pan.",
+      "Finishes adding initial oil and returns to preparing more cabbage."
+    ],
+    [
+      "71-74",
+      "I trim, rinse, and add more Chinese cabbage to the pan.",
+      "Finishes adding cabbage and shifts to preparing a green bell pepper."
+    ],
+    [
+      "75-87",
+      "I prepare, slice, and add a green bell pepper to the pan, then wash my hands.",
+      "Finishes adding the bell pepper and leaves the kitchen area to speak to someone."
+    ],
+    [
+      "88-92",
+      "I walk to the bedroom doorway to tell someone I am taking a green chili.",
+      "Finishes speaking and returns to the kitchen to prepare the green chili."
+    ],
+    [
+      "93-96",
+      "I retrieve and trim a green chili pepper.",
+      "Finishes trimming the chili and shifts to stir-frying the cabbage on the stove."
+    ],
+    [
+      "97-110",
+      "I stir-fry the cabbage in the pan and pour in cooking oil.",
+      "Pauses stir-frying to fetch and prepare a tomato."
+    ],
+    [
+      "111-124",
+      "I fetch a tomato from the refrigerator, slice it on a cutting board, and add it to the frying pan.",
+      "Finishes adding the tomato and resumes stir-frying."
+    ],
+    [
+      "125-127",
+      "I stir-fry the vegetables in the pan.",
+      "Pauses cooking to clean utensils at the sink."
+    ],
+    [
+      "128-132",
+      "I rinse the cutting board and knife, and adjust the sink drain strainer.",
+      "Finishes cleaning utensils and returns to stir-frying at the stove."
+    ],
+    [
+      "133-143",
+      "I stir-fry the vegetables in the pan and turn off the stove.",
+      "Turns off the stove and pauses to clean the sink strainer."
+    ],
+    [
+      "144-147",
+      "I empty the sink strainer into the trash and wash my hands.",
+      "Finishes cleaning the sink and resumes cooking."
+    ],
+    [
+      "148-164",
+      "I sprinkle sugar into the pan and stir the vegetables with a spatula and chopsticks.",
+      "Finishes stirring with chopsticks and shifts to adding rice to the pan."
+    ],
+    [
+      "165-172",
+      "I unwrap a bowl of rice, add it to the frying pan, and stir-fry it with the vegetables.",
+      "Finishes adding rice and shifts to seasoning the dish with liquids and sugar."
+    ],
+    [
+      "173-194",
+      "I season the food with cooking oil, soy sauce, and sugar while stir-frying the rice and vegetables.",
+      "Finishes seasoning the rice and shifts to adding eggs to the pan."
+    ],
+    [
+      "195-211",
+      "I crack three eggs into the pan and scramble them with the rice and vegetables.",
+      "Finishes scrambling the eggs and switches to a different spatula to lower the heat."
+    ],
+    [
+      "212-220",
+      "I switch to a metal spatula and stir-fry the egg mixture over low heat.",
+      "Finishes lowering the heat and shifts to adding bouillon powder."
+    ],
+    [
+      "221-230",
+      "I sprinkle chicken bouillon powder into the pan, stir-fry the rice, and open a red ingredient package.",
+      "Finishes adding bouillon and opening a package, shifting to adding more oil."
+    ],
+    [
+      "231-242",
+      "I pour additional cooking oil into the pan and stir-fry the rice mixture.",
+      "Finishes adding oil and shifts to grinding final seasonings."
+    ],
+    [
+      "243-249",
+      "I grind seasoning over the food and stir-fry the mixture.",
+      "End of provided video sequence."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

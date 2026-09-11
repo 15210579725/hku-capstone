@@ -1,0 +1,34 @@
+```json
+{
+  "target_level": "L5",
+  "plan": "Preserve the four distinct major activities, as they represent complete, separate overarching goals and major location shifts: an initial research session, a lunch break, a subsequent reading session, and the final departure from the office.",
+  "events": [
+    [
+      "0",
+      "I research scaling laws and the ACL dataset using Claude Code.",
+      "Independent major research session prior to lunch"
+    ],
+    [
+      "1",
+      "I take a lunch break at the main cafeteria.",
+      "Distinct overarching goal and location change for a meal"
+    ],
+    [
+      "2",
+      "I read articles about Claude and mathematics.",
+      "Independent major reading session after returning from lunch"
+    ],
+    [
+      "3",
+      "I leave my office.",
+      "Major standalone behavioral transition concluding the office session"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

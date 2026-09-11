@@ -1,0 +1,139 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group atomic actions into immediate tasks centered around single overarching objectives, such as filling water, navigating to a study space, troubleshooting a monitor connection, querying an AI for assistance, and reviewing specific emails or documents. Incidental adjustments, minor conversational interjections, waits, and sub-navigations are merged into their governing goals.",
+  "events": [
+    [
+      "0-8",
+      "I collect water in my plastic bottle and glass jar from the water dispenser.",
+      "Water collection complete"
+    ],
+    [
+      "9-15",
+      "I walk to the elevator lobby to catch a ride to another floor.",
+      "Arrival at elevator"
+    ],
+    [
+      "16-25",
+      "I read AI articles in the WeChat Official Accounts feed on the elevator.",
+      "Arrival at destination floor"
+    ],
+    [
+      "26-37",
+      "I navigate through the library to locate an empty study desk.",
+      "Desk location found"
+    ],
+    [
+      "38-46",
+      "I set up my MacBook and external monitor at the study desk.",
+      "Initial setup complete"
+    ],
+    [
+      "47-51",
+      "I adjust the USB-C cable connection to the hub.",
+      "Hub troubleshooting shifts to system settings"
+    ],
+    [
+      "52-63",
+      "I modify the HP monitor resolution in macOS System Settings.",
+      "Resolution configured, needing further instructions"
+    ],
+    [
+      "64-68",
+      "I query Claude for instructions on sharing a Mac screen via a Thunderbolt cable.",
+      "Claude query submitted"
+    ],
+    [
+      "69-76",
+      "I optimize the brightness and color temperature of my desk lamp.",
+      "Lamp adjustment complete"
+    ],
+    [
+      "77-87",
+      "I study the Claude instructions regarding Mac Thunderbolt screen sharing settings.",
+      "Instructions read, needing prompt refinement"
+    ],
+    [
+      "88-95",
+      "I revise my Claude prompt to clarify how to make the external display work.",
+      "Prompt refined and new response received"
+    ],
+    [
+      "96-104",
+      "I verify the external monitor connection via the USB-C cable.",
+      "Connection verified"
+    ],
+    [
+      "105-111",
+      "I consult the AI assistant on setting up screen mirroring instead of screen extension.",
+      "Mirroring query submitted and answered"
+    ],
+    [
+      "112-129",
+      "I adjust the display arrangement and mirroring layout in macOS System Settings.",
+      "Settings configured, shifting focus to messages"
+    ],
+    [
+      "130-132",
+      "I review incoming messages and shared project files in a WeChat group chat.",
+      "Group chat reviewed"
+    ],
+    [
+      "133-152",
+      "I search my Claude chat history to download the updated presentation slides for Objective 3 and 4.",
+      "Slides located and downloaded"
+    ],
+    [
+      "153-163",
+      "I examine a Capstone Project recruitment message and its attached 3D factory layout image in WeChat.",
+      "Recruitment post reviewed"
+    ],
+    [
+      "164-171",
+      "I inspect the external monitor display arrangement in System Settings.",
+      "Settings checked, signal error noticed"
+    ],
+    [
+      "172-186",
+      "I troubleshoot a monitor input signal error by changing the display preset.",
+      "Signal error resolved"
+    ],
+    [
+      "187-191",
+      "I load the project presentation slides and a math notes document in Google Chrome.",
+      "Documents loaded"
+    ],
+    [
+      "192-196",
+      "I review my WeChat subscription messages and a personal chat history.",
+      "WeChat review complete"
+    ],
+    [
+      "197-199",
+      "I prepare my workspace by adjusting the LED desk lamp and launching Google Chrome.",
+      "Workspace adjusted, shifting to email"
+    ],
+    [
+      "200-207",
+      "I read an Outlook email concerning a project presentation.",
+      "Project email read"
+    ],
+    [
+      "208-232",
+      "I review the Article Processing Charge billing details and confirmation for an MDPI manuscript.",
+      "APC email reviewed"
+    ],
+    [
+      "233-249",
+      "I review the ARIN7600 project enrolment requirements and the attached project list PDF.",
+      "Project list downloaded and reviewed"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

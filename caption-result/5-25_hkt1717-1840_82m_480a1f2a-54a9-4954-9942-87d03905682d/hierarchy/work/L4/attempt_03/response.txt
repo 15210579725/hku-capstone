@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Abstract the laptop study session and brief phone check into a single study phase. Group packing the laptop and the subsequent exit commute into a single departure phase.",
+  "events": [
+    [
+      "0-4",
+      "I study offline reinforcement learning on my laptop.",
+      "The laptop is packed away, concluding the study session."
+    ],
+    [
+      "5-6",
+      "I depart from the building.",
+      "End of recorded sequence."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

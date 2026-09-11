@@ -1,0 +1,81 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous, goal-oriented immediate tasks such as conversing, preparing food, eating, cleaning up packaging, trimming nails, transiting to the office, organizing the workstation, disposing of trash, and fetching water.",
+  "events": [
+    [
+      "2750-2777",
+      "I converse with my friends about drinking plans and our meal.",
+      "Conversation focus ends; shifts to interacting with the food packaging."
+    ],
+    [
+      "2778-2796",
+      "I organize the fried chicken pieces, KFC bags, and my drink cup.",
+      "Preparation shifts to putting on a glove and opening sauce."
+    ],
+    [
+      "2797-2804",
+      "I prepare for eating by putting on a plastic glove and opening a dipping sauce container.",
+      "Sauce preparation is complete; eating begins."
+    ],
+    [
+      "2805-2818",
+      "I dip and eat the fried chicken and popcorn chicken.",
+      "Eating concludes; cleanup begins."
+    ],
+    [
+      "2819-2829",
+      "I pack the empty cardboard box and used plastic gloves into the KFC paper bag.",
+      "Cleanup shifts to using nail clippers."
+    ],
+    [
+      "2830-2839",
+      "I use nail clippers on my fingernails and a takeout bag seal.",
+      "Nail clippers are put away; focus returns to the meal items."
+    ],
+    [
+      "2840-2848",
+      "I interact with my utensils, beverage cup, and the KFC box.",
+      "Finishes interacting with the meal and prepares to leave the lounge."
+    ],
+    [
+      "2849-2861",
+      "I walk to workstation 13 in room C910 to interact with my laptop and notebook.",
+      "Transit and initial desk interaction complete; shifts to cleaning the desk area."
+    ],
+    [
+      "2862-2872",
+      "I tidy my workstation by gathering trash into a plastic bag and organizing items.",
+      "Trash collection complete; prepares to leave the desk."
+    ],
+    [
+      "2873-2877",
+      "I observe my workstation area and retrieve my water bottle.",
+      "Leaves the desk area with the water bottle."
+    ],
+    [
+      "2878-2882",
+      "I walk to the pantry area to dispose of my trash bag.",
+      "Trash disposal complete; approaches the water dispenser."
+    ],
+    [
+      "2883-2890",
+      "I fill my water bottle at the pantry water dispenser.",
+      "Water filling complete; leaves the pantry."
+    ],
+    [
+      "2891-2899",
+      "I walk down the hallway toward the restroom.",
+      "End of the sequence."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      2849
+    ],
+    "boundary_cautions": []
+  }
+}
+```

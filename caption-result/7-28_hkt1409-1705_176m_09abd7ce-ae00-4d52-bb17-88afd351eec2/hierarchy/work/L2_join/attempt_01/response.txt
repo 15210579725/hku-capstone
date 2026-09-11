@@ -1,0 +1,30 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible pairs for exact continuation of the identical immediate task across batch edges. Merge only when the action, target, and intent remain exactly the same, rejecting pairs that describe distinct sequential steps or merely related topics.",
+  "merges": [
+    [
+      47,
+      48,
+      "I read the introductory sections of a trajectory prediction survey PDF on arXiv.",
+      "Reading the same section of the same academic paper continues across the batch edge."
+    ],
+    [
+      118,
+      119,
+      "I watch a video about the CBJ business jet on Bilibili.",
+      "Watching the exact same video continues across the batch edge."
+    ],
+    [
+      137,
+      138,
+      "I read ChatGPT recommendations for action anticipation baseline papers.",
+      "Reading the same ChatGPT baseline recommendations continues across the batch edge."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

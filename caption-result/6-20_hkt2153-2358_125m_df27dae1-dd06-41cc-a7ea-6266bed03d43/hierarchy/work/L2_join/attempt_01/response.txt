@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible pairs for exact task continuation. Merge pairs where the identical immediate activity (e.g., playing shuttlecock, reading an e-book) continues across the boundary. Do not merge pairs that merely share a broader goal but involve switching tools or subtasks.",
+  "merges": [
+    [
+      25,
+      26,
+      "I play shuttlecock with my companion.",
+      "Same shuttlecock game continues across batch edge"
+    ],
+    [
+      44,
+      45,
+      "I read a biology e-book on WeChat Read.",
+      "Same reading activity continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

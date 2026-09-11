@@ -1,0 +1,101 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group consecutive action briefs into immediate tasks based on continuous interactions with a single application, interface, or physical activity, while keeping distinct tool usages (e.g., watching a video vs. typing in Claude Code) and physical actions separate.",
+  "events": [
+    [
+      "1000-1006",
+      "I review the Concordia documentation and disclaimer.",
+      "Documentation review concludes"
+    ],
+    [
+      "1007-1010",
+      "I retrieve and plug in a USB receiver from my backpack.",
+      "Receiver plugged in"
+    ],
+    [
+      "1011-1039",
+      "I watch a Concordia Library tutorial video on YouTube.",
+      "Exits video full-screen"
+    ],
+    [
+      "1040-1069",
+      "I read Claude's architectural analysis of Concordia.",
+      "Switches to typing a prompt"
+    ],
+    [
+      "1070-1090",
+      "I use Claude Code to compare my codebase with the official Concordia repository.",
+      "Task interrupted by phone notification"
+    ],
+    [
+      "1091-1110",
+      "I message babe on WeChat using my iPhone.",
+      "Returns attention to laptop screen"
+    ],
+    [
+      "1111-1124",
+      "I review the Claude Code terminal output and logs.",
+      "Switches to YouTube"
+    ],
+    [
+      "1125-1128",
+      "I watch the Concordia tutorial video on YouTube.",
+      "Switches browser tabs to GitHub"
+    ],
+    [
+      "1129-1150",
+      "I browse the Concordia repository and examples on GitHub.",
+      "Transitions to viewing Colab notebook"
+    ],
+    [
+      "1151-1168",
+      "I review the Concordia tutorial notebook in Google Colab.",
+      "Turns away to handle physical cables"
+    ],
+    [
+      "1169-1175",
+      "I store a charging cable into my backpack.",
+      "Sits back at desk"
+    ],
+    [
+      "1176-1185",
+      "I examine the Colab notebook simulation code and state an intention to use the DeepSeek API.",
+      "Switches to ChatGPT for API research"
+    ],
+    [
+      "1186-1199",
+      "I use ChatGPT to research configuring the OpenAI-compatible API for DeepSeek.",
+      "Switches back to Colab"
+    ],
+    [
+      "1200-1209",
+      "I inspect the Concordia tutorial code across Colab and GitHub.",
+      "Switches to YouTube video"
+    ],
+    [
+      "1210-1230",
+      "I watch the Concordia tutorial video on YouTube.",
+      "Video viewing interrupted by conversation"
+    ],
+    [
+      "1231-1233",
+      "I converse with someone about being done with the session.",
+      "Conversation ends"
+    ],
+    [
+      "1234-1249",
+      "I review Django configuration settings and terminal logs in Claude Code.",
+      "End of recording"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      15
+    ],
+    "boundary_cautions": []
+  }
+}
+```

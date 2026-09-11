@@ -1,0 +1,119 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group action briefs into immediate tasks based on continuous unified objectives such as disembarking the car, walking to the station, passing security, navigating the concourse, waiting on the platform, and distinct viewing or conversational phases while riding the subway.",
+  "events": [
+    [
+      "2000-2038",
+      "I converse with my companion about the passing scenery and our dinner plans during the car ride.",
+      "Car arrives at destination."
+    ],
+    [
+      "2039-2047",
+      "I disembark from the car after directing the driver to pull over.",
+      "Exited car, starting to walk."
+    ],
+    [
+      "2048-2057",
+      "I walk along the street toward the metro station entrance with my companion.",
+      "Reached the escalator."
+    ],
+    [
+      "2058-2062",
+      "I ride the escalator checking my phone battery level.",
+      "Stepped off escalator."
+    ],
+    [
+      "2063-2074",
+      "I navigate the station concourse using the transit route map on my phone.",
+      "Reached security checkpoint."
+    ],
+    [
+      "2075-2083",
+      "I pass through the security checkpoint viewing a Bilibili video on my phone.",
+      "Passed security."
+    ],
+    [
+      "2084-2086",
+      "I pass through the station turnstile using my smartphone.",
+      "Passed turnstile."
+    ],
+    [
+      "2087-2098",
+      "I walk to the metro platform viewing a Bilibili video on my phone.",
+      "Arrived at platform."
+    ],
+    [
+      "2099-2112",
+      "I wait on the metro platform for the arriving train viewing a video on my phone.",
+      "Train arrives for boarding."
+    ],
+    [
+      "2113-2121",
+      "I board the subway carriage with my companion.",
+      "Boarding complete."
+    ],
+    [
+      "2122-2127",
+      "I view a cooking video on my phone standing in the subway carriage.",
+      "Switched to looking out window."
+    ],
+    [
+      "2128-2144",
+      "I observe the passing scenery and passengers from the train window.",
+      "Decided to find seats."
+    ],
+    [
+      "2145-2153",
+      "I take an empty seat in the subway carriage alongside my companion.",
+      "Seated."
+    ],
+    [
+      "2154-2164",
+      "I view a cooking vlog on my smartphone.",
+      "Switched to browsing feed."
+    ],
+    [
+      "2165-2179",
+      "I browse the Bilibili video feed for recommendations.",
+      "Opened WeChat."
+    ],
+    [
+      "2180-2200",
+      "I chat with babe on WeChat and converse with my companion.",
+      "Finished WeChat, interacting with companion."
+    ],
+    [
+      "2201-2209",
+      "I converse with my companion observing her smartphone usage.",
+      "Opened car video on Bilibili."
+    ],
+    [
+      "2210-2218",
+      "I view a BMW car comparison video on Bilibili.",
+      "Interrupted by companion's scolding."
+    ],
+    [
+      "2219-2228",
+      "I receive a scolding from my companion for touching her face with unwashed hands.",
+      "Conversation ends, observing passengers."
+    ],
+    [
+      "2229-2238",
+      "I discuss getting water with my companion observing the subway passengers.",
+      "Returned to watching video."
+    ],
+    [
+      "2239-2249",
+      "I view a BMW car review video on my phone discussing the low battery with my companion.",
+      "End of batch."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

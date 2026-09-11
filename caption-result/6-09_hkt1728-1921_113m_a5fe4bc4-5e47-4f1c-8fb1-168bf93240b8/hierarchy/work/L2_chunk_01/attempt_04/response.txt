@@ -1,0 +1,109 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group input action briefs into immediate tasks based on continuous goals, application usage, and device switches. Distinct work activities (e.g., editing notes vs. inspecting logs) are separated. Phone usage is isolated from laptop usage, and within phone sessions, distinct reading/viewing tasks (e.g., chat vs. long article vs. short video feed vs. long lecture) are segmented into individual immediate tasks.",
+  "events": [
+    [
+      "0-1",
+      "I sit down at my desk.",
+      "Initial action of walking to the desk and sitting down."
+    ],
+    [
+      "2-10",
+      "I review and edit prompt evaluation criteria in VS Code.",
+      "Begins focused work on reviewing and typing prompt evaluation criteria."
+    ],
+    [
+      "11-12",
+      "I pick up my yellow earplugs.",
+      "Briefly interrupts work to pick up earplugs."
+    ],
+    [
+      "13-16",
+      "I review prompt scoring guidelines and Claude Code scoring logic in VS Code.",
+      "Resumes reviewing prompt scoring and Claude Code logic."
+    ],
+    [
+      "17-44",
+      "I chat with babe about debugging frustrations and check group messages on WeChat.",
+      "Switches to smartphone to chat on WeChat and check messages."
+    ],
+    [
+      "45-46",
+      "I monitor script execution progress in VS Code on my laptop.",
+      "Briefly shifts focus to monitor script execution on the laptop."
+    ],
+    [
+      "47-50",
+      "I resume chatting with babe on WeChat and place my iPhone down.",
+      "Resumes checking WeChat on the smartphone before putting it down."
+    ],
+    [
+      "51-64",
+      "I open the EgoLife datasets Feishu document and edit action granularity notes.",
+      "Switches to laptop to open Feishu and edit action granularity notes."
+    ],
+    [
+      "65-75",
+      "I review dataset evaluation criteria, benchmarks, and prediction accuracy charts in VS Code and Feishu.",
+      "Shifts to reviewing evaluation criteria, tables, and charts."
+    ],
+    [
+      "76-84",
+      "I interact with Claude Code to review session recaps and generate summaries.",
+      "Shifts to interacting with Claude Code for session recaps and summaries."
+    ],
+    [
+      "85-92",
+      "I inspect data preprocessing logs, pipeline bugs, and evaluation accuracy in VS Code.",
+      "Shifts to inspecting data preprocessing logs and evaluation plots."
+    ],
+    [
+      "93-107",
+      "I type and review research notes in Google Docs.",
+      "Switches to typing and reviewing research notes in Google Docs."
+    ],
+    [
+      "108-122",
+      "I review literature notes on hierarchical planning and action prediction in Google Docs.",
+      "Focuses on reading specific literature notes on hierarchical planning and action prediction."
+    ],
+    [
+      "123-131",
+      "I interact with an AI assistant and review egocentric video modeling notes.",
+      "Shifts to interacting with an AI assistant and reviewing video modeling notes."
+    ],
+    [
+      "132-139",
+      "I check WeChat messages and view birthday photos in babe's Moments.",
+      "Picks up smartphone to check WeChat messages and Moments."
+    ],
+    [
+      "140-160",
+      "I read a WeChat Official Accounts article about AppLovin CEO Adam Foroughi and exit the app.",
+      "Focuses on reading a specific long-form article about AppLovin."
+    ],
+    [
+      "161-165",
+      "I open Xiaohongshu and read a post about reviewing a paper with an advisor.",
+      "Opens Xiaohongshu to read a post about paper reviews."
+    ],
+    [
+      "166-213",
+      "I scroll through and watch various short entertainment videos on Xiaohongshu.",
+      "Engages in a continuous session of scrolling through short videos."
+    ],
+    [
+      "214-249",
+      "I watch an extended lecture video about mathematics history, AI formal verification, and Erdős problems.",
+      "Stops scrolling to watch an extended educational lecture video."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

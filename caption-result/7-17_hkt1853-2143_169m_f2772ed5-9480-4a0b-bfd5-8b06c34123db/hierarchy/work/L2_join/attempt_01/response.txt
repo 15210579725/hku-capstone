@@ -1,0 +1,30 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible boundary pairs to determine if the same immediate task continues across the batch edge. Merge pairs that share the exact same action, target interface, and semantic goal.",
+  "merges": [
+    [
+      49,
+      50,
+      "I document evaluation results and paste image sequences in a Feishu document.",
+      "Same documentation task continues across batch edge"
+    ],
+    [
+      141,
+      142,
+      "I read ChatGPT research conclusions and sampling recommendations on multimodal action prediction.",
+      "Same reading task continues across batch edge"
+    ],
+    [
+      155,
+      156,
+      "I read X posts about AI models and benchmark comparisons.",
+      "Same X browsing session continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

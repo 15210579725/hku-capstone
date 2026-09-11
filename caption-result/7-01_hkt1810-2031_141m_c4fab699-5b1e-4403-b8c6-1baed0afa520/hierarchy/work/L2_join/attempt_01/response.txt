@@ -1,0 +1,30 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Review eligible pairs to merge those that clearly continue the exact same immediate task (such as a single purchase interaction, the same eating session, or continuous actions within the same app workflow) across transport batch boundaries. Leave pairs that shift activities, apps, or transition between transit and stationary tasks unmerged.",
+  "merges": [
+    [
+      14,
+      15,
+      "I select and purchase mangosteens and lychees from a fruit vendor.",
+      "Same fruit purchase transaction continues across batch edge"
+    ],
+    [
+      49,
+      50,
+      "I eat steamed buns and converse with my companion.",
+      "Same snacking session continues across batch edge"
+    ],
+    [
+      62,
+      63,
+      "I submit a complaint and block a rude real estate agent on WeChat.",
+      "Same continuous agent-reporting task on WeChat continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

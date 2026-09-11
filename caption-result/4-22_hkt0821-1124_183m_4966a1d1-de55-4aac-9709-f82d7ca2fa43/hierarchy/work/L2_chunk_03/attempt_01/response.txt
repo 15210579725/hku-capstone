@@ -1,3 +1,174 @@
 ```json
-{"target_level":"L2","plan":"Group focused math study activities into distinct tasks based on the primary tool being used (laptop vs notepad) and the specific problem or topic being addressed (Rayleigh quotient, PCA, Euler schemes). Isolate breaks in studying, such as looking around the promenade, watching animals, or setting up a power bank, into their own events. Maintain any standalone speech or auditory events.","events":[["500","I hear a passerby make a remark.","Brief isolated auditory event"],["501-505","I handle my pens and write on my notepad.","Shift to handling pens and starting to write"],["506-517","I read ChatGPT explanations and assignment questions regarding the Gram matrix and Rayleigh quotient on my laptop.","Shift to reading specific topics on laptop"],["518-536","I write mathematical derivations for the Rayleigh quotient iteration on my notepad.","Shift to sustained writing on notepad"],["537-541","I type on my laptop and read a math assignment document.","Shift to typing and reading on laptop"],["542","I make a comment about my waist and sitting on a chair.","Brief isolated speech event"],["543-551","I navigate between my math assignment, ChatGPT, and Google Gemini on my laptop.","Shift to navigating AI tools on laptop"],["552-557","I watch pedestrians and dogs pass by on the outdoor promenade.","Shift to observing the environment"],["558-566","I read a ChatGPT response and math document on my laptop.","Shift back to reading on laptop"],["567-573","I write and review mathematical formulas on my notepad.","Shift to writing on notepad"],["574-580","I read notes on the PCA iterative algorithm on my laptop and cross-reference them with my handwritten derivations.","Shift to reading laptop and comparing with notes"],["581-589","I write calculations for the kernel PCA problem on my notepad.","Shift to writing calculations on notepad"],["590-593","I type on my laptop to run Python validation code for matrix calculations.","Shift to running code on laptop"],["594-600","I scan the promenade and watch pedestrians walking by.","Shift to observing the environment"],["601-605","I read PCA mathematical derivations and MSE calculations on my laptop.","Shift to reading specific calculations on laptop"],["606-611","I draw a vector diagram and review previous pages on my notepad.","Shift to drawing and reviewing on notepad"],["612-616","I review PCA notes and edit mathematical derivations on my laptop.","Shift to editing notes on laptop"],["617-626","I browse my HKU Moodle dashboard and read forum posts about course announcements and assignment issues.","Shift to navigating Moodle dashboard"],["627-630","I close my laptop and look around the waterfront promenade at passing runners.","Action of closing laptop and watching runners"],["631-634","I read Moodle forum posts discussing Assignment 2 on my laptop.","Shift to reading specific Moodle posts"],["635-649","I navigate HKU Moodle and read the Assignment 3 PDF questions regarding Kernel PCA and Euler schemes.","Shift to navigating and reading Assignment 3"],["650-679","I write the analytical solution for a differential equation problem on my notepad.","Shift to sustained writing task for a new problem"],["680-684","I switch to an AI assistant interface on my laptop while reviewing my math problem.","Shift to interacting with AI assistant"],["685-688","I alternate between looking around the waterfront and reviewing my handwritten math calculations.","Shift to mixed observation and review"],["689-693","I take out and set up a power bank and charging cable.","Shift to managing electronic devices"],["694-695","I scan the open outdoor promenade area.","Brief environmental scan"],["696-701","I read and edit text for numerical analysis assignment questions about Euler schemes on my laptop.","Shift to reading and editing assignment text"],["702-712","I write the Forward Euler iteration formula and numerical evaluation steps on my notepad.","Shift to writing specific formulas on notepad"],["713-733","I write Euler scheme calculations on my notepad while repeatedly referencing my laptop.","Shift to continuous writing and referencing task"],["734-739","I alternate between observing pedestrians on the promenade and reviewing my handwritten calculations.","Shift to mixed observation and review"],["740-742","I read a differential equations assignment problem on my laptop and check my notes.","Shift to reading problem on laptop"],["743-749","I watch pigeons walking along the paved promenade.","Shift to observing wildlife"]],"audit":{"complete":true,"uncertainties":[],"major_triggers":[],"boundary_cautions":[]}}
+{
+  "target_level": "L2",
+  "plan": "Group continuous action briefs into immediate L2 tasks based on shifting focus among distinct activities such as writing specific mathematical formulas, reading documents or AI explanations, managing course platforms, and observing the environment.",
+  "events": [
+    [
+      "500-505",
+      "I write on my notepad using a mechanical pencil.",
+      "Completes adjusting pen and starts writing"
+    ],
+    [
+      "506-517",
+      "I read ChatGPT explanations and the assignment PDF on the Rayleigh quotient and Gram matrix.",
+      "Focus shifts to reading AI explanations and assignment"
+    ],
+    [
+      "518-522",
+      "I write Rayleigh quotient formulas on my notepad based on my derivations.",
+      "Focus shifts to writing formulas on notepad"
+    ],
+    [
+      "523-537",
+      "I calculate Rayleigh quotient iterations on my notepad using the kernel PCA problem on my laptop.",
+      "Begins calculating iterations for the problem"
+    ],
+    [
+      "538-545",
+      "I read a ChatGPT-generated solution regarding the Gram matrix and Rayleigh quotient.",
+      "Opens ChatGPT to read generated solutions"
+    ],
+    [
+      "546-551",
+      "I consult Google Gemini and ChatGPT for responses to a mathematical problem.",
+      "Switches to interacting with Google Gemini"
+    ],
+    [
+      "552-557",
+      "I watch pedestrians and dogs on the outdoor promenade.",
+      "Attention shifts to pedestrians and dogs on the promenade"
+    ],
+    [
+      "558-566",
+      "I read a ChatGPT response and math assignment document on my laptop.",
+      "Focus returns to reading on the laptop"
+    ],
+    [
+      "567-573",
+      "I write mathematical formulas and annotations on my notepad.",
+      "Picks up notepad to write formulas"
+    ],
+    [
+      "574-580",
+      "I cross-reference my handwritten PCA derivations with the math document on my laptop.",
+      "Focus shifts to cross-referencing derivations with the document"
+    ],
+    [
+      "581-590",
+      "I write mathematical calculations for the kernel PCA and Rayleigh quotient iteration on my notepad.",
+      "Starts writing calculations for kernel PCA"
+    ],
+    [
+      "591-593",
+      "I run Python validation code for matrix calculations on my laptop.",
+      "Switches to running Python validation code"
+    ],
+    [
+      "594-600",
+      "I observe pedestrians passing by the open waterfront promenade.",
+      "Attention shifts to pedestrians on the promenade"
+    ],
+    [
+      "601-605",
+      "I review my notes and PCA mathematical derivations on ChatGPT.",
+      "Focus returns to reading PCA derivations on ChatGPT"
+    ],
+    [
+      "606-610",
+      "I draw a vector diagram on my notepad.",
+      "Draws a vector diagram on the notepad"
+    ],
+    [
+      "611-616",
+      "I edit my handwritten notes regarding the PCA eigenvalue derivation.",
+      "Focus shifts to editing handwritten notes based on derivations"
+    ],
+    [
+      "617-626",
+      "I read course announcements and forum posts on my HKU Moodle dashboard.",
+      "Navigates to HKU Moodle to read announcements"
+    ],
+    [
+      "627-630",
+      "I watch runners on the waterfront promenade.",
+      "Attention shifts to runners on the promenade"
+    ],
+    [
+      "631-638",
+      "I review Moodle forum posts about an assignment and my enrolled courses.",
+      "Returns to Moodle to read forum posts"
+    ],
+    [
+      "639-646",
+      "I read the assignment PDF problems on PCA and differential equations on HKU Moodle.",
+      "Opens Assignment 3 PDF to read problems"
+    ],
+    [
+      "647-652",
+      "I review my handwritten math notes and the assignment questions on Euler schemes.",
+      "Focus shifts to reviewing handwritten notes and Euler scheme questions"
+    ],
+    [
+      "653-661",
+      "I start writing a mathematical equation for the Euler scheme problem on my notepad.",
+      "Begins writing an equation for the Euler scheme problem"
+    ],
+    [
+      "662-679",
+      "I write the mathematical steps for the analytical solution to a differential equation on my notepad.",
+      "Focus shifts to calculating the analytical solution steps"
+    ],
+    [
+      "680-688",
+      "I review my handwritten calculations and the math problem set using an AI assistant.",
+      "Switches to using an AI assistant to review the problem set"
+    ],
+    [
+      "689-693",
+      "I connect my power bank to a charging cable on the bench.",
+      "Interrupts work to connect a power bank"
+    ],
+    [
+      "694-701",
+      "I type in a document regarding the numerical analysis assignment questions on Euler schemes.",
+      "Focus shifts to typing in a document while reviewing questions"
+    ],
+    [
+      "702-712",
+      "I write the Forward Euler iteration formula and numerical evaluation steps on my notepad.",
+      "Focus shifts to writing Forward Euler steps on the notepad"
+    ],
+    [
+      "713-716",
+      "I look across the open waterfront promenade.",
+      "Attention shifts to looking across the promenade"
+    ],
+    [
+      "717-733",
+      "I write the calculations for solving differential equations using the Euler method on my notepad.",
+      "Returns focus to solving differential equations on the notepad"
+    ],
+    [
+      "734-739",
+      "I watch pedestrians pass by on the promenade.",
+      "Attention shifts to pedestrians while reviewing calculations"
+    ],
+    [
+      "740-742",
+      "I review the numerical analysis assignment problems on my laptop.",
+      "Focus shifts back to reading assignment problems on the laptop"
+    ],
+    [
+      "743-749",
+      "I watch a pigeon walking along the waterfront promenade.",
+      "Attention shifts to watching a pigeon on the promenade"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
 ```

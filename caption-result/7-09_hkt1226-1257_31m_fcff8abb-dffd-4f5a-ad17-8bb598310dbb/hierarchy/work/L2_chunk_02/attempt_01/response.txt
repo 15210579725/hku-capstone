@@ -1,0 +1,116 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions sharing an immediate goal, such as configuring software, monitoring tasks, checking logs, physical navigation, or specific WeChat conversation topics. Retain distinct physical actions when they interleave with phone use.",
+  "events": [
+    [
+      "250-258",
+      "I review logs and configure settings in the Codex workspace.",
+      "Settings configuration and log review complete"
+    ],
+    [
+      "259-264",
+      "I monitor AI assistant tasks and read the Claude Code evaluation plan.",
+      "Evaluation monitoring and reading complete"
+    ],
+    [
+      "265",
+      "I say I am bored.",
+      "Vocal expression complete"
+    ],
+    [
+      "266-271",
+      "I check API usage logs and dashboard spend for Nova AI and gpt-5.4.",
+      "Log and spend review complete"
+    ],
+    [
+      "272-274",
+      "I read evaluation documents in VS Code.",
+      "Document reading complete"
+    ],
+    [
+      "275-276",
+      "I stand up from my desk and walk down the office aisle.",
+      "Arrived at next location"
+    ],
+    [
+      "277",
+      "I view an Alipay payment success page.",
+      "Payment page check complete"
+    ],
+    [
+      "278-282",
+      "I chat with babe on WeChat about my food.",
+      "Food chat topic complete"
+    ],
+    [
+      "283",
+      "I press the elevator call button.",
+      "Elevator called"
+    ],
+    [
+      "284-287",
+      "I reply to babe's noodle photo on WeChat.",
+      "Noodle photo reply sent"
+    ],
+    [
+      "288",
+      "I press floor button 1 in the elevator.",
+      "Floor selected"
+    ],
+    [
+      "289-293",
+      "I chat with babe on WeChat and save a sticker.",
+      "Elevator phone use paused for walking"
+    ],
+    [
+      "294",
+      "I walk down the hallway.",
+      "Arrived at hallway segment"
+    ],
+    [
+      "295-297",
+      "I prepare to reply to babe's WeChat messages.",
+      "Preparation interrupted by walking"
+    ],
+    [
+      "298-299",
+      "I walk to the handrail and look down at the atrium lounge.",
+      "Observation complete"
+    ],
+    [
+      "300-304",
+      "I send a quote reply to babe on WeChat.",
+      "Quote reply complete"
+    ],
+    [
+      "305-306",
+      "I move into the lounge area and prepare to sit.",
+      "Ready to sit"
+    ],
+    [
+      "307-317",
+      "I chat with babe on WeChat about sleeping on the lounge sofa.",
+      "Sofa conversation complete"
+    ],
+    [
+      "318-325",
+      "I read tech and science article headlines in WeChat.",
+      "Headline browsing complete"
+    ],
+    [
+      "326-342",
+      "I chat with babe on WeChat about their arguing roommates.",
+      "Conversation topic ongoing at batch end"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "275"
+    ],
+    "boundary_cautions": []
+  }
+}
+```

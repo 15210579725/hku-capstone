@@ -1,0 +1,29 @@
+```json
+{
+  "target_level": "L5",
+  "plan": "Abstract the dinner, kitchen cleanup, and subsequent snack into a unified at-home evening meal activity. Maintain the distinct outdoor activities—grocery shopping and traveling to the waterfront—as separate major goals due to their complete shifts in location and overarching purpose.",
+  "events": [
+    [
+      "0-2",
+      "I have my evening meal.",
+      "Goal shifts from the at-home dining routine to an outdoor shopping errand."
+    ],
+    [
+      "3",
+      "I shop for groceries at a Wellcome supermarket.",
+      "Goal shifts from grocery shopping to traveling to a new location for leisure."
+    ],
+    [
+      "4",
+      "I travel to the waterfront promenade to eat my toast.",
+      "End of provided evidence."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

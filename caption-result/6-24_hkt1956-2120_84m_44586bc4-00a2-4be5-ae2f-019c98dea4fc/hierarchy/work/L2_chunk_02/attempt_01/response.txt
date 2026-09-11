@@ -1,0 +1,174 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group sequential action briefs that share an immediate task, such as navigating a specific physical space, conversing about a single topic, browsing a particular app feed, or watching a distinct video.",
+  "events": [
+    [
+      "250-254",
+      "I purchase a water bottle using Alipay and walk toward the store exit.",
+      "Completes the immediate transaction."
+    ],
+    [
+      "255-259",
+      "I navigate the MTR concourse to King Bakery and look at the egg tart display.",
+      "Changes location and focus to browsing HealthWorks."
+    ],
+    [
+      "260-264",
+      "I look at billboards and observe the HealthWorks store while walking.",
+      "Shifts to walking toward the fare gates and conversing."
+    ],
+    [
+      "265-271",
+      "I walk toward the MTR fare gates while listening to my companion discuss a cable car.",
+      "Shifts focus to browsing Pret A Manger."
+    ],
+    [
+      "272-276",
+      "I browse the food displays and promotions at Pret A Manger.",
+      "Leaves the store to continue walking through the concourse."
+    ],
+    [
+      "277-280",
+      "I walk through the MTR concourse past a photo booth and mascot exhibition.",
+      "Arrives at the fare gates."
+    ],
+    [
+      "281-283",
+      "I tap my phone to pass through the MTR fare gates.",
+      "Completes gate entry and transitions to the escalator."
+    ],
+    [
+      "284-292",
+      "I step onto a descending escalator and discuss a fee deduction with my companion.",
+      "Conversation ends and focus shifts to a video on the phone."
+    ],
+    [
+      "293-301",
+      "I watch a car crash test video on my phone while navigating the concourse and escalators.",
+      "Switches to watching a motorcycle livestream."
+    ],
+    [
+      "302-304",
+      "I watch a motorcycle livestream video on my phone while riding the escalator.",
+      "Steps off escalator and switches to browsing short videos."
+    ],
+    [
+      "305-313",
+      "I walk through the concourse while watching various short videos on Bilibili.",
+      "Encounters a crowded platform, shifting focus."
+    ],
+    [
+      "314-320",
+      "I navigate the crowded MTR platform and scroll my video feed.",
+      "Stops to watch a specific long video."
+    ],
+    [
+      "321-325",
+      "I watch a Bilibili video about grain market speculation while waiting on the platform.",
+      "Video ends, returning to feed browsing."
+    ],
+    [
+      "326-329",
+      "I scroll through the Bilibili video recommendation feed.",
+      "Boards the subway carriage."
+    ],
+    [
+      "330-332",
+      "I board the subway carriage and check my phone.",
+      "Focus shifts to watching a new video."
+    ],
+    [
+      "333-337",
+      "I watch a police documentary clip on Bilibili and comment on the cool weather.",
+      "Video ends, returning to browsing."
+    ],
+    [
+      "338-341",
+      "I briefly open a video about old phone chips before returning to the Bilibili feed.",
+      "Opens a Tencent documentary."
+    ],
+    [
+      "342-358",
+      "I discuss Tencent's relocation with my companion and watch a Bilibili documentary about the company's history.",
+      "Documentary segment concludes."
+    ],
+    [
+      "359-361",
+      "I browse recommended videos on Bilibili.",
+      "Opens a video about Huawei."
+    ],
+    [
+      "362-366",
+      "I watch a Bilibili video about Huawei's Wi-Fi 7 patent fees.",
+      "Switches to watching a food vlog."
+    ],
+    [
+      "367-368",
+      "I watch a food vlog on Bilibili.",
+      "Returns to the recommendation feed."
+    ],
+    [
+      "369-376",
+      "I scroll through the Bilibili recommendation feed and briefly watch a video.",
+      "Transitions to searching for car reviews."
+    ],
+    [
+      "377-383",
+      "I browse for car review videos and compliment a cloud photo on a passenger's phone.",
+      "Selects and opens a specific car review video."
+    ],
+    [
+      "384-440",
+      "I watch a comprehensive car review video about the Onvo L80 SUV.",
+      "Video finishes, shifting to browsing the creator's page."
+    ],
+    [
+      "441-444",
+      "I browse the creator's car review videos and look at the train doors.",
+      "Opens an interview video about engines."
+    ],
+    [
+      "445-447",
+      "I watch a Bilibili video discussing the EA211 engine and Chinese automotive supply chains.",
+      "Switches to a different car review video."
+    ],
+    [
+      "448-466",
+      "I watch a Bilibili review of the Volkswagen ID.ERA 9X and read the user comments.",
+      "Returns to the automotive feed."
+    ],
+    [
+      "467-468",
+      "I browse the Bilibili automotive video feed and look up.",
+      "Switches apps to Xiaohongshu."
+    ],
+    [
+      "469-480",
+      "I browse the Xiaohongshu Discover feed, reading posts about a Porsche Taycan and PhD research.",
+      "Switches task to performing searches on the phone."
+    ],
+    [
+      "481-489",
+      "I search for '100x shouji' and 'era' on my phone, briefly checking notifications and a neighbor's screen.",
+      "Focus shifts to an active conversation with the companion."
+    ],
+    [
+      "490-496",
+      "I discuss travel plans and schedule details with my companion on the subway.",
+      "Conversation pauses, returning attention to the phone screen."
+    ],
+    [
+      "497-499",
+      "I read a Xiaohongshu AI summary detailing the specifications and pricing of the SAIC Volkswagen ID.ERA 9X.",
+      "Completes reading the AI summary."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,18 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Review the single eligible boundary pair (25, 26) to determine if it represents a continuation of the same immediate task. Both events involve reviewing cross-border transportation options and rules in Alipay, indicating a continuous task.",
+  "merges": [
+    [
+      25,
+      26,
+      "I review cross-border bus ticket options and booking rules in an Alipay mini-program.",
+      "Same ticket reviewing task continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

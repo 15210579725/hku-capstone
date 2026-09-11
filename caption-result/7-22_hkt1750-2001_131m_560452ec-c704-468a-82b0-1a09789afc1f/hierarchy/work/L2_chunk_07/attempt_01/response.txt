@@ -1,0 +1,64 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous browsing on the phone, the brief workout conversation, the physical exit from the gym, the outdoor walk and conversation about the rain/clothes, the final approach to the building, entering the lobby and passing the turnstiles, the elevator ride, walking to the desk, and finally settling at the desk as distinct immediate tasks based on location changes and task boundaries.",
+  "events": [
+    [
+      "1500-1529",
+      "I browse my X feed on my phone, reading posts about AI, NVIDIA architectures, and the Jacobian conjecture.",
+      "Finishes browsing phone and prepares to leave"
+    ],
+    [
+      "1530-1534",
+      "I converse with User X about muscle engagement during the workout.",
+      "Conversation ends, starts walking to the exit"
+    ],
+    [
+      "1535-1537",
+      "I walk out of the gym.",
+      "Exits the gym building"
+    ],
+    [
+      "1538-1554",
+      "I converse with my companion about the rain and wet underwear while ascending the outdoor stairs and walking along the walkway.",
+      "Conversation topic ends, continues walking towards the destination"
+    ],
+    [
+      "1555-1560",
+      "I walk along the outdoor pathway toward the building entrance and recite brief phrases.",
+      "Reaches the building entrance"
+    ],
+    [
+      "1561-1566",
+      "I enter the building lobby and use a remote control to open and pass through the turnstiles.",
+      "Passes the turnstiles, approaches the elevator"
+    ],
+    [
+      "1567-1579",
+      "I take the elevator, untangle my power bank cable, and converse with my companion about the turnstile remote.",
+      "Elevator arrives and doors open"
+    ],
+    [
+      "1580-1583",
+      "I walk from the elevator to my desk in the office.",
+      "Arrives at the office desk"
+    ],
+    [
+      "1584-1587",
+      "I sit at my desk and drink from my water bottle.",
+      "Finishes drinking water, shifts attention to computer"
+    ],
+    [
+      "1588-1590",
+      "I view the POV Rollout Viewer on my MacBook screen and look down at my shirt.",
+      "End of provided clips"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

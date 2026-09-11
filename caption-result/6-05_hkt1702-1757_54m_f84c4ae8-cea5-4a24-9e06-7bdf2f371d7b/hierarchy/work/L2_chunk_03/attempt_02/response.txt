@@ -1,0 +1,49 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group action briefs into immediate tasks based on the specific content being consumed (e.g., individual WeChat articles, local reports, a coworker's screen, and log files). Changes in the article subject, application, or attention focus (like turning to a peer's screen) mark the boundaries.",
+  "events": [
+    [
+      "500-525",
+      "I read a QuantumBit article about Kairos-Homeworld and Daxiao Robot on WeChat.",
+      "Switches to reading a new article."
+    ],
+    [
+      "526-555",
+      "I read an article about AI and DNA synthesis biosecurity risks on WeChat.",
+      "Returns to the WeChat subscription feed."
+    ],
+    [
+      "556-559",
+      "I browse the WeChat Official Accounts subscription feed on my phone.",
+      "Switches attention to the MacBook screen."
+    ],
+    [
+      "560-562",
+      "I review a Claude Code prompt iteration report on my MacBook.",
+      "Interrupted by a colleague pointing at her laptop."
+    ],
+    [
+      "563-567",
+      "I view a weather alert on my colleague's laptop screen.",
+      "Returns attention to own workspace."
+    ],
+    [
+      "568-571",
+      "I read markdown files in VS Code on my MacBook.",
+      "Switches task to reviewing API logs."
+    ],
+    [
+      "572-575",
+      "I review Claude API usage and error logs.",
+      "End of provided input."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

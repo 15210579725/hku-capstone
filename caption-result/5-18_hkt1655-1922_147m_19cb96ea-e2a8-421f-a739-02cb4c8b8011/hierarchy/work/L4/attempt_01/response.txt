@@ -1,0 +1,57 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group coherent episodes into broader goal-oriented phases based on major activities: researching, dining, running errands, unstructured home time, studying, and relaxing. Preserve the urgent message and the verbal commitment to study as standalone triggers.",
+  "events": [
+    [
+      "0",
+      "I research the FutureSim benchmark and behavior prediction using my laptop and smartphone.",
+      "Phase completes upon urgent interruption"
+    ],
+    [
+      "1",
+      "I react to an urgent message on my smartphone.",
+      "Standalone trigger that interrupts research and initiates departure"
+    ],
+    [
+      "2-5",
+      "I travel to the campus cafeteria to purchase and eat my meal.",
+      "Completes meal excursion"
+    ],
+    [
+      "6-11",
+      "I run errands in the commercial area to purchase household items and groceries before returning to my apartment.",
+      "Completes shopping trip and return journey"
+    ],
+    [
+      "12-16",
+      "I engage in leisure activities, consume a snack, and review POV Rollout Viewer documents on my devices at my apartment.",
+      "Phase completes upon explicit commitment to study"
+    ],
+    [
+      "17",
+      "I verbally commit to starting my revision work.",
+      "Standalone trigger that initiates study session"
+    ],
+    [
+      "18-21",
+      "I study numerical linear algebra, physics, and Singular Value Decomposition concepts using my laptop and handwritten notes.",
+      "Completes study session before relocating"
+    ],
+    [
+      "22-25",
+      "I relocate to the living room to relax and browse applications on my smartphone.",
+      "End of provided input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      1,
+      17
+    ],
+    "boundary_cautions": []
+  }
+}
+```

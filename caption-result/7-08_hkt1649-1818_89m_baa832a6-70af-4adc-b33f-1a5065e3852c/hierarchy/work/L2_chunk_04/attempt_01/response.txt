@@ -1,0 +1,64 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous sequences of eating and conversational topics into distinct meal phases, followed by the physical tasks of returning the tray, walking through the cafeteria and parking garage, and taking the elevator to the office.",
+  "events": [
+    [
+      "750-768",
+      "I eat steamed fish and a steamed bun while discussing class fees with a companion.",
+      "Conversation shifts to school exams and I start eating mushrooms."
+    ],
+    [
+      "769-782",
+      "I eat mushrooms and bamboo shoots while listening to a discussion about school exams.",
+      "Conversation shifts to driving and typhoons and I return to eating fish."
+    ],
+    [
+      "783-827",
+      "I eat steamed fish and a steamed bun while conversing about driving lessons and typhoons.",
+      "Conversation shifts to AI models and coding tools."
+    ],
+    [
+      "828-853",
+      "I drink soup and finish my meal while discussing AI models and coding tools with colleagues.",
+      "Companions decide to leave and I pick up my tray."
+    ],
+    [
+      "854-862",
+      "I return my food tray to the cafeteria conveyor.",
+      "Tray return is complete and I leave the cafeteria."
+    ],
+    [
+      "863-870",
+      "I walk through the cafeteria lounge while discussing test mistakes.",
+      "I transition from the lounge into the hallway and parking garage."
+    ],
+    [
+      "871-881",
+      "I walk through the parking garage to the elevator lobby while continuing to discuss test mistakes.",
+      "I arrive at the elevator lobby and stop to wait."
+    ],
+    [
+      "882-890",
+      "I wait in the elevator lobby for the elevator.",
+      "The elevator doors open and I enter."
+    ],
+    [
+      "891-896",
+      "I ride the elevator.",
+      "The elevator arrives and I exit on the 9th floor."
+    ],
+    [
+      "897-900",
+      "I walk down the 9th-floor corridor toward the office.",
+      "End of provided events."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

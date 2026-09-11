@@ -1,0 +1,106 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group sequential action briefs into immediate tasks by identifying continuous activities serving a single immediate goal, such as messaging for scooter rental, conversing with a companion, walking to a location, driving, parking, or calculating fees. Boundaries are formed when the primary action, target, or goal changes.",
+  "events": [
+    [
+      "1250-1258",
+      "I pay a ¥100 deposit and send my ID photo in the scooter rental WeChat chat.",
+      "Deposit transferred and ID sent"
+    ],
+    [
+      "1259-1263",
+      "I discuss the scooter rental payment timing with my companion.",
+      "Conversation about payment timing concludes"
+    ],
+    [
+      "1264-1269",
+      "I message the scooter rental shop to ask how to pick up the vehicle.",
+      "Messages sent to shop"
+    ],
+    [
+      "1270-1277",
+      "I tell my companion about a parking violation message and decide to go move my car.",
+      "Decision to move the car is established"
+    ],
+    [
+      "1278-1317",
+      "I walk along the street and across the plaza to return to my parked car.",
+      "Arrives at the parking area"
+    ],
+    [
+      "1318-1334",
+      "I locate my parked Toyota Camry and discuss the legality of the parking spot.",
+      "About to enter the car"
+    ],
+    [
+      "1335-1355",
+      "I drive my Toyota Camry out of the parking area.",
+      "Leaves the initial parking lot"
+    ],
+    [
+      "1356-1364",
+      "I reverse my Toyota Camry into a parking space at a different parking lot.",
+      "Car is parked in the new lot"
+    ],
+    [
+      "1365-1379",
+      "I review the parking rule signboards to calculate the parking fee.",
+      "Fee calculation complete"
+    ],
+    [
+      "1380-1413",
+      "I walk back across the town square and along the street toward the scooter rental area.",
+      "Arrives back at the original location"
+    ],
+    [
+      "1414-1420",
+      "I realize my initial car parking was correct and explain the delayed violation message to my companion.",
+      "Conversation about the parking confusion concludes"
+    ],
+    [
+      "1421-1436",
+      "I prepare the electric scooter by turning it on and putting on my helmet.",
+      "Helmet is on and scooter is ready"
+    ],
+    [
+      "1437-1448",
+      "I use WeChat to tell my companion I will ride the scooter to fetch her bag from the car.",
+      "Message sent and phone put away"
+    ],
+    [
+      "1449-1463",
+      "I ride the electric scooter along the road.",
+      "Arrives at the destination parking lot"
+    ],
+    [
+      "1464-1477",
+      "I park the electric scooter in a courtyard lot and walk toward my Toyota Camry.",
+      "Reaches the car"
+    ],
+    [
+      "1478-1481",
+      "I get into the Toyota Camry and fasten my seatbelt.",
+      "Ready to drive"
+    ],
+    [
+      "1482-1497",
+      "I drive the Toyota Camry through the parking lot and along the road.",
+      "Stops the car"
+    ],
+    [
+      "1498-1499",
+      "I unbuckle my seatbelt and step out of the Toyota Camry.",
+      "Exited the car"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      3
+    ],
+    "boundary_cautions": []
+  }
+}
+```

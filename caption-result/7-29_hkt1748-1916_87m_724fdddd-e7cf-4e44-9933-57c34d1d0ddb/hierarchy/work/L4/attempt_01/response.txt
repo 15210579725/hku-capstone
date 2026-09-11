@@ -1,0 +1,34 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Abstract the L3 episodes into broader goal-oriented phases: concluding office time to eat dinner, completing a combined gym workout and academic discussion session, reviewing a specific agreement document, and transitioning to the restroom.",
+  "events": [
+    [
+      "0-3",
+      "I consume my noodle meal with my dining companions at the cafeteria following my departure from the office workspace.",
+      "Groups office departure, transit, meal procurement, and consumption into a single dinner phase"
+    ],
+    [
+      "4-15",
+      "I conduct a collaborative workout session at the gym involving extensive discussions regarding AI model generalization, behavior classification, and dataset curation.",
+      "Unifies transit, diverse exercises, and related academic discussions into a comprehensive gym session phase"
+    ],
+    [
+      "16",
+      "I review the '3_补充协议1.pdf' agreement on my smartphone during casual conversations.",
+      "Distinct administrative and cognitive goal centered on a specific document, separate from the physical workout"
+    ],
+    [
+      "17",
+      "I enter the men's restroom.",
+      "Transition to a distinct hygiene location and goal"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

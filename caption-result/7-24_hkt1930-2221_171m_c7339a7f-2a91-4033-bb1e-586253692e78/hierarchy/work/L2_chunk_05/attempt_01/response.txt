@@ -1,0 +1,114 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous riding segments based on major topic shifts in conversation, distinct navigation phases, and discrete tasks like parking or purchasing a drink.",
+  "events": [
+    [
+      "1000-1006",
+      "I ride my scooter toward an intersection.",
+      "Start of a conversation at the intersection"
+    ],
+    [
+      "1007-1011",
+      "I discuss taking time off work with my companion at the intersection.",
+      "Shift from waiting to inspecting takeout food"
+    ],
+    [
+      "1012-1023",
+      "I discuss the leaked sauce and 15 RMB price of my takeout food with my companion.",
+      "End of food inspection and resuming ride"
+    ],
+    [
+      "1024-1033",
+      "I ride my scooter across the intersection into the underpass.",
+      "Exiting underpass and starting new conversation"
+    ],
+    [
+      "1034-1044",
+      "I converse with my companion during our bike path ride.",
+      "Shift to discussing an academic major"
+    ],
+    [
+      "1045-1060",
+      "I discuss someone's academic major with my companion during the ride.",
+      "End of conversation about academic major"
+    ],
+    [
+      "1061-1072",
+      "I follow other riders along the bike lane past Dechuan Rd.",
+      "Interruption by a shouting voice"
+    ],
+    [
+      "1073-1083",
+      "I discuss navigation directions with my companion across the intersection.",
+      "End of navigation discussion and start of singing"
+    ],
+    [
+      "1084-1089",
+      "I sing a song near the Liju Garden Plaza.",
+      "End of singing and start of cooking discussion"
+    ],
+    [
+      "1090-1097",
+      "I discuss stir-frying techniques with my companion.",
+      "Shift to discussing scooter speed on the bridge"
+    ],
+    [
+      "1098-1111",
+      "I discuss the slow speed of the scooter with my companion on the bridge.",
+      "End of bridge ride and shift to discussing residential area"
+    ],
+    [
+      "1112-1123",
+      "I point out my residential area on Qiai Road to my companion.",
+      "End of discussion about Qiai Road"
+    ],
+    [
+      "1124-1141",
+      "I ride my scooter past road signs for Tangzhen Rd and Tangan Rd.",
+      "Spotting flashing lights ahead"
+    ],
+    [
+      "1142-1154",
+      "I discuss the presence of construction workers near the flashing lights with my companion.",
+      "Arriving at the Tangzhen CBD"
+    ],
+    [
+      "1155-1165",
+      "I announce our arrival at the Tangzhen CBD to my companion.",
+      "Starting to look for food stalls"
+    ],
+    [
+      "1166-1189",
+      "I decide to search for food stalls near our home due to their absence in the Tangzhen CBD.",
+      "Decision to search for food near home instead"
+    ],
+    [
+      "1190-1210",
+      "I discuss the location of a neighborhood with my companion on the street.",
+      "Arrival at the residential compound"
+    ],
+    [
+      "1211-1225",
+      "I listen to my companion suggest various food options upon arriving at my residential compound.",
+      "Stopping to park the scooter"
+    ],
+    [
+      "1226-1235",
+      "I check the Hello Bike rental status on my phone for my parked electric scooter.",
+      "Heading to purchase a drink"
+    ],
+    [
+      "1236-1249",
+      "I purchase a 7 RMB jasmine milk green tea at Mixue.",
+      "End of tea purchase"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

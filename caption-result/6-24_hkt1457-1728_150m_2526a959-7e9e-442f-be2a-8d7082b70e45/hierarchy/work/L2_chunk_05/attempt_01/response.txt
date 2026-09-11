@@ -1,0 +1,119 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group actions into immediate tasks defined by uninterrupted physical navigation, continuous conversations on a single topic, or single specific interactions like phone calls and gate entry.",
+  "events": [
+    [
+      "1000-1005",
+      "I dispose of a trash bag in the refuse room.",
+      "Task completes upon exiting the refuse room"
+    ],
+    [
+      "1006-1011",
+      "I board the elevator.",
+      "Task completes upon entering the elevator"
+    ],
+    [
+      "1012-1024",
+      "I discuss apartment viewing arrangements with my companion during the elevator ride.",
+      "Topic shifts to relocation logistics after exiting the elevator"
+    ],
+    [
+      "1025-1035",
+      "I discuss relocation logistics with my companion outside the building.",
+      "Conversation about relocation concludes"
+    ],
+    [
+      "1036-1044",
+      "I inspect the drinks at the vending machine.",
+      "Task completes after waiting at the vending machines"
+    ],
+    [
+      "1045-1058",
+      "I traverse the residential complex chatting with my companion.",
+      "Goal shifts to actively seeking information about the swimming pool"
+    ],
+    [
+      "1059-1065",
+      "I head toward the swimming pool to inquire about the lane opening.",
+      "Arrival at the clubhouse to ask about the pool"
+    ],
+    [
+      "1066-1079",
+      "I ask the clubhouse reception staff about the swimming lane opening date.",
+      "Inquiry completes upon leaving the reception counter"
+    ],
+    [
+      "1080-1111",
+      "I walk along the covered residential colonnade with my companion.",
+      "Goal shifts to walking through the open outdoor plaza"
+    ],
+    [
+      "1112-1116",
+      "I navigate past a moving truck toward the lobby entrance.",
+      "Task completes upon passing the moving truck"
+    ],
+    [
+      "1117-1136",
+      "I walk through the outdoor central plaza.",
+      "Transition into the covered pergola walkway"
+    ],
+    [
+      "1137-1156",
+      "I walk through the covered pergola walkways.",
+      "Companion departs triggering a solo phone call"
+    ],
+    [
+      "1157-1176",
+      "I discuss a rental budget with a Shanghai apartment agent on a phone call.",
+      "The woman beside me takes over the phone conversation"
+    ],
+    [
+      "1177-1185",
+      "I negotiate apartment rental details alongside a woman speaking to the agent.",
+      "The woman finishes her interjection for direct negotiation"
+    ],
+    [
+      "1186-1196",
+      "I specify my quiet apartment preferences to the rental agent.",
+      "Conversation pauses to navigate the transit station fare gates"
+    ],
+    [
+      "1197-1203",
+      "I access the train platform by tapping my iPhone at the fare gates.",
+      "Navigation to the platform completes"
+    ],
+    [
+      "1204-1214",
+      "I finalize rental logistics with the agent on the train platform.",
+      "Phone call concludes to focus on boarding the train"
+    ],
+    [
+      "1215-1224",
+      "I navigate the train platform toward the First Class boarding area.",
+      "Arrival at the designated boarding area"
+    ],
+    [
+      "1225-1235",
+      "I discuss the rental agent's reliability with my companion during boarding.",
+      "Topic shifts to specifically dictating the agent's contact number"
+    ],
+    [
+      "1236-1242",
+      "I dictate the rental agent's phone number to my companion.",
+      "Contact sharing completes"
+    ],
+    [
+      "1243-1249",
+      "I read an email on my smartphone aboard the train.",
+      "Email reading completes"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

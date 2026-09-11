@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Merge pairs that represent the exact same continuous immediate action. [18, 19] continues the same Codex prompting interaction, and [99, 100] continues the same WeChat conversation regarding a refund. [47, 48] and [70, 71] represent distinct sequential steps (monitoring then interrupting; managing permissions then resuming), so they are kept separate at the immediate task level.",
+  "merges": [
+    [
+      18,
+      19,
+      "I prompt OpenAI Codex to plan and test GPU tasks.",
+      "Same Codex interaction continues across batch edge"
+    ],
+    [
+      99,
+      100,
+      "I manage a WeChat conversation regarding a scooter refund.",
+      "Same WeChat conversation continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

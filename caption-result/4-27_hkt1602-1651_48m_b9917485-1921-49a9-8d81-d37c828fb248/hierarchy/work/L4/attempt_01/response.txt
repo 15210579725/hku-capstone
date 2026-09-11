@@ -1,24 +1,3 @@
 ```json
-{
-  "target_level": "L4",
-  "plan": "Group the hotpot meal and continuous conversation into an initial meal phase, and group the subsequent post-meal socializing, package inspections, and brief phone call into a second phase.",
-  "events": [
-    [
-      "0-4",
-      "I consume a hotpot meal while conversing with my companions.",
-      "The meal concludes and focus shifts to examining household items."
-    ],
-    [
-      "5-8",
-      "I examine various packages and containers while interacting with my companions and a phone caller.",
-      "End of recording."
-    ]
-  ],
-  "audit": {
-    "complete": true,
-    "uncertainties": [],
-    "major_triggers": [],
-    "boundary_cautions": []
-  }
-}
+{"target_level":"L4","plan":"Group the continuous social hotpot meal into one primary phase, followed by distinct phases for communication tasks and dishwashing preparation.","events":[["0-4","I socialize with my companions over a hotpot meal.","Meal and associated social interaction conclude"],["5","I participate in a phone call and a discussion about the AI recording.","Shift from communication to kitchen tasks"],["6","I inspect food containers in preparation for washing a bowl.","End of input"]],"audit":{"complete":true,"uncertainties":[],"major_triggers":[],"boundary_cautions":[]}}
 ```

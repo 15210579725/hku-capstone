@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible pairs for task continuity. Pair [20, 21] transitions between distinct navigational environments (alley vs. arcade) and remains separate. Pair [33, 34] is merged as it represents a continuous session of watching videos and browsing feeds on the smartphone. Pair [52, 53] is merged because selecting items and paying constitute a single unified purchase task at the bakery.",
+  "merges": [
+    [
+      33,
+      34,
+      "I watch short videos and social media feeds on my smartphone.",
+      "Continuous consumption of short videos and feeds on the smartphone across the batch edge."
+    ],
+    [
+      52,
+      53,
+      "I purchase a Frankfurt sausage bun at Lai Wah Bakery.",
+      "Selecting an item and paying at the checkout constitute a single purchase task."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

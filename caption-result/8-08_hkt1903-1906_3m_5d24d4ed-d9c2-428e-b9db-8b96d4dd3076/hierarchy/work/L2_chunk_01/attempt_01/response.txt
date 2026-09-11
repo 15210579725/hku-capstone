@@ -1,0 +1,54 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group action briefs into immediate tasks by identifying continuous goal execution. Boundaries are placed when the user switches physical locations, transitions between distinct smartphone software applications (WeChat vs. Hello e-bike), shifts focus to physical device inspection, or initiates a new physical task like securing a bottle.",
+  "events": [
+    [
+      "0-8",
+      "I fill my water bottle at the pantry dispenser.",
+      "Completes filling and collecting the water bottle"
+    ],
+    [
+      "9-10",
+      "I walk to the communal lounge table.",
+      "Arrives at the lounge table"
+    ],
+    [
+      "11-23",
+      "I participate in a WeChat conversation about dessert photos.",
+      "Exits WeChat to the home screen"
+    ],
+    [
+      "24-25",
+      "I open the Hello e-bike mini-program on my iPhone.",
+      "Switches focus from the software application to the physical phone hardware"
+    ],
+    [
+      "26-32",
+      "I examine the orange silicone case of my iPhone.",
+      "Finishes inspecting the phone case and sets it aside"
+    ],
+    [
+      "33-37",
+      "I reply to a WeChat text message.",
+      "Finishes texting and stops using the smartphone"
+    ],
+    [
+      "38",
+      "I secure the cap on my water bottle.",
+      "Completes closing the water bottle"
+    ],
+    [
+      "39-43",
+      "I walk down the hallway to look into the office.",
+      "Arrives at the office doorway and looks inside"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

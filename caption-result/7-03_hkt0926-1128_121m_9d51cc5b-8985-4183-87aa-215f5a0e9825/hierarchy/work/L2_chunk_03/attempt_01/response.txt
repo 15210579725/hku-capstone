@@ -1,0 +1,129 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group action briefs into immediate L2 tasks based on continuous goals, locations, or topics of conversation, accounting for chronological breaks and timestamp jumps.",
+  "events": [
+    [
+      "500-524",
+      "I view media regarding oil prices on my phone.",
+      "Media consumption concludes to converse with the security guard"
+    ],
+    [
+      "525-536",
+      "I explain my wait for a senior colleague to the lobby security guard.",
+      "Guard conversation concludes to message a colleague"
+    ],
+    [
+      "537-544",
+      "I message 方阔飞 on WeChat about the situation from the lobby lounge.",
+      "Messaging concludes to place a phone call"
+    ],
+    [
+      "545-550",
+      "I approach the security turnstiles during a phone call with 方阔飞.",
+      "Phone call concludes at a backward timestamp jump"
+    ],
+    [
+      "551-557",
+      "I evaluate the remaining travel distance during a shared bicycle ride.",
+      "Cycling concludes at a forward timestamp jump"
+    ],
+    [
+      "558-565",
+      "I review my WeChat messages after passing through the turnstiles.",
+      "Turnstile entry concludes to resume viewing media"
+    ],
+    [
+      "566-585",
+      "I view Bilibili videos regarding oil prices and imports.",
+      "Media consumption concludes to greet an arriving colleague"
+    ],
+    [
+      "586-595",
+      "I discuss my accommodation with a colleague upon greeting him in the lobby.",
+      "Lobby greeting concludes to ride the elevator"
+    ],
+    [
+      "596-612",
+      "I discuss studies and seating with a companion during the elevator ride to the 9th floor.",
+      "Elevator ride concludes upon reaching the 9th floor"
+    ],
+    [
+      "613-623",
+      "I meet User X in office C909 to organize the desk seating arrangement.",
+      "Seating discussion concludes to unpack belongings"
+    ],
+    [
+      "624-635",
+      "I unpack my MacBook, wallet, and charging cable onto my desk.",
+      "Unpacking concludes to visit another office"
+    ],
+    [
+      "636-646",
+      "I discuss basketball during a visit to an office to handle an application.",
+      "Office visit concludes to take the elevator"
+    ],
+    [
+      "647-658",
+      "I discuss basketball and fitness with a colleague during the elevator ride to the first floor.",
+      "Elevator ride concludes upon reaching the ground floor"
+    ],
+    [
+      "659-663",
+      "I head toward the exit past the lobby receptionist.",
+      "Lobby exit concludes to converse about hometowns"
+    ],
+    [
+      "664-674",
+      "I converse with my companion about our hometowns and university dormitories.",
+      "Hometown conversation shifts to discussing academic research"
+    ],
+    [
+      "675-691",
+      "I discuss academic backgrounds and research with my companion during a campus walk.",
+      "Campus walk concludes upon entering the research building"
+    ],
+    [
+      "692-696",
+      "I discuss the research center's focus on autonomous systems upon entering the building with my companion.",
+      "Entering building concludes to wait for the elevator"
+    ],
+    [
+      "697-708",
+      "I take elevator 05 to the third floor.",
+      "Elevator ride concludes upon arriving at the 3rd floor"
+    ],
+    [
+      "709-719",
+      "I visit office A314 with a colleague to look for Professor Guo.",
+      "Office visit concludes at a backward timestamp jump"
+    ],
+    [
+      "720-726",
+      "I secure a shared bicycle on the sidewalk outside the Shanghai Research Institute for Intelligent Autonomous Systems.",
+      "Bicycle parking concludes at a forward timestamp jump"
+    ],
+    [
+      "727-735",
+      "I type WeChat messages on my phone during the elevator ride.",
+      "Elevator ride concludes upon exiting to the lobby"
+    ],
+    [
+      "736-740",
+      "I walk through the lobby to exit the building.",
+      "Lobby exit concludes to converse outside"
+    ],
+    [
+      "741-749",
+      "I converse with my companion outside about his apartment rental.",
+      "End of input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

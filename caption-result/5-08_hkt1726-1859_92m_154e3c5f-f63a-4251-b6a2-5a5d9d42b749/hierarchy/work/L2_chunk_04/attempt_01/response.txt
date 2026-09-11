@@ -1,0 +1,121 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group action briefs into immediate tasks based on contiguous physical actions, interactions with specific objects, or coherent conversation topics. Boundaries are drawn when the primary activity shifts (e.g., from opening a blind to watching the view, changing conversation topics, or switching devices).",
+  "events": [
+    [
+      "750-759",
+      "I examine the ferry window and discuss opening the blind.",
+      "Observing the window before taking action to open it"
+    ],
+    [
+      "760-764",
+      "I untangle the cord and open the window blind.",
+      "Physical task of opening the blind"
+    ],
+    [
+      "765-791",
+      "I watch the sunset and sea through the open ferry window.",
+      "Focus shifts to enjoying the view"
+    ],
+    [
+      "792-807",
+      "I chat with my companion while she searches her handbag.",
+      "Conversation and observing companion's bag search"
+    ],
+    [
+      "808-820",
+      "I test my DJI Osmo Pocket 3 camera in the cabin.",
+      "Testing specific camera equipment"
+    ],
+    [
+      "821-837",
+      "I converse with my companion about the bumpy ferry ride.",
+      "Discussion shifts to the ride's comfort"
+    ],
+    [
+      "838-848",
+      "I discuss future island trips while looking at the scenery outside.",
+      "New conversation topic about future travel plans"
+    ],
+    [
+      "849-851",
+      "I inspect the lifejacket instruction booklet.",
+      "Reading safety instructions"
+    ],
+    [
+      "852-858",
+      "I check my smartphone and discuss the network connection.",
+      "Using smartphone after a network comment"
+    ],
+    [
+      "859-861",
+      "I inspect a magnetic cable connector.",
+      "Examining cable hardware"
+    ],
+    [
+      "862-879",
+      "I view cat cafe photos on my companion's phone.",
+      "Viewing media on companion's device"
+    ],
+    [
+      "880",
+      "I listen to the ferry safety announcement.",
+      "Interrupting safety broadcast"
+    ],
+    [
+      "881-910",
+      "I browse photos on my iPhone with my companion.",
+      "Browsing media on own device"
+    ],
+    [
+      "911-923",
+      "I watch a mountain lake travel video on my phone.",
+      "Watching video content"
+    ],
+    [
+      "924-935",
+      "I discuss filming the mountain lake video with my companion.",
+      "Conversation shifts to the video's production"
+    ],
+    [
+      "936-943",
+      "I adjust my phone settings and discuss mobile networks.",
+      "Adjusting device settings"
+    ],
+    [
+      "944-955",
+      "I queue in the cabin aisle to disembark the ferry.",
+      "Preparing to leave the ferry"
+    ],
+    [
+      "956-973",
+      "I collect my luggage and water from the ferry storage area.",
+      "Retrieving personal belongings"
+    ],
+    [
+      "974-984",
+      "I disembark the ferry and walk along the pier.",
+      "Walking off the ferry onto the pier"
+    ],
+    [
+      "985-989",
+      "I walk through the terminal corridor toward customs.",
+      "Walking inside the terminal"
+    ],
+    [
+      "990-999",
+      "I wait for the terminal elevator with my companion.",
+      "Waiting for elevator transport"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "944"
+    ],
+    "boundary_cautions": []
+  }
+}
+```

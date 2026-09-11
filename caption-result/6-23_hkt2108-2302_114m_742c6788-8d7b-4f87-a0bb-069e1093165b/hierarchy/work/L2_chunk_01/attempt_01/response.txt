@@ -1,0 +1,159 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous, related actions into immediate, unified tasks based on the primary goal being pursued, such as preparing/rolling dough, engaging in specific conversations, gathering water, or making environment checks. Concurrent conversations during manual tasks are merged into the manual task's goal. Brief, distinct interruptions (like retrieving the AC remote) form their own tasks.",
+  "events": [
+    [
+      "0-17",
+      "I prepare and roll dough wrappers using a glass bottle.",
+      "Finished rolling this initial batch of wrappers before briefly leaving the area."
+    ],
+    [
+      "18-20",
+      "I briefly enter the bedroom to press a key on my laptop.",
+      "Finished interacting with the laptop and returned to the dining area."
+    ],
+    [
+      "21-23",
+      "I visually inspect the air conditioner and the tables in the dining area.",
+      "Finished scanning the room before returning to food preparation."
+    ],
+    [
+      "24-38",
+      "I slice a dough log into multiple portions.",
+      "Finished cutting the dough and separating the pieces."
+    ],
+    [
+      "39-43",
+      "I advise my companion to remove their clothes to avoid getting flour on them while observing them roll dough.",
+      "Conversation about clothing concludes as I return to handling the dough."
+    ],
+    [
+      "44-47",
+      "I roll out dough pieces into wrappers.",
+      "Stopped rolling to watch my partner."
+    ],
+    [
+      "48-53",
+      "I watch my partner demonstrate how to roll dough to the correct thickness.",
+      "Demonstration ends and I decide to get water."
+    ],
+    [
+      "54-64",
+      "I pour water from an electric kettle into a glass mug while my companion discusses flattening dough.",
+      "Finished retrieving water and approached User B."
+    ],
+    [
+      "65-67",
+      "I suggest that User B try wrapping two spring roll skins.",
+      "Finished my suggestion and turned my attention to my other companion."
+    ],
+    [
+      "68-71",
+      "I watch my companion fill a pan with water and place it on the stove.",
+      "Finished watching the stove preparation and walked away."
+    ],
+    [
+      "72-79",
+      "I briefly survey the bedroom furniture and study desk.",
+      "Finished looking around the bedroom and returned to the kitchen area."
+    ],
+    [
+      "80-89",
+      "I coordinate rolling slightly thicker dough wrappers with User A in the kitchen.",
+      "Agreement on the dough thickness is reached and I resume rolling."
+    ],
+    [
+      "90-103",
+      "I roll dough wrappers and discuss using spring roll skins for pan-frying.",
+      "Stopped rolling dough to react to the uncomfortable heat."
+    ],
+    [
+      "104-107",
+      "I react to the intense heat from the air conditioner and walk toward the bedroom.",
+      "Arrived near the bedroom to find relief from the heat."
+    ],
+    [
+      "108-110",
+      "I discuss adding water to the flour while examining the food preparation table.",
+      "Shifted focus to asking for help finding the remote."
+    ],
+    [
+      "111-124",
+      "I search for and adjust the air conditioner remote in bedroom B to lower the temperature.",
+      "Successfully adjusted the AC and handed off the remote."
+    ],
+    [
+      "125-128",
+      "I roll and shape dough pieces while questioning User Y about lifting water.",
+      "Finished shaping the immediate piece and walked to the kitchen."
+    ],
+    [
+      "129-134",
+      "I discuss the tendency of spring roll skins to disintegrate when boiled with my companion.",
+      "Conversation about boiling skins concludes."
+    ],
+    [
+      "135-140",
+      "I shape and roll dough wrappers using a glass bottle.",
+      "Finished this set of rolling before initiating a new conversation topic."
+    ],
+    [
+      "141-151",
+      "I roll dough wrappers while discussing low-gluten flour and joking with my companion.",
+      "Finished joking about history and continued rolling."
+    ],
+    [
+      "152-164",
+      "I roll dough wrappers while recounting my father's past cooking habits.",
+      "Finished telling the story about my father."
+    ],
+    [
+      "165-177",
+      "I roll and stack dumpling wrappers while assuring my companion they will not break.",
+      "Finished assuring my companion and initiated a taste test."
+    ],
+    [
+      "178-185",
+      "I encourage a companion to taste the food and suggest adding chicken bouillon for flavor.",
+      "Finished the taste test suggestion and moved on to further discussion."
+    ],
+    [
+      "186-199",
+      "I debate adding chicken bouillon and other seasonings to the dumpling filling with my companions.",
+      "The debate over seasoning concludes with no additions being made."
+    ],
+    [
+      "200-204",
+      "I inspect a pan of water in the kitchen and the dumpling wrappers on the dining table.",
+      "Finished inspecting the items and resumed rolling dough."
+    ],
+    [
+      "205-229",
+      "I roll and stack multiple dumpling wrappers using a glass bottle.",
+      "Finished rolling all remaining wrappers."
+    ],
+    [
+      "230-236",
+      "I announce the completion of dough rolling and check on my companions in the kitchen.",
+      "Finished checking the kitchen and walked out."
+    ],
+    [
+      "237-241",
+      "I perform a quick inspection of the digital scale reading 65.0 kg and the food preparation area.",
+      "Finished the inspection and observed the filling."
+    ],
+    [
+      "242-249",
+      "I watch the dumpling filling being mixed and discuss its loose texture with User A.",
+      "End of the provided sequence."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,139 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous L1 action briefs into atomic immediate tasks based on shared unified objectives, locations, or conversation topics, abstracting incidental looks and micro-interactions.",
+  "events": [
+    [
+      "0-13",
+      "I observe the outside view from the atrium lounge windows.",
+      "Target shifts to indoor navigation"
+    ],
+    [
+      "14-17",
+      "I walk down the corridor to an open office.",
+      "Conversation begins"
+    ],
+    [
+      "18-24",
+      "I discuss the 650 cost laptop repair with a colleague.",
+      "Conversation ends"
+    ],
+    [
+      "25-27",
+      "I announce my intention to get a drink to the colleagues.",
+      "Departure to new location"
+    ],
+    [
+      "28-33",
+      "I walk to the pantry.",
+      "Arrival at target location"
+    ],
+    [
+      "34-41",
+      "I fill a glass bottle at the water dispenser.",
+      "Task shifts to inspection"
+    ],
+    [
+      "42-45",
+      "I inspect the pantry coffee machine and kitchen items.",
+      "Navigation begins"
+    ],
+    [
+      "46-50",
+      "I walk to the breakroom exit door.",
+      "Location change to stairwell"
+    ],
+    [
+      "51-59",
+      "I inspect the stairwell fire safety features.",
+      "Navigation to desk begins"
+    ],
+    [
+      "60-65",
+      "I navigate to workstation 13 in room C909.",
+      "Computer work begins"
+    ],
+    [
+      "66-72",
+      "I review MiraclePlus compute quota guidelines on my computer.",
+      "Topic shifts to evaluations"
+    ],
+    [
+      "73-81",
+      "I review ChatGPT habit evaluation reports for the Qwen3.5-4B model.",
+      "Application shifts to terminal"
+    ],
+    [
+      "82-88",
+      "I monitor remote server GPU metrics using nvidia-smi in the Terminal.",
+      "Location change"
+    ],
+    [
+      "89-94",
+      "I execute a terminal job command on my way to the elevator.",
+      "Elevator ride begins"
+    ],
+    [
+      "95-99",
+      "I ride the elevator with colleagues.",
+      "Navigation to conference room begins"
+    ],
+    [
+      "100-106",
+      "I navigate to conference room C514.",
+      "Arrival and setup begins"
+    ],
+    [
+      "107-113",
+      "I unpack my laptop equipment in the conference room.",
+      "Task shifts to connection setup"
+    ],
+    [
+      "114-127",
+      "I connect my MacBook to the network screencast dongle.",
+      "Document review begins"
+    ],
+    [
+      "128-136",
+      "I read Feishu research notes regarding LLM-judge reliability.",
+      "Verbal presentation starts"
+    ],
+    [
+      "137-147",
+      "I present July fine-tuning findings regarding multimodal damage.",
+      "Topic shifts to past image description examples"
+    ],
+    [
+      "148-162",
+      "I present examples of models describing past images instead of predicting actions.",
+      "Topic shifts to caption limits"
+    ],
+    [
+      "163-172",
+      "I explain text caption limitations using the Lucia cardboard dog example.",
+      "Topic shifts to visual failure"
+    ],
+    [
+      "173-186",
+      "I discuss the failure of models to utilize visual modality for action prediction.",
+      "Topic shifts to attention analysis"
+    ],
+    [
+      "187-199",
+      "I discuss visual token analysis using attention weights and gradient saliency maps.",
+      "Topic shifts to metrics review"
+    ],
+    [
+      "200-205",
+      "I review fine-tuning checkpoint metrics for data scaling.",
+      "End of sequence"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

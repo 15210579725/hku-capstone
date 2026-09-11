@@ -1,0 +1,74 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group actions into immediate tasks like waiting, browsing, collecting specific items, walking to the table, and returning the tray. Divide the continuous meal by distinct conversation topics.",
+  "events": [
+    [
+      "1500-1522",
+      "I converse with User X on a smartphone video call during my fried chicken snack at the cafeteria counter.",
+      "Ends call and lowers phone"
+    ],
+    [
+      "1523-1531",
+      "I observe the kitchen and dining hall during my wait at the cafeteria counter.",
+      "Turns to inspect shelves"
+    ],
+    [
+      "1532-1541",
+      "I request soup during my inspection of the cafeteria snack and drink shelves.",
+      "Walks toward the noodle counter"
+    ],
+    [
+      "1542-1568",
+      "I obtain garlic from the cafeteria staff at the noodle counter.",
+      "Turns to inspect food pans"
+    ],
+    [
+      "1569-1598",
+      "I collect a bowl of noodles and dumplings from the cafeteria counter.",
+      "Starts walking with food tray"
+    ],
+    [
+      "1599-1605",
+      "I carry my meal tray to the window seating area to join my companions.",
+      "Places meal tray on table"
+    ],
+    [
+      "1606-1638",
+      "I consume dumplings with garlic during a conversation with my companions.",
+      "Topic shifts to depression data"
+    ],
+    [
+      "1639-1661",
+      "I discuss depression data with my companions over a dumpling meal.",
+      "Topic shifts to world models and labeling"
+    ],
+    [
+      "1662-1703",
+      "I discuss data labeling and future plans with my companions over a meal of fried chicken and dumplings.",
+      "Topic shifts to video labeling models"
+    ],
+    [
+      "1704-1736",
+      "I listen to my companions discuss video labeling models during the remainder of our meal.",
+      "Finishes eating and grabs jacket"
+    ],
+    [
+      "1737-1744",
+      "I return my meal tray to the cafeteria conveyor belt.",
+      "Places tray on belt"
+    ],
+    [
+      "1745-1749",
+      "I search for napkins in the cafeteria.",
+      "End of input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

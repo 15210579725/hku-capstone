@@ -1,0 +1,141 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group consecutive brief actions into immediate tasks such as selecting specific grocery items, checking out, and navigating between discrete locations. A major behavioral trigger (a bathroom emergency) is isolated as it immediately redirects the path.",
+  "events": [
+    [
+      "250-252",
+      "I select a package of mini cucumbers.",
+      "Selecting specific produce is a distinct retrieval task."
+    ],
+    [
+      "253-257",
+      "I scan the produce cooler shelves.",
+      "Walking to and visually scanning a new shelf area is a distinct transitional task."
+    ],
+    [
+      "258-261",
+      "I select packaged eggplants from the refrigerated display.",
+      "Selecting eggplants is a specific retrieval task."
+    ],
+    [
+      "262-267",
+      "I select a bag of tomatoes from the produce shelves.",
+      "The incidental stomach complaint occurs concurrently with retrieving tomatoes without altering the shopping plan."
+    ],
+    [
+      "268-273",
+      "I select a bunch of ripe bananas from the display.",
+      "Selecting bananas is a specific retrieval task."
+    ],
+    [
+      "274-281",
+      "I price the bananas at the self-service scale.",
+      "Weighing and labeling produce is a distinct preparatory task for checkout."
+    ],
+    [
+      "282",
+      "I pick up a white envelope from the floor.",
+      "Brief, independent opportunistic action."
+    ],
+    [
+      "283-286",
+      "I select a loaf of Garden sandwich bread from the shelves.",
+      "Selecting bread is the final item retrieval task."
+    ],
+    [
+      "287-290",
+      "I navigate through the aisles to the self-checkout stations.",
+      "Navigating to the checkout area is a distinct transitional task."
+    ],
+    [
+      "291-297",
+      "I scan my groceries at the self-checkout kiosk.",
+      "Scanning items is a unified task at the self-checkout."
+    ],
+    [
+      "298-304",
+      "I pay for my groceries using an Alipay QR code.",
+      "Executing payment and collecting the receipt forms the transaction phase."
+    ],
+    [
+      "305-309",
+      "I request a shopping bag from the cashier.",
+      "Interacting with the cashier for a bag is separate from the self-checkout payment."
+    ],
+    [
+      "310-314",
+      "I pack my groceries into the shopping bag.",
+      "Packing items and returning the basket concludes the checkout process."
+    ],
+    [
+      "315-318",
+      "I begin walking down the street from the supermarket.",
+      "Exiting the store and beginning the walk home is a navigational task."
+    ],
+    [
+      "319",
+      "I urgently express the need to defecate due to severe stomach pain.",
+      "A major trigger that immediately halts the walk home and redirects me to find a restroom."
+    ],
+    [
+      "320-323",
+      "I approach the Municipal Services Building elevator bank.",
+      "Entering the building to find a restroom is an immediate navigational task."
+    ],
+    [
+      "324-328",
+      "I message babe on WeChat about travel plans.",
+      "Messaging on the phone is a distinct task performed while waiting."
+    ],
+    [
+      "329-332",
+      "I ride the elevator to the second floor.",
+      "Riding the elevator is a distinct transport task."
+    ],
+    [
+      "333-337",
+      "I message babe on WeChat about my stomach emergency.",
+      "Sending text updates about the emergency is a focused phone task."
+    ],
+    [
+      "338-341",
+      "I observe the restaurant menus on the second floor.",
+      "Navigating the second floor and looking at menus is an immediate task."
+    ],
+    [
+      "342-346",
+      "I exit the market dining hall onto the street.",
+      "Leaving the building to resume the trip home is a transitional task."
+    ],
+    [
+      "347-353",
+      "I walk rapidly along the street toward my residential building.",
+      "Walking down the street is a continuous navigational task."
+    ],
+    [
+      "354-361",
+      "I navigate into my apartment building lobby.",
+      "Entering the residential complex is the final exterior navigational task."
+    ],
+    [
+      "362-371",
+      "I ride the elevator to the 15th floor.",
+      "Taking the elevator is a distinct transport task."
+    ],
+    [
+      "372-375",
+      "I enter my apartment in severe stomach pain.",
+      "Entering the home and dropping items is the arrival task."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      319
+    ],
+    "boundary_cautions": []
+  }
+}
+```

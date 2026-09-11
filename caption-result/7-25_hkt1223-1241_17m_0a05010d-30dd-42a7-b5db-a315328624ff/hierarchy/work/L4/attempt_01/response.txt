@@ -1,0 +1,36 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group L3 episodes into broader logical phases: exploring and purchasing a snack, navigating mall facilities, an independent messaging task, and coordinating restaurant arrival.",
+  "events": [
+    [
+      "0-1",
+      "I explore the mall's food offerings to purchase a cheese brick pastry from the DUSU bakery.",
+      "Menu browsing and pastry acquisition form a unified shopping phase"
+    ],
+    [
+      "2-3",
+      "I navigate the mall to access a handwashing restroom and the upper cinema level.",
+      "Finding hygiene facilities and transiting to the cinema level form a unified navigation phase"
+    ],
+    [
+      "4",
+      "I message a car rental service on WeChat regarding a vehicle delivery.",
+      "Messaging about a rental vehicle is a distinct independent communication task"
+    ],
+    [
+      "5-6",
+      "I secure a restaurant table and restroom directions.",
+      "Waiting for seating and obtaining directions form a unified restaurant arrival phase"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      4
+    ],
+    "boundary_cautions": []
+  }
+}
+```

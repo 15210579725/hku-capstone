@@ -1,0 +1,81 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions with a single immediate objective, abstracting keystrokes, reading, and micro-navigation into cohesive tasks like drafting specific prompts, querying ChatGPT for formats, or transiting between distinct locations.",
+  "events": [
+    [
+      "0-3",
+      "I walk to my desk in room C910.",
+      "Arrives at the desk and begins working on the laptop"
+    ],
+    [
+      "4-39",
+      "I draft the SYSTEM_PRED_HORIZON prompt guidelines in Visual Studio Code.",
+      "Switches to ChatGPT to generate a structured format for the drafted prompt"
+    ],
+    [
+      "40-59",
+      "I instruct ChatGPT to format the prediction prompt into a JSON schema.",
+      "Begins reviewing and integrating the generated JSON output"
+    ],
+    [
+      "60-94",
+      "I transfer the JSON prediction rules to run_eval.py in Visual Studio Code.",
+      "Abandons the JSON format and requests a plain text alternative"
+    ],
+    [
+      "95-108",
+      "I instruct ChatGPT to change the prediction output format from JSON to plain text.",
+      "Switches back to Visual Studio Code to apply the new plain text format"
+    ],
+    [
+      "109-131",
+      "I format the plain text prediction template in Visual Studio Code.",
+      "Shifts focus from formatting the template to modifying the logical rules"
+    ],
+    [
+      "132-155",
+      "I modify the numbered prediction rules in Visual Studio Code.",
+      "Begins reviewing evaluation scripts to test the updated rules"
+    ],
+    [
+      "156-179",
+      "I prepare a prediction test on the lucia day5 sample data using ChatGPT and Visual Studio Code.",
+      "Major trigger: Decides to stop working and leave the office to get food"
+    ],
+    [
+      "180-185",
+      "I leave the office to go get food.",
+      "Arrives at the elevator lobby to wait for transport"
+    ],
+    [
+      "186-197",
+      "I ride the elevator down to the B1 floor with my companion.",
+      "Exits the elevator into the parking garage"
+    ],
+    [
+      "198-217",
+      "I walk through the underground parking garage with my companion.",
+      "Exits the parking garage and enters the building entrance lobby"
+    ],
+    [
+      "218-228",
+      "I walk through the building lobby to the cafeteria with my companion.",
+      "Enters the cafeteria to begin selecting food"
+    ],
+    [
+      "229-249",
+      "I browse food options in the cafeteria with my companion.",
+      "End of provided events"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "180: The verbal realization and decision to leave the office for food is a major trigger starting a new independent plan."
+    ],
+    "boundary_cautions": []
+  }
+}
+```

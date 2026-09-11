@@ -1,0 +1,89 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions sharing immediate goals: riding to destination, checking phone navigation, walking to mall, searching map, navigating to bar, seating, ordering/server interactions, and successive distinct conversation topics in the bar.",
+  "events": [
+    [
+      "750-762",
+      "I ride my scooter to a stop by parked scooters.",
+      "Scooter ride concludes"
+    ],
+    [
+      "763-770",
+      "I check map navigation and the electric scooter mini-program on my smartphone.",
+      "Finished checking phone, starts walking"
+    ],
+    [
+      "771-781",
+      "I walk to the shopping mall while checking map navigation and WeChat on my smartphone.",
+      "Enters the shopping mall"
+    ],
+    [
+      "782-788",
+      "I search for the Wind Down bar location on my smartphone map.",
+      "Map search completes, resumes walking"
+    ],
+    [
+      "789-819",
+      "I walk through the shopping mall and along the street to the Wind Down bar.",
+      "Arrives at the bar and enters"
+    ],
+    [
+      "820-823",
+      "I discuss Open IE with my friends at a booth in the bar.",
+      "Server approaches to take snack order"
+    ],
+    [
+      "824-831",
+      "I prepare to scan the tabletop code while my companions discuss snacks with the server.",
+      "Snack ordering concludes"
+    ],
+    [
+      "832-834",
+      "I listen to my companions' technical discussion about IE, IR, and NER.",
+      "Picks up phone to place drink order"
+    ],
+    [
+      "835-859",
+      "I order drinks on Alipay while my friends discuss knowledge graphs.",
+      "Drink order submitted, conversation shifts to Hong Kong"
+    ],
+    [
+      "860-891",
+      "I chat with my friends about studying and playing in Hong Kong.",
+      "Conversation shifts to drink options and entertainment"
+    ],
+    [
+      "892-897",
+      "I discuss drink options and entertainment with my friends.",
+      "Conversation shifts to server GPU cards"
+    ],
+    [
+      "898-927",
+      "I discuss server GPU cards and potential disciplinary action with my friends while receiving my beer.",
+      "Conversation shifts to the cocktail menu"
+    ],
+    [
+      "928-940",
+      "I discuss cocktail options and prices with my friends.",
+      "Conversation shifts back to the server bug exploit"
+    ],
+    [
+      "941-961",
+      "I explain to my friends how I exploited a server bug to access more GPU cards.",
+      "Conversation shifts to specific Nvidia GPU models"
+    ],
+    [
+      "962-999",
+      "I discuss Nvidia GPU models and lab hardware with my friends while eating snacks.",
+      "End of input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

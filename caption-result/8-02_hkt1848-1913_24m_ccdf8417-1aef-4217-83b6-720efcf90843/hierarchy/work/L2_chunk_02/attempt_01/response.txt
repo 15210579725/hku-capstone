@@ -1,0 +1,39 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks focused on laundry management, observing the environment, and resting in the room.",
+  "events": [
+    [
+      "250-251",
+      "I collect the laundry.",
+      "Task shifts to observing the room"
+    ],
+    [
+      "252-259",
+      "I survey the dark room and the view outside.",
+      "Task shifts to managing remaining laundry"
+    ],
+    [
+      "260-264",
+      "I adjust laundry on the balcony rack.",
+      "Task shifts to sitting down"
+    ],
+    [
+      "265-267",
+      "I sit in the dark room.",
+      "Task shifts to checking the phone"
+    ],
+    [
+      "268-271",
+      "I observe my phone and the surrounding view.",
+      "End of recording"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

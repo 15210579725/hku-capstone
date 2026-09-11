@@ -1,0 +1,30 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Merge eligible pairs that represent continuous interaction with the exact same artifact or interface across the batch edge. Leave pairs unmerged if they transition between distinct applications (e.g., ChatGPT to Figma) or distinct logical steps (e.g., importing an asset vs. reviewing it).",
+  "merges": [
+    [
+      9,
+      10,
+      "I style and inspect the visionOS timeline graphic in Figma.",
+      "Continuous work on the same Figma timeline graphic across batch edge"
+    ],
+    [
+      56,
+      57,
+      "I review and edit a document in the code editor.",
+      "Continuous document evaluation and editing across batch edge"
+    ],
+    [
+      111,
+      112,
+      "I examine the ChatGPT gradient preview diagrams and design download options.",
+      "Continuous evaluation of the same ChatGPT design outputs across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

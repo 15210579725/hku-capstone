@@ -1,0 +1,164 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group sequential L1 briefs into immediate tasks based on continuous navigation phases, distinct checkpoint clearances (immigration, customs), escalator rides, and focused interactions (saying goodbye, parting).",
+  "events": [
+    [
+      "1000-1011",
+      "I wait in my ferry seat and listen to the arrival announcement.",
+      "Ferry docking begins"
+    ],
+    [
+      "1012-1018",
+      "I watch the ferry dock at the terminal pier.",
+      "Starts getting up to disembark"
+    ],
+    [
+      "1019-1031",
+      "I retrieve my luggage and queue in the ferry aisle.",
+      "Starts exiting the ferry"
+    ],
+    [
+      "1032-1043",
+      "I disembark the ferry onto the arrival pier.",
+      "Pauses to converse on the pier"
+    ],
+    [
+      "1044-1047",
+      "I converse with my companion and look at the docked ferry.",
+      "Starts walking into the terminal building"
+    ],
+    [
+      "1048-1053",
+      "I enter the terminal atrium.",
+      "Reaches the escalators"
+    ],
+    [
+      "1054-1062",
+      "I ride the escalators up toward the Arrival Hall.",
+      "Steps off the escalator into the corridor"
+    ],
+    [
+      "1063-1078",
+      "I walk along the terminal corridor and converse with my companion.",
+      "Conversation pauses, starts looking at surroundings"
+    ],
+    [
+      "1079-1085",
+      "I look around the harbour and terminal while walking.",
+      "Enters the skybridge corridor"
+    ],
+    [
+      "1086-1092",
+      "I walk along the skybridge corridor toward immigration control.",
+      "Arrives at the immigration hall"
+    ],
+    [
+      "1093-1096",
+      "I observe the immigration arrival hall queues.",
+      "Starts the e-Channel clearance process"
+    ],
+    [
+      "1097-1108",
+      "I pass through the e-Channel immigration gate using my smartphone.",
+      "Clears immigration and heads to customs"
+    ],
+    [
+      "1109-1120",
+      "I walk through the customs and temperature check area.",
+      "Clears customs and enters the exit corridor"
+    ],
+    [
+      "1121-1127",
+      "I walk down the exit corridor and talk with my companion.",
+      "Enters the pedestrian skybridge walkway"
+    ],
+    [
+      "1128-1141",
+      "I walk along the pedestrian skybridge into the terminal concourse.",
+      "Reaches the downward escalator"
+    ],
+    [
+      "1142-1147",
+      "I ride the downward escalator to the mall atrium.",
+      "Steps off the escalator into the concourse"
+    ],
+    [
+      "1148-1158",
+      "I walk along the concourse and observe the storefronts.",
+      "Reaches the next downward escalator"
+    ],
+    [
+      "1159-1165",
+      "I ride the downward escalator to the lower atrium.",
+      "Steps off the escalator"
+    ],
+    [
+      "1166-1169",
+      "I walk across the concourse past the decorative partitions.",
+      "Reaches the next downward escalator"
+    ],
+    [
+      "1170-1175",
+      "I ride the downward escalator.",
+      "Steps off the escalator"
+    ],
+    [
+      "1176-1184",
+      "I walk toward and ride the downward escalator to the lower concourse.",
+      "Steps off the escalator"
+    ],
+    [
+      "1185-1187",
+      "I cross the concourse and ride the next downward escalator.",
+      "Enters the underground passageway"
+    ],
+    [
+      "1188-1193",
+      "I walk into the underground passageway.",
+      "Stops to look at wall advertisements"
+    ],
+    [
+      "1194-1199",
+      "I observe the corridor advertisements and converse with my companion.",
+      "Resumes walking toward the station concourse"
+    ],
+    [
+      "1200-1210",
+      "I walk along the station concourse toward the ticket gates.",
+      "Reaches the turnstile gates"
+    ],
+    [
+      "1211-1213",
+      "I pass through the turnstile gate using my smartphone.",
+      "Starts exchanging items before parting"
+    ],
+    [
+      "1214-1226",
+      "I exchange items with my companion and say goodbye.",
+      "Parts ways and walks to the elevator lobby"
+    ],
+    [
+      "1227-1234",
+      "I wait for the elevator at the lobby.",
+      "Enters the elevator cabin"
+    ],
+    [
+      "1235-1244",
+      "I ride the elevator down to L5.",
+      "Exits the elevator"
+    ],
+    [
+      "1245-1249",
+      "I walk to Platform 2 and board the train.",
+      "End of supplied sequence"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

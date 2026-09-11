@@ -1,0 +1,76 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions related to a single immediate task or goal, such as reading specific documentation, configuring a model, or filling a water bottle. Abstract away minor steps like specific clicks, trackpad usage, and intermediate walking steps into the main immediate objective.",
+  "events": [
+    [
+      "1000",
+      "I adjust a white disc.",
+      "Action completed"
+    ],
+    [
+      "1001-1003",
+      "I read the ChatGPT Codex API migration steps in the terminal.",
+      "Interrupted by adjusting glasses"
+    ],
+    [
+      "1004",
+      "I adjust my smart glasses.",
+      "Action completed"
+    ],
+    [
+      "1005-1013",
+      "I navigate my computer settings to review API import shortcuts and account usage limits.",
+      "Shift from settings navigation to model configuration"
+    ],
+    [
+      "1014-1018",
+      "I select the 5.6 Sol model with medium reasoning effort for ChatGPT Codex.",
+      "Shift from model configuration to reading a guide"
+    ],
+    [
+      "1019-1020",
+      "I read the '迁移 API 对话' migration guide regarding the 'codex fork --all' command.",
+      "Shift from computer screen to a physical cable"
+    ],
+    [
+      "1021",
+      "I untangle a magnetic charging cable.",
+      "Cable untangled; shift back to computer screen"
+    ],
+    [
+      "1022-1025",
+      "I review terminal logs and ChatGPT Codex migration instructions.",
+      "Shift from computer screen to plugging in devices"
+    ],
+    [
+      "1026-1028",
+      "I connect my phone to my MacBook using a magnetic charging cable.",
+      "Devices plugged in; shift to getting water"
+    ],
+    [
+      "1029-1034",
+      "I walk to the water dispenser with my water bottle.",
+      "Arrived at water dispenser"
+    ],
+    [
+      "1035-1043",
+      "I fill my bottle with warm water at the water dispenser.",
+      "Finished dispensing water; starts walking back"
+    ],
+    [
+      "1044-1049",
+      "I walk through the office corridors carrying my water bottle.",
+      "End of batch"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "1029"
+    ],
+    "boundary_cautions": []
+  }
+}
+```

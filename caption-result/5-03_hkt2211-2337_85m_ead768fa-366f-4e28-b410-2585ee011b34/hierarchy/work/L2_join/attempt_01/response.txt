@@ -1,0 +1,18 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate pairs for continuous same immediate tasks. 36/37 changes conversation topics. 61/62 changes location and action from indoor lobby navigation to outdoor walking and conversing. 80/81 continues the same biology reading activity.",
+  "merges": [
+    [
+      80,
+      81,
+      "I read cell biology articles on WeChat Read.",
+      "Same reading activity continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

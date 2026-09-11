@@ -1,0 +1,119 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks based on interactions with specific product categories, displays, or smartphone apps. Boundaries are established when the camera wearer shifts their primary target, such as moving to a new section, switching between distinct product types, or interrupting physical browsing to use a smartphone.",
+  "events": [
+    [
+      "250-252",
+      "I browse the toothpaste shelf.",
+      "Target changes to skincare products"
+    ],
+    [
+      "253-259",
+      "I browse the skincare and personal care shelves.",
+      "Returns to oral care aisle"
+    ],
+    [
+      "260-277",
+      "I browse oral care products including toothpastes and electric toothbrushes.",
+      "Leaves oral care section to browse snacks"
+    ],
+    [
+      "278-287",
+      "I browse children's biscuits on the snack shelves.",
+      "Goal shifts to inspecting a specific item with a magnifying glass"
+    ],
+    [
+      "288-293",
+      "I inspect Oreo packaging using a shelf magnifying glass.",
+      "Goal shifts to answering a smartphone call"
+    ],
+    [
+      "294-304",
+      "I communicate with babe via phone call and WeChat.",
+      "Phone usage ends, resumes physical browsing"
+    ],
+    [
+      "305-312",
+      "I inspect marshmallow candies.",
+      "Goal shifts to checking the smartphone weather app"
+    ],
+    [
+      "313-317",
+      "I check the precipitation forecast on the Weather app.",
+      "App usage ends, resumes browsing drinks"
+    ],
+    [
+      "318-324",
+      "I browse bottled juices and carbonated drinks.",
+      "Leaves drink aisle to search for fast food"
+    ],
+    [
+      "325-335",
+      "I walk down the main grocery aisle in search of fast food.",
+      "Reaches seafood section and stops to watch prawns"
+    ],
+    [
+      "336-376",
+      "I interact with live prawns in the seafood tank.",
+      "Shifts attention to crabs and lobsters"
+    ],
+    [
+      "377-399",
+      "I examine live crabs and lobsters in the display aquariums.",
+      "Shifts attention to clams and crayfish"
+    ],
+    [
+      "400-408",
+      "I observe live clams and crayfish in the seafood tanks.",
+      "Leaves live seafood to browse refrigerated fruit"
+    ],
+    [
+      "409-431",
+      "I browse refrigerated cut fruit and Sunshine Rose grapes.",
+      "Leaves fruit section to approach the deli counter"
+    ],
+    [
+      "432-441",
+      "I inspect sandwiches and roast poultry at the deli counter.",
+      "Shifts attention to the sushi counter"
+    ],
+    [
+      "442-451",
+      "I browse sushi platters and packaged salmon fillets.",
+      "Interrupts browsing to discuss finding grandmother"
+    ],
+    [
+      "452-454",
+      "I direct my companion to look for our grandmother.",
+      "Conversation ends, resumes browsing food"
+    ],
+    [
+      "455-473",
+      "I browse cold deli dishes and salads.",
+      "Returns attention back to sushi and salmon"
+    ],
+    [
+      "474-479",
+      "I inspect packaged salmon sashimi and sushi.",
+      "Shifts attention to fried foods and packaged snacks"
+    ],
+    [
+      "480-495",
+      "I browse fried foods and packaged deli snacks.",
+      "Stops browsing to check smartphone"
+    ],
+    [
+      "496-499",
+      "I read WeChat messages from babe.",
+      "End of batch"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

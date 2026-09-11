@@ -1,0 +1,57 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group L3 episodes into broader L4 phases based on major overarching goals such as taking a photographic tour of attractions, visiting animal enclosures, observing evening performances, managing medical emergencies, and executing the return journey to the hotel.",
+  "events": [
+    [
+      "0-6",
+      "I conduct a photographic tour of the theme park attractions with my companion.",
+      "Shift from a photographic tour of attractions to navigating towards specific shops and animal enclosures."
+    ],
+    [
+      "7-11",
+      "I visit a store and the animal enclosures during my navigation of the theme park.",
+      "Shift from visiting enclosures to observing scheduled plaza performances."
+    ],
+    [
+      "12-13",
+      "I observe the illuminated fountain and parade displays in the Music Plaza.",
+      "Shift from watching entertainment to managing a sudden medical situation for my companion."
+    ],
+    [
+      "14-16",
+      "I seek a hot coffee and medical assistance for my companion's severe menstrual cramps.",
+      "Shift from providing medical assistance to watching a scheduled show."
+    ],
+    [
+      "17",
+      "I watch the drone and fireworks show.",
+      "Shift from watching the show to managing an escalation in severe physical illness and packing."
+    ],
+    [
+      "18-20",
+      "I organize my belongings and an order for Ibuprofen and medical supplies to leave the seating area due to our severe stomach pain.",
+      "Shift from packing and ordering supplies to physically exiting the park to find transportation."
+    ],
+    [
+      "21-22",
+      "I exit the theme park to locate my dispatched ride-hailing car at the pickup area.",
+      "Shift from locating the vehicle to traveling in it and returning to the hotel."
+    ],
+    [
+      "23-25",
+      "I travel in a ride-hailing car to my hotel room to review my delivered medication.",
+      "End of recording."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      14,
+      18
+    ],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,84 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group sequential action briefs into immediate tasks driven by a unified objective, such as navigating a specific segment, completing a targeted interaction, or sustaining a primary conversation topic. Ensure distinct goals like searching for a restroom or assisting with a purchase are isolated, even if brief.",
+  "events": [
+    [
+      "3000-3017",
+      "I converse with my companion regarding our school gyms.",
+      "Conversation topic naturally groups these walking moments."
+    ],
+    [
+      "3018-3041",
+      "I walk toward the Wellcome supermarket.",
+      "Walks to the supermarket after stating the intent to buy a banana."
+    ],
+    [
+      "3042-3061",
+      "I select bananas inside the supermarket.",
+      "Focus shifts from selecting bananas to heading to checkout."
+    ],
+    [
+      "3062-3063",
+      "I wait in the checkout queue.",
+      "Leaves the checkout line to look at personal care items."
+    ],
+    [
+      "3064-3086",
+      "I assist my companion in selecting toothpaste.",
+      "Finishes selecting toothpaste and returns to the cashier."
+    ],
+    [
+      "3087-3096",
+      "I purchase the items using Alipay.",
+      "Transaction is complete and leaves the supermarket."
+    ],
+    [
+      "3097-3106",
+      "I walk to the building elevators.",
+      "Enters the elevator."
+    ],
+    [
+      "3107-3114",
+      "I peel a banana inside the elevator.",
+      "Exits the elevator at the second floor."
+    ],
+    [
+      "3115-3129",
+      "I walk through the food centre.",
+      "Exits the food centre onto the street."
+    ],
+    [
+      "3130-3141",
+      "I discuss medical topics with my companion.",
+      "Conversation shifts as I urgently need the toilet."
+    ],
+    [
+      "3142-3150",
+      "I search for a public restroom.",
+      "Gives up on the public restroom because it is closed."
+    ],
+    [
+      "3151-3169",
+      "I walk uphill toward my apartment building.",
+      "Arrives at the apartment building gate."
+    ],
+    [
+      "3170-3184",
+      "I ride the elevator in my apartment building.",
+      "End of the provided data."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "Abandoning the checkout queue at 3063 to look for personal care items.",
+      "Urgently needing a restroom at 3143 redirecting the walk."
+    ],
+    "boundary_cautions": [
+      "Splitting the checkout process because the queue wait is interrupted by an extended toothpaste selection task."
+    ]
+  }
+}
+```

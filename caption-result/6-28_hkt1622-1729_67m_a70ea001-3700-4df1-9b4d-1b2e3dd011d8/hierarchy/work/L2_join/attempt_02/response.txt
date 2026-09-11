@@ -1,0 +1,18 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible pairs to determine if they represent the exact same continuous immediate task cut by a batch boundary. Pair [68, 69] is merged because entering and riding the elevator is a single continuous task. Pairs [14, 15] and [40, 41] represent distinct consecutive tasks (configuring vs. checking, and turning vs. waiting) and are not merged.",
+  "merges": [
+    [
+      68,
+      69,
+      "I ride the guesthouse elevator with my luggage and companion.",
+      "Entering and riding the elevator constitutes a single continuous immediate task across the boundary"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

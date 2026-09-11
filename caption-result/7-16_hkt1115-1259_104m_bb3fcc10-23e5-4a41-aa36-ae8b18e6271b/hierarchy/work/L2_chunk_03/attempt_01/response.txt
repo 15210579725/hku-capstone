@@ -1,0 +1,96 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group immediate tasks by cafeteria navigation, food selection, payment, seating, distinct conversational topics focused on different meal components, the departure trigger, and subsequent post-meal actions.",
+  "events": [
+    [
+      "500-508",
+      "I select bowls of green peppers and 咸肉菜饭 at the cafeteria counter.",
+      "Food selection complete"
+    ],
+    [
+      "509-514",
+      "I navigate along the cafeteria service line to the checkout counter.",
+      "Arrival at checkout counter"
+    ],
+    [
+      "515-522",
+      "I pay for my meal using a QR code on my smartphone.",
+      "Payment successful"
+    ],
+    [
+      "523-530",
+      "I carry my meal tray to a table in the dining area.",
+      "Seated at dining table"
+    ],
+    [
+      "531-554",
+      "I eat my meal while conversing with my companions about online videos and past academic experiences.",
+      "Conversation shifts to coding and AI conference"
+    ],
+    [
+      "555-582",
+      "I eat the braised fish while discussing coding and the World AI Conference.",
+      "Conversation shifts to competition alt accounts"
+    ],
+    [
+      "583-648",
+      "I eat the braised fish while discussing competition rankings and tracking alternative accounts.",
+      "Focus shifts to remaining fish skeleton"
+    ],
+    [
+      "649-665",
+      "I pick meat from the remaining fish skeleton.",
+      "Focus shifts to eating fried rice"
+    ],
+    [
+      "666-688",
+      "I eat fried rice while conversing about a water bomb video and its prices.",
+      "Conversation shifts to colleagues discussing work assignments"
+    ],
+    [
+      "689-714",
+      "I eat seasoned rice and drink soup while listening to my colleagues discuss work assignments.",
+      "Companion initiates departure"
+    ],
+    [
+      "715-718",
+      "I agree with my companion to leave the dining table.",
+      "Departure trigger complete"
+    ],
+    [
+      "719-725",
+      "I return my meal tray and chopsticks at the dish return station.",
+      "Tray return complete"
+    ],
+    [
+      "726-728",
+      "I retrieve a napkin from the condiment station.",
+      "Napkin retrieved"
+    ],
+    [
+      "729-731",
+      "I ask my friends about their accommodation plans.",
+      "Question concluded"
+    ],
+    [
+      "732-742",
+      "I walk through the cafeteria lounge areas.",
+      "Switches to using smartphone"
+    ],
+    [
+      "743-749",
+      "I review a payment and a WeChat chat on my smartphone.",
+      "Ongoing smartphone use"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "715-718"
+    ],
+    "boundary_cautions": []
+  }
+}
+```

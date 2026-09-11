@@ -1,0 +1,129 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group L1 briefs into distinct immediate tasks, focusing on primary locations, specific conversational topics, and individual transactions while abstracting minor incidental movements.",
+  "events": [
+    [
+      "500-504",
+      "I walk along the corridor with my companion.",
+      "Boarding the escalator"
+    ],
+    [
+      "505-509",
+      "I ride the downward escalator.",
+      "Exiting the escalator to enter the concourse"
+    ],
+    [
+      "510-522",
+      "I discuss a customer support refund issue with my companion in the concourse.",
+      "Conversation topic shifts towards software workarounds"
+    ],
+    [
+      "523-539",
+      "I discuss software account solutions with my companion.",
+      "Boarding the next escalator"
+    ],
+    [
+      "540-545",
+      "I converse with my companion on the descending escalator.",
+      "Exiting the escalator to enter the station corridor"
+    ],
+    [
+      "546-561",
+      "I discuss apartment rental budgets with my companion.",
+      "Stopping at the street crossing"
+    ],
+    [
+      "562-571",
+      "I evaluate rental options with my companion at the street crossing.",
+      "Resuming walking along the outdoor walkway"
+    ],
+    [
+      "572-588",
+      "I walk along the pedestrian walkway.",
+      "Approaching a specific store to browse"
+    ],
+    [
+      "589-592",
+      "I browse the fruit store display.",
+      "Moving on to discuss a new item"
+    ],
+    [
+      "593-599",
+      "I offer to pay for my companion's item.",
+      "Focus shifts to the produce stall"
+    ],
+    [
+      "600-605",
+      "I approach the produce stall to make a purchase.",
+      "Initiating interaction with the vendor"
+    ],
+    [
+      "606-624",
+      "I purchase cucumbers from the produce stall.",
+      "Leaving the stall after completing the transaction"
+    ],
+    [
+      "625-631",
+      "I discuss market prices with my companion.",
+      "Entering the wet market"
+    ],
+    [
+      "632-641",
+      "I search for minced pork inside the wet market.",
+      "Arriving at the butcher counter"
+    ],
+    [
+      "642-678",
+      "I purchase pork from the butcher stall.",
+      "Leaving the butcher stall with the purchase"
+    ],
+    [
+      "679-684",
+      "I exit the wet market.",
+      "Reaching the outdoor pathway"
+    ],
+    [
+      "685-693",
+      "I walk along the outdoor pedestrian pathway.",
+      "Starting a new conversation topic"
+    ],
+    [
+      "694-699",
+      "I discuss purchasing dumpling wrappers with my companion.",
+      "Re-entering the wet market"
+    ],
+    [
+      "700-703",
+      "I re-enter the wet market to find dumpling wrappers.",
+      "Approaching a vendor"
+    ],
+    [
+      "704-713",
+      "I inquire about dumpling wrappers at a stall.",
+      "Moving to check another stall based on suggestion"
+    ],
+    [
+      "714-726",
+      "I check the tofu stall for dumpling wrappers.",
+      "Giving up the search and heading to the exit"
+    ],
+    [
+      "727-730",
+      "I exit the wet market.",
+      "Reaching the outdoor sidewalk"
+    ],
+    [
+      "731-749",
+      "I navigate the sidewalk towards the road crossing.",
+      "Arrival at the crossing"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

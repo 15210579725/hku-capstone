@@ -1,0 +1,36 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible pairs to determine if they represent the same immediate task interrupted only by a batch boundary. Pair 22-23 continues reading the same Chinese railway history chapter in 《历史的温度 8》. Pair 36-37 continues reading the exact same '广东寻宝记' comic book. Pair 47-48 continues reading the novel 《长安的荔枝》. Pair 63-64 continues reading AI-related posts on a smartphone. All four eligible pairs qualify for merging.",
+  "merges": [
+    [
+      22,
+      23,
+      "I ask my companion where she is going, then resume reading the Chinese railway history chapter in 《历史的温度 8》.",
+      "Same reading task continues across batch edge"
+    ],
+    [
+      36,
+      37,
+      "I read the '广东寻宝记' comic book about an archaeology summer camp and dinosaur fossils.",
+      "Same comic book reading continues across batch edge"
+    ],
+    [
+      47,
+      48,
+      "I read Ma Boyong's novel 《长安的荔枝》.",
+      "Same novel reading continues across batch edge"
+    ],
+    [
+      63,
+      64,
+      "I read articles and X posts about AI technologies on my smartphone, including a post about a CS2 AI coach.",
+      "Same smartphone browsing task continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

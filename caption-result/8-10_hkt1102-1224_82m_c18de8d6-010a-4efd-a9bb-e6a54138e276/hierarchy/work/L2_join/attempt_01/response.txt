@@ -1,0 +1,18 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate the eligible boundary pairs to determine if they split the same immediate task. Pair [36, 37] represents continuous work on a single PhD inquiry email draft (inserting diagrams, editing, and scheduling) that was split by the batch boundary; they will be merged. Pair [44, 45] shifts from reviewing an email draft to researching a paper on ChatGPT, which are distinct immediate tasks. Pair [55, 56] shifts from a continuous eating action to a specific inspection of food dishes, which are separate immediate actions at the L2 granularity. Therefore, only [36, 37] is merged.",
+  "merges": [
+    [
+      36,
+      37,
+      "I insert research diagrams, edit, and schedule a PhD inquiry email draft.",
+      "Same email drafting task continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

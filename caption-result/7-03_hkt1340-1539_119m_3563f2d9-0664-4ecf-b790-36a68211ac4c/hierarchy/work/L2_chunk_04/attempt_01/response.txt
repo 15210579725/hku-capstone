@@ -1,0 +1,131 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks, ensuring each description has one unified objective without listing consecutive steps. Abstract minor repositioning, waiting, and brief interactions into their overarching immediate goal. Highlight behavior-changing triggers, such as deciding to buy cat food, as standalone events.",
+  "events": [
+    [
+      "750-751",
+      "I observe a cat entering the bushes.",
+      "The cat disappears and I proceed to the building."
+    ],
+    [
+      "752-758",
+      "I enter the building while examining my application form.",
+      "I reach the service window."
+    ],
+    [
+      "759-780",
+      "I submit my application form to receive my internship ID badge at the service window.",
+      "The interaction concludes and I leave the window."
+    ],
+    [
+      "781-783",
+      "I follow my companion out of the building.",
+      "A new idea arises."
+    ],
+    [
+      "784-785",
+      "I ask my companion about the snack shop to buy food for a cat.",
+      "This trigger starts a new major goal to buy cat food."
+    ],
+    [
+      "786-792",
+      "I say goodbye to my departing companion while walking along the campus road.",
+      "My companion leaves and I change direction toward the dining hall."
+    ],
+    [
+      "793-806",
+      "I walk across the courtyard into the dining hall.",
+      "I arrive at the snack shop."
+    ],
+    [
+      "807-827",
+      "I purchase snacks at the dining hall snack shop for ¥11.00 using Alipay.",
+      "The purchase is completed and I leave the dining hall."
+    ],
+    [
+      "828-840",
+      "I walk back along the pathway while opening a chestnut pouch.",
+      "I spot a cat to feed."
+    ],
+    [
+      "841-864",
+      "I feed pieces of chestnuts to a calico cat.",
+      "I switch from feeding chestnuts to biscuits."
+    ],
+    [
+      "865-881",
+      "I feed a packet of biscuits to the calico cat.",
+      "A new white cat captures my attention."
+    ],
+    [
+      "882-889",
+      "I offer biscuit pieces to a white cat.",
+      "I return my focus to the calico cat."
+    ],
+    [
+      "890-917",
+      "I continue interacting with the calico cat until it walks away.",
+      "The cat leaves and I resume my journey back to the office."
+    ],
+    [
+      "918-929",
+      "I walk toward the office building while discarding a snack wrapper.",
+      "I reach the building entrance."
+    ],
+    [
+      "930-941",
+      "I travel to the 10th floor via the building elevator.",
+      "I exit the elevator and approach my desk."
+    ],
+    [
+      "942-951",
+      "I prepare to work at my desk by unlocking my laptop and drinking water.",
+      "I transition from settling in to active computer work."
+    ],
+    [
+      "952-968",
+      "I use Claude AI to help write code on my laptop.",
+      "I pause from working."
+    ],
+    [
+      "969-975",
+      "I take a brief break to stretch and survey the office.",
+      "I resume working on my laptop."
+    ],
+    [
+      "976-979",
+      "I review my code and Claude AI chat on my laptop.",
+      "I shift my attention to physical items on my desk."
+    ],
+    [
+      "980-986",
+      "I read my handwritten notes while adjusting my ID badge.",
+      "I turn my attention back to my laptop."
+    ],
+    [
+      "987-989",
+      "I read a technical document on my laptop.",
+      "I look away to survey the room."
+    ],
+    [
+      "990-991",
+      "I survey the office area.",
+      "I shift my focus to my notebook."
+    ],
+    [
+      "992-999",
+      "I take notes about habit execution in my notebook.",
+      "End of batch."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "784-785"
+    ],
+    "boundary_cautions": []
+  }
+}
+```

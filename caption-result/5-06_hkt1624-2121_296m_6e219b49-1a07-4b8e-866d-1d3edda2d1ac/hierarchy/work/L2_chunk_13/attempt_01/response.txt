@@ -1,0 +1,29 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group the consecutive kitchen actions into a single tidying task, then separate the location transition to the bathroom and the final distinct vocalization.",
+  "events": [
+    [
+      "3000-3001",
+      "I tidy the kitchen.",
+      "Location shifts towards the bathroom."
+    ],
+    [
+      "3002",
+      "I walk to the bathroom.",
+      "A distinct vocalization occurs."
+    ],
+    [
+      "3003",
+      "I affirm my capability.",
+      "End of provided briefs."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

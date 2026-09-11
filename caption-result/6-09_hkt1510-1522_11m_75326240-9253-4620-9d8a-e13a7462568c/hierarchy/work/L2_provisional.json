@@ -1,0 +1,239 @@
+[
+  {
+    "id": 0,
+    "start": 54600,
+    "end": 54620,
+    "text": "I walk toward the escalator.",
+    "refs": [
+      0,
+      1,
+      2
+    ],
+    "boundary_reason": "Boarded the escalator",
+    "origin_chunk": 1
+  },
+  {
+    "id": 1,
+    "start": 54621,
+    "end": 54643,
+    "text": "I ride the escalator.",
+    "refs": [
+      3,
+      4,
+      5
+    ],
+    "boundary_reason": "Stepped off the escalator",
+    "origin_chunk": 1
+  },
+  {
+    "id": 2,
+    "start": 54644,
+    "end": 54701,
+    "text": "I walk through the building corridors.",
+    "refs": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "boundary_reason": "Reached the target classroom",
+    "origin_chunk": 1
+  },
+  {
+    "id": 3,
+    "start": 54701,
+    "end": 54749,
+    "text": "I enter the dark classroom G5-314.",
+    "refs": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "boundary_reason": "Finished assessing the room and approached a desk",
+    "origin_chunk": 1
+  },
+  {
+    "id": 4,
+    "start": 54750,
+    "end": 54782,
+    "text": "I set up my MacBook on the classroom desk.",
+    "refs": [
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33
+    ],
+    "boundary_reason": "Workspace setup complete",
+    "origin_chunk": 1
+  },
+  {
+    "id": 5,
+    "start": 54783,
+    "end": 54840,
+    "text": "I read the timestamped video annotations on my laptop.",
+    "refs": [
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42
+    ],
+    "boundary_reason": "Shifted focus to project documents and meeting notes",
+    "origin_chunk": 1
+  },
+  {
+    "id": 6,
+    "start": 54840,
+    "end": 54915,
+    "text": "I review project documents in the Claude Code interface.",
+    "refs": [
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51
+    ],
+    "boundary_reason": "Switched focus to VS Code files",
+    "origin_chunk": 1
+  },
+  {
+    "id": 7,
+    "start": 54915,
+    "end": 54954,
+    "text": "I inspect timestamped event files in VS Code.",
+    "refs": [
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59
+    ],
+    "boundary_reason": "Began typing actively on the keyboard",
+    "origin_chunk": 1
+  },
+  {
+    "id": 8,
+    "start": 54954,
+    "end": 55049,
+    "text": "I type edits on my laptop keyboard.",
+    "refs": [
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75
+    ],
+    "boundary_reason": "Paused typing to wait for a window to load",
+    "origin_chunk": 1
+  },
+  {
+    "id": 9,
+    "start": 55050,
+    "end": 55140,
+    "text": "I review transcript annotations in the VS Code editor.",
+    "refs": [
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90
+    ],
+    "boundary_reason": "Shifted to verbal dictation",
+    "origin_chunk": 1
+  },
+  {
+    "id": 10,
+    "start": 55140,
+    "end": 55251,
+    "text": "I dictate caption abstraction formatting instructions into the Claude AI chat.",
+    "refs": [
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108
+    ],
+    "boundary_reason": "Finished verbal instructions and shifted to reading",
+    "origin_chunk": 1
+  },
+  {
+    "id": 11,
+    "start": 55252,
+    "end": 55298,
+    "text": "I read the video captioning guidelines on my screen.",
+    "refs": [
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116
+    ],
+    "boundary_reason": "End of provided events",
+    "origin_chunk": 1
+  }
+]

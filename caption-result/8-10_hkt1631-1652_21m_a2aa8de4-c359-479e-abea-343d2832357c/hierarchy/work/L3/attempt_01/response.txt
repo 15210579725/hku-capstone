@@ -1,0 +1,29 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group the initial entry and orientation into an observation episode. Group the repeated examination and manipulation of the ID badge and cards into a single focused episode, absorbing incidental looks at the environment. Group the final extended period of resting and looking at the architecture into a concluding observation episode.",
+  "events": [
+    [
+      "0-3",
+      "I observe the lounge surroundings.",
+      "Initial orientation concludes and focus shifts to personal items"
+    ],
+    [
+      "4-10",
+      "I examine my University X ID badge holder.",
+      "Inspection of the badge holder ends as focus returns entirely to the environment"
+    ],
+    [
+      "11-13",
+      "I observe the atrium architecture.",
+      "End of input sequence"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,111 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous physical actions or specific device interactions into immediate tasks. Separate ride observation from distinct phone usages, and group conversation topics or navigational phases into unified actions.",
+  "events": [
+    [
+      "500-511",
+      "I leave the building via the emergency staircase.",
+      "Goal completed upon exiting the building."
+    ],
+    [
+      "512-520",
+      "I board the passenger seat of the ride-hailing car.",
+      "Goal completed when seated in the car."
+    ],
+    [
+      "521-578",
+      "I monitor the road from the passenger seat of the ride-hailing car.",
+      "Continuous road monitoring ends when retrieving the phone."
+    ],
+    [
+      "579-581",
+      "I check the ride-hailing trip progress on my smartphone.",
+      "Phone check completes, attention returns to the road."
+    ],
+    [
+      "582-596",
+      "I observe the street scenery during the car ride.",
+      "Continuous road monitoring ends when looking at the phone again."
+    ],
+    [
+      "597-600",
+      "I check the ride route on my smartphone.",
+      "Phone check completes, phone is lowered."
+    ],
+    [
+      "601-614",
+      "I monitor the traffic ahead during the car ride.",
+      "Continuous road monitoring ends when preparing to exit."
+    ],
+    [
+      "615-621",
+      "I disembark from the ride-hailing car at my drop-off point.",
+      "Goal completed upon exiting the vehicle."
+    ],
+    [
+      "622-628",
+      "I search for the residential compound gate.",
+      "Initial visual search ends, shifting to phone for information."
+    ],
+    [
+      "629-637",
+      "I consult WeChat messages for the car rental location.",
+      "Review completes, shifting to a navigation app."
+    ],
+    [
+      "638-644",
+      "I use the Amap app to plan my walking route.",
+      "Route planning completes, physical walking begins."
+    ],
+    [
+      "645-657",
+      "I enter an incorrect residential compound from the street.",
+      "Compound entered, shifting focus to a phone call."
+    ],
+    [
+      "658-666",
+      "I initiate WeChat location sharing with the car rental host.",
+      "Location sharing setup completes, shifting to walking out."
+    ],
+    [
+      "667-674",
+      "I return to the main street past an inquiring pedestrian.",
+      "Main street reached and pedestrian interaction ends."
+    ],
+    [
+      "675-685",
+      "I navigate to the correct residential compound using WeChat location sharing.",
+      "Correct compound reached and entered."
+    ],
+    [
+      "686-711",
+      "I locate the meeting point inside the compound using WeChat location sharing.",
+      "Destination reached, location sharing exited."
+    ],
+    [
+      "712-722",
+      "I rendezvous with the car delivery worker.",
+      "Worker approached, conversation begins."
+    ],
+    [
+      "723-739",
+      "I provide my identification photos to the delivery worker via WeChat.",
+      "Document verification completes, focus shifts to the car."
+    ],
+    [
+      "740-749",
+      "I prepare the interior of the rental car for driving.",
+      "End of input batch."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "622-628: Realizing the ride-hailing drop-off is incorrect acts as a trigger that initiates a new search and navigation plan."
+    ],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,49 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group immediate sequence of brief actions into unified tasks, focusing on distinct goals such as completing a transaction, fetching water, navigating between areas, exploring a machine, setting up a room, and studying materials.",
+  "events": [
+    [
+      "1250-1266",
+      "I purchase a blueberry cheesecake for takeout at the cafe.",
+      "The transaction and food pickup for the cheesecake are completed."
+    ],
+    [
+      "1267-1278",
+      "I fill my water bottle at the beverage station.",
+      "The task of fetching water is complete."
+    ],
+    [
+      "1279-1286",
+      "I navigate through the cafeteria.",
+      "The navigation ends upon approaching a machine of interest."
+    ],
+    [
+      "1287-1320",
+      "I explore the lunchbox lending machine with my companion.",
+      "The interaction with the lunchbox machine concludes."
+    ],
+    [
+      "1321-1331",
+      "I navigate down the classroom corridor to locate a study room.",
+      "The navigation concludes upon arriving at Study Room 7."
+    ],
+    [
+      "1332-1342",
+      "I adjust the thermostat in Study Room 7.",
+      "The room preparation is completed before settling at the table."
+    ],
+    [
+      "1343-1361",
+      "I review CS285 reinforcement learning materials and Claude Code analysis at the meeting table.",
+      "The study session continues at the end of the batch."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

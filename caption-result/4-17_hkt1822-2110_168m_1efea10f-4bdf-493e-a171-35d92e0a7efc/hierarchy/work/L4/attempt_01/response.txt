@@ -1,33 +1,40 @@
 ```json
 {
   "target_level": "L4",
-  "plan": "Group L3 episodes into broader goal-oriented phases: the on-campus academic lecture, the transit back home, the primary evening work session at home (absorbing incidental communications and quick breaks), and the final dinner phase.",
+  "plan": "Group L3 episodes into L4 phases based on major location shifts and primary overarching goals: studying at the lecture hall, commuting, working on devices at home, and preparing a meal.",
   "events": [
     [
-      "0",
-      "I review AI research papers and course concepts on my laptop during a machine learning lecture on campus.",
-      "Maintains the distinct academic lecture phase before departing."
+      "0-3",
+      "I complete an AI study session on my laptop in the lecture hall.",
+      "Activity concludes upon packing up to depart the lecture hall"
     ],
     [
-      "1-2",
-      "I discuss travel plans with my companions during our foot commute from the campus back to my apartment.",
-      "Groups the departure and continuous walk home into a single transit phase."
+      "4-8",
+      "I commute from the lecture hall to my apartment with friends.",
+      "Commute concludes upon entering the apartment to settle in"
     ],
     [
-      "3-10",
-      "I advance my academic research on affective computing, the EgoLife dataset, and reward functions on my laptop in my apartment alongside personal communications and minor kitchen tasks.",
-      "Unifies the extended evening session of academic work, abstracting incidental device switches, personal planning, and brief food preparation."
+      "9-23",
+      "I perform AI research and EgoLife dataset tasks on my devices in my apartment.",
+      "Work session concludes when hunger prompts a transition to cooking"
     ],
     [
-      "11",
-      "I eat a freshly cooked meal of flatbreads, eggs, and sausage in the kitchen.",
-      "Maintains the distinct dinner activity as a separate phase."
+      "24-31",
+      "I prepare a hot meal in my kitchen.",
+      "Meal and cleanup concludes upon moving to the bathroom"
+    ],
+    [
+      "32",
+      "I stand in the dimly lit bathroom.",
+      "End of provided evidence"
     ]
   ],
   "audit": {
     "complete": true,
     "uncertainties": [],
-    "major_triggers": [],
+    "major_triggers": [
+      "24"
+    ],
     "boundary_cautions": []
   }
 }

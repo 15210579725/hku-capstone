@@ -1,0 +1,124 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions with a single immediate objective and target into tasks. Boundaries are marked by changes in focus, such as switching from riding to navigating, arriving at a destination, passing security checkpoints, or shifting between different applications or tasks on devices.",
+  "events": [
+    [
+      "250-270",
+      "I ride an electric scooter along roads and over a bridge.",
+      "Stops at a street intersection."
+    ],
+    [
+      "271-281",
+      "I wait at a street intersection on my electric scooter.",
+      "Switches focus to smartphone."
+    ],
+    [
+      "282-289",
+      "I check cycling navigation routes on the Amap app on my smartphone.",
+      "Resumes attention to the intersection."
+    ],
+    [
+      "290-313",
+      "I ride the electric scooter across the intersection and along the street.",
+      "Arrives at the destination institute."
+    ],
+    [
+      "314-321",
+      "I secure the electric scooter using the Hellobike app at the institute entrance.",
+      "Scooter parking is complete."
+    ],
+    [
+      "322-329",
+      "I pass through the entrance turnstiles into the campus using my ID badge.",
+      "Campus entry is complete."
+    ],
+    [
+      "330-339",
+      "I walk along the campus road into Building 2.",
+      "Pauses to check phone for navigation."
+    ],
+    [
+      "340-348",
+      "I use Amap navigation on my phone to find the route to the [University X] autonomous intelligent unmanned systems center.",
+      "Navigation is set."
+    ],
+    [
+      "349-367",
+      "I follow the map navigation across the campus toward the laboratory building.",
+      "Arrives at the laboratory building lobby."
+    ],
+    [
+      "368-374",
+      "I pass through the building lobby security turnstiles using a remote control and access card.",
+      "Lobby entry complete; moves to the elevator."
+    ],
+    [
+      "375-388",
+      "I ride the elevator to the ninth floor.",
+      "Arrives at the correct floor."
+    ],
+    [
+      "389-400",
+      "I set up my MacBook at my office desk.",
+      "Initial setup complete; briefly leaves desk."
+    ],
+    [
+      "401-407",
+      "I take a brief walk from my desk to the hallway.",
+      "Returns to desk to begin tasks."
+    ],
+    [
+      "408-418",
+      "I exchange messages with 方阔飞 on WeChat.",
+      "Switches to checking internet connection."
+    ],
+    [
+      "419-428",
+      "I connect my laptop to the guest Wi-Fi network.",
+      "Wi-Fi network selected; switches to messaging."
+    ],
+    [
+      "429-434",
+      "I send WeChat messages to my contacts.",
+      "Switches back to internet login."
+    ],
+    [
+      "435-445",
+      "I log into the University X Wi-Fi portal on my laptop using an SMS verification code.",
+      "Network login complete."
+    ],
+    [
+      "446-451",
+      "I establish terminal sessions and an SSH connection on my laptop.",
+      "Terminal setup complete."
+    ],
+    [
+      "452-458",
+      "I open a new chat in Claude AI on my web browser.",
+      "Chat opened; pauses to retrieve items."
+    ],
+    [
+      "459-470",
+      "I insert foam earplugs retrieved from my backpack.",
+      "Earplugs inserted; begins document work."
+    ],
+    [
+      "471-490",
+      "I type my daily todo tasks for magic-video and egagent into a Feishu document.",
+      "Todo list complete; switches to rollout viewer."
+    ],
+    [
+      "491-499",
+      "I type an activity recap based on rollout paths in the POV Rollout Viewer.",
+      "Recap task complete."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

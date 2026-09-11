@@ -1,0 +1,104 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks such as editing documents, transiting through specific areas, purchasing distinct food items, and focused periods of eating or conversation.",
+  "events": [
+    [
+      "500-512",
+      "I edit notes in a Feishu document.",
+      "Switches from typing text to focusing on block formatting"
+    ],
+    [
+      "513-521",
+      "I format text into a callout block in the Feishu document.",
+      "Finishes block formatting to resume writing notes"
+    ],
+    [
+      "522-535",
+      "I type notes about ranking preferences in the Feishu document.",
+      "Abandons the computer to leave the desk"
+    ],
+    [
+      "536-541",
+      "I walk toward the office doorway.",
+      "Transitions from the office to the elevator lobby"
+    ],
+    [
+      "542-546",
+      "I board the elevator.",
+      "Elevator doors close, beginning the ride down"
+    ],
+    [
+      "547-552",
+      "I ride the elevator to the underground floor.",
+      "Exits the elevator into the parking garage"
+    ],
+    [
+      "553-565",
+      "I walk through the underground parking garage.",
+      "Reaches the cafeteria entrance stairs"
+    ],
+    [
+      "566-574",
+      "I enter the cafeteria dining hall.",
+      "Arrives inside the dining hall to order food"
+    ],
+    [
+      "575-590",
+      "I purchase a bowl of salted meat vegetable rice via WeChat Pay.",
+      "Completes rice purchase and moves to the buffet line"
+    ],
+    [
+      "591-597",
+      "I collect a vegetable dish and soup from the cafeteria buffet line.",
+      "Finishes selecting food and moves to the checkout counter"
+    ],
+    [
+      "598-606",
+      "I pay for my buffet dishes via WeChat Pay.",
+      "Completes payment and goes to find a seat"
+    ],
+    [
+      "607-613",
+      "I sit at a dining table with my meal.",
+      "Settles at the table to interact with companions"
+    ],
+    [
+      "614-624",
+      "I discuss the food with my dining companions.",
+      "Topic of conversation shifts from food to code inference"
+    ],
+    [
+      "625-637",
+      "I discuss code inference with my colleagues.",
+      "Conversation concludes, returning focus to eating"
+    ],
+    [
+      "638-643",
+      "I drink a bowl of soup.",
+      "Puts down the soup bowl to eat solid food"
+    ],
+    [
+      "644-651",
+      "I eat my sausage fried rice and stir-fried meat.",
+      "Pauses active eating to listen to companions converse"
+    ],
+    [
+      "652-661",
+      "I listen to my companions converse about social greetings.",
+      "Conversation ends, resuming eating from the side dish"
+    ],
+    [
+      "662-671",
+      "I eat stir-fried meat from my side dish.",
+      "End of provided input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

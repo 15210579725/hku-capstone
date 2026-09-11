@@ -1,0 +1,104 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group consecutive action briefs into distinct immediate tasks, capturing discrete physical actions, navigation segments, specific conversational topics with a companion, and transitions between environments.",
+  "events": [
+    [
+      "0-5",
+      "I inspect the planter bench and glue package.",
+      "Shift to donning a garment"
+    ],
+    [
+      "6-10",
+      "I put on a white garment.",
+      "Garment donned, shift to cleaning"
+    ],
+    [
+      "11-17",
+      "I wipe the planter bench with a tissue.",
+      "Bench wiped, shift to backpack"
+    ],
+    [
+      "18-20",
+      "I close my backpack.",
+      "Backpack closed, shift to preparing glue"
+    ],
+    [
+      "21-22",
+      "I unwrap the glue package.",
+      "Glue unwrapped, shift to walking"
+    ],
+    [
+      "23-32",
+      "I walk toward the McDonald's entrance.",
+      "Arrived near destination, shift to communicating"
+    ],
+    [
+      "33-40",
+      "I inform my contact of my arrival at the B2 entrance.",
+      "Location communicated, shift to walking"
+    ],
+    [
+      "41-47",
+      "I navigate toward the street intersection.",
+      "Arrived at intersection, shift to observing"
+    ],
+    [
+      "48-67",
+      "I observe traffic and commuters at the MTR station entrance.",
+      "Shift to conversing with companion"
+    ],
+    [
+      "68-75",
+      "I discuss the heat and returning home with my companion.",
+      "Topic shifts to Japanese restaurant"
+    ],
+    [
+      "76-91",
+      "I discuss local food options with my companion.",
+      "Topic shifts to research data"
+    ],
+    [
+      "92-102",
+      "I discuss my companion's research data methodology.",
+      "Topic shifts to cooling devices"
+    ],
+    [
+      "103-114",
+      "I retrieve my portable fan to check its battery.",
+      "Fan checked, shift to general conversation"
+    ],
+    [
+      "115-120",
+      "I converse with my companion while walking along the sidewalk.",
+      "Shift to entering building"
+    ],
+    [
+      "121-133",
+      "I enter the residential building lobby.",
+      "Entered lobby, shift to elevator ride"
+    ],
+    [
+      "134-144",
+      "I assist my companion in cooling down during the elevator ride.",
+      "Topic shifts to seaside visit"
+    ],
+    [
+      "145-148",
+      "I discuss my seaside visit with my companion.",
+      "Shift to entering apartment"
+    ],
+    [
+      "149-155",
+      "I turn on the air conditioner upon entering apartment 15B.",
+      "End of recording"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,20 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions sharing a single immediate goal, separating conversational topics from independent physical movements.",
+  "events": [
+    ["0-6", "I converse with my friend about scheduling our plans.", "Conversation topic concludes"],
+    ["7", "I exit through the glass door.", "Physical movement completes"],
+    ["8-12", "I discuss upcoming swimming plans with my companion and another person.", "Pause in conversation"],
+    ["13", "I walk along the sidewalk.", "Focus shifts back to conversation"],
+    ["14-25", "I discuss verifying the pool's opening schedule with my companion.", "Conversation exchange concludes"],
+    ["26", "I observe a colorful staircase.", "End of input"]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

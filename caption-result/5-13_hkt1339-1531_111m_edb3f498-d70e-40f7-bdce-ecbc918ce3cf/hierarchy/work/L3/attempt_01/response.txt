@@ -1,0 +1,107 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group tasks into coherent episodes based on major location changes during transit, discrete activities (meals, shopping), distinct sections within the library study session (e.g., individual exam questions), and specific content consumption or research goals during computer usage.",
+  "events": [
+    [
+      "0-3",
+      "I prepare my belongings and water bottle to leave home.",
+      "Preparation completes before waiting for elevator"
+    ],
+    [
+      "4-8",
+      "I wait for the elevator to leave my building.",
+      "Elevator wait finishes before walking outside"
+    ],
+    [
+      "9-14",
+      "I walk along the street and staircases toward the campus footbridge.",
+      "Reaches the elevator to ascend to the footbridge"
+    ],
+    [
+      "15-22",
+      "I navigate the footbridge and campus elevators to the 4th floor.",
+      "Arrives at the 4th floor destination"
+    ],
+    [
+      "23-31",
+      "I eat a chicken and rice meal at the campus canteen.",
+      "Finishes meal and returns tray"
+    ],
+    [
+      "32-38",
+      "I purchase a Cambridge writing pad at the campus store.",
+      "Store visit and purchase conclude"
+    ],
+    [
+      "39-42",
+      "I walk to the library and set up my study workstation.",
+      "Finishes library arrival and workstation setup"
+    ],
+    [
+      "43-49",
+      "I prepare my physical study tools and begin reading the COMP7404 exam paper.",
+      "Setup completes, moves to actively answering questions"
+    ],
+    [
+      "50-55",
+      "I answer exam questions 1.2 through 1.6 on search algorithms.",
+      "Shifts to the next sequential topic in Question 1"
+    ],
+    [
+      "56-64",
+      "I study and answer exam questions 1.7 through 1.19 on CSPs and MDPs.",
+      "Completes Question 1 and shifts to Question 2"
+    ],
+    [
+      "65-76",
+      "I study Question 2 on search graph heuristics.",
+      "Completes Question 2 and shifts to Question 3"
+    ],
+    [
+      "77-81",
+      "I study Question 3 on Python depth-first search.",
+      "Completes Question 3 and stops studying the exam"
+    ],
+    [
+      "82-84",
+      "I browse tech articles on my Folo AI timeline.",
+      "Switches from timeline browsing to focus on a specific interview"
+    ],
+    [
+      "85-88",
+      "I download subtitles for a YouTube interview with Yao Shunyu.",
+      "Finishes downloading subtitles, moves to reading a Claude document"
+    ],
+    [
+      "89-92",
+      "I read a Claude summary document analyzing AI industry trends.",
+      "Finishes reading the summary document"
+    ],
+    [
+      "93-102",
+      "I browse recommended tech and AI feeds across multiple platforms.",
+      "Concludes feed browsing to watch a specific tech video"
+    ],
+    [
+      "103-111",
+      "I watch a Linus Tech Tips video and research the featured desktop robots.",
+      "Finishes researching robots and switches to WeChat communication"
+    ],
+    [
+      "112-115",
+      "I manage my meeting schedule and check my exam timetable on WeChat.",
+      "End of input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      39,
+      82
+    ],
+    "boundary_cautions": []
+  }
+}
+```

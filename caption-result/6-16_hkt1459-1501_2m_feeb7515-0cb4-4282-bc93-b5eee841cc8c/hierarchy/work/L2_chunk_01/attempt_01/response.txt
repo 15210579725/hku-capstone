@@ -1,0 +1,81 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group atomic movements, navigation steps, and short screen interactions into immediate functional tasks based on their primary application or physical target, abstracting incidental glances, stretching, and vocalizations into the overarching immediate goal.",
+  "events": [
+    [
+      "0-5",
+      "I navigate to a cubicle in the study commons.",
+      "Arrival at cubicle completes navigation"
+    ],
+    [
+      "6-9",
+      "I arrange my cubicle workspace.",
+      "Transition to setting up laptop"
+    ],
+    [
+      "10-13",
+      "I prepare my MacBook for use.",
+      "MacBook unlocked and ready for screen tasks"
+    ],
+    [
+      "14-15",
+      "I review the Claude Code comparison and emotion probe documents.",
+      "Shift to interacting with the POV Rollout Viewer"
+    ],
+    [
+      "16-17",
+      "I review behavioral advice and interface controls in the POV Rollout Viewer.",
+      "Shift to ChatGPT for API instructions"
+    ],
+    [
+      "18-19",
+      "I view Nebius API instructions and key details.",
+      "Shift back to the POV Rollout Viewer"
+    ],
+    [
+      "20-23",
+      "I inspect decision tree branches and world model recap entries in the POV Rollout Viewer.",
+      "Shift to Google search"
+    ],
+    [
+      "24",
+      "I search for the NVIDIA Cosmos API on Google.",
+      "Shift to WeChat Read application"
+    ],
+    [
+      "25-29",
+      "I read 《能量，性，自杀_线粒体与生命的意义》 on WeChat Read.",
+      "Shift to checking proxy connections"
+    ],
+    [
+      "30",
+      "I check my proxy connections in Clash Verge.",
+      "Return to reading book"
+    ],
+    [
+      "31",
+      "I read 《能量，性，自杀_线粒体与生命的意义》.",
+      "Shift back to checking proxy connections"
+    ],
+    [
+      "32-33",
+      "I check the proxy node in Clash Verge.",
+      "Shift to reading AI model recommendation"
+    ],
+    [
+      "34",
+      "I read the Qwen2.5-Instruct recommendation.",
+      "End of provided briefs"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": [
+      "Frequent switching between WeChat Read and Clash Verge in 30-33 kept as separate L2 tasks due to distinct software application targets."
+    ]
+  }
+}
+```

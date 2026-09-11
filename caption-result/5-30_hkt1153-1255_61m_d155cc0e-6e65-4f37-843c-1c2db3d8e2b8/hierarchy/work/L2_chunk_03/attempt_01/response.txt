@@ -1,0 +1,79 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions sharing a single objective into immediate tasks. Abstract incidental looks and unify activities like phone reading, store browsing, discussing specific topics, and online purchasing based on major shifts in attention or conversation topics.",
+  "events": [
+    [
+      "500-531",
+      "I read an article about PICO image compression on my smartphone.",
+      "Conversation about gym prices initiates a new task."
+    ],
+    [
+      "532-545",
+      "I discuss gym prices and equipment with my companion.",
+      "Entering a store to browse shelves initiates a new task."
+    ],
+    [
+      "546-554",
+      "I browse various personal care aisles in a store.",
+      "Attention shifts to inspecting specific products on the shelves."
+    ],
+    [
+      "555-572",
+      "I examine eye drops and condoms with my companion.",
+      "Attention shifts to inspecting mosquito repellents."
+    ],
+    [
+      "573-595",
+      "I examine mosquito repellent sprays and their active ingredients with my companion.",
+      "Decision to shop online shifts focus to the Pinduoduo app."
+    ],
+    [
+      "596-642",
+      "I purchase OFF mosquito repellent on Pinduoduo.",
+      "Purchase completes and focus returns to navigating the environment."
+    ],
+    [
+      "643-651",
+      "I walk along the footbridge into a building.",
+      "Taking out the phone to read an article initiates a new task."
+    ],
+    [
+      "652-673",
+      "I read an article about PICO image compression on my phone.",
+      "Lowering the phone and listening to a new conversation topic initiates a new task."
+    ],
+    [
+      "674-688",
+      "I listen to my companion discuss hair dyeing.",
+      "Conversation topic shifts to pants and safety."
+    ],
+    [
+      "689-704",
+      "I converse with my companion about pants and safety.",
+      "Conversation concludes, focusing purely on walking."
+    ],
+    [
+      "705-711",
+      "I walk along the paved courtyard pathways.",
+      "Initiating a new conversation about clothing stores."
+    ],
+    [
+      "712-739",
+      "I discuss offline clothing stores with my companion.",
+      "Conversation concludes, focusing purely on walking."
+    ],
+    [
+      "740-749",
+      "I walk along the corridor.",
+      "End of batch."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

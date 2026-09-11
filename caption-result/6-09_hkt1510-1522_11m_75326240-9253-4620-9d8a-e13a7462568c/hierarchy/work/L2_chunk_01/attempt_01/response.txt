@@ -1,0 +1,74 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group sequential micro-actions into immediate tasks such as navigating the building, setting up the workspace, reading specific document types, typing code edits, and dictating AI instructions, bounded by changes in location or application focus.",
+  "events": [
+    [
+      "0-2",
+      "I walk toward the escalator.",
+      "Boarded the escalator"
+    ],
+    [
+      "3-5",
+      "I ride the escalator.",
+      "Stepped off the escalator"
+    ],
+    [
+      "6-16",
+      "I walk through the building corridors.",
+      "Reached the target classroom"
+    ],
+    [
+      "17-25",
+      "I enter the dark classroom G5-314.",
+      "Finished assessing the room and approached a desk"
+    ],
+    [
+      "26-33",
+      "I set up my MacBook on the classroom desk.",
+      "Workspace setup complete"
+    ],
+    [
+      "34-42",
+      "I read the timestamped video annotations on my laptop.",
+      "Shifted focus to project documents and meeting notes"
+    ],
+    [
+      "43-51",
+      "I review project documents in the Claude Code interface.",
+      "Switched focus to VS Code files"
+    ],
+    [
+      "52-59",
+      "I inspect timestamped event files in VS Code.",
+      "Began typing actively on the keyboard"
+    ],
+    [
+      "60-75",
+      "I type edits on my laptop keyboard.",
+      "Paused typing to wait for a window to load"
+    ],
+    [
+      "76-90",
+      "I review transcript annotations in the VS Code editor.",
+      "Shifted to verbal dictation"
+    ],
+    [
+      "91-108",
+      "I dictate caption abstraction formatting instructions into the Claude AI chat.",
+      "Finished verbal instructions and shifted to reading"
+    ],
+    [
+      "109-116",
+      "I read the video captioning guidelines on my screen.",
+      "End of provided events"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

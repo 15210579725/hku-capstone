@@ -1,0 +1,29 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group the episodes into three major phases: departing the hotel to commute to the destination, touring the park facilities, and driving away on the highway.",
+  "events": [
+    [
+      "0-3",
+      "I travel from the hotel to the Blue Hole park.",
+      "Groups hotel departure, luggage loading, and arrival at the destination parking lot"
+    ],
+    [
+      "4-12",
+      "I tour the Blue Hole park attractions and restaurant.",
+      "Groups park admission, trail exploration, riverside observation, and dining before returning to the car"
+    ],
+    [
+      "13-16",
+      "I drive the car away from the park along the highway.",
+      "Groups parking lot departure, toll payment, and continued expressway travel"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

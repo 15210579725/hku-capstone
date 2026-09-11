@@ -1,0 +1,54 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group immediate actions into unified tasks, separating distinct trail discussions, observing surroundings, approaching the destination, and specific drinking/refilling actions at the fountain.",
+  "events": [
+    [
+      "250-253",
+      "I converse with my companion about our studying locations.",
+      "Topic of conversation shifts from studying to walking and checking progress."
+    ],
+    [
+      "254-257",
+      "I walk downhill along the paved park trail.",
+      "I stop to read a sign and announce our progress."
+    ],
+    [
+      "258-260",
+      "I read the trail sign and announce the remaining distance to the drinking fountain.",
+      "Finished checking progress; focus shifts to observing other trail users and surroundings."
+    ],
+    [
+      "261-267",
+      "I walk along the trail while observing the surroundings, pedestrians, and dogs.",
+      "Conversation starts regarding the weather and sunset."
+    ],
+    [
+      "268-273",
+      "I walk along the trail and discuss the weather and sunset visibility with my companion.",
+      "Arriving at the pavilion area ends the walking phase."
+    ],
+    [
+      "274-278",
+      "I approach the pavilion and drinking fountain.",
+      "Arrival at the fountain complete; start drinking water."
+    ],
+    [
+      "279-288",
+      "I drink from the fountain and help User A fill and test their water cup.",
+      "User A finishes drinking; I switch to filling my own water bottle."
+    ],
+    [
+      "289-292",
+      "I fill and cap my water bottle at the fountain.",
+      "Water bottle filled; end of sequence."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

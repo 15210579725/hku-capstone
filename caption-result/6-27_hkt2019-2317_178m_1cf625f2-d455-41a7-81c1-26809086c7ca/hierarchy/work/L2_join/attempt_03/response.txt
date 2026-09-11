@@ -1,0 +1,30 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible pairs for exact task continuation across batch edges. Merge pairs that share the same immediate goal and target (eating the same piece of chicken, accessing the same web dashboard, and continuing the exact same video annotation session). Reject pairs that switch targets or tools (e.g., switching from reading a paper to reading ChatGPT, or from operating an annotation tool to reviewing API dashboards).",
+  "merges": [
+    [
+      94,
+      95,
+      "I dip and eat a piece of chicken with sauce.",
+      "Continuous action of consuming a single piece of chicken across batch edge"
+    ],
+    [
+      144,
+      145,
+      "I access and view the Right Code dashboard in Google Chrome.",
+      "Continuous task of navigating to and viewing the same dashboard across batch edge"
+    ],
+    [
+      189,
+      190,
+      "I annotate a supermarket video using a web tool and API endpoints.",
+      "Same continuous video annotation task across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

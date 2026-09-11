@@ -1,0 +1,36 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Review eligible pairs to determine if the same immediate task (reading abstract, studying specific topic, eating) is split across the transport boundary.",
+  "merges": [
+    [
+      29,
+      30,
+      "I read the 'Unforgettable Generalization in Language Models' arXiv abstract.",
+      "Same reading activity continues across batch edge"
+    ],
+    [
+      44,
+      45,
+      "I study Generalized Advantage Estimation using CS 285 lecture slides and ChatGPT.",
+      "Same study activity continues across batch edge"
+    ],
+    [
+      58,
+      59,
+      "I study the Bradley-Terry model on the CS 285 lecture slides.",
+      "Same study activity continues across batch edge"
+    ],
+    [
+      79,
+      80,
+      "I eat my meal.",
+      "Eating the meal continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

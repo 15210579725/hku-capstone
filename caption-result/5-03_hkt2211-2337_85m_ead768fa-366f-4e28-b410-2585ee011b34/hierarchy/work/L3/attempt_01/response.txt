@@ -1,0 +1,93 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group L2 tasks into coherent episodes based on primary locations and focused activities. Combine the out-of-sequence cooking video (ID 56) with the contiguous block of cooking videos (IDs 22-36) since it occurred concurrently. Segment the train ride by shifts between distinct media consumption (shopping, car videos, cooking videos, general videos) and focused conversation. Separate the commute into descending to the platform, navigating the mall, and walking outdoors. Preserve the roommate interruption as a standalone episode.",
+  "events": [
+    [
+      "0-2",
+      "I check my smart glasses battery at the subway concourse.",
+      "Proceeds to enter the ticket barriers."
+    ],
+    [
+      "3-6",
+      "I descend to the subway platform.",
+      "Boards the subway train."
+    ],
+    [
+      "7-11",
+      "I shop for a UGREEN Type-C to USB adapter on Taobao aboard the subway train.",
+      "Finishes shopping and switches to watching Bilibili."
+    ],
+    [
+      "12-14",
+      "I watch luxury car review videos on Bilibili.",
+      "Shifts attention to conversing with companion."
+    ],
+    [
+      "15-21",
+      "I converse with my companion about personal and academic topics.",
+      "Begins watching cooking videos."
+    ],
+    [
+      "22-36,56",
+      "I watch food and cooking videos on my smartphone.",
+      "Switches to conversing about homework and schedules."
+    ],
+    [
+      "37-39",
+      "I converse with my companion about homework, schedules, and borrowing a card.",
+      "Resumes watching videos on smartphone."
+    ],
+    [
+      "40-49",
+      "I watch various entertainment and news videos on my smartphone.",
+      "Alights from the subway train."
+    ],
+    [
+      "50-55,57-58",
+      "I navigate through The Wai mall with my companion.",
+      "Exits the mall onto an outdoor pedestrian bridge."
+    ],
+    [
+      "59-71",
+      "I walk outdoors with my companion towards our apartment building.",
+      "Arrives at the residential building and enters the lobby."
+    ],
+    [
+      "72-74",
+      "I return to my apartment bedroom.",
+      "Arrives at desk to set up laptop."
+    ],
+    [
+      "75-76",
+      "I prepare my MacBook to read articles.",
+      "Begins reading cell biology articles."
+    ],
+    [
+      "77-80",
+      "I read WeChat Read articles about mitochondria and cell biology.",
+      "Interrupted by roommate to discuss a bathroom item."
+    ],
+    [
+      "81",
+      "I converse with my roommate about washing an item left in the bathroom.",
+      "Resumes reading articles."
+    ],
+    [
+      "82-85",
+      "I read cell biology articles and a PDF on WeChat Read.",
+      "End of recording."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "Roommate interruption regarding a bathroom item"
+    ],
+    "boundary_cautions": [
+      "ID 56 was positioned late in the input array but its timestamp overlaps with ID 33; grouped semantically and chronologically with the cooking videos (22-36)."
+    ]
+  }
+}
+```

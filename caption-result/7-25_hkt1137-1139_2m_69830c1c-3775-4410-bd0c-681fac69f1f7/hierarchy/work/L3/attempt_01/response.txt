@@ -1,0 +1,31 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group the approach, waiting, and riding phases into a unified elevator transit episode. Preserve the distinct messaging task as a separate interleaved episode. Group the lobby exclamation with the subsequent assisted turnstile passage into a single turnstile crossing episode.",
+  "events": [
+    [
+      "0,2-3",
+      "I take the elevator down to the first floor.",
+      "Arrived at first floor"
+    ],
+    [
+      "1",
+      "I reply to a WeChat message from babe.",
+      "Message sent"
+    ],
+    [
+      "4-5",
+      "I pass through the lobby turnstile with swipe assistance from a young man.",
+      "Cleared turnstile"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": [
+      "The WeChat message (ID 1) occurs between approaching and waiting for the elevator. It is kept as a distinct event overlapping with the broader elevator transit envelope to preserve the specific communicative goal."
+    ]
+  }
+}
+```

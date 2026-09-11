@@ -1,0 +1,159 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous sequences of eating, observing companions, and specific conversational topics into immediate tasks based on shared immediate goals and focus.",
+  "events": [
+    [
+      "1000-1011",
+      "I eat hotpot and ask my roommate to slice cucumbers.",
+      "Topic shifts to peppercorns."
+    ],
+    [
+      "1012-1018",
+      "I eat hotpot and note the amount of peppercorns in the broth.",
+      "Topic shifts to the hotpot base cost."
+    ],
+    [
+      "1019-1024",
+      "I eat hotpot and discuss the cost of the hotpot base.",
+      "Topic shifts to general eating without conversation."
+    ],
+    [
+      "1025-1031",
+      "I eat noodles and other ingredients from the hotpot.",
+      "Roommate brings out the slicer."
+    ],
+    [
+      "1032-1038",
+      "I watch my roommate slice cucumbers into the hotpot.",
+      "Resumes dipping and eating food."
+    ],
+    [
+      "1039-1053",
+      "I dip and eat cabbage and noodles from the hotpot.",
+      "Focus shifts to watching roommate eat."
+    ],
+    [
+      "1054-1064",
+      "I eat hotpot alongside my roommate.",
+      "User X starts talking."
+    ],
+    [
+      "1065-1068",
+      "I listen to User X comment on the rain.",
+      "Starts a conversation with User A."
+    ],
+    [
+      "1069-1080",
+      "I encourage User A to eat more hotpot.",
+      "Conversation ends, resumes silent eating."
+    ],
+    [
+      "1081-1092",
+      "I pick and eat cabbage from the hotpot.",
+      "Starts conversation about a broken suction mechanism."
+    ],
+    [
+      "1093-1100",
+      "I ask User A about a broken suction mechanism.",
+      "Focus shifts to User A peeling a pear."
+    ],
+    [
+      "1101-1110",
+      "I praise User A's skill in peeling a pear without breaking the skin.",
+      "Focus shifts back to eating hotpot."
+    ],
+    [
+      "1111-1121",
+      "I eat hotpot while watching my friend peel fruit.",
+      "Topic shifts to culinary pairing."
+    ],
+    [
+      "1122-1138",
+      "I discuss the culinary pairing of pear and hotpot with my companions.",
+      "Roommate offers a pear slice."
+    ],
+    [
+      "1139-1144",
+      "I react to my roommate offering a pear slice.",
+      "Looks at roommate's phone."
+    ],
+    [
+      "1145-1147",
+      "I listen to a WeChat voice message about the heavy rain and broken fridge.",
+      "Voice message ends."
+    ],
+    [
+      "1148-1158",
+      "I joke with my roommate about getting diarrhea from the fruit.",
+      "Topic shifts to reporting the fridge repair."
+    ],
+    [
+      "1159-1169",
+      "I discuss where to report the broken fridge for repair with my roommate.",
+      "Focus shifts to roommate offering fruit."
+    ],
+    [
+      "1170-1172",
+      "I watch my roommate offer me a juicy pear slice.",
+      "Resumes eating and watching companions prepare food."
+    ],
+    [
+      "1173-1188",
+      "I eat hotpot while watching my companions prepare fruit and a bun.",
+      "Roommate offers fruit on a knife."
+    ],
+    [
+      "1189-1198",
+      "I watch my roommate offer a pear slice on the tip of a knife.",
+      "Roommate closes the window."
+    ],
+    [
+      "1199-1201",
+      "I watch my roommate close the window due to the rain.",
+      "Roommate starts peeling a turnip."
+    ],
+    [
+      "1202-1204",
+      "I prepare to accept a turnip slice from my roommate.",
+      "Resumes eating noodles."
+    ],
+    [
+      "1205-1215",
+      "I finish my noodles and pick food from the hotpot.",
+      "Pauses eating to hold a cutting board."
+    ],
+    [
+      "1216-1219",
+      "I hold a cutting board while my roommate browses her phone.",
+      "Resumes picking food from the hotpot."
+    ],
+    [
+      "1220-1231",
+      "I pick food from the hotpot and ask my companion if they want more.",
+      "Friend notes the broth is salty."
+    ],
+    [
+      "1232-1238",
+      "I agree to add water to the hotpot after my friend notes it is too salty.",
+      "Finished adjusting broth, searches for meat."
+    ],
+    [
+      "1239-1246",
+      "I search for remaining meat in the hotpot.",
+      "Asks roommate to remove a label."
+    ],
+    [
+      "1247-1249",
+      "I ask my roommate to remove a label from the ceiling lamp.",
+      "End of supplied sequence."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

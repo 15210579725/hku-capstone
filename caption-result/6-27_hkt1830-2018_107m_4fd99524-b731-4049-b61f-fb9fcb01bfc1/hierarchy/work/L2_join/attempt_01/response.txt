@@ -1,0 +1,13 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible boundary pairs to determine if the exact same immediate task continues across the transport batch limit. Merge only when the action and specific target (e.g., reading the exact same paper) remain identical.",
+  "merges": [
+    [32, 33, "I read the MM-Lifelong research paper, evaluation protocols, and code.", "Continuous reading of the same research paper across batch edge"]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

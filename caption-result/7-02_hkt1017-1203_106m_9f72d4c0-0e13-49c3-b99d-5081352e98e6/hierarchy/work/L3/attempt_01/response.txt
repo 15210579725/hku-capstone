@@ -1,0 +1,78 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group immediate L2 tasks into coherent activity episodes based on significant location changes, transit phases, and major shifts in sustained focus (e.g., separating distinct phases of smartphone activity during the long bus ride).",
+  "events": [
+    [
+      "0-6",
+      "I prepare my belongings and breakfast for departure from the hotel room.",
+      "Exiting the hotel room"
+    ],
+    [
+      "7-10",
+      "I navigate through the hotel to the street corner.",
+      "Entering the ride-hailing car"
+    ],
+    [
+      "11-17,30,31",
+      "I travel by car to the railway station.",
+      "Alighting from the car"
+    ],
+    [
+      "18-29",
+      "I navigate the city streets to locate the airport bus stop.",
+      "Arrival at the airport bus stop"
+    ],
+    [
+      "32-36,59",
+      "I board the airport bus for my flight.",
+      "Taking a seat on the airport bus"
+    ],
+    [
+      "37-53,70",
+      "I manage my schedule and travel communications on my smartphone during the bus trip.",
+      "Shift in focus to reading news and leisure content"
+    ],
+    [
+      "54-58,60-69",
+      "I browse articles and electric vehicle content on my smartphone during the bus trip.",
+      "Shift in focus to conversing and travel preparation"
+    ],
+    [
+      "71-78",
+      "I handle business communications and travel preparations during the final leg of the bus trip.",
+      "Alighting from the airport bus"
+    ],
+    [
+      "79-86",
+      "I complete my flight check-in at the airport departure hall.",
+      "Entering the security queue"
+    ],
+    [
+      "87-90",
+      "I pass through the domestic security screening checkpoint.",
+      "Entering the airside concourse"
+    ],
+    [
+      "91-95",
+      "I explore the amenities in the airside concourse.",
+      "Approaching the food court area"
+    ],
+    [
+      "96-101",
+      "I order a coffee at Starbucks in the airside food court.",
+      "Completion of coffee order"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "Events 13 and 15 indicate a significant change in travel plans due to a timing mistake, explaining the transition from arriving at the railway station to catching an airport bus instead."
+    ],
+    "boundary_cautions": [
+      "Divided the continuous 1-hour bus ride into three distinct L3 episodes to accurately reflect major shifts in primary smartphone activity (scheduling vs. reading) and final travel preparation."
+    ]
+  }
+}
+```

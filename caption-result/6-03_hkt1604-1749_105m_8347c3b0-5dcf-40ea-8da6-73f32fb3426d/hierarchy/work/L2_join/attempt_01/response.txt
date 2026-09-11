@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible pairs to merge only exact immediate tasks continuing across batch edges. Pair [19, 20] continues studying CDF lecture slides; merge. Pair [34, 35] shifts from a specific Claude dataset analysis to general slide review; do not merge. Pair [50, 51] continues reading about Agentic RL on Claude; merge. Pair [72, 73] shifts from conversing to observing an experiment; do not merge.",
+  "merges": [
+    [
+      19,
+      20,
+      "I study the lecture slides on Cumulative Density Function flow models.",
+      "Same slide studying task continues across batch edge"
+    ],
+    [
+      50,
+      51,
+      "I research Agentic RL and long video understanding using Claude.",
+      "Same Claude research task continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

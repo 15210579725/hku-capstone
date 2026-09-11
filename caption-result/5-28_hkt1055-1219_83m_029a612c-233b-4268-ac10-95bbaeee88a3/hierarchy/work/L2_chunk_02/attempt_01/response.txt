@@ -1,0 +1,99 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group contiguous actions into immediate tasks based on distinct conversations, room investigations, navigation goals, and menu interactions.",
+  "events": [
+    [
+      "250-282",
+      "I converse with Kim Kitsuragi about his glasses, notebook, and Seolite heritage.",
+      "Dialogue concludes"
+    ],
+    [
+      "283-294",
+      "I investigate the apartment hallway.",
+      "Moves to the padlocked door"
+    ],
+    [
+      "295-301",
+      "I search the adjoining room for items.",
+      "Finishes searching the room"
+    ],
+    [
+      "302-309",
+      "I attempt to speak with the cleaning woman.",
+      "Leaves the hallway area"
+    ],
+    [
+      "310-327",
+      "I converse with Cindy the Skull on the balcony.",
+      "Dialogue concludes and character leaves the area"
+    ],
+    [
+      "328-340",
+      "I investigate the boiler room.",
+      "Exits the boiler room"
+    ],
+    [
+      "341-350",
+      "I examine the torn wall in the courtyard.",
+      "Returns indoors"
+    ],
+    [
+      "351-364",
+      "I inspect the apartment doors in the hallway.",
+      "Opens the pause menu"
+    ],
+    [
+      "365-375",
+      "I review my journal tasks and inventory in the pause menu.",
+      "Closes menu to interact with the padlock"
+    ],
+    [
+      "376-391",
+      "I investigate the belongings inside apartment 11.",
+      "Leaves the apartment"
+    ],
+    [
+      "392-401",
+      "I question the cleaning woman about the smoker on the balcony.",
+      "Dialogue concludes"
+    ],
+    [
+      "402-411",
+      "I navigate the outdoor balcony to reach Cindy the Skull.",
+      "Reaches Cindy the Skull"
+    ],
+    [
+      "412-439",
+      "I question Cindy the Skull about the boiler room bed, the murder, and her mural.",
+      "Dialogue concludes"
+    ],
+    [
+      "440-464",
+      "I question the cleaning woman about Cindy and the building's residents.",
+      "Dialogue concludes"
+    ],
+    [
+      "465-475",
+      "I demand police entry at locked apartment door 10.",
+      "Refused entry and leaves the door"
+    ],
+    [
+      "476-485",
+      "I collect a coat and magnesium pills in the outdoor area.",
+      "Begins navigating to apartment 28"
+    ],
+    [
+      "486-499",
+      "I locate apartment 28 to investigate the smoker on the balcony.",
+      "Task concludes with Kim's advice"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

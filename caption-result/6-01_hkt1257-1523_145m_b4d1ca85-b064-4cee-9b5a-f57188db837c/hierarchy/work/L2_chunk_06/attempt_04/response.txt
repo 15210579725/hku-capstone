@@ -1,0 +1,89 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group action briefs into immediate tasks based on contiguous app usage, physical actions, and distinct conversation topics or activities with companions.",
+  "events": [
+    [
+      "0-12",
+      "I work on my laptop, reading research document notes and Claude AI summaries.",
+      "Task complete, leaves desk next"
+    ],
+    [
+      "13-20",
+      "I plug my phone into a charger at the power strip.",
+      "Charging task complete"
+    ],
+    [
+      "21-37",
+      "I watch an Inca mummy documentary video on the iPad.",
+      "Video content changes to feed next"
+    ],
+    [
+      "38-84",
+      "I browse the Xiaohongshu feed and watch various short videos.",
+      "App switch to Bilibili next"
+    ],
+    [
+      "85-89",
+      "I open the Bilibili app and scroll through video recommendations.",
+      "App switch next"
+    ],
+    [
+      "90-102",
+      "I open and interact with a planetary sound app on my iPad.",
+      "Switches to AI avatar app filters next"
+    ],
+    [
+      "103-106",
+      "I browse AI avatar style filters and select a reference image on the iPad.",
+      "Interrupted by conversation"
+    ],
+    [
+      "107-119",
+      "I talk to my friend about eyes looking like mung beans while she cleans up and lies down.",
+      "Conversation ends, return to iPad app"
+    ],
+    [
+      "120-134",
+      "I configure and generate an AI character concept on the iPad while my companion asks questions.",
+      "Returns to home screen and turns to friend"
+    ],
+    [
+      "135-146",
+      "I banter with my friend and look around the room at various objects.",
+      "Shifts to inspecting a specific item"
+    ],
+    [
+      "147-151",
+      "I inspect a cosmetic compact with my companion.",
+      "Task complete, item put away"
+    ],
+    [
+      "152-173",
+      "I sit with my companion and argue playfully about playing a game instead of working on my thesis.",
+      "Conversation ends as companion gets up"
+    ],
+    [
+      "174-187",
+      "I listen to my companion complain about doing household chores as she gets up.",
+      "Companion goes to bathroom to wash clothes"
+    ],
+    [
+      "188-207",
+      "I talk with my companion in the bathroom while watching her hand-wash and hang a garment.",
+      "Leaves bathroom to return to desk"
+    ],
+    [
+      "208-249",
+      "I sit at my desk and write research notes about LLMs and the Emotion-Why-How dataset on my laptop.",
+      "Continues to end of batch"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

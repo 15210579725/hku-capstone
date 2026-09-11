@@ -1,0 +1,134 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group atomic actions into continuous, immediate tasks based on clear physical transitions (e.g., crossing intersections, entering buildings) and shifts in interaction goals (e.g., app switching, conversation topics). Merge related observational, navigational, and incidental steps into unified goal statements without using banned conjunctions.",
+  "events": [
+    [
+      "0-4",
+      "I unlock a Meituan bicycle with my iPhone.",
+      "Unlocking bike complete"
+    ],
+    [
+      "5-12",
+      "I mount my yellow bicycle to ride with my companion.",
+      "Mounting bike complete, begins riding"
+    ],
+    [
+      "13-29",
+      "I ride my bicycle down the street alongside my companion.",
+      "Reaches intersection"
+    ],
+    [
+      "30-39",
+      "I cross the intersection via the zebra crossing on my bicycle.",
+      "Intersection crossing complete"
+    ],
+    [
+      "40-73",
+      "I ride my bicycle along the tree-lined street.",
+      "Reaches intersection at 梅捷路"
+    ],
+    [
+      "74-76",
+      "I cross the intersection at 梅捷路 on my bicycle.",
+      "Intersection crossing complete"
+    ],
+    [
+      "77-81",
+      "I cycle down the road towards the sidewalk corner.",
+      "Transitions to riding on the sidewalk"
+    ],
+    [
+      "82-117",
+      "I ride my bicycle along the illuminated walkway.",
+      "Reaches final crosswalk before parking area"
+    ],
+    [
+      "118-127",
+      "I park my shared bicycle at the designated area.",
+      "Bike parked, switches to payment"
+    ],
+    [
+      "128-135",
+      "I check the bicycle ride settlement screen on my iPhone.",
+      "Payment screen interaction complete"
+    ],
+    [
+      "136-137",
+      "I enter the building through the turnstile with the security guard's help.",
+      "Passes through turnstile"
+    ],
+    [
+      "138-148",
+      "I discuss the bicycle return status and ride cost with my companion.",
+      "Conversation about ride cost concludes"
+    ],
+    [
+      "149-161",
+      "I chat with an acquaintance during my walk towards the office building.",
+      "Walking path ends, begins using phone"
+    ],
+    [
+      "162-172",
+      "I browse WeChat group chats and the Official Accounts feed on my iPhone.",
+      "Switches focus from WeChat to real-world observation"
+    ],
+    [
+      "173-175",
+      "I discuss the ride-hailing access policy near the temporary taxi parking space.",
+      "Observation complete, resumes browsing WeChat"
+    ],
+    [
+      "176-183",
+      "I read WeChat Official Accounts articles during my walk into the building lobby.",
+      "Reaches lobby, transitions to entering elevator area"
+    ],
+    [
+      "184-187",
+      "I enter the elevator corridor past the reception desk.",
+      "Reaches elevator doors"
+    ],
+    [
+      "188-191",
+      "I summon the elevator to the 9th floor.",
+      "Elevator requested, waits inside"
+    ],
+    [
+      "192-198",
+      "I discuss the heat with my companion inside the elevator.",
+      "Elevator ride concludes, exits"
+    ],
+    [
+      "199-202",
+      "I walk down the office hallway from the elevator.",
+      "Hallway walk concludes, answers call"
+    ],
+    [
+      "203-207",
+      "I relocate to the bottom of the staircase to find a cooler spot for my WeChat video call.",
+      "Relocation to cooler spot complete"
+    ],
+    [
+      "208-219",
+      "I converse on the WeChat video call from the stairs.",
+      "Initial call conversation complete, begins browsing news"
+    ],
+    [
+      "220-236",
+      "I read AI news articles on WeChat during the video call.",
+      "News browsing concludes, resumes active call participation"
+    ],
+    [
+      "237-249",
+      "I talk to the cat on the WeChat video call.",
+      "End of provided events"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,124 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous action briefs into immediate tasks based on shared primary targets, such as specific smartphone browsing topics, transit progression steps, and distinct mall navigation segments between escalators.",
+  "events": [
+    [
+      "500-514",
+      "I browse portable mini fans on Taobao.",
+      "Target shifts from portable fans to a laptop search"
+    ],
+    [
+      "515-519",
+      "I search for MacBook laptops on Taobao.",
+      "Interrupted by observing the arriving train and rain"
+    ],
+    [
+      "520-528",
+      "I observe the arriving train and the sun shower during a conversation about umbrellas.",
+      "Shifts back to browsing items on the smartphone"
+    ],
+    [
+      "529-532",
+      "I browse MacBook and clothing listings on Taobao.",
+      "Target shifts to searching for Dyson hair dryers"
+    ],
+    [
+      "533-548",
+      "I browse Dyson hair dryers and recommendation feeds on Taobao.",
+      "Target shifts to searching for Ricoh cameras"
+    ],
+    [
+      "549-567",
+      "I search for Ricoh GR cameras on Taobao during a price discussion with my companions.",
+      "Target shifts to searching for guitars"
+    ],
+    [
+      "568-579",
+      "I browse Taobao guitar listings during a companion's discussion about lunch options.",
+      "Phone use ends to disembark the train"
+    ],
+    [
+      "580-586",
+      "I disembark the train to exit through the Kowloon Tong Station fare gates.",
+      "Station exit completes; shifts to navigating the outdoor footbridge"
+    ],
+    [
+      "587-610",
+      "I follow the covered pedestrian footbridge toward the shopping mall.",
+      "Footbridge walk completes at the mall entrance"
+    ],
+    [
+      "611-621",
+      "I enter the shopping mall to walk toward the descending escalators.",
+      "Mall entry walk ends at the descending escalator"
+    ],
+    [
+      "622-629",
+      "I ride the escalator down to the lower level.",
+      "Escalator ride ends to walk along the corridor"
+    ],
+    [
+      "630-645",
+      "I walk past beauty boutiques along the mall corridor toward the next descending escalator.",
+      "Corridor walk ends at the descending escalator"
+    ],
+    [
+      "646-648",
+      "I ride the descending escalator to the lower concourse.",
+      "Escalator ride ends to walk the lower concourse"
+    ],
+    [
+      "649-665",
+      "I traverse the mall concourse past storefronts during a conversation about physical force.",
+      "Concourse walk stops to examine a restaurant menu"
+    ],
+    [
+      "666-681",
+      "I evaluate the lunch menus and dessert displays at Amaroni's Restaurant & Café.",
+      "Restaurant evaluation ends to resume walking"
+    ],
+    [
+      "682-689",
+      "I walk past retail stores toward the atrium escalator.",
+      "Walk ends at the ascending escalator"
+    ],
+    [
+      "690-698",
+      "I ride the escalator upward.",
+      "Escalator ride ends to walk the upper concourse"
+    ],
+    [
+      "699-712",
+      "I walk past a pet store and fashion boutiques toward the next ascending escalator.",
+      "Concourse walk ends at the ascending escalator"
+    ],
+    [
+      "713-721",
+      "I ride the escalator up to the next floor.",
+      "Escalator ride ends to walk the next floor"
+    ],
+    [
+      "722-731",
+      "I walk past the cinema and cafes toward the ascending escalator.",
+      "Concourse walk ends at the ascending escalator"
+    ],
+    [
+      "732-737",
+      "I ride the escalator up.",
+      "Escalator ride ends to observe the top floor"
+    ],
+    [
+      "738-749",
+      "I observe the mall displays and ice rink to prepare for a top-floor lunch.",
+      "Observation continues through the end of the input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

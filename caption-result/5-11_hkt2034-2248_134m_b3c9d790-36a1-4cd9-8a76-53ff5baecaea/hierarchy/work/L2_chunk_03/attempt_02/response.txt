@@ -1,0 +1,101 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group inputs into immediate tasks based on continuous interactions with specific problems or applications. Boundaries are set when the user switches to a new sub-problem, changes tools (e.g., from notepad to Chrome or ChatGPT), or shifts focus to a new activity like checking notifications and reviewing paper feedback.",
+  "events": [
+    [
+      "500-532",
+      "I calculate the first three power iteration vectors for the PCA exam problem on my notepad.",
+      "Completes the power iteration calculations and moves to read problem 3(b)."
+    ],
+    [
+      "533-542",
+      "I write the Rayleigh quotient eigenvalue formula for problem 3(b) on my notepad.",
+      "Switches to using the Chrome address bar for a numerical computation."
+    ],
+    [
+      "543-549",
+      "I calculate a fraction using the Chrome address bar.",
+      "Finishes the browser calculation and returns to reviewing handwritten notes."
+    ],
+    [
+      "550-567",
+      "I review my handwritten power iteration and eigenvalue calculations.",
+      "Re-reads question (b) and begins searching ChatGPT for derivation help."
+    ],
+    [
+      "568-583",
+      "I use ChatGPT to verify the derivation and power iteration steps for problem (b).",
+      "Completes the ChatGPT derivation review and switches to problem (c) in the exam PDF."
+    ],
+    [
+      "584-593",
+      "I read the PCA and SVD exam questions and consult my handwritten math notes.",
+      "Queries ChatGPT for an SVD explanation."
+    ],
+    [
+      "594-616",
+      "I use ChatGPT to learn the SVD process and calculation steps.",
+      "A notification on the phone triggers checking messages, pausing the homework."
+    ],
+    [
+      "617-631",
+      "I check notifications and reply to WeChat messages on my phone.",
+      "Opens Feishu to read specific paper review messages."
+    ],
+    [
+      "632-636",
+      "I read paper review messages from User X on Feishu.",
+      "Copies the MDPI review URL to log into the portal."
+    ],
+    [
+      "637-648",
+      "I log into the MDPI portal to read Reviewer 1's comments.",
+      "Navigates to Outlook to check the major revision decision email."
+    ],
+    [
+      "649-670",
+      "I read the Entropy Major Revision decision email in Outlook.",
+      "Opens the MDPI manuscript status page to review the portal details."
+    ],
+    [
+      "671-690",
+      "I check the manuscript status and reviewer comments on MDPI Susy.",
+      "Starts typing a summary of the reviewer requirements in the group chat."
+    ],
+    [
+      "691-701",
+      "I message my group chat about the reviewer revision requirements.",
+      "Finishes sending the chat message and returns to reading the reviewer comments on the laptop."
+    ],
+    [
+      "702-707",
+      "I read the reviewer comments and author response draft on my laptop.",
+      "Switches to Clash Verge and Spotlight to prepare sending a screenshot."
+    ],
+    [
+      "708-718",
+      "I send a screenshot of the review report in Feishu.",
+      "Abandons the paper review task and resumes reading the SVD steps on ChatGPT."
+    ],
+    [
+      "719-728",
+      "I read the SVD calculation steps on ChatGPT.",
+      "Switches to the exam PDF and begins writing calculations."
+    ],
+    [
+      "729-749",
+      "I write SVD matrix and eigenvalue calculations on my notepad.",
+      "Ends with the completion of the provided clips."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      617
+    ],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,39 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks based on clear location shifts and primary activities: navigating the parking lot, crossing the street, walking through the market corridor, crossing the plaza, and washing hands in the restroom.",
+  "events": [
+    [
+      "0-7",
+      "I navigate the parking lot and observe parked cars with my companion.",
+      "Focus shifts to navigating out of the parking area and crossing the street"
+    ],
+    [
+      "8-12",
+      "I cross the street while listening to navigation and discussing sun protection.",
+      "Enters the market corridor"
+    ],
+    [
+      "13-18",
+      "I walk through the market corridor and inspect shop posters and a menu.",
+      "Enters the open plaza"
+    ],
+    [
+      "19-29",
+      "I walk across the plaza while observing advertisements, stalls, and signs.",
+      "Approaches the restroom"
+    ],
+    [
+      "30-37",
+      "I walk into the restroom and wash my hands.",
+      "Recording ends"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

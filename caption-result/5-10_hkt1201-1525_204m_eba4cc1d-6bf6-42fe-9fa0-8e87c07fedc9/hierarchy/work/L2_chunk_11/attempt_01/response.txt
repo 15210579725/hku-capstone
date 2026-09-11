@@ -1,0 +1,49 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group consecutive brief actions into immediate cohesive tasks: discussing directions, observing the walkway, conversing about sleeping, observing the terminal approach, handling the wallet during ID discussion, entering the departure hall, and heading to the restroom.",
+  "events": [
+    [
+      "2500-2501",
+      "I discuss walking directions with my companion.",
+      "Conversation concludes"
+    ],
+    [
+      "2502-2505",
+      "I observe billboards and cyclists along the walkway.",
+      "Shift to a new conversation"
+    ],
+    [
+      "2506-2509",
+      "I converse with my companion about sleeping.",
+      "Conversation concludes"
+    ],
+    [
+      "2510-2516",
+      "I observe the ferry terminal approach and cyclists during a brief remark about aging.",
+      "Shift to handling items and ID discussion"
+    ],
+    [
+      "2517-2525",
+      "I secure my wallet in my backpack during a discussion about ID requirements and bag checks.",
+      "Task concludes, proceeding to building"
+    ],
+    [
+      "2526-2531",
+      "I walk down the ramp to enter Departure Hall 2.",
+      "Arrival inside the hall"
+    ],
+    [
+      "2532-2534",
+      "I proceed towards the restroom steps.",
+      "End of input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

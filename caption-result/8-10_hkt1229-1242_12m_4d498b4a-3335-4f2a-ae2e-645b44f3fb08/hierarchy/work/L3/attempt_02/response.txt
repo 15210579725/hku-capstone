@@ -1,0 +1,34 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group tasks into coherent episodes based on the primary document or activity: composing the email to Prof. X, composing the email to Prof. Rajendran, conducting general administrative checks, and inserting earplugs. Incidental actions like setting up the laptop or blowing one's nose are absorbed into the overarching task.",
+  "events": [
+    [
+      "0-7",
+      "I compose a PhD inquiry email to Prof. X regarding computational wellbeing and digital twins.",
+      "Email is scheduled and the user moves to a new draft."
+    ],
+    [
+      "8-16",
+      "I compose a PhD inquiry email to Prof. Rajendran regarding meta-RL.",
+      "Email is scheduled and the user transitions to administrative checks."
+    ],
+    [
+      "17-20",
+      "I review my email inboxes, PhD application templates, and browser tabs.",
+      "Administrative review concludes before a physical self-care action."
+    ],
+    [
+      "21",
+      "I insert foam earplugs.",
+      "Recording ends."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,11 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible pairs to determine if they continue the exact same immediate task across transport batch edges. Pair [19, 20] transitions from eating noodles to wiping hands. Pair [36, 37] transitions from preparing to resume riding to actively riding the bicycle. Because both pairs represent distinct sequential actions rather than a single uninterrupted immediate task, no merges are performed.",
+  "merges": [],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

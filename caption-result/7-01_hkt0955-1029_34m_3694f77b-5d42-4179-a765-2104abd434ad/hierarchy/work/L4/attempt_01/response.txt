@@ -1,0 +1,36 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group L3 episodes into broader goal-oriented phases based on major location changes and primary activities: initial transit, the comprehensive breakfast meal and discussion, the lounge visit, and the return transit.",
+  "events": [
+    [
+      "0",
+      "I travel from my hotel room down the elevator with my companion.",
+      "Distinct transit phase"
+    ],
+    [
+      "1-6",
+      "I consume my breakfast buffet meal during a discussion about local hospitality services and marketing with my companion and the homestay staff.",
+      "Unifies the continuous breakfast dining and conversation sequence"
+    ],
+    [
+      "7",
+      "I interact with the caged pet birds in the upstairs lounge area.",
+      "Distinct activity and location change to the lounge"
+    ],
+    [
+      "8",
+      "I return to my fourth-floor hotel room via the elevator.",
+      "Final transit phase back to the room"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": [
+      "Transit sequences (0 and 8) are maintained as separate phases from the main location activities to ensure each description expresses a single unified objective without chaining consecutive verbs."
+    ]
+  }
+}
+```

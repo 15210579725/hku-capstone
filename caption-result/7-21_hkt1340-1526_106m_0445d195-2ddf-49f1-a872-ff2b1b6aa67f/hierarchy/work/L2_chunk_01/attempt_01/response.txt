@@ -1,0 +1,109 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions in the terminal, browser, and Claude Code dashboard into immediate tasks based on their specific unified objectives such as composing prompts, monitoring deployments, managing tasks, or searching for information. Boundary cuts are made when the primary application focus or immediate objective shifts.",
+  "events": [
+    [
+      "0-9",
+      "I review the fine-tuning evaluation metric table on Feishu.",
+      "Switches to inspecting the USB adapter and opening the Claude terminal."
+    ],
+    [
+      "10-15",
+      "I compact the fine-tuning conversation in the Claude terminal.",
+      "Begins typing a new multi-stage prompt in the terminal."
+    ],
+    [
+      "16-47",
+      "I compose a multi-stage fine-tuning prompt for the Codex process.",
+      "Finishes the prompt and switches to monitoring GPU availability."
+    ],
+    [
+      "48-63",
+      "I monitor the Claude Code GPU allocation and vLLM deployment plan.",
+      "Shifts focus to reviewing run_eval.py arguments and server startup errors."
+    ],
+    [
+      "64-77",
+      "I investigate the vLLM server startup error and run_eval.py script parameters.",
+      "Opens the background tasks modal."
+    ],
+    [
+      "78-80",
+      "I review the running background tasks modal in Claude Code.",
+      "Closes the modal and launches a new Claude Code terminal."
+    ],
+    [
+      "81-98",
+      "I launch Claude Code to review and exit the task 02 session.",
+      "Switches to restarting the multi-agent dashboard."
+    ],
+    [
+      "99-104",
+      "I restart the Claude multi-agent dashboard.",
+      "Selects the task 02 session to restart and clear its context."
+    ],
+    [
+      "105-126",
+      "I restart and clear multiple Claude Code task sessions.",
+      "Switches to ChatGPT to ask for help on terminating active tasks."
+    ],
+    [
+      "127-135",
+      "I ask ChatGPT how to terminate a working Claude Code task.",
+      "Returns to Claude Code to manually inspect and stop tasks."
+    ],
+    [
+      "136-144",
+      "I inspect and stop the qwen3.5 dataset evaluation task in Claude Code.",
+      "Proceeds to delete multiple inactive tasks from the dashboard."
+    ],
+    [
+      "145-154",
+      "I delete multiple inactive tasks from the Claude Code dashboard.",
+      "Shifts to renaming specific agent sessions."
+    ],
+    [
+      "155-171",
+      "I rename and delete agent sessions in the Claude Code dashboard.",
+      "Opens the context saturation analysis task."
+    ],
+    [
+      "172-175",
+      "I read the context saturation analysis results in the Claude Code session.",
+      "Switches back to inspecting background agent tasks and deployment logs."
+    ],
+    [
+      "176-187",
+      "I review vLLM deployment logs and documentation diffs in the Claude Code background agents.",
+      "Begins reading a detailed subagent report on Qwen3.5-4B."
+    ],
+    [
+      "188-207",
+      "I read the Claude subagent reports regarding the Qwen3.5-4B vLLM setup and CUDA incompatibility.",
+      "Switches to Feishu and other applications for a quick review."
+    ],
+    [
+      "208-212",
+      "I review information across Feishu, ChatGPT, Claude Code, and Google Search.",
+      "Returns to Claude Code to compact conversation and issue a test command."
+    ],
+    [
+      "213-223",
+      "I instruct Claude Code to execute a smoke test and review Qwen 3.5 benchmarks.",
+      "Launches Codex to compose a new inference testing prompt."
+    ],
+    [
+      "224-249",
+      "I compose a prompt in Codex to test model inference and fine-tuning on available GPUs.",
+      "Ends batch while positioning hands to continue typing."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,31 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group coherent episodes into broader goal-oriented phases: commuting to the residential building with a shopping stop, conducting individual action-prediction evaluation work, and instructing a companion on the task.",
+  "events": [
+    [
+      "0-3",
+      "I commute to my residential building with my companion, including a stop to purchase ice cream at the mall.",
+      "Arrival at the residence concludes the commute phase, shifting focus to indoor work tasks."
+    ],
+    [
+      "4-8",
+      "I perform action-prediction model evaluation and annotation tasks in my bedroom.",
+      "Transition from individual annotation work to explicitly training the companion."
+    ],
+    [
+      "9-10",
+      "I train my companion on the action-prediction scoring criteria and annotation rules.",
+      "End of input."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": [
+      "Episodes 8 and 9 overlap significantly in time, indicating a gradual or concurrent shift from individual work to instruction; they are grouped into their respective primary phases."
+    ]
+  }
+}
+```

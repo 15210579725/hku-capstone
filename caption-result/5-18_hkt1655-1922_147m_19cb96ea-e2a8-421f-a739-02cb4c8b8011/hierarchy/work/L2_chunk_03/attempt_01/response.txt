@@ -1,0 +1,129 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group action briefs into immediate L2 tasks based on continuous goal-directed behavior, such as navigating a specific segment of a route, browsing a distinct store section, completing a transaction, or waiting for an elevator.",
+  "events": [
+    [
+      "500-505",
+      "I walk along the commercial corridor.",
+      "Reaches Japan Home Centre."
+    ],
+    [
+      "506-513",
+      "I navigate to the household aisles in Japan Home Centre.",
+      "Reaches the trash bag section."
+    ],
+    [
+      "514-528",
+      "I inspect trash bags in Japan Home Centre.",
+      "Moves to the beverage aisle."
+    ],
+    [
+      "529-564",
+      "I browse the snacks and beverages in Japan Home Centre.",
+      "Moves to checkout."
+    ],
+    [
+      "565-569",
+      "I pay for my items at the Japan Home Centre checkout.",
+      "Completes payment."
+    ],
+    [
+      "570-575",
+      "I message my partner on WeChat.",
+      "Stops messaging to wait at a crossing."
+    ],
+    [
+      "576-584",
+      "I observe an armored truck at a pedestrian crossing.",
+      "Crosses the street and reaches the produce stall."
+    ],
+    [
+      "585-598",
+      "I select cucumbers and tomatoes at a street vegetable stall.",
+      "Initiates digital payment."
+    ],
+    [
+      "599-606",
+      "I pay for the vegetables using WeChat Pay.",
+      "Completes payment and leaves the stall."
+    ],
+    [
+      "607-616",
+      "I walk along the street toward the Wellcome supermarket.",
+      "Enters the supermarket."
+    ],
+    [
+      "617-625",
+      "I select packaged tomatoes in the Wellcome supermarket.",
+      "Moves to the fruit display."
+    ],
+    [
+      "626-632",
+      "I select a bunch of bananas at the fruit display stand.",
+      "Moves to the self-service scale."
+    ],
+    [
+      "633-640",
+      "I weigh the bananas at the self-service scale.",
+      "Completes weighing and labeling."
+    ],
+    [
+      "641-652",
+      "I pay for my items at the self-checkout station using Alipay.",
+      "Completes checkout."
+    ],
+    [
+      "653-661",
+      "I walk to the Municipal Services Building.",
+      "Enters the building lobby."
+    ],
+    [
+      "662-671",
+      "I wait for the elevator in the Municipal Services Building lobby.",
+      "Boards the elevator."
+    ],
+    [
+      "672-680",
+      "I ride the elevator up to the food centre.",
+      "Arrives at the food centre floor."
+    ],
+    [
+      "681-694",
+      "I observe the food centre.",
+      "Leaves the food centre to walk outside."
+    ],
+    [
+      "695-715",
+      "I walk along the street.",
+      "Reaches an outdoor concrete staircase."
+    ],
+    [
+      "716-722",
+      "I descend an outdoor concrete staircase.",
+      "Reaches the residential building steps."
+    ],
+    [
+      "723-731",
+      "I enter the residential building lobby.",
+      "Reaches the elevator."
+    ],
+    [
+      "732-735",
+      "I board the building elevator.",
+      "Elevator ride begins."
+    ],
+    [
+      "736-749",
+      "I ride the building elevator.",
+      "End of input batch."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

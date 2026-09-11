@@ -1,0 +1,124 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous sequences of action briefs into unified immediate tasks based on the primary application, document, or specific tool being interacted with. Breaks for resting, looking around, or thinking are abstracted as their own separate tasks. Distinct queries, code monitoring, reading sessions, and application switches are separated at this level.",
+  "events": [
+    [
+      "500-512",
+      "I monitor the Claude Code agent's compilation, SSH key watchdog strategy, and heal-key tool creation.",
+      "Goal completes when the heal-key file creation and execution are confirmed."
+    ],
+    [
+      "513-525",
+      "I instruct the Claude Code agent regarding model switching and the preservation of other users' SSH keys.",
+      "Goal shifts from commanding the agent to an external conversation after verifying the keys."
+    ],
+    [
+      "526-527",
+      "I briefly converse with a colleague regarding my human status.",
+      "Conversation ends, shifting back to independent screen work."
+    ],
+    [
+      "528-550",
+      "I review the agent evaluation framework, deployment architecture, and associated GPU statistics.",
+      "Switches focus from the evaluation dashboard to a different application."
+    ],
+    [
+      "551-554",
+      "I examine the cluster admin web terminal and GPU output in Google Chrome.",
+      "Focus shifts from cluster admin to reading personal and group WeChat messages."
+    ],
+    [
+      "555-561",
+      "I check my WeChat messages and WeChat Official Accounts articles.",
+      "Finishes reading messages and switches back to work tools."
+    ],
+    [
+      "562-564",
+      "I transition my workspace from the terminal to the Feishu Wiki tab.",
+      "Completes the application switch to begin editing the Feishu document."
+    ],
+    [
+      "565-588",
+      "I draft Feishu document notes on next-action prediction and alignment with human actions.",
+      "Writing pauses as I take a physical break to rest and look around."
+    ],
+    [
+      "589-602",
+      "I take a physical resting break away from the screen.",
+      "Break concludes as I return my attention to the laptop screen."
+    ],
+    [
+      "603-628",
+      "I read the document text on my laptop screen.",
+      "Reading pauses for another brief visual and physical rest."
+    ],
+    [
+      "629-638",
+      "I take a visual break targeting the window and my lap.",
+      "Break ends when I resume typing notes on the laptop."
+    ],
+    [
+      "639-650",
+      "I type document notes concerning JEPA and independent Gaussian analysis.",
+      "Typing pauses for a thinking break."
+    ],
+    [
+      "651-660",
+      "I sit with my hands clasped for a thinking break.",
+      "Thinking break concludes as I resume reading notes on the laptop."
+    ],
+    [
+      "661-677",
+      "I read research notes on action prediction, caption embeddings, and semantic alignment.",
+      "Switches from reading notes to reviewing Codex documentation and terminal logs."
+    ],
+    [
+      "678-684",
+      "I review the Codex documentation, execution logs, and deployment options.",
+      "Transitions to running active diagnostic commands in the terminal."
+    ],
+    [
+      "685-687",
+      "I run and monitor Claude Code SSH key diagnostic commands in the terminal.",
+      "Focus shifts to reviewing server console information and Claude model fallback options."
+    ],
+    [
+      "688-698",
+      "I examine the server web console and Claude Code model fallback options.",
+      "Transitions from reviewing options to actively querying the terminal about connection methods."
+    ],
+    [
+      "699-714",
+      "I query the Claude Code terminal regarding SSH connection methods.",
+      "Finishes the SSH query and navigates to the cluster dashboard."
+    ],
+    [
+      "715-740",
+      "I inspect the cluster dashboard for resource usage metrics, job history, and GPU nodes.",
+      "Dashboard review ends as I return to typing a query into the terminal agent."
+    ],
+    [
+      "741-744",
+      "I monitor the terminal agent's execution of my submitted query.",
+      "Command execution monitoring ends as I switch to reading comparison notes."
+    ],
+    [
+      "745-745",
+      "I read the embedding and LLM-judge comparison notes.",
+      "Switches context to reviewing cloud compute and allocation options."
+    ],
+    [
+      "746-749",
+      "I review the cloud compute resource table and Slurm GPU allocation options.",
+      "Reaches the end of the batch."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

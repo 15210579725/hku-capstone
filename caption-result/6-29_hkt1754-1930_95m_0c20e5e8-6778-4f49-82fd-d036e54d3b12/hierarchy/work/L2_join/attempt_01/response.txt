@@ -1,0 +1,3 @@
+```json
+{"target_level":"L2_JOIN","plan":"Evaluate eligible boundary pairs to merge only immediate tasks artificially split by batch boundaries, avoiding merging distinct sequential tasks like walking then entering, or driving then parking.","merges":[[25,26,"I pick food from the lotus-petal dish and discuss Guilin with my companion.","Same eating action continues across batch edge"],[49,50,"I apply mosquito repellent to my legs and feet after receiving the bottle from my companion.","Same mosquito repellent application task continues across batch edge"],[116,117,"I navigate the electric cart to an alternative parking spot following the attendant's directions.","Same parking navigation task continues across batch edge"]],"audit":{"complete":true,"uncertainties":[]}}
+```

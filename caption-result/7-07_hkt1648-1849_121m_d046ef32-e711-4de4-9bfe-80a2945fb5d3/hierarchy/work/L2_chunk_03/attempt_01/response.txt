@@ -1,0 +1,94 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous riding sequences, waiting at intersections, walking between stores, testing specific electronics, and examining vehicles into distinct immediate tasks.",
+  "events": [
+    [
+      "500-546",
+      "I ride my electric scooter along the road.",
+      "Ends when stopping to wait at the intersection."
+    ],
+    [
+      "547-555",
+      "I wait at the intersection on my electric scooter.",
+      "Ends when the light changes and riding resumes."
+    ],
+    [
+      "556-582",
+      "I ride my electric scooter along the road.",
+      "Ends when pulling over to park the scooter."
+    ],
+    [
+      "583-591",
+      "I park and return my rental electric scooter using the app.",
+      "Ends when the scooter is returned and walking to the mall begins."
+    ],
+    [
+      "592-600",
+      "I walk into the shopping mall.",
+      "Ends when entering the Honor store."
+    ],
+    [
+      "601-642",
+      "I test a foldable smartphone at the Honor store.",
+      "Ends when placing the phone back on the stand and leaving the store."
+    ],
+    [
+      "643-652",
+      "I walk through the mall corridor past the pet enclosures.",
+      "Ends when approaching the vivo store."
+    ],
+    [
+      "653-675",
+      "I test the vivo X Fold6 smartphone at the vivo store.",
+      "Ends when finishing testing and walking back into the mall concourse."
+    ],
+    [
+      "676-683",
+      "I walk through the mall corridor while checking my phone.",
+      "Ends when approaching the SUV display."
+    ],
+    [
+      "684-699",
+      "I examine the interior of a silver SUV.",
+      "Ends when exiting the silver SUV to check another vehicle."
+    ],
+    [
+      "700-716",
+      "I examine the interior of a grey SUV.",
+      "Ends when stepping out of the SUV and continuing through the mall."
+    ],
+    [
+      "717-724",
+      "I walk through the mall atrium.",
+      "Ends when approaching the escalator."
+    ],
+    [
+      "725-733",
+      "I ride the escalator down to the lower floor.",
+      "Ends when reaching the lower floor."
+    ],
+    [
+      "734-741",
+      "I walk past food stalls and kiosks in the mall.",
+      "Ends when stopping at a bakery."
+    ],
+    [
+      "742-748",
+      "I browse pastries at the bakery.",
+      "Ends when leaving the bakery to walk toward a restaurant."
+    ],
+    [
+      "749",
+      "I walk toward the SUSHI EXPRESS restaurant.",
+      "Ends at the final observation."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

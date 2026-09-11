@@ -1,0 +1,34 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group preparation and commuting into a unified travel phase. Combine food procurement and dining into a single meal phase. Keep the hour-long smartphone media session as a distinct leisure phase. Unify the food tray return and subsequent walk into a single departure and transit phase to the library.",
+  "events": [
+    [
+      "0-1",
+      "I travel from my residential compound to the dining atrium.",
+      "Arrival at the dining atrium."
+    ],
+    [
+      "2-3",
+      "I share a meal with my dining companion.",
+      "Meal consumption ends, shifting to extended smartphone usage."
+    ],
+    [
+      "4",
+      "I view digital media on my smartphone.",
+      "Media viewing concludes to prepare for departure."
+    ],
+    [
+      "5-6",
+      "I transit from the canteen to the Main Library.",
+      "End of provided sequence."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

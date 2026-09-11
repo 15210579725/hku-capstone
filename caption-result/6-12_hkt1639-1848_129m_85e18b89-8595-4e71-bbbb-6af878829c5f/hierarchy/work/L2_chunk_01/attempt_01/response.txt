@@ -1,0 +1,79 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group actions into immediate tasks by identifying continuous engagement with specific applications, documents, or topics. Boundaries mark clear shifts in focus, such as switching from browsing X to tidying the desk, submitting an annotation to load a new interface, or transitioning between distinct conversational topics or documents.",
+  "events": [
+    [
+      "0-4",
+      "I prepare for laptop use by cleaning my glasses.",
+      "Switches from preparation to browsing X"
+    ],
+    [
+      "5-23",
+      "I browse X for posts about AI research and Claude Code.",
+      "Shifts from browsing X to tidying the desk"
+    ],
+    [
+      "24-30",
+      "I tidy my desk with a tissue.",
+      "Switches focus to working in a Notion document"
+    ],
+    [
+      "31-45",
+      "I take notes on AI reasoning in a Notion document.",
+      "Moves to review model evaluation results in a modal dialog"
+    ],
+    [
+      "46-54",
+      "I review egocentric model evaluation results on emotion computing.",
+      "Starts a new video annotation task"
+    ],
+    [
+      "55-99",
+      "I complete a video annotation for a hotpot ingredient request.",
+      "Completes annotation submission and loads a new interface"
+    ],
+    [
+      "100-130",
+      "I draft notes for the model evaluation text in the annotation interface.",
+      "Transitions from typing annotations to reading research documents"
+    ],
+    [
+      "131-152",
+      "I read a document covering multimodal emotion reasoning and machine learning research guidelines.",
+      "Switches browser tab to browse X"
+    ],
+    [
+      "153-177",
+      "I read X posts advising to pick problems and upgrade inputs.",
+      "Opens an AI chat interface for a sub-agent task"
+    ],
+    [
+      "178-194",
+      "I interact with an AI chat interface regarding a sub-agent task specification.",
+      "Returns to X to review post drafts"
+    ],
+    [
+      "195-219",
+      "I review an X post draft about writing everything down.",
+      "Scrolls to review a different X post draft"
+    ],
+    [
+      "220-234",
+      "I review X post drafts about tightening the loop and staring at outputs.",
+      "Navigates to read new published X posts"
+    ],
+    [
+      "235-249",
+      "I read X posts about wandering on purpose and machine learning research.",
+      "End of provided input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

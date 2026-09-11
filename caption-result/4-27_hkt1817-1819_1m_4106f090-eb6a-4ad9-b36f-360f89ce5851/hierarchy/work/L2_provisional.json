@@ -1,20 +1,20 @@
 [
   {
     "id": 0,
-    "start": 38544,
-    "end": 38546,
-    "text": "I make a conversational remark on an outdoor balcony terrace.",
+    "start": 65820,
+    "end": 65822,
+    "text": "I express verbal approval.",
     "refs": [
       0
     ],
-    "boundary_reason": "Utterance ends",
+    "boundary_reason": "Standalone conversation snippet",
     "origin_chunk": 1
   },
   {
     "id": 1,
-    "start": 38546,
-    "end": 38573,
-    "text": "I connect a power bank from my backpack to my smart glasses.",
+    "start": 65822,
+    "end": 65849,
+    "text": "I connect my smart glasses to a backpack power bank.",
     "refs": [
       1,
       2,
@@ -22,48 +22,68 @@
       4,
       5
     ],
-    "boundary_reason": "Device connected",
+    "boundary_reason": "Power bank and cable connection sequence complete",
     "origin_chunk": 1
   },
   {
     "id": 2,
-    "start": 38574,
-    "end": 38590,
-    "text": "I adjust my smart glasses on my face.",
+    "start": 65850,
+    "end": 65860,
+    "text": "I adjust my smart glasses.",
     "refs": [
-      6,
-      7
+      6
     ],
-    "boundary_reason": "Hands lowered",
+    "boundary_reason": "Standalone physical adjustment",
     "origin_chunk": 1
   },
   {
     "id": 3,
-    "start": 38590,
-    "end": 38600,
-    "text": "I navigate to the Aria app on my smartphone.",
+    "start": 65860,
+    "end": 65866,
+    "text": "I observe the balcony view.",
     "refs": [
-      8,
-      9,
-      10,
-      11,
-      12
+      7
     ],
-    "boundary_reason": "App launched",
+    "boundary_reason": "Standalone observation",
     "origin_chunk": 1
   },
   {
     "id": 4,
-    "start": 38600,
-    "end": 38609,
-    "text": "I review the smart glasses recording status and device settings in the Aria Dashboard app.",
+    "start": 65866,
+    "end": 65868,
+    "text": "I propose a mutual recording strategy.",
     "refs": [
+      8
+    ],
+    "boundary_reason": "Standalone conversation snippet",
+    "origin_chunk": 1
+  },
+  {
+    "id": 5,
+    "start": 65868,
+    "end": 65874,
+    "text": "I access an in-progress ChatGPT query on my phone.",
+    "refs": [
+      9,
+      10,
+      11
+    ],
+    "boundary_reason": "Phone unlocking and ChatGPT access complete",
+    "origin_chunk": 1
+  },
+  {
+    "id": 6,
+    "start": 65874,
+    "end": 65885,
+    "text": "I inspect the smart glasses recording status and device settings in the Aria app.",
+    "refs": [
+      12,
       13,
       14,
       15,
       16
     ],
-    "boundary_reason": "Finished viewing settings",
+    "boundary_reason": "Aria app usage sequence complete",
     "origin_chunk": 1
   }
 ]

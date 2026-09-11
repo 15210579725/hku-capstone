@@ -1,0 +1,49 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks based on the primary focus, such as reading specific articles, browsing feeds, reviewing reports, or interacting with a colleague. Incidental looks, brief comments, and interface interactions are abstracted into their overarching task.",
+  "events": [
+    [
+      "0-25",
+      "I read the QuantumBit article about the Kairos-Homeworld embodied AI model.",
+      "User transitions to reading a new article."
+    ],
+    [
+      "26-55",
+      "I read an article about AI risks in DNA synthesis and biosecurity.",
+      "User finishes the article and returns to the feed."
+    ],
+    [
+      "56-59",
+      "I browse the WeChat Official Accounts subscription feed on my phone.",
+      "User shifts attention from the phone to the MacBook."
+    ],
+    [
+      "60-62",
+      "I review the Claude Code prompt iteration report on my MacBook.",
+      "Interrupted by a colleague showing something on their screen."
+    ],
+    [
+      "63-67",
+      "I view a weather alert on my colleague's laptop screen.",
+      "Interaction with the colleague concludes."
+    ],
+    [
+      "68-71",
+      "I read markdown files in VS Code.",
+      "Task focus shifts to troubleshooting API logs."
+    ],
+    [
+      "72-75",
+      "I troubleshoot Claude API errors in the usage logs.",
+      "End of input sequence."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

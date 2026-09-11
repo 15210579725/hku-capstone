@@ -1,0 +1,146 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group action briefs into immediate physical tasks such as riding the elevator, purchasing food, consuming specific portions of a meal, inspecting gym equipment, and discovering a locked door.",
+  "events": [
+    [
+      "0-7",
+      "I wait for the elevator in the corridor.",
+      "Groups actions of standing in the corridor waiting for the elevator."
+    ],
+    [
+      "8-14",
+      "I ride the elevator down to the basement.",
+      "Groups actions inside the moving elevator."
+    ],
+    [
+      "15-23",
+      "I walk through the parking garage.",
+      "Groups transitioning from the elevator through the parking area."
+    ],
+    [
+      "24-29",
+      "I enter the cafeteria building.",
+      "Groups climbing the stairs and entering the building interior."
+    ],
+    [
+      "30-38",
+      "I walk through the cafeteria to the self-service food counter.",
+      "Groups walking past study areas to the food serving counter."
+    ],
+    [
+      "39-50",
+      "I select food items onto my meal tray at the self-service counter.",
+      "Groups the process of gathering food dishes onto a tray."
+    ],
+    [
+      "51-58",
+      "I pay for my meal using Alipay at the checkout counter.",
+      "Groups the digital payment process."
+    ],
+    [
+      "59-61",
+      "I carry my meal tray to a table in the dining hall.",
+      "Groups transporting the food to a seating area."
+    ],
+    [
+      "62-68",
+      "I eat a pan-fried patty.",
+      "Groups eating the first dish."
+    ],
+    [
+      "69-91",
+      "I eat tomato scrambled eggs and a steamed flower roll.",
+      "Groups consuming the eggs and steamed roll."
+    ],
+    [
+      "92-102",
+      "I eat a meat patty, a steamed bun, and noodles.",
+      "Groups eating the remaining solid food items."
+    ],
+    [
+      "103-112",
+      "I eat meat and a fried patty dipped in soup.",
+      "Groups eating meat items with the soup."
+    ],
+    [
+      "113-121",
+      "I drink my bowl of soup.",
+      "Groups finishing the meal by drinking the soup."
+    ],
+    [
+      "122-126",
+      "I return my empty tray to the tray return station.",
+      "Groups cleaning up after the meal."
+    ],
+    [
+      "127-130",
+      "I inspect the beverage rack for cold drinks.",
+      "Groups browsing the drink selection."
+    ],
+    [
+      "131-134",
+      "I message User A on WeChat.",
+      "Groups typing and sending a message."
+    ],
+    [
+      "135-141",
+      "I walk through the outdoor courtyard to the fitness center.",
+      "Groups the transit between buildings to the gym."
+    ],
+    [
+      "142-146",
+      "I reply to a WeChat message upon entering the gym.",
+      "Groups continuing the text conversation inside the gym."
+    ],
+    [
+      "147-150",
+      "I place my personal items on an elliptical machine.",
+      "Groups setting down belongings before beginning gym activities."
+    ],
+    [
+      "151-159",
+      "I inspect the cable station and its attachments.",
+      "Groups initial interaction with the workout equipment."
+    ],
+    [
+      "160-177",
+      "I walk through the gym and observe a patron loading a barbell.",
+      "Groups moving around the gym floor and watching others."
+    ],
+    [
+      "178-198",
+      "I adjust the settings on the SHUA dual-function machine.",
+      "Groups testing and configuring a specific piece of equipment."
+    ],
+    [
+      "199-210",
+      "I sit at the exercise machine and observe other patrons in the gym.",
+      "Groups resting and watching the gym floor."
+    ],
+    [
+      "211-232",
+      "I inspect the attachments on the cable crossover machine.",
+      "Groups examining the setup of the cable machine."
+    ],
+    [
+      "233-238",
+      "I discover the gym exit doors are locked when attempting to leave.",
+      "A major trigger marking an abandoned attempt to exit the gym."
+    ],
+    [
+      "239-249",
+      "I return to the gym floor and observe a person performing seated cable rows.",
+      "Groups actions returning to the workout area after failing to leave."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      233
+    ],
+    "boundary_cautions": []
+  }
+}
+```

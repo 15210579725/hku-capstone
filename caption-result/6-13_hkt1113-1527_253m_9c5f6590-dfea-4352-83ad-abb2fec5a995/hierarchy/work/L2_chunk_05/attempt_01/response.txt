@@ -1,0 +1,69 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks based on observing the rink, navigating to a table, ordering food, conversing on distinct topics, and eating.",
+  "events": [
+    [
+      "1000-1037",
+      "I watch a skater and an ice resurfacer at the indoor ice skating rink.",
+      "Watching rink activities ends when moving to the restaurant."
+    ],
+    [
+      "1038-1056",
+      "I walk into the restaurant toward an available dining table.",
+      "Walking to the table ends upon arrival and sitting down."
+    ],
+    [
+      "1057-1067",
+      "I settle at the dining table with my companions.",
+      "Settling at the table ends when interacting with the digital menu."
+    ],
+    [
+      "1068-1099",
+      "I select food items on the smartphone digital menu.",
+      "Menu interaction ends after finalizing personal food selections."
+    ],
+    [
+      "1100-1115",
+      "I listen to my companions converse about beverages as they finalize their food orders.",
+      "Order finalization ends as the conversation topic shifts to living conditions."
+    ],
+    [
+      "1116-1131",
+      "I listen to my companions converse about rent and living conditions.",
+      "The rent conversation ends as the topic shifts to technology jobs."
+    ],
+    [
+      "1132-1168",
+      "I fold paper items on the table during a conversation about technology jobs in Africa.",
+      "The technology job discussion shifts to specific e-commerce operations."
+    ],
+    [
+      "1169-1199",
+      "I converse with my companions about e-commerce operations and AI models.",
+      "The e-commerce and AI conversation ends when the server delivers drinks."
+    ],
+    [
+      "1200-1214",
+      "I receive the iced drinks during a conversation about travel plans to Indonesia.",
+      "The travel conversation ends when preparing to eat the arriving food."
+    ],
+    [
+      "1215-1231",
+      "I retrieve cutlery from the table drawer to taste my laksa broth.",
+      "Tasting the laksa ends as the conversation shifts to academic research."
+    ],
+    [
+      "1232-1249",
+      "I share my laksa noodles with my companion during a conversation about research.",
+      "Ends with the ongoing meal and research discussion."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,99 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group L1 briefs into immediate tasks based on continuous conversational topics, distinct physical actions (like observing the restaurant, checking the phone, eating), and sequential steps in setting up and troubleshooting a video meeting on a borrowed device.",
+  "events": [
+    [
+      "2250-2273",
+      "I converse with my companion about past habits, sleep schedules, and podcasts.",
+      "Unified conversation block on personal routines."
+    ],
+    [
+      "2274-2280",
+      "I converse with User A about my smart glasses.",
+      "Conversation shifts to User A and the smart glasses."
+    ],
+    [
+      "2281-2288",
+      "I observe the restaurant interior and kitchen staff while waiting for the food.",
+      "Focus shifts to the environment due to the food delay."
+    ],
+    [
+      "2289-2303",
+      "I converse with my companion about our mutual friend User X's life updates.",
+      "Topic shifts to discussing a specific friend."
+    ],
+    [
+      "2304-2311",
+      "I converse with my companion about our food order and personal boundaries regarding her hat.",
+      "Topic shifts to the ordered dishes and a past incident."
+    ],
+    [
+      "2312-2316",
+      "I converse with my companion while she selects a photo on her device.",
+      "Brief interaction focused on the companion's photo task."
+    ],
+    [
+      "2317-2336",
+      "I converse with my companion about friends' locations and AI proxy API tools.",
+      "Topic shifts to geographic locations and technical API tools."
+    ],
+    [
+      "2337-2362",
+      "I converse with my companion about her exam schedule and summer plans.",
+      "Topic shifts to the companion's upcoming schedule."
+    ],
+    [
+      "2363-2390",
+      "I browse Feishu messages, chats, and meeting details on my smartphone.",
+      "Primary action shifts from conversation to checking the smartphone."
+    ],
+    [
+      "2391-2398",
+      "I arrange to borrow my companion's iPad and earbuds for an upcoming meeting.",
+      "Focus shifts to acquiring the iPad and earbuds."
+    ],
+    [
+      "2399-2411",
+      "I search for the Feishu app via Safari and Spotlight on the borrowed iPad.",
+      "Action focuses on locating the app on the iPad."
+    ],
+    [
+      "2412-2418",
+      "I check Feishu meeting details and WeChat messages on my iPhone.",
+      "Attention briefly shifts back to checking messages on the iPhone."
+    ],
+    [
+      "2419-2430",
+      "I retrieve my companion's earbuds and launch the Feishu meeting on the iPad.",
+      "Action shifts to audio setup and opening the meeting link."
+    ],
+    [
+      "2431-2448",
+      "I attempt to log into the Feishu meeting on the iPad browser but encounter QR scan errors.",
+      "Distinct task of handling browser authentication and errors."
+    ],
+    [
+      "2449-2460",
+      "I successfully authorize the Feishu login via my phone and briefly enter the meeting on the iPad.",
+      "Login succeeds and the meeting is accessed."
+    ],
+    [
+      "2461-2472",
+      "I begin eating the served food while adjusting Lark meeting settings.",
+      "Interruption by food arrival; task becomes eating and managing the meeting."
+    ],
+    [
+      "2473-2499",
+      "I troubleshoot the iPad's network disconnection by connecting it to my iPhone's personal hotspot and rejoining the Lark meeting.",
+      "New task addressing a network error and reconnecting to the meeting."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

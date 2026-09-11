@@ -1,0 +1,99 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous reading segments and spoken discussions into distinct immediate tasks. Where reading and speaking are tightly interleaved, group them as a single multitasking event. Separate the final navigation, cleaning, and movement actions into their own distinct tasks.",
+  "events": [
+    [
+      "500-506",
+      "I read the article section about mercury delay lines and Williams tubes.",
+      "Task completes upon switching to task discussion."
+    ],
+    [
+      "507",
+      "I state my interpretation of a task.",
+      "Task completes upon returning to article."
+    ],
+    [
+      "508-509",
+      "I read about the Williams tube.",
+      "Task completes upon resuming task explanation."
+    ],
+    [
+      "510",
+      "I explain a semantic preservation task.",
+      "Task completes upon returning to article."
+    ],
+    [
+      "511-523",
+      "I read the article section about binary electrostatic charge encoding and the development of magnetic core memory.",
+      "Task completes upon starting a project discussion."
+    ],
+    [
+      "524-531",
+      "I multitask between a project discussion and an article about the Whirlwind computer.",
+      "Task completes upon focusing on reading about magnetic core memory."
+    ],
+    [
+      "532-536",
+      "I read the article section about magnetic core memory technology and hysteresis loop diagrams.",
+      "Task completes upon starting project feasibility evaluation."
+    ],
+    [
+      "537-540",
+      "I evaluate the feasibility of a project component.",
+      "Task completes upon returning to reading."
+    ],
+    [
+      "541-548",
+      "I read the article section about coincident-current selection and manual core memory threading.",
+      "Task completes upon proposing a robotics solution."
+    ],
+    [
+      "549-551",
+      "I propose a robotics solution for the project.",
+      "Task completes upon returning to reading."
+    ],
+    [
+      "552-555",
+      "I read the article section about the Apollo Guidance Computer core rope memory.",
+      "Task completes upon discussing generation strategies."
+    ],
+    [
+      "556-559",
+      "I discuss global and local generation strategies for the project.",
+      "Task completes upon reading about DRAM."
+    ],
+    [
+      "560-564",
+      "I multitask between an article about DRAM manufacturing and a discussion about boot styles.",
+      "Task completes upon focusing on reading about DRAM invention."
+    ],
+    [
+      "565-574",
+      "I read the article section about the invention of DRAM and historical memory costs.",
+      "Task completes upon returning to the WeChat feed."
+    ],
+    [
+      "575-577",
+      "I browse my WeChat feed and chat list.",
+      "Task completes upon focusing on meal trash."
+    ],
+    [
+      "578-580",
+      "I pack my meal trash into a takeout bag.",
+      "Task completes upon leaving the lounge."
+    ],
+    [
+      "581-584",
+      "I walk to the restroom vestibule.",
+      "Task completes at the end of the recording."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

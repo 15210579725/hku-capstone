@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate the eligible boundary pairs to determine if the exact same immediate task continues across the transport batch edge. Pair [42, 43] continues the immediate task of managing the backpack and belongings at the dining table. Pair [163, 164] continues the immediate task of browsing the Bilibili recommendation feed. Pairs [17, 18] and [77, 78] represent transitions to different immediate tasks (decorating vs. checking WeChat/photos, and watching different short videos, respectively).",
+  "merges": [
+    [
+      42,
+      43,
+      "I handle my backpack and belongings at the dining table.",
+      "Same continuous interaction with belongings at the dining table across batch edge"
+    ],
+    [
+      163,
+      164,
+      "I browse and refresh the Bilibili recommendation feed.",
+      "Same feed browsing task continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

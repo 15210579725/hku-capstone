@@ -1,36 +1,3 @@
 ```json
-{
-  "target_level": "L2_JOIN",
-  "plan": "Identify and merge eligible pairs that represent continuous identical tasks (e.g., ongoing discussions or viewing the exact same document) that were artificially split by batch transport boundaries. Different discrete steps, even within the same overarching goal, are kept separate.",
-  "merges": [
-    [
-      96,
-      97,
-      "I eat vegetable curry stew and discuss WeChat messaging habits with my companion.",
-      "Continuous eating and conversation about messaging habits across the boundary."
-    ],
-    [
-      274,
-      275,
-      "I review a digital twin decision tree flowchart and document on my laptop.",
-      "Continuous review of the same decision tree/flowchart document."
-    ],
-    [
-      306,
-      307,
-      "I discuss AI token context consumption and usage limits with my companion.",
-      "Continuous discussion regarding the same AI token context and usage topic."
-    ],
-    [
-      341,
-      342,
-      "I discuss Zhuhai Chimelong theme park rides and purchasing swim trunks with my companion while navigating the mall.",
-      "Continuous conversation about theme park plans and shopping while moving through the mall."
-    ]
-  ],
-  "audit": {
-    "complete": true,
-    "uncertainties": []
-  }
-}
+{"target_level":"L2_JOIN","plan":"Evaluate each eligible batch boundary pair to see if they describe the exact same immediate L2 task continuing across the transport boundary. I will merge pairs where the same continuous activity (e.g., same document editing, continuous discussion on the same topic, ongoing terminal interaction, or continuous video watching) clearly spans the boundary. I will not merge distinct sequential actions or topic changes.","merges":[[98,99,"I edit and review data analysis presentation slides regarding sentiment analysis.","Same presentation work continues across batch edge"],[258,259,"I discuss AI application usage limits and Claude token context dependencies with my companion.","Same continuous discussion about AI limits across batch edge"],[274,275,"I use Claude Code in the terminal to configure a speaker diarization task.","Same terminal interaction continues across batch edge"],[329,330,"I watch news, technical, and manufacturing videos on my phone.","Same video watching session continues across batch edge"]],"audit":{"complete":true,"uncertainties":[]}}
 ```

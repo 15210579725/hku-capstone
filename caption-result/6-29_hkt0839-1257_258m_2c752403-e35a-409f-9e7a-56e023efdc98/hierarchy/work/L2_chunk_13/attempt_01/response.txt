@@ -1,0 +1,76 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous walking segments into navigation tasks based on location or path changes. Isolate the bakery purchase and the pause to observe the dead bird as distinct immediate tasks. Respect the significant temporal and contextual shift near the end of the recording.",
+  "events": [
+    [
+      "3000-3009",
+      "I walk along the pedestrian street past various stalls.",
+      "Stops walking to visit a bakery."
+    ],
+    [
+      "3010-3026",
+      "I purchase pineapple buns for ¥8.00 at a bakery.",
+      "Completes the transaction and resumes walking down the street."
+    ],
+    [
+      "3027-3069",
+      "I walk along the pedestrian street past various vendors.",
+      "Leaves the main pedestrian street and enters an alley."
+    ],
+    [
+      "3070-3074",
+      "I approach an intersection via an alley.",
+      "Reaches the intersection to cross."
+    ],
+    [
+      "3075-3077",
+      "I cross the intersection.",
+      "Completes crossing the street."
+    ],
+    [
+      "3078-3093",
+      "I walk down the side street past parked vehicles.",
+      "Stops to observe an animal on the ground."
+    ],
+    [
+      "3094-3095",
+      "I examine a dead bird on the pavement.",
+      "Resumes walking."
+    ],
+    [
+      "3096-3098",
+      "I walk along the alleyway toward a zebra crossing.",
+      "Steps onto the crosswalk to approach the hospital."
+    ],
+    [
+      "3099-3103",
+      "I approach the hospital grounds via the crosswalk.",
+      "Enters the hospital courtyard."
+    ],
+    [
+      "3104-3111",
+      "I walk across the hospital plaza into the outpatient center lobby.",
+      "Begins navigating specific clinic corridors."
+    ],
+    [
+      "3112-3116",
+      "I navigate the hospital clinic corridors toward the restroom.",
+      "Recording jumps to a different time and location entirely."
+    ],
+    [
+      "3117-3121",
+      "I drive a car along the street.",
+      "End of input."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": [
+      "Input 3117 jumps backwards in time and switches to driving, necessitating a hard boundary due to the entirely new context."
+    ]
+  }
+}
+```

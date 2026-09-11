@@ -1,0 +1,41 @@
+```json
+{
+  "target_level": "L5",
+  "plan": "Keep distinct major activities separate to maintain single unified objectives. The long lounge break separates the morning work into two distinct sessions. The lunch invitation acts as a standalone major behavior-changing trigger, leading into the lunch activity.",
+  "events": [
+    [
+      "0",
+      "I manage AI model pipelines and privacy automation tasks at my workstation.",
+      "Distinct work session before break"
+    ],
+    [
+      "1",
+      "I take a break in the atrium lounge.",
+      "Location and goal change for long break"
+    ],
+    [
+      "2",
+      "I review AI model metrics at my desk.",
+      "Return to work at desk"
+    ],
+    [
+      "3",
+      "I agree to join my colleagues for lunch.",
+      "Behavior-changing trigger causing departure"
+    ],
+    [
+      "4",
+      "I have lunch with my colleagues at the cafeteria.",
+      "Major lunch activity"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      3
+    ],
+    "boundary_cautions": []
+  }
+}
+```

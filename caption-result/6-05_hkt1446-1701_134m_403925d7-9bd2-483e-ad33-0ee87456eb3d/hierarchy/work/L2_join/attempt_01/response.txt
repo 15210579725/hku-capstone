@@ -1,0 +1,18 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible batch-edge pairs to determine if the exact same immediate task continues across the boundary. Pair [89, 90] continues the same task of reviewing AI responses and event guidelines in ChatGPT and Claude. The other pairs represent transitions between distinct tasks, such as navigating to reading, walking to interacting, or a standalone reaction before resuming work.",
+  "merges": [
+    [
+      89,
+      90,
+      "I review AI responses, event guidelines, and segmentation results in ChatGPT and Claude.",
+      "Same review task continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

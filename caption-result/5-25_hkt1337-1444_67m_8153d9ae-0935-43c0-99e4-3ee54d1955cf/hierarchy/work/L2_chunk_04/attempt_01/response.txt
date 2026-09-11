@@ -1,0 +1,34 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group action briefs into immediate tasks based on continuous tool usage (coding environments), device focus (phone vs computer), and location transitions (walking, exiting).",
+  "events": [
+    [
+      "750-759",
+      "I review a preview image in VS Code while editing a terminal prompt in Claude Code.",
+      "Focus shifts from computer programming to personal items"
+    ],
+    [
+      "760-763",
+      "I check an AI4S calendar event on my iPhone while gathering a yellow earplug.",
+      "Begins walking away from the current location"
+    ],
+    [
+      "764-767",
+      "I walk along the library aisle while messaging on WeChat.",
+      "Reaches the library exit doors"
+    ],
+    [
+      "768-772",
+      "I exit the library into the elevator lobby.",
+      "End of provided sequence"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

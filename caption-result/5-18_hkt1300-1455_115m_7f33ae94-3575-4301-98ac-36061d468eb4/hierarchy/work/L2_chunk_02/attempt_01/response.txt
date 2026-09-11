@@ -1,0 +1,89 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group consecutive action briefs into immediate tasks based on the specific application being used, the document being read, or the physical action being performed (e.g., scripting with Claude Code, preparing food, studying with ChatGPT).",
+  "events": [
+    [
+      "250-282",
+      "I use Claude Code to modify the audio pipeline script, process voiceprints, and compact the conversation.",
+      "Completes interactions with Claude Code before switching to the web interface."
+    ],
+    [
+      "283-290",
+      "I interact with the Claude web interface and the Gemini planning sidebar.",
+      "Completes prompting and planning before interacting with the flow canvas."
+    ],
+    [
+      "291-300",
+      "I edit and review task flow nodes on the flow canvas.",
+      "Completes work on the flow canvas before browsing files in Finder."
+    ],
+    [
+      "301-307",
+      "I locate and open course slide files on my laptop using Finder.",
+      "Completes opening the slide files before studying them with AI."
+    ],
+    [
+      "308-323",
+      "I study CNN architecture and cross-correlation concepts using Claude AI and lecture notes.",
+      "Completes reading AI notes before editing prompts and checking account limits."
+    ],
+    [
+      "324-340",
+      "I edit my Claude prompt, check my plan usage limits, and review the AI exam cheatsheet response.",
+      "Completes interacting with Claude modal settings before switching to review lecture slides."
+    ],
+    [
+      "341-344",
+      "I review lecture slides on cross-correlation and prepare a blank document.",
+      "Completes reviewing slides before typing notes."
+    ],
+    [
+      "345-349",
+      "I type notes while reviewing diagram nodes on the canvas.",
+      "Completes typing notes from the canvas before switching to ChatGPT."
+    ],
+    [
+      "350-354",
+      "I submit a prompt to ChatGPT and monitor its response.",
+      "Completes the ChatGPT interaction before leaving the laptop to get food."
+    ],
+    [
+      "355-381",
+      "I prepare and eat a slice of toast with chocolate hazelnut spread at the dining table.",
+      "Completes eating the toast before preparing a tomato."
+    ],
+    [
+      "382-409",
+      "I wash, peel, and eat a tomato in the kitchen, then discard the scraps.",
+      "Completes eating the tomato and cleaning up before preparing a second slice of toast."
+    ],
+    [
+      "410-447",
+      "I prepare a second slice of toast with chocolate spread and clean up the utensils at the dining table.",
+      "Completes preparing the second toast and cleaning up before handling a plastic bag."
+    ],
+    [
+      "448-451",
+      "I untie and open a plastic food bag.",
+      "Completes opening the food bag before returning to the bedroom."
+    ],
+    [
+      "452-468",
+      "I return to my bedroom desk and use ChatGPT to review CNN lecture notes and an exam cheat sheet.",
+      "Completes the ChatGPT study session before switching back to the Claude Code terminal."
+    ],
+    [
+      "469-499",
+      "I monitor the Claude Code terminal downloading Baidu Netdisk data and set the audio pipeline to run as a background task.",
+      "End of the input batch while monitoring the background task in Claude Code."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

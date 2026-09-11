@@ -1,0 +1,34 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group L3 episodes into broader phases based on macro-level location and goal changes: morning preparation at home, initial commute to the border transfer station, border crossing and onward transit, and finally securing food and personal care services at the commercial plaza.",
+  "events": [
+    [
+      "0",
+      "I complete my morning laundry and hydration routines in the apartment.",
+      "Location change from the apartment to the transit route"
+    ],
+    [
+      "1-4",
+      "I commute from the residential complex to my transfer station.",
+      "Arrival at the transfer concourse requiring distinct security and border procedures"
+    ],
+    [
+      "5-10",
+      "I travel to my destination train station via the security and border immigration checkpoints.",
+      "Exit from the transit network to begin commercial plaza activities"
+    ],
+    [
+      "11-15",
+      "I secure a 17-yuan cheese rice ball and a haircut registration at the commercial plaza using my phone number (XXX-XXXX-XXXX).",
+      "Completion of the initial meal and personal care arrangements at the mall"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,104 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group sequential action briefs into immediate tasks based on continuous goals such as navigating between locations, selecting food, paying, and consuming specific dishes.",
+  "events": [
+    [
+      "0-2",
+      "I exit the building.",
+      "Leaves the building to enter the garage"
+    ],
+    [
+      "3-5",
+      "I walk through the underground parking garage.",
+      "Exits the parking garage"
+    ],
+    [
+      "6-10",
+      "I enter the dining hall.",
+      "Arrives inside the dining hall"
+    ],
+    [
+      "11-16",
+      "I approach the cafeteria food counter.",
+      "Reaches the queuing area"
+    ],
+    [
+      "17-24",
+      "I queue for food at the hot dish counter.",
+      "Reaches the serving counter"
+    ],
+    [
+      "25-39",
+      "I select my dishes from the cafeteria counter.",
+      "Moves to the cashier to pay"
+    ],
+    [
+      "40-46",
+      "I pay for my meal at the cashier.",
+      "Payment completes"
+    ],
+    [
+      "47-51",
+      "I carry my meal tray to a table.",
+      "Arrives at the table"
+    ],
+    [
+      "52-57",
+      "I settle at the table for my meal.",
+      "Starts eating the main dish"
+    ],
+    [
+      "58-115",
+      "I eat the braised pork and rice.",
+      "Finishes the main dish"
+    ],
+    [
+      "116",
+      "I drink the egg drop soup.",
+      "Switches to eating fruit"
+    ],
+    [
+      "117-126",
+      "I eat the sliced papaya.",
+      "Finishes the fruit"
+    ],
+    [
+      "127-128",
+      "I observe the cafeteria surroundings.",
+      "Takes out smartphone"
+    ],
+    [
+      "129-137",
+      "I use WeChat on my smartphone.",
+      "Locks the smartphone"
+    ],
+    [
+      "138-147",
+      "I wait for my companions to finish their meal.",
+      "Resumes drinking soup"
+    ],
+    [
+      "148-150",
+      "I finish drinking the egg drop soup.",
+      "Finishes the soup"
+    ],
+    [
+      "151-158",
+      "I sit at the cafeteria table.",
+      "Takes out smartphone again"
+    ],
+    [
+      "159-161",
+      "I check my SMS messages on my iPhone.",
+      "End of input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

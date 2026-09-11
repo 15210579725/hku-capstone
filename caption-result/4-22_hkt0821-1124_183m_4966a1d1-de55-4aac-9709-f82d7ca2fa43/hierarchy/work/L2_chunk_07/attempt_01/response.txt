@@ -1,3 +1,184 @@
 ```json
-{"target_level":"L2","plan":"Group continuous interactions with specific apps, articles, or physical items into distinct immediate tasks, segmenting by significant shifts in content, focus, or conversational topic.","events":[["1500-1507","I read an article and view photos about the GPT-Image-2 research team.","Shift to news feed"],["1508-1510","I browse the AIGC article feed and AI tech news headlines.","Shift to specific article"],["1511-1514","I read a Toutiao article discussing Apple product lines.","Shift of attention to physical objects"],["1515-1523","I inspect items on the table including a water bottle, toilet paper, and snack boxes.","Return to phone screen"],["1524-1527","I browse the domestic news section on my phone.","Opens specific article"],["1528-1532","I read a 雷峰网 article.","Opens embedded media"],["1533-1540","I examine an embedded screenshot and a document preview on my phone.","App switch to WeChat"],["1541-1543","I read WeChat chat messages.","App switch back to news"],["1544-1548","I read a tech article about AI image generation and smartphone pricing.","Shift to social media feed"],["1549-1553","I browse a social media feed about AI trademark applications.","Shift to article comments"],["1554-1558","I read user comments on a 雷峰网 tech news article.","Shift to WeChat Official Accounts"],["1559","I browse the WeChat Official Accounts feed.","Opens specific article"],["1560-1584","I read a 新智元 article about LingBot-Map and 3D indoor scene reconstruction.","Opens different article"],["1585-1593","I read a 新智元 article about LingBot-Depth.","Opens different post"],["1594-1598","I read a formatting tutorial post on my phone.","Companion approaches with object"],["1599-1614","I converse with my companion and tear open a hanging tissue package.","Physical interaction completes, focus shifts to conversation content"],["1615-1629","I discuss the facial tissue and throwing out the trash with my flatmate.","Returns focus to phone screen"],["1630-1637","I browse my phone and view a post and 3D trajectory demo video about LingBot-Map.","App switch to WeChat"],["1638-1641","I check a WeChat conversation.","Navigates to home screen"],["1642-1643","I browse tech articles and navigate to the home screen.","Opens X app"],["1644-1653","I read a Google Research post about ReasoningBank on X.","Shift to different article"],["1654-1693","I read a technical article explaining CUDA Graph acceleration for LLM inference.","Returns to X feed"],["1694-1718","I browse my X feed and read AI research posts including Energy Transformers.","Shift to 3D and robotics videos"],["1719-1735","I view posts and demo videos about 3D models and spatial navigation on X.","Notification interrupts"],["1736-1742","I reply to a WeChat message from babe and place my phone on the table.","End of recorded actions"]],"audit":{"complete":true,"uncertainties":[],"major_triggers":[1599],"boundary_cautions":[]}}
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks based on shared objectives, focal content (e.g., specific articles, social media threads, physical interactions), or conversational goals. Brief environmental glances that interrupt digital tasks are preserved as standalone events.",
+  "events": [
+    [
+      "1500-1506",
+      "I read an article about the GPT-Image-2 research team on my smartphone.",
+      "Topic shifts from the GPT-Image-2 article to general tech news feeds."
+    ],
+    [
+      "1507-1510",
+      "I review the AIGC article feed featuring AI tech news headlines and a food post.",
+      "User switches from the tech news feed to a specific Toutiao article."
+    ],
+    [
+      "1511-1513",
+      "I read a Toutiao article on my smartphone.",
+      "User finishes the Toutiao article and opens a piece on Apple products."
+    ],
+    [
+      "1514",
+      "I read a text article discussing Apple product lines.",
+      "User looks away from the phone to examine physical items on the table."
+    ],
+    [
+      "1515-1522",
+      "I grasp a water bottle and inspect physical items on the table including toilet paper and snack boxes.",
+      "User ceases inspecting table items and returns to browsing the smartphone."
+    ],
+    [
+      "1523-1536",
+      "I read a 雷峰网 domestic news article featuring an embedded screenshot.",
+      "User switches from reading the domestic news article to a document preview page."
+    ],
+    [
+      "1537-1540",
+      "I review a document preview page and its prompt bubbles on my smartphone.",
+      "User leaves the document preview to check WeChat messages."
+    ],
+    [
+      "1541-1543",
+      "I read WeChat chat messages.",
+      "User switches from WeChat to reading a LeiFeng tech article."
+    ],
+    [
+      "1544-1548",
+      "I read a 雷峰网 tech article concerning AI image generation and smartphone market pricing.",
+      "User transitions from the tech article to browsing Alibaba trademark posts on social media."
+    ],
+    [
+      "1549-1551",
+      "I browse a text-heavy social media post regarding Alibaba's AI trademark applications.",
+      "User momentarily looks away from the phone to scan the room."
+    ],
+    [
+      "1552",
+      "I scan the room towards the hallway and blue lockers.",
+      "User returns focus to the smartphone to scroll a social media feed."
+    ],
+    [
+      "1553-1558",
+      "I review user comments on a 雷峰网 tech news post in my social media feed.",
+      "User switches from LeiFeng news comments to the WeChat Official Accounts feed."
+    ],
+    [
+      "1559",
+      "I browse the WeChat Official Accounts feed.",
+      "User selects a specific XinZhiYuan article to read from the feed."
+    ],
+    [
+      "1560-1584",
+      "I read a 新智元 article detailing the LingBot-Map 3D scene reconstruction and selective memory system.",
+      "User transitions from the LingBot-Map article to one about LingBot-Depth."
+    ],
+    [
+      "1585-1593",
+      "I read a 新智元 article regarding the LingBot-Depth technology.",
+      "User momentarily looks away toward the hallway."
+    ],
+    [
+      "1594",
+      "I look toward the hallway.",
+      "User returns attention to the phone to read a formatting tutorial."
+    ],
+    [
+      "1595-1598",
+      "I read a formatting tutorial post on my phone.",
+      "User is interrupted by a companion placing a tissue package nearby."
+    ],
+    [
+      "1599-1614",
+      "I examine and tear open a newly purchased hanging tissue package with my companion.",
+      "The immediate action of opening the new tissue pack concludes, leading to a broader discussion about its usability."
+    ],
+    [
+      "1615-1629",
+      "I debate tissue usability and a smelly trash can with my roommate while browsing my smartphone.",
+      "The conversation ends and the user refocuses fully on specific phone content."
+    ],
+    [
+      "1630-1637",
+      "I browse social media posts and demo videos concerning the LingBot-Map 3D foundation model.",
+      "User switches from browsing LingBot-Map posts to a WeChat chat."
+    ],
+    [
+      "1638-1641",
+      "I open and view a WeChat conversation.",
+      "User leaves the WeChat chat to briefly browse tech articles."
+    ],
+    [
+      "1642",
+      "I browse tech articles on my smartphone.",
+      "User exits the tech articles to open the X app from the home screen."
+    ],
+    [
+      "1643-1647",
+      "I browse the X timeline for updates on Gemini Deep Research and agricultural futures.",
+      "User pauses scrolling the feed to focus on a specific ReasoningBank post."
+    ],
+    [
+      "1648-1653",
+      "I read a Google Research post about ReasoningBank on X.",
+      "User switches from the ReasoningBank post to an in-depth article on CUDA Graph."
+    ],
+    [
+      "1654-1693",
+      "I read a comprehensive technical article detailing CUDA Graph optimization for LLM inference in PyTorch.",
+      "User finishes the lengthy technical article and returns to browsing the X feed."
+    ],
+    [
+      "1694-1697",
+      "I review an X post by Philippe Laban concerning LLMs within my feed.",
+      "User scrolls past the LLM post to focus on a specific 'Minimal Brain Damage' research thread."
+    ],
+    [
+      "1698-1706",
+      "I review the 'Minimal Brain Damage' AI research post and its replies on X.",
+      "User finishes reading the 'Minimal Brain Damage' thread and continues scrolling the X feed."
+    ],
+    [
+      "1707-1710",
+      "I review X posts featuring DailyPapers updates and a Google Gemma benchmark video.",
+      "User transitions from the Gemma benchmark post to read about Anthropic STEM Fellows."
+    ],
+    [
+      "1711-1712",
+      "I read a post regarding the Anthropic STEM Fellows program on X.",
+      "User moves from the Anthropic post to read about Energy-Based Transformers."
+    ],
+    [
+      "1713-1718",
+      "I read and translate an X post discussing Energy-Based Transformers.",
+      "User finishes the Energy-Based Transformers post and scrolls to a Depth Anything V2 video."
+    ],
+    [
+      "1719-1720",
+      "I watch a Depth Anything V2 video demo on X.",
+      "User scrolls past the Depth Anything video to read an Asset Harvester announcement."
+    ],
+    [
+      "1721-1731",
+      "I review an X thread featuring translated text and demo videos for the Asset Harvester 3D model.",
+      "User finishes the Asset Harvester thread and continues scrolling through other X posts."
+    ],
+    [
+      "1732-1735",
+      "I browse my X feed to view a street navigation video and a workflow diagram.",
+      "User stops scrolling the X feed to address a new lock screen notification."
+    ],
+    [
+      "1736-1742",
+      "I reply to a WeChat notification from babe and place my phone on the table.",
+      "End of recording batch."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
 ```

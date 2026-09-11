@@ -1,0 +1,59 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous driving segments based on conversational topics, significant roadside landmarks, weather changes, and specific traffic interactions.",
+  "events": [
+    [
+      "500-560",
+      "I discuss the history of Vietnam with the passenger during a drive along a rural road.",
+      "The conversation about Vietnam concludes, shifting attention to roadside landmarks."
+    ],
+    [
+      "561-588",
+      "I drive past a sugarcane transfer station and the Leiping Border Checkpoint.",
+      "The vehicle passes the checkpoint, and the driver notices approaching storm clouds."
+    ],
+    [
+      "589-621",
+      "I observe the approaching thunderstorm and a hurrying pedestrian during my drive.",
+      "The driver finishes observing the weather and begins tracking the remaining travel time."
+    ],
+    [
+      "622-653",
+      "I monitor my remaining travel time and surrounding traffic on the wet rural road.",
+      "The driver shifts attention to a uniquely ridden scooter and highway destination signs."
+    ],
+    [
+      "654-685",
+      "I observe a uniquely ridden scooter and a highway destination sign for Shuolong, Jingxi, and Napo during the rainy drive.",
+      "A sudden traffic conflict occurs with a turning vehicle."
+    ],
+    [
+      "686-700",
+      "I discuss my misjudgment of a turning vehicle's signals with the passenger following a near-miss.",
+      "The immediate traffic conflict is resolved, shifting the discussion to the car's braking performance."
+    ],
+    [
+      "701-725",
+      "I explain the activation of the anti-lock braking system to the passenger during the rainy drive.",
+      "The conversation shifts from the car's braking performance to discussing the high prices of local hotels."
+    ],
+    [
+      "726-734",
+      "I discuss the expensive local hotel prices with the passenger.",
+      "The conversation about hotel prices ends, and the passenger advises the driver to focus on the road."
+    ],
+    [
+      "735-749",
+      "I concentrate on driving behind a red car on the village street following the passenger's advice.",
+      "The recording segment ends while the driver focuses on navigating the village street."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

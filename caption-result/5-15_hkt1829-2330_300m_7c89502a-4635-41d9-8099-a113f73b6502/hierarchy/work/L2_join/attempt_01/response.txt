@@ -1,0 +1,42 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Check eligible boundary pairs for identical immediate tasks that were artificially split by transport batch edges. I will merge only pairs with continuous, matching activities.",
+  "merges": [
+    [
+      72,
+      73,
+      "I browse Bilibili video recommendations.",
+      "Same browsing task continues across batch edge"
+    ],
+    [
+      92,
+      93,
+      "I calculate and write matrix entries on paper.",
+      "Same calculation task continues across batch edge"
+    ],
+    [
+      121,
+      122,
+      "I perform matrix calculations on my Casio calculator and record the results.",
+      "Same calculation task continues across batch edge"
+    ],
+    [
+      153,
+      154,
+      "I research VPS products and residential IPs using Claude.",
+      "Same research task continues across batch edge"
+    ],
+    [
+      198,
+      199,
+      "I walk to the MTR station.",
+      "Same continuous walking journey across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

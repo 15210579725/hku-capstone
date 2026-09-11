@@ -1,0 +1,56 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group continuous presentation segments into coherent episodes bounded by speaker or major topic changes, subsuming incidental smartphone usage and seatmate conversations as secondary actions. Group the final departure and continuous movement sequence into a unified transit episode.",
+  "events": [
+    [
+      "0-2",
+      "I watch the conclusion of an admissions presentation.",
+      "The presentation concludes and the next topic begins."
+    ],
+    [
+      "3",
+      "I watch a presentation on affective computing and emotion representation.",
+      "The presentation concludes and setup for the next speaker begins."
+    ],
+    [
+      "4-11",
+      "I watch Professor Wang Weiping's presentation on complex transportation systems.",
+      "The presentation concludes and setup for the next speaker begins."
+    ],
+    [
+      "12-13",
+      "I watch Liu laoshi's presentation on robotics and embodied agents.",
+      "The presentation concludes and a new speaker is introduced."
+    ],
+    [
+      "14-19",
+      "I watch a presentation on language complexity and agent futures.",
+      "The presentation concludes and the third speaker is introduced."
+    ],
+    [
+      "20-28",
+      "I watch a presentation on robotic active sensing and robotics research team opportunities.",
+      "The topic switches to a different online presentation."
+    ],
+    [
+      "29-30",
+      "I watch an online presentation about unmanned systems.",
+      "I stand up and exit the lecture hall, abandoning the presentations."
+    ],
+    [
+      "31-36",
+      "I travel from the lecture hall to a restroom on the 6th floor of another building.",
+      "Arrival at the restroom vestibule destination."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      31
+    ],
+    "boundary_cautions": []
+  }
+}
+```

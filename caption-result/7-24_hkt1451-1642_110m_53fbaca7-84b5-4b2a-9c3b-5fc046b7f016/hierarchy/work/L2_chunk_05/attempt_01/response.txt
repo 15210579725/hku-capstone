@@ -1,0 +1,76 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group immediate tasks by app focus, specific objective, or physical action. Abstract typing, scrolling, and UI interactions into coherent activities like reviewing docs, chatting with customer service, searching maps, and making phone calls. The ringing phone serves as a major behavior-changing trigger that shifts focus from laptop to mobile tasks.",
+  "events": [
+    [
+      "1000-1012",
+      "I review Claude Code documentation, terminal logs, and CC Switch configurations on my laptop.",
+      "App focus changes to phone"
+    ],
+    [
+      "1013",
+      "I pick up my ringing phone.",
+      "Major behavior-changing trigger"
+    ],
+    [
+      "1014-1018",
+      "I dismiss a China Mobile alert, check network toggles, and view my recent calls.",
+      "App usage changes to China Mobile"
+    ],
+    [
+      "1019-1050",
+      "I check my data allowance and purchase a 20GB data package on the China Mobile app.",
+      "Task completion and switches to Control Center"
+    ],
+    [
+      "1051-1054",
+      "I toggle my Wi-Fi off and on in the iOS Control Center.",
+      "App focus changes to WeChat"
+    ],
+    [
+      "1055-1140",
+      "I chat with Dan Niao customer service on WeChat to urge the delivery of my delayed SIM card.",
+      "Switches to map applications for address search"
+    ],
+    [
+      "1141-1162",
+      "I verify the courier delivery station address on map applications and notify customer service that it is a water station.",
+      "Returns to customer service chat"
+    ],
+    [
+      "1163-1166",
+      "I initiate a phone call to the courier from the customer service chat.",
+      "Physical movement and reaction begins"
+    ],
+    [
+      "1167-1171",
+      "I curse in frustration, stand up, and walk out of the office into the hallway.",
+      "Phone call connects"
+    ],
+    [
+      "1172-1186",
+      "I call the courier to arrange the delivery of my delayed SIM card to Address X.",
+      "Phone call concludes"
+    ],
+    [
+      "1187-1192",
+      "I end the phone call, lock my smartphone, and walk towards the kitchen.",
+      "New messaging activity begins"
+    ],
+    [
+      "1193-1201",
+      "I read and react to WeChat messages from User X while walking.",
+      "End of sequence"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      1013
+    ],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,153 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group sequence into immediate L2 tasks based on continuous engagement with a specific target, device, or document. Separate tasks when the primary target changes (e.g., switching from reading on the laptop to messaging on the phone, pausing to adjust clothing, or changing the physical activity like packing). Retain specific document subjects, mathematical topics, and app names.",
+  "events": [
+    [
+      "2250-2287",
+      "I write Kernel PCA derivations for my math assignment on my notepad.",
+      "Shifts focus to reading a different PDF on the laptop."
+    ],
+    [
+      "2288-2299",
+      "I review PCA and Rayleigh quotient problems in the ARIN7013 PDF.",
+      "Pauses to adjust clothing."
+    ],
+    [
+      "2300-2303",
+      "I tie my shorts drawstring.",
+      "Switches to examining items on the desk."
+    ],
+    [
+      "2304-2310",
+      "I observe various items on my desk.",
+      "Shifts focus to reviewing an exam PDF."
+    ],
+    [
+      "2311-2322",
+      "I review the ARIN7013 exam PDF regarding the missed RKHS problem.",
+      "Switches to checking WeChat on the phone."
+    ],
+    [
+      "2323-2326",
+      "I check WeChat messages on my phone.",
+      "Switches to watching a video on the laptop."
+    ],
+    [
+      "2327-2331",
+      "I watch a Life is Strange music video on YouTube.",
+      "Switches to reading an ebook on WeChat Read."
+    ],
+    [
+      "2332-2345",
+      "I read an ebook about cell biology on WeChat Read.",
+      "Pauses to stretch."
+    ],
+    [
+      "2346-2346",
+      "I stretch my arms overhead.",
+      "Switches to chatting on the phone."
+    ],
+    [
+      "2347-2367",
+      "I discuss going to the pool with babe on WeChat.",
+      "Returns to reading the ebook on the laptop."
+    ],
+    [
+      "2368-2385",
+      "I read about eukaryotic evolution on WeChat Read.",
+      "Switches to watching a video on the phone."
+    ],
+    [
+      "2386-2392",
+      "I watch a noodle recipe video on Xiaohongshu.",
+      "Switches to messaging on WeChat."
+    ],
+    [
+      "2393-2393",
+      "I type a WeChat message to babe.",
+      "Switches back to reading on the laptop."
+    ],
+    [
+      "2394-2399",
+      "I read an article about bacterial genetics on WeChat Reading.",
+      "Switches to reading a paper summary."
+    ],
+    [
+      "2400-2402",
+      "I read a paper summary article about fluid art.",
+      "Switches to executing terminal commands."
+    ],
+    [
+      "2403-2418",
+      "I execute commands in the Claude Code terminal.",
+      "Switches to checking transit routes on the phone."
+    ],
+    [
+      "2419-2427",
+      "I check transit routes to Tai Wai Station on Apple Maps.",
+      "Switches to messaging on WeChat."
+    ],
+    [
+      "2428-2431",
+      "I message babe on WeChat.",
+      "Leaves desk to adjust the air conditioner."
+    ],
+    [
+      "2432-2434",
+      "I walk to the bedroom to adjust the air conditioner.",
+      "Returns to the desk to pack."
+    ],
+    [
+      "2435-2445",
+      "I pack my laptop and stationery into my backpack.",
+      "Modifies backpack contents to retrieve clothing."
+    ],
+    [
+      "2446-2449",
+      "I retrieve a red plaid shirt from my backpack.",
+      "Pauses packing to check WeChat on the phone."
+    ],
+    [
+      "2450-2454",
+      "I read and reply to messages from babe on WeChat.",
+      "Resumes packing."
+    ],
+    [
+      "2455-2460",
+      "I pack a water bottle into my backpack.",
+      "Finishes packing and turns off lights."
+    ],
+    [
+      "2461-2461",
+      "I turn off the room lights.",
+      "Leaves the apartment to take the elevator."
+    ],
+    [
+      "2462-2470",
+      "I board the elevator.",
+      "Focuses on messaging inside the elevator."
+    ],
+    [
+      "2471-2477",
+      "I message babe on WeChat.",
+      "Exits the elevator and walks outside."
+    ],
+    [
+      "2478-2499",
+      "I walk outside the building expressing frustration about my assignment.",
+      "End of input."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "2317-2318: Discovering the unwritten RKHS problem triggers a shift to reviewing exam materials.",
+      "2435: Unzipping the backpack initiates the broader phase of packing and leaving home.",
+      "2461: Turning off the room lights signifies the departure from the apartment."
+    ],
+    "boundary_cautions": []
+  }
+}
+```

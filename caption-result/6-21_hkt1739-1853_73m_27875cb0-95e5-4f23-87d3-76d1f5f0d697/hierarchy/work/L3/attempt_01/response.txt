@@ -1,0 +1,74 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group immediate tasks into coherent episodes defined by the primary rental platform being used (Wellcee, Ziroom, Xiaohongshu, Beike) or the distinct physical activity (air conditioner inspection, rice cooker setup, relaxing). Abstract incidental chats, quick app views, and brief movements into the broader episode they support.",
+  "events": [
+    [
+      "0-1",
+      "I discuss room ventilation and the bedroom air conditioner with my roommate.",
+      "Activity change: Shifts from inspecting the air conditioner to starting the rental search."
+    ],
+    [
+      "2-16",
+      "I research rental listings near the University X Science Center using map apps and the Wellcee app.",
+      "Platform change: Switches from Wellcee and map apps to setting up and searching on the Ziroom app."
+    ],
+    [
+      "17-31",
+      "I evaluate apartment rental listings around the Science Center using the newly configured Ziroom app.",
+      "Task progression: Shifts from general Ziroom setup and browsing to confirming the exact address and consulting a housekeeper."
+    ],
+    [
+      "32-45",
+      "I consult a Ziroom housekeeper with my housing requirements after confirming the research center address and examining specific listings.",
+      "Task progression: Moves from consulting a housekeeper to messaging an agent and reviewing alternative cheap listings."
+    ],
+    [
+      "46-53",
+      "I explore alternative short-term and cheap apartment listings on a map after a Ziroom agent reports having no available rooms.",
+      "Activity change: Pauses the rental search to unpack and set up a new rice cooker in the kitchen."
+    ],
+    [
+      "54-58",
+      "I unpack and configure a new Bear rice cooker for use in the kitchen.",
+      "Activity change: Leaves the kitchen task to read thesis notes on the laptop."
+    ],
+    [
+      "59",
+      "I read thesis revision notes on my laptop.",
+      "Activity change: Switches from reading thesis notes back to the rental search on the Wellcee app."
+    ],
+    [
+      "60-69",
+      "I attempt to complete my Wellcee app student profile verification to message a landlord about apartment listings.",
+      "Platform change: Transitions from Wellcee to researching rental guides and prices on Xiaohongshu."
+    ],
+    [
+      "70-79",
+      "I research Shanghai rental prices and alternative rental platforms using Xiaohongshu guides.",
+      "Platform change: Shifts from Xiaohongshu research to actively searching on the Beike Renting app."
+    ],
+    [
+      "80-85",
+      "I inquire about rental options near University X by searching the Beike Renting app and messaging contacts on WeChat.",
+      "Activity change: Concludes active rental inquiries to relax and converse with a companion."
+    ],
+    [
+      "86-95",
+      "I relax on the bed with my companion to watch the clouds, read WeChat messages, and discuss our plans to retrieve a package outside.",
+      "End of input sequence."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": [
+      {
+        "event": "59",
+        "reason": "Maintained as a standalone episode because reading thesis notes is a distinct, briefly pursued goal that does not merge semantically with the surrounding kitchen setup or rental search tasks."
+      }
+    ]
+  }
+}
+```

@@ -1,0 +1,18 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible boundary pairs to determine if they continue the same immediate task across the batch edge. Merge pairs that share a single unified goal, such as continuing a system memory optimization sequence.",
+  "merges": [
+    [
+      25,
+      26,
+      "I review memory optimization recommendations and monitor system background process cleanup.",
+      "Monitoring system background process cleanup directly continues the immediate task of memory optimization and process management."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

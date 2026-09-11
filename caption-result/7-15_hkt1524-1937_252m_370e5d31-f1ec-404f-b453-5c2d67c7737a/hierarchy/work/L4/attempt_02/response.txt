@@ -1,0 +1,39 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group L3 episodes into broader goal-oriented phases: a machine learning research session, a meal break, a package retrieval trip, an RFID cloning project, and a personal break.",
+  "events": [
+    [
+      "0-6",
+      "I conduct machine learning research on diffusion models, related papers, and mathematical derivations at my desk.",
+      "Activity shifts from desk work to taking a meal break"
+    ],
+    [
+      "7-10",
+      "I take a meal break with my companions at the cafeteria.",
+      "Location and activity shift from a meal break to retrieving a package outside"
+    ],
+    [
+      "11-13",
+      "I retrieve an express package from the roadside parcel station using my electric scooter.",
+      "Activity shifts from package retrieval to an RFID cloning project"
+    ],
+    [
+      "14-17",
+      "I attempt to clone an RFID access card onto key fobs.",
+      "Activity shifts from the RFID cloning project to a personal break"
+    ],
+    [
+      "18",
+      "I take a personal break for water at the pantry and the restroom.",
+      "End of input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,133 +1,120 @@
 ```json
 {
   "target_level": "L3",
-  "plan": "Group immediate tasks into coherent activity episodes (L3) based on shared overarching goals and primary locations. Abstract incidental breaks, transit within a location, and sub-tasks into unified objectives representing continuous work sessions, commuting legs, shopping trips, meals, and home routines.",
+  "plan": "Group continuous, goal-oriented tasks into coherent activity episodes, such as distinct work sessions, transit routes, meals, shopping routines, conversations, and lectures. Isolate major behavioral triggers like abandoning an attempt to sleep.",
   "events": [
     [
-      "0-5",
-      "I update the Affect-gpt project documentation and failure modes in a Feishu document.",
-      "Stops working to take a rest."
+      "0-10",
+      "I update Affect-gpt and model schema project documentation on my computer.",
+      "Continuous computer work session focused on specific project documentation"
     ],
     [
-      "6-9",
-      "I examine my backpack strap during a rest in the study carrel.",
-      "Ends rest period to resume work on the laptop."
+      "11-16",
+      "I take a break to rest in the library study carrel.",
+      "Distinct break episode separating computer work sessions"
     ],
     [
-      "10-14",
-      "I review AffectGPT architecture and multimodal VLM documentation on my laptop.",
-      "Shifts focus to researching new model training schemes."
+      "17-74",
+      "I write technical specifications and code for the digital twin and multimodal architecture projects on my laptop.",
+      "Continuous extended work session on related technical projects"
     ],
     [
-      "15-27",
-      "I research Quiet-STaR model training schemes and dataset requirements.",
-      "Shifts focus to drafting the digital twin design document."
+      "75-82",
+      "I walk from the library to the cafeteria.",
+      "Unified transit episode to a new major location"
     ],
     [
-      "28-48",
-      "I draft the digital twin design specification document using Claude Code.",
-      "Completes initial drafting and begins refining technical specifics."
+      "83-88",
+      "I purchase a roasted chicken and rice meal at the cafeteria.",
+      "Purchasing and collecting food forms a distinct episode"
     ],
     [
-      "49-70",
-      "I refine the digital twin technical design document in VS Code.",
-      "Finishes library work session and packs up to leave."
+      "89-100",
+      "I eat my roasted chicken and rice meal on the outdoor terrace.",
+      "Consumption of the meal and relaxing forms a coherent episode"
     ],
     [
-      "71-78",
-      "I commute from the library to the campus cafeteria.",
-      "Arrives at the cafeteria kiosk to order food."
+      "101-109",
+      "I walk from the cafeteria to the Japan Home Centre store.",
+      "Unified transit episode between locations"
     ],
     [
-      "79-83",
-      "I obtain my chicken and rice meal at a cafeteria kiosk.",
-      "Sits down at an outdoor table to eat."
+      "110-127",
+      "I purchase a plastic bucket and trash bags at the Japan Home Centre store.",
+      "Shopping for specific household goods forms a coherent episode"
     ],
     [
-      "84-91",
-      "I consume my chicken and rice meal at an outdoor patio table.",
-      "Finishes meal and leaves the cafeteria."
+      "128-136",
+      "I purchase cucumbers, tomatoes, and bananas at the fresh produce market.",
+      "Distinct grocery shopping episode at a new location"
     ],
     [
-      "92-101",
-      "I commute from the cafeteria to the Japan Home Centre store.",
-      "Enters the retail store to shop."
+      "137-144",
+      "I walk from the market to my apartment.",
+      "Transit returning home forms a unified episode"
     ],
     [
-      "102-111",
-      "I purchase a plastic bucket and trash bags at the Japan Home Centre.",
-      "Leaves the store to visit outdoor markets."
-    ],
-    [
-      "112-117",
-      "I purchase cucumbers, tomatoes, and bananas from local street vendors.",
-      "Finishes shopping and begins the walk home."
-    ],
-    [
-      "118-126",
-      "I commute from the street market to my apartment.",
-      "Arrives inside the apartment."
-    ],
-    [
-      "127-130",
-      "I organize my groceries and a new trash bucket in my apartment.",
-      "Finishes organizing to eat a snack."
-    ],
-    [
-      "131-135",
-      "I consume a piece of cucumber at my dining table.",
-      "Finishes snack and begins discussing a project."
-    ],
-    [
-      "136-140",
-      "I discuss project API pricing with my flatmate at the dining table.",
-      "Moves to the laptop to troubleshoot the discussed API issues."
-    ],
-    [
-      "141-145",
-      "I troubleshoot API usage costs on my laptop with my friend.",
-      "Finishes troubleshooting to check personal schedule and emails."
-    ],
-    [
-      "146-149",
-      "I check my messages and schedule on my smartphone.",
-      "Puts device away to take a nap."
-    ],
-    [
-      "150-151",
-      "I attempt to take a nap in my bedroom.",
-      "Abandons nap to prepare for departure."
+      "145-151",
+      "I organize my newly purchased household items and produce in my apartment.",
+      "Unpacking and settling in at home forms a coherent episode"
     ],
     [
       "152-154",
-      "I gather my water bottle and umbrella to leave the apartment.",
-      "Leaves the apartment to commute."
+      "I review ARIN7600 project emails during a cucumber snack break at the dining table.",
+      "Brief relaxing break involving a snack and phone check"
     ],
     [
-      "155-166",
-      "I commute from my apartment building to the Main Library.",
-      "Arrives at the library desk."
+      "155-167",
+      "I discuss topics including AI API pricing and computer setups with my friend.",
+      "Continuous conversation on technical topics forms a distinct episode"
     ],
     [
-      "167-171",
-      "I pack my laptop and belongings into my backpack at my Main Library desk.",
-      "Leaves the library for a lecture hall."
+      "168",
+      "I reply to a Project 21 Application email on my smartphone.",
+      "Specific communication task separate from the verbal discussion"
     ],
     [
-      "172-174",
-      "I set up my laptop at a desk in the K.K. Leung Building lecture hall.",
-      "Lecture begins."
+      "169-172",
+      "I rest in my bed.",
+      "Coherent episode of attempting to rest in the bedroom"
     ],
     [
-      "175-189",
-      "I participate in a MATH6002 lecture on graph theory and equations using my laptop.",
-      "End of recording."
+      "173",
+      "I abandon my attempt to sleep.",
+      "Major behavior-changing trigger that redirects the subsequent plan from resting to leaving the apartment"
+    ],
+    [
+      "174-176",
+      "I prepare my water bottle and umbrella for my departure.",
+      "Gathering necessary items to leave forms a specific task episode"
+    ],
+    [
+      "177-186",
+      "I walk from my apartment to the Main Library.",
+      "Unified transit episode across campus"
+    ],
+    [
+      "187-190",
+      "I pack my retrieved laptop and belongings into my backpack at the library.",
+      "Brief episode dedicated to retrieving left-behind items"
+    ],
+    [
+      "191-196",
+      "I walk from the library to a lecture room in the K.K. Leung Building.",
+      "Unified transit episode to the lecture hall"
+    ],
+    [
+      "197-223",
+      "I attend the MATH6002 graph theory lecture.",
+      "Continuous engagement in an academic lecture forms a cohesive episode"
     ]
   ],
   "audit": {
     "complete": true,
     "uncertainties": [],
-    "major_triggers": [],
+    "major_triggers": [
+      173
+    ],
     "boundary_cautions": []
   }
 }

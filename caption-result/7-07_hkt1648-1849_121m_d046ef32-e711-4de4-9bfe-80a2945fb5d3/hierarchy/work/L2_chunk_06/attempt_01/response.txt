@@ -1,0 +1,151 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous stretches of scooter riding by intersections, bridges, or street changes. Isolate stops for vehicle inspection or smartphone app usage into distinct immediate tasks. Group building entry, elevator transit, and office interactions by primary physical location and conversation topic.",
+  "events": [
+    [
+      "1250-1256",
+      "I cross the intersection on my electric scooter.",
+      "Completes crossing the intersection"
+    ],
+    [
+      "1257-1273",
+      "I ride my electric scooter along the bicycle path.",
+      "Approaches a new bridge section"
+    ],
+    [
+      "1274-1285",
+      "I ride my electric scooter across the bridge section.",
+      "Scooter stops working"
+    ],
+    [
+      "1286-1296",
+      "I inspect my broken electric scooter's power cable.",
+      "Switches to using a smartphone"
+    ],
+    [
+      "1297-1302",
+      "I view the e-bike rental app on my smartphone.",
+      "Switches app to check the navigation map"
+    ],
+    [
+      "1303-1311",
+      "I check the navigation map on my smartphone.",
+      "Finishes checking the map"
+    ],
+    [
+      "1312-1315",
+      "I unlock the electric scooter with the app.",
+      "Resumes riding the scooter"
+    ],
+    [
+      "1316-1329",
+      "I ride my electric scooter along the bike path.",
+      "Completes crossing the intersection"
+    ],
+    [
+      "1330-1344",
+      "I ride my electric scooter across the bridge.",
+      "Stops the scooter to check the route"
+    ],
+    [
+      "1345-1351",
+      "I check my route on the Gaode Maps app.",
+      "Resumes riding the scooter"
+    ],
+    [
+      "1352-1363",
+      "I ride my electric scooter along the bike lane.",
+      "Approaches a red light"
+    ],
+    [
+      "1364-1371",
+      "I cross the intersection on my electric scooter.",
+      "Completes crossing the intersection"
+    ],
+    [
+      "1372-1388",
+      "I ride my electric scooter along the tree-lined bicycle lane.",
+      "Approaches a bridge"
+    ],
+    [
+      "1389-1401",
+      "I ride my electric scooter across the bridge.",
+      "Approaches the next intersection"
+    ],
+    [
+      "1402-1412",
+      "I ride my electric scooter along the street toward the entrance gate.",
+      "Reaches the entrance gate"
+    ],
+    [
+      "1413-1415",
+      "I ask the security guard to open the entrance gate.",
+      "Gate opens"
+    ],
+    [
+      "1416-1425",
+      "I ride my electric scooter toward the parking zone.",
+      "Reaches the parking zone"
+    ],
+    [
+      "1426-1430",
+      "I park my electric scooter at the parking spot.",
+      "Dismounts and begins walking"
+    ],
+    [
+      "1431-1436",
+      "I walk toward the building entrance.",
+      "Reaches the entrance doors"
+    ],
+    [
+      "1437-1441",
+      "I enter the building lobby.",
+      "Passes through the reception area"
+    ],
+    [
+      "1442-1445",
+      "I call the elevator in the lobby.",
+      "Takes out smartphone"
+    ],
+    [
+      "1446-1449",
+      "I type a WeChat message to babe on my smartphone.",
+      "Elevator arrives"
+    ],
+    [
+      "1450-1452",
+      "I enter the elevator for floor 9.",
+      "Resumes typing on smartphone"
+    ],
+    [
+      "1453-1458",
+      "I type a WeChat message to babe on my smartphone.",
+      "Elevator reaches floor 9"
+    ],
+    [
+      "1459-1467",
+      "I send a message in the Lian Group WeChat chat.",
+      "Enters the office"
+    ],
+    [
+      "1468-1478",
+      "I discuss a card game with my colleague in the office.",
+      "Conversation ends"
+    ],
+    [
+      "1479-1484",
+      "I retrieve my water bottle from my desk.",
+      "Leaves the desk area"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      1286
+    ],
+    "boundary_cautions": []
+  }
+}
+```

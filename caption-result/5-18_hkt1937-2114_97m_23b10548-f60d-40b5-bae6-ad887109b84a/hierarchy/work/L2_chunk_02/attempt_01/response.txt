@@ -1,0 +1,116 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group consecutive atomic actions into immediate tasks based on continuous goal execution, such as reading specific study topics, writing mathematical derivations, interacting with software, or performing personal care routines. Boundaries are placed where the primary focus, topic, or physical activity shifts.",
+  "events": [
+    [
+      "250-262",
+      "I study matrix completion and SVD explanations.",
+      "Focus shifts to reviewing Kernel Ridge Regression slides."
+    ],
+    [
+      "263-266",
+      "I review Kernel Ridge Regression and computational complexity lecture slides.",
+      "Switches to navigating Finder to open a new document."
+    ],
+    [
+      "267-271",
+      "I open a study questions document in Finder.",
+      "Shifts focus to reviewing linear algebra topics and lecture slides."
+    ],
+    [
+      "272-279",
+      "I review linear algebra review topics and lecture slides.",
+      "Picks up a pen to begin writing notes."
+    ],
+    [
+      "280-287",
+      "I write linear algebra notes.",
+      "Focus is interrupted by viewing an online meeting."
+    ],
+    [
+      "288-290",
+      "I watch an online meeting.",
+      "Leaves the meeting to type a query into ChatGPT."
+    ],
+    [
+      "291-297",
+      "I query ChatGPT about matrix complexity.",
+      "Transitions to studying Jacobi and Gauss-Seidel methods."
+    ],
+    [
+      "298-312",
+      "I study Jacobi and Gauss-Seidel method complexity notes.",
+      "Shifts to performing hand gestures near the laptop camera."
+    ],
+    [
+      "313-335",
+      "I perform hand gestures in front of my laptop.",
+      "Interrupts gestures to sort messy papers on the bedside table."
+    ],
+    [
+      "336-339",
+      "I organize my messy handwritten notes.",
+      "Resumes making hand gestures toward the laptop."
+    ],
+    [
+      "340-346",
+      "I perform hand gestures toward the laptop camera.",
+      "Focus shifts back to writing extensive mathematical formulas."
+    ],
+    [
+      "347-384",
+      "I write matrix and eigenvector equations in my notebook.",
+      "Switches to using ChatGPT for new topics."
+    ],
+    [
+      "385-405",
+      "I study PCA and Power Iteration derivations on ChatGPT.",
+      "Returns to writing SVD formulas on the notepad."
+    ],
+    [
+      "406-427",
+      "I write SVD derivations and quadratic formula solutions in my notepad.",
+      "Stops writing to handle a charging cable."
+    ],
+    [
+      "428-429",
+      "I handle a charging cable.",
+      "Switches to handling and applying cologne."
+    ],
+    [
+      "430-456",
+      "I apply Adidas Victory League cologne.",
+      "Puts away the cologne and picks up earplugs."
+    ],
+    [
+      "457-463",
+      "I insert foam earplugs.",
+      "Leaves the desk area to move between rooms."
+    ],
+    [
+      "464-465",
+      "I walk to the bedroom.",
+      "Sits down to resume writing math derivations."
+    ],
+    [
+      "466-486",
+      "I write eigenvalue and eigenvector derivations in my notebook.",
+      "Initiates interaction with a voice assistant."
+    ],
+    [
+      "487-499",
+      "I write SVD calculations.",
+      "End of provided input sequence."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "464"
+    ],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous application interactions, input device usage, and incidental glances or physical movements into the immediate software tasks they support.",
+  "events": [
+    [
+      "1250-1258",
+      "I use WeChat on my laptop to send an emoji.",
+      "Application focus shifts from WeChat to a document"
+    ],
+    [
+      "1259",
+      "I read the Claude paper summary.",
+      "End of supplied input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

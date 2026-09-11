@@ -1,0 +1,111 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group actions into immediate cohesive tasks such as fetching food, unwrapping items, engaging in distinct conversations, phone usage, and walking along distinct path segments.",
+  "events": [
+    [
+      "250-251",
+      "I get bamboo shoots and walk to the dining table.",
+      "Arrive at table"
+    ],
+    [
+      "252-268",
+      "I eat breakfast and converse with the staff about tourists.",
+      "Shift to unwrapping food"
+    ],
+    [
+      "269-289",
+      "I unwrap leaf-wrapped rice rolls.",
+      "Unwrapping complete"
+    ],
+    [
+      "290-294",
+      "I eat shumai, bamboo shoots, and a steamed bun.",
+      "Shift to prolonged conversation"
+    ],
+    [
+      "295-314",
+      "I discuss childhood waking habits with my companion.",
+      "Shift to fetching food"
+    ],
+    [
+      "315-317",
+      "I fetch a hard-boiled egg from the buffet station.",
+      "Return to seat"
+    ],
+    [
+      "318-338",
+      "I peel a hard-boiled egg for my companion.",
+      "Peeling complete"
+    ],
+    [
+      "339-365",
+      "I eat my meal and converse with my companion.",
+      "Shift to drinking and new topic"
+    ],
+    [
+      "366-377",
+      "I converse with my companion and drink from a paper cup.",
+      "Shift to mixing sauce"
+    ],
+    [
+      "378-382",
+      "I mix chili dipping sauce and handle a leaf wrap.",
+      "Shift to discussing tricycles"
+    ],
+    [
+      "383-393",
+      "I debate the price of an electric tricycle with my companion.",
+      "Shift to searching phone"
+    ],
+    [
+      "394-410",
+      "I search Xiaohongshu to check electric tricycle prices.",
+      "Phone search complete"
+    ],
+    [
+      "411-417",
+      "I watch a worker sweeping outside the restaurant.",
+      "Shift to leaving table"
+    ],
+    [
+      "418-427",
+      "I finish my meal and walk to the restaurant entrance.",
+      "Reach entrance"
+    ],
+    [
+      "428-437",
+      "I borrow an umbrella and walk to the paved road.",
+      "Reach paved road"
+    ],
+    [
+      "438-458",
+      "I walk along the road and discuss the rice fields with my companion.",
+      "Reach plank bridge"
+    ],
+    [
+      "459-471",
+      "I cross a plank bridge and walk along an earthen path.",
+      "Reach bamboo walkway"
+    ],
+    [
+      "472-491",
+      "I walk along a bamboo walkway and observe aquatic life.",
+      "Shift to dirt path and poetry"
+    ],
+    [
+      "492-499",
+      "I pick up a bamboo stick and recite poetry while walking.",
+      "End of batch"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      418
+    ],
+    "boundary_cautions": []
+  }
+}
+```

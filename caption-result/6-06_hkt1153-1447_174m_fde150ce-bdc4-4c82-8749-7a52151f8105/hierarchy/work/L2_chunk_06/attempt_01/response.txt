@@ -1,0 +1,99 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into distinct immediate tasks, focusing on the primary engagement such as reading robotics notes, discussing specific topics with peers, or interacting with devices. Separate blocks when the main objective shifts, such as moving from reading notes to participating in a conversation or helping a companion.",
+  "events": [
+    [
+      "1250-1277",
+      "I review the Franka robot arm algorithm content on my laptop.",
+      "Classmate initiates a conversation about a graduation dinner."
+    ],
+    [
+      "1278-1291",
+      "I discuss the pricing and plans for a graduation dinner with my classmate and friend.",
+      "Shift to using phone."
+    ],
+    [
+      "1292-1294",
+      "I use my phone to comment on a prediction.",
+      "Return to working on laptop."
+    ],
+    [
+      "1295-1321",
+      "I study the Franka robot manipulation notes on my laptop amid a background conversation about a trip to Taiwan.",
+      "Shift in focus to inspecting a physical particle."
+    ],
+    [
+      "1322-1344",
+      "I investigate a piece of dental calculus with my companions.",
+      "Return to reading laptop notes."
+    ],
+    [
+      "1345-1357",
+      "I read the Franka robot arm CEM and MPPI planner notes on my laptop.",
+      "Companion initiates a conversation about paying for the dinner."
+    ],
+    [
+      "1358-1370",
+      "I guide my companion on using her smartphone to pay for the dinner.",
+      "Return to reading laptop notes."
+    ],
+    [
+      "1371-1410",
+      "I read the Franka robot arm notes on rollout loss and teacher forcing on my laptop.",
+      "Shift to handling a physical device."
+    ],
+    [
+      "1411-1412",
+      "I plug a USB cable into a power bank.",
+      "Peer initiates a conversation about finding a place to sleep."
+    ],
+    [
+      "1413-1419",
+      "I discuss finding a place to rest in the lecture hall with my companion.",
+      "Return to reviewing notes."
+    ],
+    [
+      "1420-1430",
+      "I review my robotics notes amid my companion's complaints about my fidgeting and my expressed desire to eat watermelon.",
+      "Resume focused typing and reading on the laptop."
+    ],
+    [
+      "1431-1465",
+      "I type notes into the Franka robot arm manipulation document on my laptop.",
+      "Pause to fiddle with a cable."
+    ],
+    [
+      "1466-1471",
+      "I fiddle with a device cable during my review of the robotics document.",
+      "Conversation about teeth cleaning begins."
+    ],
+    [
+      "1472-1479",
+      "I discuss going to Shenzhen for teeth cleaning and ordering glasses with my companion.",
+      "Shift focus to observing companion's screen activity."
+    ],
+    [
+      "1480-1487",
+      "I observe User A setting up her mouse and browsing applications on her computer.",
+      "Classmate initiates conversation about travel plans."
+    ],
+    [
+      "1488-1494",
+      "I discuss a peer's travel plans to Taiwan and accommodation arrangements.",
+      "Return to typing on laptop."
+    ],
+    [
+      "1495-1499",
+      "I type notes into the Franka robotic arm document on my laptop.",
+      "End of input sequence."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

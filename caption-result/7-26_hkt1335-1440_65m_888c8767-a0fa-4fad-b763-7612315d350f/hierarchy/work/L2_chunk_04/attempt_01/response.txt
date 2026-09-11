@@ -1,0 +1,59 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions related to specific immediate tasks: entering and seating, accessing the digital menu, discussing menu options, purchasing a deal on Meituan, conversing about food quantity, verifying the voucher, ordering side dishes, handling a beverage, and unpacking takeout food.",
+  "events": [
+    [
+      "750-760",
+      "I enter the restaurant, request a table for two, and take a seat at a booth.",
+      "Seating is complete; next, I initiate the ordering process."
+    ],
+    [
+      "761-770",
+      "I listen to the waitress's instructions and scan the table's QR code with WeChat to access the ordering menu.",
+      "QR code scanning is complete; next, I browse the menu."
+    ],
+    [
+      "771-785",
+      "I browse the digital menu and discuss the grilled fish options with my companion and the waitress.",
+      "Menu browsing shifts to purchasing a deal on a different app."
+    ],
+    [
+      "786-798",
+      "I purchase a grilled fish group buy package on the Meituan app.",
+      "Meituan purchase is submitted; next, we converse about the order size."
+    ],
+    [
+      "799-809",
+      "I discuss the appropriate amount of food to order with my companion.",
+      "Conversation concludes; next, I get the voucher verified."
+    ],
+    [
+      "810-814",
+      "I present my group buy voucher QR code to the waitress for verification.",
+      "Voucher verification is complete; next, we order side dishes."
+    ],
+    [
+      "815-830",
+      "I discuss and order side dishes and rice from the restaurant staff.",
+      "Ordering side dishes is complete; next, I handle my drink."
+    ],
+    [
+      "831-837",
+      "I handle my iced milk tea cup and chat with my companion.",
+      "Drink handling finishes to start preparing takeout food."
+    ],
+    [
+      "838-845",
+      "I unpack a takeout food container and prepare the condiment packets.",
+      "End of sequence."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

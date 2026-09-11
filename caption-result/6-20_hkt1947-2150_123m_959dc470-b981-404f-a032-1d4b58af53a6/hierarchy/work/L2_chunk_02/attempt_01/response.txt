@@ -1,0 +1,144 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group immediate contiguous action_briefs into coherent tasks based on shared software targets (e.g., Doubao, Figma, ChatGPT, VS Code) or conversational topics. Abstract incidental looks away, brief pauses, and tab switches that serve the primary goal.",
+  "events": [
+    [
+      "250-262",
+      "I generate cartoon storyboard panels in Doubao.",
+      "Task completes before an unrelated conversation begins."
+    ],
+    [
+      "263",
+      "I listen to someone ask about choosing large items.",
+      "Standalone conversational trigger."
+    ],
+    [
+      "264-268",
+      "I edit vector lines in Figma.",
+      "Tool and objective shift from Figma drawing to ChatGPT prompting."
+    ],
+    [
+      "269-278",
+      "I prompt ChatGPT to integrate a generated scene into an SVG paper diagram.",
+      "Target shifts from ChatGPT to checking Figma."
+    ],
+    [
+      "279-282",
+      "I inspect the diagram canvas layout in Figma.",
+      "Target shifts from Figma layout back to ChatGPT output."
+    ],
+    [
+      "283-289",
+      "I inspect the generated cartoon refrigerator illustration in ChatGPT.",
+      "Task completes before a colleague initiates a conversation."
+    ],
+    [
+      "290-293",
+      "I discuss my holiday duty schedule with a colleague.",
+      "Conversation ends and attention returns to Doubao."
+    ],
+    [
+      "294-295",
+      "I review generated illustrations in Doubao.",
+      "Task is interrupted by a roommate's question."
+    ],
+    [
+      "296-297",
+      "I listen to my roommate discuss October travel plans.",
+      "Conversation ends and attention returns to image generation."
+    ],
+    [
+      "298-310",
+      "I generate refrigerator scene illustrations in Doubao.",
+      "Target shifts from Doubao to ChatGPT comparison modal."
+    ],
+    [
+      "311-320",
+      "I evaluate SVG diagram versions in ChatGPT.",
+      "Task completes before an unrelated conversation about a wedding."
+    ],
+    [
+      "321-323",
+      "I discuss wedding attendance with a person.",
+      "Conversation ends and tool shifts back to ChatGPT."
+    ],
+    [
+      "324-328",
+      "I prompt ChatGPT to add semantic text and a light background to the SVG layout.",
+      "Target shifts from ChatGPT to generating comics in Doubao."
+    ],
+    [
+      "329-344",
+      "I generate cartoon comic panel variations in Doubao.",
+      "Task completes before starting a conversation about food."
+    ],
+    [
+      "345-350",
+      "I discuss food cravings with my roommate.",
+      "Conversation topic shifts from food to thesis return plans."
+    ],
+    [
+      "351-354",
+      "I discuss my thesis return plans with User A.",
+      "Conversation ends and attention returns to Doubao chat."
+    ],
+    [
+      "355-362",
+      "I review cartoon refrigerator illustrations in Doubao.",
+      "Target shifts from Doubao web chat to Preview application."
+    ],
+    [
+      "363-369",
+      "I examine the downloaded refrigerator illustration in Preview.",
+      "Target shifts from Preview application to Figma storyboard elements."
+    ],
+    [
+      "370-379",
+      "I inspect storyboard elements and captions in Figma.",
+      "Target shifts from Figma to checking files in Finder and Preview."
+    ],
+    [
+      "380-397",
+      "I review refrigerator and comic illustrations in Finder and Preview.",
+      "Target shifts from local file review to ChatGPT diagram evaluation."
+    ],
+    [
+      "398-403",
+      "I evaluate three diagram variations in ChatGPT.",
+      "Target shifts from ChatGPT to comic storyboard in Figma."
+    ],
+    [
+      "404-428",
+      "I review the comic storyboard layout and dialogue annotations in Figma.",
+      "Target shifts from Figma layout review to ChatGPT for technical advice."
+    ],
+    [
+      "429-435",
+      "I ask ChatGPT for recommendations on adjusting background image opacity.",
+      "Target shifts from ChatGPT advice to applying opacity effects in Figma."
+    ],
+    [
+      "436-455",
+      "I adjust design effects and opacity properties for the storyboard in Figma.",
+      "Target shifts from Figma editing to reviewing event logs in VS Code."
+    ],
+    [
+      "456-475",
+      "I review dialogue event transcripts in VS Code.",
+      "Target shifts from VS Code log review to Figma storyboard inspection."
+    ],
+    [
+      "476-499",
+      "I inspect comic storyboard frames and dialogue in Figma.",
+      "Batch ends."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

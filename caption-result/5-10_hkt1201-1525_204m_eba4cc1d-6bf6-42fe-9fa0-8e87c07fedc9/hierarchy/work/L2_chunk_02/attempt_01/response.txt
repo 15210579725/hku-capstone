@@ -1,0 +1,164 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous action briefs into concrete immediate tasks based on shared conversational topics, physical locations, specific interactions, and distinct navigational goals.",
+  "events": [
+    [
+      "250-267",
+      "I converse with my companion about healthy eating habits in the parking lot.",
+      "Arrival at the stairs ends the parking lot conversation"
+    ],
+    [
+      "268-273",
+      "I walk to the ticket office.",
+      "Arrival at the ticket office initiates a new task"
+    ],
+    [
+      "274-290",
+      "I discuss the cable car ticket prices with my companion.",
+      "Ticket decision concludes and focus shifts to reading on the phone"
+    ],
+    [
+      "291-294",
+      "I read machine learning articles on my smartphone.",
+      "Interrupted by physically bumping my head"
+    ],
+    [
+      "295-302",
+      "I bump my head on the canopy frame.",
+      "Conversation about the head bump concludes"
+    ],
+    [
+      "303-320",
+      "I read research notes on my smartphone on the observation terrace.",
+      "Focus shifts to passing through the security checkpoint"
+    ],
+    [
+      "321-325",
+      "I walk through the security checkpoint to the boarding platform.",
+      "Arrival at the boarding platform shifts focus to the upcoming ride"
+    ],
+    [
+      "326-329",
+      "I express surprise at the short duration of the cable car ride.",
+      "Interrupted by the physical boarding process"
+    ],
+    [
+      "330-334",
+      "I board the cable car cabin with my companion.",
+      "Boarding completes and conversation resumes"
+    ],
+    [
+      "335-339",
+      "I mock the short cable car ride with my companion.",
+      "Focus shifts to taking a photograph"
+    ],
+    [
+      "340-343",
+      "I photograph my companion inside the cable car.",
+      "Photography finishes and attention turns outside"
+    ],
+    [
+      "344-355",
+      "I discuss the alpine coaster track with my companion.",
+      "Focus shifts back to taking another photograph"
+    ],
+    [
+      "356-360",
+      "I take another photo of my companion.",
+      "Photography concludes as the summit station approaches"
+    ],
+    [
+      "361-367",
+      "I observe the approaching summit station.",
+      "Arrival at the station initiates the exit process"
+    ],
+    [
+      "368-372",
+      "I exit the cable car station.",
+      "Arrival at the snack stand shifts focus to purchasing food"
+    ],
+    [
+      "373-381",
+      "I purchase a roasted sausage at the snack stand.",
+      "Purchase completes and focus shifts to sightseeing"
+    ],
+    [
+      "382-393",
+      "I view the panoramic city landscape from the observation deck.",
+      "Interrupted by the companion's arrival and the oil spill incident"
+    ],
+    [
+      "394-398",
+      "I accidentally drip sausage oil on my companion.",
+      "Incident concludes and focus shifts to compensating the companion"
+    ],
+    [
+      "399-409",
+      "I transfer money to my companion via WeChat for the cable car tickets.",
+      "Transfer completes and focus shifts back to the scenery"
+    ],
+    [
+      "410-415",
+      "I view the coastal landscape from the observation deck.",
+      "Decision to change locations initiates navigation"
+    ],
+    [
+      "416-421",
+      "I walk up the stairs onto the skywalk.",
+      "Arrival on the skywalk shifts focus to sightseeing"
+    ],
+    [
+      "422-435",
+      "I observe the coastal bay with my companion.",
+      "Observation concludes with the refusal of food"
+    ],
+    [
+      "436-438",
+      "I refuse to eat more of the roasted sausage.",
+      "Food refusal concludes and navigation resumes"
+    ],
+    [
+      "439-448",
+      "I walk along the elevated mountain boardwalk.",
+      "Navigation is paused to address the oil spill"
+    ],
+    [
+      "449-456",
+      "I retrieve an alcohol wipe from my bag.",
+      "Wipe retrieval completes and walking resumes"
+    ],
+    [
+      "457-474",
+      "I observe the surrounding landscape from the elevated boardwalk.",
+      "Observation shifts into advice against the cable car"
+    ],
+    [
+      "475-481",
+      "I advise my companion against taking the cable car up the mountain.",
+      "Topic shifts from advice to general reflection on the experience"
+    ],
+    [
+      "482-491",
+      "I converse with my companion about our mountain walk.",
+      "Topic shifts to criticizing environmental impacts"
+    ],
+    [
+      "492-496",
+      "I criticize the environmental impact of the mountain development.",
+      "Conversation ends as attention turns to the viewing terminal"
+    ],
+    [
+      "497-499",
+      "I operate a digital viewing terminal.",
+      "End of provided sequence"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

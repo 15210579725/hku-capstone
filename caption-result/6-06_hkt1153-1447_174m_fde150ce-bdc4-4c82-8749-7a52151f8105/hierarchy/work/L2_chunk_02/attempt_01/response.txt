@@ -1,0 +1,187 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks, focusing on physical navigation, specific phone usage (distinguishing reading topics and chatting), conversations by topic, and specific steps of purchasing items (browsing, selecting, paying). Keep major plan triggers like the lunchbox discussion standalone.",
+  "events": [
+    [
+      "250-259",
+      "I enter the building lobby and ride the descending escalator.",
+      "Completed descending escalator ride"
+    ],
+    [
+      "260-267",
+      "I read X posts about machine learning and cyclic learning rates on my phone while riding an escalator.",
+      "Switches to walking outside"
+    ],
+    [
+      "268-271",
+      "I step off the escalator and exit the building while looking at my phone.",
+      "Moves to outdoor walkway"
+    ],
+    [
+      "272-277",
+      "I walk along the outdoor walkway to the Tai Wai MTR Station concourse.",
+      "Reaches station escalator"
+    ],
+    [
+      "278-281",
+      "I ride the escalator and read a research paper on my phone.",
+      "Reaches fare gates"
+    ],
+    [
+      "282-286",
+      "I pass through the MTR fare gates.",
+      "Enters paid area"
+    ],
+    [
+      "287-291",
+      "I walk along the station platform and wait for the train.",
+      "Train arrives"
+    ],
+    [
+      "292-293",
+      "I board the MTR train.",
+      "Boards train"
+    ],
+    [
+      "294-300",
+      "I read a research paper about snapshot ensembles on my phone.",
+      "Switches to conversation"
+    ],
+    [
+      "301-304",
+      "I discuss borrowing a lunchbox from AC1 with my companion.",
+      "Major trigger: lunchbox plan"
+    ],
+    [
+      "305-316",
+      "I read an X post by Grigory Sapunov about cyclic schedules on my smartphone.",
+      "Switches to conversation"
+    ],
+    [
+      "317-329",
+      "I converse with my companion about exams and summer vacation.",
+      "Switches to texting"
+    ],
+    [
+      "330-340",
+      "I text User X on WeChat and wait inside the train.",
+      "Train arrives at destination"
+    ],
+    [
+      "341-345",
+      "I disembark the train and observe the station platform.",
+      "Starts conversation"
+    ],
+    [
+      "346-355",
+      "I chat with my companion about Shanghai and rollercoasters on the platform.",
+      "Heads to exit"
+    ],
+    [
+      "356-362",
+      "I walk to Exit G and exit the MTR station through the fare gates.",
+      "Exits station"
+    ],
+    [
+      "363-383",
+      "I walk along a covered footbridge while chatting with my companion.",
+      "Arrives at mall"
+    ],
+    [
+      "384-387",
+      "I enter the shopping mall and walk to A-1 Bakery.",
+      "Arrives at bakery"
+    ],
+    [
+      "388-391",
+      "I enter A-1 Bakery and inspect the bread shelves.",
+      "Moves to pastry display"
+    ],
+    [
+      "392-411",
+      "I inspect the pastry displays and discuss choices with my companion.",
+      "Starts selecting items"
+    ],
+    [
+      "412-423",
+      "I use tongs to select an egg tart and a sugar donut onto a tray.",
+      "Heads to checkout"
+    ],
+    [
+      "424-431",
+      "I purchase the pastries at the checkout counter using Alipay.",
+      "Completes payment"
+    ],
+    [
+      "432-434",
+      "I open the Bank of China app on my phone.",
+      "Finishes app interaction"
+    ],
+    [
+      "435-442",
+      "I walk through the shopping mall holding my bagged pastry.",
+      "Reaches escalator"
+    ],
+    [
+      "443-447",
+      "I ride an ascending escalator and moving walkway.",
+      "Reaches tunnel"
+    ],
+    [
+      "448-453",
+      "I walk along the graduation mural tunnel.",
+      "Starts tasting pastry"
+    ],
+    [
+      "454-455",
+      "I unwrap and taste my pastry.",
+      "Finishes tasting"
+    ],
+    [
+      "456-464",
+      "I walk along the outdoor covered walkway and discuss returning the lunchbox with my companion.",
+      "Enters building"
+    ],
+    [
+      "465-471",
+      "I enter the university building and walk to the escalators.",
+      "Reaches escalator"
+    ],
+    [
+      "472-477",
+      "I ride the escalator and briefly converse.",
+      "Reaches upper floor"
+    ],
+    [
+      "478-489",
+      "I walk through the university corridors and ask about an EMBA program at a check-in stand.",
+      "Reaches next escalator"
+    ],
+    [
+      "490-494",
+      "I ride an upward escalator.",
+      "Reaches lunchbox machine"
+    ],
+    [
+      "495-498",
+      "I read a suspension notice on the Lunchbox Lending Machine and express frustration.",
+      "Major trigger: lunchbox plan abandoned"
+    ],
+    [
+      "499",
+      "I enter the CITY EXPRESS cafeteria.",
+      "Ends current sequence"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "301-304",
+      "495-498"
+    ],
+    "boundary_cautions": []
+  }
+}
+```

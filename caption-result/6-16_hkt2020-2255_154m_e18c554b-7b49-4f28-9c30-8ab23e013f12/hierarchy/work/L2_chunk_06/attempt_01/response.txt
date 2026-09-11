@@ -1,0 +1,174 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group immediate action_briefs into distinct tasks based on primary targets, reading subjects, physical movement phases, and app interactions. Boundaries are drawn when the user switches between specific posts/videos, transitions between major mobility states (e.g., exiting a train, riding an escalator), or switches apps.",
+  "events": [
+    [
+      "1250-1286",
+      "I view short videos on Xiaohongshu.",
+      "Switches from short videos to reading a specific long-form post"
+    ],
+    [
+      "1287-1298",
+      "I read a Xiaohongshu post about autonomous ride-hailing.",
+      "Switches to a different post topic"
+    ],
+    [
+      "1299-1303",
+      "I watch a Bentley video on Xiaohongshu.",
+      "Switches to a PhD recruitment post"
+    ],
+    [
+      "1304-1314",
+      "I read a Xiaohongshu post about PhD recruitment.",
+      "Switches to a university research group post"
+    ],
+    [
+      "1315-1316",
+      "I read a Xiaohongshu post about university research group environments.",
+      "Switches to an AI homework post"
+    ],
+    [
+      "1317-1329",
+      "I read a Xiaohongshu post about AI homework errors.",
+      "Switches to a post by Emma about PhD supervision"
+    ],
+    [
+      "1330-1350",
+      "I read Xiaohongshu posts about PhD student supervision.",
+      "Finishes reading to prepare for train exit"
+    ],
+    [
+      "1351-1352",
+      "I exit the train.",
+      "Completes exit to begin walking along the platform"
+    ],
+    [
+      "1353-1361",
+      "I browse Xiaohongshu posts on the train platform.",
+      "Lowers phone to focus on walking down the platform"
+    ],
+    [
+      "1362-1384",
+      "I walk along the train platform.",
+      "Reaches the concourse ticket turnstiles"
+    ],
+    [
+      "1385-1387",
+      "I pass through the ticket turnstiles.",
+      "Clears the turnstiles to check phone"
+    ],
+    [
+      "1388-1392",
+      "I message babe on WeChat.",
+      "Approaches the downward escalator"
+    ],
+    [
+      "1393-1395",
+      "I ride the escalator down.",
+      "Reaches the bottom of the escalator"
+    ],
+    [
+      "1396-1397",
+      "I exit the station.",
+      "Clears the exit to send a voice message"
+    ],
+    [
+      "1398-1399",
+      "I send a WeChat voice message to babe.",
+      "Finishes message to walk toward the building"
+    ],
+    [
+      "1400-1410",
+      "I walk into the building lobby.",
+      "Approaches the reception counter to register"
+    ],
+    [
+      "1411-1421",
+      "I register my visit at the reception counter.",
+      "Leaves the counter to proceed to the escalators"
+    ],
+    [
+      "1422-1423",
+      "I step onto the escalator.",
+      "Stops walking to compose a message on the escalator"
+    ],
+    [
+      "1424-1429",
+      "I message babe on WeChat about my visitor registration.",
+      "Finishes messaging to look up at the escalator surroundings"
+    ],
+    [
+      "1430-1434",
+      "I ride the escalator.",
+      "Steps off the escalator to walk across the lobby"
+    ],
+    [
+      "1435-1439",
+      "I transfer to the next escalator.",
+      "Rides the escalator and checks phone lock screen"
+    ],
+    [
+      "1440-1442",
+      "I read WeChat messages from babe.",
+      "Switches to the Xiaohongshu app"
+    ],
+    [
+      "1443-1446",
+      "I open a Xiaohongshu post about KL divergence.",
+      "Puts focus on stepping off the escalator to walk"
+    ],
+    [
+      "1447-1450",
+      "I walk along the covered walkway.",
+      "Returns attention to reading the post"
+    ],
+    [
+      "1451-1455",
+      "I read the KL divergence post on Xiaohongshu.",
+      "Switches to an Auto Research article"
+    ],
+    [
+      "1456-1459",
+      "I open a Xiaohongshu article about Auto Research.",
+      "Puts phone focus away to walk down the garden path"
+    ],
+    [
+      "1460-1470",
+      "I walk along the residential garden path.",
+      "Raises phone to resume reading the article"
+    ],
+    [
+      "1471-1473",
+      "I read the Auto Research article on Xiaohongshu.",
+      "Switches back to the feed to watch a salon video"
+    ],
+    [
+      "1474-1479",
+      "I watch a Xiaohongshu salon video.",
+      "Switches to a post about Claude Code"
+    ],
+    [
+      "1480-1481",
+      "I read a Xiaohongshu post about a Claude Code review.",
+      "Switches to a post about neuromorphic computing"
+    ],
+    [
+      "1482-1485",
+      "I read a Xiaohongshu post about neuromorphic computing.",
+      "Lowers phone to focus on walking outside"
+    ],
+    [
+      "1486-1499",
+      "I walk along the pathway toward the building entrance.",
+      "Batch transport limit"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

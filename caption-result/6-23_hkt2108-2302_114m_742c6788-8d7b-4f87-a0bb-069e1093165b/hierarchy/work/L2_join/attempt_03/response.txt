@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Identify and merge L2 tasks that were artificially split by transport batch boundaries, specifically looking for identical continuous actions like preparing wrappers or singing.",
+  "merges": [
+    [
+      71,
+      72,
+      "I prepare dough pieces into dumpling wrappers alongside my companion.",
+      "Same dough wrapper preparation task continues across batch edge"
+    ],
+    [
+      129,
+      130,
+      "I place my smart glasses on the bedroom desk and sing '我们不一样'.",
+      "Singing the song continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

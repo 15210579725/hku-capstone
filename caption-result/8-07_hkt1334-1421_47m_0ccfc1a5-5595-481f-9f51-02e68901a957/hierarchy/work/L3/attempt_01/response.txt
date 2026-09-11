@@ -1,0 +1,59 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group continuous tasks into coherent activity episodes based on the primary tool in use and specific research sub-goals, abstracting incidental actions like looks, hydration, and adjusting clothing into the overarching tasks.",
+  "events": [
+    [
+      "0-1",
+      "I settle at my workstation.",
+      "Workstation setup complete"
+    ],
+    [
+      "2-18",
+      "I review the SFT generalization report and corpus loss metrics on my laptop.",
+      "Shifts from initial review to drafting prompt modifications"
+    ],
+    [
+      "19-21",
+      "I draft experiment prompt modifications in the Claude Code terminal.",
+      "Shifts from drafting prompts to documenting metrics in Feishu"
+    ],
+    [
+      "22-27",
+      "I document prompt and context rewrite delta loss metrics in a Feishu document.",
+      "Shifts to inspecting individual training samples"
+    ],
+    [
+      "28-36",
+      "I inspect model predictions and rewrite loss changes for specific training samples.",
+      "Shifts back to drafting instructions in Claude Code"
+    ],
+    [
+      "37-43",
+      "I draft prompt rewrite instructions and experiment conditions in Claude Code.",
+      "Shifts to evaluating datasets and methodology in VS Code"
+    ],
+    [
+      "44-49",
+      "I evaluate context rewriting examples and evaluation datasets across VS Code and Claude artifacts.",
+      "Shifts to running experiments and recording research findings"
+    ],
+    [
+      "50-57",
+      "I conduct Claude Code context rewriting experiments to document model overfitting findings in a Feishu document.",
+      "Work session concludes"
+    ],
+    [
+      "58",
+      "I depart from my workstation.",
+      "Recording ends"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

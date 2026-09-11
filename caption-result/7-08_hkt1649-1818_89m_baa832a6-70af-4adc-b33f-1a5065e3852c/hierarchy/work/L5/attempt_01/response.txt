@@ -1,0 +1,31 @@
+```json
+{
+  "target_level": "L5",
+  "plan": "Group inputs into the broadest major activities. The DeepSeek analysis represents a major, distinct work phase. The meal invitation functions as a major behavior-changing trigger that redirects the activity flow, and is therefore kept standalone. The cafeteria meal is the subsequent independent major activity.",
+  "events": [
+    [
+      "0",
+      "I conduct DeepSeek-V4-Flash context scaling analysis.",
+      "Distinct major work activity"
+    ],
+    [
+      "1",
+      "I invite my colleagues to a meal.",
+      "Major behavior-changing trigger"
+    ],
+    [
+      "2",
+      "I take a cafeteria meal break with my colleagues.",
+      "Distinct major meal activity"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      1
+    ],
+    "boundary_cautions": []
+  }
+}
+```

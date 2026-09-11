@@ -1,0 +1,29 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group the pre-departure actions, the immediate task of exiting the room, and the continuous navigation through the building hallways into distinct immediate tasks.",
+  "events": [
+    [
+      "250-251",
+      "I drink from the water bottle.",
+      "Hydration and glancing completed before moving"
+    ],
+    [
+      "252-253",
+      "I exit the classroom.",
+      "Door pushed open to leave the room"
+    ],
+    [
+      "254-261",
+      "I walk through the building corridors.",
+      "Continuous transit through hallways, passing signs and booths"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

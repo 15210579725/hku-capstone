@@ -1,0 +1,104 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group sequential action briefs into immediate tasks such as shopping in a boutique, interacting at the hotel reception, riding transit, and navigating various beachside areas. Preserve distinct interactions, specific inquiries like room deposits, and distinct walking segments.",
+  "events": [
+    [
+      "1000-1004",
+      "I enter a clothing boutique with my companion.",
+      "Arrival inside the boutique initiates browsing."
+    ],
+    [
+      "1005-1040",
+      "I browse hats in the boutique with my companion.",
+      "Shopping concludes, prompting departure from the boutique."
+    ],
+    [
+      "1041-1044",
+      "I walk into the hotel lobby.",
+      "Arrival at the hotel lobby shifts focus to front desk interactions."
+    ],
+    [
+      "1045-1057",
+      "I inquire about a sightseeing electric cart at the hotel reception.",
+      "The inquiry concludes, leading to reading travel materials on the counter."
+    ],
+    [
+      "1058-1067",
+      "I read a Beihai travel guide at the reception counter.",
+      "Reading finishes as attention shifts to examining a car key fob."
+    ],
+    [
+      "1068-1074",
+      "I examine a car key fob with my companion.",
+      "Attention is momentarily diverted by children in the lobby."
+    ],
+    [
+      "1075-1077",
+      "I observe children on a scooter suitcase.",
+      "An incoming phone call interrupts the observation."
+    ],
+    [
+      "1078-1085",
+      "I coordinate meeting details on a phone call.",
+      "The phone call ends, returning focus to the front desk for another inquiry."
+    ],
+    [
+      "1086-1096",
+      "I inquire about a room deposit at the front desk.",
+      "The deposit inquiry concludes, prompting departure from the hotel."
+    ],
+    [
+      "1097-1099",
+      "I follow my companion out of the hotel.",
+      "Exiting the hotel transitions to boarding the shuttle."
+    ],
+    [
+      "1100-1157",
+      "I ride a sightseeing shuttle with my companion.",
+      "Arrival at the beach area plaza prompts disembarking."
+    ],
+    [
+      "1158-1163",
+      "I disembark the sightseeing shuttle at a pedestrian plaza.",
+      "Exiting the shuttle completes the ride and transitions to exploring the plaza."
+    ],
+    [
+      "1164-1172",
+      "I browse merchandise in a beachside supermarket.",
+      "Browsing finishes, leading to walking toward the beach."
+    ],
+    [
+      "1173-1194",
+      "I walk through a canopy plaza with my companion.",
+      "The walkway transitions into the main beachfront plaza area."
+    ],
+    [
+      "1195-1219",
+      "I walk across the beachfront plaza.",
+      "The paved plaza ends, transitioning onto the sandy beach."
+    ],
+    [
+      "1220-1230",
+      "I walk across the sandy beach.",
+      "Spotting crab burrows halts the walk."
+    ],
+    [
+      "1231-1236",
+      "I examine crab burrows in the sand.",
+      "Resuming the walk toward the ocean shoreline."
+    ],
+    [
+      "1237-1249",
+      "I walk toward the ocean shoreline.",
+      "End of provided inputs."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

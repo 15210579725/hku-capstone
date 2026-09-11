@@ -1,0 +1,18 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "I will evaluate the provided eligible pairs to determine if they represent the exact same immediate task interrupted by a transport boundary. Pairs that exhibit distinct sequential actions or different interaction modes (e.g., queuing vs. boarding, navigating vs. discussing, or dictating vs. reviewing/typing) will remain separate as distinct immediate tasks. Only pairs demonstrating the continuous execution of the exact same action will be merged.",
+  "merges": [
+    [
+      121,
+      122,
+      "I dictate instructions for Claude Code to read the prediction evaluation design markdown and generate the necessary prompts.",
+      "Same dictation of prompt generation instructions continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

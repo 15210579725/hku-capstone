@@ -1,0 +1,176 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks defined by a singular focus, location, or objective. Task boundaries are formed when the primary application changes, a distinct shift in conversation occurs, physical movement transitions between major station or train areas, or attention cleanly shifts between media consumption and environmental interaction.",
+  "events": [
+    [
+      "1750-1765",
+      "I navigate the waiting concourse to verify the correct departure gate.",
+      "The goal of verifying the departure gate concludes upon reading the status screen and walking toward the main gates."
+    ],
+    [
+      "1766-1771",
+      "I claim an empty seat in the waiting hall.",
+      "Seat acquisition concludes upon physically sitting down in the designated chair."
+    ],
+    [
+      "1772-1782",
+      "I discuss purchasing food and water with my companion.",
+      "The conversation about provisions concludes before launching a smartphone application."
+    ],
+    [
+      "1783-1788",
+      "I review the train schedule on the 12306 application.",
+      "Schedule verification concludes upon exiting the application to browse the home screen."
+    ],
+    [
+      "1789-1791",
+      "I launch the Bilibili application to browse the video feed.",
+      "App launching and browsing concludes upon focusing on the companion's smartphone."
+    ],
+    [
+      "1792-1795",
+      "I listen to my companion's remarks about beverage prices and hydration.",
+      "The brief interaction concludes upon returning attention to smartphone videos."
+    ],
+    [
+      "1796-1807",
+      "I watch various short videos concerning agriculture and technology on my smartphone.",
+      "Video viewing is interrupted by observing the companion searching her handbag."
+    ],
+    [
+      "1808-1811",
+      "I watch my companion search for a hair tie inside her handbag.",
+      "Observation of the companion concludes upon raising my hand to survey the wider room."
+    ],
+    [
+      "1812-1816",
+      "I survey the waiting hall surroundings.",
+      "Visual surveying of the hall concludes upon picking up the smartphone."
+    ],
+    [
+      "1817-1825",
+      "I watch entertainment and documentary videos on my smartphone.",
+      "Media consumption pauses to respond to the companion's direct advice."
+    ],
+    [
+      "1826-1830",
+      "I listen to my companion's instructions for drinking water.",
+      "The hydration conversation concludes before returning to swipe through short videos."
+    ],
+    [
+      "1831-1847",
+      "I watch a series of agricultural and news short videos on my smartphone.",
+      "Short video browsing concludes upon selecting a specific long-form video regarding semiconductor sanctions."
+    ],
+    [
+      "1848-1863",
+      "I watch a Bilibili video detailing semiconductor photoresist sanctions.",
+      "Viewing the semiconductor video concludes upon returning to the home recommendation feed."
+    ],
+    [
+      "1864-1882",
+      "I watch a Bilibili review video evaluating portable split air conditioners.",
+      "Appliance video viewing concludes upon receiving notification to board the train."
+    ],
+    [
+      "1883-1888",
+      "I gather my luggage to prepare for boarding.",
+      "Luggage gathering concludes upon moving forward to navigate the concourse."
+    ],
+    [
+      "1889-1897",
+      "I navigate the concourse to pass through the ticket check gate.",
+      "Ticket checking concludes upon successfully scanning the ID and passing through the barrier."
+    ],
+    [
+      "1898-1903",
+      "I manage my wallet on the upward escalator to the train platform.",
+      "Escalator transit concludes before stopping to discuss the ticket check efficiency."
+    ],
+    [
+      "1904-1907",
+      "I discuss the ticket check efficiency with my companion.",
+      "The brief conversation concludes upon beginning the final descent to the platform."
+    ],
+    [
+      "1908-1918",
+      "I navigate the train platform to board carriage 5.",
+      "Platform navigation concludes upon stepping into the train vestibule."
+    ],
+    [
+      "1919-1933",
+      "I explore the train carriage to locate suitable storage space for my luggage.",
+      "Luggage space search concludes upon returning toward the vestibule to use its rack."
+    ],
+    [
+      "1934-1941",
+      "I stow my suitcase and bag in the vestibule luggage rack.",
+      "Luggage stowage concludes upon re-entering the passenger coach aisle."
+    ],
+    [
+      "1942-1947",
+      "I store my wallet inside my backpack at my assigned seat.",
+      "Wallet storage concludes upon securing the backpack zipper."
+    ],
+    [
+      "1948-1955",
+      "I inspect the train cabin environment to adjust my overhead air vent.",
+      "Cabin inspection concludes upon settling in and picking up the smartphone."
+    ],
+    [
+      "1956-1962",
+      "I watch an automotive review video on the Bilibili application.",
+      "Automotive video viewing pauses to inspect an item in the companion's bag."
+    ],
+    [
+      "1963-1965",
+      "I question my companion about the presence of a steel rod inside her bag.",
+      "The inquiry concludes before returning attention to the smartphone screen."
+    ],
+    [
+      "1966-1975",
+      "I watch automotive and agricultural short videos on my smartphone.",
+      "Video viewing is interrupted by noticing a nearby passenger's activity."
+    ],
+    [
+      "1976-1981",
+      "I observe a nearby passenger answering a phone call.",
+      "Observation of the passenger concludes upon resuming short video viewing."
+    ],
+    [
+      "1982-1984",
+      "I watch short videos on my smartphone.",
+      "Video consumption pauses to converse about vehicle engineering."
+    ],
+    [
+      "1985-1989",
+      "I explain hybrid vehicle engine technology to my companion.",
+      "The technical explanation concludes before returning to smartphone media."
+    ],
+    [
+      "1990-1993",
+      "I watch food-related short videos on my smartphone.",
+      "Video viewing concludes upon turning attention to the companion's water bottle."
+    ],
+    [
+      "1994-1996",
+      "I evaluate the temperature tolerance of my companion's water bottle.",
+      "The evaluation concludes upon standing to walk down the aisle."
+    ],
+    [
+      "1997-1999",
+      "I navigate the train aisle to wait for the water dispenser.",
+      "Aisle navigation concludes upon arriving at the water dispenser to monitor its use."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "1883: Companion announcing the ticket check immediately disrupts the smartphone viewing activity and initiates a major phase shift to board the train."
+    ],
+    "boundary_cautions": []
+  }
+}
+```

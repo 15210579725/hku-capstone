@@ -1,0 +1,18 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible boundary pairs to determine if the exact same immediate task continues across the transport batch edge. Pair [19, 20] represents a continuous task of browsing and comparing GPU instances on AutoDL and should be merged. Pair [35, 36] represents sequential but distinct steps of the HPC application process (logging into the ITSRC portal vs searching for a PI group in the HKU portal) and should remain separate at L2.",
+  "merges": [
+    [
+      19,
+      20,
+      "I browse and compare GPU instance rental options on AutoDL.",
+      "Continuous browsing of GPU instances across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

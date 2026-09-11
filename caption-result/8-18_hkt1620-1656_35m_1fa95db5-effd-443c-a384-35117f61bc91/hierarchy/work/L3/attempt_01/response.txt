@@ -1,0 +1,69 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group immediate tasks (L2) into coherent activity episodes (L3) based on continuous travel phases, distinct food and shopping transactions at different stalls, and departure/arrival sequences.",
+  "events": [
+    [
+      "0-2",
+      "I prepare to ride an electric scooter while reviewing model evaluations and rental apps on my smartphone.",
+      "Preparatory actions and smartphone usage before departing."
+    ],
+    [
+      "3-8",
+      "I ride the electric scooter from the office park to a canal-side road and park.",
+      "Continuous commuting episode to a provisional stopping point."
+    ],
+    [
+      "9-10",
+      "I use my smartphone to read messages and search for restaurant options at Hangseng Wanli Plaza.",
+      "Stationary episode focused on smartphone navigation and planning."
+    ],
+    [
+      "11-13",
+      "I ride the electric scooter through intersections to a commercial pedestrian walkway.",
+      "Short travel episode concluding at the food and shopping area."
+    ],
+    [
+      "14-16",
+      "I purchase and eat spare ribs at a snack stall.",
+      "Completes the transaction and consumption of the first food item."
+    ],
+    [
+      "17-20",
+      "I order fried chicken legs and explain my smart glasses to the vendor while waiting.",
+      "Ordering process and vendor interaction at a distinct shop."
+    ],
+    [
+      "21-23",
+      "I purchase bananas at a fruit stall and eat one while walking past storefronts.",
+      "Fruit purchase combined with traversing the commercial walkway."
+    ],
+    [
+      "24-25",
+      "I purchase fried snacks and check a bike rental app on my smartphone.",
+      "Final purchase and preparation for the return commute."
+    ],
+    [
+      "26-29",
+      "I ride the electric scooter along the street, pausing intermittently to eat my fried snacks.",
+      "Return commute episode punctuated by breaks to eat."
+    ],
+    [
+      "30-32",
+      "I ride into my residential community, dispose of takeout trash, and park at my apartment building.",
+      "Arrival sequence within the residential complex."
+    ],
+    [
+      "33-35",
+      "I walk up the stairs, enter my apartment, and pick up a water bottle in the bedroom.",
+      "Indoor transit concluding the journey at home."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

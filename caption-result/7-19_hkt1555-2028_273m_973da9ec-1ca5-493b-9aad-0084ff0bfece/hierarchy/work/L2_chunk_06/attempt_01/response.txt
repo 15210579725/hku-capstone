@@ -1,0 +1,59 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions involving the same target app and topic into immediate tasks. Boundaries occur when switching apps for a different sub-task (e.g., querying ChatGPT) or changing activities entirely (e.g., checking settings, reading release notes, or using the POV Rollout Viewer).",
+  "events": [
+    [
+      "1250-1284",
+      "I study and type reinforcement learning policy gradient derivations in Apple Notes.",
+      "Switches to ChatGPT for a logarithm query."
+    ],
+    [
+      "1285-1290",
+      "I query ChatGPT about logarithm properties.",
+      "Switches to Notion to resume studying."
+    ],
+    [
+      "1291-1419",
+      "I review and type policy gradient mathematical derivations in my notes.",
+      "Switches to Chrome and System Settings."
+    ],
+    [
+      "1420-1427",
+      "I check Apple Intelligence settings and read an arXiv paper.",
+      "Opens ARIA Studio release notes."
+    ],
+    [
+      "1428-1434",
+      "I read ARIA Studio release notes.",
+      "Returns to reading the policy gradient paper and notes."
+    ],
+    [
+      "1435-1460",
+      "I review and type policy gradient log-derivative formulas in Apple Notes.",
+      "Switches to ChatGPT for a calculus query."
+    ],
+    [
+      "1461-1470",
+      "I use ChatGPT to find the derivative of a logarithmic sum.",
+      "Switches back to Apple Notes."
+    ],
+    [
+      "1471-1492",
+      "I review my policy gradient formulas in Apple Notes.",
+      "Switches to the POV Rollout Viewer tab."
+    ],
+    [
+      "1493-1499",
+      "I review prediction cards in the POV Rollout Viewer.",
+      "End of supplied data."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

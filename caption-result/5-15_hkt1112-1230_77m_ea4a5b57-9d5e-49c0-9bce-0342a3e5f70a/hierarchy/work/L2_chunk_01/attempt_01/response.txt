@@ -1,0 +1,119 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group atomic actions into immediate continuous tasks based on clear shifts in physical location, transit usage, or specific functional activities (such as packing, unpacking, or reading). Abstract incidental actions like looking, waiting, and brief pauses into their overarching immediate goal.",
+  "events": [
+    [
+      "0-5",
+      "I pack my laptop and cable into my backpack.",
+      "Packing completed"
+    ],
+    [
+      "6-12",
+      "I retrieve a paper from the apartment.",
+      "Proceeds to bedroom"
+    ],
+    [
+      "13-19",
+      "I plug in my charger in the bedroom.",
+      "Leaves bedroom to exit"
+    ],
+    [
+      "20-24",
+      "I head to the elevator lobby from my apartment with a banana.",
+      "Reaches elevator lobby"
+    ],
+    [
+      "25-31",
+      "I peel my banana during my wait for the elevator.",
+      "Elevator arrives"
+    ],
+    [
+      "32-44",
+      "I ride the elevator down to the ground floor.",
+      "Exits elevator"
+    ],
+    [
+      "45-51",
+      "I discard my banana peel outside the building exit.",
+      "Proceeds along sidewalk"
+    ],
+    [
+      "52-74",
+      "I ascend the outdoor painted and concrete staircases.",
+      "Reaches the top sidewalk"
+    ],
+    [
+      "75-81",
+      "I walk along the sidewalk past a bus stop.",
+      "Arrives at pedestrian elevator"
+    ],
+    [
+      "82-92",
+      "I ride a pedestrian elevator up to the footbridge.",
+      "Exits onto footbridge"
+    ],
+    [
+      "93-102",
+      "I walk along the elevated footbridge to the transit lobby.",
+      "Enters transit lobby stairs"
+    ],
+    [
+      "103-111",
+      "I walk through the transit lobby to another elevator.",
+      "Arrives at elevator"
+    ],
+    [
+      "112-122",
+      "I ride the transit elevator.",
+      "Exits elevator"
+    ],
+    [
+      "123-145",
+      "I walk along the outdoor walkways to the library entrance plaza.",
+      "Arrives at library entrance"
+    ],
+    [
+      "146-154",
+      "I enter the library turnstiles with my companion.",
+      "Passes through turnstiles"
+    ],
+    [
+      "155-166",
+      "I navigate through the library to the study desks.",
+      "Reaches a desk"
+    ],
+    [
+      "167-183",
+      "I unpack my laptop and belongings at a study desk.",
+      "Finishes initial setup"
+    ],
+    [
+      "184-190",
+      "I compress my earplugs during my ARIN7013 assignment reading.",
+      "Shifts focus to finding a pen"
+    ],
+    [
+      "191-200",
+      "I retrieve a pen and paper notes from my backpack.",
+      "Finishes retrieving items"
+    ],
+    [
+      "201-210",
+      "I exchange WeChat messages with babe.",
+      "Switches to reading X"
+    ],
+    [
+      "211-249",
+      "I read a Goodfire X thread about neural geometry.",
+      "End of input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

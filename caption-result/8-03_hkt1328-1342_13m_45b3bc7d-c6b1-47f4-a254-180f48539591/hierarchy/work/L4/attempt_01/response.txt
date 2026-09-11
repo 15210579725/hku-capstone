@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group obtaining, eating, and cleaning up the food into a complete meal phase. Group the subsequent freezer inspection and navigation into a single phase of returning to the personal seating area.",
+  "events": [
+    [
+      "0-2",
+      "I have a wonton meal.",
+      "Meal cycle completes from acquisition through consumption to dish return"
+    ],
+    [
+      "3-4",
+      "I return to the booth seating.",
+      "Post-meal navigation back to the seating area"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

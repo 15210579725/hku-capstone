@@ -1,0 +1,89 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions with a single objective into immediate tasks, ensuring distinct app usage, reading sessions, and physical environment interactions are separated into independent events.",
+  "events": [
+    [
+      "0-11",
+      "I ride the elevator with a companion discussing GPU usage.",
+      "Exits the elevator."
+    ],
+    [
+      "12-15",
+      "I walk through the office to my desk.",
+      "Stops walking to use smartphone."
+    ],
+    [
+      "16-17",
+      "I check an Alipay payment confirmation on my smartphone.",
+      "Switches focus to WeChat messages."
+    ],
+    [
+      "18-27",
+      "I exchange WeChat messages with User X.",
+      "Switches to the WeChat Official Accounts feed."
+    ],
+    [
+      "28-33",
+      "I browse the WeChat Official Accounts feed.",
+      "Opens a specific GeekPark article."
+    ],
+    [
+      "34-86",
+      "I read a GeekPark article on WeChat about an AI agent cyberattack and AI safety.",
+      "Finishes the article and returns to the feed."
+    ],
+    [
+      "87-93",
+      "I read a WeChat article about AI social intelligence.",
+      "Returns to the feed to look for another article."
+    ],
+    [
+      "94-156",
+      "I read a China Science Daily article on WeChat about Goldbach's conjecture research.",
+      "Finishes the article and returns to the feed."
+    ],
+    [
+      "157-159",
+      "I browse the WeChat Official Accounts feed.",
+      "Opens an APPSO article."
+    ],
+    [
+      "160-208",
+      "I read an APPSO morning brief article on WeChat covering various tech news.",
+      "Finishes the article and returns to the feed."
+    ],
+    [
+      "209-213",
+      "I browse the WeChat Official Accounts feed.",
+      "Opens an Apollo Go article."
+    ],
+    [
+      "214-236",
+      "I read a WeChat article about Apollo Go autonomous driving tests.",
+      "Returns to the WeChat feed."
+    ],
+    [
+      "237-238",
+      "I navigate to the WeChat main chat list.",
+      "Opens a specific chat."
+    ],
+    [
+      "239-240",
+      "I read WeChat messages with User X.",
+      "Focuses away from the phone to the physical desk."
+    ],
+    [
+      "241-249",
+      "I organize a power bank and MagSafe charger at my desk.",
+      "End of input."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

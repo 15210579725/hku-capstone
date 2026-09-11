@@ -1,0 +1,214 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions (like walking along a specific path, discussing a single topic, or browsing a specific store) into distinct immediate tasks, stopping when the primary action, focus, or location significantly shifts.",
+  "events": [
+    [
+      "0-7",
+      "I walk along the outdoor walkway observing the courtyard surroundings.",
+      "Event shifts to a woman's comment"
+    ],
+    [
+      "8-9",
+      "I look at my companion responding to a woman mentioning zongzi.",
+      "Resumes walking"
+    ],
+    [
+      "10-22",
+      "I walk along the covered walkway past the water features toward the building entrance.",
+      "Enters building"
+    ],
+    [
+      "23-26",
+      "I cross the building lobby to the escalator bank.",
+      "Rides escalator"
+    ],
+    [
+      "27-29",
+      "I ride the escalator down to the lower level.",
+      "Starts discussion"
+    ],
+    [
+      "30-35",
+      "I discuss destination options with my companion.",
+      "Resumes walking"
+    ],
+    [
+      "36-44",
+      "I walk through the lobby to the covered footbridge.",
+      "Scenery viewing begins"
+    ],
+    [
+      "45-50",
+      "I walk along the outdoor footbridge viewing the surrounding landscape.",
+      "Enters mall"
+    ],
+    [
+      "51-53",
+      "I enter The Wai mall concourse.",
+      "Stops at bakery"
+    ],
+    [
+      "54-56",
+      "I browse the pastry display at Paper Stone Bakery.",
+      "Leaves bakery"
+    ],
+    [
+      "57-61",
+      "I walk along the mall concourse observing the Mannings entrance.",
+      "Starts conversation"
+    ],
+    [
+      "62-65",
+      "I discuss dining options with my companion near the restaurant queue.",
+      "Walks past storefront"
+    ],
+    [
+      "66-69",
+      "I walk along the hallway past the LensCrafters storefront.",
+      "Resumes conversation"
+    ],
+    [
+      "70-74",
+      "I discuss cooking versus eating out with my companion near Li-Ning.",
+      "Passes Canton House"
+    ],
+    [
+      "75-81",
+      "I walk along the mall corridor past Canton House.",
+      "Window display"
+    ],
+    [
+      "82-86",
+      "I inspect the Adidas window display.",
+      "Atrium event"
+    ],
+    [
+      "87-97",
+      "I monitor the pet festival in the mall atrium.",
+      "Continues along corridor"
+    ],
+    [
+      "98-102",
+      "I walk along the upper corridor overlooking the atrium.",
+      "Approaches Coucou"
+    ],
+    [
+      "103-106",
+      "I approach the Coucou Hotpot reception desk.",
+      "Menu reading"
+    ],
+    [
+      "107-113",
+      "I examine the Coucou Hotpot menu brochure.",
+      "Leaves Coucou"
+    ],
+    [
+      "114-117",
+      "I walk past Tea-me-tea toward the downward escalator.",
+      "Rides escalator"
+    ],
+    [
+      "118-122",
+      "I ride the descending escalator.",
+      "Walking concourse"
+    ],
+    [
+      "123-129",
+      "I walk along the concourse past SPORT b.",
+      "Escalator approach"
+    ],
+    [
+      "130-135",
+      "I walk past GODIVA to the escalator entrance.",
+      "Rides escalator"
+    ],
+    [
+      "136-146",
+      "I ride the descending escalator to the lower concourse.",
+      "Station entry"
+    ],
+    [
+      "147-152",
+      "I enter the Tai Wai Station concourse toward Exit B.",
+      "Walking to exit"
+    ],
+    [
+      "153-161",
+      "I walk past shops toward the station ticket gates.",
+      "Exit station"
+    ],
+    [
+      "162-168",
+      "I exit the station onto the city street.",
+      "Crossing street"
+    ],
+    [
+      "169-175",
+      "I cross the street to the brick sidewalk.",
+      "Property listings"
+    ],
+    [
+      "176-177",
+      "I look at the Centaline Property listings.",
+      "Approaches snack stall"
+    ],
+    [
+      "178-182",
+      "I discuss buying dessert near the snack stalls.",
+      "Inspects other stores"
+    ],
+    [
+      "183-189",
+      "I inspect various store displays along the walkway.",
+      "Walking to cross"
+    ],
+    [
+      "190-196",
+      "I walk along the covered walkway to cross the street.",
+      "Sidewalk"
+    ],
+    [
+      "197-203",
+      "I walk along the sidewalk past a fruit stall.",
+      "Walking to market"
+    ],
+    [
+      "204-212",
+      "I walk past JHC to the Tai Wai Market entrance.",
+      "Market entry"
+    ],
+    [
+      "213-220",
+      "I walk past the vegetable stalls in Tai Wai Market toward the fresh fish stalls.",
+      "Seafood"
+    ],
+    [
+      "221-230",
+      "I browse the live seafood displays at the market.",
+      "Moving on"
+    ],
+    [
+      "231-234",
+      "I walk through the wet market aisle toward a grocery stall.",
+      "Zongzi"
+    ],
+    [
+      "235-246",
+      "I examine a basket of zongzi with my companion.",
+      "Walks past butcher"
+    ],
+    [
+      "247-249",
+      "I walk past the butcher stall.",
+      "End of input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

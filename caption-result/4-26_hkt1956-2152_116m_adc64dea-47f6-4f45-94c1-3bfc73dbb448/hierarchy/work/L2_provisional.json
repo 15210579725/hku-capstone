@@ -2,37 +2,57 @@
   {
     "id": 0,
     "start": 71772,
-    "end": 71790,
-    "text": "I board the MTR train and take a seat.",
+    "end": 71801,
+    "text": "I take a seat inside the MTR train carriage.",
     "refs": [
       0,
       1,
       2,
       3,
-      4
+      4,
+      5,
+      6
     ],
-    "boundary_reason": "Boarding and seating complete, attention shifts to observing.",
+    "boundary_reason": "Boarding and taking a seat completes the immediate transit transition.",
     "origin_chunk": 1
   },
   {
     "id": 1,
-    "start": 71791,
-    "end": 71901,
-    "text": "I sit on the train, observe the carriage interior, and gesture while conversing.",
+    "start": 71802,
+    "end": 71835,
+    "text": "I observe the passengers and interior fixtures of the moving MTR train.",
     "refs": [
-      5,
-      6,
       7,
       8,
       9,
       10,
       11,
-      12,
+      12
+    ],
+    "boundary_reason": "Continuous observation is interrupted by active conversation.",
+    "origin_chunk": 1
+  },
+  {
+    "id": 2,
+    "start": 71836,
+    "end": 71861,
+    "text": "I gesture with a thumbs-up during a conversation.",
+    "refs": [
       13,
       14,
       15,
       16,
-      17,
+      17
+    ],
+    "boundary_reason": "The distinct conversational gesture concludes.",
+    "origin_chunk": 1
+  },
+  {
+    "id": 3,
+    "start": 71862,
+    "end": 71901,
+    "text": "I observe the standing passengers and carriage interior.",
+    "refs": [
       18,
       19,
       20,
@@ -40,38 +60,38 @@
       22,
       23
     ],
-    "boundary_reason": "Observation phase pauses to look at phone.",
-    "origin_chunk": 1
-  },
-  {
-    "id": 2,
-    "start": 71902,
-    "end": 71911,
-    "text": "I look at my smartphone while holding hands with my companion.",
-    "refs": [
-      24,
-      25
-    ],
-    "boundary_reason": "Attention shifts to adjusting clothing.",
-    "origin_chunk": 1
-  },
-  {
-    "id": 3,
-    "start": 71912,
-    "end": 71936,
-    "text": "I adjust the drawstring on my pants.",
-    "refs": [
-      26,
-      27
-    ],
-    "boundary_reason": "Adjustment completes, attention shifts to companion's phone.",
+    "boundary_reason": "Shifts focus to holding hands.",
     "origin_chunk": 1
   },
   {
     "id": 4,
+    "start": 71902,
+    "end": 71911,
+    "text": "I hold hands with my seated companion.",
+    "refs": [
+      24,
+      25
+    ],
+    "boundary_reason": "Handholding is interrupted to adjust clothing.",
+    "origin_chunk": 1
+  },
+  {
+    "id": 5,
+    "start": 71912,
+    "end": 71936,
+    "text": "I adjust the white drawstring on my checkered pants.",
+    "refs": [
+      26,
+      27
+    ],
+    "boundary_reason": "Clothing adjustment completes.",
+    "origin_chunk": 1
+  },
+  {
+    "id": 6,
     "start": 71937,
     "end": 71982,
-    "text": "I watch my companion's smartphone and discuss clothing styles with her.",
+    "text": "I discuss Taobao and Xiaohongshu clothing styles with my companion.",
     "refs": [
       28,
       29,
@@ -85,14 +105,14 @@
       37,
       38
     ],
-    "boundary_reason": "Conversation about clothing ends, attention shifts back to carriage.",
+    "boundary_reason": "Topic of clothing styles on specific apps concludes.",
     "origin_chunk": 1
   },
   {
-    "id": 5,
+    "id": 7,
     "start": 71982,
     "end": 72128,
-    "text": "I sit on the train and observe the carriage interior and passengers.",
+    "text": "I observe the commuters and digital screens inside the moving subway carriage.",
     "refs": [
       39,
       40,
@@ -118,21 +138,31 @@
       60,
       61
     ],
-    "boundary_reason": "Observation phase ends with physical interaction with companion.",
+    "boundary_reason": "Extended passive observation shifts to physical affection.",
     "origin_chunk": 1
   },
   {
-    "id": 6,
+    "id": 8,
     "start": 72129,
-    "end": 72206,
-    "text": "I hold hands and converse with my companion while sitting on the train.",
+    "end": 72157,
+    "text": "I hold hands with my seated companion.",
     "refs": [
       62,
       63,
       64,
       65,
       66,
-      67,
+      67
+    ],
+    "boundary_reason": "Physical affection is followed by a period of resting and conversing.",
+    "origin_chunk": 1
+  },
+  {
+    "id": 9,
+    "start": 72158,
+    "end": 72224,
+    "text": "I listen to my companion inside the MTR train carriage.",
+    "refs": [
       68,
       69,
       70,
@@ -141,31 +171,21 @@
       73,
       74,
       75,
-      76
-    ],
-    "boundary_reason": "Conversation ends, preparing to alight.",
-    "origin_chunk": 1
-  },
-  {
-    "id": 7,
-    "start": 72207,
-    "end": 72232,
-    "text": "I stand up and step off the train at Admiralty station.",
-    "refs": [
+      76,
       77,
-      78,
-      79,
-      80
+      78
     ],
-    "boundary_reason": "Alighting complete, transitioning to walking.",
+    "boundary_reason": "The train arrives at Admiralty station, prompting exit.",
     "origin_chunk": 1
   },
   {
-    "id": 8,
-    "start": 72233,
+    "id": 10,
+    "start": 72225,
     "end": 72270,
     "text": "I walk through the Admiralty station concourse toward the escalators.",
     "refs": [
+      79,
+      80,
       81,
       82,
       83,
@@ -175,14 +195,14 @@
       87,
       88
     ],
-    "boundary_reason": "Arrival at the escalator.",
+    "boundary_reason": "Reaching the escalators changes the mode of traversal.",
     "origin_chunk": 1
   },
   {
-    "id": 9,
+    "id": 11,
     "start": 72271,
-    "end": 72350,
-    "text": "I ride the escalator down to the lower level while conversing with my companion.",
+    "end": 72357,
+    "text": "I ride the escalator down through the multi-level transit station.",
     "refs": [
       89,
       90,
@@ -194,31 +214,31 @@
       96,
       97,
       98,
-      99
+      99,
+      100
     ],
-    "boundary_reason": "Escalator ride ends at the lower concourse.",
+    "boundary_reason": "Reaching the bottom of the escalator completes the descent.",
     "origin_chunk": 1
   },
   {
-    "id": 10,
-    "start": 72351,
+    "id": 12,
+    "start": 72358,
     "end": 72381,
-    "text": "I walk from the escalator to the subway platform.",
+    "text": "I walk down the concourse corridor toward the platform screen doors.",
     "refs": [
-      100,
       101,
       102,
       103,
       104
     ],
-    "boundary_reason": "Arrival at the platform waiting area.",
+    "boundary_reason": "Reaching the platform changes the action to waiting.",
     "origin_chunk": 1
   },
   {
-    "id": 11,
+    "id": 13,
     "start": 72382,
-    "end": 72455,
-    "text": "I wait on the platform for the next train to arrive.",
+    "end": 72431,
+    "text": "I wait among the crowd at the subway platform.",
     "refs": [
       105,
       106,
@@ -227,36 +247,36 @@
       109,
       110,
       111,
-      112,
-      113,
-      114,
-      115
+      112
     ],
-    "boundary_reason": "Waiting ends as train arrives and doors open.",
+    "boundary_reason": "The arrival of the train shifts the task to boarding.",
     "origin_chunk": 1
   },
   {
-    "id": 12,
-    "start": 72456,
-    "end": 72470,
-    "text": "I board the subway train, take a seat, and observe the compartment.",
+    "id": 14,
+    "start": 72432,
+    "end": 72475,
+    "text": "I board the subway train with the waiting crowd.",
     "refs": [
+      113,
+      114,
+      115,
       116,
       117,
       118,
       119,
-      120
+      120,
+      121
     ],
-    "boundary_reason": "Boarding and seating complete, initiating conversation.",
+    "boundary_reason": "Boarding completes as attention turns to conversing.",
     "origin_chunk": 1
   },
   {
-    "id": 13,
-    "start": 72471,
-    "end": 72645,
-    "text": "I converse with my companion and observe the train carriage while holding my phone.",
+    "id": 15,
+    "start": 72476,
+    "end": 72611,
+    "text": "I converse with my companion inside the moving train carriage.",
     "refs": [
-      121,
       122,
       123,
       124,
@@ -274,20 +294,30 @@
       136,
       137,
       138,
-      139,
+      139
+    ],
+    "boundary_reason": "Conversation pauses for a distinct period of observation.",
+    "origin_chunk": 1
+  },
+  {
+    "id": 16,
+    "start": 72612,
+    "end": 72645,
+    "text": "I observe the passengers seated opposite me.",
+    "refs": [
       140,
       141,
       142,
       143
     ],
-    "boundary_reason": "Observation and conversation pause to actively use phone.",
+    "boundary_reason": "Focus shifts entirely to browsing a smartphone.",
     "origin_chunk": 1
   },
   {
-    "id": 14,
+    "id": 17,
     "start": 72646,
-    "end": 72745,
-    "text": "I browse photos, use a search bar, and check messages on my smartphone.",
+    "end": 72698,
+    "text": "I browse my phone gallery for photos of past dates and a 366-day anniversary counter.",
     "refs": [
       144,
       145,
@@ -297,37 +327,47 @@
       149,
       150,
       151,
-      152,
+      152
+    ],
+    "boundary_reason": "Shifts to browsing chat and search history.",
+    "origin_chunk": 1
+  },
+  {
+    "id": 18,
+    "start": 72699,
+    "end": 72737,
+    "text": "I browse my chat conversations and search history.",
+    "refs": [
       153,
       154,
       155,
       156,
       157,
       158,
-      159,
-      160
+      159
     ],
-    "boundary_reason": "Phone usage paused for physical interaction and conversation.",
+    "boundary_reason": "Shifts back to physical interaction with the companion.",
     "origin_chunk": 1
   },
   {
-    "id": 15,
-    "start": 72746,
+    "id": 19,
+    "start": 72738,
     "end": 72761,
-    "text": "I converse with my companion and adjust my shoe.",
+    "text": "I gesture dynamically during a conversation with my companion.",
     "refs": [
+      160,
       161,
       162,
       163
     ],
-    "boundary_reason": "Shoe adjustment completes, return to using phone.",
+    "boundary_reason": "Conversational gesturing ends to focus on social media feeds.",
     "origin_chunk": 1
   },
   {
-    "id": 16,
+    "id": 20,
     "start": 72762,
-    "end": 72821,
-    "text": "I browse a social media feed and photos on my smartphone, then converse with my companions.",
+    "end": 72810,
+    "text": "I browse social media feeds and outdoor landscape photo posts.",
     "refs": [
       164,
       165,
@@ -338,25 +378,35 @@
       170,
       171,
       172,
-      173,
-      174
+      173
     ],
-    "boundary_reason": "Browsing session shifts to focusing on different topics and a new photo session.",
+    "boundary_reason": "Shifts to a distinct set of food and memory photos.",
     "origin_chunk": 1
   },
   {
-    "id": 17,
-    "start": 72822,
-    "end": 72945,
-    "text": "I browse photos and short videos on my smartphone and discuss them with my companion.",
+    "id": 21,
+    "start": 72811,
+    "end": 72881,
+    "text": "I view food photographs and a 200-day cartoon graphic on my phone.",
     "refs": [
+      174,
       175,
       176,
       177,
       178,
       179,
       180,
-      181,
+      181
+    ],
+    "boundary_reason": "Shifts to discussing photos of a specific person.",
+    "origin_chunk": 1
+  },
+  {
+    "id": 22,
+    "start": 72882,
+    "end": 72911,
+    "text": "I discuss portrait photos of a junior schoolmate with my companion.",
+    "refs": [
       182,
       183,
       184,
@@ -367,19 +417,19 @@
       189,
       190,
       191,
-      192,
-      193,
-      194
+      192
     ],
-    "boundary_reason": "Phone viewing shifts to a video feed on companion's phone.",
+    "boundary_reason": "Topic changes entirely to cars.",
     "origin_chunk": 1
   },
   {
-    "id": 18,
-    "start": 72946,
+    "id": 23,
+    "start": 72912,
     "end": 72971,
-    "text": "I watch a short video feed shown by my companion and discuss new car models with her.",
+    "text": "I discuss new car models and sales representatives with my companion.",
     "refs": [
+      193,
+      194,
       195,
       196,
       197,
@@ -387,14 +437,14 @@
       199,
       200
     ],
-    "boundary_reason": "Car conversation ends, return to observing carriage.",
+    "boundary_reason": "Car topic concludes, followed by general carriage observation and conversation.",
     "origin_chunk": 1
   },
   {
-    "id": 19,
+    "id": 24,
     "start": 72972,
     "end": 73067,
-    "text": "I observe the train carriage and converse with my companion while holding a snack box.",
+    "text": "I converse with my companion inside the subway car.",
     "refs": [
       201,
       202,
@@ -411,14 +461,14 @@
       213,
       214
     ],
-    "boundary_reason": "Observation and conversation pause to look at companion's phone.",
+    "boundary_reason": "Shifts to focused interaction with the companion's phone.",
     "origin_chunk": 1
   },
   {
-    "id": 20,
+    "id": 25,
     "start": 73067,
     "end": 73151,
-    "text": "I watch my companion browse her WeChat Moments and discuss past photos with her.",
+    "text": "I search my companion's WeChat Moments timeline from 2014 and 2016 for a specific mirror selfie.",
     "refs": [
       215,
       216,
@@ -440,14 +490,14 @@
       232,
       233
     ],
-    "boundary_reason": "WeChat Moments discussion ends, return to own phone.",
+    "boundary_reason": "The search for the old photo concludes.",
     "origin_chunk": 1
   },
   {
-    "id": 21,
+    "id": 26,
     "start": 73152,
-    "end": 73195,
-    "text": "I browse user profiles and examine photos on a social media app on my smartphone.",
+    "end": 73215,
+    "text": "I browse Xiaohongshu posts to examine clothing details with my companion.",
     "refs": [
       234,
       235,
@@ -460,27 +510,17 @@
       242,
       243,
       244,
-      245
-    ],
-    "boundary_reason": "Attention shifts from own phone to companion's phone.",
-    "origin_chunk": 1
-  },
-  {
-    "id": 22,
-    "start": 73196,
-    "end": 73215,
-    "text": "I watch my companion browse Xiaohongshu on her phone and listen to her comments.",
-    "refs": [
+      245,
       246,
       247,
       248,
       249
     ],
-    "boundary_reason": "End of input events.",
+    "boundary_reason": "End of the provided sequence.",
     "origin_chunk": 1
   },
   {
-    "id": 23,
+    "id": 27,
     "start": 73216,
     "end": 73241,
     "text": "I listen to my companion discuss clothing.",
@@ -491,27 +531,27 @@
       253,
       254
     ],
-    "boundary_reason": "Topic concludes",
+    "boundary_reason": "Conversation about clothing ends",
     "origin_chunk": 2
   },
   {
-    "id": 24,
+    "id": 28,
     "start": 73242,
     "end": 73252,
-    "text": "I check social media on my smartphone.",
+    "text": "I check my smartphone.",
     "refs": [
       255,
       256,
       257
     ],
-    "boundary_reason": "Puts phone away",
+    "boundary_reason": "Phone usage ends",
     "origin_chunk": 2
   },
   {
-    "id": 25,
+    "id": 29,
     "start": 73253,
     "end": 73289,
-    "text": "I observe the passengers in the train carriage.",
+    "text": "I observe the train carriage interior.",
     "refs": [
       258,
       259,
@@ -520,14 +560,14 @@
       262,
       263
     ],
-    "boundary_reason": "Observation shifts to conversation",
+    "boundary_reason": "Observation phase ends as conversation begins",
     "origin_chunk": 2
   },
   {
-    "id": 26,
+    "id": 30,
     "start": 73290,
-    "end": 73333,
-    "text": "I discuss our schedule with my companion.",
+    "end": 73324,
+    "text": "I discuss my schedule with my companion.",
     "refs": [
       264,
       265,
@@ -535,17 +575,27 @@
       267,
       268,
       269,
-      270,
-      271,
-      272
+      270
     ],
-    "boundary_reason": "Shifts to checking phone",
+    "boundary_reason": "Schedule conversation ends",
     "origin_chunk": 2
   },
   {
-    "id": 27,
+    "id": 31,
+    "start": 73325,
+    "end": 73333,
+    "text": "I sit in the subway car.",
+    "refs": [
+      271,
+      272
+    ],
+    "boundary_reason": "Repositioning ends",
+    "origin_chunk": 2
+  },
+  {
+    "id": 32,
     "start": 73334,
-    "end": 73395,
+    "end": 73364,
     "text": "I browse a pricing schedule on my smartphone.",
     "refs": [
       273,
@@ -553,102 +603,172 @@
       275,
       276,
       277,
-      278,
-      279,
-      280,
-      281,
-      282
+      278
     ],
-    "boundary_reason": "Finishes browsing schedule",
+    "boundary_reason": "Phone document review ends",
     "origin_chunk": 2
   },
   {
-    "id": 28,
-    "start": 73396,
-    "end": 73448,
+    "id": 33,
+    "start": 73365,
+    "end": 73371,
+    "text": "I look at the train interior.",
+    "refs": [
+      279
+    ],
+    "boundary_reason": "Brief look away ends",
+    "origin_chunk": 2
+  },
+  {
+    "id": 34,
+    "start": 73372,
+    "end": 73391,
+    "text": "I discuss the swimming pool schedule with my companion.",
+    "refs": [
+      280,
+      281
+    ],
+    "boundary_reason": "Follow-up question ends",
+    "origin_chunk": 2
+  },
+  {
+    "id": 35,
+    "start": 73392,
+    "end": 73445,
     "text": "I observe the passengers in the train carriage.",
     "refs": [
+      282,
       283,
       284,
       285,
       286,
       287,
       288,
-      289,
-      290
+      289
     ],
-    "boundary_reason": "Companion initiates new topic",
+    "boundary_reason": "Observation phase ends as companion speaks",
     "origin_chunk": 2
   },
   {
-    "id": 29,
-    "start": 73449,
-    "end": 73526,
-    "text": "I sit in the train and converse with my companion.",
+    "id": 36,
+    "start": 73446,
+    "end": 73451,
+    "text": "I listen to my companion suggest doing aerobics.",
     "refs": [
-      291,
+      290,
+      291
+    ],
+    "boundary_reason": "Suggestion ends",
+    "origin_chunk": 2
+  },
+  {
+    "id": 37,
+    "start": 73452,
+    "end": 73458,
+    "text": "I observe the passengers in the train carriage.",
+    "refs": [
       292,
-      293,
+      293
+    ],
+    "boundary_reason": "Brief observation ends as conversation resumes",
+    "origin_chunk": 2
+  },
+  {
+    "id": 38,
+    "start": 73459,
+    "end": 73481,
+    "text": "I converse with my companion.",
+    "refs": [
       294,
       295,
       296,
-      297,
+      297
+    ],
+    "boundary_reason": "Conversation ends",
+    "origin_chunk": 2
+  },
+  {
+    "id": 39,
+    "start": 73482,
+    "end": 73511,
+    "text": "I observe my surroundings in the train carriage.",
+    "refs": [
       298,
       299,
       300,
       301,
       302,
-      303,
+      303
+    ],
+    "boundary_reason": "Observation of surroundings ends",
+    "origin_chunk": 2
+  },
+  {
+    "id": 40,
+    "start": 73512,
+    "end": 73526,
+    "text": "I discuss a catchphrase with my companion.",
+    "refs": [
       304,
       305,
       306
     ],
-    "boundary_reason": "Prepares to exit",
+    "boundary_reason": "Catchphrase discussion ends as we stand up",
     "origin_chunk": 2
   },
   {
-    "id": 30,
+    "id": 41,
     "start": 73526,
-    "end": 73535,
-    "text": "I stand up to exit the train.",
+    "end": 73578,
+    "text": "I walk along the station platform.",
     "refs": [
       307,
-      308
-    ],
-    "boundary_reason": "Major location change trigger",
-    "origin_chunk": 2
-  },
-  {
-    "id": 31,
-    "start": 73536,
-    "end": 73601,
-    "text": "I walk along the platform and discuss taking Exit C with my companion.",
-    "refs": [
+      308,
       309,
       310,
       311,
       312,
       313,
       314,
-      315,
-      316,
-      317,
-      318,
-      319,
-      320
+      315
     ],
-    "boundary_reason": "Turns toward exit ramp",
+    "boundary_reason": "Platform navigation ends as we discuss the exit",
     "origin_chunk": 2
   },
   {
-    "id": 32,
-    "start": 73602,
-    "end": 73669,
-    "text": "I ride the escalator while eating fried chicken and discussing an animation.",
+    "id": 42,
+    "start": 73578,
+    "end": 73596,
+    "text": "I discuss taking Exit C with my companion.",
     "refs": [
+      316,
+      317,
+      318,
+      319
+    ],
+    "boundary_reason": "Exit decision ends as we head to the escalator",
+    "origin_chunk": 2
+  },
+  {
+    "id": 43,
+    "start": 73596,
+    "end": 73612,
+    "text": "I walk to the descending escalator.",
+    "refs": [
+      320,
       321,
       322,
-      323,
+      323
+    ],
+    "boundary_reason": "Walk to escalator ends as we start riding",
+    "origin_chunk": 2
+  },
+  {
+    "id": 44,
+    "start": 73612,
+    "end": 73674,
+    "text": "I converse with my companion about cartoons.",
+    "refs": [
       324,
       325,
       326,
@@ -660,18 +780,18 @@
       332,
       333,
       334,
-      335
+      335,
+      336
     ],
-    "boundary_reason": "Escalator ride completes",
+    "boundary_reason": "Cartoon conversation ends as we discuss navigation",
     "origin_chunk": 2
   },
   {
-    "id": 33,
-    "start": 73669,
-    "end": 73718,
-    "text": "I navigate the station to pass through the turnstiles.",
+    "id": 45,
+    "start": 73674,
+    "end": 73708,
+    "text": "I discuss navigating to the overpass with my companion.",
     "refs": [
-      336,
       337,
       338,
       339,
@@ -679,38 +799,48 @@
       341,
       342,
       343,
-      344,
-      345,
-      346
+      344
     ],
-    "boundary_reason": "Passes turnstiles",
+    "boundary_reason": "Navigation discussion ends as we approach turnstiles",
     "origin_chunk": 2
   },
   {
-    "id": 34,
-    "start": 73719,
-    "end": 73762,
-    "text": "I walk through the station concourse to enter the 優品360° store.",
+    "id": 46,
+    "start": 73709,
+    "end": 73721,
+    "text": "I pass through the station turnstiles.",
     "refs": [
-      347,
+      345,
+      346,
+      347
+    ],
+    "boundary_reason": "Turnstile passage ends",
+    "origin_chunk": 2
+  },
+  {
+    "id": 47,
+    "start": 73722,
+    "end": 73758,
+    "text": "I walk to the 優品360° store.",
+    "refs": [
       348,
       349,
       350,
       351,
       352,
       353,
-      354,
-      355
+      354
     ],
-    "boundary_reason": "Enters store",
+    "boundary_reason": "Navigation to store completes",
     "origin_chunk": 2
   },
   {
-    "id": 35,
-    "start": 73763,
+    "id": 48,
+    "start": 73758,
     "end": 73811,
-    "text": "I browse nuts, coffee, and dairy items in the store.",
+    "text": "I browse pantry items in the store.",
     "refs": [
+      355,
       356,
       357,
       358,
@@ -722,14 +852,14 @@
       364,
       365
     ],
-    "boundary_reason": "Moves to snack aisle",
+    "boundary_reason": "Browsing pantry aisles ends",
     "origin_chunk": 2
   },
   {
-    "id": 36,
+    "id": 49,
     "start": 73812,
-    "end": 73886,
-    "text": "I browse snacks and discuss past purchases with my companion.",
+    "end": 73869,
+    "text": "I browse snacks in the store.",
     "refs": [
       366,
       367,
@@ -747,21 +877,31 @@
       379,
       380,
       381,
-      382,
+      382
+    ],
+    "boundary_reason": "Snack browsing ends",
+    "origin_chunk": 2
+  },
+  {
+    "id": 50,
+    "start": 73869,
+    "end": 73886,
+    "text": "I browse pastries in the store.",
+    "refs": [
       383,
       384,
       385,
       386,
       387
     ],
-    "boundary_reason": "Moves to instant noodles",
+    "boundary_reason": "Pastry browsing ends",
     "origin_chunk": 2
   },
   {
-    "id": 37,
+    "id": 51,
     "start": 73887,
     "end": 73932,
-    "text": "I browse instant noodles and discuss their prices with my companion.",
+    "text": "I browse instant noodles in the store.",
     "refs": [
       388,
       389,
@@ -773,30 +913,30 @@
       395,
       396
     ],
-    "boundary_reason": "Moves to eggs",
+    "boundary_reason": "Noodle browsing ends",
     "origin_chunk": 2
   },
   {
-    "id": 38,
+    "id": 52,
     "start": 73932,
-    "end": 73944,
-    "text": "I examine egg cartons and discuss their price.",
+    "end": 73941,
+    "text": "I examine eggs in the store.",
     "refs": [
       397,
       398,
       399,
-      400,
-      401
+      400
     ],
-    "boundary_reason": "Moves to frozen section",
+    "boundary_reason": "Egg examination ends",
     "origin_chunk": 2
   },
   {
-    "id": 39,
-    "start": 73944,
-    "end": 74005,
-    "text": "I browse frozen seafood, meats, and condiments.",
+    "id": 53,
+    "start": 73941,
+    "end": 73982,
+    "text": "I browse frozen food in the store.",
     "refs": [
+      401,
       402,
       403,
       404,
@@ -806,21 +946,31 @@
       408,
       409,
       410,
-      411,
+      411
+    ],
+    "boundary_reason": "Frozen food browsing ends",
+    "origin_chunk": 2
+  },
+  {
+    "id": 54,
+    "start": 73983,
+    "end": 74005,
+    "text": "I browse condiments in the store.",
+    "refs": [
       412,
       413,
       414,
       415,
       416
     ],
-    "boundary_reason": "Turns toward exit",
+    "boundary_reason": "Condiment browsing ends",
     "origin_chunk": 2
   },
   {
-    "id": 40,
+    "id": 55,
     "start": 74006,
     "end": 74044,
-    "text": "I inspect an egg display on my way out of the store.",
+    "text": "I exit the store.",
     "refs": [
       417,
       418,
@@ -831,14 +981,14 @@
       423,
       424
     ],
-    "boundary_reason": "Exits store",
+    "boundary_reason": "Store exit completes",
     "origin_chunk": 2
   },
   {
-    "id": 41,
+    "id": 56,
     "start": 74045,
-    "end": 74084,
-    "text": "I discuss buying a cheesecake while inspecting the bakery window.",
+    "end": 74081,
+    "text": "I discuss buying cheesecake with my companion.",
     "refs": [
       425,
       426,
@@ -847,36 +997,36 @@
       429,
       430,
       431,
-      432,
-      433
+      432
     ],
-    "boundary_reason": "Enters bakery",
+    "boundary_reason": "Pre-purchase discussion ends as we enter the bakery",
     "origin_chunk": 2
   },
   {
-    "id": 42,
-    "start": 74085,
-    "end": 74121,
-    "text": "I enter the bakery to inspect the bread and cakes.",
+    "id": 57,
+    "start": 74082,
+    "end": 74111,
+    "text": "I browse baked goods inside the bakery.",
     "refs": [
+      433,
       434,
       435,
       436,
       437,
       438,
-      439,
-      440,
-      441
+      439
     ],
-    "boundary_reason": "Prepares to order",
+    "boundary_reason": "Baked goods browsing ends",
     "origin_chunk": 2
   },
   {
-    "id": 43,
-    "start": 74122,
-    "end": 74201,
-    "text": "I order and pay for a slice of cheesecake using my smartphone.",
+    "id": 58,
+    "start": 74112,
+    "end": 74196,
+    "text": "I purchase a slice of cake using my smartphone.",
     "refs": [
+      440,
+      441,
       442,
       443,
       444,
@@ -894,18 +1044,18 @@
       456,
       457,
       458,
-      459,
-      460
+      459
     ],
-    "boundary_reason": "Completes payment and exits",
+    "boundary_reason": "Purchase completes as I exit the shop",
     "origin_chunk": 2
   },
   {
-    "id": 44,
-    "start": 74202,
+    "id": 59,
+    "start": 74197,
     "end": 74226,
-    "text": "I converse with my friend outside the bakery about the cheesecake.",
+    "text": "I discuss the cake purchase with my companion.",
     "refs": [
+      460,
       461,
       462,
       463,
@@ -913,41 +1063,51 @@
       465,
       466
     ],
-    "boundary_reason": "Begins walking to mall",
+    "boundary_reason": "Post-purchase discussion ends as we walk away",
     "origin_chunk": 2
   },
   {
-    "id": 45,
+    "id": 60,
     "start": 74226,
-    "end": 74291,
-    "text": "I walk into the mall and ride the escalator while discussing food with my companion.",
+    "end": 74248,
+    "text": "I walk to the escalator.",
     "refs": [
       467,
       468,
       469,
       470,
-      471,
+      471
+    ],
+    "boundary_reason": "Walk to escalator completes",
+    "origin_chunk": 2
+  },
+  {
+    "id": 61,
+    "start": 74249,
+    "end": 74261,
+    "text": "I listen to my companion talk about the cheesecake.",
+    "refs": [
       472,
       473,
       474,
-      475,
+      475
+    ],
+    "boundary_reason": "Cheesecake conversation ends as topic shifts",
+    "origin_chunk": 2
+  },
+  {
+    "id": 62,
+    "start": 74262,
+    "end": 74326,
+    "text": "I converse with my companion about cooking soup.",
+    "refs": [
       476,
       477,
       478,
       479,
       480,
       481,
-      482
-    ],
-    "boundary_reason": "Steps off escalator",
-    "origin_chunk": 2
-  },
-  {
-    "id": 46,
-    "start": 74292,
-    "end": 74326,
-    "text": "I discuss making miso soup with my companion.",
-    "refs": [
+      482,
       483,
       484,
       485,
@@ -956,34 +1116,64 @@
       488,
       489
     ],
-    "boundary_reason": "Topic shifts to navigation",
+    "boundary_reason": "Soup conversation ends",
     "origin_chunk": 2
   },
   {
-    "id": 47,
+    "id": 63,
     "start": 74326,
-    "end": 74365,
-    "text": "I navigate the mall concourse while discussing a gift for a friend.",
+    "end": 74332,
+    "text": "I ask my companion about our destination.",
     "refs": [
       490,
-      491,
+      491
+    ],
+    "boundary_reason": "Destination question ends",
+    "origin_chunk": 2
+  },
+  {
+    "id": 64,
+    "start": 74332,
+    "end": 74355,
+    "text": "I walk through the mall concourse.",
+    "refs": [
       492,
       493,
       494,
       495,
-      496,
-      497,
-      498,
-      499
+      496
     ],
-    "boundary_reason": "Steps onto escalator",
+    "boundary_reason": "Mall navigation ends as conversation resumes",
     "origin_chunk": 2
   },
   {
-    "id": 48,
+    "id": 65,
+    "start": 74355,
+    "end": 74361,
+    "text": "I discuss bringing a gift with my companion.",
+    "refs": [
+      497,
+      498
+    ],
+    "boundary_reason": "Gift discussion ends",
+    "origin_chunk": 2
+  },
+  {
+    "id": 66,
+    "start": 74362,
+    "end": 74365,
+    "text": "I step onto the escalator.",
+    "refs": [
+      499
+    ],
+    "boundary_reason": "Batch ends",
+    "origin_chunk": 2
+  },
+  {
+    "id": 67,
     "start": 74366,
     "end": 74387,
-    "text": "I look at storefronts during the escalator ride.",
+    "text": "I ride the escalator to the upper floor.",
     "refs": [
       500,
       501,
@@ -991,14 +1181,14 @@
       503,
       504
     ],
-    "boundary_reason": "Escalator ride completed.",
+    "boundary_reason": "Escalator ride concludes.",
     "origin_chunk": 3
   },
   {
-    "id": 49,
+    "id": 68,
     "start": 74387,
     "end": 74409,
-    "text": "I converse with my companion about a friend's eating habits.",
+    "text": "I converse with my companion about an acquaintance's diet.",
     "refs": [
       505,
       506,
@@ -1010,14 +1200,14 @@
       512,
       513
     ],
-    "boundary_reason": "Topic of conversation shifts.",
+    "boundary_reason": "Topic shifts from diet to the apartment.",
     "origin_chunk": 3
   },
   {
-    "id": 50,
+    "id": 69,
     "start": 74409,
     "end": 74439,
-    "text": "I converse with my companion about my room during the walk past store displays.",
+    "text": "I converse with my companion about my apartment.",
     "refs": [
       514,
       515,
@@ -1029,14 +1219,14 @@
       521,
       522
     ],
-    "boundary_reason": "Conversation topic concludes; continues walking.",
+    "boundary_reason": "Conversation pauses to focus on walking past shops.",
     "origin_chunk": 3
   },
   {
-    "id": 51,
+    "id": 70,
     "start": 74439,
-    "end": 74552,
-    "text": "I walk along the mall corridor past various shops and kiosks with my companion.",
+    "end": 74546,
+    "text": "I navigate the shopping mall corridor.",
     "refs": [
       523,
       524,
@@ -1061,35 +1251,35 @@
       543,
       544,
       545,
-      546,
-      547
+      546
     ],
-    "boundary_reason": "Arrives at Market Place supermarket.",
+    "boundary_reason": "Arrives at the supermarket to shop for produce.",
     "origin_chunk": 3
   },
   {
-    "id": 52,
-    "start": 74553,
-    "end": 74584,
-    "text": "I inspect the central fruit island upon entering the Market Place supermarket.",
+    "id": 71,
+    "start": 74547,
+    "end": 74571,
+    "text": "I enter the Market Place supermarket to browse the produce section.",
     "refs": [
+      547,
       548,
       549,
       550,
-      551,
-      552,
-      553,
-      554
+      551
     ],
-    "boundary_reason": "Realizes the item is not an apple and moves to browse other fruits.",
+    "boundary_reason": "Switches from entering to actively browsing fruit displays.",
     "origin_chunk": 3
   },
   {
-    "id": 53,
-    "start": 74585,
-    "end": 74654,
-    "text": "I browse the fruit, vegetable, and refrigerated displays in the produce section.",
+    "id": 72,
+    "start": 74572,
+    "end": 74621,
+    "text": "I browse the fresh fruit displays.",
     "refs": [
+      552,
+      553,
+      554,
       555,
       556,
       557,
@@ -1098,7 +1288,17 @@
       560,
       561,
       562,
-      563,
+      563
+    ],
+    "boundary_reason": "Shifts to scanning the refrigerated vegetable section.",
+    "origin_chunk": 3
+  },
+  {
+    "id": 73,
+    "start": 74622,
+    "end": 74654,
+    "text": "I navigate the refrigerated produce section.",
+    "refs": [
       564,
       565,
       566,
@@ -1109,14 +1309,14 @@
       571,
       572
     ],
-    "boundary_reason": "Ends general browsing to focus on selecting cucumbers.",
+    "boundary_reason": "Stops to select cucumbers.",
     "origin_chunk": 3
   },
   {
-    "id": 54,
+    "id": 74,
     "start": 74655,
     "end": 74745,
-    "text": "I select a pack of mini cucumbers with my companion.",
+    "text": "I select packaged cucumbers with my companion.",
     "refs": [
       573,
       574,
@@ -1137,19 +1337,29 @@
       589,
       590
     ],
-    "boundary_reason": "Cucumber selection is completed; moves to chilled foods.",
+    "boundary_reason": "Cucumber selection concludes to move to dairy.",
     "origin_chunk": 3
   },
   {
-    "id": 55,
+    "id": 75,
     "start": 74745,
-    "end": 74854,
-    "text": "I select a carton of Meiji milk from the chilled shelves.",
+    "end": 74775,
+    "text": "I survey the chilled dairy shelves.",
     "refs": [
       591,
       592,
       593,
-      594,
+      594
+    ],
+    "boundary_reason": "Focus shifts specifically to choosing milk.",
+    "origin_chunk": 3
+  },
+  {
+    "id": 76,
+    "start": 74776,
+    "end": 74854,
+    "text": "I choose a carton of Meiji milk with my companion.",
+    "refs": [
       595,
       596,
       597,
@@ -1168,14 +1378,14 @@
       610,
       611
     ],
-    "boundary_reason": "Milk selection is completed; heads to checkout.",
+    "boundary_reason": "Milk selection concludes to head to checkout.",
     "origin_chunk": 3
   },
   {
-    "id": 56,
+    "id": 77,
     "start": 74854,
     "end": 74951,
-    "text": "I queue at the checkout area.",
+    "text": "I wait in the supermarket checkout queue.",
     "refs": [
       612,
       613,
@@ -1196,14 +1406,14 @@
       628,
       629
     ],
-    "boundary_reason": "Reaches the front of the queue to use the self-checkout.",
+    "boundary_reason": "Queueing ends as the checkout terminal becomes available.",
     "origin_chunk": 3
   },
   {
-    "id": 57,
+    "id": 78,
     "start": 74952,
     "end": 74981,
-    "text": "I operate the self-checkout kiosk to pay for the groceries.",
+    "text": "I process my items at the self-checkout kiosk.",
     "refs": [
       630,
       631,
@@ -1213,14 +1423,14 @@
       635,
       636
     ],
-    "boundary_reason": "Self-checkout scanning and payment preparation completed.",
+    "boundary_reason": "Payment processing concludes.",
     "origin_chunk": 3
   },
   {
-    "id": 58,
+    "id": 79,
     "start": 74982,
     "end": 75055,
-    "text": "I converse with my companion about milk preferences.",
+    "text": "I discuss lactose-free milk options with my companion.",
     "refs": [
       637,
       638,
@@ -1241,14 +1451,14 @@
       653,
       654
     ],
-    "boundary_reason": "Conversation concludes; begins walking down the hallway.",
+    "boundary_reason": "Conversation ends to begin walking out.",
     "origin_chunk": 3
   },
   {
-    "id": 59,
+    "id": 80,
     "start": 75055,
-    "end": 75161,
-    "text": "I prepare and hand the Meiji milk carton to my companion in the mall hallway.",
+    "end": 75108,
+    "text": "I banter with my companion about sharing the milk.",
     "refs": [
       655,
       656,
@@ -1262,7 +1472,17 @@
       664,
       665,
       666,
-      667,
+      667
+    ],
+    "boundary_reason": "Companion's request to drink leads to opening the milk.",
+    "origin_chunk": 3
+  },
+  {
+    "id": 81,
+    "start": 75109,
+    "end": 75150,
+    "text": "I prepare the Meiji milk carton for my companion.",
+    "refs": [
       668,
       669,
       670,
@@ -1270,20 +1490,20 @@
       672,
       673,
       674,
-      675,
-      676,
-      677,
-      678
+      675
     ],
-    "boundary_reason": "Milk sharing is completed; conversation topic shifts.",
+    "boundary_reason": "Milk carton is handed over.",
     "origin_chunk": 3
   },
   {
-    "id": 60,
-    "start": 75162,
+    "id": 82,
+    "start": 75151,
     "end": 75214,
-    "text": "I converse with my companion about a friend's physical reaction to drinking.",
+    "text": "I converse with my companion about the milk's quality.",
     "refs": [
+      676,
+      677,
+      678,
       679,
       680,
       681,
@@ -1298,14 +1518,14 @@
       690,
       691
     ],
-    "boundary_reason": "Conversation ends; approaches escalator.",
+    "boundary_reason": "Approach the escalator to leave the floor.",
     "origin_chunk": 3
   },
   {
-    "id": 61,
+    "id": 83,
     "start": 75214,
-    "end": 75281,
-    "text": "I exit the mall via the escalator and glass doors.",
+    "end": 75255,
+    "text": "I ride the escalator down to the exit level.",
     "refs": [
       692,
       693,
@@ -1313,21 +1533,31 @@
       695,
       696,
       697,
-      698,
+      698
+    ],
+    "boundary_reason": "Escalator ride ends at the lower level.",
+    "origin_chunk": 3
+  },
+  {
+    "id": 84,
+    "start": 75256,
+    "end": 75281,
+    "text": "I exit the shopping mall.",
+    "refs": [
       699,
       700,
       701,
       702,
       703
     ],
-    "boundary_reason": "Exits the shopping mall.",
+    "boundary_reason": "Leaves the indoor mall environment.",
     "origin_chunk": 3
   },
   {
-    "id": 62,
+    "id": 85,
     "start": 75282,
-    "end": 75368,
-    "text": "I discuss grocery prices and cucumber diets with my companion along the pedestrian bridge.",
+    "end": 75308,
+    "text": "I cross the pedestrian bridge.",
     "refs": [
       704,
       705,
@@ -1335,7 +1565,17 @@
       707,
       708,
       709,
-      710,
+      710
+    ],
+    "boundary_reason": "Conversation shifts to the cost of vegetables.",
+    "origin_chunk": 3
+  },
+  {
+    "id": 86,
+    "start": 75308,
+    "end": 75368,
+    "text": "I converse with my companion about the cost and storage of vegetables.",
+    "refs": [
       711,
       712,
       713,
@@ -1352,42 +1592,62 @@
       724,
       725
     ],
-    "boundary_reason": "Approaches the next escalator.",
+    "boundary_reason": "Conversation topic concludes before boarding the next escalator.",
     "origin_chunk": 3
   },
   {
-    "id": 63,
+    "id": 87,
     "start": 75368,
-    "end": 75409,
-    "text": "I walk to the outdoor walkway via the escalator.",
+    "end": 75395,
+    "text": "I ride the escalator.",
     "refs": [
       726,
       727,
       728,
       729,
       730,
-      731,
-      732,
-      733,
-      734,
-      735
+      731
     ],
-    "boundary_reason": "Reaches the outdoor pathway.",
+    "boundary_reason": "Escalator ride finishes.",
     "origin_chunk": 3
   },
   {
-    "id": 64,
-    "start": 75409,
-    "end": 75495,
-    "text": "I discuss getting a pet cat with my companion along the outdoor pathway.",
+    "id": 88,
+    "start": 75395,
+    "end": 75431,
+    "text": "I walk along the pathway.",
     "refs": [
-      736,
+      732,
+      733,
+      734,
+      735,
+      736
+    ],
+    "boundary_reason": "Companion tastes the milk and starts evaluating it.",
+    "origin_chunk": 3
+  },
+  {
+    "id": 89,
+    "start": 75432,
+    "end": 75465,
+    "text": "I evaluate the sweetness of the milk with my companion.",
+    "refs": [
       737,
       738,
       739,
       740,
       741,
-      742,
+      742
+    ],
+    "boundary_reason": "Conversation shifts from milk to adopting a cat.",
+    "origin_chunk": 3
+  },
+  {
+    "id": 90,
+    "start": 75465,
+    "end": 75495,
+    "text": "I discuss adopting a Devon Rex cat with my companion.",
+    "refs": [
       743,
       744,
       745,
@@ -1396,14 +1656,14 @@
       748,
       749
     ],
-    "boundary_reason": "End of the provided sequence.",
+    "boundary_reason": "Recording ends.",
     "origin_chunk": 3
   },
   {
-    "id": 65,
+    "id": 91,
     "start": 75495,
     "end": 75596,
-    "text": "I discuss pet cats with my companion on the outdoor walkway.",
+    "text": "I converse with my companion about cat preferences during an outdoor walk.",
     "refs": [
       750,
       751,
@@ -1426,14 +1686,14 @@
       768,
       769
     ],
-    "boundary_reason": "Topic changes to the surroundings",
+    "boundary_reason": "Topic shifts from cats to the surroundings and names",
     "origin_chunk": 4
   },
   {
-    "id": 66,
+    "id": 92,
     "start": 75597,
-    "end": 75646,
-    "text": "I discuss the surroundings with my companion on the pathway.",
+    "end": 75671,
+    "text": "I joke with my companion about User X's name during our walk.",
     "refs": [
       770,
       771,
@@ -1444,20 +1704,20 @@
       776,
       777,
       778,
-      779
+      779,
+      780,
+      781,
+      782
     ],
-    "boundary_reason": "Topic changes to singing",
+    "boundary_reason": "Topic shifts from names to singing",
     "origin_chunk": 4
   },
   {
-    "id": 67,
-    "start": 75646,
-    "end": 75791,
-    "text": "I sing songs to my companion on the outdoor plaza.",
+    "id": 93,
+    "start": 75672,
+    "end": 75761,
+    "text": "I sing a song about the moon during a walk with my companion.",
     "refs": [
-      780,
-      781,
-      782,
       783,
       784,
       785,
@@ -1470,20 +1730,20 @@
       792,
       793,
       794,
-      795,
-      796,
-      797,
-      798
+      795
     ],
-    "boundary_reason": "Topic changes to a damaged delivery package",
+    "boundary_reason": "Topic shifts from singing to a food delivery",
     "origin_chunk": 4
   },
   {
-    "id": 68,
-    "start": 75792,
-    "end": 75842,
-    "text": "I discuss a damaged food delivery package with my companion.",
+    "id": 94,
+    "start": 75762,
+    "end": 75838,
+    "text": "I converse with my companion about a damaged delivery package of spare ribs.",
     "refs": [
+      796,
+      797,
+      798,
       799,
       800,
       801,
@@ -1495,18 +1755,18 @@
       807,
       808,
       809,
-      810,
-      811
+      810
     ],
-    "boundary_reason": "Topic changes to roasted nuts",
+    "boundary_reason": "Topic shifts from spare ribs to roasted nuts",
     "origin_chunk": 4
   },
   {
-    "id": 69,
-    "start": 75842,
+    "id": 95,
+    "start": 75838,
     "end": 75878,
     "text": "I discuss roasted nuts with my companion.",
     "refs": [
+      811,
       812,
       813,
       814,
@@ -1517,27 +1777,27 @@
       819,
       820
     ],
-    "boundary_reason": "Arrival at the building lobby",
+    "boundary_reason": "Reaches the apartment building entrance",
     "origin_chunk": 4
   },
   {
-    "id": 70,
+    "id": 96,
     "start": 75879,
     "end": 75892,
-    "text": "I enter the building lobby.",
+    "text": "I enter the apartment building lobby.",
     "refs": [
       821,
       822,
       823
     ],
-    "boundary_reason": "Entering the elevator",
+    "boundary_reason": "Enters the elevator",
     "origin_chunk": 4
   },
   {
-    "id": 71,
+    "id": 97,
     "start": 75892,
     "end": 75972,
-    "text": "I take the elevator to the 35th floor.",
+    "text": "I ride the elevator to the 35th floor.",
     "refs": [
       824,
       825,
@@ -1553,40 +1813,60 @@
       835,
       836
     ],
-    "boundary_reason": "Arrival at the 35th floor",
+    "boundary_reason": "Arrives at floor 35 and waits for a neighbor",
     "origin_chunk": 4
   },
   {
-    "id": 72,
+    "id": 98,
     "start": 75972,
-    "end": 76027,
-    "text": "I enter the apartment with my companion.",
+    "end": 76021,
+    "text": "I wait in the 35th-floor hallway for a woman to finish interacting with her door.",
     "refs": [
       837,
       838,
       839,
       840,
-      841,
-      842,
-      843
+      841
     ],
-    "boundary_reason": "Entering the bedroom",
+    "boundary_reason": "Neighbor clears the hallway, opening own door",
     "origin_chunk": 4
   },
   {
-    "id": 73,
-    "start": 76027,
-    "end": 76121,
-    "text": "I discuss household items with my roommate in the bedroom.",
+    "id": 99,
+    "start": 76022,
+    "end": 76031,
+    "text": "I enter the apartment and proceed to bedroom B.",
     "refs": [
+      842,
+      843,
       844,
-      845,
+      845
+    ],
+    "boundary_reason": "Arrives in the bedroom",
+    "origin_chunk": 4
+  },
+  {
+    "id": 100,
+    "start": 76032,
+    "end": 76056,
+    "text": "I discuss trash disposal with my roommate.",
+    "refs": [
       846,
       847,
       848,
       849,
       850,
-      851,
+      851
+    ],
+    "boundary_reason": "Shifts to inspecting items and bantering",
+    "origin_chunk": 4
+  },
+  {
+    "id": 101,
+    "start": 76057,
+    "end": 76103,
+    "text": "I inspect my shoes and banter with my roommate about washing tomatoes.",
+    "refs": [
       852,
       853,
       854,
@@ -1599,36 +1879,36 @@
       861,
       862,
       863,
-      864,
+      864
+    ],
+    "boundary_reason": "Shifts to searching for items in the backpack",
+    "origin_chunk": 4
+  },
+  {
+    "id": 102,
+    "start": 76104,
+    "end": 76141,
+    "text": "I search my backpack for swimming gear.",
+    "refs": [
       865,
       866,
       867,
-      868
-    ],
-    "boundary_reason": "Searching for clothing",
-    "origin_chunk": 4
-  },
-  {
-    "id": 74,
-    "start": 76122,
-    "end": 76136,
-    "text": "I retrieve clothing from my backpack for my roommate.",
-    "refs": [
+      868,
       869,
       870,
       871,
-      872
+      872,
+      873
     ],
-    "boundary_reason": "Moving into the hallway",
+    "boundary_reason": "Moves to the hallway to joke about the swim cap",
     "origin_chunk": 4
   },
   {
-    "id": 75,
-    "start": 76137,
+    "id": 103,
+    "start": 76142,
     "end": 76166,
-    "text": "I discuss swimming caps with my roommate in the hallway.",
+    "text": "I joke about wearing underwear as a swim cap from the hallway.",
     "refs": [
-      873,
       874,
       875,
       876,
@@ -1639,11 +1919,11 @@
       881,
       882
     ],
-    "boundary_reason": "Starting to wash hands",
+    "boundary_reason": "Moves to the bathroom to wash hands",
     "origin_chunk": 4
   },
   {
-    "id": 76,
+    "id": 104,
     "start": 76167,
     "end": 76188,
     "text": "I wash my hands in the bathroom.",
@@ -1654,14 +1934,14 @@
       886,
       887
     ],
-    "boundary_reason": "Returning to the bedroom to show goggles",
+    "boundary_reason": "Finishes washing and returns to the bedroom",
     "origin_chunk": 4
   },
   {
-    "id": 77,
+    "id": 105,
     "start": 76188,
     "end": 76230,
-    "text": "I show my swimming goggles to my roommate.",
+    "text": "I discuss swimming goggles with my roommate.",
     "refs": [
       888,
       889,
@@ -1675,14 +1955,14 @@
       897,
       898
     ],
-    "boundary_reason": "Transitioning to work on the laptop",
+    "boundary_reason": "Opens the computer to work",
     "origin_chunk": 4
   },
   {
-    "id": 78,
+    "id": 106,
     "start": 76230,
     "end": 76296,
-    "text": "I review the risk analysis presentation outline in WeChat.",
+    "text": "I review the 'ppt_outline.md' file in the '7102 Risk Analysis' WeChat group.",
     "refs": [
       899,
       900,
@@ -1698,14 +1978,14 @@
       910,
       911
     ],
-    "boundary_reason": "Switching from WeChat to Claude",
+    "boundary_reason": "Switches to Claude to review objectives",
     "origin_chunk": 4
   },
   {
-    "id": 79,
+    "id": 107,
     "start": 76296,
-    "end": 76391,
-    "text": "I prompt Claude to generate presentation content for objectives three and four.",
+    "end": 76342,
+    "text": "I review the chatbot project deliverables in Claude.",
     "refs": [
       912,
       913,
@@ -1715,7 +1995,17 @@
       917,
       918,
       919,
-      920,
+      920
+    ],
+    "boundary_reason": "Starts prompting Claude to generate slide content",
+    "origin_chunk": 4
+  },
+  {
+    "id": 108,
+    "start": 76343,
+    "end": 76391,
+    "text": "I prompt Claude to integrate Objective 3 and 4 content into the presentation.",
+    "refs": [
       921,
       922,
       923,
@@ -1724,17 +2014,27 @@
       926,
       927
     ],
-    "boundary_reason": "Waiting for Claude generation",
+    "boundary_reason": "Finishes prompt and checks proxy routing",
     "origin_chunk": 4
   },
   {
-    "id": 80,
-    "start": 0,
-    "end": 76451,
-    "text": "I monitor the Claude chat interface on my laptop.",
+    "id": 109,
+    "start": 76392,
+    "end": 76396,
+    "text": "I inspect the Clash proxy routing settings.",
     "refs": [
       928,
-      929,
+      929
+    ],
+    "boundary_reason": "Returns to reviewing Claude chat",
+    "origin_chunk": 4
+  },
+  {
+    "id": 110,
+    "start": 76397,
+    "end": 76481,
+    "text": "I review Claude's generated presentation text.",
+    "refs": [
       930,
       931,
       932,
@@ -1747,14 +2047,14 @@
       939,
       940
     ],
-    "boundary_reason": "Switching to WeChat messages",
+    "boundary_reason": "Switches to WeChat to check messages",
     "origin_chunk": 4
   },
   {
-    "id": 81,
+    "id": 111,
     "start": 76482,
     "end": 76521,
-    "text": "I read messages in the WeChat risk analysis group.",
+    "text": "I read messages in the '7102 Risk Analysis' WeChat group.",
     "refs": [
       941,
       942,
@@ -1763,14 +2063,14 @@
       945,
       946
     ],
-    "boundary_reason": "Returning to Claude for slide review",
+    "boundary_reason": "Returns to Claude and waits for output",
     "origin_chunk": 4
   },
   {
-    "id": 82,
+    "id": 112,
     "start": 76522,
-    "end": 76703,
-    "text": "I review the generated presentation slide PDF for objectives three and four.",
+    "end": 76636,
+    "text": "I wait anxiously for Claude to finish generating the presentation slides.",
     "refs": [
       947,
       948,
@@ -1789,7 +2089,17 @@
       961,
       962,
       963,
-      964,
+      964
+    ],
+    "boundary_reason": "PDF finishes generating, begins inspection",
+    "origin_chunk": 4
+  },
+  {
+    "id": 113,
+    "start": 76637,
+    "end": 76696,
+    "text": "I inspect the rendered PDF presentation slides for Objective 3 and 4.",
+    "refs": [
       965,
       966,
       967,
@@ -1799,18 +2109,18 @@
       971,
       972,
       973,
-      974,
-      975
+      974
     ],
-    "boundary_reason": "Asking Claude for slide explanations",
+    "boundary_reason": "Starts asking Claude for slide explanations",
     "origin_chunk": 4
   },
   {
-    "id": 83,
-    "start": 76704,
-    "end": 76830,
-    "text": "I prompt Claude to explain the objective four presentation slides.",
+    "id": 114,
+    "start": 76697,
+    "end": 76787,
+    "text": "I prompt Claude to explain the individual slides for Objective 4.",
     "refs": [
+      975,
       976,
       977,
       978,
@@ -1822,21 +2132,31 @@
       984,
       985,
       986,
-      987,
+      987
+    ],
+    "boundary_reason": "Needs broader explanation, starts new voice prompt",
+    "origin_chunk": 4
+  },
+  {
+    "id": 115,
+    "start": 76787,
+    "end": 76830,
+    "text": "I ask Claude to clarify the overall purpose of Objective 4.",
+    "refs": [
       988,
       989,
       990,
       991,
       992
     ],
-    "boundary_reason": "Searching for a webcam",
+    "boundary_reason": "Shifts focus to searching for a physical object",
     "origin_chunk": 4
   },
   {
-    "id": 84,
+    "id": 116,
     "start": 76831,
     "end": 76863,
-    "text": "I search my backpack for my webcam.",
+    "text": "I search my backpack for a missing webcam.",
     "refs": [
       993,
       994,
@@ -1846,43 +2166,43 @@
       998,
       999
     ],
-    "boundary_reason": "End of provided events",
+    "boundary_reason": "End of input",
     "origin_chunk": 4
   },
   {
-    "id": 85,
+    "id": 117,
     "start": 76863,
-    "end": 76875,
+    "end": 76878,
     "text": "I interact with my roommate regarding the electric kettle.",
     "refs": [
       1000,
       1001,
       1002,
-      1003
+      1003,
+      1004
     ],
-    "boundary_reason": "Distinct social interaction about the kettle.",
+    "boundary_reason": "Topic shifts to laptop work.",
     "origin_chunk": 5
   },
   {
-    "id": 86,
-    "start": 76876,
+    "id": 118,
+    "start": 76879,
     "end": 76912,
-    "text": "I read Claude's explanations regarding the Objective 4 goals and Slide 5.",
+    "text": "I read Claude explanations concerning Objective 4 and KMeans clustering.",
     "refs": [
-      1004,
       1005,
       1006,
       1007,
       1008
     ],
-    "boundary_reason": "Continuous reading of specific Claude materials.",
+    "boundary_reason": "Initiates interaction regarding the cushion.",
     "origin_chunk": 5
   },
   {
-    "id": 87,
+    "id": 119,
     "start": 76913,
     "end": 76976,
-    "text": "I coordinate the adjustment of a pink cushion with my companions.",
+    "text": "I discuss the pink cushion positioning with my companions.",
     "refs": [
       1009,
       1010,
@@ -1900,14 +2220,14 @@
       1022,
       1023
     ],
-    "boundary_reason": "Shift in focus to physical comfort and discussion with companions.",
+    "boundary_reason": "Cushion adjustment concludes, returning to slide review.",
     "origin_chunk": 5
   },
   {
-    "id": 88,
+    "id": 120,
     "start": 76976,
     "end": 77086,
-    "text": "I review presentation slides and Claude AI notes regarding customer segmentation and fairness audits.",
+    "text": "I review customer segmentation, SHAP explanation, and fairness audit slides using Claude.",
     "refs": [
       1024,
       1025,
@@ -1927,25 +2247,25 @@
       1039,
       1040
     ],
-    "boundary_reason": "Continuous study of presentation materials and AI notes.",
+    "boundary_reason": "Interrupted by roommate's question.",
     "origin_chunk": 5
   },
   {
-    "id": 89,
+    "id": 121,
     "start": 77086,
     "end": 77091,
-    "text": "I listen to my roommate ask about a missing spoon.",
+    "text": "I hear my roommate ask about a spoon.",
     "refs": [
       1041
     ],
-    "boundary_reason": "Unrelated auditory observation from a roommate.",
+    "boundary_reason": "Standalone question ends.",
     "origin_chunk": 5
   },
   {
-    "id": 90,
+    "id": 122,
     "start": 77092,
     "end": 77173,
-    "text": "I review fairness audit and complaint mining materials alongside Claude AI slide scripts.",
+    "text": "I review fairness audit and complaint mining slide scripts on Claude.",
     "refs": [
       1042,
       1043,
@@ -1960,96 +2280,36 @@
       1052,
       1053
     ],
-    "boundary_reason": "Resumed study of a different set of slides and AI scripts.",
+    "boundary_reason": "Attention shifts to examining SMOTE slides.",
     "origin_chunk": 5
   },
   {
-    "id": 91,
+    "id": 123,
     "start": 77174,
-    "end": 77185,
-    "text": "I retrieve a cucumber from the cart.",
+    "end": 77242,
+    "text": "I review SMOTE comparison and fairness audit slides.",
     "refs": [
       1054,
       1055,
-      1056
-    ],
-    "boundary_reason": "Distinct physical action to get food.",
-    "origin_chunk": 5
-  },
-  {
-    "id": 92,
-    "start": 77186,
-    "end": 77194,
-    "text": "I read the Claude script.",
-    "refs": [
-      1057
-    ],
-    "boundary_reason": "Brief return to reviewing script materials.",
-    "origin_chunk": 5
-  },
-  {
-    "id": 93,
-    "start": 77195,
-    "end": 77201,
-    "text": "I state my dissatisfaction with the food.",
-    "refs": [
-      1058
-    ],
-    "boundary_reason": "Standalone comment about the food quality.",
-    "origin_chunk": 5
-  },
-  {
-    "id": 94,
-    "start": 77202,
-    "end": 77227,
-    "text": "I review the SMOTE comparison and fairness audit slides on my laptop.",
-    "refs": [
+      1056,
+      1057,
+      1058,
       1059,
       1060,
-      1061
-    ],
-    "boundary_reason": "Return to studying presentation slides.",
-    "origin_chunk": 5
-  },
-  {
-    "id": 95,
-    "start": 77227,
-    "end": 77234,
-    "text": "I visually inspect the cucumber slice and desk items.",
-    "refs": [
+      1061,
       1062,
-      1063
-    ],
-    "boundary_reason": "Brief shift of visual attention to physical objects.",
-    "origin_chunk": 5
-  },
-  {
-    "id": 96,
-    "start": 77235,
-    "end": 77239,
-    "text": "I read the fairness audit slide.",
-    "refs": [
-      1064
-    ],
-    "boundary_reason": "Brief resumption of reading the slide.",
-    "origin_chunk": 5
-  },
-  {
-    "id": 97,
-    "start": 77240,
-    "end": 77242,
-    "text": "I discard the cucumber piece.",
-    "refs": [
+      1063,
+      1064,
       1065
     ],
-    "boundary_reason": "Distinct physical action to throw away the food.",
+    "boundary_reason": "Shifts to reading Claude chat responses.",
     "origin_chunk": 5
   },
   {
-    "id": 98,
+    "id": 124,
     "start": 77243,
-    "end": 77349,
-    "text": "I review the Objective 4 presentation slides and Claude AI notes regarding SMOTE and complaint mining.",
+    "end": 77364,
+    "text": "I review Claude chat responses concerning SMOTE metrics, KMeans clustering, and Objective 4.",
     "refs": [
       1066,
       1067,
@@ -2063,145 +2323,75 @@
       1075,
       1076,
       1077,
-      1078
-    ],
-    "boundary_reason": "Continuous review of presentation materials.",
-    "origin_chunk": 5
-  },
-  {
-    "id": 99,
-    "start": 77349,
-    "end": 77364,
-    "text": "I read the Claude analysis of KMeans clustering.",
-    "refs": [
+      1078,
       1079,
       1080,
       1081
     ],
-    "boundary_reason": "Shift to reading specific KMeans clustering analysis.",
+    "boundary_reason": "Transitions to examining specific slides directly.",
     "origin_chunk": 5
   },
   {
-    "id": 100,
+    "id": 125,
     "start": 77364,
-    "end": 77372,
-    "text": "I inspect a cut cucumber.",
+    "end": 77414,
+    "text": "I examine KMeans and SHAP explanation slides.",
     "refs": [
       1082,
-      1083
-    ],
-    "boundary_reason": "Physical interruption to inspect food.",
-    "origin_chunk": 5
-  },
-  {
-    "id": 101,
-    "start": 77373,
-    "end": 77407,
-    "text": "I review the KMeans and SHAP explanation materials on my laptop.",
-    "refs": [
+      1083,
       1084,
       1085,
       1086,
       1087,
-      1088
-    ],
-    "boundary_reason": "Return to studying analysis materials.",
-    "origin_chunk": 5
-  },
-  {
-    "id": 102,
-    "start": 77407,
-    "end": 77414,
-    "text": "I place a cucumber piece on a paper towel.",
-    "refs": [
+      1088,
       1089,
       1090
     ],
-    "boundary_reason": "Distinct physical action to manage the food.",
+    "boundary_reason": "Topic shifts to searching for fairness terminology.",
     "origin_chunk": 5
   },
   {
-    "id": 103,
+    "id": 126,
     "start": 77414,
-    "end": 77441,
-    "text": "I review the customer segmentation and fairness audit slides.",
+    "end": 77461,
+    "text": "I research discrimination terminology in Chrome to understand the fairness disparity audit.",
     "refs": [
       1091,
       1092,
       1093,
-      1094
-    ],
-    "boundary_reason": "Continued review of presentation slides.",
-    "origin_chunk": 5
-  },
-  {
-    "id": 104,
-    "start": 77442,
-    "end": 77453,
-    "text": "I search for the term '歧视' in Google Chrome.",
-    "refs": [
+      1094,
       1095,
       1096,
       1097,
-      1098
-    ],
-    "boundary_reason": "Shift to performing a specific web search.",
-    "origin_chunk": 5
-  },
-  {
-    "id": 105,
-    "start": 77454,
-    "end": 77461,
-    "text": "I read the Fairness Audit document.",
-    "refs": [
+      1098,
       1099
     ],
-    "boundary_reason": "Shift back to reading the audit document.",
+    "boundary_reason": "Shifts to searching for English translations.",
     "origin_chunk": 5
   },
   {
-    "id": 106,
+    "id": 127,
     "start": 77462,
-    "end": 77470,
-    "text": "I handle a cucumber slice.",
+    "end": 77480,
+    "text": "I search for default English translations on Google.",
     "refs": [
       1100,
       1101,
-      1102
-    ],
-    "boundary_reason": "Physical handling and verbal comment about the food.",
-    "origin_chunk": 5
-  },
-  {
-    "id": 107,
-    "start": 77471,
-    "end": 77480,
-    "text": "I search for the English translation of default on Google.",
-    "refs": [
+      1102,
       1103,
       1104,
       1105
     ],
-    "boundary_reason": "Shift to a new specific web search task.",
+    "boundary_reason": "Begins recording video presentation.",
     "origin_chunk": 5
   },
   {
-    "id": 108,
+    "id": 128,
     "start": 77481,
-    "end": 77490,
-    "text": "I review presentation slides.",
-    "refs": [
-      1106
-    ],
-    "boundary_reason": "Brief return to slide review.",
-    "origin_chunk": 5
-  },
-  {
-    "id": 109,
-    "start": 77491,
     "end": 77840,
-    "text": "I record a presentation video covering sentiment analysis, advanced analysis, and fairness audits.",
+    "text": "I record a video presentation covering sentiment analysis, K-means customer segmentation, XGBoost feature importance, and the fairness audit.",
     "refs": [
+      1106,
       1107,
       1108,
       1109,
@@ -2250,14 +2440,14 @@
       1152,
       1153
     ],
-    "boundary_reason": "Major continuous task of recording a presentation video.",
+    "boundary_reason": "Presentation ends, shifts to desktop navigation.",
     "origin_chunk": 5
   },
   {
-    "id": 110,
+    "id": 129,
     "start": 77841,
-    "end": 77942,
-    "text": "I review my recorded presentation video and slide materials.",
+    "end": 77965,
+    "text": "I watch my recorded presentation video on sentiment analysis and customer segmentation.",
     "refs": [
       1154,
       1155,
@@ -2274,42 +2464,32 @@
       1166,
       1167,
       1168,
-      1169
-    ],
-    "boundary_reason": "Shift to watching and reviewing the newly recorded video.",
-    "origin_chunk": 5
-  },
-  {
-    "id": 111,
-    "start": 77943,
-    "end": 77954,
-    "text": "I execute a Google search on my laptop.",
-    "refs": [
+      1169,
       1170,
-      1171
+      1171,
+      1172
     ],
-    "boundary_reason": "Brief web search task.",
+    "boundary_reason": "Video playback ends, begins brief practice.",
     "origin_chunk": 5
   },
   {
-    "id": 112,
-    "start": 77954,
+    "id": 130,
+    "start": 77965,
     "end": 77985,
-    "text": "I rehearse the sentiment analysis presentation.",
+    "text": "I practice presenting the sentiment analysis methodology.",
     "refs": [
-      1172,
       1173,
       1174,
       1175
     ],
-    "boundary_reason": "Shift to verbal rehearsal of the presentation.",
+    "boundary_reason": "Interrupted by roommate conversation.",
     "origin_chunk": 5
   },
   {
-    "id": 113,
+    "id": 131,
     "start": 77986,
     "end": 78011,
-    "text": "I converse with my roommate about the kettle and a loading issue with Claude.",
+    "text": "I discuss a Claude loading issue with my roommate.",
     "refs": [
       1176,
       1177,
@@ -2317,14 +2497,14 @@
       1179,
       1180
     ],
-    "boundary_reason": "Conversational interruption regarding household and technical issues.",
+    "boundary_reason": "Conversation ends, starts new presentation take.",
     "origin_chunk": 5
   },
   {
-    "id": 114,
+    "id": 132,
     "start": 78012,
-    "end": 78101,
-    "text": "I rehearse the sentiment analysis section of my presentation.",
+    "end": 78248,
+    "text": "I record a second video presentation take covering sentiment analysis, customer segmentation, SHAP feature importance, and fairness audit counterfactuals.",
     "refs": [
       1181,
       1182,
@@ -2338,30 +2518,10 @@
       1190,
       1191,
       1192,
-      1193
-    ],
-    "boundary_reason": "Resumed verbal rehearsal of the presentation.",
-    "origin_chunk": 5
-  },
-  {
-    "id": 115,
-    "start": 0,
-    "end": 0,
-    "text": "I review data slides and charts on my laptop screen.",
-    "refs": [
+      1193,
       1194,
       1195,
-      1196
-    ],
-    "boundary_reason": "Shift to silent visual review of data slides.",
-    "origin_chunk": 5
-  },
-  {
-    "id": 116,
-    "start": 78132,
-    "end": 78248,
-    "text": "I rehearse the advanced analysis and fairness audit sections of my presentation.",
-    "refs": [
+      1196,
       1197,
       1198,
       1199,
@@ -2377,14 +2537,14 @@
       1209,
       1210
     ],
-    "boundary_reason": "Shift back to verbal rehearsal of different presentation sections.",
+    "boundary_reason": "Take concludes, shifts to file browsing.",
     "origin_chunk": 5
   },
   {
-    "id": 117,
+    "id": 133,
     "start": 78248,
-    "end": 78308,
-    "text": "I browse files and presentation slides on my laptop desktop.",
+    "end": 78323,
+    "text": "I browse MacBook desktop files to locate the sentiment analysis slide.",
     "refs": [
       1211,
       1212,
@@ -2397,41 +2557,21 @@
       1219,
       1220,
       1221,
-      1222
-    ],
-    "boundary_reason": "Shift to general file browsing and slide viewing.",
-    "origin_chunk": 5
-  },
-  {
-    "id": 118,
-    "start": 78308,
-    "end": 78314,
-    "text": "I speak brief remarks of thanks and frustration.",
-    "refs": [
+      1222,
       1223,
-      1224
-    ],
-    "boundary_reason": "Standalone conversational and emotional remarks.",
-    "origin_chunk": 5
-  },
-  {
-    "id": 119,
-    "start": 78314,
-    "end": 78323,
-    "text": "I search for files in Finder to locate the sentiment analysis slide.",
-    "refs": [
+      1224,
       1225,
       1226,
       1227
     ],
-    "boundary_reason": "Specific file search task.",
+    "boundary_reason": "Starts a new presentation take.",
     "origin_chunk": 5
   },
   {
-    "id": 120,
+    "id": 134,
     "start": 78324,
     "end": 78372,
-    "text": "I rehearse the sentiment analysis presentation script.",
+    "text": "I start a third video presentation take covering sentiment analysis of consumer complaints.",
     "refs": [
       1228,
       1229,
@@ -2441,34 +2581,34 @@
       1233,
       1234
     ],
-    "boundary_reason": "Return to verbal rehearsal of the presentation.",
+    "boundary_reason": "Presentation pauses for note-taking.",
     "origin_chunk": 5
   },
   {
-    "id": 121,
-    "start": 78402,
+    "id": 135,
+    "start": 0,
     "end": 78440,
-    "text": "I manage files in Finder alongside a ChatGPT interaction.",
+    "text": "I type presentation notes in ChatGPT.",
     "refs": [
       1235,
       1236,
       1237,
       1238,
       1239,
-      1240
+      1240,
+      1241,
+      1242,
+      1243
     ],
-    "boundary_reason": "Shift to file management and chatbot interaction.",
+    "boundary_reason": "Transitions back to reviewing presentation slides.",
     "origin_chunk": 5
   },
   {
-    "id": 122,
+    "id": 136,
     "start": 78441,
-    "end": 78515,
-    "text": "I watch a presentation video covering sentiment analysis and customer segmentation.",
+    "end": 78494,
+    "text": "I review presentation slides covering sentiment analysis, the Stress customer segment, and SHAP feature importance.",
     "refs": [
-      1241,
-      1242,
-      1243,
       1244,
       1245,
       1246,
@@ -2476,31 +2616,41 @@
       1248,
       1249
     ],
-    "boundary_reason": "Continuous viewing of a presentation video.",
+    "boundary_reason": "Batch ends.",
     "origin_chunk": 5
   },
   {
-    "id": 123,
-    "start": 78516,
-    "end": 78519,
-    "text": "I switch between Finder and Chrome on my laptop.",
+    "id": 137,
+    "start": 78494,
+    "end": 78515,
+    "text": "I practice fragments of my presentation script while scrubbing through slides.",
     "refs": [
       1250,
-      1251
+      1251,
+      1252
     ],
-    "boundary_reason": "Desktop navigation prior to speech.",
+    "boundary_reason": "Activity changes to navigating computer apps.",
     "origin_chunk": 6
   },
   {
-    "id": 124,
-    "start": 78520,
-    "end": 78588,
-    "text": "I present the sentiment analysis section of a project, discussing datasets and model performance.",
+    "id": 138,
+    "start": 78516,
+    "end": 78522,
+    "text": "I navigate between Finder and Chrome and express frustration.",
     "refs": [
-      1252,
       1253,
       1254,
-      1255,
+      1255
+    ],
+    "boundary_reason": "Begins rehearsing a specific presentation section.",
+    "origin_chunk": 6
+  },
+  {
+    "id": 139,
+    "start": 78522,
+    "end": 78592,
+    "text": "I rehearse the sentiment analysis section of a data project presentation.",
+    "refs": [
       1256,
       1257,
       1258,
@@ -2508,98 +2658,101 @@
       1260,
       1261,
       1262,
-      1263
-    ],
-    "boundary_reason": "Coherent speech and focus on the sentiment analysis topic.",
-    "origin_chunk": 6
-  },
-  {
-    "id": 125,
-    "start": 0,
-    "end": 78612,
-    "text": "I present the advanced analysis section, explaining customer segmentation using k-means.",
-    "refs": [
+      1263,
       1264,
       1265,
       1266,
-      1267,
-      1268,
-      1269
+      1267
     ],
-    "boundary_reason": "Shift in presentation topic to advanced analysis and segmentation.",
+    "boundary_reason": "Topic shifts to advanced analysis and customer segmentation.",
     "origin_chunk": 6
   },
   {
-    "id": 126,
-    "start": 0,
-    "end": 78695,
-    "text": "I present the fairness audit and counterfactual explanation section of the project.",
+    "id": 140,
+    "start": 78592,
+    "end": 78641,
+    "text": "I rehearse presenting customer segmentation and feature importance data.",
     "refs": [
+      1268,
+      1269,
       1270,
       1271,
       1272,
-      1273,
+      1273
+    ],
+    "boundary_reason": "Topic shifts to discussing educational background bias.",
+    "origin_chunk": 6
+  },
+  {
+    "id": 141,
+    "start": 78642,
+    "end": 78660,
+    "text": "I rehearse presenting findings on model fairness and educational background bias.",
+    "refs": [
       1274,
       1275,
       1276,
-      1277,
+      1277
+    ],
+    "boundary_reason": "Topic shifts to explaining counterfactual scenarios.",
+    "origin_chunk": 6
+  },
+  {
+    "id": 142,
+    "start": 78660,
+    "end": 78695,
+    "text": "I rehearse presenting counterfactual explanations for reducing predicted loan risk.",
+    "refs": [
       1278,
       1279,
-      1280
-    ],
-    "boundary_reason": "Shift in presentation topic and slide to fairness audit.",
-    "origin_chunk": 6
-  },
-  {
-    "id": 127,
-    "start": 78696,
-    "end": 78724,
-    "text": "I review the sentiment analysis presentation slide while adjusting my smart glasses.",
-    "refs": [
+      1280,
       1281,
       1282,
-      1283,
-      1284
+      1283
     ],
-    "boundary_reason": "Visual focus shifts back to the sentiment analysis slide.",
+    "boundary_reason": "Presentation practice ends; switches to reviewing a specific slide.",
     "origin_chunk": 6
   },
   {
-    "id": 128,
-    "start": 78725,
-    "end": 78739,
-    "text": "I browse project files in Finder and watch a presentation video.",
+    "id": 143,
+    "start": 78696,
+    "end": 78724,
+    "text": "I review and explain the sentiment analysis presentation slide.",
     "refs": [
+      1284,
       1285,
       1286,
-      1287,
-      1288,
-      1289
+      1287
     ],
-    "boundary_reason": "Continuous interaction with file system and video playback.",
+    "boundary_reason": "Minimizes presentation to navigate computer files.",
     "origin_chunk": 6
   },
   {
-    "id": 129,
-    "start": 78740,
+    "id": 144,
+    "start": 78725,
     "end": 78751,
-    "text": "I view an AI workspace.",
+    "text": "I navigate project files, a presentation video, and an AI workspace on my computer.",
     "refs": [
-      1290
+      1288,
+      1289,
+      1290,
+      1291,
+      1292,
+      1293
     ],
-    "boundary_reason": "Distinct application focus.",
+    "boundary_reason": "Switches to checking a messaging app.",
     "origin_chunk": 6
   },
   {
-    "id": 130,
+    "id": 145,
     "start": 78752,
     "end": 78760,
     "text": "I check a WeChat group chat and react to a video's short duration.",
     "refs": [
-      1291,
-      1292
+      1294,
+      1295
     ],
-    "boundary_reason": "Shift to messaging app and associated spoken reaction.",
+    "boundary_reason": "End of input.",
     "origin_chunk": 6
   }
 ]

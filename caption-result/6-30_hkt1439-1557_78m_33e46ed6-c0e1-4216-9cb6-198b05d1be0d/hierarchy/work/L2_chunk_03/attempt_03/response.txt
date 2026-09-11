@@ -1,0 +1,131 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks with single objectives. Identify the driver swap event as a standalone major behavior-changing trigger.",
+  "events": [
+    [
+      "500-519",
+      "I converse with the passenger about my decision to drive without navigation.",
+      "Conversation ends and focus shifts to silent driving."
+    ],
+    [
+      "520-536",
+      "I drive along the highway with periodic glances at the phone navigation.",
+      "Approaches a tunnel, prompting a change in driving posture."
+    ],
+    [
+      "537-544",
+      "I drive through the Mingshi No. 2 Tunnel with my hand extended out the window.",
+      "Exits the tunnel and begins a new conversation."
+    ],
+    [
+      "545-551",
+      "I joke with the passenger about facial expressions during the drive.",
+      "Conversation ends."
+    ],
+    [
+      "552-563",
+      "I discuss the road classification with the passenger during the drive through a tunnel.",
+      "Conversation concludes, returns to silent driving."
+    ],
+    [
+      "564-570",
+      "I monitor the highway road conditions during the drive.",
+      "Passenger alerts me to a missed red light."
+    ],
+    [
+      "571-589",
+      "I stop the car at an intersection to discuss the missed red light with the passenger.",
+      "Intersection discussion ends prior to exiting the vehicle."
+    ],
+    [
+      "590",
+      "I step out of the driver's seat to switch places with my companion.",
+      "Major trigger: initiating a driver swap."
+    ],
+    [
+      "591-595",
+      "I settle into the passenger seat for the driver swap.",
+      "Passenger transition completes; begins instructing the new driver."
+    ],
+    [
+      "596-611",
+      "I instruct the new driver on basic vehicle controls like the gear shift and mirrors.",
+      "Basic vehicle control instructions conclude."
+    ],
+    [
+      "612-619",
+      "I inspect the car interior and road signs from the passenger seat.",
+      "Shifts to instructing the driver about advanced driver assistance systems."
+    ],
+    [
+      "620-647",
+      "I instruct the driver on the operation of the adaptive cruise control system.",
+      "Instruction shifts to testing the lane tracing assist."
+    ],
+    [
+      "648-662",
+      "I instruct the driver on testing the lane tracing assist system.",
+      "ADAS instruction concludes; shifts to general observation."
+    ],
+    [
+      "663-674",
+      "I observe the highway surroundings from the passenger seat.",
+      "Shifts to discussing the car's audio system."
+    ],
+    [
+      "675-678",
+      "I discuss the car's audio channel settings with the driver.",
+      "I physically interact with the console to turn off the audio."
+    ],
+    [
+      "679-682",
+      "I turn off the center console audio to the surprise of the driver.",
+      "Audio adjustment completes; shifts to providing driving feedback."
+    ],
+    [
+      "683-693",
+      "I instruct the driver on applying steady pressure to the accelerator pedal.",
+      "Driving feedback ends; focus shifts to navigation."
+    ],
+    [
+      "694-702",
+      "I warn the driver about the speed limit and an upcoming border checkpoint based on the navigation.",
+      "Approaching the physical border checkpoint."
+    ],
+    [
+      "703-714",
+      "I monitor the approach and passage through a border inspection checkpoint.",
+      "Checkpoint cleared; conversation shifts to the car's powertrain."
+    ],
+    [
+      "715-728",
+      "I converse with the driver about the car's electric vehicle mode.",
+      "Powertrain conversation ends; shifts to route planning."
+    ],
+    [
+      "729-737",
+      "I review the Gaode Map route during the highway drive.",
+      "Approaching a series of tunnels."
+    ],
+    [
+      "738-744",
+      "I monitor the vehicle's passage through multiple highway tunnels.",
+      "Tunnels end; I provide further driving feedback."
+    ],
+    [
+      "745-749",
+      "I provide positive feedback on the driving performance along with headlight instructions.",
+      "End of provided data."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      7
+    ],
+    "boundary_cautions": []
+  }
+}
+```

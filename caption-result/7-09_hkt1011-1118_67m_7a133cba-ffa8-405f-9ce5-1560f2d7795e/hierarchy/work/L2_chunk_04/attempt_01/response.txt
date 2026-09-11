@@ -1,0 +1,34 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group actions by primary software application and immediate task objective: interacting with Claude Code, analyzing chart graphics, drafting the Feishu document, and looking away.",
+  "events": [
+    [
+      "750-751",
+      "I draft a prompt in Claude Code.",
+      "Shifts focus from the chat interface to examining charts"
+    ],
+    [
+      "752-758",
+      "I analyze the DeepSeek-V4-Flash context scaling charts.",
+      "Shifts focus from chart analysis to text documentation"
+    ],
+    [
+      "759-765",
+      "I write findings in the Feishu context scaling report.",
+      "Task pauses as visual attention shifts away from the screen"
+    ],
+    [
+      "766",
+      "I observe the water bottle and desk items.",
+      "End of supplied input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

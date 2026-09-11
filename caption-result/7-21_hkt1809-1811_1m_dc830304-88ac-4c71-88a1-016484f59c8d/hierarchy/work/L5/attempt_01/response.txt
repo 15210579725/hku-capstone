@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L5",
+  "plan": "The sequence contains two distinct major activities: a brief review of a specific document and a physical relocation of equipment to a new desk. They are kept separate to preserve the specific document subject (Claude Code evaluation report) and because they do not share a single, verifiable unified objective.",
+  "events": [
+    [
+      "0",
+      "I review the Claude Code evaluation report.",
+      "Shift from reviewing a document to relocating workspace equipment"
+    ],
+    [
+      "1",
+      "I relocate my charging equipment to desk 13.",
+      "End of recorded activity"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

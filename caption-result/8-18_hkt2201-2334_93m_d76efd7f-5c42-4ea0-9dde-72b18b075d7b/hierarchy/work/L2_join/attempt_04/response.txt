@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible pairs to determine if they represent the exact same immediate L2 task continuing across a batch boundary. Pair [11, 12] continues reading about ferns in the same book on WeChat Read. Pair [23, 24] transitions from reading Terence Tao's blog to a new topic on multiple working hypotheses, so they remain separate. Pair [35, 36] continues reading the same research assistant guide.",
+  "merges": [
+    [
+      11,
+      12,
+      "I read about ferns in 《最初的爱，最后的故事》 on WeChat Read.",
+      "Continues reading the same subject in the same book across batch edge"
+    ],
+    [
+      35,
+      36,
+      "I read sections of the research assistant guide.",
+      "Continues reading the same guide across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

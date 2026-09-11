@@ -1,0 +1,84 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group contiguous actions into immediate tasks based on the active application interface and the specific user objective, such as messaging, browsing rental options, configuring an instance, writing prompts, or resolving browser unresponsiveness.",
+  "events": [
+    [
+      "750-753",
+      "I send a WeChat message detailing my AutoDL budget schedule.",
+      "Switches from WeChat messaging to Chrome."
+    ],
+    [
+      "754-760",
+      "I review the GPU budget PDF and ChatGPT's AutoDL SSH setup analysis.",
+      "Shifts from reading documents to actively browsing the AutoDL marketplace."
+    ],
+    [
+      "761-768",
+      "I evaluate 5090 and 3090 GPU rental specifications on AutoDL.",
+      "Completes market browsing and initiates the instance creation process."
+    ],
+    [
+      "769-772",
+      "I initialize a newly created AutoDL GPU instance.",
+      "Instance initialization completes, moving to power management and configuration."
+    ],
+    [
+      "773-779",
+      "I rename the shutdown AutoDL instance to 'data-masking'.",
+      "Completes instance configuration and switches back to ChatGPT."
+    ],
+    [
+      "780-788",
+      "I request ChatGPT to migrate the environment to the new data-masking container.",
+      "Finishes writing the prompt and waits for the generation to complete."
+    ],
+    [
+      "789-795",
+      "I review ChatGPT's AutoDL SSH configuration response.",
+      "Shifts from reading instructions to tab management."
+    ],
+    [
+      "796-804",
+      "I wait for a frozen ChatGPT tab to recover during browser navigation.",
+      "The browser recovers, allowing normal inspection of AutoDL again."
+    ],
+    [
+      "805-807",
+      "I inspect the AutoDL data-masking instance and the GPU budget application.",
+      "Switches from quick interface checks to starting a new conversation."
+    ],
+    [
+      "808-812",
+      "I start a new ChatGPT conversation regarding the AutoDL Taipei B zone.",
+      "Batch boundary / Context shifts to a mobile device login."
+    ],
+    [
+      "813-817",
+      "I log into the AutoDL console by scanning a QR code with WeChat.",
+      "Login completes, shifting to console navigation."
+    ],
+    [
+      "818-822",
+      "I inspect file storage and billing details in the AutoDL console.",
+      "Switches from console navigation to a different task context."
+    ],
+    [
+      "823-827",
+      "I formulate a prompt in ChatGPT.",
+      "Submits the prompt and switches tabs."
+    ],
+    [
+      "828-831",
+      "I evaluate vGPU-32GB instance options in the AutoDL Northwest B region.",
+      "Reaches the end of the provided input sequence."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

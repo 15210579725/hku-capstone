@@ -1,0 +1,149 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks such as distinct conversations, operating specific gym equipment, or performing exercise sets. Boundary cuts are placed where the focus shifts to a new topic, a different machine, or a new activity.",
+  "events": [
+    [
+      "0-8",
+      "I discuss neural network optimizers with my friend.",
+      "Conversation topic shifts to observing the environment"
+    ],
+    [
+      "9-11",
+      "I observe my friend resting on the workout bench.",
+      "Observation ends as a new conversation begins"
+    ],
+    [
+      "12-24",
+      "I discuss optimization algorithms with my partners.",
+      "Discussion concludes as I prepare to use gym equipment"
+    ],
+    [
+      "25-26",
+      "I observe my partner preparing to exercise.",
+      "Focus shifts to approaching the cable machine"
+    ],
+    [
+      "27-37",
+      "I adjust the cable machine pulley.",
+      "Moves away to approach the SHUA training machine"
+    ],
+    [
+      "38-63",
+      "I explore the settings of the SHUA training machine.",
+      "Stands up and stops interacting with the machine"
+    ],
+    [
+      "64-70",
+      "I converse with my friend about our evening plans.",
+      "Topic shifts to watching videos on a smartphone"
+    ],
+    [
+      "71-81",
+      "I watch martial arts videos on Douyin.",
+      "Puts away the phone to test a cable machine"
+    ],
+    [
+      "82-88",
+      "I test the resistance of the SHUA cable machine.",
+      "Leaves the machine to perform pull-ups"
+    ],
+    [
+      "89-94",
+      "I perform a set of pull-ups on the corner machine.",
+      "Finishes pull-ups and walks across the gym"
+    ],
+    [
+      "95-103",
+      "I interact with a Douyin profile on my companion's phone.",
+      "Topic shifts to my workout fatigue"
+    ],
+    [
+      "104-109",
+      "I discuss my workout fatigue with my companion.",
+      "Conversation ends as I begin an exercise set"
+    ],
+    [
+      "110-117",
+      "I perform a set of seated dumbbell shoulder presses.",
+      "Finishes the exercise set and rests"
+    ],
+    [
+      "118-121",
+      "I listen to my friend's workout encouragement.",
+      "Interaction pauses as I adjust equipment"
+    ],
+    [
+      "122-127",
+      "I evaluate my muscle pump.",
+      "Topic changes to laundry and clothing"
+    ],
+    [
+      "128-142",
+      "I discuss my unwashed laundry with my partner.",
+      "Conversation ends as I prepare for another exercise set"
+    ],
+    [
+      "143-151",
+      "I perform a set of seated dumbbell shoulder presses.",
+      "Finishes the set and racks the dumbbells"
+    ],
+    [
+      "152-162",
+      "I inspect the lower weight stack on the cable machine.",
+      "Initiates a new conversation about computer hardware"
+    ],
+    [
+      "163-171",
+      "I discuss my partner's monitor purchase plan.",
+      "Topic shifts to Apple laptop specifications"
+    ],
+    [
+      "172-181",
+      "I discuss Apple laptop specifications with User A.",
+      "Topic shifts to computer memory performance"
+    ],
+    [
+      "182-189",
+      "I discuss computer memory performance with User A.",
+      "Topic shifts to web browsers"
+    ],
+    [
+      "190-196",
+      "I discuss web browsers with my companion.",
+      "Conversation concludes as I start an exercise set"
+    ],
+    [
+      "197-208",
+      "I perform a set of dumbbell shoulder presses.",
+      "Finishes the set and leaves the weight area"
+    ],
+    [
+      "209-216",
+      "I navigate the gym floor toward the cable machine.",
+      "Stops walking to look at a smartphone"
+    ],
+    [
+      "217-229",
+      "I browse a creator's Douyin profile on my companion's phone.",
+      "Hands back the phone and starts a new discussion"
+    ],
+    [
+      "230-244",
+      "I discuss international digital subscription pricing with my friend.",
+      "Conversation ends as focus shifts to a fashion video"
+    ],
+    [
+      "245-249",
+      "I watch a fashion video on a smartphone.",
+      "Video viewing concludes"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

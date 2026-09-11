@@ -1,0 +1,104 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks by identifying shared objectives, such as reading an article, monitoring code, retrieving laundry, or packing bags. Merge brief incidental actions like picking up a bottle or looking around into the primary task they accompany. Maintain boundaries when the primary location, target, or goal explicitly shifts.",
+  "events": [
+    [
+      "750-787",
+      "I read articles about mitochondrial evolution and sex determination.",
+      "Switches from reading the biology article to reviewing code."
+    ],
+    [
+      "788-803",
+      "I review the Claude Code diagnostic plan and dispatcher.sh code diff.",
+      "Returns focus to the biology article."
+    ],
+    [
+      "804-813",
+      "I monitor the Claude Code tasks alongside the mitochondrial article.",
+      "Finishes computer tasks to prepare for departure."
+    ],
+    [
+      "814-822",
+      "I exit my apartment.",
+      "Reaches the hallway to wait for the elevator."
+    ],
+    [
+      "823-832",
+      "I ride the elevator down to the ground floor.",
+      "Exits the elevator into the lobby."
+    ],
+    [
+      "833-839",
+      "I walk through the lobby to the outdoor laundromat.",
+      "Arrives at the laundry machines."
+    ],
+    [
+      "840-848",
+      "I collect my dried laundry from the dryer.",
+      "Finishes retrieving the laundry."
+    ],
+    [
+      "849-854",
+      "I return to the building to call the elevator.",
+      "Begins waiting for the elevator."
+    ],
+    [
+      "855-865",
+      "I wait for the elevator in the lobby.",
+      "Enters the elevator."
+    ],
+    [
+      "866-875",
+      "I ride the elevator up to the 15th floor.",
+      "Exits the elevator."
+    ],
+    [
+      "876-908",
+      "I browse WeChat Moments on my smartphone outside my apartment.",
+      "Enters the apartment to organize the retrieved laundry."
+    ],
+    [
+      "909-940",
+      "I organize my clean laundry into my bedroom wardrobe.",
+      "Finishes laundry tasks to pack bags for departure."
+    ],
+    [
+      "941-962",
+      "I pack my laptop and water bottles for my departure.",
+      "Finishes packing to make final departure checks."
+    ],
+    [
+      "963-967",
+      "I check my reflection in the apartment after calling the elevator.",
+      "Proceeds to wait for the elevator."
+    ],
+    [
+      "968-970",
+      "I wait for the elevator.",
+      "Enters the elevator."
+    ],
+    [
+      "971-977",
+      "I ride the descending elevator with my medicated oil.",
+      "Exits the elevator to the outdoors."
+    ],
+    [
+      "978-986",
+      "I walk along the sidewalk toward the school crossing.",
+      "Reaches the painted stairs."
+    ],
+    [
+      "987-999",
+      "I climb the painted stairs with my medicated oil bottle.",
+      "Reaches the upper stair landing."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

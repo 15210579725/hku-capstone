@@ -1,0 +1,199 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group immediate sequence of actions into discrete tasks based on their primary objective and context, preserving brief interruptions and conversations without forcing artificial boundaries unless the overarching goal shifts.",
+  "events": [
+    [
+      "0-1",
+      "I discuss my smart glasses battery.",
+      "Topic changes to rummaging in bag"
+    ],
+    [
+      "2-3",
+      "I rummage in my bag and ask my companion to hold it.",
+      "Resumes walking and previous topic"
+    ],
+    [
+      "4-8",
+      "I walk across the concourse and check my smart glasses battery.",
+      "Approaches ticket barriers"
+    ],
+    [
+      "9-13",
+      "I scan my phone to enter the ticket barriers.",
+      "Passes through barriers into the concourse"
+    ],
+    [
+      "14-15",
+      "I check my phone's battery in the iOS Control Center and discuss my recording time.",
+      "Switches app to browse products"
+    ],
+    [
+      "16",
+      "I browse cat product listings on my phone.",
+      "Steps onto escalator"
+    ],
+    [
+      "17-22",
+      "I ride the escalator to the subway platform while using my phone.",
+      "Reaches platform and boards the train"
+    ],
+    [
+      "23-25",
+      "I board the subway train and observe the carriage.",
+      "Begins shopping on phone"
+    ],
+    [
+      "26-59",
+      "I purchase a UGREEN Type-C to USB adapter on Taobao.",
+      "Purchase completes, waits on loading screen"
+    ],
+    [
+      "60-63",
+      "I look around the train carriage while waiting for my phone to load.",
+      "Begins browsing computer accessories"
+    ],
+    [
+      "64-68",
+      "I converse with my companion about sweat and smells while browsing computer accessories.",
+      "Returns focus to searching for adapters"
+    ],
+    [
+      "69-77",
+      "I search for adapters on Taobao and confirm the correct type with my companion.",
+      "Switches app to Bilibili"
+    ],
+    [
+      "78-83",
+      "I switch to Bilibili and scroll through the recommendation feed.",
+      "Selects a car video"
+    ],
+    [
+      "84-100",
+      "I watch luxury car review videos on Bilibili.",
+      "Returns to the video feed"
+    ],
+    [
+      "101-102",
+      "I browse the Bilibili video feed.",
+      "Looks up at companion"
+    ],
+    [
+      "103-106",
+      "I observe my companion and passengers while standing in the subway.",
+      "Interacts directly with companion"
+    ],
+    [
+      "107-111",
+      "I interact with my companion and watch a video on my phone.",
+      "Begins a new conversation about food"
+    ],
+    [
+      "112-124",
+      "I converse with my companion about buying and eating shrimp.",
+      "Looks away from companion around carriage"
+    ],
+    [
+      "125-127",
+      "I observe the carriage and comment on the passengers standing.",
+      "Topic shifts to housing"
+    ],
+    [
+      "128-130",
+      "I discuss my housing plans with my companion.",
+      "Conversation ends, holds handrail"
+    ],
+    [
+      "131-132",
+      "I stand holding the overhead handrail in the subway.",
+      "Starts new conversation"
+    ],
+    [
+      "133-148",
+      "I converse with my companion about academic publishing and advisor supervision.",
+      "Starts watching videos on phone"
+    ],
+    [
+      "149-152",
+      "I watch a cooking video about shrimp tails.",
+      "Video topic changes"
+    ],
+    [
+      "153-160",
+      "I watch a video while my companion discusses the subject's missing fingers.",
+      "Conversation shifts to standing on train"
+    ],
+    [
+      "161-164",
+      "I converse with my companion about standing on the train.",
+      "Returns focus to food videos"
+    ],
+    [
+      "165-170",
+      "I watch a crayfish cooking video and listen to my companion's comments.",
+      "Topic shifts back to video subject's appearance"
+    ],
+    [
+      "171-175",
+      "I discuss the video subject's appearance and missing fingers with my companion.",
+      "Returns to watching food vlogs"
+    ],
+    [
+      "176-177",
+      "I watch a food vlog on my phone.",
+      "Looks at passenger in aisle"
+    ],
+    [
+      "178-180",
+      "I watch a passenger adjust a bag in the subway aisle.",
+      "Returns focus to phone"
+    ],
+    [
+      "181-197",
+      "I watch an eating vlog about crawfish and noodles.",
+      "Returns to video feed"
+    ],
+    [
+      "198-202",
+      "I scroll through the Bilibili video feed.",
+      "Selects a cooking video"
+    ],
+    [
+      "203-209",
+      "I watch a video of a chef cooking with five woks simultaneously.",
+      "Video ends, looks around carriage"
+    ],
+    [
+      "210-215",
+      "I glance around the train carriage while watching a cooking video.",
+      "Focuses completely on stir-fry video"
+    ],
+    [
+      "216-229",
+      "I watch a stir-fry cooking video and discuss the ingredients with my companion.",
+      "Conversation shifts to gym plans"
+    ],
+    [
+      "230-236",
+      "I discuss my plans to go to the gym tomorrow with my companion.",
+      "Returns focus to cooking video"
+    ],
+    [
+      "237-247",
+      "I watch a cooking video and discuss the large flames and ingredients with my companion.",
+      "Conversation shifts to wake-up time"
+    ],
+    [
+      "248-249",
+      "I converse with my companion about my wake-up time for tomorrow.",
+      "End of input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

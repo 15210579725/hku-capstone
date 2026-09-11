@@ -1,0 +1,31 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group the isolated arrival task, the primary pantry water-refill phase, and the subsequent navigation into distinct broader phases.",
+  "events": [
+    [
+      "0",
+      "I verify my sent WeChat message upon arriving at the office.",
+      "Distinct communication task upon immediate arrival."
+    ],
+    [
+      "1-4",
+      "I refill my glass water bottle at the pantry dispenser.",
+      "Unifies the overarching goal of getting water, abstracting a brief stool inspection and a quick schedule announcement as incidental to the main pantry phase."
+    ],
+    [
+      "5",
+      "I walk toward the staircase.",
+      "Significant location change indicating departure from the pantry area."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": [
+      "Event 3 is a specific schedule announcement, but it is brief (7 seconds) and does not redirect the primary physical goal of refilling water, so it is abstracted into the broader pantry phase rather than remaining standalone."
+    ]
+  }
+}
+```

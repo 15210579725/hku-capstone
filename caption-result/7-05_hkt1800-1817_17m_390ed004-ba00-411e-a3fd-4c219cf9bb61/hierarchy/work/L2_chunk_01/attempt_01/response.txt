@@ -1,0 +1,129 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group L1 action briefs into immediate tasks based on distinct conversational topics, meal progression, transit segments, and phone reading activities.",
+  "events": [
+    [
+      "0-8",
+      "I discuss using data for QA with my dining companions.",
+      "Topic shifts to data storage."
+    ],
+    [
+      "9-18",
+      "I discuss data storage capacity and hard drive costs with my companions.",
+      "Conversation pauses and focus shifts to eating."
+    ],
+    [
+      "19-21",
+      "I eat fish-fragrant shredded pork.",
+      "Topic shifts to meal costs."
+    ],
+    [
+      "22-27",
+      "I discuss meal costs in Hong Kong with a friend.",
+      "Topic shifts to diet and weight."
+    ],
+    [
+      "28-34",
+      "I discuss my diet and weight with a companion.",
+      "Topic shifts to fitness and workout routines."
+    ],
+    [
+      "35-59",
+      "I discuss workout routines and fitness with my companions.",
+      "Conversation pauses and focus shifts to eating."
+    ],
+    [
+      "60-66",
+      "I consume shredded pork and soup.",
+      "Topic shifts to prediction models."
+    ],
+    [
+      "67-77",
+      "I discuss prediction models and in-context learning with my friend.",
+      "Topic shifts to data generation costs."
+    ],
+    [
+      "78-95",
+      "I discuss data generation costs and video captioning with my companions.",
+      "Conversation pauses and focus shifts to eating."
+    ],
+    [
+      "96-105",
+      "I eat shredded pork.",
+      "Topic shifts to data masking."
+    ],
+    [
+      "106-117",
+      "I discuss data masking and privacy with my companions.",
+      "Conversation pauses and focus shifts to food sauce."
+    ],
+    [
+      "118-126",
+      "I examine my sauce bowl and observe my dining companions.",
+      "Topic shifts to company overtime policies."
+    ],
+    [
+      "127-147",
+      "I discuss company overtime policies with my companions.",
+      "Meal ends and companions stand up."
+    ],
+    [
+      "148-154",
+      "I return my food tray to the cafeteria conveyor belt.",
+      "Tray return completes and walking begins."
+    ],
+    [
+      "155-160",
+      "I converse about haircuts and anti-oil spray with my companions.",
+      "Topic shifts to daily trajectory inference."
+    ],
+    [
+      "161-173",
+      "I discuss daily trajectory inference models with my companions.",
+      "Topic shifts to emotion labeling."
+    ],
+    [
+      "174-179",
+      "I discuss the difficulty of emotion labeling with my companions.",
+      "Arrive at the elevator lobby."
+    ],
+    [
+      "180-184",
+      "I approach the elevator.",
+      "Enter the elevator."
+    ],
+    [
+      "185-197",
+      "I ride the descending elevator with other passengers.",
+      "Conversation begins about AI preference models."
+    ],
+    [
+      "198-208",
+      "I discuss AI preference models with a colleague.",
+      "Exit the elevator into the workspace."
+    ],
+    [
+      "209-212",
+      "I walk to my workstation in the office.",
+      "Arrive at workstation and check phone."
+    ],
+    [
+      "213-225",
+      "I read a DeepTech article about phase-change memory on WeChat.",
+      "Finish reading the article and stand up."
+    ],
+    [
+      "226-233",
+      "I leave the office.",
+      "End of sequence."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

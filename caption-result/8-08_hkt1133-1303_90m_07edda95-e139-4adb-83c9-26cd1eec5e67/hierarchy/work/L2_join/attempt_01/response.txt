@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate the provided eligible pairs to determine if they represent the same immediate task interrupted by a batch boundary. Pair [28, 29] continues the same data entry task on the MiraclePlus application form. Pair [53, 54] represents a continuous action of opening and reading the same website. Pair [79, 80] contrasts a brief physical action (looking under a desk) with screen reading, so they remain separate distinct tasks.",
+  "merges": [
+    [
+      28,
+      29,
+      "I fill out founder details and roles on the MiraclePlus application form and resolve validation errors.",
+      "Continuous task of entering founder information into the same application form across a batch edge."
+    ],
+    [
+      53,
+      54,
+      "I navigate to and review the MatrAIx project website.",
+      "Continuous task of accessing and examining the same project website."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

@@ -1,0 +1,112 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group sequential actions into immediate tasks such as navigating store sections, checking out, placing a mobile food order, collecting the order, conversing on specific dataset or food topics during transit, observing surroundings from a vehicle, and securing a seat at a bar.",
+  "events": [
+    [
+      "500-522",
+      "I navigate the supermarket aisles toward the checkout area.",
+      "Arrives at the checkout counter."
+    ],
+    [
+      "523-528",
+      "I assist my companion with checking out grocery items at the counter.",
+      "Checkout scan completes."
+    ],
+    [
+      "529-532",
+      "I open the mobile ordering mini-program for Sam's Cafe.",
+      "App is loaded and ready for browsing."
+    ],
+    [
+      "533-568",
+      "I submit a mobile food order based on my companion's menu preferences.",
+      "Order submission completes and conversation shifts."
+    ],
+    [
+      "569-576",
+      "I present my pickup QR code to the cafe counter scanner.",
+      "Code presentation is completed."
+    ],
+    [
+      "577-582",
+      "I collect my food order from the pickup counter.",
+      "Food items are physically retrieved."
+    ],
+    [
+      "583-588",
+      "I coordinate the carriage of the food bags with my departing friend.",
+      "Friend announces his departure via taxi."
+    ],
+    [
+      "589-593",
+      "I walk past the supermarket dispensers toward the walkway.",
+      "Reaches the start of the moving walkway."
+    ],
+    [
+      "594-618",
+      "I discuss a psychology dataset project with my companion on the moving walkway.",
+      "Steps off the moving walkway toward the exit."
+    ],
+    [
+      "619-633",
+      "I discuss image annotation rules with my companion on the outdoor sidewalk.",
+      "Reaches the crosswalk to enter a vehicle."
+    ],
+    [
+      "634-638",
+      "I board a vehicle at the street crosswalk.",
+      "Successfully enters the vehicle."
+    ],
+    [
+      "639-644",
+      "I converse with the car passengers about the takeout food.",
+      "Conversation pauses and focus shifts to the road."
+    ],
+    [
+      "645-663",
+      "I observe the road traffic and scenery from the moving car.",
+      "Observation is interrupted by a passenger's remark."
+    ],
+    [
+      "664-670",
+      "I discuss the fried chicken with the passengers inside the car.",
+      "Conversation ends as navigation announcements play."
+    ],
+    [
+      "671-701",
+      "I observe the passing street traffic and a freight truck.",
+      "Shifts visual focus to the car's interior."
+    ],
+    [
+      "702-711",
+      "I interact with the vehicle's smart voice assistant.",
+      "Voice interaction concludes."
+    ],
+    [
+      "712-727",
+      "I observe the street traffic and storefronts approaching the destination.",
+      "Prepares to exit the vehicle."
+    ],
+    [
+      "728-734",
+      "I secure a seating spot inside a bar with my companion.",
+      "Settles into the seat."
+    ],
+    [
+      "735-749",
+      "I scan the bar's ordering sticker amidst my friend's sports betting conversation.",
+      "End of batch."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "Entering a vehicle to begin a ride",
+      "Exiting the vehicle to enter a bar"
+    ],
+    "boundary_cautions": []
+  }
+}
+```

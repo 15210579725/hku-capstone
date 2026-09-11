@@ -1,3 +1,184 @@
 ```json
-{"target_level":"L2","plan":"Group input brief sequences by immediate task or cohesive conversational topic, separating significant transitions in physical activity such as preparing devices, pouring tea, eating specific dishes, or pronounced shifts in discussion topics.","events":[["2750-2753","I discuss the fisheye lens on my recording glasses with my companion.","Conversation topic completes"],["2754-2771","I retrieve a charging cable from my backpack during a discussion about my recording devices.","Device preparation completes"],["2772-2792","I discuss configuring a remote host over VPN with my companion.","Conversation topic changes to tutoring"],["2793-2807","I listen to my companion describe her tutoring work with traditional Chinese characters.","Conversation topic completes as food arrives"],["2808-2810","I observe the server place our dishes onto the table.","Server finishes placing dishes"],["2811-2833","I dine with my companion over a discussion about the restaurant's dishes.","Conversation about the dishes completes"],["2834-2836","I pour tea into my cup from the golden teapot.","Pouring tea completes"],["2837-2857","I discuss a screen-recording software with my companion during our meal.","Conversation topic changes to furniture"],["2858-2865","I listen to my companion describe selling furniture during our meal.","Conversation topic completes"],["2866-2882","I consume a portion of shredded potatoes over rice.","Focused eating of potatoes completes"],["2883-2900","I consume a portion of stir-fried meat over rice.","Eating segment completes"],["2901-2907","I pour a cup of tea from the golden teapot.","Pouring tea completes"],["2908-2911","I clean my hands with a tissue.","Cleaning hands completes"],["2912-2929","I discuss a trip to Japan with my companion during our meal.","Conversation topic changes to recording"],["2930-2951","I explain my device's audio recording capabilities to my companion during our meal.","Conversation topic completes"],["2952-2960","I discuss the food's spiciness with my companion over a cup of tea.","Tea drinking and initial spice conversation completes"],["2961-2973","I discuss Hunan cuisine with my companion during our meal.","Conversation topic changes to past experiences"],["2974-2988","I relate the oily food to my dad's construction site for my companion.","Conversation topic completes"],["2989-2999","I listen to my companion mention Guizhou during our meal.","End of input batch"]],"audit":{"complete":true,"uncertainties":[],"major_triggers":[],"boundary_cautions":[]}}
+{
+  "target_level": "L2",
+  "plan": "Group continuous, related actions and conversational exchanges into unified immediate tasks based on the primary activity or topic of discussion.",
+  "events": [
+    [
+      "2750-2753",
+      "I discuss the lens of my smart glasses with my companion.",
+      "Action shifts to using my smartphone"
+    ],
+    [
+      "2754-2759",
+      "I check the ARIA app and battery level on my smartphone.",
+      "Action shifts to searching my backpack"
+    ],
+    [
+      "2760-2762",
+      "I search my backpack for a charging cable.",
+      "Conversation shifts to power banks and AI"
+    ],
+    [
+      "2763-2770",
+      "I banter with my companion about carrying a power bank and being an AI.",
+      "Conversation topic shifts to a remote machine setup"
+    ],
+    [
+      "2771-2789",
+      "I explain a remote machine and VPN setup to my companion.",
+      "Conversation topic shifts to my glasses and feeling restricted"
+    ],
+    [
+      "2790-2800",
+      "I banter with my companion about my smart glasses making her feel restricted.",
+      "Conversation topic shifts to teaching Chinese characters"
+    ],
+    [
+      "2801-2807",
+      "I listen to my companion's experience teaching traditional Chinese characters.",
+      "Action shifts to observing the server"
+    ],
+    [
+      "2808-2812",
+      "I observe the server placing dishes on our table and handle my teacup.",
+      "Action shifts to eating rice and noodles"
+    ],
+    [
+      "2813-2821",
+      "I eat rice and noodles with my chopsticks.",
+      "Conversation topic shifts to cooking and ordering dishes"
+    ],
+    [
+      "2822-2829",
+      "I banter with my companion about cooking and ordering dishes.",
+      "Action shifts to eating and discussing eggs"
+    ],
+    [
+      "2830-2833",
+      "I eat rice and listen to my companion's remark about the eggs.",
+      "Action shifts to pouring tea"
+    ],
+    [
+      "2834-2836",
+      "I pour tea into my cup from the golden teapot.",
+      "Action shifts to handling shredded potatoes"
+    ],
+    [
+      "2837-2839",
+      "I place shredded potatoes onto my rice bowl.",
+      "Conversation topic shifts to an AI recording software"
+    ],
+    [
+      "2840-2856",
+      "I discuss a screen-recording AI software and its execution with my companion.",
+      "Conversation topic shifts to buying furniture on Xianyu"
+    ],
+    [
+      "2857-2866",
+      "I listen to my companion describe buying cheap furniture on Xianyu.",
+      "Action shifts to eating shredded potatoes"
+    ],
+    [
+      "2867-2876",
+      "I eat shredded potatoes and rice.",
+      "Action shifts to observing the table and poster"
+    ],
+    [
+      "2877-2879",
+      "I observe the dishes and a promotional poster.",
+      "Action shifts to mixing and eating food"
+    ],
+    [
+      "2880-2889",
+      "I mix and eat food from my bowls.",
+      "Action shifts to picking up meat"
+    ],
+    [
+      "2890-2899",
+      "I pick up stir-fried meat and acknowledge my companion.",
+      "Action shifts to observing my companion and looking around"
+    ],
+    [
+      "2900-2903",
+      "I look around the restaurant and observe my companion while eating.",
+      "Action shifts to pouring tea"
+    ],
+    [
+      "2904-2908",
+      "I pour tea into my cup and look around the restaurant.",
+      "Action shifts to wiping my hands"
+    ],
+    [
+      "2909-2911",
+      "I wipe my hands with a tissue paper.",
+      "Conversation topic shifts to a friend's trip to Japan"
+    ],
+    [
+      "2912-2917",
+      "I discuss a friend's trip to Japan and camera purchase.",
+      "Action shifts to eating stir-fried meat"
+    ],
+    [
+      "2918-2926",
+      "I eat stir-fried meat and sip tea.",
+      "Conversation topic shifts to electric scooters"
+    ],
+    [
+      "2927-2929",
+      "I converse with my companion about electric scooter brands.",
+      "Action shifts to eating shredded potatoes"
+    ],
+    [
+      "2930-2934",
+      "I eat shredded potatoes and rice.",
+      "Conversation topic shifts to device privacy"
+    ],
+    [
+      "2935-2937",
+      "I assure my companion about the privacy of my device's recordings.",
+      "Action shifts to eating from the stir-fry dish"
+    ],
+    [
+      "2938-2947",
+      "I eat food from the stir-fry dish.",
+      "Conversation topic shifts to fitness and unread messages"
+    ],
+    [
+      "2948-2951",
+      "I discuss fitness and unread messages with my companion.",
+      "Conversation topic shifts to food spiciness"
+    ],
+    [
+      "2952-2960",
+      "I discuss the food's spiciness with my companion while pouring tea.",
+      "Conversation topic shifts to eating in Hunan"
+    ],
+    [
+      "2961-2973",
+      "I converse with my companion about eating spicy food in Hunan.",
+      "Action shifts to cautioning about chili peppers"
+    ],
+    [
+      "2974-2984",
+      "I scoop food and caution my companion against eating the red chili peppers.",
+      "Conversation topic shifts to a memory of a construction site"
+    ],
+    [
+      "2985-2992",
+      "I recount a memory of eating hearty meals at a construction site.",
+      "Action shifts to handling tissues"
+    ],
+    [
+      "2993-2999",
+      "I handle tissues while watching my companion eat.",
+      "End of provided events"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
 ```

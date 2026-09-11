@@ -1,0 +1,139 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group sequential L1 actions into immediate L2 tasks based on clear, concrete objectives such as discussing driving behavior, executing a toll payment, using a smartphone, or reacting to navigation alerts. Each task forms a coherent sequence of observations and interactions before the primary focus shifts.",
+  "events": [
+    [
+      "1000-1010",
+      "I advise the driver on lane choices and vehicle speed while cruising on the highway.",
+      "Conversation shifts from lane and speed advice to observing the infotainment displays."
+    ],
+    [
+      "1011-1016",
+      "I observe the vehicle's central infotainment display as it switches through settings and multimedia menus.",
+      "Attention shifts from the infotainment menus back to a conversation about speed alerts."
+    ],
+    [
+      "1017-1025",
+      "I converse with the driver about vehicle speed alerts, brake lights, and highway speed limits.",
+      "Topic of conversation changes from speed alerts to oncoming vehicle high-beam warnings."
+    ],
+    [
+      "1026-1031",
+      "I converse with the driver about navigation apps and oncoming vehicle warnings while cruising on the highway.",
+      "Conversation shifts to the ETC payment system as we approach the toll plaza."
+    ],
+    [
+      "1032-1045",
+      "I approach the highway toll plaza with the driver while discussing the vehicle's ETC system.",
+      "We discover the ETC lane requires manual payment, prompting me to prepare my smartphone."
+    ],
+    [
+      "1046-1055",
+      "I prepare my smartphone's Alipay payment code for the driver upon inadvertently entering the manual toll lane.",
+      "I hand my smartphone to the driver to complete the transaction with the toll collector."
+    ],
+    [
+      "1056-1070",
+      "I monitor the driver completing the manual smartphone toll payment with the collector before departing the plaza.",
+      "Toll payment is completed and we drive away, shifting my attention to the phone mount."
+    ],
+    [
+      "1071-1072",
+      "I observe adjustments being made to the mounted smartphone and its charging cable on the dashboard.",
+      "Phone adjustments are complete and we resume discussing the drive."
+    ],
+    [
+      "1073-1079",
+      "I converse with the driver about the car's infotainment system and our upcoming entry into the city.",
+      "Topic shifts from the infotainment system to a comparison of the car's driving feel with the driver's own vehicle."
+    ],
+    [
+      "1080-1096",
+      "I converse with the driver comparing the car's handling and responsiveness to her own vehicle.",
+      "Conversation shifts from driving dynamics to realizing we have transitioned off the main highway."
+    ],
+    [
+      "1097-1100",
+      "I excitedly celebrate entering the city with the driver while transitioning onto the connecting line.",
+      "We enter the city connecting roads and focus shifts to traffic conditions and upcoming route choices."
+    ],
+    [
+      "1101-1114",
+      "I converse with the driver about lane selection and the upcoming routing to navigate the shifting highway traffic.",
+      "The navigation system explicitly announces our exit ramp, prompting us to prepare to merge."
+    ],
+    [
+      "1115-1126",
+      "I assist the driver in following the navigation instructions to smoothly merge onto the uphill highway exit ramp.",
+      "We successfully enter the interchange ramp and transition to cruising along the curve."
+    ],
+    [
+      "1127-1133",
+      "I ride in the passenger seat as our vehicle follows traffic along the curved interchange ramp.",
+      "We merge onto the new road, and I take my smartphone from the dashboard mount to use it."
+    ],
+    [
+      "1134-1144",
+      "I use my smartphone to type and send WeChat message replies to User Liu.",
+      "I finish sending the WeChat messages and switch to checking the navigation app."
+    ],
+    [
+      "1145-1150",
+      "I secure my smartphone back into the dashboard mount after checking the remaining navigation route.",
+      "The phone is secured in the mount and I return to monitoring the road and listening to the driver."
+    ],
+    [
+      "1151-1161",
+      "I check the vehicle's surroundings to converse with the driver about our cruising speed and nearby cars.",
+      "The navigation system announces an upcoming accident, shifting our conversation to safety and following distances."
+    ],
+    [
+      "1162-1174",
+      "I discuss vehicle proximity alerts with the driver during navigation warnings about an upcoming accident.",
+      "The conversation about alerts concludes and I begin organizing items in the center console."
+    ],
+    [
+      "1175-1182",
+      "I arrange items inside the center console compartment while conversing about the heavy nighttime traffic entering the city.",
+      "I finish adjusting items in the console and turn my attention to my smartphone's audio cable."
+    ],
+    [
+      "1183-1186",
+      "I disconnect the smartphone's audio cable to ask the driver about the sudden stop in audio playback.",
+      "The audio issue is set aside as the navigation announces an upcoming speed enforcement zone."
+    ],
+    [
+      "1187-1200",
+      "I point out a speed limit gantry to explain the sudden traffic lane changes as we enter an enforcement zone.",
+      "We pass the initial speed check and begin discussing the navigation system's verbosity settings."
+    ],
+    [
+      "1201-1212",
+      "I hold my smartphone while conversing with the driver about the navigation system's concise mode settings.",
+      "The conversation about navigation settings ends and the driver expresses concern about the car ahead."
+    ],
+    [
+      "1213-1225",
+      "I advise the driver on maintaining a safe following distance during our exit from the interval speed check zone.",
+      "We clear the speed check zone and I shift to discussing the general safety of driving in the middle lane."
+    ],
+    [
+      "1226-1238",
+      "I converse with the driver about the safety of driving in the middle lane at a comfortable distance from the slow car ahead.",
+      "The conversation about lane positioning transitions into me sharing a personal story about learning to drive."
+    ],
+    [
+      "1239-1249",
+      "I share a personal story about learning to drive a truck during navigation instructions for an upcoming highway exit.",
+      "End of the supplied video sequence."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

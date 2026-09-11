@@ -1,0 +1,29 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous laptop work into immediate tasks based on application and content focus (metrics/code vs terminal/notes), then group the physical action of preparing to leave the desk.",
+  "events": [
+    [
+      "500-502",
+      "I review research metrics and edit a code block.",
+      "Switches focus to terminal and document review"
+    ],
+    [
+      "503-506",
+      "I monitor Claude Code terminal progress and review Feishu generalization notes.",
+      "Stops laptop work to stand up"
+    ],
+    [
+      "507-511",
+      "I stand up holding my access badge and speak.",
+      "End of batch"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

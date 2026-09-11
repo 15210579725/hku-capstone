@@ -1,0 +1,84 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group contiguous L2 tasks into coherent episodes that share an overarching goal, such as researching AI action models, investigating visa issues, researching spine pain, eating a meal, or correcting an application.",
+  "events": [
+    [
+      "0",
+      "I review research notes on action anticipation models.",
+      "Switches to investigating a visa application rejection."
+    ],
+    [
+      "1-3",
+      "I investigate my Taiwan entry permit application rejection.",
+      "Switches back to researching action sequence prediction models."
+    ],
+    [
+      "4",
+      "I research state-of-the-art models for human action sequence prediction using ChatGPT.",
+      "Interrupts research to inspect food and put on socks."
+    ],
+    [
+      "5-8",
+      "I inspect a mangosteen and put on my socks before returning to my desk.",
+      "Returns to desk and resumes AI model research."
+    ],
+    [
+      "9-15",
+      "I research and evaluate action prediction models using Claude and ChatGPT.",
+      "Switches focus to researching lumbar pain relief."
+    ],
+    [
+      "16-25",
+      "I research lumbar pain relief and set up my MacBook on an ergonomic stand.",
+      "Switches back to reading action forecasting research."
+    ],
+    [
+      "26-27",
+      "I read research on action forecasting models.",
+      "Switches to processing visa application."
+    ],
+    [
+      "28-29",
+      "I process my visa application and verify photo specifications.",
+      "Switches to organizing items on the desk."
+    ],
+    [
+      "30-31",
+      "I charge my iPhone and adjust earplugs on my desk.",
+      "Switches to having a meal."
+    ],
+    [
+      "32-62",
+      "I eat a meal with my roommate and discuss various topics including food and gym routines.",
+      "Meal finishes; switches to browsing phone and conversation."
+    ],
+    [
+      "63-68",
+      "I browse articles on my phone, discuss office chairs with my companion, and check shipping logistics.",
+      "Switches to clearing the dining table."
+    ],
+    [
+      "69-71",
+      "I clear and wipe the dining table after the meal.",
+      "Leaves dining area and transitions to the bedroom."
+    ],
+    [
+      "72-77",
+      "I transition to my bedroom, peel a mangosteen, check messages at my study desk, and make a brief trip to the kitchen.",
+      "Starts working on the entry permit application."
+    ],
+    [
+      "78-89",
+      "I correct my Taiwan entry permit application on the immigration portal and discuss related issues.",
+      "End of provided events."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

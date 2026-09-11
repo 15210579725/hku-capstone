@@ -1,0 +1,44 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group immediate tasks into logical sequences: entering the hotel lounge, inspecting the lobby amenities, riding the elevator, walking to the assigned room, inspecting the room's layout, and handling personal items.",
+  "events": [
+    [
+      "250-256",
+      "I observe the amenities upon entering the hotel lounge.",
+      "Transition from entering the lounge to moving toward the elevators"
+    ],
+    [
+      "257-263",
+      "I inspect the self-service amenities in the elevator lobby.",
+      "Entering the elevator cabin marks a new task"
+    ],
+    [
+      "264-271",
+      "I ride the elevator to the second floor alongside a delivery robot.",
+      "Exiting the elevator to walk down the corridor"
+    ],
+    [
+      "272-274",
+      "I follow my companion down the corridor to room 8220.",
+      "Door unlocking signals the start of the room entry"
+    ],
+    [
+      "275-282",
+      "I inspect the interior layout of room 8220.",
+      "Transitioning from general visual inspection to manipulating specific objects"
+    ],
+    [
+      "283-288",
+      "I handle a water bottle and my bag in the hotel room.",
+      "End of input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

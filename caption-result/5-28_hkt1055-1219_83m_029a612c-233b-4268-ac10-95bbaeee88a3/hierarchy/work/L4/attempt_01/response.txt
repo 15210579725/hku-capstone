@@ -1,0 +1,51 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group L3 episodes into broader L4 gameplay phases, separating distinct areas of investigation (town, apartment, hotel), specific task attempts (initial corpse handling vs successful examination), and non-gameplay activities (room tidying, smartphone break).",
+  "events": [
+    [
+      "0",
+      "I tidy my room.",
+      "Distinct physical activity prior to gameplay"
+    ],
+    [
+      "1-3",
+      "I investigate the town's commercial and outdoor areas at the start of my Disco Elysium gameplay session.",
+      "Groups game initiation and initial town exploration"
+    ],
+    [
+      "4-7",
+      "I conduct an investigation of the apartment building interior and its residents in Disco Elysium.",
+      "Groups the focused investigation phase within the apartment building"
+    ],
+    [
+      "8-9",
+      "I abandon my initial plan to process the hanged corpse using ammonia in Disco Elysium.",
+      "Groups the distinct, failed attempt to handle the corpse before taking a break"
+    ],
+    [
+      "10",
+      "I read the Epicure research paper and WeChat messages on my smartphone.",
+      "Distinct non-gameplay activity on a smartphone"
+    ],
+    [
+      "11-13",
+      "I gather information and supplies from the Whirling-in-Rags hotel and Frittte store in Disco Elysium.",
+      "Groups the hotel exploration and supply acquisition phase"
+    ],
+    [
+      "14-16",
+      "I conclude my Disco Elysium gameplay session following my examination of the hanged man's corpse and interrogation of Cuno.",
+      "Groups the successful corpse examination and subsequent investigation before quitting"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "10"
+    ],
+    "boundary_cautions": []
+  }
+}
+```

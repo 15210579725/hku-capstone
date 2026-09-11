@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Review eligible boundary pairs to determine if they represent the same continuous immediate task across a batch edge. Merge continuous transit events.",
+  "merges": [
+    [
+      24,
+      25,
+      "I walk across the campus to the PARKnSHOP supermarket.",
+      "Continuous walking transit to the supermarket across batch edge"
+    ],
+    [
+      32,
+      33,
+      "I walk along the campus corridors and covered walkways.",
+      "Continuous walking transit across campus continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

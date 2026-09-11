@@ -1,0 +1,89 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous immediate actions, such as moving between rooms, focused device interactions, and distinct conversational topics, into unified tasks.",
+  "events": [
+    [
+      "0-1",
+      "I enter the bedroom to prepare swim gear.",
+      "Movement to a new room with a stated goal."
+    ],
+    [
+      "2-10",
+      "I connect a charging cable to my laptop.",
+      "Focus shifts to handling the laptop and charging cable."
+    ],
+    [
+      "11-22",
+      "I pack my swim gear into a sealed bag with my companion.",
+      "Focus shifts to discussing and handling the swim gear."
+    ],
+    [
+      "23-40",
+      "I replace the laptop charging cable with the correct one.",
+      "Task switches to correcting the charging cable mistake."
+    ],
+    [
+      "41-45",
+      "I wait for my roommate and companion to leave the bedroom.",
+      "Observation period while waiting to exit the room."
+    ],
+    [
+      "46-51",
+      "I walk from the apartment to the elevator lobby.",
+      "Continuous movement toward the elevator."
+    ],
+    [
+      "52-56",
+      "I chat with my companion in the elevator lobby.",
+      "Waiting period filled with conversation."
+    ],
+    [
+      "57-60",
+      "I board the elevator.",
+      "Physical action of entering the elevator."
+    ],
+    [
+      "61-70",
+      "I discuss gym access cards with the woman in the elevator.",
+      "Elevator ride occupied by a distinct conversation."
+    ],
+    [
+      "71-74",
+      "I walk out of the building.",
+      "Continuous movement to exit the lobby."
+    ],
+    [
+      "75-84",
+      "I walk through the outdoor plaza with my companion.",
+      "Extended period of outdoor walking."
+    ],
+    [
+      "85-93",
+      "I attempt to fix my companion's hair with a headband.",
+      "Interruption in walking to physically interact with the companion's headband."
+    ],
+    [
+      "94-100",
+      "I walk past the glass lobby.",
+      "Resumption of walking past architectural features."
+    ],
+    [
+      "101-104",
+      "I jog alongside my companion.",
+      "Change in pace to a jog accompanied by conversation."
+    ],
+    [
+      "105-110",
+      "I agree to store my swimming glasses in the bag.",
+      "New conversational topic regarding the glasses replaces the immediate focus."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

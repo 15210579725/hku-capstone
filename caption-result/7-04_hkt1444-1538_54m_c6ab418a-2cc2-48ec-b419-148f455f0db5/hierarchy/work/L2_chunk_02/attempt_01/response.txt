@@ -1,0 +1,114 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group immediate continuous actions into discrete tasks based on the primary physical or digital activity, such as messaging on a smartphone, examining items, walking to specific locations, and riding a bicycle along distinct road segments.",
+  "events": [
+    [
+      "250-254",
+      "I message babe on my smartphone.",
+      "Messaging task complete"
+    ],
+    [
+      "255-265",
+      "I taste a croissant while stepping onto the mall escalator.",
+      "Transitions to walking through the mall concourse"
+    ],
+    [
+      "266-282",
+      "I review restaurant menus while walking through the mall concourse.",
+      "Exits the mall into the outdoor plaza"
+    ],
+    [
+      "283-294",
+      "I walk across the outdoor plaza past food kiosks.",
+      "Transitions to crossing the street"
+    ],
+    [
+      "295-314",
+      "I walk across the street toward the parked shared bicycles.",
+      "Reaches the shared bicycles"
+    ],
+    [
+      "315-320",
+      "I store my shopping bag in a shared bicycle basket.",
+      "Shifts attention to smartphone"
+    ],
+    [
+      "321-325",
+      "I message babe on WeChat.",
+      "Switches to a map application"
+    ],
+    [
+      "326-331",
+      "I browse the Tangzhen area on Gaode Maps.",
+      "Map browsing complete"
+    ],
+    [
+      "332-340",
+      "I unlock a Meituan shared bicycle.",
+      "Unlocking process complete"
+    ],
+    [
+      "341-345",
+      "I retrieve a piece of toast from my grocery bag.",
+      "Begins riding the bicycle"
+    ],
+    [
+      "346-372",
+      "I ride the shared bicycle through street intersections while holding my toast.",
+      "Transitions onto a bridge"
+    ],
+    [
+      "373-378",
+      "I ride the shared bicycle across Shenshagang Bridge.",
+      "Leaves the bridge to ride along residential streets"
+    ],
+    [
+      "379-409",
+      "I ride the shared bicycle past residential compounds.",
+      "Stops at an intersection"
+    ],
+    [
+      "410-421",
+      "I place my toast bag into the bicycle basket while stopped at an intersection.",
+      "Resumes riding"
+    ],
+    [
+      "422-448",
+      "I ride the shared bicycle across Caojiagou Bridge.",
+      "Stops to check navigation"
+    ],
+    [
+      "449-457",
+      "I check the route to 浦发唐城印象天地 on Gaode Maps while waiting at the intersection.",
+      "Resumes riding after checking the route"
+    ],
+    [
+      "458-471",
+      "I ride the shared bicycle through a construction corridor into a park plaza.",
+      "Turns around to exit the park plaza"
+    ],
+    [
+      "472-485",
+      "I end my Meituan shared bicycle rental at the street exit.",
+      "Rental completed and transitions to walking"
+    ],
+    [
+      "486-494",
+      "I inspect the park rules and layout directory in the plaza.",
+      "Finishes reading the park information"
+    ],
+    [
+      "495-499",
+      "I interact with a smart phone charging kiosk.",
+      "Current action at the charging kiosk"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

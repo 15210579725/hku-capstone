@@ -1,0 +1,41 @@
+```json
+{
+  "target_level": "L5",
+  "plan": "Abstract L4 events into major activities. Keep the waterfront walk and the supermarket errand as separate major activities due to their distinct primary locations and goals. Treat the post-return kitchen chores as a separate home activity. Isolate the sudden relocation as a standalone behavior-changing trigger per rule 3. Present the subsequent research work as the final major activity.",
+  "events": [
+    [
+      "0",
+      "I walk along the waterfront promenade.",
+      "Transition to tram commute for a grocery errand"
+    ],
+    [
+      "1",
+      "I purchase bananas at the supermarket.",
+      "Return to apartment"
+    ],
+    [
+      "2",
+      "I complete kitchen chores at my apartment.",
+      "Abrupt realization of a new task"
+    ],
+    [
+      "3",
+      "I abruptly relocate to the dining table to begin work upon remembering a task.",
+      "Behavior-changing trigger"
+    ],
+    [
+      "4",
+      "I work on my research architecture and eukaryote evolution summarization tasks.",
+      "End of recording"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      3
+    ],
+    "boundary_cautions": []
+  }
+}
+```

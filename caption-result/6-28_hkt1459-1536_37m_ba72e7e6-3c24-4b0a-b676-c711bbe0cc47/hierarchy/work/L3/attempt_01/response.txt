@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group events into coherent episodes based on the primary viewing device and content. The first episode covers browsing and watching short videos on an iPhone. The second episode covers watching a comedy show on a tablet with a companion, absorbing incidental looks around the cabin and brief social interactions.",
+  "events": [
+    [
+      "0-19",
+      "I watch a variety of Bilibili short videos on my iPhone.",
+      "Switches primary viewing device from an iPhone to a tablet"
+    ],
+    [
+      "20-58",
+      "I watch a stand-up comedy show on a tablet with my companion.",
+      "End of provided events"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

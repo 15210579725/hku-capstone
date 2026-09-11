@@ -1,0 +1,79 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group L1 action briefs into immediate tasks: ordering breakfast, collecting food, sitting down, eating, drinking tea, using the smartphone, returning the tray, walking across campus, entering the library, and setting up at a workstation.",
+  "events": [
+    [
+      "1250-1282",
+      "I purchase breakfast at the kiosk.",
+      "Completes order payment and checks receipt"
+    ],
+    [
+      "1283-1304",
+      "I collect my breakfast order at the food counter.",
+      "Receives all food items and turns away from counter"
+    ],
+    [
+      "1305-1311",
+      "I bring my breakfast tray to a table.",
+      "Places tray and backpack down to settle in"
+    ],
+    [
+      "1312-1386",
+      "I eat my breakfast.",
+      "Finishes eating main food items and shifts focus to tea"
+    ],
+    [
+      "1387-1406",
+      "I drink hot tea.",
+      "Picks up smartphone"
+    ],
+    [
+      "1407-1412",
+      "I message babe on WeChat.",
+      "Switches from chat to reading articles"
+    ],
+    [
+      "1413-1419",
+      "I read tech news articles on WeChat Official Accounts.",
+      "Puts phone away and looks back at tray"
+    ],
+    [
+      "1420-1423",
+      "I drink my hot tea.",
+      "Finishes drinking and stands up to leave"
+    ],
+    [
+      "1424-1432",
+      "I return my meal tray to the collection station.",
+      "Drops off tray and heads toward the exit"
+    ],
+    [
+      "1433-1448",
+      "I exit the dining building into the courtyard.",
+      "Reaches the outdoor courtyard"
+    ],
+    [
+      "1449-1482",
+      "I walk across the campus towards the library.",
+      "Arrives at the library entrance doors"
+    ],
+    [
+      "1483-1489",
+      "I enter the library lobby.",
+      "Opens the door to the Innovation Centre"
+    ],
+    [
+      "1490-1499",
+      "I set up my MacBook at an Innovation Centre workstation.",
+      "End of input sequence"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

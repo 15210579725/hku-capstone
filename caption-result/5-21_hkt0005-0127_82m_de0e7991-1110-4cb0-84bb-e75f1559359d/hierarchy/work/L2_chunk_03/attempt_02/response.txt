@@ -1,0 +1,71 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions with a single overarching goal and target into immediate tasks. Abstract incidental looks around the room into their parent reading/studying tasks. Keep distinct prompts to Claude AI as separate tasks. Preserve out-of-sequence notes as an independent task.",
+  "events": [
+    [
+      "500-548",
+      "I study problem 2 and 3 of Math Homework Assignment 6 about the Lovász Local Lemma and write graph diagram notes.",
+      "Homework study pauses to adjust clothing."
+    ],
+    [
+      "549-550",
+      "I adjust my shorts and shirt.",
+      "Clothing adjustment ends when I pick up my pen to resume studying."
+    ],
+    [
+      "551-580",
+      "I inspect handwritten graph formulas and derive mathematical inequalities for the homework assignment.",
+      "Homework study session ends when I switch windows to read Claude AI."
+    ],
+    [
+      "581-617",
+      "I read Claude AI's mathematical explanations of the Bollobás Theorem proof and polynomial construction.",
+      "Reading session pauses to check a terminal error."
+    ],
+    [
+      "618-620",
+      "I check psychology notes and a POV pipeline terminal error in Claude Code.",
+      "Terminal check ends when I return to reading the math proof."
+    ],
+    [
+      "621-652",
+      "I study Claude AI's explanation of polynomial formulas and orthogonality conditions for the Bollobás theorem.",
+      "Study session ends when I begin interacting with the Claude AI model selector."
+    ],
+    [
+      "653-681",
+      "I prompt Claude AI about moment curve parameterization and read its explanation on homogeneous coordinates and Vandermonde determinants.",
+      "Interaction ends when I shift my focus to type a follow-up question."
+    ],
+    [
+      "682-696",
+      "I prompt Claude AI about the augmented determinant formula and read its explanation on hyperplane equations.",
+      "Interaction ends when I begin typing a new broad prompt."
+    ],
+    [
+      "697-704",
+      "I prompt Claude AI for an explanation of the general position method and coplanarity.",
+      "Interaction is interrupted by an out-of-sequence note-writing event in the log."
+    ],
+    [
+      "705-706",
+      "I write notes about Helly's theorem and the Matrix Tree theorem.",
+      "Note-writing ends when the log returns to reading the Claude AI response."
+    ],
+    [
+      "707-749",
+      "I read Claude AI's explanation of general position, moment curves, and the Bollobás theorem proof steps.",
+      "Batch ends."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": [
+      "Items 705-706 have timestamps from 00:41, which are out of chronological sequence with the surrounding items from 01:18. They are grouped as a standalone task."
+    ]
+  }
+}
+```

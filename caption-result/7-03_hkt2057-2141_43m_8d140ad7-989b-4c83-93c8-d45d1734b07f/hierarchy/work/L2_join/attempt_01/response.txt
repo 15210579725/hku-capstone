@@ -1,0 +1,18 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Assess if the eligible pairs represent the exact same immediate task continuing across the batch edge. Pair [36, 37] involves browsing electric scooter rentals on the phone and should be merged. Pair [65, 66] transitions from browsing on the phone to lowering it and speaking, which represents a change in immediate action; these should not be merged.",
+  "merges": [
+    [
+      36,
+      37,
+      "I browse electric scooter rental listings on my phone.",
+      "Same browsing activity continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

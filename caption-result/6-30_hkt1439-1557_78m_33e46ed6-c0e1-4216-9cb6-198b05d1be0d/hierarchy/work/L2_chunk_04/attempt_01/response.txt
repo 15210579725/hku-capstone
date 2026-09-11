@@ -1,0 +1,144 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group consecutive action briefs into immediate tasks based on continuous navigation, driving environments, conversation topics, and toll payment steps.",
+  "events": [
+    [
+      "750-752",
+      "I watch the highway after exiting the tunnel.",
+      "Focus shifts from watching the highway to checking the car interior."
+    ],
+    [
+      "753-757",
+      "I glance around the car interior and at my companion.",
+      "Focus shifts to checking the smartphone navigation."
+    ],
+    [
+      "758-759",
+      "I check the Amap navigation route on my phone.",
+      "Focus shifts to looking at the road and approaching a tunnel."
+    ],
+    [
+      "760-769",
+      "I monitor the road and discuss an upcoming turn as we enter a tunnel.",
+      "Focus shifts to checking the phone navigation inside the tunnel."
+    ],
+    [
+      "770-776",
+      "I track the navigation route on my smartphone as we near the tunnel exit.",
+      "Focus shifts back to watching the tunnel environment."
+    ],
+    [
+      "777-783",
+      "I watch as we enter and pass through another short tunnel.",
+      "The car exits the tunnel, shifting focus to the outside scenery."
+    ],
+    [
+      "784-791",
+      "I view the roadside scenery and converse with the driver after exiting the tunnel.",
+      "Focus shifts to checking the navigation route."
+    ],
+    [
+      "792-796",
+      "I check the navigation route on my phone and the car screen.",
+      "A conversation begins regarding a blocked tunnel and detouring."
+    ],
+    [
+      "797-802",
+      "I converse with the driver about a roadblock and detouring through the opposite tunnel.",
+      "Focus shifts to checking the phone for the specific detour route."
+    ],
+    [
+      "803-807",
+      "I inspect the navigation detour route to Shuolong Tunnel on my phone.",
+      "The car approaches the Shuolong Tunnel, shifting focus to the road."
+    ],
+    [
+      "808-816",
+      "I monitor our approach and entry into Shuolong Tunnel.",
+      "A conversation begins regarding the high beams and tunnel environment."
+    ],
+    [
+      "817-839",
+      "I converse with the driver about high beams and the environment while passing through the tunnel.",
+      "The car exits the tunnel and approaches a toll plaza."
+    ],
+    [
+      "840-849",
+      "I monitor our exit from the tunnel and approach to an ETC toll lane.",
+      "An issue occurs, requiring the car to reverse and change lanes."
+    ],
+    [
+      "850-867",
+      "I instruct the driver to reverse and switch to the manual toll lane.",
+      "Focus shifts to preparing the phone for payment."
+    ],
+    [
+      "868-872",
+      "I prepare my Alipay QR code and hand my phone to the driver.",
+      "The driver takes the phone and interacts with the toll booth."
+    ],
+    [
+      "873-880",
+      "I monitor the driver paying the toll and discuss the receipt.",
+      "Toll payment is complete, shifting focus back to highway driving."
+    ],
+    [
+      "881-900",
+      "I view the highway and karst landscape ahead.",
+      "A distinct conversation begins regarding an arched bridge structure."
+    ],
+    [
+      "901-905",
+      "I discuss an arched bridge structure with the driver.",
+      "Conversation about the bridge ends, shifting focus back to navigation and driving."
+    ],
+    [
+      "906-916",
+      "I check the navigation route towards Shuolong Street while monitoring the highway.",
+      "The car enters a village area, shifting focus to town navigation."
+    ],
+    [
+      "917-932",
+      "I track the navigation route as we enter a village area.",
+      "A conversation begins about getting food and the guesthouse distance."
+    ],
+    [
+      "933-939",
+      "I suggest getting food and check the distance to our guesthouse.",
+      "Focus shifts to monitoring the traffic and a specific vehicle ahead."
+    ],
+    [
+      "940-954",
+      "I monitor the town street and urge the driver to pass a white SUV.",
+      "Focus shifts to checking the navigation and observing roadside stalls."
+    ],
+    [
+      "955-965",
+      "I check the navigation route while observing roadside stalls and landmarks.",
+      "The car approaches an intersection, requiring specific turn directions."
+    ],
+    [
+      "966-978",
+      "I direct the driver to an upcoming left turn at an intersection.",
+      "The driver turns into the wrong lane, initiating a new conversation."
+    ],
+    [
+      "979-994",
+      "I reassure the driver after turning into the wrong lane.",
+      "Focus shifts to the final approach to the destination."
+    ],
+    [
+      "995-999",
+      "I monitor our final approach to the guesthouse.",
+      "End of provided data."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

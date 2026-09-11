@@ -1,3 +1,34 @@
 ```json
-{"target_level":"L4","plan":"Group coherent episodes into broader goal-oriented phases: subway transit, shopping at the mall, commuting home, and a laptop presentation work session.","events":[["0-3","I travel via the MTR subway network with my companion.","Exiting the subway station completes the transit phase"],["4-8","I shop for groceries and snacks at the shopping mall with my companion.","Leaving the mall outdoors shifts the goal to the commute home"],["9-11","I return from the shopping mall to my apartment.","Arriving and settling into the apartment completes the commute"],["12-17","I produce my risk analysis and fairness audit presentations on my laptop.","Dataset ends during the presentation review tasks"]],"audit":{"complete":true,"uncertainties":[],"major_triggers":[],"boundary_cautions":[]}}
+{
+  "target_level": "L4",
+  "plan": "Group L3 episodes into broad goal-oriented phases: subway transit, mall shopping, returning home, and academic presentation work.",
+  "events": [
+    [
+      "0-3",
+      "I travel on the subway system.",
+      "Subway transit concludes upon exiting the station"
+    ],
+    [
+      "4-7",
+      "I shop for food items at the shopping mall.",
+      "Shopping concludes upon leaving the mall to walk home"
+    ],
+    [
+      "8-10",
+      "I return to my apartment.",
+      "Transit home concludes upon settling into the apartment"
+    ],
+    [
+      "11-15",
+      "I produce my data project presentation.",
+      "Academic work continues to the end of the recording"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
 ```

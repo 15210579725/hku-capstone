@@ -1,0 +1,64 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group immediate L2 tasks into coherent L3 episodes based on shared overarching goals, such as transiting, navigating to specific locations, browsing shops, and purchasing food or drinks.",
+  "events": [
+    [
+      "0-3",
+      "I ride in a car to 太平洋中环广场.",
+      "Arrival in the parking garage concludes the car ride."
+    ],
+    [
+      "4-11",
+      "I navigate from the underground parking garage to 李小姐宠物馆.",
+      "Arrival at the pet shop completes the navigation."
+    ],
+    [
+      "12-19",
+      "I interact with animals and explore services at the pet shop.",
+      "Exiting the pet shop shifts the focus to planning the next destination."
+    ],
+    [
+      "20-22",
+      "I book a ride to Wanda Plaza on the map application.",
+      "Booking completion shifts focus to acquiring a snack."
+    ],
+    [
+      "23-25",
+      "I purchase a takeaway order of Shengjian at the Xiaoyang Shengjian restaurant.",
+      "Collecting the food concludes the restaurant transaction."
+    ],
+    [
+      "26-34",
+      "I research pet services on my phone while riding in a vehicle to Wanda Plaza.",
+      "Exiting the vehicle concludes the ride."
+    ],
+    [
+      "35-37",
+      "I walk to Wanda Plaza and enter the shopping mall.",
+      "Entering the mall transitions to exploring inside."
+    ],
+    [
+      "38-46",
+      "I explore the mall and review restaurant menus with my companion.",
+      "Deciding to get a drink shifts focus to a specific beverage kiosk."
+    ],
+    [
+      "47-51",
+      "I purchase a beverage at the More Yogurt kiosk.",
+      "Collecting the drink completes the kiosk visit."
+    ],
+    [
+      "52-61",
+      "I secure a table and order a meal at a grilled fish restaurant.",
+      "Securing a table and ordering food form a complete dining setup episode."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

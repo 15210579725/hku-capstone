@@ -1,0 +1,104 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group sequential action briefs by immediate tasks, distinguishing out-of-game actions like room tidying and phone usage from specific in-game objectives such as NPC conversations, area exploration, and inventory management.",
+  "events": [
+    [
+      "0-1",
+      "I tidy my room.",
+      "Concludes room tidying before using the laptop."
+    ],
+    [
+      "2-7",
+      "I set up my laptop to play Disco Elysium.",
+      "Switches from laptop setup to using the phone."
+    ],
+    [
+      "8-12",
+      "I message babe on WeChat.",
+      "Switches from the phone back to the game."
+    ],
+    [
+      "13-20",
+      "I navigate my character into the Frittte store in Disco Elysium.",
+      "Completes navigation by entering the store and approaching the clerk."
+    ],
+    [
+      "21-50",
+      "I visit the Frittte store to interact with the clerk in Disco Elysium.",
+      "Exiting the store concludes the visit."
+    ],
+    [
+      "51-62",
+      "I explore the street outside Frittte in Disco Elysium.",
+      "Shifts focus from the street to searching the nearby kiosk."
+    ],
+    [
+      "63-72",
+      "I search the area around the kiosk in Disco Elysium.",
+      "Character moves to the bookstore display."
+    ],
+    [
+      "73-104",
+      "I converse with Annette at the bookstore display in Disco Elysium.",
+      "Conversation ends and focus shifts to the inventory menu."
+    ],
+    [
+      "105-118",
+      "I manage my inventory to equip a flashlight and gloves in Disco Elysium.",
+      "Closes inventory to begin exploring the courtyard."
+    ],
+    [
+      "119-128",
+      "I look through the coin-operated telescope in Disco Elysium.",
+      "Telescope interaction ends as the character heads to the pier."
+    ],
+    [
+      "129-139",
+      "I observe a cormorant at the pier in Disco Elysium.",
+      "Moves away from the pier to explore the backyard."
+    ],
+    [
+      "140-155",
+      "I explore the backyard for collectible items in Disco Elysium.",
+      "Backyard exploration shifts to actively searching for a building entrance."
+    ],
+    [
+      "156-179",
+      "I attempt to find a building entrance using my crowbar in Disco Elysium.",
+      "Focus shifts upon noticing the Smoker on the Balcony."
+    ],
+    [
+      "180-202",
+      "I converse with the Smoker on the Balcony in Disco Elysium.",
+      "The smoker leaves and the character searches for the apartment key."
+    ],
+    [
+      "203-207",
+      "I discover the apartment key hidden outside the building in Disco Elysium.",
+      "Key is found, enabling entry into the building."
+    ],
+    [
+      "208-213",
+      "I collect a pair of glasses inside the apartment building in Disco Elysium.",
+      "Moves from exploring the entrance to initiating dialogue with Kim."
+    ],
+    [
+      "214-249",
+      "I discuss the case briefing with Kim Kitsuragi in Disco Elysium.",
+      "End of input."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      [
+        "8-12",
+        "Messaging on the phone interrupts the gaming session."
+      ]
+    ],
+    "boundary_cautions": []
+  }
+}
+```

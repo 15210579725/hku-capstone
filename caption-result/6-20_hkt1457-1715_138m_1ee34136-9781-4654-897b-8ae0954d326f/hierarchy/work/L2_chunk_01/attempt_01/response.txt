@@ -1,0 +1,106 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group actions by immediate goal, platform, or specific task such as reading a paper, modifying settings, or prompting AI with distinct styles.",
+  "events": [
+    [
+      "0-22",
+      "I review the flowchart in Figma and export the diagram as an SVG.",
+      "Completes the review and export of the Figma diagram."
+    ],
+    [
+      "23-34",
+      "I draft and submit a prompt in ChatGPT to generate SVG figures.",
+      "Submits the prompt and awaits image generation."
+    ],
+    [
+      "35-40",
+      "I untangle the drawstring on my shorts.",
+      "Completes the physical interruption of fixing clothing."
+    ],
+    [
+      "41-59",
+      "I evaluate the ChatGPT generated SVG figures against my Figma diagram.",
+      "Completes evaluation of the generated SVG figures."
+    ],
+    [
+      "60-84",
+      "I read the RobotEQ paper on arXiv and examine its figures and tables.",
+      "Finishes reading the RobotEQ paper on arXiv."
+    ],
+    [
+      "85-98",
+      "I review my open tabs and copy a generated image from ChatGPT.",
+      "Copies the desired image from ChatGPT."
+    ],
+    [
+      "99-108",
+      "I search for the Doubao AI platform and encounter a region restriction notice.",
+      "Encounters the region restriction, prompting a settings change."
+    ],
+    [
+      "109-118",
+      "I navigate to my Google Activity settings and turn off Web & App Activity.",
+      "Successfully disables the activity tracking."
+    ],
+    [
+      "119-128",
+      "I log into Doubao using an SMS verification code from my iPhone.",
+      "Successfully logs into Doubao and accesses the interface."
+    ],
+    [
+      "129-144",
+      "I prompt ChatGPT to analyze an exported SVG file so other AIs can reproduce it.",
+      "Receives the SVG analysis from ChatGPT."
+    ],
+    [
+      "145-149",
+      "I review my paper figure notes in VS Code and adjust flowchart elements in Figma.",
+      "Finishes adjusting the flowchart and returns to generating images."
+    ],
+    [
+      "150-173",
+      "I prompt Doubao to generate cartoon refrigerator illustrations and review the results.",
+      "Completes review of the initial refrigerator illustrations."
+    ],
+    [
+      "174-188",
+      "I prompt Doubao to generate refrigerator sketches in a black-and-white American comic style.",
+      "Completes generation of the black-and-white sketches."
+    ],
+    [
+      "189-199",
+      "I download a preferred comic sketch and review the generated illustrations in Doubao.",
+      "Finishes downloading and reviewing the current batch of sketches."
+    ],
+    [
+      "200-230",
+      "I prompt Doubao to generate refrigerator illustrations in Apple keynote, anime, and Snoopy styles.",
+      "Receives the generated images and style suggestions for the new prompts."
+    ],
+    [
+      "231-240",
+      "I search Google Images for Snoopy comics to copy as a style reference.",
+      "Copies the reference image to the clipboard."
+    ],
+    [
+      "241-245",
+      "I prompt Doubao with the Snoopy comic reference image to generate a matching illustration.",
+      "Submits the reference image and prompt to Doubao."
+    ],
+    [
+      "246-249",
+      "I browse Snoopy comic search results and Wikipedia on Google.",
+      "End of provided data."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "107: Encountering a region restriction on Doubao redirects behavior to changing Google Activity settings."
+    ],
+    "boundary_cautions": []
+  }
+}
+```

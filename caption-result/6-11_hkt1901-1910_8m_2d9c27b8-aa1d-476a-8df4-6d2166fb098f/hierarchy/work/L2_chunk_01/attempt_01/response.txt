@@ -1,0 +1,64 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions based on immediate tasks such as packing, navigating, walking through specific areas, and distinct conversational topics.",
+  "events": [
+    [
+      "0-2",
+      "I pack my charging cable during a conversation with my companion.",
+      "Packing completes and preparations to leave finish"
+    ],
+    [
+      "3-6",
+      "I exit the restaurant with my companions.",
+      "Exited the restaurant"
+    ],
+    [
+      "7-16",
+      "I confirm a price of thirty-two during my Google Maps search for a basketball court.",
+      "Map search concludes and walking resumes"
+    ],
+    [
+      "17-31",
+      "I follow my companions through an indoor market to an outdoor staircase.",
+      "Reached the upper staircase landing"
+    ],
+    [
+      "32-36",
+      "I discuss my late sleep schedule with my companion.",
+      "Conversation topic shifts from sleep to work"
+    ],
+    [
+      "37-45",
+      "I discuss Hong Kong work routines during my walk along the walkway.",
+      "Conversation topic shifts to map navigation"
+    ],
+    [
+      "46-71",
+      "I navigate the sidewalk using Google Maps during a basketball conversation with my companion.",
+      "Conversation topic shifts from basketball to gym routines"
+    ],
+    [
+      "72-95",
+      "I discuss my daily schedule and gym reservation rules during my sidewalk walk.",
+      "Arrived at the park entrance"
+    ],
+    [
+      "96-106",
+      "I discuss finding an empty basketball court upon arriving at the park entrance.",
+      "Started observing the active sports courts"
+    ],
+    [
+      "107-117",
+      "I consider court reservations upon observing people playing frisbee and basketball.",
+      "End of sequence"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

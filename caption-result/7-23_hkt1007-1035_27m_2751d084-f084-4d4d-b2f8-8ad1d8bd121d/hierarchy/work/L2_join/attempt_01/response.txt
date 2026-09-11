@@ -1,0 +1,18 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate the eligible pair [79, 80] to determine if they represent a continuation of the same immediate task across the batch boundary. Both events involve interacting with OpenAI Codex to diagnose the USB Ethernet connection, forming a continuous task.",
+  "merges": [
+    [
+      79,
+      80,
+      "I use OpenAI Codex to diagnose my USB Ethernet connection.",
+      "The network diagnostic task using Codex continues seamlessly across the batch edge."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

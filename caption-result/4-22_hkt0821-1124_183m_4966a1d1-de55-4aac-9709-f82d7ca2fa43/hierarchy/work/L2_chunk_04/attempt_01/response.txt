@@ -1,3 +1,114 @@
 ```json
-{"target_level":"L2","plan":"Group continuous, unified micro-actions (e.g., writing specific math equations, observing the environment, walking along the street, browsing a bakery, purchasing cucumbers, and eating bread) into immediate tasks. Distinct phases of activities, such as browsing a bakery versus paying, are separated, while contiguous, single-location tasks like purchasing vegetables at a stall are unified. Descriptions avoid consecutive conjunctions by using participial phrases or infinitives to express a single objective.","events":[["750-759","I observe the pigeons and passing joggers from a bench at the waterfront promenade.","Initial observation of the surroundings before starting work."],["760-778","I reference my laptop to write Forward and Backward Euler calculations on my notepad.","Begins solving the math assignment on the notepad."],["779-781","I resume typing on my laptop upon hearing my friend return.","Brief interruption from a friend's return."],["782-789","I observe pedestrians stretching along the waterfront promenade.","Shifts attention to observe nearby pedestrians."],["790-804","I reference an online quiz on my laptop to write Forward Euler calculations on my notepad.","Returns to writing Forward Euler calculations."],["805-813","I write the algebraic derivation for the Backward Euler scheme on my notepad.","Focuses on deriving the Backward Euler formula."],["814-825","I reference the differential equations assignment on my laptop to calculate x(0.75) on my notepad.","Shifts to computing a specific numerical step."],["826-832","I review my handwritten math notes alongside a ChatGPT explanation comparing Forward and Backward Euler schemes.","Transitions to reviewing explanations and notes."],["833-837","I stand to observe pedestrians on the promenade during a brief break from my laptop.","Takes a short break to observe the promenade."],["838-850","I type on my laptop to verify computed values from my handwritten notes.","Resumes active laptop work and verification."],["851-859","I watch a man adjust a recycling container with a wooden pole from my laptop workstation.","Attention is drawn to a man working nearby."],["860-864","I review a ChatGPT document comparing the Forward and Backward Euler numerical methods on my laptop.","Returns focus to reading technical math explanations."],["865-869","I pack my laptop and handwritten notes into my backpack.","Concludes the study session by packing up."],["870-876","I walk along the waterfront promenade typing messages to 'babe' on WeChat.","Begins walking and messaging on the smartphone."],["877-890","I walk along the street observing parked delivery trucks and cargo workers.","Focuses on observing the street vehicles and cargo workers."],["891-898","I exclaim in surprise near the Western Wholesale Food Market during my walk along the sidewalk.","Reaches the food market entrance and reacts to the surroundings."],["899-914","I walk along the street reading X posts about OpenAI and robot design on my smartphone.","Shifts to continuously browsing social media on the phone."],["915-924","I navigate the sidewalk past storefronts and real estate listings after crossing the street.","Transitions from browsing the phone to navigating street crossings."],["925-939","I browse the bakery display cases selecting a packaged loaf of bread.","Enters the bakery to select a purchase."],["940-943","I pay for the pastry at the bakery counter using my smartphone.","Completes the bakery purchase at the counter."],["944-950","I untie my pastry bag to tear off a piece of bread upon entering the open plaza.","Exits the bakery and prepares to eat the pastry."],["951-964","I walk across the pedestrian plaza tearing off pieces of the bread bun.","Steadily walks and eats the bread."],["965-978","I converse with a street vendor to purchase two cucumbers using Octopus on my smartphone.","Stops to purchase vegetables from a street stall."],["979-991","I walk down the sidewalk past storefronts toward the municipal building entrance eating my pastry.","Resumes walking down the street after the vegetable purchase."],["992-999","I ride the elevator to the 5th floor eating my pastry.","Enters the building and takes the elevator."]],"audit":{"complete":true,"uncertainties":[],"major_triggers":[],"boundary_cautions":["The cucumber purchase groups ordering and paying into a single L2 task since it takes place as a single unified interaction at a street stall, adhering to the semantic rules for progressive abstraction."]}}
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks based on shared primary objectives and targets. Abstract incidental looks and brief pauses into the dominant surrounding activity unless they constitute a distinct, sustained task. Preserve specific mathematical topics, document subjects, and useful objects. Combine dialogue and transaction steps into unified purchase events.",
+  "events": [
+    [
+      "750-759",
+      "I observe pigeons and joggers along the waterfront promenade.",
+      "Continuous observation of surroundings at the waterfront."
+    ],
+    [
+      "760-782",
+      "I solve Forward and Backward Euler math assignment problems using my notepad and laptop.",
+      "Begins studying activity on the math assignment."
+    ],
+    [
+      "783-787",
+      "I observe people stretching along the boardwalk.",
+      "Break from studying to observe people."
+    ],
+    [
+      "788-802",
+      "I write Forward and Backward Euler calculations on my notepad for my math assignment.",
+      "Resumes writing math calculations."
+    ],
+    [
+      "803-832",
+      "I write Backward Euler algebraic derivations on my notepad using ChatGPT explanations on my laptop.",
+      "Shifts focus to algebraic derivations using ChatGPT."
+    ],
+    [
+      "833-836",
+      "I observe pedestrians walking on the waterfront promenade.",
+      "Brief break to observe pedestrians."
+    ],
+    [
+      "837-851",
+      "I type on my laptop to verify the computed math values on my notepad.",
+      "Resumes studying by verifying values on the laptop."
+    ],
+    [
+      "852-859",
+      "I watch a man adjusting a recycling container with a wooden pole along the promenade.",
+      "Extended observation of a man at the recycling container."
+    ],
+    [
+      "860-864",
+      "I review the ChatGPT technical explanation comparing Forward and Backward Euler methods.",
+      "Focus shifts back to reading the ChatGPT explanation."
+    ],
+    [
+      "865-870",
+      "I pack my MacBook and math notes into my backpack to leave the bench.",
+      "Activity changes from studying to packing belongings."
+    ],
+    [
+      "871-876",
+      "I exchange WeChat messages with 'babe' during my walk along the promenade.",
+      "Activity shifts to walking and messaging on the phone."
+    ],
+    [
+      "877-890",
+      "I walk along the road past parked delivery trucks and cargo workers.",
+      "Phone usage ends; walking continues past cargo operations."
+    ],
+    [
+      "891-900",
+      "I walk past the Western Wholesale Food Market and a white construction wall.",
+      "Location progresses to the food market and construction wall."
+    ],
+    [
+      "901-914",
+      "I read AI-related social media posts on my smartphone during my walk across the street.",
+      "Activity shifts to reading social media on the phone."
+    ],
+    [
+      "915-925",
+      "I walk past street intersections and sidewalk storefronts to approach a bakery.",
+      "Phone usage ends; walking continues towards the bakery."
+    ],
+    [
+      "926-943",
+      "I purchase a packaged loaf of bread at a bakery contactless terminal.",
+      "Activity changes to shopping inside the bakery."
+    ],
+    [
+      "944-964",
+      "I eat pieces of my torn bread during my walk along the pedestrian plaza.",
+      "Activity changes to walking and eating the purchased bread."
+    ],
+    [
+      "965-978",
+      "I purchase two cucumbers from a street-side vegetable vendor using Octopus.",
+      "Activity changes to interacting with a vegetable vendor."
+    ],
+    [
+      "979-990",
+      "I eat pieces of my bread during my walk along the Queen's Road West sidewalk towards the municipal building.",
+      "Resumes walking and eating bread."
+    ],
+    [
+      "991-999",
+      "I eat my bread during my elevator ride up to a market foyer in the municipal building.",
+      "Location changes to entering a building and riding an elevator."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
 ```

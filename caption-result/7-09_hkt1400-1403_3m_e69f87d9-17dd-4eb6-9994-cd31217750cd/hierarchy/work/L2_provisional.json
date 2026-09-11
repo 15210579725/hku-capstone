@@ -1,0 +1,143 @@
+[
+  {
+    "id": 0,
+    "start": 50432,
+    "end": 50454,
+    "text": "I board elevator 17 for the 9th floor.",
+    "refs": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "boundary_reason": "Elevator entry and destination selection complete",
+    "origin_chunk": 1
+  },
+  {
+    "id": 1,
+    "start": 50455,
+    "end": 50471,
+    "text": "I use my iPhone.",
+    "refs": [
+      5,
+      6,
+      7
+    ],
+    "boundary_reason": "Phone usage ends as elevator arrives",
+    "origin_chunk": 1
+  },
+  {
+    "id": 2,
+    "start": 50472,
+    "end": 50491,
+    "text": "I walk from the elevator into the office.",
+    "refs": [
+      8,
+      9,
+      10,
+      11
+    ],
+    "boundary_reason": "Arrival at the office desk",
+    "origin_chunk": 1
+  },
+  {
+    "id": 3,
+    "start": 50492,
+    "end": 50498,
+    "text": "I glance at my laptop.",
+    "refs": [
+      12
+    ],
+    "boundary_reason": "Laptop observation complete",
+    "origin_chunk": 1
+  },
+  {
+    "id": 4,
+    "start": 50498,
+    "end": 50518,
+    "text": "I exit the office into the hallway.",
+    "refs": [
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "boundary_reason": "Transit out of the office space complete",
+    "origin_chunk": 1
+  },
+  {
+    "id": 5,
+    "start": 50518,
+    "end": 50544,
+    "text": "I fill a glass bottle with water at the pantry dispenser.",
+    "refs": [
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "boundary_reason": "First bottle filling complete",
+    "origin_chunk": 1
+  },
+  {
+    "id": 6,
+    "start": 50544,
+    "end": 50551,
+    "text": "I say '我总是觉得，这个世界是个很奇怪的地方。'",
+    "refs": [
+      24
+    ],
+    "boundary_reason": "Speech phrase complete",
+    "origin_chunk": 1
+  },
+  {
+    "id": 7,
+    "start": 50552,
+    "end": 50581,
+    "text": "I fill a second glass bottle with water at the dispenser.",
+    "refs": [
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31
+    ],
+    "boundary_reason": "Second bottle filling complete",
+    "origin_chunk": 1
+  },
+  {
+    "id": 8,
+    "start": 50582,
+    "end": 50595,
+    "text": "I inspect a water puddle on the pantry floor.",
+    "refs": [
+      32,
+      33,
+      34
+    ],
+    "boundary_reason": "Observation of the puddle complete",
+    "origin_chunk": 1
+  },
+  {
+    "id": 9,
+    "start": 50596,
+    "end": 50624,
+    "text": "I walk down the corridor toward the restroom.",
+    "refs": [
+      35,
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "boundary_reason": "Transit segment reaches the restroom turn",
+    "origin_chunk": 1
+  }
+]

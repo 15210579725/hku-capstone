@@ -1,0 +1,106 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group L2 tasks into L3 coherent activity episodes based on significant shifts in location, overarching goal, or activity type. Transit is divided by major environmental contexts (e.g., neighborhood streets, specific buildings, open campus). Extended continuous activities that share a single unbroken goal, such as assembling a scrapbook or an uninterrupted session of watching short videos, are unified into single episodes regardless of the number of constituent tasks, strictly following the rule against artificial count or duration limits.",
+  "events": [
+    [
+      "0-3",
+      "I leave my residential building and walk to the street.",
+      "Exits the building to begin the outdoor walk."
+    ],
+    [
+      "4-6",
+      "I walk through the neighborhood to the Cainiao Station.",
+      "Arrives at the destination building."
+    ],
+    [
+      "7-8",
+      "I navigate inside the Cainiao Station and retrieve my parcel.",
+      "Completes parcel retrieval and prepares to leave."
+    ],
+    [
+      "9-11",
+      "I walk back through the neighborhood to my residential building.",
+      "Arrives back at the residential building."
+    ],
+    [
+      "12-13",
+      "I return to my apartment via the elevator.",
+      "Enters the apartment, ending the transit."
+    ],
+    [
+      "14-36",
+      "I unbox, assemble, and decorate a DIY scrapbook kit with photos and captions.",
+      "Completes the scrapbooking activity and packs up the supplies."
+    ],
+    [
+      "37",
+      "I unbox a SIM card package and check WeChat on my phone.",
+      "Activity shifts to putting on clothing."
+    ],
+    [
+      "38",
+      "I put on a pair of socks.",
+      "Activity shifts back to phone usage."
+    ],
+    [
+      "39",
+      "I review photos and message babe on WeChat.",
+      "Switches from phone usage to packing belongings."
+    ],
+    [
+      "40-45",
+      "I pack my backpack with my belongings and a filled water bottle.",
+      "Completes packing preparations for leaving the apartment."
+    ],
+    [
+      "46-48",
+      "I leave my apartment building and ride the elevator to the ground floor.",
+      "Exits the residential building to the street."
+    ],
+    [
+      "49-55",
+      "I walk through the neighborhood to the HKU footbridge while reading articles on my phone.",
+      "Transitions from the neighborhood to entering a campus building."
+    ],
+    [
+      "56-60",
+      "I navigate through the HKU Haking Wong Building while reading articles on my phone.",
+      "Exits the building into the open campus plaza."
+    ],
+    [
+      "61-64",
+      "I walk across the campus to the Main Library while messaging on WeChat.",
+      "Enters the Main Library building."
+    ],
+    [
+      "65-69",
+      "I enter the Main Library and navigate to a fourth-floor study carrel.",
+      "Reaches the study destination and transitions to settling in."
+    ],
+    [
+      "70-71",
+      "I unpack my belongings and settle at the library study carrel.",
+      "Finishes unpacking and transitions to phone usage."
+    ],
+    [
+      "72",
+      "I purchase 3M earplugs on the Pinduoduo app.",
+      "Completes the specific purchase task before starting a long video-watching session."
+    ],
+    [
+      "73-233",
+      "I watch a variety of short videos on Bilibili covering topics such as vehicles, comedy, sports, and engineering.",
+      "Video watching session continues unbroken until the end of the input."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": [
+      "Items 73-233 comprise 161 continuous L2 tasks of watching Bilibili short videos. They are grouped into a single L3 episode because they share one unbroken objective, adhering strictly to the rule against setting artificial duration or count boundaries."
+    ]
+  }
+}
+```

@@ -1,0 +1,104 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks based on shared immediate goals, dividing the sequence by distinct activities such as reviewing the menu, ordering, relocating to the counter, specific phases of playing with the cat using different toys, and eating different dishes.",
+  "events": [
+    [
+      "0-4",
+      "I recite location information with my companion.",
+      "Conversation concludes to examine the menu"
+    ],
+    [
+      "5-26",
+      "I browse the restaurant menu to select a meal.",
+      "Menu browsing shifts to placing the order"
+    ],
+    [
+      "27-40",
+      "I order our meal from the waitress.",
+      "Ordering concludes with a wait time"
+    ],
+    [
+      "41-45",
+      "I use my smartphone at the dining table.",
+      "Phone use ends to follow companion"
+    ],
+    [
+      "46-49",
+      "I walk to the restaurant cashier counter.",
+      "Relocation to counter completes"
+    ],
+    [
+      "50-57",
+      "I observe a ginger cat resting behind the cashier counter.",
+      "Observation shifts to active petting"
+    ],
+    [
+      "58-64",
+      "I pet the ginger cat.",
+      "Petting at counter shifts to carrying the cat"
+    ],
+    [
+      "65-70",
+      "I carry the ginger cat to our dining booth.",
+      "Cat transportation to table completes"
+    ],
+    [
+      "71-79",
+      "I interact with the ginger cat at our dining table.",
+      "Cat interaction pauses to look at food"
+    ],
+    [
+      "80-86",
+      "I examine the served soup and iced milk tea.",
+      "Food examination ends to play with the cat again"
+    ],
+    [
+      "87-109",
+      "I observe the cat playing with an ID card and lanyard under the table.",
+      "Lanyard play pauses to eat soup"
+    ],
+    [
+      "110-113",
+      "I scoop soup from my bowl.",
+      "Soup eating pauses to play with the cat"
+    ],
+    [
+      "114-128",
+      "I entertain the kitten using a yellow pouch.",
+      "Pouch play switches to using a cardholder toy"
+    ],
+    [
+      "129-146",
+      "I tease the cat using toy cards and a keychain.",
+      "Cardholder play switches to fetching earphones"
+    ],
+    [
+      "147-173",
+      "I entertain the cat using wired earphones.",
+      "Earphone play ends after the cat is caught"
+    ],
+    [
+      "174-198",
+      "I consume my iced milk tea and corn soup.",
+      "Soup consumption ends when new food arrives"
+    ],
+    [
+      "199-231",
+      "I eat the served stir-fried noodles.",
+      "Noodle eating shifts to eating a rice dish"
+    ],
+    [
+      "232-249",
+      "I eat a plate of rice and beef.",
+      "End of provided input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

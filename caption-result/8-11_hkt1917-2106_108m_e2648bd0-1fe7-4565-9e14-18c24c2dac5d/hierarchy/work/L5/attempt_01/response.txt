@@ -1,0 +1,29 @@
+```json
+{
+  "target_level": "L5",
+  "plan": "Group the dining phase as one standalone major activity, merge the transit to the office with the overarching computer vision research session it serves, and keep the concluding restroom break as a distinct activity due to the change in location and goal.",
+  "events": [
+    [
+      "0",
+      "I consume a hot noodle dinner at the dining hall.",
+      "Dining activity complete"
+    ],
+    [
+      "1-2",
+      "I research computer vision models, egocentric dataset masking pipelines, and GPU performance benchmarks at my office workstation.",
+      "Transit to the office unified with the primary research goal"
+    ],
+    [
+      "3",
+      "I walk to the restroom for a physical break.",
+      "Departure from workstation for a separate goal"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

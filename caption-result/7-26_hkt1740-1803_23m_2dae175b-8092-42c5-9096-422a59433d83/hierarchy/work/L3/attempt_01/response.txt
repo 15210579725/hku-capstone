@@ -1,0 +1,49 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group the ride-hailing journey and hotel arrival into coherent episodes based on distinct phases: boarding/settling, pre-departure coordination, active in-ride engagement, passive observation, arrival/disembarking, ground-floor navigation, and settling into the final room.",
+  "events": [
+    [
+      "0-2",
+      "I settle into the ride-hailing car upon its arrival.",
+      "Boarding and initial settling into the vehicle is complete."
+    ],
+    [
+      "3-6",
+      "I converse with my companion about our trip details during the vehicle startup.",
+      "Initial coordination concludes as the journey progresses."
+    ],
+    [
+      "7-11",
+      "I entertain myself with smartphone applications and group conversations during the ride.",
+      "Active engagement shifts to passive observation of the environment."
+    ],
+    [
+      "12-14",
+      "I observe the vehicle interior and passing traffic during the ride.",
+      "Passive observation ends as arrival preparations begin."
+    ],
+    [
+      "15-18",
+      "I conclude the journey by disembarking from the ride-hailing car at the Tangzhen subway station.",
+      "The ride-hailing journey ends upon exiting the vehicle."
+    ],
+    [
+      "19-21",
+      "I inspect the ground-floor hotel amenities upon entering from the street storefronts.",
+      "Ground-floor exploration ends upon taking the elevator."
+    ],
+    [
+      "22-25",
+      "I settle into hotel room 8220 after arriving on the second floor.",
+      "Reaches and settles into the final hotel room destination."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

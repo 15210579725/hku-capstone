@@ -1,0 +1,91 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group actions into immediate tasks by identifying distinct activities such as preparing in the hotel room, using specific phone applications, navigating discrete street segments, resting, route planning, browsing specific types of shops, and interacting with street vendors.",
+  "events": [
+    [
+      "0-15",
+      "I get ready in the hotel room while conversing with my companion.",
+      "Switches focus to checking phone"
+    ],
+    [
+      "16-27",
+      "I browse messages and articles on WeChat.",
+      "Switches from WeChat to a video app"
+    ],
+    [
+      "28-62",
+      "I watch a feed of short videos on my phone.",
+      "Switches from the video app to Xiaohongshu"
+    ],
+    [
+      "63-75",
+      "I read posts and comments on Xiaohongshu.",
+      "Puts phone away to leave the hotel room"
+    ],
+    [
+      "76-87",
+      "I walk down the hotel corridor and take the elevator to the ground floor.",
+      "Exits the elevator to the street"
+    ],
+    [
+      "88-101",
+      "I cross the street to examine a tourist map board.",
+      "Finishes reviewing the map and continues walking"
+    ],
+    [
+      "102-111",
+      "I walk across the plaza into a stone-paved alleyway.",
+      "Stops to rest at a covered breezeway"
+    ],
+    [
+      "112-117",
+      "I take a brief rest on a ledge in the open plaza.",
+      "Stands up to resume walking"
+    ],
+    [
+      "118-125",
+      "I examine a tourist map with my companion to plan our route.",
+      "Route decided, points to the pathway to leave"
+    ],
+    [
+      "126-141",
+      "I inspect an outdoor water tap while walking through the stone corridor.",
+      "Transitions from the pedestrian corridor to a busy street"
+    ],
+    [
+      "142-160",
+      "I walk past a parking garage and a school entrance.",
+      "Enters an outdoor commercial alleyway"
+    ],
+    [
+      "161-172",
+      "I walk through a commercial alley while discussing electric scooters with my companion.",
+      "Enters a pedestrian shopping street"
+    ],
+    [
+      "173-183",
+      "I browse clothing shops and racks along the pedestrian street.",
+      "Shifts focus to observing food vendors"
+    ],
+    [
+      "184-222",
+      "I observe various food stalls and discuss dining options with my companion.",
+      "Hears a fruit vendor's call and stops to shop"
+    ],
+    [
+      "223-249",
+      "I inquire about fruit prices and select mangosteens at a roadside cart.",
+      "End of input data"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "Fruit vendor calling out prompts stopping to buy fruit"
+    ],
+    "boundary_cautions": []
+  }
+}
+```

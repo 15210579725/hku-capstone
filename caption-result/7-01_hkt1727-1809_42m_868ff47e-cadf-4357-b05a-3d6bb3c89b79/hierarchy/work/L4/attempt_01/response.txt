@@ -1,0 +1,32 @@
+{
+  "target_level": "L4",
+  "plan": "Group L3 episodes into distinct transportation and location-based phases: concluding the train transit, navigating the station to a pickup point, commuting by car to the destination, and checking into the hotel accommodation.",
+  "events": [
+    [
+      "0-2",
+      "I complete my train journey to the destination station.",
+      "Train ride concludes with luggage preparation for disembarkation"
+    ],
+    [
+      "3-5",
+      "I navigate through the train station to the Didi ride-hailing pickup area.",
+      "Station transit ends upon reaching the street pickup location"
+    ],
+    [
+      "6-7",
+      "I commute to the hotel via a ride-hailing car.",
+      "Car journey concludes upon arrival at the hotel entrance"
+    ],
+    [
+      "8-10",
+      "I secure access to hotel room 8207.",
+      "Check-in phase concludes upon proceeding to the assigned room"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}

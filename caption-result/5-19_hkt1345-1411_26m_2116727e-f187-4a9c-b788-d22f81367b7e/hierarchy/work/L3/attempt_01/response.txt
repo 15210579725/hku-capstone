@@ -1,0 +1,39 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group navigational steps into arriving at the canteen. Group the sequence of ordering, collecting, and preparing the food into the meal procurement episode. Group the primary eating and observing period into the main meal episode. Split the subsequent smartphone usage into two episodes based on the primary subject: first, reviewing financial transactions and exploring travel options; second, reading a specific article and checking messages while finishing the soup.",
+  "events": [
+    [
+      "0-2",
+      "I navigate the campus walkways and stairs to reach the canteen ordering kiosk.",
+      "Arrived at the ordering kiosk"
+    ],
+    [
+      "3-6",
+      "I purchase a vegetarian meal at the canteen kiosk, collect my food, add condiments, and carry my tray to an outdoor patio table.",
+      "Seated at the table with the meal ready to eat"
+    ],
+    [
+      "7-19",
+      "I eat my bowl of rice, bean sprouts, and braised meat and drink my soup while observing the outdoor patio.",
+      "Finished the main dish and switched focus to smartphone applications"
+    ],
+    [
+      "20-29",
+      "I review my transaction histories and browse cross-border travel schedules and discounts in Alipay and WeChat.",
+      "Switched from exploring travel and discounts to reading a long article"
+    ],
+    [
+      "30-35",
+      "I read an article about AI data center electricity demands and check my messages while consuming the rest of my soup.",
+      "Recording ends"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

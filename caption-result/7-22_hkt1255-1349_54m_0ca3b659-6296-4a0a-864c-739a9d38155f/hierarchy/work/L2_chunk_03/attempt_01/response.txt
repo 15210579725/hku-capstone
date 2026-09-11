@@ -1,0 +1,149 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks, focusing on distinct phases of eating, device usage, inspecting specific objects, and navigating distinct segments of the environment.",
+  "events": [
+    [
+      "500-513",
+      "I eat fried chicken, steamed meat patty, and purple rice using my chopsticks.",
+      "Shifts to picking up a new chicken nugget for another bite sequence."
+    ],
+    [
+      "514-524",
+      "I eat another fried chicken nugget and gather more purple rice.",
+      "Shifts to eating final portions of food and scanning the remaining dishes."
+    ],
+    [
+      "525-533",
+      "I scrape up purple rice, eat more fried chicken, and look at my remaining dishes.",
+      "Task shifts entirely to picking up and examining the soup."
+    ],
+    [
+      "534-543",
+      "I sigh, pick up, and inspect a bowl of mung bean soup before setting it down.",
+      "Concludes inspecting the soup and returns to taking a final bite of food."
+    ],
+    [
+      "544-546",
+      "I eat a fried chicken nugget and place my chopsticks on the tray.",
+      "Task shifts from eating to checking a mobile device."
+    ],
+    [
+      "547-549",
+      "I pick up my iPhone and browse my WeChat messages.",
+      "Task shifts to returning the food tray."
+    ],
+    [
+      "550-556",
+      "I carry my food tray across the cafeteria and place it on the dish return conveyor belt.",
+      "Task shifts to leaving the dining hall."
+    ],
+    [
+      "557-565",
+      "I look at my phone and walk out of the dining hall, proceeding down a corridor into a bright hallway.",
+      "Environment changes to entering the underground parking garage."
+    ],
+    [
+      "566-574",
+      "I walk down the steps into the underground parking garage and pass by parked cars.",
+      "Stops walking to attempt opening a specific door."
+    ],
+    [
+      "575-578",
+      "I attempt to open a gray metal door, curse when it does not open, and turn away.",
+      "Resumes walking and shifts focus to observing a white SUV."
+    ],
+    [
+      "579-583",
+      "I walk through the garage and observe a parked white electric SUV.",
+      "Diverts attention to inspect a door notice."
+    ],
+    [
+      "584-587",
+      "I turn toward a door to inspect a notice before turning back toward the driving lane.",
+      "Returns to the lane and examines other parked vehicles."
+    ],
+    [
+      "588-594",
+      "I observe a parked white Tesla Model Y and examine a black sedan as I walk down the garage lane.",
+      "Stops to read notices on an elevator hall door."
+    ],
+    [
+      "595-597",
+      "I walk toward the elevator hall door and read the access control notices.",
+      "Moves on to inspect building safety equipment."
+    ],
+    [
+      "598-605",
+      "I walk down the garage aisle, inspect the red fire alarm bells, and tap the alarm gong.",
+      "Resumes walking across the parking lot."
+    ],
+    [
+      "606-610",
+      "I walk across the parking lot past a Volvo and speak out loud about a discount.",
+      "Diverts into a side utility corridor."
+    ],
+    [
+      "611-615",
+      "I enter a utility corridor to inspect the ceiling cable trays before turning back.",
+      "Leaves the utility space to return to the main garage."
+    ],
+    [
+      "616-621",
+      "I push open the exit door to re-enter the parking garage aisle and walk along the driving lane while speaking.",
+      "Continues navigating further into the garage corridors."
+    ],
+    [
+      "622-627",
+      "I walk along the underground garage corridor, following overhead signs and passing open doorways.",
+      "Approaches a ramp but turns around to change direction."
+    ],
+    [
+      "628-631",
+      "I turn toward an upward exit ramp but turn around and curse about my location.",
+      "Locates the exit and begins leaving the building."
+    ],
+    [
+      "632-637",
+      "I walk up the foyer steps, exit through glass doors, and walk toward the building entrance while speaking.",
+      "Reaches the outdoor staircase and begins climbing."
+    ],
+    [
+      "638-641",
+      "I sing a song while climbing the outdoor steps to reach the plaza walkway.",
+      "Reaches the top of the stairs and transitions to walking along the plaza."
+    ],
+    [
+      "642-647",
+      "I walk along the concrete outdoor pathway next to a shrub bed.",
+      "Walks further to observe a signpost and a parked car."
+    ],
+    [
+      "648-651",
+      "I walk past a blue signpost and observe a parked white XPENG M03 sedan.",
+      "Leaves the plaza to cross the road and enter a new building."
+    ],
+    [
+      "652-656",
+      "I cross the road, enter the building lobby, and walk toward the reception desk.",
+      "Interacts with security to pass through the gates."
+    ],
+    [
+      "657-658",
+      "I ask the receptionist to open the gate and walk through the turnstile.",
+      "Proceeds to take the elevator."
+    ],
+    [
+      "659-664",
+      "I take the elevator to the 11th floor and check my phone.",
+      "End of sequence."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

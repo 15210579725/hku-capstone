@@ -1,0 +1,139 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks based on interactions with specific objects, people, or focal points, such as examining the camera, observing the otters, speaking with staff, or walking through specific park areas.",
+  "events": [
+    [
+      "500-517",
+      "I examine the DJI Osmo Pocket 3 camera.",
+      "Switches from checking the camera to filming a person arriving"
+    ],
+    [
+      "518-521",
+      "I film User A arriving.",
+      "Arrival completes and conversation begins"
+    ],
+    [
+      "522-530",
+      "I discuss the camera's panorama mode.",
+      "Topic shifts to deciding the next destination"
+    ],
+    [
+      "531-540",
+      "I discuss visiting the penguin enclosure.",
+      "Discussion concludes and focus shifts to lending a power bank"
+    ],
+    [
+      "541-550",
+      "I lend a power bank to my companion.",
+      "Power bank interaction concludes and walking resumes"
+    ],
+    [
+      "551-557",
+      "I walk toward the animal enclosures.",
+      "Arrives at the enclosure to observe animals"
+    ],
+    [
+      "558-568",
+      "I observe otters through the viewing window.",
+      "Moves from the glass window to the open touch pool"
+    ],
+    [
+      "569-583",
+      "I touch an animal at the touch pool.",
+      "Moves from the touch pool to a specific feeding hole"
+    ],
+    [
+      "584-596",
+      "I feed an otter through the interaction hole.",
+      "Feeding ends and shifts to observing the wider habitat"
+    ],
+    [
+      "597-616",
+      "I observe the otters and cliff scenery.",
+      "Focus shifts to the artificial river attraction"
+    ],
+    [
+      "617-623",
+      "I observe the artificial river attraction.",
+      "Moves back to the otter feeding chute"
+    ],
+    [
+      "624-630",
+      "I hold a plastic bottle against the otter feeding chute.",
+      "Leaves the feeding area to depart the exhibit"
+    ],
+    [
+      "631-641",
+      "I read an informational placard outside the animal enclosure.",
+      "Finishes reading and walks towards a new plaza"
+    ],
+    [
+      "642-654",
+      "I walk into the Music Plaza.",
+      "Enters the plaza and begins passing stalls"
+    ],
+    [
+      "655-664",
+      "I walk past the stage and food stalls in the Music Plaza.",
+      "Stops walking to interact with an NFC installation"
+    ],
+    [
+      "665-674",
+      "I scan an NFC sound installation with my smartphone.",
+      "Finishes NFC interaction and resumes walking across the plaza"
+    ],
+    [
+      "675-683",
+      "I walk across the open plaza.",
+      "Stops walking to talk to a staff member"
+    ],
+    [
+      "684-690",
+      "I ask a staff member for directions to the penguin enclosure.",
+      "Conversation ends and continues walking"
+    ],
+    [
+      "691-698",
+      "I decline to play a carnival game.",
+      "Leaves the game stall and walks toward other attractions"
+    ],
+    [
+      "699-710",
+      "I bypass the event stage and bumper car pavilion.",
+      "Passes the bumper cars and walks along the pathway"
+    ],
+    [
+      "711-720",
+      "I converse with my companion about my wet clothes.",
+      "Conversation ends as attention shifts to a fountain"
+    ],
+    [
+      "721-731",
+      "I photograph the illuminated fountain and lighthouse structure.",
+      "Finishes taking photos and resumes walking"
+    ],
+    [
+      "732-738",
+      "I walk past illuminated installations.",
+      "Stops walking to observe a fish basin"
+    ],
+    [
+      "739-745",
+      "I observe the fish basin attraction.",
+      "Leaves the fish basin and continues walking"
+    ],
+    [
+      "746-749",
+      "I walk along the pathway.",
+      "End of input sequence"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

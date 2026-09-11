@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L5",
+  "plan": "Group the apartment departure and local MTR transit into the initial commute to the station. Group the border checkpoints, first train ride, station transfer, and second train ride into the primary cross-border high-speed rail journey.",
+  "events": [
+    [
+      "0-1",
+      "I commute from my apartment to the High Speed Rail station with my companion.",
+      "Arrival at the High Speed Rail station marks the transition from local city transit to the main long-distance journey."
+    ],
+    [
+      "2-5",
+      "I undertake a cross-border journey on connecting high-speed trains.",
+      "End of the provided recording during the second high-speed train ride."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

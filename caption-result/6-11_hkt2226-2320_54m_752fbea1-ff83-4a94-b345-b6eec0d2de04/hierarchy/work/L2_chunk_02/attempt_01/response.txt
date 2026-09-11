@@ -1,0 +1,229 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group sequential observations into immediate tasks based on continuous evaluation work, distinct conversation topics, or standalone physical actions, abstracting brief incidental looks away to maintain unified objectives.",
+  "events": [
+    [
+      "250-252",
+      "I place my smartphone on the bedside table.",
+      "Phone placed down, shifts focus to VS Code."
+    ],
+    [
+      "253-262",
+      "I review annotation consistency metrics and case differences in VS Code.",
+      "Interrupted by a video call conversation."
+    ],
+    [
+      "263-267",
+      "I discuss my recent haircut with a friend on a video call.",
+      "Conversation about haircut ends, returns to VS Code."
+    ],
+    [
+      "268-272",
+      "I review evaluation consistency statistics in VS Code.",
+      "Interrupted by roommate starting a new conversation."
+    ],
+    [
+      "273-274",
+      "I discuss preferences for hair length with my roommate.",
+      "Conversation about hair ends, looks at laptop."
+    ],
+    [
+      "275",
+      "I view evaluation results on my laptop.",
+      "Roommate initiates a conversation about skin."
+    ],
+    [
+      "276-289",
+      "I discuss my skin condition, makeup, and hair dyeing with my companions.",
+      "Conversation about appearance ends, returns to typing."
+    ],
+    [
+      "290-296",
+      "I review the evaluation document on my laptop.",
+      "Interrupted by a new conversation about toenails."
+    ],
+    [
+      "297-306",
+      "I discuss toenail polish colors and styles with a companion.",
+      "Conversation about toenails ends, returns to laptop work."
+    ],
+    [
+      "307-311",
+      "I review consistency results on my laptop.",
+      "Interrupted by a new conversation about paying for meals."
+    ],
+    [
+      "312-317",
+      "I discuss not paying for meals with User A.",
+      "Topic shifts to eye drops."
+    ],
+    [
+      "318-320",
+      "I discuss using eye drops for my dry eyes.",
+      "Conversation about eye drops ends, returns to VS Code."
+    ],
+    [
+      "321-324",
+      "I read the human scoring dataset and event logs in VS Code.",
+      "Interrupted by a brief comment about nails."
+    ],
+    [
+      "325",
+      "I mention that I have not gotten my nails done recently.",
+      "Comment about nails ends, resumes VS Code work."
+    ],
+    [
+      "326-329",
+      "I review auction item details and event logs in VS Code.",
+      "Interrupted by a new conversation about moving."
+    ],
+    [
+      "330-338",
+      "I discuss moving to a new apartment and living alone with a companion.",
+      "Topic shifts to cooking and busy schedule."
+    ],
+    [
+      "339-348",
+      "I discuss my busy schedule and cooking meals before meetings.",
+      "Conversation about cooking ends, returns to laptop work."
+    ],
+    [
+      "349-354",
+      "I evaluate the annotator consistency report and action discrepancies.",
+      "Interrupted by a new conversation about baking and travel."
+    ],
+    [
+      "355-364",
+      "I discuss cooking homemade food and my upcoming summer travel plans.",
+      "Topic shifts to discussing an outfit."
+    ],
+    [
+      "365-368",
+      "I discuss pairing my outfit with white pants.",
+      "Conversation about outfit ends, brief look at table."
+    ],
+    [
+      "369",
+      "I look at the scoring summary table.",
+      "New conversation starts about civil service exams."
+    ],
+    [
+      "370-380",
+      "I discuss taking civil service exams and comforting a depressed friend.",
+      "Conversation about exams ends, returns to laptop work."
+    ],
+    [
+      "381-389",
+      "I update the annotator consistency evaluation report using the Pinyin IME.",
+      "Interrupted by a joking conversation about depression."
+    ],
+    [
+      "390-392",
+      "I discuss seeking help for depression and my companion's workload.",
+      "Conversation ends, brief check of metrics."
+    ],
+    [
+      "393-394",
+      "I read the evaluation consistency metrics.",
+      "Interrupted by a new conversation about store staffing."
+    ],
+    [
+      "395-406",
+      "I discuss the staffing at a store and my concerns about a colleague named Ellie.",
+      "Conversation about store ends, returns to VS Code work."
+    ],
+    [
+      "407-410",
+      "I examine human scoring comparison results in VS Code.",
+      "Interrupted by a lighthearted conversation about a wedding."
+    ],
+    [
+      "411-417",
+      "I joke about holding a personal wedding and having free time to shop.",
+      "Conversation about wedding ends, returns to evaluation work."
+    ],
+    [
+      "418-422",
+      "I examine baking action evaluation candidates on the laptop.",
+      "Shifts attention to smartphone for WeChat."
+    ],
+    [
+      "423-435",
+      "I view a photo challenge in WeChat on my smartphone.",
+      "Finishes viewing WeChat, returns to MacBook."
+    ],
+    [
+      "436-437",
+      "I read the evaluation document on my MacBook.",
+      "Interrupted by a conversation about spending money."
+    ],
+    [
+      "438-442",
+      "I discuss my spending habits on purchases with my roommate.",
+      "Topic shifts to sleeveless clothing preferences."
+    ],
+    [
+      "443-447",
+      "I discuss my preferences for sleeveless clothing with my roommate.",
+      "Shifts focus to turn on the kettle."
+    ],
+    [
+      "448",
+      "I turn on the electric kettle.",
+      "Kettle turned on, engages in a conversation about selling boots."
+    ],
+    [
+      "449-455",
+      "I discuss selling my boots in the autumn with my roommate.",
+      "Topic shifts to living alone."
+    ],
+    [
+      "456-460",
+      "I discuss living alone and not wanting to see anyone else.",
+      "Conversation about living alone ends, returns to evaluation guidelines."
+    ],
+    [
+      "461-468",
+      "I review the evaluation guideline document and case criteria on my laptop.",
+      "Shifts attention to inspect the kettle."
+    ],
+    [
+      "469-475",
+      "I inspect the electric kettle and its filter.",
+      "Finishes inspecting the kettle, returns to MacBook."
+    ],
+    [
+      "476",
+      "I read the annotation document on my MacBook.",
+      "Interrupted by a roommate's comment about social circles."
+    ],
+    [
+      "477-479",
+      "I listen to a roommate suggest expanding my social circle.",
+      "Conversation about social circles ends, returns to typing notes."
+    ],
+    [
+      "480-482",
+      "I compose notes on my laptop.",
+      "Interrupted by a new conversation about sleeping arrangements."
+    ],
+    [
+      "483-495",
+      "I discuss evening sleeping arrangements and finishing work late on a call.",
+      "Conversation ends, returns to evaluation cases."
+    ],
+    [
+      "496-499",
+      "I review evaluation cases, inter-annotator metrics, and debug conclusions.",
+      "End of provided inputs."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

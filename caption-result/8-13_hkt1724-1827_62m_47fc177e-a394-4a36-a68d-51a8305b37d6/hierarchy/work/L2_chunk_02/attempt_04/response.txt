@@ -1,0 +1,119 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group action briefs into cohesive immediate tasks based on continuous goal-oriented actions such as browsing specific food items, paying, distinct conversation topics, walking to locations, and performing specific gym tasks.",
+  "events": [
+    [
+      "250-272",
+      "I browse the snack shelves and ice cream freezers.",
+      "Switches from browsing snacks to considering instant noodles."
+    ],
+    [
+      "273-281",
+      "I browse the instant noodles and drinks options.",
+      "Switches from browsing packaged food to visiting the hot food counter."
+    ],
+    [
+      "282-290",
+      "I obtain a steamed bun at the self-select dish counter.",
+      "Finishes receiving food and proceeds to payment."
+    ],
+    [
+      "291-300",
+      "I pay for my steamed bun using Alipay on my smartphone.",
+      "Completes payment and begins walking to a table."
+    ],
+    [
+      "301-306",
+      "I relocate to a dining table with my food.",
+      "Finishes sitting down and begins eating and conversing."
+    ],
+    [
+      "307-321",
+      "I discuss experiment evaluation and AI captioning with my companion.",
+      "Conversation topic shifts to a smartphone test."
+    ],
+    [
+      "322-337",
+      "I discuss a smartphone test with my friends over my steamed bun meal.",
+      "Conversation topic shifts back to experiment data correlation."
+    ],
+    [
+      "338-346",
+      "I discuss experiment data correlation with my companion during my meal.",
+      "Friend introduces a new topic about brain-computer interfaces."
+    ],
+    [
+      "347-363",
+      "I discuss brain-computer interfaces with my friend during my meal.",
+      "I introduce a new conversation topic about food."
+    ],
+    [
+      "364-369",
+      "I discuss duck blood curd with my companion during my meal.",
+      "I introduce a new topic regarding a Twitter post about AI."
+    ],
+    [
+      "370-395",
+      "I discuss AI peer review and paper output rates with my companions.",
+      "Conversation concludes as I finish my meal and arrange my utensils."
+    ],
+    [
+      "396-400",
+      "I arrange my chopsticks on my empty plate.",
+      "Finishes arranging utensils and starts a new conversation."
+    ],
+    [
+      "401-412",
+      "I discuss model testing metrics with my companion.",
+      "Colleague stands up and we prepare to leave the table."
+    ],
+    [
+      "413-421",
+      "I return my meal tray to the collection point with my companions.",
+      "Finishes returning trays and begins walking out."
+    ],
+    [
+      "422-432",
+      "I exit the cafeteria with my companions.",
+      "Exits the building and transitions to walking to the gym."
+    ],
+    [
+      "433-441",
+      "I walk to the gym reception desk for sign-in.",
+      "Finishes signing in and enters the gym floor."
+    ],
+    [
+      "442-453",
+      "I set down my belongings in the gym amid a discussion about training plans.",
+      "Finishes setting up and begins exercising."
+    ],
+    [
+      "454-462",
+      "I perform pull-ups on the pull-up bar.",
+      "Finishes pull-ups and begins using my smartphone."
+    ],
+    [
+      "463-478",
+      "I review a promo page, WeChat messages, and an article on my smartphone.",
+      "Puts phone away and begins setting up a gym machine."
+    ],
+    [
+      "479-497",
+      "I inspect a seated exercise machine including its weight pin and instructional diagrams.",
+      "Stands up from the machine and picks up my smartphone."
+    ],
+    [
+      "498-499",
+      "I check WeChat on my smartphone.",
+      "End of input sequence."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

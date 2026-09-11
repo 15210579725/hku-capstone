@@ -1,0 +1,94 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks based on distinct locations traversed (lobby, outdoor corridors, gardens, elevator, apartment) and shifts in physical interactions or primary conversational topics (discussing ingredients, managing a spill, eating a snack, unpacking).",
+  "events": [
+    [
+      "500-509",
+      "I converse with my companion about smart home controls and butter.",
+      "Enters the residential lobby"
+    ],
+    [
+      "510-527",
+      "I walk through the residential lobby during a discussion about butter storage.",
+      "Exits the lobby into the outdoor corridor"
+    ],
+    [
+      "528-557",
+      "I traverse the outdoor gardens during a conversation about communal fridge organization and cooking economics.",
+      "Conversation shifts to joking upon reaching the walkway"
+    ],
+    [
+      "558-575",
+      "I walk along the covered walkway during a lighthearted conversation with my companion.",
+      "Focus shifts to inspecting groceries for dinner"
+    ],
+    [
+      "576-608",
+      "I walk through the courtyard during a discussion about vegetable ingredients for dinner.",
+      "Enters the lobby lounge area"
+    ],
+    [
+      "609-621",
+      "I handle my bags and a spill on the lounge armchair.",
+      "Leaves the lounge to walk outside"
+    ],
+    [
+      "622-641",
+      "I walk along the covered colonnade with my companion.",
+      "Begins eating a bread roll"
+    ],
+    [
+      "642-658",
+      "I eat a bread roll on my walk past the residential towers.",
+      "Resumes discussing fried rice ingredients"
+    ],
+    [
+      "659-679",
+      "I walk along the colonnade toward the main lobby during a conversation about fried rice condiments.",
+      "Enters the main lobby"
+    ],
+    [
+      "680-689",
+      "I walk through the main lobby to the elevator corridor.",
+      "Enters the elevator"
+    ],
+    [
+      "690-708",
+      "I ride the elevator to my apartment floor during a discussion about subway routes.",
+      "Arrives at the apartment door"
+    ],
+    [
+      "709-712",
+      "I enter the apartment with my companion.",
+      "Moves to the bedroom to drop off bags"
+    ],
+    [
+      "713-722",
+      "I deposit my bags in my bedroom during a conversation about household chores.",
+      "Moves to the kitchen"
+    ],
+    [
+      "723-731",
+      "I familiarize my roommate with the kitchen knives and the air conditioner settings.",
+      "Leaves to manually adjust the air conditioner"
+    ],
+    [
+      "732-739",
+      "I adjust the hallway air conditioner using the remote control.",
+      "Begins unpacking groceries for cooking"
+    ],
+    [
+      "740-749",
+      "I unpack food ingredients from my backpack for dinner preparation.",
+      "End of provided data"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

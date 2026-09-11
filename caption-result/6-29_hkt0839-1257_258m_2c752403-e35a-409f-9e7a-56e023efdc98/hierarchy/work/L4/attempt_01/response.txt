@@ -1,0 +1,44 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group L3 episodes into broad goal-oriented phases: morning routine/breakfast, hotel check-out, beach excursion, driving commute, arcade leisure activities, and hospital navigation.",
+  "events": [
+    [
+      "0-5",
+      "I complete my morning preparations, breakfast, and itinerary planning at the hotel.",
+      "Shift from morning routine to packing and departure preparations."
+    ],
+    [
+      "6-10",
+      "I finalize my luggage packing and hotel check-out.",
+      "Hotel departure activities conclude before starting a beach excursion."
+    ],
+    [
+      "11-15",
+      "I visit and explore the sandy beach via the resort shuttle.",
+      "Beach excursion ends upon returning to the car to drive to the next location."
+    ],
+    [
+      "16",
+      "I drive my car to the hospital parking lot.",
+      "Arrival at the parking lot concludes the driving commute."
+    ],
+    [
+      "17-22",
+      "I visit the shops and a cat cafe in the covered arcade.",
+      "Leisure activities conclude, shifting to navigating to a medical appointment."
+    ],
+    [
+      "23",
+      "I navigate to the hospital outpatient center.",
+      "Ends with the ongoing walk to the outpatient center."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

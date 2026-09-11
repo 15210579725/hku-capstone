@@ -1,0 +1,116 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks based on the primary object of interaction (e.g., specific documents, laptop slides, phone apps) or distinct physical activities (e.g., inspecting a banknote, relocating rooms).",
+  "events": [
+    [
+      "1250-1274",
+      "I study line stimuli and content on my MacBook screen.",
+      "Stands up and shifts focus to handwritten notes."
+    ],
+    [
+      "1275-1282",
+      "I review my handwritten study notes with a pen.",
+      "Shifts focus to numerical analysis notes and the MacBook."
+    ],
+    [
+      "1283-1293",
+      "I study my handwritten numerical analysis notes and the MacBook screen.",
+      "Shifts focus to reading specific slides on the laptop."
+    ],
+    [
+      "1294-1308",
+      "I read numerical methods and SVD slides on my laptop.",
+      "Interrupts study to handle an eye drop vial."
+    ],
+    [
+      "1309-1313",
+      "I unwrap a plastic eye drop vial.",
+      "Resumes studying and writing notes."
+    ],
+    [
+      "1314-1329",
+      "I take handwritten notes referencing my laptop.",
+      "Shifts focus entirely to typing on the laptop."
+    ],
+    [
+      "1330-1348",
+      "I type on my MacBook.",
+      "Stands up to retrieve and inspect a banknote."
+    ],
+    [
+      "1349-1364",
+      "I inspect a HKD 500 banknote from the desk drawer.",
+      "Returns to reading a document on the laptop."
+    ],
+    [
+      "1365-1376",
+      "I read a document on my laptop screen.",
+      "Picks up a pen to write formulas on paper."
+    ],
+    [
+      "1377-1382",
+      "I record SVD formulas and diagrams on paper.",
+      "Shifts back to reading SVD content and typing in Claude on the laptop."
+    ],
+    [
+      "1383-1411",
+      "I use Claude on my laptop to review SVD content.",
+      "Reaches for a notepad to write SVD equations."
+    ],
+    [
+      "1412-1431",
+      "I write SVD equations on a notepad.",
+      "Returns to reading definitions and questions in Claude."
+    ],
+    [
+      "1432-1443",
+      "I review SVD definitions and questions in Claude.",
+      "Shifts to reviewing math notes and preparing to leave."
+    ],
+    [
+      "1444-1453",
+      "I review my handwritten math notes and the laptop screen.",
+      "Stands up and relocates to another room."
+    ],
+    [
+      "1454-1456",
+      "I relocate to the living room.",
+      "Relocation complete; begins checking phone."
+    ],
+    [
+      "1457-1465",
+      "I view a FutureSim PDF about simulation benchmarks on WeChat.",
+      "Switches to messaging."
+    ],
+    [
+      "1466-1474",
+      "I interact with babe's chat and Moments profile on WeChat.",
+      "Puts phone down temporarily to handle a power bank."
+    ],
+    [
+      "1475-1492",
+      "I attach a MagSafe power bank to my iPhone.",
+      "Resumes using phone to check WeChat messages."
+    ],
+    [
+      "1493-1494",
+      "I read WeChat messages from babe.",
+      "Switches to browsing WeChat Official Accounts."
+    ],
+    [
+      "1495-1499",
+      "I browse articles in WeChat Official Accounts.",
+      "End of provided data."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "1454-1456: Relocating from the bedroom to the living room is a major location change that marks the transition from studying to phone usage."
+    ],
+    "boundary_cautions": []
+  }
+}
+```

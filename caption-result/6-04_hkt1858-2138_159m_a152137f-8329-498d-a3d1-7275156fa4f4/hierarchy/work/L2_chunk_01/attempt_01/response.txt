@@ -1,0 +1,109 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group immediate tasks by continuous interaction with a specific application, tool, or physical location to achieve a single goal (e.g., fetching water, querying an AI, reading an article, or taking notes).",
+  "events": [
+    [
+      "0-8",
+      "I walk to my study spot.",
+      "Arrival at study spot"
+    ],
+    [
+      "9-25",
+      "I walk to the water dispenser to fill my glass bottle during a WeChat conversation with babe.",
+      "Water filling and messaging complete"
+    ],
+    [
+      "26-29",
+      "I return down the hallway reading WeChat Official Accounts articles.",
+      "Arrival at desk"
+    ],
+    [
+      "30-48",
+      "I read a WeChat article about Agent-Native Research Artifacts.",
+      "Switch to chat list"
+    ],
+    [
+      "49-60",
+      "I review EgoLife and MAGIC-Video event segmentation reports in the WeChat chat list.",
+      "Switch to ChatGPT"
+    ],
+    [
+      "61-69",
+      "I prompt ChatGPT for information on MAGIC-Video dataset event segmentation.",
+      "Switch to Google Chrome"
+    ],
+    [
+      "70-73",
+      "I search Google Chrome for MAGIC-Video segmentation.",
+      "Switch to VS Code"
+    ],
+    [
+      "74-80",
+      "I review event segmentation summaries with multi-granularity captions in VS Code and Claude Code.",
+      "Switch to Claude Code prompting"
+    ],
+    [
+      "81-87",
+      "I prompt Claude Code to classify papers by EgoMemReason.",
+      "Prompt submitted"
+    ],
+    [
+      "88-100",
+      "I read the MagicVideo paper with its generated video demo clips on arXiv.",
+      "Switch to alphaXiv"
+    ],
+    [
+      "101-118",
+      "I take notes in a Feishu document about MAGIC-Video benchmark rankings from alphaXiv and Claude.",
+      "Benchmark notes complete"
+    ],
+    [
+      "119-127",
+      "I read an AI chat response comparing EGAgent with MAGIC-Video architecture and segmentation.",
+      "Switch to VS Code"
+    ],
+    [
+      "128-157",
+      "I review the activity segmentation report with multi-granularity caption hierarchies in VS Code.",
+      "Switch to alphaXiv"
+    ],
+    [
+      "158-191",
+      "I read Claude's explanation of MAGIC-Video's Narrative Memory Chain segmentation methodology.",
+      "Reading Claude response complete"
+    ],
+    [
+      "192-205",
+      "I type notes in VS Code regarding the caption granularity JSON files as well as Claude's event chain methodology.",
+      "Switch to online document"
+    ],
+    [
+      "206-216",
+      "I type notes into the online document regarding Claude's event decomposition guidelines.",
+      "Notes complete"
+    ],
+    [
+      "217-221",
+      "I open and close my water bottle on the desk.",
+      "Water bottle handled"
+    ],
+    [
+      "222-225",
+      "I search inside my backpack.",
+      "Backpack searched"
+    ],
+    [
+      "226-249",
+      "I type notes into the Feishu document regarding MAGIC-Video event segmentation and LLM simulation.",
+      "Notes complete"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

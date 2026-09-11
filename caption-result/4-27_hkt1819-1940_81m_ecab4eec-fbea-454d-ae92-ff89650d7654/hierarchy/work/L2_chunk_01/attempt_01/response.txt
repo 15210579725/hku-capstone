@@ -1,3 +1,119 @@
 ```json
-{"target_level":"L2","plan":"Group continuous actions focused on a single immediate goal or target, such as browsing a specific topic on the phone, navigating to a location, or focusing on the lecture versus a personal device.","events":[["0-10","I read a ChatGPT conversation on my smartphone while standing on the balcony.","Switches from reading on the phone to looking at the surrounding environment."],["11-37","I look at the balcony wall, floor, and city skyline.","Shifts from observing the environment to researching an academic profile on the phone."],["38-49","I research Professor Zhiwen Zhang's academic profile and publications on my smartphone.","Finishes researching the professor and switches to browsing WeChat."],["50-92","I browse WeChat articles about tech news, 3D generation models, and DIY projects on my phone while conversing with my companion.","Stops reading WeChat to check a group chat and prepare to leave."],["93-96","I read a university group chat message on my phone and pick up my backpack to leave.","Finishes checking the phone and begins walking to the building."],["97-103","I walk from the patio into the Knowles Building and proceed to the elevator lobby.","Arrives at the elevator lobby and pauses to look at the phone."],["104-107","I scroll through and view photos on my smartphone.","Stops looking at photos to board the elevator."],["108-119","I ride the elevator and explain my eye-tracking camera to a fellow passenger.","Exits the elevator and begins walking to the lecture hall."],["120-128","I walk down the corridor and navigate to my desk in the lecture hall.","Arrives at the desk and begins unpacking and settling in."],["129-142","I sit at my desk, pull out my black jacket from my backpack, and put it on.","Finishes putting on the jacket and begins setting up the laptop."],["143-159","I open my MacBook, log into the university portal, and check my Assignment 3 submission status on Moodle.","Switches from using the laptop to photographing the lecture slide with the phone."],["160-161","I unlock my phone and photograph the lecture slide.","Puts the phone down and focuses on watching the lecture."],["162-187","I watch the lecture presentation as the instructor discusses backpropagation and gradients.","Shifts attention to typing notes on the laptop."],["188-200","I type lecture notes on my MacBook while listening to the presentation.","Stops typing and shifts focus to observing the lecture hall and presentation."],["201-212","I observe the lecture hall and listen to the instructor discuss the representer theorem.","Shifts attention to reviewing the Moodle course page on the laptop."],["213-219","I review the Moodle course page and navigation bar on my laptop screen.","Returns focus to watching the instructor and the lecture presentation."],["220-233","I watch the instructor explain the matrix form for nonlinear regression and briefly raise my hand.","Shifts to using the smartphone to photograph slides and review notes."],["234-249","I photograph a lecture slide and review lecture notes on linear systems and iterative methods on my phone.","End of input."]],"audit":{"complete":true,"uncertainties":[],"major_triggers":[96],"boundary_cautions":[]}}
+{
+  "target_level": "L2",
+  "plan": "Group L1 action briefs into immediate tasks based on continuous interactions with specific targets, such as browsing distinct topics on a smartphone, observing the environment, walking to locations, engaging in conversation, and focusing on the laptop or lecture presentation. Boundaries are created when the primary target of attention or the immediate goal shifts.",
+  "events": [
+    [
+      "0-4",
+      "I review my phone notifications and ChatGPT history.",
+      "Switches to observing the environment"
+    ],
+    [
+      "5-6",
+      "I observe my companion and the balcony surroundings.",
+      "Returns attention to the smartphone"
+    ],
+    [
+      "7-10",
+      "I read an AI chat about professors on my smartphone.",
+      "Shifts focus to the cityscape"
+    ],
+    [
+      "11-37",
+      "I observe the city skyline and balcony during a bystander's remarks.",
+      "Resumes reading on the smartphone"
+    ],
+    [
+      "38-49",
+      "I review Professor Zhiwen Zhang's academic profile and publications on my iPhone.",
+      "Switches from web browsing to WeChat"
+    ],
+    [
+      "50-62",
+      "I read an AIxiv article about segmentation models on WeChat during my companion's conversation about high school exams.",
+      "Changes browsing topic and begins speaking"
+    ],
+    [
+      "63-79",
+      "I discuss work schedules and classes with my companion during my review of tech news and 3D modeling posts.",
+      "Focuses on reading a specific article without speaking"
+    ],
+    [
+      "80-92",
+      "I read a WeChat article about 3D AI generation and the Meshy plugin.",
+      "Checks a group chat and prepares to leave"
+    ],
+    [
+      "93-96",
+      "I check a WeChat capstone project recruitment message during my departure preparations.",
+      "Leaves the balcony area to travel"
+    ],
+    [
+      "97-102",
+      "I walk along the patio to enter the Knowles Building lobby.",
+      "Arrives at the elevator lobby"
+    ],
+    [
+      "103-119",
+      "I discuss my eye-tracking camera with a passenger during the elevator wait and ride.",
+      "Exits the elevator to walk to the lecture hall"
+    ],
+    [
+      "120-129",
+      "I navigate through the corridor to my desk in the lecture hall.",
+      "Takes a seat in the lecture hall"
+    ],
+    [
+      "130-142",
+      "I put on my black jacket during the lecturer's introductory remarks.",
+      "Takes out the laptop for class"
+    ],
+    [
+      "143-159",
+      "I set up my MacBook to check my Moodle Assignment 3 submission status.",
+      "Focuses on the lecture presentation"
+    ],
+    [
+      "160-177",
+      "I observe the lecture presentation on the projector screen.",
+      "Transitions to taking notes on the laptop"
+    ],
+    [
+      "178-199",
+      "I type lecture notes on loss function gradients on my MacBook.",
+      "Transitions to listening to the lecture"
+    ],
+    [
+      "200-210",
+      "I listen to the lecture on the representer theorem.",
+      "Inspects the laptop interface"
+    ],
+    [
+      "211-219",
+      "I browse the Moodle course interface and user guide menu on my laptop.",
+      "Returns focus to the instructor's lecture"
+    ],
+    [
+      "220-232",
+      "I attend the instructor's explanation of matrix forms for nonlinear regression.",
+      "Uses the smartphone to review notes"
+    ],
+    [
+      "233-246",
+      "I review linear systems notes and a photographed lecture slide on my smartphone.",
+      "Puts the smartphone down"
+    ],
+    [
+      "247-249",
+      "I place my smartphone onto my laptop keyboard.",
+      "End of recorded evidence"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
 ```

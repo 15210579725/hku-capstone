@@ -1,0 +1,84 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks based on distinct conversation topics, specific food preparation steps (like slicing meat or tearing cabbage), and interactive events with the roommate.",
+  "events": [
+    [
+      "750-768",
+      "I eat noodles from the hotpot during a general conversation with my roommate.",
+      "Conversation shifts to specific relationship questions"
+    ],
+    [
+      "769-787",
+      "I eat from the hotpot during a discussion about eight or ten relationship questions with my roommate.",
+      "Conversation shifts to Jiajia's dating views and love letters"
+    ],
+    [
+      "788-802",
+      "I eat from the hotpot during a conversation about dating and love letters.",
+      "Conversation shifts to discussing tough beef"
+    ],
+    [
+      "803-821",
+      "I eat from the hotpot during a discussion about tough beef and Hong Kong style hotpot.",
+      "Conversation shifts to chewing food for fun"
+    ],
+    [
+      "822-836",
+      "I eat noodles during a conversation about chewing food for fun.",
+      "Switches from eating to preparing raw meat"
+    ],
+    [
+      "837-870",
+      "I slice a piece of raw meat into smaller pieces on a cutting board.",
+      "Starts cutting a new piece of beef brisket"
+    ],
+    [
+      "871-890",
+      "I dice a piece of beef brisket into tiny chunks on the cutting board.",
+      "Finishes cutting meat and begins hotpot management"
+    ],
+    [
+      "891-907",
+      "I manage hotpot ingredients during a discussion about the movie Johnny Keep Walking 2.",
+      "Shifts focus to adding cabbage"
+    ],
+    [
+      "908-929",
+      "I submerge manually torn cabbage leaves into the hotpot.",
+      "Finishes adding cabbage and searches for meat"
+    ],
+    [
+      "930-950",
+      "I search for the beef brisket in the hotpot to transfer into my bowl.",
+      "Roommate begins messaging on phone"
+    ],
+    [
+      "951-963",
+      "I pick fish tofu and dumplings from the hotpot during my roommate's messaging session with Shanshan.",
+      "Roommate checks a medicine box"
+    ],
+    [
+      "964-969",
+      "I observe my roommate checking a medicine box from the shelf.",
+      "Resumes focusing on the hotpot"
+    ],
+    [
+      "970-991",
+      "I tend to the hotpot ingredients during a conversation about calories.",
+      "Roommate begins modeling a flower accessory"
+    ],
+    [
+      "992-999",
+      "I observe my roommate modeling a fake frangipani flower.",
+      "End of the video sequence"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

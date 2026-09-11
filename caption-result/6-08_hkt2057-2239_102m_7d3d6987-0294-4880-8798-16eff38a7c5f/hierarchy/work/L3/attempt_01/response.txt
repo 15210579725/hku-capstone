@@ -1,0 +1,69 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group continuous, goal-oriented L2 tasks into coherent episodes. Transit to and from the store, the grocery shopping process itself, and distinct activities back at the apartment (like handling a package, using phone apps, unboxing, and setting up the hard drive) each form their own unified episodes. Incidental interactions and concurrent background events are abstracted into the primary objective of their timeframe.",
+  "events": [
+    [
+      "0-1",
+      "I dispose of a trash bag in the service passage stairwell.",
+      "Trash disposal completed"
+    ],
+    [
+      "2-22",
+      "I travel to the Market Place supermarket with my companion.",
+      "Arrival at the destination supermarket"
+    ],
+    [
+      "23-52",
+      "I shop for groceries at the Market Place supermarket with my companion.",
+      "Grocery shopping concludes with payment"
+    ],
+    [
+      "53-85",
+      "I transport the groceries back to my apartment with my companion.",
+      "Arrival back at the apartment"
+    ],
+    [
+      "86-89",
+      "I use deodorizer to mask the smell of a malodorous delivery package.",
+      "Deodorizing task completed"
+    ],
+    [
+      "90-92,133",
+      "I manage a MAC Lab Meeting email and calendar event on my iPhone.",
+      "Email and calendar management finished"
+    ],
+    [
+      "93-102,134",
+      "I browse Xiaohongshu posts and short videos on my phone.",
+      "Switches from phone browsing to physical tasks"
+    ],
+    [
+      "103-105,135",
+      "I unbox my new LAVJ external hard drive.",
+      "Unboxing task completed"
+    ],
+    [
+      "106",
+      "I evaluate the fit of a new white shirt and cream shorts.",
+      "Clothing fit check completed"
+    ],
+    [
+      "107-111",
+      "I prepare my desk workspace to connect the new LAVJ external hard drive to my MacBook Pro.",
+      "Physical setup of the hard drive completed"
+    ],
+    [
+      "112-132",
+      "I configure the new external hard drive for data preprocessing using Claude Code.",
+      "Hard drive configuration and testing completed"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

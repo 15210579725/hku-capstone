@@ -1,0 +1,60 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Review eligible pairs to merge continuous sequences of the same immediate task interrupted by batch edges. Retain boundaries where the specific immediate action, topic, or target UI changes.",
+  "merges": [
+    [
+      29,
+      30,
+      "I purchase a lychee coconut drink at Mixue.",
+      "Same drink purchase continues across batch edge"
+    ],
+    [
+      48,
+      49,
+      "I ride the electric scooter along the street and through intersections.",
+      "Continuous scooter ride across batch edge"
+    ],
+    [
+      82,
+      83,
+      "I draft and edit research prompts in ChatGPT requesting PhD advisor recommendations and literature reviews.",
+      "Continuous prompt drafting task across batch edge"
+    ],
+    [
+      113,
+      114,
+      "I watch comedy sketch videos on my smartphone.",
+      "Continuous video watching session across batch edge"
+    ],
+    [
+      119,
+      120,
+      "I review Zhang Wenqiang's faculty profile and lab homepage.",
+      "Same profile review task continues across batch edge"
+    ],
+    [
+      149,
+      150,
+      "I watch short comedy and EV depreciation videos on my smartphone.",
+      "Continuous short video watching session across batch edge"
+    ],
+    [
+      161,
+      162,
+      "I watch various short videos on my smartphone, including news, food, and car maintenance.",
+      "Continuous short video watching session across batch edge"
+    ],
+    [
+      184,
+      185,
+      "I use ChatGPT to configure GPU and VRS task limits for the fleet manager.",
+      "Same ChatGPT configuration task continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

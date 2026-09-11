@@ -1,0 +1,18 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible boundary pairs to determine if they represent the exact same immediate task continuing across a batch edge. Pair 22-23 represents the continuous action of eating the same tofu and rice meal, so it will be merged. Pair 36-37 involves reading different specific articles (superconductors vs ElementsClaw), which are related topics but distinct immediate reading tasks, so they will not be merged. Pair 57-58 contains entirely different tasks (checking WeChat/macOS settings vs researching AI models), so they will not be merged.",
+  "merges": [
+    [
+      22,
+      23,
+      "I eat my tofu and rice meal while discussing various topics with my friends.",
+      "Same meal continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

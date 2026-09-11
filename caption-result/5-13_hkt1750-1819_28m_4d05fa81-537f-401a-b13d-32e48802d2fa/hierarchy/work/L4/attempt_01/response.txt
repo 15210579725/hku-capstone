@@ -1,0 +1,36 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group the L3 episodes into broader goal-oriented phases: completing parcel retrievals and purchasing groceries. Isolate the sudden stomach pain as a standalone behavior-changing trigger, and group the subsequent frantic navigation as a unified emergency rush home.",
+  "events": [
+    [
+      "0-4",
+      "I retrieve multiple parcels from local pickup shops after leaving the university campus.",
+      "Completes the parcel retrieval phase before transitioning to a different errand location."
+    ],
+    [
+      "5-7",
+      "I purchase groceries at the Wellcome supermarket.",
+      "Completes the grocery shopping phase, which is immediately interrupted by a medical emergency."
+    ],
+    [
+      "8",
+      "I urgently express the need to defecate due to severe stomach pain.",
+      "A major behavior-changing trigger that abruptly halts errands and forces an emergency return home."
+    ],
+    [
+      "9-10",
+      "I rush back to my apartment due to a severe stomach emergency.",
+      "Unifies the urgent transit and arrival at home driven by the medical emergency."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      8
+    ],
+    "boundary_cautions": []
+  }
+}
+```

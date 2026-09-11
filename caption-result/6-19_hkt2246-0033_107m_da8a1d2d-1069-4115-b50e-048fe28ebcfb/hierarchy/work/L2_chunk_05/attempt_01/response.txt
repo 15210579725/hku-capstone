@@ -1,0 +1,94 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group contiguous action briefs representing continuous video watching, eating, and interacting with the drama application into distinct immediate tasks.",
+  "events": [
+    [
+      "1000-1065",
+      "I watch a fantasy drama video on my tablet.",
+      "Action shifts to stretching"
+    ],
+    [
+      "1066-1067",
+      "I stretch my arms.",
+      "Action shifts back to watching the drama"
+    ],
+    [
+      "1068-1128",
+      "I watch the drama '日薪一万，我在博物馆值夜班' on my tablet.",
+      "Action shifts to a scene on the MTR"
+    ],
+    [
+      "1129-1131",
+      "I watch a drama video on the MTR.",
+      "Action shifts to interacting with a companion"
+    ],
+    [
+      "1132-1133",
+      "I apologize to my companion.",
+      "Action shifts to eating"
+    ],
+    [
+      "1134-1136",
+      "I eat a chicken nugget.",
+      "Action shifts back to watching the drama"
+    ],
+    [
+      "1137-1147",
+      "I watch the drama on my iPad.",
+      "Action shifts to handling french fries"
+    ],
+    [
+      "1148-1151",
+      "I transfer my french fries into the chicken nugget box.",
+      "Action shifts back to watching the drama"
+    ],
+    [
+      "1152-1166",
+      "I watch the drama on my tablet.",
+      "Action shifts to picking up a chicken nugget"
+    ],
+    [
+      "1167",
+      "I pick up a chicken nugget.",
+      "Action shifts back to watching the drama"
+    ],
+    [
+      "1168-1175",
+      "I watch the drama on my tablet.",
+      "Action shifts to eating the chicken nugget"
+    ],
+    [
+      "1176-1177",
+      "I eat a chicken nugget.",
+      "Action shifts back to watching the drama"
+    ],
+    [
+      "1178-1215",
+      "I watch the drama on my tablet.",
+      "Action shifts to closing the food container"
+    ],
+    [
+      "1216",
+      "I close the chicken nugget box.",
+      "Action shifts to interacting with the drama application"
+    ],
+    [
+      "1217-1230",
+      "I browse the drama ranking lists to select a new drama.",
+      "Action shifts to watching the new drama"
+    ],
+    [
+      "1231-1249",
+      "I watch the historical mini-drama '发配边关，罪妻开荒养出战神' on my tablet.",
+      "End of input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

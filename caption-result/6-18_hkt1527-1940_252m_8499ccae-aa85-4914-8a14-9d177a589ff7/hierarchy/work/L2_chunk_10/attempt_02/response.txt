@@ -1,0 +1,194 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous first-person actions that share the same immediate task and target object, abstracting repetitive actions like scrubbing and rinsing into unified dish-washing tasks, consolidating short walking trips, reading sessions, and guitar practice phases into distinct events.",
+  "events": [
+    [
+      "2250-2257",
+      "I wash a frying pan.",
+      "Frying pan washing complete"
+    ],
+    [
+      "2258-2261",
+      "I wash a small white bowl.",
+      "Bowl washing complete"
+    ],
+    [
+      "2262-2265",
+      "I wash a dish and ladle.",
+      "Dish and ladle washing complete"
+    ],
+    [
+      "2266-2274",
+      "I wash bowls and a small dish.",
+      "Multiple bowls washing complete"
+    ],
+    [
+      "2275-2276",
+      "I wash a glass measuring jug.",
+      "Measuring jug washing complete"
+    ],
+    [
+      "2277-2281",
+      "I wash a white ceramic plate.",
+      "Plate washing complete"
+    ],
+    [
+      "2282-2285",
+      "I wash a green spatula.",
+      "Spatula washing complete"
+    ],
+    [
+      "2286-2290",
+      "I wash chopsticks.",
+      "Chopsticks washing complete"
+    ],
+    [
+      "2291-2295",
+      "I clean the sink strainer basket.",
+      "Strainer basket cleaning complete"
+    ],
+    [
+      "2296-2300",
+      "I marvel at a sprouted sweet potato.",
+      "Reaction to sweet potato ends"
+    ],
+    [
+      "2301-2303",
+      "I wash my hands.",
+      "Hand washing complete"
+    ],
+    [
+      "2304-2309",
+      "I converse with my friend about the trash.",
+      "Conversation shifts to preparing a bag"
+    ],
+    [
+      "2310-2314",
+      "I prepare a plastic garbage bag.",
+      "Bag prepared, shifts to walking out"
+    ],
+    [
+      "2315-2321",
+      "I walk to the refuse room.",
+      "Arrival at refuse room"
+    ],
+    [
+      "2322",
+      "I throw trash bags into the wheelie bin.",
+      "Trash disposal complete"
+    ],
+    [
+      "2323-2328",
+      "I return to the apartment.",
+      "Arrival back in the apartment"
+    ],
+    [
+      "2329-2332",
+      "I help a woman unpack a parcel.",
+      "Parcel unpacking complete"
+    ],
+    [
+      "2333-2335",
+      "I inspect a shuttlecock.",
+      "Inspection complete, shifts to walking to bedroom"
+    ],
+    [
+      "2336-2340",
+      "I converse about growing older in the bedroom.",
+      "Conversation complete, sits at desk"
+    ],
+    [
+      "2341-2349",
+      "I review an academic paper on my laptop.",
+      "Paper review shifts to looking at a showcase"
+    ],
+    [
+      "2350-2354",
+      "I look at a figurine display case.",
+      "Display case inspection shifts to a beanie"
+    ],
+    [
+      "2355-2364",
+      "I examine a grey knitted beanie.",
+      "Beanie examination ends, shifts back to laptop"
+    ],
+    [
+      "2365-2373",
+      "I read the 'Attention Is All You Need' paper on my laptop.",
+      "Paper reading shifts to using other applications"
+    ],
+    [
+      "2374-2385",
+      "I use WeChat on my laptop.",
+      "WeChat usage shifts to interacting with friend"
+    ],
+    [
+      "2386-2392",
+      "I read my laptop screen.",
+      "Reading screen shifts to extracting guitar"
+    ],
+    [
+      "2393-2399",
+      "I extract my acoustic guitar from its gig bag.",
+      "Guitar extraction complete"
+    ],
+    [
+      "2400-2412",
+      "I converse with my friends.",
+      "Conversation ends, starts singing"
+    ],
+    [
+      "2413-2423",
+      "I practice singing 'Love Yourself'.",
+      "Singing shifts to reciting lyrics"
+    ],
+    [
+      "2424-2434",
+      "I recite lyrics to 'Love Yourself'.",
+      "Reciting lyrics shifts to chord practice"
+    ],
+    [
+      "2435-2446",
+      "I practice chord transitions on my guitar.",
+      "Chord practice shifts to singing"
+    ],
+    [
+      "2447-2462",
+      "I practice singing 'Love Yourself'.",
+      "Singing shifts to chord practice"
+    ],
+    [
+      "2463-2472",
+      "I practice chords on my guitar.",
+      "Chord practice ends, packs guitar"
+    ],
+    [
+      "2473",
+      "I pack my acoustic guitar into its gig bag.",
+      "Guitar packing complete"
+    ],
+    [
+      "2474-2484",
+      "I observe my companion get off the bed and prepare to leave.",
+      "Observation ends, shifts to laptop"
+    ],
+    [
+      "2485-2493",
+      "I search for 'Love Yourself' on music apps on my laptop.",
+      "Music search ends, shifts to observing roommate"
+    ],
+    [
+      "2494-2499",
+      "I observe my roommate moving around the room.",
+      "End of input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

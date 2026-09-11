@@ -1,0 +1,31 @@
+```json
+{
+  "target_level": "L5",
+  "plan": "Retain the distinct major goal of searching for a restaurant. Isolate the explicit decision to abandon the local search and travel as a major behavior-changing trigger. Represent the long commute and feed review as a separate major activity.",
+  "events": [
+    [
+      "0",
+      "I search unsuccessfully for a dinner restaurant around Shek Tong Tsui with my companion.",
+      "Major activity distinct from the subsequent commute"
+    ],
+    [
+      "1",
+      "I decide to travel to the subway station after hitting a dead end in my local dinner search.",
+      "Major behavior-changing trigger redirecting the evening plan"
+    ],
+    [
+      "2",
+      "I review machine learning topics on my X feed during my commute to Tai Wai station with my companion.",
+      "End of recording"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "1"
+    ],
+    "boundary_cautions": []
+  }
+}
+```

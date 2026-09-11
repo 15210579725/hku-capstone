@@ -1,0 +1,124 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous L1 action briefs into immediate tasks based on continuous goals, locations, and targets, such as searching on phone, traveling, examining specific menus, ordering, and eating.",
+  "events": [
+    [
+      "500-511",
+      "I search for pet markets on my phone.",
+      "Stops using phone to look around the car"
+    ],
+    [
+      "512-515",
+      "I look around the car interior.",
+      "Resumes searching on the phone"
+    ],
+    [
+      "516-543",
+      "I browse pet market listings and photos on the map app.",
+      "Turns attention to the road"
+    ],
+    [
+      "544-550",
+      "I observe the road and street views from the car.",
+      "Prepares to exit the car"
+    ],
+    [
+      "551-554",
+      "I exit the car and take a takeout bag.",
+      "Starts walking away from the car"
+    ],
+    [
+      "555-566",
+      "I walk to the mall plaza with my companion.",
+      "Reaches the mall entrance area"
+    ],
+    [
+      "567-574",
+      "I enter the mall.",
+      "Reaches the main mall concourse"
+    ],
+    [
+      "575-599",
+      "I navigate to the upper floor via the escalators while discussing food.",
+      "Arrives on the upper floor"
+    ],
+    [
+      "600-618",
+      "I walk past restaurants and discuss food options with my companion.",
+      "Stops to consult the dining directory"
+    ],
+    [
+      "619-628",
+      "I review the mall dining directory and discuss options.",
+      "Leaves the directory to visit a specific restaurant"
+    ],
+    [
+      "629-636",
+      "I examine the iron pot stew restaurant menu and talk with my companion.",
+      "Moves on to look at other restaurants"
+    ],
+    [
+      "637-649",
+      "I examine the grilled fish restaurant menu and discuss it with my companion.",
+      "Decides to get a drink instead"
+    ],
+    [
+      "650-655",
+      "I suggest getting a drink and walk toward the beverage counter.",
+      "Stops to review a restaurant menu leaflet"
+    ],
+    [
+      "656-662",
+      "I review a restaurant menu leaflet with my companion.",
+      "Resumes observing other storefronts"
+    ],
+    [
+      "663-677",
+      "I observe restaurants and discuss dining options with my companion.",
+      "Turns focus back to getting a drink"
+    ],
+    [
+      "678-686",
+      "I walk toward beverage kiosks and discuss drink choices.",
+      "Approaches the CoCo kiosk"
+    ],
+    [
+      "687-695",
+      "I argue with my companion while walking to the More Yogurt kiosk.",
+      "Arrives at the kiosk counter"
+    ],
+    [
+      "696-709",
+      "I prepare to order and pay at the More Yogurt kiosk.",
+      "Companion takes over the payment"
+    ],
+    [
+      "710-719",
+      "I order yogurt and monitor my companion's payment.",
+      "Starts eating a pan-fried bun"
+    ],
+    [
+      "720-729",
+      "I eat a pan-fried bun from the takeout box.",
+      "Stops eating to wait for the drink"
+    ],
+    [
+      "730-738",
+      "I wait for and collect our drink from More Yogurt.",
+      "Leaves the kiosk with the drink"
+    ],
+    [
+      "739-749",
+      "I walk along the mall corridor and observe restaurants.",
+      "End of supplied briefs"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

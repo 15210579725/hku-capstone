@@ -1,0 +1,18 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Review eligible pairs for exact immediate task continuation. Pairs representing sequential steps (like evaluating listings then opening a specific SKU, or waiting for an elevator then riding it) or topic shifts (like switching from LM loss explanations to GPU troubleshooting) will remain distinct. Only exact continuations of the same action will be merged.",
+  "merges": [
+    [
+      70,
+      71,
+      "I inspect semantic evaluation results and plots in Visual Studio Code.",
+      "Same task of inspecting evaluation plots in VS Code continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

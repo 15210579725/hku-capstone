@@ -1,0 +1,79 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group consecutive brief observations into immediate tasks based on shared objectives, such as observing scenery from the cart, handling personal belongings, checking the phone, listening to conversations, disembarking, entering the room, retrieving luggage, and interacting with room amenities.",
+  "events": [
+    [
+      "1000-1005",
+      "I observe the resort surroundings and reception cabin from the moving cart.",
+      "Focus shifts from observing the environment to handling personal items."
+    ],
+    [
+      "1006-1011",
+      "I pack my ID card and wallet into my backpack.",
+      "Packing task completes; attention returns to observing the surroundings."
+    ],
+    [
+      "1012-1019",
+      "I observe the roadside monitoring cabinets and surroundings while commenting on the ride.",
+      "Attention shifts to using a smartphone."
+    ],
+    [
+      "1020-1022",
+      "I check WeChat messages about Ego4D tasks on my phone.",
+      "Phone use ends; focus shifts to listening to a conversation."
+    ],
+    [
+      "1023-1030",
+      "I listen to the staff and passengers discuss dining arrangements and welcome gifts.",
+      "Conversation ends; attention returns to observing the scenery."
+    ],
+    [
+      "1031-1034",
+      "I observe the scenery and my belongings while riding the shuttle cart.",
+      "Cart arrives at the destination, prompting disembarkation."
+    ],
+    [
+      "1035-1039",
+      "I disembark the shuttle cart at cabin 4 with my companion.",
+      "Disembarkation completes; transitions to entering the room."
+    ],
+    [
+      "1040-1042",
+      "I enter the cabin after my companion unlocks the door.",
+      "Entering the room completes; interrupted by a forgotten luggage issue."
+    ],
+    [
+      "1043-1045",
+      "I retrieve my forgotten suitcase from the resort staff.",
+      "Luggage retrieval completes; focus shifts to the welcome amenities."
+    ],
+    [
+      "1046-1051",
+      "I inquire about food delivery and unwrap a welcome biscuit from the counter.",
+      "Interactions at the counter conclude; shifts to turning on the room power."
+    ],
+    [
+      "1052-1056",
+      "I walk to the entryway and insert the room key card to activate the power.",
+      "Power activation completes; shifts to conversing with the companion."
+    ],
+    [
+      "1057-1061",
+      "I discuss the accommodation with User A and interact with the smart display.",
+      "Conversation pauses; attention shifts to getting another snack."
+    ],
+    [
+      "1062-1064",
+      "I select a packaged waffle from the snack tray.",
+      "End of input."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

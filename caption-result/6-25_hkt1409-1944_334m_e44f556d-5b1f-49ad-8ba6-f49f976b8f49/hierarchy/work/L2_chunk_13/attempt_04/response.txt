@@ -1,0 +1,144 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions with a single immediate objective, separating tasks when the physical context, device in use, or conversational topic distinctly shifts.",
+  "events": [
+    [
+      "3000-3027",
+      "I browse car rental options and prices on my smartphone while discussing them with my companion.",
+      "Focus shifts to observing the train carriage."
+    ],
+    [
+      "3028-3033",
+      "I observe the passengers and their smartphone screens in the train carriage.",
+      "Focus shifts to a map on my companion's smartphone."
+    ],
+    [
+      "3034-3035",
+      "I view the map on my companion's smartphone.",
+      "Focus shifts back to searching on my smartphone."
+    ],
+    [
+      "3036-3064",
+      "I search for and review ride-hailing and car rental options on my smartphone.",
+      "Focus shifts to a store receipt."
+    ],
+    [
+      "3065-3066",
+      "I glance at a store receipt and my companion.",
+      "Focus shifts to discussing travel costs."
+    ],
+    [
+      "3067-3094",
+      "I review car rental rates on my smartphone and calculate travel costs with my companion.",
+      "Activity is interrupted by a train announcement."
+    ],
+    [
+      "3095",
+      "I hear a train announcement for Kowloon Tong Station.",
+      "Focus shifts back to the smartphone."
+    ],
+    [
+      "3096-3103",
+      "I review car rental orders and vehicle selections on my smartphone.",
+      "Focus shifts to the train doors opening."
+    ],
+    [
+      "3104-3108",
+      "I observe the train carriage as the doors open at Kowloon Tong Station.",
+      "Focus shifts back to the smartphone."
+    ],
+    [
+      "3109-3117",
+      "I browse ride-hailing and car rental options on my smartphone.",
+      "Focus shifts to using WeChat."
+    ],
+    [
+      "3118-3121",
+      "I open WeChat on my smartphone.",
+      "Focus shifts to conversing with my companion."
+    ],
+    [
+      "3122-3128",
+      "I discuss car rental apps with my companion.",
+      "Focus shifts to observing my companion's smartphone."
+    ],
+    [
+      "3129-3139",
+      "I observe my companion's smartphone as it fails to connect to the internet.",
+      "Focus shifts to holding the handrail and waiting."
+    ],
+    [
+      "3140-3147",
+      "I observe my surroundings while holding the train handrail.",
+      "Focus shifts to discussing groceries."
+    ],
+    [
+      "3148-3159",
+      "I discuss buying groceries for dinner with my companion.",
+      "The train arrives and I exit."
+    ],
+    [
+      "3160-3163",
+      "I exit the train at Lok Ma Chau station.",
+      "Action shifts to walking on the platform."
+    ],
+    [
+      "3164-3172",
+      "I walk along the platform and discuss dinner plans with my companion.",
+      "Transition from the platform to the stairs."
+    ],
+    [
+      "3173-3179",
+      "I descend the stairs and discuss dinner plans with my companion.",
+      "Reaches the station concourse."
+    ],
+    [
+      "3180-3188",
+      "I walk through the MTR station concourse.",
+      "Focus shifts to retrieving a snack."
+    ],
+    [
+      "3189-3191",
+      "I unwrap a snack and retrieve my smartphone.",
+      "Reaches the exit turnstiles."
+    ],
+    [
+      "3192-3195",
+      "I pass through the MTR exit turnstiles.",
+      "Approaches Sushi Express."
+    ],
+    [
+      "3196-3214",
+      "I enter Sushi Express and examine the sushi selections in the display fridge.",
+      "Focus shifts to discussing dinner options."
+    ],
+    [
+      "3215-3235",
+      "I discuss dinner options with my companion at the sushi display.",
+      "Action shifts to purchasing the food."
+    ],
+    [
+      "3236-3240",
+      "I purchase sushi at the cashier.",
+      "Purchase is complete and I leave the store."
+    ],
+    [
+      "3241-3246",
+      "I walk along the station concourse past a Japanese grocery store.",
+      "Reaches the escalator."
+    ],
+    [
+      "3247-3249",
+      "I step onto the escalator.",
+      "End of input."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

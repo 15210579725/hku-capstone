@@ -1,0 +1,141 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group consecutive brief action clips into distinct immediate tasks, segmenting upon completion of a local physical task, app interaction phase, or a major change in context (like discovering lack of phone credit). Preserve specific document details, mathematical topics (30 yuan, 5-day 20GB), and exact destinations at this level.",
+  "events": [
+    [
+      "0-6",
+      "I pack a power bank into my backpack.",
+      "Packing complete, switches to moving a remote control"
+    ],
+    [
+      "7-8",
+      "I move the air conditioner remote control.",
+      "Remote placed, switches to inspecting laundry"
+    ],
+    [
+      "9-13",
+      "I inspect a white sock from the washing machine.",
+      "Inspection complete, switches to putting on footwear"
+    ],
+    [
+      "14-24",
+      "I put on my socks and running shoes.",
+      "Shoes are on and standing up, switches to preparing to leave"
+    ],
+    [
+      "25-34",
+      "I carry my water jug to the front door.",
+      "Arrives at front door, switches to walking down stairs"
+    ],
+    [
+      "35-46",
+      "I descend the stairs to exit the building.",
+      "Exits building, switches to using phone to rent a scooter"
+    ],
+    [
+      "47-67",
+      "I attempt to rent a Hellobike electric scooter using Alipay.",
+      "Rental attempt fails to find vehicles, switches to network troubleshooting"
+    ],
+    [
+      "68-81",
+      "I troubleshoot network connectivity issues on my phone.",
+      "Troubleshooting interrupted by discovering lack of phone credit"
+    ],
+    [
+      "82-85",
+      "I discover my phone is out of credit.",
+      "Realization of empty balance triggers a change in plans to recharge"
+    ],
+    [
+      "86-91",
+      "I search for the China Mobile app on my phone.",
+      "App located, switches to walking back upstairs to get a connection"
+    ],
+    [
+      "92-101",
+      "I walk up the stairs toward my apartment.",
+      "Arrives at apartment door"
+    ],
+    [
+      "102-109",
+      "I receive a delivery while entering my apartment.",
+      "Delivery received, walks to desk to begin phone recharge"
+    ],
+    [
+      "110-118",
+      "I recharge my mobile phone balance with 30 yuan using the China Mobile app.",
+      "Payment confirmed, switches to browsing mobile data packages"
+    ],
+    [
+      "119-132",
+      "I purchase a 5-day 20GB mobile data package using the China Mobile app.",
+      "Data package ordered, switches to verifying SMS confirmations"
+    ],
+    [
+      "133-146",
+      "I verify the mobile data package activation via SMS and the China Mobile app.",
+      "SMS verified, switches to testing the new data connection"
+    ],
+    [
+      "147-167",
+      "I test my newly purchased mobile data connection.",
+      "Testing complete, prepares to leave the apartment again"
+    ],
+    [
+      "168-175",
+      "I load the Hellobike rental app while preparing to leave the apartment.",
+      "App loaded, switches to walking out to the stairwell"
+    ],
+    [
+      "176-186",
+      "I descend the stairs to return outside.",
+      "Arrives outside at the scooter, switches to phone navigation"
+    ],
+    [
+      "187-195",
+      "I set my navigation destination to University X Building 1 on Amap.",
+      "Routing complete, switches to messaging on WeChat"
+    ],
+    [
+      "196-207",
+      "I chat with babe on WeChat about the Claude fable5 release.",
+      "Messaging complete, begins riding the scooter"
+    ],
+    [
+      "208-214",
+      "I ride the electric scooter out of the residential community.",
+      "Exits the community gates onto the main street"
+    ],
+    [
+      "215-227",
+      "I ride the electric scooter along the bike lane and over a bridge.",
+      "Completes bridge crossing, prepares to pull over"
+    ],
+    [
+      "228-232",
+      "I pull over and stop the electric scooter.",
+      "Comes to a complete stop to adjust bag and wait"
+    ],
+    [
+      "233-239",
+      "I wait on my electric scooter at an intersection.",
+      "Waiting complete, resumes riding across the intersection"
+    ],
+    [
+      "240-249",
+      "I ride the electric scooter across the intersection into the bike lane.",
+      "End of provided input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      84
+    ],
+    "boundary_cautions": []
+  }
+}
+```

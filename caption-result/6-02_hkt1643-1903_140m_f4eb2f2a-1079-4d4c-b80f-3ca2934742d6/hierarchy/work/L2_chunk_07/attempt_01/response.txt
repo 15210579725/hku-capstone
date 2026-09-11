@@ -1,0 +1,29 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous walking segments into a unified transit task, separating the initial wayfinding and the final room entry into distinct immediate tasks.",
+  "events": [
+    [
+      "1500",
+      "I read the directional signs.",
+      "Wayfinding action concludes before transit"
+    ],
+    [
+      "1501-1504",
+      "I walk through the corridors holding a water bottle.",
+      "Transit ends upon arriving at the destination room"
+    ],
+    [
+      "1505-1506",
+      "I enter the men's restroom.",
+      "Arrival and entry complete"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

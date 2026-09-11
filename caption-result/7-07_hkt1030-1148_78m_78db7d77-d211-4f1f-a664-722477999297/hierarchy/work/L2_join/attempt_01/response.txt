@@ -1,0 +1,18 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Review eligible pairs to determine if they represent the exact same immediate task interrupted by a batch edge. I will merge pairs that share the same immediate action and target, while leaving pairs with distinct conversational topics or sequential research steps separate.",
+  "merges": [
+    [
+      37,
+      38,
+      "I attempt to log in to the campus Wi-Fi portal using SMS verification and encounter a 502 error.",
+      "Same Wi-Fi login attempt continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

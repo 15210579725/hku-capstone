@@ -1,0 +1,69 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group immediate L2 tasks into coherent L3 episodes by identifying major location changes during transit (train, station, mall, walk home) and overarching work goals in the bedroom (settling in, preparing data, individual evaluation, and training a companion).",
+  "events": [
+    [
+      "0-5",
+      "I commute on the train with my companion.",
+      "Train travel concludes upon exiting the carriage to navigate the station platform."
+    ],
+    [
+      "6-13",
+      "I navigate through the transit station to the mall.",
+      "Station navigation concludes upon arriving at the mall atrium."
+    ],
+    [
+      "14-18",
+      "I purchase ice cream at the mall.",
+      "The mall visit concludes after acquiring the ice cream and exiting the building."
+    ],
+    [
+      "19-28",
+      "I walk to my residential building with my companion.",
+      "The outdoor walk concludes upon entering the residential building lobby."
+    ],
+    [
+      "29-35",
+      "I settle into my bedroom.",
+      "Arrival routines conclude after washing hands to begin evening tasks."
+    ],
+    [
+      "36-40",
+      "I organize my handwritten notes for the judging task.",
+      "Physical note preparation concludes to begin data preparation on the laptop."
+    ],
+    [
+      "41-50",
+      "I prepare the model evaluation data using AI tools.",
+      "Data preparation concludes to begin the formal action-prediction annotations."
+    ],
+    [
+      "51-64",
+      "I perform action-prediction annotations and diagnostic code reviews on my laptop.",
+      "General annotation and code review shift to evaluating specific scenarios upon the arrival of my roommate."
+    ],
+    [
+      "65-76",
+      "I type scoring comments for specific action-prediction scenarios.",
+      "Individual scoring concludes to present the laptop and explain the evaluation criteria to my roommate."
+    ],
+    [
+      "77-89",
+      "I introduce the action-prediction scoring criteria to my roommate.",
+      "The general task introduction concludes to focus on training specific annotation rules."
+    ],
+    [
+      "90-100",
+      "I train my companion on the specific annotation rules.",
+      "Training concludes after approving the companion's independent scoring reasoning."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

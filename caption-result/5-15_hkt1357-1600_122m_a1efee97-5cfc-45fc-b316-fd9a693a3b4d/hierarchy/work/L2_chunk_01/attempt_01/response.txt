@@ -1,0 +1,119 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous, goal-oriented immediate tasks such as walking to locations, using appliances, cooking steps, and distinct conversations.",
+  "events": [
+    [
+      "0-18",
+      "I adjust my appearance in the mirrors.",
+      "Switches from grooming to leaving the apartment."
+    ],
+    [
+      "19-23",
+      "I exit the apartment with my bag.",
+      "Enters the elevator lobby, starting the elevator ride."
+    ],
+    [
+      "24-35",
+      "I ride the elevator to the ground floor.",
+      "Initiates a conversation with a companion in the elevator."
+    ],
+    [
+      "36-46",
+      "I discuss university exams with a companion.",
+      "Companion says goodbye, ending the exam conversation."
+    ],
+    [
+      "47-50",
+      "I walk to the laundry area with my companion.",
+      "Arrives at the laundry machines to begin the washing task."
+    ],
+    [
+      "51-67",
+      "I start a laundry cycle in washer W3.",
+      "Finishes interacting with the washer and steps away."
+    ],
+    [
+      "68-69",
+      "I discard a plastic wrapper.",
+      "Leaves the laundry area to return upstairs."
+    ],
+    [
+      "70-89",
+      "I return to apartment 15B via the elevator.",
+      "Enters the apartment and begins interacting with a roommate."
+    ],
+    [
+      "90-103",
+      "I discuss my roommate's consumption of my bananas.",
+      "Ends the banana conversation and shifts to cooking."
+    ],
+    [
+      "104-111",
+      "I slice a tomato on the cutting board.",
+      "Pauses slicing to converse with User A about the weather."
+    ],
+    [
+      "112-122",
+      "I discuss the weather and moving plans with User A.",
+      "Resumes physical cooking tasks, ending the main conversation."
+    ],
+    [
+      "123-130",
+      "I resume slicing the tomato.",
+      "Finishes processing the tomato and turns to retrieve other ingredients."
+    ],
+    [
+      "131-137",
+      "I gather cooking ingredients from the refrigerator.",
+      "Moves to the stove to begin frying the ingredients."
+    ],
+    [
+      "138-163",
+      "I fry three eggs in a buttered pan.",
+      "Leaves the stove to wash hands and prepare the sausage."
+    ],
+    [
+      "164-169",
+      "I slice a sausage on the cutting board.",
+      "Returns to the stove to manage the frying eggs."
+    ],
+    [
+      "170-188",
+      "I scramble the seasoned eggs in the pan.",
+      "Finishes cooking the eggs and starts assembling the sandwich."
+    ],
+    [
+      "189-202",
+      "I arrange tomato and sausage slices onto a piece of bread.",
+      "Shifts to adding spreadable and cooked ingredients to the sandwich."
+    ],
+    [
+      "203-216",
+      "I add butter, scrambled eggs, and dressing to the sandwich.",
+      "Completes the sandwich assembly and begins eating it."
+    ],
+    [
+      "217-233",
+      "I examine and eat my sandwich at the desk.",
+      "Finishes interacting with the sandwich and moves to clean up a mess."
+    ],
+    [
+      "234-240",
+      "I wipe the floor with a paper towel.",
+      "Disposes of the paper towel and switches to preparing a yam."
+    ],
+    [
+      "241-249",
+      "I peel a Chinese yam.",
+      "End of provided input."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

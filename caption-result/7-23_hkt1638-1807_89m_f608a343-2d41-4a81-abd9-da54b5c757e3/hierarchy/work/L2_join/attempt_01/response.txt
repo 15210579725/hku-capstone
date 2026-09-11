@@ -1,0 +1,36 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Merge eligible pairs that continue the exact same immediate task across the batch boundary, such as reading the same paper analysis, editing the same document, continuing the same ChatGPT research session, or persisting in the same post-meal resting period.",
+  "merges": [
+    [
+      24,
+      25,
+      "I read the ChatGPT analysis of the MVP paper's performance.",
+      "Same MVP paper analysis reading in ChatGPT continues across batch edge"
+    ],
+    [
+      44,
+      45,
+      "I document multi-scale prediction notes in my Feishu document.",
+      "Same Feishu document editing task continues across batch edge"
+    ],
+    [
+      74,
+      75,
+      "I research human action prediction models using ChatGPT.",
+      "Same ChatGPT research task continues across batch edge"
+    ],
+    [
+      96,
+      97,
+      "I remain at the dining table observing and listening to my companions.",
+      "Same post-meal downtime task continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

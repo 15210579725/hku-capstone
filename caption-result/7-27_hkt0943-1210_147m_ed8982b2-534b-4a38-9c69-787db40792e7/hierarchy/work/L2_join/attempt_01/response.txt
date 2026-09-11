@@ -1,0 +1,36 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible pairs for continuous identical tasks spanning batch edges. Merge pairs where the user is engaged in the exact same continuous reading, charting, or walking activity. Reject pairs where the topic, prompt subject, or application changes.",
+  "merges": [
+    [
+      20,
+      21,
+      "I read a research document about action prediction.",
+      "Same document reading task continues across batch edge"
+    ],
+    [
+      65,
+      66,
+      "I review experimental notes on LLM evaluation and text predictor alignment.",
+      "Same reading task continues across batch edge"
+    ],
+    [
+      126,
+      127,
+      "I refine scaling curve data visualizations using ChatGPT.",
+      "Same charting task continues across batch edge"
+    ],
+    [
+      146,
+      147,
+      "I walk through the parking area toward the building entrance.",
+      "Continuous walking journey across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

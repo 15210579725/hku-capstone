@@ -1,0 +1,174 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group immediate tasks by merging continuous conversation topics, periods of focused observation or waiting at intersections, and distinct stages of navigation (such as walking to the scooter, riding along specific paths, or exploring a pedestrian area on foot).",
+  "events": [
+    [
+      "0-6",
+      "I converse with my companion about vehicle rental options.",
+      "Conversation topic transitions"
+    ],
+    [
+      "7-12",
+      "I ride the elevator and discuss a 24-hour rental duration and breakfast with a woman.",
+      "Elevator ride completes"
+    ],
+    [
+      "13-15",
+      "I walk through the hotel lobby and exit onto the street.",
+      "Walking sequence transitions to next action"
+    ],
+    [
+      "16-21",
+      "I converse with my companion about passenger age limits for the electric scooter.",
+      "Conversation topic transitions"
+    ],
+    [
+      "22-26",
+      "I check my smartphone to manage the Hellobike rental and use Gaode Map to discuss our destination with my companion.",
+      "Pre-ride preparation completes"
+    ],
+    [
+      "27-31",
+      "I mount the electric scooter and begin riding along the roadway.",
+      "Riding sequence transitions to new conversation"
+    ],
+    [
+      "32-39",
+      "I ride along the non-motorized lane and converse with my companion about previous rides.",
+      "Conversation topic transitions"
+    ],
+    [
+      "40-45",
+      "I ride past a food kiosk and discuss dining options and the scenic evening ride with my companion.",
+      "Conversation topic transitions"
+    ],
+    [
+      "46-51",
+      "I converse with my companion about directing our route and whether to wear a helmet.",
+      "Conversation topic transitions"
+    ],
+    [
+      "52-55",
+      "I close the scooter basket and wait at a crosswalk while discussing our route.",
+      "Waiting sequence transitions"
+    ],
+    [
+      "56-62",
+      "I approach an intersection and wait while observing the crossing traffic.",
+      "Observation sequence transitions to conversation"
+    ],
+    [
+      "63-67",
+      "I wait at the crosswalk and converse with my companion about my starting point and the show New Journey to the West.",
+      "Conversation topic transitions"
+    ],
+    [
+      "68-74",
+      "I observe intersection traffic and joke about the scooter's low power before riding across.",
+      "Crossing sequence completes"
+    ],
+    [
+      "75-83",
+      "I ride along the bike lane and discuss directions with my companion.",
+      "Conversation topic transitions"
+    ],
+    [
+      "84-93",
+      "I ride onto a sidewalk and bike path while conversing with my companion about the route to the city and the cyberpunk scenery.",
+      "Route and conversation transition"
+    ],
+    [
+      "94-100",
+      "I ride along the bike lane past an office building and discuss a joint academic program with my companion.",
+      "Conversation completes as intersection approaches"
+    ],
+    [
+      "101-111",
+      "I wait at a red light and converse with my companion about the vibrant area and our scooter size.",
+      "Waiting sequence completes"
+    ],
+    [
+      "112-120",
+      "I ride through the lit intersection and converse with my companion about the surroundings and local private kitchen food.",
+      "Conversation topic transitions"
+    ],
+    [
+      "121-129",
+      "I ride past a CHAGEE store onto the plaza sidewalk and discuss restaurant opening hours with my companion.",
+      "Conversation topic transitions"
+    ],
+    [
+      "130-139",
+      "I converse with my companion about hotels, our salaries, and the AI innovation town.",
+      "Conversation topic transitions"
+    ],
+    [
+      "140-149",
+      "I wait at an intersection corner and ride across while discussing where to eat.",
+      "Intersection crossing completes"
+    ],
+    [
+      "150-162",
+      "I turn onto a side street and converse with my companion about a nearby ancient town and the vibrant surroundings.",
+      "Conversation topic transitions"
+    ],
+    [
+      "163-174",
+      "I monitor traffic at an intersection and converse with my companion about road signs and passing cars.",
+      "Observation sequence transitions to crossing"
+    ],
+    [
+      "175-181",
+      "I steer onto a pedestrian plaza, dismount the electric scooter, and check my e-bike rental app.",
+      "Dismounting and checking complete"
+    ],
+    [
+      "182-192",
+      "I walk toward a stationary illuminated tram and converse with my companion about the vibrant area.",
+      "Walking sequence transitions to bridge"
+    ],
+    [
+      "193-201",
+      "I walk across an illuminated pedestrian bridge and observe the lake and nearby buildings.",
+      "Bridge crossing completes"
+    ],
+    [
+      "202-212",
+      "I converse with my companion about the surrounding buildings, including Transsion, and nearby coffee shops.",
+      "Conversation topic transitions"
+    ],
+    [
+      "213-222",
+      "I walk along the plaza walkway and discuss plans to sit in the tram and get food.",
+      "Conversation topic transitions"
+    ],
+    [
+      "223-229",
+      "I walk through the park pathway, joke with my companion, and observe the Transsion building.",
+      "Walking sequence transitions to returning to scooter"
+    ],
+    [
+      "230-234",
+      "I walk toward the street and approach my electric scooter.",
+      "Approaching sequence completes"
+    ],
+    [
+      "235-241",
+      "I converse with my companion about whether to ride the electric scooter in the park.",
+      "Conversation topic transitions"
+    ],
+    [
+      "242-249",
+      "I resume riding my electric scooter along the path and converse with my companion about the surroundings.",
+      "Riding sequence completes"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

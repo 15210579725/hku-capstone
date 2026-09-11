@@ -1,0 +1,29 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group the L3 episodes into broader phases: the dining experience, the transit to the next destination, and the process of acquiring the rental vehicle.",
+  "events": [
+    [
+      "0-1",
+      "I consume a hotpot meal with my companion.",
+      "Meal concludes and focus shifts to onward travel"
+    ],
+    [
+      "2-4",
+      "I travel via a ride-hailing service to the car rental pickup location.",
+      "Arrival at the rental car area shifts focus to locating and acquiring the vehicle"
+    ],
+    [
+      "5-6",
+      "I acquire my rental car.",
+      "Vehicle handover is complete"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

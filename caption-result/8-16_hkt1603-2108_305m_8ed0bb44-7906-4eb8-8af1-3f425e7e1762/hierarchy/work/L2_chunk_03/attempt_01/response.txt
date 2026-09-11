@@ -1,0 +1,114 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group action briefs into immediate L2 tasks by abstracting consecutive steps of single unified goals. Actions like walking to a destination, managing apps, paying for a meal, and eating a dish are consolidated. Brief incidental overlaps, such as glancing at an article while verbally ordering, are absorbed into the dominant concurrent physical task to maintain a single unified objective per event.",
+  "events": [
+    [
+      "500-506",
+      "I purchase a drink.",
+      "Payment completes"
+    ],
+    [
+      "507-515",
+      "I wait for my drink order.",
+      "Drink is served"
+    ],
+    [
+      "516-523",
+      "I prepare my drink.",
+      "Straw is inserted"
+    ],
+    [
+      "524-572",
+      "I walk to a Jiangxi restaurant.",
+      "Enters restaurant"
+    ],
+    [
+      "573-584",
+      "I purchase chili pork bucket rice.",
+      "Payment completes"
+    ],
+    [
+      "585-595",
+      "I take a seat at a restaurant table.",
+      "Settles at table"
+    ],
+    [
+      "596-607",
+      "I review meeting slots in my email and Calendly.",
+      "Switches to WeChat"
+    ],
+    [
+      "608-613",
+      "I read an article about DeepSeek on my phone.",
+      "Begins ordering food"
+    ],
+    [
+      "614-619",
+      "I order soup from the restaurant staff.",
+      "Finishes ordering"
+    ],
+    [
+      "620-627",
+      "I read an article about AI emotions on my phone.",
+      "Switches to chat"
+    ],
+    [
+      "628-633",
+      "I send WeChat messages about steak.",
+      "Picks up drink cup"
+    ],
+    [
+      "634-639",
+      "I wait at the dining table.",
+      "Food is served"
+    ],
+    [
+      "640-705",
+      "I eat the chili pork and rice.",
+      "Finishes eating"
+    ],
+    [
+      "706-709",
+      "I clean up with a tissue.",
+      "Leaves restaurant"
+    ],
+    [
+      "710-714",
+      "I walk to a street crosswalk.",
+      "Stops to check phone"
+    ],
+    [
+      "715-722",
+      "I browse WeChat on my phone.",
+      "Steps onto crosswalk"
+    ],
+    [
+      "723-726",
+      "I cross the street.",
+      "Reaches sidewalk and checks bike app"
+    ],
+    [
+      "727-729",
+      "I mount an electric scooter.",
+      "Starts riding"
+    ],
+    [
+      "730-749",
+      "I ride the electric scooter through traffic intersections.",
+      "End of batch"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      572,
+      640,
+      710,
+      728
+    ],
+    "boundary_cautions": []
+  }
+}
+```

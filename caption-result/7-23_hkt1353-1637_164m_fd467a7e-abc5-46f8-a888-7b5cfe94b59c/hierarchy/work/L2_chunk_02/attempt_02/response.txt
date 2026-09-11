@@ -1,0 +1,119 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group atomic actions into immediate tasks such as using the computer, moving through the office, taking the elevator, distinct segments of the scooter ride, returning to the apartment, completing household chores, and conducting discrete smartphone sessions.",
+  "events": [
+    [
+      "250-264",
+      "I query AI language models on my laptop.",
+      "Closes the laptop ending the computer session"
+    ],
+    [
+      "265-271",
+      "I walk to my office workstation.",
+      "Arrives at the workstation"
+    ],
+    [
+      "272-275",
+      "I check my iPhone messages.",
+      "Finishes checking the phone to leave"
+    ],
+    [
+      "276-287",
+      "I ride the elevator down to the first floor.",
+      "Arrives at the first floor"
+    ],
+    [
+      "288-291",
+      "I exit the building through the door opened by the receptionist.",
+      "Leaves the building"
+    ],
+    [
+      "292-304",
+      "I track my package on Cainiao Express on my route to the scooter parking area.",
+      "Arrives at the scooter parking area"
+    ],
+    [
+      "305-311",
+      "I prepare to ride a rented white electric scooter.",
+      "Finishes renting and mounting the scooter"
+    ],
+    [
+      "312-320",
+      "I ride the electric scooter out of the campus.",
+      "Leaves the campus entering the public street"
+    ],
+    [
+      "321-338",
+      "I ride the electric scooter along Tanghuang Road to the elevated highway intersection.",
+      "Stops to wait at the intersection"
+    ],
+    [
+      "339-342",
+      "I wait on my scooter at the intersection.",
+      "Resumes riding after waiting"
+    ],
+    [
+      "343-379",
+      "I ride the electric scooter along the avenue towards the residential compound.",
+      "Reaches the residential compound entrance"
+    ],
+    [
+      "380-386",
+      "I ride the electric scooter through the barrier to my apartment building.",
+      "Arrives at the apartment building"
+    ],
+    [
+      "387-388",
+      "I lock the electric scooter in the Hello Bike app.",
+      "Finishes parking the scooter"
+    ],
+    [
+      "389-403",
+      "I use the Daniao Express app on my route up the apartment stairs.",
+      "Arrives at the apartment door"
+    ],
+    [
+      "404-407",
+      "I enter my apartment bedroom.",
+      "Reaches the bedroom"
+    ],
+    [
+      "408-409",
+      "I turn on the bedroom air conditioner.",
+      "Finishes adjusting the room temperature"
+    ],
+    [
+      "410-430",
+      "I start a load of laundry in the balcony washing machine.",
+      "Finishes starting the washing machine"
+    ],
+    [
+      "431-462",
+      "I request a package redelivery from Danbird Express customer service on my phone.",
+      "Shifts attention from the phone to the balcony"
+    ],
+    [
+      "463-477",
+      "I monitor the washing machine operation on the balcony.",
+      "Returns attention to the customer service chat"
+    ],
+    [
+      "478-486",
+      "I message the courier customer service regarding a same-day delivery.",
+      "Finishes the courier app interaction"
+    ],
+    [
+      "487-499",
+      "I view various media content on my smartphone.",
+      "End of provided events"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,91 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group sequential actions that serve a single immediate task, such as reading a specific document on a laptop, navigating to a new area, ordering food, paying, waiting, or eating. Boundaries are placed when the user changes their immediate focus, transitions between physical navigation phases, or switches devices.",
+  "events": [
+    [
+      "500-522",
+      "I read a ChatGPT response about academic paper verification on my laptop.",
+      "Switches task to reading about Baird's counterexample."
+    ],
+    [
+      "523-530",
+      "I read about Baird's counterexample and review convergence plots on my laptop.",
+      "Stands up to leave the office."
+    ],
+    [
+      "531-538",
+      "I leave my office desk and walk to the elevator lobby with colleagues.",
+      "Arrives at the elevator lobby and waits."
+    ],
+    [
+      "539-553",
+      "I ride the elevator down to the basement while checking Taobao on my smartphone.",
+      "Exits the elevator into the basement."
+    ],
+    [
+      "554-572",
+      "I walk through the parking garage and corridors with my companions towards the cafeteria.",
+      "Enters the cafeteria food hall."
+    ],
+    [
+      "573-579",
+      "I enter the cafeteria and walk to the noodle stall.",
+      "Reaches the stall and begins ordering."
+    ],
+    [
+      "580-593",
+      "I listen to my companion inquire about dumpling fillings and order wontons at the noodle stall.",
+      "Takes out smartphone to pay."
+    ],
+    [
+      "594-602",
+      "I pay for my food order by scanning a QR code with my smartphone.",
+      "Completes payment and waits for food."
+    ],
+    [
+      "603-632",
+      "I observe the kitchen staff preparing food while waiting in line at the noodle stall.",
+      "Opens WeChat on smartphone."
+    ],
+    [
+      "633-645",
+      "I exchange WeChat messages with babe and read an article on my smartphone.",
+      "Puts phone away and browses the cafeteria."
+    ],
+    [
+      "646-699",
+      "I browse the cafeteria serving areas and beverage shelves while waiting for my food.",
+      "Returns to the counter to collect food."
+    ],
+    [
+      "700-706",
+      "I request scallion oil from the cafeteria worker and receive my bowl of food.",
+      "Begins adding condiments to the food."
+    ],
+    [
+      "707-708",
+      "I add chopped scallions and chili oil to my food.",
+      "Finishes adding condiments and gets cutlery."
+    ],
+    [
+      "709-717",
+      "I collect chopsticks and carry my bowl of food to a dining table.",
+      "Arrives at the table and begins eating."
+    ],
+    [
+      "718-749",
+      "I eat my meal and converse with my companions at the dining table.",
+      "End of input."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      2
+    ],
+    "boundary_cautions": []
+  }
+}
+```

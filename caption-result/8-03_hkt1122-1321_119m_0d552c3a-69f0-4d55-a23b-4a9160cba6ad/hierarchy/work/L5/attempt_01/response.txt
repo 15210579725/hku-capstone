@@ -1,0 +1,34 @@
+```json
+{
+  "target_level": "L5",
+  "plan": "Abstract into major activities by grouping related office work sessions together, creating boundaries at clear location and activity shifts such as meal and rest breaks.",
+  "events": [
+    [
+      "0-1",
+      "I perform my morning engineering work involving a rollout recap message and A2C reinforcement learning policy development.",
+      "Major shift in location and activity for a meal break"
+    ],
+    [
+      "2",
+      "I take a cafeteria meal break with my companions.",
+      "Return to office for afternoon work tasks"
+    ],
+    [
+      "3-4",
+      "I perform my afternoon engineering work involving a data deletion incident discussion and multi-granularity prompt development.",
+      "Shift in location and activity for a rest break"
+    ],
+    [
+      "5",
+      "I take a rest break with my wontons and fried egg in a lounge study booth.",
+      "End of provided input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

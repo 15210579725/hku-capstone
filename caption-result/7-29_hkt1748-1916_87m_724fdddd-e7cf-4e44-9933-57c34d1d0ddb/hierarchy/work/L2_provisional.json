@@ -1,0 +1,2556 @@
+[
+  {
+    "id": 0,
+    "start": 64123,
+    "end": 64134,
+    "text": "I converse in the open-plan office.",
+    "refs": [
+      0,
+      1,
+      2
+    ],
+    "boundary_reason": "Begins walking to the pantry.",
+    "origin_chunk": 1
+  },
+  {
+    "id": 1,
+    "start": 64135,
+    "end": 64158,
+    "text": "I walk to the pantry water dispenser.",
+    "refs": [
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "boundary_reason": "Arrives at the water dispenser.",
+    "origin_chunk": 1
+  },
+  {
+    "id": 2,
+    "start": 64159,
+    "end": 64180,
+    "text": "I fill my glass water bottle at the water dispenser.",
+    "refs": [
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "boundary_reason": "Finishes filling the water bottle.",
+    "origin_chunk": 1
+  },
+  {
+    "id": 3,
+    "start": 64181,
+    "end": 64205,
+    "text": "I walk back to the office workspace.",
+    "refs": [
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "boundary_reason": "Stops at a desk in the office.",
+    "origin_chunk": 1
+  },
+  {
+    "id": 4,
+    "start": 64206,
+    "end": 64213,
+    "text": "I observe the equipment in the office workspace.",
+    "refs": [
+      18,
+      19,
+      20
+    ],
+    "boundary_reason": "Exits the office to walk elsewhere.",
+    "origin_chunk": 1
+  },
+  {
+    "id": 5,
+    "start": 64213,
+    "end": 64227,
+    "text": "I walk through the corridor to the lounge.",
+    "refs": [
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "boundary_reason": "Stops walking to check smartphone.",
+    "origin_chunk": 1
+  },
+  {
+    "id": 6,
+    "start": 64227,
+    "end": 64237,
+    "text": "I check my smartphone.",
+    "refs": [
+      26,
+      27,
+      28,
+      29
+    ],
+    "boundary_reason": "Resumes walking to the elevator.",
+    "origin_chunk": 1
+  },
+  {
+    "id": 7,
+    "start": 64237,
+    "end": 64261,
+    "text": "I wait for the elevator.",
+    "refs": [
+      30,
+      31,
+      32,
+      33,
+      34
+    ],
+    "boundary_reason": "Enters the elevator.",
+    "origin_chunk": 1
+  },
+  {
+    "id": 8,
+    "start": 64262,
+    "end": 64306,
+    "text": "I use WeChat in the elevator.",
+    "refs": [
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48
+    ],
+    "boundary_reason": "Exits the elevator into the parking garage.",
+    "origin_chunk": 1
+  },
+  {
+    "id": 9,
+    "start": 64307,
+    "end": 64341,
+    "text": "I walk through the parking garage.",
+    "refs": [
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55
+    ],
+    "boundary_reason": "Begins actively using smartphone while walking.",
+    "origin_chunk": 1
+  },
+  {
+    "id": 10,
+    "start": 64341,
+    "end": 64366,
+    "text": "I check WeChat messages on my smartphone.",
+    "refs": [
+      56,
+      57,
+      58,
+      59,
+      60
+    ],
+    "boundary_reason": "Switches application to read a Xiaohongshu post.",
+    "origin_chunk": 1
+  },
+  {
+    "id": 11,
+    "start": 64366,
+    "end": 64403,
+    "text": "I read an ICLR timeline post on Xiaohongshu.",
+    "refs": [
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67
+    ],
+    "boundary_reason": "Switches back to WeChat messages.",
+    "origin_chunk": 1
+  },
+  {
+    "id": 12,
+    "start": 64403,
+    "end": 64415,
+    "text": "I check ICLR policy messages in WeChat.",
+    "refs": [
+      68,
+      69,
+      70,
+      71
+    ],
+    "boundary_reason": "Arrives at the lounge leading to the cafeteria.",
+    "origin_chunk": 1
+  },
+  {
+    "id": 13,
+    "start": 64415,
+    "end": 64437,
+    "text": "I walk to the cafeteria queue.",
+    "refs": [
+      72,
+      73,
+      74
+    ],
+    "boundary_reason": "Reaches the meal tray collection cart.",
+    "origin_chunk": 1
+  },
+  {
+    "id": 14,
+    "start": 64437,
+    "end": 64442,
+    "text": "I collect chopsticks and a meal tray.",
+    "refs": [
+      75,
+      76
+    ],
+    "boundary_reason": "Moves to browse the hot food counter.",
+    "origin_chunk": 1
+  },
+  {
+    "id": 15,
+    "start": 64442,
+    "end": 64489,
+    "text": "I select dishes from the hot food counter.",
+    "refs": [
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86
+    ],
+    "boundary_reason": "Proceeds to the payment terminal.",
+    "origin_chunk": 1
+  },
+  {
+    "id": 16,
+    "start": 64490,
+    "end": 64518,
+    "text": "I pay ¥12.00 using Alipay.",
+    "refs": [
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94
+    ],
+    "boundary_reason": "Completes payment and carries tray.",
+    "origin_chunk": 1
+  },
+  {
+    "id": 17,
+    "start": 64519,
+    "end": 64552,
+    "text": "I carry my food tray to the noodle counter.",
+    "refs": [
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102
+    ],
+    "boundary_reason": "Arrives at the noodle counter to order.",
+    "origin_chunk": 1
+  },
+  {
+    "id": 18,
+    "start": 64552,
+    "end": 64585,
+    "text": "I purchase noodles for ¥3.00.",
+    "refs": [
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110
+    ],
+    "boundary_reason": "Completes payment for noodles.",
+    "origin_chunk": 1
+  },
+  {
+    "id": 19,
+    "start": 64585,
+    "end": 64621,
+    "text": "I request extra toppings for my noodles.",
+    "refs": [
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120
+    ],
+    "boundary_reason": "Finishes requesting extra toppings.",
+    "origin_chunk": 1
+  },
+  {
+    "id": 20,
+    "start": 64622,
+    "end": 64679,
+    "text": "I browse the cafeteria beverage shelves.",
+    "refs": [
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133
+    ],
+    "boundary_reason": "Turns back to manage food collection.",
+    "origin_chunk": 1
+  },
+  {
+    "id": 21,
+    "start": 64680,
+    "end": 64730,
+    "text": "I collect my noodles.",
+    "refs": [
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147
+    ],
+    "boundary_reason": "Completes food collection and payment issues.",
+    "origin_chunk": 1
+  },
+  {
+    "id": 22,
+    "start": 64730,
+    "end": 64768,
+    "text": "I arrange the food on my meal tray.",
+    "refs": [
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154
+    ],
+    "boundary_reason": "Leaves the counter area with the food.",
+    "origin_chunk": 1
+  },
+  {
+    "id": 23,
+    "start": 64769,
+    "end": 64801,
+    "text": "I carry my meal tray to a dining table.",
+    "refs": [
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161
+    ],
+    "boundary_reason": "Sits down at the dining table.",
+    "origin_chunk": 1
+  },
+  {
+    "id": 24,
+    "start": 64801,
+    "end": 64865,
+    "text": "I arrange braised pork onto my noodles.",
+    "refs": [
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170,
+      171,
+      172,
+      173,
+      174,
+      175,
+      176,
+      177,
+      178
+    ],
+    "boundary_reason": "Begins eating the prepared noodles.",
+    "origin_chunk": 1
+  },
+  {
+    "id": 25,
+    "start": 64866,
+    "end": 64940,
+    "text": "I eat my noodle meal.",
+    "refs": [
+      179,
+      180,
+      181,
+      182,
+      183,
+      184,
+      185,
+      186,
+      187,
+      188,
+      189,
+      190,
+      191,
+      192,
+      193,
+      194,
+      195
+    ],
+    "boundary_reason": "Engages in a focused conversation with companions.",
+    "origin_chunk": 1
+  },
+  {
+    "id": 26,
+    "start": 64941,
+    "end": 65022,
+    "text": "I converse with my dining companions.",
+    "refs": [
+      196,
+      197,
+      198,
+      199,
+      200,
+      201,
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      213,
+      214,
+      215,
+      216
+    ],
+    "boundary_reason": "Attention shifts to observing a passerby.",
+    "origin_chunk": 1
+  },
+  {
+    "id": 27,
+    "start": 65023,
+    "end": 65096,
+    "text": "I discuss a passerby with my dining companions.",
+    "refs": [
+      217,
+      218,
+      219,
+      220,
+      221,
+      222,
+      223,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      230
+    ],
+    "boundary_reason": "Conversation shifts back to personal topics over soup.",
+    "origin_chunk": 1
+  },
+  {
+    "id": 28,
+    "start": 65096,
+    "end": 65180,
+    "text": "I converse with my companions over soup.",
+    "refs": [
+      231,
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239,
+      240,
+      241,
+      242,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249
+    ],
+    "boundary_reason": "End of provided events.",
+    "origin_chunk": 1
+  },
+  {
+    "id": 29,
+    "start": 65173,
+    "end": 65265,
+    "text": "I discuss work mentalities with my companions over my noodle meal.",
+    "refs": [
+      250,
+      251,
+      252,
+      253,
+      254,
+      255,
+      256,
+      257,
+      258,
+      259,
+      260,
+      261,
+      262,
+      263,
+      264,
+      265,
+      266
+    ],
+    "boundary_reason": "Conversation topic shifts to travel logistics.",
+    "origin_chunk": 2
+  },
+  {
+    "id": 30,
+    "start": 65265,
+    "end": 65322,
+    "text": "I listen to travel logistics discussions over my noodle meal.",
+    "refs": [
+      267,
+      268,
+      269,
+      270,
+      271,
+      272,
+      273,
+      274,
+      275,
+      276,
+      277,
+      278,
+      279
+    ],
+    "boundary_reason": "Conversation topic shifts to a friend's driving practice.",
+    "origin_chunk": 2
+  },
+  {
+    "id": 31,
+    "start": 65323,
+    "end": 65347,
+    "text": "I discuss a friend's driving practice schedule over my meal.",
+    "refs": [
+      280,
+      281,
+      282,
+      283,
+      284,
+      285,
+      286,
+      287,
+      288,
+      289
+    ],
+    "boundary_reason": "Conversation topic shifts to academic anxiety.",
+    "origin_chunk": 2
+  },
+  {
+    "id": 32,
+    "start": 65347,
+    "end": 65380,
+    "text": "I listen to my companion express academic anxiety over the conclusion of my meal.",
+    "refs": [
+      290,
+      291,
+      292,
+      293,
+      294,
+      295
+    ],
+    "boundary_reason": "Meal concludes and cafeteria exit preparation begins.",
+    "origin_chunk": 2
+  },
+  {
+    "id": 33,
+    "start": 65381,
+    "end": 65421,
+    "text": "I return my empty meal tray and chopsticks to the cafeteria recycling station.",
+    "refs": [
+      296,
+      297,
+      298,
+      299,
+      300,
+      301,
+      302,
+      303,
+      304,
+      305
+    ],
+    "boundary_reason": "Tray return is complete and a social interaction begins.",
+    "origin_chunk": 2
+  },
+  {
+    "id": 34,
+    "start": 65422,
+    "end": 65430,
+    "text": "I bid farewell to my friend by the ice cream freezer.",
+    "refs": [
+      306,
+      307,
+      308,
+      309
+    ],
+    "boundary_reason": "Social interaction concludes and hand cleaning begins.",
+    "origin_chunk": 2
+  },
+  {
+    "id": 35,
+    "start": 65430,
+    "end": 65438,
+    "text": "I clean my hands with a tissue from the dispenser.",
+    "refs": [
+      310,
+      311
+    ],
+    "boundary_reason": "Hand cleaning is complete and the cafeteria exit walk begins.",
+    "origin_chunk": 2
+  },
+  {
+    "id": 36,
+    "start": 65439,
+    "end": 65483,
+    "text": "I joke about zero-calorie beverages during my walk to the cafeteria exit doors.",
+    "refs": [
+      312,
+      313,
+      314,
+      315,
+      316,
+      317,
+      318,
+      319,
+      320
+    ],
+    "boundary_reason": "Cafeteria dining hall is exited.",
+    "origin_chunk": 2
+  },
+  {
+    "id": 37,
+    "start": 65484,
+    "end": 65508,
+    "text": "I discuss fermented bean drinks with my companion on the outdoor wooden deck.",
+    "refs": [
+      321,
+      322,
+      323,
+      324,
+      325
+    ],
+    "boundary_reason": "Arrival at the gym building entrance.",
+    "origin_chunk": 2
+  },
+  {
+    "id": 38,
+    "start": 65509,
+    "end": 65520,
+    "text": "I enter the gym facility.",
+    "refs": [
+      326,
+      327,
+      328
+    ],
+    "boundary_reason": "Entry into the gym facility is complete.",
+    "origin_chunk": 2
+  },
+  {
+    "id": 39,
+    "start": 65521,
+    "end": 65555,
+    "text": "I secure my power bank in a machine cupholder upon arrival at the gym.",
+    "refs": [
+      329,
+      330,
+      331,
+      332,
+      333,
+      334,
+      335,
+      336
+    ],
+    "boundary_reason": "Item storage is complete and equipment inspection begins.",
+    "origin_chunk": 2
+  },
+  {
+    "id": 40,
+    "start": 65556,
+    "end": 65592,
+    "text": "I activate the Daikin air conditioning unit during my initial equipment survey.",
+    "refs": [
+      337,
+      338,
+      339,
+      340,
+      341,
+      342,
+      343,
+      344,
+      345
+    ],
+    "boundary_reason": "Air conditioning is activated.",
+    "origin_chunk": 2
+  },
+  {
+    "id": 41,
+    "start": 65593,
+    "end": 65725,
+    "text": "I observe the other gym members during my transition to the SHUA strength machine.",
+    "refs": [
+      346,
+      347,
+      348,
+      349,
+      350,
+      351,
+      352,
+      353,
+      354,
+      355,
+      356,
+      357,
+      358,
+      359,
+      360,
+      361,
+      362,
+      363,
+      364,
+      365,
+      366,
+      367,
+      368,
+      369,
+      370,
+      371,
+      372,
+      373
+    ],
+    "boundary_reason": "Arrival at the intended SHUA strength machine.",
+    "origin_chunk": 2
+  },
+  {
+    "id": 42,
+    "start": 65725,
+    "end": 65791,
+    "text": "I position myself on the newly configured SHUA strength machine.",
+    "refs": [
+      374,
+      375,
+      376,
+      377,
+      378,
+      379,
+      380,
+      381,
+      382,
+      383,
+      384,
+      385,
+      386,
+      387,
+      388
+    ],
+    "boundary_reason": "SHUA strength machine is abandoned for another station.",
+    "origin_chunk": 2
+  },
+  {
+    "id": 43,
+    "start": 65792,
+    "end": 65826,
+    "text": "I grasp the handle attachment at the cable crossover station.",
+    "refs": [
+      389,
+      390,
+      391,
+      392,
+      393,
+      394,
+      395
+    ],
+    "boundary_reason": "Cable crossover station is abandoned.",
+    "origin_chunk": 2
+  },
+  {
+    "id": 44,
+    "start": 65827,
+    "end": 65873,
+    "text": "I test the pull-up bar on the functional trainer.",
+    "refs": [
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407
+    ],
+    "boundary_reason": "Functional trainer is abandoned to search for free weights.",
+    "origin_chunk": 2
+  },
+  {
+    "id": 45,
+    "start": 65873,
+    "end": 65889,
+    "text": "I scan the dumbbell rack for available weights.",
+    "refs": [
+      408,
+      409,
+      410,
+      411,
+      412
+    ],
+    "boundary_reason": "Dumbbell search is abandoned.",
+    "origin_chunk": 2
+  },
+  {
+    "id": 46,
+    "start": 65889,
+    "end": 65955,
+    "text": "I observe the gym equipment and members during my walk across the floor.",
+    "refs": [
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419,
+      420,
+      421,
+      422,
+      423,
+      424,
+      425,
+      426,
+      427,
+      428
+    ],
+    "boundary_reason": "A barbell is located for exercise preparation.",
+    "origin_chunk": 2
+  },
+  {
+    "id": 47,
+    "start": 65956,
+    "end": 65985,
+    "text": "I secure the weight plates on the barbell with collar clamps.",
+    "refs": [
+      429,
+      430,
+      431,
+      432,
+      433,
+      434,
+      435
+    ],
+    "boundary_reason": "Barbell securing is complete and bench adjustment begins.",
+    "origin_chunk": 2
+  },
+  {
+    "id": 48,
+    "start": 65986,
+    "end": 66025,
+    "text": "I adjust the workout bench position with the assistance of my workout partner.",
+    "refs": [
+      436,
+      437,
+      438,
+      439,
+      440,
+      441,
+      442,
+      443,
+      444
+    ],
+    "boundary_reason": "Bench adjustment is complete and spotting confirmation begins.",
+    "origin_chunk": 2
+  },
+  {
+    "id": 49,
+    "start": 66025,
+    "end": 66051,
+    "text": "I confirm spotting arrangements with User X from the workout bench.",
+    "refs": [
+      445,
+      446,
+      447,
+      448,
+      449,
+      450,
+      451,
+      452
+    ],
+    "boundary_reason": "Pre-exercise spotting checks are complete.",
+    "origin_chunk": 2
+  },
+  {
+    "id": 50,
+    "start": 66051,
+    "end": 66096,
+    "text": "I perform a set of barbell bench presses with my workout partner's assistance.",
+    "refs": [
+      453,
+      454,
+      455,
+      456,
+      457,
+      458,
+      459,
+      460,
+      461
+    ],
+    "boundary_reason": "Bench press set concludes.",
+    "origin_chunk": 2
+  },
+  {
+    "id": 51,
+    "start": 66096,
+    "end": 66119,
+    "text": "I discuss my bench press performance and weight with my workout partner.",
+    "refs": [
+      462,
+      463,
+      464,
+      465,
+      466,
+      467,
+      468
+    ],
+    "boundary_reason": "Conversation shifts to the gym rest area and work tasks.",
+    "origin_chunk": 2
+  },
+  {
+    "id": 52,
+    "start": 66120,
+    "end": 66197,
+    "text": "I discuss the gym rest area and work tasks with my partner during my post-set rest.",
+    "refs": [
+      469,
+      470,
+      471,
+      472,
+      473,
+      474,
+      475,
+      476,
+      477,
+      478,
+      479,
+      480,
+      481,
+      482,
+      483
+    ],
+    "boundary_reason": "Conversation shifts entirely to the data project.",
+    "origin_chunk": 2
+  },
+  {
+    "id": 53,
+    "start": 66198,
+    "end": 66268,
+    "text": "I explain my Ultra Long Video dataset desensitization project to User A and a friend.",
+    "refs": [
+      484,
+      485,
+      486,
+      487,
+      488,
+      489,
+      490,
+      491,
+      492,
+      493,
+      494,
+      495,
+      496,
+      497,
+      498,
+      499
+    ],
+    "boundary_reason": "End of the input batch.",
+    "origin_chunk": 2
+  },
+  {
+    "id": 54,
+    "start": 66268,
+    "end": 66294,
+    "text": "I discuss lab projects and the VideoJPA model with my companion.",
+    "refs": [
+      500,
+      501,
+      502,
+      503,
+      504,
+      505,
+      506,
+      507,
+      508,
+      509
+    ],
+    "boundary_reason": "Groups contiguous conversation about lab projects and the VideoJPA model.",
+    "origin_chunk": 3
+  },
+  {
+    "id": 55,
+    "start": 66294,
+    "end": 66312,
+    "text": "I observe my companion performing dumbbell overhead presses.",
+    "refs": [
+      510,
+      511,
+      512,
+      513
+    ],
+    "boundary_reason": "Groups contiguous observation of my companion.",
+    "origin_chunk": 3
+  },
+  {
+    "id": 56,
+    "start": 66313,
+    "end": 66334,
+    "text": "I discuss the small parameter size of the VideoJPA model.",
+    "refs": [
+      514,
+      515,
+      516
+    ],
+    "boundary_reason": "Groups contiguous conversation about model size.",
+    "origin_chunk": 3
+  },
+  {
+    "id": 57,
+    "start": 66335,
+    "end": 66352,
+    "text": "I observe User A resting with the dumbbells.",
+    "refs": [
+      517,
+      518,
+      519,
+      520
+    ],
+    "boundary_reason": "Groups contiguous observation of User A.",
+    "origin_chunk": 3
+  },
+  {
+    "id": 58,
+    "start": 66352,
+    "end": 66373,
+    "text": "I observe the gym equipment and my resting companion.",
+    "refs": [
+      521,
+      522,
+      523,
+      524
+    ],
+    "boundary_reason": "Groups contiguous visual observations of the gym equipment.",
+    "origin_chunk": 3
+  },
+  {
+    "id": 59,
+    "start": 66373,
+    "end": 66389,
+    "text": "I discuss the latent output and decoder weights of the model with my workout partner.",
+    "refs": [
+      525,
+      526,
+      527
+    ],
+    "boundary_reason": "Groups contiguous conversation about model technicalities.",
+    "origin_chunk": 3
+  },
+  {
+    "id": 60,
+    "start": 66389,
+    "end": 66421,
+    "text": "I observe the gym equipment and my resting workout partner.",
+    "refs": [
+      528,
+      529,
+      530,
+      531,
+      532,
+      533,
+      534
+    ],
+    "boundary_reason": "Groups contiguous visual observations of the gym equipment.",
+    "origin_chunk": 3
+  },
+  {
+    "id": 61,
+    "start": 66422,
+    "end": 66462,
+    "text": "I discuss the data desensitization challenges of the JPA scheme.",
+    "refs": [
+      535,
+      536,
+      537,
+      538,
+      539,
+      540
+    ],
+    "boundary_reason": "Groups contiguous conversation about data desensitization.",
+    "origin_chunk": 3
+  },
+  {
+    "id": 62,
+    "start": 66463,
+    "end": 66520,
+    "text": "I discuss habit-driven behavior analysis with my gym partner.",
+    "refs": [
+      541,
+      542,
+      543,
+      544,
+      545,
+      546,
+      547,
+      548,
+      549,
+      550,
+      551,
+      552
+    ],
+    "boundary_reason": "Groups contiguous conversation about habit vs intention.",
+    "origin_chunk": 3
+  },
+  {
+    "id": 63,
+    "start": 66520,
+    "end": 66523,
+    "text": "I look toward the gym window.",
+    "refs": [
+      553
+    ],
+    "boundary_reason": "Distinct brief observation.",
+    "origin_chunk": 3
+  },
+  {
+    "id": 64,
+    "start": 66523,
+    "end": 66553,
+    "text": "I discuss the data volume requirements for habit analysis with User X.",
+    "refs": [
+      554,
+      555,
+      556,
+      557,
+      558,
+      559,
+      560,
+      561
+    ],
+    "boundary_reason": "Groups contiguous conversation about data volume.",
+    "origin_chunk": 3
+  },
+  {
+    "id": 65,
+    "start": 66553,
+    "end": 66599,
+    "text": "I explain the distinction between intention-driven and habit-driven events to my friend.",
+    "refs": [
+      562,
+      563,
+      564,
+      565,
+      566,
+      567
+    ],
+    "boundary_reason": "Groups contiguous conversation explaining analysis results.",
+    "origin_chunk": 3
+  },
+  {
+    "id": 66,
+    "start": 66599,
+    "end": 66610,
+    "text": "I observe my friend resting on the workout bench.",
+    "refs": [
+      568,
+      569,
+      570
+    ],
+    "boundary_reason": "Groups contiguous observations of my friend resting.",
+    "origin_chunk": 3
+  },
+  {
+    "id": 67,
+    "start": 66610,
+    "end": 66673,
+    "text": "I explain psychological data sampling methods to my friend.",
+    "refs": [
+      571,
+      572,
+      573,
+      574,
+      575,
+      576,
+      577,
+      578,
+      579,
+      580,
+      581,
+      582,
+      583,
+      584
+    ],
+    "boundary_reason": "Groups contiguous conversation about psychological methods.",
+    "origin_chunk": 3
+  },
+  {
+    "id": 68,
+    "start": 66673,
+    "end": 66679,
+    "text": "I listen to User A explain event-based happiness classification.",
+    "refs": [
+      585
+    ],
+    "boundary_reason": "Single speech event.",
+    "origin_chunk": 3
+  },
+  {
+    "id": 69,
+    "start": 66680,
+    "end": 66687,
+    "text": "I observe User A and the gym equipment.",
+    "refs": [
+      586,
+      587,
+      588
+    ],
+    "boundary_reason": "Groups contiguous visual observations.",
+    "origin_chunk": 3
+  },
+  {
+    "id": 70,
+    "start": 66688,
+    "end": 66706,
+    "text": "I discuss the granularity of habit classification categories with my companion.",
+    "refs": [
+      589,
+      590,
+      591,
+      592
+    ],
+    "boundary_reason": "Groups contiguous conversation about classification categories.",
+    "origin_chunk": 3
+  },
+  {
+    "id": 71,
+    "start": 66706,
+    "end": 66723,
+    "text": "I watch a person stretching in the gym.",
+    "refs": [
+      593,
+      594
+    ],
+    "boundary_reason": "Groups contiguous observation of a gym member.",
+    "origin_chunk": 3
+  },
+  {
+    "id": 72,
+    "start": 66723,
+    "end": 66732,
+    "text": "I explain reinforcement learning based behavior classification to my companion.",
+    "refs": [
+      595
+    ],
+    "boundary_reason": "Single speech event.",
+    "origin_chunk": 3
+  },
+  {
+    "id": 73,
+    "start": 66733,
+    "end": 66782,
+    "text": "I discuss the categorization of daily behaviors with my friends.",
+    "refs": [
+      596,
+      597,
+      598,
+      599,
+      600,
+      601,
+      602,
+      603,
+      604,
+      605,
+      606
+    ],
+    "boundary_reason": "Groups contiguous conversation about daily behavior categories.",
+    "origin_chunk": 3
+  },
+  {
+    "id": 74,
+    "start": 66782,
+    "end": 66793,
+    "text": "I roll up my sleeve.",
+    "refs": [
+      607,
+      608
+    ],
+    "boundary_reason": "Groups contiguous physical actions and observation.",
+    "origin_chunk": 3
+  },
+  {
+    "id": 75,
+    "start": 66793,
+    "end": 66804,
+    "text": "I discuss the categorization of social and entertainment behaviors with my friend.",
+    "refs": [
+      609,
+      610,
+      611
+    ],
+    "boundary_reason": "Groups contiguous conversation about social behavior categories.",
+    "origin_chunk": 3
+  },
+  {
+    "id": 76,
+    "start": 66805,
+    "end": 66823,
+    "text": "I observe the gym members and my resting friend.",
+    "refs": [
+      612,
+      613,
+      614,
+      615
+    ],
+    "boundary_reason": "Groups contiguous visual observations.",
+    "origin_chunk": 3
+  },
+  {
+    "id": 77,
+    "start": 66823,
+    "end": 66847,
+    "text": "I prepare to use the cable machine.",
+    "refs": [
+      616,
+      617,
+      618,
+      619,
+      620
+    ],
+    "boundary_reason": "Groups contiguous equipment preparation.",
+    "origin_chunk": 3
+  },
+  {
+    "id": 78,
+    "start": 66848,
+    "end": 66852,
+    "text": "I grip the pull-up bar.",
+    "refs": [
+      621,
+      622
+    ],
+    "boundary_reason": "Groups contiguous physical action.",
+    "origin_chunk": 3
+  },
+  {
+    "id": 79,
+    "start": 66853,
+    "end": 66860,
+    "text": "I mention social media platforms.",
+    "refs": [
+      623
+    ],
+    "boundary_reason": "Single speech event.",
+    "origin_chunk": 3
+  },
+  {
+    "id": 80,
+    "start": 66861,
+    "end": 66864,
+    "text": "I utter exertion noises.",
+    "refs": [
+      624
+    ],
+    "boundary_reason": "Single vocalization event.",
+    "origin_chunk": 3
+  },
+  {
+    "id": 81,
+    "start": 66864,
+    "end": 66883,
+    "text": "I walk across the gym floor.",
+    "refs": [
+      625,
+      626,
+      627,
+      628,
+      629
+    ],
+    "boundary_reason": "Groups contiguous visual observations and movement.",
+    "origin_chunk": 3
+  },
+  {
+    "id": 82,
+    "start": 66883,
+    "end": 66900,
+    "text": "I discuss promoting work on Xiaohongshu and Twitter with my companion.",
+    "refs": [
+      630,
+      631,
+      632,
+      633,
+      634,
+      635
+    ],
+    "boundary_reason": "Groups contiguous conversation about social media promotion.",
+    "origin_chunk": 3
+  },
+  {
+    "id": 83,
+    "start": 66900,
+    "end": 66923,
+    "text": "I prepare to use the abdominal machine.",
+    "refs": [
+      636,
+      637,
+      638,
+      639,
+      640,
+      641
+    ],
+    "boundary_reason": "Groups contiguous equipment preparation.",
+    "origin_chunk": 3
+  },
+  {
+    "id": 84,
+    "start": 66924,
+    "end": 66990,
+    "text": "I prepare the SHUA abdominal machine for use.",
+    "refs": [
+      642,
+      643,
+      644,
+      645,
+      646,
+      647,
+      648,
+      649,
+      650,
+      651,
+      652
+    ],
+    "boundary_reason": "Groups contiguous equipment adjustments and checks.",
+    "origin_chunk": 3
+  },
+  {
+    "id": 85,
+    "start": 66991,
+    "end": 66994,
+    "text": "I sigh.",
+    "refs": [
+      653
+    ],
+    "boundary_reason": "Single vocalization event.",
+    "origin_chunk": 3
+  },
+  {
+    "id": 86,
+    "start": 66995,
+    "end": 67017,
+    "text": "I express frustration with the machine weight selector.",
+    "refs": [
+      654,
+      655,
+      656,
+      657,
+      658
+    ],
+    "boundary_reason": "Groups contiguous inspection and frustrated vocalization.",
+    "origin_chunk": 3
+  },
+  {
+    "id": 87,
+    "start": 67018,
+    "end": 67033,
+    "text": "I walk toward the workout bench.",
+    "refs": [
+      659,
+      660,
+      661
+    ],
+    "boundary_reason": "Groups contiguous movement and observation.",
+    "origin_chunk": 3
+  },
+  {
+    "id": 88,
+    "start": 67033,
+    "end": 67065,
+    "text": "I discuss a social media post about a wearable camera with 阿六.",
+    "refs": [
+      662,
+      663,
+      664,
+      665,
+      666,
+      667
+    ],
+    "boundary_reason": "Groups contiguous conversation about a social media post.",
+    "origin_chunk": 3
+  },
+  {
+    "id": 89,
+    "start": 67065,
+    "end": 67067,
+    "text": "I look up at the gym.",
+    "refs": [
+      668
+    ],
+    "boundary_reason": "Distinct brief observation.",
+    "origin_chunk": 3
+  },
+  {
+    "id": 90,
+    "start": 67067,
+    "end": 67163,
+    "text": "I discuss a plan for collecting preference data using smart glasses with my companion.",
+    "refs": [
+      669,
+      670,
+      671,
+      672,
+      673,
+      674,
+      675,
+      676,
+      677,
+      678,
+      679,
+      680,
+      681,
+      682,
+      683,
+      684,
+      685,
+      686,
+      687,
+      688,
+      689
+    ],
+    "boundary_reason": "Groups contiguous conversation about a data collection plan.",
+    "origin_chunk": 3
+  },
+  {
+    "id": 91,
+    "start": 67163,
+    "end": 67166,
+    "text": "I look at the SHUA cable machine pulley.",
+    "refs": [
+      690
+    ],
+    "boundary_reason": "Distinct brief observation.",
+    "origin_chunk": 3
+  },
+  {
+    "id": 92,
+    "start": 67166,
+    "end": 67211,
+    "text": "I discuss methods for real-time preference data labeling with my workout partner.",
+    "refs": [
+      691,
+      692,
+      693,
+      694,
+      695,
+      696,
+      697,
+      698,
+      699,
+      700,
+      701,
+      702,
+      703,
+      704,
+      705,
+      706,
+      707
+    ],
+    "boundary_reason": "Groups contiguous conversation about real-time labeling methods.",
+    "origin_chunk": 3
+  },
+  {
+    "id": 93,
+    "start": 67211,
+    "end": 67216,
+    "text": "I observe the gym equipment and floor.",
+    "refs": [
+      708,
+      709
+    ],
+    "boundary_reason": "Groups contiguous visual observations.",
+    "origin_chunk": 3
+  },
+  {
+    "id": 94,
+    "start": 67216,
+    "end": 67255,
+    "text": "I discuss the limitations of the Ego Life dataset regarding preference and emotion data.",
+    "refs": [
+      710,
+      711,
+      712,
+      713,
+      714,
+      715,
+      716,
+      717
+    ],
+    "boundary_reason": "Groups contiguous conversation about the Ego Life dataset.",
+    "origin_chunk": 3
+  },
+  {
+    "id": 95,
+    "start": 67255,
+    "end": 67259,
+    "text": "I glance at the SHUA workout machine.",
+    "refs": [
+      718
+    ],
+    "boundary_reason": "Distinct brief observation.",
+    "origin_chunk": 3
+  },
+  {
+    "id": 96,
+    "start": 67259,
+    "end": 67280,
+    "text": "I discuss the necessity of emotion analysis data.",
+    "refs": [
+      719,
+      720,
+      721
+    ],
+    "boundary_reason": "Groups contiguous conversation about emotion analysis data.",
+    "origin_chunk": 3
+  },
+  {
+    "id": 97,
+    "start": 67281,
+    "end": 67293,
+    "text": "I inspect the barbell and weight plate.",
+    "refs": [
+      722,
+      723
+    ],
+    "boundary_reason": "Groups contiguous physical inspection.",
+    "origin_chunk": 3
+  },
+  {
+    "id": 98,
+    "start": 67294,
+    "end": 67333,
+    "text": "I discuss using a knowledge graph for behavior analysis with my companion.",
+    "refs": [
+      724,
+      725,
+      726,
+      727,
+      728,
+      729,
+      730
+    ],
+    "boundary_reason": "Groups contiguous conversation about a knowledge graph.",
+    "origin_chunk": 3
+  },
+  {
+    "id": 99,
+    "start": 67333,
+    "end": 67366,
+    "text": "I lift the barbell.",
+    "refs": [
+      731,
+      732,
+      733,
+      734,
+      735,
+      736,
+      737
+    ],
+    "boundary_reason": "Groups contiguous physical action of lifting.",
+    "origin_chunk": 3
+  },
+  {
+    "id": 100,
+    "start": 67366,
+    "end": 67414,
+    "text": "I discuss learning habits for action prediction using historical data.",
+    "refs": [
+      738,
+      739,
+      740,
+      741,
+      742,
+      743,
+      744
+    ],
+    "boundary_reason": "Groups contiguous conversation about action prediction.",
+    "origin_chunk": 3
+  },
+  {
+    "id": 101,
+    "start": 67415,
+    "end": 67422,
+    "text": "I grasp the barbell.",
+    "refs": [
+      745
+    ],
+    "boundary_reason": "Single physical action.",
+    "origin_chunk": 3
+  },
+  {
+    "id": 102,
+    "start": 67423,
+    "end": 67452,
+    "text": "I discuss summarizing behavior patterns into a prediction context with my companion.",
+    "refs": [
+      746,
+      747,
+      748,
+      749
+    ],
+    "boundary_reason": "Groups contiguous conversation about prediction context.",
+    "origin_chunk": 3
+  },
+  {
+    "id": 103,
+    "start": 67453,
+    "end": 67483,
+    "text": "I handle the barbell at the weight bench.",
+    "refs": [
+      750,
+      751,
+      752,
+      753,
+      754
+    ],
+    "boundary_reason": "Physical interaction with the barbell concludes when the conversation shifts to research contributions.",
+    "origin_chunk": 4
+  },
+  {
+    "id": 104,
+    "start": 67483,
+    "end": 67549,
+    "text": "I listen to my companions discuss the contributions of a research paper.",
+    "refs": [
+      755,
+      756,
+      757,
+      758,
+      759,
+      760,
+      761,
+      762,
+      763
+    ],
+    "boundary_reason": "Conversation shifts to physical preparation for the bench press.",
+    "origin_chunk": 4
+  },
+  {
+    "id": 105,
+    "start": 67550,
+    "end": 67596,
+    "text": "I perform a set of barbell bench presses.",
+    "refs": [
+      764,
+      765,
+      766,
+      767,
+      768,
+      769,
+      770,
+      771,
+      772,
+      773,
+      774
+    ],
+    "boundary_reason": "The exercise set concludes and the research discussion resumes.",
+    "origin_chunk": 4
+  },
+  {
+    "id": 106,
+    "start": 67596,
+    "end": 67630,
+    "text": "I discuss experimenting with habit analysis and visual inputs.",
+    "refs": [
+      775,
+      776,
+      777,
+      778,
+      779
+    ],
+    "boundary_reason": "Sub-topic shifts to the cost of training visual encoders.",
+    "origin_chunk": 4
+  },
+  {
+    "id": 107,
+    "start": 67630,
+    "end": 67683,
+    "text": "I discuss the integration and training of visual encoders with my workout partners.",
+    "refs": [
+      780,
+      781,
+      782,
+      783,
+      784,
+      785,
+      786,
+      787,
+      788,
+      789
+    ],
+    "boundary_reason": "Sub-topic shifts back to specific habit analysis predictions.",
+    "origin_chunk": 4
+  },
+  {
+    "id": 108,
+    "start": 67684,
+    "end": 67748,
+    "text": "I discuss the strategy of using small-scale habit analysis for predictions.",
+    "refs": [
+      790,
+      791,
+      792,
+      793,
+      794,
+      795,
+      796,
+      797,
+      798,
+      799,
+      800,
+      801,
+      802,
+      803,
+      804
+    ],
+    "boundary_reason": "Sub-topic shifts to general model fine-tuning performance.",
+    "origin_chunk": 4
+  },
+  {
+    "id": 109,
+    "start": 67748,
+    "end": 67837,
+    "text": "I discuss the performance of model fine-tuning and Supervised Fine-Tuning with my companion.",
+    "refs": [
+      805,
+      806,
+      807,
+      808,
+      809,
+      810,
+      811,
+      812,
+      813,
+      814,
+      815,
+      816,
+      817,
+      818,
+      819,
+      820,
+      821,
+      822,
+      823
+    ],
+    "boundary_reason": "Conversation pauses to perform a brief physical check of the barbell.",
+    "origin_chunk": 4
+  },
+  {
+    "id": 110,
+    "start": 67837,
+    "end": 67844,
+    "text": "I briefly lift the barbell on the workout bench.",
+    "refs": [
+      824,
+      825,
+      826
+    ],
+    "boundary_reason": "Physical check concludes and the conversation about fine-tuning resumes.",
+    "origin_chunk": 4
+  },
+  {
+    "id": 111,
+    "start": 67844,
+    "end": 67889,
+    "text": "I discuss the poor generalization of Supervised Fine-Tuning.",
+    "refs": [
+      827,
+      828,
+      829,
+      830,
+      831,
+      832,
+      833
+    ],
+    "boundary_reason": "Conversation pauses to observe another gym member.",
+    "origin_chunk": 4
+  },
+  {
+    "id": 112,
+    "start": 67889,
+    "end": 67902,
+    "text": "I observe a person racking dumbbells.",
+    "refs": [
+      834,
+      835,
+      836
+    ],
+    "boundary_reason": "Observation ends and the discussion about reinforcement learning begins.",
+    "origin_chunk": 4
+  },
+  {
+    "id": 113,
+    "start": 67903,
+    "end": 67951,
+    "text": "I discuss how reinforcement learning discovers underlying rules.",
+    "refs": [
+      837,
+      838,
+      839,
+      840,
+      841,
+      842
+    ],
+    "boundary_reason": "Sub-topic shifts to implementing specific model architectures.",
+    "origin_chunk": 4
+  },
+  {
+    "id": 114,
+    "start": 67951,
+    "end": 67997,
+    "text": "I discuss implementing chain of thought and reinforcement learning models.",
+    "refs": [
+      843,
+      844,
+      845,
+      846,
+      847,
+      848,
+      849,
+      850,
+      851,
+      852
+    ],
+    "boundary_reason": "Conversation pauses to observe another gym member.",
+    "origin_chunk": 4
+  },
+  {
+    "id": 115,
+    "start": 67998,
+    "end": 68010,
+    "text": "I observe a person performing dumbbell shoulder presses.",
+    "refs": [
+      853,
+      854
+    ],
+    "boundary_reason": "Observation ends as I prepare for pull-ups.",
+    "origin_chunk": 4
+  },
+  {
+    "id": 116,
+    "start": 68011,
+    "end": 68050,
+    "text": "I perform a set of pull-ups on the functional trainer.",
+    "refs": [
+      855,
+      856,
+      857,
+      858,
+      859,
+      860,
+      861,
+      862
+    ],
+    "boundary_reason": "The pull-up set concludes and I move to set up another station.",
+    "origin_chunk": 4
+  },
+  {
+    "id": 117,
+    "start": 68050,
+    "end": 68067,
+    "text": "I set up the adjustable workout bench at the cable machine.",
+    "refs": [
+      863,
+      864,
+      865,
+      866
+    ],
+    "boundary_reason": "Bench setup completes and the conversation about running models starts.",
+    "origin_chunk": 4
+  },
+  {
+    "id": 118,
+    "start": 68068,
+    "end": 68112,
+    "text": "I discuss running baseline models with User A.",
+    "refs": [
+      867,
+      868,
+      869,
+      870,
+      871,
+      872
+    ],
+    "boundary_reason": "Sub-topic shifts to dataset processing progress.",
+    "origin_chunk": 4
+  },
+  {
+    "id": 119,
+    "start": 68113,
+    "end": 68133,
+    "text": "I listen to User X provide a dataset processing update.",
+    "refs": [
+      873,
+      874,
+      875,
+      876,
+      877
+    ],
+    "boundary_reason": "Sub-topic shifts to specific dataset formatting flaws.",
+    "origin_chunk": 4
+  },
+  {
+    "id": 120,
+    "start": 68134,
+    "end": 68173,
+    "text": "I discuss fixing dataset formatting flaws at the cable machine.",
+    "refs": [
+      878,
+      879,
+      880,
+      881,
+      882,
+      883,
+      884,
+      885
+    ],
+    "boundary_reason": "Sub-topic shifts to coordinating the execution of models.",
+    "origin_chunk": 4
+  },
+  {
+    "id": 121,
+    "start": 68173,
+    "end": 68220,
+    "text": "I coordinate AI modeling and data cleaning tasks with my companions.",
+    "refs": [
+      886,
+      887,
+      888,
+      889,
+      890,
+      891,
+      892,
+      893,
+      894,
+      895,
+      896,
+      897
+    ],
+    "boundary_reason": "Sub-topic shifts to the iterative nature of correcting the data.",
+    "origin_chunk": 4
+  },
+  {
+    "id": 122,
+    "start": 68220,
+    "end": 68280,
+    "text": "I discuss the iterative process of correcting AI dataset flaws with my companions.",
+    "refs": [
+      898,
+      899,
+      900,
+      901,
+      902,
+      903,
+      904,
+      905,
+      906,
+      907,
+      908,
+      909,
+      910,
+      911,
+      912
+    ],
+    "boundary_reason": "Conversation pauses while observing a workout.",
+    "origin_chunk": 4
+  },
+  {
+    "id": 123,
+    "start": 68280,
+    "end": 68300,
+    "text": "I observe User A performing cable triceps extensions.",
+    "refs": [
+      913,
+      914,
+      915,
+      916,
+      917
+    ],
+    "boundary_reason": "Observation ends and I begin explaining a new project motivation.",
+    "origin_chunk": 4
+  },
+  {
+    "id": 124,
+    "start": 68300,
+    "end": 68373,
+    "text": "I explain the motivation for using an AI model to simulate future behavior.",
+    "refs": [
+      918,
+      919,
+      920,
+      921,
+      922,
+      923,
+      924,
+      925,
+      926,
+      927,
+      928
+    ],
+    "boundary_reason": "Explanation shifts to a specific analogy about career choices.",
+    "origin_chunk": 4
+  },
+  {
+    "id": 125,
+    "start": 68374,
+    "end": 68443,
+    "text": "I illustrate the value of a digital twin simulator using career choices as an example.",
+    "refs": [
+      929,
+      930,
+      931,
+      932,
+      933,
+      934,
+      935,
+      936,
+      937,
+      938,
+      939,
+      940,
+      941,
+      942,
+      943,
+      944,
+      945,
+      946
+    ],
+    "boundary_reason": "The serious explanation concludes with lighthearted banter.",
+    "origin_chunk": 4
+  },
+  {
+    "id": 126,
+    "start": 68443,
+    "end": 68465,
+    "text": "I joke with my companion at the cable machine.",
+    "refs": [
+      947,
+      948,
+      949,
+      950,
+      951
+    ],
+    "boundary_reason": "Banter ends and the focus returns to project reporting.",
+    "origin_chunk": 4
+  },
+  {
+    "id": 127,
+    "start": 68466,
+    "end": 68536,
+    "text": "I discuss framing our research motivation and reporting to our teacher.",
+    "refs": [
+      952,
+      953,
+      954,
+      955,
+      956,
+      957,
+      958,
+      959,
+      960,
+      961,
+      962,
+      963,
+      964,
+      965,
+      966
+    ],
+    "boundary_reason": "Sub-topic shifts broadly to human versus machine learning.",
+    "origin_chunk": 4
+  },
+  {
+    "id": 128,
+    "start": 68536,
+    "end": 68623,
+    "text": "I discuss the generalization of human learning compared to machine learning.",
+    "refs": [
+      967,
+      968,
+      969,
+      970,
+      971,
+      972,
+      973,
+      974,
+      975,
+      976,
+      977,
+      978,
+      979,
+      980,
+      981,
+      982
+    ],
+    "boundary_reason": "Sub-topic shifts to technical methods for accelerating model generalization.",
+    "origin_chunk": 4
+  },
+  {
+    "id": 129,
+    "start": 68623,
+    "end": 68718,
+    "text": "I discuss methods to accelerate AI model generalization.",
+    "refs": [
+      983,
+      984,
+      985,
+      986,
+      987,
+      988,
+      989,
+      990,
+      991,
+      992,
+      993,
+      994,
+      995,
+      996,
+      997,
+      998,
+      999
+    ],
+    "boundary_reason": "End of provided input batch.",
+    "origin_chunk": 4
+  },
+  {
+    "id": 130,
+    "start": 68718,
+    "end": 68803,
+    "text": "I discuss KL divergence and model distillation techniques with my companions.",
+    "refs": [
+      1000,
+      1001,
+      1002,
+      1003,
+      1004,
+      1005,
+      1006,
+      1007,
+      1008,
+      1009,
+      1010,
+      1011,
+      1012,
+      1013,
+      1014,
+      1015
+    ],
+    "boundary_reason": "Topic shifts from distillation methods to SFT performance metrics.",
+    "origin_chunk": 5
+  },
+  {
+    "id": 131,
+    "start": 68803,
+    "end": 68846,
+    "text": "I discuss SFT loss and baseline performance metrics with my companions.",
+    "refs": [
+      1016,
+      1017,
+      1018,
+      1019,
+      1020,
+      1021,
+      1022,
+      1023,
+      1024,
+      1025,
+      1026
+    ],
+    "boundary_reason": "Conversation concludes and I begin observing my partner's exercise.",
+    "origin_chunk": 5
+  },
+  {
+    "id": 132,
+    "start": 68846,
+    "end": 68888,
+    "text": "I observe my partner and another gym-goer perform cable and dumbbell exercises.",
+    "refs": [
+      1027,
+      1028,
+      1029,
+      1030,
+      1031,
+      1032,
+      1033
+    ],
+    "boundary_reason": "Observation concludes as my partner finishes the exercise set.",
+    "origin_chunk": 5
+  },
+  {
+    "id": 133,
+    "start": 68889,
+    "end": 68932,
+    "text": "I discuss the necessity of supervision and loss functions in SFT with my friend.",
+    "refs": [
+      1034,
+      1035,
+      1036,
+      1037,
+      1038,
+      1039,
+      1040,
+      1041,
+      1042,
+      1043,
+      1044
+    ],
+    "boundary_reason": "Conversation ends and I prepare to use the cable machine.",
+    "origin_chunk": 5
+  },
+  {
+    "id": 134,
+    "start": 68932,
+    "end": 68968,
+    "text": "I adjust the cable machine and perform cable triceps pushdowns.",
+    "refs": [
+      1045,
+      1046,
+      1047,
+      1048,
+      1049,
+      1050,
+      1051,
+      1052,
+      1053
+    ],
+    "boundary_reason": "Exercise concludes and I switch to using my smartphone.",
+    "origin_chunk": 5
+  },
+  {
+    "id": 135,
+    "start": 68969,
+    "end": 69054,
+    "text": "I use my smartphone to message on WeChat and review the '3_补充协议1.pdf' agreement.",
+    "refs": [
+      1054,
+      1055,
+      1056,
+      1057,
+      1058,
+      1059,
+      1060,
+      1061,
+      1062,
+      1063,
+      1064,
+      1065,
+      1066,
+      1067,
+      1068,
+      1069,
+      1070,
+      1071,
+      1072,
+      1073,
+      1074,
+      1075,
+      1076
+    ],
+    "boundary_reason": "Smartphone use concludes and I begin walking through the gym.",
+    "origin_chunk": 5
+  },
+  {
+    "id": 136,
+    "start": 69055,
+    "end": 69112,
+    "text": "I walk through the gym and discuss movies with my friend.",
+    "refs": [
+      1077,
+      1078,
+      1079,
+      1080,
+      1081,
+      1082,
+      1083,
+      1084,
+      1085,
+      1086,
+      1087,
+      1088,
+      1089
+    ],
+    "boundary_reason": "Brief movie discussion concludes and I focus on the glute machine.",
+    "origin_chunk": 5
+  },
+  {
+    "id": 137,
+    "start": 69113,
+    "end": 69207,
+    "text": "I sit on a glute machine and discuss Costco memberships with my friend.",
+    "refs": [
+      1090,
+      1091,
+      1092,
+      1093,
+      1094,
+      1095,
+      1096,
+      1097,
+      1098,
+      1099,
+      1100,
+      1101,
+      1102,
+      1103,
+      1104,
+      1105,
+      1106,
+      1107,
+      1108,
+      1109,
+      1110,
+      1111
+    ],
+    "boundary_reason": "Conversation concludes and I stand up from the machine.",
+    "origin_chunk": 5
+  },
+  {
+    "id": 138,
+    "start": 69208,
+    "end": 69261,
+    "text": "I wait and look around the gym equipment area.",
+    "refs": [
+      1112,
+      1113,
+      1114,
+      1115,
+      1116,
+      1117,
+      1118,
+      1119,
+      1120
+    ],
+    "boundary_reason": "Waiting concludes and I begin using my smartphone.",
+    "origin_chunk": 5
+  },
+  {
+    "id": 139,
+    "start": 69262,
+    "end": 69354,
+    "text": "I type a query about LLM SFT generalization and regularization on my smartphone.",
+    "refs": [
+      1121,
+      1122,
+      1123,
+      1124,
+      1125,
+      1126,
+      1127,
+      1128,
+      1129,
+      1130,
+      1131,
+      1132,
+      1133,
+      1134,
+      1135,
+      1136,
+      1137,
+      1138,
+      1139,
+      1140
+    ],
+    "boundary_reason": "Smartphone use concludes and I walk toward the restroom.",
+    "origin_chunk": 5
+  },
+  {
+    "id": 140,
+    "start": 69354,
+    "end": 69367,
+    "text": "I walk to and enter the men's restroom.",
+    "refs": [
+      1141,
+      1142,
+      1143
+    ],
+    "boundary_reason": "Restroom entry marks the end of the input sequence.",
+    "origin_chunk": 5
+  }
+]

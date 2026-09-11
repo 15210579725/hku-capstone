@@ -1,0 +1,121 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group sequential immediate tasks (L2) into coherent activity episodes (L3) based on unified goals and primary locations. Form episodes for distinct phases of touring the ancient town, preparing the vehicle, specific segments of the road journey (local, toll/highway, city), changing drivers, attempting to dine, driving to an alternative restaurant, and the final dining sequence.",
+  "events": [
+    [
+      "0-18",
+      "I explore the ancient town alleyways and local sights with my companion.",
+      "Interrupts the tour to visit a public restroom."
+    ],
+    [
+      "19-20",
+      "I wash my hands in the public restroom.",
+      "Completes the restroom visit and resumes touring."
+    ],
+    [
+      "21-41",
+      "I stroll along the canal promenade to observe cats and local sights with my companion.",
+      "Transitions to exploring the commercial street."
+    ],
+    [
+      "42-55",
+      "I explore the commercial street food stalls to purchase a Haitang cake for my companion.",
+      "Focuses on phone research while navigating toward the exit."
+    ],
+    [
+      "56-68",
+      "I research blood alcohol concentration on ChatGPT during my navigation of the town roadways toward the exit.",
+      "Reaches the parking lot to board the vehicle."
+    ],
+    [
+      "69-79",
+      "I board my parked car in the parking lot.",
+      "Finishes boarding and begins setting up the vehicle."
+    ],
+    [
+      "80-101",
+      "I plan a scenic night driving route with the driver during the vehicle setup.",
+      "Completes setup and begins driving out of the parking space."
+    ],
+    [
+      "102-108",
+      "I guide the driver out of the parking lot.",
+      "Exits the parking lot onto local roads."
+    ],
+    [
+      "109-116",
+      "I guide the driver along the local multi-lane roads.",
+      "Enters the expressway and encounters a toll booth."
+    ],
+    [
+      "117-127",
+      "I assist the driver with manual toll payments during our initial expressway ride.",
+      "Clears the toll plaza to cruise on the highway."
+    ],
+    [
+      "128-146",
+      "I converse with the driver about vehicle features during our highway cruise.",
+      "Approaches the highway exit into the city."
+    ],
+    [
+      "147-153",
+      "I assist the driver in navigating across the bridge to exit the highway.",
+      "Enters the city surface streets."
+    ],
+    [
+      "154-165",
+      "I guide the driver through the city surface streets toward the Wukang Building.",
+      "Stops to switch drivers."
+    ],
+    [
+      "166",
+      "I swap seats with my companion to take over driving the car.",
+      "Takes over driving to a restaurant destination."
+    ],
+    [
+      "167-186",
+      "I drive the car through the city toward a crab roe noodle restaurant.",
+      "Arrives at the underground parking garage for the restaurant."
+    ],
+    [
+      "187-193",
+      "I abandon the initial restaurant due to a long wait time after parking in the underground garage.",
+      "Leaves the garage to drive to an alternative location."
+    ],
+    [
+      "194-233",
+      "I drive the car through city traffic toward an alternative restaurant.",
+      "Arrives near the new destination and begins finding parking."
+    ],
+    [
+      "234-237",
+      "I park the car in a paid lot near the destination.",
+      "Leaves the car to walk to the restaurant."
+    ],
+    [
+      "238-241",
+      "I walk into the mall with my companion to locate the restaurant.",
+      "Reaches the restaurant and orders the meal."
+    ],
+    [
+      "242-250",
+      "I order a crab roe meal on my smartphone after settling at the restaurant table.",
+      "The food arrives and dining begins."
+    ],
+    [
+      "251-261",
+      "I dine on a crab roe meal with my companion.",
+      "Recording ends."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      13
+    ],
+    "boundary_cautions": []
+  }
+}
+```

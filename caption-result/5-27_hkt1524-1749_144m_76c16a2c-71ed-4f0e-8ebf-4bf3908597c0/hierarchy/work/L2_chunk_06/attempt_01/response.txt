@@ -1,0 +1,149 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks, focusing on discrete kitchen cleanup steps, setting up the dining area, fetching items, and phases of eating categorized by specific conversational topics or physical actions (e.g., fetching salt, watching a friend add seasoning).",
+  "events": [
+    [
+      "1250-1253",
+      "I wipe a floral bowl.",
+      "Task completion of cleaning a single bowl."
+    ],
+    [
+      "1254-1255",
+      "I place a cucumber on the countertop.",
+      "Discrete action of moving an ingredient."
+    ],
+    [
+      "1256-1260",
+      "I wash a knife, cutting board, and pot.",
+      "Continuous sequence of washing kitchen tools."
+    ],
+    [
+      "1261-1262",
+      "I turn on the rice cooker.",
+      "Task completion of operating the appliance."
+    ],
+    [
+      "1263-1264",
+      "I wash a floral bowl.",
+      "Discrete washing action before turning off the tap."
+    ],
+    [
+      "1265-1266",
+      "I move the frying pan of fried rice to the table.",
+      "Task completion of transferring the food."
+    ],
+    [
+      "1267-1270",
+      "I tidy up items around the dining table.",
+      "Continuous sequence of moving unrelated items away from the eating area."
+    ],
+    [
+      "1271-1274",
+      "I invite my partner to eat.",
+      "Task completion of notifying a roommate."
+    ],
+    [
+      "1275-1280",
+      "I retrieve and rinse spoons in the kitchen.",
+      "Continuous sequence of fetching and preparing utensils."
+    ],
+    [
+      "1281-1282",
+      "I eat fried rice at the dining table.",
+      "Initial tasting of the food."
+    ],
+    [
+      "1283-1291",
+      "I pick up a spatula and wash it in the kitchen.",
+      "Continuous action of dealing with the spatula."
+    ],
+    [
+      "1292-1297",
+      "I suggest eating on the rolling cart and walk into the bedroom.",
+      "Transition of plan to change the dining location."
+    ],
+    [
+      "1298-1314",
+      "I set up the rolling cart and chairs for dining.",
+      "Continuous sequence of preparing the impromptu dining table."
+    ],
+    [
+      "1315-1335",
+      "I scoop fried rice and observe my companions eating.",
+      "Phase of observing and beginning the shared meal."
+    ],
+    [
+      "1336-1341",
+      "I retrieve a glass cup from the bedroom desk.",
+      "Discrete fetching task."
+    ],
+    [
+      "1342-1360",
+      "I eat fried rice and converse with my companions about the ingredients.",
+      "Continuous period of eating and discussing the dish's contents."
+    ],
+    [
+      "1361-1367",
+      "I wash a metal spoon in the kitchen.",
+      "Discrete cleaning task."
+    ],
+    [
+      "1368-1399",
+      "I eat fried rice and discuss the meal's convenience.",
+      "Continuous conversational phase while eating."
+    ],
+    [
+      "1400-1414",
+      "I discuss the food's lack of salt with my companion.",
+      "Shift in conversational topic leading to an action."
+    ],
+    [
+      "1415-1422",
+      "I fetch a spoonful of salt from the kitchen.",
+      "Discrete fetching task to adjust the food's seasoning."
+    ],
+    [
+      "1423-1437",
+      "I stir the salt into the fried rice and continue eating.",
+      "Continuous action of mixing in seasoning and eating."
+    ],
+    [
+      "1438-1452",
+      "I discuss breakfast and watch my friend photograph the food.",
+      "Conversational phase focused on tomorrow's meal and photo-taking."
+    ],
+    [
+      "1453-1464",
+      "I eat fried rice and discuss the dish preparation with my friend.",
+      "Shift in conversation back to the current food."
+    ],
+    [
+      "1465-1470",
+      "I watch my friend add seaweed seasoning to the fried rice.",
+      "Distinct event of another person modifying the food."
+    ],
+    [
+      "1471-1478",
+      "I eat fried rice and listen to a conversation about a roommate's exchange program.",
+      "Conversational phase focused on a third party."
+    ],
+    [
+      "1479-1485",
+      "I listen to my friends discuss the kitchen exhaust hood.",
+      "Shift in conversational topic to household appliances."
+    ],
+    [
+      "1486-1499",
+      "I eat fried rice and converse about utensils and missing ingredients.",
+      "Conversational phase as another roommate joins the meal."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

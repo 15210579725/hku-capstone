@@ -1,0 +1,134 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous L1 events into L2 immediate tasks based on distinct physical actions (e.g., preparing food, inspecting objects) and shifts in conversational topics during the meal.",
+  "events": [
+    [
+      "1500-1505",
+      "I discuss food choices with my roommate.",
+      "Conversation shifts to physically preparing the food"
+    ],
+    [
+      "1506-1531",
+      "I prepare sugar-coated sliced tomatoes in the kitchen.",
+      "Preparation finishes, shifting to a conversation near the refrigerator"
+    ],
+    [
+      "1532-1539",
+      "I converse with a person at the refrigerator about the sliced tomatoes.",
+      "Conversation pauses, shifting to moving the food"
+    ],
+    [
+      "1540-1547",
+      "I carry the plate of tomatoes to the dining area.",
+      "Plate is set down, shifting to eating and new conversation"
+    ],
+    [
+      "1548-1556",
+      "I discuss food preferences with my friends over fried rice.",
+      "Conversation topic shifts to exams and careers"
+    ],
+    [
+      "1557-1578",
+      "I listen to my friends discuss exams, career plans, and their parents.",
+      "Conversation topic shifts to a friend's military connections"
+    ],
+    [
+      "1579-1592",
+      "I listen to my friend describe her father's military connections.",
+      "Conversation topic shifts to offering leftovers"
+    ],
+    [
+      "1593-1596",
+      "I offer leftover food to my friend.",
+      "Conversation topic shifts to offering noodles"
+    ],
+    [
+      "1597-1604",
+      "I offer a package of noodles to my friend.",
+      "Conversation topic shifts to a mutual acquaintance's cooking habits"
+    ],
+    [
+      "1605-1616",
+      "I listen to my friends discuss a mutual acquaintance's cooking habits.",
+      "Conversation topic shifts to losing abdominal muscles"
+    ],
+    [
+      "1617-1621",
+      "I joke with my friend about losing my abdominal muscles.",
+      "Conversation topic shifts to a friend's singing videos and relationship"
+    ],
+    [
+      "1622-1647",
+      "I converse with my friends about a mutual friend's singing videos and romantic relationship.",
+      "Conversation topic shifts to cooking eggs and a damaged pan"
+    ],
+    [
+      "1648-1658",
+      "I listen to my friends discuss cooking eggs and a damaged frying pan.",
+      "Conversation topic shifts to someone feeling abandoned"
+    ],
+    [
+      "1659-1664",
+      "I converse with my friend about someone feeling abandoned.",
+      "Conversation topic shifts to the sweetness of the tomatoes"
+    ],
+    [
+      "1665-1671",
+      "I discuss the sweetness of the sugar-coated tomatoes with my friend.",
+      "Conversation topic shifts to renting an apartment"
+    ],
+    [
+      "1672-1677",
+      "I listen to my friend discuss renting an apartment and commuting.",
+      "Conversation ends, shifting to inspecting a box on the table"
+    ],
+    [
+      "1678-1683",
+      "I inspect a box of sealed bags on the table.",
+      "Inspection ends, shifting to conversation about commuting and credits"
+    ],
+    [
+      "1684-1691",
+      "I converse with my friends about commuting and school credits.",
+      "Conversation topic shifts to job plans and someone's personality"
+    ],
+    [
+      "1692-1699",
+      "I converse with my friends about job plans and someone's personality.",
+      "Conversation topic shifts to sunburns and tan lines"
+    ],
+    [
+      "1700-1712",
+      "I listen to my friends discuss sunburns and tan lines.",
+      "Conversation shifts to playfully teasing a friend"
+    ],
+    [
+      "1713-1721",
+      "I playfully tease my friend with an eyelash curler.",
+      "Teasing ends, shifting to observing friends discuss leftovers"
+    ],
+    [
+      "1722-1725",
+      "I observe my friends discussing leftovers.",
+      "Observation ends, shifting to conversation about physical fitness"
+    ],
+    [
+      "1726-1740",
+      "I listen to my friends discuss physical fitness and family photos.",
+      "Conversation topic shifts to poor circulation and hospital visits"
+    ],
+    [
+      "1741-1749",
+      "I converse with my friends about poor circulation and hospital visits.",
+      "End of provided input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

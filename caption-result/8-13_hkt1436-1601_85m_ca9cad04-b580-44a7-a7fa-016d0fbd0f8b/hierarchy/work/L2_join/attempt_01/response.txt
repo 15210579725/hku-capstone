@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Check each eligible pair to see if they represent the exact same immediate L2 task across a transport batch boundary. Merge [14, 15] because both involve monitoring the download progress script in the terminal. Do not merge [34, 35] because reading ChatGPT's analysis is a distinct task from instructing the Codex AI agent. Merge [52, 53] because both involve browsing the X feed.",
+  "merges": [
+    [
+      14,
+      15,
+      "I monitor the download progress script in the terminal.",
+      "Same monitoring task continues across batch edge"
+    ],
+    [
+      52,
+      53,
+      "I browse posts and videos on X.",
+      "Same browsing task continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

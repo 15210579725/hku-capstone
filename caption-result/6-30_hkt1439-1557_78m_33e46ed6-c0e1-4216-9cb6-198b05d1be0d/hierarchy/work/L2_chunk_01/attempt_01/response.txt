@@ -1,0 +1,134 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group contiguous driving segments into immediate tasks based on shared primary interactions, such as conversing with the passenger about specific topics, navigating distinct road sections, reacting to environmental changes like rain, or observing specific landmarks.",
+  "events": [
+    [
+      "0-7",
+      "I navigate out of the gravel parking lot onto the village lane.",
+      "Exits the parking lot onto a narrow village lane."
+    ],
+    [
+      "8-12",
+      "I drive the vehicle down the narrow village lane.",
+      "Transitions from the narrow village lane to accelerating on a broader rural road."
+    ],
+    [
+      "13-22",
+      "I experience the cool breeze driving along the rural road.",
+      "Focus shifts from enjoying the breeze to navigating curves and oncoming traffic."
+    ],
+    [
+      "23-34",
+      "I navigate past oncoming traffic on the wet rural road curves.",
+      "Completes passing oncoming traffic to drive along a straight tree-lined stretch."
+    ],
+    [
+      "35-43",
+      "I steer along the wet tree-lined stretch of road.",
+      "Passenger initiates an interaction with the climate controls."
+    ],
+    [
+      "44-51",
+      "I monitor the road observing the passenger adjust the climate controls.",
+      "Passenger finishes adjusting controls and heavy rain begins on the mountain road."
+    ],
+    [
+      "52-67",
+      "I express my enjoyment of the heavy rain driving along the mountain road.",
+      "Driver shifts focus to checking navigation as the intense rain begins to decrease."
+    ],
+    [
+      "68-74",
+      "I observe the decreasing rain checking navigation on the misty road.",
+      "Finishes observing the lighter rain and focuses on navigating the road curve."
+    ],
+    [
+      "75-81",
+      "I navigate the curve observing the passenger press the climate buttons.",
+      "Passenger stops pressing buttons and a conversation about the rain stopping begins."
+    ],
+    [
+      "82-87",
+      "I discuss the brief pause in the rain with the passenger.",
+      "Conversation about the brief pause in the rain concludes."
+    ],
+    [
+      "88-103",
+      "I pass oncoming vehicles driving along the wet rural road.",
+      "Notices and comments on the rain intensifying again."
+    ],
+    [
+      "104-118",
+      "I check the phone navigation driving the mountain road curves during intensifying rain.",
+      "Driver announces that the rain has completely stopped."
+    ],
+    [
+      "119-126",
+      "I announce the stop of the rain cruising along the mountain road.",
+      "Approaches a concrete overpass."
+    ],
+    [
+      "127-133",
+      "I drive under a concrete overpass onto the open road.",
+      "Clears the overpass and encounters sudden interaction with the passenger."
+    ],
+    [
+      "134-141",
+      "I react to the passenger suddenly adjusting the air conditioning.",
+      "Completes the brief reaction to the passenger's air conditioning adjustment."
+    ],
+    [
+      "142-157",
+      "I manage my windblown hair steering along the wet winding road with my hand extended.",
+      "Driver begins actively following a silver SUV."
+    ],
+    [
+      "158-179",
+      "I discuss the difficulty of overtaking a silver SUV with the passenger.",
+      "Concludes conversation about overtaking to observe roadside signs."
+    ],
+    [
+      "180-188",
+      "I observe roadside signs following a dump truck along the rural road.",
+      "Driver changes posture to rest hand outside the window."
+    ],
+    [
+      "189-204",
+      "I hold my hand outside the window to feel the cool air driving the rural road.",
+      "Driver adjusts posture and begins a new interaction about a song."
+    ],
+    [
+      "205-220",
+      "I pass oncoming traffic steering one-handed along the open road.",
+      "Starts actively checking the smartphone navigation."
+    ],
+    [
+      "221-228",
+      "I check the smartphone navigation driving along the rural road.",
+      "Notices roadside crops and initiates a conversation about them."
+    ],
+    [
+      "229-238",
+      "I discuss the identity of the roadside crops driving along the guardrail-lined road.",
+      "Conversation about crops ends as the driver approaches a bridge."
+    ],
+    [
+      "239-243",
+      "I check the dashboard controls and phone navigation driving across a bridge.",
+      "Clears the bridge as the passenger initiates a conversation about meal plans."
+    ],
+    [
+      "244-249",
+      "I drive toward Anping Village listening to the passenger discuss upcoming meal plans.",
+      "End of provided input."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

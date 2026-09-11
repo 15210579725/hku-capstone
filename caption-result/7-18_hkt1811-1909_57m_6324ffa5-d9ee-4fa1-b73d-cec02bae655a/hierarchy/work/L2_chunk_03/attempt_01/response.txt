@@ -1,0 +1,99 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group consecutive observations into immediate tasks based on a shared primary target or location, such as using a smartphone, navigating a specific segment of the mall, examining a specific store's menu, or inspecting display items. Separate extended device interactions and distinct stops from general walking.",
+  "events": [
+    [
+      "500-510",
+      "I use my smartphone to view food photos and chat with babe on WeChat about a BBQ.",
+      "Locks smartphone"
+    ],
+    [
+      "511-516",
+      "I browse various product shelves as I walk toward the supermarket exit.",
+      "Approaches exit"
+    ],
+    [
+      "517-518",
+      "I answer a companion's question about buying groceries.",
+      "Conversation ends"
+    ],
+    [
+      "519-537",
+      "I walk down the mall corridor past various restaurants and promotional displays.",
+      "Stops at the exit to look outside"
+    ],
+    [
+      "538-545",
+      "I observe the heavy rain and outdoor plaza from the mall exit.",
+      "Turns to face a restaurant entrance inside"
+    ],
+    [
+      "546-573",
+      "I walk through the mall concourse past restaurants and kiosks while experiencing knee pain.",
+      "Stops to use smartphone"
+    ],
+    [
+      "574-596",
+      "I use my smartphone to browse WeChat and purchase eyeglass nose pads on Taobao.",
+      "Payment completes and puts focus back on walking"
+    ],
+    [
+      "597-624",
+      "I walk down the mall corridor past various shops and restaurants.",
+      "Stops to inspect a specific restaurant menu"
+    ],
+    [
+      "625-632",
+      "I inspect the Zhanglala noodle menu and state that I am not hungry.",
+      "Leaves the menu area"
+    ],
+    [
+      "633-639",
+      "I walk past hoardings to a resting area while stating that I am hurt.",
+      "Transitions to entering the lobby"
+    ],
+    [
+      "640-650",
+      "I enter the lobby and examine the mall directory listings for different floors.",
+      "Leaves lobby to enter mall concourse"
+    ],
+    [
+      "651-661",
+      "I walk along the shopping mall concourse past restaurants and inspect a small zip-lock bag.",
+      "Shifts attention to a restaurant menu"
+    ],
+    [
+      "662-670",
+      "I examine the digital menu and promotional posters at Guoqianer restaurant.",
+      "Leaves the Guoqianer menu area"
+    ],
+    [
+      "671-703",
+      "I walk down the mall corridor past various restaurants and storefronts, examining a zip-lock pouch along the way.",
+      "Enters the Xiaomi store"
+    ],
+    [
+      "704-708",
+      "I enter the Xiaomi store and examine the smart accessories and AI glasses.",
+      "Moves to the laptop display"
+    ],
+    [
+      "709-738",
+      "I examine the specifications and operating system of a Xiaomi Book Pro 14 laptop.",
+      "Leaves laptop table to check smartphones"
+    ],
+    [
+      "739-749",
+      "I move to the smartphone counter and watch Douyin videos on a Xiaomi MIX Fold 4.",
+      "End of provided input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

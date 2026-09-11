@@ -1,107 +1,137 @@
 ```json
 {
   "target_level": "L2",
-  "plan": "Group sequential actions into immediate tasks based on a shared location and immediate goal, such as completing a specific cooking step, taking out the trash, eating, or sending a text message. Boundaries occur when the user shifts to a distinct immediate task, such as moving from cooking to phone use, changing the focus from food preparation to cleaning, or transitioning between meals.",
+  "plan": "Group consecutive brief actions into immediate tasks focused on a single objective, such as cooking specific items, taking out the trash, eating, washing dishes, and using a phone.",
   "events": [
     [
-      "1500-1506",
-      "I finish cooking a tortilla on the kitchen stove after discarding a plastic bag.",
-      "Ends after the stove is turned off following the tortilla cooking."
+      "1500",
+      "I throw a plastic bag into the trash can.",
+      "Discrete action before cooking"
     ],
     [
-      "1507-1531",
-      "I handle the kitchen garbage disposal and new bin liner installation.",
-      "Ends when the new garbage bag is fully installed in the kitchen bin."
+      "1501-1506",
+      "I cook and flip a tortilla or pancake in the frying pan.",
+      "Stove turned off"
+    ],
+    [
+      "1507-1518",
+      "I take the tied garbage bag out to the building's garbage and recycling bins.",
+      "Bag discarded; returning with empty container"
+    ],
+    [
+      "1519-1531",
+      "I retrieve the empty trash can and line it with a new garbage bag.",
+      "Drawer closed, trash can lined"
     ],
     [
       "1532-1538",
-      "I finish cooking a flatbread in the frying pan.",
-      "Ends after the stove is turned off following the flatbread cooking."
+      "I flip and fold the flatbread cooking in the frying pan.",
+      "Stove turned off"
     ],
     [
-      "1539-1548",
-      "I retrieve a packaged sausage from the kitchen cabinets for my meal.",
-      "Ends when the packaged sausage is retrieved and opened for cooking."
+      "1539-1549",
+      "I retrieve a packaged sausage from the kitchen cabinet and place it into the frying pan.",
+      "Sausage placed in pan"
     ],
     [
-      "1549-1565",
-      "I cook an egg and a sausage with foil pouch seasoning in the frying pan.",
-      "Ends when the egg and sausage finish cooking in the pan."
+      "1550-1551",
+      "I cook an egg in the frying pan on the stove.",
+      "Cooking action completes"
     ],
     [
-      "1566-1567",
-      "I transfer the cooked eggs from the frying pan into a patterned bowl.",
-      "Ends when the cooked eggs are fully transferred into the bowl."
+      "1552-1554",
+      "I walk to the dining table and return to the kitchen.",
+      "Returns to kitchen stove"
     ],
     [
-      "1568-1580",
-      "I eat my bowl of food during a walk through the apartment hallway and living area.",
-      "Ends when returning to the kitchen to set the bowl down."
+      "1555-1563",
+      "I add seasoning from a silver foil pouch to the food cooking in the pan and stir it.",
+      "Finished seasoning and stirring"
     ],
     [
-      "1581-1587",
-      "I begin cooking a frozen flatbread in the frying pan.",
-      "Ends when the frozen flatbread is placed in the pan to cook."
+      "1564-1567",
+      "I stir-fry the eggs and transfer them into a small bowl.",
+      "Eggs plated"
+    ],
+    [
+      "1568-1581",
+      "I walk around the apartment while eating the cooked eggs from the bowl.",
+      "Places empty bowl on kitchen counter"
+    ],
+    [
+      "1582-1584",
+      "I stir food in the frying pan and adjust the stove controls.",
+      "Finished adjusting stove"
+    ],
+    [
+      "1585-1587",
+      "I retrieve a frozen flatbread from the mini refrigerator and lay it into the frying pan.",
+      "Flatbread placed in pan"
     ],
     [
       "1588-1598",
-      "I prepare a washed and sliced tomato at the kitchen sink.",
-      "Ends when the tomato is completely sliced and washed."
+      "I retrieve a red tomato from the dining area, then slice and wash it at the kitchen sink.",
+      "Finished washing tomato"
     ],
     [
       "1599-1605",
-      "I monitor the cooking flatbread and countertop items in the kitchen.",
-      "Ends when turning away from the stove to wash hands."
+      "I inspect the cooking food and items on the kitchen countertop.",
+      "Inspection complete"
     ],
     [
-      "1606-1612",
-      "I clean my hands at the kitchen sink using water and a dining area tissue.",
-      "Ends when hands are dried and attention shifts back to the kitchen."
+      "1606-1607",
+      "I wash my hands thoroughly at the kitchen sink.",
+      "Hand washing complete"
     ],
     [
-      "1613-1626",
-      "I tend the cooking flatbread in the frying pan.",
-      "Ends when leaving the kitchen to check a phone message."
+      "1608-1617",
+      "I wipe my hands with a tissue in the dining area and return to monitor the cooking pancake.",
+      "Ready to manipulate pancake"
     ],
     [
-      "1627-1636",
-      "I reply to a WeChat message on my phone about eating tomatoes and sweet potatoes.",
-      "Ends when the phone is put away to return to the kitchen."
+      "1618-1627",
+      "I loosen and flip the cooking pancake in the frying pan with a metal spatula.",
+      "Pancake flipped and turns to sink"
+    ],
+    [
+      "1628-1636",
+      "I use WeChat on my phone in the dining area to send messages about my meal.",
+      "Finishes phone interaction"
     ],
     [
       "1637-1640",
-      "I adjust the cooking flatbread and a covered pot on the kitchen stove.",
-      "Ends when leaving the kitchen again after adjusting the cookware."
+      "I flip the pancake in the frying pan and cover another pot.",
+      "Leaves kitchen again"
     ],
     [
-      "1641-1648",
-      "I reply to a chat message on my phone about meal options.",
-      "Ends when finishing the phone chat and returning to the kitchen."
+      "1641-1647",
+      "I type a reply to a chat message on my phone in the dining area.",
+      "Finishes phone reply"
     ],
     [
-      "1649-1654",
-      "I transfer the cooked flatbread from the frying pan into a glass bowl.",
-      "Ends when the cooked flatbread is plated into the glass bowl."
+      "1648-1657",
+      "I finish cooking the scallion pancake and transfer it into a glass bowl.",
+      "Pancake plated"
     ],
     [
-      "1655-1673",
-      "I consume the flatbread from the bowl during a walk around the apartment.",
-      "Ends when the flatbread is completely eaten and the empty bowl is set down."
+      "1658-1673",
+      "I eat the scallion pancake from the bowl with a fork.",
+      "Bowl emptied and placed on counter"
     ],
     [
       "1674-1683",
-      "I wash the frying pan under running water in the kitchen sink.",
-      "Ends when the clean frying pan is placed back on the stove."
+      "I turn off the stove and wash the frying pan at the kitchen sink.",
+      "Pan washing complete"
     ],
     [
-      "1684-1694",
+      "1684-1695",
       "I wash a small bowl and my hands at the kitchen sink.",
-      "Ends when hand washing is complete after cleaning the remaining dishes."
+      "Washing tasks complete"
     ],
     [
-      "1695-1698",
-      "I observe a dark appliance in the dimly lit bathroom.",
-      "Ends at the conclusion of the recording."
+      "1696-1698",
+      "I stand in the dimly lit bathroom.",
+      "End of recorded sequence"
     ]
   ],
   "audit": {

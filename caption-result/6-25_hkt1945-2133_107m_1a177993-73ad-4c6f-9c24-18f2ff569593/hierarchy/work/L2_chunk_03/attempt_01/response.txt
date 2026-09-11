@@ -1,0 +1,114 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group sequences of brief actions into unified immediate tasks based on continuous goal-directed behavior such as traveling home, interacting with roommates, organizing items, eating distinct phases of a meal, and brief interludes for minor chores.",
+  "events": [
+    [
+      "500-520",
+      "I return to my apartment via the elevator.",
+      "Arrives at the apartment and begins unpacking groceries."
+    ],
+    [
+      "521-527",
+      "I unpack fruit from grocery bags at the dining table.",
+      "Finishes unpacking fruit and moves to check on a person in the bedroom."
+    ],
+    [
+      "528-536",
+      "I interact with a person resting in the bedroom.",
+      "Leaves the bedroom to check the food and rice cooker."
+    ],
+    [
+      "537-545",
+      "I discuss the rice cooking time with my roommate.",
+      "Concludes conversation about the rice and goes to bedroom B."
+    ],
+    [
+      "546-559",
+      "I offer a mango milkshake to a person resting in bedroom B.",
+      "The person declines the milkshake, shifting focus to nearby items."
+    ],
+    [
+      "560-565",
+      "I interact with items near the desk and shelving rack in bedroom B.",
+      "Leaves the bedroom area to unpack more items."
+    ],
+    [
+      "566-575",
+      "I unpack disposable cups and mangoes at the dining table.",
+      "Finishes unpacking the cups and mangoes."
+    ],
+    [
+      "576-577",
+      "I observe the rice cooker upon hearing someone speak.",
+      "Finishes checking the rice cooker and begins eating chicken."
+    ],
+    [
+      "578-594",
+      "I eat chicken wings from the air fryer basket at the dining table.",
+      "Interrupts eating to fetch a bowl from the kitchen."
+    ],
+    [
+      "595-599",
+      "I fetch a ceramic bowl from the kitchen.",
+      "Retrieves the bowl and proceeds to the bedroom."
+    ],
+    [
+      "600-604",
+      "I turn off the desk lamp and laptop in the bedroom.",
+      "Finishes turning off electronics and returns to the dining area."
+    ],
+    [
+      "605-606",
+      "I inspect a takeout bag at the dining table.",
+      "Finishes inspecting the takeout bag and goes to get rice."
+    ],
+    [
+      "607-617",
+      "I bring a bowl of cooked rice from the kitchen to the dining table.",
+      "Brings the rice to the table and goes to fetch a smartphone."
+    ],
+    [
+      "618-621",
+      "I retrieve my smartphone from the bedroom.",
+      "Retrieves the smartphone and returns to eat."
+    ],
+    [
+      "622-661",
+      "I eat a meal of chicken, rice, and sushi at the dining table.",
+      "Interrupts the meal to fill a kettle in the bathroom."
+    ],
+    [
+      "662-666",
+      "I fill an electric kettle with water in the bathroom.",
+      "Finishes filling the kettle and returns to the bedroom."
+    ],
+    [
+      "667",
+      "I observe my beige bag in the bedroom.",
+      "Notices a bag before returning to the dining table."
+    ],
+    [
+      "668-731",
+      "I continue eating my meal of chicken, rice, and sushi at the dining table.",
+      "Finishes eating the meal and begins cleaning up."
+    ],
+    [
+      "732-741",
+      "I tidy a food tray and the air fryer basket in the kitchen.",
+      "Finishes organizing the kitchen items and returns to the dining area."
+    ],
+    [
+      "742-749",
+      "I inspect a white plastic grocery bag in the dining area.",
+      "End of provided events."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

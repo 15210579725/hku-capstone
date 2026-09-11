@@ -1,0 +1,60 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Identify and merge continuous tasks that were split by batch boundaries, where the user's action and target remain the same across the split.",
+  "merges": [
+    [
+      29,
+      30,
+      "I search for and browse portable mini fans on Taobao.",
+      "Same Taobao browsing task continues across batch edge"
+    ],
+    [
+      51,
+      52,
+      "I observe the ice skaters at the indoor rink.",
+      "Same observing task continues across batch edge"
+    ],
+    [
+      62,
+      63,
+      "I watch the skaters and ice resurfacer at the indoor ice rink.",
+      "Same ice rink observation continues across batch edge"
+    ],
+    [
+      91,
+      92,
+      "I discuss a frustrating customer service and dining experience with my companions.",
+      "Same conversation topic continues across batch edge"
+    ],
+    [
+      114,
+      115,
+      "I examine and test the AirPods Max.",
+      "Same product evaluation continues across batch edge"
+    ],
+    [
+      210,
+      211,
+      "I operate the Claude Code terminal for configuration.",
+      "Same terminal task continues across batch edge"
+    ],
+    [
+      233,
+      234,
+      "I log into the Claude application.",
+      "Same login task continues across batch edge"
+    ],
+    [
+      253,
+      254,
+      "I generate and export participant experiment data on the Gorilla platform.",
+      "Same data platform task continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

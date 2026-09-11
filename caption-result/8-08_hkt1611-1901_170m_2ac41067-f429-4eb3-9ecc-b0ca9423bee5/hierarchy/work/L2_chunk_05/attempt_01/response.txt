@@ -1,0 +1,124 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous electric scooter riding segments based on distinct environments, points of interest, interactions (like gates or dead ends), and time gaps.",
+  "events": [
+    [
+      "1000-1006",
+      "I rent and mount an electric scooter.",
+      "Completed renting and mounting scooter"
+    ],
+    [
+      "1007-1016",
+      "I ride the electric scooter through a campus.",
+      "Reached a security gate"
+    ],
+    [
+      "1017-1019",
+      "I ask a security guard to open the gate and ride through.",
+      "Passed the security gate"
+    ],
+    [
+      "1020-1037",
+      "I ride the electric scooter along Sunpu Road.",
+      "Entered a guarded bike lane"
+    ],
+    [
+      "1038-1050",
+      "I ride the electric scooter across a bridge and a crosswalk intersection.",
+      "Completed intersection crossing"
+    ],
+    [
+      "1051-1065",
+      "I ride the electric scooter past parked vehicles toward an intersection.",
+      "Arrived at an intersection"
+    ],
+    [
+      "1066-1072",
+      "I wait at a red light and turn right at the intersection.",
+      "Completed right turn"
+    ],
+    [
+      "1073-1087",
+      "I ride the electric scooter along the canal road past a cemetery gate.",
+      "Passed the cemetery gate"
+    ],
+    [
+      "1088-1098",
+      "I ride the electric scooter along a tree-lined road.",
+      "Reached a time gap in the recording"
+    ],
+    [
+      "1099-1111",
+      "I follow an orange Audi SUV along the street.",
+      "Entered a food shop street"
+    ],
+    [
+      "1112-1118",
+      "I ride the electric scooter through a food shop street and cross an intersection.",
+      "Crossed the intersection"
+    ],
+    [
+      "1119-1131",
+      "I ride the electric scooter toward an elevated maglev viaduct.",
+      "Arrived under the viaduct"
+    ],
+    [
+      "1132-1156",
+      "I observe a passing maglev train and inspect the viaduct structure.",
+      "Resumed riding forward"
+    ],
+    [
+      "1157-1165",
+      "I reach a dead end at a footbridge and turn the electric scooter around.",
+      "Turned around from the dead end"
+    ],
+    [
+      "1166-1178",
+      "I ride the electric scooter back along the concrete road past buildings.",
+      "Approached an intersection"
+    ],
+    [
+      "1179-1191",
+      "I ride the electric scooter along a tree-lined road past a police station.",
+      "Approached commercial storefronts"
+    ],
+    [
+      "1192-1201",
+      "I ride the electric scooter past roadside storefronts and across a river bridge.",
+      "Crossed the river bridge"
+    ],
+    [
+      "1202-1214",
+      "I ride the electric scooter past a residential area and cross another bridge.",
+      "Reached a time gap in the recording"
+    ],
+    [
+      "1215-1221",
+      "I ride the electric scooter past a boom barrier into a forest area.",
+      "Entered the forest path"
+    ],
+    [
+      "1222-1230",
+      "I ride the electric scooter along a curved forest path.",
+      "Approached a stone bridge"
+    ],
+    [
+      "1231-1236",
+      "I cross a stone bridge to view a lakeside kayak area.",
+      "Finished viewing the lake area"
+    ],
+    [
+      "1237-1249",
+      "I ride the electric scooter down a tree-lined village road.",
+      "End of input batch"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

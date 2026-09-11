@@ -1,0 +1,114 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group action briefs into immediate tasks based on application switches (Feishu, ChatGPT, QuickTime) and distinct task phases such as alternating between focused reading/reviewing and active typing.",
+  "events": [
+    [
+      "0-8",
+      "I walk down the office corridor to my work table.",
+      "Arrives at the work table to begin working"
+    ],
+    [
+      "9-25",
+      "I read the Feishu document on behavioral analysis and the Lucia timeline.",
+      "Shifts from reading the Feishu document to reading ChatGPT"
+    ],
+    [
+      "26-33",
+      "I read a ChatGPT response about video concatenation.",
+      "Switches from reading a previous response to drafting a new ChatGPT prompt"
+    ],
+    [
+      "34-41",
+      "I type a ChatGPT prompt to draw the Lucia Day 5 captions on a timeline.",
+      "Shifts from typing in ChatGPT to opening and watching a local video file"
+    ],
+    [
+      "42-59",
+      "I scrub through a local video playback in QuickTime Player.",
+      "Closes the video player to begin typing analysis notes in Feishu"
+    ],
+    [
+      "60-75",
+      "I type introductory behavior analysis notes about the Lucia video into the Feishu document.",
+      "Finishes the introductory typing and shifts to reviewing attachments for specific observations"
+    ],
+    [
+      "76-95",
+      "I type further behavior observations about the video into the Feishu document.",
+      "Switches focus from the Feishu document to drafting new formatting instructions in ChatGPT"
+    ],
+    [
+      "96-110",
+      "I draft instructions in ChatGPT to format each event on a separate line.",
+      "Shifts from ChatGPT back to typing a new behavioral analogy in Feishu"
+    ],
+    [
+      "111-128",
+      "I type an analogy about a cat reacting to tape to explain habit triggers in the Feishu document.",
+      "Pauses typing to review the document section for context"
+    ],
+    [
+      "129-140",
+      "I review the habit-driven behavior section in the Feishu document.",
+      "Resumes typing the conclusion of the analogy"
+    ],
+    [
+      "141-161",
+      "I type the conclusion of the cat habit analogy into the Feishu document.",
+      "Shifts from typing in Feishu to editing the ChatGPT prompt"
+    ],
+    [
+      "162-168",
+      "I edit the ChatGPT prompt to include different event trigger causes.",
+      "Pauses briefly to review the evaluation table in Feishu"
+    ],
+    [
+      "169-171",
+      "I review the evaluation table in the Feishu document.",
+      "Returns to the ChatGPT prompt to add more instructions"
+    ],
+    [
+      "172-188",
+      "I add color-coding and action breakdown instructions to the ChatGPT prompt.",
+      "Switches focus to transferring action descriptions from Feishu"
+    ],
+    [
+      "189-192",
+      "I send action descriptions from the Feishu document into ChatGPT.",
+      "Navigates away to review a different video synthesis chat"
+    ],
+    [
+      "193-194",
+      "I review video synthesis details in ChatGPT.",
+      "Returns to reviewing the main Feishu document"
+    ],
+    [
+      "195-214",
+      "I review the behavioral analysis text and timeline in the Feishu document.",
+      "Shifts back to typing video visualization instructions in ChatGPT"
+    ],
+    [
+      "215-228",
+      "I type instructions for video subtitles and a colored progress timeline into ChatGPT.",
+      "Pauses typing to review the submitted prompt and ChatGPT's response"
+    ],
+    [
+      "229-238",
+      "I review my timeline prompt and the ChatGPT response about caption timestamps.",
+      "Shifts back to typing additional playback instructions"
+    ],
+    [
+      "239-249",
+      "I type instructions for subtitle descriptions and dynamic playback speed into ChatGPT.",
+      "End of provided input sequence"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

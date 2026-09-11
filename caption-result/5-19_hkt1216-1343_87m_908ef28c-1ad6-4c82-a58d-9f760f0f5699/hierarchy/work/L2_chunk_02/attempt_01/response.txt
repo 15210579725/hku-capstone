@@ -1,0 +1,104 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions centered around a single immediate objective, such as interacting with an AI tool, browsing the homepage, or watching a specific video. Abstract incidental glances, tab checks, and navigation steps into the primary activity they serve. Create new boundaries when the user explicitly navigates to a new distinct video or returns to browse the homepage feed.",
+  "events": [
+    [
+      "0-5",
+      "I research drones and AR glasses on Claude.",
+      "Unified objective of interacting with Claude to research specific products."
+    ],
+    [
+      "6-17",
+      "I watch a Bilibili food vlog about a man eating snail noodles and fried chicken.",
+      "Switches focus to watching a specific Bilibili food vlog."
+    ],
+    [
+      "18-25",
+      "I browse the Bilibili homepage recommendations.",
+      "Navigates to the Bilibili homepage to browse recommended video cards."
+    ],
+    [
+      "26-57",
+      "I watch a Bilibili video about Boeing aircraft orders and C919 engine supply.",
+      "Selects and watches a specific Bilibili video about aviation and geopolitics."
+    ],
+    [
+      "58-79",
+      "I watch a Bilibili geopolitical commentary video about Donald Trump and the Gaza conflict.",
+      "Selects and watches a different geopolitical video."
+    ],
+    [
+      "80-82",
+      "I browse Bilibili homepage recommendations.",
+      "Returns to the Bilibili homepage to scan the recommendation grid."
+    ],
+    [
+      "83-93",
+      "I watch a Bilibili video about US business leaders and politicians visiting China.",
+      "Opens and watches a specific video about public figures."
+    ],
+    [
+      "94-95",
+      "I browse the Bilibili homepage feed.",
+      "Briefly returns to browsing the homepage feed."
+    ],
+    [
+      "96-101",
+      "I watch a Bilibili banquet video featuring Marco Rubio.",
+      "Previews and watches a specific Bilibili video about a political figure."
+    ],
+    [
+      "102-103",
+      "I browse Bilibili homepage recommendations.",
+      "Returns to browsing the Bilibili homepage."
+    ],
+    [
+      "104-138",
+      "I watch a Bilibili geopolitical analysis video about Vladimir Putin, Donald Trump, and Chechnya.",
+      "Selects and watches an extended geopolitical analysis video."
+    ],
+    [
+      "139-147",
+      "I browse Bilibili homepage recommendations.",
+      "Returns to browsing the Bilibili homepage recommendations."
+    ],
+    [
+      "148-153",
+      "I watch a Bilibili video of Nick Young playing street basketball.",
+      "Selects and watches a specific sports video."
+    ],
+    [
+      "154-159",
+      "I browse Bilibili homepage recommendations.",
+      "Returns to browsing the Bilibili homepage."
+    ],
+    [
+      "160-217",
+      "I watch a comprehensive Bilibili review video of the Laifen floor lamp.",
+      "Opens and watches a lengthy, detailed product review video."
+    ],
+    [
+      "218-223",
+      "I watch a Bilibili video about the Laifen AirFold fan.",
+      "Selects and watches a short product demonstration video."
+    ],
+    [
+      "224-233",
+      "I browse Bilibili homepage recommendations.",
+      "Returns to browsing the Bilibili homepage."
+    ],
+    [
+      "234-249",
+      "I watch a Bilibili video preview about Zhang Xue motorcycle racing.",
+      "Triggers and watches an extended video preview on the homepage, hitting the transport batch limit."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

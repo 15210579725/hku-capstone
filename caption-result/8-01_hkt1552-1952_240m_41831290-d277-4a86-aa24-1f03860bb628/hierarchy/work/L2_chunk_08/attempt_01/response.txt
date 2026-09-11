@@ -1,0 +1,89 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions sharing immediate goals and targets. Group navigation to the cafeteria, gathering food, paying, and finding a seat into distinct tasks. Group smartphone usage by app or overarching activity, such as messaging or browsing video feeds. Group eating phases when they become the primary focus, while allowing simultaneous eating and watching to form a unified task if focused on a specific topic. Separate the brief interaction with staff regarding the exit route as a distinct immediate task.",
+  "events": [
+    [
+      "1750-1761",
+      "I navigate through the dark building to the brightly lit main cafeteria hall.",
+      "Arrives at the active cafeteria hall"
+    ],
+    [
+      "1762-1774",
+      "I gather my meal components onto a tray at the food service counter.",
+      "Receives the final food item on the tray"
+    ],
+    [
+      "1775-1790",
+      "I pay for my cafeteria meal using Alipay.",
+      "Completes payment and prepares to carry the tray"
+    ],
+    [
+      "1791-1808",
+      "I relocate to an empty dining booth to eat my meal.",
+      "Sets the food tray down at the chosen table"
+    ],
+    [
+      "1809-1815",
+      "I use WeChat to send a photo of my meal to a contact.",
+      "Finishes messaging and transitions to eating"
+    ],
+    [
+      "1816-1833",
+      "I consume the rice, vegetables, and meat from my cafeteria tray.",
+      "Pauses eating to check the smartphone"
+    ],
+    [
+      "1834-1841",
+      "I read my incoming WeChat messages.",
+      "Transitions from messaging to launching a video app"
+    ],
+    [
+      "1842-1864",
+      "I browse a feed of short videos on Xiaohongshu.",
+      "Shifts focus to actively eating while watching a specific video"
+    ],
+    [
+      "1865-1884",
+      "I eat my food while watching a video about sales psychology.",
+      "Finishes the specific video and resumes broad scrolling"
+    ],
+    [
+      "1885-1931",
+      "I browse a variety of short videos on my smartphone.",
+      "Transitions from video browsing to actively eating"
+    ],
+    [
+      "1932-1938",
+      "I eat the food from my meal tray.",
+      "Finishes eating phase and returns to scrolling videos"
+    ],
+    [
+      "1939-1977",
+      "I scroll through various short videos on my smartphone.",
+      "Interrupted by staff member initiating a conversation"
+    ],
+    [
+      "1978-1983",
+      "I confirm my intended exit route with the locking cafeteria staff.",
+      "Completes conversation with staff and resumes eating"
+    ],
+    [
+      "1984-1997",
+      "I eat the remaining braised meat and rice from my tray.",
+      "Pauses eating to focus back on the smartphone"
+    ],
+    [
+      "1998-1999",
+      "I watch a cooking competition video on my smartphone.",
+      "Ends batch while watching the video"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

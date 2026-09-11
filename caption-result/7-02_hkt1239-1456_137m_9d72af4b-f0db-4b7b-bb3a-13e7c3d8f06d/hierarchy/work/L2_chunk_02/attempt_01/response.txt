@@ -1,0 +1,92 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group events into immediate tasks based on the primary activity being performed, such as configuring a car, browsing video recommendations, checking messages, and watching specific Bilibili videos. Interruptions for distinct independent tasks (like checking WeChat or recounting a personal story) form their own task boundaries. Incidental looks, posture changes, and brief muttering are absorbed into the ongoing overarching task.",
+  "events": [
+    [
+      "250-256",
+      "I configure an XPENG car on the XPENG website.",
+      "Switches to browsing the Bilibili homepage."
+    ],
+    [
+      "257-258",
+      "I browse the Bilibili homepage feed.",
+      "Opens a Porsche Cayenne review video."
+    ],
+    [
+      "259-319",
+      "I watch a Porsche Cayenne Turbo Electric video review on Bilibili.",
+      "Finishes the video and browses recommendations."
+    ],
+    [
+      "320-323",
+      "I browse the Bilibili recommended videos.",
+      "Opens a video about Ethiopia."
+    ],
+    [
+      "324-365",
+      "I watch a Bilibili video about the Ethiopian EV market and fuel vehicle ban.",
+      "Returns to browsing the Bilibili feed."
+    ],
+    [
+      "366-372",
+      "I browse the Bilibili video recommendations.",
+      "Starts watching a vlog by Torres."
+    ],
+    [
+      "373-413",
+      "I watch a Bilibili vlog by Torres about European city life.",
+      "Interrupts watching to recount a story."
+    ],
+    [
+      "414-417",
+      "I recount a story about a past conversation with my girlfriend.",
+      "Finishes speaking and refocuses on the video."
+    ],
+    [
+      "418-420",
+      "I resume watching the Bilibili vlog by Torres.",
+      "Video ends and returns to the Bilibili feed."
+    ],
+    [
+      "421-423",
+      "I browse the Bilibili homepage feed.",
+      "Opens a Range Rover review video."
+    ],
+    [
+      "424-435",
+      "I watch a Range Rover Evoque L review video on Bilibili.",
+      "Returns to browsing the Bilibili feed."
+    ],
+    [
+      "436",
+      "I browse the Bilibili homepage feed.",
+      "Selects a video about the MA700 aircraft."
+    ],
+    [
+      "437-438",
+      "I watch a Bilibili video about the MA700 aircraft.",
+      "Switches to WeChat to check a message."
+    ],
+    [
+      "439-443",
+      "I send a message inquiring about arrival time on WeChat.",
+      "Closes WeChat and resumes the video."
+    ],
+    [
+      "444-499",
+      "I resume watching the Bilibili video about the MA700 aircraft.",
+      "End of input."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": [
+      "Incorporated a brief 3-second speech event at 472 into the ongoing MA700 video-watching task, as it was a concurrent minor action that did not redirect the main goal.",
+      "Separated the story recounting at 414-417 from the vlog watching, as it formed a distinct and continuous 21-second independent action."
+    ]
+  }
+}
+```

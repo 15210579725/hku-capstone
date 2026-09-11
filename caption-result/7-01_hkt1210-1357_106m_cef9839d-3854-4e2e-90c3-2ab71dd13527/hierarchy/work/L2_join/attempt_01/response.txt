@@ -1,0 +1,18 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible boundary pairs to determine if they represent the exact same immediate task continuing across a batch edge. Pair [85, 86] represents a continuous walking action to exit the park area and should be merged. The other pairs represent sequential but distinct immediate tasks (purchasing vs. waiting in queue, walking vs. conversing at a destination, paying vs. settling at a table, and exiting a tunnel vs. entering a new one) and will not be merged.",
+  "merges": [
+    [
+      85,
+      86,
+      "I walk out of the park through the turnstiles and pavilion area toward the exit.",
+      "Continuous walking departure task across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

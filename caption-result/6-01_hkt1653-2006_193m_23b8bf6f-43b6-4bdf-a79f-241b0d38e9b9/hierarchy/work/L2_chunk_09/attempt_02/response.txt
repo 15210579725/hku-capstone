@@ -1,0 +1,154 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group atomic actions into immediate tasks defined by distinct spatial movements (e.g., crossing a street, walking along a pathway), focused interactions (e.g., using a phone, inspecting items), or continuous conversational topics. Boundaries are placed when the primary physical activity changes (e.g., entering a building, boarding an elevator), when the conversation shifts to a new major topic, or when a new distinct action begins (e.g., stopping to wash hands).",
+  "events": [
+    [
+      "2000-2002",
+      "I discuss food options with my companion.",
+      "Shift to waiting and observing traffic."
+    ],
+    [
+      "2003-2013",
+      "I wait at the pedestrian crossing and observe traffic.",
+      "Shift to crossing the street and conversing."
+    ],
+    [
+      "2014-2020",
+      "I cross the street and converse with my companion about stars and my brother.",
+      "Complete crossing the street and change conversation topic to geckos."
+    ],
+    [
+      "2021-2026",
+      "I walk along the sidewalk and joke about geckos with my companion.",
+      "Change conversation topic to a scare reaction."
+    ],
+    [
+      "2027-2034",
+      "I walk along the pathway and discuss a scare reaction with my companion.",
+      "Enter the plaza and discuss the MTR location."
+    ],
+    [
+      "2035-2044",
+      "I enter the plaza and confirm the MTR location with my companion.",
+      "Pass through the gate."
+    ],
+    [
+      "2045-2048",
+      "I walk through the gate and along the walkway.",
+      "Shift to debating the route along the pedestrian ramp."
+    ],
+    [
+      "2049-2064",
+      "I navigate the pedestrian ramp and sidewalk while debating the route with my companion.",
+      "Route decided, confirming path to another gate."
+    ],
+    [
+      "2065-2079",
+      "I walk along the sidewalk and confirm our route to another gate.",
+      "Walk under the overpass past specific landmarks."
+    ],
+    [
+      "2080-2082",
+      "I walk along the sidewalk under the overpass.",
+      "Shift conversation to building architecture."
+    ],
+    [
+      "2083-2089",
+      "I walk along the sidewalk and discuss building architecture with my companion.",
+      "Walk past the bus stop and approach the building."
+    ],
+    [
+      "2090-2100",
+      "I approach the building entrance while observing my surroundings and discussing traffic police.",
+      "Enter the building lobby."
+    ],
+    [
+      "2101-2107",
+      "I enter the building lobby and am greeted by a security guard.",
+      "Wait for and enter the elevator."
+    ],
+    [
+      "2108-2124",
+      "I ride the elevator to floor C and discuss food options.",
+      "Exit the elevator and lobby area."
+    ],
+    [
+      "2125-2128",
+      "I exit the elevator and walk through the glass exit doors.",
+      "Begin walking along the walkway."
+    ],
+    [
+      "2129-2142",
+      "I walk along the covered walkway and decide on a dinner dish with my companion.",
+      "Focus discussion on cooking methods while nearing the building."
+    ],
+    [
+      "2143-2159",
+      "I discuss cooking stir-fried noodles with beef while approaching the building entrance.",
+      "Enter the building and discuss food delivery apps."
+    ],
+    [
+      "2160-2170",
+      "I head towards the elevator lobby and discuss food delivery apps with my companion.",
+      "Walk through the corridor towards the South Court."
+    ],
+    [
+      "2171-2178",
+      "I walk through the corridor and enter the South Court.",
+      "Ride the South Court elevator."
+    ],
+    [
+      "2179-2190",
+      "I ride the South Court elevator and converse with my companion.",
+      "Use WeChat while waiting at the apartment door."
+    ],
+    [
+      "2191-2201",
+      "I send WeChat messages while waiting for my companion to open the apartment door.",
+      "Enter the apartment."
+    ],
+    [
+      "2202-2207",
+      "I enter the apartment and walk into the bedroom to check the AC remote.",
+      "Sit at the desk to use WeChat."
+    ],
+    [
+      "2208-2215",
+      "I use WeChat on my phone, discuss cooking, and sit at my desk.",
+      "Watch a Bilibili video on the laptop."
+    ],
+    [
+      "2216-2219",
+      "I watch a Bilibili music video on my laptop.",
+      "Leave the desk to wash hands."
+    ],
+    [
+      "2220-2223",
+      "I wash my hands at the sink and discuss installing one.",
+      "Return to the desk to check the drawer."
+    ],
+    [
+      "2224-2240",
+      "I sit at my desk and inspect lint removers and aroma sachets from the drawer.",
+      "Stand up to hang the sachet."
+    ],
+    [
+      "2241-2245",
+      "I hang the aroma sachet on the clothes rod.",
+      "Return to the desk to resume watching the video."
+    ],
+    [
+      "2246-2249",
+      "I return to my desk, resume the Bilibili video, and open the drawer.",
+      "Task sequence ends."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

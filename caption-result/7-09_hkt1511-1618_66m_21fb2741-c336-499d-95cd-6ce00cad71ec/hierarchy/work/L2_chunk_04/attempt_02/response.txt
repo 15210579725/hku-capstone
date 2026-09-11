@@ -1,0 +1,89 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group immediate tasks based on continuous riding phases, navigating specific intersections or obstacles, parking/returning the shared bicycle, and progressive stages of entering the campus and building.",
+  "events": [
+    [
+      "750-761",
+      "I ride my bicycle along the bike lane.",
+      "Navigating an intersection begins"
+    ],
+    [
+      "762-766",
+      "I navigate an intersection and turn lane on my bicycle.",
+      "Bridge crossing begins"
+    ],
+    [
+      "767-787",
+      "I ride my bicycle across Youpuchao Bridge.",
+      "Descending overpass ramp begins"
+    ],
+    [
+      "788-795",
+      "I ride my bicycle down the overpass ramp towards an intersection.",
+      "Stopping for a red light at intersection"
+    ],
+    [
+      "796-800",
+      "I wait at a red light and ride across the intersection.",
+      "Entering a dedicated bike lane"
+    ],
+    [
+      "801-812",
+      "I ride my bicycle along a tree-lined bike lane.",
+      "Approaching construction area"
+    ],
+    [
+      "813-823",
+      "I ride my bicycle past a construction area and barricades.",
+      "Passing parked trucks and cars"
+    ],
+    [
+      "824-828",
+      "I ride my bicycle past parked cars and trucks.",
+      "Turning at intersection to approach campus"
+    ],
+    [
+      "829-834",
+      "I turn at an intersection and ride onto the campus entrance sidewalk.",
+      "Processing shared bicycle return begins"
+    ],
+    [
+      "835-842",
+      "I process my shared bicycle return and pass through the campus turnstile.",
+      "Walking along campus garden paths"
+    ],
+    [
+      "843-859",
+      "I walk along the outdoor campus pathways.",
+      "Transitioning to roadway approach"
+    ],
+    [
+      "860-863",
+      "I walk along the forecourt roadway to the building entrance.",
+      "Entering the building lobby"
+    ],
+    [
+      "864-868",
+      "I enter the building lobby and walk to the elevator.",
+      "Taking the elevator"
+    ],
+    [
+      "869-877",
+      "I take the elevator to my destination floor.",
+      "Exiting the elevator into the hallway"
+    ],
+    [
+      "878-879",
+      "I walk down the building hallway.",
+      "End of input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

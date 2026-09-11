@@ -1,0 +1,11 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Review eligible boundary pairs to determine if they represent the exact same immediate task continuing across a batch edge. Pair [40, 41] consists of walking to a corridor and observing people; these are distinct sequential actions (locomotion versus visual observation) rather than a single interrupted task. They should not be merged at L2.",
+  "merges": [],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

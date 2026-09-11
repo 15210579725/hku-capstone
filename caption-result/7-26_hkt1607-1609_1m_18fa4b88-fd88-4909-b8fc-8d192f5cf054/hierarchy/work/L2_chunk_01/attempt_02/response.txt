@@ -1,0 +1,49 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group sequential phone navigation steps into accessing WeChat. Group location viewing and sharing into forwarding the ACG MOTOR CLUB location. Group input actions into typing a visit time reply. Group reading messages and viewing video into reviewing the pet seller chat. Keep brief environmental observations and walking segments as distinct immediate physical tasks.",
+  "events": [
+    [
+      "0",
+      "I walk down a hallway.",
+      "Stops walking to interact with phone"
+    ],
+    [
+      "1-3",
+      "I open the WeChat chat list on my phone.",
+      "Transitions to interacting with a specific location card"
+    ],
+    [
+      "4-8",
+      "I forward the ACG MOTOR CLUB location card to David [anonymized] in WeChat.",
+      "Switches from forwarding a location to typing a text reply"
+    ],
+    [
+      "9-10",
+      "I type a WeChat reply about my visit time.",
+      "Switches to a different chat context"
+    ],
+    [
+      "11-13",
+      "I review a WeChat conversation with a pet seller.",
+      "Looks up from the phone screen"
+    ],
+    [
+      "14",
+      "I observe a cleaning standards display.",
+      "Resumes walking"
+    ],
+    [
+      "15",
+      "I walk down the mall hallway.",
+      "End of input batch"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

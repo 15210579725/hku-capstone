@@ -1,0 +1,72 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks based on shared primary objectives, such as monitoring the surroundings, inspecting specific objects, performing targeted phone searches triggered by conversation, and watching distinct phases of the night show.",
+  "events": [
+    [
+      "1000-1011",
+      "I observe the seating area and my devices.",
+      "Waiting and observing the surroundings."
+    ],
+    [
+      "1012-1020",
+      "I inspect a handheld camera and other tabletop items.",
+      "Shifted attention to physically interacting with specific items on the table."
+    ],
+    [
+      "1021-1044",
+      "I search for a nearby hospital emergency room on Amap due to my companion's inquiry.",
+      "Companion's question triggers a new, focused task to find a hospital."
+    ],
+    [
+      "1045-1087",
+      "I observe the surrounding illuminated structures and my companion.",
+      "Completed the hospital search and returned to resting in the seating area."
+    ],
+    [
+      "1088-1096",
+      "I watch the projected night show countdown.",
+      "The night show begins with a countdown projection."
+    ],
+    [
+      "1097-1135",
+      "I watch the drone and fireworks show.",
+      "Transition from the countdown to the main fireworks and drone performance."
+    ],
+    [
+      "1136-1151",
+      "I search for nearby dining options on Meituan following a discussion about dinner reservations.",
+      "Companion initiates a new task to find a place for dinner."
+    ],
+    [
+      "1152-1172",
+      "I watch the stage fireworks and flyboard spark show.",
+      "Shifted focus back to the ongoing night show performance."
+    ],
+    [
+      "1173-1176",
+      "I discuss my companion's pain and their coffee.",
+      "Companion's complaint about pain initiates a brief conversation."
+    ],
+    [
+      "1177-1204",
+      "I search for nearby shopping malls on my phone.",
+      "Initiated a new search for shopping malls on the phone, interspersed with incidental looks at the show."
+    ],
+    [
+      "1205-1249",
+      "I watch the drone formations and fireworks show.",
+      "Finished searching on the phone and returned full attention to the show finale."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "Companion asks about nearby hospitals",
+      "Companion asks about dinner reservations"
+    ],
+    "boundary_cautions": []
+  }
+}
+```

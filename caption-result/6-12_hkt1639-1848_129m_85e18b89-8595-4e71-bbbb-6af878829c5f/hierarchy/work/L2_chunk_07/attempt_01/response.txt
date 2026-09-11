@@ -1,0 +1,54 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group immediate tasks based on continuous goal-directed actions, abstracting minor movements, looks, and dialogue into overarching objectives like applying a pimple patch, conversing about unboxed items, and unboxing a shirt.",
+  "events": [
+    [
+      "1500",
+      "I stir my spicy noodle soup.",
+      "Stirring concludes before stepping away."
+    ],
+    [
+      "1501-1509",
+      "I apply a pimple patch to my face.",
+      "Application task is completed."
+    ],
+    [
+      "1510-1512",
+      "I sing a song.",
+      "Singing ends."
+    ],
+    [
+      "1513-1515",
+      "I observe the laptop, smartphone, and spicy noodles on my desk.",
+      "Observation of desk items concludes before leaving the room."
+    ],
+    [
+      "1516-1529",
+      "I converse with my roommate in the living room about her newly unboxed onion container and hat clip organizer.",
+      "Conversation regarding the roommate's packages concludes."
+    ],
+    [
+      "1530-1533",
+      "I return to my bedroom to view my laptop screen.",
+      "Transition to the desk is completed before noticing the new package."
+    ],
+    [
+      "1534-1542",
+      "I unbox a newly arrived grey waffle shirt.",
+      "Unboxing and placement of the shirt concludes."
+    ],
+    [
+      "1543",
+      "I look out the window at the hillside.",
+      "End of supplied events."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

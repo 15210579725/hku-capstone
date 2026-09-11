@@ -1,0 +1,34 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group L3 episodes into broader travel phases: the initial journey from the hotel to the airport transportation, the bus transit to the airport, mandatory airport processing, and airside leisure time.",
+  "events": [
+    [
+      "0-3",
+      "I travel from my hotel to the airport bus stop.",
+      "Arrival at the bus stop shifts the goal to boarding and riding the bus."
+    ],
+    [
+      "4-7",
+      "I ride the airport bus to the airport.",
+      "Arrival at the airport terminal transitions the phase to departure procedures."
+    ],
+    [
+      "8-9",
+      "I complete my pre-flight airport departure procedures.",
+      "Clearing the security checkpoint transitions the goal to airside waiting and leisure."
+    ],
+    [
+      "10-11",
+      "I visit the airside concourse amenities.",
+      "End of recorded airside activities."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

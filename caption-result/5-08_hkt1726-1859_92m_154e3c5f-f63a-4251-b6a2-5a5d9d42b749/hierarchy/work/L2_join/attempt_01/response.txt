@@ -1,0 +1,18 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible pairs for exact task continuity. Pair [16, 17] continues watching the same Boeing hydrofoil video. Pair [49, 50] changes from resting to observing the cabin. Pair [67, 68] changes from looking at the TV to examining the window. Pair [88, 89] changes from waiting for an elevator to exiting it, representing sequential steps rather than the same continuous task.",
+  "merges": [
+    [
+      16,
+      17,
+      "I watch a YouTube documentary about Boeing hydrofoil development on my device.",
+      "Watching the same hydrofoil documentary continues across the batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

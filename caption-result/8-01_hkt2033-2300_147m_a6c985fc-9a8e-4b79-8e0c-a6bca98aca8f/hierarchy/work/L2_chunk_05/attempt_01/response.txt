@@ -1,0 +1,86 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions sharing a single immediate goal and target, abstracting minor device shifts and transitional vocalizations. Boundaries are placed at distinct shifts in digital tasks, physical relocations, and transitions between discrete reading topics or chapters.",
+  "events": [
+    [
+      "0-18",
+      "I draft a PhD inquiry email in 163 Mail.",
+      "Switches from drafting the email to prompting Claude for suggestions"
+    ],
+    [
+      "19-26",
+      "I use Claude to refine my PhD inquiry email regarding David Abel.",
+      "Switches from interacting with Claude to reading web search results"
+    ],
+    [
+      "27-31",
+      "I read AI search results about David Abel's reinforcement learning research.",
+      "Stops reading and leaves the desk to relocate"
+    ],
+    [
+      "32-37",
+      "I relocate to workstation 13.",
+      "Arrives at the workstation to plug in a device"
+    ],
+    [
+      "38-41",
+      "I plug a smartphone charger into the desk power strip.",
+      "Finishes plugging in the charger and leaves the workstation"
+    ],
+    [
+      "42-46",
+      "I relocate to the breakout workspace.",
+      "Arrives at the breakout workspace and shifts focus to the laptop screen"
+    ],
+    [
+      "47-50",
+      "I review the Claude draft inquiry email to Dr. Abel.",
+      "Switches browser tabs to begin reading articles on WeChat Read"
+    ],
+    [
+      "51-69",
+      "I read a WeChat Read essay about swimming memories.",
+      "Completes the swimming essay and navigates to a new chapter"
+    ],
+    [
+      "70-80",
+      "I read the WeChat Read chapter '追忆南肯辛顿' about the Natural History Museum.",
+      "Interrupts reading to query ChatGPT about the pineal gland"
+    ],
+    [
+      "81-89",
+      "I use ChatGPT to research the pineal gland.",
+      "Switches from ChatGPT to searching for related terms on Baidu Baike"
+    ],
+    [
+      "90-107",
+      "I read a Baidu Baike article about the parietal eye.",
+      "Finishes the Baidu Baike research and returns to the WeChat Read article"
+    ],
+    [
+      "108-142",
+      "I read the WeChat Read chapter '追忆南肯辛顿' about fossil specimens and the Science Museum.",
+      "Completes the chapter and navigates to the next chapter"
+    ],
+    [
+      "143-179",
+      "I read the WeChat Read chapter '最初的爱' about marine biology and cephalopod chemistry.",
+      "Completes the marine biology chapter and navigates to the next chapter"
+    ],
+    [
+      "180-249",
+      "I read the WeChat Read chapter '化学诗人汉弗莱·戴维' about the chemist Humphry Davy.",
+      "End of provided events"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": [
+      "The WeChat Read chapter '追忆南肯辛顿' is split into two L2 tasks (70-80 and 108-142) because it was significantly interrupted by a deep-dive web search about the pineal gland and parietal eye."
+    ]
+  }
+}
+```

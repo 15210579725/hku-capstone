@@ -1,0 +1,39 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group immediate tasks by physical interaction and local movement goals: massaging hands, performing a bench press, gathering belongings to leave, inspecting a kiosk, and heading to the restroom.",
+  "events": [
+    [
+      "1000-1005",
+      "I massage my left hand and fingers.",
+      "Changes focus to the bench press equipment."
+    ],
+    [
+      "1006-1017",
+      "I perform an assisted bench press set with my friend.",
+      "Finished the set and sits up to stand."
+    ],
+    [
+      "1018-1023",
+      "I retrieve my headphones to follow User A.",
+      "Stops at the MO-CATCH kiosk."
+    ],
+    [
+      "1024-1026",
+      "I inspect the MO-CATCH kiosk.",
+      "Resumes walking past the reception desk."
+    ],
+    [
+      "1027-1028",
+      "I walk past the reception desk to the restroom.",
+      "End of sequence."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

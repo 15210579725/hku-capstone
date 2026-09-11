@@ -1,0 +1,49 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks such as entering the building, navigating stairs, entering the apartment, and unpacking devices.",
+  "events": [
+    [
+      "500-501",
+      "I lower my smartphone and speak.",
+      "Ends phone interaction"
+    ],
+    [
+      "502-504",
+      "I walk along the dark road and enter the building entrance.",
+      "Arrives at building stairs"
+    ],
+    [
+      "505-515",
+      "I navigate the apartment building stairs and greet a passing person.",
+      "Reaches correct apartment door"
+    ],
+    [
+      "516-517",
+      "I unlock the smart lock and enter the apartment.",
+      "Enters apartment"
+    ],
+    [
+      "518-521",
+      "I enter the bedroom and turn on the light.",
+      "Room is illuminated"
+    ],
+    [
+      "522-525",
+      "I place my phone on the desk and unpack my laptop onto the coffee table.",
+      "Laptop is placed on table"
+    ],
+    [
+      "526-528",
+      "I untangle the charging cable and plug it into my laptop.",
+      "Laptop charging initiated"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

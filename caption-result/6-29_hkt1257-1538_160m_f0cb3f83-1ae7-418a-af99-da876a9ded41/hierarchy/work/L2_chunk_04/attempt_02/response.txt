@@ -1,0 +1,69 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous highway driving into segments based on passenger conversations, navigation alerts, speed adjustments, and notable road features.",
+  "events": [
+    [
+      "750-769",
+      "I drive along the wet highway.",
+      "Passenger conversation begins"
+    ],
+    [
+      "770-795",
+      "I converse with the passenger about past travel destinations during the highway drive.",
+      "Navigation accident warning interrupts the conversation"
+    ],
+    [
+      "796-819",
+      "I drive across the Dafengjiang Bridge after receiving a navigation accident warning.",
+      "Passed the bridge and approaching a highway exit"
+    ],
+    [
+      "820-832",
+      "I continue driving on the highway past an exit and a freight truck.",
+      "Passenger initiates a new conversation topic"
+    ],
+    [
+      "833-855",
+      "I discuss speed limit tolerances with the passenger during the highway drive.",
+      "Conversation shifts to the navigation route"
+    ],
+    [
+      "856-878",
+      "I discuss the navigation route to Chongzuo with the passenger.",
+      "New navigation speed warning and passenger topic change"
+    ],
+    [
+      "879-904",
+      "I observe a motorcycle on the highway after decelerating for a speed camera warning.",
+      "New sequence of speeding alerts begins"
+    ],
+    [
+      "905-927",
+      "I continue driving on the highway amidst multiple navigation speeding alerts.",
+      "Speed limit changes to 100 km/h"
+    ],
+    [
+      "928-956",
+      "I drive towards Fangchenggang after decelerating to comply with the 100 km/h speed limit.",
+      "Driver accelerates and realizes high speed"
+    ],
+    [
+      "957-974",
+      "I adjust the dashboard air vent after realizing I am driving at 150 km/h.",
+      "Approaching the intended highway exit"
+    ],
+    [
+      "975-999",
+      "I follow navigation alerts approaching the highway exit for Shangsi and Chongzuo.",
+      "End of batch"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

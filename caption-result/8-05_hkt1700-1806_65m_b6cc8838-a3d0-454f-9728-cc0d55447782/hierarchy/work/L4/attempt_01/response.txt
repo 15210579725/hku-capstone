@@ -1,0 +1,27 @@
+{
+  "target_level": "L4",
+  "plan": "Group desk setup and research tasks into a unified work phase, group the cafeteria transit, purchase, meal, and cleanup into a dining phase, and allocate the fitness center transit and prep to a workout phase.",
+  "events": [
+    [
+      "0-4",
+      "I conduct machine learning model evaluation research at my office desk.",
+      "Departure from the desk to get a meal."
+    ],
+    [
+      "5-8",
+      "I have a meal with my colleagues at the cafeteria.",
+      "Departure from the cafeteria to the fitness center."
+    ],
+    [
+      "9",
+      "I prepare for a workout at the fitness center.",
+      "End of provided evidence."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}

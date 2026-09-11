@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible pairs to merge only exact continuing immediate tasks across batch edges. Pair [17, 18] continues researching Snoopy/Peanuts comics. Pair [139, 140] continues watching American Beauty clips. Pairs [27, 28], [66, 67], [94, 95], and [115, 116] represent shifts in tools (Doubao to Figma), actions (stirring to eating), conversation topics, or distinct video subjects (server processors to AI hardware), so they remain separate immediate tasks.",
+  "merges": [
+    [
+      17,
+      18,
+      "I research Snoopy and Peanuts comics online for style references.",
+      "Continuous web research on the exact same topic."
+    ],
+    [
+      139,
+      140,
+      "I watch American Beauty video clips.",
+      "Continuous viewing of clips from the same movie."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

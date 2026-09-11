@@ -1,11 +1,3 @@
 ```json
-{
-  "target_level": "L2_JOIN",
-  "plan": "Evaluated the eligible pair [26, 27]. Event 26 describes the transitional action of boarding the train, which naturally concludes upon entering the carriage. Event 27 describes the subsequent and distinct state of standing inside the subway carriage holding a smartphone. Because boarding and riding represent different immediate tasks at the L2 level, this boundary is semantically valid and the events will not be merged.",
-  "merges": [],
-  "audit": {
-    "complete": true,
-    "uncertainties": []
-  }
-}
+{"target_level":"L2_JOIN","plan":"Evaluate the eligible pair [20, 21] to determine if they represent a single continuous immediate task.","merges":[[20,21,"I board the connecting subway train and find a standing spot in the carriage.","Boarding and positioning inside the train form one continuous action across the batch edge."]],"audit":{"complete":true,"uncertainties":[]}}
 ```

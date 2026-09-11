@@ -1,0 +1,94 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions centered around specific targets or micro-goals (e.g., working a specific container of dough, stirring a creamy mixture, fetching ingredients, conversing with a partner) into immediate tasks.",
+  "events": [
+    [
+      "1250-1254",
+      "I work the dough inside the container.",
+      "Shifts focus to stirring a different creamy mixture."
+    ],
+    [
+      "1255-1261",
+      "I stir a creamy mixture in a cup.",
+      "Shifts to inspecting a bowl of dough."
+    ],
+    [
+      "1262-1265",
+      "I hold a bowl of dough.",
+      "Shifts to stirring dessert."
+    ],
+    [
+      "1266-1269",
+      "I stir dessert in a cup.",
+      "Shifts to working with dough in the cup."
+    ],
+    [
+      "1270-1275",
+      "I stir dough in the cup with chopsticks.",
+      "Leaves the desk to fetch an ingredient from the kitchen."
+    ],
+    [
+      "1276-1282",
+      "I retrieve a bag of flour from the kitchen.",
+      "Returns to the dining table to incorporate the flour."
+    ],
+    [
+      "1283-1286",
+      "I prepare flour for the dough bowl at the dining table.",
+      "Begins transferring the dough to a cutting board."
+    ],
+    [
+      "1287-1291",
+      "I transfer the dough onto a cutting board.",
+      "Completes the transfer to begin kneading."
+    ],
+    [
+      "1292-1313",
+      "I knead the dough on the cutting board.",
+      "Pauses kneading to add more flour."
+    ],
+    [
+      "1314-1317",
+      "I pour additional flour onto the dough.",
+      "Completes flour addition to resume kneading."
+    ],
+    [
+      "1318-1337",
+      "I knead the floured dough.",
+      "Stops kneading to clear space for adding more flour."
+    ],
+    [
+      "1338-1343",
+      "I incorporate more flour into the dough.",
+      "Leaves the dining table to take the dough to the kitchen."
+    ],
+    [
+      "1344-1359",
+      "I discuss the dumpling filling preparation with my partner in the kitchen.",
+      "Returns to the living room to resume dough preparation."
+    ],
+    [
+      "1360-1372",
+      "I resume kneading the dough in the living room.",
+      "Shifts focus to scraping residual dough from containers."
+    ],
+    [
+      "1373-1377",
+      "I scrape residual dough from the containers to incorporate into the main dough ball.",
+      "Finishes incorporating residuals to focus on continuous kneading."
+    ],
+    [
+      "1378-1393",
+      "I knead the dough during a conversation about the meal.",
+      "End of supplied data."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

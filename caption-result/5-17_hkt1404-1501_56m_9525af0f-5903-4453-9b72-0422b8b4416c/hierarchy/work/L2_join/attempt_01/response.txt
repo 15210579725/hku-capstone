@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Review eligible pairs to determine if the same immediate task continues across the batch boundary. Pair [10, 11] transitions from eating to watching and discussing a new order; these are related but distinct immediate actions, so they are not merged. Pair [38, 39] involves checking different room availabilities on a device; this is one continuous room-checking task. Pair [58, 59] is a continuous conversation stemming from the companion sneezing.",
+  "merges": [
+    [
+      38,
+      39,
+      "I check room availability schedules on a laptop to find a study space.",
+      "The immediate task of checking room availability continues across the batch edge."
+    ],
+    [
+      58,
+      59,
+      "I converse with my companion about their physical discomfort after they sneeze on me.",
+      "The continuous conversation regarding the companion's sneezing and health continues across the batch edge."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

@@ -1,0 +1,71 @@
+[
+  {
+    "id": 0,
+    "start": 65385,
+    "end": 65387,
+    "text": "I review the Claude Code evaluation report.",
+    "refs": [
+      0,
+      1
+    ],
+    "boundary_reason": "Attention shifts from the screen to pocketed items",
+    "origin_chunk": 1
+  },
+  {
+    "id": 1,
+    "start": 65387,
+    "end": 65421,
+    "text": "I retrieve my power bank to disconnect its cable.",
+    "refs": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "boundary_reason": "Finishes disconnecting the cable before reaching for other desk items",
+    "origin_chunk": 1
+  },
+  {
+    "id": 2,
+    "start": 65421,
+    "end": 65439,
+    "text": "I walk to examine desk 13.",
+    "refs": [
+      8,
+      9,
+      10,
+      11
+    ],
+    "boundary_reason": "Completes the desk examination and returns attention to the power bank",
+    "origin_chunk": 1
+  },
+  {
+    "id": 3,
+    "start": 65439,
+    "end": 65451,
+    "text": "I adjust the charging cables on my power bank.",
+    "refs": [
+      12,
+      13,
+      14
+    ],
+    "boundary_reason": "Places the power bank down, concluding the cable adjustment",
+    "origin_chunk": 1
+  },
+  {
+    "id": 4,
+    "start": 65452,
+    "end": 65465,
+    "text": "I observe the surrounding desk area with a black cable in hand.",
+    "refs": [
+      15,
+      16,
+      17,
+      18
+    ],
+    "boundary_reason": "End of input",
+    "origin_chunk": 1
+  }
+]

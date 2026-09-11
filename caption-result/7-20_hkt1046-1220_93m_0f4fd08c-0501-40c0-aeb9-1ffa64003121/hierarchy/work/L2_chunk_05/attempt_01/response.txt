@@ -1,0 +1,84 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions with a single immediate goal into immediate tasks. Abstract incidental looks, routine bites, device manipulation, and waiting. Distinguish the discrete phases of the meal, dedicated phone usage, stationary conversations, and distinct physical navigation stages.",
+  "events": [
+    [
+      "1000-1004",
+      "I pick at my fried rice.",
+      "Shifts focus to eating the chicken drumstick"
+    ],
+    [
+      "1005-1014",
+      "I eat a chicken drumstick.",
+      "Finishes the drumstick and returns to the fried rice"
+    ],
+    [
+      "1015-1026",
+      "I finish eating my fried rice.",
+      "Finishes the fried rice and moves to the soup"
+    ],
+    [
+      "1027-1029",
+      "I drink my soup.",
+      "Finishes the soup and begins waiting"
+    ],
+    [
+      "1030-1034",
+      "I observe the cafeteria and my companions.",
+      "Shifts attention to messaging on smartphone"
+    ],
+    [
+      "1035-1052",
+      "I message babe on WeChat about our meals.",
+      "Puts away the smartphone and engages with companions"
+    ],
+    [
+      "1053-1066",
+      "I converse with my companions at the dining table.",
+      "Begins leaving the table to return the tray"
+    ],
+    [
+      "1067-1073",
+      "I return my meal tray to the dish return conveyor belt.",
+      "Completes tray return and begins walking away"
+    ],
+    [
+      "1074-1082",
+      "I walk through the cafeteria dining area with my companions.",
+      "Enters the lounge area and stops to converse"
+    ],
+    [
+      "1083-1088",
+      "I converse with my companions in the lounge area.",
+      "Leaves the lounge area to continue walking"
+    ],
+    [
+      "1089-1099",
+      "I walk through the garage corridor with my companions.",
+      "Reaches the elevator hallway"
+    ],
+    [
+      "1100-1101",
+      "I walk to the elevator.",
+      "Enters the elevator"
+    ],
+    [
+      "1102-1108",
+      "I ride the elevator with my companions.",
+      "Exits the elevator into the office area"
+    ],
+    [
+      "1109-1113",
+      "I walk into the office area.",
+      "End of input sequence"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

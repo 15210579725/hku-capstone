@@ -1,0 +1,118 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous, related action briefs into distinct, immediate tasks sharing one unified objective. Physical transit phases (walking through plazas, riding escalators, walking in the station concourse) form separate tasks based on the immediate environment and mode of movement. Phone usage is grouped by the primary application and topic (e.g., reviewing WeChat, reading a specific Li Auto article, browsing the X feed). Major physical transitions like boarding or exiting a train act as strict boundaries that interrupt digital tasks.",
+  "events": [
+    [
+      "2500-2523",
+      "I walk to the MTR station entrance.",
+      "Reaches the station escalators"
+    ],
+    [
+      "2524-2530",
+      "I ride the escalators down into the MTR station.",
+      "Reaches the station corridors"
+    ],
+    [
+      "2531-2547",
+      "I walk through the station corridors.",
+      "Reaches the fare gates"
+    ],
+    [
+      "2548-2549",
+      "I pass through the fare gates.",
+      "Approaches the platform escalators"
+    ],
+    [
+      "2550-2557",
+      "I descend the escalators to the subway platform.",
+      "Begins checking phone"
+    ],
+    [
+      "2558-2563",
+      "I review my WeChat chat with babe \ud83d\udc97.",
+      "Navigates to WeChat Official Accounts"
+    ],
+    [
+      "2564-2565",
+      "I navigate to articles in WeChat Official Accounts.",
+      "Opens the Li Auto article"
+    ],
+    [
+      "2566-2591",
+      "I read an article about Li Auto L9 Livis specifications.",
+      "Train arrives and boards"
+    ],
+    [
+      "2592-2593",
+      "I board the subway train.",
+      "Resumes reading"
+    ],
+    [
+      "2594",
+      "I read an article about the Li Auto L9 Livis.",
+      "Switches to X"
+    ],
+    [
+      "2595-2661",
+      "I browse posts about AI, politics, and technology on X.",
+      "Exits the train"
+    ],
+    [
+      "2662-2667",
+      "I exit the subway train.",
+      "Enters the station concourse"
+    ],
+    [
+      "2668-2671",
+      "I walk through the station concourse.",
+      "Steps onto the escalator"
+    ],
+    [
+      "2672-2683",
+      "I read X posts about AI during my escalator ride.",
+      "Reaches the platform concourse"
+    ],
+    [
+      "2684-2689",
+      "I walk across the platform concourse to the train doors.",
+      "Boards the train"
+    ],
+    [
+      "2690-2693",
+      "I board the subway train.",
+      "Begins browsing X"
+    ],
+    [
+      "2694-2740",
+      "I browse posts about politics and AI on X.",
+      "Switches to WeChat"
+    ],
+    [
+      "2741-2745",
+      "I chat with babe \u2665 on WeChat.",
+      "Switches back to X"
+    ],
+    [
+      "2746",
+      "I read AI posts on X.",
+      "Opens Spotlight search"
+    ],
+    [
+      "2747-2749",
+      "I search for the Folo app in the App Store.",
+      "End of input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "2592",
+      "2662",
+      "2691"
+    ],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,159 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group atomic observations and dialogue into immediate tasks bounded by shifts in physical targets (e.g., from phone to environment), conversation topics, or distinct immediate objectives (e.g., managing the hotpot heat versus engaging in discussion).",
+  "events": [
+    [
+      "0-4",
+      "I complain about a Douyin promotion on my phone.",
+      "Switches from phone app to environmental observation"
+    ],
+    [
+      "5-8",
+      "I observe the dining table and my companion's Xiaohongshu browsing.",
+      "Switches to own phone for WeChat messaging"
+    ],
+    [
+      "9-11",
+      "I exchange WeChat messages with User X.",
+      "Transitions from WeChat messaging to a verbal conversation"
+    ],
+    [
+      "12-19",
+      "I discuss Jiajia's dating arrangement with my dining companion.",
+      "Conversation interrupted by request to lower the heat"
+    ],
+    [
+      "20-23",
+      "I lower the hotpot heat to P1 at my companion's request.",
+      "Heat adjusted, returns to observing the meal"
+    ],
+    [
+      "24-28",
+      "I observe my companion eating from the hotpot.",
+      "Shifts from passive observation to actively using the skimmer"
+    ],
+    [
+      "29-35",
+      "I use the skimmer spoon to manage beef balls in the hotpot.",
+      "Pauses cooking to observe companion and discuss the food"
+    ],
+    [
+      "36-41",
+      "I discuss the meat portion with my dining companion.",
+      "Shifts focus to the general restaurant environment"
+    ],
+    [
+      "42-45",
+      "I observe the restaurant environment and my dining companion.",
+      "Starts a new conversation about facial expressions"
+    ],
+    [
+      "46-58",
+      "I discuss my facial expressions with my companion.",
+      "Topic ends, focuses on companion typing on their phone"
+    ],
+    [
+      "59-68",
+      "I monitor my companion's smartphone messaging.",
+      "Companion finishes typing, focus shifts to restaurant staff"
+    ],
+    [
+      "69-76",
+      "I observe the restaurant staff working in the aisle.",
+      "Observation interrupted by companion pointing out a song"
+    ],
+    [
+      "77-84",
+      "I hum along to a middle school song playing in the restaurant.",
+      "Song ends, focus returns to companion's smartphone"
+    ],
+    [
+      "85-87",
+      "I watch my companion type on their smartphone.",
+      "Companion puts phone away to tell a story"
+    ],
+    [
+      "88-98",
+      "I listen to my companion describe teasing a pet animal.",
+      "Topic shifts from the pet animal to recent dreams"
+    ],
+    [
+      "99-108",
+      "I discuss my recent dreams with my companion.",
+      "Topic shifts from dreams to relationship dynamics"
+    ],
+    [
+      "109-128",
+      "I discuss our relationship dynamics and pursuit history with my partner.",
+      "Conversation transitions to the specific museum date"
+    ],
+    [
+      "129-148",
+      "I discuss our museum date with my partner.",
+      "Date discussion ends as companion announces being full"
+    ],
+    [
+      "149-157",
+      "I listen to my companion declare fullness from the meal.",
+      "Meal interaction prompts adjusting the induction cooker"
+    ],
+    [
+      "158-162",
+      "I adjust the induction cooker power to 200.",
+      "Cooker adjusted, conversation resumes with a hypothetical scenario"
+    ],
+    [
+      "163-167",
+      "I discuss a hypothetical hotel scenario with my companion.",
+      "Scenario discussion pauses for environmental observation and music"
+    ],
+    [
+      "168-175",
+      "I inquire about the restaurant's background music.",
+      "Music inquiry finishes, focus returns to companion's food retrieval"
+    ],
+    [
+      "176-180",
+      "I observe my companion retrieve food from the hotpot.",
+      "Resumes conversation about the meal and date expectations"
+    ],
+    [
+      "181-199",
+      "I joke with my companion about second date expectations.",
+      "Joke concludes, topic completely shifts to a past trip"
+    ],
+    [
+      "200-207",
+      "I discuss my trip to Changzhou Island with my companion.",
+      "Trip discussion shifts to a Xiaohongshu contact"
+    ],
+    [
+      "208-218",
+      "I discuss meeting a Xiaohongshu contact for CHSI academic authentication.",
+      "Authentication story transitions to the contact's university details"
+    ],
+    [
+      "219-228",
+      "I converse with my companion about their contact's Shaanxi university.",
+      "University discussion transitions to the contact's internship offer"
+    ],
+    [
+      "229-236",
+      "I discuss the contact's Alibaba AI internship offer with my companion.",
+      "Offer announcement transitions to interview specifics"
+    ],
+    [
+      "237-249",
+      "I discuss the specifics of the contact's Alibaba AI interview.",
+      "End of input data"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

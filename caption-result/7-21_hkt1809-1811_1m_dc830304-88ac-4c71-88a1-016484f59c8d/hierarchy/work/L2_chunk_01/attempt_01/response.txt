@@ -1,0 +1,39 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group atomic actions into immediate tasks: reading the screen, retrieving and disconnecting a device, moving to examine another desk, managing cables, and scanning the workspace.",
+  "events": [
+    [
+      "0-1",
+      "I review the Claude Code evaluation report.",
+      "Attention shifts from the screen to pocketed items"
+    ],
+    [
+      "2-7",
+      "I retrieve my power bank to disconnect its cable.",
+      "Finishes disconnecting the cable before reaching for other desk items"
+    ],
+    [
+      "8-11",
+      "I walk to examine desk 13.",
+      "Completes the desk examination and returns attention to the power bank"
+    ],
+    [
+      "12-14",
+      "I adjust the charging cables on my power bank.",
+      "Places the power bank down, concluding the cable adjustment"
+    ],
+    [
+      "15-18",
+      "I observe the surrounding desk area with a black cable in hand.",
+      "End of input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

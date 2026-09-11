@@ -1,0 +1,134 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous driving maneuvers and incidental observations by unified conversational topics, distinct navigation events, changing road conditions, and temporal gaps.",
+  "events": [
+    [
+      "1250-1258",
+      "I navigate the highway during a conversation about travel time.",
+      "Topic shifts to hotel beds and navigating a left turn"
+    ],
+    [
+      "1259-1268",
+      "I steer left through the intersection amidst a conversation about hotel beds.",
+      "Turn completes and conversation shifts to the fresh air"
+    ],
+    [
+      "1269-1281",
+      "I drive along the scenic road passing rural traffic.",
+      "Conversation shifts to expressing enjoyment of the route"
+    ],
+    [
+      "1282-1289",
+      "I share my enjoyment of the scenic route during the drive.",
+      "Intersection encounter prompts a scare"
+    ],
+    [
+      "1290-1299",
+      "I startle the passenger by navigating a rural intersection without traffic lights.",
+      "Conversation shifts to future travel proposals"
+    ],
+    [
+      "1300-1305",
+      "I discuss future travel destinations and sleeping arrangements with the passenger.",
+      "Topic shifts to hotel age restrictions"
+    ],
+    [
+      "1306-1318",
+      "I banter with the passenger about hotel age restrictions during the drive.",
+      "Topic shifts to roadside sugarcane fields"
+    ],
+    [
+      "1319-1328",
+      "I observe the roadside sugarcane fields and scenery with the passenger.",
+      "Entering a tunnel prompts a shared memory"
+    ],
+    [
+      "1329-1337",
+      "I drive through the Nanling tunnel sharing a memory of a similar tunnel.",
+      "Exiting tunnel and discussing tricycles"
+    ],
+    [
+      "1338-1345",
+      "I discuss the road's suitability for tricycles during the drive.",
+      "Banter shifts to teasing each other"
+    ],
+    [
+      "1346-1358",
+      "I joke with the passenger during the drive through the karst landscape.",
+      "Weather changes to fog and sun"
+    ],
+    [
+      "1359-1375",
+      "I navigate changing weather conditions across a rural bridge.",
+      "Topic shifts to mosquito bites"
+    ],
+    [
+      "1376-1382",
+      "I converse with the passenger about mosquito bites.",
+      "Trailing an erratic three-wheeler"
+    ],
+    [
+      "1383-1389",
+      "I cautiously trail an erratic three-wheeler under the passenger's warning.",
+      "Topic shifts to quoting a song"
+    ],
+    [
+      "1390-1403",
+      "I quote a song during the drive along the rural road.",
+      "Observing local kids on tricycles"
+    ],
+    [
+      "1404-1413",
+      "I discuss local children on tricycles during a road bend.",
+      "Acceleration prompts passenger complaints"
+    ],
+    [
+      "1414-1427",
+      "I accelerate along the country road against the passenger's complaints.",
+      "Joking about Fast and Furious at a bend"
+    ],
+    [
+      "1428-1437",
+      "I joke about 'Fast and Furious' during a road bend.",
+      "Banter shifts to morning routines"
+    ],
+    [
+      "1438-1444",
+      "I banter with the passenger about morning bathroom routines.",
+      "Discussing a campsite before overtaking"
+    ],
+    [
+      "1445-1454",
+      "I prepare to overtake a vehicle during a conversation about a campsite.",
+      "Overtaking attempt alarms passenger"
+    ],
+    [
+      "1455-1463",
+      "I closely trail a red sedan, alarming the passenger with my driving speed.",
+      "Passenger continues complaining about driving style"
+    ],
+    [
+      "1464-1474",
+      "I agree to drive slower in response to the passenger's complaints.",
+      "Time jump to a different activity"
+    ],
+    [
+      "1475-1480",
+      "I help my companion organize her bags.",
+      "Time jump back to driving"
+    ],
+    [
+      "1481-1499",
+      "I drive along the countryside road amidst jokes about my speeding.",
+      "End of provided inputs"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

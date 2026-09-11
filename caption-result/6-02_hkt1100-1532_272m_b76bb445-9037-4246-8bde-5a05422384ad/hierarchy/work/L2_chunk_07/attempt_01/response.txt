@@ -1,0 +1,159 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous action briefs into immediate tasks based on shared physical goals (e.g., walking through a specific location, riding an escalator) or focused interactions (e.g., using a device, checking a schedule). Create boundaries when the user shifts to a new environment, transitions to a new mode of transport (escalator/stairs), or begins a distinct physical or interactive task.",
+  "events": [
+    [
+      "1500-1520",
+      "I browse music playlists on my phone.",
+      "Continuous phone music app interaction ends when exiting the train"
+    ],
+    [
+      "1521-1527",
+      "I exit the train station.",
+      "Navigation out of the station ends at the stairs"
+    ],
+    [
+      "1528-1531",
+      "I climb the outdoor stairs.",
+      "Stair climbing ends at the footbridge"
+    ],
+    [
+      "1532-1545",
+      "I walk along the pedestrian footbridge.",
+      "Footbridge walk ends at the mall entrance"
+    ],
+    [
+      "1546-1559",
+      "I walk through the shopping mall.",
+      "Mall walk ends at the escalator"
+    ],
+    [
+      "1560-1562",
+      "I monitor my phone on the downward escalator.",
+      "Escalator ride ends at the tunnel"
+    ],
+    [
+      "1563-1575",
+      "I walk through the tunnel.",
+      "Tunnel walk ends at the outdoor walkway"
+    ],
+    [
+      "1576-1584",
+      "I walk along the outdoor covered walkway.",
+      "Walkway navigation ends at the building entrance"
+    ],
+    [
+      "1585-1589",
+      "I enter the campus building through the turnstile.",
+      "Building entry ends at the escalator"
+    ],
+    [
+      "1590-1595",
+      "I ride the escalator to the upper concourse.",
+      "Escalator ride ends at the concourse"
+    ],
+    [
+      "1596-1601",
+      "I walk down the building corridor.",
+      "Corridor walk pauses to sit on a bench"
+    ],
+    [
+      "1602-1605",
+      "I play with a coiled keychain on a sofa bench.",
+      "Keychain playing ends when conversation starts"
+    ],
+    [
+      "1606-1610",
+      "I discuss an experiment with my companion.",
+      "Conversation ends when moving to the escalator"
+    ],
+    [
+      "1611-1614",
+      "I ride the escalator.",
+      "Escalator ride ends at the upper level corridor"
+    ],
+    [
+      "1615-1620",
+      "I briefly visit the City Express area.",
+      "Exploration ends when turning to follow companion"
+    ],
+    [
+      "1621-1638",
+      "I follow my companion through the study areas.",
+      "Navigation through study areas ends at the classroom corridor"
+    ],
+    [
+      "1639-1659",
+      "I navigate the corridor past classrooms.",
+      "Corridor walk ends at the open study lounge"
+    ],
+    [
+      "1660-1669",
+      "I search for open seats in the study lounge.",
+      "Search for seats ends after giving up and moving on"
+    ],
+    [
+      "1670-1688",
+      "I search the corridors for a recording location.",
+      "Search ends upon deciding to enter an empty classroom"
+    ],
+    [
+      "1689-1697",
+      "I prepare a spot in classroom B5-309.",
+      "Room entry and preparation ends when interacting with companion"
+    ],
+    [
+      "1698-1707",
+      "I converse with my companion about the classroom.",
+      "Conversation about the room prompts checking the external schedule"
+    ],
+    [
+      "1708-1718",
+      "I check the classroom schedule to verify availability.",
+      "Schedule check ends upon heading back inside"
+    ],
+    [
+      "1719-1721",
+      "I re-enter the classroom.",
+      "Room re-entry ends to discuss music"
+    ],
+    [
+      "1722-1724",
+      "I discuss a song with my companion.",
+      "Song discussion ends to offer a drink"
+    ],
+    [
+      "1725-1731",
+      "I hold a juice box for my texting companion to drink.",
+      "Drink assistance ends to retrieve laptop"
+    ],
+    [
+      "1732-1736",
+      "I set up my MacBook on the desk.",
+      "Laptop setup ends to begin research work"
+    ],
+    [
+      "1737-1741",
+      "I review AI research and code on my MacBook.",
+      "MacBook task ends to check phone"
+    ],
+    [
+      "1742-1747",
+      "I read an AI chat response on my iPhone.",
+      "Phone check ends to write notes on the computer"
+    ],
+    [
+      "1748-1749",
+      "I type notes in Google Docs.",
+      "Last action in the batch"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

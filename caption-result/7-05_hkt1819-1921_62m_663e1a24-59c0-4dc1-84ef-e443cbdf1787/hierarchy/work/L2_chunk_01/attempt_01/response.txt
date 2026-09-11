@@ -1,0 +1,104 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group action briefs into immediate tasks based on shared overarching goals, targets, and locations. Progressively abstract incidental glances, short waiting periods, and device switches within continuous tasks.",
+  "events": [
+    [
+      "0-32",
+      "I observe the lounge area and cityscape from an armchair.",
+      "Target changes to walking to the office"
+    ],
+    [
+      "33-38",
+      "I walk to workstation 13 in office C910.",
+      "Target changes to checking smartphone notifications"
+    ],
+    [
+      "39-44",
+      "I check my smartphone notifications.",
+      "Target changes to walking to the lounge"
+    ],
+    [
+      "45-50",
+      "I walk to the window seating area in the atrium lounge.",
+      "Target changes to using the POV Rollout Viewer"
+    ],
+    [
+      "51-79",
+      "I process recommendations and manual recaps in the POV Rollout Viewer.",
+      "Target changes to reviewing Qwen deployment specs"
+    ],
+    [
+      "80-98",
+      "I review Qwen deployment metrics and benchmarks in VS Code and Chrome.",
+      "Target changes to chatting on WeChat desktop"
+    ],
+    [
+      "99-107",
+      "I chat with babe and 刘帅 on WeChat.",
+      "Target changes to working in Visual Studio Code"
+    ],
+    [
+      "108-127",
+      "I test the Qwen3.5 deployment and EGAgent task in Visual Studio Code.",
+      "Target changes to searching for a location on Tencent Maps"
+    ],
+    [
+      "128-135",
+      "I coordinate a meetup location with 刘帅 using Tencent Maps.",
+      "Target changes to discussing transit routes on WeChat"
+    ],
+    [
+      "136-146",
+      "I discuss transit routes with User B and User A on WeChat.",
+      "Target changes to browsing WeChat articles"
+    ],
+    [
+      "147-148",
+      "I browse WeChat Official Accounts articles.",
+      "Target changes to chatting with babe"
+    ],
+    [
+      "149-160",
+      "I discuss dinner plans with babe on WeChat.",
+      "Target changes to reviewing code and logs in VS Code"
+    ],
+    [
+      "161-182",
+      "I review code diffs and task logs in Visual Studio Code.",
+      "Target changes to reading and editing a Feishu document"
+    ],
+    [
+      "183-208",
+      "I edit a Feishu document about emotion-action mechanisms.",
+      "Target changes to messaging friends on WeChat"
+    ],
+    [
+      "209-224",
+      "I message friends on WeChat about meetup plans.",
+      "Target changes to checking Gaode Maps"
+    ],
+    [
+      "225-236",
+      "I check the transit route to Chengshan Road on Gaode Maps.",
+      "Target changes to setting an alarm"
+    ],
+    [
+      "237-240",
+      "I set an alarm for 7:16 PM on my phone.",
+      "Target changes to editing the Feishu document"
+    ],
+    [
+      "241-249",
+      "I edit the Feishu document on my laptop.",
+      "End of provided inputs"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

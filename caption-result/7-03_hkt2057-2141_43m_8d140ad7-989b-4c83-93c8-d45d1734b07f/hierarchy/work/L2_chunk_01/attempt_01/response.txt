@@ -1,0 +1,199 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group sequential action briefs into immediate tasks based on continuous, localized goals such as walking, having a brief conversation, interacting with a specific appliance, typing a prompt, monitoring a specific execution phase, or browsing an app.",
+  "events": [
+    [
+      "0-2",
+      "I converse about the floor number while looking down the corridor.",
+      "Completes floor discussion."
+    ],
+    [
+      "3-8",
+      "I walk down the hallway while conversing briefly.",
+      "Completes walking."
+    ],
+    [
+      "9-14",
+      "I inspect the hallway shelf and discuss interns.",
+      "Completes intern discussion."
+    ],
+    [
+      "15-18",
+      "I walk towards the kitchen counter and converse about leaving later.",
+      "Completes walking to counter."
+    ],
+    [
+      "19-30",
+      "I inspect the coffee machine and water dispenser at the pantry counter.",
+      "Completes pantry inspection."
+    ],
+    [
+      "31-32",
+      "I open the office refrigerator.",
+      "Completes opening refrigerator."
+    ],
+    [
+      "33-38",
+      "I walk through the office back to my workstation.",
+      "Completes returning to workstation."
+    ],
+    [
+      "39-41",
+      "I read benchmark evaluation notes on my MacBook.",
+      "Completes reading benchmark notes."
+    ],
+    [
+      "42-45",
+      "I discuss a MacBook screen sleep issue with a colleague.",
+      "Completes discussion on screen sleep."
+    ],
+    [
+      "46-51",
+      "I type prompt instructions into the Claude Code terminal.",
+      "Completes prompt typing."
+    ],
+    [
+      "52-59",
+      "I massage and stretch my right hand and arm.",
+      "Completes hand massage."
+    ],
+    [
+      "60-64",
+      "I prepare to type and inspect my fingernails while discussing a new folder.",
+      "Completes inspecting fingernails."
+    ],
+    [
+      "65-74",
+      "I review project notes and type in VS Code while discussing code with a colleague.",
+      "Completes typing and code discussion."
+    ],
+    [
+      "75-84",
+      "I type prompt instructions to adjust thresholds in VS Code and monitor the execution logs.",
+      "Completes adjusting thresholds."
+    ],
+    [
+      "85-94",
+      "I monitor Claude Code installing Python dependencies and validating the build environment.",
+      "Completes dependency installation monitoring."
+    ],
+    [
+      "95-100",
+      "I correct a prompt error about evaluation points and monitor the resulting Python script execution.",
+      "Completes script monitoring for error correction."
+    ],
+    [
+      "101-107",
+      "I monitor Claude Code analyzing Day5 results and memory caching in VS Code.",
+      "Completes monitoring caching analysis."
+    ],
+    [
+      "108-111",
+      "I instruct Claude Code to revert to the original Magic-Video version.",
+      "Completes reverting version instructions."
+    ],
+    [
+      "112-116",
+      "I review Magic-Video evaluation logs, task plans, and a conda build error.",
+      "Completes reviewing logs and errors."
+    ],
+    [
+      "117-118",
+      "I discuss the creation and quantity of swords in the program.",
+      "Completes sword discussion."
+    ],
+    [
+      "119-120",
+      "I inspect a conda environment error and the API dashboard.",
+      "Completes error inspection."
+    ],
+    [
+      "121-126",
+      "I review the evaluation plan and discuss documentation practices with a colleague.",
+      "Completes documentation discussion."
+    ],
+    [
+      "127-131",
+      "I look around my office surroundings.",
+      "Completes looking around office."
+    ],
+    [
+      "132-139",
+      "I monitor the Claude Code evaluation progress and inspect the VS Code file tree.",
+      "Completes evaluation progress monitoring."
+    ],
+    [
+      "140-151",
+      "I read a WeChat article about the Palantir CEO's criticism of AI token billing.",
+      "Completes reading WeChat article."
+    ],
+    [
+      "152-155",
+      "I review behavior prediction notes in Feishu and inspect model backbone settings in VS Code.",
+      "Completes reviewing model settings."
+    ],
+    [
+      "156-160",
+      "I discuss model backbone settings and video processing speed with a colleague.",
+      "Completes discussing video settings."
+    ],
+    [
+      "161-166",
+      "I monitor the running terminal output.",
+      "Completes monitoring terminal."
+    ],
+    [
+      "167-172",
+      "I review dataset outputs and listen to a colleague discuss AI memory context.",
+      "Completes discussing AI memory."
+    ],
+    [
+      "173-181",
+      "I pack my power adapter and earplugs while reviewing the evaluation log.",
+      "Completes packing small items."
+    ],
+    [
+      "182-198",
+      "I pack my MacBook, notebook, and personal items into my backpack to prepare to leave.",
+      "Completes packing backpack."
+    ],
+    [
+      "199-206",
+      "I retrieve my water bottle from a nearby desk and examine my left hand.",
+      "Completes fetching water bottle."
+    ],
+    [
+      "207-215",
+      "I say goodbye to my colleagues, walk to the elevator, and step inside.",
+      "Completes entering elevator."
+    ],
+    [
+      "216-224",
+      "I search for electric scooter rentals on Alipay while riding the elevator.",
+      "Completes rental search in elevator."
+    ],
+    [
+      "225-230",
+      "I arrive at the ground floor and check Hellobike rental locations on my phone.",
+      "Completes arriving at ground floor."
+    ],
+    [
+      "231",
+      "I walk outside into the plaza.",
+      "Completes moving to the plaza."
+    ],
+    [
+      "232-249",
+      "I browse various electric scooter rental listings on my smartphone.",
+      "Completes browsing scooter rentals."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

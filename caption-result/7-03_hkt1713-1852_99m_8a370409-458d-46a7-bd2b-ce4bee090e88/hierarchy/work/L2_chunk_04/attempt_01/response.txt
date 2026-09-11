@@ -1,0 +1,119 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions with a single immediate task objective. Boundaries are drawn when switching devices, applications, or major goals, such as moving from reading a paper to transferring money on a banking app, or switching from VS Code to answering a phone call.",
+  "events": [
+    [
+      "750-776",
+      "I research MAGIC-Video and WorldMM using Claude, ChatGPT, and an arXiv paper PDF.",
+      "Context switches to interacting with a colleague and reviewing notes"
+    ],
+    [
+      "777-781",
+      "I review project notes in VS Code and acknowledge a colleague.",
+      "Focus shifts to monitoring terminal outputs"
+    ],
+    [
+      "782-786",
+      "I monitor terminal outputs, API balance, and notes in VS Code.",
+      "Task changes to adjusting the desk"
+    ],
+    [
+      "787-788",
+      "I adjust my desk height.",
+      "Task shifts to inserting earplugs"
+    ],
+    [
+      "789-798",
+      "I compress and insert yellow foam earplugs.",
+      "Action shifts to reading notes on the laptop"
+    ],
+    [
+      "799",
+      "I read notes on my laptop.",
+      "Focus shifts to using the iPhone for messages"
+    ],
+    [
+      "800-810",
+      "I read and reply to WeChat messages from babe and 爸, and read FPS transfer instructions.",
+      "App switches to BOCHK for a money transfer"
+    ],
+    [
+      "811-836",
+      "I transfer HKD 15,200 for rent using the BOCHK app and save the receipt.",
+      "Transfer completes; switches to sharing the receipt in WeChat"
+    ],
+    [
+      "837-844",
+      "I send the rent transfer receipt in WeChat and message 爸.",
+      "Conversation shifts to chatting with babe"
+    ],
+    [
+      "845-858",
+      "I chat with babe in WeChat.",
+      "App switches to Outlook"
+    ],
+    [
+      "859-863",
+      "I check my Outlook inbox and view project notes.",
+      "Task switches to reading an arXiv paper in Chrome"
+    ],
+    [
+      "864-892",
+      "I read an arXiv paper PDF on multimodal models in Chrome.",
+      "App switches to VS Code for writing prompts"
+    ],
+    [
+      "893-910",
+      "I write prompt instructions and notes in VS Code.",
+      "Interrupted by an incoming phone call"
+    ],
+    [
+      "911-924",
+      "I answer a call from 爸, message 杜一群, and send the rent transfer screenshot to 爸 in WeChat.",
+      "Call and messaging complete; returns to laptop"
+    ],
+    [
+      "925-945",
+      "I monitor the AI agent progress and review search queries in VS Code.",
+      "Focus shifts to reading a paper in Chrome"
+    ],
+    [
+      "946-968",
+      "I read the research paper appendix and sections in Chrome.",
+      "Focus shifts to reviewing notes in VS Code"
+    ],
+    [
+      "969-974",
+      "I review experiment notes and API usage in VS Code.",
+      "Action shifts to speaking to a colleague and buttoning my shirt"
+    ],
+    [
+      "975-979",
+      "I speak to a colleague and button my shirt.",
+      "Focus shifts to reviewing documents and monitoring agent"
+    ],
+    [
+      "980-985",
+      "I review the markdown document and monitor the AI research agent in VS Code while colleagues speak.",
+      "Device switches to iPhone for WeChat chat"
+    ],
+    [
+      "986-992",
+      "I chat with babe in WeChat.",
+      "Action switches back to conversing and monitoring VS Code"
+    ],
+    [
+      "993-995",
+      "I converse and monitor the VS Code AI execution log.",
+      "End of provided events"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

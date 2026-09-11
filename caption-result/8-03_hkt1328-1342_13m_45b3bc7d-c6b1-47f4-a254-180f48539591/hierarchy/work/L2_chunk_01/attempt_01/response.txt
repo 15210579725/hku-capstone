@@ -1,0 +1,114 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group immediate sequence of actions into tasks: walking to the counter, observing the staff, ordering/customizing food, seasoning the bowl, relocating to a table, eating in distinct chunks (abstracting repetitive dips/bites into single consumption events), checking a phone, finishing the meal, returning dishes, checking a freezer, and returning to the seating area. Ensure descriptions have one unified objective without using forbidden conjunctions for consecutive actions.",
+  "events": [
+    [
+      "0-4",
+      "I walk through the lounge to the food counter area.",
+      "Arrives at the food service section"
+    ],
+    [
+      "5-19",
+      "I observe the staff preparing food at the service area.",
+      "Initiates verbal interaction to customize the order"
+    ],
+    [
+      "20-29",
+      "I instruct the staff to customize my wonton order.",
+      "Finishes requesting custom soup and waits"
+    ],
+    [
+      "30-34",
+      "I finalize my order by adding a fried egg and confirming payment.",
+      "Receives the food bowl and concludes the transaction"
+    ],
+    [
+      "35-37",
+      "I season my noodle bowl with chopped green onions and chili oil.",
+      "Finishes preparing the food with condiments"
+    ],
+    [
+      "38-44",
+      "I carry my food to a table in the lounge seating area.",
+      "Places the food on the table to begin the meal"
+    ],
+    [
+      "45-54",
+      "I consume my first few mixed wontons.",
+      "Completes eating the initial batch of wontons"
+    ],
+    [
+      "55-63",
+      "I consume a dipped wonton.",
+      "Finishes eating a specific dipped wonton"
+    ],
+    [
+      "64-73",
+      "I consume another dipped wonton.",
+      "Finishes eating the next wonton"
+    ],
+    [
+      "74-85",
+      "I consume a bitten dumpling.",
+      "Finishes eating the previously bitten dumpling"
+    ],
+    [
+      "86-98",
+      "I consume a wonton.",
+      "Finishes eating a wonton after observing the lounge"
+    ],
+    [
+      "99-109",
+      "I take a bite from a prodded wonton.",
+      "Completes taking a bite and lowering chopsticks"
+    ],
+    [
+      "110-126",
+      "I consume a closely inspected dumpling.",
+      "Finishes eating a thoroughly examined dumpling"
+    ],
+    [
+      "127-130",
+      "I check the timer and messages on my phone.",
+      "Puts the phone away to resume eating"
+    ],
+    [
+      "131-138",
+      "I consume the remaining dumplings.",
+      "Finishes the last of the food in the bowl"
+    ],
+    [
+      "139-145",
+      "I conclude my meal by resting my chopsticks.",
+      "Stands up to leave the dining table"
+    ],
+    [
+      "146-150",
+      "I walk from the table to the dish return station.",
+      "Arrives at the dish return conveyor"
+    ],
+    [
+      "151-152",
+      "I place my bowl and chopsticks into the dish return system.",
+      "Finishes returning all tableware"
+    ],
+    [
+      "153-161",
+      "I inspect the ice cream freezer at the side counter.",
+      "Turns away from the freezer to walk back"
+    ],
+    [
+      "162-169",
+      "I walk through the dining area back to the booth seating.",
+      "Arrives back at the seating pod"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

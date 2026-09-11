@@ -1,0 +1,29 @@
+```json
+{
+  "target_level": "L5",
+  "plan": "Group into the broadest major activities: the morning technical work period, the extended rest break at the desk, and the combined lunch break sequence which includes the meal and subsequent personal messaging.",
+  "events": [
+    [
+      "0",
+      "I perform research and development tasks involving Vision-Language Models and data processing pipelines.",
+      "Distinct major technical work period"
+    ],
+    [
+      "1",
+      "I take a rest break at my desk.",
+      "Distinct extended rest period"
+    ],
+    [
+      "2-3",
+      "I take my lunch break.",
+      "Shift to cafeteria and booth for meal and personal time"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

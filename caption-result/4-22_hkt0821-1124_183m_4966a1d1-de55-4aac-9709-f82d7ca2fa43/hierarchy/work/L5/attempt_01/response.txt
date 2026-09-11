@@ -1,27 +1,22 @@
 ```json
 {
   "target_level": "L5",
-  "plan": "The L4 phases represent four independent, non-overlapping major activities (studying outdoors, grocery shopping, eating a meal at home, and reading in a room). Since they do not share a single overarching goal, they are retained as separate L5 events. Descriptions are progressively abstracted to focus on the major goal while preserving distinguishing mathematical topics, subjects, and objects as required.",
+  "plan": "Unify the outbound transit, main study session, and return transit into a single waterfront excursion episode. Keep the subsequent distinct at-home activities (the breakfast routine and smartphone media consumption) as separate major goals.",
   "events": [
     [
-      "0",
-      "I study Kernel PCA, differential equations, and course assignments at the waterfront promenade.",
-      "Distinct major activity goal and location"
-    ],
-    [
-      "1",
-      "I shop for bread and cucumbers.",
-      "Shift to distinct shopping goal"
-    ],
-    [
-      "2",
-      "I have a meal of instant noodles and meat at home.",
-      "Shift to distinct meal goal at home"
+      "0-2",
+      "I complete a university study excursion at the waterfront promenade.",
+      "Groups outbound transit, the primary study session, and the return transit into one complete outing."
     ],
     [
       "3",
-      "I read AI research and tech news on my smartphone in my room.",
-      "Shift to distinct reading goal"
+      "I complete a breakfast meal in my apartment.",
+      "Breakfast forms a distinct major home activity with its own preparation, consumption, and cleanup cycle."
+    ],
+    [
+      "4",
+      "I consume AI technology and social media content on my smartphone in my bedroom.",
+      "Extended digital media consumption represents a distinct post-breakfast leisure activity."
     ]
   ],
   "audit": {

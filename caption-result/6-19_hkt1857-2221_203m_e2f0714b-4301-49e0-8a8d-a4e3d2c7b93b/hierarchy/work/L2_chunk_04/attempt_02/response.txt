@@ -1,0 +1,129 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group by immediate task, focusing on discrete cooking phases, alternating focus between eating different foods during the meal, post-meal conversation, and cleanup.",
+  "events": [
+    [
+      "750-752",
+      "I walk from the bedroom back to the kitchen.",
+      "Arrival in kitchen"
+    ],
+    [
+      "753-760",
+      "I stir-fry potato strips in the pan while conversing.",
+      "Shifts to snacking exclusively"
+    ],
+    [
+      "761-766",
+      "I snack on cooked french fries from the plate.",
+      "Resumes cooking"
+    ],
+    [
+      "767-783",
+      "I stir-fry the potatoes, occasionally tasting them and watching my companion eat.",
+      "Stops stirring to season and taste"
+    ],
+    [
+      "784-787",
+      "I season and taste the cooked fries.",
+      "Resumes stirring"
+    ],
+    [
+      "788-793",
+      "I stir-fry potato strips in the pan.",
+      "Leaves kitchen to cool down"
+    ],
+    [
+      "794-797",
+      "I briefly walk to the living room and bedroom to cool down.",
+      "Returns to the kitchen to cook"
+    ],
+    [
+      "798-804",
+      "I resume frying the french fries.",
+      "Companion takes over food preparation"
+    ],
+    [
+      "805-820",
+      "I watch my companion finish plating, seasoning, and adding ketchup to the fries.",
+      "Preparation complete; begins moving food"
+    ],
+    [
+      "821-828",
+      "I carry the plated food and chopsticks to my companion in the bedroom.",
+      "Arrival and setting down food"
+    ],
+    [
+      "829-832",
+      "I toast zongzi with my companion.",
+      "Toast finishes; begins eating"
+    ],
+    [
+      "833-841",
+      "I eat french fries and discuss my cooking attempt.",
+      "Shifts focus to eating zongzi"
+    ],
+    [
+      "842-851",
+      "I eat sweet red bean zongzi.",
+      "Shifts focus back to fries"
+    ],
+    [
+      "852-873",
+      "I eat french fries dipped in ketchup while listening to my companion.",
+      "Shifts focus to savory zongzi"
+    ],
+    [
+      "874-893",
+      "I inspect and eat the savory pork zongzi.",
+      "Shifts focus back to fries"
+    ],
+    [
+      "894-906",
+      "I eat more french fries with ketchup.",
+      "Shifts focus back to zongzi"
+    ],
+    [
+      "907-925",
+      "I share and eat pieces of meat and red bean zongzi with my companion.",
+      "Shifts focus to finishing the fries"
+    ],
+    [
+      "926-935",
+      "I finish eating the remaining french fries.",
+      "Meal complete; stops to clean hands"
+    ],
+    [
+      "936-939",
+      "I wipe my hands with a tissue.",
+      "Hand cleaning complete"
+    ],
+    [
+      "940-966",
+      "I converse with my companion about our meal and upcoming plans while she finishes eating.",
+      "Conversation lulls; shifts focus to rolling cart"
+    ],
+    [
+      "967-982",
+      "I inspect various items in the rolling cart.",
+      "Shifts to cleanup task"
+    ],
+    [
+      "983-987",
+      "I gather the dirty dishes and instruct my companion to get ready.",
+      "Leaves bedroom to wash dishes"
+    ],
+    [
+      "988-999",
+      "I wash the dirty dishes in the kitchen sink.",
+      "End of provided events"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

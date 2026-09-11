@@ -1,0 +1,29 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group the driving episodes into three broad phases: departing the hospital and navigating the city, the primary highway transit, and the arrival at the rest area.",
+  "events": [
+    [
+      "0-1",
+      "I navigate from the hospital through city streets to the expressway.",
+      "City departure phase prior to highway entry"
+    ],
+    [
+      "2-6",
+      "I drive along the highway network.",
+      "Continuous high-speed transit phase encompassing tolls, interchanges, and tunnels"
+    ],
+    [
+      "7",
+      "I arrive at the Xinghe service area.",
+      "Termination of driving to park and take a break"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

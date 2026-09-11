@@ -1,0 +1,149 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group action briefs into immediate tasks based on contiguous micro-locations, continuous movement phases, and distinct device or object interactions.",
+  "events": [
+    [
+      "0-7",
+      "I converse with a person in the residential hallway.",
+      "Boarding elevator begins"
+    ],
+    [
+      "8-11",
+      "I board the elevator with my folded umbrella.",
+      "Switch to smartphone usage"
+    ],
+    [
+      "12-16",
+      "I browse my smartphone in the elevator.",
+      "Exiting elevator to lobby"
+    ],
+    [
+      "17-20",
+      "I exit the residential building through the main lobby.",
+      "Transition to outdoor walking"
+    ],
+    [
+      "21-23",
+      "I review the WeChat app on my smartphone along the outdoor walkway.",
+      "Stowing phone to walk continuously"
+    ],
+    [
+      "24-42",
+      "I walk along the covered outdoor corridors of the residential estate.",
+      "Passing into colonnade maintenance area"
+    ],
+    [
+      "43-57",
+      "I follow pedestrians along the covered colonnade past maintenance zones.",
+      "Approaching building lobby entrance"
+    ],
+    [
+      "58-67",
+      "I proceed toward the building lobby entrance.",
+      "Passing bronze sculptures toward towers"
+    ],
+    [
+      "68-83",
+      "I walk along the covered walkways past bronze sculptures toward the tower lobbies.",
+      "Approaching residential courtyard"
+    ],
+    [
+      "84-97",
+      "I navigate the covered residential pathways toward the courtyard.",
+      "Following specific conversing companion"
+    ],
+    [
+      "98-114",
+      "I follow my conversing companion through the covered garden estate pathways.",
+      "Reaching wet plaza and building entrance"
+    ],
+    [
+      "115-129",
+      "I follow my companion across the wet plaza into a modern building.",
+      "Transitioning to descending escalators"
+    ],
+    [
+      "130-147",
+      "I ride the descending escalators down through the grand atrium lobby.",
+      "Exiting building to street level"
+    ],
+    [
+      "148-154",
+      "I walk along the brick sidewalk towards the MTR station.",
+      "Entering MTR station escalators"
+    ],
+    [
+      "155-158",
+      "I ride the ascending escalator into the MTR station concourse.",
+      "Opening mobile banking app"
+    ],
+    [
+      "159-161",
+      "I operate my mobile banking app in the station concourse.",
+      "Reaching fare gates"
+    ],
+    [
+      "162-163",
+      "I pass through the MTR station fare gates.",
+      "Stopping to message on smartphone"
+    ],
+    [
+      "164-166",
+      "I compose a message on my smartphone.",
+      "Walking toward boarding area"
+    ],
+    [
+      "167-170",
+      "I walk along the station platform to the boarding area.",
+      "Queueing for train arrival"
+    ],
+    [
+      "171-177,242-244",
+      "I wait in line at the platform screen doors for the approaching train.",
+      "Boarding MTR train"
+    ],
+    [
+      "178-183",
+      "I board the MTR train.",
+      "Focusing on overhead advertisements"
+    ],
+    [
+      "184-186,245-248",
+      "I observe the overhead advertisements during the train departure.",
+      "Turning attention to window scenery"
+    ],
+    [
+      "187-203",
+      "I watch the changing outdoor scenery through the train window.",
+      "Looking back into carriage aisle"
+    ],
+    [
+      "204-219",
+      "I watch the overhead advertisement screens from the train aisle.",
+      "Taking a seat"
+    ],
+    [
+      "220-229",
+      "I observe the nearby passengers from a priority seat.",
+      "Stowing umbrella into backpack"
+    ],
+    [
+      "230-232",
+      "I stow my folding umbrella into my backpack.",
+      "Resuming observation of passengers"
+    ],
+    [
+      "233-241,249",
+      "I observe the surrounding passengers inside the subway carriage.",
+      "End of provided sequence"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

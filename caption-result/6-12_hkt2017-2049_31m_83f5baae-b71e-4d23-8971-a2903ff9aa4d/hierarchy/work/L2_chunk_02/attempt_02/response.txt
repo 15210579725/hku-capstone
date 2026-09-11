@@ -1,0 +1,81 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks based on the primary interface or physical activity, such as interacting with specific applications, creating scheduled tasks, navigating to locations, or using playground equipment.",
+  "events": [
+    [
+      "250-252",
+      "I navigate to the NVIDIA registration tab in Chrome.",
+      "Switches to Claude Code in Terminal"
+    ],
+    [
+      "253-258",
+      "I interact with Claude Code in the Terminal.",
+      "Opens VS Code and dashboard"
+    ],
+    [
+      "259-263",
+      "I check the Claude Pro usage dashboard in VS Code.",
+      "Starts configuring a new routine"
+    ],
+    [
+      "264-288",
+      "I configure a 'say hello' routine.",
+      "Switches to Claude Cowork dashboard"
+    ],
+    [
+      "289-307",
+      "I create a 'say hello' scheduled task in the Claude Cowork dashboard.",
+      "Completes computer tasks and begins preparing to leave"
+    ],
+    [
+      "308-319",
+      "I prepare to leave the apartment with my friend.",
+      "Leaves the apartment into the corridor"
+    ],
+    [
+      "320-336",
+      "I take the elevator down to the lobby with my companion.",
+      "Exits the elevator and heads to the building exit"
+    ],
+    [
+      "337-339",
+      "I exit the building.",
+      "Begins walking outdoors"
+    ],
+    [
+      "340-362",
+      "I walk to the playground area.",
+      "Arrives at the playground equipment"
+    ],
+    [
+      "363-396",
+      "I play on the playground climbing structure.",
+      "Moves to the spinning carousel"
+    ],
+    [
+      "397-399",
+      "I ride the spinning carousel.",
+      "Finishes riding and resumes walking"
+    ],
+    [
+      "400-404",
+      "I walk across the courtyard plaza.",
+      "Stops to converse with companion"
+    ],
+    [
+      "405-411",
+      "I discuss buying a football with my companion.",
+      "End of provided events"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      307
+    ],
+    "boundary_cautions": []
+  }
+}
+```

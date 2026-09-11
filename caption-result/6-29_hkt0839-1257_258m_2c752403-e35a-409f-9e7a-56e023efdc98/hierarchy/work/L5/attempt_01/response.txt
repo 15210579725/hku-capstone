@@ -1,0 +1,29 @@
+```json
+{
+  "target_level": "L5",
+  "plan": "Group L4 phases into major activities: completing the hotel stay, visiting the beach, and taking a major excursion to the hospital campus.",
+  "events": [
+    [
+      "0-1",
+      "I complete my morning preparations and hotel check-out.",
+      "Hotel departure sequence complete"
+    ],
+    [
+      "2",
+      "I explore the sandy beach via the resort shuttle.",
+      "Beach excursion complete before leaving the resort area"
+    ],
+    [
+      "3-5",
+      "I travel to the hospital campus to visit the covered arcade and outpatient center.",
+      "Hospital and arcade excursion complete"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,49 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions sharing the same immediate application and task target, such as document reviewing, spreadsheet inspection, folder management, and tool interaction.",
+  "events": [
+    [
+      "500-503",
+      "I review subtitle entries.",
+      "Switches to a Feishu spreadsheet"
+    ],
+    [
+      "504-512",
+      "I review action descriptions in a Feishu spreadsheet.",
+      "Switches to VS Code search results"
+    ],
+    [
+      "513-514",
+      "I inspect a subtitle entry in VS Code.",
+      "Switches to renaming a folder"
+    ],
+    [
+      "515-518",
+      "I rename the fine-tune folder to generalization-debug in VS Code.",
+      "Switches to the Terminal"
+    ],
+    [
+      "519-521",
+      "I initiate a Claude Code session in the Terminal.",
+      "Switches to a different Feishu spreadsheet"
+    ],
+    [
+      "522-545",
+      "I review evidence entries and anchor points in the Lucia habits Feishu spreadsheet.",
+      "Switches to ChatGPT"
+    ],
+    [
+      "546-548",
+      "I query ChatGPT regarding H800 and L40S GPU shared storage.",
+      "End of supplied events"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

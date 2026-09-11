@@ -1,0 +1,39 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group L3 episodes into broad travel phases: departure terminal preparation, the ferry journey, arrival terminal clearance, connecting transit to the train, and the final train journey.",
+  "events": [
+    [
+      "0-1",
+      "I prepare for ferry boarding in the departure terminal alongside my companion.",
+      "Pre-boarding departure terminal procedures and waiting"
+    ],
+    [
+      "2-6",
+      "I travel on the passenger ferry alongside my companion.",
+      "Ferry journey from boarding to arrival"
+    ],
+    [
+      "7-8",
+      "I complete the arrival terminal disembarkation and clearance procedures.",
+      "Arrival terminal disembarkation and processing"
+    ],
+    [
+      "9-10",
+      "I part ways with my companion upon reaching the train station turnstiles.",
+      "Navigating to the train station and separating from companion"
+    ],
+    [
+      "11-13",
+      "I complete a train journey.",
+      "Train ride from boarding to alighting"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

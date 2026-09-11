@@ -1,0 +1,18 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible pairs for continuous immediate tasks across batch edges. Pair 33-34 transitions from putting on a shirt to walking through a courtyard and is not merged. Pair 80-81 continues the same SEEK Pass identity verification task on the smartphone and is merged.",
+  "merges": [
+    [
+      80,
+      81,
+      "I verify my Hong Kong Identity Card on SEEK Pass.",
+      "SEEK Pass identity verification continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

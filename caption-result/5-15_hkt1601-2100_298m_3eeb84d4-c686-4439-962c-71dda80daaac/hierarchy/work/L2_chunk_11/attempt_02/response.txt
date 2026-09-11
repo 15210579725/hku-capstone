@@ -1,0 +1,109 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks based on physical location changes, distinct digital tasks on devices, and clear shifts in conversation topics during the meal.",
+  "events": [
+    [
+      "0-12",
+      "I drink tea during an iPad meeting at a restaurant.",
+      "Switches focus to checking messages on the smartphone."
+    ],
+    [
+      "13-28",
+      "I review Feishu messages and a document attachment on my phone.",
+      "Leaves the restaurant."
+    ],
+    [
+      "29-34",
+      "I check my smartphone messages on the sidewalk outside the restaurant.",
+      "Begins walking into a nearby convenience store."
+    ],
+    [
+      "35-37",
+      "I walk toward the beverage coolers inside a convenience store.",
+      "Stops walking to focus heavily on reading smartphone messages."
+    ],
+    [
+      "38-73",
+      "I review Lark messages and manuscript revision instructions on my devices.",
+      "Interrupted by a store employee initiating a conversation."
+    ],
+    [
+      "74-76",
+      "I converse with a store employee by the drink fridge.",
+      "Resumes reviewing the technical document and voice messaging."
+    ],
+    [
+      "77-93",
+      "I send Lark voice replies regarding experimental setups.",
+      "Concludes the voice conversation and switches to the Clock app."
+    ],
+    [
+      "94-96",
+      "I set an alarm time on my phone.",
+      "Switches to ending the tablet meeting."
+    ],
+    [
+      "97-98",
+      "I end the Lark meeting on my tablet.",
+      "Leaves the convenience store to go to another restaurant."
+    ],
+    [
+      "99-103",
+      "I walk to the 書湘門第 restaurant to sit at a booth.",
+      "Staff initiates interaction at the table."
+    ],
+    [
+      "104-104",
+      "I listen to table QR code instructions from the restaurant staff.",
+      "Staff interaction concludes and eating begins."
+    ],
+    [
+      "105-132",
+      "I begin my meal of rice, beef, vermicelli, and stir-fry.",
+      "Briefly pauses eating focus to discuss food spiciness and converse."
+    ],
+    [
+      "133-151",
+      "I continue my meal with my companion.",
+      "Picks up smartphone to search for information."
+    ],
+    [
+      "152-158",
+      "I check University X library opening hours using ChatGPT on my smartphone.",
+      "Shares the library hours with the companion."
+    ],
+    [
+      "159-169",
+      "I discuss library closing times with my companion during my meal.",
+      "Conversation shifts to library crowds and summer classes."
+    ],
+    [
+      "170-189",
+      "I discuss library crowds, summer classes, and travel with my companion during my meal.",
+      "Conversation shifts to manuscript reviewer feedback."
+    ],
+    [
+      "190-207",
+      "I describe manuscript reviewer feedback to my companion during my meal.",
+      "Conversation shifts to evaluating international travel packages."
+    ],
+    [
+      "208-223",
+      "I converse with my companion about travel packages to Korea and Japan during my meal.",
+      "Conversation shifts back to academic paper lengths."
+    ],
+    [
+      "224-249",
+      "I discuss academic paper length and AI assistance with my companion during my meal.",
+      "End of input."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

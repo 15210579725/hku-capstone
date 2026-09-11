@@ -1,0 +1,99 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group immediate tasks, dividing the meal into distinct phases (eating, drinking/reading phone, resuming eating), followed by returning the tray. Group the subsequent commute by distinct navigational segments (walking, taking elevators, walking along footbridges and streets), keeping note of the continuous reading of a DeepTech article on the smartphone.",
+  "events": [
+    [
+      "250-294",
+      "I eat chicken and rice, briefly watching a sparrow.",
+      "Switches from eating solid food to drinking soup and checking the smartphone."
+    ],
+    [
+      "295-305",
+      "I drink soup while reading WeChat messages and browsing the feed.",
+      "Puts the phone away to resume eating solid food."
+    ],
+    [
+      "306-352",
+      "I finish eating the spicy chicken and rice.",
+      "Finishes the solid food and sets down the fork."
+    ],
+    [
+      "353-364",
+      "I finish drinking my soup and inspect my finished meal tray.",
+      "Finishes the meal completely."
+    ],
+    [
+      "365-370",
+      "I put on my jacket and return my meal tray.",
+      "Tray is returned, marking the end of the canteen activities."
+    ],
+    [
+      "371-379",
+      "I walk out of the canteen and through the courtyard to the elevator lobby.",
+      "Arrives at the elevator lobby."
+    ],
+    [
+      "380-386",
+      "I open Zhihu and read a DeepTech article while waiting for the elevator.",
+      "Elevator arrives and enters the cabin."
+    ],
+    [
+      "387-394",
+      "I ride the elevator while reading the article.",
+      "Exits the elevator."
+    ],
+    [
+      "395-400",
+      "I walk along the HKU Station footbridge while reading the DeepTech article.",
+      "Reaches the next elevator lobby."
+    ],
+    [
+      "401-411",
+      "I ride the elevator while reading about Solar Impulse 2.",
+      "Exits the elevator onto another footbridge."
+    ],
+    [
+      "412-422",
+      "I walk along the footbridge while reading the DeepTech article.",
+      "Reaches the glass elevator."
+    ],
+    [
+      "423-434",
+      "I ride a glass elevator down to the G floor while reading about Solar Impulse 2.",
+      "Exits the elevator to the street."
+    ],
+    [
+      "435-441",
+      "I walk past a bus stop along the sidewalk while reading the DeepTech article.",
+      "Reaches an outdoor staircase."
+    ],
+    [
+      "442-452",
+      "I walk down outdoor concrete stairs while reading the DeepTech article.",
+      "Finishes descending the main staircase and reaches the street."
+    ],
+    [
+      "453-472",
+      "I walk along the street, down steps, and cross a road while reading the DeepTech article.",
+      "Stops actively reading the article and focuses on navigating a sloped path."
+    ],
+    [
+      "473-481",
+      "I walk downhill along a path and down a staircase.",
+      "Reaches a commercial street."
+    ],
+    [
+      "482-499",
+      "I walk past local shops along the street and cross a junction.",
+      "Batch ends."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

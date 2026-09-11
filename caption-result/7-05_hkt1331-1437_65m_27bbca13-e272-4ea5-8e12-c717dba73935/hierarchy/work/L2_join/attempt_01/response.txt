@@ -1,0 +1,18 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible pairs for continuity of the exact same immediate task. Pair [17, 18] continues a single uninterrupted conversation with a Taobao seller and should be merged. Pairs [32, 33] (executing an evaluation vs. reading diagnosis logs) and [92, 93] (waiting for the elevator vs. riding the elevator) represent related but functionally distinct immediate tasks and will not be merged.",
+  "merges": [
+    [
+      17,
+      18,
+      "I converse with a Taobao seller regarding a Claude Max subscription and VPN ban risks.",
+      "Continuous conversation with the same seller across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

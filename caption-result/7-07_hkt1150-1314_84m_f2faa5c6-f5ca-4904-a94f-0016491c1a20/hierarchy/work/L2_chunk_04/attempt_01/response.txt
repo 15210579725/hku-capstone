@@ -1,0 +1,49 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks based on shared immediate goals and locations: reviewing project materials, setting up a code visualizer, checking surroundings before leaving, walking to the elevator, riding the elevator, traversing the hallway, and descending the stairs.",
+  "events": [
+    [
+      "750-753",
+      "I review project notes and an arXiv paper in VS Code.",
+      "Task shifts to visualizer setup"
+    ],
+    [
+      "754-759",
+      "I configure a local visualizer using Claude Code and VS Code.",
+      "Coding task concludes"
+    ],
+    [
+      "760-764",
+      "I monitor my physical surroundings and digital devices at my desk.",
+      "Departure from the desk begins"
+    ],
+    [
+      "765-769",
+      "I walk from my desk into the elevator.",
+      "Entering the elevator"
+    ],
+    [
+      "770-775",
+      "I ride the elevator down to the sixth floor.",
+      "Exiting the elevator"
+    ],
+    [
+      "776-782",
+      "I walk through the hallway to observe the atrium lounge.",
+      "Reaching the staircase"
+    ],
+    [
+      "783-786",
+      "I descend the staircase into the open lounge.",
+      "End of batch"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

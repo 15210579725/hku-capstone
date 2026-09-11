@@ -1,0 +1,32 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group atomic actions into continuous immediate tasks sharing a single objective, location, or conversational topic. Merge related dialogue, continuous travel to a specific location, or contiguous interactions with a single object into distinct tasks.",
+  "events": [
+    ["0-7", "I purchase egg tarts and a pineapple bun using WeChat Pay.", "Payment concludes and receipt is torn"],
+    ["8-14", "I converse with a companion who scolds me for leaving unannounced.", "Conversation topic ends"],
+    ["15-23", "I walk along the hallway to enter classroom Y5-302.", "Arrives in classroom"],
+    ["24-25", "I converse with User A about the classroom being empty.", "Conversation topic ends"],
+    ["26-35", "I position a wheelchair-accessible desk for myself in the classroom.", "Desk is in position"],
+    ["36-44", "I unwrap my pineapple bun at my newly positioned accessible desk.", "Bun unwrapped and desk adjusted"],
+    ["45-47", "I retrieve my MacBook from my backpack.", "Laptop placed on desk"],
+    ["48-57", "I offer the use of my MacBook to my female companion.", "Conversation ends"],
+    ["58-60", "I lift my pineapple bun to look around the lecture room.", "Attention shifts to laptop"],
+    ["61-94", "I study lecture slides on flow models on my MacBook.", "Finishes studying to pack up bread"],
+    ["95-96", "I pack my plastic bag of bread into a paper bag.", "Bread packed away"],
+    ["97-119", "I take a water bottle from my classmate to fetch water.", "Leaves to get water"],
+    ["120-127", "I walk from the classroom to the cafeteria.", "Arrives in cafeteria"],
+    ["128-133", "I navigate through the cafeteria to the Beverage Area.", "Arrives at condiment counter"],
+    ["134-141", "I fill the water bottle at the cafeteria water dispenser.", "Finishes filling bottle"],
+    ["142-151", "I walk through the cafeteria dining hall past an autonomous service robot.", "Passes robot and proceeds to food counters"],
+    ["152-156", "I walk past the cafeteria food counters to examine a food sample display cabinet.", "Finishes looking at samples and moves to exit"],
+    ["157-160", "I exit the cafeteria into the adjacent corridor.", "Leaves cafeteria"]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

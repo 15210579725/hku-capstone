@@ -1,0 +1,164 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group actions into immediate, unified tasks such as arriving at the desk, connecting devices, reading specific instructions, conversing with AI for recommendations, configuring software, searching and downloading specific books, reading sections of the PDF, and performing distinct mathematical calculations or derivations on a notepad.",
+  "events": [
+    [
+      "0-4",
+      "I walk to my office desk and sit down.",
+      "Arrival complete; connecting power"
+    ],
+    [
+      "5-9",
+      "I plug a USB cable into a power bank.",
+      "Power connected; starts reading instructions"
+    ],
+    [
+      "10-11",
+      "I read the Codex migration instructions on my laptop.",
+      "Reading interrupted to handle earplugs"
+    ],
+    [
+      "12-13",
+      "I replace my foam earplugs.",
+      "Earplugs replaced; resumes reading"
+    ],
+    [
+      "14-20",
+      "I resume reading the Codex migration instructions on my laptop.",
+      "Instructions finished; opens Claude"
+    ],
+    [
+      "21-29",
+      "I ask Claude for brain-teaser problem sets.",
+      "Prompt sent; switches to configure API provider"
+    ],
+    [
+      "30-37",
+      "I configure the API provider in CC Switch.",
+      "Configuration saved; reads AI response"
+    ],
+    [
+      "38-43",
+      "I read puzzle book recommendations in ChatGPT.",
+      "Moves to search for a recommended book"
+    ],
+    [
+      "44-54",
+      "I search for a PDF of '啊哈！灵机一动' on Google and view a Scribd preview.",
+      "Abandons Scribd to use Z-Library"
+    ],
+    [
+      "55-66",
+      "I search for and download '啊哈，灵机一动' on Z-Library.",
+      "First book downloaded; cross-references for more"
+    ],
+    [
+      "67-70",
+      "I cross-reference puzzle book recommendations between Claude and Z-Library.",
+      "Cross-reference complete; searches for second book"
+    ],
+    [
+      "71-76",
+      "I search for and download '最迷人的数学趣题' on Z-Library.",
+      "Second book downloaded; opens first PDF to read"
+    ],
+    [
+      "77-87",
+      "I read the prefatory material and table of contents in the '啊哈，灵机一动' PDF.",
+      "Prefatory reading complete; starts Chapter 1"
+    ],
+    [
+      "88-91",
+      "I read the Chapter 1 introduction on combinatorics in the PDF.",
+      "Intro read; moves to specific gumball puzzle"
+    ],
+    [
+      "92-102",
+      "I read the gumball ('糖球问题') puzzle in the PDF.",
+      "Puzzle question read; moves to solution"
+    ],
+    [
+      "103-112",
+      "I read the gumball puzzle solution and follow-up variations in the PDF.",
+      "Solution read; retrieves notepad to solve"
+    ],
+    [
+      "113-118",
+      "I retrieve my notepad from my backpack and review my handwritten notes.",
+      "Notepad ready; begins writing formulas"
+    ],
+    [
+      "119-128",
+      "I review the gumball probability puzzle and write mathematical formulas on my notepad.",
+      "Calculation complete; reads next puzzles"
+    ],
+    [
+      "129-137",
+      "I read the worst-case scenario analysis and the card probability puzzle in the PDF.",
+      "Card puzzle read; moves to tournament puzzle"
+    ],
+    [
+      "138-147",
+      "I read the table tennis tournament puzzle and examine the bracket diagram.",
+      "Tournament puzzle read; begins calculations"
+    ],
+    [
+      "148-163",
+      "I calculate tournament scheduling for 37 members on my notepad.",
+      "Calculation pauses to re-read explanation"
+    ],
+    [
+      "164-176",
+      "I re-read the tournament scheduling problem and the bye explanation in the PDF.",
+      "Review complete; reads binary rule"
+    ],
+    [
+      "177-184",
+      "I read the binary rule and solution for the tournament byes in the PDF.",
+      "Reading complete; ponders puzzle"
+    ],
+    [
+      "185-191",
+      "I ponder the tournament puzzle while reviewing my handwritten notes.",
+      "Pondering yields idea; draws tree diagram"
+    ],
+    [
+      "192-202",
+      "I draw a tournament tree diagram and write bracket rules on my notebook.",
+      "Diagram complete; writes bye derivations"
+    ],
+    [
+      "203-212",
+      "I write derivations for tournament byes on my notepad.",
+      "Derivations complete; tests numerical sequence"
+    ],
+    [
+      "213-225",
+      "I write and review a numerical reduction sequence on my notebook.",
+      "Sequence tested; writes for 15 players"
+    ],
+    [
+      "226-231",
+      "I write a reduction sequence for 15 players on my notebook.",
+      "15-player sequence done; tests binary digits"
+    ],
+    [
+      "232-239",
+      "I write and correct binary digit calculations on the notepad.",
+      "Correction complete; continues calculating"
+    ],
+    [
+      "240-249",
+      "I contemplate the math problem and write binary calculations.",
+      "Task continues beyond window"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

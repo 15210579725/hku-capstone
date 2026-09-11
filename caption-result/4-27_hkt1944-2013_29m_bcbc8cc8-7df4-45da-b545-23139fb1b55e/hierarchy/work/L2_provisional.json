@@ -1,36 +1,26 @@
 [
   {
     "id": 0,
-    "start": 48920,
-    "end": 48930,
-    "text": "I enter the lecture hall.",
+    "start": 71040,
+    "end": 71071,
+    "text": "I take a seat near my classmates in the lecture hall.",
     "refs": [
       0,
       1,
-      2
-    ],
-    "boundary_reason": "Entering the lecture hall is complete",
-    "origin_chunk": 1
-  },
-  {
-    "id": 1,
-    "start": 48930,
-    "end": 48951,
-    "text": "I take a seat near my classmates in the lecture hall.",
-    "refs": [
+      2,
       3,
       4,
       5,
       6
     ],
-    "boundary_reason": "Sitting down is complete",
+    "boundary_reason": "Settling in completes, shifting to participating in a group conversation",
     "origin_chunk": 1
   },
   {
-    "id": 2,
-    "start": 48980,
-    "end": 49078,
-    "text": "I discuss capstone project advisors and research directions with my classmates.",
+    "id": 1,
+    "start": 71100,
+    "end": 71198,
+    "text": "I converse with classmates regarding Capstone project supervisor selections and 3D generation topics.",
     "refs": [
       7,
       8,
@@ -53,35 +43,55 @@
       25,
       26
     ],
-    "boundary_reason": "Shift in focus to observing surroundings",
+    "boundary_reason": "Conversation topic concludes, shifting focus to observing the environment",
+    "origin_chunk": 1
+  },
+  {
+    "id": 2,
+    "start": 71199,
+    "end": 71215,
+    "text": "I observe the front of the lecture hall and a departing classmate.",
+    "refs": [
+      27,
+      28,
+      29
+    ],
+    "boundary_reason": "Observation ends, shifting attention to personal belongings at the desk",
     "origin_chunk": 1
   },
   {
     "id": 3,
-    "start": 49079,
-    "end": 49119,
-    "text": "I adjust my backpack and notify a classmate about a dropped earphone.",
+    "start": 71216,
+    "end": 71229,
+    "text": "I organize my backpack and laptop at my desk.",
     "refs": [
-      27,
-      28,
-      29,
       30,
       31,
       32,
-      33,
+      33
+    ],
+    "boundary_reason": "Task interrupted by noticing a classmate's dropped item",
+    "origin_chunk": 1
+  },
+  {
+    "id": 4,
+    "start": 71229,
+    "end": 71239,
+    "text": "I inform a classmate about their dropped earphones.",
+    "refs": [
       34,
       35,
       36,
       37
     ],
-    "boundary_reason": "Shift to reviewing the course project document",
+    "boundary_reason": "Quick interaction completes, shifting to studying course materials",
     "origin_chunk": 1
   },
   {
-    "id": 4,
-    "start": 49115,
-    "end": 49149,
-    "text": "I review and discuss the ARIN7600 course project document on my laptop.",
+    "id": 5,
+    "start": 71235,
+    "end": 71269,
+    "text": "I evaluate the ARIN7600 course project P32 description with my classmate.",
     "refs": [
       38,
       39,
@@ -93,14 +103,14 @@
       78,
       79
     ],
-    "boundary_reason": "Shift to participating in a group discussion",
+    "boundary_reason": "Document review concludes, shifting focus to a new conversation topic about graduation plans",
     "origin_chunk": 1
   },
   {
-    "id": 5,
-    "start": 49149,
-    "end": 49310,
-    "text": "I discuss research fields, advisors, and application progress with my classmates.",
+    "id": 6,
+    "start": 71269,
+    "end": 71430,
+    "text": "I discuss research application plans and potential advisors with my classmates.",
     "refs": [
       42,
       43,
@@ -136,39 +146,49 @@
       73,
       74
     ],
-    "boundary_reason": "Shift to a new conversation topic about summer research",
+    "boundary_reason": "Conversation topic shifts to summer research opportunities",
     "origin_chunk": 1
   },
   {
-    "id": 6,
-    "start": 49340,
-    "end": 49375,
-    "text": "I listen to my classmates discuss summer research applications and funding.",
+    "id": 7,
+    "start": 71460,
+    "end": 71479,
+    "text": "I listen to classmates discuss summer research application processes and funding.",
     "refs": [
       80,
       81,
       82,
       83,
-      84,
-      85,
-      86,
-      87,
-      88
+      84
     ],
-    "boundary_reason": "Shift to reviewing a friend's resume",
+    "boundary_reason": "Conversation concludes, shifting attention to a classmate's laptop screen",
     "origin_chunk": 1
   },
   {
-    "id": 7,
-    "start": 49375,
-    "end": 49459,
-    "text": "I review my friend's resume on their laptop and discuss GPA calculations.",
+    "id": 8,
+    "start": 71480,
+    "end": 71520,
+    "text": "I view a friend's concise CV on a MacBook.",
     "refs": [
+      85,
+      86,
+      87,
+      88,
       89,
       90,
       91,
       92,
-      93,
+      93
+    ],
+    "boundary_reason": "Focus narrows from general resume viewing to debating a specific GPA detail",
+    "origin_chunk": 1
+  },
+  {
+    "id": 9,
+    "start": 71520,
+    "end": 71579,
+    "text": "I explain the university GPA conversion policy regarding the resume.",
+    "refs": [
       94,
       95,
       96,
@@ -181,31 +201,21 @@
       103,
       104
     ],
-    "boundary_reason": "Shift to discussing career paths",
+    "boundary_reason": "Topic shifts from GPA mechanics to broader strategies for contacting professors",
     "origin_chunk": 1
   },
   {
-    "id": 8,
-    "start": 49460,
-    "end": 49490,
-    "text": "I discuss career paths and reaching out to professors with my classmates.",
+    "id": 10,
+    "start": 71580,
+    "end": 71734,
+    "text": "I listen to classmates discuss contacting professors for research opportunities and a senior's admission to a Hetao Institute joint program.",
     "refs": [
       105,
       106,
       107,
       108,
       109,
-      110
-    ],
-    "boundary_reason": "Shift to a specific story about a PhD application",
-    "origin_chunk": 1
-  },
-  {
-    "id": 9,
-    "start": 49490,
-    "end": 49614,
-    "text": "I listen to my classmates discuss a successful PhD application story involving a capstone project.",
-    "refs": [
+      110,
       111,
       112,
       113,
@@ -235,14 +245,14 @@
       137,
       138
     ],
-    "boundary_reason": "Shift to discussing coursework",
+    "boundary_reason": "Conversation topic shifts to reviewing specific mathematics coursework",
     "origin_chunk": 1
   },
   {
-    "id": 10,
-    "start": 49615,
-    "end": 49641,
-    "text": "I listen to my classmates discuss their coursework and course names.",
+    "id": 11,
+    "start": 71735,
+    "end": 71761,
+    "text": "I listen to classmates discuss the Pure and Applied mathematics coursework.",
     "refs": [
       139,
       140,
@@ -251,14 +261,14 @@
       143,
       144
     ],
-    "boundary_reason": "Shift to advising on a resume",
+    "boundary_reason": "Conversation shifts back to providing specific resume additions",
     "origin_chunk": 1
   },
   {
-    "id": 11,
-    "start": 49641,
-    "end": 49677,
-    "text": "I advise a classmate on adding skills and projects to their resume.",
+    "id": 12,
+    "start": 71761,
+    "end": 71797,
+    "text": "I advise my classmate on adding Python skills and capstone projects to their resume.",
     "refs": [
       145,
       146,
@@ -272,14 +282,14 @@
       154,
       155
     ],
-    "boundary_reason": "Shift to discussing admission requirements",
+    "boundary_reason": "Resume feedback concludes, shifting to discussing admission interviews",
     "origin_chunk": 1
   },
   {
-    "id": 12,
-    "start": 49678,
-    "end": 49743,
-    "text": "I listen to my classmates discuss program admission requirements, interview experiences, and application timelines.",
+    "id": 13,
+    "start": 71798,
+    "end": 71863,
+    "text": "I listen to classmates discuss admission interview coding questions and program deposit fees.",
     "refs": [
       156,
       157,
@@ -293,14 +303,14 @@
       165,
       166
     ],
-    "boundary_reason": "Shift to discussing internships",
+    "boundary_reason": "Conversation topic shifts to industry internships",
     "origin_chunk": 1
   },
   {
-    "id": 13,
-    "start": 49743,
-    "end": 49814,
-    "text": "I listen to my classmates discuss their current internship statuses and work tasks.",
+    "id": 14,
+    "start": 71863,
+    "end": 71934,
+    "text": "I listen to a peer describe their Sony internship and model deployment responsibilities.",
     "refs": [
       167,
       168,
@@ -316,14 +326,14 @@
       178,
       179
     ],
-    "boundary_reason": "Shift to coordinating a video upload",
+    "boundary_reason": "Conversation topic shifts to video editing tasks",
     "origin_chunk": 1
   },
   {
-    "id": 14,
-    "start": 49814,
-    "end": 49875,
-    "text": "I listen to my classmates coordinate editing and uploading a video project to YouTube.",
+    "id": 15,
+    "start": 71934,
+    "end": 71995,
+    "text": "I listen to classmates coordinate subtitle additions and YouTube processing for a video project.",
     "refs": [
       180,
       181,
@@ -338,14 +348,14 @@
       190,
       191
     ],
-    "boundary_reason": "Shift to discussing schedules",
+    "boundary_reason": "Conversation shifts to coordinating schedules and availability",
     "origin_chunk": 1
   },
   {
-    "id": 15,
-    "start": 49876,
-    "end": 49912,
-    "text": "I listen to classmates discuss their schedules and internship plans.",
+    "id": 16,
+    "start": 71996,
+    "end": 72032,
+    "text": "I observe classmates discussing their availability and internship schedules.",
     "refs": [
       192,
       193,
@@ -356,29 +366,19 @@
       198,
       199
     ],
-    "boundary_reason": "Shift to examining a notebook",
-    "origin_chunk": 1
-  },
-  {
-    "id": 16,
-    "start": 49912,
-    "end": 49928,
-    "text": "I examine a Capgemini notebook and listen to a classmate explain consulting.",
-    "refs": [
-      200,
-      201,
-      202,
-      203
-    ],
-    "boundary_reason": "Shift to discussing job applications",
+    "boundary_reason": "Conversation concludes, shifting focus to examining a notebook and starting a new topic",
     "origin_chunk": 1
   },
   {
     "id": 17,
-    "start": 49929,
-    "end": 49975,
-    "text": "I listen to a classmate discuss job applications and their quantum algorithm thesis.",
+    "start": 72032,
+    "end": 72089,
+    "text": "I converse with classmates about consulting and my quantum computing graduation thesis.",
     "refs": [
+      200,
+      201,
+      202,
+      203,
       204,
       205,
       206,
@@ -388,32 +388,32 @@
       210,
       211,
       212,
-      213,
-      214
+      213
     ],
-    "boundary_reason": "Shift to discussing course exams",
+    "boundary_reason": "Conversation topic shifts to course exam expectations",
     "origin_chunk": 1
   },
   {
     "id": 18,
-    "start": 49976,
-    "end": 50008,
-    "text": "I listen to my classmates discuss course exam difficulties.",
+    "start": 72090,
+    "end": 72128,
+    "text": "I listen to a classmate explain course exam expectations.",
     "refs": [
+      214,
       215,
       216,
       217,
       218,
       219
     ],
-    "boundary_reason": "Shift to exchanging WeChat contacts",
+    "boundary_reason": "Conversation pauses as focus shifts to adding a contact on the smartphone",
     "origin_chunk": 1
   },
   {
     "id": 19,
-    "start": 50008,
-    "end": 50073,
-    "text": "I exchange WeChat contacts with my classmates.",
+    "start": 72128,
+    "end": 72170,
+    "text": "I add a classmate named Serenity on WeChat using my QR code.",
     "refs": [
       220,
       221,
@@ -424,21 +424,41 @@
       226,
       227,
       228,
-      229,
-      230,
-      231,
-      232,
-      233,
-      234
+      229
     ],
-    "boundary_reason": "Shift to reviewing Moodle course notes",
+    "boundary_reason": "Contact addition completes, shifting focus back to an ongoing conversation",
     "origin_chunk": 1
   },
   {
     "id": 20,
-    "start": 50074,
-    "end": 50125,
-    "text": "I review Discrete Mathematics notes on Moodle and discuss the exam questions with my classmates.",
+    "start": 72170,
+    "end": 72187,
+    "text": "I listen to classmates discuss their Discrete Mathematics midterm exam scores.",
+    "refs": [
+      230,
+      231,
+      232,
+      233
+    ],
+    "boundary_reason": "Exam score discussion concludes, shifting to handling a pending friend request",
+    "origin_chunk": 1
+  },
+  {
+    "id": 21,
+    "start": 72188,
+    "end": 72193,
+    "text": "I accept a WeChat friend request from a classmate.",
+    "refs": [
+      234
+    ],
+    "boundary_reason": "Smartphone task completes, shifting to studying on the laptop",
+    "origin_chunk": 1
+  },
+  {
+    "id": 22,
+    "start": 72194,
+    "end": 72245,
+    "text": "I study Discrete Mathematics PDF notes regarding the Matrix Tree Theorem on Moodle.",
     "refs": [
       235,
       236,
@@ -456,20 +476,30 @@
       248,
       249
     ],
-    "boundary_reason": "End of input",
+    "boundary_reason": "End of input sequence",
     "origin_chunk": 1
   },
   {
-    "id": 21,
-    "start": 50125,
-    "end": 50186,
-    "text": "I discuss the course slides with a classmate while reviewing a math assignment on my laptop.",
+    "id": 23,
+    "start": 72245,
+    "end": 72269,
+    "text": "I review course materials on my laptop and the projection screen.",
     "refs": [
       250,
       251,
       252,
       253,
-      254,
+      254
+    ],
+    "boundary_reason": "Switch to conversation",
+    "origin_chunk": 2
+  },
+  {
+    "id": 24,
+    "start": 72270,
+    "end": 72306,
+    "text": "I discuss the slides with a classmate while using my laptop.",
+    "refs": [
       255,
       256,
       257,
@@ -481,14 +511,14 @@
       263,
       264
     ],
-    "boundary_reason": "Conversation transitions to the optimization course exam.",
+    "boundary_reason": "Switch to listening to other classmates",
     "origin_chunk": 2
   },
   {
-    "id": 22,
-    "start": 50186,
-    "end": 50232,
-    "text": "I listen to classmates discuss a Friday optimization course and its exam.",
+    "id": 25,
+    "start": 72306,
+    "end": 72338,
+    "text": "I listen to classmates discuss an optimization course and exams.",
     "refs": [
       265,
       266,
@@ -496,21 +526,31 @@
       268,
       269,
       270,
-      271,
-      272,
-      273,
-      274
+      271
     ],
-    "boundary_reason": "Conversation transitions to Hong Kong university admissions.",
+    "boundary_reason": "Topic shift",
     "origin_chunk": 2
   },
   {
-    "id": 23,
-    "start": 50232,
-    "end": 50275,
-    "text": "I listen to classmates discuss GPA requirements for Hong Kong university admissions.",
+    "id": 26,
+    "start": 72338,
+    "end": 72356,
+    "text": "I observe my classmates in the lecture hall.",
     "refs": [
-      275,
+      272,
+      273,
+      274,
+      275
+    ],
+    "boundary_reason": "Conversation resumes",
+    "origin_chunk": 2
+  },
+  {
+    "id": 27,
+    "start": 72356,
+    "end": 72390,
+    "text": "I listen to classmates discuss GPA requirements and course difficulty.",
+    "refs": [
       276,
       277,
       278,
@@ -518,18 +558,18 @@
       280,
       281,
       282,
-      283,
-      284
+      283
     ],
-    "boundary_reason": "Conversation transitions to a student's Hong Kong background.",
+    "boundary_reason": "Topic shift",
     "origin_chunk": 2
   },
   {
-    "id": 24,
-    "start": 50276,
-    "end": 50330,
-    "text": "I listen to classmates discuss a student's Hong Kong origin and Cantonese fluency.",
+    "id": 28,
+    "start": 72390,
+    "end": 72450,
+    "text": "I listen to a classmate discuss his background from Hong Kong and a principal's recommendation scheme.",
     "refs": [
+      284,
       285,
       286,
       287,
@@ -541,14 +581,14 @@
       293,
       294
     ],
-    "boundary_reason": "Conversation transitions to exam scores and video recordings.",
+    "boundary_reason": "Topic shift",
     "origin_chunk": 2
   },
   {
-    "id": 25,
-    "start": 50330,
-    "end": 50365,
-    "text": "I listen to classmates discuss exam scores and how to submit a presentation recording.",
+    "id": 29,
+    "start": 72450,
+    "end": 72485,
+    "text": "I listen to classmates discuss exams, grades, and a video recording.",
     "refs": [
       295,
       296,
@@ -559,32 +599,32 @@
       301,
       302
     ],
-    "boundary_reason": "I begin packing up my laptop.",
+    "boundary_reason": "Start packing",
     "origin_chunk": 2
   },
   {
-    "id": 26,
-    "start": 50366,
-    "end": 50386,
-    "text": "I pack my MacBook into my backpack while listening to classmates discuss grades.",
+    "id": 30,
+    "start": 72486,
+    "end": 72509,
+    "text": "I pack my MacBook into my backpack.",
     "refs": [
       303,
       304,
       305,
       306,
       307,
-      308
+      308,
+      309
     ],
-    "boundary_reason": "I finish packing and resume listening to classmates.",
+    "boundary_reason": "Packing complete",
     "origin_chunk": 2
   },
   {
-    "id": 27,
-    "start": 50387,
-    "end": 50454,
-    "text": "I listen to classmates discuss university majors and course requirements.",
+    "id": 31,
+    "start": 72510,
+    "end": 72574,
+    "text": "I listen to classmates discuss university majors.",
     "refs": [
-      309,
       310,
       311,
       312,
@@ -600,25 +640,25 @@
       322,
       323
     ],
-    "boundary_reason": "I turn to check my desk and seat.",
+    "boundary_reason": "Look at desk",
     "origin_chunk": 2
   },
   {
-    "id": 28,
-    "start": 50455,
-    "end": 50458,
+    "id": 32,
+    "start": 72575,
+    "end": 72578,
     "text": "I check my desk and seat.",
     "refs": [
       324
     ],
-    "boundary_reason": "I finish checking my seat and stand talking with classmates.",
+    "boundary_reason": "Check complete",
     "origin_chunk": 2
   },
   {
-    "id": 29,
-    "start": 50459,
-    "end": 50513,
-    "text": "I stand talking with classmates about the impact of the pandemic on their GPAs.",
+    "id": 33,
+    "start": 72579,
+    "end": 72633,
+    "text": "I stand and listen to classmates discuss the impact of the pandemic on their grades.",
     "refs": [
       325,
       326,
@@ -632,14 +672,14 @@
       334,
       335
     ],
-    "boundary_reason": "I start walking toward the lecture hall exit.",
+    "boundary_reason": "Start leaving",
     "origin_chunk": 2
   },
   {
-    "id": 30,
-    "start": 50513,
-    "end": 50550,
-    "text": "I walk from the lecture hall to the elevator lobby.",
+    "id": 34,
+    "start": 72633,
+    "end": 72670,
+    "text": "I walk out of the lecture hall and proceed down the corridor to the elevator lobby.",
     "refs": [
       336,
       337,
@@ -649,50 +689,60 @@
       341,
       342
     ],
-    "boundary_reason": "I arrive at the elevator lobby and press the call button.",
+    "boundary_reason": "Arrival at elevator",
     "origin_chunk": 2
   },
   {
-    "id": 31,
-    "start": 50551,
-    "end": 50580,
-    "text": "I wait for the elevator while discussing my residence and course attendance with peers.",
+    "id": 35,
+    "start": 72671,
+    "end": 72680,
+    "text": "I press the call button and wait for the elevator.",
     "refs": [
       343,
       344,
-      345,
+      345
+    ],
+    "boundary_reason": "Start conversing",
+    "origin_chunk": 2
+  },
+  {
+    "id": 36,
+    "start": 72681,
+    "end": 72700,
+    "text": "I discuss residences and course attendance with my peers.",
+    "refs": [
       346,
       347,
       348,
       349,
       350
     ],
-    "boundary_reason": "The elevator arrives and I walk toward it.",
+    "boundary_reason": "Elevator arrives",
     "origin_chunk": 2
   },
   {
-    "id": 32,
-    "start": 50580,
-    "end": 50607,
-    "text": "I enter and ride the elevator while listening to a companion discuss course attendance.",
+    "id": 37,
+    "start": 72700,
+    "end": 72731,
+    "text": "I ride the elevator down while listening to a companion discuss course attendance.",
     "refs": [
       351,
       352,
       353,
       354,
       355,
-      356
+      356,
+      357
     ],
-    "boundary_reason": "I reach my floor and exit the elevator.",
+    "boundary_reason": "Exit elevator",
     "origin_chunk": 2
   },
   {
-    "id": 33,
-    "start": 50607,
-    "end": 50637,
-    "text": "I walk out of the building while my companion discusses course attendance and says goodbye.",
+    "id": 38,
+    "start": 72731,
+    "end": 72757,
+    "text": "I walk outside and down the stairs as my companion finishes discussing attendance and departs.",
     "refs": [
-      357,
       358,
       359,
       360,
@@ -700,36 +750,36 @@
       362,
       363
     ],
-    "boundary_reason": "My companion leaves, and I head toward the library.",
+    "boundary_reason": "Companion leaves",
     "origin_chunk": 2
   },
   {
-    "id": 34,
-    "start": 50637,
-    "end": 50663,
-    "text": "I walk toward the library entrance while checking my WeChat chat list.",
+    "id": 39,
+    "start": 72757,
+    "end": 72771,
+    "text": "I walk toward the library and check my WeChat.",
     "refs": [
       364,
-      365,
-      366,
-      367
+      365
     ],
-    "boundary_reason": "I enter the library lobby.",
+    "boundary_reason": "Arrive at library",
     "origin_chunk": 2
   },
   {
-    "id": 35,
-    "start": 50663,
-    "end": 50685,
-    "text": "I walk through the library security turnstile toward the restroom corridor.",
+    "id": 40,
+    "start": 72772,
+    "end": 72805,
+    "text": "I enter the library and walk through the lobby toward the restroom corridor.",
     "refs": [
+      366,
+      367,
       368,
       369,
       370,
       371,
       372
     ],
-    "boundary_reason": "Ends walking in the library corridor.",
+    "boundary_reason": "End of sequence",
     "origin_chunk": 2
   }
 ]

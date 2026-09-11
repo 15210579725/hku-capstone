@@ -1,0 +1,114 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous sequences of action briefs into unified immediate tasks based on the primary application or physical activity. Boundaries are placed at distinct application switches (e.g., from VS Code to ChatGPT to Nova AI), changes in primary task objective within an app (e.g., from reading results to forking Claude history), and distinct physical interruptions (e.g., inspecting clothes, conversing with peers).",
+  "events": [
+    [
+      "250-274",
+      "I review the MCQ evaluation results and script code in VS Code.",
+      "Continuous review of evaluation JSON data and prediction scripts."
+    ],
+    [
+      "275-278",
+      "I inspect my clothes.",
+      "Attention abruptly shifts to clothes on my lap."
+    ],
+    [
+      "279-293",
+      "I review the MCQ benchmark evaluation results in VS Code.",
+      "Resumes inspecting MCQ questions and accuracy statistics in the editor."
+    ],
+    [
+      "294-297",
+      "I inspect my fingers.",
+      "Brief physical distraction to look at my smartphone and hand."
+    ],
+    [
+      "298-315",
+      "I examine the MCQ prediction results and evaluation breakdown table in VS Code.",
+      "Returns to evaluating specific MCQ questions and overall breakdown tables."
+    ],
+    [
+      "316-320",
+      "I draft prompt instructions in VS Code.",
+      "Shifts to typing prompts in Claude Code and a prompt file."
+    ],
+    [
+      "321-338",
+      "I review action prediction evaluation criteria and prompt rules in ChatGPT.",
+      "Switches to Chrome to read prompt instructions and evaluation rationale in ChatGPT."
+    ],
+    [
+      "339-344",
+      "I review the gpt-5.4 pricing and performance statistics on Nova AI.",
+      "Switches tabs to check API marketplace pricing and latency charts."
+    ],
+    [
+      "345-355",
+      "I read the Feishu API documentation.",
+      "Switches to reading API parameters and tool schema specifications for Feishu."
+    ],
+    [
+      "356-366",
+      "I submit an action prediction evaluation prompt to ChatGPT.",
+      "Switches back to ChatGPT to formulate and submit a prompt."
+    ],
+    [
+      "367-374",
+      "I review the ChatGPT benchmark response.",
+      "Waits for processing and reads the generated evaluation response."
+    ],
+    [
+      "375-401",
+      "I review the GPT-5.4 MCQ benchmark evaluation results in VS Code.",
+      "Switches back to VS Code to analyze benchmark summary data and specific questions."
+    ],
+    [
+      "402-408",
+      "I type evaluation accuracy notes in a Feishu document.",
+      "Switches context to document findings in Feishu."
+    ],
+    [
+      "409-430",
+      "I fork and rewind the chat history in the Claude Code panel.",
+      "Returns to VS Code to interact specifically with Claude Code's history management."
+    ],
+    [
+      "431-434",
+      "I converse with someone.",
+      "Interrupted by an external conversation."
+    ],
+    [
+      "435-446",
+      "I review multi-model evaluation notes in VS Code.",
+      "Resumes work by reading comparison tables for different models."
+    ],
+    [
+      "447-460",
+      "I read a summary of the MAGIC-Video paper in Claude AI.",
+      "Switches to Claude AI to search for and read literature on video memory compression."
+    ],
+    [
+      "461-477",
+      "I draft data preparation notes and evaluation decisions in Claude Code.",
+      "Returns to VS Code to document evaluation decisions and preparation instructions."
+    ],
+    [
+      "478-481",
+      "I converse with my classmate.",
+      "Interruption for a conversational exchange with a peer."
+    ],
+    [
+      "482-499",
+      "I submit evaluation workflow decisions to Claude Code.",
+      "Finalizes and sends workflow design instructions in the Claude Code panel."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

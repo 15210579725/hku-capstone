@@ -1,0 +1,34 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group immediate L2 tasks into coherent L3 episodes based on major navigation phases: departing the residence, traversing the estate grounds and connected buildings, entering the transit station, and riding the train. Incidental smartphone usage, observing surroundings, and waiting are abstracted into their encompassing travel phases.",
+  "events": [
+    [
+      "0-3",
+      "I depart from my residential building.",
+      "Exiting the building lobby completes the residential departure episode"
+    ],
+    [
+      "4-12",
+      "I walk through the residential estate pathways and the adjacent modern building atrium.",
+      "Transitioning from the atrium escalators to the public sidewalk marks the end of traversing the estate complex"
+    ],
+    [
+      "13-19",
+      "I navigate from the street to the MTR station boarding platform.",
+      "Boarding the train shifts the activity from station navigation to the transit ride"
+    ],
+    [
+      "20-26",
+      "I ride the MTR train.",
+      "Recording ends while continuing to ride the train"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,84 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group consecutive action briefs into immediate tasks based on the specific interface, application, or physical object being interacted with. Network troubleshooting is segmented into discrete tasks such as checking terminal logs, adjusting system settings, and reviewing proxy app status.",
+  "events": [
+    [
+      "250-255",
+      "I review Codex network diagnostics and Clash Verge proxy configurations.",
+      "Switches to loading a URL in Chrome"
+    ],
+    [
+      "256-259",
+      "I load the internal console URL in Chrome.",
+      "Task interrupted by a physical object"
+    ],
+    [
+      "260",
+      "I inspect a yellow earplug.",
+      "Returns to checking network diagnostics on laptop"
+    ],
+    [
+      "261-270",
+      "I review terminal network diagnostics and Clash Verge proxy settings.",
+      "Switches to checking Wi-Fi and network errors"
+    ],
+    [
+      "271-278",
+      "I inspect Wi-Fi availability and network errors in my terminal and browser.",
+      "Opens System Settings for network configuration"
+    ],
+    [
+      "279-285",
+      "I check my Wi-Fi and USB LAN network configurations in System Settings.",
+      "Returns to monitoring ping in Terminal"
+    ],
+    [
+      "286-289",
+      "I monitor network ping statistics and error logs in Terminal.",
+      "Starts a new file transfer task in Baidu Netdisk"
+    ],
+    [
+      "290-308",
+      "I monitor a folder upload in Baidu Netdisk.",
+      "Switches to Clash Verge to check proxy"
+    ],
+    [
+      "309-314",
+      "I inspect proxy node latencies and network traffic in Clash Verge.",
+      "Switches to checking mobile phone"
+    ],
+    [
+      "315-322",
+      "I use WeChat on my iPhone to message babe and read articles.",
+      "Locks phone and returns to physical objects"
+    ],
+    [
+      "323",
+      "I pick up a USB drive.",
+      "Returns to monitoring network traffic"
+    ],
+    [
+      "324-327",
+      "I monitor network download speed and connections in Clash Verge.",
+      "Starts interacting with the physical environment and colleague"
+    ],
+    [
+      "328-330",
+      "I converse with my colleague while looking under the desk.",
+      "Switches to reading notes on the laptop"
+    ],
+    [
+      "331-332",
+      "I read personal server and API notes in the Notes app.",
+      "End of input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

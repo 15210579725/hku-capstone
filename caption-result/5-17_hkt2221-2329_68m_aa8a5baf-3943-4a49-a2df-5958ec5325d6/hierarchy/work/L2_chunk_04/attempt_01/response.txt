@@ -1,0 +1,34 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group actions into immediate tasks based on the primary focus: reviewing the exam and handwritten notes, prompting Claude for specific calculations, writing derivations on the notepad, and transitioning to ChatGPT for a new topic.",
+  "events": [
+    [
+      "750-763",
+      "I review the ARIN7013 exam questions on the PDF and my handwritten Gram matrix calculations.",
+      "Shifts from reviewing documents to actively typing a prompt into Claude."
+    ],
+    [
+      "764-792",
+      "I prompt Claude to calculate the Rayleigh quotient iteration and review its generated steps.",
+      "Shifts from interacting with Claude to writing calculations on the notepad."
+    ],
+    [
+      "793-812",
+      "I write Rayleigh quotient iteration derivations on my notepad while referencing Claude's results.",
+      "Shifts from writing on the notepad to reviewing the exam PDF and using ChatGPT."
+    ],
+    [
+      "813-819",
+      "I review the ARIN7013 exam PDF and prompt ChatGPT about Kernel Ridge Regression.",
+      "End of input sequence."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

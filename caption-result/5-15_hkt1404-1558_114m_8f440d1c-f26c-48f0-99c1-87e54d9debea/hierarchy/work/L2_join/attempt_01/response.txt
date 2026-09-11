@@ -1,0 +1,36 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible pairs to determine if they continue the exact same immediate task across transport batch edges. Pairs representing continuous note-taking, settings navigation, reading of AI outputs, and calculation verification will be merged.",
+  "merges": [
+    [
+      24,
+      25,
+      "I write derivations and notes for the numerical analysis problem on my notebook.",
+      "Same task of writing mathematical notes continues across batch edge"
+    ],
+    [
+      34,
+      35,
+      "I review Chrome settings, AI features, and updates.",
+      "Same task of reviewing Chrome settings continues across batch edge"
+    ],
+    [
+      56,
+      57,
+      "I read Claude's historical analysis of document formatting and bookbinding.",
+      "Same task of reading Claude's historical document analysis continues across batch edge"
+    ],
+    [
+      81,
+      82,
+      "I verify numerical calculations using my Casio calculator and laptop.",
+      "Same task of verifying calculations continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

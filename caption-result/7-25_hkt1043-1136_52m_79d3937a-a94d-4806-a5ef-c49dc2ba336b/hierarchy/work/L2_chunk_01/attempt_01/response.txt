@@ -1,0 +1,214 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group sequential actions into distinct, immediate tasks based on the primary tool, screen, or physical action, ensuring boundaries where the user shifts focus (e.g., between AI coding assistant tasks, terminal commands, or WeChat interruptions).",
+  "events": [
+    [
+      "0-2",
+      "I wipe my chest with a tissue.",
+      "Wiping completes"
+    ],
+    [
+      "3-5",
+      "I plug a cable into my power bank.",
+      "Plugging completes"
+    ],
+    [
+      "6",
+      "I view a 404 error page.",
+      "Transient view ends"
+    ],
+    [
+      "7-9",
+      "I adjust my desktop peripherals.",
+      "Physical adjustment completes"
+    ],
+    [
+      "10-15",
+      "I navigate to the Nova AI wallet top-up page.",
+      "Navigation to top-up page completes"
+    ],
+    [
+      "16-20",
+      "I complete a ¥98.00 payment on Alipay.",
+      "Payment process concludes with success"
+    ],
+    [
+      "21-24",
+      "I access my Nova AI usage metrics.",
+      "Review of metrics ends"
+    ],
+    [
+      "25-28",
+      "I read documentation regarding AI models and SSH instructions.",
+      "Reading documentation completes"
+    ],
+    [
+      "29-31",
+      "I execute an SSH command for h800-6 in a new terminal.",
+      "Command execution completes"
+    ],
+    [
+      "32-34",
+      "I cancel the SSH command based on ChatGPT recommendations.",
+      "Cancellation completes"
+    ],
+    [
+      "35-39",
+      "I review nvidia-smi GPU statistics via a container web shell.",
+      "Web shell review completes"
+    ],
+    [
+      "40-46",
+      "I attempt an SSH connection to admin4.",
+      "SSH attempt and related console review completes"
+    ],
+    [
+      "47-59",
+      "I configure SSH keys using instructions from Feishu and Apple Notes.",
+      "SSH key configuration completes"
+    ],
+    [
+      "60-63",
+      "I initialize Claude Code in a new terminal window.",
+      "Initialization sequence completes"
+    ],
+    [
+      "64-74",
+      "I prompt Claude Code to test h800/l40 connection stability.",
+      "Prompt submission completes"
+    ],
+    [
+      "75-77",
+      "I review cluster diagnostics and GPU memory.",
+      "Review completes"
+    ],
+    [
+      "78-81",
+      "I browse the VS Code interface and settings.",
+      "VS Code interaction completes"
+    ],
+    [
+      "82-89",
+      "I review Slurm job commands and dispatcher logs in Claude Code.",
+      "Log review completes"
+    ],
+    [
+      "90-95",
+      "I review Claude Code's queue status and task options.",
+      "Status review completes"
+    ],
+    [
+      "96-104",
+      "I check GPU statistics and my ChatGPT usage quota.",
+      "Quota and stats check completes"
+    ],
+    [
+      "105-109",
+      "I type a query into ChatGPT.",
+      "Query entry completes"
+    ],
+    [
+      "110-114",
+      "I monitor the SLURM GPU cluster status in Claude Code.",
+      "Monitoring completes before drafting prompt"
+    ],
+    [
+      "115-119",
+      "I draft a prompt in Claude Code regarding SSH connection issues.",
+      "Drafting is interrupted by phone notification"
+    ],
+    [
+      "120-130",
+      "I message babe on WeChat about a car charging issue.",
+      "Phone interaction ends"
+    ],
+    [
+      "131-137",
+      "I submit my prompt to Claude Code regarding dispatcher stability.",
+      "Prompt submission completes"
+    ],
+    [
+      "138-144",
+      "I monitor the Claude Code execution status.",
+      "Monitoring phase completes"
+    ],
+    [
+      "145-153",
+      "I read Claude Code's remote process diagnostics and training metrics.",
+      "Reading diagnostics completes"
+    ],
+    [
+      "154-161",
+      "I monitor Claude Code's pipeline execution and GPU status.",
+      "Pipeline monitoring completes"
+    ],
+    [
+      "162-163",
+      "I execute the compact command in the Claude Code prompt.",
+      "Command execution completes"
+    ],
+    [
+      "164-175",
+      "I select the fallback option from Claude Code's cluster stabilization diagnosis.",
+      "Selection completes"
+    ],
+    [
+      "176-190",
+      "I request an explanation and test of Slurm commands from Claude Code.",
+      "Request submission completes"
+    ],
+    [
+      "191-197",
+      "I read Claude Code's explanation of Slurm commands.",
+      "Reading explanation completes"
+    ],
+    [
+      "198-202",
+      "I monitor Claude Code's execution of a Python GPU benchmark script.",
+      "Benchmark observation completes"
+    ],
+    [
+      "203-206",
+      "I observe Claude Code's fix for a Python SyntaxError in the benchmark script.",
+      "Error fix completes"
+    ],
+    [
+      "207-212",
+      "I review the successful H800 GPU benchmark results.",
+      "Result review completes"
+    ],
+    [
+      "213-222",
+      "I monitor a background Slurm monitoring task in Claude Code.",
+      "Monitoring task completes before phone check"
+    ],
+    [
+      "223-230",
+      "I message babe on WeChat about nearby charging stations.",
+      "Phone interaction ends"
+    ],
+    [
+      "231-233",
+      "I inspect Claude Code logs for the background srun test.",
+      "Log inspection completes"
+    ],
+    [
+      "234-238",
+      "I rename the Claude Code session to \"改进稳定的dispatcher\".",
+      "Renaming completes"
+    ],
+    [
+      "239-249",
+      "I read Claude Code's final verification results and dispatcher analysis.",
+      "Reading final analysis completes"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

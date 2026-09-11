@@ -1,0 +1,56 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group actions into immediate tasks such as finishing a payment, walking along the street, locating a store, finding an item with assistance, selecting products, paying for them, and handling item packaging.",
+  "events": [
+    [
+      "750-752",
+      "I pay for my tray of items at the checkout counter using a phone Octopus card.",
+      "Payment process concludes"
+    ],
+    [
+      "753-763",
+      "I inspect my bakery purchase while walking along the street.",
+      "Attention shifts to specific storefronts"
+    ],
+    [
+      "764-769",
+      "I locate the Japan Home Centre among the nearby storefronts.",
+      "Proceeds to enter the targeted store"
+    ],
+    [
+      "770-776",
+      "I ask a staff member for the location of super glue inside the Japan Home Centre.",
+      "Arrives at the glue display rack"
+    ],
+    [
+      "777-797",
+      "I select Selleys Supa Glue packages from the store display rack.",
+      "Proceeds to the checkout counter"
+    ],
+    [
+      "798-809",
+      "I pay for the glue at the checkout using WeChat Pay.",
+      "Leaves the store after payment"
+    ],
+    [
+      "810-814",
+      "I approach an outdoor waste bin with a crumpled tissue.",
+      "Shifts focus to opening the newly purchased glue"
+    ],
+    [
+      "815-823",
+      "I extract the Selleys Supa Glue tube from its packaging while walking outdoors.",
+      "End of provided input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "764-770"
+    ],
+    "boundary_cautions": []
+  }
+}
+```

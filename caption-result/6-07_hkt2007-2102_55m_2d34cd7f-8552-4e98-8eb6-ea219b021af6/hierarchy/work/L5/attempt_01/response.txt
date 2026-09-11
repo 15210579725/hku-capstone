@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L5",
+  "plan": "Group the apartment activities into a final departure phase, and combine the walk to the station and the train ride into a unified commute activity.",
+  "events": [
+    [
+      "0",
+      "I conclude my tasks at the apartment.",
+      "Shift from indoor apartment activities to transit"
+    ],
+    [
+      "1-2",
+      "I commute via the MTR with my companion.",
+      "End of recording"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

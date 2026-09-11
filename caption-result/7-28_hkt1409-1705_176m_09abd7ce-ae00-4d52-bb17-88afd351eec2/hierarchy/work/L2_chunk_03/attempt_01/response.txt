@@ -1,0 +1,109 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions sharing a single immediate objective, such as reading specific document sections, typing a cohesive prompt, or taking a physical break. Boundaries are defined by application switches, major topic shifts within a document, or transitions between active computer use and physical resting/grooming.",
+  "events": [
+    [
+      "500-507",
+      "I read the introductory sections of the trajectory prediction survey paper.",
+      "Switches to a ChatGPT tab to read a summary."
+    ],
+    [
+      "508-510",
+      "I read a ChatGPT summary of trajectory prediction strategies.",
+      "Returns to the survey paper."
+    ],
+    [
+      "511-542",
+      "I read the survey paper sections detailing prediction model architectures and direct prediction strategies.",
+      "Shifts focus to goal-conditioned prediction and refinement models."
+    ],
+    [
+      "543-564",
+      "I read the survey paper sections analyzing goal-conditioned prediction and trajectory prediction refinement models.",
+      "Switches to ChatGPT and identifies an error."
+    ],
+    [
+      "565-569",
+      "I evaluate the ChatGPT trajectory prediction analysis.",
+      "Begins a physical grooming task after a gap in activity."
+    ],
+    [
+      "570-572",
+      "I button my shirt.",
+      "Returns to the laptop to monitor AI assistants."
+    ],
+    [
+      "573-582",
+      "I monitor the AI assistants generating trajectory prediction strategies.",
+      "Returns to reading the academic paper."
+    ],
+    [
+      "583-599",
+      "I read the academic paper detailing trajectory refinement models and trade-offs.",
+      "Begins formulating a new query in ChatGPT."
+    ],
+    [
+      "600-611",
+      "I type a ChatGPT prompt inquiring about reducing cumulative error in multi-scale human motion prediction.",
+      "Pauses typing to rest and contemplate an idea."
+    ],
+    [
+      "612-632",
+      "I rest in the armchair to contemplate a research idea.",
+      "Resumes typing the detailed ChatGPT prompt."
+    ],
+    [
+      "633-647",
+      "I type a ChatGPT prompt proposing a hierarchical prediction approach.",
+      "Submits the prompt and reads the generated response."
+    ],
+    [
+      "648-671",
+      "I read the ChatGPT literature search results on trajectory prediction paradigms.",
+      "Pauses reading to fasten a shirt button."
+    ],
+    [
+      "672-677",
+      "I fasten a button on my shirt.",
+      "Switches to Feishu to review and type notes."
+    ],
+    [
+      "678-687",
+      "I type model refinement notes into a Feishu document.",
+      "Switches to ChatGPT to read refinement method comparisons."
+    ],
+    [
+      "688-705",
+      "I read the ChatGPT response evaluating trajectory refinement methods and model selection.",
+      "Navigates to a new chat session."
+    ],
+    [
+      "706-710",
+      "I navigate the ChatGPT interface to open a new chat.",
+      "Begins typing a new prompt about iterative LLM predictions."
+    ],
+    [
+      "711-729",
+      "I type a ChatGPT prompt exploring iterative LLM predictions for human action prediction.",
+      "Submits the prompt and reads the resulting analysis."
+    ],
+    [
+      "730-738",
+      "I read the ChatGPT analysis on LongNAP error propagation and model architectures.",
+      "Switches tabs to read a new research survey document."
+    ],
+    [
+      "739-749",
+      "I read a research survey on scalable fine-tuning for human next-action prediction.",
+      "End of provided data."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

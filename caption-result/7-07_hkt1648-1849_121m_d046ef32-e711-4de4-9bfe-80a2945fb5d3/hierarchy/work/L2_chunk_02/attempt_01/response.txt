@@ -1,0 +1,147 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group action briefs into immediate tasks based on continuous goals such as reading specific topics, typing notes, chatting on WeChat, specific app usage, and segmented stages of riding a scooter.",
+  "events": [
+    [
+      "250-261",
+      "I read about Transformer emotion tracking and emotion vectors on my computer.",
+      "Switches to handling a physical object"
+    ],
+    [
+      "262-269",
+      "I assemble an earphone case.",
+      "Returns to reading documents on the computer"
+    ],
+    [
+      "270-277",
+      "I read research documents on my laptop.",
+      "Shifts from reading to typing notes"
+    ],
+    [
+      "278-291",
+      "I type research notes about emotion vectors into a Feishu document.",
+      "Finishes typing and begins packing up"
+    ],
+    [
+      "292-297",
+      "I prepare to leave my desk.",
+      "Leaves the desk to walk"
+    ],
+    [
+      "298-299",
+      "I walk down the office aisle.",
+      "Opens WeChat"
+    ],
+    [
+      "300-311",
+      "I chat with babe on WeChat.",
+      "Stops messaging to observe surroundings"
+    ],
+    [
+      "312-318",
+      "I walk through the office towards the elevator lobby.",
+      "Arrives at the elevator"
+    ],
+    [
+      "319",
+      "I press the elevator call button.",
+      "Button pressed"
+    ],
+    [
+      "320-330",
+      "I message babe on WeChat at the elevator.",
+      "Colleagues speak and elevator arrives"
+    ],
+    [
+      "331-333",
+      "I enter the elevator.",
+      "Inside elevator"
+    ],
+    [
+      "334-339",
+      "I chat with babe on WeChat inside the elevator.",
+      "Elevator arrives at destination"
+    ],
+    [
+      "340-343",
+      "I enter the building lobby.",
+      "Enters lobby walking phase"
+    ],
+    [
+      "344-346",
+      "I message babe on WeChat.",
+      "Finishes messaging and observes outside"
+    ],
+    [
+      "347-351",
+      "I walk along the sidewalk outside the building.",
+      "Opens phone apps"
+    ],
+    [
+      "352-355",
+      "I browse the WeChat Subscription Accounts feed.",
+      "Switches to other apps"
+    ],
+    [
+      "356-360",
+      "I check the Hello Bike rental app.",
+      "Switches to maps"
+    ],
+    [
+      "361-377",
+      "I plan a cycling route to a shopping mall in the Amap app.",
+      "Finishes route search and prepares to ride"
+    ],
+    [
+      "378-389",
+      "I prepare to ride an electric scooter.",
+      "Starts navigation on phone"
+    ],
+    [
+      "390-395",
+      "I start the navigation route on Gaode Maps.",
+      "Switches to WeChat"
+    ],
+    [
+      "396-407",
+      "I use WeChat on my phone.",
+      "Starts riding the scooter"
+    ],
+    [
+      "408-425",
+      "I ride the electric scooter through the campus.",
+      "Approaches security gate"
+    ],
+    [
+      "426-428",
+      "I ask the security guard to open the campus exit gate.",
+      "Exits campus"
+    ],
+    [
+      "429-451",
+      "I ride the electric scooter along Tanghuang Road.",
+      "Reaches a bridge section"
+    ],
+    [
+      "452-472",
+      "I ride the electric scooter across the bridges.",
+      "Passes the bridges"
+    ],
+    [
+      "473-499",
+      "I ride the electric scooter along the bike lane.",
+      "End of batch"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "297",
+      "408"
+    ],
+    "boundary_cautions": []
+  }
+}
+```

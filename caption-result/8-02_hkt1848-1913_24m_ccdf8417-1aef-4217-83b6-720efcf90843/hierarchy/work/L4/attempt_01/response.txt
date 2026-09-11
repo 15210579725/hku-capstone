@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group the scooter preparation, transit, and charging setup into an outdoor scooter management phase. Group the return transit to the apartment, laundry chores, and resting into a subsequent at-home evening phase.",
+  "events": [
+    [
+      "0-2",
+      "I transport my electric scooter to the Aijiayuan compound shelter to establish an Alipay charging session.",
+      "Outdoor scooter transit and charging setup completed."
+    ],
+    [
+      "3-5",
+      "I return to my apartment for an evening household routine of laundry arrangement and relaxation.",
+      "Location shift home initiating the indoor apartment activities."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

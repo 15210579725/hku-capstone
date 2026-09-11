@@ -1,0 +1,114 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group sequence into immediate tasks by identifying when my focus shifts between reviewing handwritten notes, reading or prompting Claude, physically modifying notes (writing, crossing out, underlining), and taking brief physical or mental breaks. Preserve specific mathematical topics and document interactions at this level.",
+  "events": [
+    [
+      "0-12",
+      "I review my handwritten mathematical derivations and notes on my notepad.",
+      "Shifts from reviewing handwritten notes to reading Claude's explanation on the laptop."
+    ],
+    [
+      "13-14",
+      "I read Claude's explanation of Theorem 22.",
+      "Shifts from reading Claude to modifying a diagram on the notepad."
+    ],
+    [
+      "15-19",
+      "I cross out a boxed diagram on my notepad.",
+      "Finishes crossing out the diagram and goes back to reviewing notes."
+    ],
+    [
+      "20-29",
+      "I review the handwritten subset diagram and tournament formulas on my notepad.",
+      "Shifts from reviewing to writing a new note on the notebook."
+    ],
+    [
+      "30-33",
+      "I write and strike through a probability note on my notebook.",
+      "Finishes modifying the note and returns to reviewing formulas."
+    ],
+    [
+      "34-50",
+      "I review handwritten formulas and the subset diagram while contemplating the proof.",
+      "Shifts to underlining a specific formula with a pen."
+    ],
+    [
+      "51-57",
+      "I underline the combinatorial probability formula in my notebook.",
+      "Finishes underlining the formula and resumes reviewing derivations."
+    ],
+    [
+      "58-61",
+      "I review the set diagram and mathematical derivations on my notebook.",
+      "Shifts attention from the notebook to the Claude chat session."
+    ],
+    [
+      "62-69",
+      "I cross-reference Claude's tournament theory explanations with my handwritten formulas.",
+      "Focus returns entirely to reviewing handwritten notes."
+    ],
+    [
+      "70-75",
+      "I review my handwritten inequality derivations and mathematical formulas.",
+      "Interrupted by expressing frustration about a scheduling or access issue."
+    ],
+    [
+      "76-78",
+      "I express frustration about being rushed out while reviewing my notes.",
+      "Returns focus to reading the proof on Claude."
+    ],
+    [
+      "79-97",
+      "I study the Theorem 22 tournament proof on Claude while checking my handwritten notes.",
+      "Shifts from reading the proof to checking UI notifications and stretching."
+    ],
+    [
+      "98-102",
+      "I check my screen notifications and stretch my right wrist.",
+      "Returns to reading the tournament proof on Claude."
+    ],
+    [
+      "103-108",
+      "I continue reading the Theorem 22 tournament proof on Claude.",
+      "Shifts from reading the current proof to scrolling up to review earlier chat history."
+    ],
+    [
+      "109-120",
+      "I scroll up in the Claude chat to review earlier concepts on Ramsey numbers and probabilistic methods.",
+      "Shifts from reviewing earlier chat history to typing a new prompt to Claude."
+    ],
+    [
+      "121-125",
+      "I type and submit a prompt asking Claude to explain the logical parts of the proof.",
+      "Prompt is submitted and Claude begins generating the response."
+    ],
+    [
+      "126-143",
+      "I read Claude's explanation of the tournament property S_k proof and bad events.",
+      "Moves to reading the next specific step regarding event independence."
+    ],
+    [
+      "144-155",
+      "I read Claude's explanation of Step 4 regarding event independence.",
+      "Moves to reading Step 5 regarding the Union Bound."
+    ],
+    [
+      "156-172",
+      "I read Claude's explanation of Step 5 regarding the Union Bound.",
+      "Finishes reading the proof step and starts staring idly at the keyboard."
+    ],
+    [
+      "173-188",
+      "I stare at my laptop keyboard and the surrounding study area.",
+      "End of video."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,49 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks defined by clear physical goals and locations: arriving at the table, eating lunch, returning the tray, transiting through the lounge, walking to the elevator, riding the elevator, and entering the office. Routine conversations are subsumed into the primary physical goal they accompany.",
+  "events": [
+    [
+      "500-506",
+      "I settle at a cafeteria table with my meal tray.",
+      "Sits down and places tray to begin eating."
+    ],
+    [
+      "507-693",
+      "I eat lunch with my companions.",
+      "Finishes eating and prepares to return the tray."
+    ],
+    [
+      "694-703",
+      "I return my meal tray to the dish return conveyor belt.",
+      "Tray is returned and hands are free."
+    ],
+    [
+      "704-714",
+      "I traverse the cafeteria lounge to discard a napkin in the trash bin.",
+      "Tosses the napkin into the bin."
+    ],
+    [
+      "715-738",
+      "I walk through the building exit and parking garage to the elevator with my colleagues.",
+      "Arrives at the elevator."
+    ],
+    [
+      "739-745",
+      "I ride the elevator with my colleagues.",
+      "Exits the elevator."
+    ],
+    [
+      "746-749",
+      "I walk down the hallway to enter an open office.",
+      "End of input sequence."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

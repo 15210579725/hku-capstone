@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L5",
+  "plan": "Group the input into distinct major activities based on overarching objectives. The desk work session and the departure represent fundamentally different goals (work versus transit/leaving), so they remain separate at this highest level of abstraction.",
+  "events": [
+    [
+      "0",
+      "I conduct a desk work session to test screen OCR dataset deduplication using Claude Code.",
+      "Major activity shift from desk work to transit/leaving."
+    ],
+    [
+      "1",
+      "I depart my apartment building with my companion.",
+      "End of provided evidence."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

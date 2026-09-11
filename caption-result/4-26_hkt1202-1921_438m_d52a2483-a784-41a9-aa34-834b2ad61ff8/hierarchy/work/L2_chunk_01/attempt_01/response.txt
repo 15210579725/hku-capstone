@@ -1,3 +1,176 @@
 ```json
-{"target_level":"L2","plan":"Group consecutive action briefs into immediate tasks based on shared objectives, locations, and targets, ensuring no consecutive verbs are joined by conjunctions. Abstract continuous walking segments, phone usage, and distinct interactions into unified single-goal descriptions.","events":[["0-2","I pack my charging cable and power bank.","Task completed"],["3-4","I pick up my smartphone.","Task completed"],["5-5","I adjust my backpack's zipper.","Task completed"],["6-12","I discuss my recording with my roommate.","Focus shifts to phone"],["13-22","I use a chat app on my smartphone.","Focus shifts to surroundings"],["23-27","I observe my dorm room surroundings.","Task changes to putting shoe away"],["28-30","I put away a shoe on the storage rack.","Task completed"],["31-33","I tidy items on my study desk.","Task completed"],["34-40","I watch my roommate organize her items near the bed.","Task changes to self-care"],["41-45","I spray liquid onto my forearm from a desk bottle.","Task completed"],["46-52","I observe my dorm room surroundings.","Focus shifts to roommate leaving"],["53-61","I hold the bedroom door open for my departing roommate.","Roommate has left"],["62-71","I observe a woman moving around the bedroom.","Focus shifts to person entering"],["72-74","I observe a person organizing a brown backpack.","Focus shifts to my own backpack"],["75-79","I organize the items inside my brown leather backpack.","Task completed"],["80-80","I pick up my smartphone.","Task completed"],["81-85","I search the lower storage shelves for items.","Focus shifts to tickets"],["86-88","I inspect two TurboJET ferry tickets from my desk shelf.","Task completed"],["89-91","I observe my dorm room surroundings.","Focus shifts to self-care"],["92-94","I apply lotion to my arms.","Task completed"],["95-97","I examine a small card from the bookshelf.","Focus shifts to roommate"],["98-102","I follow my departing roommate into the living room.","Leaving the apartment begins"],["103-107","I exit the apartment with a delivery package.","Task completed"],["108-111","I secure the decorated apartment door.","Task completed"],["112-117","I follow my companion into the hallway elevator.","Entering elevator"],["118-123","I adjust a cord in my companion's backpack in the descending elevator.","Elevator ride completes"],["124-126","I exit the building through the lobby.","Exiting the building"],["127-142","I walk along an outdoor covered walkway and plaza.","Focus shifts to using phone"],["143-145","I use my smartphone on the outdoor pathway.","Phone use ends"],["146-160","I walk along an outdoor pedestrian promenade.","Focus shifts to using phone"],["161-162","I briefly check my smartphone on the outdoor promenade.","Phone use ends"],["163-165","I cross the plaza courtyard during a conversation.","Focus shifts to phone screen"],["166-167","I observe my companion's smartphone screen during a conversation about battery power.","Conversation ends"],["168-175","I check my smartphone intermittently during my outdoor walk.","Phone use ends"],["176-189","I walk through a covered outdoor colonnade.","Conversation starts"],["190-190","I converse with my companion about her hair during our walk.","Conversation ends"],["191-199","I walk to the building's escalators.","Task changes to riding escalator"],["200-210","I ride the escalator down to the ground floor lobby.","Escalator ride completes"],["211-214","I exit the building through the lobby.","Exiting the building"],["215-220","I walk along an outdoor sidewalk toward the station.","Entering station begins"],["221-224","I ride the station's escalator up to the concourse.","Arriving at concourse"],["225-229","I pass through the ticket turnstile using my smartphone.","Passed through turnstile"],["230-239","I navigate the station concourse to reach Platform 3.","Reaching platform"],["240-249","I wait at the platform boarding gate for the arriving MTR train.","End of input"]],"audit":{"complete":true,"uncertainties":[],"major_triggers":[],"boundary_cautions":[]}}
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions sharing a single immediate goal or location, such as preparing items, organizing bags, navigating specific segments of a journey, or conducting conversations.",
+  "events": [
+    [
+      "0-6",
+      "I prepare my electronics and floral backpack.",
+      "Completes gathering items and preparing the backpack."
+    ],
+    [
+      "7-9",
+      "I talk to my roommate about feeling nervous and having just finished recording.",
+      "Conversation topic concludes."
+    ],
+    [
+      "10-12",
+      "I hold a black garment while watching my roommate near her bed and desk.",
+      "Focus shifts to using the smartphone."
+    ],
+    [
+      "13-20",
+      "I use a chat app on my smartphone to edit a message.",
+      "Completes active use of the smartphone."
+    ],
+    [
+      "21-27",
+      "I observe the room and a person entering with a plant while holding my smartphone.",
+      "Stops observing to move towards the window."
+    ],
+    [
+      "28-30",
+      "I walk to the window and place a shoe on the storage rack.",
+      "Completes placing the shoe."
+    ],
+    [
+      "31-33",
+      "I walk to my desk and organize items on the tabletop.",
+      "Completes organizing the desk."
+    ],
+    [
+      "34-40",
+      "I watch my roommate organize her clothes and bag near the window.",
+      "Focus shifts to personal grooming."
+    ],
+    [
+      "41-45",
+      "I pick up a spray bottle and spray liquid onto my left forearm.",
+      "Completes applying the liquid."
+    ],
+    [
+      "46-52",
+      "I crouch near a brown bag while observing the room and a person squatting.",
+      "Completes scanning the room and stands up."
+    ],
+    [
+      "53-61",
+      "I walk across the room to hold the bedroom door open for my roommate.",
+      "Completes assisting the roommate in leaving the bedroom."
+    ],
+    [
+      "62-71",
+      "I look around the room at the shelves, bags, and the woman organizing her items.",
+      "Completes visual scanning of the room."
+    ],
+    [
+      "72-79",
+      "I watch a person handle a backpack and organize the contents of my own brown leather backpack.",
+      "Completes securing the backpack."
+    ],
+    [
+      "80-91",
+      "I inspect my TurboJET ferry tickets and scan the storage shelves after picking up my phone.",
+      "Completes inspecting the tickets and looking through shelves."
+    ],
+    [
+      "92-94",
+      "I rub lotion from the desk shelf onto my hands and arms.",
+      "Completes applying lotion."
+    ],
+    [
+      "95-97",
+      "I pick up and hold a small rectangular card from the bookshelf.",
+      "Completes grabbing the card."
+    ],
+    [
+      "98-105",
+      "I follow my roommate through the apartment to hold the front door open for her departure.",
+      "Completes escorting the roommate out of the apartment."
+    ],
+    [
+      "106-111",
+      "I carry a delivery package into the hallway and close the decorated apartment door.",
+      "Completes exiting the apartment and securing the door."
+    ],
+    [
+      "112-118",
+      "I walk down the hallway and follow my companion into an elevator.",
+      "Completes boarding the elevator."
+    ],
+    [
+      "119-123",
+      "I ride the descending elevator while tucking a cord into my companion's backpack.",
+      "Completes the elevator ride down to the lobby."
+    ],
+    [
+      "124-126",
+      "I follow my companion across the lobby to exit the building.",
+      "Completes leaving the building."
+    ],
+    [
+      "127-139",
+      "I follow my companion along a covered stone-tiled outdoor corridor.",
+      "Transitions from the covered corridor to an open plaza."
+    ],
+    [
+      "140-165",
+      "I walk across a brick plaza and along a wide paved pedestrian promenade between residential apartment towers.",
+      "Continuous walk interrupted by a phone conversation."
+    ],
+    [
+      "166-169",
+      "I discuss battery power with my companion while looking at her phone screen.",
+      "Completes the conversation and lowers the phone."
+    ],
+    [
+      "170-181",
+      "I walk along a paved pathway past water fountains and landscaped planters.",
+      "Transitions to entering a covered colonnade."
+    ],
+    [
+      "182-198",
+      "I walk through a covered outdoor corridor and enter a building.",
+      "Completes walking through the corridor and entering the lobby."
+    ],
+    [
+      "199-211",
+      "I ride a descending escalator down to the ground floor lobby of the building.",
+      "Completes the escalator ride to the lobby."
+    ],
+    [
+      "212-220",
+      "I walk through the lobby to exit the building and head towards the station.",
+      "Completes the walk to the station entrance."
+    ],
+    [
+      "221-225",
+      "I enter the station concourse and ride an escalator upward to the platform level.",
+      "Completes the escalator ride into the station."
+    ],
+    [
+      "226-229",
+      "I tap my Octopus card at the turnstile to enter the station and wait for my companion.",
+      "Completes passing through the ticket barrier."
+    ],
+    [
+      "230-235",
+      "I walk along the station platform hallway towards the interchange concourse.",
+      "Arrives at the open concourse area."
+    ],
+    [
+      "236-249",
+      "I check the train schedule and wait at the boarding gate on the MTR platform for the arriving train.",
+      "Completes preparing for train boarding."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "106-111"
+    ],
+    "boundary_cautions": []
+  }
+}
 ```

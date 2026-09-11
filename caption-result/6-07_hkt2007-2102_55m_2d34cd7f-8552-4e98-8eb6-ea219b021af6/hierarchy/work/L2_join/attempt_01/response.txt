@@ -1,0 +1,18 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible pairs for continuous immediate tasks. Pair [22, 23] changes conversation topic from aging to pet care, so do not merge. Pair [39, 40] continues the exact same task of watching greyhound videos on Xiaohongshu, so merge.",
+  "merges": [
+    [
+      39,
+      40,
+      "I watch greyhound and whippet videos on Xiaohongshu.",
+      "Continues watching the same type of dog breed videos on the same app."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

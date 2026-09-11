@@ -1,0 +1,29 @@
+```json
+{
+  "target_level": "L5",
+  "plan": "Group the campus commute with the gym session it serves as a single major activity, while maintaining the prior dining and the subsequent return to the office as distinct major phases of the evening.",
+  "events": [
+    [
+      "0",
+      "I dine with my companions at the cafeteria.",
+      "Distinct dining activity prior to traveling."
+    ],
+    [
+      "1-2",
+      "I travel to the campus gym for a strength training session with my companions.",
+      "Transit is grouped with its primary destination and purpose."
+    ],
+    [
+      "3",
+      "I return to my office desk.",
+      "Transition to a new location and post-workout phase."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

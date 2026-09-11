@@ -1,0 +1,34 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group the morning computer tasks into a unified research and development phase, isolate the distinct desk break as a resting phase, unify the entire cafeteria trip (transit, eating, and exiting) into a shared lunch phase, and separate the final relocation to a private booth as the start of a post-lunch communication phase.",
+  "events": [
+    [
+      "0-6",
+      "I perform research and development tasks involving Vision-Language Models and data processing pipelines.",
+      "Shift from active computer work to taking a rest break"
+    ],
+    [
+      "7",
+      "I take a rest break at my desk.",
+      "Shift from resting to departing the office for lunch"
+    ],
+    [
+      "8-12",
+      "I have lunch with my colleagues at the cafeteria.",
+      "Conclusion of the lunch excursion and separating to relocate to a private booth"
+    ],
+    [
+      "13",
+      "I settle into an individual booth to reply to WeChat messages.",
+      "End of provided data"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

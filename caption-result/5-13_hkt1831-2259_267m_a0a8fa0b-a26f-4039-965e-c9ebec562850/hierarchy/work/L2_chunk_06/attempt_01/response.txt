@@ -1,0 +1,109 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions related to a single immediate task such as meal preparation, trash disposal, eating, and interacting with specific software tools. Abstract brief glances away or short concurrent background checks into the dominant ongoing activity.",
+  "events": [
+    [
+      "1250-1258",
+      "I prepare my pre-made noodle dish.",
+      "Food preparation is completed"
+    ],
+    [
+      "1259-1273",
+      "I dispose of the household trash.",
+      "Trash disposal chore concludes"
+    ],
+    [
+      "1274-1286",
+      "I monitor Claude Code logs and evaluation results on my MacBook.",
+      "Attention shifts to preparing to eat"
+    ],
+    [
+      "1287-1314",
+      "I eat my meal of noodles and boiled egg.",
+      "Attention fully shifts back to the laptop"
+    ],
+    [
+      "1315-1324",
+      "I review model execution logs and quality analysis in Claude Code.",
+      "Attention shifts back to eating"
+    ],
+    [
+      "1325-1328",
+      "I eat my noodles.",
+      "Attention shifts back to the laptop for configuration"
+    ],
+    [
+      "1329-1343",
+      "I configure Claude Code to use the DeepSeek model for predictions.",
+      "Conversation about the meal begins"
+    ],
+    [
+      "1344-1349",
+      "I converse about my pre-made meal.",
+      "Conversation topic concludes"
+    ],
+    [
+      "1350-1384",
+      "I monitor Claude Code executing a diarization fix.",
+      "Attention shifts to cleaning a utensil"
+    ],
+    [
+      "1385-1392",
+      "I wipe my fork with a paper towel.",
+      "Utensil cleaning concludes"
+    ],
+    [
+      "1393-1402",
+      "I check the Claude Code agent configuration logs.",
+      "Attention returns to the meal"
+    ],
+    [
+      "1403-1414",
+      "I eat my noodles.",
+      "Attention momentarily shifts to terminal tasks"
+    ],
+    [
+      "1415-1418",
+      "I read the Claude Code task status and terminal logs.",
+      "Attention shifts back to eating"
+    ],
+    [
+      "1419-1425",
+      "I eat my noodles.",
+      "Finished actively eating noodles"
+    ],
+    [
+      "1426-1429",
+      "I monitor terminal progress and system activity.",
+      "Conversation begins"
+    ],
+    [
+      "1430-1436",
+      "I converse about my coursework and upcoming job prospects.",
+      "Focus shifts from conversing to physically cleaning up"
+    ],
+    [
+      "1437-1453",
+      "I wash my empty noodle bowl.",
+      "Dishwashing and cleanup conclude"
+    ],
+    [
+      "1454-1474",
+      "I review the POV rollout narrative and ChatGPT code feedback.",
+      "Task transitions to studying code in Google Colab"
+    ],
+    [
+      "1475-1499",
+      "I study the flow matching training code and interpolation formulas in Google Colab.",
+      "End of input batch"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,49 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks: washing the cabbage, arranging the cabbage in cookware with User X, seasoning the cabbage, adjusting the pan, setting the timer, reading an online document, and writing study notes.",
+  "events": [
+    [
+      "1750-1753",
+      "I wash the trimmed napa cabbage.",
+      "Task shifts to arranging the cabbage in pots for cooking"
+    ],
+    [
+      "1754-1761",
+      "I arrange the cabbage in the cookware with User X.",
+      "Task shifts to searching for and applying seasoning"
+    ],
+    [
+      "1762-1768",
+      "I season the cabbage in the skillet with soy sauce.",
+      "Task shifts to repositioning the cookware"
+    ],
+    [
+      "1769-1773",
+      "I reposition the hot pan on the stove burner.",
+      "Task shifts to configuring a timer"
+    ],
+    [
+      "1774-1779",
+      "I place a running kitchen timer on the dining table.",
+      "Task shifts from cooking activities to reading on the computer"
+    ],
+    [
+      "1780-1782",
+      "I read an online document on my laptop.",
+      "Task shifts from reading on a screen to writing in a physical notebook"
+    ],
+    [
+      "1783-1784",
+      "I write notes about a reinforcement learning algorithm in my notebook.",
+      "End of provided sequence"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

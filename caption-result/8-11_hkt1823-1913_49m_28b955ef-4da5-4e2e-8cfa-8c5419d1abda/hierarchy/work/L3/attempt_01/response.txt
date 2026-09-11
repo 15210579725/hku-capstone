@@ -1,0 +1,81 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group continuous sequences of related exercises, resting periods, and distinct extended conversation topics into coherent episodes based on primary equipment usage and unified goals.",
+  "events": [
+    [
+      "0-1",
+      "I prepare my registration documents and smart devices for the workout session.",
+      "Device setup is complete and the workout begins"
+    ],
+    [
+      "2-8",
+      "I conduct a collaborative workout on the pull-up bar and cable machine.",
+      "Shifts focus from the cable machine to setting up the bench press"
+    ],
+    [
+      "9-15",
+      "I initiate a barbell bench press routine with my workout partner.",
+      "Leaves the bench press station for a walking break"
+    ],
+    [
+      "16-18",
+      "I incorporate a solitary pull-up into a social walking break around the free-weight area.",
+      "Returns to the bench press for heavy lifting"
+    ],
+    [
+      "19-21",
+      "I complete a heavy barbell bench press rotation with my workout partner.",
+      "Finishes the heavy sets to take a rest period and assist another friend"
+    ],
+    [
+      "22-25",
+      "I relocate to the cardio area for recovery following my friend's resistance-band pull-ups.",
+      "Leaves the cardio rest area to return to the bench press"
+    ],
+    [
+      "26-27",
+      "I complete an additional barbell bench press rotation with my friend.",
+      "Completes the final bench press set and walks away to the reception area"
+    ],
+    [
+      "28-30",
+      "I evaluate a punching dummy and a cable pulley during an exploration of the reception area.",
+      "Moves on to exercise on the SHUA abdominal machine"
+    ],
+    [
+      "31-32",
+      "I complete a shared workout rotation on the SHUA abdominal machine.",
+      "Transitions from the SHUA machine to a conversation on the elliptical"
+    ],
+    [
+      "33-39",
+      "I debate machine learning methodologies with my companion during an elliptical machine session.",
+      "Leaves the elliptical to inspect other gym equipment"
+    ],
+    [
+      "40-47",
+      "I review AI model architectures with my companion during a tour of the gym equipment.",
+      "Moves to the pull-up station for a different topic of conversation"
+    ],
+    [
+      "48-53",
+      "I discuss emotion modeling and user preferences with my gym partner near the pull-up station.",
+      "Decides to finish the workout and pack belongings"
+    ],
+    [
+      "54-56",
+      "I pack my electronics to conclude the gym session amidst a discussion on emotion recognition.",
+      "End of recording"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": [
+      "Divided the extended bench press and active rest sequence (9-27) into discrete workout and recovery episodes to maintain L3 episode coherence without over-abstracting into a single broad phase."
+    ]
+  }
+}
+```

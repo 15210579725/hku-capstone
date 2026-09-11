@@ -1,0 +1,154 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous, granular actions into immediate tasks based on the current primary goal (e.g., navigating a specific segment, engaging in a continuous conversational topic, or interacting with a specific app). Boundaries are drawn when the conversational topic fundamentally changes, the physical navigation stage transitions (like entering an elevator or passing fare gates), or phone usage shifts between distinct activities.",
+  "events": [
+    [
+      "0-2",
+      "I enter the hallway from my apartment.",
+      "Approaches the elevator lobby to wait."
+    ],
+    [
+      "3-9",
+      "I converse with my companion while waiting at the elevator lobby.",
+      "Enters the elevator."
+    ],
+    [
+      "10-14",
+      "I select a floor after entering the elevator.",
+      "Begins conversing with passengers."
+    ],
+    [
+      "15-24",
+      "I converse with passengers while riding the elevator.",
+      "Focus shifts to the broken elevator button."
+    ],
+    [
+      "25-31",
+      "I investigate a broken elevator button while waiting to exit.",
+      "Exits the elevator."
+    ],
+    [
+      "32-35",
+      "I exit the building into the residential plaza.",
+      "Begins walking and commenting on the weather."
+    ],
+    [
+      "36-43",
+      "I comment on the pleasant weather while walking through the plaza.",
+      "Focus shifts to adjusting the pouch."
+    ],
+    [
+      "44-51",
+      "I adjust my pouch while walking along the walkway.",
+      "Focus shifts to wiping sweat with shirt."
+    ],
+    [
+      "52-62",
+      "I wipe my face with my shirt while walking past the landscaping.",
+      "Reconnects with companion in the courtyard."
+    ],
+    [
+      "63-75",
+      "I take my companion's bag while conversing in the courtyard.",
+      "Topic changes to sleep schedules."
+    ],
+    [
+      "76-92",
+      "I discuss sleep schedules with my companion while walking toward the garden.",
+      "Topic changes to messaging habits."
+    ],
+    [
+      "93-104",
+      "I discuss messaging habits with my companion while walking.",
+      "Starts using WeChat on the phone."
+    ],
+    [
+      "105-115",
+      "I message a contact on WeChat while walking.",
+      "Resumes walking and conversing about the weather."
+    ],
+    [
+      "116-125",
+      "I suggest going swimming to my companion while walking along the covered walkway.",
+      "Enters a new building lobby."
+    ],
+    [
+      "126-132",
+      "I ride the escalator down after entering the building lobby.",
+      "Opens WeChat on phone while riding."
+    ],
+    [
+      "133-137",
+      "I check WeChat messages on my phone while riding the escalator.",
+      "Puts away phone and resumes conversation."
+    ],
+    [
+      "138-154",
+      "I converse with my companion while riding the escalator to the ground floor.",
+      "Steps off escalator and waits at the exit."
+    ],
+    [
+      "155-161",
+      "I discuss the strict staff with my companion while waiting at the building exit.",
+      "Leaves the exit to walk to the station."
+    ],
+    [
+      "162-166",
+      "I board an escalator after walking to the train station entrance.",
+      "Rides the escalator and looks at surroundings."
+    ],
+    [
+      "167-172",
+      "I view advertisements while riding the escalator to the station concourse.",
+      "Approaches the fare gates."
+    ],
+    [
+      "173-177",
+      "I walk toward the transfer concourse after passing through the fare gates.",
+      "Starts singing while following companion."
+    ],
+    [
+      "178-184",
+      "I follow my companion through the station while singing.",
+      "Arrives at the platform doors."
+    ],
+    [
+      "185-192",
+      "I board the train after waiting at the platform.",
+      "Opens a video app on the phone."
+    ],
+    [
+      "193-201",
+      "I watch an alligator video on the Bilibili app.",
+      "Switches to browsing video recommendations."
+    ],
+    [
+      "202-218",
+      "I comment on a campus video while browsing Bilibili recommendations.",
+      "Selects and watches a Minecraft video."
+    ],
+    [
+      "219-238",
+      "I watch a Minecraft gameplay video on my phone while riding the train.",
+      "Exits the train."
+    ],
+    [
+      "239-243",
+      "I pass through the ticket gates after exiting the train.",
+      "Begins conversing about the student card."
+    ],
+    [
+      "244-249",
+      "I converse with my companion about a misplaced student card while walking.",
+      "End of input."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

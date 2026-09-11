@@ -1,0 +1,36 @@
+```json
+{
+  "target_level": "L5",
+  "plan": "The sequence consists of three distinct major activities at the desk (personal administration, attending a prolonged academic seminar, and conducting focused active research), concluding with a standalone behavior-changing trigger (departing for a meal). These do not share a single overarching goal and are kept as distinct L5 activities.",
+  "events": [
+    [
+      "0",
+      "I manage my personal logistics, communications, and online purchases.",
+      "Distinct major goal of personal administration"
+    ],
+    [
+      "1",
+      "I attend a virtual seminar covering Large Language Models and Theory of Mind.",
+      "Distinct major goal of academic learning"
+    ],
+    [
+      "2",
+      "I conduct research on artificial intelligence behavior prediction and machine learning evaluation.",
+      "Distinct major goal of active research"
+    ],
+    [
+      "3",
+      "I depart the office in response to a colleague's meal invitation.",
+      "Standalone behavior-changing trigger"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "3"
+    ],
+    "boundary_cautions": []
+  }
+}
+```

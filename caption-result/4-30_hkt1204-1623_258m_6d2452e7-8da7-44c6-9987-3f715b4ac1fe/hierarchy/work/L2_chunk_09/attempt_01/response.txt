@@ -1,57 +1,102 @@
 ```json
 {
   "target_level": "L2",
-  "plan": "Group consecutive action briefs into immediate tasks based on the primary focus of attention during the lecture, such as following mathematical diagrams, interacting with specific applications, fidgeting with objects, or performing self-maintenance like adjusting footwear.",
+  "plan": "Group continuous actions related to attending the lecture, reading mathematical materials, interacting with software, or performing brief physical tasks (like adjusting clothing or fidgeting) into immediate tasks.",
   "events": [
     [
-      "2000-2024",
-      "I attend a mathematical lecture, following a geometric line drawing on my laptop.",
-      "Focus shifts to fidgeting with an object."
+      "2000-2007",
+      "I follow a math lecture on my laptop and the projector screen.",
+      "Focus shifts to a specific line segment path on a canvas"
     ],
     [
-      "2025-2030",
-      "I fidget with yellow earplugs during the presentation of a line stimulus on my laptop.",
-      "Focus shifts back to the lecture content."
+      "2008-2010",
+      "I track a geometric line segment path displayed on a white canvas.",
+      "Focus shifts back to the broader classroom and lecture"
+    ],
+    [
+      "2011-2017",
+      "I listen to the math lecture while looking at my laptop and the projection screen.",
+      "Interruption to adjust clothing"
+    ],
+    [
+      "2018-2020",
+      "I adjust my clothing and sit in the lecture hall.",
+      "Return focus to laptop canvas and lecture notes"
+    ],
+    [
+      "2021-2023",
+      "I view lecture notes and lines on a white canvas on my laptop.",
+      "Focus shifts to handling earplugs"
+    ],
+    [
+      "2024-2027",
+      "I pick up and roll yellow earplugs.",
+      "Focus shifts to a line stimulus"
+    ],
+    [
+      "2028-2029",
+      "I watch a changing black line stimulus on a white background.",
+      "Shift to fidgeting with an object"
+    ],
+    [
+      "2030",
+      "I fidget with a yellow object.",
+      "Return focus to listening to the professor"
     ],
     [
       "2031-2036",
-      "I track my cursor on my laptop screen during a lecture on directed graph cycles.",
-      "Focus shifts to questioning a specific drawing."
+      "I listen to the professor discuss directed graph cycles.",
+      "Interrupts listening to ask a question and use a chat interface"
     ],
     [
-      "2037-2039",
-      "I question the meaning of a geometric drawing on my laptop.",
-      "Focus shifts to a different application."
+      "2037-2040",
+      "I question a concept and interact with a geometric drawing and Claude.ai chat interface.",
+      "Return focus to the lecturer and screens"
     ],
     [
-      "2040-2045",
-      "I view a Claude.ai chat interface on my laptop during the lecture.",
-      "Focus shifts to adjusting footwear."
+      "2041-2046",
+      "I follow the lecture on my laptop and watch a hand draw a diagram on the projection screen.",
+      "Interruption to adjust sneaker"
     ],
     [
-      "2046-2048",
+      "2047",
       "I adjust the laces of my left sneaker.",
-      "Focus returns to the lecture materials."
+      "Return focus to following the lecture"
     ],
     [
-      "2049-2058",
-      "I study a mathematical document and graph diagram on my laptop during a graph theory lecture.",
-      "Focus shifts to fidgeting with a new object."
+      "2048-2055",
+      "I follow the graph theory lecture and trace a graph diagram.",
+      "Shift to viewing a document"
+    ],
+    [
+      "2056-2058",
+      "I view and scroll through a document containing graph theory content.",
+      "Starts fidgeting with a thin object"
     ],
     [
       "2059-2064",
-      "I fidget with a thin stick over my laptop keyboard.",
-      "Focus shifts back to reading lecture notes."
+      "I fidget with a thin object while observing the lecture hall.",
+      "Return to reading math notes"
     ],
     [
-      "2065-2084",
-      "I read mathematical definitions and proofs on my laptop during a lecture on equations.",
-      "Focus shifts away to observe the surroundings."
+      "2065-2076",
+      "I read mathematical definitions and notes while listening to the lecture.",
+      "Focus shifts to tracing a zigzag diagram"
+    ],
+    [
+      "2077-2080",
+      "I examine and trace a zigzag diagram.",
+      "Shift to reading a mathematical proof"
+    ],
+    [
+      "2081-2084",
+      "I read a mathematical proof while listening to the lecture.",
+      "Focus shifts to observing the classroom"
     ],
     [
       "2085-2095",
-      "I observe the classroom environment and the mathematical document on my laptop.",
-      "End of supplied events."
+      "I observe the classroom and follow the lecture on my laptop.",
+      "End of batch"
     ]
   ],
   "audit": {

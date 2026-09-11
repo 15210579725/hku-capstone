@@ -1,0 +1,129 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions sharing a single immediate goal, such as terminal navigation steps, stowing luggage, settling into a seat, viewing media on devices, or engaging in specific conversational topics.",
+  "events": [
+    [
+      "250-259",
+      "I take the terminal escalator.",
+      "Escalator ride completes."
+    ],
+    [
+      "260-264",
+      "I wait in the elevator queue.",
+      "Elevator arrives."
+    ],
+    [
+      "265-271",
+      "I ride the elevator.",
+      "Exits elevator."
+    ],
+    [
+      "272-282",
+      "I navigate the terminal corridors towards the boarding gate.",
+      "Reaches boarding gangway."
+    ],
+    [
+      "283-294",
+      "I board the ferry via the boarding gangway.",
+      "Enters ferry passenger corridor."
+    ],
+    [
+      "295-299",
+      "I stow my suitcase in the ferry's luggage rack.",
+      "Luggage stowed."
+    ],
+    [
+      "300-311",
+      "I settle into a seat in the ferry cabin.",
+      "Shifts focus to companion's phone screen."
+    ],
+    [
+      "312-319",
+      "I view photos and a video clip on my companion's phone.",
+      "Finishes viewing photos."
+    ],
+    [
+      "320-332",
+      "I observe the cabin interior and my companion's phone screen.",
+      "Companion gets up to move seats."
+    ],
+    [
+      "333-335",
+      "I relocate to the window seats with my companion.",
+      "Arrives at new seats."
+    ],
+    [
+      "336-343",
+      "I examine the safety procedures card at my new seat.",
+      "Returns safety card and looks away."
+    ],
+    [
+      "344-356",
+      "I converse with my companion about the steady ferry ride and her video.",
+      "Conversation ends, spots boat."
+    ],
+    [
+      "357-359",
+      "I point out a large yellow boat outside the window to my companion.",
+      "Boat observation concludes."
+    ],
+    [
+      "360-373",
+      "I complain about my appearance in an HDR video on my companion's phone.",
+      "Finishes watching video."
+    ],
+    [
+      "374-379",
+      "I gaze out the ferry window at the sea.",
+      "Companion initiates conversation."
+    ],
+    [
+      "380-388",
+      "I discuss the quality of Live Photos on WeChat with my companion.",
+      "Conversation pauses."
+    ],
+    [
+      "389-401",
+      "I observe the cabin interior and the sea view.",
+      "Starts discussing a new video."
+    ],
+    [
+      "402-422",
+      "I evaluate photos and videos on my companion's phone.",
+      "Finishes media discussion."
+    ],
+    [
+      "423-431",
+      "I converse with my companion about studying together at my place.",
+      "Conversation topic ends."
+    ],
+    [
+      "432-460",
+      "I observe the cabin interior and the sea view.",
+      "Companion starts editing video."
+    ],
+    [
+      "461-473",
+      "I review a video montage template in the DJI Mimo app on my companion's phone.",
+      "Switches to demonstrating WeChat."
+    ],
+    [
+      "474-494",
+      "I demonstrate WeChat Live Photo sharing limitations on my phone.",
+      "Finishes demonstration."
+    ],
+    [
+      "495-499",
+      "I initiate a search on the Xiaohongshu app on my phone.",
+      "Opens app to search."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

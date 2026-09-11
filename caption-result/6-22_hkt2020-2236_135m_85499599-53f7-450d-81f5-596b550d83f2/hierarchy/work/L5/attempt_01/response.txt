@@ -1,0 +1,34 @@
+```json
+{
+  "target_level": "L5",
+  "plan": "Group L4 phases by major activities, unifying transit to a destination with the primary objective completed there, while maintaining distinct goals like shopping, spending time at home, and subsequent transit as separate major activities.",
+  "events": [
+    [
+      "0-1",
+      "I dine out at a cooked food centre with my companion.",
+      "Objective shifts from dining out to shopping."
+    ],
+    [
+      "2",
+      "I shop for groceries and snacks.",
+      "Location and objective change to returning to the apartment."
+    ],
+    [
+      "3",
+      "I spend time with my companions in my apartment.",
+      "Location and objective change as I leave the apartment to travel."
+    ],
+    [
+      "4",
+      "I travel via the MTR with my companion.",
+      "End of recording."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

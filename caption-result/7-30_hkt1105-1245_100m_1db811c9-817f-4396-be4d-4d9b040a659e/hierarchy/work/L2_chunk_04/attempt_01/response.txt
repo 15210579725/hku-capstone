@@ -1,0 +1,46 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions sharing an immediate goal, target, or location into discrete tasks. Ensure boundaries reflect changes in physical location, application usage, or conversational focus.",
+  "events": [
+    ["750-751", "I send messages in WeChat.", "Task shifts to VS Code and ChatGPT"],
+    ["752-757", "I analyze data abstraction instructions and errors on my computer.", "Interrupted by conversation with colleague"],
+    ["758-780", "I discuss a depression detection research paper with my colleague.", "Interrupted by an incoming phone call"],
+    ["781-785", "I answer an incoming delivery phone call.", "Leaves the office to retrieve a delivery"],
+    ["786-801", "I take the elevator to the lobby.", "Focus shifts to editing a photo on phone"],
+    ["802-805", "I edit a photo on my phone.", "Interacts with security guard at the lobby door"],
+    ["806-809", "I ask the security guard to open the lobby door.", "Resumes phone usage to send a photo"],
+    ["810-811", "I send a photo in WeChat.", "Approaches delivery shelves to find package"],
+    ["812-817", "I search for my takeout order at the delivery pickup shelves.", "Cannot find package, uses phone to track it"],
+    ["818-825", "I track my missing delivery in the Meituan app.", "Walks outside to find the courier"],
+    ["826-832", "I learn the location of my delivery from a courier outside.", "Redirects to the student apartment based on courier information"],
+    ["833-841", "I walk to the student apartment entrance.", "Arrives at the student apartment delivery shelves"],
+    ["842-845", "I retrieve my Meituan Medicine package from the student apartment delivery shelf.", "Package retrieved, examines the contents"],
+    ["846-848", "I inspect my new Bausch + Lomb contact lens box.", "Finishes inspection, discards the packaging"],
+    ["849-850", "I throw the empty delivery paper bag into the Residual Waste bin.", "Begins walk back to the office building"],
+    ["851-862", "I return to the building lobby elevator.", "Waits for the elevator"],
+    ["863-878", "I use WeChat on my phone.", "Elevator arrives"],
+    ["879-881", "I exit the elevator.", "Heads to restroom"],
+    ["882-885", "I enter the men's restroom.", "Reaches the urinal"],
+    ["886-896", "I use the urinal in the men's restroom.", "Finishes using the urinal"],
+    ["897-899", "I leave the restroom with my belongings.", "Exits restroom and reads phone"],
+    ["900-918", "I read an article about Meta's AI strategy on my phone.", "Arrives at workstation"],
+    ["919-922", "I arrange my laptop display at my workstation.", "Setup complete, begins reading ChatGPT analysis"],
+    ["923-933", "I read a ChatGPT reasoning analysis regarding retrieval errors.", "Shifts attention to WeChat messages"],
+    ["934-937", "I check WeChat lunch discussion messages on my laptop.", "Returns to ChatGPT prompt work"],
+    ["938-945", "I review a multi-granularity prompt template in ChatGPT.", "Begins testing the prompt with a dataset"],
+    ["946-978", "I process a dataset zip file for data abstraction in ChatGPT.", "Shifts focus to terminal evaluations"],
+    ["979-988", "I review evaluation summaries in my terminal and Claude Code.", "Returns to reviewing ChatGPT templates"],
+    ["989-999", "I review generalized prompt templates for data granularity merging in ChatGPT.", "End of provided input"]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "781-785",
+      "826-832"
+    ],
+    "boundary_cautions": []
+  }
+}
+```

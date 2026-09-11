@@ -1,0 +1,30 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Review eligible pairs and merge only those where the exact same immediate task continues uninterrupted across a batch edge, avoiding merging distinct tasks that merely share a topic or tool.",
+  "merges": [
+    [
+      13,
+      14,
+      "I review cluster resource usage statistics on the HPC computing cluster dashboard.",
+      "Same dashboard review task continues across batch edge"
+    ],
+    [
+      88,
+      89,
+      "I evaluate the atomic action model benchmark comparison document in VS Code.",
+      "Same document evaluation task continues across batch edge"
+    ],
+    [
+      117,
+      118,
+      "I review API usage logs and token breakdown on the Right Code dashboard.",
+      "Same log review task continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

@@ -1,0 +1,99 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group sequential actions into immediate tasks based on shared immediate goals, apps, or continuous interactions. Separate video watching from reading comments, distinct app usages (Bilibili vs Douyin), physical interruptions, and shifts between laptop applications (Doubao vs Figma).",
+  "events": [
+    [
+      "0-1",
+      "I start watching a short drama video on my smartphone.",
+      "Action starts"
+    ],
+    [
+      "2-5",
+      "I hand an unplugged USB cable to my roommate.",
+      "Interrupts watching to hand cable to roommate"
+    ],
+    [
+      "6-7",
+      "I adjust my chair position.",
+      "Adjusts physical position"
+    ],
+    [
+      "8-12",
+      "I watch an animated short drama video on my smartphone.",
+      "Resumes watching a drama video"
+    ],
+    [
+      "13-23",
+      "I read the comments under the animated short drama video.",
+      "Shifts focus to reading comments on the video"
+    ],
+    [
+      "24-27",
+      "I watch a dynamic comic video about buying bayberries.",
+      "Starts watching a different comic video"
+    ],
+    [
+      "28-71",
+      "I scroll through various short videos on Bilibili.",
+      "Begins scrolling through the Bilibili short video feed"
+    ],
+    [
+      "72-83",
+      "I watch short videos on Douyin.",
+      "Switches to watching videos on the Douyin app"
+    ],
+    [
+      "84-92",
+      "I watch videos from the Bilibili recommendation feed.",
+      "Switches back to browsing the Bilibili feed"
+    ],
+    [
+      "93-110",
+      "I review downloaded cartoon illustrations to start a new Doubao chat on my laptop.",
+      "Transitions to a laptop to review downloaded illustrations"
+    ],
+    [
+      "111-116",
+      "I answer a question about my meals and thesis timeline.",
+      "Interrupts workflow to answer a question about thesis timeline"
+    ],
+    [
+      "117-131",
+      "I provide a new prompt with a reference image for cartoon generation in Doubao.",
+      "Resumes workflow to upload a reference image and prompt Doubao"
+    ],
+    [
+      "132-176",
+      "I participate in a conversation about personal topics during my Doubao AI chat workflow.",
+      "Engages in a conversation while working in Doubao"
+    ],
+    [
+      "177-189",
+      "I download the newly generated cartoon storyboard panels from Doubao.",
+      "Focuses on downloading the completed cartoon images"
+    ],
+    [
+      "190-205",
+      "I inspect my narrative flowchart and imported artwork in Figma.",
+      "Switches to Figma to inspect the flowchart"
+    ],
+    [
+      "206-230",
+      "I instruct Doubao to generate cartoon refrigerator images matching a specific style.",
+      "Returns to Doubao to prompt for specific style matching"
+    ],
+    [
+      "231-249",
+      "I review the narrative flowchart and storyboard illustrations in Figma.",
+      "Switches back to Figma to review updated storyboard"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

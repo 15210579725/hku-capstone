@@ -1,0 +1,134 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group consecutive brief actions into immediate tasks sharing one objective and target/location. Distinct reading sessions, tool switches (e.g., WeChat vs Claude), physical room setups, and specific conversation topics (e.g., residency plans vs noodles vs fruit) form natural boundaries for immediate tasks.",
+  "events": [
+    [
+      "1000-1015",
+      "I write document notes about caption quality and goal functions.",
+      "Task switches to checking WeChat."
+    ],
+    [
+      "1016-1018",
+      "I review WeChat messages and subscription accounts.",
+      "Opens a specific article."
+    ],
+    [
+      "1019-1038",
+      "I read tech articles reviewing the Insta360 Mic Pro.",
+      "Switches application to WeChat."
+    ],
+    [
+      "1039-1040",
+      "I view a WeChat group chat.",
+      "Switches to Chrome document."
+    ],
+    [
+      "1041-1056",
+      "I type Chinese text into the document.",
+      "Switches focus to Claude AI chat."
+    ],
+    [
+      "1057-1071",
+      "I read Claude AI explanations about predictive coding and visual pruning.",
+      "Pauses reading to move to the bed."
+    ],
+    [
+      "1072-1075",
+      "I relocate to sit in bed with my laptop.",
+      "Resumes reading Claude AI on the laptop."
+    ],
+    [
+      "1076-1104",
+      "I research video representation and active memory methods in Claude AI.",
+      "Interrupted by a conversation about residency plans."
+    ],
+    [
+      "1105-1117",
+      "I discuss my residency plans with my companion.",
+      "Conversation ends and User A draws attention."
+    ],
+    [
+      "1118-1121",
+      "I observe User A handling clothes.",
+      "User A changes the topic to food."
+    ],
+    [
+      "1122-1131",
+      "I discuss evening food and exercise plans with my partner.",
+      "Conversation ends and focus returns to research notes."
+    ],
+    [
+      "1132-1134",
+      "I read Claude research notes about Ego Narrator.",
+      "Interrupted by User X discussing the fruit cart."
+    ],
+    [
+      "1135-1140",
+      "I discuss fruit cart logistics with User X.",
+      "Conversation ends and focus returns to laptop screen."
+    ],
+    [
+      "1141-1142",
+      "I read research notes about egocentric video-language modeling.",
+      "Interrupted by a conversation about a noodle dish."
+    ],
+    [
+      "1143-1158",
+      "I decline my companion's offer to eat a noodle dish.",
+      "Conversation ends and attention shifts to code."
+    ],
+    [
+      "1159-1160",
+      "I review code on my laptop.",
+      "Attention shifts to observing User A."
+    ],
+    [
+      "1161-1166",
+      "I observe User A's departure from the room.",
+      "User A leaves and attention returns to laptop."
+    ],
+    [
+      "1167-1167",
+      "I review code on my laptop.",
+      "Shifts focus to adjusting the room fan."
+    ],
+    [
+      "1168-1170",
+      "I mount a portable fan on the headboard.",
+      "Moves to fetch the rolling cart table."
+    ],
+    [
+      "1171-1183",
+      "I prepare the rolling cart table for use.",
+      "Begins setting up the laptop workspace on the table."
+    ],
+    [
+      "1184-1193",
+      "I prepare my laptop workspace on the bed.",
+      "Workspace setup completes and reading resumes."
+    ],
+    [
+      "1194-1211",
+      "I read Claude AI explanations about intent-conditioned captioning.",
+      "Attention shifts to companion preparing fruit."
+    ],
+    [
+      "1212-1246",
+      "I share a sliced pear with my companion.",
+      "Conversation topic shifts to contract renewal."
+    ],
+    [
+      "1247-1249",
+      "I discuss contract renewal plans with my companion.",
+      "End of provided inputs."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

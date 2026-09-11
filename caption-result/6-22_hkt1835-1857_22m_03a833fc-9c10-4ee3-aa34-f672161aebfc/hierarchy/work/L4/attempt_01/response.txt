@@ -1,0 +1,29 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group episodes into distinct walking phases based on primary locations and goals: traversing a building concourse, transiting to a residential building, and acquiring water at a park pavilion.",
+  "events": [
+    [
+      "0-4",
+      "I navigate the multi-level building concourse with my companion to survey its amenities.",
+      "Exiting the building to the outdoor paved walkway completes the concourse transit phase"
+    ],
+    [
+      "5-6",
+      "I traverse the hillside pathways and sidewalks to reach the residential building.",
+      "Reaching the residential building completes the hillside transit phase"
+    ],
+    [
+      "7-8",
+      "I visit the park pavilion drinking fountain to acquire water.",
+      "Acquiring water completes the park pavilion visit"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

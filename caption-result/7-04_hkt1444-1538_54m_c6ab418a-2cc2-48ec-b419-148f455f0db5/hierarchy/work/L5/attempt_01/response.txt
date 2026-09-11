@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L5",
+  "plan": "Maintain the supermarket shopping as a distinct major activity, then merge the bicycle transit to the park with the subsequent park navigation and fish-feeding into a single major recreational activity.",
+  "events": [
+    [
+      "0",
+      "I shop for bakery items at Yonghui Supermarket.",
+      "Major location and goal shift from shopping to a park visit"
+    ],
+    [
+      "1-2",
+      "I visit the park to feed fish.",
+      "End of recording"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

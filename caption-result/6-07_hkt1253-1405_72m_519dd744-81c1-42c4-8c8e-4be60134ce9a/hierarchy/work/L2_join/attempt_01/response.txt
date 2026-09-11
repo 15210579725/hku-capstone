@@ -1,0 +1,18 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible pairs for task continuity. Pair 15-16 changes from AI model research to spine pain consultation; do not merge. Pair 48-49 changes from eating to discarding tissue; do not merge. Pair 75-76 involves peeling a mangosteen and then discarding its rind, which forms a single continuous immediate task of consuming the fruit; these will be merged.",
+  "merges": [
+    [
+      75,
+      76,
+      "I peel a mangosteen and discard its rind.",
+      "Mangosteen peeling and rind disposal are continuous parts of the same immediate task"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

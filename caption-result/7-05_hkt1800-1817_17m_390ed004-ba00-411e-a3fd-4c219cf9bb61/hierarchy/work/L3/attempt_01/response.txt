@@ -1,0 +1,36 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group the cafeteria meal and routine tray return (0-13), the return transit to the office workstation with concurrent conversation (14-20), an independent workstation reading task (21), and the final departure (22).",
+  "events": [
+    [
+      "0-13",
+      "I share a cafeteria meal and discussion about technical and personal topics with my companions.",
+      "Groups the entire dining episode including the routine tray return"
+    ],
+    [
+      "14-20",
+      "I return to my office workstation during a discussion about AI models and personal matters with my colleagues.",
+      "Groups the return transit and concurrent conversations into a single episode"
+    ],
+    [
+      "21",
+      "I read a DeepTech article about phase-change memory on WeChat.",
+      "Independent stationary reading task at the workstation"
+    ],
+    [
+      "22",
+      "I leave the office.",
+      "Initiation of a new departure goal"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      22
+    ],
+    "boundary_cautions": []
+  }
+}
+```

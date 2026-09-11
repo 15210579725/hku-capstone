@@ -1,0 +1,18 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible boundary pairs to determine if they represent the exact same ongoing immediate task. Pair [22, 23] shifts from an evaluation discussion to a discrete physical action (placing the smartphone), so it is not merged. Pair [65, 66] involves the continuous action of reviewing evaluation data and notes, so it is merged.",
+  "merges": [
+    [
+      65,
+      66,
+      "I review evaluation cases, notes, and inter-annotator metrics.",
+      "Continuous evaluation review task spans the batch edge."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

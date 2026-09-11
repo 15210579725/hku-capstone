@@ -1,0 +1,119 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks such as reviewing evaluation files, setting up specific model evaluations via ChatGPT, navigating to the cafeteria, and discrete steps of purchasing lunch. Preserve the lunch invitation as a standalone trigger.",
+  "events": [
+    [
+      "500-514",
+      "I review the error analysis and evaluation reports for retrieval predictions.",
+      "Shifts from analyzing error reports to checking log paths."
+    ],
+    [
+      "515-532",
+      "I inspect the evaluation log file paths and audit results.",
+      "Shifts from checking log paths to reading VideoChat3 setup details."
+    ],
+    [
+      "533-542",
+      "I review the evaluation setup and experimental conditions for VideoChat3.",
+      "Shifts to checking server GPU status in the terminal."
+    ],
+    [
+      "543-547",
+      "I check the server GPU status using the terminal.",
+      "Shifts to messaging a colleague on the phone."
+    ],
+    [
+      "548-552",
+      "I message 方阔飞 on WeChat to coordinate GPU usage.",
+      "Message drafted, returns to checking GPU status and notes."
+    ],
+    [
+      "553-560",
+      "I review GPU memory usage and evaluation notes.",
+      "Shifts to drafting a prompt in ChatGPT."
+    ],
+    [
+      "561-576",
+      "I consult ChatGPT about running the model evaluation on the local GPU.",
+      "Shifts to organizing browser tabs."
+    ],
+    [
+      "577-587",
+      "I organize my browser tabs into a group for model testing.",
+      "Tab grouping complete, returns to ChatGPT prompting."
+    ],
+    [
+      "588-612",
+      "I draft a ChatGPT prompt to set up the qwen3.5-4b model evaluation.",
+      "Prompt submitted, switches to checking Feishu notes."
+    ],
+    [
+      "613-626",
+      "I search my Feishu research notes for pending model evaluations.",
+      "Shifts from checking notes to configuring network settings."
+    ],
+    [
+      "627-645",
+      "I configure my proxy node and Wi-Fi network settings.",
+      "Network configuration complete, returns to prompt editing."
+    ],
+    [
+      "646-677",
+      "I finalize the ChatGPT prompt to generate the WorldMM model evaluation plan.",
+      "Task interrupted by colleagues inviting me to lunch."
+    ],
+    [
+      "678-680",
+      "I stand up to leave for lunch after my colleagues invite me.",
+      "Standalone major trigger that abandons work for lunch."
+    ],
+    [
+      "681-693",
+      "I take the elevator to the parking garage.",
+      "Arrives at the parking garage level."
+    ],
+    [
+      "694-708",
+      "I walk through the parking garage toward the cafeteria entrance.",
+      "Arrives at the cafeteria doors."
+    ],
+    [
+      "709-717",
+      "I reply to a WeChat message from User X upon entering the cafeteria.",
+      "Reaches the food counter and starts taking food."
+    ],
+    [
+      "718-732",
+      "I select food items onto my tray at the cafeteria counter.",
+      "Food selection is complete, moves to the cashier."
+    ],
+    [
+      "733-740",
+      "I pay for my lunch via WeChat at the cashier.",
+      "Payment complete, pauses to text a colleague."
+    ],
+    [
+      "741-744",
+      "I text User A about occupying a shared resource.",
+      "Messaging complete, picks up tray to find a seat."
+    ],
+    [
+      "745-749",
+      "I carry my food tray into the dining hall to find a seat.",
+      "Arrives at the booth seating."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      [
+        12,
+        "Colleagues invite the user to lunch, causing an immediate abandonment of work to leave the office."
+      ]
+    ],
+    "boundary_cautions": []
+  }
+}
+```

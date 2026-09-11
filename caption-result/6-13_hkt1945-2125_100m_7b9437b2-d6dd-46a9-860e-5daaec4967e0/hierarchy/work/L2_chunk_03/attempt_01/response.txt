@@ -1,0 +1,89 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group sequential actions into immediate tasks based on shared immediate goals such as inspecting food items, transitioning between rooms, setting up devices, engaging with specific media content, conversing with roommates, and acquiring meal components.",
+  "events": [
+    [
+      "500-510",
+      "I inspect a frozen steamed bun and banana inside a zip-lock bag.",
+      "Inspection concludes to discuss the item with companion"
+    ],
+    [
+      "511-516",
+      "I discuss the usability of the frozen banana with my companion.",
+      "Conversation about the banana ends with rejection"
+    ],
+    [
+      "517-525",
+      "I exit the kitchen upon hearing about a stove power outage.",
+      "Leaving the kitchen completes the immediate response to the outage"
+    ],
+    [
+      "526-537",
+      "I set up my MacBook at the bedroom desk to play music.",
+      "Initial laptop setup transitions into browsing video recommendations"
+    ],
+    [
+      "538-543",
+      "I browse Bilibili video recommendations.",
+      "Browsing concludes upon selecting a specific video"
+    ],
+    [
+      "544-555",
+      "I start watching a MrBeast supermarket challenge video.",
+      "Initial video setup and intro viewing transitions into sustained watching"
+    ],
+    [
+      "556-618",
+      "I watch the progression of the MrBeast supermarket challenge video.",
+      "Sustained video watching is interrupted by a roommate's question"
+    ],
+    [
+      "619-627",
+      "I explain the rules of the MrBeast supermarket challenge to my roommate.",
+      "Explanation of the video rules concludes"
+    ],
+    [
+      "628-633",
+      "I observe my roommate placing a bowl of food on my desk during a video.",
+      "Interruption of food delivery ends to return focus to the main video"
+    ],
+    [
+      "634-687",
+      "I watch the conclusion of the MrBeast supermarket challenge video.",
+      "The MrBeast supermarket challenge video ends"
+    ],
+    [
+      "688-696",
+      "I search for videos about building wells in Africa across Bilibili and YouTube.",
+      "Searching is interrupted by the roommate's noodle cart arrival"
+    ],
+    [
+      "697-707",
+      "I interact with my roommate upon the arrival of a noodle cart.",
+      "Initial interaction with the noodle cart transitions into eating"
+    ],
+    [
+      "708-725",
+      "I eat the bowl of noodles with my roommate.",
+      "Eating shifts to a specific conversation about seasoning"
+    ],
+    [
+      "726-735",
+      "I discuss seasoning and sharing the noodles with my roommate.",
+      "Decision to add sesame oil prompts leaving the room"
+    ],
+    [
+      "736-749",
+      "I retrieve sesame oil from the kitchen for the noodles.",
+      "Fetching and applying the sesame oil is completed"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

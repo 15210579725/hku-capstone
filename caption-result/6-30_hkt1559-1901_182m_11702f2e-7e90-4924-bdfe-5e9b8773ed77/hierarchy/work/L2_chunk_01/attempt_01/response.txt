@@ -1,0 +1,124 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group fixed action briefs into immediate, concrete tasks. Abstract routine steps like walking, looking, or interacting with objects into their unified immediate goal, such as washing sneakers, managing bathtub water, operating the washing machine, or walking to a destination.",
+  "events": [
+    [
+      "0-2",
+      "I survey the hotel bedroom.",
+      "Initial room survey ends before speaking to companion."
+    ],
+    [
+      "3",
+      "I ask my companion to stuff paper into my shoes.",
+      "Discrete request to companion is complete."
+    ],
+    [
+      "4-8",
+      "I approach the hotel room desk.",
+      "Ends upon reaching the desk to retrieve sneakers."
+    ],
+    [
+      "9-16",
+      "I rinse my sneakers under the bathroom sink faucet.",
+      "Sink washing task is complete."
+    ],
+    [
+      "17-37",
+      "I initiate the water filling for the jacuzzi bathtub.",
+      "Initial bathtub filling starts before shifting focus to sneakers."
+    ],
+    [
+      "38-56",
+      "I stuff paper towels into my wet sneakers.",
+      "Sneaker stuffing is finished."
+    ],
+    [
+      "57-87",
+      "I regulate the water filling the jacuzzi bathtub.",
+      "Attention shifts to rinsing a separate item."
+    ],
+    [
+      "88-89",
+      "I rinse a white cap under the bathtub faucet.",
+      "Cap rinsing is complete."
+    ],
+    [
+      "90-98",
+      "I adjust the jacuzzi water controls.",
+      "Water adjustment ends when conversation shifts to food."
+    ],
+    [
+      "99-102",
+      "I converse with my companion about getting a small car.",
+      "Topic of renting a car concludes as camera is brought out."
+    ],
+    [
+      "103-112",
+      "I film my companion using a handheld camera.",
+      "Filming concludes when companion asks to change clothes."
+    ],
+    [
+      "113-125",
+      "I put on a clean brown t-shirt.",
+      "Changing clothes is complete."
+    ],
+    [
+      "126-130",
+      "I discuss the location of our wet clothes with my companion.",
+      "Conversation about wet clothes concludes before re-checking bathtub."
+    ],
+    [
+      "131-142",
+      "I check the bathtub water level before leaving the hotel room.",
+      "Decision to leave room is made."
+    ],
+    [
+      "143-157",
+      "I walk from my hotel room to the rooftop utility landing.",
+      "Arrival at the rooftop utility landing."
+    ],
+    [
+      "158-171",
+      "I wait on the rooftop for an available washing machine.",
+      "Waiting ends when the previous user finishes with the washing machine."
+    ],
+    [
+      "172-190",
+      "I help my companion start a laundry cycle in the washing machine.",
+      "Laundry cycle is successfully initiated."
+    ],
+    [
+      "191-198",
+      "I take the elevator down to the hotel lobby.",
+      "Elevator ride ends at the lobby."
+    ],
+    [
+      "199-207",
+      "I exit the hotel lobby into the parking area.",
+      "Hotel exit is complete."
+    ],
+    [
+      "208-220",
+      "I walk through the hotel parking area with my companion.",
+      "Transition from the parking lot to the public road."
+    ],
+    [
+      "221-238",
+      "I walk along the roadside alongside my companion.",
+      "Arrival at the restaurant courtyard."
+    ],
+    [
+      "239-249",
+      "I look for staff inside an empty restaurant courtyard.",
+      "End of batch."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

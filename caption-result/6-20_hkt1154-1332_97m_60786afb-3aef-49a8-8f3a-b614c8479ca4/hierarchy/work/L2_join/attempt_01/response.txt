@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible pairs to determine if they continue the exact same immediate task across the transport boundary. Pair [24, 25] continues the same web research on the Buick Electra E7. Pair [48, 49] continues the same document reading activity on the laptop. Pair [76, 77] transitions from reading a document page to actively operating a terminal and Claude Code, representing a switch to a new immediate task.",
+  "merges": [
+    [
+      24,
+      25,
+      "I research the Buick Electra E7 specifications on the promotional webpage.",
+      "Same Buick E7 research task continues across batch edge"
+    ],
+    [
+      48,
+      49,
+      "I review diagrams and specification notes on my laptop.",
+      "Same document review task continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

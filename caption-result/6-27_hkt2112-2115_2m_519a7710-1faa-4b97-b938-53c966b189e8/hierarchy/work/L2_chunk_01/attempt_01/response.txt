@@ -1,0 +1,29 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous viewing of the same video content into unified tasks, separating the navigation of the recommendation feed.",
+  "events": [
+    [
+      "0-2",
+      "I watch a Bilibili van cooking video.",
+      "User exits the video"
+    ],
+    [
+      "3-4",
+      "I browse the Bilibili recommendation feed.",
+      "User opens a new video"
+    ],
+    [
+      "5-20",
+      "I watch a Bilibili relationship advice video titled '当金丝雀五年 男友越来越不尊重我' about a caller's financial dependence.",
+      "End of input sequence"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

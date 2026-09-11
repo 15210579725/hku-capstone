@@ -1,0 +1,59 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group action briefs into immediate tasks based on continuous goals such as conversing about specific topics, looking around, messaging pet shops on WeChat, paying the bill, preparing to leave the restaurant, and asking for directions while walking in the mall.",
+  "events": [
+    [
+      "750-752",
+      "I converse with my companion about seeing things from her perspective.",
+      "Conversation shifts to looking around and then phone usage"
+    ],
+    [
+      "753-756",
+      "I look around the restaurant and at my companion.",
+      "Ends looking around to check phone notifications"
+    ],
+    [
+      "757-770",
+      "I use WeChat and coordinate with my companion to inform 萌宠宠物生活坊 that we will visit another dog kennel instead.",
+      "Finishes messaging and lowers phone to leave"
+    ],
+    [
+      "771-777",
+      "I walk to the cashier counter and pay the restaurant bill using Alipay.",
+      "Payment completes and leaves the counter"
+    ],
+    [
+      "778-787",
+      "I return to my table, discuss phone notifications with my companion, and walk toward the exit.",
+      "Leaves the restaurant and enters the mall atrium"
+    ],
+    [
+      "788-791",
+      "I walk through the mall atrium past 江边城外 and joke about a product.",
+      "Conversation topic shifts"
+    ],
+    [
+      "792-794",
+      "I raise my hand and joke with my companion about fighting.",
+      "Conversation ends as we continue walking"
+    ],
+    [
+      "795-801",
+      "I walk past appliance displays and ask a sales associate for directions to the washroom.",
+      "Receives directions and continues walking"
+    ],
+    [
+      "802-810",
+      "I walk toward the washroom and discuss a housewarming gift with my companion.",
+      "Batch ends"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

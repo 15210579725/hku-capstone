@@ -1,0 +1,56 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group immediate tasks by physical location transitions and distinct interactions with objects or people.",
+  "events": [
+    [
+      "2250-2255",
+      "I walk across the outdoor plaza pathways to reach the building entrance.",
+      "Approaching the building doors completes the outdoor walk."
+    ],
+    [
+      "2256-2259",
+      "I pass through the building lobby security turnstile with the help of the reception staff.",
+      "Passing the turnstile completes the lobby entry process."
+    ],
+    [
+      "2260-2266",
+      "I initiate an elevator ride to floor 8.",
+      "Selecting the floor completes boarding the elevator."
+    ],
+    [
+      "2267-2269",
+      "I trace the engraved model text on the bottom of my MacBook Pro.",
+      "Lowering the laptop completes the examination."
+    ],
+    [
+      "2270-2275",
+      "I navigate from the 9th-floor elevator lobby through the corridor to the open-plan office.",
+      "Reaching the desk area completes the walk from the elevator."
+    ],
+    [
+      "2276-2278",
+      "I organize my workstation 13 with my MacBook, charging cable, and water bottle.",
+      "Organizing objects completes the desk setup."
+    ],
+    [
+      "2279-2281",
+      "I read an academic paper about a personalized reward model on my laptop screen.",
+      "Reading is interrupted by the colleague's question."
+    ],
+    [
+      "2282-2286",
+      "I depart my workstation with a colleague to use the restroom.",
+      "Walking down the hall begins the new task of leaving the desk."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "Colleague asking about hailing a ride triggers my departure for the restroom."
+    ],
+    "boundary_cautions": []
+  }
+}
+```

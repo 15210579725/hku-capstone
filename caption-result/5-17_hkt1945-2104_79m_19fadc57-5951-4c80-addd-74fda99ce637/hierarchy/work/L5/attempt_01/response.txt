@@ -1,0 +1,31 @@
+```json
+{
+  "target_level": "L5",
+  "plan": "Keep the plan-abandonment trigger standalone as permitted by rules, abstract the commute home as a major transit activity, and abstract the coding session as the primary work activity at the apartment.",
+  "events": [
+    [
+      "0",
+      "I abandon our bistro dining plans to return for homework.",
+      "Major behavior-changing trigger"
+    ],
+    [
+      "1",
+      "I commute to my apartment via the MTR.",
+      "Major transit phase"
+    ],
+    [
+      "2",
+      "I manage rollout predictions, AI content generation, and a Tavily API search agent in Claude Code.",
+      "Major work phase at home"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      0
+    ],
+    "boundary_cautions": []
+  }
+}
+```

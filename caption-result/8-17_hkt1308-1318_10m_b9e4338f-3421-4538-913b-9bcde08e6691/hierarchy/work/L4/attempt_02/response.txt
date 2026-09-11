@@ -1,0 +1,26 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group the preparation, studying, translation, and analysis of the research document into a single desk work phase. Preserve the colleague's instruction to stop as a standalone behavior-changing trigger.",
+  "events": [
+    [
+      "0-3",
+      "I analyze an action prediction research document at my desk.",
+      "Work interrupted by a colleague"
+    ],
+    [
+      "4",
+      "I stop my computer activity after a colleague tells me to stop.",
+      "Standalone behavior-changing trigger"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "Colleague tells me to stop"
+    ],
+    "boundary_cautions": []
+  }
+}
+```

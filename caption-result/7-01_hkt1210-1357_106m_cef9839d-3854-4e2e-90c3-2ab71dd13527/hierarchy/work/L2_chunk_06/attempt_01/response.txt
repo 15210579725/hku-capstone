@@ -1,0 +1,46 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group sequential observations into distinct driving maneuvers, intersection stops, and focused conversation topics. Incidental glances, concurrent dialogue, and minor interactions are abstracted as components of the primary driving task or waiting period.",
+  "events": [
+    [
+      "1250-1253",
+      "I navigate into the tunnel guided by the navigation system.",
+      "Tunnel entered"
+    ],
+    [
+      "1254-1257",
+      "I exit the tunnel during a conversation regarding upcoming road improvements.",
+      "Tunnel exited"
+    ],
+    [
+      "1258-1259",
+      "I answer the passenger's question about the estimated travel duration.",
+      "Travel time conversation concluded"
+    ],
+    [
+      "1260-1265",
+      "I wait at a red light intersection with attention to the traffic signals and smartphone navigation map.",
+      "Waiting at red light"
+    ],
+    [
+      "1266-1270",
+      "I drive past a road construction area trailing a white car.",
+      "Construction area passed"
+    ],
+    [
+      "1271-1278",
+      "I steer into the tunnel amidst navigation system prompts and a route discussion with the passenger.",
+      "Tunnel entry maneuver complete"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": [
+      "Input contains overlapping out-of-order sequences (1266-1270 and 1271-1278 cover earlier or concurrent timestamps). Maintained discrete grouping based on input index presentation as per instructions."
+    ]
+  }
+}
+```

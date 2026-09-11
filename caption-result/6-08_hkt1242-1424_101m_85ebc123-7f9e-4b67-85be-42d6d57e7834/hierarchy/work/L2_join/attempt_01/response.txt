@@ -1,0 +1,18 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible pairs for continuous immediate tasks split across batch edges. Pair [45, 46] captures a single, continuous interaction with the companion (playful interaction and immediate related conversation about reflexes) and is merged. Pairs [24, 25], [72, 73], and [100, 101] describe transitions to distinct targets or actions (e.g., spreadsheet to API logs, drawer to smartphone, observing food to reviewing a script) and are not merged.",
+  "merges": [
+    [
+      45,
+      46,
+      "I playfully interact and converse with my companion about reflexes and her cut nail.",
+      "Continuous interaction with companion across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

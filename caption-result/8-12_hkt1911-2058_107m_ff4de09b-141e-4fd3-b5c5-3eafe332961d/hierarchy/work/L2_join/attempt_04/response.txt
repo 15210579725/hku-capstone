@@ -1,0 +1,30 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible batch-edge pairs to merge only those that represent the exact same immediate task continuing across the transport boundary, avoiding merges of distinct tasks.",
+  "merges": [
+    [
+      25,
+      26,
+      "I get water from the office water dispenser.",
+      "The continuous immediate task of fetching water is split across the batch edge."
+    ],
+    [
+      49,
+      50,
+      "I discuss the mathematical equations of the EmWorld model with my colleagues.",
+      "Continuous discussion about the EmWorld mathematical formulas and Kalman filter across the batch edge."
+    ],
+    [
+      72,
+      73,
+      "I review the AffectVerse architecture and discuss its mechanisms with my colleagues.",
+      "Continuous review and discussion of the AffectVerse architecture across the batch edge."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

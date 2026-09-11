@@ -1,0 +1,30 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate the eligible boundary pairs to determine if the exact same immediate task continues across transport batch edges. Pair [16, 17] continues eating the same noodles; pair [25, 26] continues the same bicycle ride; pair [45, 46] continues the same ChatGPT research on reinforcement learning.",
+  "merges": [
+    [
+      16,
+      17,
+      "I eat my stir-fried noodles.",
+      "Same eating task continues across batch edge"
+    ],
+    [
+      25,
+      26,
+      "I ride the shared bicycle along the road.",
+      "Same bicycle riding task continues across batch edge"
+    ],
+    [
+      45,
+      46,
+      "I use ChatGPT on my laptop to research reinforcement learning algorithms.",
+      "Same ChatGPT research task continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

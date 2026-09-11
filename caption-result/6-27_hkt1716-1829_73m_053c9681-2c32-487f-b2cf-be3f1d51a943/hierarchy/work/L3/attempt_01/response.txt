@@ -1,0 +1,52 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group immediate tasks into coherent episodes based on primary location, device, and unified objective. Laptop research work is separated from mobile entertainment and distinct physical chores.",
+  "events": [
+    [
+      "0-11",
+      "I evaluate project notes and API usage metrics for my action prediction research on my laptop.",
+      "Groups continuous laptop tasks managing research files, system information, and AI API metrics."
+    ],
+    [
+      "12",
+      "I tidy my bed.",
+      "Distinct physical chore away from the laptop."
+    ],
+    [
+      "13-28",
+      "I analyze habit loop logs and Claude Code outputs on my laptop.",
+      "Groups continuous laptop analysis focused on behavioral logs and AI prompt execution."
+    ],
+    [
+      "29-36",
+      "I relocate to the hallway to read WeChat messages and social media content on my smartphone.",
+      "Location change initiates a unified smartphone session of reading communications and feeds."
+    ],
+    [
+      "37-76",
+      "I watch a series of short entertainment videos on my smartphone.",
+      "Continuous block of watching short videos on Xiaohongshu and Douyin."
+    ],
+    [
+      "77-86",
+      "I evaluate the DAY3 and DAY4 egocentric video datasets on my laptop.",
+      "Returns to laptop work specifically focused on analyzing egocentric video dataset files."
+    ],
+    [
+      "87-89",
+      "I refill my water bottle at the water dispenser.",
+      "Distinct physical task away from the workspace."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": [
+      "Event 12 (tidying bed) interrupts laptop work but represents a distinct physical episode at the L3 scale.",
+      "Event 29 initiates a significant context and device shift from laptop analysis to mobile browsing in the hallway."
+    ]
+  }
+}
+```

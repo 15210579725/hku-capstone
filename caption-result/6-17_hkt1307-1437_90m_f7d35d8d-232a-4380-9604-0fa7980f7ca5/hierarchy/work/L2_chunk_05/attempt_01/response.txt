@@ -1,0 +1,34 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group incidental resting and glances into a brief idle period. Unify continuous reading of Claude AI output on Concordia into a single reading task. Group the sequential observational and conversational exchanges into a single roommate interaction task. Group the clothing adjustment with the subsequent incidental look.",
+  "events": [
+    [
+      "1000-1001",
+      "I rest my arms on the chair.",
+      "Shifts focus to reading computer screen"
+    ],
+    [
+      "1002-1003",
+      "I review Claude output regarding the Concordia API and component integration.",
+      "Interrupted by roommate's physical action"
+    ],
+    [
+      "1004-1008",
+      "I acknowledge my roommate reaching across the desk.",
+      "Interaction ends, shifts to personal clothing adjustment"
+    ],
+    [
+      "1009-1010",
+      "I tie the drawstring of my sweatpants.",
+      "End of input sequence"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

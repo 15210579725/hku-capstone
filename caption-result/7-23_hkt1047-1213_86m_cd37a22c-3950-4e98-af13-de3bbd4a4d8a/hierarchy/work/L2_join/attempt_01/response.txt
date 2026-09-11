@@ -1,0 +1,11 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate each eligible pair to determine if it represents a single immediate task artificially split by a batch edge. Pair [23, 24] consists of sequential but distinct interactions (approving stage-1 evaluation, then instructing preparation for stage-2). Pair [44, 45] shifts from reading a specific status update to actively monitoring dry-run performance logs. Pair [65, 66] is a clear physical location change from an elevator to a parking garage. Since none of these pairs are the exact same ongoing immediate task, no merges will be performed.",
+  "merges": [],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

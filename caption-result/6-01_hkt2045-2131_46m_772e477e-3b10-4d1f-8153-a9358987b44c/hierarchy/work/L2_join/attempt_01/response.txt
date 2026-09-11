@@ -1,0 +1,22 @@
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible boundary pairs to merge those that continue the exact same immediate task across transport batches.",
+  "merges": [
+    [
+      22,
+      23,
+      "I eat portions of the stir-fried noodles.",
+      "Eating the same noodle meal continues across batch edge"
+    ],
+    [
+      44,
+      45,
+      "I watch a travel vlog segment exploring street scenes and transportation.",
+      "Watching the same travel vlog continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}

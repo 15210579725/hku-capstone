@@ -1,0 +1,179 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions and conversational topics into distinct immediate tasks, such as interacting with specific software, adjusting physical setup, or discussing distinct subjects during a meal.",
+  "events": [
+    [
+      "250-264",
+      "I consult Claude AI about my spine pain and read its advice.",
+      "Switches from conversing with Claude AI to manipulating physical objects."
+    ],
+    [
+      "265-269",
+      "I plug a USB cable into a power bank.",
+      "Switches from handling cables to moving around the room."
+    ],
+    [
+      "270-274",
+      "I retrieve my slippers and walk toward the desk.",
+      "Switches from walking to interacting with the MacBook and cushions."
+    ],
+    [
+      "275-277",
+      "I read a document on my MacBook.",
+      "Switches from reading the laptop to interacting with ergonomic cushions."
+    ],
+    [
+      "278-285",
+      "I arrange pink ergonomic cushions on my chair and sit down.",
+      "Switches from arranging seating to reading the laptop screen."
+    ],
+    [
+      "286-290",
+      "I read lumbar pain relief information on my MacBook.",
+      "Switches from reading to standing up to adjust the workspace."
+    ],
+    [
+      "291-299",
+      "I retrieve a laptop stand and return to my chair.",
+      "Switches from retrieving the stand to reviewing the MacBook."
+    ],
+    [
+      "300-304",
+      "I review my MacBook screen.",
+      "Switches from reviewing the screen to physically setting up the laptop stand."
+    ],
+    [
+      "305-308",
+      "I set up my MacBook on the laptop stand.",
+      "Switches from setting up the stand to reading the screen."
+    ],
+    [
+      "309-312",
+      "I read spine pain advice on my MacBook.",
+      "Topic of reading changes from spine pain to action forecasting models."
+    ],
+    [
+      "313-319",
+      "I read action forecasting model research on my laptop.",
+      "Switches from reading research papers to reading an AI chat response."
+    ],
+    [
+      "320-324",
+      "I read an AI chat response.",
+      "Switches from the AI chat to reading WeChat messages."
+    ],
+    [
+      "325-329",
+      "I review WeChat messages about photo re-uploads.",
+      "Switches from WeChat to interacting with a visa application form."
+    ],
+    [
+      "330-354",
+      "I process my visa application and verify photo specifications.",
+      "Switches from the laptop to checking my iPhone."
+    ],
+    [
+      "355-357",
+      "I check my iPhone and attach a MagSafe charger.",
+      "Switches from the phone to adjusting earplugs."
+    ],
+    [
+      "358",
+      "I adjust yellow earplugs on the desk.",
+      "Switches from adjusting earplugs to talking with my roommate."
+    ],
+    [
+      "359-374",
+      "I converse with my roommate about my spine pain while preparing to eat.",
+      "Switches from discussing spine pain to eating and discussing the food."
+    ],
+    [
+      "375-380",
+      "I eat tomato scrambled eggs and discuss the dish's flavor.",
+      "Conversation shifts from the food to gym routines."
+    ],
+    [
+      "381-385",
+      "I discuss gym routines and a potential purchase with my companion.",
+      "Conversation shifts to food preparation with User A."
+    ],
+    [
+      "386-391",
+      "I eat rice while discussing cucumber preparation with User A.",
+      "Conversation shifts to eating pepper chicken and discussing future meals."
+    ],
+    [
+      "392-404",
+      "I eat pepper chicken and discuss future meals with my companion.",
+      "Conversation shifts from meal planning to complaining about another user."
+    ],
+    [
+      "405-411",
+      "I listen to my companion complain about an interaction with User X.",
+      "Conversation shifts from User X to joking about someone's sleeping habits."
+    ],
+    [
+      "412-419",
+      "I eat chicken while my companion jokes about someone's sleeping habits.",
+      "Conversation shifts to discussing my morning stomachache."
+    ],
+    [
+      "420-424",
+      "I tell my companion about my morning stomachache.",
+      "Conversation shifts from my stomachache to my companion's sleep schedule."
+    ],
+    [
+      "425-436",
+      "I discuss my companion's late-night video watching and sleep schedule.",
+      "Conversation pauses as I focus on eating chicken."
+    ],
+    [
+      "437-449",
+      "I eat chicken and remark on its spicy, numbing flavor.",
+      "Companion introduces a new apple pear juice to try."
+    ],
+    [
+      "450-454",
+      "I taste and react to my friend's newly bought apple pear juice.",
+      "Conversation shifts to table organization and placement of items."
+    ],
+    [
+      "455-459",
+      "I joke with my companion about where to place items on the table.",
+      "User A interrupts to ask about getting a basketball."
+    ],
+    [
+      "460-466",
+      "I agree to help User A get a basketball tonight.",
+      "Conversation shifts back to the companion discussing the gym."
+    ],
+    [
+      "467-471",
+      "I discuss the appearance of new student faces at the gym with my companion.",
+      "Companion begins telling an anecdote about an impressive gym-goer."
+    ],
+    [
+      "472-488",
+      "I eat chicken while my friend and I discuss an impressive gym-goer's workout.",
+      "Friend shifts the topic by asking about missing application materials."
+    ],
+    [
+      "489-493",
+      "I answer my friend's questions about missing visa application materials.",
+      "Focus returns to eating and getting more rice from my roommate."
+    ],
+    [
+      "494-499",
+      "I eat chicken and accept more rice from my roommate.",
+      "Ends the provided sequence."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

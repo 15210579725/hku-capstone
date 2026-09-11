@@ -1,0 +1,59 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions and conversation segments into distinct immediate tasks based on topics and physical interactions, abstracting incidental looks and brief pauses into the overarching task they support.",
+  "events": [
+    [
+      "1250-1264",
+      "I converse with my companion about our exam and hobby plans.",
+      "The conversation shifts to a new topic about renting an apartment."
+    ],
+    [
+      "1265-1291",
+      "I discuss renting an apartment in Shenzhen with my companion.",
+      "The conversation pauses and I begin tidying my immediate area."
+    ],
+    [
+      "1292-1303",
+      "I tidy my immediate area by discarding a tissue and inspecting a takeout bag.",
+      "I finish tidying up and briefly check my phone."
+    ],
+    [
+      "1304-1305",
+      "I check my iPhone.",
+      "I put my phone away and interact with a photo card."
+    ],
+    [
+      "1306-1318",
+      "I tease my companion about their hygiene after grabbing a photo card.",
+      "The conversation shifts to reviewing a stack of photos."
+    ],
+    [
+      "1319-1339",
+      "I reminisce with my friend while reviewing a stack of Polaroid photos.",
+      "The conversation shifts to the topic of keeping pets."
+    ],
+    [
+      "1340-1351",
+      "I converse with my friend about keeping a pet.",
+      "The conversation topic shifts to our grandmothers' social media use."
+    ],
+    [
+      "1352-1366",
+      "I discuss our grandmothers' social media habits while showing my friend my WeChat contacts.",
+      "The conversation concludes and I physically interact with my friend."
+    ],
+    [
+      "1367-1369",
+      "I embrace my friend while she adjusts her dress.",
+      "End of the supplied sequence."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

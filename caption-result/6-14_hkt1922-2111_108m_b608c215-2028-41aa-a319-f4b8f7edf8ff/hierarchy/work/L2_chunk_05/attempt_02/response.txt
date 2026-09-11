@@ -1,0 +1,43 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions serving a single immediate task, such as drafting a prompt, evaluating code, or consuming a specific Xiaohongshu post. Subsume brief transitions, feed scrolling between posts, and incidental looks into the primary task they conclude or interrupt.",
+  "events": [
+    ["1000-1004", "I launch Claude Code in the terminal.", "Completes opening the Claude terminal interface"],
+    ["1005-1011", "I draft a configuration prompt in Claude Code.", "Shifts to formulating a new account configuration prompt"],
+    ["1012-1019", "I formulate the account trigger prompt in Claude Code using Google Search.", "Shifts from formulating to reviewing and submitting the prompt"],
+    ["1020-1030", "I submit the account configuration prompt to Claude Code.", "Submits the prompt, shifting to monitoring execution"],
+    ["1031-1037", "I monitor the script commands executed by Claude Code.", "Shifts from monitoring execution to checking dashboard settings"],
+    ["1038-1045", "I check my usage metrics and active sessions in the Claude dashboard.", "Shifts from dashboard to checking terminal responses"],
+    ["1046-1050", "I review Claude Code's response regarding activation schedules in the terminal.", "Switches to Visual Studio Code for evaluation"],
+    ["1051-1058", "I evaluate verb candidate scores in Visual Studio Code.", "Returns to monitoring Claude Code terminal"],
+    ["1059-1073", "I monitor Claude Code executing a credential search and bootstrapping.", "Switches back to Visual Studio Code to read analysis"],
+    ["1074-1077", "I read evaluation analysis text in Visual Studio Code.", "Returns to monitoring Claude Code terminal"],
+    ["1078-1082", "I monitor Claude Code searching for OAuth credentials in the terminal.", "Shifts to checking search results"],
+    ["1083-1084", "I inspect Google search results and the Claude Code terminal.", "Picks up smartphone, triggering a major context switch"],
+    ["1085-1089", "I launch the Xiaohongshu application on my smartphone.", "Begins browsing Xiaohongshu content"],
+    ["1090-1092", "I read a Xiaohongshu post about research skills.", "Switches to watching a conveyor belt video"],
+    ["1093-1095", "I watch a Xiaohongshu video of a conveyor belt.", "Switches to watching a car video"],
+    ["1096-1097", "I watch a Xiaohongshu video about the Audi Nuvolari.", "Returns to browsing the discovery feed"],
+    ["1098-1101", "I browse the Xiaohongshu discovery feed.", "Opens a specific video about the Irtysh River"],
+    ["1102-1104", "I watch an Irtysh River video on Xiaohongshu.", "Switches to viewing a basketball post"],
+    ["1105-1107", "I check a James Harden post on Xiaohongshu.", "Returns to scrolling the feed"],
+    ["1108-1109", "I scroll through the Xiaohongshu feed.", "Opens a post about PhD funding"],
+    ["1110-1115", "I read a Xiaohongshu post about UK PhD funding.", "Switches to reading about Claude Fable 5"],
+    ["1116-1117", "I read a Xiaohongshu post about Claude Fable 5.", "Switches to watching a football match video"],
+    ["1118-1133", "I watch highlights of the Italy vs Turkey football match on Xiaohongshu.", "Switches to watching a Neymar dribbling video"],
+    ["1134-1135", "I watch a Xiaohongshu video of Neymar dribbling.", "Switches to swiping through short videos"],
+    ["1136-1139", "I swipe through short videos on Xiaohongshu.", "Stops swiping to read a specific car design post"],
+    ["1140-1144", "I read comments on a car interior design post on Xiaohongshu.", "Switches to reading an interview post about football players"],
+    ["1145-1149", "I read a Xiaohongshu post about Mbappé comparing Messi and Ronaldo.", "Switches to viewing a recruitment post"],
+    ["1150-1152", "I view a research recruitment post on Xiaohongshu.", "Switches to watching a Messi World Cup video"],
+    ["1153-1166", "I watch a video of Lionel Messi's World Cup goals on Xiaohongshu.", "End of provided events"]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [12],
+    "boundary_cautions": [8]
+  }
+}
+```

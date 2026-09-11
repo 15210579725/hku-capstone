@@ -1,0 +1,109 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks based on shared, localized goals. Conversation topics form distinct tasks if they shift significantly. Physical navigation is grouped by segments (e.g., walking, elevator). App usage is grouped by specific continuous activities (e.g., shopping for an item, using a tool, reading a specific summary).",
+  "events": [
+    [
+      "250-271",
+      "I discuss meeting at Admiralty or Sheung Wan MTR stations on a video call.",
+      "Topic shifts from travel routes to packing clothes."
+    ],
+    [
+      "272-282",
+      "I discuss whether to bring clothes with a person on the video call.",
+      "Topic shifts to a smelly towel."
+    ],
+    [
+      "283-295",
+      "I discuss washing a smelly towel with a companion.",
+      "Topic shifts to a new conversation about health."
+    ],
+    [
+      "296-339",
+      "I converse on a video call about animal menstruation and menstrual syncing, then end the call.",
+      "Video call ends and I move to vending machines."
+    ],
+    [
+      "340-343",
+      "I walk to a vending machine and inspect the snacks.",
+      "Activity changes from inspecting snacks to walking home."
+    ],
+    [
+      "344-349",
+      "I walk to the building elevators while checking WeChat on my phone.",
+      "I begin taking the elevator."
+    ],
+    [
+      "350-363",
+      "I ride the elevator to the 15th floor while viewing messages and links on WeChat.",
+      "Elevator ride ends and I enter the apartment."
+    ],
+    [
+      "364-367",
+      "I enter my dark apartment and walk to the dining table.",
+      "I arrive at the table and focus on items there."
+    ],
+    [
+      "368-378",
+      "I examine a multitool and cardboard box on the dining table as the lights turn on.",
+      "I pick up my phone to shop online."
+    ],
+    [
+      "379-422",
+      "I browse an e-commerce app on my smartphone and select a hairband set for checkout.",
+      "Shopping task completes and I switch to setting up my laptop."
+    ],
+    [
+      "423-427",
+      "I take my MacBook out of my backpack and open it.",
+      "Laptop is set up and I begin using it."
+    ],
+    [
+      "428-430",
+      "I open Chrome on my MacBook and view a WeChat chat.",
+      "Application switches from WeChat to a YouTube video."
+    ],
+    [
+      "431-439",
+      "I watch an MIT lecture video on YouTube.",
+      "I switch to Claude to find a subtitle downloader."
+    ],
+    [
+      "440-444",
+      "I ask Claude to recommend tools for downloading YouTube subtitles.",
+      "I switch to using DownSub."
+    ],
+    [
+      "445-458",
+      "I use DownSub to download and open the English subtitles for the YouTube video.",
+      "Subtitles are downloaded and I return to Claude for a summary."
+    ],
+    [
+      "459-463",
+      "I prompt Claude to generate a detailed summary of the YouTube video.",
+      "Prompt is submitted and I start reading the response."
+    ],
+    [
+      "464-490",
+      "I read Claude's summary of the cognitive science lecture on bandit tasks and hybrid RNNs.",
+      "I finish reading the summary and type a follow-up question."
+    ],
+    [
+      "491-494",
+      "I type a follow-up question asking Claude to explain a specific concept from the summary.",
+      "I switch to reading separate notes on AlphaEvolve."
+    ],
+    [
+      "495-499",
+      "I read research notes on AlphaEvolve and LLM code generation.",
+      "End of input."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,41 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group continuous vlog viewing segments by their primary destination or topic, and isolate the major eating episode that interrupts the continuous viewing.",
+  "events": [
+    [
+      "0-12",
+      "I watch a travel vlog evaluating a luxury resort and diving experience.",
+      "Continuous viewing of a unified travel vlog about a resort and diving."
+    ],
+    [
+      "13-18",
+      "I watch a vlog exploring South Korean living costs.",
+      "Selects and begins watching a new video focusing on South Korea."
+    ],
+    [
+      "19-29",
+      "I eat my fried noodles and omelet.",
+      "Receiving food initiates a major eating phase that encompasses incidental video watching and meal discussions."
+    ],
+    [
+      "30-38",
+      "I watch a vlog exploring Hong Kong living costs and sightseeing.",
+      "Starts watching a distinct travel vlog focused on Hong Kong."
+    ],
+    [
+      "39-53",
+      "I watch a travel vlog exploring Saudi Arabia.",
+      "Starts a new travel vlog about Saudi Arabia that continues through the end of the recording."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      19
+    ],
+    "boundary_cautions": []
+  }
+}
+```

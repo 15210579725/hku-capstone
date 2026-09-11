@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L5",
+  "plan": "Maintain separate major activities since researching voice anonymization models and leaving the office for a water refill are independent and semantically distinct goals.",
+  "events": [
+    [
+      "0",
+      "I research and evaluate voice anonymization models and testing plans.",
+      "Distinct major research and evaluation activity."
+    ],
+    [
+      "1",
+      "I leave the office to refill my water bottle.",
+      "Distinct physical activity and location change."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

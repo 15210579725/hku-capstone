@@ -1,0 +1,94 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions sharing a single immediate goal. Boundaries are set when the primary activity changes, such as moving from dishwashing to trash disposal, switching computer usage to guitar practice, or changing focus between physical objects and the laptop.",
+  "events": [
+    [
+      "0-45",
+      "I wash the dirty kitchenware and the sink strainer.",
+      "Dishwashing concludes when my attention shifts to the sprouted sweet potatoes."
+    ],
+    [
+      "46-50",
+      "I discuss the sprouted sweet potatoes with my friend.",
+      "Topic of conversation concludes as I turn to wash my hands."
+    ],
+    [
+      "51-53",
+      "I wash my hands at the kitchen sink.",
+      "Hand washing finishes as my friend starts talking about the trash."
+    ],
+    [
+      "54-59",
+      "I converse with my friend about the bags of trash.",
+      "Conversation ends as I prepare to handle the trash bags."
+    ],
+    [
+      "60-78",
+      "I dispose of the bags of trash in the refuse room.",
+      "Trash disposal concludes as I encounter a woman unpacking a parcel in the hallway."
+    ],
+    [
+      "79-85",
+      "I help a woman unpack a parcel containing a shuttlecock.",
+      "Package inspection finishes as I walk into the bedroom."
+    ],
+    [
+      "86-90",
+      "I speak about getting older upon entering the bedroom.",
+      "Conversation ends as I sit at my desk."
+    ],
+    [
+      "91-99",
+      "I review a pixel-art simulation and an academic paper about ReMA architecture on my laptop.",
+      "Attention shifts from the laptop to the physical display items on the desk."
+    ],
+    [
+      "100-114",
+      "I examine a figurine showcase and a grey knitted beanie.",
+      "Examination ends as I redirect my attention back to the laptop."
+    ],
+    [
+      "115-140",
+      "I study the 'Attention Is All You Need' paper and a WeChat conversation on my laptop.",
+      "Computer use pauses as I turn to listen to User A."
+    ],
+    [
+      "141-145",
+      "I listen to User A's game suggestion.",
+      "Listening concludes as I decide to reach for my acoustic guitar."
+    ],
+    [
+      "146-223",
+      "I practice singing 'Love Yourself' with my acoustic guitar.",
+      "Guitar practice concludes when the instrument is packed away."
+    ],
+    [
+      "224-232",
+      "I observe my companion leaving the bed for the entrance.",
+      "Attention shifts to my roommate near the desk."
+    ],
+    [
+      "233-236",
+      "I adjust my roommate's shirt collar.",
+      "Interaction finishes as I pull out my chair to use the laptop."
+    ],
+    [
+      "237-242",
+      "I search for the song 'Love Yourself' on laptop music applications.",
+      "Computer task ends as I stand up from my desk."
+    ],
+    [
+      "243-249",
+      "I observe my roommate moving around the room.",
+      "End of provided input sequence."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

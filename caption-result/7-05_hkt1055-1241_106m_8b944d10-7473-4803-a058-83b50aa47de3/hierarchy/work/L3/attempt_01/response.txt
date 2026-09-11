@@ -1,0 +1,109 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group immediate L2 tasks into coherent activity episodes based on primary locations and unified goals, such as preparing to leave the apartment, troubleshooting phone network, commuting, setting up in the office, eating lunch, and touring various campus facilities.",
+  "events": [
+    [
+      "0-5",
+      "I prepare to leave my apartment.",
+      "Transition to attempting a scooter rental outside."
+    ],
+    [
+      "6-9",
+      "I troubleshoot my phone's network connectivity.",
+      "Returns indoors to receive a delivery."
+    ],
+    [
+      "10-11",
+      "I receive a delivery at my apartment.",
+      "Shifts to purchasing a mobile data package."
+    ],
+    [
+      "12-15",
+      "I purchase a mobile data package on my smartphone.",
+      "Shifts to preparing for the scooter commute."
+    ],
+    [
+      "16-19",
+      "I initiate my commute to the university.",
+      "Transition to riding the scooter."
+    ],
+    [
+      "20-27",
+      "I commute to the institute on an electric scooter.",
+      "Arrives at the campus and secures the scooter."
+    ],
+    [
+      "28-34",
+      "I navigate into the campus laboratory building.",
+      "Arrives at the office desk."
+    ],
+    [
+      "35-41",
+      "I set up my laptop and network connections in my office.",
+      "Completes setup and starts research tasks."
+    ],
+    [
+      "42-47",
+      "I review my research tasks and project notes.",
+      "Shifts focus to troubleshooting network issues."
+    ],
+    [
+      "48-57",
+      "I troubleshoot an SSH network connection issue.",
+      "Resolves network issue and returns to experiment tasks."
+    ],
+    [
+      "58-60",
+      "I prepare experiment prompts in VS Code.",
+      "Leaves the office for lunch."
+    ],
+    [
+      "61-63",
+      "I travel to the cafeteria with a companion.",
+      "Arrives at the cafeteria self-service counter."
+    ],
+    [
+      "64-67",
+      "I purchase a meal at the cafeteria self-service counter.",
+      "Sits down at a booth for lunch."
+    ],
+    [
+      "68-75",
+      "I converse with my colleagues over lunch.",
+      "Finishes lunch and exits the cafeteria."
+    ],
+    [
+      "76-80",
+      "I tour the campus outdoor pathways with my companions.",
+      "Approaches an office building for a tour."
+    ],
+    [
+      "81-90",
+      "I tour a robotics and administrative building with my companions.",
+      "Exits the robotics building."
+    ],
+    [
+      "91-96",
+      "I walk through a sports facility with my companion.",
+      "Exits the sports facility."
+    ],
+    [
+      "97-106",
+      "I inspect office workstations and a lounge with my companions.",
+      "Leaves the lounge area in the elevator."
+    ],
+    [
+      "107-113",
+      "I troubleshoot a standing desk in an office with my colleague.",
+      "End of recording."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

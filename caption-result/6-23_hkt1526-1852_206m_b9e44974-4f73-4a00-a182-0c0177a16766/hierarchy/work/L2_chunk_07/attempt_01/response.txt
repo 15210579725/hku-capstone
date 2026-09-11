@@ -1,0 +1,76 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks focused on a single target, such as reading a specific source, watching a distinct video, or performing a distinct step in food preparation. Avoid using conjunctions to list consecutive actions.",
+  "events": [
+    [
+      "1500-1542",
+      "I read academic documents on my MacBook.",
+      "Focus shifts to taking a drink."
+    ],
+    [
+      "1543-1553",
+      "I drink from my tea bottle.",
+      "Focus shifts to the mini fan."
+    ],
+    [
+      "1554-1558",
+      "I turn on a portable mini desk fan.",
+      "Focus shifts back to reading on the laptop."
+    ],
+    [
+      "1559-1579",
+      "I read a Claude AI response about motivation theories on my MacBook.",
+      "Focus shifts to watching a video."
+    ],
+    [
+      "1580-1596",
+      "I watch the RSA Animate 'Drive' video on YouTube.",
+      "Focus shifts to a different video."
+    ],
+    [
+      "1597-1636",
+      "I watch Dan Pink's TED Talk about motivation.",
+      "Focus shifts to a different video."
+    ],
+    [
+      "1637-1707",
+      "I watch an RSA Animate whiteboard video about human motivation.",
+      "Focus shifts back to the document editor."
+    ],
+    [
+      "1708-1712",
+      "I read the document text in my editor.",
+      "Major trigger: expressing hunger prompts leaving the workspace to get food."
+    ],
+    [
+      "1713-1723",
+      "I check the kitchen refrigerator for food after expressing hunger.",
+      "Shifts focus to searching the freezer."
+    ],
+    [
+      "1724-1735",
+      "I retrieve a package of spring onion pastry from the freezer.",
+      "Shifts focus to preparing the stove."
+    ],
+    [
+      "1736-1741",
+      "I prepare the gas stove for cooking.",
+      "Shifts focus to the food itself."
+    ],
+    [
+      "1742-1749",
+      "I place a flatbread into the frying pan to cook.",
+      "End of batch."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "1713-1714: Expressing extreme hunger triggers abandoning the laptop work to go cook food in the kitchen."
+    ],
+    "boundary_cautions": []
+  }
+}
+```

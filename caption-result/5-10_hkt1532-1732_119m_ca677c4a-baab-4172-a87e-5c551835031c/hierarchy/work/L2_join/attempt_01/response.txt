@@ -1,0 +1,18 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible boundary pairs for exact continuation of the same immediate L2 task. Merge only when a single continuous action is split by a batch edge, such as the playful interaction between 57 and 58. Do not merge sequential steps in a process (e.g., following to an exit then taking an escalator, or boarding a train then observing passengers) or distinct actions sharing a topic (e.g., searching an app then discussing its limitations).",
+  "merges": [
+    [
+      57,
+      58,
+      "I joke and interact playfully with my companion in the ferry cabin.",
+      "Playful social interaction continues directly across the batch boundary"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

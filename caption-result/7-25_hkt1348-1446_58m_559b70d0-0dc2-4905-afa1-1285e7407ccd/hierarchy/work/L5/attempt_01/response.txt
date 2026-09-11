@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L5",
+  "plan": "Abstract the pre-departure preparation, pickup drive, and transit into a single unified passenger transport activity. Keep the subsequent stationary setup of the vehicle's systems as a distinct major configuration activity.",
+  "events": [
+    [
+      "0-2",
+      "I transport a passenger to a destination parking lot in the Mercedes.",
+      "Arrival at the destination parking lot concludes the transit phase."
+    ],
+    [
+      "3",
+      "I configure the digital systems and interior controls of the parked Mercedes with the passenger.",
+      "End of provided evidence."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

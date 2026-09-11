@@ -1,0 +1,92 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous sequences of brief actions into immediate tasks defined by clear physical goals (e.g., washing clothes, checking the utility panel), distinct digital interactions (e.g., mobile banking, browsing videos), and continuous segments of transit.",
+  "events": [
+    [
+      "0-5",
+      "I retrieve a pair of white socks from the floor.",
+      "Socks located and picked up"
+    ],
+    [
+      "6-28",
+      "I wash a cloth, a towel, and a sock in the bathroom sink.",
+      "Washing sequence completed"
+    ],
+    [
+      "29-33",
+      "I hang a damp sock on the drying rack in the bedroom.",
+      "Drying task completed"
+    ],
+    [
+      "34-45",
+      "I drink a glass of water in the living room.",
+      "Hydration and conversation concluded upon initiating departure"
+    ],
+    [
+      "46-52",
+      "I walk out of the apartment to wait for the elevator.",
+      "Arrived in the elevator lobby"
+    ],
+    [
+      "53-65",
+      "I close an open utility panel in the elevator lobby.",
+      "Inspection and closure completed"
+    ],
+    [
+      "66-81",
+      "I ride the elevator down to the ground floor.",
+      "Exited the elevator on the ground floor"
+    ],
+    [
+      "82-96",
+      "I walk along the outdoor colonnade with my companion.",
+      "Initiated a dedicated mobile banking task"
+    ],
+    [
+      "97-108",
+      "I check my balance in the Bank of China app on my smartphone.",
+      "Mobile banking task completed"
+    ],
+    [
+      "109-173",
+      "I discuss personal expenses with my companion during a walk through the outdoor residential complex.",
+      "Entered an indoor building lobby"
+    ],
+    [
+      "174-202",
+      "I travel down through the building lobby via escalators.",
+      "Exited the building lobby"
+    ],
+    [
+      "203-206",
+      "I approach the train station concourse via the covered sidewalk.",
+      "Arrived at the station concourse"
+    ],
+    [
+      "207-217",
+      "I pass through the fare gate into the paid area of the station.",
+      "Entered the paid station area"
+    ],
+    [
+      "218-227",
+      "I walk along the train platform to wait near the screen doors.",
+      "Reached waiting position on the platform"
+    ],
+    [
+      "228-249",
+      "I browse my smartphone during the wait on the train platform.",
+      "End of provided input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": [
+      "97-108 extracts the mobile banking interaction as a distinct immediate task, even though it occurs concurrently with walking.",
+      "109-173 groups a lengthy continuous outdoor walk into a single transit task, as the transit objective and conversational theme remain unbroken."
+    ]
+  }
+}
+```

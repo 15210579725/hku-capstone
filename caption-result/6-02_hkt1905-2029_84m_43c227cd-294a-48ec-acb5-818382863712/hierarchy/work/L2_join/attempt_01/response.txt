@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible boundary pairs to determine if they split a single continuous immediate task. Pair 20/21 involves a transition from reading a report to drafting a prompt, which are related but distinct immediate tasks, so they remain separate. Pair 36/37 continues the exact same task of reading Claude's explanations of the ELF paper and flow matching. Pair 59/60 captures a single continuous physical maneuver of moving to a new seat specifically to plug the laptop into a charger.",
+  "merges": [
+    [
+      36,
+      37,
+      "I read Claude's explanation of the ELF paper and flow matching concepts.",
+      "Continuous reading of Claude's analysis of the same paper across the batch edge"
+    ],
+    [
+      59,
+      60,
+      "I relocate to a new seat and plug my laptop into a charger.",
+      "Moving to a charging spot and plugging in the laptop constitute a single immediate task"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

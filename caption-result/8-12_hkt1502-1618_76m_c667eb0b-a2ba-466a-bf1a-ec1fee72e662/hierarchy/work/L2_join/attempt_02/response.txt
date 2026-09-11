@@ -1,0 +1,30 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate the provided eligible boundary pairs to determine if the same immediate task continues across the transport batch edge. Pairs sharing the exact same goal, tool, and target are merged into unified tasks.",
+  "merges": [
+    [
+      12,
+      13,
+      "I process my AutoDL invoices and submit tax identification details.",
+      "Invoice processing and issuance task continues across batch edge"
+    ],
+    [
+      26,
+      27,
+      "I research AutoDL sub-account permissions and file deletion prevention using Claude Code.",
+      "Claude Code research on sub-account permissions continues across batch edge"
+    ],
+    [
+      48,
+      49,
+      "I use Claude Code to implement and monitor safe_rm and safe_mv wrapper scripts.",
+      "Claude Code script implementation and monitoring continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

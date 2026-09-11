@@ -1,0 +1,124 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous sequences of brief actions into immediate tasks based on singular objectives, such as entering the cabin, styling hair, reading on a laptop, walking to a destination, gathering specific items from a buffet, and consuming distinct meal components.",
+  "events": [
+    [
+      "0-2",
+      "I enter the cabin.",
+      "Entered the cabin"
+    ],
+    [
+      "3-18",
+      "I style my hair in the bathroom.",
+      "Finished hair styling task"
+    ],
+    [
+      "19-30",
+      "I inspect a power bank and charging adapter in the living room.",
+      "Finished examining the charger"
+    ],
+    [
+      "31-33",
+      "I read files on my laptop.",
+      "Interrupted to retrieve a phone"
+    ],
+    [
+      "34-39",
+      "I retrieve my phone from the loft bedroom.",
+      "Retrieved the phone"
+    ],
+    [
+      "40-47",
+      "I discuss how to keep my package dry.",
+      "Conversation concluded"
+    ],
+    [
+      "48-65",
+      "I read articles and browse images on my laptop.",
+      "Stopped laptop use to prepare to leave"
+    ],
+    [
+      "66-71",
+      "I step outside the cabin.",
+      "Turned back inside"
+    ],
+    [
+      "72-79",
+      "I return inside to pack my backpack.",
+      "Task transition to applying insect repellent"
+    ],
+    [
+      "80-89",
+      "I apply mosquito repellent to my arms and legs.",
+      "Finished applying repellent"
+    ],
+    [
+      "90-109",
+      "I walk to the restaurant.",
+      "Arrived at the dining hall"
+    ],
+    [
+      "110-142",
+      "I gather breakfast food from the buffet.",
+      "Sat down at the dining table"
+    ],
+    [
+      "143-161",
+      "I fetch soy milk and chopsticks from the buffet.",
+      "Returned to the dining table"
+    ],
+    [
+      "162-174",
+      "I taste and discuss the breakfast dishes with my companion.",
+      "Shifted to preparing a boiled egg"
+    ],
+    [
+      "175-187",
+      "I peel a hard-boiled egg.",
+      "Finished peeling the egg"
+    ],
+    [
+      "188-196",
+      "I eat a dim sum pastry.",
+      "Switched to a different food item"
+    ],
+    [
+      "197-202",
+      "I eat a mixture of pickled vegetables and boiled egg.",
+      "Paused eating for conversation"
+    ],
+    [
+      "203-217",
+      "I converse with my companion about food preferences.",
+      "Resumed eating"
+    ],
+    [
+      "218-230",
+      "I eat my noodle soup.",
+      "Shifted to preparing another egg"
+    ],
+    [
+      "231-244",
+      "I peel another hard-boiled egg while conversing.",
+      "Finished peeling the egg and decided to get more food"
+    ],
+    [
+      "245-249",
+      "I fetch more dim sum from the buffet.",
+      "End of provided sequence"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      [
+        67,
+        "Saying 'Let's go' triggers the process of packing and leaving the cabin."
+      ]
+    ],
+    "boundary_cautions": []
+  }
+}
+```

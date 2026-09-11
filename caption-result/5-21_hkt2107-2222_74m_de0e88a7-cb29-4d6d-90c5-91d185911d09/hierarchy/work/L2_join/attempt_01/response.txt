@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Review eligible boundary pairs to merge only when the exact same immediate task continues across the batch edge. Merge [20, 21] because continuous walking along the promenade is a single ongoing task. Reject [56, 57] because observing the tram interior and browsing a phone app are distinct actions. Merge [74, 75] because preparing and inserting a new trash bag into the bucket constitutes one continuous bag replacement task.",
+  "merges": [
+    [
+      20,
+      21,
+      "I walk along the waterfront promenade.",
+      "Continuous walking task along the same path continues across batch edge"
+    ],
+    [
+      74,
+      75,
+      "I line the kitchen bucket with a new trash bag.",
+      "Continuous trash bag replacement task continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

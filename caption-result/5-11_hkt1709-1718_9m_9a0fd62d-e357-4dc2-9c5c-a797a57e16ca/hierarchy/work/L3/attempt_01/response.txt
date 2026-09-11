@@ -1,0 +1,34 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group indoor tasks into pre-departure preparation, lobby and courtyard transit into building egress, and separate the outdoor travel by distinct infrastructure (street-level sidewalks versus the elevated footbridge).",
+  "events": [
+    [
+      "0-4",
+      "I prepare to leave my apartment.",
+      "Transition from apartment tasks to leaving the building"
+    ],
+    [
+      "5-7",
+      "I exit my apartment building.",
+      "Transition from building egress to public street walking"
+    ],
+    [
+      "8-10",
+      "I walk along the neighborhood sidewalks.",
+      "Transition from street-level sidewalks to ascending the footbridge"
+    ],
+    [
+      "11-12",
+      "I traverse the footbridge.",
+      "End of recording"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

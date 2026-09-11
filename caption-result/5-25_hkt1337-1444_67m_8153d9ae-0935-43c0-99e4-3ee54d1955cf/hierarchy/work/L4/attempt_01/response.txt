@@ -1,0 +1,39 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group coherent episodes into broader phases: administrative task at home, transit to campus, library workspace setup, a continuous core work block focused on an architectural diagram project, and departure.",
+  "events": [
+    [
+      "0",
+      "I review a paper receipt at the dining table.",
+      "Distinct pre-departure task at home"
+    ],
+    [
+      "1",
+      "I travel from my apartment to the university campus.",
+      "Transit phase"
+    ],
+    [
+      "2-3",
+      "I prepare my study carrel workspace at the Main Library.",
+      "Workspace setup and settling in"
+    ],
+    [
+      "4-9",
+      "I iteratively develop an SVG architectural diagram using AI agents and design tools.",
+      "Contiguous work phase dedicated to a single architectural diagram project"
+    ],
+    [
+      "10",
+      "I depart from the library with my belongings.",
+      "Conclusion of the library session"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

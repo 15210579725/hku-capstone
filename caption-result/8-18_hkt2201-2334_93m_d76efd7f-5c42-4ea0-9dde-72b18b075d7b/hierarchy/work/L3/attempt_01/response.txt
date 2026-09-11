@@ -1,0 +1,64 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group continuous reading sessions into coherent episodes based on subject matter and source, bridging brief interruptions like terminal diagnostics checks.",
+  "events": [
+    [
+      "0-4",
+      "I read Richard Hamming's advice on scientific research.",
+      "Reading Hamming's essay and advice forms a single research episode."
+    ],
+    [
+      "5-13",
+      "I read chapters of 《最初的爱，最后的故事》 on WeChat Read.",
+      "Reading consecutive chapters of the same book forms a single reading episode."
+    ],
+    [
+      "14-16,18",
+      "I read texts about scientific research frameworks including the 'Cargo Cult Science' essay.",
+      "Reading about research integrity continues across a brief terminal check."
+    ],
+    [
+      "17",
+      "I review an AutoDL diagnostic report in a terminal.",
+      "Distinct task of checking terminal diagnostics."
+    ],
+    [
+      "19-24",
+      "I read Terence Tao's career advice on research methodologies.",
+      "Reading Tao's blogs and related AI summaries forms a single episode."
+    ],
+    [
+      "25-26",
+      "I explore AI papers concerning latent action models.",
+      "Browsing X and reading about specific AI papers forms a single episode."
+    ],
+    [
+      "27-32",
+      "I research PhD survival guides including 'The Ph.D. Grind'.",
+      "Searching for, downloading, and reading PhD survival guides forms a single episode."
+    ],
+    [
+      "33",
+      "I review an AutoDL task monitoring table in a terminal.",
+      "Distinct task of checking task metrics in a terminal."
+    ],
+    [
+      "34-37,39-43",
+      "I read a research assistant guide.",
+      "Reading the guide continues across a brief terminal check."
+    ],
+    [
+      "38",
+      "I review AutoDL task metrics in a terminal.",
+      "Distinct task of checking terminal metrics."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

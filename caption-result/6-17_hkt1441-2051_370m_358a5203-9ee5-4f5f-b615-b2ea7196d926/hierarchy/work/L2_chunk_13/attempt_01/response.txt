@@ -1,0 +1,69 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group atomic observations into distinct immediate tasks, abstracting incidental actions like checking phones, singing, waiting, and repositioning. The sequence follows exiting transit, street navigation, visitor registration at a main gate, estate traversal, building entry, and settling into the apartment.",
+  "events": [
+    [
+      "3000-3008",
+      "I exit the MTR station through the turnstiles.",
+      "Passing the ticket gates completes the station exit task."
+    ],
+    [
+      "3009-3017",
+      "I message babe on WeChat to report my arrival.",
+      "Finishing the messages concludes the phone communication."
+    ],
+    [
+      "3018-3027",
+      "I take the footbridge elevator to street level.",
+      "Exiting the elevator completes the descent."
+    ],
+    [
+      "3028-3044",
+      "I walk along the street to a residential complex.",
+      "Arriving at the building lobby shifts the goal to visitor registration."
+    ],
+    [
+      "3045-3075",
+      "I register as a visitor at the complex security desk.",
+      "Receiving the registration slip concludes the check-in process."
+    ],
+    [
+      "3076-3099",
+      "I take the escalators to exit the main security lobby.",
+      "Stepping off the upper escalator completes the departure from the lobby."
+    ],
+    [
+      "3100-3189",
+      "I walk through the residential estate to my destination building.",
+      "Entering the destination building lobby concludes the estate navigation."
+    ],
+    [
+      "3190-3205",
+      "I take the building elevator to the 35th floor while browsing WeChat.",
+      "Reaching the 35th floor completes the vertical ascent."
+    ],
+    [
+      "3206-3214",
+      "I enter my apartment bedroom.",
+      "Entering the bedroom shifts focus to settling in."
+    ],
+    [
+      "3215-3225",
+      "I unpack my MacBook in my bedroom.",
+      "Unpacking the laptop completes the immediate setup task."
+    ],
+    [
+      "3226-3249",
+      "I watch a Korean drama video with my roommate.",
+      "Video watching continues to the end of the batch."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

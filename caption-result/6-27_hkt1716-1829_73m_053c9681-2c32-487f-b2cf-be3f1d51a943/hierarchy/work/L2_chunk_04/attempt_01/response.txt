@@ -1,0 +1,29 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group atomic actions into immediate tasks: refilling the water dispenser, dispensing water into a bottle, and a concluding brief observation.",
+  "events": [
+    [
+      "750-752",
+      "I refill the water dispenser.",
+      "Water tank installation is complete"
+    ],
+    [
+      "753-755",
+      "I fill a glass bottle with water from the dispenser.",
+      "Water dispensing is complete"
+    ],
+    [
+      "756",
+      "I look at the room interior.",
+      "End of recording"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

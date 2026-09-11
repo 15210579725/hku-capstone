@@ -1,0 +1,134 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group atomic actions into immediate, unified tasks based on continuous tool use, application switching, and distinct interruptions.",
+  "events": [
+    [
+      "0-7",
+      "I review the DSF evaluation document on my laptop.",
+      "Shifts attention to smartphone"
+    ],
+    [
+      "8-19",
+      "I search for 'meditation' in the web browser on my smartphone.",
+      "Search completes, shifts to laptop work"
+    ],
+    [
+      "20-27",
+      "I inspect dataset evaluation logs on my laptop.",
+      "Shifts to file management in Finder"
+    ],
+    [
+      "28-36",
+      "I compress the 'ds-flash-version' folder using Finder.",
+      "File compressed, shifts to ChatGPT"
+    ],
+    [
+      "37-48",
+      "I draft a dataset analysis prompt in ChatGPT.",
+      "Interrupted by phone notification"
+    ],
+    [
+      "49-51",
+      "I check a meeting rescheduling notification on my smartphone.",
+      "Returns to drafting prompt"
+    ],
+    [
+      "52-60",
+      "I submit my completed dataset analysis prompt to ChatGPT.",
+      "Prompt submitted, takes a break"
+    ],
+    [
+      "61-63",
+      "I lean back to rest in my chair.",
+      "Shifts to setting a timer"
+    ],
+    [
+      "64-74",
+      "I start a 13-minute timer on my smartphone.",
+      "Timer set, begins waiting"
+    ],
+    [
+      "75-111",
+      "I wait idly at my desk.",
+      "Waiting ends due to colleague conversation"
+    ],
+    [
+      "112-120",
+      "I locate SSH commands in Apple Notes.",
+      "Shifts to terminal configuration"
+    ],
+    [
+      "121-134",
+      "I configure the remote server via SSH terminal.",
+      "Configuration done, checks metrics"
+    ],
+    [
+      "135-141",
+      "I review the Claude Code metrics summary.",
+      "Shifts to verifying keys in terminal"
+    ],
+    [
+      "142-153",
+      "I verify the server authorized keys via SSH terminal.",
+      "Verification ends, checks WeChat"
+    ],
+    [
+      "154-165",
+      "I respond to a meeting reschedule request on WeChat.",
+      "WeChat handled, shifts to resting"
+    ],
+    [
+      "166-176",
+      "I sit resting at my desk.",
+      "Resting ends, resumes reading evaluation"
+    ],
+    [
+      "177-184",
+      "I read the ChatGPT dataset evaluation conclusion.",
+      "Interrupted by colleague discussing server"
+    ],
+    [
+      "185-193",
+      "I discuss the server SSH key backup file with my colleague.",
+      "Discussion ends, resumes reading tables"
+    ],
+    [
+      "194-207",
+      "I analyze the DSF dataset evaluation tables in ChatGPT.",
+      "Temporal gap in reading activity"
+    ],
+    [
+      "208-214",
+      "I inspect the dataset error priority table in ChatGPT.",
+      "Shifts to inspecting code logs"
+    ],
+    [
+      "215-225",
+      "I inspect event logs in VS Code.",
+      "Shifts to reviewing priority report"
+    ],
+    [
+      "226-235",
+      "I review the priority summary report in ChatGPT.",
+      "Shifts to monitoring terminal"
+    ],
+    [
+      "236-239",
+      "I monitor the missing chunk script in the terminal.",
+      "Shifts to preparing new prompt"
+    ],
+    [
+      "240-249",
+      "I prepare a ChatGPT prompt with a dataset zip file.",
+      "End of input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

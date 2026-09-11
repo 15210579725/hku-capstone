@@ -1,0 +1,31 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group the workspace preparation and PhD inquiry email tasks into a single academic computer work phase. Keep the lunch plan coordination message as a standalone major trigger. Group all travel, purchasing, and eating activities related to the cafeteria visit into a single lunch break phase.",
+  "events": [
+    [
+      "0-15",
+      "I research academic profiles to schedule PhD inquiry emails to multiple prospective supervisors.",
+      "Shifts from academic computer work to lunch coordination"
+    ],
+    [
+      "16",
+      "I reply to a WeChat group message about lunch plans, leaving my workspace.",
+      "Major trigger initiating the lunch break"
+    ],
+    [
+      "17-22",
+      "I take my lunch break at the cafeteria, returning to the 9th floor with a purchased steamed bun.",
+      "End of lunch break and return to workspace"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      16
+    ],
+    "boundary_cautions": []
+  }
+}
+```

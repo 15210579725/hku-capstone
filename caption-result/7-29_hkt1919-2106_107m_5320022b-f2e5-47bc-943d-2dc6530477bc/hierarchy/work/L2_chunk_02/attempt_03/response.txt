@@ -1,0 +1,99 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group consecutive L1 actions into immediate tasks focused on unified computer usage (prompting, reviewing files, writing recaps), walking between physical locations, and distinct conversational breaks.",
+  "events": [
+    [
+      "250-261",
+      "I review parallel action merge examples and data masking specifications using Claude CLI.",
+      "Finishes Claude CLI review and switches to Finder."
+    ],
+    [
+      "262-267",
+      "I browse the 'A4_LUCIA' dataset folder in Finder and read a Feishu document.",
+      "Finishes browsing dataset files and opens ChatGPT."
+    ],
+    [
+      "268-276",
+      "I prompt ChatGPT regarding point-of-view data de-identification and cleaning.",
+      "Departs desk to walk down the hallway."
+    ],
+    [
+      "277-281",
+      "I walk down the hallway to workstation 13 while reading a ChatGPT response.",
+      "Arrives at workstation 13."
+    ],
+    [
+      "282-294",
+      "I untangle my power cables and briefly sit down at workstation 13.",
+      "Departs workstation 13 to move again."
+    ],
+    [
+      "295-312",
+      "I walk through the office corridors to the open lounge area.",
+      "Arrives at the open lounge area and sits down."
+    ],
+    [
+      "313-346",
+      "I draft and submit a ChatGPT prompt for rewriting multi-action sequences, checking Claude CLI for rewrite examples.",
+      "Submits prompt and switches to Terminal."
+    ],
+    [
+      "347-375",
+      "I launch Claude Code and draft a prompt to synthesize dataset descriptions based on captions, while conversing with a colleague.",
+      "Finishes drafting Claude Code prompt and switches to POV Rollout Viewer."
+    ],
+    [
+      "376-387",
+      "I review task branches and type my daily activity recap in the POV Rollout Viewer.",
+      "Completes daily recap and switches to ChatGPT."
+    ],
+    [
+      "388-397",
+      "I return to ChatGPT and type a follow-up prompt to prevent the use of Python for semantic matching.",
+      "Submits follow-up instruction and reviews outputs."
+    ],
+    [
+      "398-417",
+      "I review the action simplification table, data cleaning examples, and review guidelines provided by ChatGPT.",
+      "Pauses reading to converse about the robotics economy."
+    ],
+    [
+      "418-436",
+      "I lean back in my armchair and converse with a colleague about the robotics economy and AI users.",
+      "Returns to the screen to review and prompt ChatGPT."
+    ],
+    [
+      "437-441",
+      "I review the action rewriting checklist and prompt ChatGPT to minimize content changes.",
+      "Finishes prompting and converses about model learning targets."
+    ],
+    [
+      "442-451",
+      "I discuss model learning outcomes with my colleague while adjusting my laptop connections.",
+      "Resumes examining ChatGPT data cleaning rules."
+    ],
+    [
+      "452-470",
+      "I examine the ChatGPT data cleaning rules and discuss task requirements with a colleague.",
+      "Switches to Visual Studio Code to review video subtitles."
+    ],
+    [
+      "471-493",
+      "I review video subtitle annotations in Visual Studio Code while discussing multi-step processing workflows with my colleague.",
+      "Switches back to ChatGPT to start a new prompt."
+    ],
+    [
+      "494-499",
+      "I return to ChatGPT and begin typing a new prompt while conversing.",
+      "End of batch."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

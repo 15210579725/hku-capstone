@@ -1,0 +1,149 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate first-person tasks based on driving maneuvers, navigation adherence, conversational topics, and device interactions.",
+  "events": [
+    [
+      "250-265",
+      "I drive straight along the road, monitoring traffic and adjusting center console controls.",
+      "Goal shifts from driving straight to navigating an intersection."
+    ],
+    [
+      "266-274",
+      "I stop at the intersection and execute a left turn under the overpass.",
+      "Goal shifts from turning at intersection to driving straight."
+    ],
+    [
+      "275-279",
+      "I drive straight under the overpass and along the sunlit road.",
+      "Goal shifts from driving straight to making a right turn."
+    ],
+    [
+      "280-286",
+      "I decelerate and complete a right turn at the crosswalk.",
+      "Goal shifts from right turn to accelerating and checking vehicle features."
+    ],
+    [
+      "287-299",
+      "I drive forward, brake smoothly, and check the instrument cluster while discussing the Auto Hold function and drive mode graphics.",
+      "Goal shifts from driving and checking instruments to checking phone navigation."
+    ],
+    [
+      "300-302",
+      "I check my phone navigation and accelerate.",
+      "Goal shifts from checking navigation to executing a right turn."
+    ],
+    [
+      "303-311",
+      "I follow navigation instructions, steering into a right turn and along a road curve.",
+      "Goal shifts from right turn to driving straight."
+    ],
+    [
+      "312-318",
+      "I drive straight and monitor the dashboard and road ahead.",
+      "Goal shifts from driving straight to picking up phone."
+    ],
+    [
+      "319-325",
+      "I use my smartphone to send a voice message and share my real-time location via WeChat.",
+      "Goal shifts from sharing location to complaining about surrounding traffic."
+    ],
+    [
+      "326-334",
+      "I complain about a nearby modified car and adjust the sunroof and overhead console.",
+      "Goal shifts from adjusting interior to a phone call coordinating arrival."
+    ],
+    [
+      "335-341",
+      "I use my phone to coordinate my arrival with a contact waiting outside.",
+      "Goal shifts from phone coordination to driving through an intersection."
+    ],
+    [
+      "342-359",
+      "I drive straight ahead through an intersection, complain about sticky pants, and adjust the air conditioning.",
+      "Goal shifts from driving to listening to destination arrival announcement."
+    ],
+    [
+      "360-362",
+      "I listen to the navigation announce my arrival at the destination.",
+      "Goal shifts from arriving at destination to driving forward with the passenger."
+    ],
+    [
+      "363-370",
+      "I drive forward and converse with the passenger about clothing.",
+      "Goal shifts from discussing clothing to tracking a stopping car and adjusting AC."
+    ],
+    [
+      "371-375",
+      "I track the car ahead to a stop, listen to the passenger's request to charge their phone, and adjust the AC.",
+      "Goal shifts from stopping in traffic to driving through an intersection."
+    ],
+    [
+      "376-383",
+      "I drive through the intersection and instruct the passenger on how to hang an object.",
+      "Goal shifts from driving to stopping the car for phone charging."
+    ],
+    [
+      "384-391",
+      "I stop the car and discuss phone charging options with the passenger.",
+      "Goal shifts from discussing charger to checking map and preparing to depart."
+    ],
+    [
+      "392-401",
+      "I check the map search history, complain about the heat with the passenger, and prepare to depart.",
+      "Goal shifts from preparing to depart to accelerating and driving along the avenue."
+    ],
+    [
+      "402-411",
+      "I accelerate along the avenue and discuss a modified Mercedes Benz with the passenger.",
+      "Goal shifts from driving straight to navigating into a side road."
+    ],
+    [
+      "412-427",
+      "I follow navigation into a side road and confirm the lack of air conditioning to the passenger.",
+      "Goal shifts from navigating side road to driving under an overpass in traffic."
+    ],
+    [
+      "428-441",
+      "I drive under an overpass and decelerate in traffic while the passenger complains about their phone charger failing.",
+      "Goal shifts from listening to charger complaints to accelerating and discussing location."
+    ],
+    [
+      "442-451",
+      "I accelerate in traffic and converse with the passenger about our surroundings and location.",
+      "Goal shifts from discussing location to driving through an intersection while holding hands."
+    ],
+    [
+      "452-464",
+      "I hold the passenger's hand and drive through an intersection according to navigation prompts.",
+      "Goal shifts from driving through intersection to decelerating and suggesting a driver swap."
+    ],
+    [
+      "465-472",
+      "I decelerate the car and suggest the passenger drive later.",
+      "Goal shifts from decelerating to stopping the car to adjust passenger seat."
+    ],
+    [
+      "473-480",
+      "I stop the car and instruct the passenger to adjust their seat.",
+      "Goal shifts from seat adjustment to instructing the passenger on USB and music."
+    ],
+    [
+      "481-494",
+      "I instruct the passenger on locating the USB port and connecting Bluetooth to play music.",
+      "Goal shifts from discussing music setup to accelerating onto the expressway."
+    ],
+    [
+      "495-499",
+      "I accelerate behind a truck and merge onto the expressway.",
+      "End of supplied sequence."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,118 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group sequential actions into immediate L2 tasks based on shared overarching goals and primary targets. Identify clear boundaries when I switch focus between browsing the menu, ordering food, interacting with the cat, handling personal items, and consuming different courses of the meal. Incidental conversation and brief looks are absorbed into the ongoing primary physical task.",
+  "events": [
+    [
+      "250-254",
+      "I discuss memorizing locations and numbers with my companion.",
+      "Shift to browsing the menu."
+    ],
+    [
+      "255-277",
+      "I browse the restaurant menu to select meals.",
+      "The waitress arrives to take our order."
+    ],
+    [
+      "278-290",
+      "I order food from the waitress.",
+      "The ordering interaction concludes."
+    ],
+    [
+      "291-295",
+      "I check notifications on my iPhone.",
+      "I stand up to approach the cashier counter."
+    ],
+    [
+      "296-304",
+      "I approach the cashier counter to look at a ginger cat.",
+      "I begin physically interacting with the cat."
+    ],
+    [
+      "305-314",
+      "I pet the ginger cat resting at the cashier counter.",
+      "The staff offers to let me carry the cat."
+    ],
+    [
+      "315-329",
+      "I carry the ginger cat to our dining table.",
+      "The meal service begins."
+    ],
+    [
+      "330-332",
+      "I examine the soup and iced milk tea served by the waitress.",
+      "I shift attention to my ID card holder."
+    ],
+    [
+      "333-338",
+      "I store my ID card holder inside my handbag.",
+      "The cat begins playing with a lanyard."
+    ],
+    [
+      "339-359",
+      "I watch the cat play with an ID card and a lanyard.",
+      "I briefly return to my soup."
+    ],
+    [
+      "360-362",
+      "I scoop ingredients from my soup bowl.",
+      "I resume teasing the cat."
+    ],
+    [
+      "363-368",
+      "I tease the kitten using a yellow cartoon pouch.",
+      "The activity shifts to a conversation about the cat."
+    ],
+    [
+      "369-378",
+      "I converse with my companion about the cat and social media.",
+      "I reach under the table for a cardholder."
+    ],
+    [
+      "379-381",
+      "I retrieve an orange cardholder from under the table.",
+      "I look at my companion's smartphone."
+    ],
+    [
+      "382-387",
+      "I view a Xiaohongshu post on my companion's smartphone.",
+      "Focus returns to teasing the cat."
+    ],
+    [
+      "388-396",
+      "I tease the kitten using a toy card.",
+      "I search my bag for a different toy."
+    ],
+    [
+      "397-423",
+      "I tease the cat using my wired earphones.",
+      "The waitress removes the cat."
+    ],
+    [
+      "424-448",
+      "I consume my corn soup and iced milk tea.",
+      "The waitress delivers the stir-fried noodles."
+    ],
+    [
+      "449-477",
+      "I eat the stir-fried noodles.",
+      "The waitress delivers the rice and beef dish."
+    ],
+    [
+      "478-499",
+      "I eat the rice and beef dish.",
+      "End of input batch."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "The waitress capturing the escaped cat at 419 forces the end of the playtime and prompts me to return to my meal."
+    ],
+    "boundary_cautions": [
+      "Kept distinct courses of the meal (soup, noodles, rice/beef) as separate L2 tasks, aligning with the progressive abstraction requirement where broader 'eating a meal' episodes belong in L3."
+    ]
+  }
+}
+```

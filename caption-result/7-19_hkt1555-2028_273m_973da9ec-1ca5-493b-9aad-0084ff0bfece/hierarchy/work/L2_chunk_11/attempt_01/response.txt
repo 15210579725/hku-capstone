@@ -1,0 +1,69 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks: studying policy gradient, handling a delivery call, transiting to and from the pickup location, dropping off the laptop, unpacking the food, and eating while discussing AI models.",
+  "events": [
+    [
+      "0-75",
+      "I study policy gradient derivations using Apple Notes and ChatGPT.",
+      "Phone call interrupts study"
+    ],
+    [
+      "76-80",
+      "I answer a phone call confirming a delivery location at Building 4.",
+      "Call ends"
+    ],
+    [
+      "81-84",
+      "I pack up my laptop to leave.",
+      "Starts walking"
+    ],
+    [
+      "85-94",
+      "I walk down to the ground floor lobby.",
+      "Leaves building"
+    ],
+    [
+      "95-131",
+      "I walk across the campus to Building 4.",
+      "Enters building lobby"
+    ],
+    [
+      "132-136",
+      "I retrieve my KFC delivery from the storage rack.",
+      "Proceeds to elevator"
+    ],
+    [
+      "137-147",
+      "I ride the elevator to the 9th floor.",
+      "Arrives on floor"
+    ],
+    [
+      "148-152",
+      "I drop off my laptop at my desk in room C909.",
+      "Heads to lounge"
+    ],
+    [
+      "153-161",
+      "I carry my food to the lounge area.",
+      "Starts unpacking"
+    ],
+    [
+      "162-188",
+      "I unpack my KFC takeout meal.",
+      "Starts eating and discussion"
+    ],
+    [
+      "189-249",
+      "I discuss video prediction models with colleagues over a KFC meal.",
+      "End of sequence"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,44 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous, related workstation interactions into immediate tasks such as prompt drafting, log review, performance monitoring, and instance configuration changes.",
+  "events": [
+    [
+      "750-777",
+      "I draft and submit a ChatGPT prompt about analyzing GPU utilization and accelerating data processing.",
+      "Completes drafting and submitting the prompt"
+    ],
+    [
+      "778-795",
+      "I review Claude Code storage purge logs and instruct a sub-agent in the terminal to audit the deletions.",
+      "Switches to reading the generated ChatGPT response"
+    ],
+    [
+      "796-801",
+      "I read the ChatGPT response regarding GPU optimization and computation breakdown.",
+      "Finishes reading the response and switches to the AutoDL console"
+    ],
+    [
+      "802-829",
+      "I monitor hardware performance metrics and container statuses on the AutoDL console and AutoPanel.",
+      "Switches back to reviewing task reports in ChatGPT and Claude Code"
+    ],
+    [
+      "830-837",
+      "I review task execution reports and audit verification checks across ChatGPT and Claude Code.",
+      "Switches to configuring system disks on the AutoDL console"
+    ],
+    [
+      "838-856",
+      "I navigate the AutoDL console to expand the system disks of my container instances, addressing errors for running instances.",
+      "End of provided sequence"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

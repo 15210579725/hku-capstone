@@ -1,24 +1,3 @@
 ```json
-{
-  "target_level": "L2_JOIN",
-  "plan": "Evaluate eligible pairs to merge those that continue the exact same immediate task. Merging [75, 76] (watching pigeons/promenade) and [158, 159] (reading AI image articles) as they are continuous actions. Others represent distinct steps (e.g., walking vs. preparing to work, elevator vs. navigating market) and will not be merged.",
-  "merges": [
-    [
-      75,
-      76,
-      "I observe pigeons and passersby from a bench at the waterfront promenade.",
-      "Observation of pigeons and pedestrians continues across batch edge"
-    ],
-    [
-      158,
-      159,
-      "I read articles about AI image models and research teams on my smartphone.",
-      "Reading articles about AI image models continues across batch edge"
-    ]
-  ],
-  "audit": {
-    "complete": true,
-    "uncertainties": []
-  }
-}
+{"target_level":"L2_JOIN","plan":"Evaluate eligible pairs to determine if they represent the exact same continuous immediate task interrupted by a transport batch edge. Pairs involving transitions to new locations, tools, or distinct content are not merged.","merges":[[71,72,"I observe pigeons and joggers along the waterfront promenade.","Continuous observation of surroundings continues across batch edge"],[110,111,"I browse my phone feed and watch short videos.","Browsing and watching videos on the smartphone feed continues across batch edge"]],"audit":{"complete":true,"uncertainties":[]}}
 ```

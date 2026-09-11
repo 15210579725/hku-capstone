@@ -1,0 +1,29 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group transit and walking segments with their overarching destination activities to form broader goal-oriented phases (dining, working, and socializing).",
+  "events": [
+    [
+      "0-1",
+      "I dine at an outdoor dumpling eatery.",
+      "Groups scooter transit with the destination dining activity"
+    ],
+    [
+      "2-4",
+      "I evaluate AI models at my office workstation.",
+      "Groups campus transit and walking with the destination office work activity"
+    ],
+    [
+      "5-8",
+      "I converse with my friends at the Wind Down bar.",
+      "Groups office departure and transit with the destination social activity"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

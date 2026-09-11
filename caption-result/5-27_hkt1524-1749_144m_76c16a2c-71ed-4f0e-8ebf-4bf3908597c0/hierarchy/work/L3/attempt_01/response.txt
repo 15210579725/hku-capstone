@@ -1,0 +1,104 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group sequential L2 actions into coherent episodes based on distinct locations and overarching task phases, such as walking, shopping, cooking stages, eating, and cleaning.",
+  "events": [
+    [
+      "0-4",
+      "I read AI paper summaries on my phone in the lobby lounge.",
+      "Transition to walking towards a new destination"
+    ],
+    [
+      "5-12",
+      "I travel to the shopping mall with my companion.",
+      "Arrival at a bakery to buy food"
+    ],
+    [
+      "13-14",
+      "I purchase a cinnamon danish twist pretzel at the mall bakery.",
+      "Purchase completed and walking continues"
+    ],
+    [
+      "15-17",
+      "I walk through the mall toward the Market Place supermarket.",
+      "Arrival at the supermarket"
+    ],
+    [
+      "18-29",
+      "I purchase vegetables and meat at the Market Place supermarket.",
+      "Checkout completed and exiting the supermarket"
+    ],
+    [
+      "30-45",
+      "I return to my apartment with my companion.",
+      "Arrival and entry into the apartment completed"
+    ],
+    [
+      "46-64",
+      "I unpack my grocery items in the kitchen.",
+      "Transition to preparing and cooking food"
+    ],
+    [
+      "65-83",
+      "I cook scrambled eggs with minced meat.",
+      "First dish removed from the pan"
+    ],
+    [
+      "84-103",
+      "I stir-fry the vegetable ingredients in the frying pan.",
+      "Transition to mixing in the rice"
+    ],
+    [
+      "104-121",
+      "I combine the cooked ingredients into fried rice on the stove.",
+      "Cooking completed"
+    ],
+    [
+      "122-134",
+      "I set up the dining area with a rolling cart for our meal.",
+      "Dining area ready for eating"
+    ],
+    [
+      "135-149",
+      "I eat the fried rice with my companions.",
+      "Interruption to prepare a side dish"
+    ],
+    [
+      "150-152",
+      "I prepare sugar-coated sliced tomatoes as a side dish.",
+      "Side dish served to the table"
+    ],
+    [
+      "153-173",
+      "I converse with my friends over the remainder of the meal.",
+      "Meal concludes and cleanup begins"
+    ],
+    [
+      "174-179",
+      "I clean the dirty dishes in the kitchen sink.",
+      "Dishwashing completed"
+    ],
+    [
+      "180-184",
+      "I discard expired items from the refrigerator.",
+      "Fridge cleaned and trash gathered"
+    ],
+    [
+      "185-188",
+      "I dispose of the trash bags in the refuse room.",
+      "Trash disposed of"
+    ],
+    [
+      "189-190",
+      "I inspect the bathroom toiletry bottles.",
+      "End of recorded actions"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

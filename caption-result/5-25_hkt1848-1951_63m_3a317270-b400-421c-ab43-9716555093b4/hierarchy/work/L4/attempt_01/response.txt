@@ -1,0 +1,39 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group episodes into broader phases based on overarching goals: having the evening meal, cleaning the kitchen, a quick snack, grocery shopping, and relocating for a subsequent activity.",
+  "events": [
+    [
+      "0-1",
+      "I have a chicken stir-fry meal.",
+      "Unifies meal preparation and consumption into a single dining phase."
+    ],
+    [
+      "2-4",
+      "I clean the kitchen.",
+      "Unifies washing up and garbage disposal tasks into a single kitchen maintenance phase."
+    ],
+    [
+      "5",
+      "I eat a cucumber half.",
+      "Distinct short snack before leaving."
+    ],
+    [
+      "6-8",
+      "I shop for groceries at a Wellcome supermarket.",
+      "Unifies the travel and consecutive item purchases into a single grocery shopping phase."
+    ],
+    [
+      "9",
+      "I travel to the waterfront promenade to eat my toast.",
+      "Relocating to a new destination represents the start of a distinct new activity."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,52 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group L3 episodes into broader goal-oriented phases. The distinct academic work and leisure sessions remain separate phases because they have fundamentally different objectives. The entire journey home, including walking, transit, and a bakery pitstop, is merged into a single continuous commute phase. The battery death and meeting frustration are preserved as standalone behavior-changing triggers.",
+  "events": [
+    [
+      "0",
+      "I work on dataset evaluation and literature notes on my laptop.",
+      "Shifts from academic work to leisure"
+    ],
+    [
+      "1",
+      "I watch short videos on Xiaohongshu.",
+      "Interrupted by battery death"
+    ],
+    [
+      "2",
+      "I discover my MacBook battery has died.",
+      "Standalone trigger forcing departure"
+    ],
+    [
+      "3-8",
+      "I commute from the campus to my bedroom desk.",
+      "Commute completes upon settling at home"
+    ],
+    [
+      "9",
+      "I watch short videos on my smartphone.",
+      "Interrupted by meeting reminder"
+    ],
+    [
+      "10",
+      "I lock my smartphone in frustration over an upcoming meeting.",
+      "Standalone trigger prompting return to work"
+    ],
+    [
+      "11",
+      "I read Claude research materials on my MacBook.",
+      "End of input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      2,
+      10
+    ],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,109 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group actions by immediate physical tasks and interactions, such as crossing streets, walking along sidewalks, navigating stairs, riding the elevator, ordering food, eating, and engaging in specific conversational topics at the dining table.",
+  "events": [
+    [
+      "500-506",
+      "I cross the street.",
+      "Completes crossing the street to continue walking on the sidewalk."
+    ],
+    [
+      "507-531",
+      "I walk along the sidewalk with my companion.",
+      "Transitions from walking on the sidewalk to descending a set of stairs."
+    ],
+    [
+      "532-542",
+      "I navigate down outdoor stairs with my companion.",
+      "Finishes descending the stairs and continues walking on a pedestrian walkway."
+    ],
+    [
+      "543-550",
+      "I walk along the pedestrian walkway with my companion.",
+      "Transitions from the pedestrian walkway to a street intersection."
+    ],
+    [
+      "551-563",
+      "I walk to a commercial building with my companion.",
+      "Arrives at a cooked food centre."
+    ],
+    [
+      "564-576",
+      "I walk through a cooked food centre.",
+      "Exits the cooked food centre to wait for an elevator."
+    ],
+    [
+      "577-599",
+      "I ride the elevator to the lobby.",
+      "Exits the elevator into the building lobby."
+    ],
+    [
+      "600-611",
+      "I walk to a restaurant with my companion.",
+      "Arrives at a restaurant counter to browse food options."
+    ],
+    [
+      "612-621",
+      "I browse the food options at a restaurant counter.",
+      "Steps up to the counter to place an order."
+    ],
+    [
+      "622-628",
+      "I order my meal at the restaurant counter.",
+      "Order is placed and tray is collected, transitioning to payment."
+    ],
+    [
+      "629-640",
+      "I pay for my meal using WeChat Pay.",
+      "Payment is completed and the meal tray is collected."
+    ],
+    [
+      "641-644",
+      "I carry my meal tray to a table.",
+      "Arrives at the table and sits down to eat."
+    ],
+    [
+      "645-660",
+      "I eat my meal.",
+      "Companion joins at the table, initiating a conversation."
+    ],
+    [
+      "661-670",
+      "I listen to my companion describe their protein drink.",
+      "Topic shifts from the protein drink to the meal."
+    ],
+    [
+      "671-686",
+      "I converse with my companion about our meal.",
+      "Focus shifts to observing the companion eating and drinking."
+    ],
+    [
+      "687-702",
+      "I observe my companion eating and drinking.",
+      "Shifts to explaining specific food choices."
+    ],
+    [
+      "703-714",
+      "I explain my food choices to my companion.",
+      "Topic shifts to identifying food ingredients."
+    ],
+    [
+      "715-727",
+      "I converse with my companion about food ingredients.",
+      "Conversation concludes and transitions to resting."
+    ],
+    [
+      "728-749",
+      "I rest at the dining table.",
+      "End of the input sequence."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

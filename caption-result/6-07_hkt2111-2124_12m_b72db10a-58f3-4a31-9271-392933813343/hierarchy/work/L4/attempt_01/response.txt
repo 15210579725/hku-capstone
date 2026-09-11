@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group the continuous pedestrian sequence through the neighborhood and food centre into a single transit phase, and group the building access with the indoor task into a destination activity phase.",
+  "events": [
+    [
+      "0-2",
+      "I travel on foot to the Y.Hill building.",
+      "Arrival at the target destination concludes the transit phase"
+    ],
+    [
+      "3-4",
+      "I retrieve my personal belongings from apartment 15B.",
+      "Completion of the recording following the destination task"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

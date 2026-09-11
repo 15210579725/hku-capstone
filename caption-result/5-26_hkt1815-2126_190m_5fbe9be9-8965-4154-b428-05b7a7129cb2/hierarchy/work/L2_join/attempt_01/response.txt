@@ -1,0 +1,30 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible pairs to identify uninterrupted continuations of the exact same immediate task across transport batch boundaries. Merge pairs that share the identical specific action, location, and topic (e.g., eating the same meal, walking continuously through the same station, browsing the identical subject on the same app). Do not merge pairs that transition to different subtasks (e.g., drafting vs. managing emails), distinct walking segments (e.g., sidewalk to crosswalk), or unrelated actions.",
+  "merges": [
+    [
+      63,
+      64,
+      "I eat my meal at a booth table with my companion.",
+      "Continuous eating of the same meal across batch edge"
+    ],
+    [
+      85,
+      86,
+      "I walk through the subway station corridor with my companion.",
+      "Continuous walking through the same station environment across batch edge"
+    ],
+    [
+      117,
+      118,
+      "I browse Xiaohongshu for information and videos about keeping pet otters.",
+      "Continuous browsing of the exact same topic on the same app across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

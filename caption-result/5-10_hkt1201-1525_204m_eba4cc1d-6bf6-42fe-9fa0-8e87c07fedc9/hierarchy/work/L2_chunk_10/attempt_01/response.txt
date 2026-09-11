@@ -1,0 +1,147 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group actions into immediate, unified tasks such as reading specific study materials, conversing, navigating apps, walking, waiting, and interacting with the vehicle.",
+  "events": [
+    [
+      "2250-2253",
+      "I read the Kernel PCA problem description.",
+      "Switches to conversing"
+    ],
+    [
+      "2254-2264",
+      "I discuss the taste of my iced Americano with my companion.",
+      "Switches to reading assignment"
+    ],
+    [
+      "2265-2269",
+      "I read the Kernel PCA assignment problem and glance at the dock.",
+      "Switches to logging into email"
+    ],
+    [
+      "2270-2282",
+      "I log into my ProtonMail account.",
+      "Switches to checking phone"
+    ],
+    [
+      "2283",
+      "I view a photo of cats on my phone.",
+      "Switches to signing into Claude"
+    ],
+    [
+      "2284-2292",
+      "I sign into Claude.ai via an email link and monitor the generation status.",
+      "Switches to checking proxy"
+    ],
+    [
+      "2293-2296",
+      "I look around and review my Clash Verge proxy groups.",
+      "Switches to reading Claude"
+    ],
+    [
+      "2297-2302",
+      "I read the Claude response explaining Kernel PCA.",
+      "Switches to drinking coffee"
+    ],
+    [
+      "2303-2304",
+      "I watch my companion and drink my iced coffee.",
+      "Switches to reading notes"
+    ],
+    [
+      "2305-2320",
+      "I read Kernel PCA notes, algorithm steps, and a PCA comparison table.",
+      "Switches to typing notes"
+    ],
+    [
+      "2321-2337",
+      "I interact with Claude AI and type notes about Kernel PCA.",
+      "Switches to looking around workspace"
+    ],
+    [
+      "2338-2340",
+      "I look around at my backpack, speaker cables, and a coffee roaster.",
+      "Switches to studying derivation"
+    ],
+    [
+      "2341-2360",
+      "I study the Kernel PCA mathematical derivation on Claude and review the assignment problem.",
+      "Starts packing up"
+    ],
+    [
+      "2361-2373",
+      "I converse with my companion about leaving and pack my laptop and papers into my backpack.",
+      "Starts leaving cafe"
+    ],
+    [
+      "2374-2380",
+      "I put on my backpack, grab a wrapped corn cob, and exit the cafe with my companion.",
+      "Outdoors walking"
+    ],
+    [
+      "2381-2388",
+      "I walk across the parking lot and unwrap my corn cob while my companion comments on it.",
+      "Reaches sidewalk"
+    ],
+    [
+      "2389-2403",
+      "I pull my suitcase along the sidewalk and decide to hail a ride because of the distance and heavy luggage.",
+      "Uses phone to hail ride"
+    ],
+    [
+      "2404-2411",
+      "I use a map app to hail a ride to Jiuzhou Port and check the driver ETA.",
+      "Waits for ride"
+    ],
+    [
+      "2412-2436",
+      "I wait on the sidewalk, monitor traffic and the ride-hailing map, and hand my corn cob to my companion.",
+      "Moves to bench"
+    ],
+    [
+      "2437-2463",
+      "I sit on a bus stop bench, monitor the ride-hailing app, and verify the license plate of the arriving car.",
+      "Car arrives"
+    ],
+    [
+      "2464-2469",
+      "I approach the car and load the suitcase and backpack into the trunk.",
+      "Gets into car"
+    ],
+    [
+      "2470-2472",
+      "I open the passenger door and get into the rear seat of the car.",
+      "Starts riding"
+    ],
+    [
+      "2473-2486",
+      "I ride in the rear seat of the car, looking out the window and holding the roof assist handle.",
+      "Arrives at destination"
+    ],
+    [
+      "2487-2488",
+      "I open the passenger door and exit the car.",
+      "Moves to trunk"
+    ],
+    [
+      "2489-2493",
+      "I open the car trunk and retrieve the backpack and suitcase.",
+      "Walks with luggage"
+    ],
+    [
+      "2494-2499",
+      "I walk along the sidewalk and check ticket details on my companion's phone.",
+      "Task continues"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "I converse with my companion about leaving and pack my laptop and papers into my backpack.",
+      "I pull my suitcase along the sidewalk and decide to hail a ride because of the distance and heavy luggage."
+    ],
+    "boundary_cautions": []
+  }
+}
+```

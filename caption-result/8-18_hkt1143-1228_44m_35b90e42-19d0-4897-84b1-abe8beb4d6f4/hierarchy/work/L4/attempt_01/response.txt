@@ -1,0 +1,34 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group the initial GPU provisioning into a pre-lunch work phase. Group the travel, meal purchase, eating, and return into a complete lunch break phase. Group the subsequent computer tasks into a focused desk work phase, and group the final conversation and resting into a restorative break phase.",
+  "events": [
+    [
+      "0",
+      "I provision my AutoDL GPU container instances and account funding.",
+      "Independent computer task prior to leaving for lunch"
+    ],
+    [
+      "1-6",
+      "I complete my lunch break with my companion at the cafeteria.",
+      "Contiguous sequence of travel, eating, and returning for a meal break"
+    ],
+    [
+      "7-9",
+      "I advance my computer tasks involving script troubleshooting, afternoon visit planning, and research collaboration.",
+      "Distinct computer-based tasks executed consecutively at the desk"
+    ],
+    [
+      "10-11",
+      "I take a rest break with my colleague featuring conversation and shared media.",
+      "Shift from active computer work to socializing and resting"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

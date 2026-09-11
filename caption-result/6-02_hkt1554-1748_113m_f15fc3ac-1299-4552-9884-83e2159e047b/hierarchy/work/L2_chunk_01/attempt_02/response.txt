@@ -1,0 +1,254 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions sharing a single immediate objective and target into discrete tasks. This includes separating distinct conversation topics, physical transitions, object interactions (such as packing a laptop, interacting with a lanyard, or plugging in a charger), and focused observations.",
+  "events": [
+    [
+      "0-4",
+      "I examine a MacBook.",
+      "Focus shifts to packing"
+    ],
+    [
+      "5-9",
+      "I pack my laptop into my backpack.",
+      "Packing action concludes"
+    ],
+    [
+      "10-12",
+      "I pick up a charging cable and a portable fan.",
+      "Item collection completes"
+    ],
+    [
+      "13-16",
+      "I search for a contact lens box while talking to User A.",
+      "Search concludes"
+    ],
+    [
+      "17-17",
+      "I inspect yellow earplugs.",
+      "Inspection completes"
+    ],
+    [
+      "18-21",
+      "I scan the shelves while adjusting my backpack.",
+      "Focus shifts to phone"
+    ],
+    [
+      "22-23",
+      "I check my smartphone.",
+      "Phone use ends"
+    ],
+    [
+      "24-28",
+      "I lift my backpack while watching my friend pack.",
+      "Action completes"
+    ],
+    [
+      "29-38",
+      "I secure my bag straps and backpack harness.",
+      "Bag preparation finishes"
+    ],
+    [
+      "39-45",
+      "I insert a student ID into a card holder.",
+      "Card placement concludes"
+    ],
+    [
+      "46-51",
+      "I converse with my roommate about shoes.",
+      "Conversation topic ends"
+    ],
+    [
+      "52-58",
+      "I play with a blue spiral lanyard.",
+      "Focus shifts to leaving"
+    ],
+    [
+      "59-62",
+      "I agree to leave with my female friend.",
+      "Decision made"
+    ],
+    [
+      "63-67",
+      "I converse with my female friend while adjusting the spiral lanyard.",
+      "Lanyard adjustment ends"
+    ],
+    [
+      "68-68",
+      "I watch my companion change shoes.",
+      "Action concludes"
+    ],
+    [
+      "69-70",
+      "I wave a toy at the kitten.",
+      "Interaction ends"
+    ],
+    [
+      "71-74",
+      "I plug a charger adapter into the power strip.",
+      "Plugging concludes"
+    ],
+    [
+      "75-80",
+      "I converse with User A about arm pain.",
+      "Conversation concludes"
+    ],
+    [
+      "81-85",
+      "I point out the pet water dispenser to my roommate.",
+      "Discussion ends"
+    ],
+    [
+      "86-88",
+      "I wave a cat teaser toy at the kitten.",
+      "Interaction ends"
+    ],
+    [
+      "89-92",
+      "I watch my roommate pour water from a kettle.",
+      "Action completes"
+    ],
+    [
+      "93-98",
+      "I converse with my friend about tucking a water bottle into her waistband.",
+      "Topic concludes"
+    ],
+    [
+      "99-102",
+      "I follow my friend out of the room and down the hallway.",
+      "Hallway entered"
+    ],
+    [
+      "103-106",
+      "I fidget with a lanyard until my companion confiscates it.",
+      "Lanyard taken away"
+    ],
+    [
+      "107-110",
+      "I adjust a white strap while listening to User X.",
+      "Interaction ends"
+    ],
+    [
+      "111-114",
+      "I wait for and enter the elevator.",
+      "Elevator boarded"
+    ],
+    [
+      "115-119",
+      "I ride the descending elevator.",
+      "Elevator ride completes"
+    ],
+    [
+      "120-123",
+      "I exit the elevator and the building lobby.",
+      "Exited building"
+    ],
+    [
+      "124-129",
+      "I walk along the covered corridor to the courtyard.",
+      "Corridor ends"
+    ],
+    [
+      "130-133",
+      "I listen to my companion's joke about periods.",
+      "Topic concludes"
+    ],
+    [
+      "134-138",
+      "I walk past pedestrians and comment on an animal's tail.",
+      "Comment concludes"
+    ],
+    [
+      "139-140",
+      "I observe caution signs.",
+      "Observation ends"
+    ],
+    [
+      "141-144",
+      "I start a fruit guessing game with my companion.",
+      "Game begins"
+    ],
+    [
+      "145-156",
+      "I try to remember a fruit sequence in a game with Bingo.",
+      "Attempt concludes as attention shifts"
+    ],
+    [
+      "157-160",
+      "I observe people, a sculpture, and a warning notice while walking.",
+      "Observation ends"
+    ],
+    [
+      "161-167",
+      "I continue trying to recall the fruit sequence.",
+      "Recall continues"
+    ],
+    [
+      "168-174",
+      "I successfully recite the fruit sequence with my companion.",
+      "Game concludes"
+    ],
+    [
+      "175-181",
+      "I walk across the courtyard plaza to a brick path.",
+      "Path reached"
+    ],
+    [
+      "182-191",
+      "I walk along the paved promenade, stepping over a speed bump.",
+      "Walk continues"
+    ],
+    [
+      "192-197",
+      "I discuss the hot weather with my companion while walking.",
+      "Topic shifts"
+    ],
+    [
+      "198-206",
+      "I complain about a toothache from a sunflower seed while walking.",
+      "Topic shifts"
+    ],
+    [
+      "207-212",
+      "I walk past a fountain on the residential pathway.",
+      "Fountain passed"
+    ],
+    [
+      "213-222",
+      "I converse with my companion about attending a childhood dance class.",
+      "Topic shifts"
+    ],
+    [
+      "223-231",
+      "I recount a story about my brother learning Latin dance.",
+      "Story concludes"
+    ],
+    [
+      "232-237",
+      "I discuss my brother's weight with my companion.",
+      "Topic concludes"
+    ],
+    [
+      "238-239",
+      "I walk towards the lobby glass entrance doors.",
+      "Doors reached"
+    ],
+    [
+      "240-247",
+      "I ride the downward escalator.",
+      "Escalator ride ends"
+    ],
+    [
+      "248-249",
+      "I walk across the lobby.",
+      "Lobby crossed"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,31 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous laptop video watching, the subsequent stowing of computer accessories, and entering the bathroom to use the toilet into distinct immediate tasks.",
+  "events": [
+    [
+      "1750-1755",
+      "I watch a video on the laptop.",
+      "Focus shifts from the laptop screen to physical equipment."
+    ],
+    [
+      "1756-1759",
+      "I stow my headset and cable.",
+      "Finishes handling the equipment and walks to another room."
+    ],
+    [
+      "1760-1766",
+      "I prepare to use the toilet in the bathroom.",
+      "End of input batch."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [
+      "It is unclear whether the command '哎，你别动！' is directed at a person, an animal, or the equipment being handled."
+    ],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

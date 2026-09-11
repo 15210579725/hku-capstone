@@ -1,0 +1,94 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group immediate tasks by shifts in focus between the laptop screen, the physical notebook, and incidental resting or observing the physical surroundings. Abstract fine-grained typing, scrolling, and pen movements into their overarching goals such as editing documentation, reviewing notes, or evaluating code.",
+  "events": [
+    [
+      "1000-1003",
+      "I review my handwritten notes while holding a pen.",
+      "Focus shifts from reviewing notes to working on the laptop."
+    ],
+    [
+      "1004-1028",
+      "I edit technical documentation in the VS Code editor on my laptop.",
+      "Focus shifts from the laptop to writing in the notebook."
+    ],
+    [
+      "1029-1040",
+      "I write 'ぼっち' in my spiral notebook while reviewing notes.",
+      "Focus shifts from the notebook to reading the laptop screen."
+    ],
+    [
+      "1041-1065",
+      "I read technical documentation and AI search results on my laptop.",
+      "Focus shifts from the laptop back to the notebook."
+    ],
+    [
+      "1066-1089",
+      "I write and review notes on behavioral logic in my notebook.",
+      "Focus shifts from the notebook to reading documentation on the laptop."
+    ],
+    [
+      "1090-1095",
+      "I read documentation and code on my laptop.",
+      "Focus shifts from the laptop to reviewing handwritten notes."
+    ],
+    [
+      "1096-1098",
+      "I review handwritten notes in my notebook.",
+      "Interrupts note reviewing to manipulate a lanyard."
+    ],
+    [
+      "1099-1107",
+      "I manipulate the strap and clip of my badge lanyard.",
+      "Returns focus from the lanyard to reading on the laptop."
+    ],
+    [
+      "1108-1110",
+      "I read a document on my laptop.",
+      "Focus shifts from the laptop to reviewing the notebook."
+    ],
+    [
+      "1111-1132",
+      "I review handwritten notes on generalization and sensor actions in my notebook.",
+      "Focus shifts to reviewing code instructions and logs on the laptop."
+    ],
+    [
+      "1133-1160",
+      "I evaluate code execution, benchmark metrics, and terminal logs in VS Code.",
+      "Focus shifts from the laptop to reading handwritten notes."
+    ],
+    [
+      "1161-1162",
+      "I read handwritten notes in my notebook.",
+      "Looks away from the notebook to observe the office."
+    ],
+    [
+      "1163-1174",
+      "I observe distant workstations in the office while holding my lanyard.",
+      "Returns focus from the office back to the notebook."
+    ],
+    [
+      "1175-1178",
+      "I read handwritten notes in my notebook.",
+      "Finishes reading to rest and observe the desk area."
+    ],
+    [
+      "1179-1188",
+      "I rest my arm and observe my desk items and the surrounding office area.",
+      "Focus shifts from resting to reading code documentation on the laptop."
+    ],
+    [
+      "1189-1194",
+      "I read code documentation on my laptop.",
+      "End of supplied input."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

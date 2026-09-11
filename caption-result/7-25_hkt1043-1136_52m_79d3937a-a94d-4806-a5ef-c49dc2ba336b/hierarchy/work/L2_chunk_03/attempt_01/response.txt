@@ -1,0 +1,71 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group action briefs into immediate tasks based on interacting with terminal tools, typing instructions, monitoring logs, reviewing metrics, checking API costs, and departing from the desk.",
+  "events": [
+    [
+      "500-503",
+      "I select dispatcher options and review dataset generation updates in Claude Code.",
+      "Shifts from reading options to typing instructions"
+    ],
+    [
+      "504-509",
+      "I type instructions into Claude Code regarding H800 dispatcher logic.",
+      "Shifts from typing to monitoring script execution"
+    ],
+    [
+      "510-517",
+      "I monitor terminal scripts for GPU utilization, H800 dry-runs, and dispatcher routing advice.",
+      "Shifts from checking dry-run output to reviewing evaluation metrics"
+    ],
+    [
+      "518-523",
+      "I review LLM-judge evaluation metrics and finetuning progress.",
+      "Shifts from evaluating models to checking API costs"
+    ],
+    [
+      "524-526",
+      "I inspect Claude API expenditure and account usage limits.",
+      "Shifts from checking costs to using a web browser"
+    ],
+    [
+      "527-528",
+      "I open Safari and navigate to claude.ai.",
+      "Shifts from browser navigation to reading dispatch logs"
+    ],
+    [
+      "529-530",
+      "I read Claude Code GPU dispatch logs.",
+      "Pause in activity before reviewing verification results"
+    ],
+    [
+      "531-540",
+      "I review verification results, GPU probing logs, and experiment progression.",
+      "Shifts from monitoring cluster status to checking API usage again"
+    ],
+    [
+      "541-544",
+      "I review terminal output regarding API usage, fine-tuning data construction, and GPU allocation.",
+      "Task completes and shifts to finishing desk work"
+    ],
+    [
+      "545-547",
+      "I put my MacBook to sleep and stand up from my desk.",
+      "Shifts from packing up to navigating the office hallway"
+    ],
+    [
+      "548-551",
+      "I walk out of the office and down the hallway.",
+      "End of sequence"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "545-547"
+    ],
+    "boundary_cautions": []
+  }
+}
+```

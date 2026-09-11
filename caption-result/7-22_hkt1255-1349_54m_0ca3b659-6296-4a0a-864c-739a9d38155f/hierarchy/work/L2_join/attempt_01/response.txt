@@ -1,0 +1,18 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible pairs to determine if the same immediate task continues across the transport boundary. Pair 23-24 transitions from adjusting Baidu Netdisk upload speed to a new task of querying ChatGPT for Codex CLI commands, so it is not merged. Pair 42-43 continues the identical task of eating the cafeteria meal, so it is merged.",
+  "merges": [
+    [
+      42,
+      43,
+      "I eat my cafeteria meal using chopsticks.",
+      "Same eating task continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

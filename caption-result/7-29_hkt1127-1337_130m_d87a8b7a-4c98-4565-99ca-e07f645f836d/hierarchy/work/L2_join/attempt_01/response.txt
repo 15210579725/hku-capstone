@@ -1,0 +1,3 @@
+```json
+{"target_level":"L2_JOIN","plan":"Evaluate eligible boundary pairs to merge only if they represent the exact same continuous immediate task split by a batch edge. Refuse merges for distinct sequential actions, different tool usages, or broader topical relations.","merges":[[33,34,"I pay for my meal via Alipay.","Same payment task continues across batch edge"]],"audit":{"complete":true,"uncertainties":[]}}
+```

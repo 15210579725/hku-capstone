@@ -1,0 +1,29 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group episodes into broader work phases: testing habit and SFT models, processing video and caption data, and departing the workstation.",
+  "events": [
+    [
+      "0-5",
+      "I test habit prediction rules and SFT generalization using Claude Code.",
+      "Shift from testing habit models to processing video playbacks and caption data"
+    ],
+    [
+      "6-10",
+      "I process video playbacks and caption data for evaluation test cases.",
+      "Task completed; standing up to leave the desk"
+    ],
+    [
+      "11",
+      "I leave my desk.",
+      "End of recording"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

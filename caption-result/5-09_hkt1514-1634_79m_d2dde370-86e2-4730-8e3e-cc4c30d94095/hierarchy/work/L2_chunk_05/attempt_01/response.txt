@@ -1,0 +1,49 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group actions into immediate tasks: taking the elevator, entering the hotel room, browsing the phone, opening the window for ventilation, searching for mosquito repellent, checking for hotel contact information, and observing the companion.",
+  "events": [
+    [
+      "1000-1010",
+      "I discuss a song with my companion during the elevator ride.",
+      "Elevator ride concludes and walking to the room begins."
+    ],
+    [
+      "1011-1016",
+      "I walk down the hotel corridor to enter my room.",
+      "Entering the room is completed and attention shifts to the phone."
+    ],
+    [
+      "1017-1020",
+      "I browse a WeChat Moments post and an article on my phone.",
+      "Phone browsing ends as attention shifts to the room's air quality."
+    ],
+    [
+      "1021-1031",
+      "I open the hotel room window to ventilate the space.",
+      "Window opening concludes and attention shifts to finding mosquito repellent."
+    ],
+    [
+      "1032-1046",
+      "I search my backpack and the room for mosquito repellent.",
+      "Physical search ends and focus shifts to finding contact information for the hotel."
+    ],
+    [
+      "1047-1056",
+      "I search for the hotel's contact information to request an electric mosquito repellent.",
+      "Search for contact info concludes as attention shifts to the companion."
+    ],
+    [
+      "1057-1061",
+      "I observe my companion browsing her phone.",
+      "Batch ends."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible boundary pairs to merge continuations of the exact same immediate task split by batch boundaries. 26/27 merge as they complete the continuous cooking process; 161/162 merge as they describe watching the same delivery rider vlog. 50/51, 102/103, and 127/128 remain unmerged because they represent distinct immediate tasks or context switches.",
+  "merges": [
+    [
+      26,
+      27,
+      "I season and finish cooking the food.",
+      "Cooking process continues across batch edge"
+    ],
+    [
+      161,
+      162,
+      "I watch a Bilibili vlog about a delivery rider.",
+      "Same video watching continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

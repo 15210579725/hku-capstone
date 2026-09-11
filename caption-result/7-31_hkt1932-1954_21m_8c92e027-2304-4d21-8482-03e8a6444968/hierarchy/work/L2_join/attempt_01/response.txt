@@ -1,0 +1,18 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate the eligible boundary pair to determine if the immediate task continues across the batch edge. Pair [21, 22] involves continuous searching for a restaurant using map applications and directory boards, which qualifies as the same task.",
+  "merges": [
+    [
+      21,
+      22,
+      "I search for local cuisine restaurants, specifically '锦忆林', using a map application and the mall directory.",
+      "Same restaurant search task continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

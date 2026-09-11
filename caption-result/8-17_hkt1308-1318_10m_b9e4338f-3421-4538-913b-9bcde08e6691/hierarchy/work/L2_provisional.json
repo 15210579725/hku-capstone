@@ -1,0 +1,346 @@
+[
+  {
+    "id": 0,
+    "start": 47285,
+    "end": 47303,
+    "text": "I put on my grey hoodie.",
+    "refs": [
+      0,
+      1,
+      2
+    ],
+    "boundary_reason": "Sequence of putting on a hoodie completes",
+    "origin_chunk": 1
+  },
+  {
+    "id": 1,
+    "start": 47303,
+    "end": 47307,
+    "text": "I sit down on my office chair.",
+    "refs": [
+      3
+    ],
+    "boundary_reason": "Action completes",
+    "origin_chunk": 1
+  },
+  {
+    "id": 2,
+    "start": 47307,
+    "end": 47325,
+    "text": "I browse the 'University X动作预测' research document in Feishu.",
+    "refs": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "boundary_reason": "Initial document navigation and browsing completes",
+    "origin_chunk": 1
+  },
+  {
+    "id": 3,
+    "start": 47326,
+    "end": 47328,
+    "text": "I adjust my smart glasses.",
+    "refs": [
+      8
+    ],
+    "boundary_reason": "Action completes",
+    "origin_chunk": 1
+  },
+  {
+    "id": 4,
+    "start": 47329,
+    "end": 47370,
+    "text": "I read introductory material and prediction accuracy data in the Feishu Wiki.",
+    "refs": [
+      9,
+      10,
+      11,
+      12
+    ],
+    "boundary_reason": "Unified reading objective completes",
+    "origin_chunk": 1
+  },
+  {
+    "id": 5,
+    "start": 47371,
+    "end": 47404,
+    "text": "I review document sections on dialogue emotion prediction, LLM implicit goal inference, and simulation proposals.",
+    "refs": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "boundary_reason": "Unified reading objective completes before an interruption",
+    "origin_chunk": 1
+  },
+  {
+    "id": 6,
+    "start": 47405,
+    "end": 47421,
+    "text": "I read multimodal action and LLM caption prediction methods.",
+    "refs": [
+      20,
+      21,
+      22
+    ],
+    "boundary_reason": "Reading interrupted by physical gestures",
+    "origin_chunk": 1
+  },
+  {
+    "id": 7,
+    "start": 47421,
+    "end": 47429,
+    "text": "I make half-heart and OK hand gestures.",
+    "refs": [
+      23,
+      24
+    ],
+    "boundary_reason": "Gestures complete",
+    "origin_chunk": 1
+  },
+  {
+    "id": 8,
+    "start": 47429,
+    "end": 47464,
+    "text": "I read notes on VLM caption prediction, latent space regression, and baseline comparisons.",
+    "refs": [
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ],
+    "boundary_reason": "Reading interrupted by speaking",
+    "origin_chunk": 1
+  },
+  {
+    "id": 9,
+    "start": 47465,
+    "end": 47468,
+    "text": "I say 'I am Josh.'",
+    "refs": [
+      31
+    ],
+    "boundary_reason": "Speech completes",
+    "origin_chunk": 1
+  },
+  {
+    "id": 10,
+    "start": 47469,
+    "end": 47542,
+    "text": "I review sections on evaluation metrics, LLM rationality biases, and cross-model benchmarks.",
+    "refs": [
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43
+    ],
+    "boundary_reason": "Unified reading objective completes",
+    "origin_chunk": 1
+  },
+  {
+    "id": 11,
+    "start": 47543,
+    "end": 47568,
+    "text": "I read notes on behavior prediction models, supporting literature, and event datasets.",
+    "refs": [
+      44,
+      45,
+      46,
+      47,
+      48
+    ],
+    "boundary_reason": "Reading flow interrupted by physical gesture",
+    "origin_chunk": 1
+  },
+  {
+    "id": 12,
+    "start": 47568,
+    "end": 47570,
+    "text": "I raise my left hand.",
+    "refs": [
+      49
+    ],
+    "boundary_reason": "Action completes",
+    "origin_chunk": 1
+  },
+  {
+    "id": 13,
+    "start": 47570,
+    "end": 47571,
+    "text": "I say '啊。'.",
+    "refs": [
+      50
+    ],
+    "boundary_reason": "Speech completes",
+    "origin_chunk": 1
+  },
+  {
+    "id": 14,
+    "start": 47571,
+    "end": 47629,
+    "text": "I review research notes on lifelong memory, event aggregation, and emotion-driven event prediction.",
+    "refs": [
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59
+    ],
+    "boundary_reason": "Unified reading objective completes",
+    "origin_chunk": 1
+  },
+  {
+    "id": 15,
+    "start": 47630,
+    "end": 47699,
+    "text": "I study the ELF flow matching progression diagrams and related forecasting notes.",
+    "refs": [
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70
+    ],
+    "boundary_reason": "Unified study objective completes before speaking",
+    "origin_chunk": 1
+  },
+  {
+    "id": 16,
+    "start": 47699,
+    "end": 47704,
+    "text": "I say 'What the fuck do I do?'.",
+    "refs": [
+      71
+    ],
+    "boundary_reason": "Speech completes",
+    "origin_chunk": 1
+  },
+  {
+    "id": 17,
+    "start": 47705,
+    "end": 47723,
+    "text": "I select text from the action forecasting Introduction section.",
+    "refs": [
+      72,
+      73,
+      74
+    ],
+    "boundary_reason": "Text selection completes prior to using AI tool",
+    "origin_chunk": 1
+  },
+  {
+    "id": 18,
+    "start": 47723,
+    "end": 47767,
+    "text": "I review the English translation of the selected text generated by the Feishu AI assistant.",
+    "refs": [
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82
+    ],
+    "boundary_reason": "Translation generation and review task completes",
+    "origin_chunk": 1
+  },
+  {
+    "id": 19,
+    "start": 47767,
+    "end": 47811,
+    "text": "I navigate through the problem formulation, related work, and fine-tuning sections of the document.",
+    "refs": [
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89
+    ],
+    "boundary_reason": "Unified browsing objective completes",
+    "origin_chunk": 1
+  },
+  {
+    "id": 20,
+    "start": 47812,
+    "end": 47873,
+    "text": "I type a bullet point stating that adding multimodality to text damages performance.",
+    "refs": [
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97
+    ],
+    "boundary_reason": "Typing task completes",
+    "origin_chunk": 1
+  },
+  {
+    "id": 21,
+    "start": 47874,
+    "end": 47877,
+    "text": "I adjust my glasses.",
+    "refs": [
+      98
+    ],
+    "boundary_reason": "Action completes",
+    "origin_chunk": 1
+  },
+  {
+    "id": 22,
+    "start": 47878,
+    "end": 47890,
+    "text": "I review performance graphs and notes on RNN-style history.",
+    "refs": [
+      99,
+      100,
+      101
+    ],
+    "boundary_reason": "Reading task interrupted by a colleague",
+    "origin_chunk": 1
+  },
+  {
+    "id": 23,
+    "start": 47890,
+    "end": 47894,
+    "text": "I stop my computer activity after a colleague tells me to stop.",
+    "refs": [
+      102,
+      103
+    ],
+    "boundary_reason": "Activity terminates based on external verbal trigger",
+    "origin_chunk": 1
+  }
+]

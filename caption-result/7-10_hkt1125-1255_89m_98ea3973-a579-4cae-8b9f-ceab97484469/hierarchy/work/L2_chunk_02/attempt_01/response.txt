@@ -1,0 +1,109 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks centered around selecting food, paying, and sitting down, followed by conversational phases during the meal, returning the tray, and walking through subsequent areas.",
+  "events": [
+    [
+      "250-266",
+      "I collect a meal tray and select food at the cafeteria counter.",
+      "Goal of collecting food concludes as I approach checkout."
+    ],
+    [
+      "267-272",
+      "I pay ¥12.50 for my meal using Alipay.",
+      "Payment completes."
+    ],
+    [
+      "273-284",
+      "I carry my food tray to a table and sit down with my colleagues.",
+      "Goal of finding a seat completes."
+    ],
+    [
+      "285-299",
+      "I begin eating my cafeteria meal and listen to my companions discuss food.",
+      "Conversation topic shifts."
+    ],
+    [
+      "300-326",
+      "I discuss geography and hometowns with my companions while eating.",
+      "Topic shift."
+    ],
+    [
+      "327-330",
+      "I drink from my soup bowl.",
+      "Action concludes."
+    ],
+    [
+      "331-351",
+      "I discuss server connections and network security with my companions while eating.",
+      "Topic shift."
+    ],
+    [
+      "352-363",
+      "I discuss the movie Avatar with my companions while eating.",
+      "Topic shift."
+    ],
+    [
+      "364-378",
+      "I finish my rice and clear my empty bowl while discussing GPT.",
+      "Eating task completes as I place the empty bowl down."
+    ],
+    [
+      "379-406",
+      "I listen to my colleagues discuss GPU access, job submissions, and environment configurations.",
+      "Topic and attention shift."
+    ],
+    [
+      "407-409",
+      "I observe the cafeteria dining hall.",
+      "Attention shifts back to conversation."
+    ],
+    [
+      "410-431",
+      "I listen to my colleagues discuss AI model APIs and usage costs.",
+      "Topic shift."
+    ],
+    [
+      "432-455",
+      "I listen to my colleagues discuss coding tools and server access configurations.",
+      "Topic shift."
+    ],
+    [
+      "456-459",
+      "I discuss AI API costs and grip my meal tray to leave.",
+      "Goal of leaving the table initiates."
+    ],
+    [
+      "460-464",
+      "I carry my meal tray to the dish return counter and drop it off.",
+      "Tray return completes."
+    ],
+    [
+      "465-475",
+      "I walk through the dining hall while discussing AI coding tools with a companion.",
+      "Location shifts from dining hall."
+    ],
+    [
+      "476-480",
+      "I walk through the lounge and hallway while discussing AI coding tools.",
+      "Location shifts to parking area."
+    ],
+    [
+      "481-494",
+      "I walk through the underground parking garage.",
+      "Conversation initiates."
+    ],
+    [
+      "495-499",
+      "I listen to a colleague discuss NFC wristband meal payments while walking.",
+      "End of provided input."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

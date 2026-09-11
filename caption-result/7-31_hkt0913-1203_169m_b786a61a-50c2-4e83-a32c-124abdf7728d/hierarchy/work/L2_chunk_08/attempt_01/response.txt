@@ -1,0 +1,36 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group typing steps into drafting a ChatGPT prompt, group colleague interactions into a standalone invitation trigger for lunch, and separate the office departure and subsequent smartphone check.",
+  "events": [
+    [
+      "1750-1756",
+      "I draft a ChatGPT prompt regarding Lucia data performance.",
+      "Prompt drafting complete"
+    ],
+    [
+      "1757-1765",
+      "I accept my colleague's invitation to go out for lunch.",
+      "Invitation interaction complete; redirects to departure"
+    ],
+    [
+      "1766-1768",
+      "I exit the office into the hallway.",
+      "Location shift complete"
+    ],
+    [
+      "1769",
+      "I check my smartphone.",
+      "Distinct device interaction"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      1
+    ],
+    "boundary_cautions": []
+  }
+}
+```

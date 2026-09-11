@@ -1,0 +1,39 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group L2 tasks into coherent activity episodes based on primary goals and locations: fetching water, documenting emotion vector research, relocating while handling personal messages, investigating a research poster with AI assistance, and reading the full academic paper. Brief incidental task switches and messages are absorbed into their surrounding primary activities.",
+  "events": [
+    [
+      "0",
+      "I fill my water bottle at the pantry dispenser.",
+      "End of hydration task"
+    ],
+    [
+      "1-3",
+      "I document my emotion vector research at my workstation.",
+      "Task shift to personal messaging and relocation"
+    ],
+    [
+      "4-6",
+      "I relocate to the open lounge atrium while messaging babe.",
+      "End of transit and personal chat"
+    ],
+    [
+      "7-11",
+      "I investigate a geometric memorization research poster using Claude.",
+      "Shift from analyzing the poster to retrieving the full academic paper"
+    ],
+    [
+      "12-16",
+      "I read the geometric memorization research paper on alphaXiv.",
+      "End of provided data"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

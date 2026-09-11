@@ -1,0 +1,44 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group L3 episodes into broader phases based on primary goals and locations: traveling to the AI mall, exploring the exhibits, commuting to the residential area, having dinner, booking a vehicle, and finally commuting to the campus office.",
+  "events": [
+    [
+      "0-4",
+      "I travel by electric scooter to the AI application mall.",
+      "Groups the departure, intermediate plaza visit, and scooter transit into one overarching journey phase."
+    ],
+    [
+      "5-10",
+      "I explore the technology exhibits at the AI application mall.",
+      "Groups the interactions with various robotic and AI displays along with the subsequent exit from the venue."
+    ],
+    [
+      "11-13",
+      "I acquire takeout food during my electric scooter commute to my residential compound.",
+      "Groups the transit and the en-route food purchase into one unified commute phase."
+    ],
+    [
+      "14-16",
+      "I share a noodle meal with my companion at a street restaurant.",
+      "Groups the beverage purchase, restaurant selection, and the dining experience."
+    ],
+    [
+      "17-18",
+      "I arrange a vehicle rental booking using my smartphone.",
+      "Groups the active booking process and the review of the finalized rental details."
+    ],
+    [
+      "19-20",
+      "I travel by electric scooter to an open-plan office on the campus.",
+      "Groups the final scooter transit and interior navigation to the office."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,112 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group sequential actions into immediate tasks. Abstract short transit, looking around, and device usage when they serve a single immediate goal. Preserve major triggers, such as finding a room locked and deciding to go to Starbucks instead, or deciding to abandon the elevator for the stairs.",
+  "events": [
+    [
+      "1500-1522",
+      "I request door access from IT staff at the General Office.",
+      "Completes interaction with IT staff before entering a different office room"
+    ],
+    [
+      "1523-1532",
+      "I enter office room 6.28B and read academic program brochures.",
+      "Shifts attention from brochures to inspecting other items in the room"
+    ],
+    [
+      "1533-1542",
+      "I examine various notices, mailboxes, and thesis samples in the office.",
+      "Turns attention to a digital presentation on the TV"
+    ],
+    [
+      "1543-1550",
+      "I read a Cognitive Science presentation on the office TV display.",
+      "Finishes reading the display and leaves the office area"
+    ],
+    [
+      "1551-1556",
+      "I walk downstairs to the Psychology department office lobby.",
+      "Arrives at the lobby and starts using a smartphone"
+    ],
+    [
+      "1557-1580",
+      "I browse and send messages in WeChat on my phone.",
+      "Lowers phone and begins looking around the lobby"
+    ],
+    [
+      "1581-1589",
+      "I look at brochures and mailboxes in the office reception area.",
+      "Turns attention to converse with companion"
+    ],
+    [
+      "1590-1598",
+      "I converse with my companion while waiting in the corridor.",
+      "Interrupts wait as a staff member approaches"
+    ],
+    [
+      "1599-1612",
+      "I collect my activated student card from a staff member.",
+      "Completes card collection and walks away"
+    ],
+    [
+      "1613-1624",
+      "I walk down the corridor to room 6.43.",
+      "Arrives at the target room's door"
+    ],
+    [
+      "1625-1644",
+      "I attempt to unlock room 6.43 using my student card and door keypad.",
+      "Abandons the locked door and walks away"
+    ],
+    [
+      "1645-1651",
+      "I walk back to the lobby while typing a message on WeChat.",
+      "Arrives at the lobby to speak with companion"
+    ],
+    [
+      "1652-1662",
+      "I inform my companion the door is locked and we decide to go to Starbucks.",
+      "Major trigger: Abandons plan to study in the room and sets a new destination"
+    ],
+    [
+      "1663-1672",
+      "I read bulletin boards while waiting in the elevator lobby.",
+      "Shifts attention back to smartphone and companion"
+    ],
+    [
+      "1673-1688",
+      "I check my phone and converse with my companion.",
+      "Topic of conversation shifts distinctly to fitness and travel"
+    ],
+    [
+      "1689-1699",
+      "I discuss fitness and travel to Kyoto with my companion.",
+      "Conversation pauses while observing the lobby"
+    ],
+    [
+      "1700-1715",
+      "I wait in the lobby and discuss the upcoming weather with my companion.",
+      "Shifts attention to reading emails on phone"
+    ],
+    [
+      "1716-1733",
+      "I read emails on my smartphone regarding a capstone project and manuscript revisions.",
+      "Interrupted by a suggestion to take the stairs"
+    ],
+    [
+      "1734-1748",
+      "I abandon waiting for the elevator and walk down the stairs, greeting an acquaintance.",
+      "End of supplied input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "1652-1662",
+      "1734-1748"
+    ],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,18 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Merge eligible pairs only when they represent the exact same uninterrupted immediate task artificially split by a batch edge. I will merge [122, 123] because 'SimFoundry' is a platform for '3D data pipelines'; the two batches simply describe the title and the content of the exact same article being read. I will reject all other pairs because they represent sequential actions (e.g., preparing earphones then monitoring, or rejoining Zoom then monitoring) or shifts in conversational topics/documents, which should remain distinct at the immediate task level to avoid re-abstracting into broader activities.",
+  "merges": [
+    [
+      122,
+      123,
+      "I read a WeChat article about SimFoundry and 3D data pipelines.",
+      "Reading the same article continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

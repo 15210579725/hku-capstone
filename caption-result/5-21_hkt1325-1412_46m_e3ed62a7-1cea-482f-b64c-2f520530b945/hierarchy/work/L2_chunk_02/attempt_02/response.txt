@@ -1,0 +1,64 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group actions into immediate tasks: ordering and collecting a meal, finding a seat, eating the meal, packing up, returning the tray, walking to the library workstation, and watching a video on the phone with a brief app switch to check documents.",
+  "events": [
+    [
+      "250-264",
+      "I collect my chicken and soup meal from the food service counter.",
+      "Collects the complete meal and leaves the counter"
+    ],
+    [
+      "265-269",
+      "I relocate to an outdoor patio table with my meal.",
+      "Reaches the table and sits down to eat"
+    ],
+    [
+      "270-389",
+      "I consume my chicken and rice meal at the patio table.",
+      "Finishes eating and drinking the meal"
+    ],
+    [
+      "390-394",
+      "I prepare my backpack and food tray for departure.",
+      "Secures belongings to leave the seating area"
+    ],
+    [
+      "395-398",
+      "I return my food tray to the cafeteria collection station.",
+      "Drops off the empty tray"
+    ],
+    [
+      "399-434",
+      "I navigate across the campus to the Main Library.",
+      "Arrives at the destination library building"
+    ],
+    [
+      "435-440",
+      "I inspect the 3D printer workstation and its equipment.",
+      "Settles at the workstation before using the phone"
+    ],
+    [
+      "441-479",
+      "I watch a Bilibili documentary about the iron ore industry.",
+      "Switches to another application"
+    ],
+    [
+      "480-484",
+      "I review my identity and schedule document photos in WeChat.",
+      "Switches back to the video application"
+    ],
+    [
+      "485-499",
+      "I resume watching the iron ore documentary on Bilibili.",
+      "Continues watching the video to the end of the batch"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

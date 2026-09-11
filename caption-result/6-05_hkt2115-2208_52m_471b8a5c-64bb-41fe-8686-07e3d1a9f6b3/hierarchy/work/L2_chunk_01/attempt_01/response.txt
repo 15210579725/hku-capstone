@@ -1,0 +1,177 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group sequential actions into immediate, unified tasks based on location changes, discrete conversations, checking distinct restaurants, or completing specific goals like turning off lights or browsing a phone.",
+  "events": [
+    [
+      "0-5",
+      "I prepare to leave my apartment.",
+      "Completing initial packing to leave"
+    ],
+    [
+      "6-11",
+      "I return to the dining area.",
+      "Re-entering the dining area"
+    ],
+    [
+      "12-17",
+      "I secure the apartment.",
+      "Finished turning off lights and pushing in chairs"
+    ],
+    [
+      "18-24",
+      "I converse with my companion about apartment items.",
+      "End of conversation before heading to the door"
+    ],
+    [
+      "25-28",
+      "I walk to the elevator lobby.",
+      "Reaching the hallway"
+    ],
+    [
+      "29-35",
+      "I ask User A about a clip found in the shoe cabinet.",
+      "Finishing interaction with User A"
+    ],
+    [
+      "36-39",
+      "I board the elevator.",
+      "Entering and standing in the elevator"
+    ],
+    [
+      "40-44",
+      "I converse with my companion in the elevator.",
+      "Elevator ride concludes"
+    ],
+    [
+      "45-48",
+      "I wait for my companion to sign the visitor logbook.",
+      "Leaving the building after registration"
+    ],
+    [
+      "49-50",
+      "I walk along the sidewalk.",
+      "Starting conversation"
+    ],
+    [
+      "51-70",
+      "I discuss dinner options with my companion.",
+      "End of discussion as we head to the market"
+    ],
+    [
+      "71-77",
+      "I walk to the Shek Tong Tsui Market cooked food centre.",
+      "Arriving at the cooked food centre"
+    ],
+    [
+      "78-83",
+      "I take a seat at the cooked food centre.",
+      "Sitting at table 7"
+    ],
+    [
+      "84-95",
+      "I review the menus at the cooked food centre.",
+      "Finishing reading menus before deciding"
+    ],
+    [
+      "96-100",
+      "I abandon the restaurant due to the heat.",
+      "Standing up and leaving the table"
+    ],
+    [
+      "101-109",
+      "I walk to the cooked food centre exit.",
+      "Reaching the exit doors"
+    ],
+    [
+      "110-117",
+      "I take the elevator to the ground floor.",
+      "Waiting for elevator doors to open"
+    ],
+    [
+      "118-124",
+      "I exit the building to the street.",
+      "Stepping outside"
+    ],
+    [
+      "125-139",
+      "I walk along the street with my companion.",
+      "Approaching a food stall"
+    ],
+    [
+      "140-154",
+      "I discover a shuttered food stall along the street.",
+      "Confirming the stall is closed"
+    ],
+    [
+      "155-171",
+      "I discover a closed Japanese restaurant in an alleyway.",
+      "Confirming the restaurant is closed"
+    ],
+    [
+      "172-178",
+      "I enter The Rockpool building.",
+      "Reaching the lobby"
+    ],
+    [
+      "179-182",
+      "I ride the escalator to the upper floor.",
+      "Reaching the upper floor"
+    ],
+    [
+      "183-187",
+      "I discover the Fairwood restaurant is closed.",
+      "Confirming Fairwood is closed"
+    ],
+    [
+      "188-197",
+      "I descend the stairs to the ground floor.",
+      "Reaching the ground floor"
+    ],
+    [
+      "198-206",
+      "I walk through the ground floor hallway.",
+      "Exiting the hallway"
+    ],
+    [
+      "207-213",
+      "I decide to travel to the subway station after hitting a dead end.",
+      "Realizing the escalator is blocked"
+    ],
+    [
+      "214-224",
+      "I exit the mall to the street.",
+      "Walking on the outdoor sidewalk"
+    ],
+    [
+      "225-227",
+      "I hand the guitar bag to my companion.",
+      "Transferring the bag"
+    ],
+    [
+      "228-239",
+      "I cross the street with my companion.",
+      "Reaching the other side of the road"
+    ],
+    [
+      "240-242",
+      "I enter University X Station.",
+      "Stepping onto the station escalator"
+    ],
+    [
+      "243-249",
+      "I browse X on my smartphone.",
+      "End of provided actions"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "Abandoning the restaurant due to the heat",
+      "Deciding to travel to the subway station after hitting a dead end"
+    ],
+    "boundary_cautions": []
+  }
+}
+```

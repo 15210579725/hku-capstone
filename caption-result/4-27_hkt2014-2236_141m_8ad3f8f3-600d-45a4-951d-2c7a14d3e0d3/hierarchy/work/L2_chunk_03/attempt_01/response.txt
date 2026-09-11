@@ -1,102 +1,87 @@
 ```json
 {
   "target_level": "L2",
-  "plan": "Group continuous actions into immediate tasks, dividing by significant shifts in activity, physical location, or device usage.",
+  "plan": "Group continuous actions into immediate tasks based on a single unified goal, such as messaging on a device, researching a specific topic, transitioning between locations, or completing a specific physical chore.",
   "events": [
     [
-      "500-512",
-      "I message babe on WeChat.",
-      "Finishes using the phone and puts it down."
+      "500-511",
+      "I message babe on WeChat about research funding.",
+      "Goal shifts from messaging on phone to reviewing projects on MacBook."
     ],
     [
-      "513-529",
-      "I review capstone project details and supervisor evaluations on my laptop.",
-      "Switches attention back to the WeChat app on the phone."
+      "512-529",
+      "I review capstone project details and recommendations on my MacBook.",
+      "Task shifts back to messaging babe on WeChat."
     ],
     [
-      "530-538",
-      "I reply to babe on WeChat.",
-      "Finishes messaging and returns focus to the laptop screen."
+      "530-534",
+      "I message babe on WeChat about recharging money.",
+      "Goal shifts back to reading project notes on Claude."
     ],
     [
-      "539-569",
-      "I read about Project 30 and meta-learning on my laptop.",
-      "Turns attention to the patterned backpack."
+      "535-584",
+      "I study Claude research notes on meta-learning and Bayesian inference for capstone projects.",
+      "Reading task ends; begins packing up belongings."
     ],
     [
-      "570-573",
-      "I reach into my backpack compartment.",
-      "Finishes interacting with the backpack and turns back to the laptop."
+      "585-590",
+      "I pack my laptop and water bottle into my backpack.",
+      "Packing completes; transitions to walking out of the area."
     ],
     [
-      "574-584",
-      "I read about Project 31 requirements in Claude on my laptop.",
-      "Begins packing up belongings to leave."
-    ],
-    [
-      "585-591",
-      "I pack my belongings to leave the study cubicle.",
-      "Leaves the study cubicle area."
-    ],
-    [
-      "592-603",
-      "I walk through the university library toward the exit.",
-      "Reaches the glass entrance doors to exit the library."
+      "591-603",
+      "I exit the library building through the turnstiles.",
+      "Exits the building; environment and activity shift to walking outdoors."
     ],
     [
       "604-622",
-      "I walk along the outdoor campus walkway.",
-      "Arrives at the elevator lobby."
+      "I vocalize my stomach pain and thoughts on brain interfaces along the covered walkway.",
+      "Walkway transit ends; enters the elevator."
     ],
     [
       "623-631",
-      "I ride the campus elevator.",
-      "Exits the elevator."
+      "I ride the elevator down.",
+      "Exits the elevator; resumes outdoor walking."
     ],
     [
-      "632-659",
-      "I walk along sidewalks and footbridges toward my apartment building.",
-      "Reaches the courtyard gate of the apartment building."
+      "632-646",
+      "I express urgency for the toilet during my transit across the footbridge and stairs.",
+      "Footbridge transit ends; reaches street level sidewalk."
     ],
     [
-      "660-671",
-      "I ride the apartment building elevator to the 15th floor.",
-      "Arrives at the 15th floor."
+      "647-661",
+      "I walk along the outdoor sidewalk to the residential courtyard.",
+      "Outdoor walk concludes; arrives at the residential building lobby."
     ],
     [
-      "672-680",
-      "I settle at the dining table inside my apartment.",
-      "Sits down and begins observing items on the table."
+      "662-671",
+      "I ride the elevator to the 15th floor.",
+      "Elevator ride finishes upon reaching the 15th floor."
     ],
     [
-      "681-708",
-      "I observe a small retro gadget on the dining table.",
-      "Attention shifts to another person in the kitchen."
+      "672-679",
+      "I enter apartment 15B.",
+      "Entry task completes; sits down at the dining table."
     ],
     [
-      "709-719",
-      "I watch a person in the kitchen handling a beverage.",
-      "Stands up and walks to the kitchen."
+      "680-720",
+      "I observe a small beige retro speaker and my roommate from the dining table.",
+      "Observation period ends; gets up to go to the kitchen."
     ],
     [
-      "720-729",
-      "I stand at the kitchen counter to dry my hands.",
-      "Returns to the dining table."
+      "721-729",
+      "I dry my hands at the kitchen sink.",
+      "Hand drying completes; returns to the dining table."
     ],
     [
-      "730-732",
-      "I sort food items in a shipping box on the dining table.",
-      "Shifts focus to unpacking the backpack."
-    ],
-    [
-      "733-742",
-      "I prepare my electronics on the dining table.",
-      "Leaves the dining table to enter the bedroom."
+      "730-742",
+      "I unpack my MacBook and groceries at the dining table.",
+      "Unpacking concludes; moves into the bedroom."
     ],
     [
       "743-749",
-      "I settle into my bedroom.",
-      "Finishes plugging in the adapter."
+      "I initialize my bedroom air conditioner and electronics.",
+      "End of supplied input batch."
     ]
   ],
   "audit": {

@@ -1,0 +1,134 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group consecutive briefs into unified immediate tasks such as consuming specific dishes, conversing about distinct topics, executing sequential internet searches, processing the restaurant bill, and moving through specific resort areas.",
+  "events": [
+    [
+      "250-251",
+      "I pick food from the lotus-petal dish.",
+      "Completes taking food from the dish."
+    ],
+    [
+      "252-274",
+      "I discuss a video game with my dining companion.",
+      "Shifts focus to eating cucumber and rice."
+    ],
+    [
+      "275-288",
+      "I eat cucumber slices and rice.",
+      "Shifts to the interaction about serving more soup."
+    ],
+    [
+      "289-298",
+      "I decline my companion's offer of more soup.",
+      "Completes the interaction about the soup portion."
+    ],
+    [
+      "299-331",
+      "I consume a bowl of seafood soup.",
+      "Completes drinking the bowl of seafood soup."
+    ],
+    [
+      "332-336",
+      "I inspect our empty dishes.",
+      "Shifts focus to the wall menus."
+    ],
+    [
+      "337-346",
+      "I discuss exotic dishes with my companion.",
+      "Topic shifts to the restaurant's prices."
+    ],
+    [
+      "347-356",
+      "I complain about the restaurant's prices to my companion.",
+      "Topic shifts to the rainy weather."
+    ],
+    [
+      "357-362",
+      "I discuss the pleasant rainy weather with my companion.",
+      "Shifts focus to drinking tea."
+    ],
+    [
+      "363-368",
+      "I drink barley tea with my companion.",
+      "Shifts focus to reading the menu boards."
+    ],
+    [
+      "369-374",
+      "I read the framed menu boards.",
+      "Companion initiates a conversation about passing golf carts."
+    ],
+    [
+      "375-384",
+      "I converse with my companion about the passing golf carts.",
+      "Shifts focus to observing the snack shelves."
+    ],
+    [
+      "385-387",
+      "I observe the snack shelves.",
+      "Companion initiates a conversation about ant eggs."
+    ],
+    [
+      "388-393",
+      "I debate the appearance of ant eggs with my companion.",
+      "Initiates an internet search to check the facts."
+    ],
+    [
+      "394-406",
+      "I search the internet for information about ant eggs.",
+      "Completes the search for ant eggs and starts a new search."
+    ],
+    [
+      "407-414",
+      "I search the internet for the definition of 'tugou'.",
+      "Completes the search for tugou and starts a new search."
+    ],
+    [
+      "415-420",
+      "I search the internet for the definition of 'muchong'.",
+      "Completes all internet searches and puts away the phone."
+    ],
+    [
+      "421-426",
+      "I ask my companion about leaving the restaurant.",
+      "The server arrives with the restaurant bill."
+    ],
+    [
+      "427-440",
+      "I watch my companion pay the restaurant bill.",
+      "Completes the bill payment."
+    ],
+    [
+      "441-451",
+      "I leave the restaurant with my companion.",
+      "Transitions from the stone path to the grassy lawn."
+    ],
+    [
+      "452-463",
+      "I walk across the grassy lawn.",
+      "Reaches the viewpoint of the rice fields."
+    ],
+    [
+      "464-476",
+      "I admire the rice fields.",
+      "Shifts focus to inspecting a specific rice plant."
+    ],
+    [
+      "477-488",
+      "I husk a grain of rice.",
+      "Completes husking the rice grain."
+    ],
+    [
+      "489-499",
+      "I take a mosquito repellent spray bottle from my companion.",
+      "End of provided sequence."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

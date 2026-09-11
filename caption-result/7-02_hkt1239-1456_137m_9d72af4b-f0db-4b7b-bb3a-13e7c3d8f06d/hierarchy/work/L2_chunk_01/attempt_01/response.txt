@@ -1,0 +1,69 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group sequential L1 actions into immediate tasks by identifying continuous phases of exploring XPENG vehicles. The breakdown groups the initial Bilibili video viewing, the transition to the XPENG website to select a model, and the subsequent progressive exploration of the XPENG GX product page across distinct domains (exterior/interior, lighting/gallery, seating, chassis, safety specs, crash videos, autonomous driving), ending with the configurator process.",
+  "events": [
+    [
+      "0-58",
+      "I watch a Bilibili review video of the XPeng MONA M03.",
+      "Switches from watching a video review to browsing the web for XPENG vehicles."
+    ],
+    [
+      "59-75",
+      "I explore various vehicle models on the XPENG website to select the XPENG GX.",
+      "Selects the XPENG GX model and begins exploring its dedicated product overview page."
+    ],
+    [
+      "76-91",
+      "I read the XPENG GX exterior design, interior cabin, and charging specifications on the overview page.",
+      "Shifts from reading core vehicle specifications to viewing lighting animations and environment galleries."
+    ],
+    [
+      "92-112",
+      "I explore the XPENG GX AI headlights, privacy glass, and 3D interior environment photo gallery.",
+      "Moves from general exterior and gallery photos to examining specific seating configurations."
+    ],
+    [
+      "113-137",
+      "I review the XPENG GX seating configurations and cabin electronics specifications.",
+      "Transitions from interior cabin features to reviewing range and chassis engineering."
+    ],
+    [
+      "138-159",
+      "I inspect the XPENG GX range, steer-by-wire chassis, and smart suspension capabilities.",
+      "Moves from chassis and suspension details to reviewing active and structural safety features."
+    ],
+    [
+      "160-168",
+      "I read the XPENG GX active safety features and structural safety architecture diagrams.",
+      "Transitions from reading safety specifications to watching an extended series of collision test videos."
+    ],
+    [
+      "169-205",
+      "I watch a comprehensive series of XPENG GX structural and collision test videos.",
+      "Finishes reviewing the collision test videos and moves to autonomous driving features."
+    ],
+    [
+      "206-209",
+      "I browse the XPENG GX autonomous driving and Robotaxi capabilities.",
+      "Leaves the product overview page to enter the vehicle configurator."
+    ],
+    [
+      "210-230",
+      "I review the XPENG GX powertrain, battery, and smart cabin specifications in the configurator.",
+      "Moves from reviewing detailed hardware specifications to comparing trim version pricing and customizing the vehicle."
+    ],
+    [
+      "231-249",
+      "I customize the XPENG GX 665 Ultra SE trim and exterior paint color in the configurator.",
+      "End of input."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

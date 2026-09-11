@@ -1,0 +1,139 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions with the same immediate goal, target, and location into distinct tasks. Boundaries are formed by changes in attention (e.g., switching between eating, phone usage, and walking) or location (e.g., moving indoors to outdoors, arriving at a desk).",
+  "events": [
+    [
+      "0-13",
+      "I consider beverages at the refrigerator with my companion.",
+      "Moves to the food counter"
+    ],
+    [
+      "14-25",
+      "I order and pay for a hot food dish using Alipay.",
+      "Completes payment and opens WeChat"
+    ],
+    [
+      "26-38",
+      "I read and reply to messages on WeChat.",
+      "Switches to verifying payment receipt"
+    ],
+    [
+      "39-41",
+      "I verify and show my payment receipt to the staff.",
+      "Food is ready to collect"
+    ],
+    [
+      "42-48",
+      "I collect my noodle bowl and chopsticks and carry them to a dining table.",
+      "Arrives at the table"
+    ],
+    [
+      "49-55",
+      "I photograph my noodle bowl and send a message on WeChat.",
+      "Puts phone down and starts eating"
+    ],
+    [
+      "56-107",
+      "I eat my bowl of noodles.",
+      "Receives a video call"
+    ],
+    [
+      "108-128",
+      "I converse on a WeChat video call while finishing my noodles.",
+      "Leaves the table"
+    ],
+    [
+      "129-133",
+      "I carry my empty bowl to the tray return station.",
+      "Stops to get a tissue"
+    ],
+    [
+      "134-138",
+      "I get a tissue to clean my nose while checking my smartphone.",
+      "Resumes walking"
+    ],
+    [
+      "139-144",
+      "I walk through the dining hall.",
+      "Exits the building"
+    ],
+    [
+      "145-154",
+      "I exit the building and walk across the outdoor plaza.",
+      "Focuses on the video call"
+    ],
+    [
+      "155-161",
+      "I monitor the video call while walking along the path.",
+      "Stops to interact with a cat"
+    ],
+    [
+      "162-172",
+      "I greet and pet a cat on the path.",
+      "Resumes walking"
+    ],
+    [
+      "173-177",
+      "I walk along the path.",
+      "Starts conversing on the video call again"
+    ],
+    [
+      "178-187",
+      "I converse on the video call while walking into the building lobby.",
+      "Approaches the elevator"
+    ],
+    [
+      "188-193",
+      "I walk to the elevator and end the video call.",
+      "Checks WeChat while waiting"
+    ],
+    [
+      "194-195",
+      "I check a WeChat conversation.",
+      "Elevator arrives"
+    ],
+    [
+      "196-202",
+      "I ride the elevator to the 9th floor.",
+      "Exits the elevator"
+    ],
+    [
+      "203-211",
+      "I walk to my office workstation.",
+      "Starts organizing desk items"
+    ],
+    [
+      "212-219",
+      "I tidy up items on my desk.",
+      "Sits down at the desk"
+    ],
+    [
+      "220-224",
+      "I sit at my desk and handle my water bottle.",
+      "Turns attention to laptop screen"
+    ],
+    [
+      "225",
+      "I read eye gaze metrics on my laptop.",
+      "Opens Spotlight to search for WeChat"
+    ],
+    [
+      "226-239",
+      "I read WeChat messages regarding vLLM and TensorRT on my laptop.",
+      "Switches to gaze audit tools"
+    ],
+    [
+      "240-249",
+      "I review gaze annotations and metrics in the POV Rollout Viewer.",
+      "End of input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,106 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks by observing shifts between document editing, viewing diagrams, physical desk arrangement, specific Figma interactions (importing, formatting, arranging nodes, routing arrows), web browsing, and ChatGPT prompts.",
+  "events": [
+    [
+      "750-768",
+      "I edit a document on my laptop.",
+      "Shifts focus from active typing to reviewing other documents."
+    ],
+    [
+      "769-786",
+      "I review documents on my laptop.",
+      "Shifts focus to setting up a stand and viewing a geometric diagram."
+    ],
+    [
+      "787-791",
+      "I examine a geometric triangle diagram on my laptop.",
+      "Shifts focus to manipulating physical desk accessories."
+    ],
+    [
+      "792-802",
+      "I organize white plastic accessories on my desk.",
+      "Switches context to importing a digital asset."
+    ],
+    [
+      "803-812",
+      "I import a multilevel data SVG flowchart from VS Code into Figma.",
+      "Action is complete; switches to browsing file directories."
+    ],
+    [
+      "813-817",
+      "I browse the Finder figures directory.",
+      "Navigates back into Figma to apply stroke styling."
+    ],
+    [
+      "818-825",
+      "I format the stroke line connectors in Figma.",
+      "Changes focus from styling to adjusting specific flowchart nodes."
+    ],
+    [
+      "826-849",
+      "I adjust task hierarchy flowchart nodes in Figma.",
+      "Focus shifts specifically to realigning connector arrows."
+    ],
+    [
+      "850-873",
+      "I realign connector arrows between flowchart nodes in Figma.",
+      "Zooms out to inspect the broader diagram layout."
+    ],
+    [
+      "874-889",
+      "I inspect the multi-level task granularity diagram in Figma.",
+      "Switches application to Google Docs."
+    ],
+    [
+      "890-921",
+      "I read an order management document in Google Docs.",
+      "Navigates back to the Figma canvas."
+    ],
+    [
+      "922-927",
+      "I inspect wireframe components in Figma.",
+      "Switches to the ChatGPT interface."
+    ],
+    [
+      "928-936",
+      "I type a prompt into ChatGPT.",
+      "Prompt entry complete; begins reviewing a document on the laptop."
+    ],
+    [
+      "937-950",
+      "I examine a document on my laptop.",
+      "Loads and views a new webpage."
+    ],
+    [
+      "951-967",
+      "I browse Apple device summary slides on MacStories.",
+      "Switches browser tabs to view presentations and articles."
+    ],
+    [
+      "968-971",
+      "I review presentation and article tabs in my browser.",
+      "Opens and examines ChatGPT SVG design previews."
+    ],
+    [
+      "972-995",
+      "I compare ChatGPT SVG flowchart design variants.",
+      "Closes preview and begins typing a specific modification prompt."
+    ],
+    [
+      "996-999",
+      "I instruct ChatGPT to refine the V2 design variant.",
+      "Batch ends."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": [
+      "Merged the brief reaction to singing (919-921) into the Google Docs reading task because it was an incidental distraction that did not substantially redirect the major plan."
+    ]
+  }
+}
+```

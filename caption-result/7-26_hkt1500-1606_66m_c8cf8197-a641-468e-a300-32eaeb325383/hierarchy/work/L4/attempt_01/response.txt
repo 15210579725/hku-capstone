@@ -1,0 +1,34 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group pre-meal activities into a waiting phase. Group the active eating and continuous conversation into a primary dining phase. Group the preparation, coordination, and billing into a restaurant departure phase. Keep the subsequent washroom navigation in the mall as a distinct phase.",
+  "events": [
+    [
+      "0-2",
+      "I pass the time waiting for the delayed food order at the dining table.",
+      "Meal arrives, ending the waiting period."
+    ],
+    [
+      "3-9",
+      "I discuss various lifestyle and personal topics with my companion over the grilled fish meal.",
+      "Conversation and meal conclude, shifting to departure preparation."
+    ],
+    [
+      "10-12",
+      "I finalize my restaurant departure and dog kennel visit logistics.",
+      "Departure from the restaurant is complete, shifting location and goal."
+    ],
+    [
+      "13",
+      "I navigate the shopping mall to locate the washroom.",
+      "End of provided sequence."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

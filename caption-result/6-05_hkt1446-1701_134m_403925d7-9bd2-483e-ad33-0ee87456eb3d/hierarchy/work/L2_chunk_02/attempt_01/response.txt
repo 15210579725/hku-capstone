@@ -1,0 +1,146 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions with a single immediate objective, merging across short looks or device shifts when the task remains consistent. Boundaries are placed when the primary task, location, or focus changes, such as finishing transit segments, changing topics on a phone, or responding to a companion's request that redirects activity.",
+  "events": [
+    [
+      "250-257",
+      "I read the DingTalk ONE strategy document on my phone.",
+      "Train arrives and boarding begins"
+    ],
+    [
+      "258-260",
+      "I board the train carriage.",
+      "Settles into the train interior"
+    ],
+    [
+      "261-288",
+      "I read the DingTalk ONE strategy document on the train.",
+      "Focus shifts to an auditory observation nearby"
+    ],
+    [
+      "289-290",
+      "I observe a speaking woman on the train.",
+      "Returns focus to reading smartphone"
+    ],
+    [
+      "291-302",
+      "I read articles about AI knowledge management and efficiency tools on my phone.",
+      "Train arrives at destination"
+    ],
+    [
+      "303-306",
+      "I exit the train station.",
+      "Leaves station environment to begin walking path"
+    ],
+    [
+      "307-332",
+      "I walk across the pedestrian footbridge to the shopping mall.",
+      "Enters mall and pauses to browse a store"
+    ],
+    [
+      "333-338",
+      "I browse the baked goods at A-1 Bakery.",
+      "Leaves bakery to continue walking"
+    ],
+    [
+      "339-349",
+      "I navigate the shopping mall concourse to the upper level.",
+      "Engages in a focused conversation"
+    ],
+    [
+      "350-352",
+      "I discuss the graduation attendees with my companion.",
+      "Conversation concludes and campus transit resumes"
+    ],
+    [
+      "353-371",
+      "I walk through the City University pedestrian tunnel.",
+      "Reaches the outdoor courtyard"
+    ],
+    [
+      "372-379",
+      "I walk through the campus courtyard.",
+      "Enters the academic building"
+    ],
+    [
+      "380-387",
+      "I enter the campus building via the turnstiles.",
+      "Reaches escalators for vertical transit"
+    ],
+    [
+      "388-394",
+      "I ride the escalator to the upper floor.",
+      "Steps off escalator onto upper hallway"
+    ],
+    [
+      "395-401",
+      "I review the EMBA course poster in the hallway.",
+      "Scans card to enter a restricted stairwell"
+    ],
+    [
+      "402-408",
+      "I navigate the stairwell to the campus concourse.",
+      "Engages in a new discussion about class locations"
+    ],
+    [
+      "409-415",
+      "I walk to the upper lecture hall.",
+      "Enters the lecture hall"
+    ],
+    [
+      "416-427",
+      "I inspect the empty lecture hall and AV equipment.",
+      "Pauses standing to check smartphone"
+    ],
+    [
+      "428-441",
+      "I read an X post analyzing the DingTalk ONE project on my phone.",
+      "Decides to check the room's air conditioning"
+    ],
+    [
+      "442-460",
+      "I search the lecture hall and vestibule for the air conditioning controls.",
+      "Concludes search and returns to discuss seating"
+    ],
+    [
+      "461-466",
+      "I select a seat in the lecture hall.",
+      "Arrives at seat and begins unpacking"
+    ],
+    [
+      "467-478",
+      "I set up my MacBook at my desk.",
+      "Unpacking complete, begins using the laptop"
+    ],
+    [
+      "479-480",
+      "I read a ChatGPT analysis on my MacBook.",
+      "Switches to preparing earplugs"
+    ],
+    [
+      "481-484",
+      "I prepare my earplugs.",
+      "Companion interrupts with a request for water"
+    ],
+    [
+      "485-492",
+      "I agree to fetch water for my companion.",
+      "Action agreed upon, stands up to execute"
+    ],
+    [
+      "493-499",
+      "I walk to the water dispenser.",
+      "End of input sequence"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "Companion asks for water at 485, initiating a completely new goal to leave the desk and fetch water."
+    ],
+    "boundary_cautions": []
+  }
+}
+```

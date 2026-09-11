@@ -1,0 +1,24 @@
+```json
+{"target_level":"L3",
+"plan":"Group Level 2 briefs into coherent activity episodes based on continuous goals such as navigation, shopping, cycling, and distinct activities within the park.",
+"events":[
+  ["0-2", "I search for store details on Gaode Maps along the promenade.", "Destination search concludes"],
+  ["3-7", "I walk to Yonghui Supermarket in the shopping mall.", "Arrival at the supermarket"],
+  ["8-26", "I purchase bakery items at Yonghui Supermarket.", "Purchase completes at checkout"],
+  ["27-30", "I walk from the shopping mall to the parked shared bicycles.", "Arrival at the shared bicycles"],
+  ["31-34", "I initiate a Meituan shared bicycle rental.", "Bicycle unlocked and ready to ride"],
+  ["35-43", "I travel to a park plaza on a Meituan shared bicycle.", "Arrival at park and rental ends"],
+  ["44-46", "I examine the directories and public kiosks in the park plaza.", "Plaza exploration concludes"],
+  ["47-53", "I walk through the park paths to the playground.", "Arrival at the playground"],
+  ["54-55", "I use Amap on the playground swing.", "Departure from the playground"],
+  ["56-60", "I walk to the waterfront viewing platform with an unboxed egg tart.", "Arrival at the waterfront viewing platform"],
+  ["61-66", "I feed the fish at the waterfront platform.", "End of recording"]
+],
+"audit":{
+  "complete":true,
+  "uncertainties":[],
+  "major_triggers":[],
+  "boundary_cautions":[]
+}
+}
+```

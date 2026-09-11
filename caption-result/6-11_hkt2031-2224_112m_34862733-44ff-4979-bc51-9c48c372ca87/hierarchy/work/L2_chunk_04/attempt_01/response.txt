@@ -1,0 +1,96 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group consecutive action briefs into immediate tasks based on the specific evaluation items being reviewed, terminal interactions, and interactions with the roommate.",
+  "events": [
+    [
+      "750-771",
+      "I evaluate dialogue lines and candidate scores in VS Code.",
+      "Focus shifts to evaluating a new item regarding a missing studio light."
+    ],
+    [
+      "772-793",
+      "I review 'human_scoring_v4.txt' to type annotation text regarding a missing studio light.",
+      "Focus shifts to evaluating prediction candidates for finding a car."
+    ],
+    [
+      "794-812",
+      "I evaluate prediction candidates for finding a car to provide a scoring comment.",
+      "Focus shifts to evaluating action segmentations for Tasha, Katrina, and Lucia."
+    ],
+    [
+      "813-827",
+      "I evaluate action segmentations and scoring entries regarding Tasha, Katrina, and Lucia.",
+      "Focus shifts to evaluating candidates for market entry, hotpot base, and an advertisement."
+    ],
+    [
+      "828-849",
+      "I evaluate prediction candidates regarding market entry, hotpot base, and an advertisement.",
+      "Focus shifts to addressing the evaluation scope at the terminal."
+    ],
+    [
+      "850-867",
+      "I discuss the evaluation scope with a person at the terminal.",
+      "Focus shifts back to reviewing the evaluation document for acquiring coins."
+    ],
+    [
+      "868-887",
+      "I review the evaluation document candidates regarding acquiring coins.",
+      "Focus shifts to searching for activity logs in VS Code."
+    ],
+    [
+      "888-899",
+      "I search for activity logs in VS Code to type annotation ratings.",
+      "Focus shifts to typing evaluation comments about plan discussions and shopping lists."
+    ],
+    [
+      "900-913",
+      "I type evaluation comments regarding plan discussions and shopping lists.",
+      "Focus shifts to reviewing past evening logs in another file."
+    ],
+    [
+      "914-924",
+      "I review past evening logs in another events file.",
+      "Focus shifts to evaluating candidate actions for dinner and organizing ingredients."
+    ],
+    [
+      "925-942",
+      "I evaluate candidate actions regarding dinner and organizing ingredients.",
+      "Focus shifts to presenting the laptop to the person on the bed."
+    ],
+    [
+      "943-948",
+      "I present my laptop to the person on the bed.",
+      "Focus shifts to explaining the evaluation criteria to the roommate."
+    ],
+    [
+      "949-978",
+      "I explain the scoring evaluation criteria for action predictions to my roommate.",
+      "Focus shifts to discussing specific party activity items with the peer."
+    ],
+    [
+      "979-989",
+      "I discuss evaluation candidate items regarding party activities with my peer.",
+      "Focus shifts to watching the roommate use her phone."
+    ],
+    [
+      "990-993",
+      "I watch my roommate use WeChat on her smartphone.",
+      "Focus shifts to retrieving a power bank from a shopping bag."
+    ],
+    [
+      "994-999",
+      "I retrieve a power bank from a shopping bag to untangle its cable.",
+      "End of input batch."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      943
+    ],
+    "boundary_cautions": []
+  }
+}
+```

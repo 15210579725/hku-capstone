@@ -1,0 +1,144 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group consecutive action briefs into immediate L2 tasks based on unified objectives such as managing electronics, packing items, interacting with a companion regarding outfits and appearance, styling hair, filling water, and progressively navigating through the estate walkways.",
+  "events": [
+    [
+      "0-5",
+      "I manage USB connections on my MacBook at the desk.",
+      "Objective switches to packing the MacBook"
+    ],
+    [
+      "6-10",
+      "I pack my MacBook into my backpack.",
+      "Objective switches to gathering other items"
+    ],
+    [
+      "11-17",
+      "I gather my phone and water bottle.",
+      "Location switches to the hallway"
+    ],
+    [
+      "18-23",
+      "I inspect the dining table and laundry detergent in the hallway.",
+      "Location switches back to the bedroom"
+    ],
+    [
+      "24-29",
+      "I interact with the AC remote and my backpack.",
+      "Objective switches to conversing with my friend"
+    ],
+    [
+      "30-49",
+      "I converse with my friend about her makeup and departure plans.",
+      "Objective switches to observing my friend change clothes"
+    ],
+    [
+      "50-66",
+      "I observe my friend adjust her clothes and belt.",
+      "Objective switches to handling socks"
+    ],
+    [
+      "67-89",
+      "I handle white socks during a conversation about my friend's outfit.",
+      "Objective switches to spraying perfume"
+    ],
+    [
+      "90-97",
+      "I spray perfume onto the socks.",
+      "Objective switches to offering an umbrella"
+    ],
+    [
+      "98-104",
+      "I offer a folded umbrella to my companion.",
+      "Objective switches to hair styling"
+    ],
+    [
+      "105-116",
+      "I style my hair.",
+      "Objective switches to examining an item"
+    ],
+    [
+      "117-121",
+      "I examine a jar of Thai herbal balm.",
+      "Objective switches to watching my friend tie her hair"
+    ],
+    [
+      "122-127",
+      "I watch my friend tie her hair into a bun.",
+      "Objective switches to conversation about appearance"
+    ],
+    [
+      "128-140",
+      "I converse with my friend about her shirt and appearance.",
+      "Objective switches to adjusting harness straps"
+    ],
+    [
+      "141-144",
+      "I adjust harness straps.",
+      "Objective switches to interacting with the fragrance dispenser"
+    ],
+    [
+      "145-157",
+      "I turn off the wall-mounted fragrance dispenser.",
+      "Objective switches to filling the water bottle"
+    ],
+    [
+      "158-168",
+      "I fill my water bottle from the kettle during a conversation about a burning smell.",
+      "Objective switches to leaving preparation"
+    ],
+    [
+      "169-173",
+      "I prepare my umbrella and water bottle for departure.",
+      "Location switches to leaving the apartment"
+    ],
+    [
+      "174-180",
+      "I follow my companion out of the apartment.",
+      "Location switches to the elevator lobby"
+    ],
+    [
+      "181-186",
+      "I wait for the elevator in the lobby.",
+      "Objective switches to reading a notice"
+    ],
+    [
+      "187-193",
+      "I review a water suspension notice with my companion.",
+      "Location switches to walking outside"
+    ],
+    [
+      "194-202",
+      "I inspect the empty pool outside.",
+      "Location switches to the covered walkway"
+    ],
+    [
+      "203-212",
+      "I walk along the covered walkway near the building lobby.",
+      "Objective switches to observing the courtyard"
+    ],
+    [
+      "213-221",
+      "I observe the garden courtyard and passing pedestrians.",
+      "Location switches to the colonnade"
+    ],
+    [
+      "222-240",
+      "I converse with my companion during a walk along the colonnade.",
+      "Objective switches to exiting the estate"
+    ],
+    [
+      "241-249",
+      "I walk past the vehicle barrier.",
+      "End of recording"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

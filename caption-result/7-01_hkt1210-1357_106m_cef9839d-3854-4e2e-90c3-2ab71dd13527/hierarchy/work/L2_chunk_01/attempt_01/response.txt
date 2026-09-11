@@ -1,0 +1,99 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks defined by the current physical interaction, location, or digital activity. Shift boundaries when the wearer moves to a new area, starts handling a completely different set of objects, or changes primary focus (e.g., from reading an article to purchasing a ticket).",
+  "events": [
+    [
+      "0-19",
+      "I watch a Bilibili video about British vehicles on my iPad.",
+      "Switches focus from the iPad video to packing belongings."
+    ],
+    [
+      "20-25",
+      "I pack my iPad and a charging cable into my backpack.",
+      "Leaves the packing area to inspect items in the bathroom."
+    ],
+    [
+      "26-41",
+      "I inspect a star-shaped hair clip and a black studded belt at the bathroom vanity.",
+      "Leaves the vanity to sit by the window."
+    ],
+    [
+      "42-46",
+      "I view the karst mountains outside the window from the armchair.",
+      "Shifts attention from the window view to the tea set."
+    ],
+    [
+      "47-67",
+      "I inspect a ceramic tea set and a pale green tea caddy.",
+      "Leaves the tea set to observe companion."
+    ],
+    [
+      "68-76",
+      "I observe my companion organizing her luggage in preparation for room departure.",
+      "Approaches the door to exit the room."
+    ],
+    [
+      "77-84",
+      "I walk down the hotel hallway after exiting the room.",
+      "Reaches the elevator bank."
+    ],
+    [
+      "85-98",
+      "I ride the elevator down to the first floor with my companion.",
+      "Arrives at the hotel lobby."
+    ],
+    [
+      "99-114",
+      "I examine candies and tour brochures at the hotel front desk.",
+      "Shifts focus from brochures to the travel schedule."
+    ],
+    [
+      "115-120",
+      "I review our travel schedule and train tickets with my companion in the hotel lobby.",
+      "Leaves the lobby to go outside to the car."
+    ],
+    [
+      "121-134",
+      "I load a blue suitcase and a white backpack into the car.",
+      "Finishes loading the trunk and enters the driver's seat."
+    ],
+    [
+      "135-152",
+      "I prepare the car for departure from the driver's seat.",
+      "Commences driving the vehicle forward."
+    ],
+    [
+      "153-182",
+      "I drive the car through the village engaging in a discussion about our destination and fuel range.",
+      "Enters the destination entrance gate."
+    ],
+    [
+      "183-206",
+      "I maneuver the car into a space in the destination parking lot.",
+      "Completes parking the car."
+    ],
+    [
+      "207-219",
+      "I walk across the parking lot with my companion under an umbrella.",
+      "Arrives near the Blue Hole Coffee area."
+    ],
+    [
+      "220-232",
+      "I read a solar geoengineering article on my smartphone outside the Blue Hole Coffee entrance.",
+      "Begins the ticket purchase process in WeChat."
+    ],
+    [
+      "233-249",
+      "I purchase a Blue Hole ticket via WeChat on my smartphone.",
+      "Concludes the WeChat ticket payment."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,18 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate the eligible pair [13, 14] to determine if it is a single continuous task interrupted by a batch boundary. Event 13 is a voice call with the user's mom, and Event 14 continues the conversation (referring to the caller as a companion) at the exact same time boundary. They will be merged into a single ongoing voice call task.",
+  "merges": [
+    [
+      13,
+      14,
+      "I converse on a voice call with my mom about my location, meals, and university comparisons.",
+      "Same voice call continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

@@ -1,0 +1,121 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group actions into immediate tasks based on continuous goals such as preparing to leave, interacting with a parrot, deciding destinations, fetching an umbrella, traveling to the car, reading articles, and holding distinct conversations during the ride.",
+  "events": [
+    [
+      "0-9",
+      "I prepare to leave the hotel room.",
+      "Ends when I switch to setting up the camera equipment."
+    ],
+    [
+      "10-13",
+      "I set up the DJI Osmo Pocket camera.",
+      "Ends when I begin walking down the hallway."
+    ],
+    [
+      "14-31",
+      "I travel from the hallway to the cafe seating area.",
+      "Ends when I arrive at the bird cage."
+    ],
+    [
+      "32-60",
+      "I interact with a conure parrot in the cafe.",
+      "Ends when I leave the bird area to meet my companion."
+    ],
+    [
+      "61-79",
+      "I discuss potential travel destinations with my companion on the patio.",
+      "Ends when I switch to using my phone."
+    ],
+    [
+      "80-87",
+      "I finalize the Fuhuali mall destination with my companion.",
+      "Destination is agreed upon, followed by continuous reading."
+    ],
+    [
+      "88-97",
+      "I read tech articles about AI and autonomous driving on my phone.",
+      "Interrupted by my companion's question about an umbrella."
+    ],
+    [
+      "98-103",
+      "I agree to fetch an umbrella from the hotel room.",
+      "Decision made to return to the room, changing the travel plan."
+    ],
+    [
+      "104-128",
+      "I return to my hotel room to retrieve an umbrella.",
+      "Umbrella is retrieved and I exit the room."
+    ],
+    [
+      "129-144",
+      "I travel from the hotel floor to the parking lot.",
+      "Arrival at the vehicle."
+    ],
+    [
+      "145-159",
+      "I inspect the passenger notice card after boarding the car.",
+      "Ends when conversational topic shifts to the weather."
+    ],
+    [
+      "160-164",
+      "I discuss the hot weather and holiday schedule with my companion.",
+      "Ends when I return to reading my phone."
+    ],
+    [
+      "165-173",
+      "I read a QuantumBit article about AI culture on my phone.",
+      "Ends when I pause reading to look around."
+    ],
+    [
+      "174-180",
+      "I observe the passing scenery from the car.",
+      "Ends when I resume reading the article."
+    ],
+    [
+      "181-186",
+      "I read an article about the Chinese AI lab ecosystem.",
+      "Interrupted by a conversation about sleeping habits."
+    ],
+    [
+      "187-190",
+      "I listen to my companion complain about my sleeping habits.",
+      "Conversation concludes and I return to my phone."
+    ],
+    [
+      "191-201",
+      "I read an article about the Chinese AI market.",
+      "Ends when shifting attention to discuss grocery destinations."
+    ],
+    [
+      "202-212",
+      "I discuss grocery and food options with my companion.",
+      "Conversation ends and I resume monitoring the ride."
+    ],
+    [
+      "213-229",
+      "I monitor the car interior and passing traffic.",
+      "Ends when a passenger initiates a joke about the notice card."
+    ],
+    [
+      "230-235",
+      "I listen to the passengers joke about predicting my future.",
+      "Joking ends and attention returns to the scenery."
+    ],
+    [
+      "236-249",
+      "I converse with my companion about the heat and an aerial walkway.",
+      "End of provided inputs."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      7
+    ],
+    "boundary_cautions": []
+  }
+}
+```

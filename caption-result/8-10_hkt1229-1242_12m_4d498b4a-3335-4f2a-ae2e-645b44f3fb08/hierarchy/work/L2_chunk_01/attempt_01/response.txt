@@ -1,0 +1,124 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group contiguous actions into immediate tasks based on shared specific objectives, such as arriving at the desk, reading draft sections, inserting images, editing text, scheduling emails, and performing physical actions.",
+  "events": [
+    [
+      "0-4",
+      "I arrive at my desk in the office and plug in my laptop.",
+      "Physical arrival completes, shifts to reviewing draft on laptop"
+    ],
+    [
+      "5-12",
+      "I read a PhD inquiry email draft about computational wellbeing and digital twins.",
+      "Reading phase completes, shifts to highlighting specific text"
+    ],
+    [
+      "13-17",
+      "I highlight and review a sentence in the PhD email draft.",
+      "Highlighting completes, opens insert menu"
+    ],
+    [
+      "18-23",
+      "I insert a timeline diagram into the email draft in Outlook.",
+      "File insertion completes, returns to reading draft"
+    ],
+    [
+      "24-29",
+      "I review the introduction and research proposal in the email draft to Prof. X.",
+      "Reading completes, interrupted by blowing nose"
+    ],
+    [
+      "30-36",
+      "I use a tissue to blow and wipe my nose.",
+      "Physical action completes, returns to laptop"
+    ],
+    [
+      "37-44",
+      "I insert and resize an RL pipeline diagram in the email draft.",
+      "Image insertion completes, moves to scheduling delivery"
+    ],
+    [
+      "45-49",
+      "I schedule the email delivery in Outlook for August 12 at 15:00.",
+      "Scheduling completes, opens a new email draft"
+    ],
+    [
+      "50-58",
+      "I read an email draft to Prof. Rajendran and delete a paragraph about agent practice.",
+      "Text deletion completes, moves to insert image"
+    ],
+    [
+      "59-64",
+      "I insert an RL pipeline diagram into the email draft.",
+      "Insertion completes, returns to reviewing text"
+    ],
+    [
+      "65-70",
+      "I review the email draft paragraphs concerning meta-RL.",
+      "Reading completes, moves to attach file"
+    ],
+    [
+      "71-76",
+      "I attach my CV to the email draft and proofread the text.",
+      "Attachment completes, moves to deleting text"
+    ],
+    [
+      "77-83",
+      "I review the email draft and delete a sentence about simple environments.",
+      "Deletion completes, moves to typing new content"
+    ],
+    [
+      "84-94",
+      "I type sentences about fitness, meta-learning rewards, and emotion into the email draft.",
+      "Typing completes, switches to ChatGPT for revision"
+    ],
+    [
+      "95-108",
+      "I prompt ChatGPT to revise and compress the drafted academic text.",
+      "Generation completes, moves to copy the result"
+    ],
+    [
+      "109-114",
+      "I copy the revised text from ChatGPT and paste it into the Outlook email draft.",
+      "Pasting completes, moves to scheduling delivery"
+    ],
+    [
+      "115-118",
+      "I schedule the email delivery in Outlook for August 12 at 20:00.",
+      "Scheduling completes, switches to checking inbox folders"
+    ],
+    [
+      "119-123",
+      "I check the Sent Items and Drafts folders in Outlook.",
+      "Outlook review completes, switches to Feishu"
+    ],
+    [
+      "124-132",
+      "I review PhD application cold email templates and schedules in Feishu.",
+      "Template review completes, switches to personal email"
+    ],
+    [
+      "133-138",
+      "I check my 163 Mail inbox and read an Apple subscription receipt.",
+      "Email check completes, changes browser tabs"
+    ],
+    [
+      "139-142",
+      "I manage my browser tabs and view an OCR benchmarking webpage.",
+      "Web browsing completes, shifts attention to earplugs"
+    ],
+    [
+      "143-149",
+      "I prepare and insert foam earplugs.",
+      "End of sequence"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

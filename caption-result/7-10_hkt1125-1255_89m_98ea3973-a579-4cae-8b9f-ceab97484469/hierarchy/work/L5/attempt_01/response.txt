@@ -1,0 +1,39 @@
+```json
+{
+  "target_level": "L5",
+  "plan": "The L4 phases alternate between office work sessions focused on AI coding tools and distinct breaks (lunch in the cafeteria, outdoor leisure on campus). Since each phase represents an independent major activity with a completely different primary location and overarching goal, they cannot be merged and map 1:1 to L5.",
+  "events": [
+    [
+      "0",
+      "I manage my ChatGPT Codex workspace and AI coding tool subscriptions on my computer.",
+      "Distinct major work activity."
+    ],
+    [
+      "1",
+      "I take my lunch break with my companions at the cafeteria.",
+      "Location and goal shift to a cafeteria lunch."
+    ],
+    [
+      "2",
+      "I process my ChatGPT Codex conversation migration and AI tools at my desk.",
+      "Location and goal shift back to desk work."
+    ],
+    [
+      "3",
+      "I take an outdoor leisure break on campus.",
+      "Location and goal shift to an outdoor break."
+    ],
+    [
+      "4",
+      "I configure my ChatGPT Codex API migration setup at my office workstation.",
+      "Location and goal shift back to office work."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

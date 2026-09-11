@@ -1,0 +1,114 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group atomic actions into immediate tasks by physical progression (walking, queuing, selecting food, paying, seating). Subdivide the lengthy meal period based on distinct conversation topics, consumed meal components, and notable incidents like finding a fiber. Conclude with tray return, exiting the cafeteria, and arriving at the gym.",
+  "events": [
+    [
+      "250-253",
+      "I walk toward the cafeteria entrance.",
+      "Approach to cafeteria"
+    ],
+    [
+      "254-257",
+      "I queue at the cafeteria's self-service food counter.",
+      "Queueing for food"
+    ],
+    [
+      "258-261",
+      "I collect chopsticks and a dining tray.",
+      "Collecting tray"
+    ],
+    [
+      "262-273",
+      "I collect crispy fried meat and diced chicken stir-fry on my tray for checkout.",
+      "Selecting dishes"
+    ],
+    [
+      "274-282",
+      "I pay ¥14.50 for my meal via WeChat.",
+      "Payment"
+    ],
+    [
+      "283-286",
+      "I carry my meal tray to a dining table.",
+      "Seating"
+    ],
+    [
+      "287-304",
+      "I discuss snacks and schedules with my companion over Kung Pao chicken.",
+      "Eating and schedule chat"
+    ],
+    [
+      "305-322",
+      "I discuss blueberries and teaching with my companion over chicken dishes.",
+      "Eating and blueberry chat"
+    ],
+    [
+      "323-326",
+      "I eat tofu with braised food and rice.",
+      "Eating tofu and rice"
+    ],
+    [
+      "327-336",
+      "I discard a green fiber found in the fried pork strips.",
+      "Discarding green fiber"
+    ],
+    [
+      "337-351",
+      "I consume white rice with tomato egg soup and a spicy dish.",
+      "Eating soup and spicy dish"
+    ],
+    [
+      "352-365",
+      "I discuss User A with my companion over my meal.",
+      "Eating and User A chat"
+    ],
+    [
+      "366-379",
+      "I gather fried meat and food morsels from the sauce dish.",
+      "Gathering morsels"
+    ],
+    [
+      "380-394",
+      "I consume peanuts and chili-coated food morsels.",
+      "Eating peanuts"
+    ],
+    [
+      "395-399",
+      "I finish my soup upon my companion's suggestion to leave.",
+      "Finishing soup"
+    ],
+    [
+      "400-405",
+      "I place my meal tray onto the return station conveyor belt.",
+      "Tray return"
+    ],
+    [
+      "406-409",
+      "I retrieve napkins from my companion inside the dining hall.",
+      "Getting napkins"
+    ],
+    [
+      "410-417",
+      "I exit the cafeteria through the glass doors.",
+      "Cafeteria exit"
+    ],
+    [
+      "418-423",
+      "I walk along the outdoor terrace to the gym lobby.",
+      "Walk to gym"
+    ],
+    [
+      "424-429",
+      "I review the new schedule during my gym registration.",
+      "Gym registration"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,36 @@
+```json
+{
+  "target_level": "L5",
+  "plan": "Group the sequence into major activities: the initial indoor design session, the standalone trigger to go outside, the outdoor physical activity, and the continuous digital work session upon returning.",
+  "events": [
+    [
+      "0",
+      "I design a comic storyboard and flow diagram in Figma.",
+      "Distinct initial design activity prior to leaving the apartment"
+    ],
+    [
+      "1",
+      "I agree to my roommate's prompt to leave the apartment.",
+      "Standalone behavior-changing trigger initiating a major departure"
+    ],
+    [
+      "2",
+      "I play shuttlecock with my companion in the outdoor plazas.",
+      "Major outdoor physical activity"
+    ],
+    [
+      "3-5",
+      "I perform digital research, reading, and diagram design tasks focusing on Apple OS aesthetics, biology, and action prediction.",
+      "Continuous device-based work session following the return indoors"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      1
+    ],
+    "boundary_cautions": []
+  }
+}
+```

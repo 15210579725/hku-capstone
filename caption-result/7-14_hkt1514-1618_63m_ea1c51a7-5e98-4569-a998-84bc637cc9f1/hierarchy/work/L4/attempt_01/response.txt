@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group the consecutive academic presentations into a single seminar attendance phase, and separate the subsequent transit into its own phase.",
+  "events": [
+    [
+      "0-6",
+      "I attend a series of academic presentations on computing, robotics, and complex systems.",
+      "Presentations conclude and I leave the lecture hall"
+    ],
+    [
+      "7",
+      "I travel to a restroom on the 6th floor of another building.",
+      "End of input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

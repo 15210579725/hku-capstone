@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L5",
+  "plan": "Separate the specific office work task from the subsequent departure, as they represent distinct overarching goals (completing a work project versus transiting away from the location).",
+  "events": [
+    [
+      "0",
+      "I draft prompt instructions for VRS file processing.",
+      "End of the specific work activity before packing or leaving."
+    ],
+    [
+      "1",
+      "I depart from the office.",
+      "Shift to transit and leaving the primary location."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

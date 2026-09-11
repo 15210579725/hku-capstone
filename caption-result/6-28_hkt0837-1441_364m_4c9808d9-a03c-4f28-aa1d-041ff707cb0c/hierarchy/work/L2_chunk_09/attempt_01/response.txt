@@ -1,0 +1,159 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions and video watching into immediate tasks based on app usage, physical actions, and distinct topics within the feeds.",
+  "events": [
+    [
+      "0-2",
+      "I fill a bottle with hot water.",
+      "Physical task complete"
+    ],
+    [
+      "3-4",
+      "I return to my seat.",
+      "Movement to seat complete"
+    ],
+    [
+      "5",
+      "I express surprise.",
+      "Spoken reaction complete"
+    ],
+    [
+      "6-15",
+      "I watch a Douyin short video about Dezhou's grain production.",
+      "Topic and platform shift"
+    ],
+    [
+      "16-19",
+      "I watch a Bilibili video about Dezhou grain production and saline-alkali farming.",
+      "Topic shift"
+    ],
+    [
+      "20",
+      "I watch a short news video.",
+      "Topic shift"
+    ],
+    [
+      "21-28",
+      "I watch a Bilibili video about international relations and converse with a passenger.",
+      "Topic shift"
+    ],
+    [
+      "29-32",
+      "I scroll through the Bilibili feed and watch short videos.",
+      "Platform and task shift"
+    ],
+    [
+      "33-44",
+      "I open Xiaohongshu and view a post about a Porsche concept car.",
+      "Topic shift within new app"
+    ],
+    [
+      "45-61",
+      "I browse the Xiaohongshu explore feed, reading various text posts and chat slides.",
+      "Content shift to video feed"
+    ],
+    [
+      "62-72",
+      "I browse the Xiaohongshu feed and watch short videos about animals and lifestyle.",
+      "Topic shift"
+    ],
+    [
+      "73-76",
+      "I watch dog and raccoon videos on Xiaohongshu.",
+      "Topic shift"
+    ],
+    [
+      "77-87",
+      "I watch a video about the European heatwave.",
+      "Focus shifts from phone screen"
+    ],
+    [
+      "88",
+      "I look toward the window.",
+      "Physical glance complete"
+    ],
+    [
+      "89-92",
+      "I watch soccer and durian cart videos on Xiaohongshu.",
+      "Topic shift"
+    ],
+    [
+      "93-102",
+      "I watch a Minions video episode on Xiaohongshu.",
+      "Topic shift"
+    ],
+    [
+      "103-110",
+      "I read Xiaohongshu posts about London air conditioning and new technology.",
+      "Topic shift"
+    ],
+    [
+      "111-119",
+      "I watch videos on a pet meerkat's Xiaohongshu profile.",
+      "Topic shift"
+    ],
+    [
+      "120-133",
+      "I watch dog and wild boar videos on Xiaohongshu.",
+      "Content feed shift"
+    ],
+    [
+      "134-150",
+      "I watch short videos of vehicles and animals in the Xiaohongshu explore feed.",
+      "Content feed shift"
+    ],
+    [
+      "151-168",
+      "I scroll through the Xiaohongshu discovery feed, viewing various lifestyle, vehicle, and sports posts.",
+      "Topic shift"
+    ],
+    [
+      "169-174",
+      "I watch short videos of autonomous vehicles and sweepers.",
+      "Topic shift"
+    ],
+    [
+      "175-187",
+      "I watch a series of short videos about animals, fishing, and vehicles.",
+      "Topic shift"
+    ],
+    [
+      "188-199",
+      "I watch short videos of animals and sports.",
+      "Topic shift"
+    ],
+    [
+      "200-208",
+      "I watch dashcam videos of road driving and a traffic accident.",
+      "Topic shift"
+    ],
+    [
+      "209-228",
+      "I watch a variety of short videos covering driving, military footage, animals, and sports.",
+      "Topic shift"
+    ],
+    [
+      "229-237",
+      "I watch short videos of sports, rescues, and driving.",
+      "Topic shift"
+    ],
+    [
+      "238-245",
+      "I watch video clips of a robot fight from Big Hero 6.",
+      "Topic shift"
+    ],
+    [
+      "246-249",
+      "I watch short videos of animals, sports, and climbing.",
+      "End of supplied events"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

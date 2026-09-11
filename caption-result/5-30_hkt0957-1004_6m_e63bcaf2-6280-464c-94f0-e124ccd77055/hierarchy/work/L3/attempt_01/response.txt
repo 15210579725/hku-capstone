@@ -1,0 +1,29 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Abstract immediate L2 tasks into coherent L3 episodes based on major location changes and primary overarching goals: preparing belongings in the bedroom, exiting the apartment building, and traveling outdoors.",
+  "events": [
+    [
+      "0-4",
+      "I prepare my swim gear and laptop charger in the bedroom.",
+      "Transitions from apartment preparation to building exit."
+    ],
+    [
+      "5-9",
+      "I exit the apartment building with my companion.",
+      "Transitions from exiting the building to outdoor transit."
+    ],
+    [
+      "10-14",
+      "I travel through the outdoor plaza with my companion.",
+      "End of sequence."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

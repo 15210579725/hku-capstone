@@ -1,0 +1,39 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group the dumpling making into two distinct preparation batches, followed by the dumpling meal. Group the subsequent pastry preparation and delivery tasks, and finally unify the evening household chores and conclusion.",
+  "events": [
+    [
+      "0-4",
+      "I prepare the initial batch of meat dumplings with my companions.",
+      "Assembly of the first batch of dumplings is complete."
+    ],
+    [
+      "5-7",
+      "I prepare a second batch of raw dumplings.",
+      "The second batch of dumplings is fully assembled before the meal begins."
+    ],
+    [
+      "8-10",
+      "I partake in a meal of cooked dumplings and soup with my companions.",
+      "The dumpling meal and final ingredient processing end."
+    ],
+    [
+      "11-13",
+      "I manage the final pastry wrapper preparation and a dumpling delivery.",
+      "Food preparation and delivery tasks conclude prior to household chores."
+    ],
+    [
+      "14-19",
+      "I perform my final evening household chores and waste disposal.",
+      "The recording ends."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,134 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions by the user's immediate goal, tracking device usage, navigation, meal ordering, and distinct conversation topics.",
+  "events": [
+    [
+      "0-13",
+      "I search for an email about 中科院 in Outlook while walking out of the building.",
+      "Switches to Calendar"
+    ],
+    [
+      "14-17",
+      "I review the PanShi AI4S event schedule in my Calendar.",
+      "Switches back to Outlook"
+    ],
+    [
+      "18-28",
+      "I read an Industry Talk email and browse my Outlook inbox.",
+      "Starts reviewing a different event email"
+    ],
+    [
+      "29-41",
+      "I review the HKU-CAS ScienceOne event details and venue guide on my phone.",
+      "Puts phone away and focuses on walking to the cafeteria"
+    ],
+    [
+      "42-51",
+      "I walk to the dining hall.",
+      "Arrives at the kiosk in the dining hall"
+    ],
+    [
+      "52-57",
+      "I log into the dining hall ordering kiosk.",
+      "Starts browsing the menu"
+    ],
+    [
+      "58-70",
+      "I order a spicy chicken meal on the kiosk.",
+      "Proceeds to payment"
+    ],
+    [
+      "71-73",
+      "I pay for my meal using Alipay and collect the receipt.",
+      "Leaves the kiosk to pick up food"
+    ],
+    [
+      "74-82",
+      "I collect my spicy chicken meal at the pickup counter.",
+      "Leaves counter with the food tray"
+    ],
+    [
+      "83-89",
+      "I collect a fork and sit at a dining table with my companion.",
+      "Begins eating"
+    ],
+    [
+      "90-106",
+      "I eat my spicy chicken meal and sip soup.",
+      "Companion initiates conversation"
+    ],
+    [
+      "107-117",
+      "I discuss post-exam plans with my companion.",
+      "Topic shifts to sports injury"
+    ],
+    [
+      "118-131",
+      "I discuss my companion's sports injury and rehabilitation.",
+      "Topic shifts to paper revisions"
+    ],
+    [
+      "132-142",
+      "I discuss paper revisions with my companion.",
+      "Topic shifts to weekend plans"
+    ],
+    [
+      "143-147",
+      "I agree to hang out with my companion this weekend.",
+      "Topic shifts to outfit comment"
+    ],
+    [
+      "148-152",
+      "I reply to my companion's comment about my outfit.",
+      "Topic shifts to summer plans"
+    ],
+    [
+      "153-165",
+      "I discuss my summer plans and apartment lease with my companion.",
+      "Topic shifts to amusement park ride"
+    ],
+    [
+      "166-173",
+      "I listen to my companion describe a thrilling ride at Changlong amusement park.",
+      "Topic shifts to snorkeling trip"
+    ],
+    [
+      "174-188",
+      "I plan a weekend snorkeling trip to Qiaozui Island with my companion.",
+      "Topic shifts to relationships"
+    ],
+    [
+      "189-205",
+      "I discuss relationships and social media with my companion.",
+      "Topic shifts to travel experiences"
+    ],
+    [
+      "206-218",
+      "I discuss my travel experiences and plans with my companion.",
+      "Topic shifts to graduation trip"
+    ],
+    [
+      "219-225",
+      "I discuss graduation trip plans with my companion.",
+      "Topic shifts to girlfriend"
+    ],
+    [
+      "226-233",
+      "I discuss my girlfriend's whereabouts with my companion.",
+      "Topic shifts to a mutual friend"
+    ],
+    [
+      "234-249",
+      "I discuss a mutual friend's trip to Disney and future plans with my companion.",
+      "End of input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

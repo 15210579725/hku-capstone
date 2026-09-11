@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate each eligible pair to determine if it represents a single continuous immediate task interrupted by a batch edge. Merge pairs that share the exact same ongoing action (e.g., continuing to code or ride) and reject pairs that represent sequential progression (e.g., waiting then eating) or distinct conversational topics.",
+  "merges": [
+    [
+      28,
+      29,
+      "I review embedding correlation data in VS Code on my MacBook.",
+      "Same coding task continues across batch edge"
+    ],
+    [
+      50,
+      51,
+      "I ride the electric scooter along the road to a stop.",
+      "Same scooter ride continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

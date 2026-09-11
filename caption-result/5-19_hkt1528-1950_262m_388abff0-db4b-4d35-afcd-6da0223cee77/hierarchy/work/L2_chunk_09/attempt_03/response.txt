@@ -1,0 +1,169 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group consecutive action_briefs into immediate tasks based on shared primary locations, targets, and immediate goals such as device usage, elevator rides, short transits, and concrete physical interactions (purchasing items, collecting a parcel). Split when the immediate environment, primary interaction target, or immediate objective changes.",
+  "events": [
+    [
+      "2000-2006",
+      "I check 3-inch photo dimensions on Doubao AI.",
+      "Completed photo dimension check"
+    ],
+    [
+      "2007-2026",
+      "I browse plush photo album listings on Taobao.",
+      "Finished browsing Taobao albums"
+    ],
+    [
+      "2027-2029",
+      "I interact with the search bar on my phone.",
+      "Finished interacting with phone search"
+    ],
+    [
+      "2030-2038",
+      "I return my meal tray to the canteen counter.",
+      "Tray returned and left canteen"
+    ],
+    [
+      "2039-2045",
+      "I walk across the outdoor patio.",
+      "Arrived at lobby stairs"
+    ],
+    [
+      "2046-2056",
+      "I take the elevator from the lobby.",
+      "Exited lobby elevator"
+    ],
+    [
+      "2057-2064",
+      "I walk to the footbridge elevator.",
+      "Reached footbridge elevator"
+    ],
+    [
+      "2065-2071",
+      "I ride the glass elevator.",
+      "Finished glass elevator ride"
+    ],
+    [
+      "2072-2077",
+      "I ride the elevator down to the LB floor.",
+      "Exited LB floor elevator"
+    ],
+    [
+      "2078-2081",
+      "I walk down the footbridge ramp.",
+      "Finished ramp descent"
+    ],
+    [
+      "2082-2087",
+      "I check WeChat on my phone.",
+      "Finished checking WeChat"
+    ],
+    [
+      "2088-2096",
+      "I ride the elevator down to the Ground Floor.",
+      "Exited Ground Floor elevator"
+    ],
+    [
+      "2097-2101",
+      "I send a WeChat message.",
+      "Message sent, continued walking"
+    ],
+    [
+      "2102-2111",
+      "I walk along the sidewalk.",
+      "Reached outdoor staircase"
+    ],
+    [
+      "2112-2116",
+      "I descend the outdoor staircase.",
+      "Finished descending stairs"
+    ],
+    [
+      "2117-2131",
+      "I walk along the sloped sidewalk.",
+      "Reached next path and stairs segment"
+    ],
+    [
+      "2132-2147",
+      "I walk down the path toward the pedestrian crossing.",
+      "Reached street crossing"
+    ],
+    [
+      "2148",
+      "I cross the street.",
+      "Crossed first street segment"
+    ],
+    [
+      "2149-2158",
+      "I walk past storefronts to the crosswalk.",
+      "Reached next crosswalk"
+    ],
+    [
+      "2159",
+      "I cross the road.",
+      "Crossed road"
+    ],
+    [
+      "2160-2164",
+      "I walk past storefronts on the sidewalk.",
+      "Turned into back alley"
+    ],
+    [
+      "2165-2175",
+      "I navigate through an alleyway into a building corridor.",
+      "Stopped to use phone"
+    ],
+    [
+      "2176-2179",
+      "I check applications on my phone.",
+      "Finished phone use at parcel station"
+    ],
+    [
+      "2180-2184",
+      "I collect a parcel from the Cainiao station.",
+      "Parcel collected"
+    ],
+    [
+      "2185-2194",
+      "I walk through the indoor corridor to the building exit.",
+      "Exited building"
+    ],
+    [
+      "2195-2199",
+      "I walk along the sidewalk to the bakery storefront.",
+      "Arrived at bakery"
+    ],
+    [
+      "2200-2222",
+      "I purchase pastries at the bakery.",
+      "Bakery purchase completed"
+    ],
+    [
+      "2223-2231",
+      "I eat my pastry on the street.",
+      "Finished eating pastry segment"
+    ],
+    [
+      "2232-2237",
+      "I walk through the plaza.",
+      "Reached street intersection"
+    ],
+    [
+      "2238-2243",
+      "I cross the street intersection.",
+      "Crossed intersection"
+    ],
+    [
+      "2244-2249",
+      "I walk past storefronts along the sidewalk.",
+      "End of provided sequence"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

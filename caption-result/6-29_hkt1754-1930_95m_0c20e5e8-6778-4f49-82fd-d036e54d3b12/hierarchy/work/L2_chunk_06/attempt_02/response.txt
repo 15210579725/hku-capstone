@@ -1,0 +1,54 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks: riding to find parking, disembarking, walking on the street, observing a puppy, walking and discussing a bike path, observing market stalls, browsing ice cream, and purchasing a beverage.",
+  "events": [
+    [
+      "1250-1279",
+      "I ride in the electric cart to a parking spot.",
+      "Cart successfully parked"
+    ],
+    [
+      "1280-1289",
+      "I disembark from the parked electric cart with my companion.",
+      "Finished disembarking from the cart"
+    ],
+    [
+      "1290-1296",
+      "I walk along the street past parked vehicles.",
+      "Encountered a puppy"
+    ],
+    [
+      "1297-1307",
+      "I observe a roadside puppy with my companion.",
+      "Finished observing the puppy"
+    ],
+    [
+      "1308-1326",
+      "I walk along the road discussing a bike path with my companion.",
+      "Entered the market corridor"
+    ],
+    [
+      "1327-1336",
+      "I walk through a market corridor observing various food stalls.",
+      "Stopped to look at ice cream"
+    ],
+    [
+      "1337-1357",
+      "I browse ice cream options in a freezer with my companion.",
+      "Decided to buy a beverage instead"
+    ],
+    [
+      "1358-1369",
+      "I purchase a green tea from the beverage refrigerator using Alipay.",
+      "Purchase complete"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

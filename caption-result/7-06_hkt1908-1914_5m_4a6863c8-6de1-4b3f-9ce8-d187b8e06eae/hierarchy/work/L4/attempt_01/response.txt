@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group the scooter access, ride, and parking into a single travel phase, followed by the destination activity.",
+  "events": [
+    [
+      "0-2",
+      "I travel to the basketball court on an electric scooter.",
+      "Arrival at the basketball court"
+    ],
+    [
+      "3",
+      "I watch the basketball game.",
+      "End of input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

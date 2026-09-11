@@ -1,0 +1,147 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous brief actions into single immediate objectives, like troubleshooting AI commands, navigating through the office, setting up the scooter, and handling specific street segments or intersections while riding.",
+  "events": [
+    [
+      "750-767",
+      "I use ChatGPT and Claude to troubleshoot GPU access and server commands.",
+      "Topic shift: Completes remote AI troubleshooting and leaves location."
+    ],
+    [
+      "768-777",
+      "I walk through the lounge and corridor to my office workstation.",
+      "Location change: Arrives at workstation."
+    ],
+    [
+      "778-781",
+      "I adjust USB cables at my workstation to troubleshoot a connection.",
+      "Task change: Finishes adjusting hardware."
+    ],
+    [
+      "782-783",
+      "I fold a cloth on my desk.",
+      "Task change: Finishes folding the cloth."
+    ],
+    [
+      "784-796",
+      "I manage Baidu Netdisk uploads and review AI terminal responses.",
+      "Task change: Switches from workstation tasks to preparing to leave."
+    ],
+    [
+      "797-802",
+      "I start Amap navigation on my smartphone and walk toward the elevator lobby.",
+      "Location change: Arrives at the lobby."
+    ],
+    [
+      "803-810",
+      "I check my navigation route and wait for the elevator.",
+      "Location change: Enters the elevator."
+    ],
+    [
+      "811-819",
+      "I ride the elevator down to the first floor.",
+      "Location change: Exits the elevator."
+    ],
+    [
+      "820-825",
+      "I walk through the lobby and exit the building.",
+      "Location change: Moves outdoors."
+    ],
+    [
+      "826-834",
+      "I use WeChat on my smartphone to review hotel details and send messages.",
+      "Task change: Switches from messaging to renting a scooter."
+    ],
+    [
+      "835-839",
+      "I rent and mount an electric scooter using Alipay.",
+      "Task change: Scooter is mounted and ready to ride."
+    ],
+    [
+      "840-848",
+      "I ride the electric scooter out of the building compound onto the street.",
+      "Task change: Stops riding to address safety equipment."
+    ],
+    [
+      "849-854",
+      "I stop the electric scooter to put on my helmet.",
+      "Task change: Finishes putting on the helmet and resumes riding."
+    ],
+    [
+      "855-870",
+      "I ride the electric scooter along the street toward an intersection.",
+      "Location change: Arrives at the intersection."
+    ],
+    [
+      "871-896",
+      "I wait for traffic and ride the electric scooter across the intersection.",
+      "Location change: Clears the intersection."
+    ],
+    [
+      "897-909",
+      "I ride the electric scooter along a side road and through a minor intersection.",
+      "Location change: Transitions to a tree-lined path."
+    ],
+    [
+      "910-917",
+      "I ride the electric scooter along a tree-lined path under a viaduct.",
+      "Location change: Approaches the next major intersection."
+    ],
+    [
+      "918-932",
+      "I wait at a red light and ride the electric scooter across the intersection.",
+      "Location change: Clears the intersection and enters the bike lane."
+    ],
+    [
+      "933-943",
+      "I ride the electric scooter along the bike lane.",
+      "Task change: Shifts attention to the smartphone."
+    ],
+    [
+      "944-949",
+      "I check the navigation route on my smartphone while riding the electric scooter.",
+      "Task change: Stows the phone and focuses on crossing."
+    ],
+    [
+      "950-953",
+      "I ride the electric scooter across an intersection.",
+      "Location change: Clears the minor intersection."
+    ],
+    [
+      "954-976",
+      "I monitor traffic and maneuver the electric scooter across a busy intersection.",
+      "Location change: Clears the busy intersection."
+    ],
+    [
+      "977-990",
+      "I ride the electric scooter along the commercial street to my destination.",
+      "Location change: Arrives at the destination curb."
+    ],
+    [
+      "991-992",
+      "I park the electric scooter and stow my helmet.",
+      "Task change: Completes parking and transitions to walking."
+    ],
+    [
+      "993-997",
+      "I enter the Hanting Hotel and walk to the elevator.",
+      "Location change: Reaches the elevator."
+    ],
+    [
+      "998-999",
+      "I read WeChat messages while waiting for the hotel elevator.",
+      "Task continuity: Waiting for the elevator to arrive."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "768-777: Frustration with the remote AI terminal triggers the user to relocate to their physical office workstation.",
+      "797-802: Initiating navigation and leaving the office desk is a major behavior-changing trigger that starts the broad commute to the hotel."
+    ],
+    "boundary_cautions": []
+  }
+}
+```

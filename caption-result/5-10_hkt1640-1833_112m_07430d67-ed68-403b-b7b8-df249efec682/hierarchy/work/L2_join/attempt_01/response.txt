@@ -1,0 +1,30 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Review eligible pairs to identify immediate tasks that were artificially split by batch boundaries. Pairs 36/37 and 74/75 seamlessly continue the viewing of a performance's concluding segment. Pair 90/91 splits a continuous waiting period in the same ride queue. Pairs 18/19 and 53/54 represent distinct immediate sequential tasks (walking vs. reading a schedule, and general waiting vs. watching a specific audience interaction) and will not be merged.",
+  "merges": [
+    [
+      36,
+      37,
+      "I watch the conclusion of the marine animal performance in the stadium.",
+      "Continuous viewing of the performance finale across batch edge"
+    ],
+    [
+      74,
+      75,
+      "I watch the conclusion of the beluga whale performance.",
+      "Continuous viewing of the show's conclusion across batch edge"
+    ],
+    [
+      90,
+      91,
+      "I wait in the indoor roller coaster queue with my companion.",
+      "Continuous queueing activity across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

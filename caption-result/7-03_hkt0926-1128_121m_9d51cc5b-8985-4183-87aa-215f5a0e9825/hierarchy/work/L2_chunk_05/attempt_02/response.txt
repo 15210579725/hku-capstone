@@ -1,0 +1,119 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions related to a single immediate task such as troubleshooting network access, logging into portals, executing specific terminal commands, reading documentation, or discussing platform mechanics with a colleague. Physical interruptions like searching a backpack are isolated into their own tasks.",
+  "events": [
+    [
+      "1000-1005",
+      "I discuss the server connection status and review the SSH configuration guide in WeChat with my colleague.",
+      "Shift from discussing the server connection in WeChat to fixing a browser loading error."
+    ],
+    [
+      "1006-1017",
+      "I troubleshoot a browser network error by enabling TUN mode in Clash Verge.",
+      "Network issue resolved; focus shifts to retrieving credentials for login."
+    ],
+    [
+      "1018-1024",
+      "I retrieve the computing cluster login credentials from WeChat.",
+      "Credentials retrieved; focus shifts to actively logging into the portal."
+    ],
+    [
+      "1025-1033",
+      "I log into the computing cluster portal and navigate to the command line with my colleague's help.",
+      "Shift from UI navigation to a conceptual discussion about platform mechanics."
+    ],
+    [
+      "1034-1042",
+      "I discuss the computing platform mechanics and the difference between servers and compute cards with my colleague.",
+      "Discussion concludes; focus shifts to verifying local SSH keys in the Terminal."
+    ],
+    [
+      "1043-1049",
+      "I check my local SSH key files in the Terminal based on the WeChat instructions.",
+      "Local key verification complete; focus shifts to uploading the public key."
+    ],
+    [
+      "1050-1060",
+      "I run the ssh-copy-id command in the Terminal to upload my public key to the server.",
+      "Upload command executed; focus shifts to attempting SSH password authentication."
+    ],
+    [
+      "1061-1077",
+      "I attempt to authenticate in the Terminal but encounter an SSH permission denied error.",
+      "Initial error encountered; focus shifts to reviewing manual setup commands for a second attempt."
+    ],
+    [
+      "1078-1092",
+      "I review manual SSH setup commands in WeChat and re-enter the password in the Terminal.",
+      "Second attempt fails; focus shifts to reading the core principles of public key uploads."
+    ],
+    [
+      "1093-1107",
+      "I read the SSH public key upload guide and core principles to troubleshoot the terminal errors.",
+      "Reading concludes; focus shifts back to re-running the upload command."
+    ],
+    [
+      "1108-1119",
+      "I consult the forwarded WeChat chat history and re-run the ssh-copy-id command.",
+      "Command executed; focus shifts to checking the remote directory in the web terminal."
+    ],
+    [
+      "1120-1126",
+      "I use the web terminal to examine the remote server directory.",
+      "Web terminal inspection complete; focus shifts to the computing cluster dashboard."
+    ],
+    [
+      "1127-1141",
+      "I inspect the computing cluster dashboard to check resource queues and quotas.",
+      "Dashboard review complete; focus shifts to a third SSH login attempt."
+    ],
+    [
+      "1142-1160",
+      "I verify my server credentials in WeChat and attempt the Terminal SSH login again, resulting in failure.",
+      "Authentication fails again; focus shifts to checking proxy settings."
+    ],
+    [
+      "1161-1165",
+      "I check the Clash Verge proxy settings.",
+      "Proxy check complete; focus shifts to opening ChatGPT for assistance."
+    ],
+    [
+      "1166-1182",
+      "I query ChatGPT to diagnose the SSH password login failure.",
+      "Query submitted; focus shifts to reading the provided troubleshooting steps."
+    ],
+    [
+      "1183-1193",
+      "I read the ChatGPT troubleshooting steps for SSH login failures.",
+      "Reading is interrupted by a physical action."
+    ],
+    [
+      "1194-1195",
+      "I search inside my backpack.",
+      "Backpack search concludes; focus shifts back to reading ChatGPT."
+    ],
+    [
+      "1196-1205",
+      "I read the ChatGPT SSH troubleshooting analysis and inspect the remote web shell.",
+      "Reading concludes; focus shifts to inspecting verbose terminal logs."
+    ],
+    [
+      "1206-1229",
+      "I inspect verbose SSH debug logs in the Terminal and compare them against the WeChat configuration checklist.",
+      "Log inspection complete; focus shifts to asking ChatGPT for the next debugging steps."
+    ],
+    [
+      "1230-1249",
+      "I ask ChatGPT for further debugging steps and check my local SSH public key fingerprint in the Terminal based on its diagnosis.",
+      "End of batch."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

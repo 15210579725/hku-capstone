@@ -1,0 +1,30 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Review each eligible boundary pair to determine if the exact same immediate task continues across the transport batch edge. Merge only those pairs where the activity and target remain identical.",
+  "merges": [
+    [
+      66,
+      67,
+      "I study Kernel PCA formulas and derivations on Claude and write down notes.",
+      "Studying Kernel PCA on Claude continues across batch edge"
+    ],
+    [
+      90,
+      91,
+      "I study Claude's explanations of Principal Component Analysis and its financial applications.",
+      "Studying PCA and its financial applications continues across batch edge"
+    ],
+    [
+      111,
+      112,
+      "I watch Bilibili vlogs about camper vans and driving.",
+      "Watching Bilibili vlogs continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

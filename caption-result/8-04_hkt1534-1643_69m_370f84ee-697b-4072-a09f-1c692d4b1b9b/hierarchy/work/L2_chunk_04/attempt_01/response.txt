@@ -1,0 +1,79 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous riding segments by major road features like bridges, intersections, and community entrances. Group pedestrian activities by distinct goals such as using smartphone apps, reading specific document types, unlocking doors, and interacting with room appliances.",
+  "events": [
+    [
+      "750-752",
+      "I wait at the intersection for the traffic signal to change.",
+      "Traffic signal wait concludes"
+    ],
+    [
+      "753-757",
+      "I ride the electric scooter across the intersection to the side road.",
+      "Reaches the bridge approach"
+    ],
+    [
+      "758-769",
+      "I ride the electric scooter across the bridge.",
+      "Exits the bridge"
+    ],
+    [
+      "770-781",
+      "I ride the electric scooter along the tree-lined roadway.",
+      "Approaches a new bridge"
+    ],
+    [
+      "782-789",
+      "I ride the electric scooter over the bridge to the next intersection.",
+      "Enters the bike lane"
+    ],
+    [
+      "790-798",
+      "I ride the electric scooter along the bike lane into the intersection.",
+      "Turns into the residential community"
+    ],
+    [
+      "799-803",
+      "I ride the electric scooter into the 齐爱佳苑 residential community.",
+      "Begins navigating to park"
+    ],
+    [
+      "804-811",
+      "I park the electric scooter in the residential community.",
+      "Dismounts the scooter"
+    ],
+    [
+      "812-815",
+      "I switch to the WeChat application on my smartphone.",
+      "Begins reading specific announcements"
+    ],
+    [
+      "816-825",
+      "I read academic announcements on WeChat.",
+      "Focus shifts to opening the door"
+    ],
+    [
+      "826-829",
+      "I unlock the door using the smart lock passcode.",
+      "Door is unlocked"
+    ],
+    [
+      "830-833",
+      "I review the HKU WeChat group messages.",
+      "Enters the bedroom"
+    ],
+    [
+      "834-839",
+      "I examine the air conditioner remote in the bedroom.",
+      "End of supplied events"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

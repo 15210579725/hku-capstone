@@ -1,0 +1,29 @@
+```json
+{
+  "target_level": "L5",
+  "plan": "Group phases into overarching major activities based on primary location and main objective. The initial workstation modeling phase stands alone before a major location change. The cafeteria meal forms the second major activity. The return to the workstation for collaborative testing absorbs the subsequent short personal break as incidental downtime within that workstation session.",
+  "events": [
+    [
+      "0",
+      "I develop memory recall formulas and video reranking models at my workstation.",
+      "Independent technical work session prior to leaving the location"
+    ],
+    [
+      "1",
+      "I have lunch with my colleagues at the cafeteria.",
+      "Major location and activity shift for a meal"
+    ],
+    [
+      "2-3",
+      "I conduct collaborative testing of digital access card simulations at my workstation.",
+      "Groups collaborative work and concluding downtime at the workstation"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

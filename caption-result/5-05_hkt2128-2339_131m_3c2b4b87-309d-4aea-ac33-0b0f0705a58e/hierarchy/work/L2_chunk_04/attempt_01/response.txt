@@ -1,0 +1,84 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous video viewing sessions into distinct tasks based on the specific video content (e.g., cooking, food stalls, freight delivery, ship chef, Korean economy, daily laborer), separating them with the brief homepage browsing and navigation intervals that occur between videos.",
+  "events": [
+    [
+      "750-755",
+      "I watch Bilibili videos of people eating beef bones.",
+      "Video content changes to a new cooking video"
+    ],
+    [
+      "756-776",
+      "I watch a Bilibili cooking video about preparing and cooking meat.",
+      "Video content changes to a fried pork food vlog"
+    ],
+    [
+      "777-780",
+      "I watch a Bilibili food vlog about fried pork.",
+      "Navigates back to homepage"
+    ],
+    [
+      "781-783",
+      "I browse Bilibili homepage recommendations.",
+      "Clicks a new video about food stall wages"
+    ],
+    [
+      "784-824",
+      "I watch a Bilibili vlog about food stall operating costs and wages.",
+      "Switches tabs to a different video"
+    ],
+    [
+      "825-842",
+      "I watch a Bilibili vlog about freight delivery and driving.",
+      "Switches tabs and browses recommendations"
+    ],
+    [
+      "843-845",
+      "I browse Bilibili homepage recommendations.",
+      "Clicks a new video about a ship chef"
+    ],
+    [
+      "846-867",
+      "I watch a Bilibili vlog about a ship chef's daily routine.",
+      "Returns to home feed recommendations"
+    ],
+    [
+      "868",
+      "I browse Bilibili home feed recommendations.",
+      "Opens a new video about South Korean living standards"
+    ],
+    [
+      "869-893",
+      "I watch a Bilibili video explaining South Korea's economic conditions.",
+      "Glances at tabs and returns to recommendations"
+    ],
+    [
+      "894-895",
+      "I browse Bilibili homepage recommendations.",
+      "Opens a new video about a daily laborer"
+    ],
+    [
+      "896-912",
+      "I watch a Bilibili vlog about a daily laborer's life.",
+      "Returns to homepage recommendations"
+    ],
+    [
+      "913-914",
+      "I browse Bilibili homepage recommendations.",
+      "Clicks a new video link"
+    ],
+    [
+      "915-918",
+      "I watch a Bilibili commentary video about Xu Qingen.",
+      "End of input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,109 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group continuous, goal-oriented sequences into coherent episodes such as walking legs, transit rides, shopping, dining, and socializing. Out-of-order items (58 and 167) are integrated into their chronologically and semantically appropriate episodes.",
+  "events": [
+    [
+      "0-14",
+      "I walk downhill along Old Peak Road with my companion.",
+      "Stops walking to check navigation apps for transit routes."
+    ],
+    [
+      "15-34,58",
+      "I navigate through Central to a bus shelter.",
+      "Boards the bus."
+    ],
+    [
+      "35-56",
+      "I ride bus 23 to my destination.",
+      "Alights from the bus."
+    ],
+    [
+      "57,59-68",
+      "I walk to a restaurant in a cooked food centre.",
+      "Arrives at the restaurant counter to order."
+    ],
+    [
+      "69-72",
+      "I obtain my meal from the restaurant counter.",
+      "Sits down at a dining table to eat."
+    ],
+    [
+      "73-80",
+      "I dine with my companion at the restaurant.",
+      "Leaves the dining table to walk to a store."
+    ],
+    [
+      "81-82",
+      "I browse snacks in Best Mart 360.",
+      "Leaves to go to the Wellcome supermarket."
+    ],
+    [
+      "83-103",
+      "I shop for groceries at the Wellcome supermarket.",
+      "Leaves the supermarket with the purchased groceries."
+    ],
+    [
+      "104-112",
+      "I return to my apartment bedroom to unpack my belongings.",
+      "Finishes unpacking and joins companions for conversation."
+    ],
+    [
+      "113-126",
+      "I converse with my companions in my apartment.",
+      "Shifts focus to helping a departing friend pack."
+    ],
+    [
+      "127-133",
+      "I assist my departing friend with packing her belongings.",
+      "Finishes seeing the friend off and returns to apartment tasks."
+    ],
+    [
+      "134-138",
+      "I dispose of the apartment garbage in the refuse room.",
+      "Leaves the apartment building with my companion."
+    ],
+    [
+      "139-146",
+      "I walk to the MTR station with my companion.",
+      "Enters the MTR station via the escalator."
+    ],
+    [
+      "147-156,167",
+      "I navigate to the MTR station platform to wait for a train.",
+      "Boards the MTR train."
+    ],
+    [
+      "157-159",
+      "I ride the MTR train past my intended stop.",
+      "Exits the train to change platforms."
+    ],
+    [
+      "160-161",
+      "I transfer to platform 2 to wait for a return train.",
+      "Boards the return train."
+    ],
+    [
+      "162-164",
+      "I ride the MTR train to the transfer station.",
+      "Exits the train to navigate the transfer corridors."
+    ],
+    [
+      "165-166,168",
+      "I navigate the transfer station to the East Rail Line platform.",
+      "End of recorded events."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "In episode 157-159, realizing the missed stop triggers a substantial change in plan, prompting a transfer to a return train."
+    ],
+    "boundary_cautions": [
+      "Item 58 was recorded out of order but correctly belongs to the Central navigation phase (15-34).",
+      "Item 167 was recorded at the end but chronologically and semantically fits the initial MTR station entry phase (147-156)."
+    ]
+  }
+}
+```

@@ -1,0 +1,49 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group immediate tasks into coherent L3 activity episodes based on primary locations and goals: preparing to leave the apartment, commuting to the dining atrium, purchasing a meal, eating, engaging in extended smartphone entertainment, clearing the table, and walking to the library.",
+  "events": [
+    [
+      "0-12",
+      "I prepare to leave my apartment.",
+      "Leaving the apartment marks the completion of the preparation phase."
+    ],
+    [
+      "13-29",
+      "I commute from my residential compound to the dining atrium.",
+      "Arrival at the dining kiosk marks the transition to purchasing food."
+    ],
+    [
+      "30-36",
+      "I procure my meal from the dining kiosks.",
+      "Sitting at the dining table shifts the focus to eating."
+    ],
+    [
+      "37-45",
+      "I eat my meal with my dining companion.",
+      "A shift to continuous smartphone browsing supersedes dining as the primary activity."
+    ],
+    [
+      "46-224",
+      "I view short videos and articles on my smartphone.",
+      "Packing physical belongings marks the conclusion of the leisure viewing session."
+    ],
+    [
+      "225-226",
+      "I return my food tray to the return station.",
+      "Exiting the canteen completes the dining visit."
+    ],
+    [
+      "227-234",
+      "I walk from the canteen to the Main Library.",
+      "Arrival at the library elevator lobby concludes the transit."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

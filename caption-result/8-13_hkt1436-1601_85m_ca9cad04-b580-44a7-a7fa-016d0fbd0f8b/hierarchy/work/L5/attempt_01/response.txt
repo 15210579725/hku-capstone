@@ -1,0 +1,34 @@
+```json
+{
+  "target_level": "L5",
+  "plan": "Group into L5 major activities by preserving the distinct overarching goals present in L4. Each input represents an independent project or context (dataset management, media review, video evaluation troubleshooting, and collaborative robotics troubleshooting) that cannot be accurately merged without losing the specific task focus.",
+  "events": [
+    [
+      "0",
+      "I manage dataset preparation and processing pipelines for model evaluations.",
+      "Distinct major task focusing on dataset and processing pipelines."
+    ],
+    [
+      "1",
+      "I review psychology and technology media content.",
+      "Distinct shift to media consumption."
+    ],
+    [
+      "2",
+      "I troubleshoot AutoDL errors for the Lucia MAGIC-Video evaluation.",
+      "Shift to troubleshooting a specific video evaluation model."
+    ],
+    [
+      "3",
+      "I investigate robot task execution errors with a colleague at a new workstation.",
+      "Shift to a new location and collaborative task regarding robot execution."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

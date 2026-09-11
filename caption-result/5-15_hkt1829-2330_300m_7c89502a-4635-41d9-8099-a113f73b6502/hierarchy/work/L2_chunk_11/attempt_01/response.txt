@@ -1,0 +1,79 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks based on distinct physical navigation segments and unified smartphone app usage phases.",
+  "events": [
+    [
+      "0-19",
+      "I walk along the street to the MTR station.",
+      "Reaches station entrance"
+    ],
+    [
+      "20-22",
+      "I observe a passing white Lamborghini.",
+      "Attention returns to navigation"
+    ],
+    [
+      "23-57",
+      "I navigate the MTR station to the subway platform.",
+      "Reaches platform and waits"
+    ],
+    [
+      "58-63",
+      "I read my WeChat messages with babe.",
+      "Switches to Official Accounts"
+    ],
+    [
+      "64-91",
+      "I read an article about the Li Auto L9 Livis on WeChat.",
+      "Train arrives and doors open"
+    ],
+    [
+      "92-94",
+      "I board the subway train.",
+      "Boarding complete"
+    ],
+    [
+      "95-161",
+      "I browse X on my phone.",
+      "Prepares to exit train"
+    ],
+    [
+      "162-172",
+      "I navigate the station concourse.",
+      "Steps onto escalator and opens app"
+    ],
+    [
+      "173-189",
+      "I read X during my walk to the next platform.",
+      "Reaches train doors"
+    ],
+    [
+      "190-193",
+      "I board the connecting subway train.",
+      "Sits down"
+    ],
+    [
+      "194-240",
+      "I browse X on my phone.",
+      "Switches to WeChat"
+    ],
+    [
+      "241-245",
+      "I message babe on WeChat.",
+      "Switches apps"
+    ],
+    [
+      "246-249",
+      "I search for the Folo app in the App Store.",
+      "Search completes"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

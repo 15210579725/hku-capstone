@@ -1,0 +1,56 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group L3 episodes into broader L4 phases based on overarching goals such as the research meeting, individual desk tasks, office wrap-up, travel, initial snack session, main food procurement, and dining. The invitation to eat remains a standalone behavior-changing trigger.",
+  "events": [
+    [
+      "0-3",
+      "I participate in a research meeting regarding action prediction with my colleagues.",
+      "Meeting concludes, shifting to individual tasks"
+    ],
+    [
+      "4-6",
+      "I execute individual computer and reading tasks at my desk.",
+      "Major behavior-changing trigger occurs"
+    ],
+    [
+      "7",
+      "I invite a coworker to go out to eat.",
+      "Standalone behavior-changing trigger"
+    ],
+    [
+      "8-9",
+      "I wrap up my time at the office with final workstation checks and a break.",
+      "Office activities conclude, departing campus"
+    ],
+    [
+      "10-11",
+      "I travel to the street food area with my companion using a shared bicycle.",
+      "Arrival at street food area, beginning food purchases"
+    ],
+    [
+      "12-15",
+      "I acquire pan-fried buns to share with my companion and local dogs.",
+      "Bun snack concludes, shifting to main meal procurement"
+    ],
+    [
+      "16-19",
+      "I procure a variety of street foods and a beverage for our shared meal.",
+      "Food procurement completes, transitioning to dining area"
+    ],
+    [
+      "20-21",
+      "I consume a shared street food meal with my companions in the courtyard.",
+      "End of recording"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      7
+    ],
+    "boundary_cautions": []
+  }
+}
+```

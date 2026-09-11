@@ -1,0 +1,34 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group coherent L3 episodes into broader goal-oriented phases: workspace setup, a long contiguous work session on the evaluation system and dataset, a brief distinct break, and a final work session on refining metrics.",
+  "events": [
+    [
+      "0",
+      "I prepare my laptop workspace on the bed.",
+      "Preparation completes"
+    ],
+    [
+      "1-4",
+      "I develop and calibrate the LLM judge system and evaluation dataset.",
+      "Shift to break"
+    ],
+    [
+      "5",
+      "I take a short break for personal communication and hydration.",
+      "Shift back to work"
+    ],
+    [
+      "6",
+      "I refine the LLM judge evaluation metrics and boolean rubric criteria.",
+      "End of input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

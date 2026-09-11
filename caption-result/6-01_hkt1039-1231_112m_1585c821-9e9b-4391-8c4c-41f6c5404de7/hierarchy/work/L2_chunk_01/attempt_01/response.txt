@@ -1,0 +1,84 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks based on the specific system being interacted with, the topic of research being reviewed, or the physical action being performed, abstracting away brief glances and micro-actions.",
+  "events": [
+    [
+      "0-6",
+      "I bring my MacBook to the bed and sit down.",
+      "Goal shifts from settling with the laptop to adjusting the bedcovers"
+    ],
+    [
+      "7-19",
+      "I arrange and adjust my bedcovers.",
+      "Goal shifts from adjusting bedcovers to typing a personal reflection"
+    ],
+    [
+      "20-44",
+      "I type a personal reflection about my late-night eating and reading into the POV Rollout Viewer.",
+      "Goal shifts from journaling to checking system dashboard status and errors"
+    ],
+    [
+      "45-59",
+      "I check my Claude usage limits and investigate a Screenpipe tool execution error.",
+      "Goal shifts from troubleshooting errors to reading a literature review on datasets"
+    ],
+    [
+      "60-74",
+      "I read a literature review on action prediction datasets including WAGIBench and Pro²Assist.",
+      "Topic shifts from dataset review to Intent-Conditioned Captioning methodologies"
+    ],
+    [
+      "75-93",
+      "I read an explanation of Intent-Conditioned Captioning and reverse training objectives in Claude.",
+      "Task shifts from reading Claude to reviewing Feishu notes on inverse reinforcement learning"
+    ],
+    [
+      "94-103",
+      "I review research notes on inverse reinforcement learning in a Feishu document.",
+      "Task shifts from reviewing Feishu notes to reading Claude's Predictive Captioning proposal"
+    ],
+    [
+      "104-127",
+      "I read Claude's proposal for a Predictive Captioning pipeline utilizing Active Inference.",
+      "Topic shifts from Predictive Captioning to the EgoPrune algorithm breakdown"
+    ],
+    [
+      "128-153",
+      "I read Claude's technical breakdown of the EgoPrune video pruning algorithm and its benchmarks.",
+      "Topic shifts from EgoPrune to EMBED Ego Narrator and style transfer"
+    ],
+    [
+      "154-173",
+      "I read about the EMBED Ego Narrator and narrative style transfer techniques.",
+      "Task shifts from reading Claude to updating Affect-gpt notes in Feishu"
+    ],
+    [
+      "174-186",
+      "I update my Affect-gpt research notes in Feishu with an EgoPrune reference.",
+      "Task shifts from updating notes to reviewing broader research documents"
+    ],
+    [
+      "187-213",
+      "I study my research notes on Hierarchical Context Memory, Active Inference, and value functions.",
+      "Task shifts from reading document notes to reviewing specific algorithm components"
+    ],
+    [
+      "214-230",
+      "I review the detailed specifications of EgoPrune components and Ego Narrator curation rules.",
+      "Task shifts from reading research to drafting a new analytical prompt"
+    ],
+    [
+      "231-249",
+      "I draft a Claude prompt proposing emotion as a latent variable to improve model prediction accuracy.",
+      "End of provided input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

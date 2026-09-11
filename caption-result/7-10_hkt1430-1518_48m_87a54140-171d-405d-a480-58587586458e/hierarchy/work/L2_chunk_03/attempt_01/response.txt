@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group the consecutive typing, editing, reviewing, and sending actions into a single immediate task of submitting a prompt to ChatGPT Codex. Group the subsequent brief looks and movement into the task of exiting the room.",
+  "events": [
+    [
+      "500-510",
+      "I submit a prompt to ChatGPT Codex specifying formatting rules for action prediction probabilities.",
+      "Prompt submission is complete"
+    ],
+    [
+      "511-513",
+      "I exit into the hallway.",
+      "End of recording sequence and transition to a new location"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,44 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group immediate tasks (L2) into coherent activity episodes (L3) based on overarching goals and locations. The commute is divided into departure/preparation, the continuous scooter ride, and arrival/charging. The final walk to the apartment is a distinct episode. Inside the apartment, the laundry chores form one unified episode that absorbs incidental phone use and room surveying, followed by a final resting episode.",
+  "events": [
+    [
+      "0-2",
+      "I leave the building to prepare my parked electric scooter for a ride.",
+      "Preparation concludes and the active commute begins"
+    ],
+    [
+      "3-9",
+      "I navigate my electric scooter through the city.",
+      "Arrival at the destination compound"
+    ],
+    [
+      "10-11",
+      "I secure my electric scooter at the Aijiayuan compound shelter for an Alipay charging session.",
+      "Scooter parking and charging setup are complete"
+    ],
+    [
+      "12-13",
+      "I return to my apartment door browsing WeChat.",
+      "Arrival inside the apartment"
+    ],
+    [
+      "14-19",
+      "I arrange my laundry on the apartment drying racks.",
+      "Laundry chores conclude"
+    ],
+    [
+      "20-21",
+      "I rest in the dark apartment observing my surroundings.",
+      "End of input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

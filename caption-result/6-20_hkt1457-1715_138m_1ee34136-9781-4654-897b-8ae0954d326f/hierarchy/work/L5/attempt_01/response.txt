@@ -1,0 +1,34 @@
+```json
+{
+  "target_level": "L5",
+  "plan": "Map each L4 phase directly to an L5 event, as they already represent independent major activities (computer work, a meal break, a second work session, and a final leisure session). Merging them further would combine unrelated goals and violate the single-objective rule.",
+  "events": [
+    [
+      "0",
+      "I perform design research and Doubao AI illustration generation tasks on my computer.",
+      "Distinct major work activity"
+    ],
+    [
+      "1",
+      "I engage in a social meal break focused on eating my instant noodles.",
+      "Distinct major meal activity"
+    ],
+    [
+      "2",
+      "I generate comic illustrations using Doubao AI at my desk.",
+      "Distinct major work activity"
+    ],
+    [
+      "3",
+      "I consume casual digital media and short videos on my devices until announcing my intention to sleep.",
+      "Distinct major leisure activity"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,89 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group sequential action briefs into immediate tasks based on a single unified objective. Merge related sub-steps like opening interfaces, reviewing specific files, formulating prompts, and reading responses. Create boundaries when the user shifts to a new distinct task, such as moving from physical setup to laptop work, changing tools, or shifting from reading to writing.",
+  "events": [
+    [
+      "750-751",
+      "I message babe.",
+      "Switches from messaging to getting water"
+    ],
+    [
+      "752-755",
+      "I pour a glass of water.",
+      "Moves away from the kitchen area to the bed"
+    ],
+    [
+      "756-758",
+      "I set up my portable desk on the bed.",
+      "Physical setup complete, begins working on laptop"
+    ],
+    [
+      "759-782",
+      "I review LLM evaluation comparison metrics.",
+      "Shifts from reviewing broad score summaries to iterating on specific scoring guidelines"
+    ],
+    [
+      "783-801",
+      "I edit the LLM judge scoring guidelines.",
+      "Finishes editing the local prompt and turns to an AI for alignment advice"
+    ],
+    [
+      "802-830",
+      "I prompt an AI for recommendations on aligning LLM judge criteria.",
+      "Finishes sending the prompt and starts reading the AI's provided literature"
+    ],
+    [
+      "831-861",
+      "I read the AI-provided literature guidelines on LLM evaluation biases.",
+      "Finishes reading the guidelines and switches applications to review evaluations"
+    ],
+    [
+      "862-876",
+      "I review the LLM judge evaluation panel.",
+      "Switches to configuring specific llm-judge settings"
+    ],
+    [
+      "877-885",
+      "I configure the llm-judge settings.",
+      "Finishes configuration and returns to reading the evaluation document"
+    ],
+    [
+      "886-908",
+      "I review action prediction evaluation documents and text pairs.",
+      "Shifts from reading evaluation documents to typing and editing technical content"
+    ],
+    [
+      "909-928",
+      "I edit technical evaluation content.",
+      "Shifts from editing text content to reviewing code in VS Code"
+    ],
+    [
+      "929-941",
+      "I review evaluation scripts in VS Code.",
+      "Leaves the code editor to query ChatGPT"
+    ],
+    [
+      "942-963",
+      "I instruct ChatGPT to extract ground truth and candidate answers from my text.",
+      "Finishes the extraction task and formulates a new prompt for rubric definition"
+    ],
+    [
+      "964-978",
+      "I prompt ChatGPT to generate boolean rubric criteria for my LLM judge.",
+      "Finishes reviewing the generated rubric and shifts to reading broader literature"
+    ],
+    [
+      "979-996",
+      "I read an AI literature review on LLM evaluation metrics.",
+      "End of input data"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

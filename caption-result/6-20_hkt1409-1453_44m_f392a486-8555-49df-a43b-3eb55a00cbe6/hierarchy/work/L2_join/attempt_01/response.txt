@@ -1,0 +1,13 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible pairs for task continuity. Pair [17, 18] continues the same immediate task of editing the Figma canvas across the batch edge and should be merged. Pair [51, 52] involves switching from selecting files in macOS Finder to inspecting export options in Figma, representing distinct immediate tasks, so they will not be merged.",
+  "merges": [
+    [17, 18, "I work on the flowchart diagram in the Figma design canvas.", "Figma diagram design continues across the batch edge"]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

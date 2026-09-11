@@ -1,0 +1,87 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group immediate tasks by continuous activities, observing transitions between discussing earwax, watching specific video topics on the laptop, looking at the smartphone, and navigating YouTube.",
+  "events": [
+    [
+      "1000-1015",
+      "I inspect my earwax with my companion.",
+      "Focus shifts to the companion actively inspecting the ear"
+    ],
+    [
+      "1016-1030",
+      "I discuss earwax buildup during my companion's inspection of my ear.",
+      "Attention shifts from the ear inspection to the laptop"
+    ],
+    [
+      "1031-1035",
+      "I prepare to use my laptop.",
+      "Starts watching a video on the laptop"
+    ],
+    [
+      "1036-1048",
+      "I watch a Bilibili vlog about travel and cuisine on my laptop.",
+      "Interrupted by roommate's question"
+    ],
+    [
+      "1049-1050",
+      "I decline my roommate's offer.",
+      "Resumes watching the video"
+    ],
+    [
+      "1051-1065",
+      "I watch a Bilibili vlog about Korean cuisine and a presidential interpreter.",
+      "Starts a conversation regarding the interpreter clip"
+    ],
+    [
+      "1066-1075",
+      "I discuss English proficiency and AI with my companion.",
+      "Conversation concludes and focus returns to dining content"
+    ],
+    [
+      "1076-1085",
+      "I watch a video about Michelin restaurants and dining.",
+      "Video topic shifts to K-pop photocards"
+    ],
+    [
+      "1086-1101",
+      "I watch a Bilibili video about K-pop idol photocards.",
+      "Video topic shifts to privacy and medical aesthetics"
+    ],
+    [
+      "1102-1121",
+      "I watch a Bilibili vlog about celebrity privacy and South Korean medical aesthetics.",
+      "Switches from laptop to smartphone"
+    ],
+    [
+      "1122-1125",
+      "I watch a smartphone video about a laundry hamper.",
+      "Switches back to the laptop for a new video topic"
+    ],
+    [
+      "1126-1148",
+      "I watch a video about South Korean lifestyles and living costs on my laptop.",
+      "Navigates away to YouTube"
+    ],
+    [
+      "1149-1164",
+      "I browse video recommendations on YouTube.",
+      "Navigates to an account recharge page"
+    ],
+    [
+      "1165-1167",
+      "I view an online account recharge page.",
+      "End of batch"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": [
+      "1049-1050 Roommate interruption is brief but distinct from the video watching.",
+      "1122-1125 Phone video is a quick device switch from the laptop."
+    ]
+  }
+}
+```

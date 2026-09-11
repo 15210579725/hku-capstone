@@ -1,0 +1,64 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions sharing an immediate goal into L2 tasks. Abstract incidental glances, navigation checks, casual conversation, and minor repositioning into unified tasks such as riding the bicycle, parking, walking to destinations, purchasing items at the convenience store, and navigating escalators or underground channels.",
+  "events": [
+    [
+      "0-70",
+      "I ride a shared bicycle along the pathways.",
+      "Arrives at the destination and decides to park"
+    ],
+    [
+      "71-91",
+      "I organize my shopping bags after parking the shared bicycle.",
+      "Finishes gathering belongings and begins walking away"
+    ],
+    [
+      "92-127",
+      "I walk along the waterfront plaza toward the Love Post Office.",
+      "Reaches the convenience store to purchase bags"
+    ],
+    [
+      "128-142",
+      "I purchase plastic shopping bags at the C-STORE convenience store.",
+      "Completes the transaction and exits the store"
+    ],
+    [
+      "143-163",
+      "I explore the Love Post Office outdoor plaza.",
+      "Leaves the plaza area to continue walking along the main street"
+    ],
+    [
+      "164-195",
+      "I walk along the sidewalk toward the underground pedestrian channel.",
+      "Arrives at the underground channel entrance"
+    ],
+    [
+      "196-214",
+      "I investigate the wheelchair lift platform at the underground channel stairs.",
+      "Abandons the inactive wheelchair lift to use the escalator"
+    ],
+    [
+      "215-224",
+      "I ride the descending escalator into the underground commercial corridor.",
+      "Steps off the escalator into the corridor"
+    ],
+    [
+      "225-234",
+      "I walk through the underground commercial corridor.",
+      "Approaches the upward escalator to enter the mall"
+    ],
+    [
+      "235-249",
+      "I take the upward escalator into the shopping mall to look for a restaurant.",
+      "End of provided events"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

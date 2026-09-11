@@ -1,0 +1,31 @@
+```json
+{
+  "target_level": "L5",
+  "plan": "Group AI documentation and research into a single major work activity, merge the dinner announcement with the meal itself into a single dinner activity, and keep the post-dinner restroom transit separate.",
+  "events": [
+    [
+      "0-1",
+      "I work on AI ranking evaluation and emotion preference modeling.",
+      "Work session ends; transition to personal dinner break."
+    ],
+    [
+      "2-3",
+      "I have dinner with my companions at the cafeteria.",
+      "Dinner concludes; transit to restroom begins."
+    ],
+    [
+      "4",
+      "I walk to the office building men's restroom.",
+      "End of provided data."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "2"
+    ],
+    "boundary_cautions": []
+  }
+}
+```

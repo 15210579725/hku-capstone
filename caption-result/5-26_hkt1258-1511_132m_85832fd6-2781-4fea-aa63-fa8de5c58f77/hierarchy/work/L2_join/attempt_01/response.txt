@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Review eligible pairs to determine if the exact same immediate task continues across the transport batch boundary. Merge identical ongoing activities like eating and browsing for the same topic. Leave distinct topics, discrete sequential actions, and location shifts separated.",
+  "merges": [
+    [
+      33,
+      34,
+      "I continue to eat my fried rice.",
+      "Same eating activity continues across batch edge"
+    ],
+    [
+      68,
+      69,
+      "I browse Xiaohongshu and Google Maps for quiet study spots in Hong Kong.",
+      "Same browsing task continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

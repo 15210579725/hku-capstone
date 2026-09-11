@@ -1,0 +1,111 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks. Distinct activities such as reading a paper, using ChatGPT, and packing up are isolated. Prolonged transit is split by prominent immediate task interruptions, such as conversing with a friend, adjusting an AC panel, or changing routes due to a navigational error.",
+  "events": [
+    [
+      "750-795",
+      "I study a research paper about intrinsic rewards on AlphaXiv.",
+      "Task shifts to querying ChatGPT"
+    ],
+    [
+      "796-855",
+      "I read a ChatGPT explanation of the research paper.",
+      "Task shifts to checking the pipeline summary"
+    ],
+    [
+      "856-858",
+      "I review the POV Pipeline execution summary.",
+      "Task shifts to packing up devices"
+    ],
+    [
+      "859-866",
+      "I pack up my laptop and power bank.",
+      "Packing completes upon standing up to leave"
+    ],
+    [
+      "867-873",
+      "I walk through the office to the atrium lounge.",
+      "Pauses walking to greet a friend"
+    ],
+    [
+      "874-876",
+      "I chat with a friend in the atrium lounge.",
+      "Conversation ends and walking resumes"
+    ],
+    [
+      "877-883",
+      "I walk to the elevator lobby.",
+      "Arrives at the elevator"
+    ],
+    [
+      "884-890",
+      "I ride the elevator to the first floor.",
+      "Elevator ride completes upon exiting"
+    ],
+    [
+      "891-905",
+      "I walk through the building corridors.",
+      "Pauses walking to adjust the AC"
+    ],
+    [
+      "906",
+      "I press the AC control panel.",
+      "AC adjustment completes"
+    ],
+    [
+      "907-909",
+      "I walk to the elevator lobby.",
+      "Arrives at the next elevator"
+    ],
+    [
+      "910-921",
+      "I ride the elevator.",
+      "Elevator ride completes upon exiting"
+    ],
+    [
+      "922-927",
+      "I exit the building through the guarded lobby.",
+      "Reaches the outside sidewalk"
+    ],
+    [
+      "928-956",
+      "I walk outside along the road and building path.",
+      "Path interrupted by realization of walking in the wrong direction"
+    ],
+    [
+      "957-965",
+      "I walk back along the walkway after realizing my incorrect direction.",
+      "Arrives at the building entrance"
+    ],
+    [
+      "966-973",
+      "I enter the badminton hall.",
+      "Shifts from entering to climbing stairs"
+    ],
+    [
+      "974-980",
+      "I walk up the spiral staircase.",
+      "Reaches the upper corridor"
+    ],
+    [
+      "981-992",
+      "I navigate the upper corridors to the elevator lobby.",
+      "Navigation completes upon arriving at the elevator"
+    ],
+    [
+      "993-999",
+      "I ride the elevator to the L3 lobby.",
+      "Elevator ride completes upon exiting into the L3 lobby"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "957-965: Realizing the wrong navigation path prompts a complete reversal in walking direction."
+    ],
+    "boundary_cautions": []
+  }
+}
+```

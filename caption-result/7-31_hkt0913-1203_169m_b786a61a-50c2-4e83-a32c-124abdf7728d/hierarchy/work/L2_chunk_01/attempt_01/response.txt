@@ -1,0 +1,89 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group sequential software interactions and minor incidental real-world adjustments into immediate tasks based on the specific application, dataset day, or document being targeted. Boundaries are drawn when the user switches applications, shifts focus to a different day's dataset, or fundamentally changes their primary immediate goal (e.g., from evaluating generated samples to updating a wiki document).",
+  "events": [
+    [
+      "0-2",
+      "I connect my power bank to a USB cable.",
+      "Task completes and focus shifts to the laptop."
+    ],
+    [
+      "3-8",
+      "I review the caption transcript and events log on my laptop.",
+      "Switches application to VS Code."
+    ],
+    [
+      "9-25",
+      "I review dataset processing logs and prompt engineering notes in VS Code.",
+      "Switches application to ChatGPT."
+    ],
+    [
+      "26-43",
+      "I review the Jake Day 1 data processing logs and timeout errors in ChatGPT.",
+      "Shifts focus from Jake Day 1 to downloading Jake Day 2 files."
+    ],
+    [
+      "44-55",
+      "I download the Jake Day 2 data processing results from ChatGPT.",
+      "Shifts focus to review Jake Day 5 processing results."
+    ],
+    [
+      "56-62",
+      "I review the Jake Day 5 processing results and data compression statistics in ChatGPT.",
+      "Shifts focus to review the Jake Day 6 conversation."
+    ],
+    [
+      "63-84",
+      "I review the Jake Day 6 and Day 7 rewrite comparisons and processing statistics in ChatGPT.",
+      "Switches to a different ChatGPT conversation to edit a transcription prompt."
+    ],
+    [
+      "85-97",
+      "I edit a transcription prompt regarding data merging rules in ChatGPT.",
+      "Switches to the Alice Day 2 conversation to evaluate new samples."
+    ],
+    [
+      "98-117",
+      "I evaluate the Alice Day 2 action rewrite samples and processing statistics in ChatGPT.",
+      "Pauses evaluating samples to modify the prompt criteria."
+    ],
+    [
+      "118-131",
+      "I update the Alice Day 2 data processing prompt criteria in ChatGPT.",
+      "Switches application to the POV Rollout Viewer."
+    ],
+    [
+      "132-140",
+      "I review timeline suggestions in the POV Rollout Viewer.",
+      "Returns to ChatGPT to further update the prompt."
+    ],
+    [
+      "141-170",
+      "I evaluate new Alice Day 2 data comparisons in ChatGPT after modifying the prompt to merge sentences.",
+      "Switches application to the Feishu wiki to update rules."
+    ],
+    [
+      "171-215",
+      "I update the dataset cleaning and merging rules in the Feishu wiki document based on ChatGPT output.",
+      "Switches application to VS Code to verify a specific caption."
+    ],
+    [
+      "216-220",
+      "I search for a specific action caption in the Alice Day 2 SRT file using VS Code.",
+      "Returns to the Feishu wiki to document the verified examples."
+    ],
+    [
+      "221-249",
+      "I update the Feishu wiki document with caption merging examples and refined rewriting rules.",
+      "End of input."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

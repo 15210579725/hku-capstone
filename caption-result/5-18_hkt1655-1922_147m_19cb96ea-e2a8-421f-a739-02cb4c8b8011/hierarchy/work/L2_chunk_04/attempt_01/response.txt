@@ -1,0 +1,121 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into distinct immediate tasks based on major app switches, video content topics, physical tasks, and distinct document subjects. Standalone triggers are preserved.",
+  "events": [
+    [
+      "750-753",
+      "I enter my apartment.",
+      "Arriving home is complete upon entering."
+    ],
+    [
+      "754-759",
+      "I check WeChat messages with babe and a group chat.",
+      "Switches from messaging to reading subscription feeds."
+    ],
+    [
+      "760-774",
+      "I read articles in the WeChat subscription feed.",
+      "Exits WeChat to the home screen and opens Bilibili."
+    ],
+    [
+      "775-790",
+      "I open Bilibili and watch a video about Trump's China visit.",
+      "Returns to the Bilibili homepage feed."
+    ],
+    [
+      "791-802",
+      "I watch a Bilibili video about sand battery heating technology.",
+      "Returns to browsing the Bilibili video feed."
+    ],
+    [
+      "803-815",
+      "I browse the Bilibili video feed.",
+      "Selects and begins watching a new video about Hefei."
+    ],
+    [
+      "816-834",
+      "I watch a Bilibili video about Hefei's venture investment model.",
+      "Returns to the Bilibili feed."
+    ],
+    [
+      "835-843",
+      "I browse the Bilibili feed and place my phone on the table.",
+      "Puts the phone down to interact with physical items."
+    ],
+    [
+      "844-847",
+      "I unpack bananas and inspect items on the dining table.",
+      "Shifts to replacing the kitchen trash bag."
+    ],
+    [
+      "848-859",
+      "I replace the kitchen trash bag.",
+      "Trash bag replacement is complete."
+    ],
+    [
+      "860-874",
+      "I eat a banana and throw the peel away.",
+      "Finishes eating and returns to checking the phone."
+    ],
+    [
+      "875-884",
+      "I read WeChat messages with babe about dinner plans.",
+      "Switches from WeChat to checking iPhone storage."
+    ],
+    [
+      "885-890",
+      "I check my iPhone storage capacity.",
+      "Finishes checking storage and leaves the phone."
+    ],
+    [
+      "891-893",
+      "I throw a plastic wrapper into the kitchen trash can.",
+      "Finishes throwing away trash and moves to the dining room."
+    ],
+    [
+      "894-895",
+      "I inspect items on the dining table.",
+      "Leaves the dining area to go to the bedroom."
+    ],
+    [
+      "896-932",
+      "I work on the POV Rollout Viewer and development documents on my laptop.",
+      "Switches to loading a web browser for jigsaw puzzles."
+    ],
+    [
+      "933-956",
+      "I load and complete a cottage garden jigsaw puzzle.",
+      "Puzzle is completed and user navigates to a new puzzle."
+    ],
+    [
+      "957-973",
+      "I start the Friday Mystery Puzzle.",
+      "Verbally decides to start revision, abandoning the puzzle."
+    ],
+    [
+      "974",
+      "I verbally commit to starting my revision work.",
+      "A major trigger redirecting behavior from playing games to working."
+    ],
+    [
+      "975-993",
+      "I review action prediction benchmarks and datasets for a revision document.",
+      "Shifts topic to studying matrix condition numbers."
+    ],
+    [
+      "994-999",
+      "I study numerical analysis notes on matrix condition numbers.",
+      "End of input."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      974
+    ],
+    "boundary_cautions": []
+  }
+}
+```

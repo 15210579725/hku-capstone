@@ -1,0 +1,18 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate the eligible boundary pairs to determine if the exact same immediate task continues across the transport batch edge. Only merge pairs that describe the same ongoing activity without abstracting or generalizing to a higher level.",
+  "merges": [
+    [
+      49,
+      50,
+      "I walk through the station corridor.",
+      "Continuous walking through the same corridor continues across the batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

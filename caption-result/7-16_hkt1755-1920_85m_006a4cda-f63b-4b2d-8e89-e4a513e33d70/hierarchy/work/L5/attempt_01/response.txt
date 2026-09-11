@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L5",
+  "plan": "Separate the distinct dinner break from the subsequent contiguous work session focused on the action prediction project.",
+  "events": [
+    [
+      "0",
+      "I eat dinner at the cafeteria.",
+      "Location and major activity change to work tasks"
+    ],
+    [
+      "1-3",
+      "I work on my action prediction research project.",
+      "End of recording"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

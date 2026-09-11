@@ -1,0 +1,151 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks by identifying local goals such as querying AI, downloading specific books, navigating platforms, interacting with people, eating, or manipulating physical objects. Physical interruptions or distinct digital tasks mark boundaries.",
+  "events": [
+    [
+      "1000-1002",
+      "I read a ChatGPT response about book ratings.",
+      "Switches from reading ChatGPT to inspecting a physical object."
+    ],
+    [
+      "1003-1004",
+      "I inspect a shoe insole.",
+      "Switches from inspecting an object to browsing Goodreads."
+    ],
+    [
+      "1005-1006",
+      "I read the Goodreads page for 'Scientific Work and Creativity'.",
+      "Switches from browsing Goodreads to downloading a book on Z-Library."
+    ],
+    [
+      "1007-1020",
+      "I download and open the EPUB of 'Scientific Work and Creativity: Advice from the Masters'.",
+      "Switches from viewing the downloaded book to prompting ChatGPT."
+    ],
+    [
+      "1021-1028",
+      "I ask ChatGPT to summarize the table of contents of the downloaded book.",
+      "Switches from prompting ChatGPT to fidgeting with objects on the desk."
+    ],
+    [
+      "1029-1034",
+      "I fidget with a hair clip and a small tool at my desk.",
+      "Switches from fidgeting to checking a smartphone."
+    ],
+    [
+      "1035-1037",
+      "I check my WeChat chat list on my iPhone.",
+      "Switches from checking a smartphone to reading recommendations on the laptop."
+    ],
+    [
+      "1038-1043",
+      "I read Claude's recommendations for scientific books.",
+      "Switches from reading to conversing with a roommate."
+    ],
+    [
+      "1044-1047",
+      "I converse with my roommate while reviewing book entries.",
+      "Switches from conversation to reading ChatGPT recommendations."
+    ],
+    [
+      "1048-1061",
+      "I read and discuss scientific research reading recommendations with ChatGPT.",
+      "Switches from reading ChatGPT to searching for a specific book online."
+    ],
+    [
+      "1062-1079",
+      "I search for the EPUB of 'Life in Science' across Z-Library and Google.",
+      "Switches from searching for a book to using the POV Rollout Viewer."
+    ],
+    [
+      "1080-1089",
+      "I analyze decision trees and submit a query about research in the POV Rollout Viewer.",
+      "Switches from the POV Rollout Viewer to checking book prices and pages."
+    ],
+    [
+      "1090-1096",
+      "I check online pages and prices for 'Life in Science'.",
+      "Switches from checking prices to accessing a university login portal."
+    ],
+    [
+      "1097-1124",
+      "I download the 'Life in Science' EPUB via my university's institutional access on Springer Nature.",
+      "Switches from downloading the book to reviewing a ChatGPT response."
+    ],
+    [
+      "1125-1129",
+      "I review ChatGPT's response regarding scientific research references.",
+      "Switches from reviewing ChatGPT to a social interaction."
+    ],
+    [
+      "1130-1145",
+      "I converse with my partner and roommate about sharing food.",
+      "Switches from conversation to returning to the desk and reading."
+    ],
+    [
+      "1146-1148",
+      "I return to my desk and read the ChatGPT summary of the book.",
+      "Switches from reading the summary to uploading a file."
+    ],
+    [
+      "1149-1154",
+      "I upload the downloaded EPUB file to WeChat Read.",
+      "Switches from file uploading to reviewing ChatGPT prompts."
+    ],
+    [
+      "1155-1159",
+      "I review my ChatGPT prompt and responses about the uploaded book.",
+      "Switches from reviewing ChatGPT to an eating activity."
+    ],
+    [
+      "1160-1199",
+      "I eat a bowl of spicy seafood and vegetable soup provided by my roommate.",
+      "Switches from eating to getting water."
+    ],
+    [
+      "1200-1208",
+      "I pour water from an electric kettle into a cup and return to my desk.",
+      "Switches from getting water to reading research articles."
+    ],
+    [
+      "1209-1216",
+      "I read articles and AI responses about scientific research methods on my laptop.",
+      "Switches from reading articles to cleaning a cup."
+    ],
+    [
+      "1217-1228",
+      "I wipe a glass cup with a tissue and discard the tissue in the trash.",
+      "Switches from discarding a tissue to reviewing an article."
+    ],
+    [
+      "1229-1232",
+      "I review the ChatGPT research guidance article.",
+      "Switches from reading to examining a physical tool."
+    ],
+    [
+      "1233-1235",
+      "I examine a nail clipper.",
+      "Switches from examining a tool to reading ChatGPT."
+    ],
+    [
+      "1236-1244",
+      "I read a ChatGPT response regarding interdisciplinary research.",
+      "Switches from reading ChatGPT to browsing an e-reader."
+    ],
+    [
+      "1245-1249",
+      "I browse the cover and table of contents of 'Life in Science' in the e-reader.",
+      "End of batch."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "1160"
+    ],
+    "boundary_cautions": []
+  }
+}
+```

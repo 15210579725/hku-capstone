@@ -1,0 +1,119 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions that serve a single immediate goal, such as navigating a specific segment of a route, taking an elevator ride, inspecting a room, retrieving an item, or using a specific software application.",
+  "events": [
+    [
+      "2250-2261",
+      "I walk along the sidewalk.",
+      "Navigating the street segment prior to reaching the municipal building"
+    ],
+    [
+      "2262-2274",
+      "I take the elevator to the 5th floor.",
+      "Elevator journey forms a discrete immediate task"
+    ],
+    [
+      "2275-2281",
+      "I walk through the cooked food market.",
+      "Navigating the market hall corridor"
+    ],
+    [
+      "2282-2287",
+      "I walk down the outdoor ramp.",
+      "Navigating the ramp segment"
+    ],
+    [
+      "2288-2296",
+      "I walk up the sloped street.",
+      "Navigating the street segment"
+    ],
+    [
+      "2297-2302",
+      "I walk through the alleyway.",
+      "Navigating the alleyway segment"
+    ],
+    [
+      "2303-2307",
+      "I climb the stairs.",
+      "Climbing the stair segment"
+    ],
+    [
+      "2308-2316",
+      "I walk to the Y.Hill apartment building.",
+      "Final approach and crossing courtyard to the building entrance"
+    ],
+    [
+      "2317-2326",
+      "I take the elevator to the 16th floor.",
+      "Elevator journey to the apartment floor"
+    ],
+    [
+      "2327-2330",
+      "I enter apartment 15B.",
+      "Unlocking and entering the apartment"
+    ],
+    [
+      "2331-2336",
+      "I inspect the dark apartment.",
+      "Walking through and observing the rooms"
+    ],
+    [
+      "2337-2339",
+      "I check my smartphone.",
+      "Brief interaction with phone applications"
+    ],
+    [
+      "2340-2351",
+      "I attempt to charge my MacBook in the dark room.",
+      "Plugging in, conversing about the charge, and realizing it failed"
+    ],
+    [
+      "2352-2354",
+      "I plug my MacBook into the bedroom charger.",
+      "Relocating the laptop and attempting to charge it again"
+    ],
+    [
+      "2355-2361",
+      "I retrieve a charging cable from the dining area.",
+      "Fetching the necessary cable to set up the laptop"
+    ],
+    [
+      "2362-2364",
+      "I unlock my MacBook.",
+      "Preparing the computer for use"
+    ],
+    [
+      "2365-2369",
+      "I open Baidu Netdisk on my MacBook.",
+      "Searching for and launching a specific application"
+    ],
+    [
+      "2370-2374",
+      "I type into the Claude interface.",
+      "Interacting with the Claude AI"
+    ],
+    [
+      "2375-2381",
+      "I browse media in a WeChat chat.",
+      "Viewing photos and videos in a specific app"
+    ],
+    [
+      "2382-2386",
+      "I turn on the air conditioner.",
+      "Walking to the window corner to activate the AC"
+    ],
+    [
+      "2387-2389",
+      "I browse a WeChat photo album at my desk.",
+      "Resuming WeChat use upon returning to the desk"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

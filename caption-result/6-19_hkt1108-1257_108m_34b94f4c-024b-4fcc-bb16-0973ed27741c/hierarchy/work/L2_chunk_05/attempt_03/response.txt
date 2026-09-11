@@ -1,0 +1,176 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate L2 tasks based on sustained movement, visual focus, and interactions. Abstract minor visual scans, transient stops, and passing occurrences into the overarching navigation or browsing goals. Preserve specific locations, conversation topics, and concrete targets.",
+  "events": [
+    [
+      "0-21",
+      "I approach the building entrance along the covered courtyard walkway.",
+      "Reaches the building entrance"
+    ],
+    [
+      "22-25",
+      "I walk through the building lobby to the escalator.",
+      "Reaches the escalator bank"
+    ],
+    [
+      "26-29",
+      "I ride the escalator down to the lower lobby.",
+      "Steps off the escalator"
+    ],
+    [
+      "30-35",
+      "I discuss visiting the market and purchasing red bean paste items with my companion.",
+      "Conversation concludes and the journey resumes"
+    ],
+    [
+      "36-39",
+      "I exit the building via the lobby doors.",
+      "Exits the building"
+    ],
+    [
+      "40-50",
+      "I walk along the covered outdoor footbridge.",
+      "Arrives at the mall entrance"
+    ],
+    [
+      "51-57",
+      "I enter The Wai mall to browse the baked goods at Paper Stone Bakery.",
+      "Leaves the bakery to continue walking"
+    ],
+    [
+      "58-61",
+      "I observe the promotional displays outside the Mannings store.",
+      "Resumes walking down the mall concourse"
+    ],
+    [
+      "62-74",
+      "I discuss dining options with my companion during our walk through the mall corridor.",
+      "Conversation about dining concludes"
+    ],
+    [
+      "75-86",
+      "I browse the storefronts and advertising displays along the mall corridor.",
+      "Stops to observe an event in the atrium"
+    ],
+    [
+      "87-97",
+      "I watch a pet agility event in the mall atrium from the upper level.",
+      "Resumes walking away from the atrium event"
+    ],
+    [
+      "98-105",
+      "I navigate the mall corridor toward the Coucou Hotpot restaurant.",
+      "Arrives at the Coucou Hotpot reception"
+    ],
+    [
+      "106-114",
+      "I examine the menus and promotional materials at Coucou Hotpot and Teametea.",
+      "Leaves the restaurant storefronts"
+    ],
+    [
+      "115-117",
+      "I walk along the mall corridor toward the descending escalator.",
+      "Boards the descending escalator"
+    ],
+    [
+      "118-122",
+      "I ride the escalator down to the lower mall level.",
+      "Steps off the escalator"
+    ],
+    [
+      "123-125",
+      "I converse with my companion outside the SPORT b store.",
+      "Conversation ends"
+    ],
+    [
+      "126-133",
+      "I navigate the mall concourse toward the MTR station entrance.",
+      "Arrives at the escalator leading to the MTR"
+    ],
+    [
+      "134-146",
+      "I ride the long escalator down to the MTR station concourse.",
+      "Arrives at the MTR station concourse"
+    ],
+    [
+      "147-160",
+      "I walk through the Tai Wai Station concourse toward the exit gates.",
+      "Reaches the station exit ramps"
+    ],
+    [
+      "161-167",
+      "I navigate the subway exit ramps and stairs to the street level.",
+      "Reaches the street level outside the station"
+    ],
+    [
+      "168-172",
+      "I cross the street at the pedestrian intersection outside the station.",
+      "Completes the street crossing"
+    ],
+    [
+      "173-177",
+      "I review property listings along the brick sidewalk.",
+      "Approaches the snack stalls"
+    ],
+    [
+      "178-181",
+      "I discuss purchasing dessert at the snack stalls.",
+      "Moves on from the snack stalls"
+    ],
+    [
+      "182-190",
+      "I browse the various storefront displays along the covered walkway.",
+      "Reaches the next street intersection"
+    ],
+    [
+      "191-196",
+      "I cross the street to the opposite sidewalk.",
+      "Completes the street crossing"
+    ],
+    [
+      "197-209",
+      "I walk along the street past local retail shops and vendors.",
+      "Arrives at the Tai Wai Market entrance"
+    ],
+    [
+      "210-213",
+      "I review the directory upon entering the Tai Wai Market.",
+      "Finishes reviewing the directory and enters the market aisles"
+    ],
+    [
+      "214-220",
+      "I browse the fresh vegetable and fish stalls inside the market.",
+      "Stops to closely inspect live seafood"
+    ],
+    [
+      "221-230",
+      "I inspect the live seafood displays at the market stalls.",
+      "Leaves the live seafood displays"
+    ],
+    [
+      "231-234",
+      "I navigate the wet market aisles toward a grocery stall.",
+      "Arrives at the grocery stall"
+    ],
+    [
+      "235-245",
+      "I examine the zongzi with my companion at the grocery stall.",
+      "Concludes examining the zongzi"
+    ],
+    [
+      "246-249",
+      "I walk past a butcher stall along the market walkway.",
+      "Batch ends"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "30-35"
+    ],
+    "boundary_cautions": []
+  }
+}
+```

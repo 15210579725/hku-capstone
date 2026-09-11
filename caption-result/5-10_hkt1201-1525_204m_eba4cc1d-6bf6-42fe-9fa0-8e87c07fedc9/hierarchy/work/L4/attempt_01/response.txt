@@ -1,0 +1,39 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group L3 episodes into broader goal-oriented phases based on location and overarching purpose: hotel departure, mountain excursion (transit plus sightseeing), mall dining (plaza arrival plus meals), cafe study (transit plus academic work), and final transit to the ferry terminal.",
+  "events": [
+    [
+      "0",
+      "I conclude my hotel stay.",
+      "Hotel checkout and luggage storage form a distinct administrative phase"
+    ],
+    [
+      "1-5",
+      "I complete a mountain sightseeing excursion with my companion.",
+      "Groups transit to the area, cable car ascent, sightseeing, and coaster descent into one attraction phase"
+    ],
+    [
+      "6-8",
+      "I visit the shopping mall area for a hotpot meal and refreshments with my companion.",
+      "Groups the outdoor plaza arrival, snack purchases, and the main restaurant meal into a single dining phase"
+    ],
+    [
+      "9-10",
+      "I study Kernel PCA and Numerical Methods on my MacBook at a cafe.",
+      "Groups the transit to the cafe and the specific academic study session"
+    ],
+    [
+      "11",
+      "I travel to the Jiuzhou Port ferry terminal.",
+      "Standalone transit to a major transportation hub marks the start of a new travel phase"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,139 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks such as eating lunch, messaging specific contacts on WeChat, browsing particular social media apps, and navigating the environment. Boundaries are marked by shifts between eating and phone usage, switching chat partners, changing apps, or transitioning to physical tasks like taking a pill or leaving.",
+  "events": [
+    [
+      "0-3",
+      "I prepare to eat my lunch.",
+      "Starts texting on phone"
+    ],
+    [
+      "4-10",
+      "I discuss the apartment sublease with babe on WeChat.",
+      "Switches to eating"
+    ],
+    [
+      "11-23",
+      "I eat my chicken and rice lunch.",
+      "Switches to texting on phone"
+    ],
+    [
+      "24-28",
+      "I reply to User A on WeChat.",
+      "Switches chat to message father"
+    ],
+    [
+      "29-35",
+      "I draft a WeChat message to my father about the apartment rent.",
+      "Switches chat to User X"
+    ],
+    [
+      "36-39",
+      "I reply to User X and User A on WeChat about my trip to Shanghai.",
+      "Returns to draft message to father"
+    ],
+    [
+      "40-43",
+      "I finalize and send a WeChat message to my father about the apartment details.",
+      "Resumes eating"
+    ],
+    [
+      "44-59",
+      "I eat my chicken and rice.",
+      "Pauses to read WeChat message"
+    ],
+    [
+      "60",
+      "I read WeChat messages from my father.",
+      "Resumes eating"
+    ],
+    [
+      "61-66",
+      "I eat soup and chicken.",
+      "Switches to texting on phone"
+    ],
+    [
+      "67-70",
+      "I reply to User A on WeChat.",
+      "Switches chat to babe"
+    ],
+    [
+      "71-73",
+      "I read WeChat messages from babe.",
+      "Resumes eating"
+    ],
+    [
+      "74-81",
+      "I eat my chicken and rice.",
+      "Resumes texting babe"
+    ],
+    [
+      "82-89",
+      "I message babe on WeChat about the apartment room.",
+      "Resumes eating"
+    ],
+    [
+      "90-114",
+      "I eat my chicken, rice, and soup.",
+      "Resumes texting babe"
+    ],
+    [
+      "115-123",
+      "I message babe on WeChat about the roommate's background.",
+      "Resumes eating"
+    ],
+    [
+      "124-155",
+      "I finish eating my chicken and soup.",
+      "Finishes eating and uses phone"
+    ],
+    [
+      "156-159",
+      "I reply to babe on WeChat.",
+      "Switches app to Xiaohongshu"
+    ],
+    [
+      "160-167",
+      "I read a Xiaohongshu post about Midea air conditioners.",
+      "Pauses phone to take a pill"
+    ],
+    [
+      "168-171",
+      "I retrieve and take a pill from my backpack.",
+      "Resumes browsing phone"
+    ],
+    [
+      "172-216",
+      "I browse posts and watch videos on Xiaohongshu.",
+      "Switches app to Douyin"
+    ],
+    [
+      "217-235",
+      "I watch short videos on Douyin.",
+      "Puts phone away to pack up"
+    ],
+    [
+      "236-239",
+      "I gather my backpack and meal tray to leave.",
+      "Starts walking to return tray"
+    ],
+    [
+      "240-243",
+      "I return my meal tray to the cafeteria counter.",
+      "Starts walking towards the exit"
+    ],
+    [
+      "244-249",
+      "I walk along the outdoor walkway toward the staircase.",
+      "End of recording"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

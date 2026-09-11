@@ -1,0 +1,24 @@
+```json
+{"target_level":"L2","plan":"Group actions into immediate tasks by identifying continuous actions serving a single local objective, such as navigating, preparing food, eating, conversing, washing dishes, and using devices.","events":[
+  ["250-254","I arrange furniture and items in the bedroom.","End of bedroom actions before navigating to the living room."],
+  ["255-257","I walk to the kitchen.","End of navigation before interacting with the food."],
+  ["258-277","I sample the steamed dumplings and cabbage from the pan in the kitchen.","End of eating in the kitchen before carrying the pan away."],
+  ["278-287","I clear space in the bedroom, converse with my roommate, and place the pan on the dining table.","End of transporting food and setting up to eat."],
+  ["288-320","I eat steamed dumplings and cabbage with garlic at the dining table.","End of eating before stepping away to talk to my roommate."],
+  ["321-325","I walk to the bedroom to ask my roommate about the dumplings.","End of interaction before returning to eat."],
+  ["326-366","I eat dumplings and garlic while discussing a misplaced card with my companion.","End of eating phase before fetching sauce."],
+  ["367-375","I fetch chili sauce from the kitchen and drizzle it over the food.","End of saucing food before resuming eating."],
+  ["376-403","I eat the steamed dumplings with chili sauce and garlic.","End of eating before getting a tissue."],
+  ["404-409","I go to the study desk to fetch a tissue.","End of getting a tissue before returning to the table."],
+  ["410-415","I finish the last dumpling piece and pick up the pan.","End of clearing the table before carrying items to the kitchen."],
+  ["416-425","I take the cookware to the kitchen, store the leftover cabbage, and begin rinsing the pans.","End of kitchen prep before a conversation."],
+  ["426-433","I discuss vinegar preferences with my housemate while handling a seasoning bottle.","End of conversation before washing dishes."],
+  ["434-448","I wash the steamer rack, frying pan, and chopsticks.","End of washing dishes before washing hands."],
+  ["449-452","I wash my hands and inspect my wet arm.","End of hand washing before returning to the dining area."],
+  ["453-459","I wipe up the garlic peels from the dining table and throw them away.","End of table cleanup before leaving the kitchen area."],
+  ["460-472","I return to the bedroom, pour a glass of water, and check my phone.","End of bedroom return tasks before using Taobao."],
+  ["473-490","I browse for a LABUBU card holder on Taobao.","End of phone shopping before getting socks."],
+  ["491-496","I retrieve white socks from the wardrobe and sit at my desk.","End of getting socks before using the computer."],
+  ["497-499","I adjust my laptop and resume work in VS Code.","End of supplied sequence."]
+],"audit":{"complete":true,"uncertainties":[],"major_triggers":[],"boundary_cautions":[]}}
+```

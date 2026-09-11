@@ -1,0 +1,109 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions sharing an immediate micro-task objective, bounded by explicit application context switches, task completions, or distinct shifts in strategy (such as transitioning from automated terminal scanning to manual file inspection).",
+  "events": [
+    [
+      "500-512",
+      "I examine Aria eye-tracking evaluation frames.",
+      "Switches to the Feishu document to write notes"
+    ],
+    [
+      "513-520",
+      "I document the eye-tracking dataset evaluation in the HKU capstone Feishu document.",
+      "Switches back to inspecting evaluation frames"
+    ],
+    [
+      "521-526",
+      "I review Aria gaze evaluation frames alongside the ChatGPT calibration explanation.",
+      "Switches context to Terminal for disk cleanup"
+    ],
+    [
+      "527-534",
+      "I initiate a large-file disk search using Claude Code in the terminal.",
+      "Switches to reading ChatGPT while waiting for the terminal search"
+    ],
+    [
+      "535-540",
+      "I read ChatGPT explanations regarding Aria eye gaze calibration and VRS health checks.",
+      "Switches back to monitoring the Claude Code terminal"
+    ],
+    [
+      "541-552",
+      "I monitor the Claude Code terminal search for large files.",
+      "Search command completes and transitions to reviewing results"
+    ],
+    [
+      "553-563",
+      "I review the disk inspection output and file cleanup recommendations.",
+      "Submits a new query for specific VRS files"
+    ],
+    [
+      "564-579",
+      "I monitor Claude Code executing a new large-file search within the vrs directory.",
+      "Switches to manual Finder browsing"
+    ],
+    [
+      "580-616",
+      "I manually inspect file properties in the data preprocessing directories using Finder.",
+      "Returns to Claude Code to request a text-based audit"
+    ],
+    [
+      "617-644",
+      "I request a text-based large-file audit table from Claude Code to review deletion candidates.",
+      "Begins executing specific file deletion commands"
+    ],
+    [
+      "645-662",
+      "I execute large data directory deletions via Claude Code to recover disk space.",
+      "Intervenes to preserve specific VPN files before continuing deletion"
+    ],
+    [
+      "663-680",
+      "I manage the final Claude Code disk cleanup phase to preserve VPN components.",
+      "Cleanup finishes, switches to reading ChatGPT logs"
+    ],
+    [
+      "681-691",
+      "I review ChatGPT logs regarding eye tracking evaluation progress and VLM delivery.",
+      "Switches to the MAGIC-Video thread"
+    ],
+    [
+      "692-698",
+      "I read the official backbone prompt confirmation and retrieval guidelines in the MAGIC-Video ChatGPT thread.",
+      "Switches to Visual Studio Code"
+    ],
+    [
+      "699-710",
+      "I review candidate prompt files and temporal boundary rules in Visual Studio Code.",
+      "Switches to reviewing evaluation scores and gaze accuracy in Chrome"
+    ],
+    [
+      "711-718",
+      "I review Aria gaze accuracy test frames and model evaluation scores in Chrome.",
+      "Switches back to editing prompt rules in VS Code"
+    ],
+    [
+      "719-724",
+      "I review system prompt guidelines and search criteria in Visual Studio Code.",
+      "Switches to ChatGPT to retrieve a prompt"
+    ],
+    [
+      "725-736",
+      "I copy an agent prompt from the ChatGPT retrieval policy guidelines.",
+      "Switches to Apple Notes to save and edit the prompt"
+    ],
+    [
+      "737-749",
+      "I edit the copied agent prompt rules within a new Apple Note.",
+      "End of provided data"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

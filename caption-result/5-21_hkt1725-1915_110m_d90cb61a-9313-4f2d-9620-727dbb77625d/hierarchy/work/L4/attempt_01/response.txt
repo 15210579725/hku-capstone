@@ -1,0 +1,39 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group the evening into distinct broader phases: the transit to find a dining spot, the restaurant experience, relocating to the waterfront, relaxing there, and the final departure.",
+  "events": [
+    [
+      "0-2",
+      "I travel with my companion to select a dinner restaurant.",
+      "Arrival at the chosen restaurant marks the end of the transit and selection phase."
+    ],
+    [
+      "3-5",
+      "I dine on BBQ pork ribs at Dare Restaurant with my companion.",
+      "Paying the bill and exiting the restaurant completes the dining phase."
+    ],
+    [
+      "6",
+      "I walk to the waterfront promenade with my companion.",
+      "Arrival at the waterfront completes this relocation phase."
+    ],
+    [
+      "7-8",
+      "I relax at the waterfront promenade with my companion.",
+      "Initiating departure ends the main relaxation phase at the waterfront."
+    ],
+    [
+      "9",
+      "I depart the waterfront area with my companion.",
+      "End of the recorded input."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

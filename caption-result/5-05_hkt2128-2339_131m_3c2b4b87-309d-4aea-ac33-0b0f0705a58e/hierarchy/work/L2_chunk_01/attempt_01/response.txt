@@ -1,0 +1,141 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks based on shared apps, immediate goals, and targets.",
+  "events": [
+    [
+      "0-13",
+      "I chat with babe about AI short dramas on WeChat.",
+      "Switches to exchanging emojis"
+    ],
+    [
+      "14-23",
+      "I exchange emojis with babe on WeChat.",
+      "Switches to discussing sleep plans"
+    ],
+    [
+      "24-36",
+      "I message babe about taking a nap and sending greetings on WeChat.",
+      "Switches to discussing a meeting schedule"
+    ],
+    [
+      "37-44",
+      "I discuss meeting plans with babe on WeChat.",
+      "Puts the phone down"
+    ],
+    [
+      "45-50",
+      "I place my phone face down on the table.",
+      "Picks the phone up to check WeChat"
+    ],
+    [
+      "51-54",
+      "I review my WeChat chat with babe.",
+      "Switches to the Mail app"
+    ],
+    [
+      "55-57",
+      "I check my Mail app inbox.",
+      "Switches to the Xianyu app"
+    ],
+    [
+      "58-70",
+      "I browse Xianyu for kittens and AI verification listings.",
+      "Switches to reading car rental terms"
+    ],
+    [
+      "71-80",
+      "I read NIO car rental voucher terms on Xianyu.",
+      "Switches to searching for AI subscriptions"
+    ],
+    [
+      "81-94",
+      "I search for ChatGPT memberships on Xianyu.",
+      "Switches to searching for Zhuhai"
+    ],
+    [
+      "95-98",
+      "I search for Zhuhai on Xianyu.",
+      "Switches to searching for a drama"
+    ],
+    [
+      "99-104",
+      "I search for IU's new drama on Xianyu.",
+      "Switches to Google Chrome"
+    ],
+    [
+      "105-110",
+      "I search for the drama 《21世纪大君夫人》 on Google Chrome.",
+      "Switches back to Xianyu"
+    ],
+    [
+      "111-120",
+      "I search for 《21世纪大君主夫人》 episodes on Xianyu.",
+      "Switches to WeChat to share the listing"
+    ],
+    [
+      "121-127",
+      "I share a Xianyu drama listing with babe on WeChat.",
+      "Switches to WeChat Official Accounts"
+    ],
+    [
+      "128-134",
+      "I read a DeepSeek V4 article on WeChat Official Accounts.",
+      "Returns to the shared Xianyu link"
+    ],
+    [
+      "135-142",
+      "I return to Xianyu via a shared link and search for 《21世纪大君主夫人》.",
+      "Switches to browsing Zhuhai listings"
+    ],
+    [
+      "143-156",
+      "I browse Zhuhai hotel and transfer listings on Xianyu.",
+      "Switches to reading an AI travel guide"
+    ],
+    [
+      "157-161",
+      "I read the Xianyu AI travel recommendations for Zhuhai.",
+      "Switches to reading a tuition guide"
+    ],
+    [
+      "162-171",
+      "I read an infographic about affordable master's programs on Xianyu.",
+      "Switches to browsing AI tools and drama listings"
+    ],
+    [
+      "172-183",
+      "I browse drama and AI efficiency tool listings on Xianyu.",
+      "Switches to WeChat"
+    ],
+    [
+      "184-187",
+      "I briefly check WeChat.",
+      "Switches to setting an alarm"
+    ],
+    [
+      "188-189",
+      "I set an alarm and announce my intention to sleep.",
+      "Leaves the room"
+    ],
+    [
+      "190-192",
+      "I walk through the kitchen and hallway.",
+      "Settles to rest in darkness"
+    ],
+    [
+      "193-249",
+      "I rest in the darkness.",
+      "End of sequence"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "189: I say '好无聊啊！Let's take a sleep.'"
+    ],
+    "boundary_cautions": []
+  }
+}
+```

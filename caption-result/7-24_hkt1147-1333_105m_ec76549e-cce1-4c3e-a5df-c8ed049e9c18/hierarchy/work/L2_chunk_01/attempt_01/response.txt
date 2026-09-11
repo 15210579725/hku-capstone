@@ -1,0 +1,136 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions by immediate tasks, distinguishing application/system boundaries, transit stages, and cohesive conversation topics.",
+  "events": [
+    [
+      "0-1",
+      "I plug a USB flash drive into my laptop.",
+      "Task completion"
+    ],
+    [
+      "2-16",
+      "I type notes about learning rates, epochs, and test set generalization into a Feishu document.",
+      "Application focus shifts to terminal"
+    ],
+    [
+      "17-23",
+      "I review Claude Code expansion suggestions and checkpoint metric comparisons in the terminal.",
+      "Application focus shifts to VS Code"
+    ],
+    [
+      "24-28",
+      "I examine figure plots for loss and cosine similarity in Visual Studio Code.",
+      "Focus shifts to verbal exclamation"
+    ],
+    [
+      "29-31",
+      "I verbally express shock over an inaccurate evaluation metric.",
+      "Exclamation completes"
+    ],
+    [
+      "32-42",
+      "I review evaluation parameters and cosine similarity curve plots.",
+      "Focus shifts to reviewing evaluation metric tables"
+    ],
+    [
+      "43-53",
+      "I review Claude evaluation metrics, variance reports, and dataset scaling tables.",
+      "Focus shifts to typing a question"
+    ],
+    [
+      "54-60",
+      "I type a question regarding the fine-tuned llm-judge evaluation into Claude Code.",
+      "Task completion"
+    ],
+    [
+      "61-66",
+      "I leave my office desk with my white jacket.",
+      "Major trigger: departing for lunch"
+    ],
+    [
+      "67-70",
+      "I walk through the hallway into the elevator.",
+      "Location changes to inside elevator"
+    ],
+    [
+      "71-84",
+      "I discuss evaluating video generation truthfulness with colleagues in the elevator.",
+      "Location changes to parking garage"
+    ],
+    [
+      "85-104",
+      "I discuss AI reasoning evaluation with my companion in the parking garage and building lobby.",
+      "Location changes to cafeteria"
+    ],
+    [
+      "105-111",
+      "I discuss video-language models with my companions in the cafeteria.",
+      "Conversation concludes"
+    ],
+    [
+      "112-116",
+      "I navigate the cafeteria corridor past the self-service food counters.",
+      "Focus shifts to inquiring about food"
+    ],
+    [
+      "117-121",
+      "I ask the cafeteria staff about the availability of vegetable rice.",
+      "Interaction completes"
+    ],
+    [
+      "122-132",
+      "I discuss my lack of hunger with my companions in the food queue.",
+      "Focus shifts to moving to a table"
+    ],
+    [
+      "133-146",
+      "I accompany my friends to a dining table.",
+      "Location stabilizes at dining table"
+    ],
+    [
+      "147-159",
+      "I listen to my colleagues discuss corporate job opportunities and paper submissions.",
+      "Conversation topic changes to action datasets"
+    ],
+    [
+      "160-172",
+      "I discuss action recognition dataset formats with my colleagues.",
+      "Conversation topic changes to corporate interviews"
+    ],
+    [
+      "173-179",
+      "I listen to my companions discuss corporate interview experiences.",
+      "Conversation topic changes to paper reviews"
+    ],
+    [
+      "180-210",
+      "I listen to my companions discuss paper review scores and extracting dataset images.",
+      "Conversation topic changes to cafeteria food"
+    ],
+    [
+      "211-214",
+      "I ask my colleague about the meat in their dish.",
+      "Conversation topic changes to dataset normalization"
+    ],
+    [
+      "215-240",
+      "I listen to a colleague discuss dataset normalization and model evaluation strategies.",
+      "Conversation topic completes"
+    ],
+    [
+      "241-249",
+      "I watch my friends finish eating their lunch.",
+      "Task completion"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      8
+    ],
+    "boundary_cautions": []
+  }
+}
+```

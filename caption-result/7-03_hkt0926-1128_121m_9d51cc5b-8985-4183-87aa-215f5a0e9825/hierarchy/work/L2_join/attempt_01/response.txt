@@ -1,0 +1,30 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate the eligible batch-boundary pairs to merge only those that represent the exact same immediate task continuing without interruption. Distinct sequential actions (even within the same broader goal, like authentication followed by usage, or changing conversational topics/apps) will not be merged.",
+  "merges": [
+    [
+      28,
+      29,
+      "I ride the bicycle forward along the road.",
+      "Same continuous bicycle riding action continues across the batch boundary."
+    ],
+    [
+      58,
+      59,
+      "I watch economic analysis and oil price videos on my phone.",
+      "Continuous media viewing session on the phone continues across the batch boundary."
+    ],
+    [
+      81,
+      82,
+      "I converse with my companion about living arrangements and commuting while walking outside.",
+      "Continuous walking and conversation with the companion continues across the batch boundary."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

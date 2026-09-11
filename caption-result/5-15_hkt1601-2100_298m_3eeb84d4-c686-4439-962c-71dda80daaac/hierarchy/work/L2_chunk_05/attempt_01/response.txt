@@ -1,0 +1,134 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group atomic actions into immediate tasks based on continuous movement phases, specific spatial transitions (like taking an elevator or entering a building), and distinct academic activities (reading specific documents, typing prompts, writing notes).",
+  "events": [
+    [
+      "1000-1007",
+      "I walk along the sidewalk toward the outdoor lift.",
+      "Walk concludes upon reaching the lift."
+    ],
+    [
+      "1008-1017",
+      "I take the outdoor lift up to the footbridge.",
+      "Lift ride ends upon arriving at the footbridge."
+    ],
+    [
+      "1018-1025",
+      "I walk along the covered footbridge.",
+      "Footbridge walk concludes before ascending stairs."
+    ],
+    [
+      "1026-1031",
+      "I traverse the station lobby toward the brick plaza.",
+      "Stair ascent and lobby traversal conclude before entering the plaza."
+    ],
+    [
+      "1032-1045",
+      "I take the plaza elevator to the brick walkway.",
+      "Elevator ride completes the transition to the walkway."
+    ],
+    [
+      "1046-1053",
+      "I walk along the brick concourse.",
+      "Concourse walk concludes before turning toward the library."
+    ],
+    [
+      "1054-1065",
+      "I walk across the elevated bridge toward the Main Library.",
+      "Approach ends upon reaching the library entrance."
+    ],
+    [
+      "1066-1072",
+      "I enter the Main Library through the security turnstile.",
+      "Lobby entry completes after passing security."
+    ],
+    [
+      "1073-1084",
+      "I ascend the wooden stairs to the upper floor of the library.",
+      "Stair ascent concludes upon reaching the upper floor."
+    ],
+    [
+      "1085-1090",
+      "I enter the open study area of the library.",
+      "Corridor walk ends upon entering the study area."
+    ],
+    [
+      "1091-1097",
+      "I set up my MacBook at an empty library desk.",
+      "Workspace setup completes upon opening the laptop."
+    ],
+    [
+      "1098-1112",
+      "I read an exam assignment PDF about Gram matrix and power iteration on my laptop.",
+      "Reading the PDF concludes before writing a prompt."
+    ],
+    [
+      "1113-1134",
+      "I type a prompt into the Claude AI interface.",
+      "Prompt typing concludes before interacting with the cable."
+    ],
+    [
+      "1135-1137",
+      "I relocate a charging cable on the desk.",
+      "Cable relocation is a brief independent action."
+    ],
+    [
+      "1138-1160",
+      "I read Claude's explanations about kernel methods and the Representer Theorem.",
+      "Reading AI explanations concludes before checking study notes."
+    ],
+    [
+      "1161-1176",
+      "I read technical study notes about kernel functions on my laptop.",
+      "Reading study notes concludes before shifting to Mercer's theorem."
+    ],
+    [
+      "1177-1188",
+      "I read notes on Mercer's theorem and mathematical derivations on my laptop.",
+      "Reading derivations concludes before retrieving the notepad."
+    ],
+    [
+      "1189-1194",
+      "I retrieve a writing pad from my backpack.",
+      "Notepad setup concludes before reviewing the problem."
+    ],
+    [
+      "1195-1200",
+      "I review the kernel method exercise problem on the laptop screen.",
+      "Problem review concludes before beginning to write."
+    ],
+    [
+      "1201-1217",
+      "I write out the polynomial kernel algebraic expansion on the notepad.",
+      "Writing the expansion concludes before verifying with the screen."
+    ],
+    [
+      "1218-1225",
+      "I cross-reference Claude's explanation on the screen with my handwritten equations.",
+      "Verification step concludes before resuming writing."
+    ],
+    [
+      "1226-1233",
+      "I write mathematical derivations on my notepad.",
+      "Writing derivations concludes before querying Claude."
+    ],
+    [
+      "1234-1241",
+      "I query the Claude AI chat.",
+      "AI interaction concludes before resuming written work."
+    ],
+    [
+      "1242-1249",
+      "I write mathematical formulas on the notepad.",
+      "Batch ends during written formula work."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

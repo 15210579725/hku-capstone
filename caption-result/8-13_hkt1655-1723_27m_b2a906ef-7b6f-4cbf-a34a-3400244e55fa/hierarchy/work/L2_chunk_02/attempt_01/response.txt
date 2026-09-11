@@ -1,0 +1,49 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks: reviewing evaluation scores, typing a prompt, preparing to leave the desk, walking to the pantry, filling the water bottle, walking around the pantry area, and returning down the hallway.",
+  "events": [
+    [
+      "250-252",
+      "I review ChatGPT evaluation scores and status.",
+      "Switches to typing a new prompt"
+    ],
+    [
+      "253-255",
+      "I type a prompt into ChatGPT for testing predictions.",
+      "Stops using the computer to look around"
+    ],
+    [
+      "256-258",
+      "I pick up my water bottle from my desk.",
+      "Leaves the desk to go to the pantry"
+    ],
+    [
+      "259-263",
+      "I walk to the breakroom pantry water dispenser.",
+      "Arrives at the water dispenser"
+    ],
+    [
+      "264-270",
+      "I fill my glass water bottle at the dispenser.",
+      "Finishes filling the bottle and moves away"
+    ],
+    [
+      "271-277",
+      "I walk around the pantry area and approach the coffee maker.",
+      "Turns around to leave the pantry area"
+    ],
+    [
+      "278-285",
+      "I walk down the office hallway holding my water bottle.",
+      "End of input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

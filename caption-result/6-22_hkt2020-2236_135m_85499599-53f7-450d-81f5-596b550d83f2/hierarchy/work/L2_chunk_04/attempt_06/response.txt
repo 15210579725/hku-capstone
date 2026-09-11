@@ -1,0 +1,114 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group consecutive observations sharing a single immediate localized task, such as walking to a destination, examining a specific product category, or interacting with an item. Minor conversational interludes are grouped into the concurrent physical task.",
+  "events": [
+    [
+      "750-755",
+      "I wait at the dining table.",
+      "Sitting and waiting."
+    ],
+    [
+      "756-760",
+      "I stand up from the dining table.",
+      "Rising to leave."
+    ],
+    [
+      "761-764",
+      "I walk to Best Mart 360.",
+      "Arrival at a new store."
+    ],
+    [
+      "765-784",
+      "I browse snacks and chocolates in Best Mart 360.",
+      "Leaving the store."
+    ],
+    [
+      "785-796",
+      "I walk to the Wellcome supermarket.",
+      "Arrival at Wellcome supermarket."
+    ],
+    [
+      "797-812",
+      "I select pears with my companion in the Wellcome supermarket.",
+      "Shift to examining watermelons."
+    ],
+    [
+      "813-820",
+      "I examine watermelons in the supermarket.",
+      "Move to refrigerated fruit section."
+    ],
+    [
+      "821-826",
+      "I examine durians and cherries.",
+      "Move to deli and poultry."
+    ],
+    [
+      "827-840",
+      "I browse the deli section and discuss meal plans with my companion.",
+      "Transition to general grocery aisles."
+    ],
+    [
+      "841-855",
+      "I browse the dairy, beverage, and snack aisles.",
+      "Continuous browsing shifts to dry goods."
+    ],
+    [
+      "856-869",
+      "I browse the biscuit, soup, and dry goods aisles.",
+      "Stops browsing to access personal bag."
+    ],
+    [
+      "870-878",
+      "I take out and use a portable fan.",
+      "Fan usage completes; returns to browsing."
+    ],
+    [
+      "879-881",
+      "I browse frozen dumplings and meatballs.",
+      "Moves to instant noodle aisle."
+    ],
+    [
+      "882-904",
+      "I browse the instant noodle aisle and discuss Luosifen with my companion.",
+      "Shifts attention to other noodles."
+    ],
+    [
+      "905-920",
+      "I examine a misplaced package of Nongshim noodles with my companion.",
+      "Moves on to other instant noodles."
+    ],
+    [
+      "921-942",
+      "I select Ottogi Crema Jin Jjamppong noodles.",
+      "Selection complete; moves away from noodle shelves."
+    ],
+    [
+      "943-956",
+      "I place the noodles in the cart and enjoy the air conditioning.",
+      "Shifts to browsing canned goods."
+    ],
+    [
+      "957-965",
+      "I browse canned goods and discuss buying drinks with my companion.",
+      "Moves to frozen foods."
+    ],
+    [
+      "966-974",
+      "I browse frozen foods and discuss showering with my companion.",
+      "Shifts to frozen desserts."
+    ],
+    [
+      "975-999",
+      "I select a frozen durian dessert with my companion.",
+      "End of provided input."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

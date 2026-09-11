@@ -1,0 +1,18 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Merge pairs that represent the exact same continuous immediate task across batch edges. Related but distinct sequential actions or discussions will not be merged.",
+  "merges": [
+    [
+      29,
+      30,
+      "I type notes about habit formation and reinforcement learning into the Feishu document.",
+      "Same note-taking task continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

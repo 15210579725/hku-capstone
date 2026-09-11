@@ -1,0 +1,30 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Review eligible boundary pairs to merge those that continue the exact same immediate task across the batch edge, while keeping distinct sequential tasks separate.",
+  "merges": [
+    [
+      15,
+      16,
+      "I review privacy detection and OCR verification results.",
+      "Same privacy audit review task continues across batch edge"
+    ],
+    [
+      51,
+      52,
+      "I review the test case and error analysis for retrieval predictions.",
+      "Same task of reviewing retrieval prediction evaluations continues across batch edge"
+    ],
+    [
+      90,
+      91,
+      "I discuss reinforcement learning, reward functions, and emotions with my colleagues.",
+      "Same conversation continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

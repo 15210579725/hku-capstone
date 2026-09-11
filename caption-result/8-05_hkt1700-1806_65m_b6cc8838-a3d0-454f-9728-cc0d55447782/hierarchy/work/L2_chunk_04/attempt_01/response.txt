@@ -1,0 +1,51 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks such as finishing at the table, returning trays, walking to new locations, registering at the gym, and setting up at equipment.",
+  "events": [
+    [
+      "750-752",
+      "I observe my surroundings and sit at the dining table with my companion.",
+      "Stands up to start returning tray"
+    ],
+    [
+      "753-757",
+      "I return my meal tray and drop my cutlery into the recycling slots.",
+      "Finished returning items and walks away"
+    ],
+    [
+      "758-766",
+      "I wipe my hands with a paper napkin from a friend and dispose of it while walking through the dining hall.",
+      "Leaves the dining hall"
+    ],
+    [
+      "767-771",
+      "I exit the cafeteria and walk toward the gym facility with my companion.",
+      "Enters the gym lobby"
+    ],
+    [
+      "772-779",
+      "I enter the fitness center and fill out the registration sheet at the reception counter.",
+      "Finishes registration and heads onto the gym floor"
+    ],
+    [
+      "780-788",
+      "I walk to the strength machines and set down my phone and power bank in the holders.",
+      "Finishes placing items and moves to equipment"
+    ],
+    [
+      "789-798",
+      "I converse while inspecting the pull-up bar and other gym equipment.",
+      "End of provided video"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "767-771"
+    ],
+    "boundary_cautions": []
+  }
+}
+```

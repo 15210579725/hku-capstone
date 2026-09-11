@@ -1,0 +1,1568 @@
+[16:41:07 -> 16:41:14] I say '我把比如说前五千条数据，我默认 context 是五十，然后全部扔进去 fine tune。'
+[16:41:15 -> 16:41:18] I say '就是就是比如说现在有这些数据吧，然后我现在比如说给他这些，然后让他预测下一个，'
+[16:41:19 -> 16:41:24] I say '然后我给的我到底给了多少呢？就是前五千条，'
+[16:41:25 -> 16:41:31] I say '就是 day 一的，比如说前五千条，啊 day 一的前一万条，'
+[16:41:32 -> 16:41:36] I say 'day 一的所有数据。'
+[16:41:37 -> 16:41:42] A colleague says '啊，不是，就是 context 是固定的，context 都是五十条。'.
+[16:41:42 -> 16:41:44] A colleague asks '什么什么意思？'.
+[16:41:44 -> 16:41:46] A colleague says '比方说你你给他一万一万条，那你 context 只有五十条。'.
+[16:41:46 -> 16:41:49] I look at a colleague.
+[16:41:49 -> 16:41:52] A colleague asks '对，那你怎么放得进去？'.
+[16:41:52 -> 16:41:58] A colleague says '就是前一万条嘛，就是滑滑窗嘛，就是，对对对，就比如说我我给两条预测，给这两条预测下一条，然后再给这两条再预测下一条'.
+[16:41:58 -> 16:42:04] A colleague says '然后再给这两条再预测下一条，然后一共给了多少呢？给了。'.
+[16:42:04 -> 16:42:06] I look at the large display.
+[16:42:07 -> 16:42:11] Colleague says '不同比例的这个，能懂？'.
+[16:42:11 -> 16:42:17] I say '嗯，就是说，呃，是呃，就是数数，就左边这个就是不是context，是数据集大小吧？'
+[16:42:17 -> 16:42:19] Colleague says '您可以理解。'
+[16:42:19 -> 16:42:24] I say '左边这个十分钟是例句吗？'
+[16:42:24 -> 16:42:34] Colleague says '是是数不是是数据集大小。是说你给十分钟的这个开不出，我给三十分钟开不出。就是它数据集里一共有这个人十分钟的行为内容。'
+[16:42:34 -> 16:42:37] I say '哦。'
+[16:42:37 -> 16:42:44] I look at experimental results.
+[16:42:45 -> 16:42:50] Colleague says '相当于你训练的数据量不一样。对对对，就数据量，数据量。'
+[16:42:51 -> 16:42:58] Colleague says '就是可以这样理解吧？就是相当于它的数据集的这个 action 的数量，比方说十分钟只有一百个 action，三十分钟就是呃三百个 action，相当于你这个训练的数据量有有有小到多，就是一百，一天十分钟。'
+[16:42:59 -> 16:43:02] I observe colleague pointing stylus.
+[16:43:03 -> 16:43:06] I say '就是那个四百六十六条吗？就十分钟的话是，就是我。'
+[16:43:07 -> 16:43:15] I look at benchmark evaluation tables.
+[16:43:16 -> 16:43:24] I watch a colleague draw a diagram.
+[16:43:25 -> 16:43:31] I observe diagram annotations on screen.
+[16:43:32 -> 16:43:36] I watch the colleague point to the table.
+[16:43:37 -> 16:43:42] User A says '那都是这样。比方说，你要预测 di di 加一的动作，你就需要呃 i i 减五十到 i 这些动作。'
+[16:43:43 -> 16:43:46] I pick up a small USB dongle as User A says '然后，对，你要预测下一个的话，就是 i i 加一，i 加二的话，就是在接着滑下去。啊。'
+[16:43:47 -> 16:43:53] User A says '然后，如果你这样子，你把上呃上下文加单频动作作为一个样本的话，它一共会有四百六十六个样本。'
+[16:43:54 -> 16:43:59] User A says '如果你的这个这个训训练数据量'
+[16:44:00 -> 16:44:06] I look at the interactive whiteboard.
+[16:44:07 -> 16:44:12] I say "哦，就就是前十分钟，这个我说的不详细，".
+[16:44:13 -> 16:44:18] I say "就是比如说第一的早上开始，就往后十分钟，".
+[16:44:19 -> 16:44:26] I say "然后从早上八点开始往后半个小时，".
+[16:44:27 -> 16:44:36] I say "从早上八点开始往后一个小时。".
+[16:44:37 -> 16:44:41] A colleague says '输输入就是就是五十个context历史，不每个历史都是一条，就是几秒钟的这种，就是就是这一个动作。'
+[16:44:41 -> 16:44:47] I examine the results table on my laptop.
+[16:44:48 -> 16:44:52] I scroll through behavioral log annotations.
+[16:44:53 -> 16:45:00] I say '哦，就就就就是就是啊，就是scaling law，就是想研究的是我我想准确的预测这个人的行为'.
+[16:45:01 -> 16:45:06] I say '然后一个直觉就是我肯定要给的数据越多，他应该预测就就是他训练这个模型应该能。'
+[16:45:07 -> 16:45:15] I listen to a colleague explain data scaling validation.
+[16:45:15 -> 16:45:22] I watch the colleague point at the chart on the whiteboard.
+[16:45:22 -> 16:45:32] I listen to the colleague discuss the ten-minute training window.
+[16:45:32 -> 16:45:37] I watch colleagues examine the thirty-minute training interval.
+[16:45:38 -> 16:45:44] I listen to the discussion about action sequences.
+[16:45:44 -> 16:45:49] I watch the colleague rest his hand on the table.
+[16:45:49 -> 16:45:55] I listen to the clarification of fifty-action context length.
+[16:45:55 -> 16:46:01] I listen to the explanation about action duration.
+[16:46:01 -> 16:46:08] I listen to the discussion about agent context input.
+[16:46:08 -> 16:46:15] A colleague asks '那你的意思是这个里面的动作数量是小的是大于五十的？'.
+[16:46:15 -> 16:46:21] My colleague says '啊，对，一般比如说十分钟四百多条嘛。这个是大于五十的，但是只是说我预测的时候用的是五十，五十。'.
+[16:46:21 -> 16:46:27] A colleague asks '但是我不哎，你这这个M是干啥用的？就这个十分钟是干啥用的？'.
+[16:46:27 -> 16:46:36] My colleague says '它只是它只是做了个对照，然后相当于你这个样本量，样本量这边是四百条样本，这边就一千多条样本。'.
+[16:46:37 -> 16:46:38] I look at the table.
+[16:46:38 -> 16:46:42] A colleague says '相当于你拿样本，是训练的数据越越越多越大，看看，会对预测下一个动作有什么？但你的划窗不都是划到五十个动作？'.
+[16:46:43 -> 16:46:48] A colleague says '那你们这个不是一样的吗？是吧？但这个一样的，那不管你这个输，但是你不管输多长，你用的都是这个东西。'.
+[16:46:49 -> 16:46:50] A colleague says '嗯。对啊。'.
+[16:46:51 -> 16:46:55] A colleague says '那你对于判断还是用五十个动作来做？就不管你是输入十分钟、还是三十分钟，你用的都是这个东西去预测下一步。'.
+[16:46:56 -> 16:46:57] A colleague replies '对对对。'.
+[16:46:58 -> 16:47:07] A colleague asks '那为什么要拿这个？'.
+[16:47:08 -> 16:47:11] I view the interactive display annotations.
+[16:47:11 -> 16:47:18] I say '这个就是哦，就是就，就是就是就是就是说，哦，就假设我们最终的目标是要提高这个人的动作预测准确率'.
+[16:47:18 -> 16:47:24] I say '然后我我的就是猜猜想或者说一个一个一，对历史给的就是我训练数据至少要越多越好吧'.
+[16:47:24 -> 16:47:28] I say '要是它不scale的话，那我数据随着增加它就饱和了，那我这个模型是很失败的'.
+[16:47:28 -> 16:47:37] I say '所以我现在就测试是不是能我给它的越数据越多越好'.
+[16:47:38 -> 16:47:49] I say '就是说，这个模型现在能看到我前一天的数据，或者看到前两天的数据，或者前十天的数据，它能不能看到的越多，它预测我的习惯风格越准？' to my colleague.
+[16:47:50 -> 16:47:52] I look at the colleague on my left.
+[16:47:53 -> 16:47:57] I examine the evaluation tables and context curve plots on my laptop.
+[16:47:58 -> 16:48:07] The colleague says '啊，是前五十个动作，这个是因为，这个是因为之前测的那个context那个曲线，五十是一个比较好的饱和点。' while annotating the smart board.
+[16:48:08 -> 16:48:13] I observe my colleague at the whiteboard.
+[16:48:14 -> 16:48:20] I say '就是就是就是每每一个三十分钟都要这样预测这个，这样预测这个，这样预测这个，就是相当于这段数据全都拿来训练。'
+[16:48:21 -> 16:48:33] The colleague says '啊，就是用三十分钟数据来训练，然后但是它输入是这批，然后预测下一个数，这个预测下一个数，这个预测下一个数，不断的滑，不断的预测。对。'
+[16:48:34 -> 16:48:35] I glance at the meeting table.
+[16:48:36 -> 16:48:37] I look back up toward the screen.
+[16:48:38 -> 16:48:43] I listen to my colleague ask '对对对，对。这么做，这么做，这么做的好处是啥？'.
+[16:48:43 -> 16:48:52] I listen to my colleague explain '就相当于你能够预测这个的时候，能够见过更长的。'.
+[16:48:52 -> 16:49:07] I listen to my colleague say '就你这些信息，相当于是一个 latent 的东西，相当于你，我认为它类似，只是说你明显可。'.
+[16:49:08 -> 16:49:14] The colleague says '建的是这个，但是这些东西因为 AR 的预测可能也会。跟参数学习过，参数学习可能有一种隐含的东西给它。'
+[16:49:14 -> 16:49:16] The colleague says '对。'
+[16:49:16 -> 16:49:25] I say '所以你的意思就是说，它的时长对它可能就三十分钟，可能你要预测的点是一千多个点，是吗？' to the colleague.
+[16:49:25 -> 16:49:37] I say '就你的输入，如果三十分钟相当于你的 AR 这样预测，就是输入是三十分钟，输出的话就是这个，呃，一千二百五十六个那个那个那个那个。数据点。' to the colleague.
+[16:49:38 -> 16:49:46] I say '对对对，数据点，对。但是我的结果是在另一天后面作为测试集的，所以他们不需要担心数据集泄露。'.
+[16:49:46 -> 16:49:54] I say '对，下一天做测试。OK。'.
+[16:49:54 -> 16:49:56] I look at my laptop screen.
+[16:49:56 -> 16:49:59] I look at my seated colleague.
+[16:49:59 -> 16:50:01] I look at the interactive display.
+[16:50:01 -> 16:50:06] I say '对对对，测试的都一样。OK。'.
+[16:50:06 -> 16:50:07] I look at the interactive screen.
+[16:50:08 -> 16:50:12] A colleague says '有点见解，你说一下。'
+[16:50:12 -> 16:50:15] I look at User B.
+[16:50:15 -> 16:50:23] I say '就是，就是说，假如说这个数据是不 scale 的话，那我那我以后这个就是肯定是这个模型有问题，或者说是我的算法有问题。'
+[16:50:23 -> 16:50:31] I say '那也就意味着，假如说这个模型有一个预测能力上限，我以后我给这个人过去两年的数据，他预测能力也就这样了。'
+[16:50:31 -> 16:50:37] I say '那这个方法就会就很快就会被别的别的方法，就是被别的 scale 的方法给扔掉啊。'
+[16:50:38 -> 16:50:50] I view the smart display.
+[16:50:51 -> 16:50:53] I check my laptop screen.
+[16:50:54 -> 16:50:59] I look up at the smart display.
+[16:51:00 -> 16:51:07] I say '就，哦，不是，是数据量的 scale，就是，哦，不是，这是这是训练的数据量，这个这个是 train，就是数训练的数据量。呃，就是就是这些是训练数据嘛？但是但是我测试的都是在第二天的一个固定点上测的，这些这些都，这些。'
+[16:51:08 -> 16:51:09] I look at the table cables.
+[16:51:10 -> 16:51:13] I examine the interactive whiteboard.
+[16:51:14 -> 16:51:21] I monitor the display document.
+[16:51:22 -> 16:51:25] I look at a seated colleague.
+[16:51:26 -> 16:51:34] I look at the colleague near the screen.
+[16:51:35 -> 16:51:37] I watch the colleague point at the screen.
+[16:51:38 -> 16:51:44] Colleague says '要五六个，相当于就是一个样本，相当于一个三步，可能我输进去三个，我输出要五六个点。'.
+[16:51:44 -> 16:51:46] I say '是吗？'.
+[16:51:46 -> 16:51:57] Colleague says '它的任务应该就是，哪个哪个 action， position，然后窗口都是呃五十个动作，然后再去预测下一个。'.
+[16:51:57 -> 16:52:07] I say '对啊，但这个跟数量有什么关系？这不是相当于是，你是说？'.
+[16:52:08 -> 16:52:15] Colleague says '数据量我理解应该是这么一个东西，要乘一个，乘上那个n，n是数据量。'
+[16:52:16 -> 16:52:20] I ask '对对对，就相当于吧，就是下一个三十分钟就相当于另一个n了吗？'
+[16:52:20 -> 16:52:25] Colleague says '哦，那个幺二五六是一条一条的。'
+[16:52:25 -> 16:52:37] Colleague says '对对对，幺二五六，然后一小时就是有两千多条。'
+[16:52:38 -> 16:52:43] I look at the fine-tuning diagram.
+[16:52:43 -> 16:52:47] I say '嗯，对对对。啊。'
+[16:52:47 -> 16:52:53] I examine the evaluation table.
+[16:52:53 -> 16:52:58] I say '没有，他没有 skill 里面的。'
+[16:52:58 -> 16:53:02] I watch the colleague gesture.
+[16:53:03 -> 16:53:06] I look at my seated colleague.
+[16:53:06 -> 16:53:08] I turn toward the screen.
+[16:53:08 -> 16:53:11] A colleague says '他只给我只，他只是只给外面的幺五六。'
+[16:53:11 -> 16:53:14] I ask '嗯，那你这个幺二五六是这个幺五六？'
+[16:53:14 -> 16:53:18] The colleague says '对对对，他只给这个。'
+[16:53:18 -> 16:53:23] I point towards the whiteboard and say '我我现在有点混了，您您说的里头那个是啥呀？我感觉咱们没对上。'
+[16:53:23 -> 16:53:26] The colleague asks '那外面的是啥呀？'
+[16:53:26 -> 16:53:37] The colleague traces the diagram and says '外面是这么一个东西，就是。'
+[16:53:38 -> 16:53:49] I watch the colleague explain data scaling.
+[16:53:50 -> 16:53:51] I glance toward the corner.
+[16:53:52 -> 16:54:03] I observe the display screen.
+[16:54:04 -> 16:54:07] I say '啊，对，那那我可能输错了，不好意思。'
+[16:54:08 -> 16:54:13] I look at the interactive whiteboard.
+[16:54:14 -> 16:54:19] I review the document on my laptop.
+[16:54:20 -> 16:54:26] The colleague says '我我重新理，嗯，理理理理，比方说六岁的那个年龄了，嗯，就十分钟吧，十分钟的话，嗯，它的一个一个样本就是，像比方说做这个窗口，做这个窗口，然后预测出下一个点，这是这算一个样本，这个样本'.
+[16:54:27 -> 16:54:37] The colleague says '然后下个样本就是你这个窗口往前移动，嗯，然后然后预测这个样，然后。'.
+[16:54:38 -> 16:54:43] I watch colleague annotating whiteboard.
+[16:54:44 -> 16:54:53] I review performance metrics on screen.
+[16:54:54 -> 16:55:00] I watch colleague explain timeline diagram.
+[16:55:01 -> 16:55:07] I follow the ongoing whiteboard discussion.
+[16:55:08 -> 16:55:14] I listen to colleague discussing training settings.
+[16:55:14 -> 16:55:23] I listen to colleague inquiring about testing across days.
+[16:55:24 -> 16:55:30] I observe colleague pointing at screen diagram.
+[16:55:30 -> 16:55:38] I observe colleagues concluding metrics analysis.
+[16:55:38 -> 16:55:46] I say '我这我其实我我我我我我不太意外。比如说，如果说你的输入是比如说，是五十个 step，是 action，然后输出的话是对应的 next action...'
+[16:55:47 -> 16:55:48] I glance at the conference table.
+[16:55:49 -> 16:55:57] I look at the interactive whiteboard.
+[16:55:58 -> 16:56:07] I say '那这个你在整天里面去过的，比如说为什么你要把它限制在十分钟里面去做，或者是三十分钟里面去做，或者在一个一天里面去做，去做正...'
+[16:56:08 -> 16:56:12] I look at the interactive screen.
+[16:56:12 -> 16:56:17] The colleague says '哦，就是就是发现他现在不太 scale 有瓶颈了。就是，嗯，就是理论上，就是我把所有东西都用上肯定是最好。'
+[16:56:17 -> 16:56:24] The colleague says '然后，假如说我采了有有采七天数据的，有这个人采一个月数据的，我采一个月数据是不是应该理论上更好？'
+[16:56:24 -> 16:56:31] The colleague says '我采一年数据的，他是不是预测的应该更准？'
+[16:56:31 -> 16:56:38] I watch Colleague B.
+[16:56:38 -> 16:56:40] A colleague says '就随着时间增增长。'
+[16:56:41 -> 16:56:45] I look at the evaluation table.
+[16:56:46 -> 16:56:54] I examine the comparison charts.
+[16:56:55 -> 16:57:01] I review the handwritten diagrams.
+[16:57:02 -> 16:57:07] I follow the colleague pointing at evaluation rows.
+[16:57:08 -> 16:57:20] I look at the multimodal fine-tuning results table.
+[16:57:20 -> 16:57:27] I monitor the whiteboard.
+[16:57:28 -> 16:57:31] I view the Feishu document on my laptop.
+[16:57:32 -> 16:57:37] I look at the colleague by the whiteboard.
+[16:57:38 -> 16:57:44] I listen to colleague say '更准，但是目前来说好像见顶的比较早，没有明显的scale的趋势。'
+[16:57:44 -> 16:58:00] I examine the score table on the digital whiteboard.
+[16:58:00 -> 16:58:05] I watch colleague say '啊，这个是每个力度都都有的，是加权的，L一到L五。'
+[16:58:05 -> 16:58:07] I watch colleague say '对，对对对。'
+[16:58:08 -> 16:58:16] A colleague says '就比如说，我现在一天里面打个比如说，我 random 取一个百分之十的集，我 random 取百分之二十的集，这不是更合理？'.
+[16:58:16 -> 16:58:19] A colleague says '嗯，我觉得也可以。哦，这个没细想。'.
+[16:58:19 -> 16:58:26] A colleague says '嗯，我觉得随机也可以，随机而且更符合预期的。'.
+[16:58:26 -> 16:58:31] A colleague says '训练的时候打乱也可以。'.
+[16:58:31 -> 16:58:34] The colleague says '训练的时候是打乱的，但是我感觉其实啊。'.
+[16:58:34 -> 16:58:38] I look back at the electronic whiteboard.
+[16:58:38 -> 16:58:47] I listen to the colleague say '嗯。然后我感觉这会是一个比较大的问题，对于对于这个你scale这个人的准确率来说，或者可能是我可能啊某某某些地方训练有问题啊，或者是什么之类的。'.
+[16:58:47 -> 16:58:50] I hear the colleague say '不，它是饱和了。'.
+[16:58:50 -> 16:58:54] I say '对。'.
+[16:58:54 -> 16:58:57] I look at my laptop screen.
+[16:58:57 -> 16:59:03] I hear the colleague say '零点四三。'.
+[16:59:03 -> 16:59:07] I say '对。'.
+[16:59:08 -> 16:59:14] I say '对他这个这个这个这个十分钟，我我 I don't know，我觉得我需要 double check 一下。'.
+[16:59:14 -> 16:59:17] I watch my colleague point at the charts.
+[16:59:18 -> 16:59:27] I say '目前来说是几乎是单调增的，但是除了十分钟那个以外，嗯，我看一下。'.
+[16:59:27 -> 16:59:37] I examine the scaling curve chart on my laptop.
+[16:59:38 -> 16:59:41] I examine the multimodal fine-tuning results table.
+[16:59:41 -> 16:59:46] I view the enlarged evaluation charts.
+[16:59:46 -> 16:59:52] I track data points on the dual-axis chart.
+[16:59:52 -> 16:59:56] I say '就是看这条。'
+[16:59:56 -> 17:00:08] I look up at the presentation display.
+[17:00:08 -> 17:00:18] The colleague says '紫线嘛，这条紫线是综综合分儿，然后如果你要盖住十分钟这个不看的话，'.
+[17:00:18 -> 17:00:23] The colleague says '从三十分钟一小时到更长，它是这个是log log对数，对，它是它是明显明显增加的，对，嗯，'.
+[17:00:24 -> 17:00:26] I examine the Judge audit table in the Feishu document.
+[17:00:27 -> 17:00:32] I check the composite score column and line plots in the Feishu document.
+[17:00:33 -> 17:00:37] I say '所以所以所以，对对对，context的影响。'
+[17:00:38 -> 17:00:43] The presenter says '对对对是。对。'
+[17:00:43 -> 17:00:58] The presenter says '对每个 level 都是五十，因为后面 L 三四五的饱和的比较快。您可以看一眼，五十已经几乎是接近最优了。'
+[17:00:58 -> 17:01:03] I look at my laptop.
+[17:01:03 -> 17:01:08] I scroll the Feishu document.
+[17:01:08 -> 17:01:10] I say '这个吧，你看，你可以看这个五十点，几乎是在这个挺高的地方了。'
+[17:01:11 -> 17:01:13] I say '当然会有一些差别。'
+[17:01:14 -> 17:01:24] I scroll through evaluation tables and error cases in Feishu.
+[17:01:25 -> 17:01:29] I say '嗯，换哪去了？'
+[17:01:30 -> 17:01:37] I say '哦，然后就。'
+[17:01:38 -> 17:01:46] I say '就这点来说，我感觉肯定有什么重大问题在里头藏着。就是要不是我训练的方法，要不就是这个问题本身对于人类预测来说不是很 scale。'
+[17:01:46 -> 17:01:50] I say '对，啊，不不是十分钟这个，是这个这个 scale 的这个趋势。'
+[17:01:50 -> 17:01:54] I examine the data table.
+[17:01:54 -> 17:01:58] A colleague says '训练的细节可以说一下。'
+[17:01:58 -> 17:02:08] I say '训练细节。啊。嗯，就是，啊，千万三点五四 b，然后，嗯， epoch 取了五个，然后一般最好的一百六一。'
+[17:02:08 -> 17:02:09] I say 'loss在第二个epoch左右，然后学习率大概是三一负五，三一负五，然后嗯打乱的，然后其他的没有什么。'
+[17:02:10 -> 17:02:14] I look at User B.
+[17:02:15 -> 17:02:19] I say '对，Laura选的十六、十六和三十二，我的参数。'
+[17:02:20 -> 17:02:24] I scroll through the training loss tables on my laptop.
+[17:02:25 -> 17:02:31] A colleague asks '什么？adapter是哪个？'
+[17:02:32 -> 17:02:38] I say '我只我用的all linear。'
+[17:02:39 -> 17:02:43] I discuss training parameters with my colleague.
+[17:02:44 -> 17:02:48] I look at the interactive display.
+[17:02:49 -> 17:02:59] I read the evaluation metrics table on the display.
+[17:03:00 -> 17:03:04] I watch my colleague annotate the screen.
+[17:03:05 -> 17:03:08] I look back at the seated colleague.
+[17:03:09 -> 17:03:12] Colleague says '我说那个是在呃语言模型外部的一个线性层。'
+[17:03:13 -> 17:03:17] I say 'OK OK。OK OK。那我应该是没开那个。'
+[17:03:18 -> 17:03:22] I view the 7-15 embedding benchmark table.
+[17:03:23 -> 17:03:25] I review the 7-17 multimodal finetuning results and examples.
+[17:03:26 -> 17:03:28] I inspect the 7-20 LLM judge evaluation tables.
+[17:03:29 -> 17:03:31] I check the 7-21 text predictor training results.
+[17:03:32 -> 17:03:36] I review the 7-24 hyperparameter search loss tables and curves.
+[17:03:37 -> 17:03:38] I inspect the 7-27 fine-tuning stage progression table and cosine vs judge metrics.
+[17:03:39 -> 17:03:44] I say '哦，这个是这个是多模态的，上面那个是单模态的。'.
+[17:03:44 -> 17:03:48] I say '我多模态和单模态都一样。'.
+[17:03:48 -> 17:03:51] I scroll down the Feishu document.
+[17:03:51 -> 17:03:57] I say '嗯，然后就是啊，其他是就是就是所有人的数据都洗完了，但是其他人数据用的是 DeepSeek Flash 洗的。'.
+[17:03:57 -> 17:04:00] I look up at the conference room display.
+[17:04:00 -> 17:04:08] I say '啊，然后它的效果很一般。嗯，然后我。'.
+[17:04:09 -> 17:04:12] I say '我又用GPT重新把它的生成的结果又洗了几遍'.
+[17:04:13 -> 17:04:14] I glance at my laptop screen.
+[17:04:15 -> 17:04:22] I say 'OK，然后大概。对。'.
+[17:04:23 -> 17:04:38] I say '对。对。对二三十条吧。'.
+[17:04:39 -> 17:04:47] I watch my colleague annotate the screen while saying '对。对。对。对二三十条吧。'
+[17:04:47 -> 17:05:01] I say '对。就是那个不足的，那那就那就空着了，没办法。一个样本是，就是不就是反正不足的，就是就是空着了。'
+[17:05:01 -> 17:05:06] I examine the result table.
+[17:05:06 -> 17:05:08] I say 'L五对L五就会是变的，比如说最开始就是context很短。'
+[17:05:09 -> 17:05:16] The colleague says '一个两个，然后最最后可能有二二三十个这样，但是无所谓，这是第1的，我还有第1到第4，第4就很很多了，就够了.'
+[17:05:17 -> 17:05:20] I look toward colleague and screen.
+[17:05:21 -> 17:05:27] I observe colleague pointing at data table.
+[17:05:28 -> 17:05:33] I follow colleague's gesture across table.
+[17:05:34 -> 17:05:38] The colleague says '对对对，他他他缺的话就就就没有了.'
+[17:05:39 -> 17:05:43] My colleague says '嗯。L五吧。对。对对。'.
+[17:05:43 -> 17:05:45] I look at my laptop screen.
+[17:05:45 -> 17:05:52] I look at the evaluation table on the display.
+[17:05:52 -> 17:05:56] My colleague says '嗯，但我感觉是必然的吧？'.
+[17:05:56 -> 17:06:04] My colleague says '就是你你也可以扔掉L五标，但是你总要一个比较高级的。'.
+[17:06:04 -> 17:06:08] I review the data processing parameters on screen.
+[17:06:09 -> 17:06:13] I say '就是抽象，然后你可以决定抽象到什么程度。'
+[17:06:14 -> 17:06:19] I view the evaluation table on the smart board.
+[17:06:20 -> 17:06:22] I say '不同的那个是什么意思？'
+[17:06:23 -> 17:06:25] I examine my laptop screen.
+[17:06:26 -> 17:06:33] I watch my colleague point at the smart board.
+[17:06:34 -> 17:06:37] I say '哦，OK，OK，OK。对。'
+[17:06:38 -> 17:06:38] I monitor my colleague's presentation.
+[17:06:39 -> 17:06:42] I view the presentation on the display screen.
+[17:06:42 -> 17:06:45] I look down at my laptop screen.
+[17:06:45 -> 17:06:49] I scroll through the Lucia statistics table and prompt rules on the laptop.
+[17:06:49 -> 17:07:04] User A says 'OK，然后这部分是Fine Tune的，这个，这个我我我我我忘了是全都加起来还是只有L一的，对。'
+[17:07:04 -> 17:07:07] I look down at the laptop screen.
+[17:07:07 -> 17:07:09] I look up at the presentation on the display screen.
+[17:07:09 -> 17:07:11] I say '对对对对，这我有点忘了。OK。'
+[17:07:12 -> 17:07:14] I say '然后这部分就是FineTune的，然后，嗯，除此之外还有这个模模型评测的。'
+[17:07:15 -> 17:07:22] I review the fine-tuning results table.
+[17:07:23 -> 17:07:25] I scroll down the document.
+[17:07:26 -> 17:07:33] I read the prompt constraints and causal trigger rules.
+[17:07:34 -> 17:07:38] I read the Claude L1-L5 granularity notes.
+[17:07:39 -> 17:07:44] I say '嗯，我感觉 Magic Video 算是一个很有潜力的框架。'.
+[17:07:44 -> 17:07:48] I scroll down the Feishu document.
+[17:07:48 -> 17:07:53] I say '然后我我筛了一些它在我的预测点上的啊这个案例分析'.
+[17:07:53 -> 17:07:57] I look at the test case in the code block.
+[17:07:57 -> 17:08:03] I say '比如说这个 context 是这样的，这个人把蛋清放。'.
+[17:08:03 -> 17:08:08] I read the kitchen action context lines.
+[17:08:09 -> 17:08:14] I say '到冰箱，然后下楼，然后指导另一个人安装搅拌器，然后他说这个做蛋糕需要矿泉水，然后预测下一步。'
+[17:08:15 -> 17:08:23] I say '实际上的ground truth是他到厨房接水给另一个人，然后他预测的top one是啊top三的top one是，我起身前往厨房水槽边，然后寻找并拿回刚才矿泉水。'
+[17:08:24 -> 17:08:31] I say '我感觉这个点预测点就在于说这个做蛋糕需要矿泉水，但是他从哪拿呢？'
+[17:08:32 -> 17:08:38] I say '他们都找到了去厨房，然后他的这个。'
+[17:08:39 -> 17:08:44] I say '检索规律大概是这样的，他检索了五轮。第一轮说他在做蛋糕需要矿泉水之后，马上做了什么？'
+[17:08:44 -> 17:08:50] I say '嗯，这个就是一个比较愚蠢的query。然后他检索到了day哦，这个是day五的数据，然后他检索到了day一的做蛋糕的。'
+[17:08:50 -> 17:08:54] I say '然后一三一一到四轮都没有检索到什么有用的。'
+[17:08:54 -> 17:09:05] I say '然后直到第五轮，他的问题是啊，Lucia在集体做饭时提到需要某个材料后，通常如何获取它？'
+[17:09:05 -> 17:09:09] I say '然后他找到了一个day。'
+[17:09:09 -> 17:09:12] I say "例三的说需要碗之后，自己到厨房打开柜子拿两个碗。"
+[17:09:12 -> 17:09:15] I look up toward my colleague.
+[17:09:15 -> 17:09:20] I say "啊，题目，对对对，Ground Truth是我去厨房接水给这个，对对对，对对对，对对对，所以所以这个是给满分的。"
+[17:09:20 -> 17:09:24] I watch my colleague point to the text.
+[17:09:24 -> 17:09:31] I say "然后他检索到这个，然后就是说这个，我感觉这个Agent检索还还还效果还蛮不错的，在这个这这个这个案例上。"
+[17:09:31 -> 17:09:35] I rest my hand on the trackpad.
+[17:09:35 -> 17:09:39] I read the case analysis notes.
+[17:09:39 -> 17:09:44] I say '然后还有一些错误案例，错误案例是说他没有很好的理解这个力度，下一个要绿色的力度，比如说环境是，'.
+[17:09:45 -> 17:09:54] I say '嗯，他问大家要买什么货，然后他们要去超市采购，他们制定了采购清单，然后出门采购安排，'.
+[17:09:55 -> 17:10:02] I say '然后下一个实际发生的是我和大家前往物美超市买东西，'.
+[17:10:03 -> 17:10:08] I say '然后他预测的是我起身走向厨房倒一杯水喝，随后在餐。'.
+[17:10:09 -> 17:10:14] I say '餐桌旁边下来休息，然后他问的问题有这个：Lucia 完成购物或者规划之后做什么？'
+[17:10:14 -> 17:10:20] I say '嗯啊，或者说当前这个时间段十五点半到五点通常做什么？'
+[17:10:20 -> 17:10:28] I say '啊，然后最后一个问题就是解决定性，就是下午跟跟大家工作以后是不是通常会休息或吃零食？'
+[17:10:28 -> 17:10:38] I say '他觉得这个是一个工作，然后上一个在以前场景他们就休息或者吃零食了，然后就预。'
+[17:10:39 -> 17:10:43] I say '测的他们是休息和吃零食，但是实际上是去物美超市。'
+[17:10:43 -> 17:10:46] I say '他回答是这个Top三这个，text。'
+[17:10:46 -> 17:10:51] I say '找找找的不对，上下文是。是。'
+[17:10:51 -> 17:11:00] I say '然后问题是，是我和大家。问题是预测下一句，我和大家制定派对采购清单，出门安排以后的下一个动作是啥？'
+[17:11:00 -> 17:11:05] I say '啊，然后。'
+[17:11:05 -> 17:11:08] I observe the screen.
+[17:11:09 -> 17:11:20] I say '对对对，然后就是之前出现过的状态是说，他们出门采购安排，就是聊完这个以后，他们就在厨房，比如说休息了一下。'
+[17:11:20 -> 17:11:30] I say '但是这是因为力度比较高，你可以看到它有一下二三十分钟就直接跳到这个下一个力度。嗯，对，就是它预测太细了。'
+[17:11:31 -> 17:11:36] I say '嗯嗯，然后这是麦啊，这是Magic Video的，然后。'
+[17:11:37 -> 17:11:39] I glance across the conference table.
+[17:12:09 -> 17:12:18] The colleague says '之后，它的它的好处就是在于它的每次的提问，它的这个 query 定制会，它它会改一个角度，所以你会更可能去找到一些非常正确的答案。'
+[17:12:18 -> 17:12:28] The colleague says '但是它之前那个版本，你很很多你很容易发现它用了五轮的检索，但是每轮捡回捡找找东西都是没有用，或者说是找不到东西。'
+[17:12:28 -> 17:12:33] The colleague says '然后它它找不到东西，它就它就会决定去检索，我要去停止回答。'
+[17:12:33 -> 17:12:37] The colleague says '呃，然后呃这个 magic video 发现了这个问题之后，他还做了改。'
+[17:12:37 -> 17:12:39] I fiddle with a black ring.
+[17:12:39 -> 17:12:43] I listen to my colleague explaining retrieval logic.
+[17:12:44 -> 17:12:48] I inspect a cable connector in my hands.
+[17:12:49 -> 17:12:55] I say '哦，你的意思是他就是，他做检索的时候，他是他需要一个丢效的东西。'
+[17:12:56 -> 17:13:04] I read the notes on the large screen while my colleague explains.
+[17:13:05 -> 17:13:07] I look toward a colleague in the booth.
+[17:13:08 -> 17:13:09] I look toward the large display screen.
+[17:13:09 -> 17:13:13] Colleague User A says '他给了几个样样例，让他自己去学习。'
+[17:13:13 -> 17:13:14] I say '嗯。'
+[17:13:14 -> 17:13:23] Colleague User A says '对，所以我所以我觉得，都是要用这个东西，我们可以去稍微改一改他的他的这个。'
+[17:13:23 -> 17:13:26] I say '可以可以可以。'
+[17:13:26 -> 17:13:29] Colleague User A says '然后可以提升他这个性能。对。'
+[17:13:29 -> 17:13:36] Colleague User A says 'O.K.，然后嗯，除此。'
+[17:13:36 -> 17:13:38] Colleague User B approaches the smart board.
+[17:13:39 -> 17:13:44] The colleague says '对对对，确实，我只改 prompt 了，没改 fusion。'
+[17:13:44 -> 17:13:51] The colleague says '啊，然后还有一个，就是我感觉比比较比较比较相似、比较值得讨论的，就是啊，类似的论文叫这个这个 Long A P。'
+[17:13:51 -> 17:13:54] I look at my laptop.
+[17:13:54 -> 17:14:04] I read the Feishu document.
+[17:14:04 -> 17:14:09] I search 'longnap' in Chrome.
+[17:14:09 -> 17:14:11] I say "嗯，他们的任务是录屏电脑的所有使用过程，然后也是预测下一个行为，比如说在搜搜。"
+[17:14:12 -> 17:14:14] I click 'View PDF'.
+[17:14:15 -> 17:14:18] I wait for the PDF to load.
+[17:14:19 -> 17:14:23] I scroll through the paper PDF.
+[17:14:24 -> 17:14:27] I inspect Figure 3 of the paper.
+[17:14:28 -> 17:14:36] I look at the interactive whiteboard.
+[17:14:37 -> 17:14:38] I look toward User B.
+[17:14:39 -> 17:14:42] I say '搜索框输入一些内容或者点击某某个标签儿，然后他们训的，'.
+[17:14:43 -> 17:14:45] I look at the laptop screen.
+[17:14:46 -> 17:14:51] I say '他们主要训的是，啊，类似于 Magic Video，他们训练一个呃检索的 agent，'.
+[17:14:52 -> 17:14:58] I say '然后所有检索的技能都堆到最少，就是只有一个 B M R 五作为检索器返回。'.
+[17:14:59 -> 17:15:08] I say '然后呃，他们是用强化学习，然后训练一个 agent 会学会检索。然后现在主要检索都是通过啊 prompt，然后主要比如说 Magic Video 或者。'.
+[17:15:09 -> 17:15:14] The colleague says '我们在这个检索的图结构上做了很多努力，然后他这个在这个用检索工具的 agent 上做了很多努力。哦，不是，就是就是对他这个每次发检索的这个请求做强学习，就是他更会用工具该检'.
+[17:15:14 -> 17:15:18] I say '对策略策略，就是检索策略。他会改他自己的。'.
+[17:15:18 -> 17:15:23] The colleague says '对对对，他会他。怎么调用工具？'.
+[17:15:23 -> 17:15:27] I say '对对对对对对，他会改这个。'.
+[17:15:27 -> 17:15:38] I observe the monitor.
+[17:15:39 -> 17:15:41] I look at my laptop screen.
+[17:15:41 -> 17:15:46] I say '哦，不，他的他的action也是自然语言action，然后他也用了一个lm，这是。'
+[17:15:46 -> 17:15:50] I look at the smart display.
+[17:15:50 -> 17:15:53] I say '哦，我看到了一个bm二五。'
+[17:15:53 -> 17:15:56] I watch the colleague point at the smart display.
+[17:15:56 -> 17:15:59] I say '嗯。其他好好像没有，但我不确定。' to the colleague.
+[17:15:59 -> 17:16:04] I look at the smart display.
+[17:16:04 -> 17:16:08] I watch the colleague annotate the screen.
+[17:16:09 -> 17:16:14] My colleague says '训了一个 agent，对，对，然后他会做很好的相关性检索，对，目标是一样的，'.
+[17:16:14 -> 17:16:18] My colleague says '对，对，对，对对对，然然后同时他不仅 tune 了一个这个 agent，'.
+[17:16:18 -> 17:16:22] My colleague says '然后他这个这个 agent 也也也对他做这个行为预测了，'.
+[17:16:22 -> 17:16:31] My colleague says '就是说，比如说我给他给一个 context，然后预测下一个行为，它可以决定用简'.
+[17:16:32 -> 17:16:34] I look at the floor.
+[17:16:35 -> 17:16:38] I look at the conference table.
+[17:16:39 -> 17:16:43] I say '探索器或者决定根据过去自己的记忆、自己他的行为习惯直接预测，他同时改这两部分参数。'
+[17:16:43 -> 17:16:48] I say '然后我觉得这个和 Magic Video 的呃就是区别就是 Magic Video 和 Word MM built 了一个很好的、很好的一个一个一个一个工具。'
+[17:16:48 -> 17:16:54] I say '对，用了一个很好的工具。然后这个模型不需要学怎么用这个工具，只要问一个简单问题，然后就可以用上。'
+[17:16:54 -> 17:17:01] I say '然后这个是这个工具非常简陋，就非常单一，'
+[17:17:01 -> 17:17:09] I say '但是它把这个所有使用技巧都。'
+[17:17:09 -> 17:17:12] The colleague says '挪到 agent 里头了。嗯。因为他他他的那个 workflow，他类似于做一个固定的 pipeline。'
+[17:17:12 -> 17:17:16] The colleague says '嗯，你的意思是那个 magic real 用的是一个 pipeline pipeline，但是它那个相当于去优化 pipeline。'
+[17:17:16 -> 17:17:21] The colleague says '它优化一个模型，能够自己去调用，然后找。'
+[17:17:22 -> 17:17:26] The speaker says '就是相当于是一个检索 A 基于 A 检索 agent 的学习方法。'
+[17:17:27 -> 17:17:33] The colleague says '对对对，是这样。'
+[17:17:34 -> 17:17:38] The colleague says '可以派。对对对。'
+[17:17:39 -> 17:17:40] I view the paper presentation on the display.
+[17:17:41 -> 17:17:44] I scroll through the paper on my laptop.
+[17:17:45 -> 17:17:54] A colleague says '嗯，然后还有就是，他也tune了一下，比了一下，比如说zero shot，它的准确率可能是零点一八，然后SFT以后提到了零点二一，然后用它这个agentic可能又提了百分之七八十吧，到零点三七。'.
+[17:17:55 -> 17:17:58] I say '对对对。'.
+[17:17:59 -> 17:18:08] A colleague says '他这个他这个挺扯的，他就是他就是纯一个prompt，然后。'.
+[17:18:09 -> 17:18:11] I view the research paper on next action prediction.
+[17:18:12 -> 17:18:14] I scan the conference room.
+[17:18:15 -> 17:18:20] I read Section 2 Next Action Prediction.
+[17:18:21 -> 17:18:23] I say '啊，做强化学习，对对对，'.
+[17:18:24 -> 17:18:31] I read Section 3 on interaction data labeling.
+[17:18:32 -> 17:18:34] I gesture with both fists.
+[17:18:35 -> 17:18:36] I look at the large display and colleague.
+[17:18:37 -> 17:18:38] I view the laptop browser tabs.
+[17:18:39 -> 17:18:41] I read the LLM judge section.
+[17:18:41 -> 17:18:47] I say "啊，这个是纯，这个就是 Gemini 三 Flash，我找一下那个那个 prompt。"
+[17:18:47 -> 17:18:54] I scroll through the PDF appendix.
+[17:18:54 -> 17:18:59] I read the baseline prompt box.
+[17:18:59 -> 17:19:02] I scroll to Table 9.
+[17:19:02 -> 17:19:06] I say "对啊对啊，就是 Gemini 三 Flash，我记得。"
+[17:19:06 -> 17:19:08] I scroll back to the prompt template.
+[17:19:09 -> 17:19:14] I read the Task section in the prompt.
+[17:19:14 -> 17:19:19] I read the Previous and Retrieved Actions sections.
+[17:19:19 -> 17:19:26] I read the prompt Instructions.
+[17:19:27 -> 17:19:30] I say '嗯，我看一下judge在哪里？'.
+[17:19:30 -> 17:19:33] I watch my colleague point at the conference screen.
+[17:19:34 -> 17:19:36] I scroll to page 31 of the PDF.
+[17:19:36 -> 17:19:38] I say '这个是judge的分数的example。'.
+[17:19:39 -> 17:19:40] I read the research paper PDF.
+[17:19:41 -> 17:19:50] User A says '它是一组一组的八个。它就是语言模型，就是它给一个分数，你你。'
+[17:19:51 -> 17:19:55] I watch User A annotate the board.
+[17:19:56 -> 17:19:59] I scroll down the PDF document.
+[17:20:00 -> 17:20:03] I read Table 10 qualitative examples on page 32.
+[17:20:04 -> 17:20:08] I watch User A explain the paper.
+[17:20:09 -> 17:20:13] Colleague says '呃，是是整体分数，整体分数。'
+[17:20:14 -> 17:20:20] Colleague says '对，对，语言模型给的分数是零点七八。'
+[17:20:21 -> 17:20:24] Colleague says '啊，对，它就是预测八个动作。对。'
+[17:20:25 -> 17:20:28] I look at the Terminal window menu.
+[17:20:29 -> 17:20:38] I watch colleague annotate the screen.
+[17:20:39 -> 17:20:44] I say '对对对，他他是八个动作同时评分。嗯，好。'
+[17:20:45 -> 17:20:49] I type 'cla' into the terminal.
+[17:20:50 -> 17:20:53] I check GPU usage in the terminal.
+[17:20:54 -> 17:20:56] I say '我让这个这个这个这个这个聊一下吧。'
+[17:20:57 -> 17:21:03] I browse Google search results for 'longnap'.
+[17:21:04 -> 17:21:06] I check GPU status and open a new tab.
+[17:21:07 -> 17:21:08] I switch to the ChatGPT tab.
+[17:21:09 -> 17:21:12] I say '对，Gemini三Flash好像是。'
+[17:21:12 -> 17:21:18] I view the ChatGPT prompt suggestions.
+[17:21:18 -> 17:21:26] I say '找一下Long A P论文里头给A I L M Judge的prompt翻译成中文。'
+[17:21:26 -> 17:21:35] I edit the transcribed prompt text in ChatGPT.
+[17:21:35 -> 17:21:38] I say '找一下它原始的。'
+[17:21:39 -> 17:21:42] I send a prompt about the Long NAP paper judge prompt to ChatGPT.
+[17:21:42 -> 17:21:47] I watch ChatGPT process the paper search prompt.
+[17:21:47 -> 17:21:56] I say "其他吧。嗯。最终的这个 main main result 是什么？是要做啥？main result 是什么？" to my colleague.
+[17:21:56 -> 17:22:00] I say "main main result 是不是最主要结果？要要放的啥？哦 main result。" to my colleagues.
+[17:22:00 -> 17:22:09] I say "要放跟别人对比还是？" while reading the ChatGPT response.
+[17:22:10 -> 17:22:15] The colleague says '嗯，主要是测试一下准不准。'.
+[17:22:15 -> 17:22:19] I look at my MacBook screen.
+[17:22:19 -> 17:22:22] I look at the corner booth seating.
+[17:22:22 -> 17:22:30] I say '我其实，我其实，我觉得，我觉得可以，就是主要贡献，是吧？'.
+[17:22:30 -> 17:22:33] The colleague says '对，对。'.
+[17:22:34 -> 17:22:37] I adjust my hoodie jacket.
+[17:22:37 -> 17:22:40] I watch my colleague annotate the display.
+[17:22:40 -> 17:22:45] User A says '就比如说你一个人嘛，你要做一个action预测，它总是需要用到，比如说它的历史的advantage，还有就是就是那个它自己的比如说'.
+[17:22:45 -> 17:22:51] I watch the diagram annotations.
+[17:22:51 -> 17:22:58] User A says '一个是short-term context，一个是long-term advantage去预测它的action'.
+[17:22:58 -> 17:23:05] User A says '但现在感觉感觉就变成了这么多东西'.
+[17:23:05 -> 17:23:10] User A says '就变成了一个不同的时间下去测它到底怎么。'
+[17:23:10 -> 17:23:17] My colleague says '就可以消融一下，窗口，先窗口的内容可以。消融。消融的分析性的东西，就是什么样？比如说以后，比如说我们只看到，现在要预测，还有什么到底要？'.
+[17:23:17 -> 17:23:24] My colleague says '首先，我要 match 里面怎么定？'.
+[17:23:24 -> 17:23:33] My colleague says '第二，我给的那个是要不要 sample？嗯。'.
+[17:23:33 -> 17:23:40] My colleague says '我们要不要？比如说我的呃 sample number，训练样本的数量，还有它的高差是多少？'.
+[17:23:40 -> 17:23:46] I view the smartboard display.
+[17:23:46 -> 17:23:51] A colleague says '嗯。嗯。目前没有。你用那些 Magic Video 算不算？'
+[17:23:51 -> 17:23:56] I watch the colleague annotate the smartboard.
+[17:23:56 -> 17:24:01] I look at the seated colleague.
+[17:24:01 -> 17:24:05] The colleague says 'Magic Video 算 Magic，但是但是我没有，比如说改进什么之类的，我是跑跑的。'
+[17:24:05 -> 17:24:10] I scan the smartboard notes.
+[17:24:10 -> 17:24:13] I say 'OK。修改一下上不上的东西。' to my colleague.
+[17:24:13 -> 17:24:16] I observe my colleague annotating the electronic whiteboard.
+[17:24:16 -> 17:24:25] I say '之前我觉得可以，比如说之前他们做那种next next下一个action预测，他们一般关注的都是，比如说大概三十秒，然后到比如说下一个十秒的预测。' to my colleague.
+[17:24:25 -> 17:24:34] I say '但是比如说像这么长的，因为小一，以后以后还有这种，它已经是七天的next action预测还是比较少。'
+[17:24:34 -> 17:24:39] I observe my colleague gesturing toward the whiteboard.
+[17:24:40 -> 17:24:48] I say '第一个，然后第二个你可能要，第二个就是它，一个是，一个是时间，一个是时长，对吧？因为你可能总要走向长，就是 long content 下面的那部分。'
+[17:24:48 -> 17:24:55] I watch my colleague point at the diagram.
+[17:24:55 -> 17:25:01] I say '嗯。第二个是什么？我突然又好像忘了，刚想又忘了。'
+[17:25:01 -> 17:25:05] I read the evaluation prompt details.
+[17:25:05 -> 17:25:09] I say '等于 mark，就就为 mark 这个 set。'
+[17:25:10 -> 17:25:14] I say '嗯。应该就应该比较少做吧。'
+[17:25:15 -> 17:25:20] I say '嗯。这种应该比较少做。应该比较少，我见过。'
+[17:25:21 -> 17:25:30] I say 'Next action 那些一般都是比较短的，最多也就是十分钟一次，然后下一个十秒。'
+[17:25:31 -> 17:25:40] I say '好像没有那种特别特别长，几天一次，下一个几天，下一个时间段的。这个这个这个工作。'
+[17:25:40 -> 17:25:43] I observe colleague annotating the smart board.
+[17:25:44 -> 17:25:48] I glance at the wall.
+[17:25:49 -> 17:25:54] I watch colleague erase annotations.
+[17:25:55 -> 17:26:00] I read the LLM judge prompt text.
+[17:26:01 -> 17:26:06] I adjust my sweatshirt hem.
+[17:26:07 -> 17:26:09] I look at my colleague and table.
+[17:26:10 -> 17:26:14] A colleague says '二要做下一个动作预测。'
+[17:26:15 -> 17:26:17] I look at my laptop.
+[17:26:18 -> 17:26:21] I watch User A point at the display.
+[17:26:22 -> 17:26:31] I say 'OK。可以。'
+[17:26:32 -> 17:26:39] I read the Action Correctness evaluation criteria.
+[17:26:40 -> 17:26:42] I say "这是他的judge，the prompt。"
+[17:26:42 -> 17:26:47] I read the evaluation dimensions and semantic fidelity guidelines.
+[17:26:47 -> 17:26:51] I scroll down the ChatGPT evaluation prompt.
+[17:26:51 -> 17:26:54] I look at the conference display.
+[17:26:54 -> 17:27:02] I examine the 0.00 to 1.00 score interval brackets.
+[17:27:02 -> 17:27:06] I say "哦，大概就这样，就这样，这样是给这么这么给分的。"
+[17:27:06 -> 17:27:10] I read the 0.50 pass threshold explanation.
+[17:27:10 -> 17:27:14] I say '对，而且我感觉这个 prompt 也很，也像是 AI 生成的。'
+[17:27:14 -> 17:27:16] I read the evaluation criteria in ChatGPT.
+[17:27:16 -> 17:27:18] My colleague says '对对对。'
+[17:27:18 -> 17:27:20] I say '嗯。OK。'
+[17:27:20 -> 17:27:23] I examine the calibration examples in ChatGPT.
+[17:27:23 -> 17:27:25] I switch to the Google search tab for LongNAP.
+[17:27:25 -> 17:27:29] I switch to the Feishu cloud document tab.
+[17:27:29 -> 17:27:40] I scroll through the Feishu document.
+[17:27:40 -> 17:27:42] The colleague asks '剩下的还有，您有什么建议吗？'.
+[17:27:42 -> 17:27:45] The colleague asks '那个那个变成那个的样本量要多少？'.
+[17:27:45 -> 17:27:47] The colleague says '一千。就拿一那个一万步。'.
+[17:27:47 -> 17:27:49] I look at the colleague on the bench.
+[17:27:49 -> 17:27:52] The colleague asks '就是它的动作点有几个？'.
+[17:27:52 -> 17:27:54] The colleague asks '动作点是什么意思？'.
+[17:27:54 -> 17:27:58] The colleague explains '就是它的这个评估，比方说，你要评估多少个动作，多少个题目？'.
+[17:27:58 -> 17:28:04] The colleague says '啊。他下他现在的题目还没定上。都是我的题目。'.
+[17:28:04 -> 17:28:07] The colleague says '哦。'.
+[17:28:07 -> 17:28:10] I read the Feishu evaluation query and error analysis.
+[17:28:10 -> 17:28:14] User A asks '基准要预测多少个动作？'.
+[17:28:15 -> 17:28:23] I say '嗯。我觉得你先，你现在做的是一个动作。' to User A.
+[17:28:24 -> 17:28:29] User A says '对，现在主要是一个动作。'.
+[17:28:30 -> 17:28:33] I pick up a USB adapter and say '嗯。对。'.
+[17:28:34 -> 17:28:39] I look up at User A.
+[17:28:40 -> 17:28:48] I listen to a colleague discuss action evaluation.
+[17:28:48 -> 17:28:55] I say 'OK。OK，就是您说再加一个一次一次性多多个的chunk，OK。OK。'
+[17:28:56 -> 17:29:02] I say '那就是它它的这基准的话，就是包含一个动作预测，还有多动作预测。'
+[17:29:03 -> 17:29:06] I look at the adjacent chair and colleague.
+[17:29:07 -> 17:29:09] The colleague says '对对对。'
+[17:29:10 -> 17:29:13] Colleague asks '一共一共要多少个题目？'.
+[17:29:13 -> 17:29:17] Colleague says '我们再弄一千个。'.
+[17:29:17 -> 17:29:21] Colleague asks '一千个还是还是五百？'.
+[17:29:21 -> 17:29:25] Colleague says '五千个。可以。'.
+[17:29:25 -> 17:29:29] Colleague says '一两千个也够。'.
+[17:29:29 -> 17:29:34] Colleague replies '对对对。'.
+[17:29:34 -> 17:29:40] Colleague says '选完了，可以。'.
+[17:29:40 -> 17:29:45] I listen to my colleague say '两千个也可以。'
+[17:29:45 -> 17:29:52] I hear '嗯。'
+[17:29:52 -> 17:30:00] I read the finetuning experiment notes.
+[17:30:00 -> 17:30:05] I look at the research notes on the screen.
+[17:30:05 -> 17:30:10] I hear '可以。'
+[17:30:10 -> 17:30:16] I watch my colleague annotate text on the interactive display.
+[17:30:16 -> 17:30:24] A colleague says '拿那个前面的四天，因为你毕竟要做 live show 的嘛，嗯，live show 你给的时间长一点，会更难一点，更看起来像蛮好的意思。然后最后演出的结果一般都是在最后的那几天，然后你拿前六天做那个，当做一种超长 show、超长的 concert 这种。'
+[17:30:24 -> 17:30:27] I look at my colleague.
+[17:30:27 -> 17:30:34] A colleague says '嗯。题目就出在后面两天，题目就出在后面两天，六到七天，然后你。'
+[17:30:34 -> 17:30:39] I observe the annotated evaluation log document.
+[17:30:40 -> 17:30:52] I view the interactive whiteboard discussion on fine-tuning experiment logs.
+[17:30:53 -> 17:30:54] I check my MacBook laptop screen.
+[17:30:55 -> 17:31:03] I fiddle with a small black object.
+[17:31:04 -> 17:31:09] I look at the interactive whiteboard as my colleague writes.
+[17:31:10 -> 17:31:13] A colleague says '嗯，我觉得OK。'.
+[17:31:14 -> 17:31:22] I review the interactive whiteboard notes.
+[17:31:23 -> 17:31:26] I unplug the USB adapter.
+[17:31:27 -> 17:31:30] I unplug the USB receiver dongle.
+[17:31:31 -> 17:31:33] I place the presentation dongle.
+[17:31:34 -> 17:31:36] I watch a colleague unplug a laptop charger.
+[17:31:37 -> 17:31:39] I close and pick up my laptop.
+[17:31:40 -> 17:31:43] I watch a colleague pick up a laptop.
+[17:31:44 -> 17:31:46] I observe a colleague disconnect the smart display.
+[17:31:47 -> 17:31:51] I watch my colleague open the glass door.
+[17:31:52 -> 17:31:55] I exit conference room C514.
+[17:31:56 -> 17:32:03] I walk down the office hallway.
+[17:32:04 -> 17:32:09] I walk along the corridor past a fire hydrant cabinet.
+[17:32:10 -> 17:32:12] I follow my companion through the hallway door.
+[17:32:12 -> 17:32:17] I walk to the elevator lobby.
+[17:32:17 -> 17:32:25] I say '嗯嗯嗯嗯，想着你。嗯嗯嗯嗯，再我刚想一想，要不还是我教吧。'
+[17:32:25 -> 17:32:33] I say '我感觉因为七班教的是那种太那个，就是如果说我教的话，太直观了。'
+[17:32:34 -> 17:32:36] I watch the elevator open.
+[17:32:37 -> 17:32:40] I enter the elevator.
+[17:32:40 -> 17:32:43] I look at button 9 on the elevator control panel.
+[17:32:43 -> 17:32:48] I look down at the elevator floor.
+[17:32:48 -> 17:32:55] I listen to my companion.
+[17:32:55 -> 17:33:03] I look at the elevator floor.
+[17:33:03 -> 17:33:06] I look up as the elevator doors open.
+[17:33:06 -> 17:33:10] I walk down the Level 9 corridor.
+[17:33:10 -> 17:33:17] I walk towards the office entrance.
+[17:33:18 -> 17:33:22] I enter office room C909.
+[17:33:23 -> 17:33:28] I approach desk station 13.
+[17:33:29 -> 17:33:32] I place the MacBook on the desk.
+[17:33:33 -> 17:33:35] I open the MacBook lid.
+[17:33:36 -> 17:33:39] I plug a USB-C cable into the MacBook.
+[17:33:40 -> 17:33:44] I view the Feishu document.
+[17:33:45 -> 17:33:47] I open WeChat.
+[17:33:48 -> 17:33:51] I read messages from User jqz.
+[17:33:52 -> 17:33:56] I type '好' to User jqz.
+[17:33:57 -> 17:34:01] A colleague asks '啊，他这样定的话，他这样定的话，工作量大吗？'.
+[17:34:01 -> 17:34:03] I say '还行吧，还行。' to the colleague.
+[17:34:03 -> 17:34:07] The colleague says '那我先把，我先把背景板和底布先搞。'.
+[17:34:07 -> 17:34:09] I say '可以，搞好了。' and the colleague replies '搞好了啊。'.
+[17:34:10 -> 17:34:17] The colleague says '啊，我是七天的，七天一千条，啊，对，全部的，对，一千条，对，'.
+[17:34:18 -> 17:34:24] The colleague says '一天一天十五，一天多少条？一天不到两百条，'.
+[17:34:25 -> 17:34:29] The colleague says '可以，没问题，可以。'.
+[17:34:30 -> 17:34:32] I look at my MacBook screen.
+[17:34:33 -> 17:34:36] I read the Feishu wiki error analysis document.
+[17:34:37 -> 17:34:39] I scan the sidebar and dock.
+[17:34:40 -> 17:34:46] I review task notes on Feishu.
+[17:34:47 -> 17:34:48] I create a new checklist item under 8-6 on Feishu.
+[17:34:49 -> 17:35:00] I type '最后两天一个粒度' into the task item on Feishu.
+[17:35:01 -> 17:35:07] I revise the task item to '最后两天一共 100条测试点' on Feishu.
+[17:35:08 -> 17:35:10] I update the task quantity to '1000条测试点' on Feishu.
+[17:35:10 -> 17:35:11] I edit a Feishu todo list.
+[17:35:12 -> 17:35:15] I listen to colleague saying '啊，预测多个动作。'
+[17:35:16 -> 17:35:23] I listen to the colleague.
+[17:35:24 -> 17:35:39] I review the Feishu document todo list.
+[17:35:40 -> 17:35:43] I prepare to edit a Feishu document.
+[17:35:44 -> 17:35:47] I type '+多动作题目' in Feishu.
+[17:35:48 -> 17:35:52] I look up from my laptop.
+[17:35:53 -> 17:35:59] A colleague says '可以，就这样呗。这样弄就比较好。可以。'
+[17:36:00 -> 17:36:01] I pick up my phone.
+[17:36:02 -> 17:36:03] I view a WeChat chat.
+[17:36:04 -> 17:36:05] I browse my WeChat chat list.
+[17:36:06 -> 17:36:09] I read messages in a WeChat chat.
+[17:36:10 -> 17:36:15] I read WeChat messages from jqz.
+[17:36:16 -> 17:36:22] I type '好的！' to jqz.
+[17:36:23 -> 17:36:31] I send '好的！' to jqz.
+[17:36:32 -> 17:36:33] I open WeChat 公众号.
+[17:36:34 -> 17:36:39] I browse WeChat 公众号 article headlines.
+[17:36:40 -> 17:36:45] I tap the QbitAI article '没有人靠段子永载GitHub，除非谷歌姐夫'.
+[17:36:46 -> 17:36:51] I read the QbitAI article about Jeff Dean's departure from Google.
+[17:36:52 -> 17:36:56] I scroll down the QbitAI article.
+[17:36:57 -> 17:37:05] I read the Jeff Dean jokes list in the QbitAI article.
+[17:37:06 -> 17:37:10] I hold my phone while pausing.
+[17:37:40 -> 17:37:44] I say "怎么？我还打了那个黄色的车，然后坐那个黄色的车。"
+[17:37:44 -> 17:37:48] I read about MapReduce and BigTable.
+[17:37:48 -> 17:37:52] I scroll to read about Spanner and Protobuf.
+[17:37:52 -> 17:37:56] I scroll to read about Google's AI transition.
+[17:37:56 -> 17:38:01] I read about Google Brain and TensorFlow.
+[17:38:01 -> 17:38:05] I read about TPU and Hinton.
+[17:38:05 -> 17:38:09] I read about Hinton's 2012 startup auction.
+[17:38:10 -> 17:38:15] I read an article about Geoffrey Hinton's 2012 acquisition auction.
+[17:38:15 -> 17:38:20] I read about Jeff Dean convincing Hinton at a steakhouse.
+[17:38:20 -> 17:38:26] I read Hinton's remark that the auction was a formality.
+[17:38:26 -> 17:38:31] I read about Gemini's LLM era challenges under Jeff Dean.
+[17:38:31 -> 17:38:36] I read the evaluation of Gemini's performance against competitors.
+[17:38:36 -> 17:38:39] I view a King Ghidorah goofy dragon meme captioned Gemini.
+[17:38:40 -> 17:38:47] I read an article about Jeff Dean leaving Google.
+[17:38:48 -> 17:38:57] I read about Discovery Loop and view the team photo.
+[17:38:58 -> 17:39:09] I read bullet-point anecdotes about Jeff Dean.
+[17:39:10 -> 17:39:15] I read the QuantumBit article about Jeff Dean legends.
+[17:39:15 -> 17:39:20] I scroll to read anecdotes on binary permissions and server crashes.
+[17:39:20 -> 17:39:26] I read the P=NP interview question anecdote.
+[17:39:26 -> 17:39:31] I scroll to read the USB 2.0 keyboard speedup joke.
+[17:39:31 -> 17:39:36] I read the raw binary machine code anecdote.
+[17:39:36 -> 17:39:40] I read the Creation Code Review joke.
+[17:39:40 -> 17:39:46] I read the Jeff Dean jokes about keyboard USB 2.0 upgrade and binary coding.
+[17:39:46 -> 17:39:50] I read the Jeff Dean joke about answering '111111' and every bit being true.
+[17:39:50 -> 17:39:55] I scroll to the 'WE'RE BACK, BABY!!' meme and 'One More Thing' header.
+[17:39:55 -> 17:40:00] I view the meme photo and read the joke about Richard Stallman buying a Kindle.
+[17:40:00 -> 17:40:05] I read the origin story of Google engineer Kenton Varda creating the Jeff Dean jokes site.
+[17:40:05 -> 17:40:10] I read about Kenton spoofing a company-wide email and Jeff Dean discovering the joke site.
+[17:40:10 -> 17:40:17] I read the Jeff Dean article on my phone.
+[17:40:17 -> 17:40:19] I scroll down the article on my phone.
+[17:40:19 -> 17:40:32] I read the section about GitHub and The Jeff Dean Facts.
+[17:40:32 -> 17:40:34] I scroll down the article on my phone.
+[17:40:34 -> 17:40:39] I read the concluding section and GitHub repo link.
+[17:40:40 -> 17:40:50] I read comments on the 量子位 Jeff Dean article.
+[17:40:51 -> 17:40:56] I browse the WeChat Official Accounts feed.
+[17:40:57 -> 17:41:01] I read the iPhone Ultra leak article.
+[17:41:02 -> 17:41:05] I scroll through the iPhone Ultra specs and images.
+[17:41:06 -> 17:41:09] I return to the WeChat Official Accounts feed.
+[17:41:10 -> 17:41:14] I scroll WeChat subscription feed.
+[17:41:15 -> 17:41:18] I scroll WeChat chat list.
+[17:41:19 -> 17:41:21] I stand up.
+[17:41:22 -> 17:41:25] I approach coworker at desk 11.
+[17:41:26 -> 17:41:30] I say '出去吃饭，现在走，走，走，看一下。' to coworker.
+[17:41:31 -> 17:41:34] I look around office aisle.
+[17:41:35 -> 17:41:39] I check laptop notes at desk 13.
+[17:41:40 -> 17:41:43] I sit at my desk.
+[17:41:44 -> 17:41:46] I review the Feishu Wiki todo list on action prediction.
+[17:41:47 -> 17:41:53] I check the ChatGPT tj-h800 de-identification thread.
+[17:41:54 -> 17:42:02] I read the ChatGPT de-identification regression test table.
+[17:42:03 -> 17:42:09] I read the ChatGPT OPF configuration and GPU7 allocation report.
+[17:42:10 -> 17:42:22] I read ChatGPT's report on GPU7 memory and VRS masking.
+[17:42:23 -> 17:42:32] I read ChatGPT's log analysis on pipeline timeouts.
+[17:42:33 -> 17:42:34] I review my Feishu wiki task list.
+[17:42:35 -> 17:42:39] I review LLM-judge scoring output in ChatGPT.
+[17:42:40 -> 17:42:44] I check ChatGPT on my MacBook.
+[17:42:45 -> 17:42:48] I stand up from my desk.
+[17:42:49 -> 17:42:54] I walk down the office aisle.
+[17:42:55 -> 17:42:59] I browse WeChat on my iPhone.
+[17:43:00 -> 17:43:04] I approach an electronics workbench.
+[17:43:05 -> 17:43:06] I say "哦，shit。".
+[17:43:07 -> 17:43:09] I pick up a black circuit board.
+[17:43:10 -> 17:43:19] I inspect the front side of a circuit board.
+[17:43:20 -> 17:43:30] I inspect the reverse side of the circuit board.
+[17:43:31 -> 17:43:33] I place the circuit board on the desk.
+[17:43:34 -> 17:43:36] I look at colleagues working.
+[17:43:37 -> 17:43:39] I look toward the storage cabinets.
+[17:43:40 -> 17:43:42] I say '好困呐，我操！'.
+[17:43:42 -> 17:43:45] I walk through the office workspace.
+[17:43:45 -> 17:43:48] I reach for the office door handle.
+[17:43:48 -> 17:43:52] I look at the App Library on my iPhone.
+[17:43:52 -> 17:43:55] I look at the hallway newspaper rack.
+[17:43:55 -> 17:43:57] I walk toward a small table in the break room.
+[17:43:57 -> 17:44:00] I sit down at the white table.
+[17:44:00 -> 17:44:03] I unlock my iPhone to the home screen.
+[17:44:03 -> 17:44:08] I browse apps on my iPhone home screen.
+[17:44:08 -> 17:44:10] I launch the Taobao app.
+[17:44:10 -> 17:44:11] I open Taobao.
+[17:44:11 -> 17:44:14] I browse the Super 88 campaign banner.
+[17:44:15 -> 17:44:17] I view the smart bluetooth glasses listing.
+[17:44:18 -> 17:44:21] I pull to refresh the homepage.
+[17:44:22 -> 17:44:24] I examine the smart bluetooth glasses listing.
+[17:44:25 -> 17:44:26] I view the Messages tab.
+[17:44:27 -> 17:44:28] I open My Taobao.
+[17:44:29 -> 17:44:29] I view the Super 88 coupon modal.
+[17:44:30 -> 17:44:34] I browse the My Taobao recommendations.
+[17:44:35 -> 17:44:39] I refresh the Taobao homepage.
+[17:44:40 -> 17:44:46] I browse the Taobao recommendation feed.
+[17:44:46 -> 17:44:52] I browse Rokid glasses and electronics on Taobao.
+[17:44:53 -> 17:44:54] I switch to the Messages app.
+[17:44:54 -> 17:44:57] I check SMS verification messages.
+[17:44:57 -> 17:45:00] I lower my phone.
+[17:45:00 -> 17:45:09] I look at the tabletop.
+[17:45:10 -> 17:45:40] I sit at a white table.
+[17:45:40 -> 17:45:54] I look at the tabletop.
+[17:45:55 -> 17:46:06] I look toward the center of the tabletop.
+[17:46:07 -> 17:46:10] I look at the right side of the tabletop.
+[17:46:10 -> 17:46:40] I sit at a white table.
+[17:46:40 -> 17:47:09] I sit at the table.
+[17:47:10 -> 17:47:39] I sit at the table.
+[17:47:40 -> 17:48:09] I sit at the table.
+[17:48:10 -> 17:48:36] I sit at the table.
+[17:48:36 -> 17:48:38] I look at the table center.
+[17:48:38 -> 17:48:40] I look at my lap.
+[17:48:40 -> 17:48:48] I look at the tabletop edge.
+[17:48:48 -> 17:49:10] I look at the table surface.
+[17:49:10 -> 17:49:40] I sit at the white table.
+[17:49:40 -> 17:50:10] I sit looking at the tabletop.
+[17:50:10 -> 17:50:39] I sit at a white table.
+[17:50:40 -> 17:51:07] I sit at the table.
+[17:51:07 -> 17:51:09] I watch a companion approach.
+[17:51:09 -> 17:51:10] The companion says '走。'
+[17:51:10 -> 17:51:12] I observe my colleague preparing to leave.
+[17:51:12 -> 17:51:14] I say '感受，区别。'
+[17:51:14 -> 17:51:17] I walk into the corridor.
+[17:51:17 -> 17:51:26] I walk down the corridor.
+[17:51:26 -> 17:51:31] I walk past the wall mural.
+[17:51:31 -> 17:51:36] I enter the elevator lobby.
+[17:51:36 -> 17:51:39] I press the elevator call button.
+[17:51:40 -> 17:51:46] I observe a person approaching in the elevator lobby.
+[17:51:47 -> 17:51:49] I check the time on my iPhone.
+[17:51:50 -> 17:51:59] I monitor the hallway as the person walks past.
+[17:52:00 -> 17:52:09] I read the elevator safety stickers.
+[17:52:10 -> 17:52:11] I wait in the elevator.
+[17:52:12 -> 17:52:13] I observe the elevator doors opening.
+[17:52:14 -> 17:52:17] I reach toward the elevator panel.
+[17:52:18 -> 17:52:21] I press the door close button.
+[17:52:22 -> 17:52:25] I press the 11th floor button.
+[17:52:26 -> 17:52:39] I hold my thumb on the 11th floor button.
+[17:52:40 -> 17:52:49] I press the '1' floor button.
+[17:52:50 -> 17:52:52] I watch the elevator doors open.
+[17:52:53 -> 17:52:56] I walk toward the security turnstiles.
+[17:52:57 -> 17:53:00] I say '你好，帮开个门儿。谢谢。' to the security guard.
+[17:53:01 -> 17:53:03] I walk through the turnstile.
+[17:53:04 -> 17:53:09] I walk toward the glass entrance doors.
+[17:53:10 -> 17:53:13] I walk toward the exit doors.
+[17:53:13 -> 17:53:16] I say '阳光好好啊！'.
+[17:53:16 -> 17:53:19] I say '我勒个头！'.
+[17:53:19 -> 17:53:22] Companion says '开车吧，没电了。'.
+[17:53:22 -> 17:53:24] I say '那我走过去。'.
+[17:53:24 -> 17:53:28] Companion says '也可以开，但是估计可能半路开不动了。'.
+[17:53:28 -> 17:53:31] I say '那我走过去。'.
+[17:53:31 -> 17:53:33] I say '远不远？'.
+[17:53:33 -> 17:53:36] Companion says '不知道啊，在旁边那个工地。'.
+[17:53:36 -> 17:53:37] I say '很远吗？'.
+[17:53:37 -> 17:53:40] Companion says '嗯。感觉走十分钟。'.
+[17:53:40 -> 17:53:42] I look at a parking sign.
+[17:53:42 -> 17:53:44] My companion says '嗯。直接去吃吧。'
+[17:53:44 -> 17:53:48] I say '健身也行，健身小练练二十分钟。'
+[17:53:48 -> 17:53:51] My companion says '啊？'
+[17:53:51 -> 17:53:55] I glance at companion's phone case.
+[17:53:55 -> 17:54:00] I look at the sunlit trees and sky.
+[17:54:01 -> 17:54:06] I observe parked scooters and an oncoming pedestrian.
+[17:54:07 -> 17:54:09] I look at the road lane line.
+[17:54:10 -> 17:54:14] I walk past parked scooters.
+[17:54:14 -> 17:54:26] I walk along the yellow centerline.
+[17:54:26 -> 17:54:30] I look at an approaching scooter rider.
+[17:54:30 -> 17:54:36] I watch the scooter rider approach.
+[17:54:36 -> 17:54:40] I watch the scooter rider pass.
+[17:54:40 -> 17:54:45] I walk along the road.
+[17:54:45 -> 17:54:47] I look at the glass office building.
+[17:54:47 -> 17:54:52] I look at the high-rise office building.
+[17:54:52 -> 17:54:56] I observe the road ahead.
+[17:54:56 -> 17:55:00] I look at the white car.
+[17:55:00 -> 17:55:08] I coil the black cable.
+[17:55:08 -> 17:55:10] I read the '消防登高场地 禁止占用' road markings.
+[17:55:10 -> 17:55:14] I walk along the roadway.
+[17:55:15 -> 17:55:17] I look at the spherical sculpture.
+[17:55:18 -> 17:55:21] I say '好爽！'.
+[17:55:22 -> 17:55:25] I walk forward along the road.
+[17:55:26 -> 17:55:28] My companion says '你咋没把你休好觉呢？我操！'.
+[17:55:29 -> 17:55:32] I look at the glass-railed walkway.
+[17:55:33 -> 17:55:39] I walk along the roadway.
+[17:55:40 -> 17:55:45] I say "不要放这边啊，有嫌疑。拿回去算了。".
+[17:55:46 -> 17:55:51] My companion says "是硬盘保护的那个 key 吧？".
+[17:55:52 -> 17:55:55] I look at the cargo bed.
+[17:55:56 -> 17:55:58] I walk toward the exit gate.
+[17:55:59 -> 17:56:02] I approach the turnstile gate.
+[17:56:03 -> 17:56:05] I say "你好，帮开个门儿。".
+[17:56:06 -> 17:56:09] I say "谢谢。".
+[17:56:10 -> 17:56:13] I exit through the turnstile gate.
+[17:56:14 -> 17:56:20] I walk along the sidewalk.
+[17:56:21 -> 17:56:25] I approach the parked shared bikes.
+[17:56:26 -> 17:56:29] My companion says "反正给人家支付也估计没用。可以啊，骑吧。".
+[17:56:30 -> 17:56:32] I check my iPhone lock screen.
+[17:56:33 -> 17:56:36] I tap the Meituan app icon on my iPhone.
+[17:56:37 -> 17:56:40] I scan the QR code on the yellow Meituan bike.
+[17:56:40 -> 17:56:42] I inspect parked bicycles.
+[17:56:43 -> 17:56:51] I view the shared bike app.
+[17:56:52 -> 17:56:53] I open iOS Control Center.
+[17:56:54 -> 17:57:05] I hold my phone.
+[17:57:06 -> 17:57:09] I check iOS Control Center.
+[17:57:10 -> 17:57:14] I tap the yellow '继续开锁' button in the Meituan app.
+[17:57:15 -> 17:57:16] I monitor the bike unlocking progress on my phone.
+[17:57:17 -> 17:57:19] I hear the bike lock announce '开启成功。'.
+[17:57:20 -> 17:57:24] I maneuver the yellow Meituan bike backwards.
+[17:57:25 -> 17:57:30] I mount the yellow Meituan bike.
+[17:57:31 -> 17:57:33] I look ahead at the sidewalk and a construction loader.
+[17:57:34 -> 17:57:39] I observe the person maneuvering a yellow shared bike.
+[17:57:40 -> 17:57:44] I watch my companion adjust the bicycle seat.
+[17:57:45 -> 17:57:49] I look at the yellow shared bicycle.
+[17:57:50 -> 17:57:52] I watch my companion hold up a smartphone.
+[17:57:53 -> 17:57:54] I say '没有照片吗？天气太好。'
+[17:57:55 -> 17:57:59] I ride the shared bicycle along the sidewalk.
+[17:58:00 -> 17:58:05] I examine the yellow ZL930 wheel loader.
+[17:58:06 -> 17:58:09] I ride toward the street intersection.
+[17:58:10 -> 17:58:15] I observe the intersection and office building across the street.
+[17:58:15 -> 17:58:18] I pedal forward on the bicycle past the waste bin.
+[17:58:18 -> 17:58:23] I ride past the parked scooter.
+[17:58:23 -> 17:58:28] I ride along the sidewalk.
+[17:58:28 -> 17:58:33] I ride past roadside trees.
+[17:58:33 -> 17:58:38] I ride past a painted concrete wall.
+[17:58:38 -> 17:58:40] I look at the passing car and bus on the street.
+[17:58:40 -> 17:58:43] I ride a bicycle along the sidewalk.
+[17:58:44 -> 17:58:49] I ride past a parked scooter towards a red cargo truck.
+[17:58:50 -> 17:58:53] I ride alongside the red cargo truck.
+[17:58:54 -> 17:59:00] I continue riding along the sidewalk.
+[17:59:01 -> 17:59:07] I ride past a parked white refrigerated truck.
+[17:59:08 -> 17:59:10] I cycle towards an open gate ahead.
+[17:59:10 -> 17:59:13] I ride past the campus gate.
+[17:59:13 -> 17:59:17] I turn right onto the street.
+[17:59:17 -> 17:59:20] I look at the overhead street sign.
+[17:59:20 -> 17:59:23] I ride past a parked white SUV.
+[17:59:23 -> 17:59:27] I ride past a white delivery van.
+[17:59:27 -> 17:59:32] I look at a parked black Toyota Camry.
+[17:59:32 -> 17:59:36] I ride past a parked black Lexus.
+[17:59:36 -> 17:59:39] I approach the intersection past a white van.
+[17:59:40 -> 17:59:47] I wait at the intersection.
+[17:59:47 -> 17:59:52] I turn right.
+[17:59:52 -> 17:59:56] I say '怎么感觉没有呢？'
+[17:59:56 -> 18:00:01] I say '我感觉是。'
+[18:00:01 -> 18:00:10] I ride across the intersection.
+[18:00:10 -> 18:00:13] I say "是刚才之前是在这块看到的，也可以。" to my companion.
+[18:00:13 -> 18:00:17] I say "我再我再看一下，我再小看一下。不好意思。" to my companion.
+[18:00:17 -> 18:00:26] I observe the intersection traffic.
+[18:00:27 -> 18:00:32] I pedal forward across the intersection.
+[18:00:33 -> 18:00:39] I ride along the roadway behind scooters.
+[18:00:40 -> 18:00:46] I ride a shared bicycle past a parked car and truck.
+[18:00:47 -> 18:00:51] I cycle past a compound gate while watching a pedestrian.
+[18:00:52 -> 18:00:53] I adjust my smart glasses.
+[18:00:54 -> 18:00:57] I look at the buildings across the street while cycling.
+[18:00:58 -> 18:01:03] I observe the weight limit signs and wall mural while cycling.
+[18:01:04 -> 18:01:06] I cycle past a green metal gate.
+[18:01:07 -> 18:01:10] I ride along the tree-lined road.
+[18:01:10 -> 18:01:14] I cycle towards the bridge.
+[18:01:15 -> 18:01:19] I look at the river from the bridge.
+[18:01:20 -> 18:01:24] I look at the roadside tree and sign.
+[18:01:25 -> 18:01:30] I cycle past a streetlight pole.
+[18:01:31 -> 18:01:35] I cycle past parked cars and planters.
+[18:01:36 -> 18:01:39] I cycle down the tree-lined street.
+[18:01:40 -> 18:01:47] I ride along the street.
+[18:01:48 -> 18:01:49] I look at the parking lot.
+[18:01:50 -> 18:01:56] I ride alongside my companion.
+[18:01:57 -> 18:01:58] I look at the bus shelter.
+[18:01:59 -> 18:02:04] I say '感觉没了，感觉没了呀！我操，在刚才那个路口那个工地那儿，之前见过两家白炒菜的。'
+[18:02:05 -> 18:02:10] I approach the intersection.
+[18:02:10 -> 18:02:16] I ride through the intersection.
+[18:02:16 -> 18:02:20] I say '看看这个，感觉水煎包还可以，可以买两个做。'
+[18:02:20 -> 18:02:23] I observe the food cart.
+[18:02:23 -> 18:02:26] I say '没开？'
+[18:02:26 -> 18:02:30] I say '我先买三个当做小吃，可以，可以。'
+[18:02:30 -> 18:02:35] I steer into the driveway.
+[18:02:35 -> 18:02:39] I watch the passing street traffic.
+[18:02:40 -> 18:02:46] I ride towards the food stall.
+[18:02:46 -> 18:02:48] I stop in front of the food stall.
+[18:02:48 -> 18:02:50] I say '水煎包，来四个行不？'
+[18:02:50 -> 18:02:52] The vendor says '可以可以，有韭菜鸡蛋的、肉的。'
+[18:02:52 -> 18:02:53] I ask '啥肉的？'
+[18:02:53 -> 18:02:55] The vendor replies '呃，猪的。猪的后腿肉、瘦肉。'
+[18:02:55 -> 18:02:56] I say '啊。'
+[18:02:56 -> 18:02:57] The vendor says '一块钱一个，胡辣汤。'
+[18:02:57 -> 18:02:58] The vendor asks '要肉的吧？'
+[18:02:58 -> 18:03:00] I say '哎。来四个肉的。'
+[18:03:00 -> 18:03:01] The vendor says '四个肉的嘞。'
+[18:03:01 -> 18:03:03] I ask '对，肉多少钱？'
+[18:03:03 -> 18:03:04] The vendor answers '四块，四块，四块。'
+[18:03:04 -> 18:03:07] I open the Alipay scanner.
+[18:03:07 -> 18:03:09] I aim my phone at the Alipay QR code.
+[18:03:09 -> 18:03:10] The vendor asks '还要汤。'
+[18:03:10 -> 18:03:16] The vendor says '要要再要个韭菜了吧？要五块钱了嘛，正好。要绿豆粥、小米粥、包，胡辣汤、小米粥啥的。'
+[18:03:17 -> 18:03:19] The companion says '能看得上个，能看得上吗？好。咱俩一人俩了，一个一块钱。'
+[18:03:20 -> 18:03:22] The vendor says '尝点好吃的。好吃再来买。'
+[18:03:23 -> 18:03:25] I say '好。'
+[18:03:26 -> 18:03:28] I look at a cyclist and a bus on the street.
+[18:03:29 -> 18:03:31] I take disposable chopsticks from a woman.
+[18:03:32 -> 18:03:38] I hang the food bag onto the bicycle handlebar.
+[18:03:39 -> 18:03:40] I look at the food stall vendor.
+[18:03:40 -> 18:03:43] I hold the bicycle handlebars at the food stall entrance.
+[18:03:43 -> 18:03:46] I watch the cyclist ride out onto the street.
+[18:03:46 -> 18:03:50] I ride my bicycle onto the road.
+[18:03:50 -> 18:03:55] I ride past an oncoming scooter and a grey car.
+[18:03:55 -> 18:04:01] I check my bicycle handlebar and pedals while riding.
+[18:04:01 -> 18:04:06] I glance at the curb and a parked white bicycle.
+[18:04:06 -> 18:04:10] I approach a gated entrance in the bright evening sunlight.
+[18:04:10 -> 18:04:13] I ride a bicycle along the sidewalk.
+[18:04:14 -> 18:04:20] I ride past a fenced canal.
+[18:04:21 -> 18:04:25] I ride along the sidewalk.
+[18:04:26 -> 18:04:28] I observe parked cars and traffic signs.
+[18:04:29 -> 18:04:32] I watch a pedestrian cross the street.
+[18:04:33 -> 18:04:37] I watch an approaching cement mixer truck.
+[18:04:38 -> 18:04:39] I watch the cement mixer truck pass by.
+[18:04:40 -> 18:04:44] I watch passing traffic while riding.
+[18:04:45 -> 18:04:48] I look at an oncoming motorcycle.
+[18:04:49 -> 18:04:53] I monitor oncoming scooters.
+[18:04:54 -> 18:04:58] I glance at roadside shops and utility poles.
+[18:04:59 -> 18:05:02] I pass a metal workshop.
+[18:05:03 -> 18:05:05] I look at a '自选炒菜 炒饭炒面' food cart.
+[18:05:06 -> 18:05:09] I look at a residential compound entrance.
+[18:05:10 -> 18:05:16] I ride a shared bike.
+[18:05:17 -> 18:05:21] I cross the bridge.
+[18:05:22 -> 18:05:24] My companion asks '吃这个不？炒菜。'
+[18:05:25 -> 18:05:27] I ask '怎么说？什么菜？这怎么？'
+[18:05:28 -> 18:05:32] My companion says '炒菜。炒菜。'
+[18:05:33 -> 18:05:36] I say '就自选菜。'
+[18:05:37 -> 18:05:39] I ride forward.
+[18:05:40 -> 18:05:41] I say 'OK.'
+[18:05:41 -> 18:05:42] I glance at a utility pole.
+[18:05:42 -> 18:05:45] I look at the jianbing and roast duck stalls.
+[18:05:46 -> 18:05:50] I look at the supermarket and outdoor diners.
+[18:05:51 -> 18:05:54] I observe the Huajie Black Duck stall.
+[18:05:55 -> 18:05:57] I glance at a fruit shop.
+[18:05:58 -> 18:06:01] I look at the Yangzhou fried rice stall.
+[18:06:02 -> 18:06:04] I look at vegetables outside a shop.
+[18:06:05 -> 18:06:07] I look toward an upcoming zebra crossing.
+[18:06:08 -> 18:06:10] I look at an advertising banner.
+[18:06:10 -> 18:06:12] I ride a bicycle following my companion.
+[18:06:12 -> 18:06:14] My companion says "我吃炒菜。"
+[18:06:14 -> 18:06:17] I say "你你点凉皮啊？" to my companion.
+[18:06:17 -> 18:06:20] I look at the food stall cart.
+[18:06:20 -> 18:06:23] My companion asks "应该有肉的吧？"
+[18:06:23 -> 18:06:27] I say "我感觉有吧。" to my companion.
+[18:06:27 -> 18:06:31] My companion says "要不咱们？"
+[18:06:31 -> 18:06:36] I observe the Sanzao Road bridge pier.
+[18:06:36 -> 18:06:40] I cycle past the bridge.
+[18:06:40 -> 18:06:44] I stop my shared bike by the curb while my companion says '我们先吃两个包子'.
+[18:06:45 -> 18:06:50] I say '我操，应该再要哦，没事儿，有两个筷子。' while opening the bun bag.
+[18:06:51 -> 18:06:54] I hold the bag as my companion takes chopsticks.
+[18:06:55 -> 18:07:00] I hang the bun bag on the handlebar while my companion says '水煎包，水煎包是水煎的吗？'.
+[18:07:01 -> 18:07:06] I unwrap my disposable chopsticks.
+[18:07:07 -> 18:07:09] I toss the chopstick wrapper into the basket.
+[18:07:10 -> 18:07:12] My companion says "是用油煎的。"
+[18:07:12 -> 18:07:15] I say "那就不要叫水煎包，就是不坑骗想减减肥的人。"
+[18:07:15 -> 18:07:18] I pick up a fried bun.
+[18:07:18 -> 18:07:19] My companion says "嗯。"
+[18:07:19 -> 18:07:22] I say "这一个一块钱，"
+[18:07:22 -> 18:07:24] My companion says "嗯，"
+[18:07:24 -> 18:07:28] I say "才几十块，放我们食堂不得卖爆。"
+[18:07:28 -> 18:07:33] I watch the street and my companion.
+[18:07:33 -> 18:07:40] I inspect my fried bun.
+[18:07:40 -> 18:07:45] I say '就感觉感觉吃起来，他们是河南人，感觉一般吧，给个六分，六点五吧。'
+[18:07:45 -> 18:07:49] I say '脆倒是挺脆的，还挺热的。'
+[18:07:49 -> 18:07:51] I watch a passing scooter rider.
+[18:07:51 -> 18:07:56] I look at User A and my bun.
+[18:07:56 -> 18:08:04] I watch User A eat his bun.
+[18:08:04 -> 18:08:10] I look at my pan-fried bun and User A's bicycle basket.
+[18:08:10 -> 18:08:14] I watch my companion wheel his bike onto the sidewalk.
+[18:08:15 -> 18:08:20] I grip my bicycle handlebar.
+[18:08:21 -> 18:08:24] I look at the 不锈钢门窗 workshop sign.
+[18:08:24 -> 18:08:25] I exclaim '啊！'.
+[18:08:26 -> 18:08:30] I examine the pastry on my chopsticks.
+[18:08:31 -> 18:08:35] I look at the pavement outside the workshop.
+[18:08:36 -> 18:08:39] I inspect the 不锈钢门窗 workshop storefront.
+[18:08:40 -> 18:08:46] I observe a puppy outside a metal workshop.
+[18:08:46 -> 18:08:48] I watch a minivan pass.
+[18:08:48 -> 18:08:51] I watch the puppy beg.
+[18:08:51 -> 18:08:54] I toss food to the puppy.
+[18:08:54 -> 18:09:00] I watch the puppy eat.
+[18:09:00 -> 18:09:04] I point at the ground.
+[18:09:04 -> 18:09:07] I offer food on chopsticks to the puppy.
+[18:09:07 -> 18:09:10] I watch the puppy eat.
+[18:09:10 -> 18:09:13] I look at a leashed dog.
+[18:09:14 -> 18:09:17] I look at the workshop storefront.
+[18:09:18 -> 18:09:23] I walk to my companion.
+[18:09:24 -> 18:09:26] I point toward the dog.
+[18:09:27 -> 18:09:30] I watch my companion take a pan-fried bun.
+[18:09:31 -> 18:09:36] I pick up a pan-fried bun.
+[18:09:37 -> 18:09:39] I say '狗狗也爱吃这个。'.
+[18:09:40 -> 18:09:43] My companion says '你看这狗，你看，嗯，好巧。'
+[18:09:43 -> 18:09:46] My companion says '要你喂，你就喂它一点。'
+[18:09:46 -> 18:09:49] My companion says '看，你看它流口水了。'
+[18:09:49 -> 18:09:53] I say '它主人在旁边，得问一问。'
+[18:09:53 -> 18:09:58] I say '师傅，这狗狗吃水煎包吗？' to the vendor.
+[18:09:58 -> 18:10:03] The vendor says '我家的小狗。' and I say '吃水煎包吗？'
+[18:10:03 -> 18:10:10] I say '我我给它掰一块，不吃就算了。'
+[18:10:10 -> 18:10:14] I ask '我说我给它掰一块水煎包，它吃吗？'
+[18:10:14 -> 18:10:18] The dog owner says '啊，不吃，太热了，不不怎么吃了。'
+[18:10:18 -> 18:10:21] I say '哦，好吧，好吧。'
+[18:10:21 -> 18:10:27] The dog owner says '我今天下午搞那搞点狗粮，它都没吃，都喝喝水喝了几次。'
+[18:10:27 -> 18:10:30] The dog owner says '哈哈，太热了，它它吃的少嘞。'
+[18:10:30 -> 18:10:33] I say '好可爱啊！嘿嘿，多大了？'
+[18:10:33 -> 18:10:36] I pet the poodle while the owner asks '多大？几年了？'.
+[18:10:36 -> 18:10:38] The dog owner says '两岁了。'
+[18:10:38 -> 18:10:40] I say '两岁了，这么大？这么小？'
+[18:10:40 -> 18:10:43] The dog owner says '大蓝不好玩了，长不高，长不大。'.
+[18:10:43 -> 18:10:46] I ask '嗯，哦，就是要买还是还是？'.
+[18:10:46 -> 18:10:49] The dog owner replies '儿子买的，买的啊，啊。'.
+[18:10:49 -> 18:10:52] I ask '这是什么品种？'.
+[18:10:52 -> 18:10:56] I drop a piece of bun crust for the dog.
+[18:10:56 -> 18:10:59] I say '吃了吗？吃了吧。'.
+[18:10:59 -> 18:11:04] I ask '肉馅儿呢？还是？'.
+[18:11:04 -> 18:11:10] I look up at the dog owner.
+[18:11:10 -> 18:11:11] I observe the man.
+[18:11:11 -> 18:11:16] I watch the poodle.
+[18:11:16 -> 18:11:21] The man says '吃了几次，也不太饿。天气热，天气凉快的时候，每天下午我带个小玻璃茶，他可以吃光。'
+[18:11:21 -> 18:11:26] The man says '现在，有时吃一口，有时一口都不吃。'
+[18:11:26 -> 18:11:28] I look at the man.
+[18:11:28 -> 18:11:31] I look at the poodle.
+[18:11:31 -> 18:11:36] I say '那现在，不像人一样，天热了换两小的。'
+[18:11:36 -> 18:11:40] I watch the poodle.
+[18:11:40 -> 18:11:45] My companion asks '是你钓的吗？是你钓的鱼吗？'
+[18:11:45 -> 18:11:48] I look at the crates.
+[18:11:48 -> 18:11:53] The vendor says '上水还还点小鲫鱼在里头。哦，你钓的，网网嘞。哦。'
+[18:11:54 -> 18:11:57] I look at my poodle.
+[18:11:57 -> 18:12:04] I pet the poodle.
+[18:12:05 -> 18:12:09] I watch my companion walk ahead.
+[18:12:10 -> 18:12:12] My companion says '坐吧，走吧。哈哈，那个狗吃完了。狗太饿了。'
+[18:12:12 -> 18:12:19] I look at the parked shared bikes.
+[18:12:19 -> 18:12:22] I say '给我吧' to my companion.
+[18:12:22 -> 18:12:24] My companion asks '我们把袋子扔哪？'.
+[18:12:24 -> 18:12:27] I say '一会儿找个垃圾桶吧。'.
+[18:12:27 -> 18:12:29] My companion asks '还骑吗？'.
+[18:12:29 -> 18:12:32] I say '啊？还骑吗？我都可以。'.
+[18:12:32 -> 18:12:36] My companion says '还骑。再往前骑五分钟。吹一下风。'.
+[18:12:36 -> 18:12:38] I place the plastic bag into the bike basket.
+[18:12:38 -> 18:12:40] I mount the shared bike.
+[18:12:40 -> 18:12:41] I begin cycling.
+[18:12:41 -> 18:12:43] I say '我这个也是，他吃完了。'
+[18:12:43 -> 18:12:45] My companion says '其实人家村里来了。'
+[18:12:45 -> 18:12:49] I follow my companion past the workshop.
+[18:12:50 -> 18:12:52] I look at a small dog.
+[18:12:53 -> 18:12:54] I look at an oncoming car.
+[18:12:54 -> 18:12:58] I look at a roadside fruit vendor.
+[18:12:59 -> 18:13:02] I look at a vegetable vendor.
+[18:13:03 -> 18:13:06] I look at parked cars.
+[18:13:07 -> 18:13:09] I look at my companion cycling ahead.
+[18:13:10 -> 18:13:14] I ride a bicycle.
+[18:13:11 -> 18:13:13] I say "感觉还可以。"
+[18:13:15 -> 18:13:20] I approach roadside food stalls.
+[18:13:17 -> 18:13:20] I say "吃，你你打包呗，或者我打包。"
+[18:13:21 -> 18:13:25] I pass a food stall under a red canopy.
+[18:13:26 -> 18:13:31] I ride past roadside shops.
+[18:13:32 -> 18:13:35] I watch a white car cross the intersection.
+[18:13:36 -> 18:13:40] I ride past the '寿州土菜馆' restaurant.
+[18:13:40 -> 18:13:44] I ride a bicycle following a companion.
+[18:13:45 -> 18:13:47] I cycle past a food cart.
+[18:13:48 -> 18:13:51] I ride onto a bridge.
+[18:13:52 -> 18:13:55] I ride across a bridge.
+[18:13:56 -> 18:13:58] I say '我操！来大车了，来车了，后面。'
+[18:13:59 -> 18:14:03] I monitor the bus driving ahead.
+[18:14:04 -> 18:14:09] I cycle along a residential street.
+[18:14:10 -> 18:14:16] I follow my companion on a bicycle.
+[18:14:16 -> 18:14:17] I look at my bicycle basket.
+[18:14:17 -> 18:14:19] I say '我操！垃圾掉了，你妹！'.
+[18:14:19 -> 18:14:21] The companion asks '什么？'.
+[18:14:21 -> 18:14:24] I watch a crossing pedestrian.
+[18:14:24 -> 18:14:30] I ride down the tree-lined street.
+[18:14:30 -> 18:14:34] I cycle past an oncoming cyclist.
+[18:14:34 -> 18:14:39] I ride through an intersection.
+[18:14:40 -> 18:14:43] I wait at the intersection.
+[18:14:44 -> 18:14:52] I ride the bicycle forward.
+[18:14:53 -> 18:15:00] I approach the food cart.
+[18:15:01 -> 18:15:05] I examine the braised food cart.
+[18:15:06 -> 18:15:07] The vendor says '吃点什么？'.
+[18:15:08 -> 18:15:09] I say '帮忙拌点菜。' to the vendor.
+[18:15:10 -> 18:15:13] I examine the food cart dishes.
+[18:15:14 -> 18:15:17] I say '洋葱，洋葱，洋葱，洋啊，对，不是洋啊，洋葱还是要钱吧？我比较喜欢吃洋葱。'
+[18:15:18 -> 18:15:22] I say '再再来再再来一筷子，对'.
+[18:15:23 -> 18:15:27] I say '然后这个辣椒皮儿，嗯'.
+[18:15:28 -> 18:15:32] I say '黄瓜少来一点，嗯'.
+[18:15:33 -> 18:15:39] I say '腐竹，花生米，行了，对。'
+[18:15:40 -> 18:15:42] I say '要' to the food cart vendor.
+[18:15:43 -> 18:15:50] I scan the food cart Alipay QR code.
+[18:15:51 -> 18:15:55] I pay 8 yuan via Alipay.
+[18:15:56 -> 18:16:04] The speaker broadcasts '支付宝到账八元。疯狂朋友节明天即将开始，顾客碰。'.
+[18:16:05 -> 18:16:09] I watch the vendor season the food.
+[18:16:10 -> 18:16:17] I examine the braised meats in the food cart.
+[18:16:17 -> 18:16:21] I watch traffic passing on the street.
+[18:16:21 -> 18:16:26] I look at the food cart items.
+[18:16:26 -> 18:16:29] I examine the side dish containers.
+[18:16:29 -> 18:16:38] I inspect the food stall ingredients.
+[18:16:38 -> 18:16:40] I look at a person on a scooter.
+[18:16:40 -> 18:16:48] I examine the braised food display.
+[18:16:48 -> 18:16:50] I take the plastic food bag.
+[18:16:50 -> 18:16:53] I hang the plastic food bag onto the bicycle handlebars.
+[18:16:53 -> 18:16:56] I mount the bicycle and ride onto the street.
+[18:16:56 -> 18:17:03] I ride the bicycle down the street.
+[18:17:03 -> 18:17:05] I pull up alongside my companion.
+[18:17:05 -> 18:17:07] My companion asks '往回走不？'.
+[18:17:07 -> 18:17:10] I say '啊，感觉没路了。' to my companion.
+[18:17:10 -> 18:17:11] I say '也可以，走吧，走。'
+[18:17:11 -> 18:17:13] I turn my bicycle around.
+[18:17:13 -> 18:17:17] I ride my bicycle forward.
+[18:17:17 -> 18:17:20] I look at the '三灶路' street sign.
+[18:17:20 -> 18:17:23] I cross the intersection.
+[18:17:23 -> 18:17:27] I follow the cyclist ahead.
+[18:17:27 -> 18:17:32] I ride along the side road.
+[18:17:32 -> 18:17:36] I pass the pedestrians.
+[18:17:36 -> 18:17:38] I ride toward the arched gate.
+[18:17:38 -> 18:17:39] I look at the '聚鑫雅宴中心' archway sign.
+[18:17:40 -> 18:17:41] I say '认识你是我走。'
+[18:17:41 -> 18:17:43] I turn onto the road.
+[18:17:43 -> 18:17:44] I glance at the road sign.
+[18:17:44 -> 18:17:52] I ride down the road.
+[18:17:52 -> 18:17:55] I follow an electric scooter.
+[18:17:55 -> 18:17:58] I look at the forklift training sign.
+[18:17:58 -> 18:18:01] I adjust my glasses.
+[18:18:01 -> 18:18:05] I pedal past a concrete wall.
+[18:18:05 -> 18:18:08] I watch my companion pedal up.
+[18:18:08 -> 18:18:10] I follow my companion.
+[18:18:10 -> 18:18:13] I ride a bicycle while monitoring oncoming traffic.
+[18:18:14 -> 18:18:16] I ride past a passing white car.
+[18:18:17 -> 18:18:20] I ride past an oncoming tricycle.
+[18:18:21 -> 18:18:24] I cycle past a parked sedan.
+[18:18:25 -> 18:18:28] I cycle behind another cyclist.
+[18:18:29 -> 18:18:33] I ride past a training facility sign and gate.
+[18:18:34 -> 18:18:39] I cycle toward an intersection past pedestrians.
+[18:18:40 -> 18:18:44] I pass a white SUV.
+[18:18:44 -> 18:18:50] I ride past parked cars.
+[18:18:50 -> 18:18:55] I ride past a training center sign.
+[18:18:55 -> 18:19:01] I cross the zebra crossing.
+[18:19:01 -> 18:19:06] I follow a blue SUV.
+[18:19:06 -> 18:19:10] I ride along zigzag markings.
+[18:19:10 -> 18:19:14] I cycle past a food cart.
+[18:19:14 -> 18:19:18] I cycle toward a crosswalk.
+[18:19:18 -> 18:19:23] I ride across a junction.
+[18:19:23 -> 18:19:27] I cycle past a hair salon.
+[18:19:27 -> 18:19:33] I follow a scooter rider.
+[18:19:33 -> 18:19:40] I continue cycling behind the scooters.
+[18:19:40 -> 18:19:43] I ride my bicycle onto the street.
+[18:19:44 -> 18:19:48] I ride following a scooter.
+[18:19:49 -> 18:19:52] I ride across a zebra crossing.
+[18:19:53 -> 18:19:57] I cycle past a pedestrian and parked cars.
+[18:19:58 -> 18:20:03] I monitor a covered electric scooter.
+[18:20:04 -> 18:20:09] I cycle past a parked red truck.
+[18:20:10 -> 18:20:14] I ride my bicycle toward a bridge.
+[18:20:15 -> 18:20:19] I ride across the bridge behind a cyclist.
+[18:20:20 -> 18:20:21] I look at the canal.
+[18:20:22 -> 18:20:27] I ride into a commercial street.
+[18:20:28 -> 18:20:31] I say '你要买这个吗？那买呗，这个。'
+[18:20:32 -> 18:20:35] I cycle past 寿州土菜馆.
+[18:20:36 -> 18:20:39] I cycle toward 飞燕生活超市.
+[18:20:40 -> 18:20:43] I ride my bicycle.
+[18:20:44 -> 18:20:45] I say '有车。'
+[18:20:46 -> 18:20:49] I stop my bicycle by the food stall.
+[18:20:50 -> 18:20:59] I examine the 食光小馆 food cart menu.
+[18:21:00 -> 18:21:09] I look at the 笨笨炸鸡炸肉 food cart.
+[18:21:10 -> 18:21:14] I observe the food cart.
+[18:21:14 -> 18:21:18] I look down the street.
+[18:21:18 -> 18:21:24] I say '他讲个呃，在在呃电脑里，在辣椒上放，放菜哦。嗯。'
+[18:21:24 -> 18:21:33] I watch the cyclist.
+[18:21:33 -> 18:21:38] I watch the cyclist pass.
+[18:21:38 -> 18:21:40] I look at the food cart.
+[18:21:40 -> 18:21:42] I observe the food cart under the umbrella.
+[18:21:42 -> 18:21:43] I look at a man on a shared bike.
+[18:21:43 -> 18:21:47] I observe the '笨蛋拌鸡炸肉' food cart.
+[18:21:47 -> 18:21:55] I watch the vendor preparing food.
+[18:21:55 -> 18:22:05] I watch the food cart and customer on an e-scooter.
+[18:22:06 -> 18:22:10] I look at the '食光小馆' food stall.
+[18:22:10 -> 18:22:13] I look at the '食光小馆' food cart menu.
+[18:22:13 -> 18:22:23] I watch the person using their phone on the yellow shared bicycle.
+[18:22:24 -> 18:22:31] I look at the '笨笨炸鸡炸肉' food cart and departing scooter.
+[18:22:32 -> 18:22:39] I observe the '笨笨炸鸡炸肉' food cart.
+[18:22:40 -> 18:22:45] I observe the street food stalls.
+[18:22:45 -> 18:22:50] I approach the fried chicken cart.
+[18:22:50 -> 18:22:55] The vendor says '都可以拼了，帅哥.'
+[18:22:55 -> 18:23:00] I examine the fried chicken items.
+[18:23:00 -> 18:23:03] I say '好.'
+[18:23:03 -> 18:23:07] I steady my bicycle.
+[18:23:07 -> 18:23:10] I pick up a plastic bowl and tongs.
+[18:23:10 -> 18:23:12] The vendor says '除了鸡腿也是单卖的，其余都可以拼。'
+[18:23:12 -> 18:23:13] I say '好。'
+[18:23:13 -> 18:23:15] I say '嗯。给我来两个鸡腿吧。'
+[18:23:15 -> 18:23:16] The vendor asks '啊？'
+[18:23:16 -> 18:23:18] I say '给我两个鸡腿。'
+[18:23:18 -> 18:23:20] The vendor says '两个鸡腿十块钱。'
+[18:23:20 -> 18:23:21] I say '你吃俩吗？' to my companion.
+[18:23:21 -> 18:23:22] My companion says '我不吃，我不吃。'
+[18:23:22 -> 18:23:23] My companion says '你拿一个鸡腿吧，一个鸡腿。'
+[18:23:23 -> 18:23:24] The vendor says '一个六块。'
+[18:23:24 -> 18:23:26] I say '好好好。'
+[18:23:26 -> 18:23:35] I pick up a chicken tender.
+[18:23:35 -> 18:23:37] I say '鸡柳。'
+[18:23:37 -> 18:23:40] I pick up fried chicken.
+[18:23:40 -> 18:23:43] I hold a bowl for fried chicken.
+[18:23:43 -> 18:23:46] I say '先就这些。'
+[18:23:46 -> 18:23:49] I hand the bowl to the vendor.
+[18:23:49 -> 18:23:54] I say '别加了，就六块呗。别加了，别加了，别加了。'
+[18:23:54 -> 18:23:59] I say '不太喜欢吃那个。不太喜欢。'
+[18:23:59 -> 18:24:04] I say '没事，就。'
+[18:24:04 -> 18:24:10] I watch the vendor prepare the fried chicken.
+[18:24:10 -> 18:24:11] The vendor asks '够，就这，是吧？'.
+[18:24:11 -> 18:24:12] I say '对对对。'.
+[18:24:12 -> 18:24:15] The vendor says '这是六块六块七十，十二块五，十二块五好了。'.
+[18:24:15 -> 18:24:17] The speaker broadcasts '微信收款十二点五元。'.
+[18:24:17 -> 18:24:23] I watch the vendor fry chicken.
+[18:24:24 -> 18:24:25] My companion asks '没拍呀？'.
+[18:24:25 -> 18:24:26] My companion asks '这个比较好吗？'.
+[18:24:26 -> 18:24:27] I say '啥？'.
+[18:24:27 -> 18:24:39] I observe the food cart.
+[18:24:40 -> 18:24:42] The vendor says '这辣椒不辣的'.
+[18:24:43 -> 18:24:45] I say '啊，这辣椒不辣啊！'
+[18:24:46 -> 18:24:50] The vendor says '是以前那一个，以前那一个辣的，就是辣的。'
+[18:24:51 -> 18:24:54] I watch the vendor toss seasoned chicken.
+[18:24:55 -> 18:25:05] I monitor the stall counter.
+[18:25:06 -> 18:25:09] I inspect seasoning shakers on the counter.
+[18:25:10 -> 18:25:12] I say '哦。'.
+[18:25:12 -> 18:25:25] I monitor the food preparation.
+[18:25:25 -> 18:25:28] I grasp the bicycle handlebars.
+[18:25:29 -> 18:25:32] I observe the food stall.
+[18:25:32 -> 18:25:36] I gaze at the sky.
+[18:25:37 -> 18:25:39] I inspect the fried chicken display.
+[18:25:40 -> 18:25:42] I say '两个，哎，咱俩交不？交一星期，好。'.
+[18:25:42 -> 18:25:44] I approach the food cart.
+[18:25:44 -> 18:25:50] I examine the fried chicken in the display trays.
+[18:25:50 -> 18:25:52] I look toward the street.
+[18:25:52 -> 18:25:56] I watch the vendor fry food.
+[18:25:56 -> 18:26:02] I scan the overhead menu canopy.
+[18:26:02 -> 18:26:07] I inspect the chicken and tongs in the front trays.
+[18:26:07 -> 18:26:10] I look at the deep fryer.
+[18:26:10 -> 18:26:14] I look at the food cart display.
+[18:26:15 -> 18:26:21] I watch the vendor prepare food.
+[18:26:22 -> 18:26:24] I turn toward my bicycle.
+[18:26:25 -> 18:26:33] I look at the street shops.
+[18:26:34 -> 18:26:39] I grip my bicycle handlebar.
+[18:26:40 -> 18:26:44] I ride a bicycle toward a food stall.
+[18:26:44 -> 18:26:46] The vendor says '打包十元。'.
+[18:26:46 -> 18:26:48] The customer says '对，这十元。'.
+[18:26:48 -> 18:27:02] I observe the food stall cart.
+[18:27:02 -> 18:27:07] The payment speaker announces '微信收款一元。'.
+[18:27:07 -> 18:27:09] I look toward the dining table and street.
+[18:27:10 -> 18:27:12] I look at the street noodle cart menu.
+[18:27:13 -> 18:27:16] I hear someone ask '这不还有辣椒吗？'.
+[18:27:17 -> 18:27:19] I hold the saddle of my shared bike.
+[18:27:20 -> 18:27:23] I hear someone say '啊？七十二户的啊？七十二户的啊？对呀。'.
+[18:27:24 -> 18:27:27] I hear someone say '咋了嘛？'.
+[18:27:28 -> 18:27:34] I watch the vendor toss fried food as someone says '你同样里面，我你撵不过我，我撵不过你。我操你他妈，我得练呐！你撵我。'.
+[18:27:35 -> 18:27:36] I glance toward the street.
+[18:27:37 -> 18:27:39] I look at the condiment shakers.
+[18:27:40 -> 18:27:54] I watch the vendor package fried chicken.
+[18:27:55 -> 18:27:56] I say '哦，谢谢。'
+[18:27:57 -> 18:27:59] I say 'Let's go。'
+[18:28:00 -> 18:28:02] I hang the food bag on the bicycle handlebar.
+[18:28:03 -> 18:28:05] I maneuver my yellow shared bicycle.
+[18:28:06 -> 18:28:07] I mount the yellow shared bicycle.
+[18:28:08 -> 18:28:09] I ride the yellow shared bicycle forward.
+[18:28:10 -> 18:28:12] I say '没时间去。嗯。'
+[18:28:12 -> 18:28:15] I ride a bicycle.
+[18:28:15 -> 18:28:17] I check the intersection.
+[18:28:17 -> 18:28:20] I monitor an oncoming SUV.
+[18:28:20 -> 18:28:22] I observe a pedestrian.
+[18:28:22 -> 18:28:25] I ride past a bus stop.
+[18:28:25 -> 18:28:29] I look at parked cars.
+[18:28:29 -> 18:28:34] I ride along the railing.
+[18:28:34 -> 18:28:40] I ride toward fruit vendors.
+[18:28:40 -> 18:28:45] I ride past a roadside produce stall.
+[18:28:45 -> 18:28:48] I observe a mobile snack cart.
+[18:28:48 -> 18:28:52] I observe a roadside fruit vendor.
+[18:28:52 -> 18:28:56] I cycle past a storefront.
+[18:28:56 -> 18:29:00] I ride toward the intersection.
+[18:29:00 -> 18:29:01] I point at the sky.
+[18:29:01 -> 18:29:04] I say '我操，这个云好好看啊！'.
+[18:29:04 -> 18:29:07] I adjust my smart glasses.
+[18:29:07 -> 18:29:10] I ride across a bridge.
+[18:29:10 -> 18:29:13] I ride a shared bicycle across a bridge.
+[18:29:13 -> 18:29:15] I say '下乡好漂亮。'
+[18:29:15 -> 18:29:18] I ride past an oncoming bus.
+[18:29:19 -> 18:29:23] I cycle toward a pedestrian crossing.
+[18:29:24 -> 18:29:27] I slow down for a crossing car.
+[18:29:28 -> 18:29:33] I follow a sedan into a street.
+[18:29:34 -> 18:29:36] I look at an illuminated eatery sign.
+[18:29:36 -> 18:29:38] I say '吃，炒菜。'
+[18:29:38 -> 18:29:40] I check my companion beside me.
+[18:29:40 -> 18:29:45] I ride a yellow bicycle along the street.
+[18:29:45 -> 18:29:48] I ask '在外边，在哪儿吃？在外边吃不？'.
+[18:29:48 -> 18:29:54] I ride past a large red truck.
+[18:29:54 -> 18:29:58] I ride past roadside food stalls.
+[18:29:58 -> 18:30:03] I steer toward the curb behind my companion.
+[18:30:03 -> 18:30:09] I stop my bicycle behind my companion.
+[18:30:10 -> 18:30:13] I hold a shared bicycle.
+[18:30:14 -> 18:30:17] I take the takeaway bag.
+[18:30:18 -> 18:30:20] I face the street.
+[18:30:21 -> 18:30:23] I say '我勒个豆！'.
+[18:30:24 -> 18:30:30] I watch passing electric scooters.
+[18:30:31 -> 18:30:34] I walk toward the food display cabinet.
+[18:30:35 -> 18:30:37] I inspect the food display cabinet.
+[18:30:38 -> 18:30:39] I look at the cooking station.
+[18:30:40 -> 18:30:41] I say '没没锁，可以一会儿锁。'
+[18:30:42 -> 18:30:47] I say '老板有肉吗？' and '哦，好，好好好。'
+[18:30:48 -> 18:30:52] I turn toward the refrigerated vegetable display cabinet.
+[18:30:53 -> 18:30:57] I slide open the glass door.
+[18:30:58 -> 18:31:04] I inspect the vegetable trays.
+[18:31:05 -> 18:31:09] I say '啊，西葫芦。' while picking vegetables.
+[18:31:10 -> 18:31:12] I observe the ingredient display case.
+[18:31:13 -> 18:31:16] I look at the upper ingredient shelf.
+[18:31:17 -> 18:31:22] I look at the lower ingredient trays.
+[18:31:23 -> 18:31:29] I scoop shredded potatoes with tongs.
+[18:31:30 -> 18:31:34] I place shredded potatoes into my bowl.
+[18:31:35 -> 18:31:39] I observe the adjacent ingredient trays.
+[18:31:40 -> 18:31:42] My companion asks '按按按斤卖的吗？'.
+[18:31:42 -> 18:31:46] I say '按碗儿卖的，一碗十三吧，应该。' to my companion.
+[18:31:46 -> 18:31:48] My companion says '一碗随便加。'.
+[18:31:48 -> 18:31:49] I say '对啊。' to my companion.
+[18:31:49 -> 18:31:52] My companion asks '加不加？哈哈哈哈哈！'.
+[18:31:52 -> 18:31:54] I say '不加白不加。' to my companion.
+[18:31:54 -> 18:31:56] My companion asks '豆皮在哪儿？'.
+[18:31:56 -> 18:31:58] I say '不知道。' to my companion.
+[18:31:58 -> 18:32:01] I say '金针菇。' as my companion adds enoki mushrooms.
+[18:32:01 -> 18:32:05] I hold out my bowl while my companion adds sliced mushrooms.
+[18:32:05 -> 18:32:09] I watch my companion add more sliced mushrooms to my bowl.
+[18:32:10 -> 18:32:14] I grab seafood mushrooms with tongs.
+[18:32:15 -> 18:32:22] I add sliced red onions to my bowl.
+[18:32:23 -> 18:32:27] I slide the display case glass door shut.
+[18:32:28 -> 18:32:39] I examine the vegetables in the display case.
+[18:32:40 -> 18:32:46] I hold a bowl of enoki mushrooms and onions at the display case.
+[18:32:46 -> 18:32:50] I hold the bowl as my companion adds shredded bean curd.
+[18:32:50 -> 18:32:54] I hold the bowl as my companion adds more shredded bean curd.
+[18:32:54 -> 18:32:59] I hold the bowl as my companion adds a final portion of bean curd.
+[18:32:59 -> 18:33:02] I look from my bowl toward the street stall.
+[18:33:02 -> 18:33:05] I say '哎呦我操！'.
+[18:33:05 -> 18:33:09] I look at the stir-fry cart with the cook tossing a wok.
+[18:33:10 -> 18:33:13] I hand a bowl of selected ingredients to the food stall worker.
+[18:33:14 -> 18:33:18] I watch the chef stir-frying noodles.
+[18:33:19 -> 18:33:23] I hold up my phone to prepare for payment.
+[18:33:24 -> 18:33:27] I observe the outdoor dining patio.
+[18:33:28 -> 18:33:39] I look at the payment keypad on my phone and the food cart ingredients.
+[18:33:40 -> 18:33:42] I ask '哎，你好，加肉丝儿多少钱？'
+[18:33:42 -> 18:33:43] The vendor says '十六。' and I reply '十六。哦。'
+[18:33:43 -> 18:33:47] I pay ¥16.00.
+[18:33:47 -> 18:33:52] I view the street while holding the payment confirmation.
+[18:33:52 -> 18:34:01] I look at the food stall prep table.
+[18:34:01 -> 18:34:06] I say '等一下，等一下，我我让他知道是哪个。老板，我这个付了。我是我是我是这个，加肉丝儿。' while pointing.
+[18:34:06 -> 18:34:07] The vendor says 'OK OK。'
+[18:34:07 -> 18:34:10] I watch the street.
+[18:34:10 -> 18:34:12] I step toward the street.
+[18:34:12 -> 18:34:14] I say '他是怎么分出来谁是谁的？' to my companion.
+[18:34:14 -> 18:34:17] My companion says '我操！哈哈，操，有道理。'
+[18:34:17 -> 18:34:21] My companion says '我刚，我刚那筷子竟然是发霉的，一整个都发霉了。'
+[18:34:21 -> 18:34:24] I say '逆天！我操！哇，操！'
+[18:34:24 -> 18:34:28] I walk along the street.
+[18:34:28 -> 18:34:32] I walk toward the 环东联华 supermarket entrance.
+[18:34:32 -> 18:34:35] I push through the supermarket plastic strip curtain.
+[18:34:35 -> 18:34:39] I browse the supermarket beer display rack.
+[18:34:40 -> 18:34:42] I walk along the supermarket aisle.
+[18:34:42 -> 18:34:44] I say '我操，没有粮了！'
+[18:34:44 -> 18:34:46] I say '啊，有！'
+[18:34:47 -> 18:34:51] I say '搞个那个啥，那个叫啥来着？'
+[18:34:52 -> 18:34:54] I say '俄罗斯那个叫啥来着？'
+[18:34:55 -> 18:34:58] User A says '俄罗斯的格瓦斯。'
+[18:34:58 -> 18:35:04] I say '对，格瓦斯，不知道有没有？'
+[18:35:05 -> 18:35:09] I scan the refrigerated cooler shelves.
+[18:35:10 -> 18:35:14] I browse the open beverage cooler.
+[18:35:14 -> 18:35:16] I look toward the cashier counter.
+[18:35:17 -> 18:35:20] I say '泡个菊花茶。' while holding a bottle of chrysanthemum tea.
+[18:35:21 -> 18:35:25] I scan the upper cooler shelves.
+[18:35:26 -> 18:35:30] I watch my companion stand up.
+[18:35:31 -> 18:35:33] I walk toward the checkout counter.
+[18:35:33 -> 18:35:35] I ask the store owner '老板有格瓦斯吗？'.
+[18:35:36 -> 18:35:37] I place the chrysanthemum tea bottle on the counter.
+[18:35:37 -> 18:35:39] I open the payment page displaying '¥16.00' on my iPhone.
+[18:35:39 -> 18:35:40] The companion says '俩。' while placing his drink.
+[18:35:40 -> 18:35:41] The cashier says '九。'
+[18:35:41 -> 18:35:44] The payment terminal broadcasts '请解锁手机，碰一下支付。'
+[18:35:44 -> 18:35:47] The payment terminal announces '碰一下，收款成功，九元。'
+[18:35:47 -> 18:35:50] My companion says '我操！'
+[18:35:50 -> 18:35:53] I walk toward the store exit.
+[18:35:53 -> 18:35:56] I walk onto the street.
+[18:35:56 -> 18:36:01] I open an app on my phone.
+[18:36:01 -> 18:36:05] I check a shared bike ride page on my phone.
+[18:36:05 -> 18:36:09] I watch a three-wheeled cargo cart pass by.
+[18:36:10 -> 18:36:12] I view the payment screen.
+[18:36:12 -> 18:36:14] I tap '立即支付'.
+[18:36:15 -> 18:36:16] I observe the street.
+[18:36:17 -> 18:36:20] I check the payment confirmation.
+[18:36:21 -> 18:36:28] I view the payment details.
+[18:36:29 -> 18:36:34] I look ahead at traffic.
+[18:36:35 -> 18:36:38] I observe the '炒饭炒面' food stall.
+[18:36:39 -> 18:36:40] I look at the refrigerated display case.
+[18:36:40 -> 18:36:42] I observe the street food stall.
+[18:36:43 -> 18:36:46] I walk into the courtyard dining area.
+[18:36:47 -> 18:36:50] I say '他应该会给我端过来吧，和那个一样。'.
+[18:36:51 -> 18:36:54] I say '跟我说一声。'.
+[18:36:55 -> 18:36:57] I walk toward the courtyard gate.
+[18:36:58 -> 18:37:01] I walk to the roadside food cart.
+[18:37:02 -> 18:37:05] I watch the cook stir-fry.
+[18:37:06 -> 18:37:09] I watch the food preparation.
+[18:37:10 -> 18:37:15] The vendor asks '等一份炒粉，细的吗还是宽的？'.
+[18:37:15 -> 18:37:21] I watch the assistant fetch ingredients.
+[18:37:21 -> 18:37:30] I watch the cook stir-fry in the wok.
+[18:37:30 -> 18:37:34] I look toward the street.
+[18:37:34 -> 18:37:39] I say '我操，这还在河边儿呢，竟然还是。'.
+[18:37:40 -> 18:37:44] I stand in the eatery courtyard.
+[18:37:45 -> 18:37:51] I look at the canal railing.
+[18:37:52 -> 18:37:56] I hold a bottled iced tea.
+[18:37:57 -> 18:38:01] I unscrew the bottle cap.
+[18:38:02 -> 18:38:05] I look at riverside diners.
+[18:38:06 -> 18:38:09] I look at the courtyard tent.
+[18:38:10 -> 18:38:13] I look at the dining table.
+[18:38:14 -> 18:38:16] I say '哇，还有两个小狗狗。拆拆。'
+[18:38:17 -> 18:38:22] I watch the black dogs resting.
+[18:38:23 -> 18:38:26] I say '我操，可以啊，你这个。'
+[18:38:27 -> 18:38:32] I say '搞个凉菜，搞点炸鸡。'
+[18:38:33 -> 18:38:40] I say '我操，爽。这我感觉比那个啥还豪华，那个叫啥？山姆。'
+[18:38:40 -> 18:38:43] I separate disposable chopsticks.
+[18:38:44 -> 18:38:47] I examine the cold dish.
+[18:38:48 -> 18:38:53] I pick up cold tofu skin.
+[18:38:54 -> 18:38:59] I open the fried chicken bag.
+[18:39:00 -> 18:39:05] I fold open the fried chicken bag.
+[18:39:06 -> 18:39:09] I say '最喜欢地摊货了。'
+[18:39:10 -> 18:39:13] I hold a piece of fried chicken.
+[18:39:13 -> 18:39:15] I say '我操，太爽了！'
+[18:39:15 -> 18:39:17] I say '好吃。'
+[18:39:17 -> 18:39:23] I look at my friend eating.
+[18:39:23 -> 18:39:27] I look at the person standing in the background.
+[18:39:27 -> 18:39:31] I look at the cold dishes on the table.
+[18:39:32 -> 18:39:35] I ask '上面加肉吗？'
+[18:39:36 -> 18:39:39] I watch my friend reach for the food bag.
+[18:39:40 -> 18:39:43] I share a piece of fried chicken.
+[18:39:43 -> 18:39:45] A companion says '加三块，十六。'
+[18:39:45 -> 18:39:48] I look toward the courtyard.
+[18:39:49 -> 18:39:51] I look at the fried chicken.
+[18:39:51 -> 18:39:55] I look around the yard.
+[18:39:55 -> 18:40:00] I observe the dining table.
+[18:40:00 -> 18:40:03] I look at the patio umbrella.
+[18:40:04 -> 18:40:09] I watch my friend eating noodles.
+[18:40:10 -> 18:40:14] I watch my friend lean forward to eat.
+[18:40:15 -> 18:40:20] I look down at the fried chicken in my hand.
+[18:40:21 -> 18:40:25] I examine the cold dish container.
+[18:40:26 -> 18:40:28] I look at people standing in the background courtyard.
+[18:40:29 -> 18:40:34] I look at the fried chicken piece in my hand.
+[18:40:35 -> 18:40:39] I look at the cold mixed salad bowl.
+[18:40:40 -> 18:40:43] I look at the cold dish.
+[18:40:43 -> 18:40:47] I say '我靠，好凉快啊！这小风一吹，跟那天一样'.
+[18:40:47 -> 18:40:53] I watch my companion stir the cold salad.
+[18:40:53 -> 18:40:58] I say '凉拌菜，不凉的凉拌菜，被天气捂热了。'.
+[18:40:58 -> 18:41:09] I watch my companion lift the noodle.
+[18:41:10 -> 18:41:15] I look at the plastic trash bag.
+[18:41:16 -> 18:41:20] Someone asks '认真吗？'.
+[18:41:21 -> 18:41:27] Someone asks '为何不爱吃米饭？'.
+[18:41:28 -> 18:41:34] I say '还行吧。'.
+[18:41:35 -> 18:41:40] I say '没有特别偏好。'.
+[18:41:40 -> 18:41:42] I observe the cold dish.
+[18:41:43 -> 18:41:46] I pick up a piece of fried chicken with chopsticks.
+[18:41:47 -> 18:41:48] I lift a piece of fried chicken.
+[18:41:49 -> 18:41:52] Friend asks '朋友不在香港吗？'
+[18:41:53 -> 18:41:57] Friend says '不在家里。他在深圳。'
+[18:41:58 -> 18:42:01] Friend asks '他考哪里是公务员？'
+[18:42:02 -> 18:42:04] Friend says '广东吧。'
+[18:42:05 -> 18:42:07] Friend asks '你老家哪？'
+[18:42:08 -> 18:42:09] I say '嗯。'
+[18:42:10 -> 18:42:15] I eat cold dishes.
+[18:42:16 -> 18:42:20] I look across the courtyard.
+[18:42:21 -> 18:42:27] I look at the takeout food.
+[18:42:28 -> 18:42:39] I look toward the courtyard.
+[18:42:40 -> 18:42:42] I watch a cyclist ride past.
+[18:42:43 -> 18:42:46] I walk toward the food cart.
+[18:42:47 -> 18:42:50] I watch traffic drive past.
+[18:42:51 -> 18:42:55] I observe the food cart ingredients.
+[18:42:56 -> 18:43:00] I watch the cook fry food in the wok.
+[18:43:01 -> 18:43:04] I observe the food preparation table.
+[18:43:05 -> 18:43:07] I watch the cook scoop ingredients with a ladle.
+[18:43:08 -> 18:43:09] I observe a waiting customer across the street.
+[18:43:10 -> 18:43:16] I watch the cook stir-fry ingredients.
+[18:43:17 -> 18:43:26] I monitor the cook stir-frying noodles.
+[18:43:27 -> 18:43:31] I watch a dog walking on the street.
+[18:43:32 -> 18:43:35] I observe a customer take a plate of noodles while saying '报告？这是我的吧？'.
+[18:43:36 -> 18:43:39] I look at the outdoor dining patio.
+[18:43:40 -> 18:43:42] I look at the food on table 03.
+[18:43:42 -> 18:43:43] I say '好，谢谢。'
+[18:43:43 -> 18:43:46] I watch the server place the rice container.
+[18:43:46 -> 18:43:47] A companion says '吃。'
+[18:43:47 -> 18:43:48] Another companion replies '是嘞。'
+[18:43:48 -> 18:43:52] I pick up the container of white rice.
+[18:43:52 -> 18:43:59] I observe the dishes on the table.
+[18:43:59 -> 18:44:04] I watch my companion place meat into my rice.
+[18:44:04 -> 18:44:10] I take food from the stir-fried dish.
+[18:44:10 -> 18:44:12] Someone says '还行。'.
+[18:44:13 -> 18:44:16] I pick up stir-fried cabbage and meat.
+[18:44:17 -> 18:44:20] I place the stir-fried food onto my rice.
+[18:44:21 -> 18:44:24] I look at the toppings on my rice.
+[18:44:25 -> 18:44:28] Someone says '哈哈，吓人啊！'.
+[18:44:29 -> 18:44:37] I look at the shared dishes.
+[18:44:38 -> 18:44:39] I watch my friend pick up stir-fry.
+[18:44:40 -> 18:44:45] I pick up stir-fried food from a plate.
+[18:44:45 -> 18:44:48] I place the stir-fried food onto my rice.
+[18:44:49 -> 18:44:54] I hold my takeout rice container.
+[18:44:54 -> 18:45:03] A friend says '那人记性怎么这么好？怎么能记住谁的饭是谁的？还有记忆宫殿，记忆饭店是吧？哈哈哈哈哈！'.
+[18:45:04 -> 18:45:09] I look down at my food.
+[18:45:10 -> 18:45:12] I say 'Rest restaurant.'
+[18:45:13 -> 18:45:17] I hold a container of rice.
+[18:45:18 -> 18:45:20] I pick up meat with chopsticks.
+[18:45:21 -> 18:45:24] I eat the meat.
+[18:45:25 -> 18:45:29] I look at the shared dishes.
+[18:45:30 -> 18:45:34] I inspect my rice container.
+[18:45:35 -> 18:45:39] I watch my friend take noodles.
+[18:45:40 -> 18:45:44] I hold a container of white rice.
+[18:45:44 -> 18:45:47] Companion says '放完这个凉菜比这个炒菜好吃。'
+[18:45:47 -> 18:45:50] I receive liangpi noodles onto my rice.
+[18:45:50 -> 18:45:55] I look at the liangpi noodles on my rice.
+[18:45:55 -> 18:46:00] I mix liangpi noodles into my rice.
+[18:46:00 -> 18:46:04] Companion says '天太热了。'
+[18:46:04 -> 18:46:06] Companion says 'Oh my god.'
+[18:46:06 -> 18:46:10] I reach toward the shared dishes.
+[18:46:10 -> 18:46:14] I pick up cold vegetables with chopsticks.
+[18:46:15 -> 18:46:18] I place cold vegetables onto my rice.
+[18:46:19 -> 18:46:23] I watch my companion sit down.
+[18:46:24 -> 18:46:28] I say '可以，谢谢。'.
+[18:46:29 -> 18:46:32] I pick up the bottled tea.
+[18:46:33 -> 18:46:36] I watch my companion pour iced tea.
+[18:46:37 -> 18:46:39] I say '他还改杯子了。'.
+[18:46:40 -> 18:46:43] My friend says "讲究".
+[18:46:43 -> 18:46:45] I set down the tea bottle.
+[18:46:45 -> 18:46:48] Someone says "你二合一，是吗？".
+[18:46:48 -> 18:46:54] I say "我操，爽！".
+[18:46:54 -> 18:47:00] I place the cup on the table.
+[18:47:00 -> 18:47:10] I hold a container of rice.
+[18:47:10 -> 18:47:14] I hold a container of steamed white rice.
+[18:47:15 -> 18:47:18] My friend says '来来筷子。'
+[18:47:19 -> 18:47:23] The friend to my right says '来一口。'
+[18:47:24 -> 18:47:29] I say '来一份。'
+[18:47:30 -> 18:47:35] I say '嗯。'
+[18:47:36 -> 18:47:39] The friend on my right says '嗯。'
+[18:47:40 -> 18:47:41] I look at a black cat on the floor.
+[18:47:41 -> 18:47:47] I pick at the cold noodles with chopsticks.
+[18:47:47 -> 18:47:53] I watch my friend separate noodles.
+[18:47:53 -> 18:47:58] I watch my friend lift an elastic noodle strand.
+[18:47:58 -> 18:48:02] My friend says '看我一口咬断吧！'.
+[18:48:02 -> 18:48:06] I hold the rice container under the stretched noodle.
+[18:48:06 -> 18:48:09] I say '我勒个豆啊！'.
+[18:48:10 -> 18:48:14] I watch companion pick noodles.
+[18:48:15 -> 18:48:21] I look at noodles in bowl.
+[18:48:22 -> 18:48:22] I glance left at patio.
+[18:48:23 -> 18:48:28] I hold container of rice.
+[18:48:29 -> 18:48:39] I look at stir-fried noodles.
+[18:48:40 -> 18:48:45] I pick up stir-fried food with chopsticks.
+[18:48:46 -> 18:48:47] I place the stir-fried food onto the rice.
+[18:48:48 -> 18:48:53] I look down at my rice container.
+[18:48:54 -> 18:48:55] I look at the Tastin burger paper bag.
+[18:48:56 -> 18:48:57] I glance toward the lower right.
+[18:48:58 -> 18:49:09] I eat rice and toppings with chopsticks.
+[18:49:10 -> 18:49:20] I pick up stir-fried meat and vegetables with chopsticks.
+[18:49:20 -> 18:49:25] I transfer stir-fried meat and vegetables into my rice container.
+[18:49:25 -> 18:49:30] I raise the rice container toward my chest.
+[18:49:30 -> 18:49:37] I watch my companion take cold shredded salad with chopsticks.
+[18:49:37 -> 18:49:40] I scoop rice and vegetables with chopsticks.
+[18:49:40 -> 18:49:45] I eat steamed rice with chopsticks.
+[18:49:46 -> 18:49:53] I look at the shared dishes on the table.
+[18:49:54 -> 18:49:58] I watch the companion reach for the takeout bag.
+[18:49:59 -> 18:50:07] I look at my container of rice.
+[18:50:08 -> 18:50:09] I look at the companion sitting across from me.
+[18:50:10 -> 18:50:14] I place food onto my rice.
+[18:50:14 -> 18:50:18] I look at the stir-fry plate.
+[18:50:19 -> 18:50:23] I watch my companion eat noodles.
+[18:50:24 -> 18:50:27] I inspect my rice container.
+[18:50:28 -> 18:50:32] I say '嗯。'.
+[18:50:33 -> 18:50:36] I eat rice with chopsticks.
+[18:50:37 -> 18:50:39] I pick up stir-fry with chopsticks.
+[18:50:40 -> 18:50:42] I receive stir-fry toppings onto my rice container.
+[18:50:43 -> 18:50:48] I look at the rice in my takeout container.
+[18:50:49 -> 18:50:55] I watch my companion pick food from the shared dishes.
+[18:50:56 -> 18:51:03] I eat rice with chopsticks.
+[18:51:04 -> 18:51:09] I scrape remaining rice from my takeout container.
+[18:51:10 -> 18:51:15] I look at the stir-fried dishes.
+[18:51:15 -> 18:51:20] I look at my rice container.
+[18:51:20 -> 18:51:25] I lift my container of rice.
+[18:51:25 -> 18:51:30] I inspect the rice in my container.
+[18:51:30 -> 18:51:34] A voice asks "仙君，我们下凡干什么呀？".
+[18:51:34 -> 18:51:38] I look down at my chopsticks and rice.

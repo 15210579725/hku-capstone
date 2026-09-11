@@ -1,0 +1,99 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group sequence into immediate tasks by identifying continuous segments sharing the same goal and primary target, such as eating noodles, purchasing a drink, walking, cycling, and using the phone for navigation. Merge incidental actions like asking a routine question or preparing items into their parent activities.",
+  "events": [
+    [
+      "250-252",
+      "I wipe my hands with a tissue.",
+      "Hands wiped"
+    ],
+    [
+      "253-280",
+      "I eat my bowl of noodles.",
+      "Gets up for condiments"
+    ],
+    [
+      "281-285",
+      "I retrieve pickled peppers from the condiment station.",
+      "Returns to table"
+    ],
+    [
+      "286-301",
+      "I eat my noodles with the pickled peppers.",
+      "Finishes eating"
+    ],
+    [
+      "302-306",
+      "I review payment and location details on my phone.",
+      "Prepares to leave"
+    ],
+    [
+      "307-312",
+      "I leave the noodle restaurant.",
+      "Exits restaurant"
+    ],
+    [
+      "313-324",
+      "I walk along the street past storefronts.",
+      "Arrives at Mixue store"
+    ],
+    [
+      "325-347",
+      "I purchase a fruit tea at the Mixue store.",
+      "Collects drink"
+    ],
+    [
+      "348-362",
+      "I observe the street traffic and storefronts.",
+      "Checks phone navigation"
+    ],
+    [
+      "363-366",
+      "I review my drink payment and navigation to a hardware store on my phone.",
+      "Starts crossing street"
+    ],
+    [
+      "367-376",
+      "I walk across the street to a shared bike parking zone.",
+      "Reaches bicycles"
+    ],
+    [
+      "377-387",
+      "I prepare a yellow shared bicycle for my ride.",
+      "Begins riding"
+    ],
+    [
+      "388-442",
+      "I ride the shared bicycle along the street.",
+      "Stops at intersection"
+    ],
+    [
+      "443-454",
+      "I inspect a parked white sedan at the intersection.",
+      "Opens phone"
+    ],
+    [
+      "455-476",
+      "I browse nearby shopping malls on Gaode Maps.",
+      "Changes search to bakery"
+    ],
+    [
+      "477-493",
+      "I plan my cycling route to a bakery on Gaode Maps.",
+      "Ends phone use"
+    ],
+    [
+      "494-499",
+      "I prepare to resume my bicycle ride.",
+      "Ready to ride"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

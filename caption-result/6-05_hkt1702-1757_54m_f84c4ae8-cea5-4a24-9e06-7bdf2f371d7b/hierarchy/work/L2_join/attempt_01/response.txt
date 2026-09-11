@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate the provided eligible pairs to determine if the same immediate task continues across the transport batch boundary. Pair [31, 32] involves continuous backpack strap adjustment. Pair [64, 65] involves reading about the same Kairos-Homeworld simulation environment in WeChat articles.",
+  "merges": [
+    [
+      31,
+      32,
+      "I adjust and inspect my backpack strap and buckle.",
+      "Backpack adjustment continues across batch edge"
+    ],
+    [
+      64,
+      65,
+      "I read an article about the Kairos-Homeworld 3D simulation environment and dataset on WeChat.",
+      "Reading the same Kairos-Homeworld article continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

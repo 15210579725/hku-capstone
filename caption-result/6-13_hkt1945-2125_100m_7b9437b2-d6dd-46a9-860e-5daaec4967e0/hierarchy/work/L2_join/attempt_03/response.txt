@@ -1,0 +1,18 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Check eligible pairs to determine if the exact same immediate task continues across the transport boundary. Pair [82, 83] is merged as it continues watching the exact same anime on the tablet. Pairs [33, 34], [51, 52], and [66, 67] are not merged because they represent sequential but distinct immediate tasks (transit vs. feeding, retrieving vs. inspecting, and retrieving oil vs. watching a video).",
+  "merges": [
+    [
+      82,
+      83,
+      "I watch the anime 'The Secret World of Arrietty' on my tablet.",
+      "Same video watching task continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

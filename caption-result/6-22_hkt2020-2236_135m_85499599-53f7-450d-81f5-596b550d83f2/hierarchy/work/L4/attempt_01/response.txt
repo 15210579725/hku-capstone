@@ -1,0 +1,39 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group L3 episodes into broader goal-oriented phases based on major location and activity shifts: commuting to the restaurant, dining, shopping, spending time at the apartment, and subsequent MTR travel.",
+  "events": [
+    [
+      "0-3",
+      "I travel to a cooked food centre with my companion.",
+      "Arrival at the restaurant"
+    ],
+    [
+      "4-5",
+      "I dine with my companion at a restaurant.",
+      "Completion of meal and transition to shopping"
+    ],
+    [
+      "6-7",
+      "I shop for groceries and snacks.",
+      "Completion of shopping and return home"
+    ],
+    [
+      "8-11",
+      "I spend time with my companions in my apartment.",
+      "Departure from the apartment"
+    ],
+    [
+      "12-17",
+      "I travel via the MTR with my companion.",
+      "End of input sequence"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,29 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group immediate tasks into coherent episodes based on location and primary objective: obtaining water at the pantry, conducting a smartphone session at the lounge, and transitioning to the office.",
+  "events": [
+    [
+      "0",
+      "I fill my water bottle at the pantry dispenser.",
+      "Water filling task at the pantry is complete"
+    ],
+    [
+      "1-5",
+      "I relocate to the communal lounge table to engage with WeChat conversations, the Hello e-bike mini-program, and my iPhone case.",
+      "Groups the relocation with the continuous and unified smartphone session at the lounge"
+    ],
+    [
+      "6-7",
+      "I transport my secured water bottle down the hallway to inspect the office.",
+      "Groups the preparation of the bottle with the subsequent departure to a new location"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

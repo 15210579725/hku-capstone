@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L5",
+  "plan": "Group the ferry departure, transit, and arrival phases into a single major ferry journey activity. Group the subsequent station transition, companion departure, and train ride into a distinct major train journey activity.",
+  "events": [
+    [
+      "0-2",
+      "I complete a passenger ferry journey alongside my companion.",
+      "Unifies the departure, transit, and arrival clearance phases of the ferry trip"
+    ],
+    [
+      "3-4",
+      "I complete a train journey.",
+      "Unifies the station transition, parting with the companion, and the subsequent train ride"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

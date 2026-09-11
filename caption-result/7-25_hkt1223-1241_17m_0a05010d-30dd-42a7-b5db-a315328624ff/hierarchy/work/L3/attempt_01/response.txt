@@ -1,0 +1,49 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group immediate tasks into coherent activity episodes based on continuous overarching goals: exploring the mall, completing a purchase, searching for a restroom, major transit phases, engaging in phone tasks, and waiting at a restaurant.",
+  "events": [
+    [
+      "0-8",
+      "I review a restaurant on my companion's phone, enter the mall, and explore the shop displays and menus.",
+      "Transitions from general mall exploration to initiating a specific purchase."
+    ],
+    [
+      "9-13",
+      "I purchase a cheese brick pastry from the DUSU bakery.",
+      "Purchase completes upon picking up the boxed pastry."
+    ],
+    [
+      "14-26",
+      "I navigate the mall using directories and maps to locate a restroom to wash my hands.",
+      "Goal shifts from navigating to the restroom to a major transit phase through the mall atrium."
+    ],
+    [
+      "27-32",
+      "I transit across the mall atrium and outdoor plaza to reach the upper cinema level.",
+      "Transit completes upon reaching the cinema level and shifting focus to a phone task."
+    ],
+    [
+      "33-35",
+      "I message a car rental service on WeChat regarding a vehicle delivery.",
+      "Phone task concludes as focus shifts to waiting at a physical restaurant."
+    ],
+    [
+      "36-38",
+      "I wait for a table at the restaurant counter while drinking milk tea.",
+      "Waiting period is interrupted by a new task to locate the restroom."
+    ],
+    [
+      "39-41",
+      "I ask the restaurant staff for directions and walk to the restroom corridor.",
+      "Arrival at the restroom corridor marks the end of this navigation episode."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

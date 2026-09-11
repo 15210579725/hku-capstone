@@ -1,0 +1,18 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible boundary pairs to determine if the exact same immediate task continues across the batch edge. Merge only when the actions form a single continuous task (e.g., working on the same document) and leave distinct sequential actions separate.",
+  "merges": [
+    [
+      12,
+      13,
+      "I review and update the Emotion-Probe project plan and progress document.",
+      "Same project planning and documentation task continues across the batch edge."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

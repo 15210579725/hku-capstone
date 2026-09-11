@@ -1,0 +1,109 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions with a single immediate goal (e.g., browsing a feed, reading a specific article, a unified editing task in Figma, a ChatGPT interaction, untangling an object) into discrete L2 tasks.",
+  "events": [
+    [
+      "500-501",
+      "I review a comic dialogue bubble in Figma.",
+      "Shifts attention from Figma to WeChat."
+    ],
+    [
+      "502-506",
+      "I browse WeChat messages and the Official Accounts feed.",
+      "Shifts from browsing the feed to reading a specific article."
+    ],
+    [
+      "507-539",
+      "I read a GeekPark article about AI token pricing wars.",
+      "Finishes the article and returns to checking group chats."
+    ],
+    [
+      "540-542",
+      "I read project discussion messages in the EgoLife WeChat group.",
+      "Diverts attention to a physical object."
+    ],
+    [
+      "543-547",
+      "I untangle a black wavy headband.",
+      "Finishes handling the headband and reads a notification on the laptop."
+    ],
+    [
+      "548-550",
+      "I read a WeChat message about a Stanford Town style simulation.",
+      "Dismisses WeChat to begin working in Figma."
+    ],
+    [
+      "551-597",
+      "I review and edit an action-prediction storyboard in Figma.",
+      "Switches to ChatGPT to request a score table."
+    ],
+    [
+      "598-611",
+      "I ask ChatGPT to generate an SVG score table for action prediction.",
+      "Returns to Figma while waiting for the generation."
+    ],
+    [
+      "612-628",
+      "I review the Figma storyboard while waiting for the ChatGPT response.",
+      "The response is ready, shifting focus back to ChatGPT."
+    ],
+    [
+      "629-650",
+      "I insert and position the ChatGPT-generated SVG score table in Figma.",
+      "Switches back to ChatGPT to request a tighter layout."
+    ],
+    [
+      "651-653",
+      "I ask ChatGPT to generate more compact versions of the score table.",
+      "Returns to Figma to adjust the current table's layout."
+    ],
+    [
+      "654-671",
+      "I adjust the alignment of the score table component in Figma.",
+      "Switches to ChatGPT to review the new design options."
+    ],
+    [
+      "672-678",
+      "I select a preferred layout from the new ChatGPT score table options.",
+      "Returns to Figma to apply typography and formatting."
+    ],
+    [
+      "679-724",
+      "I adjust typography and layout elements in the Figma action-prediction diagram.",
+      "Shifts from editing the diagram to attempting an export."
+    ],
+    [
+      "725-728",
+      "I attempt to export the Figma diagram but receive a permission error.",
+      "Fails to export and navigates to the dashboard."
+    ],
+    [
+      "729-733",
+      "I browse files on the Figma team dashboard.",
+      "Returns to the canvas from the dashboard."
+    ],
+    [
+      "734-740",
+      "I review the action-prediction diagram on the Figma canvas.",
+      "Switches to reading social media updates."
+    ],
+    [
+      "741-745",
+      "I read WeChat messages and an X post about GLM.",
+      "Returns to Figma to view the storyboard."
+    ],
+    [
+      "746-749",
+      "I review the action-prediction storyboard in Figma.",
+      "End of provided data."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

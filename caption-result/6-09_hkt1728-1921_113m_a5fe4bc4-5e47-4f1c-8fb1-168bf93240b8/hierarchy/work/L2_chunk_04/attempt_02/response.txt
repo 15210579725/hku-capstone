@@ -1,0 +1,104 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks based on location changes, application switching on the phone, conversational topics, and distinct themes of video content.",
+  "events": [
+    [
+      "750-753",
+      "I read AI articles in the WeChat subscription feed on my phone.",
+      "Stops reading phone to focus on walking outside."
+    ],
+    [
+      "754-779",
+      "I walk through the open courtyard and plaza.",
+      "Transitions from the plaza to the brick residential promenade."
+    ],
+    [
+      "780-815",
+      "I walk along the brick residential promenade.",
+      "Enters the covered colonnade of the building."
+    ],
+    [
+      "816-845",
+      "I walk along the covered breezeway to the building lobby.",
+      "Arrives at the lobby entrance doors."
+    ],
+    [
+      "846-851",
+      "I present my visitor slip to the concierge in the lobby.",
+      "Leaves the lobby to enter the elevator corridor."
+    ],
+    [
+      "852-863",
+      "I take the elevator to my apartment floor.",
+      "Exits the elevator and prepares to call partner."
+    ],
+    [
+      "864-872",
+      "I use a WeChat voice call to collect a bag at the apartment door.",
+      "Enters the apartment bedroom."
+    ],
+    [
+      "873-891",
+      "I converse with my roommate about my workout in the bedroom.",
+      "Shifts focus to setting up items at the desk."
+    ],
+    [
+      "892-901",
+      "I set up my MacBook and belongings at my desk.",
+      "Engages in a new conversation with roommate about food."
+    ],
+    [
+      "902-911",
+      "I converse with my roommate about getting food.",
+      "Conversation pauses to settle at the desk."
+    ],
+    [
+      "912-919",
+      "I take a seat at my desk.",
+      "Picks up phone to start browsing content."
+    ],
+    [
+      "920-934",
+      "I read Xiaohongshu posts about AI and LLM research on my phone.",
+      "Switches from reading posts to watching video content."
+    ],
+    [
+      "935-948",
+      "I watch short videos about vehicles and sports on my phone.",
+      "Starts watching a longer video about Indian street food."
+    ],
+    [
+      "949-961",
+      "I watch Indian street food preparation videos on my phone.",
+      "Switches to watching sports and entertainment clips."
+    ],
+    [
+      "962-974",
+      "I watch assorted sports and entertainment short videos on my phone.",
+      "Switches to watching a crime drama clip."
+    ],
+    [
+      "975-982",
+      "I watch a crime drama video clip on my phone.",
+      "Switches to racing and sports videos."
+    ],
+    [
+      "983-989",
+      "I watch racing and soccer videos on my phone.",
+      "Switches to watching fishing videos."
+    ],
+    [
+      "990-999",
+      "I watch a series of fishing videos by 刘涛钓鱼 on my phone.",
+      "End of input."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Merge adjacent events only when they describe the exact same ongoing immediate task that was artificially split by a batch boundary. Keep sequential but distinct actions (e.g., performing an exercise vs. stepping off, prompting vs. reading, or switching review targets) separate.",
+  "merges": [
+    [
+      96,
+      97,
+      "I review the Codex learning rate sweep execution status and terminal output.",
+      "Same task of reviewing Codex sweep status continues across batch edge"
+    ],
+    [
+      116,
+      117,
+      "I review an Alipay customer service ticket regarding an order cancellation and refund.",
+      "Same task of checking Alipay customer service continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

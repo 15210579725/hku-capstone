@@ -1,0 +1,34 @@
+```json
+{
+  "target_level": "L5",
+  "plan": "Group continuous study and development sessions focused on machine learning and diarization, keeping distinct personal care activities separate.",
+  "events": [
+    [
+      "0-1",
+      "I perform study and development tasks concerning machine learning and speaker diarization.",
+      "Shift to personal grooming"
+    ],
+    [
+      "2",
+      "I attend to personal grooming.",
+      "Return to study and development"
+    ],
+    [
+      "3-4",
+      "I perform study and development tasks concerning machine learning and voiceprint diarization.",
+      "Shift to showering preparation"
+    ],
+    [
+      "5",
+      "I prepare to take a shower.",
+      "End of recording"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

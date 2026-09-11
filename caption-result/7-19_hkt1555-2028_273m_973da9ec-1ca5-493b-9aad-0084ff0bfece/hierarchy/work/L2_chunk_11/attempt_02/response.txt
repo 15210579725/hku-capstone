@@ -1,0 +1,61 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into cohesive immediate tasks: studying derivations, answering an interrupting phone call, preparing to leave, navigating across campus to a lobby, picking up the delivery, riding the elevator back, returning to the lounge, unpacking the food, and eating while conversing about AI models.",
+  "events": [
+    [
+      "2500-2575",
+      "I study reinforcement learning policy gradient derivations on my laptop.",
+      "Interrupted by an incoming phone call."
+    ],
+    [
+      "2576-2580",
+      "I answer an incoming phone call confirming a location at building four.",
+      "Call ends, prompting departure to fetch the delivery."
+    ],
+    [
+      "2581-2584",
+      "I pack up my laptop and phone to leave the office.",
+      "Packing concludes and transit begins."
+    ],
+    [
+      "2585-2632",
+      "I walk across the campus grounds to the delivery pickup building.",
+      "Arrival at the delivery building lobby."
+    ],
+    [
+      "2633-2636",
+      "I collect my KFC takeout delivery from the lobby storage rack.",
+      "Pickup complete, starting return journey."
+    ],
+    [
+      "2637-2647",
+      "I ride the elevator up to the ninth floor.",
+      "Arrival at the destination floor."
+    ],
+    [
+      "2648-2662",
+      "I carry my laptop and takeout bags through the office to the lounge area.",
+      "Arrival at the lounge table."
+    ],
+    [
+      "2663-2688",
+      "I unpack the KFC takeout bags with my colleagues.",
+      "Unpacking finishes and the meal conversation begins."
+    ],
+    [
+      "2689-2749",
+      "I discuss video prediction AI models with my colleagues during our KFC meal.",
+      "End of input batch."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "2576-2580"
+    ],
+    "boundary_cautions": []
+  }
+}
+```

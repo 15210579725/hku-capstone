@@ -1,2 +1,199 @@
 ```json
-{"target_level":"L2","plan":"Group action briefs into immediate tasks based on continuous interactions, store visits, search behaviors, and cohesive conversations while navigating the mall and commuting.","events":[["3500-3512","I discuss amusement park rides and a zoo with my companion while riding an escalator.","Conversation shifts from the roller coaster to zoo animals as we step off the escalator."],["3513-3528","I discuss the theme park's animals with my companion while riding an escalator.","Conversation concludes as we walk into the crowded mall corridor."],["3529-3538","I message User X on WeChat while navigating the mall with my companion.","I finish messaging User X and we stop to search for a store."],["3539-3546","I observe my companion search for H&M on her phone before opening an app on my own.","I switch focus to typing a query into my own app."],["3547-3559","I query ChatGPT on my phone while looking around the mall corridor.","I finish using ChatGPT and approach the mall directory kiosk."],["3560-3570","I search for an H&M store on the mall's directory kiosk.","I stop searching the kiosk for H&M and pull out my phone to look for other stores."],["3571-3582","I find GigaSports on Xiaohongshu on my phone and check the directory kiosk for its location.","I finish checking the kiosk and walk away from it."],["3583-3590","I browse my phone while walking through the mall corridor.","I put my phone down to focus on conversation and store locations."],["3591-3594","I discuss fetching formal clothes with my companion while approaching GigaSports.","We enter the GigaSports store."],["3595-3603","I follow a GigaSports employee to the swimwear section.","We arrive at the swimwear rack and start looking at products."],["3604-3617","I browse swim trunks with the GigaSports clerk and decide to leave due to the prices.","I decide not to buy and begin leaving the store."],["3618-3625","I exit GigaSports and walk towards Uniqlo.","We enter Uniqlo."],["3626-3636","I ask for swim trunks at Uniqlo and abandon the swimming plan when none are available.","We leave Uniqlo and resume walking through the mall."],["3637-3645","I check search results on my phone while walking to and riding a descending escalator.","I step off the escalator and start actively looking up new store locations."],["3646-3654","I search for Decathlon locations and swimwear prices on my phone while walking through the mall.","My companion changes the topic to ear piercing as we ride the next escalator."],["3655-3659","I decline my companion's suggestion to get my ears pierced while riding an escalator.","The conversation ends and I focus back on my phone."],["3660-3667","I discuss alternative plans with my companion after noting Decathlon is out of stock.","We approach a descending escalator and the conversation shifts."],["3668-3674","I ask my companion about her overdue parcel while riding an escalator down.","The conversation about the parcel ends as I switch to online shopping."],["3675-3682","I review items on Pinduoduo and check a route map while exiting the mall.","I stop checking the map and suggest a new destination to my companion."],["3683-3691","I argue with my companion about returning to HKU to pick up a package and my swim trunks.","The argument pauses as I observe a busker nearby."],["3692-3695","I observe an alien-costumed busker outside the station.","I resume walking toward the station."],["3696-3703","I urge my companion to hurry as we walk down the stairs toward the MTR station.","We enter the MTR concourse."],["3704-3714","I walk through the MTR concourse and board a train.","I take a seat on the train."],["3715-3737","I browse food items on my phone and offer some to my companion on the train.","I finish discussing food and switch to watching a video feed."],["3738-3749","I watch a news broadcast about Weichai powertrain manufacturing on my phone.","Continues watching the video to the end of the batch."]],"audit":{"complete":true,"uncertainties":[],"major_triggers":[3683],"boundary_cautions":[]}}```
+{
+  "target_level": "L2",
+  "plan": "Group immediate sequence of action briefs into unified concrete tasks based on the primary goal or interaction, such as conversing about a topic, interacting with an app/kiosk, riding an escalator, or walking to a specific destination. Progressive abstraction is applied to incidental walking steps and brief waits that serve the main task.",
+  "events": [
+    [
+      "3500-3507",
+      "I decline my friend's encouragement to ride the roller coaster.",
+      "Topic shifts to riding the escalator"
+    ],
+    [
+      "3508-3509",
+      "I ride the escalator up in the shopping mall.",
+      "Escalator ride ends"
+    ],
+    [
+      "3510-3518",
+      "I suggest visiting the zoo instead of the roller coaster.",
+      "Topic shifts to self-criticism while walking"
+    ],
+    [
+      "3519-3524",
+      "I criticize my lack of courage while walking past boutique storefronts.",
+      "Conversation shifts to animal types"
+    ],
+    [
+      "3525-3534",
+      "I inquire about the presence of land animals at the marine park.",
+      "Conversation ends, walking begins"
+    ],
+    [
+      "3535-3539",
+      "I take the descending escalator.",
+      "Steps off the escalator"
+    ],
+    [
+      "3540-3544",
+      "I message User X on WeChat.",
+      "Focus shifts to companion's phone"
+    ],
+    [
+      "3545-3551",
+      "I watch my companion search for the H&M store on her phone.",
+      "Focus shifts to own phone"
+    ],
+    [
+      "3552-3555",
+      "I query ChatGPT on my phone.",
+      "Interaction with phone ends temporarily"
+    ],
+    [
+      "3556-3560",
+      "I wait in the mall corridor while adjusting my belongings.",
+      "Waiting ends, starts walking"
+    ],
+    [
+      "3561-3567",
+      "I walk along the mall corridor overlooking the atrium.",
+      "Arrives at directory kiosk"
+    ],
+    [
+      "3568-3576",
+      "I search for the H&M store on the interactive mall directory kiosk.",
+      "Switches to phone app"
+    ],
+    [
+      "3577-3578",
+      "I check a Xiaohongshu post for shopping categories.",
+      "Focus shifts to companion"
+    ],
+    [
+      "3579-3587",
+      "I discuss the location and price of the GigaSports store with my companion.",
+      "Focus shifts back to kiosk"
+    ],
+    [
+      "3588-3590",
+      "I view the GigaSports location on the mall directory kiosk.",
+      "Kiosk interaction ends, starts walking"
+    ],
+    [
+      "3591-3600",
+      "I walk towards the GigaSports store.",
+      "Enters the store"
+    ],
+    [
+      "3601-3608",
+      "I follow a store employee to the swimwear section in GigaSports.",
+      "Arrives at swimwear section"
+    ],
+    [
+      "3609-3623",
+      "I inquire about men's swim trunks and their prices with the sales clerk.",
+      "Purchase inquiry ends, prepares to leave"
+    ],
+    [
+      "3624-3630",
+      "I walk towards the exit of the sports store while complaining about the prices.",
+      "Exits the store"
+    ],
+    [
+      "3631-3638",
+      "I inquire about swim trunks in a Uniqlo store.",
+      "Unsuccessful inquiry ends"
+    ],
+    [
+      "3639-3642",
+      "I agree with my companion to cancel our swimming plans.",
+      "Decision made, walking resumes"
+    ],
+    [
+      "3643-3651",
+      "I ride the descending escalator while checking search results on my phone.",
+      "Steps off escalator"
+    ],
+    [
+      "3652-3657",
+      "I walk through the mall while reviewing Decathlon search results.",
+      "Arrives at next escalator"
+    ],
+    [
+      "3658-3662",
+      "I ride the escalator while viewing my phone.",
+      "Conversation begins"
+    ],
+    [
+      "3663-3665",
+      "I decline my companion's suggestion to get my ears pierced.",
+      "Topic shifts to next plans"
+    ],
+    [
+      "3666-3673",
+      "I discuss our next plans with my companion.",
+      "Arrives at escalator"
+    ],
+    [
+      "3674-3675",
+      "I ride the escalator downwards.",
+      "Conversation shifts to parcel"
+    ],
+    [
+      "3676-3680",
+      "I ask my companion about the contents of her overdue parcel.",
+      "Conversation ends, walking continues"
+    ],
+    [
+      "3681-3686",
+      "I exit the shopping mall.",
+      "Steps onto outdoor walkway"
+    ],
+    [
+      "3687-3697",
+      "I argue with my companion about returning to HKU to pick up a package.",
+      "Argument pauses, distraction by busker"
+    ],
+    [
+      "3698-3701",
+      "I observe an alien-costumed busker.",
+      "Observation ends, walking resumes"
+    ],
+    [
+      "3702-3714",
+      "I walk through the MTR station toward the ticket gates.",
+      "Arrives at station escalators"
+    ],
+    [
+      "3715-3717",
+      "I take the escalator up to the platform concourse.",
+      "Arrives at platform"
+    ],
+    [
+      "3718-3722",
+      "I board the MTR train.",
+      "Seated, focus shifts to phone"
+    ],
+    [
+      "3723-3743",
+      "I discuss my online food orders with my companion on the train.",
+      "Conversation ends, starts watching videos"
+    ],
+    [
+      "3744-3749",
+      "I watch news clips on a short video app.",
+      "End of provided evidence"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      [
+        "3639-3642",
+        "The conversation completely abandons the objective of obtaining swimwear and returning for previous belongings."
+      ]
+    ],
+    "boundary_cautions": []
+  }
+}
+```

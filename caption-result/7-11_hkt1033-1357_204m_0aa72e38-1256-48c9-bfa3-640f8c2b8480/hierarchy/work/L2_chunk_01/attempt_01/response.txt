@@ -1,0 +1,86 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group actions into immediate tasks defined by the primary application in focus, the active conversation, or the specific sub-task being accomplished (e.g., reading a feed, configuring settings, or troubleshooting).",
+  "events": [
+    [
+      "0-16",
+      "I inspect the captioning benchmark report and preview.mp4 video on my laptop.",
+      "Shifts focus from the video preview and report to checking application UI menus."
+    ],
+    [
+      "17-27",
+      "I evaluate caption model comparison metrics and provider configurations across ChatGPT and CC Switch.",
+      "Interrupted by an incoming phone call."
+    ],
+    [
+      "28-42",
+      "I complete a phone call with 95188.",
+      "Ends the phone call and switches to a WeChat notification."
+    ],
+    [
+      "43-53",
+      "I message babe on WeChat to discuss dinner and rock climbing plans.",
+      "Navigates away from the private chat to browse the Official Accounts feed."
+    ],
+    [
+      "54-110",
+      "I read various AI industry articles in the WeChat Official Accounts feed.",
+      "Leaves the article feed to resume the private chat."
+    ],
+    [
+      "111-113",
+      "I send a follow-up message to babe on WeChat.",
+      "Closes the chat to adjust application settings."
+    ],
+    [
+      "114-126",
+      "I configure the codex provider settings in CC Switch to use gpt-5.6-sol.",
+      "Saves the configuration and switches back to the IDE."
+    ],
+    [
+      "127-145",
+      "I review VS Code markdown notes and Claude Code troubleshooting steps for Google Gemini VPN access.",
+      "Shifts from reading diagnostic logs to executing commands in the terminal."
+    ],
+    [
+      "146-179",
+      "I operate Claude Code in the VS Code terminal to manage files and test caption models.",
+      "Task completes; opens a markdown file to review recommendations."
+    ],
+    [
+      "180-191",
+      "I read model evaluation metrics and optimization recommendations in COMPARISON_REVIEW.md.",
+      "Transitions from passive reading to actively editing the document."
+    ],
+    [
+      "192-205",
+      "I edit COMPARISON_REVIEW.md based on prompt_v1.md video captioning instructions.",
+      "Pauses editing to address personal comfort."
+    ],
+    [
+      "206-215",
+      "I pause my review of COMPARISON_REVIEW.md to pick my fingernails and rearrange a grey hoodie.",
+      "Finishes adjusting the hoodie and switches context to WeChat."
+    ],
+    [
+      "216-234",
+      "I compile an H800 server connection tutorial in Apple Notes using instructions from WeChat.",
+      "Completes the note and opens Google Chrome for a different task."
+    ],
+    [
+      "235-249",
+      "I check h800 and l40 resource usage on the computing cluster dashboard in Google Chrome.",
+      "End of provided input."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "28-42"
+    ],
+    "boundary_cautions": []
+  }
+}
+```

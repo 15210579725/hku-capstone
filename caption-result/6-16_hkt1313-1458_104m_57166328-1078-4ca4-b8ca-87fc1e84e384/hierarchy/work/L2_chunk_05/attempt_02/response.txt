@@ -1,0 +1,74 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks such as watching short videos, checking WeChat messages, packing the umbrella, returning the food tray, navigating through campus areas, and reading articles on the phone.",
+  "events": [
+    [
+      "1000-1022",
+      "I watch short videos on my smartphone.",
+      "Topic shifts from browsing short videos to checking WeChat messages"
+    ],
+    [
+      "1023-1029",
+      "I check WeChat messages from babe on my smartphone.",
+      "Action shifts from phone messaging to packing an item"
+    ],
+    [
+      "1030-1034",
+      "I pack my folding umbrella into my backpack.",
+      "Task shifts from packing the backpack to handling the food tray"
+    ],
+    [
+      "1035-1039",
+      "I return my food tray at the tray return station.",
+      "Task shifts from returning the tray to exiting the canteen"
+    ],
+    [
+      "1040-1044",
+      "I exit the canteen into the courtyard.",
+      "Navigation shifts from exiting the canteen to ascending the stairs"
+    ],
+    [
+      "1045-1053",
+      "I walk up the stairs to the covered walkway.",
+      "Navigation goal is interrupted by interacting with the smartphone"
+    ],
+    [
+      "1054-1057",
+      "I speak about a boss having free time.",
+      "Action shifts from speaking to reading articles on the phone"
+    ],
+    [
+      "1058-1064",
+      "I read WeChat Official Account articles on my smartphone.",
+      "Action shifts from reading on the phone to continuous walking"
+    ],
+    [
+      "1065-1073",
+      "I walk along the covered walkway.",
+      "Navigation goal shifts specifically towards the Main Library entrance"
+    ],
+    [
+      "1074-1078",
+      "I approach the Main Library entrance.",
+      "Navigation shifts to passing through the access turnstile"
+    ],
+    [
+      "1079-1082",
+      "I enter the 2F Ingenium hall through the turnstile.",
+      "Navigation shifts from the turnstile to walking across the hall"
+    ],
+    [
+      "1083-1088",
+      "I walk through the 2F Ingenium hall to the elevator lobby.",
+      "End of sequence"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

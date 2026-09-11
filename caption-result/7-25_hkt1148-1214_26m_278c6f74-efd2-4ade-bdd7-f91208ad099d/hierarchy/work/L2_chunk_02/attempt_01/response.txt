@@ -1,0 +1,89 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group the car ride by major conversation topics and external navigation phases; group the walking sequence by continuous pathway stretches, distinct plaza navigation, and specific street crossings.",
+  "events": [
+    [
+      "250-255",
+      "I react to the navigation route in the car.",
+      "Topic shifts to driver's food preferences"
+    ],
+    [
+      "256-264",
+      "I listen to the driver discuss his food preferences.",
+      "Driver shifts conversation topic to his earnings"
+    ],
+    [
+      "265-274",
+      "I listen to the driver discuss his ride earnings.",
+      "Conversation pauses and focus shifts to observing landmarks"
+    ],
+    [
+      "275-288",
+      "I observe the landmarks approaching the commercial complex.",
+      "Driver initiates conversation about drop-off location"
+    ],
+    [
+      "289-293",
+      "I discuss the drop-off location with the driver.",
+      "Car door opens to exit"
+    ],
+    [
+      "294-297",
+      "I exit the car onto the sidewalk.",
+      "Begins walking across plaza"
+    ],
+    [
+      "298-302",
+      "I navigate the plaza using the walking route on my phone.",
+      "Shift to observing office towers and checking other apps"
+    ],
+    [
+      "303-311",
+      "I review my phone apps near the surrounding office towers.",
+      "Starts walking past subway murals"
+    ],
+    [
+      "312-317",
+      "I walk past the subway entrance toward the plaza.",
+      "Arrives at plaza and searches for pet shop"
+    ],
+    [
+      "318-321",
+      "I navigate the plaza using the pet shop location on my phone.",
+      "Reaches the floral crosswalk"
+    ],
+    [
+      "322-326",
+      "I navigate the pedestrian crossings using my phone map.",
+      "Crossing completed; begins walking along sidewalk"
+    ],
+    [
+      "327-336",
+      "I walk along the sidewalk past parked scooters.",
+      "Arrives at skybridge structure"
+    ],
+    [
+      "337-342",
+      "I approach the street intersection under the skybridge.",
+      "Reaches zebra crossing to cross street"
+    ],
+    [
+      "343-346",
+      "I cross the street intersection toward LCITY.",
+      "Safely reaches sidewalk corner"
+    ],
+    [
+      "347-349",
+      "I walk toward the sculpture using the pet shop directions on my phone.",
+      "End of available data"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

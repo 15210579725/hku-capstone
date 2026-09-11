@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate each eligible pair to see if they describe the exact same immediate task interrupted by a batch boundary. Pair 17/18 is the same walk in the parking garage. Pair 50/51 is the same task of reviewing Claude Code logs for SeedDance 2. Pair 71/72 changes from prompting about Pearson correlation to reviewing code execution and case comparisons, representing distinct tasks.",
+  "merges": [
+    [
+      17,
+      18,
+      "I walk through the underground parking garage.",
+      "Same walking action continues across batch edge"
+    ],
+    [
+      50,
+      51,
+      "I review Claude Code execution logs regarding SeedDance 2.0 in VS Code.",
+      "Same log review task continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

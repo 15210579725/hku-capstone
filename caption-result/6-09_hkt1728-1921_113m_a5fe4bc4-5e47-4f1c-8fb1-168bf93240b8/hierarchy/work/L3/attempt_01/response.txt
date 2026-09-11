@@ -1,0 +1,77 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group L2 tasks into coherent activity episodes based on major physical locations, clear work/leisure sessions, and major behavioral triggers. Distinct transit segments (campus, mall, train, neighborhood) and contiguous media consumption or work sessions are unified into single episodes.",
+  "events": [
+    [
+      "0-15",
+      "I work on dataset evaluation and literature notes on my laptop.",
+      "Switches from laptop work to leisure video watching."
+    ],
+    [
+      "16-56",
+      "I watch short videos on Xiaohongshu.",
+      "Interrupted by discovering a dead laptop battery."
+    ],
+    [
+      "57",
+      "I discover my MacBook battery has died.",
+      "Major trigger that ends the session and prompts leaving campus."
+    ],
+    [
+      "58-69",
+      "I walk through the campus to exit the building.",
+      "Transitions from the campus interior to the outdoor plaza."
+    ],
+    [
+      "70-77",
+      "I walk through the plaza and Festival Walk mall.",
+      "Arrives at the station to catch the train."
+    ],
+    [
+      "78-82",
+      "I ride the train to Tai Wai Station.",
+      "Alights from the train to purchase food."
+    ],
+    [
+      "83",
+      "I purchase pastries at A-1 Bakery.",
+      "Completes the purchase and begins the walk home."
+    ],
+    [
+      "84-94",
+      "I walk from the station to register as a visitor at my apartment building.",
+      "Arrives at the apartment and transitions to indoor settling."
+    ],
+    [
+      "95-99",
+      "I settle at my bedroom desk.",
+      "Finishes settling down and begins watching videos."
+    ],
+    [
+      "100-167",
+      "I watch short videos on my smartphone.",
+      "Interrupted by frustration about an upcoming meeting."
+    ],
+    [
+      "168",
+      "I lock my smartphone in frustration over an upcoming meeting.",
+      "Major trigger that ends leisure time and redirects focus to work."
+    ],
+    [
+      "169-178",
+      "I read Claude research materials on my MacBook.",
+      "End of provided inputs."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      57,
+      168
+    ],
+    "boundary_cautions": []
+  }
+}
+```

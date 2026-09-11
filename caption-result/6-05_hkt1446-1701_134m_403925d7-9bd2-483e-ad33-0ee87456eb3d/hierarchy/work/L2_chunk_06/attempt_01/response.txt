@@ -1,0 +1,66 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous atomic actions into immediate tasks based on the current focus (reading prompt docs, editing in VS Code, reviewing JSON data, evaluating AI outputs, taking a break, and leaving the building). Incidental looks, posture changes, and brief interactions are absorbed into the overarching task they accompany.",
+  "events": [
+    [
+      "1250-1282",
+      "I read the prompt generation pipeline documentation.",
+      "Transition from reading documentation to actively typing and editing in VS Code."
+    ],
+    [
+      "1283-1291",
+      "I edit the prompt documentation in VS Code.",
+      "Transition from editing the prompt to opening and reviewing JSON data files."
+    ],
+    [
+      "1292-1305",
+      "I review the A1_JAKE JSON event annotations.",
+      "Transition from reviewing data to executing a new AI prompt query."
+    ],
+    [
+      "1306-1313",
+      "I evaluate the AI caption generation response.",
+      "Transition from evaluating AI output to taking a physical break away from the screen."
+    ],
+    [
+      "1314-1320",
+      "I take a short stretching break at my desk.",
+      "Transition from resting back to reading documentation on the laptop."
+    ],
+    [
+      "1321-1330",
+      "I read the multi-granularity caption prompt documentation.",
+      "Transition from reading documentation to typing on the keyboard."
+    ],
+    [
+      "1331-1334",
+      "I type additions into the caption prompt document.",
+      "Transition from typing back to continuous reading of the documentation."
+    ],
+    [
+      "1335-1354",
+      "I review the hierarchical caption prompt instructions and Claude Code responses.",
+      "Major trigger of checking the smartphone and badge, abandoning laptop work to leave."
+    ],
+    [
+      "1355-1357",
+      "I prepare to leave my workspace.",
+      "Transition from gathering belongings to actively walking through the building."
+    ],
+    [
+      "1358-1365",
+      "I walk through the building to the elevator lobby.",
+      "Reaches the elevator lobby."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "1355-1357"
+    ],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,109 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group immediate tasks based on app interactions (Xiaohongshu, App Store, Beike, Ziroom, WeChat) and distinct interactions with the companion (watching clouds, arguing, planning to go outside).",
+  "events": [
+    [
+      "750-753",
+      "I converse with my roommate in the bedroom.",
+      "Interaction with roommate concludes."
+    ],
+    [
+      "754-766",
+      "I browse Xiaohongshu for Shanghai short-term rental posts.",
+      "Shifts from browsing posts to reading specific guides."
+    ],
+    [
+      "767-784",
+      "I read Shanghai apartment rental guides and app reviews on Xiaohongshu.",
+      "Exits Xiaohongshu to search for a rental app."
+    ],
+    [
+      "785-794",
+      "I search for and view the Beike Renting app in the App Store.",
+      "App opens, switching to using Beike."
+    ],
+    [
+      "795-801",
+      "I explore the Shanghai rental map and commute options in the Beike Renting app.",
+      "Switches to Ziroom app to find requirements."
+    ],
+    [
+      "802-810",
+      "I copy my housing requirements from a chat in the Ziroom app.",
+      "Switches back to Beike app to search."
+    ],
+    [
+      "811-820",
+      "I search for rental listings near University X in the Beike Renting app.",
+      "Switches to WeChat to contact someone."
+    ],
+    [
+      "821-830",
+      "I send a rental inquiry message to User W on WeChat.",
+      "Finishes messaging User W and switches focus."
+    ],
+    [
+      "831-837",
+      "I message User B on WeChat about rental locations in Tangzhen.",
+      "Finishes messaging and companion interacts with me."
+    ],
+    [
+      "838-840",
+      "I interact with my companion as she lies down on me.",
+      "Turns attention to laptop and window."
+    ],
+    [
+      "841-846",
+      "I look at the laptop display and the view outside the window.",
+      "Focuses on phone to read WeChat messages."
+    ],
+    [
+      "847-850",
+      "I read WeChat messages on my phone.",
+      "Opens an article in WeChat."
+    ],
+    [
+      "851-867",
+      "I read a WeChat article about DeepSeek playing World of Warcraft.",
+      "Interrupts reading as partner starts speaking."
+    ],
+    [
+      "868-874",
+      "I listen to my partner insult me as she leans over my legs.",
+      "Conversation shifts to looking at the clouds."
+    ],
+    [
+      "875-888",
+      "I watch the fast-moving clouds out the window with my companion.",
+      "Physical interaction with companion begins."
+    ],
+    [
+      "889-896",
+      "I hold User A's waist and hand.",
+      "Focus shifts back to watching the window and conversing."
+    ],
+    [
+      "897-910",
+      "I watch the clouds out the window while my companion calls me selfish.",
+      "Topic shifts to planning to go outside."
+    ],
+    [
+      "911-939",
+      "I discuss plans to go outside and retrieve a package with User A.",
+      "Conversation about going outside concludes."
+    ],
+    [
+      "940-958",
+      "I rest on the bed and chat with my companion before she walks away.",
+      "End of provided clips."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

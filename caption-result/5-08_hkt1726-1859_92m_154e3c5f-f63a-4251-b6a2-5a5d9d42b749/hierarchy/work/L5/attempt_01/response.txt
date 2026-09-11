@@ -1,0 +1,19 @@
+```json
+{
+  "target_level": "L5",
+  "plan": "Unify the waiting period, transit time, and disembarkation into a single major activity representing the complete ferry journey.",
+  "events": [
+    [
+      "0-2",
+      "I travel by ferry with my companion and luggage.",
+      "Disembarkation completes the ferry journey"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,131 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous L1 action briefs into immediate tasks based on unified objectives, such as completing a login flow, interacting with Claude Code, traversing distinct locations on the way to dinner, selecting food, eating specific dishes, and using individual phone applications.",
+  "events": [
+    [
+      "250-275",
+      "I log into Claude Code using Google two-step verification.",
+      "Login flow completed"
+    ],
+    [
+      "276-287",
+      "I prompt Claude Code to evaluate the qwen3.5-4b model.",
+      "Prompt submitted and checking finishes"
+    ],
+    [
+      "288-311",
+      "I inspect evaluation scripts and benchmark results in Claude Code.",
+      "Moves to configuring execution"
+    ],
+    [
+      "312-320",
+      "I configure and launch the Qwen3.5-4B evaluation script.",
+      "Script starts running"
+    ],
+    [
+      "321-324",
+      "I handle a yellow earplug.",
+      "Earplug set down"
+    ],
+    [
+      "325-328",
+      "I discover a lack of available GPUs for my evaluation script.",
+      "Abandons task due to no GPUs"
+    ],
+    [
+      "329-335",
+      "I walk through the office with my colleagues.",
+      "Enters elevator"
+    ],
+    [
+      "336-350",
+      "I ride the descending elevator.",
+      "Exits elevator"
+    ],
+    [
+      "351-364",
+      "I walk through the underground parking garage.",
+      "Reaches exit door"
+    ],
+    [
+      "365-371",
+      "I wait at a locked exit door with my companions.",
+      "Moves to alternative route"
+    ],
+    [
+      "372-378",
+      "I walk along outdoor pathways to the cafeteria.",
+      "Enters cafeteria"
+    ],
+    [
+      "379-388",
+      "I navigate to the cafeteria food counter.",
+      "Reaches tray dispenser"
+    ],
+    [
+      "389-403",
+      "I select food dishes onto my meal tray at the counter.",
+      "Finishes selecting food"
+    ],
+    [
+      "404-411",
+      "I pay for my meal using WeChat.",
+      "Payment successful"
+    ],
+    [
+      "412-417",
+      "I carry my meal tray to a seat in the dining hall.",
+      "Sits down at table"
+    ],
+    [
+      "418-434",
+      "I eat noodles during a discussion about AI agent routing.",
+      "Finishes noodles"
+    ],
+    [
+      "435-460",
+      "I eat braised pork during a conversation about a competition.",
+      "Finishes pork"
+    ],
+    [
+      "461-466",
+      "I drink a bowl of soup.",
+      "Finishes soup"
+    ],
+    [
+      "467-471",
+      "I discuss model speedups with my colleague.",
+      "Conversation pauses"
+    ],
+    [
+      "472-480",
+      "I observe other diners in the cafeteria.",
+      "Unlocks phone"
+    ],
+    [
+      "481-487",
+      "I send a WeChat message to babe.",
+      "Switches to reading feed"
+    ],
+    [
+      "488-490",
+      "I read an article on WeChat.",
+      "Navigates away from article"
+    ],
+    [
+      "491-499",
+      "I browse MacBook listings on Taobao.",
+      "Continues browsing Taobao"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "325-328"
+    ],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,54 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group immediate tasks into coherent episodes based on distinct locations and goals: finishing desk work, executing brief office errands, exiting the building, outdoor transit, indoor navigation, and commencing a continuous work session.",
+  "events": [
+    [
+      "0-1",
+      "I pack my MacBook following the review of the Claude Code terminal output.",
+      "Completed packing at the initial desk"
+    ],
+    [
+      "2-3",
+      "I visit desk 11 for a discussion on SFT distribution visualization and model usage.",
+      "Completed discussion with the colleague"
+    ],
+    [
+      "4-5",
+      "I retrieve my glass jar from the pantry water dispenser.",
+      "Completed errand at the pantry"
+    ],
+    [
+      "6-8",
+      "I prepare for departure with an application of OFF! mosquito repellent and a final office survey.",
+      "Completed final preparations before leaving the office floor"
+    ],
+    [
+      "9-14",
+      "I exit the building to the street via the elevator and turnstiles.",
+      "Completed transition from the office floor to the outdoors"
+    ],
+    [
+      "15-20",
+      "I walk across the campus pathways to the entrance plaza during a WeChat chat about a noodle photo.",
+      "Completed outdoor transit to the destination building"
+    ],
+    [
+      "21-23",
+      "I navigate the spiral staircase and upper corridor to reach the office lounge area.",
+      "Completed indoor navigation to the new workspace"
+    ],
+    [
+      "24-31",
+      "I evaluate the emotion-action predict dataset using Claude Code and a Feishu accuracy document.",
+      "Continuous work session unified by a single evaluation goal"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

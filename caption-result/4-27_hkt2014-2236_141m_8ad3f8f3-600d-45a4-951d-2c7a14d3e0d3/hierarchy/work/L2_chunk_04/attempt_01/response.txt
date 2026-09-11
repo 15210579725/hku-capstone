@@ -1,3 +1,174 @@
 ```json
-{"target_level":"L2","plan":"Group L1 action briefs into immediate tasks based on shared, continuous goals like interacting with a specific application (e.g., Claude, 163 Mail, WeChat), drafting specific content, or handling physical objects.","events":[["750-757","I prepare to work at the dining table by unlocking my MacBook.","Unlocked MacBook to begin working"],["758-768","I interact with Claude AI to discuss LLM cognitive simulation research projects and candidate profiles.","Switched to project list PDF"],["769-771","I read through a PDF document containing descriptions of AI/LLM research projects.","Switched to ChatGPT tab"],["772-774","I type an email request prompt into ChatGPT.","Started checking WeChat messages and PDF"],["775-786","I review the MSc project list PDF alongside my WeChat messages.","Switched to Claude for drafting"],["787-803","I use Claude AI to draft a research project application proposal.","Switched to Feishu document"],["804-809","I review a '数字孪生：一天的决策树' flowchart in a Feishu document.","Switched back to Claude"],["810-813","I consult Claude AI and view a decision tree page about the digital student world model.","Switched to Google homepage"],["814-821","I log into 163 Mail to read an API update email.","Opened new AI chat"],["822-829","I instruct an AI assistant to summarize, organize, and unsubscribe from unwanted emails in my 163 Mail inbox.","Switched to API dashboard"],["830-831","I view the API dashboard in Google Chrome.","Switched back to 163 Mail inbox"],["832-847","I read the Project Aria's Spring Newsletter in 163 Mail.","Switched to Claude"],["848-856","I review an academic application email draft in Claude.","Switched to 163 Mail and typed content"],["857-872","I review Claude's draft email response, research project descriptions, and a registration form PDF.","Turned to search in backpack"],["873-881","I retrieve a pair of yellow foam earplugs from my backpack and handle them.","Returned focus to laptop screen"],["882-898","I review project details, a proposal diagram, and a draft application email to Professor Zhu across Claude and 163 Mail.","Began scanning desktop file icons"],["899-902","I scan my desktop file icons and browser.","Switched to WeChat to search chat history"],["903-918","I locate a CV document using WeChat and Finder.","Switched to typing email draft in 163 Mail"],["919-942","I edit the ARIN7600 Project 31 application email draft using 163 Mail and Claude.","Switched to translating a specific sentence in Claude"],["943-950","I use Claude AI to translate a sentence about emotional experience for the application.","Switched back to NetEase webmail to edit draft"],["951-968","I continue editing the ARIN7600 application email draft in 163 Mail using a digital twin workflow diagram as reference.","Exclaimed and focused on flowchart in PDF"],["969-979","I examine the '数字孪生：一天的决策树' flowchart in a PDF before returning to 163 Mail.","Switched to WeChat"],["980-992","I search my WeChat chat history to examine a line diagram image preview.","Opened new browser tab"],["993-999","I navigate to the Microsoft online login portal in Google Chrome.","End of batch"]],"audit":{"complete":true,"uncertainties":[],"major_triggers":[],"boundary_cautions":[]}}
+{
+  "target_level": "L2",
+  "plan": "Group input action briefs into immediate tasks based on application boundaries, shared localized goals (e.g., specific email drafting, reading specific documents, or physical actions like preparing earplugs), and continuous interactions with specific targets.",
+  "events": [
+    [
+      "750-754",
+      "I prepare to sit at the dining table.",
+      "Begins positioning at the dining table."
+    ],
+    [
+      "755-757",
+      "I unlock my MacBook Pro.",
+      "Shifts to opening and unlocking the laptop."
+    ],
+    [
+      "758-768",
+      "I interact with Claude AI to find research projects matching my advisor's requirements.",
+      "Initiates interaction with Claude AI for project recommendations."
+    ],
+    [
+      "769-771",
+      "I read the project list PDF.",
+      "Switches to reading the project list PDF document."
+    ],
+    [
+      "772-774",
+      "I type an email request prompt into ChatGPT.",
+      "Switches to ChatGPT to prompt for an email request."
+    ],
+    [
+      "775-786",
+      "I review the project list PDF and WeChat messages.",
+      "Alternates between reading the project list PDF and checking WeChat messages."
+    ],
+    [
+      "787-803",
+      "I refine my application proposal using Claude AI.",
+      "Transitions to Claude AI to refine an application proposal."
+    ],
+    [
+      "804-809",
+      "I review the Digital Twin decision tree flowchart on Feishu.",
+      "Switches to reviewing a flowchart document on Feishu."
+    ],
+    [
+      "810-813",
+      "I review a digital student world model prompt on Claude AI.",
+      "Returns to Claude AI to review a digital student world model prompt."
+    ],
+    [
+      "814-817",
+      "I log into 163 Mail.",
+      "Navigates to log into 163 Mail."
+    ],
+    [
+      "818-821",
+      "I open the dashboard link from an API update email.",
+      "Opens an API update email and navigates to the dashboard."
+    ],
+    [
+      "822-829",
+      "I instruct an AI assistant to organize my 163 Mail inbox.",
+      "Initiates a voice-commanded AI chat to organize the 163 Mail inbox."
+    ],
+    [
+      "830-831",
+      "I view the API dashboard in Google Chrome.",
+      "Switches to viewing the API dashboard in Chrome."
+    ],
+    [
+      "832-847",
+      "I read the Project Aria Spring Newsletter in 163 Mail.",
+      "Returns to 163 Mail to read the Project Aria newsletter."
+    ],
+    [
+      "848-860",
+      "I edit the application email draft in Claude.",
+      "Switches to Claude AI to edit an application email draft."
+    ],
+    [
+      "861-864",
+      "I monitor the 163 Mail login process.",
+      "Transitions to monitoring a 163 Mail login page."
+    ],
+    [
+      "865-866",
+      "I read Claude's research analysis and email response.",
+      "Returns to Claude to read research analysis and email responses."
+    ],
+    [
+      "867-871",
+      "I review a project comparison table and a registration form PDF.",
+      "Switches to reviewing project descriptions and a registration form PDF."
+    ],
+    [
+      "872-881",
+      "I prepare yellow foam earplugs from my backpack.",
+      "Shifts to a physical task of preparing earplugs from a backpack."
+    ],
+    [
+      "882-887",
+      "I review the project list PDF and 163 Mail draft.",
+      "Resumes on-screen tasks to review the project list PDF and email draft."
+    ],
+    [
+      "888-893",
+      "I review application guidance and email artifacts in Claude.",
+      "Transitions to reviewing application guidance and email artifacts in Claude."
+    ],
+    [
+      "894-902",
+      "I proofread the ARIN7600 Project 11 application email draft in 163 Mail.",
+      "Switches to 163 Mail to proofread the application email draft."
+    ],
+    [
+      "903-918",
+      "I review a CV document located via WeChat and Finder.",
+      "Navigates through WeChat and Finder to locate and read a CV document."
+    ],
+    [
+      "919-924",
+      "I edit the ARIN2600 application email draft in 163 Mail.",
+      "Returns to 163 Mail to edit the ARIN2600 application email draft."
+    ],
+    [
+      "925-931",
+      "I review the ARIN7600 Project 31 email draft in Claude.",
+      "Switches to Claude to review a generated email draft for Project 31."
+    ],
+    [
+      "932-942",
+      "I edit the ARIN7600 Project 31 application email draft in 163 Mail.",
+      "Transitions to 163 Mail to edit the Project 31 application email draft."
+    ],
+    [
+      "943-950",
+      "I translate a sentence for my application proposal using Claude AI.",
+      "Switches to Claude AI to translate a sentence for the application proposal."
+    ],
+    [
+      "951-953",
+      "I edit the ARIN7600 Project 31 application email draft in 163 Mail.",
+      "Returns to 163 Mail to continue editing the application email draft."
+    ],
+    [
+      "954-958",
+      "I inspect the Digital Twin workflow diagram in my downloaded files.",
+      "Navigates through files to locate and inspect the Digital Twin workflow diagram."
+    ],
+    [
+      "959-979",
+      "I reference the Digital Twin flowchart to edit the application email draft in 163 Mail.",
+      "Resumes editing the email draft in 163 Mail incorporating the flowchart context."
+    ],
+    [
+      "980-992",
+      "I examine a line drawing image from my WeChat chat history.",
+      "Switches to WeChat to examine a line drawing in chat history."
+    ],
+    [
+      "993-999",
+      "I navigate to the Microsoft online login portal in Google Chrome.",
+      "Transitions to Chrome to navigate to the Microsoft online login portal."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
 ```

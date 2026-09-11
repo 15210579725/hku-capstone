@@ -1,0 +1,89 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks based on the primary tool in use (e.g., smartphone vs. laptop), the specific application or document being viewed (e.g., Claude chat, lecture slides, terminal), and discrete physical actions (e.g., retrieving a pen, handling a power bank, writing notes). Boundaries are defined by clear shifts in focus, device usage, or the start of a distinct physical activity.",
+  "events": [
+    [
+      "500-504",
+      "I type an exam review prompt about Neural ODEs on my laptop.",
+      "Switch to using the smartphone."
+    ],
+    [
+      "505-514",
+      "I use WeChat on my smartphone to message babe and view food photos.",
+      "Switch to reading ODE notes on the laptop."
+    ],
+    [
+      "515-533",
+      "I read ODE review notes and numerical methods on Claude.",
+      "Shift from reading Claude to viewing lecture slides on Moodle."
+    ],
+    [
+      "534-567",
+      "I read Chapter 4 ODE lecture slides on the Moodle course page.",
+      "Shift to reviewing the study plan and questions on Claude."
+    ],
+    [
+      "568-593",
+      "I review the ODE study plan and questions on Claude and the lecture slides.",
+      "Start interacting with AI by typing a question about implicit ODEs."
+    ],
+    [
+      "594-613",
+      "I ask the AI assistant about implicit ODE equations and read its explanation.",
+      "Shift to reading various notes and explanations about Picard's theorem."
+    ],
+    [
+      "614-644",
+      "I read lecture slides, math notes, and Claude explanations about Picard's theorem, the Lipschitz condition, and ODE non-uniqueness.",
+      "Pause reading to retrieve a pen and prepare to write notes."
+    ],
+    [
+      "645-654",
+      "I retrieve a pen from my backpack and begin writing in my notebook.",
+      "Begin reading about ODE systems and write the first heading on the notepad."
+    ],
+    [
+      "655-672",
+      "I read Claude's explanation on ODE systems and write 'ch4: IVP' on my notepad.",
+      "Interrupt study to handle a power bank."
+    ],
+    [
+      "673-681",
+      "I connect a USB cable to my power bank and place it in my pocket.",
+      "Return to studying by writing notes and reading about ODE systems."
+    ],
+    [
+      "682-702",
+      "I write Lipschitz condition criteria on my notepad and read Claude's explanation on ODE systems.",
+      "Brief interruption to pick a fingernail."
+    ],
+    [
+      "703-706",
+      "I pick my fingernail while looking down at my hands.",
+      "Resume reading notes on ODE stability and Picard's theorem."
+    ],
+    [
+      "707-730",
+      "I read Claude notes and lecture slides about ODE stability and Picard's theorem for ODE systems.",
+      "Shift to writing mathematical formulas on the notepad."
+    ],
+    [
+      "731-744",
+      "I write mathematical formulas on my notepad and review ODE stability notes in Claude.",
+      "Switch to checking a download progress in the terminal."
+    ],
+    [
+      "745-749",
+      "I check the Claude Code download progress in the terminal window.",
+      "End of input."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

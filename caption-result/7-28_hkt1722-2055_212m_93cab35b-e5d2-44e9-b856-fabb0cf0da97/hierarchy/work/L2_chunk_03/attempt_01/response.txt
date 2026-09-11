@@ -1,0 +1,81 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group sequential actions into cohesive immediate tasks, such as exiting the building, renting the electric scooter, and navigating specific road segments or intersections along the route.",
+  "events": [
+    [
+      "0-13",
+      "I exit the building through the lobby.",
+      "Steps outside the building."
+    ],
+    [
+      "14-26",
+      "I rent a Hellobike electric scooter to initiate my ride.",
+      "Transitions from walking to actively riding the rented scooter."
+    ],
+    [
+      "27-34",
+      "I request the security guard to open the campus exit gate for my electric scooter.",
+      "Reaches the exit gate and interacts with the guard."
+    ],
+    [
+      "35-52",
+      "I steer the electric scooter through a left turn at the road intersection.",
+      "Completes the left turn maneuver."
+    ],
+    [
+      "53-72",
+      "I merge my electric scooter into the designated bike lane at the intersection.",
+      "Successfully enters the bike lane."
+    ],
+    [
+      "73-95",
+      "I ride the electric scooter along the bike lane across the Sunpu Road intersection.",
+      "Completes crossing the Sunpu Road intersection."
+    ],
+    [
+      "96-133",
+      "I ride the electric scooter past roadside greenhouses to cross a white concrete bridge.",
+      "Completes the bridge crossing."
+    ],
+    [
+      "134-149",
+      "I approach the Kenong Road intersection on my electric scooter.",
+      "Stops at the intersection to wait for traffic."
+    ],
+    [
+      "150-157",
+      "I cross the Kenong Road intersection on my electric scooter.",
+      "Successfully crosses the intersection."
+    ],
+    [
+      "158-204",
+      "I ride the electric scooter along the tree-lined road.",
+      "Approaches the next major traffic intersection."
+    ],
+    [
+      "205-220",
+      "I navigate the major traffic intersection on my electric scooter.",
+      "Clears the major intersection."
+    ],
+    [
+      "221-233",
+      "I ride the electric scooter along the Sunqiao Road bike lane to the next junction.",
+      "Reaches the junction."
+    ],
+    [
+      "234-249",
+      "I navigate the junction to enter the Mianbei Road non-motorized lane on my electric scooter.",
+      "Completes the junction maneuver."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": [
+      "The continuous scooter ride is segmented into logical L2 tasks based on significant intersections, maneuvers, and road changes."
+    ]
+  }
+}
+```

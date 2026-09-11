@@ -1,0 +1,39 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group L2 immediate tasks into coherent activity episodes: procuring the meal at the counter, consuming the meal at the table, returning the dishes, inspecting dessert options, and transitioning back to the seat.",
+  "events": [
+    [
+      "0-4",
+      "I obtain a customized, seasoned wonton meal from the food counter.",
+      "Change from food procurement to meal consumption."
+    ],
+    [
+      "5-15",
+      "I consume my wonton meal at a table in the lounge seating area.",
+      "Completion of the meal and initiation of clearing the table."
+    ],
+    [
+      "16-17",
+      "I return my used bowl and chopsticks to the dish return station.",
+      "Completion of dish return and change of focus to the freezer."
+    ],
+    [
+      "18",
+      "I inspect the ice cream freezer at the side counter.",
+      "Change from freezer inspection to transit back to the seating area."
+    ],
+    [
+      "19",
+      "I navigate through the dining area back to the booth seating.",
+      "End of provided events."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

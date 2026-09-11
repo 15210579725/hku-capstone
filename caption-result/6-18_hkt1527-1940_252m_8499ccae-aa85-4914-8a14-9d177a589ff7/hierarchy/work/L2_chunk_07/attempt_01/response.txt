@@ -1,0 +1,159 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group consecutive actions sharing the same immediate goal, primary target, and physical/software location. I will separate eating episodes by physical orientation (at the desk vs. turning to the food cart) and segment screen activities based on software context shifts (e.g., VS Code, WeChat, meeting clients).",
+  "events": [
+    [
+      "1500-1507",
+      "I receive a cup of water and a bowl of steamed rice from my roommate.",
+      "Focus shifts to reviewing instructions at the desk"
+    ],
+    [
+      "1508-1529",
+      "I review Generative Agents benchmark evaluations in VS Code.",
+      "Focus shifts to eating a chicken wing"
+    ],
+    [
+      "1530-1534",
+      "I eat a chicken wing at my desk.",
+      "Focus shifts to the food cart"
+    ],
+    [
+      "1535-1547",
+      "I eat cucumbers, eggs, and a chicken wing from the food cart.",
+      "Focus shifts back to the MacBook screen"
+    ],
+    [
+      "1548-1564",
+      "I inspect benchmark plots and leaderboards in VS Code.",
+      "Focus shifts to the food cart"
+    ],
+    [
+      "1565-1577",
+      "I eat a chicken wing, rice, and vegetables from the food cart.",
+      "Focus shifts to laptop documents"
+    ],
+    [
+      "1578-1589",
+      "I review benchmark leaderboards and document text on my laptop.",
+      "Focus shifts to the food cart"
+    ],
+    [
+      "1590-1597",
+      "I eat eggs and rice from the food cart.",
+      "Focus shifts to a laptop video"
+    ],
+    [
+      "1598-1601",
+      "I watch a video on my laptop.",
+      "Focus shifts back to the meal spread"
+    ],
+    [
+      "1602-1613",
+      "I finish eating my meal with my companion.",
+      "Activity ends, walking to the study desk"
+    ],
+    [
+      "1614-1619",
+      "I read WeChat messages about lease duration at my study desk.",
+      "Focus shifts to the agent simulation demo"
+    ],
+    [
+      "1620-1622",
+      "I review the agent simulation demo.",
+      "Focus shifts to WeChat typing"
+    ],
+    [
+      "1623",
+      "I type in WeChat.",
+      "Focus shifts to cleaning the trackpad"
+    ],
+    [
+      "1624-1625",
+      "I wipe my laptop trackpad with a tissue.",
+      "Focus shifts back to WeChat messages"
+    ],
+    [
+      "1626-1630",
+      "I browse WeChat messages.",
+      "Focus shifts to web documents and SVG diagrams"
+    ],
+    [
+      "1631-1642",
+      "I inspect benchmark evaluation SVG diagrams in VS Code.",
+      "Focus shifts to the Feishu benchmark table"
+    ],
+    [
+      "1643-1645",
+      "I type into the Feishu benchmark table in Chrome.",
+      "Focus shifts to WeChat"
+    ],
+    [
+      "1646-1647",
+      "I input pinyin to generate Chinese words in WeChat.",
+      "Focus shifts to the Claude Code panel"
+    ],
+    [
+      "1648-1655",
+      "I read the Claude Code panel hierarchical prediction analysis in VS Code.",
+      "Focus shifts to a WeChat message"
+    ],
+    [
+      "1656-1658",
+      "I check a WeChat message.",
+      "Focus shifts to joining a meeting"
+    ],
+    [
+      "1659-1662",
+      "I join a Tencent Meeting room.",
+      "Meeting joined, focus shifts to reviewing editor panels"
+    ],
+    [
+      "1663-1673",
+      "I review the Claude Code window and VS Code panels.",
+      "Focus shifts to physical workspace preparation"
+    ],
+    [
+      "1674-1679",
+      "I prepare my physical workspace by placing my smartphone on the chair.",
+      "Focus shifts to video call interactions"
+    ],
+    [
+      "1680-1696",
+      "I discuss hierarchy diagrams during a video call.",
+      "Focus shifts to the VS Code file explorer"
+    ],
+    [
+      "1697-1707",
+      "I inspect SVG diagrams in the VS Code file explorer.",
+      "Focus shifts to a login screen transition"
+    ],
+    [
+      "1708-1715",
+      "I examine the screen canvas on the login screen.",
+      "Focus shifts to eating with User A"
+    ],
+    [
+      "1716-1737",
+      "I eat rice, chicken wings, eggs, and cucumber with User A.",
+      "Focus shifts back to the desk"
+    ],
+    [
+      "1738-1739",
+      "I hold the computer mouse at my desk.",
+      "Focus shifts to eating while watching a drama"
+    ],
+    [
+      "1740-1749",
+      "I eat food from the dining cart.",
+      "End of sequence"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

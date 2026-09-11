@@ -1,0 +1,71 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group L2 tasks into coherent activity episodes based on main locations and goals. Transit phases, parcel pickups, and grocery shopping form distinct episodes. The severe stomach pain is isolated as a major behavior-changing trigger, prompting an emergency detour.",
+  "events": [
+    [
+      "0-9",
+      "I navigate through the university campus and take the elevators down to the ground floor, adjusting my backpack and messaging babe on WeChat about a flow matching algorithm.",
+      "Reaches the street level, concluding the campus exit episode."
+    ],
+    [
+      "10-16",
+      "I walk downhill through the streets and alleys to reach the Cainiao Post Station.",
+      "Arrival at the post station."
+    ],
+    [
+      "17-18",
+      "I retrieve my Taobao parcel from the Cainiao Post Station.",
+      "Completes the first parcel pickup."
+    ],
+    [
+      "19-22",
+      "I walk to the next pickup shop, unwrapping my parcel to inspect a black clip, and messaging babe on WeChat about snorkeling and fireflies.",
+      "Arrival at the second pickup location."
+    ],
+    [
+      "23",
+      "I retrieve another parcel at a pickup shop using an SMS code.",
+      "Completes the second parcel pickup."
+    ],
+    [
+      "24-25",
+      "I walk along the street to the Wellcome supermarket.",
+      "Arrival at the supermarket."
+    ],
+    [
+      "26-39",
+      "I purchase groceries, including mini cucumbers, eggplants, tomatoes, bananas, and sandwich bread, at the Wellcome supermarket, and pick up a white envelope from the floor.",
+      "Completes the grocery shopping."
+    ],
+    [
+      "40",
+      "I begin walking down the street from the supermarket.",
+      "Interrupted by a sudden stomach emergency."
+    ],
+    [
+      "41",
+      "I urgently express the need to defecate due to severe stomach pain.",
+      "Major trigger that abruptly changes the current plan."
+    ],
+    [
+      "42-47",
+      "I navigate through the Municipal Services Building to the second-floor dining hall and observe the menus, messaging babe on WeChat about travel plans and my stomach emergency.",
+      "Leaves the building to continue rushing home."
+    ],
+    [
+      "48-51",
+      "I rush to my apartment building and take the elevator to the 15th floor, entering my home in severe stomach pain.",
+      "Arrival at the apartment."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      41
+    ],
+    "boundary_cautions": []
+  }
+}
+```

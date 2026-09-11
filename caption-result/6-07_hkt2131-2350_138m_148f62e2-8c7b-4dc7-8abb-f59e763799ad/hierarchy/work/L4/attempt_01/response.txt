@@ -1,0 +1,34 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group L3 episodes into broader L4 phases: 1. Commuting via MTR (0-6). 2. Completing errands and walking to the apartment (7-10). 3. Dining and cleaning routines in the apartment (11-13). 4. Evening leisure activities in the bedroom (14-18).",
+  "events": [
+    [
+      "0-6",
+      "I commute through the MTR network with my companion.",
+      "Commute concludes upon exiting the destination station."
+    ],
+    [
+      "7-10",
+      "I manage a sushi purchase and package delivery coordination during my walk to my apartment with my companion.",
+      "Walking and errand phase ends upon arriving at the apartment."
+    ],
+    [
+      "11-13",
+      "I complete my evening routines involving personal organization, a spaghetti and pizza dinner, and bedroom cleaning in my apartment.",
+      "Evening dinner and chores complete, shifting to leisure."
+    ],
+    [
+      "14-18",
+      "I dedicate my bedroom leisure time to AI research papers, a metabolic scaling laws e-book, Crayon Shin-chan videos, roommate socialization, and a dumpling snack.",
+      "End of recorded evening leisure activities."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

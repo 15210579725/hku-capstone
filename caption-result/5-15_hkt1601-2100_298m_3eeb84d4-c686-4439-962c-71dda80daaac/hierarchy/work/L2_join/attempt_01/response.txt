@@ -1,0 +1,30 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Review eligible boundary pairs and merge those that represent the continuous execution of the exact same immediate task, such as browsing the same app, eating the same meal, or continuing the same specific conversation topic.",
+  "merges": [
+    [
+      173,
+      174,
+      "I browse WeChat Moments, contacts, and profiles on my smartphone.",
+      "Same WeChat browsing session continues across the batch edge"
+    ],
+    [
+      252,
+      253,
+      "I eat my meal of beef, rice, and stir-fried green peppers from the shared dish.",
+      "Same eating action continues across the batch edge"
+    ],
+    [
+      273,
+      274,
+      "I converse with my companion about our school gyms and schedule a morning workout.",
+      "Same conversation topic about gyms continues across the batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

@@ -1,0 +1,29 @@
+```json
+{
+  "target_level": "L5",
+  "plan": "Maintain watching vlogs and eating as distinct major activities. They involve different overarching goals and targets, and cannot be unified into a single objective without violating the rule against using conjunctions like 'and' or 'while'.",
+  "events": [
+    [
+      "0",
+      "I watch vlogs about international travel destinations and living costs.",
+      "Target is media consumption"
+    ],
+    [
+      "1",
+      "I eat my fried noodles and omelet.",
+      "Target shifts to consuming a meal"
+    ],
+    [
+      "2",
+      "I watch vlogs exploring international travel and living costs.",
+      "Target shifts back to media consumption"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,34 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions related to Feishu document editing, resting in the office chair, resuming document typing, and opening a physical package.",
+  "events": [
+    [
+      "500-504",
+      "I edit a Feishu document regarding video and caption data testing.",
+      "Behavior shifts to resting away from the screen."
+    ],
+    [
+      "505-511",
+      "I rest in my office chair.",
+      "Attention shifts back to the laptop screen to resume work."
+    ],
+    [
+      "512-519",
+      "I type a question into the action prediction document.",
+      "Focus shifts from the computer to handling a physical package."
+    ],
+    [
+      "520-524",
+      "I open a packaging pouch containing glasses accessories.",
+      "End of provided input."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

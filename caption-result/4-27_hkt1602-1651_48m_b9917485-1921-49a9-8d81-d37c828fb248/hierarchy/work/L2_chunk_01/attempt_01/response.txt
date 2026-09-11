@@ -1,3 +1,141 @@
 ```json
-{"target_level":"L2","plan":"Group actions by continuous physical tasks (like transferring food, eating, or unwrapping snacks) combined with distinct conversational topics to form immediate tasks. Boundaries occur when there is a clear shift in physical focus or a significant transition to a new conversational subject.","events":[["0-3","I converse with my friend about my name while drinking milk.","Conversation shifts to serving food from the pot."],["4-25","I transfer noodles, tomatoes, kimchi, and luncheon meat from the cooking pot into my bowl and eat.","Focus shifts to transferring and discussing stir-fried eggs."],["26-33","I scrape stir-fried eggs into my bowl and joke with my companion about sharing.","Topic shifts to discussing the cooking portion and large amount of food."],["34-42","I pick food from the hotpot, get a tissue, and eat from my bowl while chatting about my cooking.","Conversation shifts to the food's taste and User X."],["43-57","I transfer toppings and eat noodles from my bowl while chatting about the food's taste.","Topic shifts to joking about opening a restaurant."],["58-67","I drink milk and joke about selling my fusion army stew.","Topic shifts to adding more tofu to the hotpot."],["68-76","I stir the stew and discuss adding more tofu with my roommate.","Action shifts to opening milk and discussing the tofu pudding."],["77-85","I open a milk carton and converse with my roommate about eating tofu pudding.","Conversation shifts to the specific flavor and preparation method of the tofu pudding."],["86-97","I discuss the flavor of the tofu pudding and whether to eat it directly or add it to the hotpot.","Action shifts to tasting a spoonful of the tofu pudding."],["98-101","I wipe a spoon and eat a spoonful of tofu pudding.","Action shifts to dumping the tofu pudding into the hotpot and discussing childhood snacks."],["102-115","I dump the tofu pudding into the hotpot and discuss childhood street snacks.","Action shifts to unwrapping a snack and discussing street vending economics."],["116-127","I unwrap a snack and discuss the economics of street vending.","Topic shifts to reminiscing about organizing a childhood flea market."],["128-142","I discard a snack wrapper while reminiscing about organizing a childhood flea market.","Focus shifts to the roommate recounting her own flea market experience."],["143-153","I hold a milk carton while listening to my roommate recount selling her childhood books and toys.","Action shifts to transferring noodles and discussing childhood ambition."],["154-169","I transfer noodles from the hotpot to my bowl while discussing childhood ambition.","Topic shifts to a story about a street fundraising challenge."],["170-186","I transfer food from the hotpot into my bowl while listening to a story about a street fundraising challenge.","Topic shifts to a debate about part-time jobs versus street challenges."],["187-206","I pick food from the hotpot and debate with my companions about part-time jobs and street challenges.","Action shifts to eating a boiled egg and discussing management trainee programs."],["207-215","I eat a boiled egg and a shrimp while discussing management trainee programs.","Topic shifts to discussing an insurance exam while ladling stew."],["216-228","I ladle stew from the hotpot into my bowl while discussing an insurance exam.","Action shifts to eating a sticky rice dumpling and discussing portion sizes."],["229-249","I eat a sticky rice dumpling and converse about cooking and portion sizes.","End of input."]],"audit":{"complete":true,"uncertainties":[],"major_triggers":[],"boundary_cautions":[]}}
+{
+  "target_level": "L2",
+  "plan": "Group continuous conversational topics and distinct physical eating or food-transferring tasks into immediate task units. Boundaries are placed when the primary conversation topic changes significantly or when the wearer switches between primarily conversing, transferring specific food items, or eating.",
+  "events": [
+    [
+      "0-3",
+      "I converse with my friend about my name.",
+      "Conversation about name ends; switches to gathering food."
+    ],
+    [
+      "4-12",
+      "I transfer noodles and ingredients from the cooking pot into my bowl.",
+      "Transfer task pauses to inspect other items."
+    ],
+    [
+      "13-19",
+      "I inspect a slice of luncheon meat and my surroundings.",
+      "Inspection ends; resumes transferring food."
+    ],
+    [
+      "20-24",
+      "I transfer noodles and food from the pot into my bowl.",
+      "Transfer completes; switches to eating and conversing."
+    ],
+    [
+      "25-34",
+      "I converse with my companion over a meal of scrambled eggs.",
+      "Topic shifts to the hotpot ingredients."
+    ],
+    [
+      "35-42",
+      "I discuss the hotpot ingredients over my meal.",
+      "Topic shifts to roommates' conversation."
+    ],
+    [
+      "43-58",
+      "I converse with my roommates over a bowl of noodles.",
+      "Topic shifts to discussing a recipe."
+    ],
+    [
+      "59-67",
+      "I discuss my army stew recipe with my roommates.",
+      "Topic shifts to adding tofu to the stew."
+    ],
+    [
+      "68-74",
+      "I discuss adding tofu to the army stew with my roommate.",
+      "Topic ends; switches to resting and opening a drink."
+    ],
+    [
+      "75-79",
+      "I open a milk carton.",
+      "Task shifts to discussing the tofu pudding."
+    ],
+    [
+      "80-96",
+      "I discuss the tofu pudding with my roommate.",
+      "Conversation transitions to eating the tofu pudding."
+    ],
+    [
+      "97-101",
+      "I eat a spoonful of tofu pudding.",
+      "Eating completes; switches to adding pudding to hotpot."
+    ],
+    [
+      "102-107",
+      "I transfer the tofu pudding into the hotpot.",
+      "Transfer completes; conversation shifts to other snacks."
+    ],
+    [
+      "108-115",
+      "I discuss childhood snacks with my roommates.",
+      "Topic shifts to street vendors."
+    ],
+    [
+      "116-127",
+      "I discuss street vendor earnings over a snack.",
+      "Topic shifts to a primary school flea market."
+    ],
+    [
+      "128-144",
+      "I discuss a primary school flea market with my companion.",
+      "Topic focuses specifically on roommate's flea market sales."
+    ],
+    [
+      "145-153",
+      "I listen to my roommate detail flea market sales.",
+      "Task shifts to stirring broth and discussing making money."
+    ],
+    [
+      "154-165",
+      "I discuss making money with my roommate over the hotpot broth.",
+      "Conversation pauses; focuses on transferring food."
+    ],
+    [
+      "166-173",
+      "I transfer noodles and food from the hotpot into my bowl.",
+      "Transfer pauses; shifts to listening to a story."
+    ],
+    [
+      "174-180",
+      "I listen to my companion describe a street challenge.",
+      "Story pauses; shifts back to transferring specific food."
+    ],
+    [
+      "181-190",
+      "I transfer tofu and noodles from the cooking pot into my bowl.",
+      "Transfer completes; shifts to discussing part-time jobs."
+    ],
+    [
+      "191-206",
+      "I discuss part-time jobs and street challenges with my friends.",
+      "Topic shifts to management trainee programs."
+    ],
+    [
+      "207-219",
+      "I discuss management trainee programs over my meal.",
+      "Topic shifts to an insurance exam."
+    ],
+    [
+      "220-228",
+      "I discuss an insurance exam over a bowl of stew.",
+      "Task shifts to eating a zongzi and discussing cooking portions."
+    ],
+    [
+      "229-249",
+      "I discuss cooking portions with my companion over a zongzi.",
+      "End of video."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": [
+      "Conversational topic shifts during an ongoing meal are segmented into separate L2 events based on distinct sub-topics."
+    ]
+  }
+}
 ```

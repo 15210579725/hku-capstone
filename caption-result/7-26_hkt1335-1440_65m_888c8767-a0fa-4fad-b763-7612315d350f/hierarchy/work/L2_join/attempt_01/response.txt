@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible pairs for continuation of identical immediate tasks across batch edges. Pairs [21, 22] and [32, 33] represent continuous map/phone searches for destinations and are merged. Pair [54, 55] represents a distinct transition from walking in the mall corridor to entering and getting seated at a restaurant, which are separate immediate tasks, so they are not merged.",
+  "merges": [
+    [
+      21,
+      22,
+      "I search for shopping malls and pet shops on the map application.",
+      "Same map search task continues across batch edge"
+    ],
+    [
+      32,
+      33,
+      "I search for pet locations and markets on my phone.",
+      "Same phone search task continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

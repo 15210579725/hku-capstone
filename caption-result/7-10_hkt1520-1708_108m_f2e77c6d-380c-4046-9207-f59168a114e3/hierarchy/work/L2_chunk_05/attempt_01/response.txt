@@ -1,0 +1,91 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous reading, typing, tool interactions, physical breaks, and transitions into concrete immediate tasks based on the primary system (Google Docs, ChatGPT, Claude) or subject focus.",
+  "events": [
+    [
+      "1000-1011",
+      "I review action prediction evaluation documents and metrics tables on my laptop.",
+      "Focus shifts to typing notes in Google Docs"
+    ],
+    [
+      "1012-1016",
+      "I type notes about soft-levenshtein distance and probability weighting in Google Docs.",
+      "Focus shifts to reviewing trajectory predictions"
+    ],
+    [
+      "1017-1031",
+      "I inspect trajectory prediction results and action annotations.",
+      "Focus shifts to using ChatGPT Codex"
+    ],
+    [
+      "1032-1037",
+      "I evaluate trajectory similarity metrics using ChatGPT Codex.",
+      "User takes a physical break to observe the office"
+    ],
+    [
+      "1038-1044",
+      "I observe my office surroundings from my chair.",
+      "Focus shifts back to laptop to review prompt configurations"
+    ],
+    [
+      "1045-1053",
+      "I review prompt configurations and evaluation instructions.",
+      "Focus shifts to observing the desk area"
+    ],
+    [
+      "1054-1058",
+      "I observe my desk area and laptop.",
+      "Focus shifts to writing in a notebook"
+    ],
+    [
+      "1059-1062",
+      "I write notes about formulas in my notebook.",
+      "Focus shifts to typing a prompt in ChatGPT"
+    ],
+    [
+      "1063-1074",
+      "I submit a ChatGPT prompt regarding time prediction metrics.",
+      "Prompt submitted; focus shifts to reading the response"
+    ],
+    [
+      "1075-1078",
+      "I read the ChatGPT response on action anticipation evaluation metrics.",
+      "Focus shifts to typing a follow-up prompt"
+    ],
+    [
+      "1079-1094",
+      "I draft a detailed prompt in ChatGPT to discuss flaws in my time prediction logic.",
+      "Focus shifts to handling a water bottle"
+    ],
+    [
+      "1095-1098",
+      "I handle a water bottle.",
+      "Focus shifts to reviewing conversation and typing notes"
+    ],
+    [
+      "1099-1103",
+      "I type notes into my document based on the ChatGPT conversation and evaluation table.",
+      "Focus shifts to reading Claude's response"
+    ],
+    [
+      "1104-1118",
+      "I read Claude's detailed critique of time prediction error formulas.",
+      "Leaves the desk to go to the restroom"
+    ],
+    [
+      "1119-1123",
+      "I walk from my desk to the restroom.",
+      "End of supplied events"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "1119-1123: Leaving the desk and walking down the hallway signals a transition away from work activities."
+    ],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,18 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Merge adjacent events across batch boundaries only if they describe the exact same immediate task continuing without interruption.",
+  "merges": [
+    [
+      67,
+      68,
+      "I observe the bus cabin interior, passengers, and outside scenery.",
+      "Same continuous observation task continues across the batch edge."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

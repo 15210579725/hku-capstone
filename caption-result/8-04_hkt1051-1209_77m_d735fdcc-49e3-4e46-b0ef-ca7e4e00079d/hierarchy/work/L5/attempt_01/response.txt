@@ -1,0 +1,31 @@
+```json
+{
+  "target_level": "L5",
+  "plan": "Group continuous desk-based computer tasks into a single morning work activity. Preserve the colleague's invitation as a standalone major behavior-changing trigger that redirects the plan. Group the commute, purchase, meal conversation, and return transit into a single unified lunch activity.",
+  "events": [
+    [
+      "0-2",
+      "I execute dataset evaluation, server configuration, and generation repair tasks using ChatGPT and Claude Code.",
+      "Interrupted by colleague initiating departure"
+    ],
+    [
+      "3",
+      "I hear a colleague initiate our departure.",
+      "Standalone major behavior-changing trigger"
+    ],
+    [
+      "4-5",
+      "I participate in a cafeteria lunch with my colleagues.",
+      "End of recording"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      3
+    ],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,177 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous physical movements, distinct device interactions, coherent conversational topics, and clear environmental observations into immediate tasks. Isolate major decisions that trigger new goals, such as deciding to enter a store or restaurant.",
+  "events": [
+    [
+      "1500-1513",
+      "I rest at a restaurant window table.",
+      "Continuous period of resting, complaining about the heat, and conversing at the table"
+    ],
+    [
+      "1514-1517",
+      "I browse Bilibili on my smartphone.",
+      "Continuous smartphone application usage"
+    ],
+    [
+      "1518-1519",
+      "I agree to leave the hot restaurant with my companion.",
+      "Conversation forming a distinct plan to depart"
+    ],
+    [
+      "1520-1530",
+      "I leave the building via the stairs and escalator.",
+      "Continuous physical navigation to exit the dining building"
+    ],
+    [
+      "1531-1532",
+      "I announce my intention to call my mother.",
+      "Brief standalone statement regarding a phone call"
+    ],
+    [
+      "1533-1540",
+      "I watch a Bilibili video about concept car designs.",
+      "Continuous video consumption session"
+    ],
+    [
+      "1541-1544",
+      "I discuss storefront shopping options with my companion.",
+      "Standalone conversation about potential destinations"
+    ],
+    [
+      "1545-1562",
+      "I observe the surrounding storefronts while walking through the pedestrian plaza.",
+      "Continuous walking and observation of the environment"
+    ],
+    [
+      "1563",
+      "I suggest visiting the Huawei store to my companion.",
+      "Major trigger initiating a new goal to enter the store"
+    ],
+    [
+      "1564-1579",
+      "I test various applications on a Mate 80 Pro Max display smartphone.",
+      "Continuous testing session with a single display device"
+    ],
+    [
+      "1580-1582",
+      "I observe the Huawei store interior and other visitors.",
+      "Period of looking around the store environment"
+    ],
+    [
+      "1583-1589",
+      "I observe my companion testing a camera demonstration lightbox.",
+      "Continuous observation of a companion's specific activity"
+    ],
+    [
+      "1590-1596",
+      "I test the interface on another Huawei display smartphone.",
+      "Interaction with a second display device"
+    ],
+    [
+      "1597",
+      "I hear a child ask a question in the store.",
+      "Brief isolated auditory event"
+    ],
+    [
+      "1598-1601",
+      "I exit the Huawei store.",
+      "Continuous navigation to leave the store"
+    ],
+    [
+      "1602-1605",
+      "I walk along the pedestrian street.",
+      "Continuous walking along the street"
+    ],
+    [
+      "1606-1611",
+      "I joke with my companion about the softness of her arm.",
+      "Continuous conversation focused on a single topic"
+    ],
+    [
+      "1612-1619",
+      "I playfully tease my companion while walking down the street.",
+      "Continuation of playful interaction with the companion"
+    ],
+    [
+      "1620-1625",
+      "I converse with my companion about returning to rest.",
+      "Distinct conversational topic regarding sleeping and resting"
+    ],
+    [
+      "1626-1630",
+      "I joke with my companion about her cold arm.",
+      "Return to the previous joking conversation topic"
+    ],
+    [
+      "1631-1638",
+      "I discuss food items with my companion while navigating the pedestrian plaza.",
+      "Conversation regarding meat and food mixed with continuous walking"
+    ],
+    [
+      "1639-1649",
+      "I observe the illuminated displays while approaching a commercial building.",
+      "Observing the environment and storefronts while approaching a new area"
+    ],
+    [
+      "1650-1651",
+      "I walk toward the crosswalk by the illuminated Huawei building.",
+      "Specific navigation segment toward the crosswalk"
+    ],
+    [
+      "1652-1656",
+      "I state my intention to buy an egg tart at KFC.",
+      "Major trigger initiating the goal to visit the restaurant"
+    ],
+    [
+      "1657-1664",
+      "I secure a table inside the KFC restaurant.",
+      "Entering the restaurant and settling at a table"
+    ],
+    [
+      "1665-1669",
+      "I review flight schedules and maps on my smartphone.",
+      "Brief smartphone usage unrelated to ordering"
+    ],
+    [
+      "1670-1679",
+      "I locate the correct KFC store using the mobile app.",
+      "App navigation to set up the ordering process"
+    ],
+    [
+      "1680-1697",
+      "I order a Portuguese egg tart using the KFC mobile app.",
+      "Continuous food ordering and submission process"
+    ],
+    [
+      "1698-1706",
+      "I discuss the poor quality of our previously purchased food with my companions.",
+      "Specific conversational topic while waiting at the table"
+    ],
+    [
+      "1707-1709",
+      "I observe the KFC dining area.",
+      "Brief observation of the restaurant surroundings"
+    ],
+    [
+      "1710-1742",
+      "I watch a Bilibili video analyzing Ferrari automotive designs.",
+      "Continuous video consumption session"
+    ],
+    [
+      "1743-1749",
+      "I check my KFC app to confirm my order status and restaurant location.",
+      "Checking digital order details"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "1563",
+      "1652-1656"
+    ],
+    "boundary_cautions": []
+  }
+}
+```

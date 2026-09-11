@@ -1,0 +1,116 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks based on distinct interactions, digital workflows, and conversational topics.",
+  "events": [
+    [
+      "2000-2023",
+      "I converse with passengers about birthday plans during a car ride.",
+      "Conversation shifts as the vehicle approaches the destination."
+    ],
+    [
+      "2024-2042",
+      "I exit the vehicle upon arriving at the destination.",
+      "Vehicle disembarkation completes."
+    ],
+    [
+      "2043-2053",
+      "I enter the cafe with my companion to find a seat.",
+      "Initial arrival completes upon reaching the ordering counter."
+    ],
+    [
+      "2054-2068",
+      "I purchase an iced vanilla Americano at the cafe counter.",
+      "Payment completes and confirmed."
+    ],
+    [
+      "2069-2088",
+      "I set up my MacBook at the cafe window counter.",
+      "Physical setup completes as focus shifts to the laptop interface."
+    ],
+    [
+      "2089-2097",
+      "I discuss changing seats with my companion due to the loud speaker noise.",
+      "Focus shifts from the laptop to searching for a new location."
+    ],
+    [
+      "2098-2112",
+      "I search for alternative cafe recommendations on my smartphone map app.",
+      "Phone search concludes as focus returns to the laptop."
+    ],
+    [
+      "2113-2123",
+      "I review rollout evaluation items and data processing logs on my MacBook.",
+      "Work workflow pauses to view a friend's phone screen."
+    ],
+    [
+      "2124-2131",
+      "I browse the Moonrise Coffee menu and customer reviews on the Dianping app.",
+      "Browsing completes when deciding to make a phone call."
+    ],
+    [
+      "2132-2138",
+      "I call Moonrise Coffee to inquire about seating availability.",
+      "Phone call concludes."
+    ],
+    [
+      "2139-2142",
+      "I browse alternative cafe recommendations on my smartphone.",
+      "Phone browsing concludes as focus returns to the laptop."
+    ],
+    [
+      "2143-2154",
+      "I read the ARIN7011 Numerical Methods exam PDF on my MacBook.",
+      "File browsing and PDF reading completes to access a different platform."
+    ],
+    [
+      "2155-2164",
+      "I log into HKU Moodle to read the artificial intelligence kernel PCA assignment.",
+      "Task interrupted by the companion bringing coffee."
+    ],
+    [
+      "2165-2172",
+      "I pack my MacBook and power bank into my backpack after my companion brings iced coffee.",
+      "Packing completes to address travel plans."
+    ],
+    [
+      "2173-2197",
+      "I search for ferry schedules to Hong Kong Central using the ChatGPT app.",
+      "Ferry search completes as focus shifts to discussing logistics."
+    ],
+    [
+      "2198-2210",
+      "I converse with my companion regarding luggage logistics and our destination.",
+      "Logistics conversation resolves into verifying a ticket order."
+    ],
+    [
+      "2211-2221",
+      "I verify the ferry ticket order and payment on my smartphone.",
+      "Ticket verification concludes."
+    ],
+    [
+      "2222-2232",
+      "I set up my MacBook to read a math problem sheet.",
+      "Laptop setup completes to shift focus back to the backpack."
+    ],
+    [
+      "2233-2244",
+      "I organize items inside my backpack including my corn breakfast and a water bottle.",
+      "Backpack organization concludes."
+    ],
+    [
+      "2245-2249",
+      "I notice a missing earplug and state my plan to visit the library tomorrow.",
+      "End of provided input."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "The loud speaker noise prompts the goal of finding an alternative location."
+    ],
+    "boundary_cautions": []
+  }
+}
+```

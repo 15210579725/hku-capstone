@@ -1,0 +1,83 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks based on clear shifts in activity (working to eating), location changes, and primary conversational topics or distinct interactions during the meal.",
+  "events": [
+    [
+      "1000-1026",
+      "I adjust the Glass effect settings in Figma on my laptop.",
+      "Task shifts from working in Figma to noticing takeout food."
+    ],
+    [
+      "1027-1036",
+      "I discover the takeout food ordered by my roommate and prepare to eat.",
+      "Task shifts from preparing for the meal to walking to another room."
+    ],
+    [
+      "1037-1041",
+      "I walk to the bedroom carrying my rice bowl and chopsticks.",
+      "Task shifts from walking to settling down and setting up a video."
+    ],
+    [
+      "1042-1049",
+      "I settle down with my food and start watching a video on my laptop.",
+      "Task shifts from setting up to beginning to eat and discuss the food."
+    ],
+    [
+      "1050-1071",
+      "I start eating the takeout food and converse with my companion about the vegetarian dishes.",
+      "Conversation shifts from the food to discussing the variety show."
+    ],
+    [
+      "1072-1104",
+      "I eat my meal while watching a variety show on my laptop and discussing the show with my companion.",
+      "Focus shifts to strongly reacting to specific scenes in the show."
+    ],
+    [
+      "1105-1133",
+      "I eat my meal and react to the scenes in the variety show on my laptop.",
+      "Focus shifts to interacting with my companion and passing them chopsticks."
+    ],
+    [
+      "1134-1160",
+      "I eat my meal, converse with my companion, and pass them chopsticks.",
+      "Task shifts back to quietly eating and watching the show."
+    ],
+    [
+      "1161-1196",
+      "I continue eating my meal while watching the variety show on my laptop.",
+      "Task is interrupted by helping my roommate locate tissue paper."
+    ],
+    [
+      "1197-1201",
+      "I converse with my roommate and help them locate tissue paper on my study desk.",
+      "Task returns to eating and watching the variety show."
+    ],
+    [
+      "1202-1224",
+      "I eat my meal while watching the variety show on my laptop.",
+      "Conversation shifts to sharing the remaining food."
+    ],
+    [
+      "1225-1239",
+      "I converse with my roommate about sharing the remaining food and mention a funny comedy video.",
+      "Task shifts from watching the laptop to watching a video on my companion's phone."
+    ],
+    [
+      "1240-1249",
+      "I watch a comedy video on my companion's phone.",
+      "End of input sequence."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "Noticing the takeout food ordered by my roommate triggers the end of my Figma work and starts my meal."
+    ],
+    "boundary_cautions": [
+      "Segmenting the continuous meal into distinct L2 events based on conversational shifts (food, show discussion, passing chopsticks) to maintain immediate task granularity."
+    ]
+  }
+}
+```

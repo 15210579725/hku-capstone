@@ -1,0 +1,29 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group restaurant dining and conversation into a single meal phase, consolidate the departure, waiting, and transit process into a return journey, and separate the subsequent in-room search task.",
+  "events": [
+    [
+      "0-7",
+      "I share a barbecue meal with my companion.",
+      "Unifies all conversation, ordering, and dining steps at the restaurant into one meal phase."
+    ],
+    [
+      "8-12",
+      "I return to my hotel room from the restaurant.",
+      "Combines gathering belongings, arranging the ride, transit, and building navigation into one journey phase."
+    ],
+    [
+      "13",
+      "I search for electric mosquito repellent in my hotel room.",
+      "Marks a new specific objective after arriving at the room."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

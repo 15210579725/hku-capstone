@@ -1,0 +1,66 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group immediate tasks into coherent activity episodes based on location changes, primary application usage, and continuous overarching goals.",
+  "events": [
+    [
+      "0-4",
+      "I pack my laptop and belongings into my backpack for departure.",
+      "Groups packing and departure preparations"
+    ],
+    [
+      "5-26",
+      "I review my handwritten math notes during my transit to the Main Library.",
+      "Groups the continuous journey and concurrent brief study stops"
+    ],
+    [
+      "27-29",
+      "I set up my workspace with my laptop and earplugs at a library study table.",
+      "Groups the immediate tasks of settling into the location"
+    ],
+    [
+      "30-32",
+      "I review optimization results, exam suggestions, and technology research on my laptop.",
+      "Groups preliminary computer tasks before watching videos"
+    ],
+    [
+      "33-56",
+      "I watch various recommended videos on Bilibili.",
+      "Groups continuous video watching and browsing on one platform"
+    ],
+    [
+      "57-60",
+      "I check data processing logs and research notes in VS Code and Feishu.",
+      "Groups the review of development logs and notes"
+    ],
+    [
+      "61-70",
+      "I convert my MATH7502 lecture notes into a study guide using AI tools.",
+      "Groups the steps taken to process PDFs and prompt AI"
+    ],
+    [
+      "71-94",
+      "I study probabilistic methods and Ramsey numbers using Claude AI and my notebook.",
+      "Groups the continuous study session involving AI consultation and handwritten notes"
+    ],
+    [
+      "95-98",
+      "I read WeChat messages and academic texts on my devices.",
+      "Groups mixed device usage for messaging and reading before leaving"
+    ],
+    [
+      "99",
+      "I leave the library study lounge.",
+      "Stands alone as the start of a departure from the library"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      99
+    ],
+    "boundary_cautions": []
+  }
+}
+```

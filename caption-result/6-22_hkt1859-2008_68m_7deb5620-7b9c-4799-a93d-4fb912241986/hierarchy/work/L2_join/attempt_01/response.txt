@@ -1,0 +1,18 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible pairs for continuous identical immediate tasks. Merge [60, 61] because the conversation with the companion continues directly across the boundary. Do not merge [20, 21] due to a 31-second time gap and a shift from handing an object to simply walking. Do not merge [85, 86] because the immediate task changes from browsing merchandise to departing the shop.",
+  "merges": [
+    [
+      60,
+      61,
+      "I converse with my companion while walking along the trail.",
+      "Conversation continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible pairs for exact continuation of the same immediate task. [30, 31] merges continuous reading of the same research paper (DiscoRL is the Nature paper). [42, 43] separates resting from active reading. [51, 52] separates device pairing from searching the Chrome web store. [72, 73] merges continuous cross-referencing of ChatGPT explanations and paper diagrams regarding meta-networks.",
+  "merges": [
+    [
+      30,
+      31,
+      "I read sections of the DiscoRL Nature paper.",
+      "Continuous reading of the same research paper across the batch boundary."
+    ],
+    [
+      72,
+      73,
+      "I examine ChatGPT explanations and paper diagrams regarding meta-networks.",
+      "Continuous cross-referencing of the same ChatGPT explanations and paper diagrams."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

@@ -1,0 +1,24 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible pairs to identify continuations of the identical immediate task across batch edges. Only merge pairs that represent an uninterrupted continuation of the exact same action, such as browsing the same application, while leaving distinct but topically related tasks separate.",
+  "merges": [
+    [
+      61,
+      62,
+      "I read and browse articles on my phone.",
+      "Smartphone article reading session continues across batch edge"
+    ],
+    [
+      97,
+      98,
+      "I read and browse posts and videos on X.",
+      "X browsing session continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

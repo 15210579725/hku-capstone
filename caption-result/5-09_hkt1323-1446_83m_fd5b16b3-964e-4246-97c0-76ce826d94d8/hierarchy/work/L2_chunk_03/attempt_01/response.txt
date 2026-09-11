@@ -1,0 +1,69 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group contiguous actions into immediate tasks based on the primary object of interaction or activity, such as reading a specific book, browsing shelves, or using a particular application on the phone. Boundaries occur when putting away a book, navigating to a different area, or switching applications.",
+  "events": [
+    [
+      "500-511",
+      "I read a Guangdong Treasure Hunting comic book.",
+      "Places book back on shelf"
+    ],
+    [
+      "512-554",
+      "I browse various bookshelves in the bookstore.",
+      "Leaves the area to walk downstairs"
+    ],
+    [
+      "555-559",
+      "I walk downstairs and look at a drinks cart and bestseller table.",
+      "Shifts attention to examining a specific book"
+    ],
+    [
+      "560-567",
+      "I examine Mo Yan's novel 《生死疲劳》.",
+      "Places book back on shelf"
+    ],
+    [
+      "568-571",
+      "I browse bookshelves and an essay display table.",
+      "Picks up a specific book to read"
+    ],
+    [
+      "572-677",
+      "I read Stefan Zweig's 《人类群星闪耀时》.",
+      "Switches to phone to message someone"
+    ],
+    [
+      "678-683",
+      "I message babe on WeChat about eating together.",
+      "Navigates to read an article"
+    ],
+    [
+      "684-697",
+      "I read a WeChat article about DeepSeek V4.",
+      "Navigates back to the chat"
+    ],
+    [
+      "698-702",
+      "I message babe on WeChat to ask for a location.",
+      "Returns to browsing books"
+    ],
+    [
+      "703-732",
+      "I browse various book displays and shelves.",
+      "Picks up a specific book to read"
+    ],
+    [
+      "733-749",
+      "I read Ma Boyong's novel 《长安的荔枝》.",
+      "End of input"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

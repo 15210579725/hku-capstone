@@ -1,0 +1,179 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks, focusing on the primary target or interaction (e.g., smartphone usage, air conditioner adjustment, conversations with the repairman, interacting with the toilet).",
+  "events": [
+    [
+      "500-508",
+      "I browse articles and notifications on my smartphone.",
+      "Completes smartphone browsing session"
+    ],
+    [
+      "509-514",
+      "I check the weather on my smartphone.",
+      "Finishes checking weather"
+    ],
+    [
+      "515-520",
+      "I look around the apartment and close the bedroom door.",
+      "Closes bedroom door"
+    ],
+    [
+      "521-525",
+      "I adjust the air conditioner settings using the remote control.",
+      "Finishes AC adjustment"
+    ],
+    [
+      "526-528",
+      "I look at the balcony door track in frustration.",
+      "Shifts attention to smartphone"
+    ],
+    [
+      "529-536",
+      "I browse communications on my smartphone.",
+      "Transitions to making a phone call"
+    ],
+    [
+      "537-538",
+      "I wait for a phone call to connect.",
+      "Call attempt interrupted by arrival"
+    ],
+    [
+      "539-543",
+      "I explain the toilet issue to the arriving repairman.",
+      "Finishes initial problem explanation"
+    ],
+    [
+      "544-552",
+      "I watch the repairman disassemble the broken toilet.",
+      "Repairman begins internal work"
+    ],
+    [
+      "553-567",
+      "I watch the repairman work on the toilet until he diagnoses a broken controller.",
+      "Diagnosis necessitates messaging landlord"
+    ],
+    [
+      "568-580",
+      "I report the repair cost and send a toilet photo to the landlord on WeChat.",
+      "Finishes messaging landlord"
+    ],
+    [
+      "581-595",
+      "I discuss the toilet's lack of advanced AI features with the repairman and a friend.",
+      "Shifts to AC adjustment"
+    ],
+    [
+      "596-598",
+      "I lower the air conditioner temperature using the remote control.",
+      "Finishes adjusting AC"
+    ],
+    [
+      "599-601",
+      "I confirm the repair payment arrangement with the landlord on WeChat.",
+      "Shifts to reading messages from babe"
+    ],
+    [
+      "602-606",
+      "I read WeChat messages from babe regarding apartment keys and chores.",
+      "Repairman interrupts with a suggestion"
+    ],
+    [
+      "607-611",
+      "I agree to the repairman's suggestion for a replacement part.",
+      "Shifts to messaging babe"
+    ],
+    [
+      "612-614",
+      "I reply to babe on WeChat.",
+      "Engages in conversation with repairman"
+    ],
+    [
+      "615-624",
+      "I discuss toilet maintenance with the working repairman.",
+      "Shifts to messaging babe"
+    ],
+    [
+      "625-630",
+      "I discuss a fingerprint lock and hiding keys with babe on WeChat.",
+      "Finishes messaging babe"
+    ],
+    [
+      "631-640",
+      "I survey the bedroom and balcony area.",
+      "Shifts to adjusting AC"
+    ],
+    [
+      "641-643",
+      "I manually adjust the air conditioner vent.",
+      "Engages in conversation about toilet mechanics"
+    ],
+    [
+      "644-655",
+      "I discuss the toilet's mechanics with the repairman.",
+      "Conversation ends, focus returns to repair work"
+    ],
+    [
+      "656-659",
+      "I watch the repairman repair the toilet.",
+      "Shifts attention to washing machine"
+    ],
+    [
+      "660-664",
+      "I look at the washing machine on the balcony.",
+      "Repairman initiates conversation about disposal rules"
+    ],
+    [
+      "665-674",
+      "I discuss rules for toilet paper disposal and unclogging fees with the repairman.",
+      "Focus shifts to assisting companion"
+    ],
+    [
+      "675-687",
+      "I assist my companion with the toilet socket cover and power adapter.",
+      "Finishes assisting companion"
+    ],
+    [
+      "688-693",
+      "I ask the repairman about wall-mounting glue for the toilet.",
+      "Shifts focus to paying technician"
+    ],
+    [
+      "694-704",
+      "I pay the technician ¥140 via WeChat Pay.",
+      "Finishes payment, realizes toilet is unsecured"
+    ],
+    [
+      "705-725",
+      "I argue with the repairman for refusing to secure the toilet to the floor.",
+      "Argument ends as repairman refuses to fix toilet"
+    ],
+    [
+      "726-729",
+      "I authorize a WeChat payment on my smartphone.",
+      "Finishes payment authorization"
+    ],
+    [
+      "730-732",
+      "I express frustration on the balcony regarding the departed repairman.",
+      "Shifts to checking messages"
+    ],
+    [
+      "733-737",
+      "I read WeChat messages from the landlord.",
+      "Returns to inspecting toilet"
+    ],
+    [
+      "738-749",
+      "I angrily inspect the unfixed toilet in the bathroom.",
+      "End of provided sequence"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

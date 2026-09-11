@@ -1,0 +1,126 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous riding segments separated by traffic lights or major route transitions, and group discrete immediate tasks for security entry, parking, troubleshooting, and distinct application uses on the computer and smartphone.",
+  "events": [
+    [
+      "250-259",
+      "I ride the electric scooter out of the residential compound onto the roadway.",
+      "Task ends upon exiting the residential compound onto the main road."
+    ],
+    [
+      "260-273",
+      "I ride the electric scooter across a bridge to wait at an intersection red light.",
+      "Task concludes when stopped at an intersection red light."
+    ],
+    [
+      "274-287",
+      "I ride across the intersection to wait at the next red light.",
+      "Task concludes when waiting at the next traffic light."
+    ],
+    [
+      "288-301",
+      "I ride along Tanglu Highway to an upcoming intersection.",
+      "Task ends upon reaching and pausing at the next intersection."
+    ],
+    [
+      "302-313",
+      "I ride the electric scooter over the Chuanyang River Bridge.",
+      "Task ends after descending from the bridge into a new road segment."
+    ],
+    [
+      "314-331",
+      "I ride past a gas station to wait at an intersection red light.",
+      "Task ends while waiting at a red light."
+    ],
+    [
+      "332-351",
+      "I ride along a dedicated bicycle lane to the Tanghuang Road intersection.",
+      "Task ends upon reaching the Tanghuang Road intersection."
+    ],
+    [
+      "352-361",
+      "I ride along the roadway to the campus entrance gate.",
+      "Task concludes upon arriving at the campus security gate."
+    ],
+    [
+      "362-369",
+      "I search my backpack for my ID badge at the campus security turnstile.",
+      "Task concludes after the badge is stowed and the turnstile is cleared."
+    ],
+    [
+      "370-395",
+      "I ride the electric scooter through the campus to the office entrance.",
+      "Task concludes upon arriving near the office entrance and stopping to check my backpack."
+    ],
+    [
+      "396-422",
+      "I search for an electric scooter charging station using the Amap app on my smartphone.",
+      "Task ends when the smartphone is put away and the backpack is zipped."
+    ],
+    [
+      "423-432",
+      "I ride the electric scooter to an underground parking space.",
+      "Task ends when the scooter is parked in the spot."
+    ],
+    [
+      "433-435",
+      "I check the Hello e-bike rental app on my smartphone.",
+      "Task concludes after briefly checking the app."
+    ],
+    [
+      "436-444",
+      "I walk from the parking area into the laboratory building lobby.",
+      "Task ends upon entering the building lobby."
+    ],
+    [
+      "445-452",
+      "I pass through the lobby turnstile to wait for the elevator.",
+      "Task ends while waiting for the elevator."
+    ],
+    [
+      "453-459",
+      "I ride the elevator to the 9th floor.",
+      "Task ends when the elevator doors open on the 9th floor."
+    ],
+    [
+      "460-468",
+      "I set up my MacBook at my office workstation.",
+      "Task concludes after the MacBook is placed on the desk and opened."
+    ],
+    [
+      "469-476",
+      "I send a WeChat message to babe on my MacBook.",
+      "Task ends when switching applications after messaging."
+    ],
+    [
+      "477-484",
+      "I type notes about a recent conversation into a Feishu document.",
+      "Task ends when switching focus to a new document."
+    ],
+    [
+      "485-489",
+      "I review the table of contents of a psychology textbook in Chrome.",
+      "Task concludes when switching to research notes."
+    ],
+    [
+      "490-495",
+      "I review psychology quiz questions and emotion research notes on my MacBook.",
+      "Task concludes when focus shifts from the MacBook to the smartphone."
+    ],
+    [
+      "496-499",
+      "I check notifications and applications on my smartphone.",
+      "Batch ends while browsing phone apps."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "Realizing the lack of a charging solution near the office triggers a smartphone search for nearby charging stations."
+    ],
+    "boundary_cautions": []
+  }
+}
+```

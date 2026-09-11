@@ -1,0 +1,129 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group action briefs into immediate tasks based on location changes, app/device usage, and interaction goals.",
+  "events": [
+    [
+      "2500-2503",
+      "I interact with a game on my MacBook.",
+      "Closes MacBook and begins packing"
+    ],
+    [
+      "2504-2515",
+      "I pack my backpack.",
+      "Packing complete, checks phone"
+    ],
+    [
+      "2516-2519",
+      "I browse listings on my smartphone.",
+      "Begins walking out of building"
+    ],
+    [
+      "2520-2527",
+      "I walk out of the office building.",
+      "Exits building and focuses on browsing"
+    ],
+    [
+      "2528-2536",
+      "I browse game and hardware listings on Xianyu.",
+      "Topic shifts to AI and banknotes"
+    ],
+    [
+      "2537-2549",
+      "I browse AI tool and banknote listings on Xianyu.",
+      "Opens specific product listings"
+    ],
+    [
+      "2550-2555",
+      "I read DeepSeek OCR and MacBook Pro listings on Xianyu.",
+      "Resumes walking down steps"
+    ],
+    [
+      "2556-2564",
+      "I walk down steps while browsing Xianyu listings.",
+      "Arrives at elevator"
+    ],
+    [
+      "2565-2568",
+      "I call and enter an elevator.",
+      "Starts walking down hallway"
+    ],
+    [
+      "2569-2574",
+      "I walk down a hallway while browsing AI subscription listings on my phone.",
+      "Reaches stairs"
+    ],
+    [
+      "2575-2579",
+      "I walk up a staircase and down a hallway while viewing AI tool listings.",
+      "Opens specific listing details"
+    ],
+    [
+      "2580-2583",
+      "I view the details of an Nvidia API listing on my phone.",
+      "Resumes walking"
+    ],
+    [
+      "2584-2587",
+      "I walk to an elevator while browsing Xianyu.",
+      "Arrives at elevator"
+    ],
+    [
+      "2588-2592",
+      "I wait for and enter an elevator.",
+      "Opens specific listing"
+    ],
+    [
+      "2593-2595",
+      "I view a Disco Elysium listing on Xianyu.",
+      "Exits elevator"
+    ],
+    [
+      "2596-2600",
+      "I exit the elevator and walk along the sidewalk.",
+      "Resumes phone browsing"
+    ],
+    [
+      "2601-2608",
+      "I browse Xianyu listings on my smartphone while walking.",
+      "Exits app"
+    ],
+    [
+      "2609-2617",
+      "I walk down an outdoor staircase.",
+      "Reaches roadway"
+    ],
+    [
+      "2618-2623",
+      "I cross the roadway and walk along the sidewalk.",
+      "Arrives at building courtyard"
+    ],
+    [
+      "2624-2627",
+      "I walk through a courtyard into a building lobby.",
+      "Reaches elevator"
+    ],
+    [
+      "2628-2631",
+      "I enter an elevator and select the 15th floor.",
+      "Begins browsing Taobao"
+    ],
+    [
+      "2632-2637",
+      "I browse Taobao on my phone in the elevator.",
+      "Exits elevator"
+    ],
+    [
+      "2638-2641",
+      "I exit the elevator and enter a unit.",
+      "Task complete"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

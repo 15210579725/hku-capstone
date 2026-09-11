@@ -1,0 +1,11 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible pairs for artificial batch-edge splits. Pair [17, 18] involves transitioning from passing through turnstiles to pulling a suitcase in the corridor; these are distinct immediate tasks, not a single task split. Pair [44, 45] transitions from inspecting a lobby display cart to checking in at the reception desk; these are also distinct immediate tasks. Therefore, no merges are performed.",
+  "merges": [],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

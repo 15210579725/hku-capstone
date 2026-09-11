@@ -1,3 +1,149 @@
 ```json
-{"target_level":"L2","plan":"Group consecutive briefs into immediate tasks based on shared immediate goals and targets, such as boarding, observing, using devices, walking, or riding escalators.","events":[["0-4","I board the MTR train and take a seat.","Boarding and seating complete, attention shifts to observing."],["5-23","I sit on the train, observe the carriage interior, and gesture while conversing.","Observation phase pauses to look at phone."],["24-25","I look at my smartphone while holding hands with my companion.","Attention shifts to adjusting clothing."],["26-27","I adjust the drawstring on my pants.","Adjustment completes, attention shifts to companion's phone."],["28-38","I watch my companion's smartphone and discuss clothing styles with her.","Conversation about clothing ends, attention shifts back to carriage."],["39-61","I sit on the train and observe the carriage interior and passengers.","Observation phase ends with physical interaction with companion."],["62-76","I hold hands and converse with my companion while sitting on the train.","Conversation ends, preparing to alight."],["77-80","I stand up and step off the train at Admiralty station.","Alighting complete, transitioning to walking."],["81-88","I walk through the Admiralty station concourse toward the escalators.","Arrival at the escalator."],["89-99","I ride the escalator down to the lower level while conversing with my companion.","Escalator ride ends at the lower concourse."],["100-104","I walk from the escalator to the subway platform.","Arrival at the platform waiting area."],["105-115","I wait on the platform for the next train to arrive.","Waiting ends as train arrives and doors open."],["116-120","I board the subway train, take a seat, and observe the compartment.","Boarding and seating complete, initiating conversation."],["121-143","I converse with my companion and observe the train carriage while holding my phone.","Observation and conversation pause to actively use phone."],["144-160","I browse photos, use a search bar, and check messages on my smartphone.","Phone usage paused for physical interaction and conversation."],["161-163","I converse with my companion and adjust my shoe.","Shoe adjustment completes, return to using phone."],["164-174","I browse a social media feed and photos on my smartphone, then converse with my companions.","Browsing session shifts to focusing on different topics and a new photo session."],["175-194","I browse photos and short videos on my smartphone and discuss them with my companion.","Phone viewing shifts to a video feed on companion's phone."],["195-200","I watch a short video feed shown by my companion and discuss new car models with her.","Car conversation ends, return to observing carriage."],["201-214","I observe the train carriage and converse with my companion while holding a snack box.","Observation and conversation pause to look at companion's phone."],["215-233","I watch my companion browse her WeChat Moments and discuss past photos with her.","WeChat Moments discussion ends, return to own phone."],["234-245","I browse user profiles and examine photos on a social media app on my smartphone.","Attention shifts from own phone to companion's phone."],["246-249","I watch my companion browse Xiaohongshu on her phone and listen to her comments.","End of input events."]],"audit":{"complete":true,"uncertainties":[],"major_triggers":[],"boundary_cautions":[]}}
+{
+  "target_level": "L2",
+  "plan": "Group raw action briefs into unified immediate tasks based on continuous actions, active conversational topics, physical movements, and focused digital interactions.",
+  "events": [
+    [
+      "0-6",
+      "I take a seat inside the MTR train carriage.",
+      "Boarding and taking a seat completes the immediate transit transition."
+    ],
+    [
+      "7-12",
+      "I observe the passengers and interior fixtures of the moving MTR train.",
+      "Continuous observation is interrupted by active conversation."
+    ],
+    [
+      "13-17",
+      "I gesture with a thumbs-up during a conversation.",
+      "The distinct conversational gesture concludes."
+    ],
+    [
+      "18-23",
+      "I observe the standing passengers and carriage interior.",
+      "Shifts focus to holding hands."
+    ],
+    [
+      "24-25",
+      "I hold hands with my seated companion.",
+      "Handholding is interrupted to adjust clothing."
+    ],
+    [
+      "26-27",
+      "I adjust the white drawstring on my checkered pants.",
+      "Clothing adjustment completes."
+    ],
+    [
+      "28-38",
+      "I discuss Taobao and Xiaohongshu clothing styles with my companion.",
+      "Topic of clothing styles on specific apps concludes."
+    ],
+    [
+      "39-61",
+      "I observe the commuters and digital screens inside the moving subway carriage.",
+      "Extended passive observation shifts to physical affection."
+    ],
+    [
+      "62-67",
+      "I hold hands with my seated companion.",
+      "Physical affection is followed by a period of resting and conversing."
+    ],
+    [
+      "68-78",
+      "I listen to my companion inside the MTR train carriage.",
+      "The train arrives at Admiralty station, prompting exit."
+    ],
+    [
+      "79-88",
+      "I walk through the Admiralty station concourse toward the escalators.",
+      "Reaching the escalators changes the mode of traversal."
+    ],
+    [
+      "89-100",
+      "I ride the escalator down through the multi-level transit station.",
+      "Reaching the bottom of the escalator completes the descent."
+    ],
+    [
+      "101-104",
+      "I walk down the concourse corridor toward the platform screen doors.",
+      "Reaching the platform changes the action to waiting."
+    ],
+    [
+      "105-112",
+      "I wait among the crowd at the subway platform.",
+      "The arrival of the train shifts the task to boarding."
+    ],
+    [
+      "113-121",
+      "I board the subway train with the waiting crowd.",
+      "Boarding completes as attention turns to conversing."
+    ],
+    [
+      "122-139",
+      "I converse with my companion inside the moving train carriage.",
+      "Conversation pauses for a distinct period of observation."
+    ],
+    [
+      "140-143",
+      "I observe the passengers seated opposite me.",
+      "Focus shifts entirely to browsing a smartphone."
+    ],
+    [
+      "144-152",
+      "I browse my phone gallery for photos of past dates and a 366-day anniversary counter.",
+      "Shifts to browsing chat and search history."
+    ],
+    [
+      "153-159",
+      "I browse my chat conversations and search history.",
+      "Shifts back to physical interaction with the companion."
+    ],
+    [
+      "160-163",
+      "I gesture dynamically during a conversation with my companion.",
+      "Conversational gesturing ends to focus on social media feeds."
+    ],
+    [
+      "164-173",
+      "I browse social media feeds and outdoor landscape photo posts.",
+      "Shifts to a distinct set of food and memory photos."
+    ],
+    [
+      "174-181",
+      "I view food photographs and a 200-day cartoon graphic on my phone.",
+      "Shifts to discussing photos of a specific person."
+    ],
+    [
+      "182-192",
+      "I discuss portrait photos of a junior schoolmate with my companion.",
+      "Topic changes entirely to cars."
+    ],
+    [
+      "193-200",
+      "I discuss new car models and sales representatives with my companion.",
+      "Car topic concludes, followed by general carriage observation and conversation."
+    ],
+    [
+      "201-214",
+      "I converse with my companion inside the subway car.",
+      "Shifts to focused interaction with the companion's phone."
+    ],
+    [
+      "215-233",
+      "I search my companion's WeChat Moments timeline from 2014 and 2016 for a specific mirror selfie.",
+      "The search for the old photo concludes."
+    ],
+    [
+      "234-249",
+      "I browse Xiaohongshu posts to examine clothing details with my companion.",
+      "End of the provided sequence."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
 ```

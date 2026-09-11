@@ -1,0 +1,48 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Identify and merge eligible pairs that represent the continuous execution of the exact same immediate task (e.g., food preparation, note-taking, app usage) across transport batch boundaries. Distinct actions or medium shifts (like conversing vs. phone booking) are left separate.",
+  "merges": [
+    [
+      52,
+      53,
+      "I prepare buns for steaming in a pan on the kitchen stove.",
+      "Same food preparation task continues across batch edge"
+    ],
+    [
+      73,
+      74,
+      "I type notes about behavioral concepts into a collaborative Feishu document.",
+      "Same note-taking task continues across batch edge"
+    ],
+    [
+      90,
+      91,
+      "I prepare my toothbrush at the bathroom sink.",
+      "Same toothbrush preparation task continues across batch edge"
+    ],
+    [
+      230,
+      231,
+      "I browse Xiaohongshu on my smartphone while walking in the mall concourse.",
+      "Same smartphone browsing task continues across batch edge"
+    ],
+    [
+      257,
+      258,
+      "I review and arrange car rentals on my smartphone while discussing options with my companion.",
+      "Same car rental app usage continues across batch edge"
+    ],
+    [
+      337,
+      338,
+      "I bring the rice cooker pot to my desk to review the water-to-rice ratio.",
+      "Same rice preparation task continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

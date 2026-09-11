@@ -1,0 +1,64 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group actions by the specific case being evaluated, separating distinct tasks like updating general guidelines or conversing with a companion.",
+  "events": [
+    [
+      "250-266",
+      "I dictate the general evaluation rules for main verbs and nouns from the scoring rubrics.",
+      "Starts evaluating a specific case after reviewing and dictating general scoring rules."
+    ],
+    [
+      "267-280",
+      "I evaluate candidate 1 for the puzzle assembly case.",
+      "Shifts from evaluating a specific candidate to typing general guidelines in the document."
+    ],
+    [
+      "281-297",
+      "I type evaluation guidelines regarding high-level speaking categories into the document.",
+      "Returns to evaluating candidates for the puzzle assembly case."
+    ],
+    [
+      "298-321",
+      "I evaluate candidates 2 and 3 for the puzzle assembly case.",
+      "Moves on to evaluate a new case about hearing silence."
+    ],
+    [
+      "322-334",
+      "I evaluate the candidate options for the 'hear silence' case.",
+      "Moves on to evaluate a new case about wiping hands with paper."
+    ],
+    [
+      "335-367",
+      "I evaluate the candidate options for the 'wipe hands with paper' case.",
+      "Moves on to evaluate a new dialogue case about egg separation."
+    ],
+    [
+      "368-429",
+      "I evaluate the first two candidate options for the 'egg separation' dialogue case.",
+      "Interrupted by my companion discussing an injured finger."
+    ],
+    [
+      "430-449",
+      "I converse with my companion regarding an injured finger and our dinner plans.",
+      "Resumes evaluating the egg separation case after the conversation."
+    ],
+    [
+      "450-471",
+      "I finalize the evaluation of the 'egg separation' case by analyzing candidate 3.",
+      "Moves on to evaluate a new dialogue case about house decoration."
+    ],
+    [
+      "472-499",
+      "I evaluate the candidate options for the house decoration dialogue case.",
+      "End of provided video batch."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

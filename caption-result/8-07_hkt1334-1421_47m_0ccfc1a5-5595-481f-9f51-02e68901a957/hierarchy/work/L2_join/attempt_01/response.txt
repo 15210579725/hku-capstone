@@ -1,0 +1,18 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible pairs for task continuity across transport batch edges. Pair [38, 39] continues the identical immediate task of typing prompt modifications into Claude Code, justifying a merge. Pair [56, 57] transitions from recording notes in a Feishu document to editing a code block, which constitutes a change in immediate task and tool, so it will not be merged.",
+  "merges": [
+    [
+      38,
+      39,
+      "I draft prompt rewrite instructions in Claude Code.",
+      "Same typing and drafting task continues across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

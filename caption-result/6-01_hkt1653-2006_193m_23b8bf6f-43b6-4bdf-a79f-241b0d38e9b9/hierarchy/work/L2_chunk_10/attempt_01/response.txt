@@ -1,0 +1,44 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions related to searching the desk drawer, examining the medicine box, browsing the Bilibili feed, and watching individual videos into distinct immediate tasks.",
+  "events": [
+    [
+      "2250-2255",
+      "I search the desk drawer and inspect various items, including contact lens blister packs and a plastic accessory.",
+      "Shifts focus to reading a specific medicine box."
+    ],
+    [
+      "2256-2264",
+      "I examine and read the labels on a Canesten Clotrimazole medicine box, place it back, and close the desk drawer.",
+      "Finishes with the drawer and moves to the computer."
+    ],
+    [
+      "2265-2267",
+      "I browse video recommendations on Bilibili.",
+      "Finds a video of interest and clicks the thumbnail."
+    ],
+    [
+      "2268-2284",
+      "I click and watch a Bilibili vlog about a work site and food, making comments during the video.",
+      "Returns to the recommendation feed after watching."
+    ],
+    [
+      "2285-2287",
+      "I browse the Bilibili recommendation feed and select another video.",
+      "Clicks on a new video to watch."
+    ],
+    [
+      "2288-2292",
+      "I watch a Bilibili video of a creator eating noodles and express my reaction.",
+      "End of input."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

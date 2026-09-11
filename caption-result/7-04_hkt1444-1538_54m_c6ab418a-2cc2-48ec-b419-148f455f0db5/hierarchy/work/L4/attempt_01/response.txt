@@ -1,0 +1,29 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group episodes into three major goal-oriented phases: shopping for bakery items at the supermarket, commuting via bicycle, and navigating the park to engage in activities at the waterfront.",
+  "events": [
+    [
+      "0-2",
+      "I visit Yonghui Supermarket to purchase bakery items.",
+      "Unifies map searching, navigation, and purchasing into a complete shopping phase."
+    ],
+    [
+      "3-5",
+      "I travel to the park plaza on a Meituan shared bicycle.",
+      "Unifies walking to the bikes, initiating the rental, and the riding transit into a single commute phase."
+    ],
+    [
+      "6-10",
+      "I navigate through the park to feed fish at the waterfront viewing platform.",
+      "Unifies park exploration, intermediate stops at the playground, and the destination activity of feeding fish."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

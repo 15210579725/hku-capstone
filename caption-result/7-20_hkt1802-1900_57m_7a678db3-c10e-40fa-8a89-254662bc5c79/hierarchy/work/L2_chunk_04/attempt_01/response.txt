@@ -1,0 +1,41 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks: ordering drinks on the phone, interacting with the waiter to cut food, opening food containers, preparing the sauce, and deciding to wash hands to eat.",
+  "events": [
+    [
+      "750-765",
+      "I order drinks from the WindDownBAR menu on my phone.",
+      "Finishes ordering and puts the phone down"
+    ],
+    [
+      "766-776",
+      "I ask the waiter to cut our food into portions.",
+      "The waiter accepts the request and walks away"
+    ],
+    [
+      "777-788",
+      "I help my friends open the food containers.",
+      "Containers are successfully opened"
+    ],
+    [
+      "789-791",
+      "I open a sauce tub for the food.",
+      "Sauce is prepared and placed on the table"
+    ],
+    [
+      "792-798",
+      "I stand up to wash my hands after realizing we lack chopsticks.",
+      "Leaves the table to wash hands"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "Realizing the lack of chopsticks triggers the decision to wash hands and leave the table"
+    ],
+    "boundary_cautions": []
+  }
+}
+```

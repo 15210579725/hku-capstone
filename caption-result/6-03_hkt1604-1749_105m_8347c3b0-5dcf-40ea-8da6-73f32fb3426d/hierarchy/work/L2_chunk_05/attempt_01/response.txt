@@ -1,0 +1,43 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group sequential actions into immediate tasks, focusing on distinct activities like observing a laptop experiment, deciding to leave for a meal, exiting the room, navigating corridors, and studying machine learning concepts. Boundaries are set at significant location changes, completion of doorway interactions, and temporal discontinuities in the input data.",
+  "events": [
+    [
+      "1000-1005",
+      "I observe my companion's Gorilla experiment setup on a laptop.",
+      "Observation concludes as the temporal sequence jumps significantly"
+    ],
+    [
+      "1006-1014",
+      "I urge my friend to leave the classroom for a meal.",
+      "Discussion ends as physical movement toward the exit begins"
+    ],
+    [
+      "1015-1020",
+      "I usher my friend out of the classroom into the corridor.",
+      "Exiting process concludes upon entering the hallway"
+    ],
+    [
+      "1021-1039",
+      "I navigate the building corridors to reach the restroom.",
+      "Navigation through the corridors is interrupted by a data batch time discontinuity"
+    ],
+    [
+      "1040-1043",
+      "I study handwritten notes and lecture slides about autoregressive flow mappings.",
+      "Study session continues at the end of the input batch"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "Friend asks what to eat and insists on leaving due to hunger, triggering a major goal shift from classroom activities to departing for a meal."
+    ],
+    "boundary_cautions": [
+      "Input data contains out-of-order chronological jumps (16:55 -> 17:47 -> 16:57). Groupings strictly follow contiguous ID sequences to respect structural boundaries between disjointed clips."
+    ]
+  }
+}
+```

@@ -1,0 +1,90 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group immediate tasks into coherent activity episodes based on significant shifts in primary location (e.g., apartment, street, office, cafeteria) and overarching goals (e.g., commuting, network troubleshooting, researching specific topics, taking a lunch break). Routine incidental actions and minor waiting periods are abstracted into their overarching episodes.",
+  "events": [
+    [
+      "0-2",
+      "I pack my backpack in my bedroom.",
+      "Packing is complete and I leave the apartment."
+    ],
+    [
+      "3-5",
+      "I exit my residential building.",
+      "I reach the street to begin my commute."
+    ],
+    [
+      "6-18",
+      "I commute to the university campus on my electric scooter.",
+      "The commute ends upon parking the scooter on campus."
+    ],
+    [
+      "19-24",
+      "I walk from the parking area to my office desk.",
+      "I arrive at my desk to begin my work session."
+    ],
+    [
+      "25-29",
+      "I initialize my MacBook workspace for my work session.",
+      "Workspace preparation gives way to addressing a network error."
+    ],
+    [
+      "30-39",
+      "I resolve a proxy connection error to access the university guest Wi-Fi.",
+      "Network connection is successfully established."
+    ],
+    [
+      "40-46",
+      "I investigate idle cluster models using Codex.",
+      "Task shifts to reviewing a different project's documentation."
+    ],
+    [
+      "47-52",
+      "I review the hku-capstone project research documentation.",
+      "Task shifts to researching a specific emotion probe project."
+    ],
+    [
+      "53-68",
+      "I research the Anthropic emotion probe project.",
+      "The research task is interrupted by an unresponsive workspace window."
+    ],
+    [
+      "69-75",
+      "I restart my unresponsive Visual Studio Code workspace.",
+      "The workspace is recovered just before departing for lunch."
+    ],
+    [
+      "76-80",
+      "I travel to the cafeteria dining hall with my colleagues.",
+      "I arrive at the cafeteria food stall to order my meal."
+    ],
+    [
+      "81-83",
+      "I purchase a bone soup meal at the cafeteria.",
+      "Payment is complete and I sit down at a table."
+    ],
+    [
+      "84-100",
+      "I discuss various topics with my colleagues over my cafeteria meal.",
+      "The meal is finished and I leave the table."
+    ],
+    [
+      "101-106",
+      "I return to the office with my colleagues.",
+      "Arrival back at the office concludes the lunch break."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "69: Encountering an unresponsive window triggers a workspace recovery episode.",
+      "76: Gathering items to leave the workstation initiates the lunch break phase."
+    ],
+    "boundary_cautions": [
+      "Item 68 (discussing an update) is kept with the preceding research episode as it occurs immediately before the workspace freeze that forces a context switch.",
+      "Item 101 (returning the meal tray) is grouped into the return trip episode as the first step of leaving the cafeteria."
+    ]
+  }
+}
+```

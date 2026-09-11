@@ -1,0 +1,71 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group immediate tasks into coherent activity episodes based on shared locations and overarching goals, such as focused workstation sessions, breaks, transit phases, and the sequential components of a cafeteria lunch trip.",
+  "events": [
+    [
+      "0-10",
+      "I manage AI model pipelines and privacy automation tasks at my workstation.",
+      "Transitions from workstation tasks to leaving the office"
+    ],
+    [
+      "11-13",
+      "I relocate to the atrium lounge.",
+      "Arrival at the lounge initiates a rest period"
+    ],
+    [
+      "14-26",
+      "I take a break in the atrium lounge.",
+      "Leaves the lounge to return to the desk"
+    ],
+    [
+      "27",
+      "I return to my office desk.",
+      "Arrival at the desk initiates a new work session"
+    ],
+    [
+      "28-40",
+      "I review model dataset evaluations and checkpoint metrics at my desk.",
+      "Stands up to interact with colleagues regarding lunch"
+    ],
+    [
+      "41-42",
+      "I agree to join my colleagues for lunch.",
+      "Decision to depart for lunch initiates a new sequence of activities"
+    ],
+    [
+      "43-45",
+      "I refill my water bottle at the pantry.",
+      "Completes the water refill before beginning the trip to the cafeteria"
+    ],
+    [
+      "46-49",
+      "I travel to the cafeteria food counter.",
+      "Arrival at the food counter to begin selecting a meal"
+    ],
+    [
+      "50-52",
+      "I purchase my lunch at the cafeteria.",
+      "Completes payment and sits down to begin eating"
+    ],
+    [
+      "53-64",
+      "I eat my lunch with my dining companions.",
+      "Finishes the meal and disposes of the tray to leave the cafeteria"
+    ],
+    [
+      "65-69",
+      "I return to the office with my companions.",
+      "End of recorded sequence"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      "41-42"
+    ],
+    "boundary_cautions": []
+  }
+}
+```

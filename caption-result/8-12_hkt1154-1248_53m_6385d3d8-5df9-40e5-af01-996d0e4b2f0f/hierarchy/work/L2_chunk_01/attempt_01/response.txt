@@ -1,0 +1,184 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group contiguous action briefs into immediate task-level activities. Segment continuous conversation by distinct research or personal topics, separate functional interactions like selecting food, paying, and using a smartphone, and divide movement sequences by major environment transitions.",
+  "events": [
+    [
+      "0-1",
+      "I review work documents on my computer.",
+      "Transition from computer work to leaving"
+    ],
+    [
+      "2-7",
+      "I walk from my desk to the elevator.",
+      "Arrived at elevator"
+    ],
+    [
+      "8-13",
+      "I discuss my morning commute with my companions in the elevator.",
+      "Conversation concludes"
+    ],
+    [
+      "14-16",
+      "I wait in the elevator.",
+      "Arrived at destination floor"
+    ],
+    [
+      "17-31",
+      "I walk through the parking garage with my companions.",
+      "Started technical discussion"
+    ],
+    [
+      "32-38",
+      "I discuss optical flow with my companions.",
+      "Reached the stairs"
+    ],
+    [
+      "39-44",
+      "I walk through the hallway to the lounge area.",
+      "Continued towards dining hall"
+    ],
+    [
+      "45-49",
+      "I walk to the cafeteria food counter.",
+      "Arrived at food counter"
+    ],
+    [
+      "50-62",
+      "I select food items at the cafeteria counter.",
+      "Proceeded to checkout"
+    ],
+    [
+      "63-71",
+      "I pay for my meal at the checkout counter.",
+      "Payment complete"
+    ],
+    [
+      "72-78",
+      "I carry my meal tray to a dining table.",
+      "Arrived at table"
+    ],
+    [
+      "79-84",
+      "I start eating the steamed tofu.",
+      "Topic shifts to research"
+    ],
+    [
+      "85-89",
+      "I discuss a research paper with my companions.",
+      "Transition to preparing rice"
+    ],
+    [
+      "90-94",
+      "I mix tomato beef stew into my rice.",
+      "Preparation complete"
+    ],
+    [
+      "95-103",
+      "I discuss research differences with my dining companions.",
+      "Conversation pauses"
+    ],
+    [
+      "104-118",
+      "I eat my meal.",
+      "Initiated discussion about action space"
+    ],
+    [
+      "119-131",
+      "I discuss action space limitations and generative actions with my colleagues.",
+      "Topic shifts to planning agents"
+    ],
+    [
+      "132-138",
+      "I discuss planning versus embodied agents with my companion.",
+      "Colleague begins speaking"
+    ],
+    [
+      "139-142",
+      "I listen to my colleague discuss embodied application scenarios.",
+      "Switched topic to another paper"
+    ],
+    [
+      "143-148",
+      "I discuss another research paper with my friends.",
+      "Shift to using smartphone"
+    ],
+    [
+      "149-162",
+      "I send a photo of my meal on WeChat.",
+      "Phone put away"
+    ],
+    [
+      "163-175",
+      "I sit at the dining table with my companions.",
+      "Initiated discussion on data"
+    ],
+    [
+      "176-187",
+      "I discuss task-related data with my companions.",
+      "Topic shifts to planning concept"
+    ],
+    [
+      "188-194",
+      "I discuss the concept of planning with my companion.",
+      "Conversation concludes"
+    ],
+    [
+      "195-197",
+      "I prepare to leave the dining table.",
+      "Stood up from table"
+    ],
+    [
+      "198-203",
+      "I return my meal tray to the conveyor belt.",
+      "Tray returned"
+    ],
+    [
+      "204-207",
+      "I joke about the meal conversation with my companions.",
+      "Task complete"
+    ],
+    [
+      "208-216",
+      "I walk through the dining area and hallway with my companions.",
+      "Arrived at stairs"
+    ],
+    [
+      "217-222",
+      "I follow my companions through the parking garage.",
+      "Started conversation about an old song"
+    ],
+    [
+      "223-230",
+      "I discuss an old song with my companions in the parking garage.",
+      "Arrived at elevator lobby"
+    ],
+    [
+      "231-236",
+      "I enter the elevator with my companion.",
+      "Elevator doors close"
+    ],
+    [
+      "237-242",
+      "I ride the elevator and discuss my first computer.",
+      "Exiting the elevator"
+    ],
+    [
+      "243-247",
+      "I open WeChat on my phone in the office corridor.",
+      "Entered lounge"
+    ],
+    [
+      "248-249",
+      "I enter the atrium lounge and approach an armchair.",
+      "Reached destination"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

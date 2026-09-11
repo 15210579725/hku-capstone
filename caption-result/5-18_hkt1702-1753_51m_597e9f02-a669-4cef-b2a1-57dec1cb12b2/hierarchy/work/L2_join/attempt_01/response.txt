@@ -1,0 +1,18 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate the eligible batch-edge pair [16, 17] to determine if they represent a single continuous task.",
+  "merges": [
+    [
+      16,
+      17,
+      "I inspect items and delivery boxes on my desk.",
+      "Same continuous observation of desk surroundings across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

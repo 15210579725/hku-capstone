@@ -1,0 +1,42 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Merge boundary pairs that represent the exact same continuous immediate task interrupted by a transport batch edge, keeping distinct sub-tasks, changing targets, and separate physical actions unmerged.",
+  "merges": [
+    [
+      52,
+      53,
+      "I ride the elevator to the 9th floor with other passengers.",
+      "Elevator ride continues across batch boundary"
+    ],
+    [
+      67,
+      68,
+      "I take a phone call with contact 'ma' while walking through the corridor to the elevator lobby.",
+      "Phone call continues across batch boundary"
+    ],
+    [
+      90,
+      91,
+      "I review product details, SKU options, and reviews for EBO pet companion robots on Taobao.",
+      "Browsing EBO pet robot products continues across batch boundary"
+    ],
+    [
+      107,
+      108,
+      "I send a birthday message mentioning a mobile robot for Wangcai and browse the emoji panel on WeChat.",
+      "WeChat messaging interaction continues across batch boundary"
+    ],
+    [
+      180,
+      181,
+      "I monitor the AI coding assistant installing dependencies, updating the evaluation script, and outputting logs in Cursor.",
+      "Monitoring AI assistant script execution continues across batch boundary"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

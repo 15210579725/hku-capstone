@@ -1,0 +1,132 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group first-person action briefs into immediate tasks based on contiguous conversation topics, interactions with specific objects, or unified segments of movement and observation.",
+  "events": [
+    [
+      "1500-1510",
+      "I discuss a bad customer service experience with my companions.",
+      "Conversation topic completes"
+    ],
+    [
+      "1511-1517",
+      "I view a companion's phone screen while they discuss a person.",
+      "Topic shifts"
+    ],
+    [
+      "1518-1531",
+      "I handle items on the dining table and observe the restaurant.",
+      "Focus shifts to companion eating"
+    ],
+    [
+      "1532-1541",
+      "I watch my companions eat and listen to their conversation.",
+      "Topic shifts to drinks"
+    ],
+    [
+      "1542-1558",
+      "I discuss cold drinks and taste sweet lemonade with my companions.",
+      "Focus shifts to lemongrass"
+    ],
+    [
+      "1559-1568",
+      "I remove and examine a lemongrass stalk from my drink.",
+      "Action completes"
+    ],
+    [
+      "1569-1584",
+      "I discuss the rain and sleeping with my companions.",
+      "Conversation ends, departure begins"
+    ],
+    [
+      "1585-1594",
+      "I collect my belongings and exit the restaurant.",
+      "Exit completes"
+    ],
+    [
+      "1595-1598",
+      "I read the Asam Chicken Rice restaurant menu and posters.",
+      "Focus shifts to ice rink"
+    ],
+    [
+      "1599-1607",
+      "I watch ice skaters at the indoor rink from the upper balcony.",
+      "Begins walking"
+    ],
+    [
+      "1608-1615",
+      "I walk along the upper balcony overlooking the ice rink.",
+      "Moves past ice rink"
+    ],
+    [
+      "1616-1621",
+      "I walk past bakery and retail storefronts.",
+      "Stops to retrieve item"
+    ],
+    [
+      "1622-1627",
+      "I retrieve my power bank and adjust my charging cable.",
+      "Task completes"
+    ],
+    [
+      "1628-1631",
+      "I walk along the mall concourse.",
+      "Reaches escalator"
+    ],
+    [
+      "1632-1647",
+      "I ride descending escalators while conversing with my companions.",
+      "Escalator ride completes"
+    ],
+    [
+      "1648-1659",
+      "I walk through the mall atrium and ride another descending escalator.",
+      "Escalator ride completes"
+    ],
+    [
+      "1660-1667",
+      "I suggest testing headphones and walk into the Apple Store.",
+      "Enters store"
+    ],
+    [
+      "1668-1688",
+      "I attempt to connect AirPods Max to a demo iPhone.",
+      "Switches to different iPhone"
+    ],
+    [
+      "1689-1698",
+      "I try to connect the AirPods Max using a different demo iPhone.",
+      "Hands over to companion"
+    ],
+    [
+      "1699-1711",
+      "I watch my companion test the AirPods Max.",
+      "Switches to personal phone"
+    ],
+    [
+      "1712-1721",
+      "I attempt to stream audio via AirPlay using my personal phone.",
+      "Switches to display iPhones"
+    ],
+    [
+      "1722-1731",
+      "I inspect display iPhones.",
+      "Returns to AirPods Max"
+    ],
+    [
+      "1732-1749",
+      "I connect and test the AirPods Max with a demo iPhone.",
+      "Testing session ends"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      1585,
+      1660
+    ],
+    "boundary_cautions": []
+  }
+}
+```

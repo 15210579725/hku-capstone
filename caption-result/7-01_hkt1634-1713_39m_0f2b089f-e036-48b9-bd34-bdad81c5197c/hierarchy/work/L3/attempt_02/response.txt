@@ -1,0 +1,69 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group L2 tasks into coherent activity episodes based on significant location changes (waiting hall, ticket gate, boarding queue, platform, train cabin) and distinct shifts in focus (e.g., continuous phone usage, conversing, observing the train departure).",
+  "events": [
+    [
+      "0-7",
+      "I browse Xiaohongshu and watch videos.",
+      "Ends when I grab my bags and prepare to navigate the station."
+    ],
+    [
+      "8-18",
+      "I gather my belongings, navigate the waiting hall, and wait in the boarding queue while using my smartphone.",
+      "Ends when I scan my ID and pass through the ticket gate."
+    ],
+    [
+      "19-27",
+      "I pass through the ticket gate and walk along the train platform to locate my train car.",
+      "Ends when I board the train."
+    ],
+    [
+      "28-32",
+      "I board the train, stow my luggage, and take my assigned seat.",
+      "Ends when I settle into my seat and begin watching videos."
+    ],
+    [
+      "33-64",
+      "I set up my charging cable and watch a variety of short videos on my smartphone.",
+      "Ends when I pause to interact with my companion as the train departs."
+    ],
+    [
+      "65-67",
+      "I converse with my companion and observe the passing countryside as the train departs.",
+      "Ends when I return to browsing my smartphone."
+    ],
+    [
+      "68-84",
+      "I browse posts about drones and vehicles on my smartphone while intermittently observing my companion and the train cabin.",
+      "Ends when I engage in a sustained conversation with my companions."
+    ],
+    [
+      "85-91",
+      "I converse with my companions about various topics and observe the passing countryside.",
+      "Ends when I resume sustained browsing on my smartphone."
+    ],
+    [
+      "92-105",
+      "I browse Xiaohongshu posts, read articles, and watch a variety of short videos on my smartphone.",
+      "Ends when I stow my phone to listen to a train broadcast."
+    ],
+    [
+      "106",
+      "I stow my smartphone and look around the train cabin during a broadcast.",
+      "Recording ends."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      8,
+      19,
+      28,
+      106
+    ],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,99 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group contiguous action briefs into immediate tasks based on shared, localized goals. Riding phases are separated by the major wait at the intersection and parking. Walking is grouped by location (plaza vs. mall). Restaurant activities are separated into entering, sitting/setup, browsing/ordering, resolving the table issue, and subsequent discrete phone usage phases (WeChat, Meituan, Bilibili) punctuated by waiting/observing.",
+  "events": [
+    [
+      "250-279",
+      "I ride my electric scooter along the road to an intersection.",
+      "Halts at the intersection crosswalk"
+    ],
+    [
+      "280-292",
+      "I wait on my scooter at the intersection crosswalk.",
+      "Resumes riding forward"
+    ],
+    [
+      "293-302",
+      "I ride my scooter across the intersection and park it.",
+      "Finishes parking the scooter"
+    ],
+    [
+      "303-305",
+      "I check my ride order status on the Hello app.",
+      "Puts app away to walk"
+    ],
+    [
+      "306-318",
+      "I walk across the shopping plaza and enter the mall.",
+      "Enters the mall corridor"
+    ],
+    [
+      "319-330",
+      "I walk through the mall corridor and examine a Japanese restaurant.",
+      "Turns attention to Saizeriya"
+    ],
+    [
+      "331-337",
+      "I approach the Saizeriya menu stand and enter the restaurant.",
+      "Enters the dining area"
+    ],
+    [
+      "338-342",
+      "I take a seat in Saizeriya and scan the table QR code to start ordering.",
+      "Begins browsing specific menu items on phone"
+    ],
+    [
+      "343-393",
+      "I browse the Saizeriya menu on my phone and attempt to place an order.",
+      "Encounters table not opened error"
+    ],
+    [
+      "394-406",
+      "I ask a staff member to open my table and complete my order payment on Alipay.",
+      "Payment succeeds"
+    ],
+    [
+      "407-412",
+      "I reply to messages and view photos on WeChat.",
+      "Looks away from phone"
+    ],
+    [
+      "413-417",
+      "I gaze out the window at the outdoor plaza.",
+      "Unlocks phone to search"
+    ],
+    [
+      "418-461",
+      "I search for and compare hair salon deals on the Meituan app.",
+      "Lowers phone to look around"
+    ],
+    [
+      "462-467",
+      "I observe the restaurant and check my receipt slip.",
+      "Unlocks phone again"
+    ],
+    [
+      "468-479",
+      "I open and log into the Bilibili app on my phone.",
+      "Login completes and feed loads"
+    ],
+    [
+      "480-496",
+      "I watch a food vlog on Bilibili.",
+      "Server interrupts by bringing food"
+    ],
+    [
+      "497-499",
+      "I receive my tomato seafood risotto and prepare to eat.",
+      "End of batch"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

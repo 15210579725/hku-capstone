@@ -1,0 +1,34 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group discrete in-game clicks into immediate tasks based on the distinct gameplay focus: concluding the body-shooting dialogue, reviewing the quest journal, interrogating Cuno, and finally exiting the game.",
+  "events": [
+    [
+      "1000-1046",
+      "I attempt to shoot down the hanging body using Kim's gun in Disco Elysium.",
+      "Exits the dialogue tree to return to the courtyard environment"
+    ],
+    [
+      "1047-1059",
+      "I review my active quests in the Disco Elysium journal.",
+      "Closes the journal menu"
+    ],
+    [
+      "1060-1084",
+      "I interrogate Cuno about the corpse's missing armor in Disco Elysium.",
+      "Finishes the conversation and opens the game menu to exit"
+    ],
+    [
+      "1085-1094",
+      "I quit Disco Elysium and return to the macOS desktop.",
+      "Game is closed and the desktop is visible"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

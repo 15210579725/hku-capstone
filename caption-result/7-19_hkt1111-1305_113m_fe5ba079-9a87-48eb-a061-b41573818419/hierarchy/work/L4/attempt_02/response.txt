@@ -1,0 +1,41 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group L3 episodes into broader phases based on overarching goals and locations: morning research session, cafeteria lunch break, post-lunch desk work wrap-up, physical relocation with facility exploration, and stationary smartphone use.",
+  "events": [
+    [
+      "0-2",
+      "I study reinforcement learning literature using AI assistants.",
+      "Context shifts from academic desk research to transit for a lunch break."
+    ],
+    [
+      "3-5",
+      "I take a sweet and sour pork lunch break at the cafeteria.",
+      "Context shifts from the lunch break back to office desk work."
+    ],
+    [
+      "6-7",
+      "I finalize my intrinsic rewards research and pipeline tasks at my office desk.",
+      "Goal shifts from computer-based office work to packing up and leaving the building."
+    ],
+    [
+      "8-11",
+      "I explore various facilities en route to an acoustic booth in another building's study lounge.",
+      "Goal shifts from physical transit and facility exploration to stationary smartphone use."
+    ],
+    [
+      "12",
+      "I browse messaging, shopping, and food delivery apps on my smartphone.",
+      "End of provided events."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": [
+      "Separating the post-lunch research (6-7) from the pre-lunch research (0-2) reflects distinct phases of the day at L4, bracketed by the lunch break and the subsequent departure from the office."
+    ]
+  }
+}
+```

@@ -1,0 +1,69 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks defined by specific navigational segments, object interactions, or conversational topics, creating boundaries when the immediate focus shifts (e.g., throwing trash, handling camera, using phone, elevator floor decisions).",
+  "events": [
+    [
+      "0-4",
+      "I observe the pet market below the atrium railing from the indoor corridor.",
+      "Finished observing and initiated departure."
+    ],
+    [
+      "5-13",
+      "I exit the building through the glass pavilion to reach the outdoor park.",
+      "Completed exit into the outdoor park."
+    ],
+    [
+      "14-20",
+      "I dispose of a snack wrapper in a trash bin located along the outdoor park pathway.",
+      "Completed waste disposal."
+    ],
+    [
+      "21-30",
+      "I walk along the park path toward the Link CentralWalk entrance plaza with my companion.",
+      "Interrupted walk to handle camera equipment."
+    ],
+    [
+      "31-36",
+      "I hand my camera to my companion in preparation to find a toilet.",
+      "Shifted attention to smartphone communication."
+    ],
+    [
+      "37-43",
+      "I send a greeting in a WeChat university group chat upon entering the mall atrium.",
+      "Finished messaging and progressed into the mall interior."
+    ],
+    [
+      "44-50",
+      "I inspect the directory board inside the descending elevator to locate the restroom.",
+      "Elevator arrived at the B1 floor."
+    ],
+    [
+      "51-61",
+      "I redirect the elevator to the G floor to avoid the unappealing B1 environment.",
+      "Arrived back at the G floor to exit."
+    ],
+    [
+      "62-67",
+      "I consult the G floor directory pillar with my companion to establish our walking direction.",
+      "Confirmed direction and resumed navigating the mall."
+    ],
+    [
+      "68-77",
+      "I navigate through the shopping mall concourse past the Decathlon store.",
+      "Arrived at the target restroom area."
+    ],
+    [
+      "78-79",
+      "I enter the brightly lit restroom hallway.",
+      "End of provided data."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

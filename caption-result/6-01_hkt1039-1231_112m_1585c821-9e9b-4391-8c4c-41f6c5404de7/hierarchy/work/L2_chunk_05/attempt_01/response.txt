@@ -1,0 +1,34 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous sequences of watching a single video or browsing the platform into discrete media consumption tasks, absorbing incidental keyboard/trackpad interactions.",
+  "events": [
+    [
+      "1000-1016",
+      "I watch a Bilibili dining video.",
+      "The video finishes"
+    ],
+    [
+      "1017-1068",
+      "I watch a Bilibili vlog about a truck delivery and a boxed meal.",
+      "Transitions to browsing the homepage"
+    ],
+    [
+      "1069-1078",
+      "I browse the Bilibili homepage for video recommendations.",
+      "Clicks to play a new video"
+    ],
+    [
+      "1079-1180",
+      "I watch a Bilibili video about the lifestyle of a county-level wealthy youth.",
+      "End of provided data"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

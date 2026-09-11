@@ -1,0 +1,94 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions centered around a single immediate task, such as interacting with an AI model on a specific topic, reviewing a specific document, or performing a distinct literature search. Incidental looks, brief conversations, and tab switches that serve the same goal are merged.",
+  "events": [
+    [
+      "250-258",
+      "I prepare a Gemini prompt on behavior prediction research based on report sources.",
+      "Shift to using ChatGPT for diary summarization."
+    ],
+    [
+      "259-282",
+      "I use ChatGPT to generate an abstract summary of my daily diary logs.",
+      "Switch to reviewing files in VS Code."
+    ],
+    [
+      "283-292",
+      "I review my diary entries and error logs in VS Code.",
+      "Change in focus to examining subtitle files."
+    ],
+    [
+      "293-299",
+      "I examine subtitle entries for emotion-action prediction in VS Code.",
+      "Switch back to updating the Gemini research prompt."
+    ],
+    [
+      "300-311",
+      "I add instructions about influential papers to my Gemini research prompt and read the EventFlow paper.",
+      "Interruption to converse with peer and look around."
+    ],
+    [
+      "312-321",
+      "I interact with my peer and look around my desk area.",
+      "Return to research on Gemini."
+    ],
+    [
+      "322-336",
+      "I initiate a Gemini Deep Research prompt on human behavior prediction.",
+      "Shift to searching for and reading a specific paper (SpectFlow)."
+    ],
+    [
+      "337-355",
+      "I search for and read the SpectFlow paper on action anticipation.",
+      "Switch to Claude to read literature summaries."
+    ],
+    [
+      "356-366",
+      "I read Claude's literature review covering DiffAnt, GTD, ActFusion, and MoFlow.",
+      "Switch to ChatGPT to ask about datasets."
+    ],
+    [
+      "367-372",
+      "I ask ChatGPT about action prediction datasets like 50 Salads, Breakfast, and GTEA.",
+      "Return to reading Claude's notes."
+    ],
+    [
+      "373-385",
+      "I review Claude's detailed summaries of the ActFusion, MoFlow, and GTD papers.",
+      "Shift to Google search and Scholar for a specific author and paper."
+    ],
+    [
+      "386-412",
+      "I search for the DiffAnt paper and review its author's homepage.",
+      "Return to Claude for an in-depth reading on DiffAnt."
+    ],
+    [
+      "413-445",
+      "I read Claude's detailed analysis of the DiffAnt architecture and its benchmark results.",
+      "Pause to review summaries and draft a new prompt in ChatGPT."
+    ],
+    [
+      "446-464",
+      "I review paper summaries in Claude and draft a prompt in ChatGPT.",
+      "Shift to a new ChatGPT inquiry about citation benchmarks."
+    ],
+    [
+      "465-481",
+      "I use ChatGPT to research citation benchmarks for medium-impact AI papers.",
+      "Switch to reading about discrete flow matching in Claude."
+    ],
+    [
+      "482-499",
+      "I read Claude's explanation of discrete flow matching and the ELF paper.",
+      "End of provided sequence."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

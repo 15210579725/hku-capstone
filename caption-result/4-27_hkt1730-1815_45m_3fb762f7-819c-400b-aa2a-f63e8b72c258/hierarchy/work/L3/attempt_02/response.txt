@@ -1,0 +1,49 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group continuous journey segments into coherent transit episodes: approaching the station, entering and waiting on the platform, riding the first train, transferring between platforms, riding the connecting train, exiting the station, and walking to the final campus destination.",
+  "events": [
+    [
+      "0-4",
+      "I walk from my residential area toward the MTR station.",
+      "Transition from outdoor walking to station concourse entry"
+    ],
+    [
+      "5-7",
+      "I navigate the MTR station concourse to await the arriving train on the platform.",
+      "Train arrives and boarding begins"
+    ],
+    [
+      "8-15",
+      "I ride the MTR train to Admiralty station.",
+      "Alighting the train to transfer"
+    ],
+    [
+      "16-19",
+      "I transfer between subway platforms at Admiralty station.",
+      "Boarding the connecting train"
+    ],
+    [
+      "20-24",
+      "I ride the connecting subway train.",
+      "Alighting the connecting train"
+    ],
+    [
+      "25-29",
+      "I navigate through the HKU MTR station to the campus exit elevators.",
+      "Leaving the station infrastructure for the campus"
+    ],
+    [
+      "30-36",
+      "I walk across the university campus to the Main Library.",
+      "Entering the destination building completes the journey"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

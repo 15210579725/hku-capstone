@@ -1,0 +1,78 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group sequential action briefs into immediate tasks based on the specific video being watched, consecutive video swiping behavior, and distinct physical interactions like conversing or using an app. Isolate the major trigger of announcing sleep.",
+  "events": [
+    [
+      "1500-1510",
+      "I watch American Beauty video clips.",
+      "Switches to a different video about Doubao AI."
+    ],
+    [
+      "1511-1520",
+      "I watch a Douyin video titled '我跟豆包交流 belike' amid room conversation.",
+      "Switches to unrelated sports and history videos."
+    ],
+    [
+      "1521-1522",
+      "I watch short sports and history videos on Douyin.",
+      "Switches to a movie blooper compilation."
+    ],
+    [
+      "1523-1534",
+      "I watch a movie blooper compilation on Bilibili.",
+      "Switches to a comedy video by a specific creator."
+    ],
+    [
+      "1535-1543",
+      "I watch a comedy video by 行走的大大大羊腿 on Bilibili.",
+      "Begins quickly swiping through various other short videos."
+    ],
+    [
+      "1544-1553",
+      "I watch several short comedy videos on Bilibili.",
+      "Pauses video browsing to listen to roommate."
+    ],
+    [
+      "1554-1556",
+      "I hear my roommate mention a past location.",
+      "Shifts attention to the AI chat interface."
+    ],
+    [
+      "1557-1558",
+      "I view a generated Snoopy comic strip on the Doubao AI chat interface.",
+      "Leaves device to announce intention to sleep."
+    ],
+    [
+      "1559",
+      "I announce my intention to sleep.",
+      "Stands alone as a major trigger to start sleeping."
+    ],
+    [
+      "1560-1567",
+      "I watch a comedic antique appraisal video on Bilibili.",
+      "Batch transport edge with a timeline jump to a different compilation."
+    ],
+    [
+      "1568",
+      "I watch a video compilation on Bilibili.",
+      "Stops video to listen to roommate."
+    ],
+    [
+      "1569-1571",
+      "I listen to my roommate at the bathroom doorway.",
+      "End of provided input."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      8
+    ],
+    "boundary_cautions": [
+      9
+    ]
+  }
+}
+```

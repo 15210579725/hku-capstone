@@ -1,0 +1,18 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Evaluate eligible pairs to identify continuous immediate tasks split across batch edges. Only pair [24, 25] represents an ongoing, uninterrupted immediate task (riding the electric scooter). The other pairs represent transitions into new immediate tasks, different conversational topics/phases, or changes in specific focus (e.g., exiting a space vs. navigating it, general inspection vs. testing a specific lamp).",
+  "merges": [
+    [
+      24,
+      25,
+      "I ride the electric scooter along the streets.",
+      "Continuous scooter riding task split across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

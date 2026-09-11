@@ -1,0 +1,121 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group action briefs into immediate tasks based on app switching, task milestones (e.g. searching vs copying vs typing), and physical navigation.",
+  "events": [
+    [
+      "0-4",
+      "I view my BOCHK monthly statement PDF in the banking app.",
+      "Statement view complete; user switches to sharing."
+    ],
+    [
+      "5-15",
+      "I forward my BOCHK statement PDF to YHill Operation 3 in WeChat.",
+      "Sharing action complete; user begins chatting about the refund."
+    ],
+    [
+      "16-22",
+      "I manage a deposit refund conversation with YHill Operation 3 and my companion.",
+      "Chat topic pauses; user switches to checking account for statement."
+    ],
+    [
+      "23-32",
+      "I verify my account number in the BOCHK app to discuss the required statement with my companion.",
+      "Account overview checked; user switches to WeChat for transfer fields."
+    ],
+    [
+      "33-40",
+      "I review the required bank transfer fields in WeChat.",
+      "Transfer fields reviewed; user switches back to banking app for statement details."
+    ],
+    [
+      "41-56",
+      "I search my BOCHK monthly statement for required banking details.",
+      "Statement details found; user switches to Notes."
+    ],
+    [
+      "57-63",
+      "I search Apple Notes and WeChat for my bank details.",
+      "Notes search complete; user opens ChatGPT."
+    ],
+    [
+      "64-71",
+      "I ask ChatGPT for Bank of China transfer instructions.",
+      "ChatGPT search complete; user switches to WeChat to edit form."
+    ],
+    [
+      "72-86",
+      "I format a bank wire transfer form in WeChat.",
+      "Form formatting complete; user begins copying specific details."
+    ],
+    [
+      "87-102",
+      "I transfer Bank of China details from ChatGPT into the WeChat form.",
+      "Details copied; user begins typing manual address."
+    ],
+    [
+      "103-112",
+      "I fill out my Beijing address and contact details in the WeChat transfer form.",
+      "Manual typing complete; user prepares to send the form."
+    ],
+    [
+      "113-119",
+      "I send the completed banking information to YHill Operation 3.",
+      "Chatting complete; user prepares to disembark."
+    ],
+    [
+      "120-124",
+      "I step off the train to follow my companion.",
+      "Train disembarkation complete; user resumes typing on phone."
+    ],
+    [
+      "125-129",
+      "I type my address into a WeChat account form.",
+      "Account form typing complete; user switches to car rental app."
+    ],
+    [
+      "130-149",
+      "I configure my pickup location and rental dates in the Shenzhou Car Rental app.",
+      "Search parameters set; user begins browsing options."
+    ],
+    [
+      "150-168",
+      "I browse car rental listings on my phone during my walk through the station.",
+      "Station navigation complete; user pauses to discuss itinerary."
+    ],
+    [
+      "169-184",
+      "I modify the car rental return date to match the itinerary discussed with my companion.",
+      "Itinerary discussion updates return date; user resumes browsing."
+    ],
+    [
+      "185-199",
+      "I browse car rental options on my walk to a building elevator lobby.",
+      "Lobby walk complete; user selects a specific car."
+    ],
+    [
+      "200-205",
+      "I review the rental order confirmation for a white SUV.",
+      "Car selected; user begins reviewing general terms."
+    ],
+    [
+      "206-225",
+      "I review vehicle options and car rental terms on my phone.",
+      "Terms reviewed; user begins detailed location discussion with companion."
+    ],
+    [
+      "226-249",
+      "I discuss car rental locations with my companion to finalize the booking details.",
+      "End of provided events."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [
+      "Action briefs 209-210 mention a ride-hailing app, but the surrounding context strongly indicates a continuous review of car rental terms and options."
+    ],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

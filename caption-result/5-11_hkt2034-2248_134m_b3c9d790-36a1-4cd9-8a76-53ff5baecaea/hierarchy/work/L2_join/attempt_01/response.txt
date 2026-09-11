@@ -1,0 +1,30 @@
+```json
+{
+  "target_level": "L2_JOIN",
+  "plan": "Merge eligible pairs that continue the exact same immediate task, such as a single continuous ChatGPT query/read cycle, continuous calculation on the same topic, or monitoring the same terminal process. Leave pairs with distinct actions or focus changes separate.",
+  "merges": [
+    [
+      17,
+      18,
+      "I consult ChatGPT about numerical ODE error estimation for the theta-method exam question.",
+      "A single ChatGPT query and response cycle split by batch edge"
+    ],
+    [
+      53,
+      54,
+      "I perform and review SVD matrix and eigenvalue calculations on my notepad.",
+      "Continuous mathematical calculation and review on the exact same topic"
+    ],
+    [
+      80,
+      81,
+      "I monitor the Claude Code task progress in the terminal on my MacBook Pro.",
+      "Same monitoring task continuing across batch edge"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": []
+  }
+}
+```

@@ -1,0 +1,68 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group L2 tasks into coherent activity episodes based on the primary goal and location. The long Claude Code session is split into analyzing the specific arXiv paper versus reviewing automated literature searches. Lunch is split into transit, purchasing, eating (which absorbs incidental phone use), and post-meal observation. Return transit and subsequent office reading are grouped into their own distinct episodes.",
+  "events": [
+    [
+      "0-20",
+      "I use Claude Code to analyze an arXiv paper on scaling laws, the Psych-101 and ACL datasets, and fine-tuning.",
+      "Start of a session analyzing a specific scaling laws paper with Claude Code."
+    ],
+    [
+      "21-27",
+      "I review Claude Code literature searches on the ACL dataset and parameter scaling.",
+      "Shift from analyzing the specific paper to reviewing automated literature searches."
+    ],
+    [
+      "28",
+      "I read messages in the MACLab WeChat group.",
+      "Brief shift to checking WeChat messages before leaving."
+    ],
+    [
+      "29-32",
+      "I walk from my office to the main cafeteria hall.",
+      "Start of transit from the office to the cafeteria."
+    ],
+    [
+      "33-35",
+      "I purchase my lunch at the cafeteria food counter.",
+      "Arrival at the cafeteria to select and purchase lunch."
+    ],
+    [
+      "36-46",
+      "I eat my lunch at the cafeteria table.",
+      "Shift from purchasing food to eating the meal at a table."
+    ],
+    [
+      "47-49",
+      "I photograph a snail outside the cafeteria window.",
+      "Meal completed; shift to observing and photographing a snail."
+    ],
+    [
+      "50-52",
+      "I return to my office desk from the cafeteria.",
+      "Start of transit back to the office from the cafeteria."
+    ],
+    [
+      "53-58",
+      "I review a paper summary and WeChat articles about Claude and mathematics.",
+      "Arrival at the desk and shift to reading articles."
+    ],
+    [
+      "59",
+      "I leave my office.",
+      "Start of transit leaving the office."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      29,
+      50,
+      59
+    ],
+    "boundary_cautions": []
+  }
+}
+```

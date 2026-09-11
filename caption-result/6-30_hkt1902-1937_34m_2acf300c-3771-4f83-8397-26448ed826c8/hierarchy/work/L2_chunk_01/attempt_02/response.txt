@@ -1,0 +1,114 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group action briefs into immediate tasks by identifying continuous segments of unified actions, such as exploring a trail, interacting with a kitten, preparing the scooter, and navigating distinct road segments (village streets, open roads, dirt paths). Absorb incidental dialogue, device checking, and minor repositioning into the primary ongoing task.",
+  "events": [
+    [
+      "0-13",
+      "I follow my companion along a trail into the thicket.",
+      "Path exploration ends when encountering a blockage."
+    ],
+    [
+      "14-24",
+      "I examine an old brick structure blocking the path.",
+      "Investigation concludes when deciding to turn back."
+    ],
+    [
+      "25-39",
+      "I walk back along the overgrown trail with my companion.",
+      "Trail walk transitions to walking on a concrete bridge."
+    ],
+    [
+      "40-55",
+      "I walk across a concrete bridge to return to the parking area.",
+      "Walking ends upon reaching the parked scooter."
+    ],
+    [
+      "56-60",
+      "I approach my parked electric scooter.",
+      "Arrival at scooter transitions to observing a kitten."
+    ],
+    [
+      "61-71",
+      "I observe a kitten near the parked cars.",
+      "Focus shifts to preparing the scooter."
+    ],
+    [
+      "72-80",
+      "I prepare the electric scooter for riding.",
+      "Scooter preparation pauses to watch the kitten again."
+    ],
+    [
+      "81-86",
+      "I watch my companion interact with the kitten.",
+      "Interaction ends to check map navigation."
+    ],
+    [
+      "87-100",
+      "I check the walking route to Boundary Marker 843 on my phone map.",
+      "Map checking finishes and phone is mounted."
+    ],
+    [
+      "101-114",
+      "I prepare to depart on the electric scooter.",
+      "Preparation concludes and the ride begins."
+    ],
+    [
+      "115-133",
+      "I ride the electric scooter past a basketball court and buildings.",
+      "Scenery changes to a village street past a checkpoint."
+    ],
+    [
+      "134-155",
+      "I ride the electric scooter through a village street past local businesses.",
+      "Village street transitions to an open road with karst mountains."
+    ],
+    [
+      "156-173",
+      "I ride the electric scooter along a paved road past fields and karst mountains.",
+      "Open road ends by turning into another village."
+    ],
+    [
+      "174-181",
+      "I ride the scooter into a village toward a school.",
+      "Paved village road transitions to a construction site and dirt road."
+    ],
+    [
+      "182-197",
+      "I navigate the electric scooter past a construction site and onto a dirt road.",
+      "Dirt road leads to the border fence."
+    ],
+    [
+      "198-207",
+      "I examine the border fence and its safety signs.",
+      "Observation ends when steering onto a narrow dirt path."
+    ],
+    [
+      "208-223",
+      "I steer the scooter up a narrow and rocky dirt path.",
+      "Maneuvering up the rocky path gives way to riding along a rutted track."
+    ],
+    [
+      "224-240",
+      "I ride the scooter along a rutted muddy track.",
+      "Riding pauses to check the scooter's battery."
+    ],
+    [
+      "241-247",
+      "I examine the electric scooter's battery and gear settings.",
+      "Settings check completes and riding resumes."
+    ],
+    [
+      "248-249",
+      "I ride the electric scooter through muddy puddles.",
+      "End of input sequence."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

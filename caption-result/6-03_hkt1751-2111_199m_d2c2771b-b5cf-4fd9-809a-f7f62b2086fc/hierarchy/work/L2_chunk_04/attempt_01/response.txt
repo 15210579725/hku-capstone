@@ -1,0 +1,139 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions with a single overarching goal and primary target into immediate tasks. Abstract micro-actions like glances, hand repositioning, and brief waiting. Separate distinct tasks like interacting with software, conversing, writing on a notepad, or interacting with a classmate.",
+  "events": [
+    [
+      "750-759",
+      "I type notes into a Feishu document.",
+      "Focus shifts to opening System Settings"
+    ],
+    [
+      "760-762",
+      "I open System Settings on my laptop.",
+      "Focus shifts back to reading notes"
+    ],
+    [
+      "763-776",
+      "I type research notes on event prediction into the Feishu document.",
+      "Task shifts to reviewing VS Code"
+    ],
+    [
+      "777-778",
+      "I inspect subtitle timestamps in VS Code.",
+      "Focus shifts to reading notes in Chrome"
+    ],
+    [
+      "779-782",
+      "I read my research notes across Google Chrome and Feishu.",
+      "Attention shifts to interacting with classmates"
+    ],
+    [
+      "783-793",
+      "I interact with my classmates regarding a pop-up modal.",
+      "Attention returns to research notes"
+    ],
+    [
+      "794-795",
+      "I read behavior prediction notes on my laptop.",
+      "Focus shifts to joking with a classmate"
+    ],
+    [
+      "796-799",
+      "I joke with my classmate.",
+      "Focus returns to typing notes"
+    ],
+    [
+      "800-825",
+      "I type notes on event prediction into the Feishu document.",
+      "Task shifts to writing on notepad"
+    ],
+    [
+      "826-855",
+      "I create handwritten notes and diagrams on my notepad.",
+      "Focus shifts to reading Feishu"
+    ],
+    [
+      "856",
+      "I read candidate solutions in the Feishu document.",
+      "Task shifts to reviewing VS Code"
+    ],
+    [
+      "857-871",
+      "I read subtitle transcript entries in VS Code.",
+      "Focus shifts to observing a classmate"
+    ],
+    [
+      "872-882",
+      "I observe my classmate working on their laptop.",
+      "Task shifts to typing in Claude"
+    ],
+    [
+      "883-895",
+      "I type a prompt into Claude asking about the Ego4D LTA annotation format.",
+      "Focus shifts to reading the AI response"
+    ],
+    [
+      "896-922",
+      "I read Claude's response regarding action prediction dataset annotations.",
+      "Interaction with a classmate begins"
+    ],
+    [
+      "923-930",
+      "I converse with my classmate concerning a card holder.",
+      "Focus shifts back to reading dataset notes"
+    ],
+    [
+      "931-932",
+      "I read notes on the 50Salads dataset annotation hierarchy.",
+      "Task shifts to packing up to leave"
+    ],
+    [
+      "933-951",
+      "I pack my belongings to depart from the classroom.",
+      "Task shifts to walking to the lounge"
+    ],
+    [
+      "952-955",
+      "I walk down the corridor toward the lounge area.",
+      "Task shifts to getting water"
+    ],
+    [
+      "956-959",
+      "I fill my water bottle at the drinking fountain.",
+      "Task shifts to walking and checking phone"
+    ],
+    [
+      "960-967",
+      "I check my phone during my walk down the corridor.",
+      "Conversation with companion begins"
+    ],
+    [
+      "968-979",
+      "I discuss sanitary products with my companion.",
+      "Conversation topic changes to seating and renovation"
+    ],
+    [
+      "980-989",
+      "I walk toward the elevator lobby during a conversation with my companion.",
+      "Transition to riding the escalator"
+    ],
+    [
+      "990-994",
+      "I ride the escalator downwards with my companion.",
+      "Escalator ride ends"
+    ],
+    [
+      "995-999",
+      "I react to nearby conversations during my walk along the concourse.",
+      "End of batch"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,36 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group L2 immediate tasks into coherent episodes: initial environment setup and data inspection (0-2), iterative script execution and debugging (3-7), a standalone trigger for a desk switch (8), and the continuous physical relocation to the new workstation (9-14).",
+  "events": [
+    [
+      "0-2",
+      "I review the remote eye-tracking data directories in VS Code.",
+      "Shift from initial data inspection to running automated processing scripts"
+    ],
+    [
+      "3-7",
+      "I refine the data masking script using Claude Code.",
+      "Coding session abruptly ends to coordinate a workstation change"
+    ],
+    [
+      "8",
+      "I coordinate a workstation switch with my colleague.",
+      "Standalone trigger initiating physical relocation"
+    ],
+    [
+      "9-14",
+      "I relocate my personal items and equipment to workstation 14.",
+      "End of recorded relocation sequence"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      8
+    ],
+    "boundary_cautions": []
+  }
+}
+```

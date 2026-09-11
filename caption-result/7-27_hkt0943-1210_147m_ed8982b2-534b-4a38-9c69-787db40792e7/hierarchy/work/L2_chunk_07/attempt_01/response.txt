@@ -1,0 +1,46 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions into immediate tasks: approaching the building, entering the lobby, boarding the elevator with conversing colleagues, riding the elevator, navigating the corridor, and browsing WeChat on the phone.",
+  "events": [
+    [
+      "1500-1506",
+      "I walk across the parking lot toward the building entrance.",
+      "Entering the building lobby marks a new task"
+    ],
+    [
+      "1507-1510",
+      "I enter the elevator lobby with my companion.",
+      "Reaching the elevator doors"
+    ],
+    [
+      "1511-1517",
+      "I discuss travel plans with colleagues upon boarding the elevator.",
+      "Conversation ends and elevator ride begins"
+    ],
+    [
+      "1518-1529",
+      "I ride the elevator to the destination floor.",
+      "Elevator doors open for exit"
+    ],
+    [
+      "1530-1534",
+      "I navigate the building corridor from the elevator.",
+      "End of walking sequence before a distinct context shift"
+    ],
+    [
+      "1535-1540",
+      "I browse a contact's WeChat Moments and chat history.",
+      "Distinct phone interaction activity"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": [
+      "Large timestamp jump between 1534 and 1535 indicates a disjoint media segment."
+    ]
+  }
+}
+```

@@ -1,0 +1,89 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group contiguous actions into immediate tasks based on application usage, device interactions, and distinct phases of reading versus active typing within the document.",
+  "events": [
+    [
+      "500-520",
+      "I message colleagues on WeChat.",
+      "Task ends when switching to the Feishu application"
+    ],
+    [
+      "521-537",
+      "I revise a PhD application draft in Feishu.",
+      "Task ends when turning attention to charge a smartphone"
+    ],
+    [
+      "538-540",
+      "I plug a charging cable into my smartphone.",
+      "Task ends when finishing plugging in the phone"
+    ],
+    [
+      "541-543",
+      "I adjust my laptop stand.",
+      "Task ends when turning to check notifications"
+    ],
+    [
+      "544-551",
+      "I reply to messages in WeChat.",
+      "Task ends when switching back to the Feishu document"
+    ],
+    [
+      "552-562",
+      "I edit the PhD application draft in Feishu.",
+      "Task ends when switching to check the API dashboard"
+    ],
+    [
+      "563-569",
+      "I check my Claude Code API usage costs.",
+      "Task ends when switching back to the Feishu document"
+    ],
+    [
+      "570-587",
+      "I read the PhD application notes in Feishu.",
+      "Reading phase ends when beginning to type edits"
+    ],
+    [
+      "588-611",
+      "I type additions about meta-RL and reward functions into the PhD application draft.",
+      "Editing burst ends when pausing to read and rest"
+    ],
+    [
+      "612-636",
+      "I read the PhD application notes.",
+      "Reading phase ends when beginning to type again"
+    ],
+    [
+      "637-643",
+      "I edit the PhD application notes about emotion and rewards.",
+      "Editing burst ends when resuming a long reading phase"
+    ],
+    [
+      "644-697",
+      "I read the PhD application document.",
+      "Reading phase ends when typing new text"
+    ],
+    [
+      "698-717",
+      "I type text about emotion in changing environments into the document.",
+      "Typing phase ends when returning to read the document body"
+    ],
+    [
+      "718-734",
+      "I read the body paragraphs of the research proposal.",
+      "Reading phase ends when typing final notes"
+    ],
+    [
+      "735-749",
+      "I type additional notes into the PhD application draft.",
+      "Batch ends"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

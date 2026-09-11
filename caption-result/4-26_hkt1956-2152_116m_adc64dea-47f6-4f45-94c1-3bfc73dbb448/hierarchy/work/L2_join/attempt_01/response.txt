@@ -1,19 +1,31 @@
 ```json
 {
   "target_level": "L2_JOIN",
-  "plan": "Identify continuous immediate tasks across batch boundaries. Merge pairs 22-23 (observing/listening to companion) and 64-65 (cat discussion on walkway). Keep 47-48, 84-85, and 122-123 separate due to distinct shifts in task, location, or subject.",
+  "plan": "Evaluate eligible pairs for exact continuation of the same immediate physical action or specific conversation. Merge pairs where the identical task (discussing clothing, riding an escalator, discussing cats, rehearsing with slides) bridges the batch edge. Reject pairs where the immediate task changes.",
   "merges": [
     [
-      22,
-      23,
-      "I watch my companion browse Xiaohongshu on her phone and listen to her discuss clothing.",
-      "Same interaction with companion continues across batch edge"
+      26,
+      27,
+      "I examine and discuss clothing details with my companion.",
+      "Same clothing discussion continues across batch edge"
     ],
     [
-      64,
-      65,
-      "I discuss pet cats with my companion while walking along the outdoor pathway.",
-      "Same continuous walking and conversation task across batch edge"
+      66,
+      67,
+      "I ride the escalator to the upper floor.",
+      "Same escalator ride continues across batch edge"
+    ],
+    [
+      90,
+      91,
+      "I converse with my companion about cats.",
+      "Same conversation about cats continues across batch edge"
+    ],
+    [
+      136,
+      137,
+      "I review slides and practice my presentation script.",
+      "Same presentation rehearsal task continues across batch edge"
     ]
   ],
   "audit": {

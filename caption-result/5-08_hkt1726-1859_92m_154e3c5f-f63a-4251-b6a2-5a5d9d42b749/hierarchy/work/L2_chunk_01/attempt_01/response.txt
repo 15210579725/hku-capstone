@@ -1,0 +1,99 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group action briefs into immediate tasks based on continuous app usage, conversational topics, or sustained physical attention.",
+  "events": [
+    [
+      "0-9",
+      "I watch various short videos on my smartphone.",
+      "Groups continuous short video viewing."
+    ],
+    [
+      "10-20",
+      "I read an article about South Korea's fertility decline on Xiaohongshu.",
+      "Groups a continuous Xiaohongshu browsing and reading session."
+    ],
+    [
+      "21-22",
+      "I express my dizziness to my companion.",
+      "Groups a brief interaction about physical condition."
+    ],
+    [
+      "23-33",
+      "I browse Taobao for neck fans and wearable chargers.",
+      "Groups a continuous Taobao shopping session."
+    ],
+    [
+      "34-42",
+      "I ask my companion to compare our departing ferry with the Cotai Water Jet.",
+      "Groups observations and conversation prompted by the ferry's departure."
+    ],
+    [
+      "43-57",
+      "I observe the coastal cityscape from the ferry window.",
+      "Groups continuous looking out the window, abstracting a background PA announcement."
+    ],
+    [
+      "58-70",
+      "I watch the onboard safety instructions on the cabin monitor.",
+      "Groups continuous attention to the overhead safety video."
+    ],
+    [
+      "71-97",
+      "I browse Xianyu for wearable charging cables and neck power banks.",
+      "Groups a continuous second-hand app shopping session."
+    ],
+    [
+      "98-106",
+      "I discuss a thruster-related departure delay and TV content with my companion.",
+      "Groups a distinct conversation about the ferry delay and cabin monitor."
+    ],
+    [
+      "107-130",
+      "I browse Xianyu for camera mounts and neck accessories.",
+      "Groups resumed Xianyu shopping interspersed with looking around the cabin."
+    ],
+    [
+      "131-146",
+      "I prompt ChatGPT to detail Hong Kong TurboJET vessel parameters and hydrofoils.",
+      "Groups verbal agreement and the formulation of a ChatGPT inquiry."
+    ],
+    [
+      "147-158",
+      "I read ChatGPT's detailed specifications of the TurboJET fleet.",
+      "Groups reading the initial text-based ChatGPT response."
+    ],
+    [
+      "159-166",
+      "I request an illustrated ChatGPT introduction to TurboJET vessels.",
+      "Groups prompt editing and waiting for the subsequent response."
+    ],
+    [
+      "167-201",
+      "I read ChatGPT's illustrated explanation of TurboJET catamarans and hydrofoils.",
+      "Groups reading the detailed secondary ChatGPT response."
+    ],
+    [
+      "202-212",
+      "I browse YouTube search results for hydrofoil videos.",
+      "Groups YouTube search and browsing for a specific topic."
+    ],
+    [
+      "213-219",
+      "I skip smartphone ads to start a video.",
+      "Groups phone management and ad skipping."
+    ],
+    [
+      "220-249",
+      "I watch a YouTube documentary about the physics and history of Boeing 929 hydrofoils.",
+      "Groups continuous viewing of a documentary video."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,39 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group continuous actions by the specific squash mini-game or rule being played, as each new rule defines a distinct immediate task with specific constraints.",
+  "events": [
+    [
+      "1250-1291",
+      "I play a restricted-area squash game with my partner.",
+      "Plays a specific rule variant before introducing a new one."
+    ],
+    [
+      "1292-1342",
+      "I play squash with my partner using single and double bounce commands.",
+      "Introduces and plays a new bounce-command rule."
+    ],
+    [
+      "1343-1406",
+      "I play squash with my partner using up, middle, and down directional commands.",
+      "Introduces and plays a new directional command rule."
+    ],
+    [
+      "1407-1491",
+      "I play an Uno-style squash game with my partner using sequence reversal commands.",
+      "Introduces and plays a new Uno-style reversal rule."
+    ],
+    [
+      "1492-1499",
+      "I prepare to play a simultaneous two-ball squash game with my partner.",
+      "Suggests and sets up a new two-ball game."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

@@ -1,0 +1,215 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group Figma inspection, Doubao AI image generation and prompt refinements, and file downloads into immediate tasks based on application focus and specific prompt iterations. Group roommate interactions, meal preparation, and conversation into distinct immediate tasks, capturing interruptions like checking WeChat and incidental object handling.",
+  "events": [
+    [
+      "500-505",
+      "I inspect an action sequence diagram in Figma.",
+      "Focus on Figma diagram"
+    ],
+    [
+      "506-509",
+      "I review a generated refrigerator image and its prompt in Doubao.",
+      "Examines initial Doubao generation"
+    ],
+    [
+      "510-515",
+      "I submit an edited image prompt in Doubao AI.",
+      "Edits and submits prompt"
+    ],
+    [
+      "516-522",
+      "I examine generated Snoopy illustrations and Doubao's reply.",
+      "Reviews Snoopy generation"
+    ],
+    [
+      "523",
+      "I browse Snoopy reference tabs across Google, Pinterest, and Amazon.",
+      "Switches to external references"
+    ],
+    [
+      "524-536",
+      "I examine Doubao cartoon fridge illustrations and recommendations.",
+      "Returns to Doubao to examine illustrations"
+    ],
+    [
+      "537-543",
+      "I inspect a downloaded cartoon fridge illustration.",
+      "Downloads and checks image"
+    ],
+    [
+      "544-548",
+      "I examine fridge illustration details in Doubao.",
+      "Scans details in Doubao"
+    ],
+    [
+      "549-551",
+      "I review an action log and embedded note image in Apple Notes.",
+      "Checks Apple Notes"
+    ],
+    [
+      "552-561",
+      "I examine generated Snoopy refrigerator images in Doubao.",
+      "Compares generated Snoopy images"
+    ],
+    [
+      "562",
+      "I download the Snoopy refrigerator image.",
+      "Downloads specific image"
+    ],
+    [
+      "563-567",
+      "I submit a revised Snoopy-style POV prompt in Doubao.",
+      "Revises and submits prompt"
+    ],
+    [
+      "568-579",
+      "I examine Doubao's response and generated Snoopy POV refrigerator images.",
+      "Examines POV images"
+    ],
+    [
+      "580-584",
+      "I submit prompt instructions for a Snoopy perspective in Doubao.",
+      "Sends refined perspective prompt"
+    ],
+    [
+      "585-588",
+      "I view generated Snoopy refrigerator POV images in Doubao.",
+      "Views new POV images"
+    ],
+    [
+      "589",
+      "I view an SVG interaction flowchart.",
+      "Views flowchart"
+    ],
+    [
+      "590-595",
+      "I select the Seedream 4.5 model in Doubao.",
+      "Changes model settings"
+    ],
+    [
+      "596-604",
+      "I submit image generation instructions with dialogue context from Apple Notes in Doubao.",
+      "Submits detailed contextual prompt"
+    ],
+    [
+      "605-609",
+      "I review generated Snoopy fridge POV illustrations and Doubao's recommendations.",
+      "Reviews new generation"
+    ],
+    [
+      "610-614",
+      "I submit a revised image prompt in Doubao.",
+      "Submits another prompt revision"
+    ],
+    [
+      "615-622",
+      "I inspect generated Snoopy refrigerator illustrations in Doubao.",
+      "Inspects resulting illustrations"
+    ],
+    [
+      "623-628",
+      "I download the generated refrigerator illustrations.",
+      "Downloads original images"
+    ],
+    [
+      "629-633",
+      "I submit a new prompt to Doubao.",
+      "Submits prompt while monitoring generation"
+    ],
+    [
+      "634-638",
+      "I check WeChat messages from my dad regarding a car purchase.",
+      "Checks phone messages"
+    ],
+    [
+      "639-654",
+      "I accept a pot of noodles from my roommate.",
+      "Interacts with roommate delivering food"
+    ],
+    [
+      "655",
+      "I look at a book titled '理论讲练'.",
+      "Glances at a book"
+    ],
+    [
+      "656-658",
+      "I watch my roommate adjust a bed desk.",
+      "Observes roommate setting up desk"
+    ],
+    [
+      "659-664",
+      "I converse with my roommate about the food.",
+      "Chats with roommate"
+    ],
+    [
+      "665-672",
+      "I remove my earplugs after a misunderstanding with my roommate.",
+      "Removes earplugs to hear better"
+    ],
+    [
+      "673-675",
+      "I browse QQ Music.",
+      "Browses music app"
+    ],
+    [
+      "676-688",
+      "I bring the noodle pot to my bed.",
+      "Moves food to bed"
+    ],
+    [
+      "689-691",
+      "I move a side table.",
+      "Moves side table out of the way"
+    ],
+    [
+      "692-702",
+      "I mix the noodles in my pot.",
+      "Mixes food and chats"
+    ],
+    [
+      "703-711",
+      "I place the cooking pot on a rolling utility cart.",
+      "Repositions the pot onto a cart"
+    ],
+    [
+      "712-732",
+      "I stir the food in the noodle pot.",
+      "Sifts and stirs the food"
+    ],
+    [
+      "733-734",
+      "I pick up a plaid shirt.",
+      "Grabs a shirt"
+    ],
+    [
+      "735-740",
+      "I stir noodles in the pot.",
+      "Stirs noodles"
+    ],
+    [
+      "741-745",
+      "I discuss thesis writing with my roommate.",
+      "Discusses roommate's thesis"
+    ],
+    [
+      "746-749",
+      "I stir noodles in the pot.",
+      "Resumes stirring noodles"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [
+      634,
+      639
+    ],
+    "boundary_cautions": [
+      "596-604: Merged Apple Notes context gathering with Doubao prompt submission as they serve a single unified objective.",
+      "735-749: Separated continuous noodle stirring into segments interrupted by a thesis discussion with the roommate."
+    ]
+  }
+}
+```

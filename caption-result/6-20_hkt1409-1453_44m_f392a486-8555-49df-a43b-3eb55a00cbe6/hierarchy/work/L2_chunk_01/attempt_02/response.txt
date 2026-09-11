@@ -1,0 +1,106 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group consecutive actions into immediate tasks focused on a single unified objective. Preserve the primary digital workspaces, conversation topics, and physical objects. Merge short incidental distractions (such as brief notifications) into the ongoing primary task.",
+  "events": [
+    [
+      "0-3",
+      "I review the Claude Code version comparison and eval_scene_v3.svg diagram.",
+      "Focus shifts to typing layout instructions in the prompt."
+    ],
+    [
+      "4-19",
+      "I type figure layout instructions in Claude Code and review the SVG preview.",
+      "Transition from initial layout commands to evaluating predicted nodes."
+    ],
+    [
+      "20-37",
+      "I compare action nodes in the SVG diagram and type modification feedback into Claude Code.",
+      "Focus shifts to prompting a sub-agent for video screenshots."
+    ],
+    [
+      "38-45",
+      "I instruct Claude Code to find video screenshots and review the action-prediction diagram.",
+      "Task is paused when the roommate proposes travel dates."
+    ],
+    [
+      "46-52",
+      "I converse with my roommate about proposed travel dates for the end of the month.",
+      "Shift from listening to checking the calendar to verify the dates."
+    ],
+    [
+      "53-58",
+      "I check my iPhone calendar and confirm the travel dates with my roommate.",
+      "Shift from dates to viewing the proposed resort photos."
+    ],
+    [
+      "59-69",
+      "I view Weizhou Island resort photos on my roommate's phone and discuss the room amenities.",
+      "Topic shifts from the hotel amenities to researching snorkeling activities."
+    ],
+    [
+      "70-86",
+      "I discuss snorkeling with my roommate and watch Weizhou Island diving guide videos on Xiaohongshu.",
+      "Task ends as I turn my attention to reading Dad's WeChat messages."
+    ],
+    [
+      "87-98",
+      "I read a car quotation spreadsheet from Dad on WeChat and send a reply.",
+      "Transition from the phone conversation back to working on the laptop."
+    ],
+    [
+      "99-110",
+      "I type on my laptop keyboard and monitor streamed evaluation text from Claude Code.",
+      "Focus shifts to examining a document and complaining about the weather."
+    ],
+    [
+      "111-129",
+      "I examine a Feishu document and design reference images on my laptop while complaining to my roommate about the rainy weather.",
+      "Focus shifts to observing ChatGPT's reasoning process."
+    ],
+    [
+      "130-143",
+      "I observe ChatGPT searching and reasoning about Apple-style design references.",
+      "Shift from ChatGPT reasoning to reading the Claude Code prompt."
+    ],
+    [
+      "144-151",
+      "I read the Claude Code prompt for Apple-style figures and review the provided reference images.",
+      "Transition to broadly browsing external slide galleries."
+    ],
+    [
+      "152-188",
+      "I browse Apple Bento Slides and WWDC summary graphics as design references.",
+      "Task ends as I switch back to VS Code to review updates."
+    ],
+    [
+      "189-215",
+      "I review Claude Code diagram iteration updates and model evaluation notes in VS Code.",
+      "Shift from VS Code to opening Figma in Chrome."
+    ],
+    [
+      "216-227",
+      "I open Figma in Google Chrome and review the design canvas layout.",
+      "Task is paused to perform a physical action."
+    ],
+    [
+      "228-237",
+      "I retrieve a pair of white socks from the cabinet and put them on.",
+      "Return to the digital workspace after putting on socks."
+    ],
+    [
+      "238-249",
+      "I inspect flowchart nodes and vector properties in the Figma design canvas.",
+      "End of provided evidence."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": [
+      "Items 60-64 contain a brief glance at Dad's WeChat messages about car prices, but they are fully embedded within the Weizhou Island resort conversation and thus abstracted into that overarching event."
+    ]
+  }
+}
+```

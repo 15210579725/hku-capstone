@@ -1,0 +1,29 @@
+```json
+{
+  "target_level": "L4",
+  "plan": "Group the initial scooter commute to the plaza, the subsequent sequence of purchasing and eating street food, and the final scooter commute home into three broad goal-oriented phases.",
+  "events": [
+    [
+      "0-3",
+      "I travel by electric scooter from the office park to a commercial pedestrian walkway to find food.",
+      "Arrival at the commercial walkway marks the transition from the initial commute to the dining phase."
+    ],
+    [
+      "4-7",
+      "I dine on various street snacks from stalls along a commercial walkway.",
+      "Checking the bike rental app and preparing to ride away marks the end of the food acquisition and dining phase."
+    ],
+    [
+      "8-10",
+      "I return to my apartment using an electric scooter.",
+      "Entering the apartment and concluding the journey ends the homeward commute phase."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

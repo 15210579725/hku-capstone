@@ -1,0 +1,496 @@
+[
+  {
+    "id": 0,
+    "start": 45263,
+    "end": 45280,
+    "text": "I review the Claude Code terminal output.",
+    "refs": [
+      0,
+      1
+    ],
+    "boundary_reason": "Session review concludes to unplug the device.",
+    "origin_chunk": 1
+  },
+  {
+    "id": 1,
+    "start": 45281,
+    "end": 45291,
+    "text": "I pack up my MacBook.",
+    "refs": [
+      2,
+      3,
+      4
+    ],
+    "boundary_reason": "Packing task completes when picking up the laptop.",
+    "origin_chunk": 1
+  },
+  {
+    "id": 2,
+    "start": 45292,
+    "end": 45300,
+    "text": "I walk to desk 11.",
+    "refs": [
+      5,
+      6,
+      7
+    ],
+    "boundary_reason": "Transit ends upon reaching the desk.",
+    "origin_chunk": 1
+  },
+  {
+    "id": 3,
+    "start": 45300,
+    "end": 45322,
+    "text": "I discuss the SFT distribution visualization and model usage with a colleague.",
+    "refs": [
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "boundary_reason": "Conversation concludes before walking away.",
+    "origin_chunk": 1
+  },
+  {
+    "id": 4,
+    "start": 45323,
+    "end": 45345,
+    "text": "I walk to the pantry drink station with my water bottle.",
+    "refs": [
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "boundary_reason": "Transit ends at the drink station.",
+    "origin_chunk": 1
+  },
+  {
+    "id": 5,
+    "start": 45346,
+    "end": 45356,
+    "text": "I collect my glass jar from the water dispenser.",
+    "refs": [
+      18,
+      19
+    ],
+    "boundary_reason": "Object retrieval completes.",
+    "origin_chunk": 1
+  },
+  {
+    "id": 6,
+    "start": 45357,
+    "end": 45382,
+    "text": "I walk to desk 19 in the open office.",
+    "refs": [
+      20,
+      21,
+      22,
+      23
+    ],
+    "boundary_reason": "Transit ends upon approaching the desk.",
+    "origin_chunk": 1
+  },
+  {
+    "id": 7,
+    "start": 45383,
+    "end": 45400,
+    "text": "I apply OFF! mosquito repellent to my leg.",
+    "refs": [
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "boundary_reason": "Repellent application completes.",
+    "origin_chunk": 1
+  },
+  {
+    "id": 8,
+    "start": 45400,
+    "end": 45412,
+    "text": "I hold my laptop and survey the office before leaving.",
+    "refs": [
+      29,
+      30,
+      31,
+      32
+    ],
+    "boundary_reason": "Looking around concludes before moving.",
+    "origin_chunk": 1
+  },
+  {
+    "id": 9,
+    "start": 45413,
+    "end": 45424,
+    "text": "I walk to the elevator call panel.",
+    "refs": [
+      33,
+      34,
+      35,
+      36
+    ],
+    "boundary_reason": "Transit ends at the elevator.",
+    "origin_chunk": 1
+  },
+  {
+    "id": 10,
+    "start": 45425,
+    "end": 45435,
+    "text": "I wait for the elevator.",
+    "refs": [
+      37,
+      38,
+      39
+    ],
+    "boundary_reason": "Waiting ends when entering the elevator.",
+    "origin_chunk": 1
+  },
+  {
+    "id": 11,
+    "start": 45436,
+    "end": 45443,
+    "text": "I enter and operate the elevator.",
+    "refs": [
+      40,
+      41,
+      42
+    ],
+    "boundary_reason": "Operation task completes before waiting inside.",
+    "origin_chunk": 1
+  },
+  {
+    "id": 12,
+    "start": 45443,
+    "end": 45473,
+    "text": "I read the elevator notices while riding to the lobby.",
+    "refs": [
+      43,
+      44,
+      45,
+      46,
+      47
+    ],
+    "boundary_reason": "Ride ends when the doors open.",
+    "origin_chunk": 1
+  },
+  {
+    "id": 13,
+    "start": 45473,
+    "end": 45490,
+    "text": "I exit the turnstiles with staff assistance.",
+    "refs": [
+      48,
+      49,
+      50,
+      51
+    ],
+    "boundary_reason": "Turnstile navigation completes.",
+    "origin_chunk": 1
+  },
+  {
+    "id": 14,
+    "start": 45490,
+    "end": 45511,
+    "text": "I walk out the sliding glass doors to the street.",
+    "refs": [
+      52,
+      53,
+      54,
+      55,
+      56,
+      57
+    ],
+    "boundary_reason": "Building exit completes.",
+    "origin_chunk": 1
+  },
+  {
+    "id": 15,
+    "start": 45511,
+    "end": 45532,
+    "text": "I walk down the campus road toward the plaza.",
+    "refs": [
+      58,
+      59,
+      60,
+      61,
+      62
+    ],
+    "boundary_reason": "Path segment ends.",
+    "origin_chunk": 1
+  },
+  {
+    "id": 16,
+    "start": 45533,
+    "end": 45579,
+    "text": "I walk along the pedestrian pathway.",
+    "refs": [
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71
+    ],
+    "boundary_reason": "Path segment ends.",
+    "origin_chunk": 1
+  },
+  {
+    "id": 17,
+    "start": 45580,
+    "end": 45634,
+    "text": "I walk along the curving path toward the gate.",
+    "refs": [
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80
+    ],
+    "boundary_reason": "Path segment ends.",
+    "origin_chunk": 1
+  },
+  {
+    "id": 18,
+    "start": 45635,
+    "end": 45650,
+    "text": "I remark on the wind and walk toward the driveway.",
+    "refs": [
+      81,
+      82,
+      83
+    ],
+    "boundary_reason": "Transit interrupts to use the phone.",
+    "origin_chunk": 1
+  },
+  {
+    "id": 19,
+    "start": 45651,
+    "end": 45690,
+    "text": "I chat with babe on WeChat about a noodle photo.",
+    "refs": [
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91
+    ],
+    "boundary_reason": "Phone interaction concludes.",
+    "origin_chunk": 1
+  },
+  {
+    "id": 20,
+    "start": 45691,
+    "end": 45716,
+    "text": "I walk to the building entrance plaza.",
+    "refs": [
+      92,
+      93,
+      94,
+      95,
+      96
+    ],
+    "boundary_reason": "Transit ends at the building entrance.",
+    "origin_chunk": 1
+  },
+  {
+    "id": 21,
+    "start": 45716,
+    "end": 45746,
+    "text": "I climb the lobby spiral staircase.",
+    "refs": [
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104
+    ],
+    "boundary_reason": "Ascent completes.",
+    "origin_chunk": 1
+  },
+  {
+    "id": 22,
+    "start": 45747,
+    "end": 45767,
+    "text": "I walk through the upper corridor to the glass doors.",
+    "refs": [
+      105,
+      106,
+      107
+    ],
+    "boundary_reason": "Corridor transit ends.",
+    "origin_chunk": 1
+  },
+  {
+    "id": 23,
+    "start": 45768,
+    "end": 45812,
+    "text": "I walk through the office lounge area.",
+    "refs": [
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117
+    ],
+    "boundary_reason": "Lounge navigation completes upon finding a spot.",
+    "origin_chunk": 1
+  },
+  {
+    "id": 24,
+    "start": 45813,
+    "end": 45859,
+    "text": "I set up my MacBook and review the dataset evaluation results.",
+    "refs": [
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124
+    ],
+    "boundary_reason": "Setup and initial review complete before typing.",
+    "origin_chunk": 1
+  },
+  {
+    "id": 25,
+    "start": 45860,
+    "end": 45935,
+    "text": "I formulate and submit a prompt in Claude Code to test the model using existing data.",
+    "refs": [
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137
+    ],
+    "boundary_reason": "Prompt submission completes.",
+    "origin_chunk": 1
+  },
+  {
+    "id": 26,
+    "start": 45936,
+    "end": 45960,
+    "text": "I review the code logic and a Feishu document on data accuracy.",
+    "refs": [
+      138,
+      139,
+      140
+    ],
+    "boundary_reason": "Review completes before switching contexts.",
+    "origin_chunk": 1
+  },
+  {
+    "id": 27,
+    "start": 45961,
+    "end": 46012,
+    "text": "I navigate the emotion-action predict directories in the terminal.",
+    "refs": [
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149
+    ],
+    "boundary_reason": "Directory navigation completes.",
+    "origin_chunk": 1
+  },
+  {
+    "id": 28,
+    "start": 46013,
+    "end": 46040,
+    "text": "I navigate to the fine-tune directory and launch Claude Code.",
+    "refs": [
+      150,
+      151,
+      152,
+      153
+    ],
+    "boundary_reason": "Launch sequence completes.",
+    "origin_chunk": 1
+  },
+  {
+    "id": 29,
+    "start": 46041,
+    "end": 46063,
+    "text": "I review the dataset sample cases and completion summary.",
+    "refs": [
+      154,
+      155,
+      156,
+      157
+    ],
+    "boundary_reason": "Review completes before switching apps.",
+    "origin_chunk": 1
+  },
+  {
+    "id": 30,
+    "start": 46064,
+    "end": 46105,
+    "text": "I inspect the settings menus and limits in the Claude application.",
+    "refs": [
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170
+    ],
+    "boundary_reason": "Settings review completes.",
+    "origin_chunk": 1
+  },
+  {
+    "id": 31,
+    "start": 46106,
+    "end": 46114,
+    "text": "I monitor the Claude Code evaluation logs.",
+    "refs": [
+      171,
+      172,
+      173
+    ],
+    "boundary_reason": "Activity continues.",
+    "origin_chunk": 1
+  }
+]

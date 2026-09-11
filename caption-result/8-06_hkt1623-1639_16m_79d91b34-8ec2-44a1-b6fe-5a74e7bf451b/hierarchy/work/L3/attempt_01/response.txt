@@ -1,0 +1,54 @@
+```json
+{
+  "target_level": "L3",
+  "plan": "Group L2 immediate tasks into coherent episodes based on location shifts and overarching goals, such as fetching a drink, working at a workstation, and delivering a presentation. Incidental actions during transit or work are abstracted into the primary episode.",
+  "events": [
+    [
+      "0",
+      "I observe the outside view from the atrium lounge windows.",
+      "Standalone observation activity prior to moving to the office"
+    ],
+    [
+      "1-2",
+      "I discuss a laptop repair with a colleague in the open office.",
+      "Groups corridor transit and the subsequent office conversation"
+    ],
+    [
+      "3-6",
+      "I fetch water from the pantry.",
+      "Unifies the announcement, transit, water collection, and incidental kitchen inspection"
+    ],
+    [
+      "7-9",
+      "I navigate to workstation 13 in room C909.",
+      "Groups transit from the breakroom through the stairwell to the workstation"
+    ],
+    [
+      "10-12",
+      "I review server compute metrics and model evaluation reports at my workstation.",
+      "Unifies related workstation computer tasks regarding models and resource quotas"
+    ],
+    [
+      "13-15",
+      "I relocate to conference room C514.",
+      "Groups transit to the conference room, abstracting the incidental terminal job launched en route"
+    ],
+    [
+      "16-17",
+      "I set up my laptop equipment for a screencast in the conference room.",
+      "Groups arrival setup and network connection tasks"
+    ],
+    [
+      "18-24",
+      "I conduct a presentation regarding multimodal model fine-tuning and evaluation limitations.",
+      "Unifies the continuous sequence of presenting research, discussing visual tokens, and reviewing metrics"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

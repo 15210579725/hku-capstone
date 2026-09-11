@@ -1,0 +1,99 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group immediate tasks based on shared objectives and targets, such as reading news articles, replacing the phone case, walking to the desk, and performing specific steps in the AutoDL and ChatGPT workflow (e.g., configuring instances, writing prompts, requesting storage expansion). Abstract incidental UI interactions, phone adjustments, and reading individual lines of text into the broader unified action.",
+  "events": [
+    [
+      "250-260",
+      "I chat on WeChat about avoiding my workstation.",
+      "Switches from chatting to browsing tech news articles."
+    ],
+    [
+      "261-306",
+      "I read tech news articles on my phone.",
+      "Finishes reading specific articles and returns to the general feed."
+    ],
+    [
+      "307-310",
+      "I browse the WeChat Official Accounts feed.",
+      "Closes WeChat and locks the phone."
+    ],
+    [
+      "311-334",
+      "I replace my iPhone case.",
+      "Finishes case replacement and unlocks the phone for use."
+    ],
+    [
+      "335-341",
+      "I review a task prompt in ChatGPT on my phone.",
+      "Stands up to relocate."
+    ],
+    [
+      "342-346",
+      "I walk to my office desk.",
+      "Arrives at the desk and begins working on the computer."
+    ],
+    [
+      "347-364",
+      "I start an AutoDL GPU container instance.",
+      "Instance started; switches tabs to review ChatGPT instructions."
+    ],
+    [
+      "365-381",
+      "I read ChatGPT instructions for AutoDL data migration.",
+      "Finishes reviewing instructions and checks the AutoDL console."
+    ],
+    [
+      "382-382",
+      "I check AutoDL container instance statuses.",
+      "Switches focus to searching for Baidu Netdisk."
+    ],
+    [
+      "383-393",
+      "I browse files on Baidu Netdisk.",
+      "Leaves Baidu Netdisk to return to AutoDL/ChatGPT."
+    ],
+    [
+      "394-401",
+      "I start another AutoDL instance.",
+      "Instance startup initiated; switches to ChatGPT to write a prompt."
+    ],
+    [
+      "402-430",
+      "I draft a ChatGPT prompt for an AutoDL parallel download test.",
+      "Submits the prompt and switches to the AutoDL file storage console."
+    ],
+    [
+      "431-439",
+      "I review AutoDL storage billing rules and locate the support QR code.",
+      "Picks up phone to scan the QR code and contact support."
+    ],
+    [
+      "440-459",
+      "I request an AutoDL storage expansion via WeChat support.",
+      "Finishes support chat and navigates back to ChatGPT on the desktop."
+    ],
+    [
+      "460-476",
+      "I monitor ChatGPT's data masking and file inspection logs.",
+      "Switches to the AutoDL tab to check account settings."
+    ],
+    [
+      "477-483",
+      "I inspect AutoDL account security and developer token settings.",
+      "Stops interacting with the computer to look around."
+    ],
+    [
+      "484-499",
+      "I stare at items on my desk.",
+      "End of recording."
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```

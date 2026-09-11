@@ -1,0 +1,69 @@
+```json
+{
+  "target_level": "L2",
+  "plan": "Group sequential L1 actions into immediate tasks, bounded by distinct shifts in activity such as transitioning between reviewing guidelines, evaluating test results, resting, using the phone, and pursuing specific debugging objectives in Claude Code.",
+  "events": [
+    [
+      "0-6",
+      "I review the Claude Code prompt evaluation analysis and test results.",
+      "Focus shifts from test results to reading annotation rules"
+    ],
+    [
+      "7-20",
+      "I read the prompt rules and annotation guidelines in VS Code.",
+      "User verbally declares intention to sleep and begins resting"
+    ],
+    [
+      "21-26",
+      "I rest in the empty classroom.",
+      "User resumes reading the data annotation guidelines"
+    ],
+    [
+      "27-37",
+      "I review the data annotation guidelines.",
+      "User stops reading and returns to resting in the empty classroom"
+    ],
+    [
+      "38-63",
+      "I sit resting and observing the empty lecture hall.",
+      "User resumes reading rule guidelines on laptop"
+    ],
+    [
+      "64-80",
+      "I read the AI annotation guidelines and prompt evaluation rules on my laptop.",
+      "Focus shifts from static rules to reviewing prompt test results and summaries"
+    ],
+    [
+      "81-93",
+      "I review the Claude Code prompt test results and instruct it to adjust the L4 and L5 event summaries.",
+      "User switches from laptop tasks to checking WeChat on iPhone"
+    ],
+    [
+      "94-120",
+      "I use WeChat on my iPhone to read group messages and an article about Einstein and Newton.",
+      "User places phone down and begins reviewing logs on laptop"
+    ],
+    [
+      "121-166",
+      "I use Claude Code to debug flatlines and fix a plotting bug in the evaluation accuracy curves.",
+      "User shifts from debugging curve plots to reviewing the events.txt log file"
+    ],
+    [
+      "167-194",
+      "I review timestamped entries in the events.txt log file.",
+      "User initiates a new data diagnostic query in Claude Code"
+    ],
+    [
+      "195-249",
+      "I use Claude Code to inspect the dataset for missing time intervals and analyze the resulting data quality report.",
+      "End of input batch"
+    ]
+  ],
+  "audit": {
+    "complete": true,
+    "uncertainties": [],
+    "major_triggers": [],
+    "boundary_cautions": []
+  }
+}
+```
