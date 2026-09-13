@@ -47,14 +47,19 @@ pip install -r requirements.txt
 
 ### 2. 配置 API
 
-`config.json` 已预填可用的 API key，**无需额外配置即可直接运行**。
+`config.json` 中的 `embedding.api_key` 和 `judge.api_key` 均为空，需要使用自己的 API key。
 
-> **⚠️ 额度说明**
-> - 预填的 key 使用的是项目组的限量额度，可能会用完。
-> - 如果遇到 `401 Unauthorized` 或额度耗尽的报错，需要自行注册并充值：
->   - **Embedding**: 访问 https://cloud.siliconflow.com 注册，免费额度通常足够。
->   - **LLM Judge**: 访问 https://www.right.codes 注册并充值（付费）。
-> - 替换为自己的 key 后即可继续使用。
+建议将配置复制到仓库外，填入所需的 key，再通过 `--config` 指定该文件：
+
+```bash
+mkdir -p ~/.config/hku-capstone
+cp config.json ~/.config/hku-capstone/eval-kit.json
+chmod 600 ~/.config/hku-capstone/eval-kit.json
+# 编辑该文件，填写 embedding.api_key 和 judge.api_key
+python evaluate.py -i predictions.jsonl --config ~/.config/hku-capstone/eval-kit.json -m both
+```
+
+不要将填写了真实密钥的配置提交到 Git。
 
 > **💡 直接调用 API**
 > 拿到这两个 API 后，除了评测，你也可以直接调用它们做其他事：
@@ -118,13 +123,13 @@ python evaluate.py -i predictions.jsonl --dry-run
 
 ### LLM Judge 平台
 
-默认模型为 **Gemini-3.7-flash**（在我们的 350 点基准上排序准确率最高）。通过 **RightCode 中转站**访问，**付费**。config.json 已预填可用 key。
+默认模型为 **Gemini-3.7-flash**（在我们的 350 点基准上排序准确率最高）。通过 **RightCode 中转站**访问，**付费**。使用前需自行配置 `judge.api_key`。
 
 | 中转站 | 说明 | config 配置 |
 |--------|------|------------|
 | **[RightCode](https://www.right.codes)** ★推荐 | 支持 Gemini / GPT / Claude 等多家模型 | base_url: `https://www.right.codes/gemini/v1`，model: `gemini-3.7-flash` |
 
-额度用完后，注册 RightCode 充值，在控制台获取新 API Key 替换 `config.json` 的 `judge.api_key`。
+在 RightCode 控制台获取自己的 API Key，填写到仓库外配置副本的 `judge.api_key`。
 
 **备选模型** (如不想用 RightCode):
 
