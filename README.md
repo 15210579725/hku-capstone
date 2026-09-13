@@ -104,3 +104,76 @@ python evaluate.py -i input.jsonl --dry-run      # 验证格式
 > **额度说明**：预填的 key 是项目组的限量额度，用完需自行注册充值。Embedding 在 [SiliconFlow](https://cloud.siliconflow.com) 注册（有免费额度），Judge 在 [RightCode](https://www.right.codes) 注册（付费）。这两个 API 兼容 OpenAI 接口，拿到后也可以直接调 embedding 或 LLM 做其他事。
 
 详见 [metric/eval_kit/README.md](metric/eval_kit/README.md)。
+
+---
+
+## predictions/ — NextMe 行为预测 Benchmark
+
+标准化的 1000 点行为预测 benchmark，覆盖 5 个粒度层级（L1-L5）× 528 条 Aria 眼镜录制。支持**跨录制（跨 VRS）预测**——上下文来自录制 A，预测目标跨越录制 B/C/D 的时间窗口。
+
+### 评分方法
+
+1. **Embedding**：Qwen3-Embedding-8B（4096 维）计算文本向量
+2. **Cosine Cost Matrix**：`cost[i][j] = 1 - cosine(gt_i, pred_j)`
+3. **Soft Edit Distance**：`score = 1 - SED / max(len_gt, len_pred)`
+4. **归一化**：`normalized = max(0, (model - random) / (1 - random))`，0 = 随机水平，1 = 完美
+
+### 快速开始
+
+```bash
+cd predictions
+pip install openai numpy
+
+# 1. 配置 embedding API（SiliconFlow，有免费额度）
+#    编辑 ~/.config/hku-capstone/eval_config.json，填入 api_key
+#    或复制 metric/eval_kit/config.json 作为模板
+
+# 2. 跑全量 benchmark（需要目标模型的 API key）
+python -m nextme_benchmark.run --model deepseek-v4-flash --k 3
+
+# 3. 快速测试（仅 5 点/层级）
+python -m nextme_benchmark.run --model deepseek-v4-flash --k 3 --max-points 5
+
+# 4. 对已有预测文件重新评分
+python -m nextme_benchmark.run --score-only results/benchmark_ds-v4-flash_k3.json
+```
+
+### CLI 参数
+
+| 参数 | 说明 | 默认值 |
+|------|------|--------|
+| `--model` | 模型名称 | `deepseek-v4-flash` |
+| `--api-key` | 模型 API key（或设 `DEEPSEEK_API_KEY` 环境变量） | — |
+| `--base-url` | API 端点 | `https://api.deepseek.com` |
+| `--k` | 预测步数 | `3`（可选 3 或 10） |
+| `--levels` | 评测层级 | `L1 L2 L3 L4 L5` |
+| `--max-points` | 每层最多评测点数 | `200`（全量） |
+| `--concurrency` | API 并发数 | `50` |
+| `--score-only` | 仅评分模式，传入预测 JSON | — |
+| `-o` | 输出文件路径 | 自动生成 |
+
+### Baseline 结果（DeepSeek ds-v4-flash）
+
+Normalized: **0 = 随机水平，1 = 完美预测**
+
+| Level | k=3 Norm | k=3 ±Std | k=10 Norm | k=10 ±Std |
+|-------|----------|----------|-----------|-----------|
+| L1 | 0.1456 | 0.1211 | 0.1166 | 0.0788 |
+| L2 | 0.1416 | 0.1081 | 0.1236 | 0.0721 |
+| L3 | **0.1517** | 0.1125 | 0.1141 | 0.0638 |
+| L4 | 0.1182 | 0.1136 | 0.0992 | 0.0579 |
+| L5 | 0.0788 | 0.0977 | 0.0520 | 0.0480 |
+| **ALL** | **0.1272** | 0.1140 | **0.1024** | 0.0701 |
+
+### 包结构
+
+```
+predictions/nextme_benchmark/
+├── __init__.py          # 包入口
+├── baselines.json       # 预计算随机基线 per (level, k)
+├── benchmark.json       # 1000 评测点（200/level × 5 levels）
+├── predictor.py         # BenchmarkPredictor — 跨 VRS prompt 构建 + LLM 调用
+├── prompt.txt           # 跨 VRS prompt 模板
+├── run.py               # CLI 入口（predict + score / score-only）
+└── scorer.py            # BenchmarkScorer — embedding → SED → 归一化
+```

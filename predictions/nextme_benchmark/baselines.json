@@ -1,0 +1,19 @@
+{
+  "L1_k3":  {"random_sed": 0.4174, "random_cosine": 0.4752},
+  "L1_k10": {"random_sed": 0.4173, "random_cosine": 0.4752},
+  "L2_k3":  {"random_sed": 0.3993, "random_cosine": 0.4470},
+  "L2_k10": {"random_sed": 0.3964, "random_cosine": 0.4470},
+  "L3_k3":  {"random_sed": 0.4000, "random_cosine": 0.4403},
+  "L3_k10": {"random_sed": 0.3916, "random_cosine": 0.4403},
+  "L4_k3":  {"random_sed": 0.4207, "random_cosine": 0.4486},
+  "L4_k10": {"random_sed": 0.4079, "random_cosine": 0.4486},
+  "L5_k3":  {"random_sed": 0.4563, "random_cosine": 0.4603},
+  "L5_k10": {"random_sed": 0.4386, "random_cosine": 0.4603},
+  "_meta": {
+    "description": "Random baselines for NextMe behavior prediction benchmark normalization",
+    "random_sed": "SED score from random predictions (N=20 per point), computed on single-VRS 4-22 recording",
+    "random_cosine": "Mean pairwise cosine similarity of 1000 random event pairs from all NextMe recordings",
+    "embedding_model": "Qwen/Qwen3-Embedding-8B (4096 dim, SiliconFlow API)",
+    "normalization_formula": "normalized = max(0, (model_score - random_sed) / (1 - random_sed))"
+  }
+}
