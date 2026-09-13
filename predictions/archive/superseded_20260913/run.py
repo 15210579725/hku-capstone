@@ -11,10 +11,17 @@ Score existing predictions:
     python -m nextme_benchmark.run --score-only predictions.json
 """
 
-import argparse, json, os, sys, time
+import argparse, json, os, re, sys, time
 from pathlib import Path
 
 import numpy as np
+
+
+def _strip_ts(t):
+    """Remove timestamp prefixes like [04-21 15:34:02 -> 04-21 15:34:05]."""
+    t = re.sub(r"^\[\d{2}-\d{2}\s+\d{2}:\d{2}:\d{2}\s*->\s*\d{2}-\d{2}\s+\d{2}:\d{2}:\d{2}\]\s*", "", t).strip()
+    t = re.sub(r"^\[\d{2}:\d{2}:\d{2}\s*->\s*\d{2}:\d{2}:\d{2}\]\s*", "", t).strip()
+    return t
 
 
 def main():
@@ -31,8 +38,8 @@ def main():
                         help="File containing API key (one line)")
 
     # Benchmark config
-    parser.add_argument("--k", type=int, default=3, choices=[3, 10],
-                        help="Prediction length (default: 3)")
+    parser.add_argument("--k", type=int, default=1, choices=[1, 3, 10],
+                        help="Prediction length (default: 1)")
     parser.add_argument("--levels", nargs="+", default=["L1", "L2", "L3", "L4", "L5"],
                         help="Levels to evaluate (default: all)")
     parser.add_argument("--max-points", type=int,
@@ -61,13 +68,25 @@ def main():
 
         samples = []
         for p in preds:
-            samples.append({
+            s = {
                 "id": p["id"],
                 "ground_truth": p["ground_truth"],
-                "prediction": p["prediction"],
                 "level": p["level"],
                 "k": p["k"],
-            })
+            }
+            if "all_candidates" in p:
+                all_preds = []
+                for cand in p["all_candidates"]:
+                    if "actions" in cand:
+                        acts = cand["actions"][:p["k"]]
+                        all_preds.append([_strip_ts(a) for a in acts])
+                if all_preds:
+                    s["all_predictions"] = all_preds
+                else:
+                    s["prediction"] = p["prediction"]
+            else:
+                s["prediction"] = p["prediction"]
+            samples.append(s)
 
         print(f"Scoring {len(samples)} predictions...")
         results = scorer.score_batch(samples)
@@ -126,12 +145,26 @@ def main():
         json.dump(predictions, f, indent=2, ensure_ascii=False)
     print(f"Predictions saved to {pred_file}")
 
-    # Score
-    print(f"\nScoring {len(predictions)} predictions...")
+    # Score (best-of-N when all_candidates available)
+    print(f"\nScoring {len(predictions)} predictions (best-of-N)...")
     scorer = BenchmarkScorer(args.eval_config, args.baselines)
-    samples = [{"id": p["id"], "ground_truth": p["ground_truth"],
-                "prediction": p["prediction"], "level": p["level"],
-                "k": p["k"]} for p in predictions]
+    samples = []
+    for p in predictions:
+        s = {"id": p["id"], "ground_truth": p["ground_truth"],
+             "level": p["level"], "k": p["k"]}
+        if "all_candidates" in p:
+            all_preds = []
+            for cand in p["all_candidates"]:
+                if "actions" in cand:
+                    acts = cand["actions"][:p["k"]]
+                    all_preds.append([_strip_ts(a) for a in acts])
+            if all_preds:
+                s["all_predictions"] = all_preds
+            else:
+                s["prediction"] = p["prediction"]
+        else:
+            s["prediction"] = p["prediction"]
+        samples.append(s)
     scores = scorer.score_batch(samples)
     score_time = time.time() - t0 - pred_time
 

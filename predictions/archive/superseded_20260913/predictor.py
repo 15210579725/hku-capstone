@@ -171,11 +171,16 @@ class BenchmarkPredictor:
         pr_raw = best["actions"][:k]
         pr_text = [_strip_ts(a) for a in pr_raw]
 
+        gt_key = f"gt_events_k{k}"
+        if gt_key not in point:
+            gt_key = "gt_events_k3"
+        gt = point[gt_key][:k]
+
         return {
             "id": point["id"],
             "level": level,
             "k": k,
-            "ground_truth": point[f"gt_events_k{k}"][:k],
+            "ground_truth": gt,
             "prediction": pr_text,
             "prediction_raw": pr_raw,
             "probability": best.get("probability"),
@@ -203,7 +208,10 @@ class BenchmarkPredictor:
             if max_points:
                 points = points[:max_points]
             for pt in points:
-                gt = pt.get(f"gt_events_k{k}", [])
+                gt_key = f"gt_events_k{k}"
+                if gt_key not in pt:
+                    gt_key = "gt_events_k3"
+                gt = pt.get(gt_key, [])
                 if len(gt) < k:
                     continue
                 tasks.append((pt, lv, k))

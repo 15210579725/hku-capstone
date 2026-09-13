@@ -1,0 +1,195 @@
+{
+  "model": "deepseek-v4-flash",
+  "scoring": "best-of-3",
+  "benchmark": "NextAct 1500 (NextMe 200/level + EgoLife 100/level, L1-L5)",
+  "coverage": {
+    "10": "1455/1500",
+    "1": "1493/1500"
+  },
+  "summaries": {
+    "10": {
+      "nextme|L1": {
+        "n": 200,
+        "normalized": 0.155,
+        "std": 0.0809
+      },
+      "nextme|ALL": {
+        "n": 955,
+        "normalized": 0.1428,
+        "std": 0.0689
+      },
+      "ALL|L1": {
+        "n": 300,
+        "normalized": 0.1837,
+        "std": 0.0848
+      },
+      "ALL|ALL": {
+        "n": 1455,
+        "normalized": 0.1755,
+        "std": 0.0818
+      },
+      "nextme|L2": {
+        "n": 200,
+        "normalized": 0.1537,
+        "std": 0.0699
+      },
+      "ALL|L2": {
+        "n": 300,
+        "normalized": 0.1891,
+        "std": 0.0851
+      },
+      "nextme|L3": {
+        "n": 194,
+        "normalized": 0.1572,
+        "std": 0.0643
+      },
+      "ALL|L3": {
+        "n": 294,
+        "normalized": 0.1946,
+        "std": 0.0816
+      },
+      "nextme|L4": {
+        "n": 187,
+        "normalized": 0.1368,
+        "std": 0.0539
+      },
+      "ALL|L4": {
+        "n": 287,
+        "normalized": 0.1707,
+        "std": 0.0725
+      },
+      "nextme|L5": {
+        "n": 174,
+        "normalized": 0.1064,
+        "std": 0.0582
+      },
+      "ALL|L5": {
+        "n": 274,
+        "normalized": 0.1362,
+        "std": 0.0704
+      },
+      "egolife|L2": {
+        "n": 100,
+        "normalized": 0.2599,
+        "std": 0.0668
+      },
+      "egolife|ALL": {
+        "n": 500,
+        "normalized": 0.2381,
+        "std": 0.0668
+      },
+      "egolife|L3": {
+        "n": 100,
+        "normalized": 0.2671,
+        "std": 0.06
+      },
+      "egolife|L4": {
+        "n": 100,
+        "normalized": 0.2341,
+        "std": 0.0592
+      },
+      "egolife|L5": {
+        "n": 100,
+        "normalized": 0.1882,
+        "std": 0.0589
+      },
+      "egolife|L1": {
+        "n": 100,
+        "normalized": 0.2412,
+        "std": 0.0597
+      }
+    },
+    "1": {
+      "nextme|L1": {
+        "n": 200,
+        "normalized": 0.2763,
+        "std": 0.2051
+      },
+      "nextme|ALL": {
+        "n": 994,
+        "normalized": 0.2997,
+        "std": 0.1965
+      },
+      "ALL|L1": {
+        "n": 300,
+        "normalized": 0.3154,
+        "std": 0.2115
+      },
+      "ALL|ALL": {
+        "n": 1493,
+        "normalized": 0.3329,
+        "std": 0.2071
+      },
+      "nextme|L2": {
+        "n": 200,
+        "normalized": 0.2682,
+        "std": 0.2016
+      },
+      "ALL|L2": {
+        "n": 299,
+        "normalized": 0.3114,
+        "std": 0.2095
+      },
+      "nextme|L3": {
+        "n": 198,
+        "normalized": 0.275,
+        "std": 0.1705
+      },
+      "ALL|L3": {
+        "n": 298,
+        "normalized": 0.3383,
+        "std": 0.2099
+      },
+      "nextme|L4": {
+        "n": 198,
+        "normalized": 0.3487,
+        "std": 0.189
+      },
+      "ALL|L4": {
+        "n": 298,
+        "normalized": 0.3564,
+        "std": 0.1913
+      },
+      "nextme|L5": {
+        "n": 198,
+        "normalized": 0.3307,
+        "std": 0.202
+      },
+      "ALL|L5": {
+        "n": 298,
+        "normalized": 0.3431,
+        "std": 0.2101
+      },
+      "egolife|L2": {
+        "n": 99,
+        "normalized": 0.3986,
+        "std": 0.1987
+      },
+      "egolife|ALL": {
+        "n": 499,
+        "normalized": 0.399,
+        "std": 0.2118
+      },
+      "egolife|L3": {
+        "n": 100,
+        "normalized": 0.4636,
+        "std": 0.2248
+      },
+      "egolife|L4": {
+        "n": 100,
+        "normalized": 0.3716,
+        "std": 0.1958
+      },
+      "egolife|L5": {
+        "n": 100,
+        "normalized": 0.3676,
+        "std": 0.2244
+      },
+      "egolife|L1": {
+        "n": 100,
+        "normalized": 0.3935,
+        "std": 0.2032
+      }
+    }
+  }
+}

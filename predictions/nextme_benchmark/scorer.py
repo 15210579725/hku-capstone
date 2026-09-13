@@ -108,11 +108,13 @@ class BenchmarkScorer:
     """Score predictions against ground truth with random-baseline normalization."""
 
     def __init__(self, config_path: Optional[str] = None,
-                 baselines_path: Optional[str] = None):
+                 baselines_path: Optional[str] = None,
+                 concurrency: Optional[int] = None,
+                 disk_cache: bool = True):
         cfg_path = Path(config_path) if config_path else _DEFAULT_EVAL_CONFIG
         self.config = load_config(cfg_path)
         self.emb_cfg = self.config.get("embedding", {})
-        self.concurrency = self.config.get("concurrency", 64)
+        self.concurrency = concurrency or self.config.get("concurrency", 64)
 
         bl_path = Path(baselines_path) if baselines_path else _BASELINES_FILE
         if bl_path.exists():
@@ -121,15 +123,33 @@ class BenchmarkScorer:
             self.baselines = {}
 
         self._emb_cache: Dict[str, np.ndarray] = {}
+        self._disk = None
+        if disk_cache:
+            sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+            from emb_cache import EmbeddingCache
+            self._disk = EmbeddingCache(model=self.emb_cfg.get("model", ""),
+                                        dim=self.emb_cfg.get("dimensions", 0))
 
     def _get_embeddings(self, texts: List[str]) -> np.ndarray:
-        """Embed with dedup cache."""
-        new_texts = [t for t in texts if t not in self._emb_cache]
-        if new_texts:
-            unique = list(dict.fromkeys(new_texts))
-            embs = embed_texts(unique, self.emb_cfg, self.concurrency)
-            for t, e in zip(unique, embs):
+        """Embed with in-memory + persistent disk cache."""
+        missing = [t for t in dict.fromkeys(texts) if t not in self._emb_cache]
+
+        if missing and self._disk is not None:
+            hits = self._disk.get_many(missing)
+            if hits:
+                norms = {t: v / max(float(np.linalg.norm(v)), 1e-10)
+                         for t, v in hits.items()}
+                self._emb_cache.update(norms)
+                print(f"  Embedding cache hit: {len(hits)}/{len(missing)}", flush=True)
+                missing = [t for t in missing if t not in self._emb_cache]
+
+        if missing:
+            embs = embed_texts(missing, self.emb_cfg, self.concurrency)
+            for t, e in zip(missing, embs):
                 self._emb_cache[t] = e
+            if self._disk is not None:
+                self._disk.put_many(zip(missing, embs))
+
         return np.array([self._emb_cache[t] for t in texts])
 
     def score_single(self, ground_truth: List[str], prediction: List[str],
@@ -178,20 +198,38 @@ class BenchmarkScorer:
             "random_baseline": rand_baseline,
         }
 
+    def score_best_of_n(self, ground_truth: List[str],
+                        candidates: List[List[str]], level: str,
+                        k: Optional[int] = None) -> dict:
+        """Score multiple candidate predictions, return the best (highest raw)."""
+        best = None
+        for pred in candidates:
+            r = self.score_single(ground_truth, pred, level, k)
+            if best is None or r["raw"] > best["raw"]:
+                best = r
+        if best is not None:
+            best["n_candidates"] = len(candidates)
+        return best
+
     def score_batch(self, samples: List[dict]) -> List[dict]:
         """
         Score a batch of samples.
 
         Each sample: {"ground_truth": [...], "prediction": [...], "level": "L3",
                       "k": 3, "id": "optional_id"}
+        If "all_predictions" (list of lists) is present, scores all and keeps
+        the best (best-of-N).
 
         Returns list of score dicts (same order), with "id" preserved.
         """
-        # Collect all texts for batch embedding
         all_texts = []
         for s in samples:
             all_texts.extend(s["ground_truth"])
-            all_texts.extend(s["prediction"])
+            if "all_predictions" in s:
+                for preds in s["all_predictions"]:
+                    all_texts.extend(preds)
+            else:
+                all_texts.extend(s["prediction"])
         all_texts = list(dict.fromkeys(all_texts))
 
         if all_texts:
@@ -199,9 +237,14 @@ class BenchmarkScorer:
 
         results = []
         for s in samples:
-            r = self.score_single(
-                s["ground_truth"], s["prediction"],
-                s["level"], s.get("k"))
+            if "all_predictions" in s and s["all_predictions"]:
+                r = self.score_best_of_n(
+                    s["ground_truth"], s["all_predictions"],
+                    s["level"], s.get("k"))
+            else:
+                r = self.score_single(
+                    s["ground_truth"], s["prediction"],
+                    s["level"], s.get("k"))
             if "id" in s:
                 r["id"] = s["id"]
             results.append(r)
